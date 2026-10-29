@@ -1,0 +1,17 @@
+{
+ "id": "2402.07747",
+ "title": "Optimal score estimation via empirical Bayes smoothing",
+ "authors": [
+  "Andre Wibisono",
+  "Yihong Wu",
+  "Kaylee Yingxi Yang"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 2,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "COLT 2024; added the new results on extending to beta-Holder scores with beta <= 1",
+ "abstract": "We study the problem of estimating the score function of an unknown probability distribution $ρ^*$ from $n$ independent and identically distributed observations in $d$ dimensions. Assuming that $ρ^*$ is subgaussian and has a Lipschitz-continuous score function $s^*$, we establish the optimal rate of $\\tilde Θ(n^{-\\frac{2}{d+4}})$ for this estimation problem under the loss function $\\|\\hat s - s^*\\|^2_{L^2(ρ^*)}$ that is commonly used in the score matching literature, highlighting the curse of dimensionality where sample complexity for accurate score estimation grows exponentially with the dimension $d$. Leveraging key insights in empirical Bayes theory as well as a new convergence rate of smoothed empirical distribution in Hellinger distance, we show that a regularized score estimator based on a Gaussian kernel attains this rate, shown optimal by a matching minimax lower bound. We also discuss extensions to estimating $β$-Hölder continuous scores with $β\\leq 1$, as well as the implication of our theory on the sample complexity of score-based generative models.",
+ "primary": "math.ST"
+}

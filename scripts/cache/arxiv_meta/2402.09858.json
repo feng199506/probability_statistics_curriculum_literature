@@ -1,0 +1,15 @@
+{
+ "id": "2402.09858",
+ "title": "An Approximation Based Theory of Linear Regression",
+ "authors": [
+  "Laurie Davies"
+ ],
+ "v1_date": "2024-02-15",
+ "latest_version": 1,
+ "latest_date": "2024-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The goal of this paper is to provide a theory linear regression based entirely on approximations. It will be argued that the standard linear regression model based theory whether frequentist or Bayesian has failed and that this failure is due to an 'assumed (revealed?) truth' (John Tukey) attitude to the models. This is reflected in the language of statistical inference which involves a concept of truth, for example efficiency, consistency and hypothesis testing. The motivation behind this paper was to remove the word `true' from the theory and practice of linear regression and to replace it by approximation. The approximations considered are the least squares approximations. An approximation is called valid if it contains no irrelevant covariates. This is operationalized using the concept of a Gaussian P-value which is the probability that pure Gaussian noise is better in term of least squares than the covariate. The precise definition given in the paper is intuitive and requires only four simple equations. Given this a valid approximation is one where all the Gaussian P-values are less than a threshold $p0$ specified by the statistician, in this paper with the default value 0.01. This approximations approach is not only much simpler it is overwhelmingly better than the standard model based approach. This will be demonstrated using six real data sets, four from high dimensional regression and two from vector autoregression. Both the simplicity and the superiority of Gaussian P-values derive from their universal exactness and validity. This is in complete contrast to standard F P-values which are valid only for carefully designed simulations. The paper contains excerpts from an unpublished paper by John Tukey entitled `Issues relevant to an honest account of data-based inference partially in the light of Laurie Davies's paper'.",
+ "primary": "stat.ME"
+}

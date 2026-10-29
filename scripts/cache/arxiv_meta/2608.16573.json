@@ -1,0 +1,17 @@
+{
+ "id": "2608.16573",
+ "title": "Bessel-Debiased Pseudo-Marginal MCMC for Generalised Bayesian Inference",
+ "authors": [
+  "Yingkai Lu",
+  "Jeong Eun Lee",
+  "Geoff K. Nicholls"
+ ],
+ "v1_date": "2026-08-17",
+ "latest_version": 2,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 11 figures",
+ "abstract": "Generalised Bayesian inference uses weights of the form $\\exp\\{-β_n\\ell_n(θ)\\}$ even when the loss is only estimated. Exponentiating an unbiased loss estimate changes the target, and when $β_n\\asymp n$ an ordinary Monte Carlo loss estimate with variance of order $M^{-1}$ requires a per-proposal budget $M$ of order $n^2$ to keep the leading log-weight variance bounded. We introduce Sign-Corrected Bessel Debiasing (SCBD), a signed pseudo-marginal method based on independent block estimates of the loss, and study its ordinary-MC and independently randomised quasi-Monte Carlo (RQMC) implementations. Under an i.i.d. Gaussian block model, a Bessel factor constructed from the block sample variance exactly removes the Gaussian exponential inflation despite the variance being unknown. For general non-Gaussian finite blocks, the method targets a posterior differing from the intended posterior by a parameter-dependent multiplicative factor. Under regularity conditions, the uncorrected and corrected ordinary-MC targets have total-variation errors of orders $β_n^2/M_n$ and $β_n^3/M_n^2$. If an RQMC block estimator has variance $\\mathcal O\\{B^{-α}(\\log B)^{d-1}\\}$, the corresponding errors are of orders $δ^{\\mathrm{RQ}}_{n,M_n}$ and $(δ^{\\mathrm{RQ}}_{n,M_n})^{3/2}$, where $δ^{\\mathrm{RQ}}_{n,M_n}=β_n^2M_n^{-α}{\\log(2+M_n)}^{d-1}$. The same variance rate gives a sufficient budget of order $n^{2/α}$, up to logarithmic factors, for bounded leading log-weight variance when $β_n\\asymp n$. The numerical examples show that favourable RQMC representations can inherit this budget scaling and that variance reduction and Bessel correction are complementary. Compared to existing exact corrections, Bessel debiasing is essentially \"for free\". It is generic, easy to code and supported by theory.",
+ "primary": "stat.CO"
+}

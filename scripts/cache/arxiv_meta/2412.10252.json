@@ -1,0 +1,20 @@
+{
+ "id": "2412.10252",
+ "title": "What if we had built a prediction model with a survival super learner instead of a Cox model 10 years ago?",
+ "authors": [
+  "Arthur Chatton",
+  "Émilie Pilote",
+  "Kevin Assob Feugo",
+  "Héloïse Cardinal",
+  "Robert W. Platt",
+  "Mireille E Schnitzer"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 1,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 2 Tables, 3 Figures, Submitted",
+ "abstract": "Objective: This study sought to compare the drop in predictive performance over time according to the modeling approach (regression versus machine learning) used to build a kidney transplant failure prediction model with a time-to-event outcome. Study Design and Setting: The Kidney Transplant Failure Score (KTFS) was used as a benchmark. We reused the data from which it was developed (DIVAT cohort, n=2,169) to build another prediction algorithm using a survival super learner combining (semi-)parametric and non-parametric methods. Performance in DIVAT was estimated for the two prediction models using internal validation. Then, the drop in predictive performance was evaluated in the same geographical population approximately ten years later (EKiTE cohort, n=2,329). Results: In DIVAT, the super learner achieved better discrimination than the KTFS, with a tAUROC of 0.83 (0.79-0.87) compared to 0.76 (0.70-0.82). While the discrimination remained stable for the KTFS, it was not the case for the super learner, with a drop to 0.80 (0.76-0.83). Regarding calibration, the survival SL overestimated graft survival at development, while the KTFS underestimated graft survival ten years later. Brier score values were similar regardless of the approach and the timing. Conclusion: The more flexible SL provided superior discrimination on the population used to fit it compared to a Cox model and similar discrimination when applied to a future dataset of the same population. Both methods are subject to calibration drift over time. However, weak calibration on the population used to develop the prediction model was correct only for the Cox model, and recalibration should be considered in the future to correct the calibration drift.",
+ "primary": "stat.ME"
+}

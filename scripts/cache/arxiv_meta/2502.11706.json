@@ -1,0 +1,16 @@
+{
+ "id": "2502.11706",
+ "title": "A deep BSDE approach for the simultaneous pricing and delta-gamma hedging of large portfolios consisting of high-dimensional multi-asset Bermudan options",
+ "authors": [
+  "Balint Negyesi",
+  "Cornelis W. Oosterlee"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 10 figures, 8 tables",
+ "abstract": "A deep BSDE approach is presented for the pricing and delta-gamma hedging of high-dimensional Bermudan options, with applications in portfolio risk management. Large portfolios of a mixture of multi-asset European and Bermudan derivatives are cast into the framework of discretely reflected BSDEs. This system is discretized by the One Step Malliavin scheme (Negyesi et al. [2024, 2025]) of discretely reflected Markovian BSDEs, which involves a $Γ$ process, corresponding to second-order sensitivities of the associated option prices. The discretized system is solved by a neural network regression Monte Carlo method, efficiently for a large number of underlyings. The resulting option Deltas and Gammas are used to discretely rebalance the corresponding replicating strategies. Numerical experiments are presented on both high-dimensional basket options and large portfolios consisting of multiple options with varying early exercise rights, moneyness and volatility. These examples demonstrate the robustness and accuracy of the method up to $100$ risk factors. The resulting hedging strategies significantly outperform benchmark methods both in the case of standard delta- and delta-gamma hedging.",
+ "primary": "q-fin.CP"
+}

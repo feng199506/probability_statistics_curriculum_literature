@@ -1,0 +1,19 @@
+{
+ "id": "2502.17371",
+ "title": "Sustainable Greenhouse Microclimate Modeling: A Comparative Analysis of Recurrent and Graph Neural Networks",
+ "authors": [
+  "Emiliano Seri",
+  "Marcello Petitta",
+  "Chryssoula Papaioannou",
+  "Nikolaos Katsoulas",
+  "Cristina Cornaro"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 4,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "10.1016/j.buildenv.2025.113473",
+ "comment": "",
+ "abstract": "The integration of photovoltaic (PV) systems into greenhouses not only optimizes land use but also enhances sustainable agricultural practices by enabling dual benefits of food production and renewable energy generation. However, accurate prediction of internal environmental conditions is crucial to ensure optimal crop growth while maximizing energy production. This study introduces a novel application of Spatio-Temporal Graph Neural Networks (STGNNs) to greenhouse microclimate modeling, comparing their performance with traditional Recurrent Neural Networks (RNNs). While RNNs excel at temporal pattern recognition, they cannot explicitly model the directional relationships between environmental variables. Our STGNN approach addresses this limitation by representing these relationships as directed graphs, enabling the model to capture both environmental dependencies and their directionality. We benchmark RNNs against directed STGNNs on two 15-min-resolution datasets from Volos (Greece): a six-variable 2020 installation and a more complex eight-variable greenhouse monitored in autumn 2024. In the simpler 2020 case the RNN attains near-perfect accuracy, outperforming the STGNN. When additional drivers are available in 2024, the STGNN overtakes the RNN ($R^{2}=0.905$ vs $0.740$), demonstrating that explicitly modelling directional dependencies becomes critical as interaction complexity grows. These findings indicate when graph-based models are warranted and provide a stepping-stone toward digital twins that jointly optimise crop yield and PV power in agrivoltaic greenhouses.",
+ "primary": "cs.LG"
+}

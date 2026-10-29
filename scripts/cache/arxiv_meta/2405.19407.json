@@ -1,0 +1,18 @@
+{
+ "id": "2405.19407",
+ "title": "Tempered Multifidelity Importance Sampling for Gravitational Wave Parameter Estimation",
+ "authors": [
+  "Bassel Saleh",
+  "Aaron Zimmerman",
+  "Peng Chen",
+  "Omar Ghattas"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 1,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 10 figures, 1 table",
+ "abstract": "Estimating the parameters of compact binaries which coalesce and produce gravitational waves is a challenging Bayesian inverse problem. Gravitational-wave parameter estimation lies within the class of multifidelity problems, where a variety of models with differing assumptions, levels of fidelity, and computational cost are available for use in inference. In an effort to accelerate the solution of a Bayesian inverse problem, cheaper surrogates for the best models may be used to reduce the cost of likelihood evaluations when sampling the posterior. Importance sampling can then be used to reweight these samples to represent the true target posterior, incurring a reduction in the effective sample size. In cases when the problem is high dimensional, or when the surrogate model produces a poor approximation of the true posterior, this reduction in effective samples can be dramatic and render multifidelity importance sampling ineffective. We propose a novel method of tempered multifidelity importance sampling in order to remedy this issue. With this method the biasing distribution produced by the low-fidelity model is tempered, allowing for potentially better overlap with the target distribution. There is an optimal temperature which maximizes the efficiency in this setting, and we propose a low-cost strategy for approximating this optimal temperature using samples from the untempered distribution. In this paper, we motivate this method by applying it to Gaussian target and biasing distributions. Finally, we apply it to a series of problems in gravitational wave parameter estimation and demonstrate improved efficiencies when applying the method to real gravitational wave detections.",
+ "primary": "gr-qc"
+}

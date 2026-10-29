@@ -1,0 +1,17 @@
+{
+ "id": "2311.01341",
+ "title": "Composite Dyadic Models for Spatio-Temporal Data",
+ "authors": [
+  "Michael R Schwob",
+  "Mevin B Hooten",
+  "Vagheesh Narasimhan"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 3,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 7 figures, 3 appendices, code on GitHub",
+ "abstract": "Mechanistic statistical models are commonly used to study the flow of biological processes. For example, in landscape genetics, the aim is to infer spatial mechanisms that govern gene flow in populations. Existing statistical approaches in landscape genetics do not account for temporal dependence in the data and may be computationally prohibitive. We infer mechanisms with a Bayesian hierarchical dyadic model that scales well with large data sets and that accounts for spatial and temporal dependence. We construct a fully-connected network comprising spatio-temporal data for the dyadic model and use normalized composite likelihoods to account for the dependence structure in space and time. We develop a dyadic model to account for physical mechanisms commonly found in physical-statistical models and apply our methods to ancient human DNA data to infer the mechanisms that affected human movement in Bronze Age Europe.",
+ "primary": "stat.ME"
+}

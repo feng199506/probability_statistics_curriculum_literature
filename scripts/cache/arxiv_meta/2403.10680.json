@@ -1,0 +1,18 @@
+{
+ "id": "2403.10680",
+ "title": "Spatio-temporal Occupancy Models with INLA",
+ "authors": [
+  "Jafet Belmont",
+  "Sara Martino",
+  "Janine Illian",
+  "Håvard Rue"
+ ],
+ "v1_date": "2024-03-15",
+ "latest_version": 1,
+ "latest_date": "2024-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern methods for quantifying and predicting species distribution play a crucial part in biodiversity conservation. Occupancy models are a popular choice for analyzing species occurrence data as they allow to separate the observational error induced by imperfect detection, and the sources of bias affecting the occupancy process. However, the spatial and temporal variation in occupancy not accounted for by environmental covariates is often ignored or modelled through simple spatial structures as the computational costs of fitting explicit spatio-temporal models is too high. In this work, we demonstrate how INLA may be used to fit complex occupancy models and how the R-INLA package can provide a user-friendly interface to make such complex models available to users. We show how occupancy models, provided some simplification on the detection process, can be framed as latent Gaussian models and benefit from the powerful INLA machinery. A large selection of complex modelling features, and random effect modelshave already been implemented in R-INLA. These become available for occupancy models, providing the user with an efficient and flexible toolbox. We illustrate how INLA provides a computationally efficient framework for developing and fitting complex occupancy models using two case studies. Through these, we show how different spatio-temporal models that include spatial-varying trends, smooth terms, and spatio-temporal random effects can be fitted. At the cost of limiting the complexity of the detection model, INLA can incorporate a range of complex structures in the process. INLA-based occupancy models provide an alternative framework to fit complex spatiotemporal occupancy models. The need for new and more flexible computationally approaches to fit such models makes INLA an attractive option for addressing complex ecological problems, and a promising area of research.",
+ "primary": "stat.ME"
+}

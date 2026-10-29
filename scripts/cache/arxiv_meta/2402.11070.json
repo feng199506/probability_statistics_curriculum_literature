@@ -1,0 +1,21 @@
+{
+ "id": "2402.11070",
+ "title": "Scalable Analysis of Bipartite Experiments",
+ "authors": [
+  "Liang Shi",
+  "Edvard Bakhitov",
+  "Kenneth Hung",
+  "Brian Karrer",
+  "Charlie Walker",
+  "Monica Bhole",
+  "Okke Schrijvers"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 2,
+ "latest_date": "2025-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Proof of validity of the variance estimator is wrong",
+ "abstract": "Bipartite Experiments are randomized experiments where the treatment is applied to a set of units (randomization units) that is different from the units of analysis, and randomization units and analysis units are connected through a bipartite graph. The scale of experimentation at large online platforms necessitates both accurate inference in the presence of a large bipartite interference graph, as well as a highly scalable implementation. In this paper, we describe new methods for inference that enable practical, scalable analysis of bipartite experiments: (1) We propose CA-ERL, a covariate-adjusted variant of the exposure-reweighted-linear (ERL) estimator [9], which empirically yields 60-90% variance reduction. (2) We introduce a randomization-based method for inference and prove asymptotic validity of a Wald-type confidence interval under graph sparsity assumptions. (3) We present a linear-time algorithm for randomization inference of the CA-ERL estimator, which can be easily implemented in query engines like Presto or Spark. We evaluate our methods both on a real experiment at Meta that randomized treatment on Facebook Groups and analyzed user-level metrics, as well as simulations on synthetic data. The real-world data shows that our CA-ERL estimator reduces the confidence interval (CI) width by 60-90% (compared to ERL) in a practical setting. The simulations using synthetic data show that our randomization inference procedure achieves correct coverage across instances, while the ERL estimator has incorrectly small CI widths for instances with large true effect sizes and is overly conservative when the bipartite graph is dense.",
+ "primary": "stat.ME"
+}

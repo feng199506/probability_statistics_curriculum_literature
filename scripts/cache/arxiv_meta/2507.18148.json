@@ -1,0 +1,17 @@
+{
+ "id": "2507.18148",
+ "title": "Moment Martingale Posteriors for Semiparametric Predictive Bayes",
+ "authors": [
+  "Yiu Yin Yung",
+  "Stephen M. S. Lee",
+  "Edwin Fong"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 1,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages (main), 45 pages (total), 15 figures, 3 tables",
+ "abstract": "The predictive Bayesian view involves eliciting a sequence of one-step-ahead predictive distributions in lieu of specifying a likelihood function and prior distribution. Recent methods have leveraged predictive distributions which are either nonparametric or parametric, but not a combination of the two. This paper introduces a semiparametric martingale posterior which utilizes a predictive distribution that is a mixture of a parametric and nonparametric component. The semiparametric nature of the predictive allows for regularization of the nonparametric component when the sample size is small, and robustness to model misspecification of the parametric component when the sample size is large. We call this approach the moment martingale posterior, as the core of our proposed methodology is to utilize the method of moments as the vehicle for tying the nonparametric and parametric components together. In particular, the predictives are constructed so that the moments are martingales, which allows us to verify convergence under predictive resampling. A key contribution of this work is a novel procedure based on the energy score to optimally weigh between the parametric and nonparametric components, which has desirable asymptotic properties. The effectiveness of the proposed approach is demonstrated through simulations and a real world example.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2606.05026",
+ "title": "Removal of Multivariate Environmental Influences in Structural Health Monitoring through Conditional Covariances and Supervised Learning",
+ "authors": [
+  "Lizzie Neumann",
+  "Philipp Wittenberg",
+  "Jan Gertheiss"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 8 figures",
+ "abstract": "In structural health monitoring (SHM) systems, data is collected from a multitude of sensors measuring, for example, vibration or strain in the structure, along with additional features that capture environmental or operational information. It is well known that changes in the measured sensor outputs do not necessarily originate from structural damage but are often induced by environmental changes. One popular approach to account for these effects is regressing the system outputs on the confounding factors, also known as \"response surface modeling\". Afterward, the predicted values are subtracted from the observed ones to obtain corrected data with the environmental effects (supposedly) removed. However, the evaluation of real-world SHM data shows that environmental conditions may affect not only the expected output values but also higher-order statistical moments, particularly the variances of and the covariances and correlations between the output quantities, such as eigenfrequencies of different modes or strain sensors at different locations. By construction, the (supervised) machine learning techniques commonly used for response surface modeling cannot account for those higher-order effects. To address these issues, we present and discuss several approaches for identifying and quantifying multivariate confounding effects on output covariances and correlations: a nonparametric, kernel-based estimator, a random forest, a semiparametric additive model, and a deep learning approach. Furthermore, we show how the resulting conditional covariance matrices can be used in an SHM pipeline. We compare the competing methods on both artificial data and real-world load test data from the Vahrendorfer Stadtweg bridge in Hamburg, Germany, as well as eigenfrequency data from the railway bridge KW51 near Leuven, Belgium.",
+ "primary": "stat.ME"
+}

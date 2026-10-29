@@ -1,0 +1,19 @@
+{
+ "id": "2509.08163",
+ "title": "Machine Learning with Multitype Protected Attributes: Intersectional Fairness through Regularisation",
+ "authors": [
+  "Ho Ming Lee",
+  "Katrien Antonio",
+  "Benjamin Avanzi",
+  "Lorenzo Marchi",
+  "Rui Zhou"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 2,
+ "latest_date": "2025-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ensuring equitable treatment (fairness) across protected attributes (such as gender or ethnicity) is a critical issue in machine learning. Most existing literature focuses on binary classification, but achieving fairness in regression tasks-such as insurance pricing or hiring score assessments-is equally important. Moreover, anti-discrimination laws also apply to continuous attributes, such as age, for which many existing methods are not applicable. In practice, multiple protected attributes can exist simultaneously; however, methods targeting fairness across several attributes often overlook so-called \"fairness gerrymandering\", thereby ignoring disparities among intersectional subgroups (e.g., African-American women or Hispanic men). In this paper, we propose a distance covariance regularisation framework that mitigates the association between model predictions and protected attributes, in line with the fairness definition of demographic parity, and that captures both linear and nonlinear dependencies. To enhance applicability in the presence of multiple protected attributes, we extend our framework by incorporating two multivariate dependence measures based on distance covariance: the previously proposed joint distance covariance (JdCov) and our novel concatenated distance covariance (CCdCov), which effectively address fairness gerrymandering in both regression and classification tasks involving protected attributes of various types. We discuss and illustrate how to calibrate regularisation strength, including a method based on Jensen-Shannon divergence, which quantifies dissimilarities in prediction distributions across groups. We apply our framework to the COMPAS recidivism dataset and a large motor insurance claims dataset.",
+ "primary": "cs.LG"
+}

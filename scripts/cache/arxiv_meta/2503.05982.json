@@ -1,0 +1,19 @@
+{
+ "id": "2503.05982",
+ "title": "Shiny-MAGEC: A Bayesian R Shiny Application for Meta-analysis of Censored Adverse Events",
+ "authors": [
+  "Zihan Zhou",
+  "Zizhong Tian",
+  "Christine B. Peterson",
+  "Le Bao",
+  "Shouhao Zhou"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 3 figures, 1 table",
+ "abstract": "Accurate assessment of adverse event (AE) incidence is critical in clinical cancer research for drug safety evaluation and regulatory approval. While meta-analysis serves as an essential tool to comprehensively synthesize the evidence across multiple studies, incomplete AE reporting in clinical trials remains a persistent challenge. In particular, AEs occurring below study-specific reporting thresholds are often omitted from publications, leading to left-censored data. Failure to account for these censored AE counts can result in biased AE incidence estimates. We present an R Shiny application that implements a one-stage Bayesian meta-analysis model specifically designed to incorporate censored AE data into the estimation process. This interactive tool provides a user-friendly interface for researchers to conduct AE meta-analyses and estimate the AE incidence probability following the bias-correction methods proposed by Qi et al. (2024). It also enables direct comparisons between models that either incorporate or ignore censoring, highlighting the biases introduced by conventional approaches. This tutorial demonstrates the Shiny application's functionality through an illustrative example on meta-analysis of PD-1/PD-L1 inhibitor safety and highlights the importance of this tool in improving AE risk assessment. Ultimately, the new Shiny app facilitates more accurate and transparent drug safety evaluations. The Shiny-MAGEC app is available at: https://zihanzhou98.shinyapps.io/Shiny-MAGEC/.",
+ "primary": "stat.ME"
+}

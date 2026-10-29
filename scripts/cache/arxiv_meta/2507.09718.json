@@ -1,0 +1,16 @@
+{
+ "id": "2507.09718",
+ "title": "Bridging Structural Causal Inference and Machine Learning The S-DIDML Estimator for Heterogeneous Treatment Effects",
+ "authors": [
+  "Yile Yu",
+  "Anzhi Xu"
+ ],
+ "v1_date": "2025-07-13",
+ "latest_version": 1,
+ "latest_date": "2025-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 9 figures",
+ "abstract": "In response to the increasing complexity of policy environments and the proliferation of high-dimensional data, this paper introduces the S-DIDML estimator a framework grounded in structure and semiparametrically flexible for causal inference. By embedding Difference-in-Differences (DID) logic within a Double Machine Learning (DML) architecture, the S-DIDML approach combines the strengths of temporal identification, machine learning-based nuisance adjustment, and orthogonalized estimation. We begin by identifying critical limitations in existing methods, including the lack of structural interpretability in ML models, instability of classical DID under high-dimensional confounding, and the temporal rigidity of standard DML frameworks. Building on recent advances in staggered adoption designs and Neyman orthogonalization, S-DIDML offers a five-step estimation pipeline that enables robust estimation of heterogeneous treatment effects (HTEs) while maintaining interpretability and scalability. Demonstrative applications are discussed across labor economics, education, taxation, and environmental policy. The proposed framework contributes to the methodological frontier by offering a blueprint for policy-relevant, structurally interpretable, and statistically valid causal analysis in complex data settings.",
+ "primary": "stat.ME"
+}

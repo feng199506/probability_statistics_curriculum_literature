@@ -1,0 +1,17 @@
+{
+ "id": "2311.11216",
+ "title": "Reconciling Overt Bias and Hidden Bias in Sensitivity Analysis for Matched Observational Studies",
+ "authors": [
+  "Siyu Heng",
+  "Yanxin Shen",
+  "Pengyun Wang"
+ ],
+ "v1_date": "2023-11-19",
+ "latest_version": 5,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matching is one of the most widely used causal inference designs in observational studies, but post-matching confounding bias remains a critical concern. This bias includes overt bias from inexact matching on measured confounders and hidden bias from unmeasured confounders. Researchers routinely apply the famous Rosenbaum-type sensitivity analysis after matching to assess the impact of these biases on causal conclusions. In this work, we show that this approach is often conservative and may overstate sensitivity to confounding bias because the classical solution to the Rosenbaum sensitivity model may allocate hypothetical hidden bias in ways that contradict the overt bias observed in the matched dataset. To address this problem, we propose a new approach to Rosenbaum-type sensitivity analysis by ensuring compatibility between hidden and overt biases. Our approach does not need to add any additional assumptions (beyond mild regularity conditions) to Rosenbaum-type sensitivity analysis, and can produce uniformly more informative sensitivity analysis results than the conventional Rosenbaum-type sensitivity analysis. Computationally, our approach can be solved efficiently via iterative convex programming. Extensive simulations and a real data application demonstrate substantial gains in statistical power of sensitivity analysis. Importantly, our approach can also be applied to many other sensitivity analysis frameworks.",
+ "primary": "stat.ME"
+}

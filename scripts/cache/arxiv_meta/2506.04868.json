@@ -1,0 +1,17 @@
+{
+ "id": "2506.04868",
+ "title": "Bayesian Doubly Robust Causal Inference via Posterior Coupling",
+ "authors": [
+  "Shunichiro Orihara",
+  "Tomotaka Momozaki",
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 3,
+ "latest_date": "2026-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Keywords: Bayesian inference, Efficiency improvement, Entropic tilting, Propensity score, Sequential Monte Carlo",
+ "abstract": "Bayesian doubly robust (DR) causal inference faces a fundamental dilemma: joint modeling of outcome and propensity score suffers from the feedback problem where outcome information contaminates propensity score estimation, while two-step inference sacrifices valid posterior distributions for computational convenience. We resolve this dilemma through posterior coupling via entropic tilting. Our framework constructs independent posteriors for propensity score and outcome models, then couples them using entropic tilting to enforce the DR moment condition. This yields the first fully Bayesian DR estimator with an explicit posterior distribution. Theoretically, we establish three key properties: (i) when the outcome model is correctly specified, the tilted posterior coincides with the original; (ii) under propensity score model correctness, the posterior mean remains consistent despite outcome model misspecification; (iii) convergence rates improve for nonparametric outcome models. Simulations demonstrate superior bias reduction and efficiency compared to existing methods. We illustrate practical advantages of the proposed method through two applications: sensitivity analysis for unmeasured confounding in antihypertensive treatment effects on dementia, and high-dimensional confounder selection combining shrinkage priors with modified moment conditions for right heart catheterization mortality. We provide an R package implementing the proposed method.",
+ "primary": "stat.ME"
+}

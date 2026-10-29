@@ -1,0 +1,16 @@
+{
+ "id": "2512.24139",
+ "title": "Colorful Pinball: Density-Weighted Quantile Regression for Conditional Guarantee of Conformal Prediction",
+ "authors": [
+  "Qianyi Chen",
+  "Bo Li"
+ ],
+ "v1_date": "2025-12-30",
+ "latest_version": 5,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026",
+ "abstract": "Although conformal prediction provides robust marginal coverage guarantees, achieving reliable conditional coverage for specific inputs remains challenging. While exact distribution-free conditional coverage is impossible with finite samples, recent work has focused on improving the conditional coverage of standard conformal procedures. Distinct from approaches that target relaxed notions of conditional coverage, we directly target the mean squared error of conditional coverage by refining the quantile regression components that underpin many conformal methods. Leveraging a Taylor expansion, we derive a sharp surrogate objective for quantile regression: a density-weighted pinball loss, where the weights are given by the conditional density of the nonconformity score evaluated at the true quantile. We propose a three-headed quantile network that estimates these weights via finite differences using auxiliary quantile levels at $1-α\\pm δ$, subsequently fine-tuning the central quantile by optimizing the weighted loss. We provide a theoretical analysis with exact non-asymptotic guarantees characterizing the resulting excess risk. Extensive experiments on diverse high-dimensional real-world datasets demonstrate remarkable improvements in conditional coverage performance.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2409.14256",
+ "title": "POI-SIMEX for Conditionally Poisson Distributed Biomarkers from Tissue Histology",
+ "authors": [
+  "Aijun Yang",
+  "Phineas T. Hamilton",
+  "Brad H. Nelson",
+  "Julian J. Lum",
+  "Mary Lesperance",
+  "Farouk S. Nathoo"
+ ],
+ "v1_date": "2024-09-21",
+ "latest_version": 3,
+ "latest_date": "2025-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 2 figures",
+ "abstract": "Covariate measurement error in regression analysis is an important issue that has been studied extensively under the classical additive and the Berkson error models. Here, we consider cases where covariates are derived from tumor tissue histology, and in particular tissue microarrays. In such settings, biomarkers are evaluated from tissue cores that are subsampled from a larger tissue section so that these biomarkers are only estimates of the true cell densities. The resulting measurement error is non-negligible but is seldom accounted for in the analysis of cancer studies involving tissue microarrays. To adjust for this type of measurement error, we assume that these discrete-valued biomarkers are conditionally Poisson distributed, based on a Poisson process model governing the spatial locations of marker-positive cells. Existing methods for addressing conditional Poisson surrogates, particularly in the absence of internal validation data, are limited. We extend the simulation extrapolation (SIMEX) algorithm to accommodate the conditional Poisson case (POI-SIMEX), where measurement errors are non-Gaussian with heteroscedastic variance. The proposed estimator is shown to be strongly consistent in a linear regression model under the assumption of a conditional Poisson distribution for the observed biomarker. Simulation studies evaluate the performance of POI-SIMEX, comparing it with the naive method and an alternative corrected likelihood approach in linear regression and survival analysis contexts. POI-SIMEX is then applied to a study of high-grade serous cancer, examining the association between survival and the presence of triple-positive biomarker (CD3+CD8+FOXP3+ cells)",
+ "primary": "stat.ME"
+}

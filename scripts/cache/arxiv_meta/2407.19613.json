@@ -1,0 +1,16 @@
+{
+ "id": "2407.19613",
+ "title": "Causal effect estimation under network interference with mean-field methods",
+ "authors": [
+  "Sohom Bhattacharya",
+  "Subhabrata Sen"
+ ],
+ "v1_date": "2024-07-28",
+ "latest_version": 1,
+ "latest_date": "2024-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages, 3 tables",
+ "abstract": "We study causal effect estimation from observational data under interference. The interference pattern is captured by an observed network. We adopt the chain graph framework of Tchetgen Tchetgen et. al. (2021), which allows (i) interaction among the outcomes of distinct study units connected along the graph and (ii) long range interference, whereby the outcome of an unit may depend on the treatments assigned to distant units connected along the interference network. For ``mean-field\" interaction networks, we develop a new scalable iterative algorithm to estimate the causal effects. For gaussian weighted networks, we introduce a novel causal effect estimation algorithm based on Approximate Message Passing (AMP). Our algorithms are provably consistent under a ``high-temperature\" condition on the underlying model. We estimate the (unknown) parameters of the model from data using maximum pseudo-likelihood and establish $\\sqrt{n}$-consistency of this estimator in all parameter regimes. Finally, we prove that the downstream estimators obtained by plugging in estimated parameters into the aforementioned algorithms are consistent at high-temperature. Our methods can accommodate dense interactions among the study units -- a setting beyond reach using existing techniques. Our algorithms originate from the study of variational inference approaches in high-dimensional statistics; overall, we demonstrate the usefulness of these ideas in the context of causal effect estimation under interference.",
+ "primary": "math.ST"
+}

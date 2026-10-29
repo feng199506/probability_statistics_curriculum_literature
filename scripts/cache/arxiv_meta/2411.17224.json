@@ -1,0 +1,18 @@
+{
+ "id": "2411.17224",
+ "title": "Doubly robust estimation with functional outcomes missing at random",
+ "authors": [
+  "Xijia Liu",
+  "Kreske Felix Ecker",
+  "Lina Schelin",
+  "Xavier de Luna"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 3,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages incl appendices",
+ "abstract": "We present and study semi-parametric estimators for the mean of functional outcomes in situations where some of these outcomes are missing and covariate information is available on all units. Assuming that the missingness mechanism depends only on the covariates (missing at random assumption), we present two estimators for the functional mean parameter, using working models for the functional outcome given the covariates, and the probability of missingness given the covariates. We contribute by establishing that both these estimators have Gaussian processes as limiting distributions and explicitly give their covariance functions. One of the estimators is double robust in the sense that the limiting distribution holds whenever at least one of the nuisance models is correctly specified. These results allow us to present simultaneous confidence bands for the mean function with asymptotically guaranteed coverage. A Monte Carlo study shows the finite sample properties of the proposed functional estimators and their associated simultaneous inference. The use of the method is illustrated in an application where the mean of counterfactual outcomes is targeted.",
+ "primary": "math.ST"
+}

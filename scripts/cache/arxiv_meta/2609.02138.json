@@ -1,0 +1,16 @@
+{
+ "id": "2609.02138",
+ "title": "HyperMC: Multi-Fidelity Hyperparameter Tuning for Stochastic Gradient MCMC",
+ "authors": [
+  "Ming Tan",
+  "Xiyun Jiao"
+ ],
+ "v1_date": "2026-09-02",
+ "latest_version": 1,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages, 14 figures, 9 tables",
+ "abstract": "Stochastic gradient Markov chain Monte Carlo (SGMCMC) methods enable scalable Bayesian inference, but their performance depends strongly on hyperparameters such as the step size, mini-batch size, and number of leapfrog steps. Since most SGMCMC algorithms lack a Metropolis-Hastings acceptance rate, standard acceptance-based tuning methods are not directly applicable. We propose HyperMC, a multi-fidelity tuning framework that combines Hyperband-style resource allocation with kernel Stein discrepancy (KSD) evaluation. By running multiple successive-halving brackets, HyperMC balances broad exploration of a continuous hyperparameter space with increasingly accurate evaluation of promising configurations under a fixed computational budget. We further introduce Robust HyperMC, which uses global grid initialization followed by elite-guided local refinement to reduce sensitivity to random candidate generation and noisy finite-budget evaluations. Under suitable approximation and concentration conditions for the estimated KSD, we establish that the successive-halving component selects a near-optimal configuration among the sampled candidates with high probability and derive a sufficient computational budget for successful selection. Experiments on logistic regression, probabilistic matrix factorization, and Bayesian neural networks show that HyperMC improves posterior approximation or predictive calibration relative to MAMBA, grid search, and heuristic baselines, while Robust HyperMC yields more stable and reproducible tuning results.",
+ "primary": "stat.ML"
+}

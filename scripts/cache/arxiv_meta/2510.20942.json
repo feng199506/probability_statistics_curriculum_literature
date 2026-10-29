@@ -1,0 +1,17 @@
+{
+ "id": "2510.20942",
+ "title": "Bayesian analysis of flexible Heckman selection models using Hamiltonian Monte Carlo",
+ "authors": [
+  "Heeju Lim",
+  "Victor E. Lachos",
+  "Victor H. Lachos"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "Computational Statistics, Volume 41, article number 40, (2026)",
+ "doi": "10.1007/s00180-026-01717-7",
+ "comment": "",
+ "abstract": "The Heckman selection model is widely used in econometric analysis and other social sciences to address sample selection bias in data modeling. A common assumption in Heckman selection models is that the error terms follow an independent bivariate normal distribution. However, real-world data often deviates from this assumption, exhibiting heavy-tailed behavior, which can lead to inconsistent estimates if not properly addressed. In this paper, we propose a Bayesian analysis of Heckman selection models that replace the Gaussian assumption with well-known members of the class of scale mixture of normal distributions, such as the Student's-t and contaminated normal distributions. For these complex structures, Stan's default No-U-Turn sampler is utilized to obtain posterior simulations. Through extensive simulation studies, we compare the performance of the Heckman selection models with normal, Student's-t and contaminated normal distributions. We also demonstrate the broad applicability of this methodology by applying it to medical care and labor supply data. The proposed algorithms are implemented in the R package HeckmanStan.",
+ "primary": "stat.ME"
+}

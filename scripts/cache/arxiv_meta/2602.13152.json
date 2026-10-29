@@ -1,0 +1,16 @@
+{
+ "id": "2602.13152",
+ "title": "Detecting Parameter Instabilities in Functional Concurrent Linear Regression",
+ "authors": [
+  "Rupsa Basu",
+  "Sven Otto"
+ ],
+ "v1_date": "2026-02-13",
+ "latest_version": 1,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop methodology to detect structural breaks in the slope function of a concurrent functional linear regression model for functional time series in $C[0,1]$. Our test is based on a CUSUM process of regressor-weighted OLS residual functions. To accommodate both global and local changes, we propose $L^2$- and sup-norm versions, with the sup-norm particularly sensitive to spike-like changes. Under Hölder regularity and weak dependence conditions, we establish a functional strong invariance principle, derive the asymptotic null distribution, and show that the resulting tests are consistent against a broad class of alternatives with breaks in the slope function. Simulation studies illustrate finite-sample size and power. We apply the method to sports data obtained via body-worn sensors from running athletes, focusing on hip and knee joint-angle trajectories recorded during a fatiguing run. As fatigue accumulates, runners adapt their movement patterns, and sufficiently pronounced adjustments are expected to appear as a change point in the regression relationship. In this manner, we illustrate how the proposed tests support interpretable inference for biomechanical functional time series.",
+ "primary": "stat.ME"
+}

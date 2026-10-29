@@ -1,0 +1,19 @@
+{
+ "id": "2504.01949",
+ "title": "Comparison of Bayesian methods for extrapolation of treatment effects: a simulation study",
+ "authors": [
+  "Tristan Fauvel",
+  "Julien Tanniou",
+  "Pascal Godbillot",
+  "Marie Génin",
+  "Billy Amzal"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 4,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Extrapolating treatment effects from related studies is a promising strategy for designing and analyzing clinical trials in situations where achieving an adequate sample size is challenging. Bayesian methods are well-suited for this purpose, as they enable the synthesis of prior information through the use of prior distributions. While the operating characteristics of Bayesian approaches for borrowing data from control arms have been extensively studied, methods that borrow treatment effects--quantities derived from the comparison between two arms--remain less well understood. In this paper, we present the findings of an extensive simulation study designed to address this gap, across six clinically motivated case studies covering continuous, binary, recurrent-event, and time-to-event endpoints. We varied target sample size, treatment-effect drift, and endpoint-specific design assumptions. Power and estimation performance were compared using a frequentist analysis of the target data alone, calibrated to the same actual type I error rate. Our results provide insights into the strengths and limitations of existing methods in the context of confirmatory trials. At matched actual type I error rates, power differences were usually small, with occasional gains over the reference analysis and larger losses for some adaptive procedures. Borrowing reduced MSE when source and target effects were consistent, but increasing drift eroded this benefit and could substantially reduce interval coverage. Commensurate priors with appropriately chosen hyperpriors offered the most favorable balance between estimation gains and robustness to conflict. The conditional power prior was competitive for estimation at comparable type I error rates, despite its lack of adaptation. Test-then-pool procedures often performed poorly. No method dominated across all criteria.",
+ "primary": "stat.ME"
+}

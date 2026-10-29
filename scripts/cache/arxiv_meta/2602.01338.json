@@ -1,0 +1,18 @@
+{
+ "id": "2602.01338",
+ "title": "High-accuracy sampling for diffusion models and log-concave distributions",
+ "authors": [
+  "Fan Chen",
+  "Sinho Chewi",
+  "Constantinos Daskalakis",
+  "Alexander Rakhlin"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 2,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present algorithms for diffusion model sampling which obtain $δ$-error in $\\mathrm{polylog}(1/δ)$ steps, given access to $\\widetilde O(δ)$-accurate score estimates in $L^2$. This is an exponential improvement over all previous results. Specifically, under minimal data assumptions, the complexity is $\\widetilde O(d_\\star \\mathrm{polylog}(1/δ))$ where $d_\\star$ is the intrinsic dimension of the data. Further, under a non-uniform $L$-Lipschitz condition, the complexity reduces to $\\widetilde O(L \\mathrm{polylog}(1/δ))$. Our approach also yields the first $\\mathrm{polylog}(1/δ)$ complexity sampler for general log-concave distributions using only gradient evaluations.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2311.04295",
+ "title": "Algorithmic stability implies training-conditional coverage for distribution-free prediction methods",
+ "authors": [
+  "Ruiting Liang",
+  "Rina Foygel Barber"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 3,
+ "latest_date": "2025-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In a supervised learning problem, given a predicted value that is the output of some trained model, how can we quantify our uncertainty around this prediction? Distribution-free predictive inference aims to construct prediction intervals around this output, with valid coverage that does not rely on assumptions on the distribution of the data or the nature of the model training algorithm. Existing methods in this area, including conformal prediction and jackknife+, offer theoretical guarantees that hold marginally (i.e., on average over a draw of training and test data). In contrast, training-conditional coverage is a stronger notion of validity that ensures predictive coverage of the test point for most draws of the training data, and is thus a more desirable property in practice. Training-conditional coverage was shown by Vovk [2012] to hold for the split conformal method, but recent work by Bian and Barber [2023] proves that such validity guarantees are not possible for the full conformal and jackknife+ methods without further assumptions. In this paper, we show that an assumption of algorithmic stability ensures that the training-conditional coverage property holds for the full conformal and jackknife+ methods.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2604.07478",
+ "title": "Mixing Times and Cutoff for the Rook's Walk",
+ "authors": [
+  "Jonatan Kaare-Rasmussen"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the mixing time of the Rook's Walk Markov chain on a $d$-dimensional chess board of side length $n\\geq 3$, where a rook moves by first selecting an axis uniformly at random and then selecting a new position along that axis uniformly from among the $n-1$ unoccupied alternatives. Our method is to lump the state space of the Rook's Walk by Hamming distance, yielding a birth-death Markov chain. We prove that this lumped birth-death chain has the same mixing time as the Rook's Walk and identify all eigenvalues and eigenfunctions of the projected chain. We then combine the eigenfunction lower bound approach of Wilson (2004) with an $L^2$ upper bound to obtain new sharpened bounds on the mixing time of the Rook's Walk. As a consequence, we show that the Rook's Walk Markov chain exhibits cutoff.",
+ "primary": "math.PR"
+}

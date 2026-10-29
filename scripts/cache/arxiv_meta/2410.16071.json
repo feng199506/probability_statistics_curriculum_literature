@@ -1,0 +1,16 @@
+{
+ "id": "2410.16071",
+ "title": "Stochastic Exploration of Real Varieties via Variety Distributions",
+ "authors": [
+  "David Kahle",
+  "Jonathan D Hauenstein"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 1,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nonlinear systems of polynomial equations arise naturally in many applied settings, for example loglinear models on contingency tables and Gaussian graphical models. The solution sets to these systems over the reals are often positive dimensional spaces that in general may be very complicated yet have very nice local behavior almost everywhere. Standard methods in real algebraic geometry for describing positive dimensional real solution sets include cylindrical algebraic decomposition and numerical cell decomposition, both of which can be costly to compute in many practical applications. In this work we communicate recent progress towards a Monte Carlo framework for exploring such real solution sets. After describing how to construct probability distributions whose mass focuses on a variety of interest, we describe how Hamiltonian Monte Carlo methods can be used to sample points near the variety that may then be moved to the variety using endgames. We conclude by showcasing trial experiments using practical implementations of the method in the Bayesian engine Stan.",
+ "primary": "stat.CO"
+}

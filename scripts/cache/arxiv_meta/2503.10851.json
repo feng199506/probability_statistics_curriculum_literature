@@ -1,0 +1,19 @@
+{
+ "id": "2503.10851",
+ "title": "A New Design-Based Variance Estimator for Finely Stratified Experiments",
+ "authors": [
+  "Yuehao Bai",
+  "Xun Huang",
+  "Joseph P. Romano",
+  "Azeem M. Shaikh",
+  "Max Tabord-Meehan"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 3,
+ "latest_date": "2025-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers the problem of design-based inference for the average treatment effect in finely stratified experiments. Here, by \"design-based'' we mean that the only source of uncertainty stems from the randomness in treatment assignment; by \"finely stratified'' we mean that units are stratified into groups of a fixed size according to baseline covariates and then, within each group, a fixed number of units are assigned uniformly at random to treatment and the remainder to control. In this setting we present a novel estimator of the variance of the difference-in-means based on pairing \"adjacent\" strata. Importantly, our estimator is well defined even in the challenging setting where there is exactly one treated or control unit per stratum. We prove that our estimator is upward-biased, and thus can be used for inference under mild restrictions on the finite population. We compare our estimator with some well-known estimators that have been proposed previously in this setting, and demonstrate that, while these estimators are also upward-biased, our estimator has smaller bias and therefore leads to more precise inferences whenever adjacent strata are sufficiently similar. To further understand when our estimator leads to more precise inferences, we introduce a framework motivated by a thought experiment in which the finite population is modeled as having been drawn once in an i.i.d. fashion from a well-behaved probability distribution. In this framework, we argue that our estimator dominates the others in terms of limiting bias and that these improvements are strict except under strong restrictions on the treatment effects. Finally, we illustrate the practical relevance of our theoretical results through a simulation study, which reveals that our estimator can in fact lead to substantially more precise inferences, especially when the quality of stratification is high.",
+ "primary": "econ.EM"
+}

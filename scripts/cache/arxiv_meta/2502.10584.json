@@ -1,0 +1,17 @@
+{
+ "id": "2502.10584",
+ "title": "Coherent Disaggregation and Uncertainty Quantification for Spatially Misaligned Data",
+ "authors": [
+  "Man Ho Suen",
+  "Mark Naylor",
+  "Finn Lindgren"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 4,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "108 pages",
+ "abstract": "Spatial misalignment arises when datasets are aggregated or collected at different spatial scales, leading to information loss. We develop a Bayesian disaggregation framework that links misaligned data to a continuous-domain model through an iteratively linearised integration scheme implemented with the Integrated Nested Laplace Approximation (INLA). The framework accommodates different ways of handling observations depending on the application, resulting in four variants: (i) \\textit{Raster at Full Resolution}, (ii) \\textit{Raster Aggregation}, (iii) \\textit{Polygon Aggregation} (PolyAgg), and (iv) \\textit{Point Values} (PointVal). The first three represent increasing levels of spatial averaging, while the last two address situations with incomplete covariate information. For PolyAgg and PointVal, we reconstruct the covariate field using three strategies -- \\textit{Value Plugin}, \\textit{Joint Uncertainty}, and \\textit{Uncertainty Plugin} -- with the latter two propagating uncertainty. We illustrate the framework with an example motivated by landslide modelling, focusing on methodology rather than interpreting landslide processes. Simulations show that uncertainty-propagating approaches outperform \\textit{Value Plugin} method and remain robust under model misspecification. Point-pattern observations and full-resolution covariates are therefore preferable, and when covariate fields are incomplete, uncertainty-aware methods are most reliable. The framework is well suited to landslide susceptibility modelling and other spatial mapping tasks, and integrates seamlessly with INLA-based tools.",
+ "primary": "stat.ME"
+}

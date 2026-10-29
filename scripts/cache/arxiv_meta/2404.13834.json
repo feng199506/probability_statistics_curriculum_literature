@@ -1,0 +1,16 @@
+{
+ "id": "2404.13834",
+ "title": "Inference for multiple change-points in generalized integer-valued autoregressive model",
+ "authors": [
+  "Danshu Sheng",
+  "Dehui Wang"
+ ],
+ "v1_date": "2024-04-22",
+ "latest_version": 1,
+ "latest_date": "2024-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 6 figures",
+ "abstract": "In this paper, we propose a computationally valid and theoretically justified methods, the likelihood ratio scan method (LRSM), for estimating multiple change-points in a piecewise stationary generalized conditional integer-valued autoregressive process. LRSM with the usual window parameter $h$ is more satisfied to be used in long-time series with few and even change-points vs. LRSM with the multiple window parameter $h_{mix}$ performs well in short-time series with large and dense change-points. The computational complexity of LRSM can be efficiently performed with order $O((\\log n)^3 n)$. Moreover, two bootstrap procedures, namely parametric and block bootstrap, are developed for constructing confidence intervals (CIs) for each of the change-points. Simulation experiments and real data analysis show that the LRSM and bootstrap procedures have excellent performance and are consistent with the theoretical analysis.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2406.11940",
+ "title": "Model-Based Inference and Experimental Design for Interference Using Partial Network Data",
+ "authors": [
+  "Steven Wilkins Reeves",
+  "Shane Lubold",
+  "Arun G. Chandrasekhar",
+  "Tyler H. McCormick"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 1,
+ "latest_date": "2024-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The stable unit treatment value assumption states that the outcome of an individual is not affected by the treatment statuses of others, however in many real world applications, treatments can have an effect on many others beyond the immediately treated. Interference can generically be thought of as mediated through some network structure. In many empirically relevant situations however, complete network data (required to adjust for these spillover effects) are too costly or logistically infeasible to collect. Partially or indirectly observed network data (e.g., subsamples, aggregated relational data (ARD), egocentric sampling, or respondent-driven sampling) reduce the logistical and financial burden of collecting network data, but the statistical properties of treatment effect adjustments from these design strategies are only beginning to be explored. In this paper, we present a framework for the estimation and inference of treatment effect adjustments using partial network data through the lens of structural causal models. We also illustrate procedures to assign treatments using only partial network data, with the goal of either minimizing estimator variance or optimally seeding. We derive single network asymptotic results applicable to a variety of choices for an underlying graph model. We validate our approach using simulated experiments on observed graphs with applications to information diffusion in India and Malawi.",
+ "primary": "stat.ME"
+}

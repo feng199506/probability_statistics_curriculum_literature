@@ -1,0 +1,16 @@
+{
+ "id": "2604.09078",
+ "title": "Node-Private Community Detection in Stochastic Block Models",
+ "authors": [
+  "Olga Klopp",
+  "Ilias Zadik"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study community detection in stochastic block models under pure node-level differential privacy, a stringent notion that protects the participation of an individual together with all of their incident edges. This setting is substantially more challenging than edge-private community detection, since modifying a single node can affect linearly many observations. On the algorithmic side, we analyze a node-private estimator based on the exponential mechanism combined with an extension lemma, and show that exact recovery remains achievable. In the standard sparse regime with logarithmic average degree and a fixed number of communities, our results imply that a logarithmic privacy budget suffices to obtain nontrivial recovery guarantees. On the lower bound side, we show that this logarithmic scaling is in fact unavoidable: any pure node-private method must fail to achieve polynomially small exact-recovery error, or polynomially small expected mismatch, unless the privacy budget is at least of this order. Moreover, in the regime of super-logarithmic privacy budgets, our upper and lower bounds yield a matching two-term characterization of the minimax risk, with one term governed by the non-private statistical signal and the other by the privacy budget; these match up to universal constants in the exponents. Taken together, our results identify an inherent logarithmic privacy cost in node-private community detection, absent under edge differential privacy, and provide a precise rate-level characterization of the tradeoff between node privacy and SBM recovery.",
+ "primary": "math.ST"
+}

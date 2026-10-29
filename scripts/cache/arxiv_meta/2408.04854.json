@@ -1,0 +1,18 @@
+{
+ "id": "2408.04854",
+ "title": "Transportability of aggregate trial results to an external environment in causally interpretable meta-analysis",
+ "authors": [
+  "Tran Trong Khoi Le",
+  "Marie-Felicia Béclin",
+  "Sivem Afach",
+  "Tat-Thang Vo"
+ ],
+ "v1_date": "2024-08-09",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In evidence synthesis, multilevel modeling approaches (MMAs) are commonly employed to combine aggregate data (AD) and individual participant data (IPD). These approaches rely on an aggregate outcome model that is ideally obtained by integrating the prespecified individual- level outcome model over the covariate distribution observed in each eligible study. In non- linear settings, such an integration may however be analytically intractable and requires ap- proximations. In this paper, we propose a novel method for incorporating AD into causal meta-analysis of IPD studies that can overcome this challenge. Rather than relying on an ag- gregate outcome model that is difficult to be correctly formulated, we propose modeling the trial membership as a function of baseline covariates. This model allows one to estimate the individual-level outcome model in each AD study by leveraging IPD available in other trials, and then to transport the treatment effects estimated from both AD and IPD trials to an external target population, even when only aggregate covariate data are available for that population. Unlike previous proposals, we do not require pseudo-IPD to be generated from the aggregate data, which helps minimize bias due to incomplete information on the covariate distribution in each AD trial and in the target population.",
+ "primary": "stat.ME"
+}

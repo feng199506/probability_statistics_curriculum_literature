@@ -1,0 +1,18 @@
+{
+ "id": "2502.05969",
+ "title": "Asymptotic FDR Control with Model-X Knockoffs: Is Moments Matching Sufficient?",
+ "authors": [
+  "Yingying Fan",
+  "Lan Gao",
+  "Jinchi Lv",
+  "Xiaocong Xu"
+ ],
+ "v1_date": "2025-02-09",
+ "latest_version": 1,
+ "latest_date": "2025-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "90 pages",
+ "abstract": "We propose a unified theoretical framework for studying the robustness of the model-X knockoffs framework by investigating the asymptotic false discovery rate (FDR) control of the practically implemented approximate knockoffs procedure. This procedure deviates from the model-X knockoffs framework by substituting the true covariate distribution with a user-specified distribution that can be learned using in-sample observations. By replacing the distributional exchangeability condition of the model-X knockoff variables with three conditions on the approximate knockoff statistics, we establish that the approximate knockoffs procedure achieves the asymptotic FDR control. Using our unified framework, we further prove that an arguably most popularly used knockoff variable generation method--the Gaussian knockoffs generator based on the first two moments matching--achieves the asymptotic FDR control when the two-moment-based knockoff statistics are employed in the knockoffs inference procedure. For the first time in the literature, our theoretical results justify formally the effectiveness and robustness of the Gaussian knockoffs generator. Simulation and real data examples are conducted to validate the theoretical findings.",
+ "primary": "stat.ML"
+}

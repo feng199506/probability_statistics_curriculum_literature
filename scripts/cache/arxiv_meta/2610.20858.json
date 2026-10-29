@@ -1,0 +1,19 @@
+{
+ "id": "2610.20858",
+ "title": "Calibrated Bayesian inference for overall and subgroup-specific causal effects in stepped-wedge cluster-randomized trials",
+ "authors": [
+  "Ruyi Liu",
+  "Yuki Ohnishi",
+  "Xi Fang",
+  "Michael J. Daniels",
+  "Fan Li"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stepped-wedge cluster-randomized trials (SW-CRTs) randomly assign clusters to sequences that determine when each cluster switches from control to intervention. Conventional Bayesian analyses of SW-CRTs report treatment effect coefficients from a working outcome model, but under model misspecification or informative cluster-period sizes, such coefficients can lack a clear causal interpretation. In this work, we develop Bayesian methods targeting weighted average treatment effect estimands in SW-CRTs, including novel subgroup-specific causal estimands defined by baseline characteristics. We compare model-based g-computation with model-robust standardization, implementing both with linear mixed models and mixed-effects Bayesian additive regression trees as working outcome models, and propose a calibrated variance estimator that augments posterior parameter uncertainty with cluster-level resampling to better capture sampling variability. In simulations with outcome model misspecification and informative cluster-period sizes, model-robust standardization with calibrated inference exhibits negligible bias and near-nominal frequentist coverage for overall and subgroup-specific causal effects, whereas g-computation and uncalibrated intervals become insufficient. We illustrate the proposed methods with a reanalysis of the Trauma Survivors Outcomes and Support trial.",
+ "primary": "stat.ME"
+}

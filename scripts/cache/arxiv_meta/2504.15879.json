@@ -1,0 +1,18 @@
+{
+ "id": "2504.15879",
+ "title": "Multivariate Poisson intensity estimation via low-rank tensor decomposition",
+ "authors": [
+  "Haotian Xu",
+  "Carlos Misael Madrid Padilla",
+  "Oscar Hernan Madrid Padilla",
+  "Daren Wang"
+ ],
+ "v1_date": "2025-04-22",
+ "latest_version": 2,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we propose new matrix- and tensor-based methodologies for estimating multivariate intensity functions of inhomogeneous point processes. By viewing multivariate intensity functions as infinite-dimensional matrices or tensors within function spaces, our algorithms attain the optimal bias-variance trade-off, yielding rate-optimal estimation error, with model complexity governed by matrix or tensor ranks. They substantially improve estimation accuracy, while simultaneously reducing computational cost. To illustrate the adaptivity of the proposed framework, we show that many fundamental classes of multivariate functions, including additive and mean-field models, admit finite-rank tensor representations. We apply our method to a four-dimensional U.S. Geological Survey earthquake dataset, comprising features such as latitude, longitude, depth, and magnitude. Our tensor estimator recovers localized seismicity patterns (California, Oklahoma, Pacific Northwest, north-central U.S.), whereas the kernel baseline oversmooths them.",
+ "primary": "stat.ME"
+}

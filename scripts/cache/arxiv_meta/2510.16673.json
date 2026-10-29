@@ -1,0 +1,18 @@
+{
+ "id": "2510.16673",
+ "title": "Identification and estimation of causal mechanisms in cluster-randomized trials with post-treatment confounding using Bayesian nonparametrics",
+ "authors": [
+  "Yuki Ohnishi",
+  "Michael J. Daniels",
+  "Lei Yang",
+  "Fan Li"
+ ],
+ "v1_date": "2025-10-19",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "78 pages",
+ "abstract": "Causal mediation analysis in cluster-randomized trials (CRTs) is essential for explaining how cluster-level interventions affect individual outcomes, yet it is complicated by interference, post-treatment confounding, and hierarchical covariate adjustment. We develop a Bayesian nonparametric framework that simultaneously accommodates interference and a post-treatment confounder that precedes the mediator. Identification is achieved through a multivariate Gaussian copula that replaces cross-world independence with a single dependence parameter, yielding a built-in sensitivity analysis to residual post-treatment confounding. For estimation, we introduce a nested common atoms enriched Dirichlet process (CA-EDP) prior that integrates the Common Atoms Model (CAM) to share information across clusters while capturing between- and within-cluster heterogeneity, and an Enriched Dirichlet Process (EDP) structure delivering robust covariate adjustment without impacting the outcome model. We provide formal theoretical support for our prior by deriving the model's key distributional properties, including its partially exchangeable partition structure, and by establishing convergence guarantees for the practical truncation-based posterior inference strategy. We demonstrate the performance of the proposed methods in simulations and provide further illustration through a reanalysis of a completed CRT.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.03907",
+ "title": "Confirmatory Biomarker Identification with k-FWER Control Using Derandomized Knockoffs with Cox Regression",
+ "authors": [
+  "Rui Liu",
+  "Nan Sun"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 2,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Selecting important features in high-dimensional survival analysis is critical for identifying confirmatory biomarkers while maintaining rigorous error control. In this paper, we propose a derandomized knockoffs procedure for Cox regression that enhances stability in feature selection while maintaining rigorous control over the k-familywise error rate (k-FWER). By aggregating across multiple randomized knockoff realizations, our approach mitigates the instability commonly observed with conventional knockoffs. Through extensive simulations, we demonstrate that our method consistently outperforms standard knockoffs in both selection power and error control. Moreover, we apply our procedure to a clinical dataset on primary biliary cirrhosis (PBC) to identify key prognostic biomarkers associated with patient survival. The results confirm the superior stability of the derandomized knockoffs method, allowing for a more reliable identification of important clinical variables. Additionally, our approach is applicable to datasets containing both continuous and categorical covariates, broadening its utility in real-world biomedical studies. This framework provides a robust and interpretable solution for high-dimensional survival analysis, making it particularly suitable for applications requiring precise and stable variable selection.",
+ "primary": "stat.ME"
+}

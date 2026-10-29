@@ -1,0 +1,15 @@
+{
+ "id": "2411.06909",
+ "title": "Detecting relevant deviations from the white noise assumption for non-stationary time series",
+ "authors": [
+  "Patrick Bastian"
+ ],
+ "v1_date": "2024-11-11",
+ "latest_version": 1,
+ "latest_date": "2024-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of detecting deviations from a white noise assumption in time series. Our approach differs from the numerous methods proposed for this purpose with respect to two aspects. First, we allow for non-stationary time series. Second, we address the problem that a white noise test, for example checking the residuals of a model fit, is usually not performed because one believes in this hypothesis, but thinks that the white noise hypothesis may be approximately true, because a postulated models describes the unknown relation well. This reflects a meanwhile classical paradigm of Box(1976) that \"all models are wrong but some are useful\". We address this point of view by investigating if the maximum deviation of the local autocovariance functions from 0 exceeds a given threshold $Δ$ that can either be specified by the user or chosen in a data dependent way. The formulation of the problem in this form raises several mathematical challenges, which do not appear when one is testing the classical white noise hypothesis. We use high dimensional Gaussian approximations for dependent data to furnish a bootstrap test, prove its validity and showcase its performance on both synthetic and real data, in particular we inspect log returns of stock prices and show that our approach reflects some observations of Fama(1970) regarding the efficient market hypothesis.",
+ "primary": "math.ST"
+}

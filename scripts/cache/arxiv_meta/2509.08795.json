@@ -1,0 +1,17 @@
+{
+ "id": "2509.08795",
+ "title": "On the inclusion of non-concurrent controls in platform trials with an interim analysis",
+ "authors": [
+  "Pavla Krotka",
+  "Martin Posch",
+  "Marta Bofill Roig"
+ ],
+ "v1_date": "2025-09-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "Statistics in Medicine (2026)",
+ "doi": "10.1002/sim.70585",
+ "comment": "",
+ "abstract": "The analysis of platform trials can be enhanced by utilizing non-concurrent controls. Since including this data might also introduce bias in the treatment effect estimators if time trends are present, methods for incorporating non-concurrent controls adjusting for time have been proposed. However, so far their behavior has not been systematically investigated in platform trials that include interim analyses. To evaluate the impact of an interim analysis in trials utilizing non-concurrent controls, we consider a platform trial featuring two experimental arms and a shared control, with the second experimental arm entering later. We focus on a frequentist regression model that uses non-concurrent controls to estimate the treatment effect of the second arm and adjusts for time using a step function to account for temporal changes. We show that performing an interim analysis in Arm 1 may introduce bias in the point estimation of the effect in Arm 2, if the regression model is used without adjustment, and investigate how the marginal bias and bias conditional on the first arm continuing after the interim depend on different trial design parameters. Moreover, we propose a new estimator of the treatment effect in Arm 2, aiming to eliminate the bias introduced by both the interim analysis in Arm 1 and the time trends, and evaluate its performance in a simulation study. The newly proposed estimator is shown to substantially reduce the bias and type I error rate inflation while leading to power gains compared to an analysis using only concurrent controls.",
+ "primary": "stat.ME"
+}

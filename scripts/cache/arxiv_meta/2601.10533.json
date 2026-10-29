@@ -1,0 +1,16 @@
+{
+ "id": "2601.10533",
+ "title": "A Propagation Framework for Network Regression",
+ "authors": [
+  "Yingying Ma",
+  "Chenlei Leng"
+ ],
+ "v1_date": "2026-01-15",
+ "latest_version": 1,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a unified and computationally efficient framework for regression on network data, addressing limitations of existing models that require specialized estimation procedures or impose restrictive decay assumptions. Our Network Propagation Regression (NPR) models outcomes as functions of covariates propagated through network connections, capturing both direct and indirect effects. NPR is estimable via ordinary least squares for continuous outcomes and standard routines for binary, categorical, and time-to-event data, all within a single interpretable framework. We establish consistency and asymptotic normality under weak conditions and develop valid hypothesis tests for the order of network influence. Simulation studies demonstrate that NPR consistently outperforms established approaches, such as the linear-in-means model and regression with network cohesion, especially under model misspecification. An application to social media sentiment analysis highlights the practical utility and robustness of NPR in real-world settings.",
+ "primary": "stat.ME"
+}

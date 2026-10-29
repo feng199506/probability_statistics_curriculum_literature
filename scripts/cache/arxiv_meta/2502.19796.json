@@ -1,0 +1,19 @@
+{
+ "id": "2502.19796",
+ "title": "A Principled Approach to Bayesian Transfer Learning",
+ "authors": [
+  "Adam Bretherton",
+  "Joshua J. Bon",
+  "David J. Warne",
+  "Kerrie Mengersen",
+  "Christopher Drovandi"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 3,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 tables, 3 figures",
+ "abstract": "Updating $\\textit{a priori}$ information given some observed data is the core tenet of Bayesian inference. Bayesian transfer learning extends this idea by incorporating information from a related dataset to improve the inference on the observed target dataset which may have been collected under slightly different settings. The use of related information can be useful when the target dataset is scarce, for example. There exist various Bayesian transfer learning methods that decide how to incorporate the related data in different ways. Unfortunately, there is no principled approach for comparing Bayesian transfer methods in real data settings. Additionally, some Bayesian transfer learning methods, such as the so-called power prior approaches, rely on conjugacy or costly specialised techniques. In this paper, we find an effective approach to compare Bayesian transfer learning methods is to apply leave-one-out cross validation on the target dataset. Further, we introduce a new framework, $\\textit{transfer sequential Monte Carlo}$, that efficiently implements power prior methods in an automated fashion. We demonstrate the performance of our proposed methods in two comprehensive simulation studies.",
+ "primary": "stat.ME"
+}

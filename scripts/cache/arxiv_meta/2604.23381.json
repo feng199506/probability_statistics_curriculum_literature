@@ -1,0 +1,19 @@
+{
+ "id": "2604.23381",
+ "title": "MCMC with Adaptive Principal-Component Transformation: Rotation-Invariant Universal Samplers for Bayesian Structural System Identification",
+ "authors": [
+  "Xianghao Meng",
+  "Yong Huang",
+  "James L. Beck",
+  "Kui Jiang",
+  "Hui Li"
+ ],
+ "v1_date": "2026-04-25",
+ "latest_version": 1,
+ "latest_date": "2026-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Advanced Engineering Informatics on Apr 25, 2026",
+ "abstract": "Over decades, Markov chain Monte Carlo (MCMC) methods have been widely studied, with a typical application being the quantification of posterior uncertainties in Bayesian system identification of structural dynamic models. To address the issue of excessively low sampling efficiency in generic MCMC methods when applied to specific problems, researchers developed several MCMC algorithms that integrate trainable neural networks to replace and enhance their critical components. Later, meta-learning MCMC methods emerged to reduce training time. However, they require considerable similarity between test and training tasks, while their sampling efficiency is constrained by trade-off-simplified network designs. This paper proposes the Adaptive Principal-Component (PC) Meta-learning Stochastic Gradient Hamiltonian Monte Carlo (APM-SGHMC) algorithm. It adaptively rotates coordinate axes in the parameter space to align with the PC directions of the current posterior samples, ensuring rotation-invariance of sampling performance with respect to the posterior distribution. By incorporating translation-invariance, scale-invariance, and rotation-invariance in a unified framework, APM-SGHMC enables universal samplers to acquire generalizable knowledge across diverse Bayesian system identification tasks using minimalistic tasks while eliminating the constraints imposed by network design trade-offs on sampling efficiency. Practical feasibility issues are also addressed. Two Bayesian system identification case studies demonstrate its effectiveness and universality: our method overcomes the case-by-case limitations of traditional data-driven approaches, achieving zero-shot generalization across structurally distinct models without retraining and maintaining consistent superior performance across all scenarios.",
+ "primary": "stat.AP"
+}

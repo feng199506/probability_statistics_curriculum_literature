@@ -1,0 +1,17 @@
+{
+ "id": "2412.05125",
+ "title": "Optimal control under uncertainty with joint chance state constraints: almost-everywhere bounds, variance reduction, and application to (bi-)linear elliptic PDEs",
+ "authors": [
+  "Rene Henrion",
+  "Georg Stadler",
+  "Florian Wechsung"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 2,
+ "latest_date": "2025-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study optimal control of PDEs under uncertainty with the state variable subject to joint chance constraints. The controls are deterministic, but the states are probabilistic due to random variables in the governing equation. Joint chance constraints ensure that the random state variable meets pointwise bounds with high probability. For linear governing PDEs and elliptically distributed random parameters, we prove existence and uniqueness results for almost-everywhere state bounds. Using the spherical-radial decomposition (SRD) of the uncertain variable, we prove that when the probability is very large or small, the resulting Monte Carlo estimator for the chance constraint probability exhibits substantially reduced variance compared to the standard Monte Carlo estimator. We further illustrate how the SRD can be leveraged to efficiently compute derivatives of the probability function, and discuss different expansions of the uncertain variable in the governing equation. Numerical examples for linear and bilinear PDEs compare the performance of Monte Carlo and quasi-Monte Carlo sampling methods, examining probability estimation convergence as the number of samples increases. We also study how the accuracy of the probabilities depends on the truncation of the random variable expansion, and numerically illustrate the variance reduction of the SRD.",
+ "primary": "math.OC"
+}

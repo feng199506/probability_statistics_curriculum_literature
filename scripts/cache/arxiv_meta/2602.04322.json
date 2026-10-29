@@ -1,0 +1,18 @@
+{
+ "id": "2602.04322",
+ "title": "Exact Multiple Change-Point Detection Via Smallest Valid Partitioning",
+ "authors": [
+  "Vincent Runge",
+  "Anica Kostic",
+  "Alexandre Combeau",
+  "Gaetano Romano"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce smallest valid partitioning (SVP), a segmentation method for multiple change-point detection in time-series. SVP relies on a local notion of segment validity: a candidate segment is retained only if it passes a user-chosen validity test (e.g., a single change-point test). From the collection of valid segments, we propose a coherent aggregation procedure that constructs a global segmentation which is the exact solution of an optimization problem. Our main contribution is the use of a lexicographic order for the optimization problem that prioritizes parsimony. We analyze the computational complexity of the resulting procedure, which ranges from linear to cubic time depending on the chosen cost and validity functions, the data regime and the number of detected changes. Finally, we assess the quality of SVP through comparisons with standard optimal partitioning algorithms, showing that SVP yields competitive segmentations while explicitly enforcing segment validity. The flexibility of SVP makes it applicable to a broad class of problems; as an illustration, we demonstrate robust change-point detection by encoding robustness in the validity criterion.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2605.05056",
+ "title": "MSE-Optimal Difference-in-Differences Estimator",
+ "authors": [
+  "Yamato Igarashi"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a difference-in-differences (DiD) estimation method that selects the optimal length of pre-trends by minimizing the mean squared error (MSE). Conventional DiD regression models, such as the two-way fixed effects model or the event study model, may suffer from accuracy and validity concerns. If the sample size is small, the estimator may have a larger variance. Also, pre-tests often lack power to detect violations of the parallel trends assumption as Roth (2022) highlights. By focusing on the bias and variance tradeoff, the proposed method derives the MSE-optimal estimator from the optimal length of pre-trends. Simulation results and an empirical application demonstrate the practical applicability of the proposed method.",
+ "primary": "econ.EM"
+}

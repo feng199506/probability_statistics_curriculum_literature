@@ -1,0 +1,17 @@
+{
+ "id": "2407.01883",
+ "title": "Robust Linear Mixed Models using Hierarchical Gamma-Divergence",
+ "authors": [
+  "Shonosuke Sugasawa",
+  "Francis K. C. Hui",
+  "Alan H. Welsh"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages (main) + 14 pages (supplement)",
+ "abstract": "Linear mixed models (LMMs) are a popular class of methods for analyzing longitudinal and clustered data. However, such models can be sensitive to outliers, and this can lead to biased inference on model parameters and inaccurate prediction of random effects if the data are contaminated. We propose a new approach to robust estimation and inference for LMMs using a hierarchical gamma-divergence, which offers an automated, data-driven approach to downweight the effects of outliers occurring in both the error and the random effects, using normalized powered density weights. For estimation and inference, we develop a computationally scalable minorization-maximization algorithm for the resulting objective function, along with a clustered bootstrap method for uncertainty quantification and a Hyvarinen score criterion for selecting a tuning parameter controlling the degree of robustness. Under suitable regularity conditions, we show the resulting robust estimates can be asymptotically controlled even under a heavy level of (covariate-dependent) contamination. Simulation studies demonstrate hierarchical gamma-divergence consistently outperforms several currently available methods for robustifying LMMs. We also illustrate the proposed method using data from a multi-center AIDS cohort study.",
+ "primary": "stat.ME"
+}

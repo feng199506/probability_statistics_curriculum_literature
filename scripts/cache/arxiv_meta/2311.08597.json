@@ -1,0 +1,16 @@
+{
+ "id": "2311.08597",
+ "title": "Stopping Methods for Technology Assisted Reviews based on Point Processes",
+ "authors": [
+  "Mark Stevenson",
+  "Reem Bin-Hezam"
+ ],
+ "v1_date": "2023-11-14",
+ "latest_version": 1,
+ "latest_date": "2023-11-14",
+ "journal_ref": "",
+ "doi": "10.1145/3631990",
+ "comment": "Accepted by ACM Transactions on Information Systems (TOIS)",
+ "abstract": "Technology Assisted Review (TAR), which aims to reduce the effort required to screen collections of documents for relevance, is used to develop systematic reviews of medical evidence and identify documents that must be disclosed in response to legal proceedings. Stopping methods are algorithms which determine when to stop screening documents during the TAR process, helping to ensure that workload is minimised while still achieving a high level of recall. This paper proposes a novel stopping method based on point processes, which are statistical models that can be used to represent the occurrence of random events. The approach uses rate functions to model the occurrence of relevant documents in the ranking and compares four candidates, including one that has not previously been used for this purpose (hyperbolic). Evaluation is carried out using standard datasets (CLEF e-Health, TREC Total Recall, TREC Legal), and this work is the first to explore stopping method robustness by reporting performance on a range of rankings of varying effectiveness. Results show that the proposed method achieves the desired level of recall without requiring an excessive number of documents to be examined in the majority of cases and also compares well against multiple alternative approaches.",
+ "primary": "cs.IR"
+}

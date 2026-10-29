@@ -1,0 +1,20 @@
+{
+ "id": "2501.09115",
+ "title": "RAILS: A Synthetic Sampling Weights for Volunteer-Based National Biobanks -- A Case Study with the All of Us Research Program",
+ "authors": [
+  "Huiding Chen",
+  "Andrew Guide",
+  "Lina Sulieman",
+  "Robert M Cronin",
+  "Thomas Lumley",
+  "Qingxia Chen"
+ ],
+ "v1_date": "2025-01-15",
+ "latest_version": 1,
+ "latest_date": "2025-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 2 figure2, 4 tables",
+ "abstract": "While national biobanks are essential for advancing medical research, their non-probability sampling designs limit their representativeness of the target population. This paper proposes a method that leverages high-quality national surveys to create synthetic sampling weights for non-probabilistic cohort studies, aiming to improve representativeness. Specifically, we focus on deriving more accurate base weights, which enhance calibration by meeting population constraints, and on automating data-supported selection of cross-tabulations for calibration. This approach combines a pseudo-design-based model with a novel Last-In-First-Out criterion, enhancing the accuracy and stability of the estimates. Extensive simulations demonstrate that our method, named RAILS, reduces bias, improves efficiency, and strengthens inference compared to existing approaches. We apply the proposed method to the All of Us Research Program, using data from the National Health Interview Survey 2020 and the American Community Survey 2022 and comparing prevalence estimates for common phenotypes against national benchmarks. The results underscore our method's ability to effectively reduce selection bias in non-probability samples, offering a valuable tool for enhancing biobank representativeness. Using the developed sampling weights for the All of Us Research Program, we can estimate the prevalence of the United States population for phenotypes and genotypes not captured by national probability studies.",
+ "primary": "stat.ME"
+}

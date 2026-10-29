@@ -1,0 +1,22 @@
+{
+ "id": "2503.19859",
+ "title": "An Overview of Low-Rank Structures in the Training and Adaptation of Large Models",
+ "authors": [
+  "Laura Balzano",
+  "Tianjiao Ding",
+  "Benjamin D. Haeffele",
+  "Soo Min Kwon",
+  "Qing Qu",
+  "Peng Wang",
+  "Zhangyang Wang",
+  "Can Yaras"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 3,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "10.1109/msp.2026.3666749",
+ "comment": "Authors are listed alphabetically; 37 pages, 15 figures; minor revision at IEEE Signal Processing Magazine",
+ "abstract": "The substantial computational demands of modern large-scale deep learning present significant challenges for efficient training and deployment. Recent research has revealed a widespread phenomenon wherein deep networks inherently learn low-rank structures in their weights and representations during training. This tutorial paper provides a comprehensive review of advances in identifying and exploiting these low-rank structures, bridging mathematical foundations with practical applications. We present two complementary theoretical perspectives on the emergence of low-rankness: viewing it through the optimization dynamics of gradient descent throughout training, and understanding it as a result of implicit regularization effects at convergence. Practically, these theoretical perspectives provide a foundation for understanding the success of techniques such as Low-Rank Adaptation (LoRA) in fine-tuning, inspire new parameter-efficient low-rank training strategies, and explain the effectiveness of masked training approaches like dropout and masked self-supervised learning.",
+ "primary": "cs.LG"
+}

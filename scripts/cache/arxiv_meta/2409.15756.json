@@ -1,0 +1,17 @@
+{
+ "id": "2409.15756",
+ "title": "A penalized online sequential test of heterogeneous treatment effects for generalized linear models",
+ "authors": [
+  "Zhiqing Fang",
+  "Shuyan Chen",
+  "Xin Liu"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 figures and 6 tables in main text, 3 tables in appendix",
+ "abstract": "Identification of heterogeneous treatment effects (HTEs) has been increasingly popular and critical in various penalized strategy decisions using the A/B testing approach, especially in the scenario of a consecutive online collection of samples. However, in high-dimensional settings, such an identification remains challenging in the sense of lack of detection power of HTEs with insufficient sample instances for each batch sequentially collected online. In this article, a novel high-dimensional test is proposed, named as the penalized online sequential test (POST), to identify HTEs and select useful covariates simultaneously under continuous monitoring in generalized linear models (GLMs), which achieves high detection power and controls the Type I error. A penalized score test statistic is developed along with an extended p-value process for the online collection of samples, and the proposed POST method is further extended to multiple online testing scenarios, where both high true positive rates and under-controlled false discovery rates are achieved simultaneously. Asymptotic results are established and justified to guarantee properties of the POST, and its performance is evaluated through simulations and analysis of real data, compared with the state-of-the-art online test methods. Our findings indicate that the POST method exhibits selection consistency and superb detection power of HTEs as well as excellent control over the Type I error, which endows our method with the capability for timely and efficient inference for online A/B testing in high-dimensional GLMs framework.",
+ "primary": "stat.ME"
+}

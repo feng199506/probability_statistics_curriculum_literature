@@ -1,0 +1,18 @@
+{
+ "id": "2402.10229",
+ "title": "Mixture-Models: a one-stop Python Library for Model-based Clustering using various Mixture Models",
+ "authors": [
+  "Siva Rajesh Kasa",
+  "Hu Yijie",
+  "Santhosh Kumar Kasa",
+  "Vaibhav Rajan"
+ ],
+ "v1_date": "2024-02-08",
+ "latest_version": 1,
+ "latest_date": "2024-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "\\texttt{Mixture-Models} is an open-source Python library for fitting Gaussian Mixture Models (GMM) and their variants, such as Parsimonious GMMs, Mixture of Factor Analyzers, MClust models, Mixture of Student's t distributions, etc. It streamlines the implementation and analysis of these models using various first/second order optimization routines such as Gradient Descent and Newton-CG through automatic differentiation (AD) tools. This helps in extending these models to high-dimensional data, which is first of its kind among Python libraries. The library provides user-friendly model evaluation tools, such as BIC, AIC, and log-likelihood estimation. The source-code is licensed under MIT license and can be accessed at \\url{https://github.com/kasakh/Mixture-Models}. The package is highly extensible, allowing users to incorporate new distributions and optimization techniques with ease. We conduct a large scale simulation to compare the performance of various gradient based approaches against Expectation Maximization on a wide range of settings and identify the corresponding best suited approach.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2508.06385",
+ "title": "Bayesian online collective anomaly and change point detection in fine-grained time series",
+ "authors": [
+  "Xian Chen",
+  "Weichi Wu"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 1,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fine-grained time series data are crucial for accurate and timely online change detection. While both collective anomalies and change points can coexist in such data, their joint online detection has received limited attention. In this research, we develop a Bayesian framework capturing time series with collective anomalies and change points, and introduce a recursive online inference algorithm to detect the most recent collective anomaly and change point jointly. For scaling, we further propose an algorithm enhanced with collective anomaly removal that effectively reduces the time and space complexity to linear. We demonstrate the effectiveness of our approach via extensive experiments on simulated data and two real-world applications.",
+ "primary": "stat.ME"
+}

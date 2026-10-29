@@ -1,0 +1,17 @@
+{
+ "id": "2604.03271",
+ "title": "GPU-Accelerated Sequential Monte Carlo for Bayesian Spectral Analysis",
+ "authors": [
+  "Tomohiro Nabika",
+  "Yui Hayashi",
+  "Masato Okada"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian spectral deconvolution provides a data-driven framework for mathematical model selection and parameter estimation from spectral data. Although highly versatile, it becomes computationally expensive as the number of model parameters, data points, and candidate models increases, often rendering practical applications infeasible. We propose a GPU-accelerated approach in which a sequential Monte Carlo sampler (SMCS) is run in parallel on a GPU to perform Bayesian model selection of the number of spectral peaks and Bayesian estimation of peak-function parameters. Numerical experiments demonstrate that the GPU-parallelized SMCS achieves speedups exceeding 500x over CPU-parallelized replica exchange Monte Carlo (REMC). The method is validated on artificial data designed to emulate X-ray photoelectron spectroscopy (XPS) and X-ray diffraction (XRD) measurements, as well as on real experimental spectra. As measurement techniques such as microscopic spectroscopy and in-situ methods continue to drive rapid growth in the volume of spectral data, the proposed approach offers a practical computational foundation for advanced analysis of individual datasets.",
+ "primary": "stat.CO"
+}

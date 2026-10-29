@@ -1,0 +1,19 @@
+{
+ "id": "2407.21253",
+ "title": "An overview of methods for receiver operating characteristic analysis, with an application to SARS-CoV-2 vaccine-induced humoral responses in solid organ transplant recipients",
+ "authors": [
+  "Nathaniel P. Dowd",
+  "Bryan Blette",
+  "James D. Chappell",
+  "Natasha B. Halasa",
+  "Andrew J. Spieker"
+ ],
+ "v1_date": "2024-07-31",
+ "latest_version": 1,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 6 figures",
+ "abstract": "Receiver operating characteristic (ROC) analysis is a tool to evaluate the capacity of a numeric measure to distinguish between groups, often employed in the evaluation of diagnostic tests. Overall classification ability is sometimes crudely summarized by a single numeric measure such as the area under the empirical ROC curve. However, it may also be of interest to estimate the full ROC curve while leveraging assumptions regarding the nature of the data (parametric) or about the ROC curve directly (semiparametric). Although there has been recent interest in methods to conduct comparisons by way of stochastic ordering, nuances surrounding ROC geometry and estimation are not widely known in the broader scientific and statistical community. The overarching goals of this manuscript are to (1) provide an overview of existing frameworks for ROC curve estimation with examples, (2) offer intuition for and considerations regarding methodological trade-offs, and (3) supply sample R code to guide implementation. We utilize simulations to demonstrate the bias-variance trade-off across various methods. As an illustrative example, we analyze data from a recent cohort study in order to compare responses to SARS-CoV-2 vaccination between solid organ transplant recipients and healthy controls.",
+ "primary": "stat.ME"
+}

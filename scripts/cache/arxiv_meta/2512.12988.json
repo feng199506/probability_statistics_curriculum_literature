@@ -1,0 +1,18 @@
+{
+ "id": "2512.12988",
+ "title": "A Bayesian approach to learning mixtures of nonparametric components",
+ "authors": [
+  "Yilei Zhang",
+  "Yun Wei",
+  "Aritra Guha",
+  "XuanLong Nguyen"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "80 pages, 9 figures",
+ "abstract": "Mixture models are widely used in modeling heterogeneous data populations. A standard approach of mixture modeling assumes that the mixture component takes a parametric kernel form. In many applications, making parametric assumptions on the latent subpopulation distributions may be unrealistic, which motivates the need for nonparametric modeling of the mixture components themselves. In this paper, we study finite mixtures with nonparametric mixture components, using a Bayesian nonparametric modeling approach. In particular, it is assumed that the data population is generated according to a finite mixture of latent component distributions, where each component is endowed with a Bayesian nonparametric prior such as the Dirichlet process mixture. We present conditions under which the individual mixture component's distribution can be identified, and establish posterior contraction behavior for the data population's density, as well as densities of the latent mixture components. We develop an efficient MCMC algorithm for posterior inference and demonstrate via simulation studies and real-world data illustrations that it is possible to efficiently learn complex forms of probability distribution for the latent subpopulations. In theory, the posterior contraction rate of the component densities is nearly polynomial, which is a significant improvement over the logarithmic convergence rates of estimating mixing measures via deconvolution.",
+ "primary": "stat.ME"
+}

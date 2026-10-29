@@ -1,0 +1,17 @@
+{
+ "id": "2406.13447",
+ "title": "High-probability minimax lower bounds",
+ "authors": [
+  "Tianyi Ma",
+  "Kabir A. Verchand",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2024-06-19",
+ "latest_version": 2,
+ "latest_date": "2024-07-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 3 figures",
+ "abstract": "The minimax risk is often considered as a gold standard against which we can compare specific statistical procedures. Nevertheless, as has been observed recently in robust and heavy-tailed estimation problems, the inherent reduction of the (random) loss to its expectation may entail a significant loss of information regarding its tail behaviour. In an attempt to avoid such a loss, we introduce the notion of a minimax quantile, and seek to articulate its dependence on the quantile level. To this end, we develop high-probability variants of the classical Le Cam and Fano methods, as well as a technique to convert local minimax risk lower bounds to lower bounds on minimax quantiles. To illustrate the power of our framework, we deploy our techniques on several examples, recovering recent results in robust mean estimation and stochastic convex optimisation, as well as obtaining several new results in covariance matrix estimation, sparse linear regression, nonparametric density estimation and isotonic regression. Our overall goal is to argue that minimax quantiles can provide a finer-grained understanding of the difficulty of statistical problems, and that, in wide generality, lower bounds on these quantities can be obtained via user-friendly tools.",
+ "primary": "math.ST"
+}

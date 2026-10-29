@@ -1,0 +1,17 @@
+{
+ "id": "2610.15799",
+ "title": "Sub-Gaussian Confidence Intervals for Heavy-Tailed Data: Characterizing the Limits of Inference",
+ "authors": [
+  "Ilyes Hammouda",
+  "Stanislav Minsker",
+  "Mohamed Ndaoud"
+ ],
+ "v1_date": "2026-10-11",
+ "latest_version": 1,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the problem of uncertainty quantification in the mean estimation framework. Given an i.i.d. sample from a distribution with unknown mean $μ$ and variance $σ^2$, we want to construct an estimator $\\whμ_n$ and provide a computable and size-optimal upper bound for the error $|\\wh μ_n - μ|$. While estimators possessing strong deviation guarantees are well known, no data-dependent non-asymptotic upper bounds for their performance exist in general. We show that this gap can be bridged by introducing a parameter that characterizes the ``effective sample size'' available for uncertainty quantification. This parameter captures the difficulty of the problem, interpolating between ``easy'' cases where sub-Gaussian confidence intervals exist and ``hard\" cases where their construction is impossible. Using this characterization, we design confidence intervals of optimal length that are fully adaptive to the unknown variance. Numerical experiments confirm that our approach maintains nominal coverage even in asymmetric and heavy-tailed regimes where other existing methods fail.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2506.01619",
+ "title": "A projector-rank partition theorem for exact degrees of freedom in experimental design",
+ "authors": [
+  "Nagananda K G"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 4,
+ "latest_date": "2026-03-21",
+ "journal_ref": "Journal of Statistical Planning and Inference, 2026",
+ "doi": "10.1016/j.jspi.2026.106409",
+ "comment": "26 pages",
+ "abstract": "In many experimental designs -- split-plots, blocked or nested layouts, fractional factorials, and studies with missing or unequal replication -- standard ANOVA procedures no longer tell us exactly how many independent pieces of information each effect truly contributes. We provide a general degrees of freedom $(\\mathrm{df})$ partition theorem that resolves this ambiguity. For $N$ observations, we show that the total information in the data (i.e., $N-1$ $\\mathrm{df}$) can be split exactly across experimental effects and randomization strata by projecting the data onto each stratum and counting the $\\mathrm{df}$ each effect contributes there. This yields integer $\\mathrm{df}$ -- not approximations -- for any mix of fixed and random effects, blocking structures, fractionation, or imbalance. This result yields closed-form $\\mathrm{df}$ tables for unbalanced split-plot, row-column, lattice, and crossed-nested designs. We introduce practical diagnostics -- the $\\mathrm{df}$-retention ratio $ρ$, df deficiency $δ$, and variance-inflation index $α$ -- that measure exactly how many $\\mathrm{df}$ an effect retains under blocking or fractionation and the resulting loss of precision, thereby extending Box-Hunter's resolution idea to multi-stratum and incomplete designs. Classical results emerge as corollaries: Cochran's one-stratum identity; Yates's split-plot $\\mathrm{df}$; resolution-$R$ identified when an effect retains no $\\mathrm{df}$. Empirical studies on split-plot and nested designs, a blocked fractional-factorial design-selection experiment, and timing benchmarks show that our approach delivers calibrated error rates, recovers information to raise power by up to 60% without additional runs, and is orders of magnitude faster than bootstrap-based $\\mathrm{df}$ approximations.",
+ "primary": "math.ST"
+}

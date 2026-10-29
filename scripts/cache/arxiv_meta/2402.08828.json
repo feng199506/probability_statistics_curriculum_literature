@@ -1,0 +1,17 @@
+{
+ "id": "2402.08828",
+ "title": "Fusing Individualized Treatment Rules Using Secondary Outcomes",
+ "authors": [
+  "Daiqi Gao",
+  "Yuanjia Wang",
+  "Donglin Zeng"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 3,
+ "latest_date": "2024-03-09",
+ "journal_ref": "Proceedings of The 27th International Conference on Artificial Intelligence and Statistics, PMLR 238:712-720, 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "An individualized treatment rule (ITR) is a decision rule that recommends treatments for patients based on their individual feature variables. In many practices, the ideal ITR for the primary outcome is also expected to cause minimal harm to other secondary outcomes. Therefore, our objective is to learn an ITR that not only maximizes the value function for the primary outcome, but also approximates the optimal rule for the secondary outcomes as closely as possible. To achieve this goal, we introduce a fusion penalty to encourage the ITRs based on different outcomes to yield similar recommendations. Two algorithms are proposed to estimate the ITR using surrogate loss functions. We prove that the agreement rate between the estimated ITR of the primary outcome and the optimal ITRs of the secondary outcomes converges to the true agreement rate faster than if the secondary outcomes are not taken into consideration. Furthermore, we derive the non-asymptotic properties of the value function and misclassification rate for the proposed method. Finally, simulation studies and a real data example are used to demonstrate the finite-sample performance of the proposed method.",
+ "primary": "stat.ME"
+}

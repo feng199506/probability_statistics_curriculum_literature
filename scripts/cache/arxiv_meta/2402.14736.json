@@ -1,0 +1,17 @@
+{
+ "id": "2402.14736",
+ "title": "Grouped approximate control variate estimators",
+ "authors": [
+  "Alex A. Gorodetsky",
+  "John D. Jakeman",
+  "Michael S. Eldred"
+ ],
+ "v1_date": "2024-02-22",
+ "latest_version": 1,
+ "latest_date": "2024-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 3 figures",
+ "abstract": "This paper analyzes the approximate control variate (ACV) approach to multifidelity uncertainty quantification in the case where weighted estimators are combined to form the components of the ACV. The weighted estimators enable one to precisely group models that share input samples to achieve improved variance reduction. We demonstrate that this viewpoint yields a generalized linear estimator that can assign any weight to any sample. This generalization shows that other linear estimators in the literature, particularly the multilevel best linear unbiased estimator (ML-BLUE) of Schaden and Ullman in 2020, becomes a specific version of the ACV estimator of Gorodetsky, Geraci, Jakeman, and Eldred, 2020. Moreover, this connection enables numerous extensions and insights. For example, we empirically show that having non-independent groups can yield better variance reduction compared to the independent groups used by ML-BLUE. Furthermore, we show that such grouped estimators can use arbitrary weighted estimators, not just the simple Monte Carlo estimators used in ML-BLUE. Furthermore, the analysis enables the derivation of ML-BLUE directly from a variance reduction perspective, rather than a regression perspective.",
+ "primary": "stat.CO"
+}

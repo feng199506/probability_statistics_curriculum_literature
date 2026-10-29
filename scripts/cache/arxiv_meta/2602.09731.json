@@ -1,0 +1,17 @@
+{
+ "id": "2602.09731",
+ "title": "Bayesian identification of early warning signals for long-range dependent climatic time series",
+ "authors": [
+  "Sigrunn H. Sørbye",
+  "Eirik Myrvoll-Nilsen",
+  "Håvard Rue"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 9 figures",
+ "abstract": "Detecting early warning signals in climatic time series is essential for anticipating critical transitions and tipping points. Common statistical indicators include increased variance and lag-one autocorrelation prior to bifurcation points. However, these indicators are sensitive to observational noise, long-term mean trends, and long-memory dependence, all of which are prevalent in climatic time series. Such effects can easily obscure genuine signals or generate spurious detections. To address these challenges, we employ a flexible Bayesian framework for modelling time-varying autocorrelation in long-range dependent time series, also accounting for time-varying variance. The approach uses a mixture of two fractional Gaussian noise processes with a time-dependent weight function to represent fractional Gaussian noise with a time-varying Hurst exponent. Inference is performed via integrated nested Laplace approximation, enabling joint estimation of mean trends and handling of irregularly sampled observations. The strengths and limitations of detecting changes in the autocorrelation is investigated in extensive simulations. Applied to real climatic data sets, we find evidence of early warning signals in a reconstructed Atlantic multidecadal variability index, while dismissing such signals for paleoclimate records spanning the Dansgaard-Oeschger events.",
+ "primary": "stat.ME"
+}

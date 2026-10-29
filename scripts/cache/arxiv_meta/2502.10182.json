@@ -1,0 +1,19 @@
+{
+ "id": "2502.10182",
+ "title": "Scalable Generalised Accuracy Estimation for Multisource Register-based Official Statistics",
+ "authors": [
+  "Nina Deliu",
+  "Piero Demetrio Falorsi",
+  "Stefano Falorsi",
+  "Diego Chianella",
+  "Giorgio Alleva"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 2,
+ "latest_date": "2026-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages (main manuscript and supplementary material); 7 tables, 5 figures",
+ "abstract": "Official statistics are undergoing a significant transformation, as national statistical institutes transition from traditional single-source data production systems to integrated systems of statistical registers combining administrative, census, and survey data. The resulting multisource register-based estimates are prone to multiple interacting sources of error, yet rigorous scalable frameworks for quantifying their accuracy remain underdeveloped. This work discusses and validates a global measure of error assessment for such multisource register-based statistics. Focusing on two central sources of uncertainty, sampling and modelling, we derive an analytical solution that accurately approximates the global error of mass-imputation procedures under a multinomial logistic model. The proposed measure is interpretable, flexible, and computationally scalable, enabling on-the-fly accuracy quantification for user-defined, unplanned domain-specific statistics on population totals. Its validity is established theoretically and confirmed through simulation studies. An application to education data from the Italian National Institute of Statistics is presented.",
+ "primary": "stat.ME"
+}

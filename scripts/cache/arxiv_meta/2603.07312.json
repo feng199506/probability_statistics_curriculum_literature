@@ -1,0 +1,15 @@
+{
+ "id": "2603.07312",
+ "title": "Predictive Power Analysis of Multiple Test Procedures Under Arbitrary Dependence",
+ "authors": [
+  "George Karabatsos"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 3,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many statistical problems can be addressed by applying a multiple testing procedure (MTP) that controls either the Family-wise Error Rate (FWER) or False Discovery Rate (FDR) under unknown arbitrarily-interdependent $p$-values, without explicitly modeling these inter-correlations. They include the FWER-controlling Bonferroni (1936) MTP and Holm (1979) MTP; the FDR-controlling Benjamini and Yekutieli (2001) MTP; and the DP-MTP (Karabatsos, 2025), based on a Dirichlet process (DP) prior distribution supporting the entire space of MTPs that control either the FWER or FDR. For such an MTP, this study introduces a new and congenial method for Bayesian predictive power analysis, for power calculation and sample size determination for any given planned future (e.g., replication or interim) study. This novel MTP predictive power analysis method is based on a joint prior distribution defining a scale matrix mixture of asymmetric multivariate normal mean-variance mixture distributions, factorized as a general prior distribution for effect sizes (e.g., obtained from expert judgment or results of prior studies), and a uniform prior distribution for correlation matrices representing arbitrary dependencies between $p$-values of test statistics of given multiple hypothesis tests under their alternative hypotheses. The new MTP power analysis method also results in $p$-value weights which can be used to minimize the relative impacts of and assess for significance-chasing biases (e.g., publication bias, $p$-hacking, etc.) in multiple testing, without needing to assume that $p$-values (effect sizes) are independent. The new simulation-based MTP predictive power analysis method is illustrated through the analysis of $p$-values obtained by a famous study of lead exposure and re-analyzed by the previous MTP literature, using R package bnpMTP.",
+ "primary": "stat.ME"
+}

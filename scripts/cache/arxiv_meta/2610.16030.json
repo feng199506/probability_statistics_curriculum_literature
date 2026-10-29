@@ -1,0 +1,17 @@
+{
+ "id": "2610.16030",
+ "title": "Limit Theory for Online Expectile Estimation under Short and Long Range Dependence",
+ "authors": [
+  "Younghun Lee",
+  "Jake Zummo",
+  "Wei Biao Wu"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 1 figure",
+ "abstract": "Expectiles are tail-sensitive distributional summaries with important applications in financial risk measurement and forecasting, yet statistical theory for their online estimation from dependent data remains limited. We study a one-pass, stochastic-gradient algorithm with constant learning rate $γ$ for estimating the marginal expectile of a stationary causal process. The recursion admits a unique stationary causal solution and geometrically forgets its initialization. Under short-range dependence, its last iterate is asymptotically Gaussian at the $\\sqrtγ$ scale, with variance governed by the population curvature and the long-run variance of the expectile score. For long-memory linear processes the scale changes to $γ^{β-1/2}\\ell(1/γ)$, with a Gaussian limit arising from a fractional Brownian motion integral. We further derive the joint long-memory limit for multiple expectile levels and characterize its limiting covariance structure. Various numerical experiments corroborate the predicted Gaussian approximations and regime-specific fluctuation scales.",
+ "primary": "stat.ML"
+}

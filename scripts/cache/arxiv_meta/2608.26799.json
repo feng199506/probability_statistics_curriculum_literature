@@ -1,0 +1,16 @@
+{
+ "id": "2608.26799",
+ "title": "Lower Bounds for Nonconvex-PŁ Minimax Optimization",
+ "authors": [
+  "Siyu Pan",
+  "Jiajin Li"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 1,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the deterministic first-order oracle complexity of finding stationary points of the value function in smooth nonconvex-Polyak-Łojasiewicz (NC-PŁ) minimax optimization. We assume that the objective is jointly $\\ell$-smooth and satisfies the $μ$-PŁ condition in the dual variable, and that its value function $Φ(x):=\\max_y f(x;y)$ satisfies $Φ(0)-\\inf_xΦ(x)\\leqΔ$. When $κ:=\\ell/μ\\gtrsim 1$ and $0<ε^2\\lesssim\\ellΔ$, we prove that every deterministic first-order method requires $Ω(\\ellΔκ/ε^2)$ oracle queries in the worst case to find $x$ satisfying $\\|\\nablaΦ(x)\\|\\leqε$. This rate matches the known upper bound in its dependence on $(\\ell,Δ,κ,ε)$ [Yang et al., 2022] and shows that the linear dependence on $κ$ is unavoidable for deterministic first-order methods.",
+ "primary": "math.OC"
+}

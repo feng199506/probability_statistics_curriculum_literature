@@ -1,0 +1,18 @@
+{
+ "id": "2504.06685",
+ "title": "Testing Multivariate Conditional Independence Using Exchangeable Sampling and Sufficient Statistics",
+ "authors": [
+  "Xiaotong Lin",
+  "Jie Xie",
+  "Fangqiao Tian",
+  "Dongming Huang"
+ ],
+ "v1_date": "2025-04-09",
+ "latest_version": 1,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2312.01815",
+ "abstract": "We consider testing multivariate conditional independence between a response Y and a covariate vector X given additional variables Z. We introduce the Multivariate Sufficient Statistic Conditional Randomization Test (MS-CRT), which generates exchangeable copies of X by conditioning on sufficient statistics of P(X|Z). MS-CRT requires no modelling assumption on Y and accommodates any test statistics, including those derived from complex predictive models. It relaxes the assumptions of standard conditional randomization tests by allowing more unknown parameters in P(X|Z) than the sample size. MS-CRT avoids multiplicity corrections and effectively detects joint signals, even when individual components of X have only weak effects on Y . Our method extends to group selection with false discovery rate control. We develop efficient implementations for two important cases where P(X,Z) is either multivariate normal or belongs to a graphical model. For normal models, we establish the minimax rate optimality. For graphical models, we demonstrate the superior performance of our method compared to existing methods through comprehensive simulations and real-data examples.",
+ "primary": "stat.ME"
+}

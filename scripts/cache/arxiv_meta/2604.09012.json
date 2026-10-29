@@ -1,0 +1,19 @@
+{
+ "id": "2604.09012",
+ "title": "Spatially varying distributed lag non-linear models using Laplacian P-splines",
+ "authors": [
+  "Sara Rutten",
+  "Thomas Neyens",
+  "Elisa Duarte",
+  "Antonio Gasparrini",
+  "Christel Faes"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although distributed lag non-linear models (DLNMs) are commonly used to quantify delayed and non-linear exposure-response relationships, most existing applications assume that these relationships are constant across space. However, in many geographical and environmental studies, local characteristics vary substantially across areas, making a spatially varying effect more realistic. Extending DLNMs to allow for spatial heterogeneity remains challenging, and only a limited number of modelling strategies have been proposed in literature. The most popular extension is a two-stage meta-analysis approach, which requires sufficiently large sample sizes at each location. Therefore, its usefulness is limited when working with sparse count data in small area data analyses. Although a number of alternative one-stage approaches have been introduced, their computational burden restricts their applicability in real-life data applications. In this paper, we introduce a computationally efficient Bayesian one-stage spatially-varying DLNM for count data. We define four model variants, differing in the assumed spatial dependence structure and the flexibility of the DLNM spline specification. To address the computational burden typically associated with these flexible models, we use Laplace approximations, offering an efficient alternative to classically used Markov Chain Monte Carlo (MCMC) approaches. Model comparison criteria are provided to facilitate the selection of a suitable model in a real-life data application. The proposed methods are evaluated through simulation studies, and their practical usefulness is illustrated through a real-life data application, investigating the temperature-mortality relationship in every municipality of Sicily, Italy.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.19988",
+ "title": "Change point analysis of high-dimensional data using random projections",
+ "authors": [
+  "Yi Xu",
+  "Yeonwoo Rho"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 3,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a novel change point identification method for high-dimensional data using random projections. By projecting high-dimensional time series into a one-dimensional space, we are able to leverage the rich literature for univariate time series. We propose applying random projections multiple times and then combining the univariate test results using existing multiple comparison methods. Simulation results suggest that the proposed method tends to have better size and power, with more accurate location estimation. At the same time, random projections may introduce variability in the estimated locations. To enhance stability in practice, we recommend repeating the procedure, and using the mode of the estimated locations as a guide for the final change point estimate. An application to an Australian temperature dataset is presented. This study, though limited to the single change point setting, demonstrates the usefulness of random projections in change point analysis.",
+ "primary": "stat.ME"
+}

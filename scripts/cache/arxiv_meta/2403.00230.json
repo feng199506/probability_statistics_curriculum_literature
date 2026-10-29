@@ -1,0 +1,18 @@
+{
+ "id": "2403.00230",
+ "title": "On Cyclical MCMC Sampling",
+ "authors": [
+  "Liwei Wang",
+  "Xinru Liu",
+  "Aaron Smith",
+  "Yves Atchade"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages 2 figures",
+ "abstract": "Cyclical MCMC is a novel MCMC framework recently proposed by Zhang et al. (2019) to address the challenge posed by high-dimensional multimodal posterior distributions like those arising in deep learning. The algorithm works by generating a nonhomogeneous Markov chain that tracks -- cyclically in time -- tempered versions of the target distribution. We show in this work that cyclical MCMC converges to the desired probability distribution in settings where the Markov kernels used are fast mixing, and sufficiently long cycles are employed. However in the far more common settings of slow mixing kernels, the algorithm may fail to produce samples from the desired distribution. In particular, in a simple mixture example with unequal variance, we show by simulation that cyclical MCMC fails to converge to the desired limit. Finally, we show that cyclical MCMC typically estimates well the local shape of the target distribution around each mode, even when we do not have convergence to the target.",
+ "primary": "stat.CO"
+}

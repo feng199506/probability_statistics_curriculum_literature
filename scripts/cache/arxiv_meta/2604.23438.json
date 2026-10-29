@@ -1,0 +1,16 @@
+{
+ "id": "2604.23438",
+ "title": "Estimating Causal Attribution of Anthropogenic Forcing on High-Temperature Extremes Using a Latent Gaussian Spatial Model",
+ "authors": [
+  "Ritik Roshan Giri",
+  "Arnab Hazra"
+ ],
+ "v1_date": "2026-04-25",
+ "latest_version": 1,
+ "latest_date": "2026-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 6 figures, 3 tables, 1 algorithm",
+ "abstract": "Climate change has become a significant global concern due to its capacity to cause substantial disruption to daily life by increasing the frequency and intensity of extreme weather events. Given the rising trend of human interventions in the climate system over recent decades, this study aims to quantify the relative contribution of anthropogenic forcing to the increasing likelihood of climate extremes, with a particular emphasis on high-temperature extremes. Our analysis focuses on annual temperature maxima from the IPSL-CM6A model in the CMIP6 experiment. We propose a novel causal inference framework that focuses on differences in return levels derived from annual temperature maxima between the factual and counterfactual worlds. While jointly modeling the annual maxima from the two worlds using a bivariate generalized extreme value distribution, we model the spatially-varying coefficients using a latent Gaussian framework. Specifically, given that the data are available over a $1^\\circ \\times 1^\\circ$ grid, we employ the multivariate intrinsic conditional autoregressive model for the latent layer in the proposed hierarchical model, ensuring proper posterior distributions. We implement a recently developed highly-efficient approximate Bayesian inference technique, `Max-and-smooth', that uses a Laplace approximation of the likelihood and then performs Gibbs sampling based on the approximate posterior. The results include posterior estimates of the causal effect of anthropogenic forcing on high-temperature extremes, along with the trends in this effect, over the factual world. Furthermore, we estimate credible regions for a significant causal effect to facilitate hotspot detection across the mainland United States.",
+ "primary": "stat.AP"
+}

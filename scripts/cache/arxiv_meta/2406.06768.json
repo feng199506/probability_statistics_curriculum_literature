@@ -1,0 +1,17 @@
+{
+ "id": "2406.06768",
+ "title": "Data-Driven Switchback Experiments: Theoretical Tradeoffs and Empirical Bayes Designs",
+ "authors": [
+  "Ruoxuan Xiong",
+  "Alex Chin",
+  "Sean J. Taylor"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 1,
+ "latest_date": "2024-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the design and analysis of switchback experiments conducted on a single aggregate unit. The design problem is to partition the continuous time space into intervals and switch treatments between intervals, in order to minimize the estimation error of the treatment effect. We show that the estimation error depends on four factors: carryover effects, periodicity, serially correlated outcomes, and impacts from simultaneous experiments. We derive a rigorous bias-variance decomposition and show the tradeoffs of the estimation error from these factors. The decomposition provides three new insights in choosing a design: First, balancing the periodicity between treated and control intervals reduces the variance; second, switching less frequently reduces the bias from carryover effects while increasing the variance from correlated outcomes, and vice versa; third, randomizing interval start and end points reduces both bias and variance from simultaneous experiments. Combining these insights, we propose a new empirical Bayes design approach. This approach uses prior data and experiments for designing future experiments. We illustrate this approach using real data from a ride-sharing platform, yielding a design that reduces MSE by 33% compared to the status quo design used on the platform.",
+ "primary": "stat.ME"
+}

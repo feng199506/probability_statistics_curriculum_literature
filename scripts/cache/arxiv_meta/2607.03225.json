@@ -1,0 +1,16 @@
+{
+ "id": "2607.03225",
+ "title": "Post-Selection Inference for Multiverse Analysis in Mixed-Effects Models (PIMAX)",
+ "authors": [
+  "Anna Vesely",
+  "Angela Andreella"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 5 figures",
+ "abstract": "Sign-flipping score tests provide robust inference in generalized linear models under variance misspecification and form the basis of two recent inferential frameworks: post-selection inference in multiverse analysis (PIMA) and the sign-flipping score-based two-stage summary-statistics approach (flip2sss). PIMA provides asymptotically valid inference across a multiverse of model specifications, whereas flip2sss extends sign-flipping score testing to longitudinal and hierarchical data through cluster-level summary statistics. In this paper, we combine these two approaches to develop PIMAX, a multiverse inferential framework for clustered observations. The resulting method extends post-selection inference to clustered-data settings, accommodating heteroscedasticity, unbalanced designs, and within-cluster dependence. Given a multiverse of candidate specifications, PIMAX provides a global p-value for testing whether any specification exhibits a non-zero effect (weak control of the family-wise error rate, FWER), lower confidence bounds on the number of true discoveries, and multiplicity-adjusted p-values for identifying the specific contributing specifications (strong FWER control). By avoiding inference based on a fully specified random-effects covariance structure, PIMAX solves a key source of type I error inflation due to random-effects misspecification while enabling inference across a multiverse of fixed-effects specifications.",
+ "primary": "stat.ME"
+}

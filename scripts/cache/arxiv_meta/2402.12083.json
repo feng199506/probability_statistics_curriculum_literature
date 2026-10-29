@@ -1,0 +1,19 @@
+{
+ "id": "2402.12083",
+ "title": "TrialEmulation: An R Package to Emulate Target Trials for Causal Analysis of Observational Time-to-event Data",
+ "authors": [
+  "Li Su",
+  "Roonak Rezvani",
+  "Shaun R. Seaman",
+  "Colin Starr",
+  "Isaac Gravestock"
+ ],
+ "v1_date": "2024-02-19",
+ "latest_version": 1,
+ "latest_date": "2024-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 4 figures, 5 tables",
+ "abstract": "Randomised controlled trials (RCTs) are regarded as the gold standard for estimating causal treatment effects on health outcomes. However, RCTs are not always feasible, because of time, budget or ethical constraints. Observational data such as those from electronic health records (EHRs) offer an alternative way to estimate the causal effects of treatments. Recently, the `target trial emulation' framework was proposed by Hernan and Robins (2016) to provide a formal structure for estimating causal treatment effects from observational data. To promote more widespread implementation of target trial emulation in practice, we develop the R package TrialEmulation to emulate a sequence of target trials using observational time-to-event data, where individuals who start to receive treatment and those who have not been on the treatment at the baseline of the emulated trials are compared in terms of their risks of an outcome event. Specifically, TrialEmulation provides (1) data preparation for emulating a sequence of target trials, (2) calculation of the inverse probability of treatment and censoring weights to handle treatment switching and dependent censoring, (3) fitting of marginal structural models for the time-to-event outcome given baseline covariates, (4) estimation and inference of marginal intention to treat and per-protocol effects of the treatment in terms of marginal risk differences between treated and untreated for a user-specified target trial population. In particular, TrialEmulation can accommodate large data sets (e.g., from EHRs) within memory constraints of R by processing data in chunks and applying case-control sampling. We demonstrate the functionality of TrialEmulation using a simulated data set that mimics typical observational time-to-event data in practice.",
+ "primary": "stat.ME"
+}

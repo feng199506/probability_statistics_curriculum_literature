@@ -1,0 +1,17 @@
+{
+ "id": "2312.17015",
+ "title": "Regularized Exponentially Tilted Empirical Likelihood for Bayesian Inference",
+ "authors": [
+  "Eunseop Kim",
+  "Steven N. MacEachern",
+  "Mario Peruggia"
+ ],
+ "v1_date": "2023-12-28",
+ "latest_version": 5,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "10.1214/26-ba1620",
+ "comment": "",
+ "abstract": "Bayesian inference with empirical likelihood faces a challenge as the posterior domain is a proper subset of the original parameter space due to the convex hull constraint. We propose a regularized exponentially tilted empirical likelihood to address this issue. Our method removes the convex hull constraint using a novel regularization technique, incorporating a continuous exponential family distribution to satisfy a Kullback--Leibler divergence criterion. The regularization arises as a limiting procedure where pseudo-data are added to the formulation of exponentially tilted empirical likelihood in a structured fashion. We show that this regularized exponentially tilted empirical likelihood retains certain desirable asymptotic properties with improved finite sample performance. Simulation and data analysis demonstrate that the proposed method provides a suitable pseudo-likelihood for Bayesian inference.",
+ "primary": "stat.ME"
+}

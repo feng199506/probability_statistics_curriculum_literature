@@ -1,0 +1,16 @@
+{
+ "id": "2410.11101",
+ "title": "A Two-Stage Federated Learning Approach for Industrial Prognostics Using Large-Scale High-Dimensional Signals",
+ "authors": [
+  "Yuqi Su",
+  "Xiaolei Fang"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Industrial prognostics aims to develop data-driven methods that leverage high-dimensional degradation signals from assets to predict their failure times. The success of these models largely depends on the availability of substantial historical data for training. However, in practice, individual organizations often lack sufficient data to independently train reliable prognostic models, and privacy concerns prevent data sharing between organizations for collaborative model training. To overcome these challenges, this article proposes a statistical learning-based federated model that enables multiple organizations to jointly train a prognostic model while keeping their data local and secure. The proposed approach involves two key stages: federated dimension reduction and federated (log)-location-scale regression. In the first stage, we develop a federated randomized singular value decomposition algorithm for multivariate functional principal component analysis, which efficiently reduces the dimensionality of degradation signals while maintaining data privacy. The second stage proposes a federated parameter estimation algorithm for (log)-location-scale regression, allowing organizations to collaboratively estimate failure time distributions without sharing raw data. The proposed approach addresses the limitations of existing federated prognostic methods by using statistical learning techniques that perform well with smaller datasets and provide comprehensive failure time distributions. The effectiveness and practicality of the proposed model are validated using simulated data and a dataset from the NASA repository.",
+ "primary": "stat.ML"
+}

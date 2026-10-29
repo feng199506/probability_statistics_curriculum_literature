@@ -1,0 +1,17 @@
+{
+ "id": "2401.00520",
+ "title": "Monte Carlo Expectation-Maximization algorithm to detect imprinting and maternal effects for discordant sib-pair data",
+ "authors": [
+  "Ruwani Herath",
+  "Alex Trindade",
+  "Fangyuan Zhang"
+ ],
+ "v1_date": "2023-12-31",
+ "latest_version": 1,
+ "latest_date": "2023-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Numerous statistical methods have been developed to explore genomic imprinting and maternal effects, which are causes of parent-of-origin patterns in complex human diseases. Most of the methods, however, either only model one of these two confounded epigenetic effects, or make strong yet unrealistic assumptions about the population to avoid over-parameterization. A recent partial likelihood method (LIMEDSP ) can identify both epigenetic effects based on discordant sibpair family data without those assumptions. Theoretical and empirical studies have shown its validity and robustness. As LIMEDSP method obtains parameter estimation by maximizing partial likelihood, it is interesting to compare its efficiency with full likelihood maximizer. To overcome the difficulty in over-parameterization when using full likelihood, this study proposes a discordant sib-pair design based Monte Carlo Expectation Maximization (MCEMDSP ) method to detect imprinting and maternal effects jointly. Those unknown mating type probabilities, the nuisance parameters, are considered as latent variables in EM algorithm. Monte Carlo samples are used to numerically approximate the expectation function that cannot be solved algebraically. Our simulation results show that though this MCEMDSP algorithm takes longer computation time, it can generally detect both epigenetic effects with higher power, which demonstrates that it can be a good complement of LIMEDSP method",
+ "primary": "stat.ME"
+}

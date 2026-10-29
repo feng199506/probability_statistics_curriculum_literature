@@ -1,0 +1,17 @@
+{
+ "id": "2601.01259",
+ "title": "A Novel Multiple Imputation Approach For Parameter Estimation in Observation-Driven Time Series Models With Missing Data",
+ "authors": [
+  "Guilherme Pumi",
+  "Taiane Schaedler Prass",
+  "Douglas Krauthein Verdum"
+ ],
+ "v1_date": "2026-01-03",
+ "latest_version": 3,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This version presents the large sample theory for the proposed method, showing its strong consistency under mild assumptions, regardless of the amount of missing data or the its generating mechanism",
+ "abstract": "Handling missing data in time series is a complex problem due to the presence of temporal dependence. General-purpose imputation methods, while widely used, often distort key statistical properties of the data, such as variance and dependence structure, leading to biased estimation and misleading inference. These issues become more pronounced in models that explicitly rely on capturing serial dependence, as standard imputation techniques fail to preserve the underlying dynamics. This paper proposes a novel multiple imputation method specifically designed for parameter estimation in observation-driven models (ODM). The approach takes advantage of the iterative nature of the systematic component in ODM to propagate the dependence structure through missing data, minimizing its impact on estimation. Unlike traditional imputation techniques, the proposed method accommodates continuous, discrete, and mixed-type data while preserving key distributional and dependence properties. We evaluate its performance through Monte Carlo simulations in the context of GARMA models, considering time series with up to 70\\% missing data. An application to the proportion of stocked energy stored in South Brazil further demonstrates its practical utility.",
+ "primary": "stat.ME"
+}

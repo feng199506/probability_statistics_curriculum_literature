@@ -1,0 +1,17 @@
+{
+ "id": "2508.11861",
+ "title": "A novel approach to generate distributions with applications to regression modeling",
+ "authors": [
+  "Subhankar Dutta",
+  "Roberto Vila",
+  "Terezinha K. A. Ribeiro"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 2,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 7 figures",
+ "abstract": "A novel approach to adding an additional parameter to a family of distributions for better adaptability has been put forth. This approach yields a versatile class of distributions supported on the positive real line. An important advantage of the proposed family is that the additional parameter admits a clear interpretation in terms of tail behavior, providing a simple mechanism for modulating tail heaviness. We proceed to analyze its mathematical characteristics, such as critical points, modality, stochastic representation, identifiability, quantiles, moments, and truncated moments. We present two new regression models for positive continuous data based on submodels of the newly proposed family of distributions, in which the distribution of the response variable is reparameterized in terms of the median. We use the maximum likelihood method to estimate the parameters, which was implemented through the gamlss package in R. The proposed regression models were applied to a real dataset, and their advantages over common alternative regression models were demonstrated through quantile residual analysis and information criteria.",
+ "primary": "stat.ME"
+}

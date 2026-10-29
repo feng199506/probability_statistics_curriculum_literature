@@ -1,0 +1,17 @@
+{
+ "id": "2605.07362",
+ "title": "Sufficient Dimension Reduction via Inverse Conditional Mean or Variance Independence",
+ "authors": [
+  "Jicai Liu",
+  "Yu Zhang",
+  "Jinhong Li"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "10.1007/s11222-026-10943-4",
+ "comment": "",
+ "abstract": "This paper presents a unified framework for sufficient dimension reduction (SDR) that generalizes several existing SDR techniques and offers new insights into the connection between inverse conditional moment independence and dimension reduction. The framework is built on two forms of inverse independence between the response vector and predictors: inverse conditional mean independence (ICMI) and inverse conditional variance independence (ICVI). For each form, we develop two general classes of matrices capable of recovering the central subspace, based on projection and kernel techniques respectively. This yields four distinct estimators: projection- and kernel-based variants under both ICMI and ICVI frameworks. Under standard regularity conditions, we establish the theoretical properties of these estimators and derive their convergence rates in high-dimensional settings. The proposed methods exhibit robustness to outliers in the response variable while maintaining computational competitiveness. Simulation studies and real-data analyses demonstrate the practical effectiveness of the proposed methods.",
+ "primary": "stat.ME"
+}

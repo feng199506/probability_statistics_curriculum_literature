@@ -1,0 +1,17 @@
+{
+ "id": "2510.20259",
+ "title": "Unifying Boxplots: A Multiple Testing Perspective",
+ "authors": [
+  "Bowen Gang",
+  "Hongmei Lin",
+  "Tiejun Tong"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tukey's boxplot is a foundational tool for exploratory data analysis, but its classic outlier-flagging rule does not account for the sample size, and subsequent modifications have often been presented as separate, heuristic adjustments. In this paper, we propose a unifying framework that recasts the boxplot and its variants as graphical implementations of multiple testing procedures. We demonstrate that Tukey's original method is equivalent to an unadjusted procedure, while existing sample-size-aware modifications correspond to controlling the Family-Wise Error Rate (FWER) or the Per-Family Error Rate (PFER). This perspective not only systematizes existing methods but also naturally leads to new, more adaptive constructions. We introduce a boxplot motivated by the False Discovery Rate (FDR), and show how our framework provides a flexible pipeline for integrating state-of-the-art robust estimation techniques directly into the boxplot's graphical format. By connecting a classic graphical tool to the principles of multiple testing, our work provides a principled language for comparing, critiquing, and extending outlier detection rules for modern exploratory analysis.",
+ "primary": "stat.ME"
+}

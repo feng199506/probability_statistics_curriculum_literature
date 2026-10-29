@@ -1,0 +1,16 @@
+{
+ "id": "2605.19100",
+ "title": "ldmppr: Location Dependent Marked Point Processes in R",
+ "authors": [
+  "Lane Drew",
+  "Andee Kaplan"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 1,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 5 figures",
+ "abstract": "In this article, we present $\\textbf{ldmppr}$, an R package for estimating, evaluating, simulating from, and visualizing location-dependent marked spatial point processes. To date, it has commonly been assumed that the marks associated with a point process are independent of the locations. However, when dealing with many point processes, such as those arising in forestry applications, the independence assumption proves unreasonable. We introduce a practical framework for generating marked point processes with dependence between the marks and locations. We provide a brief discussion of the theory underpinning our modeling approach and outline the use of the package in a typical scenario involving real data. We highlight the functionality of the package for both generating from and assessing the goodness-of-fit of a given model, enabling users to generate realistic point patterns given a reference pattern or parameter values of interest.",
+ "primary": "stat.CO"
+}

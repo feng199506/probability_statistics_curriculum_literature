@@ -1,0 +1,19 @@
+{
+ "id": "2505.07323",
+ "title": "Causal mediation analysis with one or multiple mediators: a comparative study",
+ "authors": [
+  "Judith Abécassis",
+  "Houssam Zenati",
+  "Sami Boumaïza",
+  "Julie Josse",
+  "Bertrand Thirion"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 1,
+ "latest_date": "2025-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mediation analysis breaks down the causal effect of a treatment on an outcome into an indirect effect, acting through a third group of variables called mediators, and a direct effect, operating through other mechanisms. Mediation analysis is hard because confounders between treatment, mediators, and outcome blur effect estimates in observational studies. Many estimators have been proposed to adjust on those confounders and provide accurate causal estimates. We consider parametric and non-parametric implementations of classical estimators and provide a thorough evaluation for the estimation of the direct and indirect effects in the context of causal mediation analysis for binary, continuous, and multi-dimensional mediators. We assess several approaches in a comprehensive benchmark on simulated data. Our results show that advanced statistical approaches such as the multiply robust and the double machine learning estimators achieve good performances in most of the simulated settings and on real data. As an example of application, we propose a thorough analysis of factors known to influence cognitive functions to assess if the mechanism involves modifications in brain morphology using the UK Biobank brain imaging cohort. This analysis shows that for several physiological factors, such as hypertension and obesity, a substantial part of the effect is mediated by changes in the brain structure. This work provides guidance to the practitioner from the formulation of a valid causal mediation problem, including the verification of the identification assumptions, to the choice of an adequate estimator.",
+ "primary": "stat.AP"
+}

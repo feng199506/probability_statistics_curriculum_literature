@@ -1,0 +1,15 @@
+{
+ "id": "2604.02403",
+ "title": "Measuring What Cannot Be Surveyed: LLMs as Instruments for Latent Cognitive Variables in Labor Economics",
+ "authors": [
+  "Cristian Espinal Maya"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Working paper. 13 pages, 7 figures, 6 references. Part of the Cognitive Factor Economics research program. Code: https://github.com/Cespial/cognitive-factor-economics",
+ "abstract": "This paper establishes the theoretical and practical foundations for using Large Language Models (LLMs) as measurement instruments for latent economic variables -- specifically variables that describe the cognitive content of occupational tasks at a level of granularity not achievable with existing survey instruments. I formalize four conditions under which LLM-generated scores constitute valid instruments: semantic exogeneity, construct relevance, monotonicity, and model invariance. I then apply this framework to the Augmented Human Capital Index (AHC_o), constructed from 18,796 O*NET task statements scored by Claude Haiku 4.5, and validated against six existing AI exposure indices. The index shows strong convergent validity (r = 0.85 with Eloundou GPT-gamma, r = 0.79 with Felten AIOE) and discriminant validity. Principal component analysis confirms that AI-related occupational measures span two distinct dimensions -- augmentation and substitution. Inter-rater reliability across two LLM models (n = 3,666 paired scores) yields Pearson r = 0.76 and Krippendorff's alpha = 0.71. Prompt sensitivity analysis across four alternative framings shows that task-level rankings are robust. Obviously Related Instrumental Variables (ORIV) estimation recovers coefficients 25% larger than OLS, consistent with classical measurement error attenuation. The methodology generalizes beyond labor economics to any domain where semantic content must be quantified at scale.",
+ "primary": "econ.EM"
+}

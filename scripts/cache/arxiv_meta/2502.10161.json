@@ -1,0 +1,18 @@
+{
+ "id": "2502.10161",
+ "title": "Revisiting the Berkeley Admissions data: Statistical Tests for Causal Hypotheses",
+ "authors": [
+  "Sourbh Bhadane",
+  "Joris M. Mooij",
+  "Philip Boeken",
+  "Onno Zoeter"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 2,
+ "latest_date": "2025-07-17",
+ "journal_ref": "Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence, PMLR 286:271-295, 2025",
+ "doi": "",
+ "comment": "Accepted to UAI 2025",
+ "abstract": "Reasoning about fairness through correlation-based notions is rife with pitfalls. The 1973 University of California, Berkeley graduate school admissions case from Bickel et. al. (1975) is a classic example of one such pitfall, namely Simpson's paradox. The discrepancy in admission rates among males and female applicants, in the aggregate data over all departments, vanishes when admission rates per department are examined. We reason about the Berkeley graduate school admissions case through a causal lens. In the process, we introduce a statistical test for causal hypothesis testing based on Pearl's instrumental-variable inequalities (Pearl 1995). We compare different causal notions of fairness that are based on graphical, counterfactual and interventional queries on the causal model, and develop statistical tests for these notions that use only observational data. We study the logical relations between notions, and show that while notions may not be equivalent, their corresponding statistical tests coincide for the case at hand. We believe that a thorough case-based causal analysis helps develop a more principled understanding of both causal hypothesis testing and fairness.",
+ "primary": "stat.ME"
+}

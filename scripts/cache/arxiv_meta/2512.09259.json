@@ -1,0 +1,16 @@
+{
+ "id": "2512.09259",
+ "title": "MoDaH achieves rate optimal batch correction",
+ "authors": [
+  "Yang Cao",
+  "Zongming Ma"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 1,
+ "latest_date": "2025-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Batch effects pose a significant challenge in the analysis of single-cell omics data, introducing technical artifacts that confound biological signals. While various computational methods have achieved empirical success in correcting these effects, they lack the formal theoretical guarantees required to assess their reliability and generalization. To bridge this gap, we introduce Mixture-Model-based Data Harmonization (MoDaH), a principled batch correction algorithm grounded in a rigorous statistical framework. Under a new Gaussian-mixture-model with explicit parametrization of batch effects, we establish the minimax optimal error rates for batch correction and prove that MoDaH achieves this rate by leveraging the recent theoretical advances in clustering data from anisotropic Gaussian mixtures. This constitutes, to the best of our knowledge, the first theoretical guarantee for batch correction. Extensive experiments on diverse single-cell RNA-seq and spatial proteomics datasets demonstrate that MoDaH not only attains theoretical optimality but also achieves empirical performance comparable to or even surpassing those of state-of-the-art heuristics (e.g., Harmony, Seurat-V5, and LIGER), effectively balancing the removal of technical noise with the conservation of biological signal.",
+ "primary": "stat.ME"
+}

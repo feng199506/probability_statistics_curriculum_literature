@@ -1,0 +1,16 @@
+{
+ "id": "2609.32725",
+ "title": "Minimax Choice of Projection Geometry under Linear Inequality Constraints",
+ "authors": [
+  "Joachim Freyberger",
+  "Julius Kappenberg"
+ ],
+ "v1_date": "2026-09-26",
+ "latest_version": 1,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Economic theory frequently implies linear inequality restrictions on parameters or functions of interest. A common way to impose such restrictions is to project an unrestricted estimator onto the feasible set. Projection estimators arise naturally from constrained least squares, instrumental variables, generalized method of moments, maximum likelihood, and related extremum procedures. When the sampling covariance, loss function, and projection criterion induce different geometries, the choice of projection geometry can substantially affect risk. We study this choice in a fixed-dimensional local Gaussian experiment under quadratic loss. At exact-boundary configurations where only one maintained inequality binds, inverse-covariance projection is pointwise optimal. When at most two inequalities are locally relevant, it weakly improves on the unrestricted estimator throughout the corresponding local experiment and is minimax over exact-boundary configurations. For an arbitrary number of inequalities, we provide a sufficient condition for boundary minimaxity, but show by counterexample that inverse-covariance projection need not be boundary minimax once three inequalities can bind. Motivated by these results, we propose selecting the projection geometry to minimize worst-case boundary risk subject to a local no-harm condition relative to unrestricted estimation. We develop a feasible implementation and study its finite-sample performance in simulations and an application to gasoline demand.",
+ "primary": "econ.EM"
+}

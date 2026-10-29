@@ -1,0 +1,17 @@
+{
+ "id": "2511.18106",
+ "title": "Sparse-Smooth Spatially Varying Coefficient Quantile Regression",
+ "authors": [
+  "Hou Jian",
+  "Meng Tan",
+  "Tian Maozai"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 2,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 6 figures, 6 tables",
+ "abstract": "We develop a convex framework for spatially varying coefficient quantile regression that, for each predictor, separates a location-invariant \\emph{global} effect from a \\emph{spatial deviation}. An adaptive group penalty selects whether a predictor varies over space, while a graph\\textendash Laplacian quadratic promotes spatial continuity of the deviations on irregular networks. The formulation is identifiable via degree-weighted centering and scales with sparse linear algebra. We provide two practical solvers\\textemdash an ADMM algorithm with closed-form proximal maps for the check loss and a smoothed proximal-gradient scheme based on the Moreau envelope\\textemdash together with implementation guidance (projection for identifiability, stopping diagnostics, and preconditioning). Under mild conditions on the sampling design, covariates, error density, and graph geometry, we establish selection consistency for the deviation groups, mean-squared error bounds that balance Laplacian bias and stochastic variability, and root-\\(n\\) asymptotic normality for the global coefficients with an oracle property. Simulations mimicking air-pollution applications demonstrate accurate recovery of global vs.\\ local effects and competitive predictive performance under heteroskedastic, heavy-tailed noise. We discuss graph construction, spatially blocked cross-validation (to prevent leakage), and options for robust standard errors under spatial dependence.",
+ "primary": "stat.ME"
+}

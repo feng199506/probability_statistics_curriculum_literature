@@ -1,0 +1,18 @@
+{
+ "id": "2610.31258",
+ "title": "On the Calibration of Isotonic Distributional Regression",
+ "authors": [
+  "Tobias Biegert",
+  "Johannes Resin",
+  "Alexander Jordan",
+  "Sebastian Lerch"
+ ],
+ "v1_date": "2026-10-22",
+ "latest_version": 1,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at AISTATS 2026 - Workshop on Calibration for Modern AI",
+ "abstract": "Isotonic distributional regression (IDR) has recently been proposed as a non-parametric technique for probabilistic forecasting via the estimation of conditional distributions under order restrictions, based on continuous outcomes from deterministic model outputs. IDR has been widely used and multiple studies report promising performance and well-calibrated forecasts across application domains. We document a peculiar out-of-sample artifact of IDR, where probability integral transform (PIT) values are rational fractions with empirical frequencies resembling Thomae's function, an effect which thus far seems to have been overlooked. This phenomenon is demonstrated empirically using meteorological data and a simulation study. We further provide a theoretical explanation linking the spiking behavior to the discrete structure of the isotonic fits, and discuss how this artifact can be mitigated via smoothing approaches.",
+ "primary": "stat.ME"
+}

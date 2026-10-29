@@ -1,0 +1,16 @@
+{
+ "id": "2502.15220",
+ "title": "On a class of binary regression models and their robust estimation",
+ "authors": [
+  "Kenichi Hayashi",
+  "Shinto Eguchi"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 1,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A robust estimation framework for binary regression models is studied, aiming to extend traditional approaches like logistic regression models. While previous studies largely focused on logistic models, we explore a broader class of models defined by general link functions. We incorporate various loss functions to improve estimation under model misspecification. Our investigation addresses robustness against outliers and model misspecifications, leveraging divergence-based techniques such as the $β$-divergence and $γ$-divergence, which generalize the maximum likelihood approach. These divergences introduce loss functions that mitigate the influence of atypical data points while retaining Fisher consistency. We establish a theoretical property of the estimators under both correctly specified and misspecified models, analyzing their robustness through quantifying the effect of outliers in linear predictor. Furthermore, we uncover novel relationships between existing estimators and robust loss functions, identifying previously unexplored classes of robust estimators. Numerical experiments illustrate the efficacy of the proposed methods across various contamination scenarios, demonstrating their potential to enhance reliability in binary classification tasks. By providing a unified framework, this study highlights the versatility and robustness of divergence-based methods, offering insights into their practical application and theoretical underpinnings.",
+ "primary": "stat.ME"
+}

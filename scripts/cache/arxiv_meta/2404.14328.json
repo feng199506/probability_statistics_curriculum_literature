@@ -1,0 +1,17 @@
+{
+ "id": "2404.14328",
+ "title": "Preserving linear invariants in ensemble filtering methods",
+ "authors": [
+  "Mathieu Le Provost",
+  "Jan Glaubitz",
+  "Youssef Marzouk"
+ ],
+ "v1_date": "2024-04-22",
+ "latest_version": 2,
+ "latest_date": "2026-05-25",
+ "journal_ref": "Journal of Computational Physics (2026)",
+ "doi": "10.1016/j.jcp.2026.115048",
+ "comment": "25 pages",
+ "abstract": "Data assimilation combines dynamical models with observations to improve state estimates. Ensemble filters sequentially assimilate observations by updating a set of samples over time, alternating between a forecast and an analysis step. Accurate and robust predictions often require preserving critical invariants such as mass, stoichiometric balance of chemical species, and electrical charge. While modern numerical solvers maintain these invariants, existing invariant-preserving analysis steps are limited to Gaussian settings. Furthermore, they can be incompatible with regularization techniques such as inflation and covariance tapering. In this work, we focus on preserving linear invariants in non-Gaussian filtering problems. Leveraging tools from measure transport theory, we introduce a novel class of nonlinear ensemble filters that preserve any desired linear invariants. Notably, we recover a constrained formulation of the Kalman filter for the special case of the Gaussian setting. We also demonstrate how to combine preserving invariants with regularization techniques in the ensemble Kalman filter. Numerical experiments illustrate the benefits of preserving linear invariants in both ensemble Kalman filters and transport-based nonlinear ensemble filters.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.22908",
+ "title": "Bridging Stratification and Regression Adjustment: Batch-Adaptive Stratification with Post-Design Adjustment in Randomized Experiments",
+ "authors": [
+  "Zikai Li"
+ ],
+ "v1_date": "2025-10-27",
+ "latest_version": 1,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To increase statistical efficiency in a randomized experiment, researchers often use stratification (i.e., blocking) in the design stage. However, conventional practices of stratification fail to exploit valuable information about the predictive relationship between covariates and potential outcomes. In this paper, I introduce an adaptive stratification procedure for increasing statistical efficiency when some information is available about the relationship between covariates and potential outcomes. I show that, in a paired design, researchers can rematch observations across different batches. For inference, I propose a stratified estimator that allows for nonparametric covariate adjustment. I then discuss the conditions under which researchers should expect gains in efficiency from stratification. I show that stratification complements rather than substitutes for regression adjustment, insuring against adjustment error even when researchers plan to use covariate adjustment. To evaluate the performance of the method relative to common alternatives, I conduct simulations using both synthetic data and more realistic data derived from a political science experiment. Results demonstrate that the gains in precision and efficiency can be substantial.",
+ "primary": "stat.ME"
+}

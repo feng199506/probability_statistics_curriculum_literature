@@ -1,0 +1,16 @@
+{
+ "id": "2504.10645",
+ "title": "Enhancing the Tensor Normal via Geometrically Parameterized Cholesky Factors",
+ "authors": [
+  "Quinn Simonis",
+  "Martin T. Wells"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 1,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 9 figures",
+ "abstract": "In this article, we explore Bayesian extensions of the tensor normal model through a geometric expansion of the multi-way covariance's Cholesky factor inspired by the Fréchet mean under the log-Cholesky metric. Specifically, within a tensor normal framework, we identify three structural components in the covariance of the vectorized data. By parameterizing vector normal covariances through such a Cholesky factor representation, analogous to a finite average of multiway Cholesky factors, we eliminate one of these structural components without compromising the analytical tractability of the likelihood, in which the multiway covariance is a special case. Furthermore, we demonstrate that a specific class of structured Cholesky factors can be precisely represented under this parameterization, serving as an analogue to the Pitsianis-Van Loan decomposition. We apply this model using Hamiltonian Monte Carlo in a fixed-mean setting for two-way covariance relevancy detection of components, where efficient analytical gradient updates are available, as well as in a seasonally-varying covariance process regime.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.06514",
+ "title": "Fractional interacting particle system: drift parameter estimation via Malliavin calculus",
+ "authors": [
+  "Chiara Amorino",
+  "Ivan Nourdin",
+  "Radomyra Shevchenko"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 3,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the problem of estimating the drift parameter in a system of $N$ interacting particles driven by additive fractional Brownian motion of Hurst index \\( H \\geq 1/2 \\). Considering continuous observation of the interacting particles over a fixed interval \\([0, T]\\), we examine the asymptotic regime as \\( N \\to \\infty \\). Our main tool is a random variable reminiscent of the least squares estimator but unobservable due to its reliance on the Skorohod integral. We demonstrate that this object is consistent and asymptotically normal by establishing a quantitative propagation of chaos for Malliavin derivatives, which holds for any \\( H \\in (0,1) \\). Leveraging a connection between the divergence integral and the Young integral, we construct computable estimators of the drift parameter. These estimators are shown to be consistent and asymptotically Gaussian. Finally, a numerical study highlights the strong performance of the proposed estimators.",
+ "primary": "math.ST"
+}

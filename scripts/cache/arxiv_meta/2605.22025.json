@@ -1,0 +1,17 @@
+{
+ "id": "2605.22025",
+ "title": "Testing for Serial Independence via Auto Hilbert-Schmidt Independence Criterion",
+ "authors": [
+  "Muyi Li",
+  "Yuqing Xu",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a Hilbert--Schmidt independence criterion (HSIC)-based framework for testing serial independence in strictly stationary time series. The proposed auto Hilbert--Schmidt independence criterion (AutoHSIC) measures dependence between an observation and its lagged counterpart, providing a kernel-based approach to detecting nonlinear serial dependence. The empirical AutoHSIC statistic is a lagged U-statistic constructed from overlapping observations, and hence inherits temporal dependence even under the i.i.d. null. Its asymptotic analysis therefore differs from standard i.i.d. HSIC theory and must account for degeneracy under the null. We establish the limiting behaviour of the resulting single-lag and portmanteau tests under the null and under fixed alternatives. Since the limiting null distribution is non-pivotal, we develop a wild bootstrap procedure for critical value approximation and prove its asymptotic validity. The framework is further extended to residual-based model diagnostics, where parameter estimation affects the null distribution. Simulations and empirical applications illustrate its ability to detect nonlinear serial dependence in multivariate, functional and matrix time series.",
+ "primary": "stat.ME"
+}

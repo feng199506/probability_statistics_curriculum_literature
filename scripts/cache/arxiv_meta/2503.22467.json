@@ -1,0 +1,16 @@
+{
+ "id": "2503.22467",
+ "title": "An integrated method for clustering and association network inference",
+ "authors": [
+  "Jeanne Tous",
+  "Julien Chiquet"
+ ],
+ "v1_date": "2025-03-28",
+ "latest_version": 2,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High dimensional Gaussian graphical models provide a rigorous framework to describe a network of statistical dependencies between entities, such as genes in genomic regulation studies or species in ecology. Penalized methods, including the standard Graphical-Lasso, are well-known approaches to infer the parameters of these models. As the number of variables in the model (of entities in the network) grow, the network inference and interpretation become more complex. The Normal-Block model is introduced, a new model that clusters variables and consider a network at the cluster level. Normal-Block both adds structure to the network and reduces its size. The approach builds on Graphical-Lasso to add a penalty on the network's edges and limit the detection of spurious dependencies. A zero-inflated version of the model is also proposed to account for real-world data properties. For the inference procedure, two approaches are introduced, a straightforward method based on state-of-the-art approaches and an original, more rigorous method that simultaneously infers the clustering of variables and the association network between clusters, using a penalized variational Expectation-Maximization approach. An implementation of the model in R, in a package called \\textbf{normalblockr}, is available on github\\footnote{https://github.com/jeannetous/normalblockr}. The results of the models in terms of clustering and network inference are presented, using both simulated data and various types of real-world data (proteomics and words occurrences on webpages).",
+ "primary": "stat.ME"
+}

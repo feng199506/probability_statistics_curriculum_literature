@@ -1,0 +1,17 @@
+{
+ "id": "2607.01959",
+ "title": "Autorelevance function and other feature relevance measures for univariate time series",
+ "authors": [
+  "Julian Cardenas",
+  "Jamie Arjona",
+  "Pedro Delicado"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a model agnostic methodology to measure lag relevance in machine learning forecasting models applied to univariate time series. Particularly, we are working in the context of time series using the frameworks of Ghost variables and Shapley values, together with additive importance measures, to introduce the auto-relevance and partial auto-relevance functions as the lag importance values. Additionally, we propose a novel method to replace absent features in coalition based methods with a one step forecast from the same model. We evaluate these proposals under different simulations and real data cases. This combined framework perspective is particularly suitable for time series. In addition, to show our discoveries we use a pull of models from the seasonal ARMA family and recurrent neural networks. We found that the calculated relevance measures successfully demonstrate the expected lag structure in almost all cases.",
+ "primary": "stat.ML"
+}

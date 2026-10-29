@@ -1,0 +1,16 @@
+{
+ "id": "2601.13468",
+ "title": "Resampling-free Inference for Time Series via RKHS Embedding",
+ "authors": [
+  "Deep Ghoshal",
+  "Xiaofeng Shao"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 2,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this article, we study nonparametric inference problems in the context of multivariate or functional time series, including testing for goodness-of-fit, the presence of a change point in the marginal distribution, and the independence of two time series, among others. Most methodologies available in the existing literature address these problems by employing a bandwidth-dependent bootstrap or subsampling approach, which can be computationally expensive and/or sensitive to the choice of bandwidth. To address these limitations, we propose a novel class of kernel-based tests by embedding the data into a reproducing kernel Hilbert space, and construct test statistics using sample splitting, projection, and self-normalization (SN) techniques. Through a new conditioning technique, we demonstrate that our test statistics have pivotal limiting null distributions under strong mixing and mild moment assumptions. We also analyze the limiting power of our tests under local alternatives. Finally, we showcase the superior size accuracy and computational efficiency of our methods as compared to some existing ones.",
+ "primary": "stat.ME"
+}

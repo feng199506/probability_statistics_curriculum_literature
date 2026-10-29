@@ -1,0 +1,17 @@
+{
+ "id": "2609.27182",
+ "title": "Model Specification Test for Stationary Functional Time Series",
+ "authors": [
+  "Yan Cui",
+  "Holger Dette",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2026-09-23",
+ "latest_version": 1,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a general framework for model specification testing in stationary functional time series. The approach is based on an autoregressive approximation that represents a broad class of stationary functional processes through coefficient kernels whose dimension and autoregressive order may increase with the sample size. Different model assumptions induce different structural restrictions on these kernels, and our tests are constructed by measuring deviations from the corresponding restrictions. We illustrate this principle for three problems: testing a prescribed order of a functional autoregressive model, testing a functional autoregressive moving-average specification, and testing separability of autoregressive coefficient kernels. The resulting statistics are based on weighted $\\mathcal{L}^2$-distances, and the critical values are obtained by a multiplier bootstrap. We establish a quantitative bootstrap approximation that is uniform over a class of weight functions and prove asymptotic validity and consistency of the proposed tests. The methodology allows for data-adaptive weighting and is illustrated by simulations and a data example.",
+ "primary": "stat.ME"
+}

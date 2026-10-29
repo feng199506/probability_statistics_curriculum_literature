@@ -1,0 +1,18 @@
+{
+ "id": "2405.04419",
+ "title": "Transportability of Principal Causal Effects",
+ "authors": [
+  "Justin M. Clark",
+  "Kollin W. Rott",
+  "James S. Hodges",
+  "Jared D. Huling"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 2,
+ "latest_date": "2024-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent research in causal inference has made important progress in addressing challenges to the external validity of trial findings. Such methods weight trial participant data to more closely resemble the distribution of effect-modifying covariates in a well-defined target population. In the presence of participant non-adherence to study medication, these methods effectively transport an intention-to-treat effect that averages over heterogeneous compliance behaviors. In this paper, we develop a principal stratification framework to identify causal effects conditioning on both compliance behavior and membership in the target population. We also develop non-parametric efficiency theory for and construct efficient estimators of such \"transported\" principal causal effects and characterize their finite-sample performance in simulation experiments. While this work focuses on treatment non-adherence, the framework is applicable to a broad class of estimands that target effects in clinically-relevant, possibly latent subsets of a target population.",
+ "primary": "stat.ME"
+}

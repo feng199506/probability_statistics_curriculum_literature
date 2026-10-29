@@ -1,0 +1,16 @@
+{
+ "id": "2507.17360",
+ "title": "Balancing utility and cost in dynamic treatment regimes",
+ "authors": [
+  "Kai Chen",
+  "Yuqian Zhang"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 1,
+ "latest_date": "2025-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic treatment regimes (DTRs) are personalized, adaptive strategies designed to guide the sequential allocation of treatments based on individual characteristics over time. Before each treatment assignment, covariate information is collected to refine treatment decisions and enhance their effectiveness. The more information we gather, the more precise our decisions can be. However, this also leads to higher costs during the data collection phase. In this work, we propose a balanced Q-learning method that strikes a balance between the utility of the DTR and the costs associated with both treatment assignment and covariate assessment. The performance of the proposed method is demonstrated through extensive numerical studies, including simulations and a real-data application to the MIMIC-III database.",
+ "primary": "stat.ME"
+}

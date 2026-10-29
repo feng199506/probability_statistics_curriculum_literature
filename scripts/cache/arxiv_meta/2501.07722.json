@@ -1,0 +1,17 @@
+{
+ "id": "2501.07722",
+ "title": "ML-assisted Randomization Tests for Detecting Treatment Effects in A/B Experiments",
+ "authors": [
+  "Wenxuan Guo",
+  "JungHo Lee",
+  "Panos Toulis"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 1,
+ "latest_date": "2025-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Experimentation is widely utilized for causal inference and data-driven decision-making across disciplines. In an A/B experiment, for example, an online business randomizes two different treatments (e.g., website designs) to their customers and then aims to infer which treatment is better. In this paper, we construct randomization tests for complex treatment effects, including heterogeneity and interference. A key feature of our approach is the use of flexible machine learning (ML) models, where the test statistic is defined as the difference between the cross-validation errors from two ML models, one including the treatment variable and the other without it. This approach combines the predictive power of modern ML tools with the finite-sample validity of randomization procedures, enabling a robust and efficient way to detect complex treatment effects in experimental settings. We demonstrate this combined benefit both theoretically and empirically through applied examples.",
+ "primary": "stat.ME"
+}

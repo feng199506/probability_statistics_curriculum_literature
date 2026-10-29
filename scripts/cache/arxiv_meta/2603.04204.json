@@ -1,0 +1,19 @@
+{
+ "id": "2603.04204",
+ "title": "Beyond Mixtures and Products for Ensemble Aggregation: A Likelihood Perspective on Generalized Means",
+ "authors": [
+  "Raphaël Razafindralambo",
+  "Rémy Sun",
+  "Frédéric Precioso",
+  "Damien Garreau",
+  "Pierre-Alexandre Mattei"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 1,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Density aggregation is a central problem in machine learning, for instance when combining predictions from a Deep Ensemble. The choice of aggregation remains an open question with two commonly proposed approaches being linear pooling (probability averaging) and geometric pooling (logit averaging). In this work, we address this question by studying the normalized generalized mean of order $r \\in \\mathbb{R} \\cup \\{-\\infty,+\\infty\\}$ through the lens of log-likelihood, the standard evaluation criterion in machine learning. This provides a unifying aggregation formalism and shows different optimal configurations for different situations. We show that the regime $r \\in [0,1]$ is the only range ensuring systematic improvements relative to individual distributions, thereby providing a principled justification for the reliability and widespread practical use of linear ($r=1$) and geometric ($r=0$) pooling. In contrast, we show that aggregation rules with $r \\notin [0,1]$ may fail to provide consistent gains with explicit counterexamples. Finally, we corroborate our theoretical findings with empirical evaluations using Deep Ensembles on image and text classification benchmarks.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.13499",
+ "title": "An Empirical Bayes Perspective on Heteroskedastic Mean Estimation",
+ "authors": [
+  "Yanjun Han",
+  "Abhishek Shetty",
+  "Jacob Shkrob"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 2,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Towards understanding the fundamental limits of estimation from data of varied quality, we study the problem of estimating a mean parameter from heteroskedastic Gaussian observations where the variances are unknown and may vary arbitrarily across observations. While a simple linear estimator with known variances attains the smallest mean squared error, estimation without this knowledge is challenging due to the large number of nuisance parameters. We propose a simple and principled approach based on empirical Bayes: model the observations as if they were i.i.d. from a normal scale mixture and compute the profile maximum likelihood estimator (MLE) for the mean, treating the nonparametric mixing distribution as nuisance. Our result shows that this estimator achieves near-optimal error bounds across various heteroskedastic models in the literature. In particular, for the subset-of-signals problem where an unknown subset of observations has small variance, our estimator adaptively achieves the minimax rate for all signal sizes, including the sharp phase transition, without any tuning parameters. One of our key technical steps is a sharper metric entropy bound for normal scale mixtures, obtained via Chebyshev approximations on a transformed polynomial basis. This approach yields an improved polylogarithmic, rather than polynomial, dependence on the variance ratio, which could be of independent interest.",
+ "primary": "math.ST"
+}

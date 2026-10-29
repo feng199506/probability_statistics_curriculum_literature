@@ -1,0 +1,18 @@
+{
+ "id": "2412.03731",
+ "title": "Using a Two-Parameter Sensitivity Analysis Framework to Efficiently Combine Randomized and Non-randomized Studies",
+ "authors": [
+  "Ruoqi Yu",
+  "Bikram Karmakar",
+  "Jessica Vandeleest",
+  "Eleanor Bimla Schwarz"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 2,
+ "latest_date": "2025-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference is vital for informed decision-making across fields such as biomedical research and social sciences. Randomized controlled trials (RCTs) are considered the gold standard for internal validity of inferences, whereas observational studies (OSs) often provide the opportunity for greater external validity. However, both data sources have inherent limitations preventing their use for broadly valid statistical inferences: RCTs may lack generalizability due to their selective eligibility criterion, and OSs are vulnerable to unobserved confounding. This paper proposes an innovative approach to integrate RCT and OS that borrows the other study's strengths to remedy each study's limitations. The method uses a novel triplet matching algorithm to align RCT and OS samples and a new two-parameter sensitivity analysis framework to quantify internal and external validity biases. This combined approach yields causal estimates that are more robust to hidden biases than OSs alone and provides reliable inferences about the treatment effect in the general population. We apply this method to investigate the effects of lactation on maternal health using a small RCT and a long-term observational health records dataset from the California National Primate Research Center. This application demonstrates the practical utility of our approach in generating scientifically sound and actionable causal estimates.",
+ "primary": "stat.ME"
+}

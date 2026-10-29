@@ -1,0 +1,16 @@
+{
+ "id": "2605.16075",
+ "title": "REX-SUB: A Scalable Subsampling Strategy for Modeling Large Spatial Datasets",
+ "authors": [
+  "Nicholas Rios",
+  "Ben Seiyon Lee"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in data collection technologies have led to the emergence of massive spatial datasets, with measurements obtained at millions of spatial locations. Geostatistical models typically employ Gaussian processes (GPs) to capture spatial dependence, but standard GP fitting becomes prohibitive at such scales. A promising solution is optimal subsampling, where a subset of locations is selected that optimizes a criterion. In this study, we propose a randomized exchange algorithm for subsampling (REX-SUB) which efficiently selects small subsamples that minimize prediction errors in the fitted spatial GP models. To further improve computational efficiency, we embed a scalable Vecchia approximation to the GP's joint likelihood, which takes advantage of sparsity in the precision matrix to enable fast inference on the selected subsamples. Through a simulation study and an application to a remotely sensed precipitable water dataset, we show that REX-SUB yields lower mean squared prediction errors and interval scores compared to competing subsampling strategies.",
+ "primary": "stat.ME"
+}

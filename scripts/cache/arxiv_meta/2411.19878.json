@@ -1,0 +1,17 @@
+{
+ "id": "2411.19878",
+ "title": "Nonparametric Estimation for a Log-concave Distribution Function with Interval-censored Data",
+ "authors": [
+  "Chi Wing Chu",
+  "Hok Kan Ling",
+  "Chaoyu Yuan"
+ ],
+ "v1_date": "2024-11-29",
+ "latest_version": 1,
+ "latest_date": "2024-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the nonparametric maximum likelihood estimation for the underlying event time based on mixed-case interval-censored data, under a log-concavity assumption on its distribution function. This generalized framework relaxes the assumptions of a log-concave density function or a concave distribution function considered in the literature. A log-concave distribution function is fulfilled by many common parametric families in survival analysis and also allows for multi-modal and heavy-tailed distributions. We establish the existence, uniqueness and consistency of the log-concave nonparametric maximum likelihood estimator. A computationally efficient procedure that combines an active set algorithm with the iterative convex minorant algorithm is proposed. Numerical studies demonstrate the advantages of incorporating additional shape constraint compared to the unconstrained nonparametric maximum likelihood estimator. The results also show that our method achieves a balance between efficiency and robustness compared to assuming log-concavity in the density. An R package iclogcondist is developed to implement our proposed method.",
+ "primary": "stat.CO"
+}

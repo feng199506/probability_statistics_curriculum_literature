@@ -1,0 +1,16 @@
+{
+ "id": "2406.17318",
+ "title": "Model Uncertainty in Latent Gaussian Models with Univariate Link Function",
+ "authors": [
+  "Mark F. J. Steel",
+  "Gregor Zens"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 2,
+ "latest_date": "2025-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider a class of latent Gaussian models with a univariate link function (ULLGMs). These are based on standard likelihood specifications (such as Poisson, Binomial, Bernoulli, Erlang, etc.) but incorporate a latent normal linear regression framework on a transformation of a key scalar parameter. We allow for model uncertainty regarding the covariates included in the regression. The ULLGM class typically accommodates extra dispersion in the data and has clear advantages for deriving theoretical properties and designing computational procedures. We formally characterize posterior existence under a convenient and popular improper prior and show that ULLGMs inherit the consistency properties from the latent Gaussian model. We propose a simple and general Markov chain Monte Carlo algorithm for Bayesian model averaging in ULLGMs. Simulation results suggest that the framework provides accurate results that are robust to some degree of misspecification. The methodology is successfully applied to measles vaccination coverage data from Ethiopia and to data on bilateral migration flows between OECD countries.",
+ "primary": "stat.ME"
+}

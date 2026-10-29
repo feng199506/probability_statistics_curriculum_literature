@@ -1,0 +1,16 @@
+{
+ "id": "2410.12367",
+ "title": "Adaptive and Stratified Subsampling for High-Dimensional Robust Estimation",
+ "authors": [
+  "Prateek Mittal",
+  "Joohi Chauhan"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 2,
+ "latest_date": "2026-03-10",
+ "journal_ref": "Transactions on Machine Learning Research (06/2026)",
+ "doi": "10.1162/tmlr_r8y19hu9ab",
+ "comment": "",
+ "abstract": "We study robust high-dimensional sparse regression under finite-variance heavy-tailed noise, epsilon-contamination, and alpha-mixing dependence via two subsampling estimators: Adaptive Importance Sampling (AIS) and Stratified Sub-sampling (SS). Under sub-Gaussian design whose scopeis precisely delimited and finite-variance noise, a subsample of size m achieves the minimax-optimal rate. We close the theory-algorithm gap: Theorem 4.6 applies to AIS at termination conditional on stabilized weights (Proposition 4.1), and SS fits the median-of-means M-estimation framework of Lecue and Lerasle (Proposition 4.3). The de-biasing step is fully specified via the nodewise-Lasso precision estimator under a new sparse-precision assumption, yielding valid coordinate-wise CIs (Theorem 4.14). The alpha-mixing extension uses a calendar-time block protocol that guarantees temporal separation (Theorem 4.12). Empirically, AIS achieves 3.10 times lower error than uniform subsampling at 20% contamination, and 29.5% lower test MSE on Riboflavin (p=4,088 and n=71).",
+ "primary": "math.ST"
+}

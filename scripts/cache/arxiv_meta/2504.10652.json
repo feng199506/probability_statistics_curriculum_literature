@@ -1,0 +1,17 @@
+{
+ "id": "2504.10652",
+ "title": "Bayesian analysis of regression discontinuity designs with heterogeneous treatment effects",
+ "authors": [
+  "Kevin Tao",
+  "Y. Samuel Wang",
+  "David Ruppert"
+ ],
+ "v1_date": "2025-04-14",
+ "latest_version": 1,
+ "latest_date": "2025-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 2 figures",
+ "abstract": "Regression Discontinuity Design (RDD) is a popular framework for estimating a causal effect in settings where treatment is assigned if an observed covariate exceeds a fixed threshold. We consider estimation and inference in the common setting where the sample consists of multiple known sub-populations with potentially heterogeneous treatment effects. In the applied literature, it is common to account for heterogeneity by either fitting a parametric model or considering each sub-population separately. In contrast, we develop a Bayesian hierarchical model using Gaussian process regression which allows for non-parametric regression while borrowing information across sub-populations. We derive the posterior distribution, prove posterior consistency, and develop a Metropolis-Hastings within Gibbs sampling algorithm. In extensive simulations, we show that the proposed procedure outperforms existing methods in both estimation and inferential tasks. Finally, we apply our procedure to U.S. Senate election data and discover an incumbent party advantage which is heterogeneous over different time periods.",
+ "primary": "math.ST"
+}

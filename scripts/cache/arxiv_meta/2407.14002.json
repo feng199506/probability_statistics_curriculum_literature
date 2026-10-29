@@ -1,0 +1,18 @@
+{
+ "id": "2407.14002",
+ "title": "Derandomized Truncated D-vine Copula Knockoffs with e-values to control the false discovery rate",
+ "authors": [
+  "Alejandro Román Vásquez",
+  "José Ulises Márquez Urbina",
+  "Graciela González Farías",
+  "Gabriel Escarela"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 1,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 9 figures, 1 table",
+ "abstract": "The Model-X knockoffs is a practical methodology for variable selection, which stands out from other selection strategies since it allows for the control of the false discovery rate (FDR), relying on finite-sample guarantees. In this article, we propose a Truncated D-vine Copula Knockoffs (TDCK) algorithm for sampling approximate knockoffs from complex multivariate distributions. Our algorithm enhances and improves features of previous attempts to sample knockoffs under the multivariate setting, with the three main contributions being: 1) the truncation of the D-vine copula, which reduces the dependence between the original variables and their corresponding knockoffs, improving the statistical power; 2) the employment of a straightforward non-parametric formulation for marginal transformations, eliminating the need for a specific parametric family or a kernel density estimator; 3) the use of the \"rvinecopulib'' R package offers better flexibility than the existing fitting vine copula knockoff methods. To eliminate the randomness in distinct realizations resulting in different sets of selected variables, we wrap the TDCK method with an existing derandomizing procedure for knockoffs, leading to a Derandomized Truncated D-vine Copula Knockoffs with e-values (DTDCKe) procedure. We demonstrate the robustness of the DTDCKe procedure under various scenarios with extensive simulation studies. We further illustrate its efficacy using a gene expression dataset, showing it achieves a more reliable gene selection than other competing methods, when the findings are compared with those of a meta-analysis. The results indicate that our Truncated D-vine copula approach is robust and has superior power, representing an appealing approach for variable selection in different multivariate applications, particularly in gene expression analysis.",
+ "primary": "stat.ME"
+}

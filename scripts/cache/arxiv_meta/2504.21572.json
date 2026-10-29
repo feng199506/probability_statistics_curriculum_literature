@@ -1,0 +1,16 @@
+{
+ "id": "2504.21572",
+ "title": "Adaptive sample splitting for randomization tests",
+ "authors": [
+  "Yao Zhang",
+  "Zijun Gao"
+ ],
+ "v1_date": "2025-04-30",
+ "latest_version": 2,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 9 figures",
+ "abstract": "Randomization tests are widely used to generate finite-sample valid $p$-values for causal inference on experimental data. However, when applied to subgroup analysis, these tests may lack power due to small subgroup sizes. Incorporating a shared estimator of the conditional average treatment effect (CATE) can substantially improve power across subgroups but requires sample splitting to preserve validity. To this end, we quantify each unit's contribution to estimation and testing using a certainty score, which measures how certain the unit's treatment assignment is given its covariates and outcome. We show that units with higher certainty scores are more valuable for testing but less important for CATE estimation, since their treatment assignments can be accurately imputed. Building on this insight, we propose AdaSplit, a sample splitting procedure that adaptively allocates units between estimation and testing to maximize their overall contribution across tasks. We evaluate AdaSplit through simulation studies, demonstrating that it yields more powerful randomization tests than baselines that omit CATE estimation or rely on random sample splitting. Finally, we apply AdaSplit to a blood pressure intervention trial, identifying patient subgroups with significant treatment effects.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.11937",
+ "title": "Factorial Difference-in-Differences",
+ "authors": [
+  "Yiqing Xu",
+  "Anqi Zhao",
+  "Peng Ding"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 5,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We formulate factorial difference-in-differences (FDID), a research design that extends canonical difference-in-differences (DID) to settings in which an event affects all units. In many panel data applications, researchers exploit cross-sectional variation in a baseline factor alongside temporal variation in the event, but the corresponding estimand is often implicit and the justification for applying the DID estimator remains unclear. We frame FDID as a factorial design with two factors, the baseline factor $G$ and the exposure level $Z$, and define effect modification and causal moderation as the associative and causal effects of $G$ on the effect of $Z$, respectively. Under standard DID assumptions of no anticipation and parallel trends, the DID estimator identifies effect modification but not causal moderation. Identifying the latter requires an additional \\emph{factorial parallel trends} assumption, that is, mean independence between $G$ and potential outcome trends. We extend the framework to conditionally valid assumptions and regression-based implementations, and further to repeated cross-sectional data and continuous $G$. We demonstrate the framework with an empirical application on the role of social capital in famine relief in China.",
+ "primary": "stat.ME"
+}

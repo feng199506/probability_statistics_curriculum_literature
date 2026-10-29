@@ -1,0 +1,16 @@
+{
+ "id": "2506.24126",
+ "title": "Controlling the false discovery rate under a non-parametric graphical dependence model",
+ "authors": [
+  "Drew T. Nguyen",
+  "William Fithian"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 1,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose sufficient conditions and computationally efficient procedures for false discovery rate control in multiple testing when the $p$-values are related by a known \\emph{dependency graph} -- meaning that we assume independence of $p$-values that are not within each other's neighborhoods, but otherwise leave the dependence unspecified. Our methods' rejection sets coincide with that of the Benjamini--Hochberg (BH) procedure whenever there are no edges between BH rejections, and we find in simulations and a genomics data example that their power approaches that of the BH procedure when there are few such edges, as is commonly the case. Because our methods ignore all hypotheses not in the BH rejection set, they are computationally efficient whenever that set is small. Our fastest method, the IndBH procedure, typically finishes within seconds even in simulations with up to one million hypotheses.",
+ "primary": "stat.ME"
+}

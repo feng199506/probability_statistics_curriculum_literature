@@ -1,0 +1,16 @@
+{
+ "id": "2402.16969",
+ "title": "Robust Evaluation of Longitudinal Surrogate Markers with Censored Data",
+ "authors": [
+  "Denis Agniel",
+  "Layla Parast"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The development of statistical methods to evaluate surrogate markers is an active area of research. In many clinical settings, the surrogate marker is not simply a single measurement but is instead a longitudinal trajectory of measurements over time, e.g., fasting plasma glucose measured every 6 months for 3 years. In general, available methods developed for the single-surrogate setting cannot accommodate a longitudinal surrogate marker. Furthermore, many of the methods have not been developed for use with primary outcomes that are time-to-event outcomes and/or subject to censoring. In this paper, we propose robust methods to evaluate a longitudinal surrogate marker in a censored time-to-event outcome setting. Specifically, we propose a method to define and estimate the proportion of the treatment effect on a censored primary outcome that is explained by the treatment effect on a longitudinal surrogate marker measured up to time $t_0$. We accommodate both potential censoring of the primary outcome and of the surrogate marker. A simulation study demonstrates good finite-sample performance of our proposed methods. We illustrate our procedures by examining repeated measures of fasting plasma glucose, a surrogate marker for diabetes diagnosis, using data from the Diabetes Prevention Program (DPP).",
+ "primary": "stat.ME"
+}

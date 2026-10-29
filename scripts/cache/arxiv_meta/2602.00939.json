@@ -1,0 +1,19 @@
+{
+ "id": "2602.00939",
+ "title": "Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity",
+ "authors": [
+  "Fanqi Yan",
+  "Dung Le",
+  "Trang Pham",
+  "Huy Nguyen",
+  "Nhat Ho"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Fanqi Yan, Dung Le contributed equally to this work. 41 pages, 3 figures, 1 table",
+ "abstract": "Contaminated mixture of experts (MoE) is motivated by transfer learning methods where a pre-trained model, acting as a frozen expert, is integrated with an adapter model, functioning as a trainable expert, in order to learn a new task. Despite recent efforts to analyze the convergence behavior of parameter estimation in this model, there are still two unresolved problems in the literature. First, the contaminated MoE model has been studied solely in regression settings, while its theoretical foundation in classification settings remains absent. Second, previous works on MoE models for classification capture pointwise convergence rates for parameter estimation without any guaranty of minimax optimality. In this work, we close these gaps by performing, for the first time, the convergence analysis of a contaminated mixture of multinomial logistic experts with homogeneous and heterogeneous structures, respectively. In each regime, we characterize uniform convergence rates for estimating parameters under challenging settings where ground-truth parameters vary with the sample size. Furthermore, we also establish corresponding minimax lower bounds to ensure that these rates are minimax optimal. Notably, our theories offer an important insight into the design of contaminated MoE, that is, expert heterogeneity yields faster parameter estimation rates and, therefore, is more sample-efficient than expert homogeneity.",
+ "primary": "math.ST"
+}

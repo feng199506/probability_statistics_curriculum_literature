@@ -1,0 +1,18 @@
+{
+ "id": "2608.04629",
+ "title": "Drivers of Success: A Bayesian State-Space Model to Disentangling Latent Driver and Constructor Abilities in Formula One",
+ "authors": [
+  "Tim Lindner",
+  "Rui Jorge Almeida",
+  "Nalan Baştürk",
+  "Stephan Smeekes"
+ ],
+ "v1_date": "2026-08-05",
+ "latest_version": 1,
+ "latest_date": "2026-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Formula One outcomes reflect the joint contributions of drivers and constructors, but these contributions are unobserved and vary over time. We propose a Bayesian state-space model that disentangles dynamic driver and constructor abilities using two observed outcomes: fastest qualifying lap times and race rankings. Both outcomes depend jointly on latent driver and constructor states that evolve at the Grand Prix level, while the race equation additionally accounts for starting-grid position. The decomposition is supported by constraints that center the driver and constructor abilities at zero, together with variation in driver-constructor assignments over time. Bayesian inference is performed using the No-U-Turn sampler under weakly informative priors that treat driver and constructor abilities symmetrically. Applying the model to the Formula One hybrid era from 2014 to 2021, we find substantial heterogeneity in both driver and constructor abilities. Driver abilities are generally more stable over time, whereas constructor abilities exhibit greater variation and, for many driver--constructor combinations, contribute more strongly to observed performance.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2505.12097",
+ "title": "Proximal optimal transport divergences",
+ "authors": [
+  "Ricardo Baptista",
+  "Panagiota Birmpa",
+  "Markos A. Katsoulakis",
+  "Luc Rey-Bellet",
+  "Benjamin J. Zhang"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 2,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce the proximal optimal transport divergence, a novel discrepancy measure that interpolates between information divergences and optimal transport distances via an infimal convolution formulation. This divergence provides a principled foundation for optimal transport proximals and proximal optimization methods frequently used in generative modeling. We explore its mathematical properties, including smoothness, boundedness, and computational tractability, and establish connections to primal-dual formulations and adversarial learning. The proximal operator associated with the proximal optimal transport divergence can be interpreted as a transport map that pushes a reference distribution toward the optimal generative distribution, which approximates the target distribution that is only accessible through data samples. Building on the Benamou-Brenier dynamic formulation of classical optimal transport, we also establish a dynamic formulation for proximal OT divergences. The resulting dynamic formulation is a first order mean-field game whose optimality conditions are governed by a pair of nonlinear partial differential equations: a backward Hamilton-Jacobi equation and a forward continuity equation. Our framework generalizes existing approaches while offering new insights and computational tools for generative modeling, distributionally robust optimization, and gradient-based learning in probability spaces.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.16550",
+ "title": "A Kernel-Based Conditional Two-Sample Test Using Nearest Neighbors (with Applications to Calibration, Regression Curves, and Simulation-Based Inference)",
+ "authors": [
+  "Anirban Chatterjee",
+  "Ziang Niu",
+  "Bhaswar B. Bhattacharya"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 2,
+ "latest_date": "2024-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we introduce a kernel-based measure for detecting differences between two conditional distributions. Using the `kernel trick' and nearest-neighbor graphs, we propose a consistent estimate of this measure which can be computed in nearly linear time (for a fixed number of nearest neighbors). Moreover, when the two conditional distributions are the same, the estimate has a Gaussian limit and its asymptotic variance has a simple form that can be easily estimated from the data. The resulting test attains precise asymptotic level and is universally consistent for detecting differences between two conditional distributions. We also provide a resampling based test using our estimate that applies to the conditional goodness-of-fit problem, which controls Type I error in finite samples and is asymptotically consistent with only a finite number of resamples. A method to de-randomize the resampling test is also presented. The proposed methods can be readily applied to a broad range of problems, ranging from classical nonparametric statistics to modern machine learning. Specifically, we explore three applications: testing model calibration, regression curve evaluation, and validation of emulator models in simulation-based inference. We illustrate the superior performance of our method for these tasks, both in simulations as well as on real data. In particular, we apply our method to (1) assess the calibration of neural network models trained on the CIFAR-10 dataset, (2) compare regression functions for wind power generation across two different turbines, and (3) validate emulator models on benchmark examples with intractable posteriors and for generating synthetic `redshift' associated with galaxy images.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2509.09162",
+ "title": "Divide, Interact, Sample: The Two-System Paradigm",
+ "authors": [
+  "James Chok",
+  "Myung Won Lee",
+  "Daniel Paulin",
+  "Geoffrey M. Vasil"
+ ],
+ "v1_date": "2025-09-11",
+ "latest_version": 3,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mean-field, ensemble-chain, and adaptive samplers have historically been viewed as distinct approaches to Monte Carlo sampling. In this paper, we present a unifying {two-system} framework that brings all three under one roof. In our approach, an ensemble of particles is split into two interacting subsystems that propose updates for each other in a symmetric, alternating fashion. For the memoryless two-system samplers, this cross-system interaction ensures that the finite ensemble has $ρ^{\\otimes 2N}$ as its invariant distribution; for finite-adaptive variants, exact stationarity applies after the adaptation phase is frozen. The two-system construction reveals that ensemble-chain samplers can be interpreted as finite-$N$ approximations to an ideal mean-field sampler; conversely, it provides a principled recipe for discretizing mean-field Langevin dynamics into tractable parallel MCMC algorithms. The framework also connects naturally to adaptive single-chain methods: by replacing particle-based statistics with time-averaged statistics from a single chain, one recovers analogous adaptive dynamics in the long-time limit without requiring a large ensemble. We derive novel two-system versions of both overdamped and underdamped Langevin MCMC samplers within this paradigm. Across synthetic benchmarks and real-world posterior inference tasks, these two-system samplers -- which use a single BCSS-2 integrator step per Metropolis--Hastings accept/reject, in contrast to the long-trajectory style of HMC/NUTS -- exhibit substantial performance gains over No-U-Turn Sampler baselines, achieving higher effective sample sizes per gradient evaluation and markedly higher wall-clock throughput. On higher-dimensional posteriors, the adaptive MAKLA-BCSS-2 methods remain stable and achieve substantially better per-gradient efficiency and wall-clock throughput than the NUTS variants in our benchmark suite.",
+ "primary": "stat.CO"
+}

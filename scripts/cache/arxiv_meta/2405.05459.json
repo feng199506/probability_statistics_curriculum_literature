@@ -1,0 +1,18 @@
+{
+ "id": "2405.05459",
+ "title": "Estimation and Inference for Change Points in Functional Regression Time Series",
+ "authors": [
+  "Shivam Kumar",
+  "Haotian Xu",
+  "Haeran Cho",
+  "Daren Wang"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 1,
+ "latest_date": "2024-05-08",
+ "journal_ref": "",
+ "doi": "10.5705/ss.202024.0234",
+ "comment": "",
+ "abstract": "In this paper, we study the estimation and inference of change points under a functional linear regression model with changes in the slope function. We present a novel Functional Regression Binary Segmentation (FRBS) algorithm which is computationally efficient as well as achieving consistency in multiple change point detection. This algorithm utilizes the predictive power of piece-wise constant functional linear regression models in the reproducing kernel Hilbert space framework. We further propose a refinement step that improves the localization rate of the initial estimator output by FRBS, and derive asymptotic distributions of the refined estimators for two different regimes determined by the magnitude of a change. To facilitate the construction of confidence intervals for underlying change points based on the limiting distribution, we propose a consistent block-type long-run variance estimator. Our theoretical justifications for the proposed approach accommodate temporal dependence and heavy-tailedness in both the functional covariates and the measurement errors. Empirical effectiveness of our methodology is demonstrated through extensive simulation studies and an application to the Standard and Poor's 500 index dataset.",
+ "primary": "stat.ME"
+}

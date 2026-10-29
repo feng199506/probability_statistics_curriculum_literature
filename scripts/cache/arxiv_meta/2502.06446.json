@@ -1,0 +1,17 @@
+{
+ "id": "2502.06446",
+ "title": "Grouped fixed effects regularization for binary choice models",
+ "authors": [
+  "Claudia Pigini",
+  "Alessandro Pionati",
+  "Francesco Valentini"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the application of the grouped fixed effects approach to binary choice models for panel data in presence of severe complete separation. Through data loss, complete separation may lead to biased estimates of Average Partial Effects and imprecise inference. Moreover, forecasts are not available for units without variability in the response configuration. The grouped fixed effects approach discretizes unobserved heterogeneity via k-means clustering, thus reducing the number of fixed effects to estimate. This regularization reduces complete separation, since it relies on within-cluster rather than within-subject response transitions. Drawing from asymptotic theory for the APEs, we propose choosing a number of groups such that clustering delivers a good approximation of the latent trait while keeping the incidental parameters problem under control. The simulation results show that the proposed approach delivers unbiased estimates and reliable inference for the APEs. Two empirical applications illustrate the sensitivity of the results to the choice of the number of groups and how nontrivial forecasts for a much larger number of units can be obtained.",
+ "primary": "econ.EM"
+}

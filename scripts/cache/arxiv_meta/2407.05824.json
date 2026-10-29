@@ -1,0 +1,17 @@
+{
+ "id": "2407.05824",
+ "title": "Counting on count regression: a reexamination of routinely-cited Negative Binomial specifications",
+ "authors": [
+  "Ettore Settanni",
+  "Reinout Heijungs",
+  "Jagjit Singh Srai"
+ ],
+ "v1_date": "2024-07-08",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 1 figure, 4 tables",
+ "abstract": "Negative Binomial regression is a staple in empirical management research, especially for the analysis of supply chain disruption risks. Its computational structure is often taken for granted: most applications omit the scoring and information equations and defer to a handful of references for details. But what if the evidence provided by those trusted sources disagrees? We reexamine results from a selection of routinely-cited work on Negative Binomial regression, especially with regard to scoring and information equations in the so-called dispersion parameter. For such parameter, we find limitations affecting each stage of the maximum likelihood estimation process, and conclude that there is no reliable expression for the corresponding element of Fisher Information Matrix. For practical relevance, we also look under the hood of an open-source software implementation in R, and show that the notation adopted has some advantages over its published counterparts. Our proposed remediation is simple: to elevate computations that are rarely made explicit. We illustrate our findings in R with the aid of a simplified numerical example that, while obfuscated due to sensitivity, is underpinned by real-world data on clinical trials supply disruptions.",
+ "primary": "stat.ME"
+}

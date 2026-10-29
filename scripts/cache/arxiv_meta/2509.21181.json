@@ -1,0 +1,16 @@
+{
+ "id": "2509.21181",
+ "title": "Closed-form $\\ell_r$ norm scaling with data for overparameterized linear regression and diagonal linear networks under $\\ell_p$ bias",
+ "authors": [
+  "Shuofeng Zhang",
+  "Ard Louis"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 4,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For overparameterized linear regression with isotropic Gaussian design and minimum-$\\ell_p$ interpolator $p\\in(1,2]$, we give a unified, high-probability characterization for the scaling of the family of parameter norms $ \\\\{ \\lVert \\widehat{w_p} \\rVert_r \\\\}_{r \\in [1,p]} $ with sample size. We solve this basic, but unresolved question through a simple dual-ray analysis, which reveals a competition between a signal *spike* and a *bulk* of null coordinates in $X^\\top Y$, yielding closed-form predictions for (i) a data-dependent transition $n_\\star$ (the \"elbow\"), and (ii) a universal threshold $r_\\star=2(p-1)$ that separates $\\lVert \\widehat{w_p} \\rVert_r$'s which plateau from those that continue to grow with an explicit exponent. This unified solution resolves the scaling of *all* $\\ell_r$ norms within the family $r\\in [1,p]$ under $\\ell_p$-biased interpolation, and explains in one picture which norms saturate and which increase as $n$ grows. We then study diagonal linear networks (DLNs) trained by gradient descent. By calibrating the initialization scale $α$ to an effective $p_{\\mathrm{eff}}(α)$ via the DLN separable potential, we show empirically that DLNs inherit the same elbow/threshold laws, providing a predictive bridge between explicit and implicit bias. Given that many generalization proxies depend on $\\lVert \\widehat {w_p} \\rVert_r$, our results suggest that their predictive power will depend sensitively on which $l_r$ norm is used.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2408.12482",
+ "title": "Latent Gaussian and Hüsler--Reiss Graphical Models with Golazo Penalty",
+ "authors": [
+  "Ignacio Echave-Sustaeta Rodríguez",
+  "Frank Röttger"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 2,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 11 figures",
+ "abstract": "The existence of latent variables in practical problems is common, for example when some variables are difficult or expensive to measure, or simply unknown. When latent variables are unaccounted for, structure learning for Gaussian graphical models can be blurred by additional correlation between the observed variables that is incurred by the latent variables. A standard approach for this problem is a latent version of the graphical lasso that splits the inverse covariance matrix into a sparse and a low-rank part that are penalized separately. This approach has recently been extended successfully to Hüsler--Reiss graphical models, which can be considered as an analogue of Gaussian graphical models in extreme value statistics. In this paper we propose a generalization of structure learning for Gaussian and Hüsler--Reiss graphical models via the flexible Golazo penalty. This allows us to introduce latent versions of for example the adaptive lasso, positive dependence constraints or predetermined sparsity patterns, and combinations of those. We develop algorithms for both latent graphical models with the Golazo penalty and demonstrate them on simulated and real data.",
+ "primary": "stat.ME"
+}

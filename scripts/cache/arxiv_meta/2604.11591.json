@@ -1,0 +1,15 @@
+{
+ "id": "2604.11591",
+ "title": "A novel reference prior for Gaussian hierarchical models with intrinsic conditional autoregressive random effects",
+ "authors": [
+  "Marco A. R. Ferreira"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 1,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a novel reference prior for Gaussian hierarchical models with intrinsic conditional autoregressive (ICAR) random effects. This is particularly important in the context of objective Bayes variable selection with sample size $n$ and $k$ regressors. In this context, a previously published reference prior requires the computation of spectral decompositions of two $n$-dimensional matrices for each model under consideration. As a consequence, for variable selection the computational cost of this previous reference prior grows as $O(n^3 2^k)$. In contrast, our novel reference prior requires the computation of the spectral decomposition of one $n$-dimensional matrix that can be used for all models under consideration. Thus, the computational cost of our novel reference prior grows much slower as $O(n^3)$. Hence, computational savings can be substantial, e.g. in a problem with 10 regressors, when compared to the previously published reference prior, computations based on our novel reference prior are more than 1000 times faster. We provide a proof of the equivalence of the two priors. A simulation study shows that, while both reference priors provide equivalent variable selection results, for large sample sizes computations based on our novel prior are several orders of magnitude faster. Finally, the utility of our novel reference prior is illustrated with a spatial regression study of county-level median household income on socio-economic regressors for 3108 counties in the contiguous United States.",
+ "primary": "stat.ME"
+}

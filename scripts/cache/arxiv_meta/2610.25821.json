@@ -1,0 +1,15 @@
+{
+ "id": "2610.25821",
+ "title": "Optimal Priors for Betting Tests with Bounded Payoffs: An Exact Expected-Time Characterization",
+ "authors": [
+  "Francesco Orabona"
+ ],
+ "v1_date": "2026-10-19",
+ "latest_version": 2,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Drastically improved the main results, added confidence sequences, improved numerical implementation, reorganized the paper",
+ "abstract": "Testing by betting is a powerful framework that recasts hypothesis testing as a betting game. A popular approach spreads the initial wealth over fixed bets according to a prior distribution, using a universal portfolio algorithm. For suitable priors, this approach achieves the optimal expected rejection time as the error probability goes to zero at a fixed alternative. Yet, priors with this guarantee can behave quite differently near the null. This motivates the question: Which prior should we use in testing-by-betting algorithms? We study bounded scalar payoffs and, under technical conditions, prove a sharp formula for expected rejection time, uniform over all bounded alternatives as the error probability tends to zero. The formula shows how the prior's mass around the zero bet determines the cost of adapting to an unknown alternative. We characterize the priors that attain the best possible leading constant when the error probability and alternative vary together. We also show that no valid test can uniformly improve on this cost across ranges of alternatives near the null. In particular, the uniform prior can require arbitrarily more observations than suitable priors that concentrate around the zero bet. A general inversion argument converts our results into sharp expected times to reach a prescribed confidence-sequence width. We also give a concrete prior choice and an FFT-based algorithm with almost linear computational complexity.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2606.07052",
+ "title": "Influence of continuous predictor modelling methods on prediction stability in clinical prediction model development: an empirical comparison using real clinical data",
+ "authors": [
+  "Phichayut Phinyo",
+  "Pakpoom Wongyikul",
+  "Noraworn Jirattikanwong",
+  "Natthanaphop Isaradech",
+  "Wuttipat Kiratipaisarl",
+  "Suppachai Lawanaskol",
+  "Noppadon Seesuwan",
+  "Wachiranun Sirikul"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 1,
+ "latest_date": "2026-06-05",
+ "journal_ref": "Clin Epidemiol. 2026;18:630518",
+ "doi": "10.2147/clep.s630518",
+ "comment": "30 pages",
+ "abstract": "Background and objective: Prediction stability is increasingly recognised as important for reliable clinical prediction model development, but the effect of continuous predictor modelling choices is unclear. This study examined how approaches to modelling continuous predictors influence prediction stability. Methods: We used a real clinical dataset of 19,418 emergency department patients to create five sample size scenarios ranging from 437 to 8,739 patients. Six methods were compared: dichotomisation at the median (DIC), tertile categorisation (TER), linear terms (LIN), quadratic terms (QUA), multivariable fractional polynomials (MFP), and extreme gradient boosting (XGB). Prediction stability was evaluated using a bootstrap-based framework. Optimism-corrected AUC and calibration were estimated through internal validation. A method was considered stable when at least 90% of individual predictions had a mean absolute prediction error (MAPE) <=5%. Results: Stability increased with sample size and varied by method. At n = 437, no method met the stability criterion; LIN was the most stable, followed by DIC. At n = 874, DIC and LIN achieved stable predictions with similar calibration, although DIC had lower AUC. At n = 1,748, QUA achieved stability, whereas MFP and XGB did not. At n = 3,496 and n = 8,739, all methods achieved stability. LIN, QUA, MFP, and XGB generally had higher AUCs than DIC and TER, while XGB showed the highest AUC but persistent miscalibration. Conclusion: Continuous predictor modelling methods appeared to influence prediction stability. LIN achieved stable predictions from the base sample size onwards, whereas QUA, MFP, and XGB required larger samples. Although XGB showed high discrimination, calibration concerns persisted. These findings suggest that, in smaller datasets, simpler approaches, particularly LIN, may provide more stable predictions.",
+ "primary": "stat.ME"
+}

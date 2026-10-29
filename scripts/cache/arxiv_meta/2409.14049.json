@@ -1,0 +1,20 @@
+{
+ "id": "2409.14049",
+ "title": "Adaptive radar detection of subspace-based distributed target in power heterogeneous clutter",
+ "authors": [
+  "Daipeng Xiao",
+  "Weijian Liu",
+  "Jun Liu",
+  "Lingyan Dai",
+  "Xueli Fang",
+  "Jianjun Ge"
+ ],
+ "v1_date": "2024-09-21",
+ "latest_version": 2,
+ "latest_date": "2024-10-09",
+ "journal_ref": "",
+ "doi": "10.1109/jsen.2024.3472040",
+ "comment": "9 pages, 11 figures. This manuscript is accepted in IEEE Sensors Journal",
+ "abstract": "This paper investigates the problem of adaptive detection of distributed targets in power heterogeneous clutter. In the considered scenario, all the data share the identical structure of clutter covariance matrix, but with varying and unknown power mismatches. To address this problem, we iteratively estimate all the unknowns, including the coordinate matrix of the target, the clutter covariance matrix, and the corresponding power mismatches, and propose three detectors based on the generalized likelihood ratio test (GLRT), Rao and the Wald tests. The results from simulated and real data both illustrate that the detectors based on GLRT and Rao test have higher probabilities of detection (PDs) than the existing competitors. Among them, the Rao test-based detector exhibits the best overall detection performance. We also analyze the impact of the target extended dimensions, the signal subspace dimensions, and the number of training samples on the detection performance. Furthermore, simulation experiments also demonstrate that the proposed detectors have a constant false alarm rate (CFAR) property for the structure of clutter covariance matrix.",
+ "primary": "stat.ME"
+}

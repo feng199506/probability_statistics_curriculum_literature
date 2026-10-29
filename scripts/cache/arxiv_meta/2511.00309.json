@@ -1,0 +1,19 @@
+{
+ "id": "2511.00309",
+ "title": "Transit-MP: Transit-Prioritized Max-Pressure Control in Sparse Connected Vehicle Environments",
+ "authors": [
+  "Chaopeng Tan",
+  "Hao Liu",
+  "Dingshan Sun",
+  "Marco Rinaldi",
+  "Hans van Lint"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 1,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 11 figures",
+ "abstract": "Max-pressure (MP) control stands out among real-time network traffic signal control methods due to its simplicity, decentralized nature, and theoretical stability. However, existing MP control methods have limited consideration of public transportation and do not address the network stability problem of transit-prioritized MP in partially connected vehicle (CV) environments. In this study, we propose Transit-MP, which realizes transit-prioritized MP control in partially CV environments by considering real-time vehicle occupancy and the impact of transit dwell at stations. Theoretically, we demonstrate that Transit-MP, while using different traffic state measures for upstream and downstream links for pressure calculation, still achieves road network stability even in partially CV environments. Note that for MP controllers in sparse CV environments, some movements may have missing CV observations, leading to link spillovers, which create the queue starvation phenomenon: a movement no longer receives the green phase despite the queue spillover. Therefore, we further propose a modified Transit-MP (mTransit-MP) that incorporates historical traffic data to address this issue. We rigorously prove that the proposed mTransit-MP can effectively avoid the queue starvation phenomenon. Experimental results on a real-world corridor in Amsterdam with 15 transit lines and 31 stations show that our method significantly reduces the real-time vehicle and spillover count, and improves delays for both private vehicles and transit vehicles compared to a state-of-the-art MP controller for transit signal priority. In sparse CV environments, our mTransit-MP is effective in mitigating link spillovers while enhancing the overall performance of multi-modal traffic.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.00517",
+ "title": "Detecting Imprinting and Maternal Effects Using Monte Carlo Expectation Maximization Algorithm",
+ "authors": [
+  "Pooya Aavani",
+  "Alexandre Trindade",
+  "Fangyuan Zhang"
+ ],
+ "v1_date": "2023-12-31",
+ "latest_version": 1,
+ "latest_date": "2023-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Numerous statistical methods have been developed to explore genomic imprinting and maternal effects, which are causes of parent-of-origin patterns in complex human diseases. However, most of them either only model one of these two confounded epigenetic effects, or make strong yet unrealistic assumptions about the population to avoid over-parameterization. A recent partial likelihood method (LIME) can identify both epigenetic effects based on case-control family data without those assumptions. Theoretical and empirical studies have shown its validity and robustness. However, because LIME obtains parameter estimation by maximizing partial likelihood, it is interesting to compare its efficiency with full likelihood maximizer. To overcome the difficulty in over-parameterization when using full likelihood, in this study we propose a Monte Carlo Expectation Maximization (MCEM) method to detect imprinting and maternal effects jointly. Those unknown mating type probabilities, the nuisance parameters, can be considered as latent variables in EM algorithm. Monte Carlo samples are used to numerically approximate the expectation function that cannot be solved algebraically. Our simulation results show that though this MCEM algorithm takes longer computational time, and can give higher bias in some simulations compared to LIME, it can generally detect both epigenetic effects with higher power and smaller standard error which demonstrates that it can be a good complement of LIME method.",
+ "primary": "stat.ME"
+}

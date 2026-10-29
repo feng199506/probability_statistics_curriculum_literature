@@ -1,0 +1,17 @@
+{
+ "id": "2610.04191",
+ "title": "Consistency of penalized maximum likelihood estimation for multidimensional change-in-velocity detection",
+ "authors": [
+  "Linh Do",
+  "Dat Do",
+  "Scott A. McKinley"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 1 figure",
+ "abstract": "We establish statistical consistency for the penalized maximum-likelihood estimator underlying CPLASS, a method for detecting changes in velocity in $d$-dimensional time-series data. The signal is modeled as a continuous piecewise-linear trajectory observed with independent Gaussian noise. Unlike classical change-in-mean models, continuity across adjacent segments couples their parameters and prevents direct application of standard segmentation arguments. Under compact parameter spaces, minimum segment-length and velocity-jump conditions, and a strengthened Schwarz information criterion penalty $ρ_k(\\log n)^γ$ with $γ>1$, we prove joint consistency of the estimated number of segments and all changepoint locations in the high-frequency regime $n\\to\\infty$. The maximum changepoint-location error is $O_{\\mathbb{P}}\\{(\\log n/n)^{1/2}\\}$. The proof first uses empirical-process theory to establish convergence of the fitted signal, variance, and likelihood for each fixed model size. It then combines overfitting and underfitting arguments with a two-stage geometric localization analysis, yielding an initial $(\\log n/n)^{1/3}$ rate that is sharpened by exploiting the local two-segment continuous piecewise-linear structure.",
+ "primary": "math.ST"
+}

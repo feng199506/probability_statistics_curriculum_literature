@@ -1,0 +1,15 @@
+{
+ "id": "2605.08551",
+ "title": "Nonparametric Empirical Bayes Confidence Intervals",
+ "authors": [
+  "Zhen Xie"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical Bayes methods can improve inference on unobservable individual effects by borrowing strength across units. This paper proposes nonparametric empirical Bayes confidence intervals (NP-EBCIs) for unobservable individual effects in a normal means model. The oracle intervals are constructed from posterior quantiles under a point-identified, fully nonparametric prior; feasible intervals replace these quantiles with nonparametric estimates. The NP-EBCIs are asymptotically exact in the sense that both their conditional and marginal coverage probabilities converge to the nominal level. The flexibility of this nonparametric construction has an unavoidable statistical cost. We demonstrate that posterior quantiles, unlike posterior means, inherit the severe ill-posedness of nonparametric deconvolution: the minimax optimal estimation rate is logarithmic. This logarithmic rate is minimax optimal for errors in the conditional coverage probability, and the resulting errors in the marginal coverage probability also vanish at the same logarithmic rate. Despite these slow asymptotic rates, simulations show that the NP-EBCIs remain close to nominal coverage when the prior is non-Gaussian, and deliver substantial length reductions relative to intervals that treat each unit in isolation.",
+ "primary": "econ.EM"
+}

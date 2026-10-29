@@ -1,0 +1,18 @@
+{
+ "id": "2301.07276",
+ "title": "Data thinning for convolution-closed distributions",
+ "authors": [
+  "Anna Neufeld",
+  "Ameer Dharamshi",
+  "Lucy L. Gao",
+  "Daniela Witten"
+ ],
+ "v1_date": "2023-01-18",
+ "latest_version": 3,
+ "latest_date": "2023-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose data thinning, an approach for splitting an observation into two or more independent parts that sum to the original observation, and that follow the same distribution as the original observation, up to a (known) scaling of a parameter. This very general proposal is applicable to any convolution-closed distribution, a class that includes the Gaussian, Poisson, negative binomial, gamma, and binomial distributions, among others. Data thinning has a number of applications to model selection, evaluation, and inference. For instance, cross-validation via data thinning provides an attractive alternative to the usual approach of cross-validation via sample splitting, especially in settings in which the latter is not applicable. In simulations and in an application to single-cell RNA-sequencing data, we show that data thinning can be used to validate the results of unsupervised learning approaches, such as k-means clustering and principal components analysis, for which traditional sample splitting is unattractive or unavailable.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2504.07915",
+ "title": "Detecting changes in space-varying parameters of local Poisson point processes",
+ "authors": [
+  "Nicoletta D'Angelo"
+ ],
+ "v1_date": "2025-04-10",
+ "latest_version": 1,
+ "latest_date": "2025-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in local models for point processes have highlighted the need for flexible methodologies to account for the spatial heterogeneity of external covariates influencing process intensity. In this work, we introduce tessellated spatial regression, a novel framework that extends segmented regression models to spatial point processes, with the aim of detecting abrupt changes in the effect of external covariates onto the process intensity. Our approach consists of two main steps. First, we apply a spatial segmentation algorithm to geographically weighted regression estimates, generating different tessellations that partition the study area into regions where model parameters can be assumed constant. Next, we fit log-linear Poisson models in which covariates interact with the tessellations, enabling region-specific parameter estimation and classical inferential procedures, such as hypothesis testing on regression coefficients. Unlike geographically weighted regression, our approach allows for discrete changes in regression coefficients, making it possible to capture abrupt spatial variations in the effect of real-valued spatial covariates. Furthermore, the method naturally addresses the problem of locating and quantifying the number of detected spatial changes. We validate our methodology through simulation studies and applications to two examples where a model with region-wise parameters seems appropriate and to an environmental dataset of earthquake occurrences in Greece.",
+ "primary": "stat.ME"
+}

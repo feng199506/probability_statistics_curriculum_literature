@@ -1,0 +1,17 @@
+{
+ "id": "2406.06860",
+ "title": "Cluster GARCH",
+ "authors": [
+  "Chen Tong",
+  "Peter Reinhard Hansen",
+  "Ilya Archakov"
+ ],
+ "v1_date": "2024-06-11",
+ "latest_version": 1,
+ "latest_date": "2024-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel multivariate GARCH model with flexible convolution-t distributions that is applicable in high-dimensional systems. The model is called Cluster GARCH because it can accommodate cluster structures in the conditional correlation matrix and in the tail dependencies. The expressions for the log-likelihood function and its derivatives are tractable, and the latter facilitate a score-drive model for the dynamic correlation structure. We apply the Cluster GARCH model to daily returns for 100 assets and find it outperforms existing models, both in-sample and out-of-sample. Moreover, the convolution-t distribution provides a better empirical performance than the conventional multivariate t-distribution.",
+ "primary": "econ.EM"
+}

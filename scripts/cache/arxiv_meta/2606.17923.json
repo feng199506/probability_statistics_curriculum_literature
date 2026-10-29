@@ -1,0 +1,22 @@
+{
+ "id": "2606.17923",
+ "title": "Spatial mixed models for assessing environmental exposure effects on the microbiome",
+ "authors": [
+  "Sooran Kim",
+  "Chan Wang",
+  "Soyoung Kwak",
+  "Fares Darawshy",
+  "Alexander Bain",
+  "Leopoldo N. Segal",
+  "Jiyoung Ahn",
+  "Huilin Li"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 1,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The influence of environmental exposures, such as air pollution, on human health has become increasingly recognized. A growing body of evidence suggests that the microbiome may mediate these effects, explaining the relationship between the environment and host biology. However, the impact of environmental exposures on the microbiome is not yet fully understood, and statistical modeling in this context is challenged by complex dependency structures. In particular, microbiome data exhibit spatial dependencies across sampling regions as well as ecological correlations among microbial taxa, which, if ignored, can substantially reduce detection power, leading to missed true signals. We introduce a novel spatial mixed modeling framework for microbiome data that accounts for both region-level spatial dependency and taxon-level ecological dependency using conditional autoregressive priors. Through simulations, we demonstrate that this framework outperforms existing methods that ignore such dependencies, by achieving high detection power in feature selection while maintaining low false positive rates and reduced mean squared error in estimation. Applied to two real studies-data from Food and Microbiome Longitudinal Investigation study and lung microbiome dataset-with fine particulate matter (PM_2.5) exposures, our model identified genera, which are known to be involved in pollution-related health outcomes, as well as novel taxa that may mediate host responses to air pollution. This novel approach offers a powerful and flexible tool for uncovering biologically meaningful associations in complex environmental data.",
+ "primary": "stat.ME"
+}

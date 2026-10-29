@@ -1,0 +1,17 @@
+{
+ "id": "1708.00145",
+ "title": "Semiparametric Efficiency in Convexity Constrained Single Index Model",
+ "authors": [
+  "Arun K. Kuchibhotla",
+  "Rohit K. Patra",
+  "Bodhisattva Sen"
+ ],
+ "v1_date": "2017-08-01",
+ "latest_version": 4,
+ "latest_date": "2021-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Removed the density bounded away from zero assumption in assumption (A5). Weakened assumption (B2)",
+ "abstract": "We consider estimation and inference in a single index regression model with an unknown convex link function. We introduce a convex and Lipschitz constrained least squares estimator (CLSE) for both the parametric and the nonparametric components given independent and identically distributed observations. We prove the consistency and find the rates of convergence of the CLSE when the errors are assumed to have only $q \\ge 2$ moments and are allowed to depend on the covariates. When $q\\ge 5$, we establish $n^{-1/2}$-rate of convergence and asymptotic normality of the estimator of the parametric component. Moreover, the CLSE is proved to be semiparametrically efficient if the errors happen to be homoscedastic. {We develop and implement a numerically stable and computationally fast algorithm to compute our proposed estimator in the R package~\\texttt{simest}}. We illustrate our methodology through extensive simulations and data analysis. Finally, our proof of efficiency is geometric and provides a general framework that can be used to prove efficiency of estimators in a wide variety of semiparametric models even when they do not satisfy the efficient score equation directly.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2409.02573",
+ "title": "Fitting an Equation to Data Impartially",
+ "authors": [
+  "Chris Tofallis"
+ ],
+ "v1_date": "2024-09-04",
+ "latest_version": 1,
+ "latest_date": "2024-09-04",
+ "journal_ref": "Mathematics, 11(18), 3957 (2023)",
+ "doi": "10.3390/math11183957",
+ "comment": "14 pages",
+ "abstract": "We consider the problem of fitting a relationship (e.g. a potential scientific law) to data involving multiple variables. Ordinary (least squares) regression is not suitable for this because the estimated relationship will differ according to which variable is chosen as being dependent, and the dependent variable is unrealistically assumed to be the only variable which has any measurement error (noise). We present a very general method for estimating a linear functional relationship between multiple noisy variables, which are treated impartially, i.e. no distinction between dependent and independent variables. The data are not assumed to follow any distribution, but all variables are treated as being equally reliable. Our approach extends the geometric mean functional relationship to multiple dimensions. This is especially useful with variables measured in different units, as it is naturally scale-invariant, whereas orthogonal regression is not. This is because our approach is not based on minimizing distances, but on the symmetric concept of correlation. The estimated coefficients are easily obtained from the covariances or correlations, and correspond to geometric means of associated least squares coefficients. The ease of calculation will hopefully allow widespread application of impartial fitting to estimate relationships in a neutral way.",
+ "primary": "stat.ME"
+}

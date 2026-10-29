@@ -1,0 +1,17 @@
+{
+ "id": "2609.23768",
+ "title": "Risk Measures under Paired-Ambiguity: A Deep Learning Reflected BSDE Framework",
+ "authors": [
+  "Nacira Agram",
+  "Jan Rems",
+  "Emanuela Rosazza Gianin"
+ ],
+ "v1_date": "2026-09-20",
+ "latest_version": 1,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study optimal stopping under dynamic risk measures with simultaneous ambiguity in the probability model and the discount rate. We introduce a paired ambiguity framework combining Girsanov model uncertainty with cash subadditive risk evaluation and characterize the stopping value by an upper reflected backward stochastic differential equation (BSDE). We establish structural properties of the resulting stopping operator and study quadratic drivers associated with entropic risk measures, obtaining explicit stopping rules in several benchmark cases. We then develop a deep learning scheme for the reflected quadratic BSDE. The convergence analysis uses discrete reflection and truncation to reduce the quadratic problem to a globally Lipschitz system and combines reflected BSDE discretization estimates with neural network approximation errors. Numerical experiments for American options illustrate the effects of discount rate and entropic ambiguity on stopping values and exercise decisions.",
+ "primary": "q-fin.RM"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2510.14711",
+ "title": "Fast and Scalable Score-Based Kernel Calibration Tests",
+ "authors": [
+  "Pierre Glaser",
+  "David Widmann",
+  "Fredrik Lindsten",
+  "Arthur Gretton"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 1,
+ "latest_date": "2025-10-16",
+ "journal_ref": "Uncertainty in Artificial Intelligence (UAI) 2023",
+ "doi": "",
+ "comment": "26 pages",
+ "abstract": "We introduce the Kernel Calibration Conditional Stein Discrepancy test (KCCSD test), a non-parametric, kernel-based test for assessing the calibration of probabilistic models with well-defined scores. In contrast to previous methods, our test avoids the need for possibly expensive expectation approximations while providing control over its type-I error. We achieve these improvements by using a new family of kernels for score-based probabilities that can be estimated without probability density samples, and by using a conditional goodness-of-fit criterion for the KCCSD test's U-statistic. We demonstrate the properties of our test on various synthetic settings.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2609.38412",
+ "title": "Local polynomial density ratio estimation",
+ "authors": [
+  "Hajo Holzmann",
+  "Alexander Meister"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel local-polynomial estimator of the ratio $r=f/g$ of two $d$-dimensional densities $f$ and $g$, from which independent samples are available. The estimator is shown to achieve pointwise minimax optimal rates over Hölder classes of arbitrary smoothness index without additional logarithmic factors, and with smoothness being only assumed of $r$ but not of $f$ nor $g$. Our analysis remains valid for points on the boundary of the support of the distribution associated to $g$ under a mild geometric assumption on the (unknown) boundary. We also derive a concentration inequality for the estimator, which can be useful in applications to classification, and give a rate in the supremum norm, where the supremum is also taken over boundary support points. The smoothness class over which the rate is obtained is sufficiently large that the individual densities $f$ and $g$ cannot be consistently estimated uniformly over this class. Direct estimators of the partial derivatives of $r$ together with rates of convergence are also provided. We also obtain asymptotic normality of the estimators under quite general assumptions and again including boundary points, with a consistent variance estimator allowing for data-driven studentization. Moreover, we show how our estimator can be used to estimate the Kullback-Leibler information, in a construction which additionally uses debiasing. We provide the parametric rate together with asymptotic normality under sufficient smoothness of $r$ relative to the dimension $d$.",
+ "primary": "math.ST"
+}

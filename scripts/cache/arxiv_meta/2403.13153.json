@@ -1,0 +1,16 @@
+{
+ "id": "2403.13153",
+ "title": "Tensor Time Series Imputation through Tensor Factor Modelling",
+ "authors": [
+  "Zetai Cen",
+  "Clifford Lam"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 2,
+ "latest_date": "2024-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "78 pages, 13 figures",
+ "abstract": "We propose tensor time series imputation when the missing pattern in the tensor data can be general, as long as any two data positions along a tensor fibre are both observed for enough time points. The method is based on a tensor time series factor model with Tucker decomposition of the common component. One distinguished feature of the tensor time series factor model used is that there can be weak factors in the factor loadings matrix for each mode. This reflects reality better when real data can have weak factors which drive only groups of observed variables, for instance, a sector factor in financial market driving only stocks in a particular sector. Using the data with missing entries, asymptotic normality is derived for rows of estimated factor loadings, while consistent covariance matrix estimation enables us to carry out inferences. As a first in the literature, we also propose a ratio-based estimator for the rank of the core tensor under general missing patterns. Rates of convergence are spelt out for the imputations from the estimated tensor factor models. Simulation results show that our imputation procedure works well, with asymptotic normality and corresponding inferences also demonstrated. Re-imputation performances are also gauged when we demonstrate that using slightly larger rank then estimated gives superior re-imputation performances. A Fama-French portfolio example with matrix returns and an OECD data example with matrix of Economic indicators are presented and analyzed, showing the efficacy of our imputation approach compared to direct vector imputation.",
+ "primary": "math.ST"
+}

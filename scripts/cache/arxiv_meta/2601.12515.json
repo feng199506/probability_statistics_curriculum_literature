@@ -1,0 +1,16 @@
+{
+ "id": "2601.12515",
+ "title": "Bayesian Inference for Partially Observed McKean-Vlasov SDEs with Full Distribution Dependence",
+ "authors": [
+  "Ning Ning",
+  "Amin Wu"
+ ],
+ "v1_date": "2026-01-18",
+ "latest_version": 1,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 30 pages supplementary",
+ "abstract": "McKean-Vlasov stochastic differential equations (MVSDEs) describe systems whose dynamics depend on both individual states and the population distribution, and they arise widely in neuroscience, finance, and epidemiology. In many applications the system is only partially observed, making inference very challenging when both drift and diffusion coefficients depend on the evolving empirical law. This paper develops a Bayesian framework for latent state inference and parameter estimation in such partially observed MVSDEs. We combine time-discretization with particle-based approximations to construct tractable likelihood estimators, and we design two particle Markov chain Monte Carlo (PMCMC) algorithms: a single-level PMCMC method and a multilevel PMCMC (MLPMCMC) method that couples particle systems across discretization levels. The multilevel construction yields correlated likelihood estimates and achieves mean square error $(O(\\varepsilon^2))$ at computational cost $(O(\\varepsilon^{-6}))$, improving on the $(O(\\varepsilon^{-7}))$ complexity of single-level schemes. We address the fully law-dependent diffusion setting which is the most general formulation of MVSDEs, and provide theoretical guarantees under standard regularity assumptions. Numerical experiments confirm the efficiency and accuracy of the proposed methodology.",
+ "primary": "stat.CO"
+}

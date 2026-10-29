@@ -1,0 +1,17 @@
+{
+ "id": "2511.13554",
+ "title": "Efficient Simulation of Hawkes Processes using their Affine Volterra Structure",
+ "authors": [
+  "Eduardo Abi Jaber",
+  "Elie Attal",
+  "Dimitri Sotnikov"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 1,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel and efficient simulation scheme for Hawkes processes on a fixed time grid, leveraging their affine Volterra structure. The key idea is to first simulate the integrated intensity and the counting process using Inverse Gaussian and Poisson distributions, from which the jump times can then be easily recovered. Unlike conventional exact algorithms based on sampling jump times first, which have random computational complexity and can be prohibitive in the presence of high activity or singular kernels, our scheme has deterministic complexity which enables efficient large-scale Monte Carlo simulations and facilitates vectorization. Our method applies to any nonnegative, locally integrable kernel, including singular and non-monotone ones. By reformulating the scheme as a stochastic Volterra equation with a measure-valued kernel, we establish weak convergence to the target Hawkes process in the Skorokhod $J_1$-topology. Numerical experiments confirm substantial computational gains while preserving high accuracy across a wide range of kernels, with remarkably improved performance for a variant of our scheme based on the resolvent of the kernel.",
+ "primary": "math.PR"
+}

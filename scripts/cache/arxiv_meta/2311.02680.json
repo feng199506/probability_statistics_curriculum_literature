@@ -1,0 +1,16 @@
+{
+ "id": "2311.02680",
+ "title": "Heavy Traffic Scaling Limits for Shortest Remaining Processing Time Queues with Light Tailed Processing Time Distributions",
+ "authors": [
+  "Chunxu Ji",
+  "Amber L. Puha"
+ ],
+ "v1_date": "2023-11-05",
+ "latest_version": 1,
+ "latest_date": "2023-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We prove a heavy traffic scaling limit for a shortest remaining processing time queue. We are interested in the case where the processing time distribution has a tail that decays rapidly, i.e., has light tails. In particular, we revisit the work in Puha (2015), which shows that the diffusion scaled queue length process multiplied by a processing time distribution dependent factor that tends to infinity converges to a nontrivial reflecting Brownian motion, under the condition that this distribution dependent factor is slowly varying and obeys a certain rate of convergence condition. Here, we prove that the rate of convergence condition is not needed and the result holds more generally. We further show convergence of a sequence of nonstandardly scaled measure valued state descriptors to a point mass at one such that the total mass fluctuates randomly in accordance with the diffusion limit for the workload process. This is a sharp concentration result which shows that, under this nonstandard scaling, there are a very small number of tasks in the system and the remaining work for each such task is large and of the same order of magnitude as that of other tasks. This is due to the prioritization of the task with the least remaining work, and is in contrast to the case of heavy tailed processing times studied in Banerjee, Budhiraja, and Puha (2022). There it is shown that, while there is some concentration, the remaining times of the very small number of tasks in the system spread out over the nonnegative real line according to a random profile under this nonstandard scaling. Thus, this work completes the description of the two fundamentally different behaviors of SPRT by characterizing it in the case of light tailed processing time distributions.",
+ "primary": "math.PR"
+}

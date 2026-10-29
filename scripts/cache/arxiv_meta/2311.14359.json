@@ -1,0 +1,19 @@
+{
+ "id": "2311.14359",
+ "title": "Thompson sampling for zero-inflated count outcomes with an application to the Drink Less mobile health study",
+ "authors": [
+  "Xueqing Liu",
+  "Nina Deliu",
+  "Tanujit Chakraborty",
+  "Lauren Bell",
+  "Bibhas Chakraborty"
+ ],
+ "v1_date": "2023-11-24",
+ "latest_version": 2,
+ "latest_date": "2024-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mobile health (mHealth) interventions often aim to improve distal outcomes, such as clinical conditions, by optimizing proximal outcomes through just-in-time adaptive interventions. Contextual bandits provide a suitable framework for customizing such interventions according to individual time-varying contexts. However, unique challenges, such as modeling count outcomes within bandit frameworks, have hindered the widespread application of contextual bandits to mHealth studies. The current work addresses this challenge by leveraging count data models into online decision-making approaches. Specifically, we combine four common offline count data models (Poisson, negative binomial, zero-inflated Poisson, and zero-inflated negative binomial regressions) with Thompson sampling, a popular contextual bandit algorithm. The proposed algorithms are motivated by and evaluated on a real dataset from the Drink Less trial, where they are shown to improve user engagement with the mHealth platform. The proposed methods are further evaluated on simulated data, achieving improvement in maximizing cumulative proximal outcomes over existing algorithms. Theoretical results on regret bounds are also derived. The countts R package provides an implementation of our approach.",
+ "primary": "stat.ML"
+}

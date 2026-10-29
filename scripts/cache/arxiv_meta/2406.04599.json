@@ -1,0 +1,16 @@
+{
+ "id": "2406.04599",
+ "title": "Imputation of Nonignorable Missing Data in Surveys Using Auxiliary Margins Via Hot Deck and Sequential Imputation",
+ "authors": [
+  "Yanjiao Yang",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 1,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Survey data collection often is plagued by unit and item nonresponse. To reduce reliance on strong assumptions about the missingness mechanisms, statisticians can use information about population marginal distributions known, for example, from censuses or administrative databases. One approach that does so is the Missing Data with Auxiliary Margins, or MD-AM, framework, which uses multiple imputation for both unit and item nonresponse so that survey-weighted estimates accord with the known marginal distributions. However, this framework relies on specifying and estimating a joint distribution for the survey data and nonresponse indicators, which can be computationally and practically daunting in data with many variables of mixed types. We propose two adaptations to the MD-AM framework to simplify the imputation task. First, rather than specifying a joint model for unit respondents' data, we use random hot deck imputation while still leveraging the known marginal distributions. Second, instead of sampling from conditional distributions implied by the joint model for the missing data due to item nonresponse, we apply multiple imputation by chained equations for item nonresponse before imputation for unit nonresponse. Using simulation studies with nonignorable missingness mechanisms, we demonstrate that the proposed approach can provide more accurate point and interval estimates than models that do not leverage the auxiliary information. We illustrate the approach using data on voter turnout from the U.S. Current Population Survey.",
+ "primary": "stat.ME"
+}

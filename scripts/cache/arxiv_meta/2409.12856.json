@@ -1,0 +1,17 @@
+{
+ "id": "2409.12856",
+ "title": "Scaleable Dynamic Forecast Reconciliation",
+ "authors": [
+  "Ross Hollyman",
+  "Fotios Petropoulos",
+  "Michael E. Tipping"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 1,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a dynamic approach to probabilistic forecast reconciliation at scale. Our model differs from the existing literature in this area in several important ways. Firstly we explicitly allow the weights allocated to the base forecasts in forming the combined, reconciled forecasts to vary over time. Secondly we drop the assumption, near ubiquitous in the literature, that in-sample base forecasts are appropriate for determining these weights, and use out of sample forecasts instead. Most existing probabilistic reconciliation approaches rely on time consuming sampling based techniques, and therefore do not scale well (or at all) to large data sets. We address this problem in two main ways, firstly by utilising a closed from estimator of covariance structure appropriate to hierarchical forecasting problems, and secondly by decomposing large hierarchies in to components which can be reconciled separately.",
+ "primary": "stat.ME"
+}

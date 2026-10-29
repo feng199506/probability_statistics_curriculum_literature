@@ -1,0 +1,18 @@
+{
+ "id": "2407.03379",
+ "title": "missForestPredict -- Missing data imputation for prediction settings",
+ "authors": [
+  "Elena Albu",
+  "Shan Gao",
+  "Laure Wynants",
+  "Ben Van Calster"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 1,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prediction models are used to predict an outcome based on input variables. Missing data in input variables often occurs at model development and at prediction time. The missForestPredict R package proposes an adaptation of the missForest imputation algorithm that is fast, user-friendly and tailored for prediction settings. The algorithm iteratively imputes variables using random forests until a convergence criterion (unified for continuous and categorical variables and based on the out-of-bag error) is met. The imputation models are saved for each variable and iteration and can be applied later to new observations at prediction time. The missForestPredict package offers extended error monitoring, control over variables used in the imputation and custom initialization. This allows users to tailor the imputation to their specific needs. The missForestPredict algorithm is compared to mean/mode imputation, linear regression imputation, mice, k-nearest neighbours, bagging, miceRanger and IterativeImputer on eight simulated datasets with simulated missingness (48 scenarios) and eight large public datasets using different prediction models. missForestPredict provides competitive results in prediction settings within short computation times.",
+ "primary": "stat.ME"
+}

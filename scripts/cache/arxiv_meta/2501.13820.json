@@ -1,0 +1,16 @@
+{
+ "id": "2501.13820",
+ "title": "Consistent spectral clustering in sparse tensor block models",
+ "authors": [
+  "Ian Välimaa",
+  "Lasse Leskelä"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 2,
+ "latest_date": "2025-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages",
+ "abstract": "High-order clustering aims to classify objects in multiway datasets that are prevalent in various fields such as bioinformatics, recommendation systems, and social network analysis. Such data are often sparse and high-dimensional, posing significant statistical and computational challenges. This paper introduces a tensor block model specifically designed for sparse integer-valued data tensors. We propose a simple spectral clustering algorithm augmented with a trimming step to mitigate noise fluctuations, and identify a density threshold that ensures the algorithm's consistency. Our approach models sparsity using a sub-Poisson noise concentration framework, accommodating heavier than sub-Gaussian tails. Remarkably, this natural class of tensor block models is closed under aggregation across arbitrary modes. Consequently, we obtain a comprehensive framework for evaluating the tradeoff between signal loss and noise reduction incurred by aggregating data. The analysis is based on a novel concentration bound for sparse random Gram matrices. The theoretical findings are illustrated through numerical experiments.",
+ "primary": "math.ST"
+}

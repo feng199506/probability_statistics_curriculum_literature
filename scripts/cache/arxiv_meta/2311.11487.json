@@ -1,0 +1,16 @@
+{
+ "id": "2311.11487",
+ "title": "Modeling Insurance Claims using Bayesian Nonparametric Regression",
+ "authors": [
+  "Mostafa Shams Esfand Abadi",
+  "Kaushik Ghosh"
+ ],
+ "v1_date": "2023-11-20",
+ "latest_version": 2,
+ "latest_date": "2025-01-06",
+ "journal_ref": "PLoS One 21(4): e0346734, 2026",
+ "doi": "10.1371/journal.pone.0346734",
+ "comment": "",
+ "abstract": "The prediction of future insurance claims based on observed risk factors, or covariates, help the actuary set insurance premiums. Typically, actuaries use parametric regression models to predict claims based on the covariate information. Such models assume the same functional form tying the response to the covariates for each data point. These models are not flexible enough and can fail to accurately capture at the individual level, the relationship between the covariates and the claims frequency and severity, which are often multimodal, highly skewed, and heavy-tailed. In this article, we explore the use of Bayesian nonparametric (BNP) regression models to predict claims frequency and severity based on covariates. In particular, we model claims frequency as a mixture of Poisson regression, and the logarithm of claims severity as a mixture of normal regression. We use the Dirichlet process (DP) and Pitman-Yor process (PY) as a prior for the mixing distribution over the regression parameters. Unlike parametric regression, such models allow each data point to have its individual parameters, making them highly flexible, resulting in improved prediction accuracy. We describe model fitting using MCMC and illustrate their applicability using French motor insurance claims data.",
+ "primary": "stat.ME"
+}

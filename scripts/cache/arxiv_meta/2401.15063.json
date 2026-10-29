@@ -1,0 +1,16 @@
+{
+ "id": "2401.15063",
+ "title": "Graph fission and cross-validation",
+ "authors": [
+  "James Leiner",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 2,
+ "latest_date": "2024-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 9 figures",
+ "abstract": "We introduce a technique called graph fission which takes in a graph which potentially contains only one observation per node (whose distribution lies in a known class) and produces two (or more) independent graphs with the same node/edge set in a way that splits the original graph's information amongst them in any desired proportion. Our proposal builds on data fission/thinning, a method that uses external randomization to create independent copies of an unstructured dataset. We extend this idea to the graph setting where there may be latent structure between observations. We demonstrate the utility of this framework via two applications: inference after structural trend estimation on graphs and a model selection procedure we term \"graph cross-validation\".",
+ "primary": "stat.ME"
+}

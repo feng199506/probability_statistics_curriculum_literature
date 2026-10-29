@@ -1,0 +1,16 @@
+{
+ "id": "2512.15244",
+ "title": "Non-parametric Causal Inference in Dynamic Thresholding Designs",
+ "authors": [
+  "Aditya Ghosh",
+  "Stefan Wager"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 2,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider causal inference in dynamic settings where treatment is assigned by thresholding a state variable that can change over time. There is a large literature on regression-discontinuity methods building on the fact that, in the static setting, treatment assignment via threshold crossing induces a quasi-experimental design that enables pragmatic causal inference. But dynamic settings involve challenges not present in the static setting, e.g., past treatments may affect current state and thus future treatments, and so existing regression-discontinuity methods do not apply. Here, we show that dynamic thresholding designs identify a marginal policy effect that nests the classical regression-discontinuity parameter in the static setting; and propose a tailored local linear regression estimator that is consistent for this marginal policy effect. We demonstrate our approach using an experiment that emulates real-world optimization of thresholds for continuous glucose monitoring using data generated from an FDA-approved simulator.",
+ "primary": "stat.ME"
+}

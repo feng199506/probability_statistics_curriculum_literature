@@ -1,0 +1,15 @@
+{
+ "id": "2605.19189",
+ "title": "Inference Functionals and Observation Operators for Distributional Statistical Models",
+ "authors": [
+  "R. Labouriau"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 1,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, one figure and one table",
+ "abstract": "This paper generalises inference functions (Godambe, 1960) to distributional statistical models, in which each probability measure is represented by a distribution--kernel pair $(T_θ, \\varphi) \\in \\mathcal S'(\\mathbb R) \\times \\mathcal S(\\mathbb R)$. The generalisation is strategically motivated: the key properties of maximum likelihood estimation-consistency and asymptotic normality -derive not from maximising the likelihood but from the MLE being the root of a regular inference function. Extending inference functions to the distributional setting provides an optimality theory for models lacking classical densities or finite moments. The extension requires enlarging the notion of observation. We introduce observation operators $\\mathcal O : \\mathcal S'(\\mathbb R) \\to \\mathcal Y$ mapping distributional models to an observation space, and define inference functionals as estimating equations composed with these operators. The framework encompasses classical point observations, interval-censored data, convolutional measurements, and transform-based statistics. We establish asymptotic theory (consistency, asymptotic normality, Godambe optimality) under mild conditions and derive a hierarchy of information bounds -- classical Fisher information dominates the information available through the observation operator, which in turn dominates the information captured by any inference functional -- via the Hájek--Le~Cam convolution theorem. The two gaps quantify distinct sources of information loss: the observation mechanism and the choice of inference functional. Examples include sinusoidal inference functions for heavy-tailed distributions, interval-censored location inference, elliptically contoured models, and nuisance parameters via the Bhapkar--Godambe projection.",
+ "primary": "math.ST"
+}

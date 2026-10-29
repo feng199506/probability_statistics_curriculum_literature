@@ -1,0 +1,19 @@
+{
+ "id": "2512.14624",
+ "title": "Learning the score under shape constraints",
+ "authors": [
+  "Rebecca M. Lewis",
+  "Oliver Y. Feng",
+  "Henry W. J. Reeve",
+  "Min Xu",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages, 5 figures",
+ "abstract": "Score estimation has recently emerged as a key modern statistical challenge, due to its pivotal role in generative modelling via diffusion models. Moreover, it is an essential ingredient in a new approach to linear regression via convex $M$-estimation, where the corresponding error densities are projected onto the log-concave class. Motivated by these applications, we study the minimax risk of score estimation with respect to squared $L^2(P_0)$-loss, where $P_0$ denotes an underlying log-concave distribution on $\\mathbb{R}$. Such distributions have decreasing score functions, but on its own, this shape constraint is insufficient to guarantee a finite minimax risk. We therefore define subclasses of log-concave densities that capture two fundamental aspects of the estimation problem. First, we establish the crucial impact of tail behaviour on score estimation by determining the minimax rate over a class of log-concave densities whose score function exhibits controlled growth relative to the quantile levels. Second, we explore the interplay between smoothness and log-concavity by considering the class of log-concave densities with a scale restriction and a $(β,L)$-Hölder assumption on the log-density for some $β\\in [1,2]$. We show that the minimax risk over this latter class is of order $L^{2/(2β+1)}n^{-β/(2β+1)}$ up to poly-logarithmic factors, where $n$ denotes the sample size. When $β< 2$, this rate is faster than could be obtained under either the shape constraint or the smoothness assumption alone. Our upper bounds are attained by a locally adaptive, multiscale estimator constructed from a uniform confidence band for the score function. This study highlights intriguing differences between the score estimation and density estimation problems over this shape-constrained class.",
+ "primary": "math.ST"
+}

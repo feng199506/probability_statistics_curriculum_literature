@@ -1,0 +1,17 @@
+{
+ "id": "2608.26805",
+ "title": "Expected Shortfall Model Averaging",
+ "authors": [
+  "Jianming Wu",
+  "Xinyu Zhang",
+  "Jie Zeng"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 1,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Expected shortfall (ES) is widely used to measure tail risk in finance and economics, but its prediction is challenging due to non-elicitability and model uncertainty. This paper proposes a two-stage cross-validation model averaging method for ES forecasting. In the first stage, conditional value-at-risk is estimated using quantile model averaging. In the second stage, a transformed response is constructed and mean squared error-based model averaging is applied to estimate ES. We establish theoretical properties of the proposed method under both correct specification and model misspecification, showing consistency of the estimators and asymptotic optimality of the forecasting risk. Simulation studies and empirical applications to U.S. stock return and macroeconomic GDP growth data show that the proposed approach provides accurate and stable ES forecasts and is computationally efficient.",
+ "primary": "stat.ME"
+}

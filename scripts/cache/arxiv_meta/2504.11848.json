@@ -1,0 +1,17 @@
+{
+ "id": "2504.11848",
+ "title": "Proximal Inference for Indirect and Intervening Effects in Population Interventions",
+ "authors": [
+  "Yang Bai",
+  "Yifan Cui",
+  "Baoluo Sun"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 3,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unmeasured confounding, unethical exposure, and ill-defined interventions pose significant challenges to evaluating policy-relevant mediation estimands in medicine and public health. In observational studies involving harmful exposures, the population intervention indirect effect (PIIE) is often more salient than the natural indirect effect, as the latter relies on hypothetical interventions that may be ethically or practically unfeasible. While the PIIE can be identified via the generalized front-door criterion under unmeasured exposure-outcome confounding, existing estimation methods typically assume the absence of unmeasured confounding for the mediator. Furthermore, when the exposure corresponds to ill-defined interventions, the standard PIIE criterion fails; however, the generalized front-door formula may still identify the causal effect of an intervening variable designed to capture the indirect effect. This paper develops a unified identification and estimation framework for the PIIE and the causal effect of an intervening variable in settings with pervasive unmeasured confounding affecting exposure-mediator, exposure-outcome, and mediator-outcome relationships. Specifically, we leverage observed covariates as proxy variables to construct three distinct identification strategies within a proximal causal inference framework. We characterize the semiparametric efficiency bound for the target estimands and develop multiply robust, locally efficient estimators that remain consistent under partial model misspecification. The finite-sample performance of our estimators is demonstrated through simulations. Finally, we apply our methodology to study the indirect effect of alcohol consumption on depression risk as mediated by depersonalization symptoms.",
+ "primary": "stat.ME"
+}

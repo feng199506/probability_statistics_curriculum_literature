@@ -1,0 +1,17 @@
+{
+ "id": "2311.07034",
+ "title": "Regularized Halfspace Depth for Functional Data",
+ "authors": [
+  "Hyemin Yeon",
+  "Xiongtao Dai",
+  "Sara Lopez-Pintado"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 2,
+ "latest_date": "2024-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data depth is a powerful nonparametric tool originally proposed to rank multivariate data from center outward. In this context, one of the most archetypical depth notions is Tukey's halfspace depth. In the last few decades notions of depth have also been proposed for functional data. However, Tukey's depth cannot be extended to handle functional data because of its degeneracy. Here, we propose a new halfspace depth for functional data which avoids degeneracy by regularization. The halfspace projection directions are constrained to have a small reproducing kernel Hilbert space norm. Desirable theoretical properties of the proposed depth, such as isometry invariance, maximality at center, monotonicity relative to a deepest point, upper semi-continuity, and consistency are established. Moreover, the regularized halfspace depth can rank functional data with varying emphasis in shape or magnitude, depending on the regularization. A new outlier detection approach is also proposed, which is capable of detecting both shape and magnitude outliers. It is applicable to trajectories in $L^2$, a very general space of functions that include non-smooth trajectories. Based on extensive numerical studies, our methods are shown to perform well in terms of detecting outliers of different types. Three real data examples showcase the proposed depth notion.",
+ "primary": "stat.ME"
+}

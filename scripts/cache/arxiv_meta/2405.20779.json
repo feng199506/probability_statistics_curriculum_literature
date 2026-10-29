@@ -1,0 +1,16 @@
+{
+ "id": "2405.20779",
+ "title": "Asymptotic utility of spectral anonymization",
+ "authors": [
+  "Katariina Perkonoja",
+  "Joni Virta"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 2,
+ "latest_date": "2024-08-12",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-031-69651-0_4",
+ "comment": "16 pages, 6 figures",
+ "abstract": "In the contemporary data landscape characterized by multi-source data collection and third-party sharing, ensuring individual privacy stands as a critical concern. While various anonymization methods exist, their utility preservation and privacy guarantees remain challenging to quantify. In this work, we address this gap by studying the utility and privacy of the spectral anonymization (SA) algorithm, particularly in an asymptotic framework. Unlike conventional anonymization methods that directly modify the original data, SA operates by perturbing the data in a spectral basis and subsequently reverting them to their original basis. Alongside the original version $\\mathcal{P}$-SA, employing random permutation transformation, we introduce two novel SA variants: $\\mathcal{J}$-spectral anonymization and $\\mathcal{O}$-spectral anonymization, which employ sign-change and orthogonal matrix transformations, respectively. We show how well, under some practical assumptions, these SA algorithms preserve the first and second moments of the original data. Our results reveal, in particular, that the asymptotic efficiency of all three SA algorithms in covariance estimation is exactly 50% when compared to the original data. To assess the applicability of these asymptotic results in practice, we conduct a simulation study with finite data and also evaluate the privacy protection offered by these algorithms using distance-based record linkage. Our research reveals that while no method exhibits clear superiority in finite-sample utility, $\\mathcal{O}$-SA distinguishes itself for its exceptional privacy preservation, never producing identical records, albeit with increased computational complexity. Conversely, $\\mathcal{P}$-SA emerges as a computationally efficient alternative, demonstrating unmatched efficiency in mean estimation.",
+ "primary": "cs.CR"
+}

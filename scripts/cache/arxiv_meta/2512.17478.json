@@ -1,0 +1,16 @@
+{
+ "id": "2512.17478",
+ "title": "Inference for high dimensional repeated measure designs with the R package hdrm",
+ "authors": [
+  "Paavo Sattler",
+  "Nils Hichert"
+ ],
+ "v1_date": "2025-12-19",
+ "latest_version": 1,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Repeated-measure designs allow comparisons within a group as well as between groups, and are commonly referred to as split-plot designs. While originating in agricultural experiments, they are now widely used in medical research, psychology, and the life sciences, where repeated observations on the same subject are essential. Modern data collection often produces observation vectors with dimension $d$ comparable to or exceeding the sample size $N$. Although this can be advantageous in terms of cost efficiency, ethical considerations, and the study of rare diseases, it poses substantial challenges for statistical inference. Parametric methods based on multivariate normality provide a flexible framework that avoids restrictive assumptions on covariance structures or on the asymptotic relationship between $d$ and $N$. Within this framework, the freely available R-package hdrm enables the analysis of a wide range of hypotheses concerning expectation vectors in high-dimensional repeated-measure designs, covering both single-group and multi-group settings with homogeneous or heterogeneous covariance matrices. This paper describes the implemented tests, demonstrates their use through examples, and discusses their applicability in practical high-dimensional data scenarios. To address computational challenges arising for large $d$, the package incorporates efficient estimators and subsampling strategies that substantially reduce computation time while preserving statistical validity.",
+ "primary": "stat.CO"
+}

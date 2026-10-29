@@ -1,0 +1,16 @@
+{
+ "id": "2311.11290",
+ "title": "Jeffreys-prior penalty for high-dimensional logistic regression: A conjecture about aggregate bias",
+ "authors": [
+  "Ioannis Kosmidis",
+  "Patrick Zietkiewicz"
+ ],
+ "v1_date": "2023-11-19",
+ "latest_version": 2,
+ "latest_date": "2024-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Firth (1993, Biometrika) shows that the maximum Jeffreys' prior penalized likelihood estimator in logistic regression has asymptotic bias decreasing with the square of the number of observations when the number of parameters is fixed, which is an order faster than the typical rate from maximum likelihood. The widespread use of that estimator in applied work is supported by the results in Kosmidis and Firth (2021, Biometrika), who show that it takes finite values, even in cases where the maximum likelihood estimate does not exist. Kosmidis and Firth (2021, Biometrika) also provide empirical evidence that the estimator has good bias properties in high-dimensional settings where the number of parameters grows asymptotically linearly but slower than the number of observations. We design and carry out a large-scale computer experiment covering a wide range of such high-dimensional settings and produce strong empirical evidence for a simple rescaling of the maximum Jeffreys' prior penalized likelihood estimator that delivers high accuracy in signal recovery, in terms of aggregate bias, in the presence of an intercept parameter. The rescaled estimator is effective even in cases where estimates from maximum likelihood and other recently proposed corrective methods based on approximate message passing do not exist.",
+ "primary": "stat.ME"
+}

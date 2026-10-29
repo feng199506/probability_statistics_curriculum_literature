@@ -1,0 +1,17 @@
+{
+ "id": "2412.17471",
+ "title": "Biomarker combination based on the Youden index with and without gold standard",
+ "authors": [
+  "Ao Sun",
+  "Yanting Li",
+  "Xiao-Hua Zhou"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 2,
+ "latest_date": "2025-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In clinical practice, multiple biomarkers are often measured on the same subject for disease diagnosis, and combining them can improve diagnostic accuracy. Existing studies typically combine multiple biomarkers by maximizing the Area Under the ROC Curve (AUC), assuming a gold standard exists or that biomarkers follow a multivariate normal distribution. However, practical diagnostic settings require both optimal combination coefficients and an effective cutoff value, and the reference test may be imperfect. In this paper, we propose a two-stage method for identifying the optimal linear combination and cutoff value based on the Youden index. First, it maximizes an approximation of the empirical AUC to estimate the optimal linear coefficients for combining multiple biomarkers. Then, it maximizes the empirical Youden index to determine the optimal cutoff point for disease classification. Under the semiparametric single index model and regularity conditions, the estimators for the linear coefficients, cutoff point, and Youden index are consistent. This method is also applicable when the reference standard is imperfect. We demonstrate the performance of our method through simulations and apply it to construct a diagnostic scale for Chinese medicine.",
+ "primary": "stat.ME"
+}

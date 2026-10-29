@@ -1,0 +1,16 @@
+{
+ "id": "2405.10719",
+ "title": "$\\ell_1$-Regularized Generalized Least Squares",
+ "authors": [
+  "Kaveh S. Nobari",
+  "Alex Gibberd"
+ ],
+ "v1_date": "2024-05-17",
+ "latest_version": 2,
+ "latest_date": "2025-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 6 figures",
+ "abstract": "We study an $\\ell_{1}$-regularized generalized least-squares (GLS) estimator for high-dimensional regressions with autocorrelated errors. Specifically, we consider the case where errors are assumed to follow an autoregressive process, alongside a feasible variant of GLS that estimates the structure of this process in a data-driven manner. The estimation procedure consists of three steps: performing a LASSO regression, fitting an autoregressive model to the realized residuals, and then running a second-stage LASSO regression on the rotated (whitened) data. We examine the theoretical performance of the method in a sub-Gaussian random-design setting, in particular assessing the impact of the rotation on the design matrix and how this impacts the estimation error of the procedure. We show that our proposed estimators maintain smaller estimation error than an unadjusted LASSO regression when the errors are driven by an autoregressive process. A simulation study verifies the performance of the proposed method, demonstrating that the penalized (feasible) GLS-LASSO estimator performs on par with the LASSO in the case of white noise errors, whilst outperforming when the errors exhibit significant autocorrelation.",
+ "primary": "stat.ME"
+}

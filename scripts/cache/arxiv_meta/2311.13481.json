@@ -1,0 +1,17 @@
+{
+ "id": "2311.13481",
+ "title": "Penalty-Induced Basis Exploration for Bayesian Splines",
+ "authors": [
+  "Sunwoo Lim",
+  "Sihyeon Pyeon",
+  "Seonghyun Jeong"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 3,
+ "latest_date": "2025-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spline basis exploration via Bayesian model selection is a widely employed strategy for determining the optimal set of basis terms in nonparametric regression. However, despite its widespread use, this approach often encounters performance limitations owing to the finite approximation of infinite-dimensional parameters. This limitation arises because Bayesian model selection tends to favor simpler models over more complex ones when the true model is not among the candidates. Drawing inspiration from penalized splines, one potential remedy is to incorporate an additional roughness penalty that directly regulates the smoothness of functions. This strategy mitigates underfitting by allowing the inclusion of more basis terms while preventing overfitting through explicit smoothness control. Motivated by this insight, we propose a novel penalty-induced prior distribution for Bayesian basis exploration. The proposed prior evaluates the complexity of spline functions based on a convex combination of a roughness penalty and a ridge-type penalty for model selection. Our method adapts to the unknown level of smoothness and achieves the minimax-optimal posterior contraction rate up to a logarithmic factor. We also provide an efficient Markov chain Monte Carlo algorithm for its implementation. Extensive simulation studies demonstrate that our method outperforms competing approaches in terms of performance metrics and model complexity. An application to real datasets further substantiates the validity of our proposed approach.",
+ "primary": "stat.ME"
+}

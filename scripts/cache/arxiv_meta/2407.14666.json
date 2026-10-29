@@ -1,0 +1,17 @@
+{
+ "id": "2407.14666",
+ "title": "A Bayesian workflow for securitizing casualty insurance risk",
+ "authors": [
+  "Nathaniel Haines",
+  "Conor Goold",
+  "J. Mark Shoun"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 3,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 12 figures",
+ "abstract": "Casualty insurance-linked securities (ILS) are appealing to investors because the underlying insurance claims, which are directly related to resulting security performance, are uncorrelated with most other asset classes. Conversely, casualty ILS are appealing to insurers as an efficient capital management tool. However, securitizing casualty insurance risk is non-trivial, as it requires forecasting loss ratios for pools of insurance policies that have not yet been written, in addition to estimating how the underlying losses will develop over time within future accident years. In this paper, we lay out a Bayesian workflow that tackles these complexities by using: (1) theoretically informed time-series and state-space models to capture how loss ratios develop and change over time; (2) historic industry data to inform prior distributions of models fit to individual programs; (3) stacking to combine loss ratio predictions from candidate models, and (4) both prior predictive simulations and simulation-based calibration to aid model specification. Using historic Schedule P filings, we then show how our proposed Bayesian workflow can be used to assess and compare models across a variety of key model performance metrics evaluated on future accident year losses.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2506.11424",
+ "title": "Local empirical Bayes correction for Bayesian modeling",
+ "authors": [
+  "Yoshiko Hayashi"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 4,
+ "latest_date": "2025-08-02",
+ "journal_ref": "Osaka Keidai Ronshu, vol.68, no.4, pp.161-172, 2017",
+ "doi": "10.24644/keidaironshu.68.4_161",
+ "comment": "",
+ "abstract": "The James-Stein estimator has attracted much interest as a shrinkage estimator that yields better estimates than the maximum likelihood estimator. The James-Stein estimator is also very useful as an argument in favor of empirical Bayesian methods. However, for problems involving large-scale data, such as differential gene expression data, the distribution is considered a mixture distribution with different means that cannot be considered sufficiently close. Therefore, it is not appropriate to apply the James-Stein estimator. Efron (2011) proposed a local empirical Bayes correction that attempted to correct a selection bias for large-scale data.",
+ "primary": "stat.ME"
+}

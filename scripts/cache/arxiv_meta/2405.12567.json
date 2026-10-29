@@ -1,0 +1,18 @@
+{
+ "id": "2405.12567",
+ "title": "Marginal and training-conditional guarantees in one-shot federated conformal prediction",
+ "authors": [
+  "Pierre Humbert",
+  "Batiste Le Bars",
+  "Aurélien Bellet",
+  "Sylvain Arlot"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study conformal prediction in the one-shot federated learning setting. The main goal is to compute marginally and training-conditionally valid prediction sets, at the server-level, in only one round of communication between the agents and the server. Using the quantile-of-quantiles family of estimators and split conformal prediction, we introduce a collection of computationally-efficient and distribution-free algorithms that satisfy the aforementioned requirements. Our approaches come from theoretical results related to order statistics and the analysis of the Beta-Beta distribution. We also prove upper bounds on the coverage of all proposed algorithms when the nonconformity scores are almost surely distinct. For algorithms with training-conditional guarantees, these bounds are of the same order of magnitude as those of the centralized case. Remarkably, this implies that the one-shot federated learning setting entails no significant loss compared to the centralized case. Our experiments confirm that our algorithms return prediction sets with coverage and length similar to those obtained in a centralized setting.",
+ "primary": "math.ST"
+}

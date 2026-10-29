@@ -1,0 +1,17 @@
+{
+ "id": "2507.09388",
+ "title": "Optimal Differentially Private Ranking from Pairwise Comparisons",
+ "authors": [
+  "T. Tony Cai",
+  "Abhinav Chakraborty",
+  "Yichen Wang"
+ ],
+ "v1_date": "2025-07-12",
+ "latest_version": 1,
+ "latest_date": "2025-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data privacy is a central concern in many applications involving ranking from incomplete and noisy pairwise comparisons, such as recommendation systems, educational assessments, and opinion surveys on sensitive topics. In this work, we propose differentially private algorithms for ranking based on pairwise comparisons. Specifically, we develop and analyze ranking methods under two privacy notions: edge differential privacy, which protects the confidentiality of individual comparison outcomes, and individual differential privacy, which safeguards potentially many comparisons contributed by a single individual. Our algorithms--including a perturbed maximum likelihood estimator and a noisy count-based method--are shown to achieve minimax optimal rates of convergence under the respective privacy constraints. We further demonstrate the practical effectiveness of our methods through experiments on both simulated and real-world data.",
+ "primary": "math.ST"
+}

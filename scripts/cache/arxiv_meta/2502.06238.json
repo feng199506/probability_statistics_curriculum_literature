@@ -1,0 +1,18 @@
+{
+ "id": "2502.06238",
+ "title": "XNet-Enhanced Deep BSDE Method and Numerical Analysis",
+ "authors": [
+  "Xiaotao Zheng",
+  "Xingye Yue",
+  "Zhihong Xia",
+  "Xin Li"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "10.1007/s10915-026-03237-4",
+ "comment": "",
+ "abstract": "Semilinear parabolic partial differential equations (PDEs) are fundamental to modeling complex dynamical systems across scientific domains. The Deep Backward Stochastic Differential Equation (BSDE) method is a promising approach for high-dimensional PDEs; however, existing convergence results apply only to globally Lipschitz generators, excluding important cases such as Allen--Cahn and Hamilton--Jacobi--Bellman (HJB) equations. This paper presents both a theoretical and a computational advance for Deep BSDE methods. Theoretically, we establish the convergence theory for non--Lipschitz generators--covering Allen--Cahn equations with cubic nonlinearity and HJB equations with quadratic gradient growth--based on a bounded double--well lemma and a truncated-BSDE analysis within the Bouchard--Touzi--Zhang theory. Computationally, we instantiate the framework with XNet, a shallow architecture with $\\mathcal O(L)$ parameters that preserves strong approximation while substantially reducing optimization and computational cost. Numerical experiments on 100--dimensional PDEs corroborate the predicted convergence behavior and demonstrate significant efficiency gains over standard feedforward implementations.",
+ "primary": "cs.CE"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2410.04359",
+ "title": "Semiparametric Spatial Point Processes",
+ "authors": [
+  "Xindi Lin",
+  "Bumjun Park",
+  "Christopher Zahasky",
+  "Hyunseung Kang"
+ ],
+ "v1_date": "2024-10-06",
+ "latest_version": 3,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a broad class of models called semiparametric spatial point process for making inference between spatial point patterns and spatial covariates. These models feature an intensity function with both parametric and nonparametric components. For the parametric component, we derive the semiparametric efficiency lower bound under Poisson point patterns and propose a point process double machine learning estimator that can achieve this lower bound. The proposed estimator for the parametric component is also shown to be consistent and asymptotically normal for non-Poisson point patterns. For the nonparametric component, we propose a kernel-based estimator and characterize its rates of convergence. Computationally, we introduce a fast, numerical approximation that transforms the proposed estimator into an estimator derived from weighted generalized partial linear models. We conclude with a simulation study and two real data analyses from ecology and hydrogeology.",
+ "primary": "stat.ME"
+}

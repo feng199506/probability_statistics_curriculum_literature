@@ -1,0 +1,16 @@
+{
+ "id": "2503.24020",
+ "title": "Optimal low-rank approximations for linear Gaussian inverse problems on Hilbert spaces, Part I: posterior covariance approximation",
+ "authors": [
+  "Giuseppe Carere",
+  "Han Cheng Lie"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 2,
+ "latest_date": "2025-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work was intended as a replacement of arXiv:2411.01112 and any subsequent updates will appear there",
+ "abstract": "For linear inverse problems with Gaussian priors and Gaussian observation noise, the posterior is Gaussian, with mean and covariance determined by the conditioning formula. Using the Feldman-Hajek theorem, we analyse the prior-to-posterior update and its low-rank approximation for infinite-dimensional Hilbert parameter spaces and finite-dimensional observations. We show that the posterior distribution differs from the prior on a finite-dimensional subspace, and construct low-rank approximations to the posterior covariance, while keeping the mean fixed. Since in infinite dimensions, not all low-rank covariance approximations yield approximate posterior distributions which are equivalent to the posterior and prior distribution, we characterise the low-rank covariance approximations which do yield this equivalence, and their respective inverses, or `precisions'. For such approximations, a family of measure approximation problems is solved by identifying the low-rank approximations which are optimal for various losses simultaneously. These loss functions include the family of Rényi divergences, the Amari $α$-divergences for $α\\in(0,1)$, the Hellinger metric and the Kullback-Leibler divergence. Our results extend those of Spantini et al. (SIAM J. Sci. Comput. 2015) to Hilbertian parameter spaces, and provide theoretical underpinning for the construction of low-rank approximations of discretised versions of the infinite-dimensional inverse problem, by formulating discretization independent results.",
+ "primary": "math.ST"
+}

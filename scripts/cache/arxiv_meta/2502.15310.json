@@ -1,0 +1,17 @@
+{
+ "id": "2502.15310",
+ "title": "Max-Linear Tail Regression",
+ "authors": [
+  "Liujun Chen",
+  "Deyuan Li",
+  "Zhengjun Zhang"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 1,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The relationship between a response variable and its covariates can vary significantly, especially in scenarios where covariates take on extremely high or low values. This paper introduces a max-linear tail regression model specifically designed to capture such extreme relationships. To estimate the regression coefficients within this framework, we propose a novel M-estimator based on extreme value theory. The consistency and asymptotic normality of our proposed estimator are rigorously established under mild conditions. Simulation results demonstrate that our estimation method outperforms the conditional least squares approach. We validate the practical applicability of our model through two case studies: one using financial data and the other using rainfall data.",
+ "primary": "stat.ME"
+}

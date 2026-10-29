@@ -1,0 +1,17 @@
+{
+ "id": "2603.14034",
+ "title": "A Machine Learning Framework for Constructing Heterogeneous Contact Networks: Implications for Epidemic Modelling",
+ "authors": [
+  "Luke Murray Kearney",
+  "Emma L Davis",
+  "Matt J Keeling"
+ ],
+ "v1_date": "2026-03-14",
+ "latest_version": 1,
+ "latest_date": "2026-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 8 figures",
+ "abstract": "Capturing the structured mixing within a population is key to the reliable projection of infectious disease dynamics and hence informed control. Both heterogeneity in the number of contacts and age-structured mixing have been repeatedly demonstrated as fundamental, yet are rarely combined. Networks provide a powerful and intuitive method to realise population structure, and simulate infection dynamics. However the explicit measurement of contact networks is not scalable to larger populations. Here, using data from social contact surveys, we develop a generalisable and robust algorithm utilizing machine learning to generate a surrogate population-scale network that preserves both age-structured mixing and heterogeneity of contacts. We simulate the spread of infection across different populations, considering how the epidemic size varies over basic reproduction number ($R_0$) scenarios - mirroring the process of determining public health impact from early epidemic growth. Our approach shows that both age structure and degree heterogeneity substantially reduce the epidemic size. We also demonstrate that these simulations more accurately capture the heterogeneity in secondary cases observed for COVID-19 when transmission is scaled by contact duration, dampening the effect of highly connected ``super-spreaders\". By using survey data collected during 2020-2022, these network models also inform about the impacts of control and targeting of public health interventions: quantifying the non-linear reduction in transmission opportunities that occurred during lockdowns, and the ages and contact types most responsible for onward transmission. Our robust methodology therefore allows for the inclusion of the full wealth of data commonly collected by surveys but frequently overlooked to be incorporated into more realistic transmission models of infectious diseases.",
+ "primary": "cs.SI"
+}

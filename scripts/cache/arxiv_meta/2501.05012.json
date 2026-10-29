@@ -1,0 +1,17 @@
+{
+ "id": "2501.05012",
+ "title": "Nullstrap: A Simple, High-Power, and Fast Framework for FDR Control in Variable Selection for Diverse High-Dimensional Models",
+ "authors": [
+  "Changhu Wang",
+  "Ziheng Zhang",
+  "Jingyi Jessica Li"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 2,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Balancing false discovery rate (FDR) control with high statistical power remains a central challenge in high-dimensional variable selection. While several FDR-controlling methods have been proposed, many degrade the original data -- by adding knockoff variables or splitting the data -- which often leads to substantial power loss and hampers detection of true signals. We introduce Nullstrap, a novel framework that controls FDR without altering the original data. Nullstrap generates synthetic null data by fitting a null model under the global null hypothesis that no variables are important. It then applies the same estimation procedure in parallel to both the original and synthetic data. This parallel approach mirrors that of the classical likelihood ratio test, making Nullstrap its numerical analog. By adjusting the synthetic null coefficient estimates through a data-driven correction procedure, Nullstrap identifies important variables while controlling the FDR. We provide theoretical guarantees for asymptotic FDR control at any desired level and show that power converges to one in probability. Nullstrap is simple to implement and broadly applicable to high-dimensional linear models, generalized linear models, Cox models, and Gaussian graphical models. Simulations and real-data applications show that Nullstrap achieves robust FDR control and consistently outperforms leading methods in both power and efficiency.",
+ "primary": "stat.ME"
+}

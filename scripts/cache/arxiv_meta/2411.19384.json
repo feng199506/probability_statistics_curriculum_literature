@@ -1,0 +1,18 @@
+{
+ "id": "2411.19384",
+ "title": "Random Effects Misspecification and its Consequences for Prediction in Generalized Linear Mixed Models",
+ "authors": [
+  "Quan Vu",
+  "Francis K. C. Hui",
+  "Samuel Muller",
+  "A. H. Welsh"
+ ],
+ "v1_date": "2024-11-28",
+ "latest_version": 1,
+ "latest_date": "2024-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When fitting generalized linear mixed models (GLMMs), one important decision to make relates to the choice of the random effects distribution. As the random effects are unobserved, misspecification of this distribution is a real possibility. In this article, we investigate the consequences of random effects misspecification for point prediction and prediction inference in GLMMs, a topic on which there is considerably less research compared to consequences for parameter estimation and inference. We use theory, simulation, and a real application to explore the effect of using the common normality assumption for the random effects distribution when the correct specification is a mixture of normal distributions, focusing on the impacts on point prediction, mean squared prediction errors (MSEPs), and prediction intervals. We found that the optimal shrinkage is different under the two random effect distributions, so is impacted by misspecification. The unconditional MSEPs for the random effects are almost always larger under the misspecified normal random effects distribution, especially when cluster sizes are small. Results for the MSEPs conditional on the random effects are more complicated, but they remain generally larger under the misspecified distribution when the true random effect is close to the mean of one of the component distributions in the true mixture distribution. Results for prediction intervals indicate that overall coverage probability is not greatly impacted by misspecification.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2601.01686",
+ "title": "Bayesian mortality forecasting with a Conway--Maxwell--Poisson specification",
+ "authors": [
+  "Jackie Siaw Tze Wong",
+  "Emiliano A. Valdez"
+ ],
+ "v1_date": "2026-01-04",
+ "latest_version": 1,
+ "latest_date": "2026-01-04",
+ "journal_ref": "",
+ "doi": "10.1093/jrsssa/qnag089",
+ "comment": "",
+ "abstract": "This paper presents a novel approach to stochastic mortality modelling by using the Conway--Maxwell--Poisson (CMP) distribution to model death counts. Unlike standard Poisson or negative binomial distributions, the CMP is a more adaptable choice because it can account for different levels of variability in the data, a feature known as dispersion. Specifically, it can handle data that are underdispersed (less variable than expected), equidispersed (as variable as expected), and overdispersed (more variable than expected). We develop a Bayesian formulation that treats the dispersion level as an unknown parameter, using a Gamma prior to enable a robust and coherent integration of the parameter, process, and distributional uncertainty. The model is calibrated using Markov chain Monte Carlo (MCMC) methods, with model performance evaluated using standard statistical criteria such as residual analysis and scoring rules. An empirical study using England and Wales male mortality data shows that our CMP-based models provide a better fit for both existing data and future predictions compared to traditional Poisson and negative binomial models, particularly when the data exhibit overdispersion. Finally, we conduct a sensitivity analysis with respect to prior specification to assess robustness.",
+ "primary": "stat.ME"
+}

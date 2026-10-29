@@ -1,0 +1,15 @@
+{
+ "id": "2509.19067",
+ "title": "A few notes on the asymptotic behavior of Rademacher random multiplicative functions",
+ "authors": [
+  "Yeor Hafouta"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 5,
+ "latest_date": "2026-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "There was a mistake in the proof of the moment estimates, whose correction leads to different upper bounds on the moments",
+ "abstract": "Let $X_p, p\\in\\cP$ be a sequence of independent random variables s.t. $\\bbP(X_p=\\pm 1)=1/2$. Let $\\te_j=\\prod_{p|j}X_p$ if $j$ is square free and $\\te_j=0$ otherwise. Denote $S_n=\\sum_{\\ell=1}^n\\te_\\ell$. The from this point of view proving limit theorems for $S_n$ is natural problem, since $S_n$ mimics the behavior of $e^{\\sqrt{\\ln(β)}}$. It is a natural guiding conjecture that $S_n/\\sqrt n$ obeys the central limit theorem (CLT). However, S. Chatterjee conjectured (as expressed in \\cite{[25]}) that the CLT should not hold. Chatterjee's conjecture was proved by Harper \\cite{[17]}, and by now it is a direct consequence of a more recent breakthrough by Harper \\cite{Har20} that $\\frac{S_n}{b_n}\\to 0$ in $L^1$, where $b_n=(n^{1/2}(\\ln(\\ln(n)))^{-1/4})u_n, u_n\\to\\infty$. In particular $S_n/\\sqrt n\\to 0$. Nevertheless, the question whether there exists a sequence $a_n=o(b_n)$ such that $S_n/a_n$ converges to some limit remains a mystery. Note that the corresponding problem in the Steinhaus Setting was recently resolved by \\cite{Gor1}. In this paper make an attempt to shed some light on the convergence of $S_n/a_n$. Additionally, we obtain explicit estimates on hight moments of $S_n$ without restrictions on the size of the moment compared to $n$ like in \\cite[Theorem 1.2]{Har19}, which is of independent interest. This is achieved by a martingale argument together with the Burkholder inequality, and it has applications in a natural number theoretic combinatorial problem. Using martingale techniques we will also obtain exponential concentration inequalities for $S_n$ (in the large deviations regime)",
+ "primary": "math.PR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.02628",
+ "title": "What is in the model? A Comparison of variable selection criteria and model search approaches",
+ "authors": [
+  "Shuangshuang Xu",
+  "Marco A. R. Ferreira",
+  "Allison N. Tegge"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 1,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For many scientific questions, understanding the underlying mechanism is the goal. To help investigators better understand the underlying mechanism, variable selection is a crucial step that permits the identification of the most associated regression variables of interest. A variable selection method consists of model evaluation using an information criterion and a search of the model space. Here, we provide a comprehensive comparison of variable selection methods using performance measures of correct identification rate (CIR), recall, and false discovery rate (FDR). We consider the BIC and AIC for evaluating models, and exhaustive, greedy, LASSO path, and stochastic search approaches for searching the model space; we also consider LASSO using cross validation. We perform simulation studies for linear and generalized linear models that parametrically explore a wide range of realistic sample sizes, effect sizes, and correlations among regression variables. We consider model spaces with a small and larger number of potential regressors. The results show that the exhaustive search BIC and stochastic search BIC outperform the other methods when considering the performance measures on small and large model spaces, respectively. These approaches result in the highest CIR and lowest FDR, which collectively may support long-term efforts towards increasing replicability in research.",
+ "primary": "stat.ME"
+}

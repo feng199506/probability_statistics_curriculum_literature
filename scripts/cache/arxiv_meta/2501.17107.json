@@ -1,0 +1,18 @@
+{
+ "id": "2501.17107",
+ "title": "Goodness of Fit for Bayesian Generative Models with Applications in Population Genetics",
+ "authors": [
+  "Guillaume Le Mailloux",
+  "Paul Bastide",
+  "Jean-Michel Marin",
+  "Arnaud Estoup"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 1,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In population genetics and other application fields, models with intractable likelihood are common. Approximate Bayesian Computation (ABC) or more generally Simulation-Based Inference (SBI) methods work by simulating instrumental data sets from the models under study and comparing them with the observed data set, using advanced machine learning tools for tasks such as model selection and parameter inference. The present work focuses on model criticism, and more specifically on Goodness of fit (GoF) tests, for intractable likelihood models. We introduce two new GoF tests: the pre-inference \\gof tests whether the observed dataset is distributed from the prior predictive distribution, while the post-inference GoF tests whether there is a parameter value such that the observed dataset is distributed from the likelihood with that value. The pre-inference test can be used to prune a large set of models using a limited amount of simulations, while the post-inference test is used to assess the fit of a selected model. Both tests are based on the Local Outlier Factor (LOF, Breunig et al., 2000). This indicator was initially defined for outlier and novelty detection. It is able to quantify local density deviations, capturing subtleties that a more traditional k-NN-based approach may miss. We evaluated the performance of our two GoF tests on simulated datasets from three different model settings of varying complexity. We then illustrate the utility of these approaches on a dataset of single nucleotide polymorphism (SNP) markers for the evaluation of complex evolutionary scenarios of modern human populations. Our dual-test GoF approach highlights the flexibility of our method: the pre-inference \\gof test provides insight into model validity from a Bayesian perspective, while the post-inference test provides a more general and traditional view of assessing goodness of fit",
+ "primary": "stat.ME"
+}

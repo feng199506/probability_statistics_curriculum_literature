@@ -1,0 +1,18 @@
+{
+ "id": "2610.28931",
+ "title": "Boot-AVT: Asymptotically Anytime-Valid Testing with Degenerate U-Statistics via Bootstrap",
+ "authors": [
+  "Jixuan Liu",
+  "Long Feng",
+  "Liuhua Peng",
+  "Zhaojun Wang"
+ ],
+ "v1_date": "2026-10-20",
+ "latest_version": 1,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many nonparametric tests are based on $U$-statistics that are degenerate under the null hypothesis. We develop Boot-AVT, a bootstrap procedure for asymptotically anytime-valid testing with these statistics. Using Brownian scaling and time inversion for the limiting Gaussian chaos process, we show that logarithmically penalized maxima over observed and future sample sizes have a common limiting null distribution. A quadratic multiplier bootstrap estimates the corresponding critical values. We also develop Boot-AVT-Multi for joint testing with multiple kernels. For both procedures, we establish uniform consistency of the bootstrap critical values, explicit bounds on size distortion, and asymptotic size $α$ over an unbounded monitoring horizon as the monitoring start tends to infinity. Under fixed alternatives, we derive finite-horizon power bounds and establish power one with finite expected stopping times. Simulation studies evaluate finite-sample size and power in goodness-of-fit, two-sample and independence testing, and real-data analyses compare stopping times.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.18856",
+ "title": "Inference under covariate-adaptive randomization with many strata",
+ "authors": [
+  "Jiahui Xin",
+  "Hanzhong Liu",
+  "Wei Ma"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 1,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariate-adaptive randomization is widely employed to balance baseline covariates in interventional studies such as clinical trials and experiments in development economics. Recent years have witnessed substantial progress in inference under covariate-adaptive randomization with a fixed number of strata. However, concerns have been raised about the impact of a large number of strata on its design and analysis, which is a common scenario in practice, such as in multicenter randomized clinical trials. In this paper, we propose a general framework for inference under covariate-adaptive randomization, which extends the seminal works of Bugni et al. (2018, 2019) by allowing for a diverging number of strata. Furthermore, we introduce a novel weighted regression adjustment that ensures efficiency improvement. On top of establishing the asymptotic theory, practical algorithms for handling situations involving an extremely large number of strata are also developed. Moreover, by linking design balance and inference robustness, we highlight the advantages of stratified block randomization, which enforces better covariate balance within strata compared to simple randomization. This paper offers a comprehensive landscape of inference under covariate-adaptive randomization, spanning from fixed to diverging to extremely large numbers of strata.",
+ "primary": "stat.ME"
+}

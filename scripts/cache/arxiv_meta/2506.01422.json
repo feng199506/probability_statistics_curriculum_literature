@@ -1,0 +1,19 @@
+{
+ "id": "2506.01422",
+ "title": "Large Bayesian VARs for Binary, Censored and Count Variables",
+ "authors": [
+  "Joshua C. C. Chan",
+  "Davide Pettenuzzo",
+  "Michael Pfarrhofer",
+  "Aubrey Poon",
+  "Dan Zhu"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 2,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "JEL: C11, C32, C34, C35, C53, E32; keywords: Bayesian VAR, binary and censored variables, count data, effective lower bound, shadow rate, bank failures, conditional forecasting",
+ "abstract": "We extend the vector autoregression (VAR) to model binary, censored, count and unrestricted variables jointly, treating missing observations of any type in the same way. Each restricted observation is linked to a latent Gaussian variable, so that the standard machinery for VARs, such as shrinkage priors, stochastic volatility and outlier components, applies directly to the VAR for the latent variables. The latent variables have a truncated normal conditional distribution with a banded precision matrix, from which they are drawn, jointly or equation by equation, using Hamiltonian Monte Carlo, and the sampler scales well to high dimensions. A simulation study shows that treating restricted variables as continuous distorts the levels and scales of the system and worsens forecasts of the restricted outcomes in most designs. In an application to 25 US macro-financial variables, we estimate a business cycle indicator, the intensity of banking distress and shadow rates. We use the model for scenario analysis with restrictions on the recession probability, bank failures and interest rates at the effective lower bound.",
+ "primary": "econ.EM"
+}

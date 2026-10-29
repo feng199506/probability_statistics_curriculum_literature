@@ -1,0 +1,21 @@
+{
+ "id": "2507.15612",
+ "title": "Inference on Nonlinear Counterfactual Functionals under a Multiplicative IV Model",
+ "authors": [
+  "Yonghoon Lee",
+  "Mengxin Yu",
+  "Jiewen Liu",
+  "Chan Park",
+  "Yunshu Zhang",
+  "James M. Robins",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 2,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Instrumental variable (IV) methods play a central role in causal inference, particularly in settings where treatment assignment is confounded by unobserved variables. IV methods have been extensively developed in recent years and applied across diverse domains, from economics to epidemiology. In this work, we study the recently introduced multiplicative IV (MIV) model and demonstrate its utility for causal inference beyond the average treatment effect. In particular, we show that it enables identification and inference for a broad class of counterfactual functionals characterized by moment equations. This includes, for example, inference on quantile treatment effects. We develop methods for efficient and multiply robust estimation of such functionals, and provide inference procedures with asymptotic validity. Experimental results demonstrate that the proposed procedure performs well even with moderate sample sizes.",
+ "primary": "stat.ME"
+}

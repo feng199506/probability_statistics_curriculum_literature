@@ -1,0 +1,18 @@
+{
+ "id": "2406.12659",
+ "title": "A variational Bayes approach to inference for low-dimensional parameters in high-dimensional linear regression",
+ "authors": [
+  "Ismaël Castillo",
+  "Alice L'Huillier",
+  "Kolyan Ray",
+  "Luke Travis"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 3,
+ "latest_date": "2026-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "We have strengthened the Bernstein-von Mises results to hold in total variation and for growing parameter subsets, and generally improved the presentation",
+ "abstract": "We propose a scalable variational Bayes method for statistical inference for a single or pre-specified low-dimensional subset of the coordinates of a high-dimensional parameter in sparse linear regression. Our approach relies on assigning a mean-field approximation to the nuisance coordinates and carefully modelling the conditional distribution of the target given the nuisance. This requires only a preprocessing step and preserves the computational advantages of mean-field variational Bayes, while ensuring accurate and reliable inference for the target parameter, including for uncertainty quantification. We investigate the numerical performance of our algorithm, showing that it performs competitively with existing methods. We further establish accompanying theoretical guarantees for estimation and uncertainty quantification in the form of a Bernstein--von Mises theorem for a possibly growing subset.",
+ "primary": "stat.ML"
+}

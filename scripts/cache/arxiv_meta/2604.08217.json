@@ -1,0 +1,30 @@
+{
+ "id": "2604.08217",
+ "title": "Co-design for Trustworthy AI: An Interpretable and Explainable Tool for Type 2 Diabetes Prediction Using Genomic Polygenic Risk Scores",
+ "authors": [
+  "Ralf Beuthan",
+  "Megan Coffee",
+  "Heejin Kim",
+  "Na Yeon Kim",
+  "Pedro Kringen",
+  "Elisabeth Hildt",
+  "Haekyung Lee",
+  "Seunggeun Lee",
+  "Emilie Wiinblad Mathez",
+  "Sira Maliphol",
+  "Vadim Pak",
+  "Yuna Park",
+  "Stephan Sonnenberg",
+  "Jesmin Jahan Tithi",
+  "Magnus Westerlund",
+  "Roberto V. Zicari"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 1,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 pages, 1 figure, 3 tables",
+ "abstract": "The polygenic risk scores (PRS) have emerged as an important methodology for quantifying genetic predisposition to complex traits and clinical disease. Significant progress has been made in applying PRS to conditions such as obesity, cancer, and type 2 diabetes (T2DM). Studies have demonstrated that PRS can effectively identify individuals at high risk, thereby enabling early screening, personalized treatment, and targeted interventions for diseases with a genetic predisposition. One current limitation of PRS, however, is the lack of interpretability tools. To address this problem for T2DM, researchers at the Graduate School of Data Science at the Seoul National University introduced eXplainable PRS (XPRS). This visualization tool decomposes PRSs into gene-level and single-nucleotide polymorphism (SNP) contribution scores via Shapley Additive Explanations (SHAP), providing granular insights into the specific genetic factors driving an individual's risk profile. We used a co-design approach to assess XPRS trustworthiness by considering legal, medical, ethical, and technical robustness during early design and potential clinical use. For that, we used Z-inspection, an ethically aligned Trustworthy AI co-design methodology, and piloted the Council of Europe's Human Rights, Democracy, and the Rule of Law Impact Assessment for AI Systems (HUDERIA) (Council of Europe (CAI) 2025). The findings of this use-case comprise a comprehensive set of ethical, legal, and technical lessons learned. These insights, identified by a multidisciplinary team of experts (ethics, legal, human rights, computer science, and medical), serve as a framework for designers to navigate future challenges with this and other AI systems. The findings also provide a useful reference for researchers developing explainability frameworks for PRS in diverse clinical contexts.",
+ "primary": "cs.CY"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.05400",
+ "title": "Collaborative Analysis for Paired A/B Testing Experiments",
+ "authors": [
+  "Qiong Zhang",
+  "Lulu Kang",
+  "Xinwei Deng"
+ ],
+ "v1_date": "2024-07-07",
+ "latest_version": 1,
+ "latest_date": "2024-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the extensive use of digital devices, online experimental platforms are commonly used to conduct experiments to collect data for evaluating different variations of products, algorithms, and interface designs, a.k.a., A/B tests. In practice, multiple A/B testing experiments are often carried out based on a common user population on the same platform. The same user's responses to different experiments can be correlated to some extent due to the individual effect of the user. In this paper, we propose a novel framework that collaboratively analyzes the data from paired A/B tests, namely, a pair of A/B testing experiments conducted on the same set of experimental subjects. The proposed analysis approach for paired A/B tests can lead to more accurate estimates than the traditional separate analysis of each experiment. We obtain the asymptotic distribution of the proposed estimators and demonstrate that the proposed estimators are asymptotically the best linear unbiased estimators under certain assumptions. Moreover, the proposed analysis approach is computationally efficient, easy to implement, and robust to different types of responses. Both numerical simulations and numerical studies based on a real case are used to examine the performance of the proposed method.",
+ "primary": "stat.ME"
+}

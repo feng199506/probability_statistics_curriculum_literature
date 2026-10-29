@@ -1,0 +1,15 @@
+{
+ "id": "2604.09614",
+ "title": "The Geometry of Knowing: From Possibilistic Ignorance to Probabilistic Certainty -- A Measure-Theoretic Framework for Epistemic Convergence",
+ "authors": [
+  "Moriba Kemessia Jah"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 1,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a measure-theoretic framework establishing when and how a possibilistic representation of incomplete knowledge contracts into a probabilistic representation of intrinsic stochastic variability. Epistemic uncertainty is encoded by a possibility distribution and its dual necessity measure, defining a credal set bounding all probability measures consistent with current evidence. As evidence accumulates, the credal set contracts. The epistemic collapse condition marks the transition: the Choquet integral converges to the Lebesgue integral over the unique limiting density. We prove this rigorously (Theorem 4.5), with all assumptions explicit and a full treatment of the non-consonant case. We introduce the aggregate epistemic width W, establish its axiomatic properties, provide a canonical normalization, and give a feasible online proxy resolving a circularity in prior formulations. Section 7 develops the dynamics of epistemic contraction: evidence induces compatibility, compatibility performs falsification, posterior possibility is the min-intersection of prior possibility and compatibility, and a credibility-directed flow governs support geometry contraction. This is not belief updating. It is knowledge contraction. Probability theory is the limiting geometry of that process. The UKF and ESPF solve different problems by different mechanisms. The UKF minimizes MSE, asserts truth, and requires a valid generative model. The ESPF minimizes maximum entropy and surfaces what evidence has not ruled out. When the world is Gaussian and the model valid, both reach the same estimate by entirely different routes -- convergent optimality, not hierarchical containment. We prove this (Theorem 9.1) and compare both on a 2-day, 877-step orbital tracking scenario. Both achieve 1-meter accuracy. The UKF is accurate but epistemically silent. The ESPF is accurate and epistemically honest.",
+ "primary": "cs.AI"
+}

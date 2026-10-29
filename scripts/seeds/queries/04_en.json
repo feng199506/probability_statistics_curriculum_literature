@@ -1,0 +1,128 @@
+[
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial) AND abs:\"concentration inequalities\"",
+  "subtopic": "集中不等式"
+ },
+ {
+  "q": "abs:\"concentration of measure\" AND cat:math.PR AND (ti:survey OR ti:notes OR ti:introduction OR ti:inequalities)",
+  "subtopic": "集中不等式"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial) AND abs:\"large deviations\"",
+  "subtopic": "大偏差"
+ },
+ {
+  "q": "ti:\"large deviation\" AND cat:math.PR",
+  "subtopic": "大偏差"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial) AND abs:\"Stein's method\"",
+  "subtopic": "Stein 方法"
+ },
+ {
+  "q": "ti:\"Stein's method\" AND cat:math.PR",
+  "subtopic": "Stein 方法"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial) AND abs:coupling AND cat:math.PR",
+  "subtopic": "耦合"
+ },
+ {
+  "q": "(ti:\"central limit theorem\" OR ti:\"Berry-Esseen\") AND cat:math.PR",
+  "subtopic": "极限定理与收敛速率"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\") AND abs:\"limit theorems\" AND cat:math.PR",
+  "subtopic": "极限定理与收敛速率"
+ },
+ {
+  "q": "(ti:\"weak convergence\" OR ti:\"convergence in distribution\" OR ti:\"Wasserstein distance\" OR ti:\"probability metrics\") AND cat:math.PR",
+  "subtopic": "弱收敛与概率距离"
+ },
+ {
+  "q": "(ti:\"characteristic function\" OR ti:\"characteristic functions\" OR ti:\"Fourier analysis\") AND cat:math.PR",
+  "subtopic": "特征函数"
+ },
+ {
+  "q": "(ti:\"conditional expectation\" OR ti:\"regular conditional\" OR ti:disintegration OR ti:\"measure-theoretic\") AND (cat:math.PR OR cat:math.ST)",
+  "subtopic": "测度论概率与条件期望"
+ },
+ {
+  "q": "(ti:\"law of large numbers\" OR ti:\"strong law\" OR ti:\"laws of large numbers\") AND cat:math.PR",
+  "subtopic": "大数定律"
+ },
+ {
+  "q": "(ti:\"Malliavin\" AND ti:\"Stein\") OR (ti:\"fourth moment\" AND cat:math.PR)",
+  "subtopic": "Stein 方法"
+ },
+ {
+  "q": "(ti:inequality OR ti:inequalities) AND (abs:\"sub-Gaussian\" OR abs:\"martingale\" OR abs:\"log-Sobolev\" OR abs:\"Poincare\") AND cat:math.PR",
+  "subtopic": "集中不等式"
+ },
+ {
+  "q": "(ti:\"heavy tails\" OR ti:\"heavy-tailed\" OR ti:\"stable laws\" OR ti:\"infinitely divisible\") AND cat:math.PR AND (ti:survey OR ti:introduction OR ti:review OR abs:survey)",
+  "subtopic": "极限定理与收敛速率"
+ },
+ {
+  "q": "ti:survey AND cat:math.PR AND abs:probability",
+  "subtopic": "综述总览"
+ },
+ {
+  "q": "(ti:\"Stein's method\" OR ti:\"concentration inequalities\" OR ti:\"large deviations\") AND (ti:introduction OR ti:survey)",
+  "subtopic": "经典综述",
+  "old": true
+ },
+ {
+  "q": "(ti:coupling AND ti:\"lecture notes\") OR (ti:\"concentration of measure\" AND ti:survey)",
+  "subtopic": "经典综述",
+  "old": true
+ },
+ {
+  "q": "co:\"lecture notes\" AND cat:math.PR",
+  "subtopic": "讲义总览"
+ },
+ {
+  "q": "(jr:\"Probability Surveys\" OR jr:\"Probab. Surv\" OR jr:\"Probab. Surveys\") AND cat:math.PR",
+  "subtopic": "综述总览"
+ },
+ {
+  "q": "abs:\"Stein's method\" AND (abs:survey OR abs:\"we review\" OR abs:overview OR abs:expository OR abs:\"these notes\")",
+  "subtopic": "Stein 方法"
+ },
+ {
+  "q": "abs:concentration AND (abs:\"we survey\" OR abs:\"this survey\" OR abs:\"these notes\" OR abs:\"lecture notes\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "集中不等式"
+ },
+ {
+  "q": "abs:\"large deviations\" AND (abs:\"these notes\" OR abs:\"lecture notes\" OR abs:\"we review\" OR abs:survey OR abs:expository) AND cat:math.PR",
+  "subtopic": "大偏差"
+ },
+ {
+  "q": "abs:coupling AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "耦合"
+ },
+ {
+  "q": "abs:\"central limit theorem\" AND (abs:survey OR abs:\"we review\" OR abs:\"these notes\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "极限定理与收敛速率"
+ },
+ {
+  "q": "(abs:Wasserstein OR abs:\"weak convergence\" OR abs:\"total variation\") AND (abs:survey OR abs:expository OR abs:\"these notes\" OR abs:\"we review\") AND cat:math.PR",
+  "subtopic": "弱收敛与概率距离"
+ },
+ {
+  "q": "(abs:\"high-dimensional probability\" OR ti:\"high-dimensional probability\") AND (abs:notes OR abs:survey OR abs:introduction OR abs:course)",
+  "subtopic": "集中不等式"
+ },
+ {
+  "q": "abs:expository AND cat:math.PR AND (abs:probability OR abs:random)",
+  "subtopic": "综述总览"
+ },
+ {
+  "q": "(abs:\"de Finetti\" OR abs:exchangeability OR abs:\"conditional expectation\" OR abs:\"regular conditional\") AND (abs:survey OR abs:expository OR abs:\"we review\" OR abs:tutorial) AND (cat:math.PR OR cat:math.ST)",
+  "subtopic": "测度论概率与条件期望"
+ },
+ {
+  "q": "(abs:\"log-Sobolev\" OR abs:\"Poincare inequality\" OR abs:\"functional inequalities\" OR abs:\"transport inequalities\") AND (abs:survey OR abs:\"these notes\" OR abs:\"lecture notes\" OR abs:\"we review\")",
+  "subtopic": "集中不等式"
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "id": "2605.23102",
+ "title": "LLM Sparsity Prior for Robust Feature Selection",
+ "authors": [
+  "Caleb Skinner",
+  "Yihan Guo",
+  "Meng Li"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) offer a scalable mechanism to elicit domain-informed prior information for high-dimensional variable selection. However, existing methods such as LLM-Lasso are sensitive to weight quality, with performance degrading substantially when LLM-generated weights are inaccurate. To address this challenge, we first introduce a framework for quantifying the quality of LLM-generated weights, enabling rigorous evaluation of LLM-informed methods across varying weight regimes. We then propose the LLM Sparsity Prior (LSP), which integrates LLM-generated weights into the prior inclusion probabilities of Spike-and-Slab and Spike-and-Slab Lasso models via two interpretable hyperparameters governing global sparsity and weight concentration. Hierarchical hyperpriors on these parameters allow the model to dynamically discount uninformative or misleading weights, improving robustness without sacrificing gains when weights are accurate. Finally, we develop principled prompt engineering strategies and validate the method on a private medical dataset studying Acute Kidney Injury. LSP improves prediction accuracy and identifies clinically relevant features missed by the baselines, with robustness to prompt variation and particular effectiveness in low-data regimes.",
+ "primary": "stat.ML"
+}

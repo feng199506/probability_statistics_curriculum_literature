@@ -1,0 +1,16 @@
+{
+ "id": "2512.24515",
+ "title": "Improving the stability of the covariance-controlled adaptive Langevin thermostat for large-scale Bayesian sampling",
+ "authors": [
+  "Jiani Wei",
+  "Xiaocheng Shang"
+ ],
+ "v1_date": "2025-12-30",
+ "latest_version": 1,
+ "latest_date": "2025-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient Langevin dynamics and its variants approximate the likelihood of an entire dataset, via random (and typically much smaller) subsets, in the setting of Bayesian sampling. Due to the (often substantial) improvement of the computational efficiency, they have been widely used in large-scale machine learning applications. It has been demonstrated that the so-called covariance-controlled adaptive Langevin (CCAdL) thermostat, which incorporates an additional term involving the covariance matrix of the noisy force, outperforms popular alternative methods. A moving average is used in CCAdL to estimate the covariance matrix of the noisy force, in which case the covariance matrix will converge to a constant matrix in long-time limit. Moreover, it appears in our numerical experiments that the use of a moving average could reduce the stability of the numerical integrators, thereby limiting the largest usable stepsize. In this article, we propose a modified CCAdL (i.e., mCCAdL) thermostat that uses the scaling part of the scaling and squaring method together with a truncated Taylor series approximation to the exponential to numerically approximate the exact solution to the subsystem involving the additional term proposed in CCAdL. We also propose a symmetric splitting method for mCCAdL, instead of an Euler-type discretisation used in the original CCAdL thermostat. We demonstrate in our numerical experiments that the newly proposed mCCAdL thermostat achieves a substantial improvement in the numerical stability over the original CCAdL thermostat, while significantly outperforming popular alternative stochastic gradient methods in terms of the numerical accuracy for large-scale machine learning applications.",
+ "primary": "stat.ML"
+}

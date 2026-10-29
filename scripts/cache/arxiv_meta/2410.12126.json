@@ -1,0 +1,20 @@
+{
+ "id": "2410.12126",
+ "title": "What Do LLMs Need to Understand Graphs: A Survey of Parametric Representation of Graphs",
+ "authors": [
+  "Dongqi Fu",
+  "Liri Fang",
+  "Zihao Li",
+  "Hanghang Tong",
+  "Vetle I. Torvik",
+  "Jingrui He"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 2,
+ "latest_date": "2025-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint, 9 pages",
+ "abstract": "Graphs, as a relational data structure, have been widely used for various application scenarios, like molecule design and recommender systems. Recently, large language models (LLMs) are reorganizing in the AI community for their expected reasoning and inference abilities. Making LLMs understand graph-based relational data has great potential, including but not limited to (1) distillate external knowledge base for eliminating hallucination and breaking the context window limit for LLMs' inference during the retrieval augmentation generation process; (2) taking graph data as the input and directly solve the graph-based research tasks like protein design and drug discovery. However, inputting the entire graph data to LLMs is not practical due to its complex topological structure, data size, and the lack of effective and efficient semantic graph representations. A natural question arises: Is there a kind of graph representation that can be described by natural language for LLM's understanding and is also easy to require to serve as the raw input for LLMs? Based on statistical computation, graph laws pre-define a set of parameters (e.g., degree, time, diameter) and identifie their relationships and values by observing the topological distribution of plenty of real-world graph data. We believe this kind of parametric representation of graphs, graph laws, can be a solution for making LLMs understand graph data as the input. In this survey, we first review the previous study of graph laws from multiple perspectives, i.e., macroscope and microscope of graphs, low-order and high-order graphs, static and dynamic graphs, different observation spaces, and newly proposed graph parameters. After we review various real-world applications benefiting from the guidance of graph laws, we conclude the paper with current challenges and future research directions.",
+ "primary": "cs.AI"
+}

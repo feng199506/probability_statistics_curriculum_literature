@@ -1,0 +1,16 @@
+{
+ "id": "2506.18249",
+ "title": "PCA-Guided Quantile Sampling: Preserving Data Structure in Large-Scale Subsampling",
+ "authors": [
+  "Foo Hui-Mean",
+  "Yuan-chin Ivan Chang"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pagesa, 15 figures",
+ "abstract": "We introduce Principal Component Analysis guided Quantile Sampling (PCA QS), a novel sampling framework designed to preserve both the statistical and geometric structure of large scale datasets. Unlike conventional PCA, which reduces dimensionality at the cost of interpretability, PCA QS retains the original feature space while using leading principal components solely to guide a quantile based stratification scheme. This principled design ensures that sampling remains representative without distorting the underlying data semantics. We establish rigorous theoretical guarantees, deriving convergence rates for empirical quantiles, Kullback Leibler divergence, and Wasserstein distance, thus quantifying the distributional fidelity of PCA QS samples. Practical guidelines for selecting the number of principal components, quantile bins, and sampling rates are provided based on these results. Extensive empirical studies on both synthetic and real-world datasets show that PCA QS consistently outperforms simple random sampling, yielding better structure preservation and improved downstream model performance. Together, these contributions position PCA QS as a scalable, interpretable, and theoretically grounded solution for efficient data summarization in modern machine learning workflows.",
+ "primary": "stat.ME"
+}

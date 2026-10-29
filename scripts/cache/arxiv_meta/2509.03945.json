@@ -1,0 +1,17 @@
+{
+ "id": "2509.03945",
+ "title": "Prob-GParareal: A Probabilistic Numerical Parallel-in-Time Solver for Differential Equations",
+ "authors": [
+  "Guglielmo Gattiglio",
+  "Lyudmila Grigoryeva",
+  "Massimiliano Tamborrino"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 3,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Prob-GParareal, a probabilistic extension of the GParareal algorithm designed to provide uncertainty quantification for the Parallel-in-Time (PinT) solution of (ordinary and partial) differential equations (ODEs, PDEs). The method employs Gaussian processes (GPs) to model the Parareal correction function, in line with GParareal, further enabling the propagation of numerical uncertainty across time and yielding probabilistic forecasts of the system's evolution. Furthermore, Prob-GParareal accommodates probabilistic initial conditions and maintains compatibility with classical numerical solvers, ensuring its straightforward integration into existing Parareal frameworks. Here, we first conduct a theoretical analysis of the computational complexity and derive error bounds of Prob-GParareal. Then, we numerically demonstrate the accuracy and robustness of the proposed algorithm on five benchmark ODE systems, including chaotic, stiff, and bifurcation problems. To showcase the flexibility and potential scalability of the proposed algorithm, we also consider Prob-nnGParareal, a variant obtained by replacing the GPs in Parareal with the nearest-neighbors GPs, illustrating its improved computational performance on an additional PDE example. This work bridges a critical gap in the development of probabilistic counterparts to established PinT methods.",
+ "primary": "stat.CO"
+}

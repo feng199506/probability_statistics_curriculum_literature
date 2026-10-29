@@ -1,0 +1,25 @@
+{
+ "id": "2501.12453",
+ "title": "On the two-step hybrid design for augmenting randomized trials using real-world data",
+ "authors": [
+  "Jiapeng Xu",
+  "Ruben P. A. van Eijk",
+  "Alicia Ellis",
+  "Tianyu Pan",
+  "Lorene M. Nelson",
+  "Kit C. B. Roes",
+  "Marc van Dijk",
+  "Maria Sarno",
+  "Leonard H. van den Berg",
+  "Lu Tian",
+  "Ying Lu"
+ ],
+ "v1_date": "2025-01-21",
+ "latest_version": 1,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid clinical trials, that borrow real-world data (RWD), are gaining interest, especially for rare diseases. They assume RWD and randomized control arm be exchangeable, but violations can bias results, inflate type I error, or reduce power. A two-step hybrid design first tests exchangeability, reducing inappropriate borrowing but potentially inflating type I error (Yuan et al., 2019). We propose four methods to better control type I error. Approach 1 estimates the variance of test statistics, rejecting the null hypothesis based on large sample normal approximation. Approach 2 uses a numerical approach for exact critical value determination. Approach 3 splits type I error rates by equivalence test outcome. Approach 4 adjusts the critical value only when equivalence is established. Simulation studies using a hypothetical ALS scenario, evaluate type I error and power under various conditions, compared to the Bayesian power prior approach (Ibrahim et al., 2015). Our methods and the Bayesian power prior control type I error, whereas Yuan et al. (2019) increases it under exchangeability. If exchangeability doesn't hold, all methods fail to control type I error. Our methods show type I error inflation of 6%-8%, compared to 10% for Yuan et al. (2019) and 16% for the Bayesian power prior.",
+ "primary": "stat.ME"
+}

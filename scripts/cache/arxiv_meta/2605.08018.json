@@ -1,0 +1,18 @@
+{
+ "id": "2605.08018",
+ "title": "BAMIFun: Bayesian Multiple Imputation for Functional Data",
+ "authors": [
+  "Ziren Jiang",
+  "Lei Xuan",
+  "Eric F. Lock",
+  "Erjia Cui"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 2,
+ "latest_date": "2026-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 Tables, 3 Figures",
+ "abstract": "Missing data are pervasive in modern functional datasets, where trajectories are often sparsely or irregularly observed. Although Functional Principal Component Analysis (FPCA) is widely used to reconstruct incomplete curves, existing approaches typically employ single imputation, leading to overly optimistic inferences in downstream analyses. To address these challenges, we develop a novel Bayesian multiple imputation framework for functional data (BAMIFun). For single-level functional data, we impose a Bayesian low-rank model that incorporates penalized spline representations to enforce smoothness of the functional domain and derive an efficient Gibbs sampler algorithm for posterior computation. In addition, we demonstrate and validate how to properly account for estimation uncertainties in downstream analysis. Furthermore, we extend the framework to multiway functional data using Functional Tensor Singular Value Decomposition (FTSVD) model, enabling Bayesian multiple imputation in settings not supported by existing methods. Simulation studies show that BAMIFun achieves substantially improved coverage and more reliable downstream inference compared to existing methods, while maintaining similar imputation accuracy. Case studies using a physical activity dataset and an infant gut microbiome dataset further demonstrate the practical advantages of our proposed methods under severe missingness. The code is available at https://github.com/ZirenJiang/BAMIFun.",
+ "primary": "stat.ME"
+}

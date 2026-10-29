@@ -1,0 +1,17 @@
+{
+ "id": "2602.19203",
+ "title": "A Calibration Framework for Inference with Partially Observed Data",
+ "authors": [
+  "Mst Moushumi Pervin",
+  "Hengfang Wang",
+  "Jae Kwang Kim"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 2,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Missing data is an universal problem in statistics. We develop a unified framework for estimating parameters defined by general estimating equations under a missing-at-random (MAR) mechanism, based on generalized entropy calibration weighting. We construct weights by minimizing a convex entropy subject to (i) balancing constraints on a data-adaptive calibration function, estimated using flexible machine-learning predictors with cross-fitting, and (ii) a debiasing constraint involving the fitted propensity score (PS) model. The resulting estimator is doubly robust, remaining consistent if either the outcome regression (OR) or the PS model is correctly specified, and attains the semiparametric efficiency bound when both models are correctly specified. Our formulation encompasses classical inverse probability weighting (IPW) and augmented IPW (AIPW) as special cases and accommodates a broad class of entropy functions. We illustrate the versatility of the approach in three important settings: semi-supervised learning with unlabeled outcomes, regression analysis with missing covariates, and causal effect estimation in observational studies. Extensive simulation studies and real-data applications demonstrate that the proposed estimators achieve greater efficiency and numerical stability than existing methods. In particular, the proposed estimator outperforms the classical AIPW estimator under the OR model misspecification.",
+ "primary": "stat.ME"
+}

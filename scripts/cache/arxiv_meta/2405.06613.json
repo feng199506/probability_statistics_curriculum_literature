@@ -1,0 +1,18 @@
+{
+ "id": "2405.06613",
+ "title": "Simultaneously detecting spatiotemporal changes with penalized Poisson regression models",
+ "authors": [
+  "Zerui Zhang",
+  "Xin Wang",
+  "Xin Zhang",
+  "Jing Zhang"
+ ],
+ "v1_date": "2024-05-10",
+ "latest_version": 2,
+ "latest_date": "2025-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the realm of large-scale spatiotemporal data, abrupt changes are commonly occurring across both spatial and temporal domains. This study aims to address the concurrent challenges of detecting change points and identifying spatial clusters within spatiotemporal count data. We introduce an innovative method based on the Poisson regression model, employing doubly fused penalization to unveil the underlying spatiotemporal change patterns. To efficiently estimate the model, we present an iterative shrinkage and threshold based algorithm to minimize the doubly penalized likelihood function. We establish the statistical consistency properties of the proposed estimator, confirming its reliability and accuracy. Furthermore, we conduct extensive numerical experiments to validate our theoretical findings, thereby highlighting the superior performance of our method when compared to existing competitive approaches.",
+ "primary": "stat.ME"
+}

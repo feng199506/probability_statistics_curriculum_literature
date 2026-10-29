@@ -1,0 +1,23 @@
+{
+ "id": "2402.12850",
+ "title": "Estimation methods for estimands using the treatment policy strategy; a simulation study based on the PIONEER 1 Trial",
+ "authors": [
+  "James Bell",
+  "Thomas Drury",
+  "Tobias Mütze",
+  "Christian Bressen Pipper",
+  "Lorenzo Guizzaro",
+  "Marian Mitroiu",
+  "Khadija Rerhou Rantell",
+  "Marcel Wolbers",
+  "David Wright"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 1,
+ "latest_date": "2024-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimands using the treatment policy strategy for addressing intercurrent events are common in Phase III clinical trials. One estimation approach for this strategy is retrieved dropout whereby observed data following an intercurrent event are used to multiply impute missing data. However, such methods have had issues with variance inflation and model fitting due to data sparsity. This paper introduces likelihood-based versions of these approaches, investigating and comparing their statistical properties to the existing retrieved dropout approaches, simpler analysis models and reference-based multiple imputation. We use a simulation based upon the data from the PIONEER 1 Phase III clinical trial in Type II diabetics to present complex and relevant estimation challenges. The likelihood-based methods display similar statistical properties to their multiple imputation equivalents, but all retrieved dropout approaches suffer from high variance. Retrieved dropout approaches appear less biased than reference-based approaches, resulting in a bias-variance trade-off, but we conclude that the large degree of variance inflation is often more problematic than the bias. Therefore, only the simpler retrieved dropout models appear appropriate as a primary analysis in a clinical trial, and only where it is believed most data following intercurrent events will be observed. The jump-to-reference approach may represent a more promising estimation approach for symptomatic treatments due to its relatively high power and ability to fit in the presence of much missing data, despite its strong assumptions and tendency towards conservative bias. More research is needed to further develop how to estimate the treatment effect for a treatment policy strategy.",
+ "primary": "stat.AP"
+}

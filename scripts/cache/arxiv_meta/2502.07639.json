@@ -1,0 +1,18 @@
+{
+ "id": "2502.07639",
+ "title": "Response rate estimation in single-stage basket trials: A comparison of estimators that allow for borrowing across cohorts",
+ "authors": [
+  "Antonios Daletzakis",
+  "Rutger van den Bor",
+  "Vincent van der Noort",
+  "Kit CB Roes"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 1,
+ "latest_date": "2025-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Therapeutic advancements in oncology have shifted towards targeted therapy based on genomic aberrations. This necessitates innovative statistical approaches in clinical trials, particularly in master protocol studies. Basket trials, a type of master protocol, evaluate a single treatment across cohorts sharing a genomic aberration but differing in tumor histology. While offering operational advantages, basket trial analysis presents statistical inference challenges. These trials help determine for which tumor histology the treatment is promising enough to advance to confirmatory evaluation and often use Bayesian designs to support decisions. Beyond decision-making, estimating cohort-specific response rates is crucial for designing subsequent trials. This study compares seven Bayesian estimation methods for basket trials with binary outcomes against the (frequentist) sample proportion estimate through simulations. The goal is to estimate cohort-specific response rates, focusing on bias, mean squared error, and information borrowing. Various scenarios are examined, including homogeneous, heterogeneous, and clustered response rates across cohorts. Results show trade-offs in bias and precision, highlighting the importance of method selection. Berry's method performs best with limited heterogeneity. No clear winner emerges in general cases, with performance affected by shrinkage, bias, and the choice of priors and tuning parameters. Challenges include computational complexity, parameter tuning, and the lack of clear guidance on selection. Researchers should consider these factors when designing and analyzing basket trials.",
+ "primary": "stat.AP"
+}

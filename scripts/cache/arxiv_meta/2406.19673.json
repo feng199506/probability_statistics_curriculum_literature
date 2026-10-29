@@ -1,0 +1,27 @@
+{
+ "id": "2406.19673",
+ "title": "Extended sample size calculations for evaluation of prediction models using a threshold for classification",
+ "authors": [
+  "Rebecca Whittle",
+  "Joie Ensor",
+  "Lucinda Archer",
+  "Gary S. Collins",
+  "Paula Dhiman",
+  "Alastair Denniston",
+  "Joseph Alderman",
+  "Amardeep Legha",
+  "Maarten van Smeden",
+  "Karel G. Moons",
+  "Jean-Baptiste Cazier",
+  "Richard D. Riley",
+  "Kym I. E. Snell"
+ ],
+ "v1_date": "2024-06-28",
+ "latest_version": 1,
+ "latest_date": "2024-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 1 figure",
+ "abstract": "When evaluating the performance of a model for individualised risk prediction, the sample size needs to be large enough to precisely estimate the performance measures of interest. Current sample size guidance is based on precisely estimating calibration, discrimination, and net benefit, which should be the first stage of calculating the minimum required sample size. However, when a clinically important threshold is used for classification, other performance measures can also be used. We extend the previously published guidance to precisely estimate threshold-based performance measures. We have developed closed-form solutions to estimate the sample size required to target sufficiently precise estimates of accuracy, specificity, sensitivity, PPV, NPV, and F1-score in an external evaluation study of a prediction model with a binary outcome. This approach requires the user to pre-specify the target standard error and the expected value for each performance measure. We describe how the sample size formulae were derived and demonstrate their use in an example. Extension to time-to-event outcomes is also considered. In our examples, the minimum sample size required was lower than that required to precisely estimate the calibration slope, and we expect this would most often be the case. Our formulae, along with corresponding Python code and updated R and Stata commands (pmvalsampsize), enable researchers to calculate the minimum sample size needed to precisely estimate threshold-based performance measures in an external evaluation study. These criteria should be used alongside previously published criteria to precisely estimate the calibration, discrimination, and net-benefit.",
+ "primary": "stat.ME"
+}

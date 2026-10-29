@@ -1,0 +1,17 @@
+{
+ "id": "2408.09582",
+ "title": "A Likelihood-Free Approach to Goal-Oriented Bayesian Optimal Experimental Design",
+ "authors": [
+  "Atlanta Chakraborty",
+  "Xun Huan",
+  "Tommie Catanach"
+ ],
+ "v1_date": "2024-08-18",
+ "latest_version": 1,
+ "latest_date": "2024-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conventional Bayesian optimal experimental design seeks to maximize the expected information gain (EIG) on model parameters. However, the end goal of the experiment often is not to learn the model parameters, but to predict downstream quantities of interest (QoIs) that depend on the learned parameters. And designs that offer high EIG for parameters may not translate to high EIG for QoIs. Goal-oriented optimal experimental design (GO-OED) thus directly targets to maximize the EIG of QoIs. We introduce LF-GO-OED (likelihood-free goal-oriented optimal experimental design), a computational method for conducting GO-OED with nonlinear observation and prediction models. LF-GO-OED is specifically designed to accommodate implicit models, where the likelihood is intractable. In particular, it builds a density ratio estimator from samples generated from approximate Bayesian computation (ABC), thereby sidestepping the need for likelihood evaluations or density estimations. The overall method is validated on benchmark problems with existing methods, and demonstrated on scientific applications of epidemiology and neural science.",
+ "primary": "stat.CO"
+}

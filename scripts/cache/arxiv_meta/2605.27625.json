@@ -1,0 +1,16 @@
+{
+ "id": "2605.27625",
+ "title": "Admissibility of Adaptive Monotone Step-Down Multiple Testing Procedures Under Arbitrary Covariance Dependence",
+ "authors": [
+  "Prasenjit Ghosh",
+  "Arijit Chakrabarti"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we consider the problem of simultaneous testing of multivariate normal means under arbitrary covariance dependence. Specifically, let $\\boldsymbol{X}\\sim N_n(\\boldsymbolθ,\\boldsymbolΣ)$, where $\\boldsymbolθ\\in\\mathbb{R}^n$ is unknown and $\\boldsymbolΣ$ is a known positive definite covariance matrix. The objective is to test $H_{0i}:θ_i=0$ against $H_{Ai}:θ_i\\neq 0$, simultaneously for $i=1,\\ldots,n$. We establish a general admissibility theorem for a broad class of monotone residual-based step-down multiple testing procedures which iteratively rank the active hypotheses using statistics obtained through locally adaptive strictly increasing transformations of suitably standardized residual statistics arising from conditional normal distributions. Our main result shows that every such procedure is admissible with respect to a vector-valued loss function whose components are the usual individual $0$--$1$ testing losses. The proof relies on a delicate geometric analysis of the induced acceptance regions together with structural invariance properties of the adaptive stagewise rejection indices. The theorem substantially extends the admissibility theory developed for the maximum residual down procedure of Cohen et al. (2009) and reveals that admissibility under dependence is fundamentally driven by the monotone ordering structure induced by the residual statistics rather than by the precise functional form of the testing rule itself.",
+ "primary": "math.ST"
+}

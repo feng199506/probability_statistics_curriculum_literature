@@ -1,0 +1,16 @@
+{
+ "id": "2601.08600",
+ "title": "Flexible modeling of nonnegative continuous data: Box-Cox symmetric regression and its zero-adjusted extension",
+ "authors": [
+  "Rodrigo M. R. de Medeiros",
+  "Francisco F. Queiroz"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 2,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Box-Cox symmetric distributions constitute a broad class of probability models for positive continuous data, offering flexibility in modeling skewness and tail behavior. Their parameterization allows a straightforward quantile-based interpretation, which is particularly useful in regression modeling. Despite their potential, only a few specific distributions within this class have been explored in regression contexts, and zero-adjusted extensions have not yet been formally addressed in the literature. This paper formalizes the class of Box-Cox symmetric regression models and introduces a new zero-adjusted extension suitable for modeling data with a non-negligible proportion of observations equal to zero. We discuss maximum likelihood estimation, assess finite-sample performance through simulations, and develop diagnostic tools including residual analysis, local influence measures, and goodness-of-fit statistics. An empirical application on basic education expenditure illustrates the models' ability to capture complex patterns in zero-inflated and highly skewed nonnegative data. To support practical use, we developed the new BCSreg R package, which implements all proposed methods.",
+ "primary": "stat.ME"
+}

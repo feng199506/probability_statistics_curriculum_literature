@@ -1,0 +1,15 @@
+{
+ "id": "2607.01895",
+ "title": "Regularized Variational and Spectral Log-Density-Ratio Estimation in the Gaussian Location Model",
+ "authors": [
+  "Francis Bach"
+ ],
+ "v1_date": "2026-07-02",
+ "latest_version": 1,
+ "latest_date": "2026-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study ridge-regularized log-density-ratio estimation in the Gaussian location model with a common covariance matrix. By affine invariance, the model is written as q $\\sim$ N(0, I), p $\\sim$ N($Δ$, I), with linear features, where $Δ$ is a mean vector. The variational estimator is the empirical Kullback-Leibler (KL) log-normalized fit with a squared L2-penalty on its nonconstant coefficient, and the spectral estimator recently introduced in [1] replaces a single variational problem by a continuum of ridge-regularized least-squares problems. We derive high-dimensional deterministic asymptotic equivalents when the numbers of observations and dimension tend to infinity with fixed ratios. The regularized variational limit is characterized by a scalar entropy minimization problem derived from the convex-Gaussian-min-max theorem (CGMT), while the regularized spectral limit follows from deterministic equivalents for resolvents of weighted sums of two independent Gaussian sample covariance matrices. We use these formulas to compare population risks, with experiments focused on fixed-signal aspect-ratio sweeps and optimized regularization. Our conclusion is that with many observations, under the criteria and asymptotic regimes analyzed here, the well-specified variational estimator has the smaller risk, while with fewer observations, the spectral estimator is favored because its covariance-based construction has lower variance. We also study how a nuclear penalty can be used and partially analyzed to perform feature learning.",
+ "primary": "cs.LG"
+}

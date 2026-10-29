@@ -1,0 +1,17 @@
+{
+ "id": "2609.11688",
+ "title": "The Central Limit Theorem and Berry--Esseen bound for logarithmic law of random determinants",
+ "authors": [
+  "Song-Hao Liu",
+  "Qi-Man Shao",
+  "Jing-Yu Xu"
+ ],
+ "v1_date": "2026-09-10",
+ "latest_version": 1,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Let $A=(A_n)_{n\\ge2}$ be a triangular array of random matrices, where $A_n=(a_{ij})_{1\\le i,j\\le n}$ is an $n\\times n$ random matrix with independent real entries satisfying $\\mathbb E a_{ij}=0$ and $\\mathbb Ea_{ij}^2=1$, and put $\\mathcal L_n=\\log|\\det A_n|$ and \\[ W_n^{\\mathrm d}(A_n):=\\frac{\\mathcal L_n - \\frac12\\log(n-1)!}{\\sqrt{\\frac12\\log n}},\\quad W_n^{\\mathrm e}(A_n):= \\frac{\\mathcal L_n-\\mathbb E \\mathcal L_n}{\\sqrt{\\frac12\\log n}}. \\] We prove that $W_n^{\\mathrm d}(A_n) \\Rightarrow \\mathcal N(0,1)$, whenever the family $\\left\\{\\frac{|a_{ij}|^{4}}{\\sqrt{\\log(e+|a_{ij}|)}} \\right\\}_{n\\geq 2;1\\leq i,j\\leq n}$ is uniformly integrable. If, in addition, the entries have uniformly bounded densities, then $W_n^{\\mathrm e}(A_n) \\Rightarrow \\mathcal N(0,1)$ whenever the family $\\left\\{\\frac{|a_{ij}|^{4}}{\\log(e+|a_{ij}|)}\\right\\}_{n\\geq 2;1\\leq i,j\\leq n} $ is uniformly integrable. These two conditions are optimal at the level of universal moment assumptions. We further establish the corresponding Berry--Esseen bounds, and show that for $0<δ\\le\\tfrac12$, if $\\sup\\limits_{n}\\max\\limits_{1\\le i,j\\le n}\\mathbb E \\frac{|a_{ij}|^4} {\\{\\log(e+|a_{ij}|)\\}^{1/2-δ}}<\\infty$, then \\begin{align*} d_{\\mathrm K}(W_n^{\\mathrm d}(A_n),\\mathcal N(0,1))\\le C(\\log n)^{-δ}. \\end{align*} For $0<γ\\le1$, if $\\sup\\limits_{n}\\max\\limits_{1\\le i,j\\le n}\\mathbb E \\frac{|a_{ij}|^4} {\\{\\log(e+|a_{ij}|)\\}^{1-γ}}<\\infty$ and the entries have uniformly bounded densities, then \\begin{align*} d_{\\mathrm K}(W_n^{\\mathrm e}(A_n),\\mathcal N(0,1))\\le C(\\log n)^{-γ}. \\end{align*} When $δ= 1/2$ and $γ= 1$, the bounds $(\\log n)^{-1/2}$ and $(\\log n)^{-1}$ are optimal, respectively. Our results improve the earlier Central Limit Theorem by \\cite{BaoPanZhou2015} and the Berry--Esseen bound by \\cite{NguyenVu2014}.",
+ "primary": "math.PR"
+}

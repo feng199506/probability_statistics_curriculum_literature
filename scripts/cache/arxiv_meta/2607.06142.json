@@ -1,0 +1,17 @@
+{
+ "id": "2607.06142",
+ "title": "Fast Stochastic Nearest Neighbor Pairwise Composite Likelihood for Massive Spatial Datasets",
+ "authors": [
+  "Moreno Bevilacqua",
+  "Francisco Cuevas-Pacheco",
+  "Christian Caamaño-Carrillo"
+ ],
+ "v1_date": "2026-07-07",
+ "latest_version": 1,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Weighted pairwise composite likelihoods based on nearest-neighbor (NN) pairs provide a scalable alternative to full likelihood inference for spatial random fields, but can remain expensive when moderately large NN neighborhoods are needed. We propose a stochastic acceleration that constructs the deterministic NN candidate graph and evaluates only a randomized subset of its pairwise contributions. We consider two thinning designs: Bernoulli thinning, which controls the retained-pair budget in expectation, and fixed-budget thinning, which enforces an exact budget through target-wise sampling without replacement. Simulation studies for Matérn covariance models suggest that, in the settings considered, retaining two pairs per observation provides a stable statistical--computational compromise. The stochastic NN pairwise estimators provide a faster alternative to a Vecchia-type Gaussian approximation when substantial reductions in covariance-fitting time are desired and a modest loss of efficiency is acceptable. This trade-off is especially favorable for the mean, scale, and sill parameters, while the main efficiency loss is concentrated on smoothness estimation. In an application to July average temperature over the western--central United States, based on 2.5 million WorldClim observations, the proposed estimators achieve predictive accuracy essentially indistinguishable from the Vecchia benchmark, with substantially shorter covariance-fitting time.",
+ "primary": "stat.ME"
+}

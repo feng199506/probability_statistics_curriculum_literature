@@ -1,0 +1,16 @@
+{
+ "id": "2602.03948",
+ "title": "Privacy utility trade offs for parameter estimation in degree heterogeneous higher order networks",
+ "authors": [
+  "Bibhabasu Mandal",
+  "Sagnik Nandy"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In sensitive applications involving relational datasets, protecting information about individual links from adversarial queries is of paramount importance. In many such settings, the available data are summarized solely through the degrees of the nodes in the network. We adopt the $β$ model, which is the prototypical statistical model adopted for this form of aggregated relational information, and study the problem of minimax-optimal parameter estimation under both local and central differential privacy constraints. We establish finite sample minimax lower bounds that characterize the precise dependence of the estimation risk on the network size and the privacy parameters, and we propose simple estimators that achieve these bounds up to constants and logarithmic factors under both local and central differential privacy frameworks. Our results provide the first comprehensive finite sample characterization of privacy utility trade offs for parameter estimation in $β$ models, addressing the classical graph case and extending the analysis to higher order hypergraph models. We further demonstrate the effectiveness of our methods through experiments on synthetic data and a real world communication network.",
+ "primary": "stat.ML"
+}

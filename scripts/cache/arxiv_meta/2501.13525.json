@@ -1,0 +1,17 @@
+{
+ "id": "2501.13525",
+ "title": "Capturing heterogeneous time-variation in covariate effects in non-proportional hazard regression models",
+ "authors": [
+  "Niklas Hagemann",
+  "Thomas Kneib",
+  "Kathrin Möllenhoff"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 1,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 3 figures",
+ "abstract": "A central focus in survival analysis is examining how covariates influence survival time. These covariate effects are often found to be either time-varying, heterogeneous - such as being specific to patients, treatments, or subgroups - or exhibit both characteristics simultaneously. While the standard model, the Cox proportional hazards model, allows neither time-varying nor heterogeneous effects, several extensions to the Cox model as well as alternative modeling frameworks have been introduced. However, no unified framework for incorporating heterogeneously time-varying effects of covariates has been proposed yet. Such effects occur when a covariate influences survival not only in a heterogeneous and time-varying manner, but when the time-variation is also heterogeneous. We propose to model such effects by introducing heterogeneously time-varying coefficients to piecewise exponential additive mixed models. We deploy functional random effects, also known as factor smooths, to model such coefficients as the interaction effect of heterogeneity and time-variation. Our approach allows for non-linear time-effects due to being based on penalized splines and uses an efficient random effects basis to model the heterogeneity. Using a penalized basis prevents overfitting in case of absence of such effects. In addition, the penalization mostly solves the problem of choosing the number of intervals which is usually present in unregularized piecewise exponential approaches. We demonstrate the superiority of our approach in comparison to competitors by means of a simulation study. Finally, the practical application and relevance are outlined by presenting a brain tumor case study.",
+ "primary": "stat.ME"
+}

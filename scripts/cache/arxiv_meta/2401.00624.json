@@ -1,0 +1,18 @@
+{
+ "id": "2401.00624",
+ "title": "Semi-Confirmatory Factor Analysis for High-Dimensional Data with Interconnected Community Structures",
+ "authors": [
+  "Yifan Yang",
+  "Tianzhou Ma",
+  "Chuan Bi",
+  "Shuo Chen"
+ ],
+ "v1_date": "2024-01-01",
+ "latest_version": 3,
+ "latest_date": "2024-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Confirmatory factor analysis (CFA) is a statistical method for identifying and confirming the presence of latent factors among observed variables through the analysis of their covariance structure. Compared to alternative factor models, CFA offers interpretable common factors with enhanced specificity and a more adaptable approach to covariance structure modeling. However, the application of CFA has been limited by the requirement for prior knowledge about \"non-zero loadings\" and by the lack of computational scalability (e.g., it can be computationally intractable for hundreds of observed variables). We propose a data-driven semi-confirmatory factor analysis (SCFA) model that attempts to alleviate these limitations. SCFA automatically specifies \"non-zero loadings\" by learning the network structure of the large covariance matrix of observed variables, and then offers closed-form estimators for factor loadings, factor scores, covariances between common factors, and variances between errors using the likelihood method. Therefore, SCFA is applicable to high-throughput datasets (e.g., hundreds of thousands of observed variables) without requiring prior knowledge about \"non-zero loadings\". Through an extensive simulation analysis benchmarking against standard packages, SCFA exhibits superior performance in estimating model parameters with a much-reduced computational time. We illustrate its practical application through factor analysis on two high-dimensional RNA-seq gene expression datasets.",
+ "primary": "stat.ME"
+}

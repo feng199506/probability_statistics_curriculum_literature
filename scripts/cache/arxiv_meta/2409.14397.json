@@ -1,0 +1,17 @@
+{
+ "id": "2409.14397",
+ "title": "High-Dimensional Tensor Classification with CP Low-Rank Discriminant Structure",
+ "authors": [
+  "Elynn Chen",
+  "Yuefeng Han",
+  "Jiayu Li"
+ ],
+ "v1_date": "2024-09-22",
+ "latest_version": 1,
+ "latest_date": "2024-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tensor classification has become increasingly crucial in statistics and machine learning, with applications spanning neuroimaging, computer vision, and recommendation systems. However, the high dimensionality of tensors presents significant challenges in both theory and practice. To address these challenges, we introduce a novel data-driven classification framework based on linear discriminant analysis (LDA) that exploits the CP low-rank structure in the discriminant tensor. Our approach includes an advanced iterative projection algorithm for tensor LDA and incorporates a novel initialization scheme called Randomized Composite PCA (\\textsc{rc-PCA}). \\textsc{rc-PCA}, potentially of independent interest beyond tensor classification, relaxes the incoherence and eigen-ratio assumptions of existing algorithms and provides a warm start close to the global optimum. We establish global convergence guarantees for the tensor estimation algorithm using \\textsc{rc-PCA} and develop new perturbation analyses for noise with cross-correlation, extending beyond the traditional i.i.d. assumption. This theoretical advancement has potential applications across various fields dealing with correlated data and allows us to derive statistical upper bounds on tensor estimation errors. Additionally, we confirm the rate-optimality of our classifier by establishing minimax optimal misclassification rates across a wide class of parameter spaces. Extensive simulations and real-world applications validate our method's superior performance. Keywords: Tensor classification; Linear discriminant analysis; Tensor iterative projection; CP low-rank; High-dimensional data; Minimax optimality.",
+ "primary": "stat.ME"
+}

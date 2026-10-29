@@ -1,0 +1,17 @@
+{
+ "id": "2601.07267",
+ "title": "Connections as treatment: causal inference with edge interventions in networks",
+ "authors": [
+  "Shuli Chen",
+  "Jie Hu",
+  "Zhichao Jiang"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 1,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference has traditionally focused on interventions at the unit level. In many applications, however, the central question concerns the causal effects of connections between units, such as transportation links, social relationships, or collaborative ties. We develop a causal framework for edge interventions in networks, where treatments correspond to the presence or absence of edges. Our framework defines causal estimands under stochastic interventions on the network structure and introduces an inverse probability weighting estimator under an unconfoundedness assumption on edge assignment. We estimate edge probabilities using exponential random graph models, a widely used class of network models. We establish consistency and asymptotic normality of the proposed estimator. Finally, we apply our methodology to China's transportation network to estimate the causal impact of railroad connections on regional economic development.",
+ "primary": "stat.ME"
+}

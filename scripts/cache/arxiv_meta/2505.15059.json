@@ -1,0 +1,17 @@
+{
+ "id": "2505.15059",
+ "title": "Restricted Spectral Gap Decomposition for Simulated Tempering Targeting Mixture Distributions",
+ "authors": [
+  "Jhanvi Garg",
+  "Krishna Balasubramanian",
+  "Quan Zhou"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2025-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 1 figure, 1 table",
+ "abstract": "Simulated tempering is a widely used strategy for sampling from multimodal distributions. In this paper, we consider simulated tempering combined with an arbitrary local Markov chain Monte Carlo sampler and present a new decomposition theorem that provides a lower bound on the restricted spectral gap of the algorithm for sampling from mixture distributions. By working with the restricted spectral gap, the applicability of our results is extended to broader settings such as when the usual spectral gap is difficult to bound or becomes degenerate. We demonstrate the application of our theoretical results by analyzing simulated tempering combined with random walk Metropolis--Hastings for sampling from mixtures of Gaussian distributions. Our complexity bound scales polynomially with the separation between modes, logarithmically with $1/\\varepsilon$, where $\\varepsilon$ denotes the target accuracy in total variation distance, and exponentially with the dimension $d$.",
+ "primary": "math.ST"
+}

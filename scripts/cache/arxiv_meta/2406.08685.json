@@ -1,0 +1,17 @@
+{
+ "id": "2406.08685",
+ "title": "Variational Bayes Inference for Spatial Error Models with Missing Data",
+ "authors": [
+  "Anjana Wijayawardhana",
+  "David Gunawan",
+  "Thomas Suesse"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The spatial error model (SEM) is a type of simultaneous autoregressive (SAR) model for analysing spatially correlated data. Markov chain Monte Carlo (MCMC) is one of the most widely used Bayesian methods for estimating SEM, but it has significant limitations when it comes to handling missing data in the response variable due to its high computational cost. Variational Bayes (VB) approximation offers an alternative solution to this problem. Two VB-based algorithms employing Gaussian variational approximation with factor covariance structure are presented, joint VB (JVB) and hybrid VB (HVB), suitable for both missing at random and not at random inference. When dealing with many missing values, the JVB is inaccurate, and the standard HVB algorithm struggles to achieve accurate inferences. Our modified versions of HVB enable accurate inference within a reasonable computational time, thus improving its performance. The performance of the VB methods is evaluated using simulated and real datasets.",
+ "primary": "stat.ME"
+}

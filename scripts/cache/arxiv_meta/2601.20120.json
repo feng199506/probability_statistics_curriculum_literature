@@ -1,0 +1,16 @@
+{
+ "id": "2601.20120",
+ "title": "Going NUTS with ADVI: Exploring various Bayesian Inference techniques with Facebook Prophet",
+ "authors": [
+  "Jovan Krajevski",
+  "Biljana Tojtovska Ribarski"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "Proceedings of the 22nd International Conference for Informatics and Information Technologies, pp. 260-265, 2025, ISBN: 978-608-4699-22-4",
+ "doi": "",
+ "comment": "6 pages, 5 figures, Published in Proceedings of the 22nd International Conference for Informatics and Information Technologies - CiiT 2025",
+ "abstract": "Since its introduction, Facebook Prophet has attracted positive attention from both classical statisticians and the Bayesian statistics community. The model provides two built-in inference methods: maximum a posteriori estimation using the L-BFGS-B algorithm, and Markov Chain Monte Carlo (MCMC) sampling via the No-U-Turn Sampler (NUTS). While exploring various time-series forecasting problems using Bayesian inference with Prophet, we encountered limitations stemming from the inability to apply alternative inference techniques beyond those provided by default. Additionally, the fluent API design of Facebook Prophet proved insufficiently flexible for implementing our custom modeling ideas. To address these shortcomings, we developed a complete reimplementation of the Prophet model in PyMC, which enables us to extend the base model and evaluate and compare multiple Bayesian inference methods. In this paper, we present our PyMC-based implementation and analyze in detail the implementation of different Bayesian inference techniques. We consider full MCMC techniques, MAP estimation and Variational inference techniques on a time-series forecasting problem. We discuss in details the sampling approach, convergence diagnostics, forecasting metrics as well as their computational efficiency and detect possible issues which will be addressed in our future work.",
+ "primary": "cs.LG"
+}

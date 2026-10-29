@@ -1,0 +1,18 @@
+{
+ "id": "2601.10501",
+ "title": "Semiparametric inference for inequality measures under nonignorable nonresponse using callback data",
+ "authors": [
+  "Xinyu Wang",
+  "Chunlin Wang",
+  "Tao Yu",
+  "Pengfei Li"
+ ],
+ "v1_date": "2026-01-15",
+ "latest_version": 1,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 2 figures",
+ "abstract": "This paper develops semiparametric methods for estimation and inference of widely used inequality measures when survey data are subject to nonignorable nonresponse, a challenging setting in which response probabilities depend on the unobserved outcomes. Such nonresponse mechanisms are common in household surveys and invalidate standard inference procedures due to selection bias and lack of population representativeness. We address this problem by exploiting callback data from repeated contact attempts and adopting a semiparametric model that leaves the outcome distribution unspecified. We construct semiparametric full-likelihood estimators for the underlying distribution and the associated inequality measures, and establish their large-sample properties for a broad class of functionals, including quantiles, the Theil index, and the Gini index. Explicit asymptotic variance expressions are derived, enabling valid Wald-type inference under nonignorable nonresponse. To facilitate implementation, we propose a stable and computationally convenient expectation-maximization algorithm, whose steps either admit closed-form expressions or reduce to fitting a standard logistic regression model. Simulation studies demonstrate that the proposed procedures effectively correct nonresponse bias and achieve near-benchmark efficiency. An application to Consumer Expenditure Survey data illustrates the practical gains from incorporating callback information when making inference on inequality measures.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2605.06386",
+ "title": "Covariate Balancing and Riesz Regression Should Be Guided by the Neyman Orthogonal Score in Debiased Machine Learning",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This position paper argues that, in debiased machine learning, balancing functions should be derived from the Neyman orthogonal score, not chosen only as functions of covariates. Covariate balancing is effective when the regression error entering the score can be represented by functions of covariates alone, and it is the natural finite-dimensional approximation for targets such as ATT counterfactual means. For ATE estimation under treatment effect heterogeneity, however, the score error generally contains treatment-specific components because the outcome regression is a function of the full regressor $X=(D,Z)$. In that case, balancing common functions of $Z$ can leave the treatment-specific component unbalanced. We therefore advocate regressor balancing, implemented by Riesz regression with basis functions of $X$, as the general balancing principle for DML. The position is not that covariate balancing is invalid, but that covariate balancing should be understood as the special case that is appropriate when the score-relevant regression error is a function of covariates alone.",
+ "primary": "econ.EM"
+}

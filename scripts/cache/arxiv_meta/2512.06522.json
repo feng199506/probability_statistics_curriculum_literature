@@ -1,0 +1,17 @@
+{
+ "id": "2512.06522",
+ "title": "Hierarchical Clustering With Confidence",
+ "authors": [
+  "Di Wu",
+  "Jacob Bien",
+  "Snigdha Panigrahi"
+ ],
+ "v1_date": "2025-12-06",
+ "latest_version": 2,
+ "latest_date": "2026-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 Pages, 11 Figures, 2 Algorithms",
+ "abstract": "Agglomerative hierarchical clustering is one of the most widely used approaches for exploring how observations in a dataset relate to each other. However, its greedy nature makes it highly sensitive to small perturbations in the data, often producing different clustering results and making it difficult to separate genuine structure from spurious patterns. In this paper, we show how randomizing hierarchical clustering can be useful not just for measuring stability but also for designing valid hypothesis testing procedures based on the clustering results. We propose a simple randomization scheme together with a method for constructing a valid p-value at each node of the hierarchical clustering dendrogram that quantifies evidence against performing the greedy merge. Our test controls the Type I error rate, works with any hierarchical linkage without case-specific derivations, and simulations show it is substantially more powerful than existing selective inference approaches. To demonstrate the practical utility of our p-values, we develop an adaptive $α$-spending procedure that estimates the number of clusters, with a probabilistic guarantee on overestimation. Experiments on simulated and real data show that this estimate yields powerful clustering and can be used, for example, to assess clustering stability across multiple runs of the randomized algorithm.",
+ "primary": "stat.ME"
+}

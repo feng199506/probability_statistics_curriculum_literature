@@ -1,0 +1,18 @@
+{
+ "id": "2504.18830",
+ "title": "A Dictionary of Closed-Form Kernel Mean Embeddings",
+ "authors": [
+  "François-Xavier Briol",
+  "Alexandra Gessner",
+  "Toni Karvonen",
+  "Maren Mahsereci"
+ ],
+ "v1_date": "2025-04-26",
+ "latest_version": 1,
+ "latest_date": "2025-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel mean embeddings -- integrals of a kernel with respect to a probability distribution -- are essential in Bayesian quadrature, but also widely used in other computational tools for numerical integration or for statistical inference based on the maximum mean discrepancy. These methods often require, or are enhanced by, the availability of a closed-form expression for the kernel mean embedding. However, deriving such expressions can be challenging, limiting the applicability of kernel-based techniques when practitioners do not have access to a closed-form embedding. This paper addresses this limitation by providing a comprehensive dictionary of known kernel mean embeddings, along with practical tools for deriving new embeddings from known ones. We also provide a Python library that includes minimal implementations of the embeddings.",
+ "primary": "stat.ML"
+}

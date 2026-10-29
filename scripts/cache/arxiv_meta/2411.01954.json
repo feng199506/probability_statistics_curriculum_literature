@@ -1,0 +1,19 @@
+{
+ "id": "2411.01954",
+ "title": "RobPy: a Python Package for Robust Statistical Methods",
+ "authors": [
+  "Sarah Leyder",
+  "Jakob Raymaekers",
+  "Peter J. Rousseeuw",
+  "Thomas Servotte",
+  "Tim Verdonck"
+ ],
+ "v1_date": "2024-11-04",
+ "latest_version": 1,
+ "latest_date": "2024-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust estimation provides essential tools for analyzing data that contain outliers, ensuring that statistical models remain reliable even in the presence of some anomalous data. While robust methods have long been available in R, users of Python have lacked a comprehensive package that offers these methods in a cohesive framework. RobPy addresses this gap by offering a wide range of robust methods in Python, built upon established libraries including NumPy, SciPy, and scikit-learn. This package includes tools for robust preprocessing, univariate estimation, covariance matrices, regression, and principal component analysis, which are able to detect outliers and to mitigate their effect. In addition, RobPy provides specialized diagnostic plots for visualizing casewise and cellwise outliers. This paper presents the structure of the RobPy package, demonstrates its functionality through examples, and compares its features to existing implementations in other statistical software. By bringing robust methods to Python, RobPy enables more users to perform robust data analysis in a modern and versatile programming language.",
+ "primary": "stat.CO"
+}

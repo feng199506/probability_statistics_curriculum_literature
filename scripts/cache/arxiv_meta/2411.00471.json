@@ -1,0 +1,16 @@
+{
+ "id": "2411.00471",
+ "title": "Dirichlet process mixtures of block $g$ priors for model selection and prediction in linear models",
+ "authors": [
+  "Anupreet Porwal",
+  "Abel Rodriguez"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 3,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces Dirichlet process mixtures of block $g$ priors for model selection and prediction in linear models. These priors are extensions of traditional mixtures of $g$ priors that allow for differential shrinkage for various (data-selected) blocks of parameters while fully accounting for the predictors' correlation structure, providing a bridge between the literatures on model selection and continuous shrinkage priors. We show that Dirichlet process mixtures of block $g$ priors are consistent in various senses and, in particular, that they avoid the conditional Lindley ``paradox'' highlighted by Som et al. (2016). Further, we develop a Markov chain Monte Carlo algorithm for posterior inference that requires only minimal ad-hoc tuning. Finally, we investigate the empirical performance of the prior in various real and simulated datasets. In the presence of a small number of very large effects, Dirichlet process mixtures of block $g$ priors lead to higher power for detecting smaller but significant effects without only a minimal increase in the number of false discoveries.",
+ "primary": "stat.ME"
+}

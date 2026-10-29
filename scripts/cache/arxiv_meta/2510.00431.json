@@ -1,0 +1,18 @@
+{
+ "id": "2510.00431",
+ "title": "An Accurate Standard Error Estimation for Quadratic Exponential Logistic Regressions by Applying Generalized Estimating Equations to Pseudo-Likelihoods",
+ "authors": [
+  "Ong Wei Yong",
+  "Lee Shao-Man",
+  "Hsueh Chia-Ming",
+  "Chang Sheng-Mao"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 1,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For a set of binary response variables, conditional mean models characterize the expected value of a response variable given the others and are popularly applied in longitudinal and network data analyses. The quadratic exponential binary distribution is a natural choice in this context. However, maximum likelihood estimation of this distribution is computationally demanding due to its intractable normalizing constant, while the pseudo-likelihood, though computationally convenient, tends to severely underestimate the standard errors. In this work, we investigate valid estimation methods for the quadratic exponential binary distribution and its regression counterpart. We show that, when applying the generalized estimating equations to the pseudo-likelihood, using the independence working correlation yields consistent estimates, whereas using dependent structures, such as compound symmetric or autoregressive correlations, may introduce non-ignorable biases. Theoretical properties are derived, supported by simulation studies. For illustration, we apply the proposed approach to the carcinogenic toxicity of chemicals data and the constitutional court opinion wringing data.",
+ "primary": "stat.ME"
+}

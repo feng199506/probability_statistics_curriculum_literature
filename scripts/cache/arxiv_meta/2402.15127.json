@@ -1,0 +1,17 @@
+{
+ "id": "2402.15127",
+ "title": "Asymptotically and Minimax Optimal Regret Bounds for Multi-Armed Bandits with Abstention",
+ "authors": [
+  "Junwen Yang",
+  "Tianyuan Jin",
+  "Vincent Y. F. Tan"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages",
+ "abstract": "We introduce a novel extension of the canonical multi-armed bandit problem that incorporates an additional strategic innovation: abstention. In this enhanced framework, the agent is not only tasked with selecting an arm at each time step, but also has the option to abstain from accepting the stochastic instantaneous reward before observing it. When opting for abstention, the agent either suffers a fixed regret or gains a guaranteed reward. This added layer of complexity naturally prompts the key question: can we develop algorithms that are both computationally efficient and asymptotically and minimax optimal in this setting? We answer this question in the affirmative by designing and analyzing algorithms whose regrets meet their corresponding information-theoretic lower bounds. Our results offer valuable quantitative insights into the benefits of the abstention option, laying the groundwork for further exploration in other online decision-making problems with such an option. Extensive numerical experiments validate our theoretical results, demonstrating that our approach not only advances theory but also has the potential to deliver significant practical benefits.",
+ "primary": "cs.LG"
+}

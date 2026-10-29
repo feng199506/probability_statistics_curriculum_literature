@@ -1,0 +1,18 @@
+{
+ "id": "2605.12807",
+ "title": "Multi-Marginal Couplings for Metropolis-Hastings",
+ "authors": [
+  "Buu Phan",
+  "Gergely Flamich",
+  "Ashish Khisti",
+  "Shahab Asoodeh"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Convergence diagnosis for Markov chain Monte Carlo is a matter of fundamental importance in computational statistics: it determines the resources allocated to a particular sampling problem and influences the practitioner's view of the quality of estimates obtained from a Markov chain. Motivated by this, we contribute to the emerging class of coupling-based convergence diagnostic algorithms. Concretely, we study coupling multiple Metropolis-Hastings chains using multi-marginal coupling. We introduce a natural objective for this setting and establish lower and upper bounds by drawing connections to list-level distribution coupling and distributed pairwise-matching problems. This analysis ultimately leads to a shared-randomness Poisson Monte Carlo construction for coupling multiple Markov chains. In this process, we avoid a key dimension-dependent bottleneck in the runtime complexity of classical Poisson Monte Carlo by developing an adaptive rule for updating the point process, yielding significant gains in high-dimensional settings. Experiments on grand couplings of Markov chains show that our methods improve coalescence rates across dimensions, reducing meeting times by up to 50% compared with existing baselines.",
+ "primary": "stat.CO"
+}

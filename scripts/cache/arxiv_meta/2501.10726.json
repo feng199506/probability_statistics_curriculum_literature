@@ -1,0 +1,17 @@
+{
+ "id": "2501.10726",
+ "title": "Estimation of Linear models from Coarsened Observations Estimation of Linear models Estimation from Coarsened Observations A Method of Moments Approach",
+ "authors": [
+  "Bernard M. S. van Praag",
+  "J. Peter Hop",
+  "William H. Greene"
+ ],
+ "v1_date": "2025-01-18",
+ "latest_version": 1,
+ "latest_date": "2025-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the last few decades, the study of ordinal data in which the variable of interest is not exactly observed but only known to be in a specific ordinal category has become important. In Psychometrics such variables are analysed under the heading of item response models (IRM). In Econometrics, subjective well-being (SWB) and self-assessed health (SAH) studies, and in marketing research, Ordered Probit, Ordered Logit, and Interval Regression models are common research platforms. To emphasize that the problem is not specific to a specific discipline we will use the neutral term coarsened observation. For single-equation models estimation of the latent linear model by Maximum Likelihood (ML) is routine. But, for higher -dimensional multivariate models it is computationally cumbersome as estimation requires the evaluation of multivariate normal distribution functions on a large scale. Our proposed alternative estimation method, based on the Generalized Method of Moments (GMM), circumvents this multivariate integration problem. The method is based on the assumed zero correlations between explanatory variables and generalized residuals. This is more general than ML but coincides with ML if the error distribution is multivariate normal. It can be implemented by repeated application of standard techniques. GMM provides a simpler and faster approach than the usual ML approach. It is applicable to multiple -equation models with -dimensional error correlation matrices and response categories for the equation. It also yields a simple method to estimate polyserial and polychoric correlations. Comparison of our method with the outcomes of the Stata ML procedure cmp yields estimates that are not statistically different, while estimation by our method requires only a fraction of the computing time.",
+ "primary": "econ.EM"
+}

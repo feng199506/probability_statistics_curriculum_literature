@@ -1,0 +1,17 @@
+{
+ "id": "2605.05930",
+ "title": "Toward design-based inference for data integration",
+ "authors": [
+  "Andrius Čiginas",
+  "Ieva Burakauskaitė",
+  "Jae Kwang Kim"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 6 figures, 7 tables",
+ "abstract": "Integrating non-probability samples into finite-population inference typically requires modeling unknown selection probabilities under a missing-at-random (MAR) assumption that is difficult to verify. We propose a design-based alternative in which the non-probability sample is treated as a fully observed certainty stratum and a probability sample is drawn only from the complementary, previously unsampled units. Within this sequential framework, we develop two generalized regression estimators: one fitting the outcome model separately in the complementary stratum, the other pooling both samples; we make two distinct contributions. First, both estimators are design-consistent and admit consistent variance estimators with no assumption whatsoever on the non-probability selection mechanism, including under not-missing-at-random (NMAR) selection. Second, under a working superpopulation model that holds in both strata, the pilot non-probability sample can be used to construct second-stage inclusion probabilities that achieve Isaki-Fuller asymptotic optimality for the separate estimator; this optimality claim relies on assumptions strictly stronger than MAR, but its failure does not invalidate the consistency results above. A diagnostic test for coefficient homogeneity is proposed to guide the choice between the two estimators. Simulations confirm that the sequential estimators remain essentially unbiased under both MAR and NMAR, while propensity-adjusted competitors can be severely biased under NMAR. Two applications from Lithuanian official statistics illustrate that separate regression is preferable when the pilot stratum and its complement are strongly heterogeneous, whereas combined regression offers a modest efficiency gain when the two strata are similar.",
+ "primary": "stat.ME"
+}

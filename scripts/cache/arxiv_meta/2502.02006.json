@@ -1,0 +1,16 @@
+{
+ "id": "2502.02006",
+ "title": "Spectrally Robust Covariance Shrinkage for Hotelling's $T^2$ in High Dimensions",
+ "authors": [
+  "Benjamin D. Robinson",
+  "Van Latimer"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 4,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages, 19 figures",
+ "abstract": "We investigate covariance shrinkage for Hotelling's $T^2$ in the regime where the data dimension $p$ and the sample size $n$ grow in a fixed ratio -- without assuming that the population covariance matrix is spiked or well-conditioned. When $p/n\\toφ\\in (0,1)$, we propose a practical finite-sample shrinker that, for any maximum-entropy signal prior and any fixed significance level, (a) asymptotically maximizes power under Gaussian data, and (b) asymptotically saturates the Hanson--Wright lower bound on power in the more general sub-Gaussian case. Our approach is to formulate and solve a variational problem characterizing the optimal limiting shrinker, and to show that our finite-sample method consistently approximates this limit by extending recent local random matrix laws. Empirical studies on simulated and real-world data, including the Crawdad UMich/RSS data set, demonstrate up to a $50\\%$ gain in power over leading linear and nonlinear competitors at a significance level of $10^{-4}$.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2408.08638",
+ "title": "Sampling effects on Lasso estimation of drift functions in high-dimensional diffusion processes",
+ "authors": [
+  "Chiara Amorino",
+  "Francisco Pina",
+  "Mark Podolskij"
+ ],
+ "v1_date": "2024-08-16",
+ "latest_version": 4,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we address high-dimensional parametric estimation of the drift function in diffusion models, specifically focusing on a $d$-dimensional ergodic diffusion process observed at discrete time points. We consider both a general linear form for the drift function and the particular case of the Ornstein-Uhlenbeck (OU) process. Assuming sparsity of the parameter vector, we examine the statistical behavior of the Lasso estimator for the unknown parameter. Our primary contribution is the proof of an oracle inequality for the Lasso estimator, which holds on the intersection of three specific sets defined for our analysis. We carefully control the probability of these sets, tackling the central challenge of our study. This approach allows us to derive error bounds for the $l_1$ and $l_2$ norms, assessing the performance of the proposed Lasso estimator. Our results demonstrate that, under certain conditions, the discretization error becomes negligible, enabling us to achieve the same optimal rate of convergence as if the continuous trajectory of the process were observed. We validate our theoretical findings through numerical experiments, which show that the Lasso estimator significantly outperforms the maximum likelihood estimator (MLE) in terms of support recovery.",
+ "primary": "math.ST"
+}

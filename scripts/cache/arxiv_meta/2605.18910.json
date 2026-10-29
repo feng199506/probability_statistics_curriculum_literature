@@ -1,0 +1,15 @@
+{
+ "id": "2605.18910",
+ "title": "A Tutorial on Symbolic Structural Identifiability Analysis of ODE Models in Julia",
+ "authors": [
+  "Abdallah Alsammani"
+ ],
+ "v1_date": "2026-05-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-07",
+ "journal_ref": "Bulletin of Mathematical Biology 88, 212 (2026)",
+ "doi": "10.1007/s11538-026-01779-0",
+ "comment": "",
+ "abstract": "Structural identifiability analysis determines whether the parameters of a mechanistic ordinary differential equation (ODE) model can be uniquely recovered from ideal observations and is a prerequisite for reliable parameter estimation. This tutorial presents a reproducible computational framework for symbolic structural identifiability analysis using StructuralIdentifiability.jl. We introduce the concepts of local and global identifiability, observability, parameter-to-output mappings, and identifiable parameter combinations within a unified computational workflow. The methodology is illustrated through six case studies from epidemiology, pharmacokinetics, and within-host viral dynamics, demonstrating globally identifiable models, locally but not globally identifiable models, structurally non-identifiable models, identifiable parameter combinations, and strategies for restoring identifiability through additional measurements, known initial conditions, fixed parameters, and model reparameterization. Every identifiability verdict reported here is reproduced by companion scripts run in a pinned and tested Julia environment and, where possible, confirmed by an explicit input--output or symmetry argument. The tutorial also shows how models built with ModelingToolkit.jl or Catalyst.jl, or imported from SBML, enter the analysis, how several experimental conditions can be pooled, and how structural identifiability fits into the subsequent steps of experimental design, parameter estimation, and practical identifiability analysis, providing a practical guide to structural identifiability analysis for mechanistic ODE models.",
+ "primary": "stat.ME"
+}

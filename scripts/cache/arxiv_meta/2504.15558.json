@@ -1,0 +1,19 @@
+{
+ "id": "2504.15558",
+ "title": "Dynamical mean-field analysis of adaptive Langevin diffusions: Replica-symmetric fixed point and empirical Bayes",
+ "authors": [
+  "Zhou Fan",
+  "Justin Ko",
+  "Bruno Loureiro",
+  "Yue M. Lu",
+  "Yandi Shen"
+ ],
+ "v1_date": "2025-04-22",
+ "latest_version": 2,
+ "latest_date": "2025-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many applications of statistical estimation via sampling, one may wish to sample from a high-dimensional target distribution that is adaptively evolving to the samples already seen. We study an example of such dynamics, given by a Langevin diffusion for posterior sampling in a Bayesian linear regression model with i.i.d. regression design, whose prior continuously adapts to the Langevin trajectory via a maximum marginal-likelihood scheme. Results of dynamical mean-field theory (DMFT) developed in our companion paper establish a precise high-dimensional asymptotic limit for the joint evolution of the prior parameter and law of the Langevin sample. In this work, we carry out an analysis of the equations that describe this DMFT limit, under conditions of approximate time-translation-invariance which include, in particular, settings where the posterior law satisfies a log-Sobolev inequality. In such settings, we show that this adaptive Langevin trajectory converges on a dimension-independent time horizon to an equilibrium state that is characterized by a system of scalar fixed-point equations, and the associated prior parameter converges to a critical point of a replica-symmetric limit for the model free energy. As a by-product of our analyses, we obtain a new dynamical proof that this replica-symmetric limit for the free energy is exact, in models having a possibly misspecified prior and where a log-Sobolev inequality holds for the posterior law.",
+ "primary": "math.ST"
+}

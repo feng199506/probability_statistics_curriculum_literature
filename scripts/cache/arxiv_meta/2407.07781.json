@@ -1,0 +1,17 @@
+{
+ "id": "2407.07781",
+ "title": "Sequential Kalman Tuning of the $t$-preconditioned Crank-Nicolson algorithm: efficient, adaptive and gradient-free inference for Bayesian inverse problems",
+ "authors": [
+  "Richard D. P. Grumitt",
+  "Minas Karamanis",
+  "Uroš Seljak"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 2,
+ "latest_date": "2024-11-18",
+ "journal_ref": "",
+ "doi": "10.1088/1361-6420/ad934b",
+ "comment": "58 pages, 22 figures, accepted in Inverse Problems",
+ "abstract": "Ensemble Kalman Inversion (EKI) has been proposed as an efficient method for the approximate solution of Bayesian inverse problems with expensive forward models. However, when applied to the Bayesian inverse problem EKI is only exact in the regime of Gaussian target measures and linear forward models. In this work we propose embedding EKI and Flow Annealed Kalman Inversion (FAKI), its normalizing flow (NF) preconditioned variant, within a Bayesian annealing scheme as part of an adaptive implementation of the $t$-preconditioned Crank-Nicolson (tpCN) sampler. The tpCN sampler differs from standard pCN in that its proposal is reversible with respect to the multivariate $t$-distribution. The more flexible tail behaviour allows for better adaptation to sampling from non-Gaussian targets. Within our Sequential Kalman Tuning (SKT) adaptation scheme, EKI is used to initialize and precondition the tpCN sampler for each annealed target. The subsequent tpCN iterations ensure particles are correctly distributed according to each annealed target, avoiding the accumulation of errors that would otherwise impact EKI. We demonstrate the performance of SKT for tpCN on three challenging numerical benchmarks, showing significant improvements in the rate of convergence compared to adaptation within standard SMC with importance weighted resampling at each temperature level, and compared to similar adaptive implementations of standard pCN. The SKT scheme applied to tpCN offers an efficient, practical solution for solving the Bayesian inverse problem when gradients of the forward model are not available. Code implementing the SKT schemes for tpCN is available at \\url{https://github.com/RichardGrumitt/KalmanMC}.",
+ "primary": "stat.CO"
+}

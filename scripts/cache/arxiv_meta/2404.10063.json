@@ -1,0 +1,20 @@
+{
+ "id": "2404.10063",
+ "title": "Adjusting for bias due to measurement error in functional quantile regression models with error-prone functional and scalar covariates",
+ "authors": [
+  "Xiwei Chen",
+  "Yuanyuan Luan",
+  "Roger S. Zoh",
+  "Lan Xue",
+  "Sneha Jadhav",
+  "Carmen D. Tekwe"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 1,
+ "latest_date": "2024-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wearable devices enable the continuous monitoring of physical activity (PA) but generate complex functional data with poorly characterized errors. Most work on functional data views the data as smooth, latent curves obtained at discrete time intervals with some random noise with mean zero and constant variance. Viewing this noise as homoscedastic and independent ignores potential serial correlations. Our preliminary studies indicate that failing to account for these serial correlations can bias estimations. In dietary assessments, epidemiologists often use self-reported measures based on food frequency questionnaires that are prone to recall bias. With the increased availability of complex, high-dimensional functional, and scalar biomedical data potentially prone to measurement errors, it is necessary to adjust for biases induced by these errors to permit accurate analyses in various regression settings. However, there has been limited work to address measurement errors in functional and scalar covariates in the context of quantile regression. Therefore, we developed new statistical methods based on simulation extrapolation (SIMEX) and mixed effects regression with repeated measures to correct for measurement error biases in this context. We conducted simulation studies to establish the finite sample properties of our new methods. The methods are illustrated through application to a real data set.",
+ "primary": "stat.ME"
+}

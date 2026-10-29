@@ -1,0 +1,17 @@
+{
+ "id": "2601.22481",
+ "title": "Changepoint Detection As Model Selection: A General Framework",
+ "authors": [
+  "Michael Grantham",
+  "Xueheng Shi",
+  "Bertrand Clarke"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 2,
+ "latest_date": "2026-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This dissertation presents a general framework for changepoint detection based on L0 model selection. The core method, Iteratively Reweighted Fused Lasso (IRFL), improves upon the generalized lasso by adaptively reweighting penalties to enhance support recovery and minimize criteria such as the Bayesian Information Criterion (BIC). The approach allows for flexible modeling of seasonal patterns, linear and quadratic trends, and autoregressive dependence in the presence of changepoints. Simulation studies demonstrate that IRFL achieves accurate changepoint detection across a wide range of challenging scenarios, including those involving nuisance factors such as trends, seasonal patterns, and serially correlated errors. The framework is further extended to image data, where it enables edge-preserving denoising and segmentation, with applications spanning medical imaging and high-throughput plant phenotyping. Applications to real-world data demonstrate IRFL's utility. In particular, analysis of the Mauna Loa CO2 time series reveals changepoints that align with volcanic eruptions and ENSO events, yielding a more accurate trend decomposition than ordinary least squares. Overall, IRFL provides a robust, extensible tool for detecting structural change in complex data.",
+ "primary": "stat.ME"
+}

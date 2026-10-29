@@ -1,0 +1,16 @@
+{
+ "id": "2407.04446",
+ "title": "Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation",
+ "authors": [
+  "Keisuke Hanada",
+  "Tomoyuki Sugimoto"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 2,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 10 figures",
+ "abstract": "Meta-analyses are commonly used to provide solid evidence across numerous studies. Traditional moment methods, such as the DerSimonian-Laird method, remain popular in spite of the availability of more accurate alternatives. While moment estimators are simple and intuitive, they are known to underestimate the variance of the overall treatment effect, particularly when the number of studies is small. This underestimation can lead to excessively narrow confidence intervals that do not meet the nominal confidence level, potentially resulting in misleading conclusions. In this study, we improve traditional moment-based meta-analysis methods by incorporating Huber's M-estimation to more accurately capture the distributional characteristics of between-study variance. Our approach enables conservative parameter estimation, even when almost all existing methods lead to underestimation of between-study variance under a small number of studies. Additionally, by deriving the simultaneous distribution of overall treatment effect and between-study variance, we propose facilitating a visual exploration of the relationship between these two quantities. Our method provides more reliable estimators for the overall treatment effect and between-study variance, particularly in situations with few studies. Using simulations and real data analysis, we demonstrate that our approach always yields more conservative results compared to traditional moment methods, and ensures more accurate confidence intervals in meta-analyses.",
+ "primary": "stat.ME"
+}

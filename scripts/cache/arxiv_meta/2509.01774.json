@@ -1,0 +1,17 @@
+{
+ "id": "2509.01774",
+ "title": "Generalized Correlation Regression for Disentangling Dependence in Clustered Data",
+ "authors": [
+  "Yibo Wang",
+  "Chenlei Leng",
+  "Cheng Yong Tang"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 2,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clustered and longitudinal data are pervasive in scientific studies, from prenatal health programs to clinical trials and public health surveillance. Such data often involve non-Gaussian responses--including binary, categorical, and count outcomes--that exhibit complex correlation structures driven by multilevel clustering, covariates, over-dispersion, or zero inflation. Conventional approaches such as mixed-effects models and generalized estimating equations (GEEs) can capture some of these dependencies, but they are often too rigid or impose restrictive assumptions that limit interpretability and predictive performance. We investigate \\emph{generalized correlation regression} (GCR), a unified framework that models correlations directly as functions of interpretable covariates while simultaneously estimating marginal means. By applying a generalized $z$-transformation, GCR guarantees valid correlation matrices, accommodates unbalanced cluster sizes, and flexibly incorporates covariates such as time, space, or group membership into the dependence structure. Through applications to modern prenatal care, a longitudinal toenail infection trial, and clustered health count data, we show that GCR not only achieves superior predictive performance over standard methods, but also reveals family-, community-, and individual-level drivers of dependence that are obscured under conventional modeling. These results demonstrate the broad applied value of GCR for analyzing binary, count, and categorical data in clustered and longitudinal settings.",
+ "primary": "stat.ME"
+}

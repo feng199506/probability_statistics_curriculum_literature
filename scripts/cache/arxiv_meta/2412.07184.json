@@ -1,0 +1,18 @@
+{
+ "id": "2412.07184",
+ "title": "Automatic Doubly Robust Forests",
+ "authors": [
+  "Zhaomeng Chen",
+  "Junting Duan",
+  "Victor Chernozhukov",
+  "Vasilis Syrgkanis"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 2,
+ "latest_date": "2025-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes the automatic Doubly Robust Random Forest (DRRF) algorithm for estimating the conditional expectation of a moment functional in the presence of high-dimensional nuisance functions. DRRF extends the automatic debiasing framework based on the Riesz representer to the conditional setting and enables nonparametric, forest-based estimation (Athey et al., 2019; Oprescu et al., 2019). In contrast to existing methods, DRRF does not require prior knowledge of the form of the debiasing term or impose restrictive parametric or semi-parametric assumptions on the target quantity. Additionally, it is computationally efficient in making predictions at multiple query points. We establish consistency and asymptotic normality results for the DRRF estimator under general assumptions, allowing for the construction of valid confidence intervals. Through extensive simulations in heterogeneous treatment effect (HTE) estimation, we demonstrate the superior performance of DRRF over benchmark approaches in terms of estimation accuracy, robustness, and computational efficiency.",
+ "primary": "stat.ME"
+}

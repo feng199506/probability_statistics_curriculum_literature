@@ -1,0 +1,17 @@
+{
+ "id": "2407.02676",
+ "title": "Covariate-dependent hierarchical Dirichlet processes",
+ "authors": [
+  "Huizi Zhang",
+  "Sara Wade",
+  "Natalia Bochkina"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 5,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian hierarchical modeling is a natural framework to effectively integrate data and borrow information across groups. In this paper, we address problems related to density estimation and identifying clusters across related groups, by proposing a hierarchical Bayesian approach that incorporates additional covariate information. To achieve flexibility, our approach builds on ideas from Bayesian nonparametrics, combining the hierarchical Dirichlet process with dependent Dirichlet processes. The proposed model is widely applicable, accommodating multiple and mixed covariate types through appropriate kernel functions as well as different output types through suitable component-specific likelihoods. This extends our ability to discern the relationship between covariates and clusters, while also effectively borrowing information and quantifying differences across groups. By employing a data augmentation trick, we are able to tackle the intractable normalized weights and construct a Markov chain Monte Carlo algorithm for posterior inference. The proposed method is illustrated on simulated data and two real data sets on single-cell RNA sequencing (scRNA-seq) and calcium imaging. For scRNA-seq data, we show that the incorporation of cell dynamics facilitates the discovery of additional cell subgroups. On calcium imaging data, our method identifies interpretable clusters of time frames with similar neural activity, aligning with the observed behavior of the animal.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2608.14344",
+ "title": "Change Point Detection and Localization in High-Dimensional Time Series",
+ "authors": [
+  "Patrick Bastian",
+  "Daria Tieplova",
+  "Nina Dörnemann",
+  "Tim Kutta"
+ ],
+ "v1_date": "2026-08-14",
+ "latest_version": 1,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present new inference tools for change point detection in high-dimensional time series. We discuss two distinct statistical applications: First, sequential change point testing in an incoming data-stream. Second, retrospective localization of multiple changes, with confidence intervals at a globally controlled error level. Test statistics are built on the maximum norm to generate power against sparse and asynchronous changes. Both problems are tackled by related multiscale statistics that search for changes in the data at many different levels of resolution. For fixed dimension, our statistical approaches can be validated using traditional Hölderian invariance principles. In this paper, we present the high-dimensional analogue: Hölder-Gauss-approximations, which can be (roughly) interpreted as the Gaussian approximation for a Hölder-norm of the high-dimensional partial sum process. Such approximations are of interest beyond change point detection and can be used for other problems such as for stationarity testing in high dimensions. We evaluate finite-sample performance in a simulation study and give an application to air contamination due to wildfires in California, which occurs asynchronously across a panel of measuring stations.",
+ "primary": "stat.ME"
+}

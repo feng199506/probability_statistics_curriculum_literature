@@ -1,0 +1,18 @@
+{
+ "id": "2512.00508",
+ "title": "High-dimensional Autoregressive Modeling for Time Series with Hierarchical Structures",
+ "authors": [
+  "Lan Li",
+  "Shibo Yu",
+  "Yingzhou Wang",
+  "Guodong Li"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 3,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern applications have made ubiquitous high-dimensional data, especially time-dependent data, with more and more complicated structures, and it also has become more frequent to encounter the scenario of hierarchical relationships among variables. However, there is still a lack of supervised learning tool in the literature for them. To fill this gap, we introduce a new model-designing framework, and it then combines with unsupervised factor modeling tools to form an efficient and interpretable autoregressive model for high-dimensional time series with hierarchical structures. An ordinary least squares estimation is considered, and its non-asymptotic properties are established. Moreover, we propose an algorithm to search for estimates, and a boosting method is also suggested for hyperparameter selection. Simulation experiments are conducted to evaluate finite-sample performance of the proposed methodology, and its usefulness is demonstrated by an application to the Personality-120 dataset.",
+ "primary": "stat.ME"
+}

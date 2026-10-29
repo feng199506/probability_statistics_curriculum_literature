@@ -1,0 +1,18 @@
+{
+ "id": "2410.22534",
+ "title": "Bayesian shared parameter joint models for heterogeneous populations",
+ "authors": [
+  "Sida Chen",
+  "Danilo Alvares",
+  "Marco Palma",
+  "Jessica K. Barrett"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 1,
+ "latest_date": "2024-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Joint models (JMs) for longitudinal and time-to-event data are an important class of biostatistical models in health and medical research. When the study population consists of heterogeneous subgroups, the standard JM may be inadequate and lead to misleading results. Joint latent class models (JLCMs) and their variants have been proposed to incorporate latent class structures into JMs. JLCMs are useful for identifying latent subgroup structures, obtaining a more nuanced understanding of the relationships between longitudinal outcomes, and improving prediction performance. We consider the generic form of JLCM, which poses significant computational challenges for both frequentist and Bayesian approaches due to the numerical intractability and multimodality of the associated model's likelihood or posterior. Focusing on the less explored Bayesian paradigm, we propose a new Bayesian inference framework to tackle key limitations in the existing method. Our algorithm leverages state-of-the-art Markov chain Monte Carlo techniques and parallel computing for parameter estimation and model selection. Through a simulation study, we demonstrate the feasibility and superiority of our proposed method over the existing approach. Our simulations also generate important computational insights and practical guidance for implementing such complex models. We illustrate our method using data from the PAQUID prospective cohort study, where we jointly investigate the association between a repeatedly measured cognitive score and the risk of dementia and the latent class structure defined from the longitudinal outcomes.",
+ "primary": "stat.ME"
+}

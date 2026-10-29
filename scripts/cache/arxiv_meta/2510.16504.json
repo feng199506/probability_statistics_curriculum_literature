@@ -1,0 +1,19 @@
+{
+ "id": "2510.16504",
+ "title": "Rank-based concordance for zero-inflated data: New representations, estimators, and sharp bounds",
+ "authors": [
+  "Jasper Arends",
+  "Guanjie Lyu",
+  "Mhamed Mesfioui",
+  "Elisa Perrone",
+  "Julien Trufin"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 1,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantifying concordance between two random variables is crucial in applications. Traditional estimation techniques for commonly used concordance measures, such as Gini's gamma or Spearman's rho, often fail when data contain ties. This is particularly problematic for zero-inflated data, characterized by a combination of discrete mass in zero and a continuous component, which frequently appear in insurance, weather forecasting, and biomedical applications. This study provides a new formulation of Gini's gamma and Spearman's footrule, two rank-based concordance measures that incorporate absolute rank differences, tailored to zero-inflated continuous distributions. Along the way, we correct an expression of Spearman's rho for zero-inflated data previously presented in the literature. The best-possible upper and lower bounds for these measures in zero-inflated continuous settings are established, making the estimators useful and interpretable in practice. We pair our theoretical results with simulations and two real-life applications in insurance and weather forecasting, respectively. Our results illustrate the impact of zero inflation on dependence estimation, emphasizing the benefits of appropriately adjusted zero-inflated measures.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2504.01247",
+ "title": "On spectral gap decomposition for Markov chains",
+ "authors": [
+  "Qian Qin"
+ ],
+ "v1_date": "2025-04-01",
+ "latest_version": 2,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multiple works regarding convergence analysis of Markov chains have led to spectral gap decomposition formulas of the form \\[ \\mathrm{Gap}(S) \\geq c_0 \\left[\\inf_z \\mathrm{Gap}(Q_z)\\right] \\mathrm{Gap}(\\bar{S}), \\] where $c_0$ is a constant, $\\mathrm{Gap}$ denotes the right spectral gap of a reversible Markov operator, $S$ is the Markov transition kernel (Mtk) of interest, $\\bar{S}$ is an idealized or simplified version of $S$, and $\\{Q_z\\}$ is a collection of Mtks characterizing the differences between $S$ and $\\bar{S}$. This type of relationship has been established in various contexts, including: 1. decomposition of Markov chains based on a finite cover of the state space, 2. hybrid Gibbs samplers, and 3. spectral independence and localization schemes. We show that multiple key decomposition results across these domains can be connected within a unified framework, rooted in a simple sandwich structure of $S$. Within the general framework, we establish new instances of spectral gap decomposition for hybrid hit-and-run samplers and hybrid data augmentation algorithms with two intractable conditional distributions. Additionally, we explore several other properties of the sandwich structure, and derive extensions of the spectral gap decomposition formula.",
+ "primary": "math.ST"
+}

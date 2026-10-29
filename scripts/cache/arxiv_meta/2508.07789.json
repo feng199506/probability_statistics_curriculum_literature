@@ -1,0 +1,15 @@
+{
+ "id": "2508.07789",
+ "title": "Modelling phenology using ordered categorical generalized additive models",
+ "authors": [
+  "David L Miller"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "https://gitlab.bioss.ac.uk/dmiller/ocat-paper for source",
+ "abstract": "One form of data collected in ecology is phenological, describing the timing of life stages. It can be tempting to analyze such data using a continuous distribution or to model individual transitions via probit/logit models. Such simplifications can lead to incorrect inference in various ways, all of which stem from ignoring the natural structure of the data. This paper presents a flexible approach to modelling ordered categorical data using the popular R package `mgcv`. An example analysis of saxifrage phenology in Greenland including useful plots, model checking and derived quantities is included.",
+ "primary": "stat.ME"
+}

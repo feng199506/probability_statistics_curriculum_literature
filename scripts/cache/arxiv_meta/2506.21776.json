@@ -1,0 +1,16 @@
+{
+ "id": "2506.21776",
+ "title": "rodeo: Probabilistic Methods of Parameter Inference for Ordinary Differential Equations",
+ "authors": [
+  "Mohan Wu",
+  "Martin Lysy"
+ ],
+ "v1_date": "2025-06-26",
+ "latest_version": 1,
+ "latest_date": "2025-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages, 5 figures. Submitted to Journal of Statistical Software",
+ "abstract": "Parameter estimation for ordinary differential equations (ODEs) plays a fundamental role in the analysis of dynamical systems. Generally lacking closed-form solutions, ODEs are traditionally approximated using deterministic solvers. However, there is a growing body of evidence to suggest that probabilistic ODE solvers produce more reliable parameter estimates by better accounting for numerical uncertainty. Here we present rodeo, a Python library providing a fast, lightweight, and extensible interface to a broad class of probabilistic ODE solvers, along with several associated methods for parameter inference. At its core, rodeo provides a probabilistic solver that scales linearly in both the number of evaluation points and system variables. Furthermore, by leveraging state-of-the-art automatic differentiation (AD) and just-in-time (JIT) compiling techniques, rodeo is shown across several examples to provide fast, accurate, and scalable parameter inference for a variety of ODE systems.",
+ "primary": "stat.CO"
+}

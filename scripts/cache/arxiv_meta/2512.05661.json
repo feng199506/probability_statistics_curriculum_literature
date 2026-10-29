@@ -1,0 +1,17 @@
+{
+ "id": "2512.05661",
+ "title": "Standard and stressed value at risk forecasting using dynamic Bayesian networks",
+ "authors": [
+  "Eden Gross",
+  "Ryan Kruger",
+  "Francois Toerien"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 4 tables (excluding appendix, in which there is one table)",
+ "abstract": "This study introduces a dynamic Bayesian network (DBN) framework for forecasting value at risk (VaR) and stressed VaR (SVaR) and compares its performance to several commonly applied models. Using daily S&P 500 index returns from 1991 to 2020, we produce 10-day 99% VaR and SVaR forecasts using a rolling period and historical returns for the traditional models, while three DBNs use both historical and forecasted returns. We evaluate the models' forecasting accuracy using standard backtests and forecasting error measures. Results show that autoregressive models deliver the most accurate VaR forecasts, while the DBNs achieve comparable performance to the historical simulation model, despite incorporating forward-looking return forecasts. For SVaR, all models produce highly conservative forecasts, with minimal breaches and limited differentiation in accuracy. While DBNs do not outperform traditional models, they demonstrate feasibility as a forward-looking approach to provide a foundation for future research on integrating causal inference into financial risk forecasting.",
+ "primary": "q-fin.RM"
+}

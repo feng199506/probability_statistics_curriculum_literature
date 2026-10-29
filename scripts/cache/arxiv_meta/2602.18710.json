@@ -1,0 +1,17 @@
+{
+ "id": "2602.18710",
+ "title": "Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse",
+ "authors": [
+  "Martin Bertran",
+  "Riccardo Fogliato",
+  "Zhiwei Steven Wu"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 2,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical conclusions depend not only on data but on analytic decisions made throughout the research process. Many-analyst studies have quantified this dependence: independent teams testing the same hypothesis on the same dataset regularly reach conflicting conclusions. But such studies require costly human coordination and are rarely conducted. We show that fully autonomous AI analysts built on large language models (LLMs) can, cheaply and at scale, replicate the structured analytic diversity observed in human multi-analyst studies. In our framework, each AI analyst independently executes a complete analysis pipeline on a fixed dataset and hypothesis; a separate AI auditor screens every run for methodological validity. Across three datasets spanning distinct domains, AI analyst-produced analyses exhibit substantial dispersion in effect sizes, $p$-values, and conclusions. This dispersion can be traced to identifiable analytic choices in preprocessing, model specification, and inference that vary systematically across LLM and persona conditions. Critically, the outcomes are \\emph{steerable}: reassigning the analyst persona or LLM shifts the distribution of results even among methodologically sound runs. These results highlight a central challenge for AI-automated empirical science: when defensible analyses are cheap to generate, evidence becomes abundant and vulnerable to selective reporting. Yet the same capability that creates this risk may also help address it: treating analyst results as distributions makes analytic uncertainty visible, and deploying AI analysts against a published specification can reveal how much disagreement stems from underspecified design choices. Taken together, our results motivate a new transparency norm: AI-generated analyses should be accompanied by multiverse-style reporting and full disclosure of the prompts used, on par with code and data.",
+ "primary": "cs.AI"
+}

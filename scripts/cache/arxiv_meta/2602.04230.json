@@ -1,0 +1,18 @@
+{
+ "id": "2602.04230",
+ "title": "Validating Causal Message Passing Against Network-Aware Methods on Real Experiments",
+ "authors": [
+  "Albert Tan",
+  "Sadegh Shirani",
+  "James Nordlund",
+  "Mohsen Bayati"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating total treatment effects in the presence of network interference typically requires knowledge of the underlying interaction structure. However, in many practical settings, network data is either unavailable, incomplete, or measured with substantial error. We demonstrate that causal message passing, a methodology that leverages temporal structure in outcome data rather than network topology, can recover total treatment effects comparable to network-aware approaches. We apply causal message passing to two large-scale field experiments where a recently developed bipartite graph methodology, which requires network knowledge, serves as a benchmark. Despite having no access to the interaction network, causal message passing produces effect estimates that match the network-aware approach in direction across all metrics and in statistical significance for the primary decision metric. Our findings validate the premise of causal message passing: that temporal variation in outcomes can serve as an effective substitute for network observation when estimating spillover effects. This has important practical implications: practitioners facing settings where network data is costly to collect, proprietary, or unreliable can instead exploit the temporal dynamics of their experimental data.",
+ "primary": "stat.ME"
+}

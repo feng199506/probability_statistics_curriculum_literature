@@ -1,0 +1,16 @@
+{
+ "id": "2506.20523",
+ "title": "Anytime-Valid Inference in Adaptive Experiments: Covariate Adjustment and Balanced Power",
+ "authors": [
+  "Daniel Molitor",
+  "Samantha Gold"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 4,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 5 figures",
+ "abstract": "Adaptive experiments such as multi-armed bandits offer efficiency gains over traditional randomized experiments but pose two major challenges: invalid inference on the Average Treatment Effect (ATE) due to adaptive sampling and low statistical power for sub-optimal treatments. We address both issues by extending the Mixture Adaptive Design framework (arXiv:2311.05794). First, we propose MADCovar, a covariate-adjusted ATE estimator that is unbiased and preserves anytime-valid inference guarantees while substantially improving ATE precision. Second, we introduce MADMod, which dynamically reallocates samples to underpowered arms, enabling more balanced statistical power across treatments without sacrificing valid inference. Both methods retain MAD's core advantage of constructing asymptotic confidence sequences (CSs) that allow researchers to continuously monitor ATE estimates and stop data collection once a desired precision or significance criterion is met. Empirically, we validate both methods using simulations and real-world data. In simulations, MADCovar reduces CS width by up to 60% relative to MAD. In a large-scale political RCT with 32,000 participants, MADCovar achieves similar precision gains. MADMod improves statistical power and inferential precision across all treatment arms, particularly for suboptimal treatments. Simulations show that MADMod sharply reduces Type II error while preserving the efficiency benefits of adaptive allocation. Together, MADCovar and MADMod make adaptive experiments more practical, reliable, and efficient for applied researchers across many domains. Our proposed methods are implemented through an open-source software package.",
+ "primary": "stat.ME"
+}

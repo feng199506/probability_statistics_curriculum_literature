@@ -1,0 +1,18 @@
+{
+ "id": "2607.22618",
+ "title": "Transform Method for Stochastic Processing and Matching Networks",
+ "authors": [
+  "Sushil Mahavir Varma",
+  "Prakirt Jhunjhunwala",
+  "Daniela Hurtado-Lange",
+  "Siva Theja Maguluri"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Appeared in \"TutORials in Operations Research\" in the 2026 issue",
+ "abstract": "Modern service systems, ranging from cloud data centers and ride-hailing platforms to healthcare facilities, operate at massive scales where it is important to handle congestion. Queueing theory is used to understand the delay and queue length behavior in these systems. Except in simple queues, it is not possible to obtain a closed form solution for the quantities of interest, and so, one studies the system in certain asymptotic regimes such as the heavy traffic. The transform method, presented in this tutorial, is a framework to understand the steady-state behavior of Stochastic Processing and Matching Networks (SPNs/SMNs). By exploiting the zero-drift property of exponential test functions, the method derives explicit functional equations (acting as a proxy for global balance equations) for the transforms (such as moment-generating functions) of queue-length distributions. These functional equations can be used to either characterize the exact behavior of the system in an asymptotic regime or to obtain non-asymptotic performance bounds on the mean, higher order moments, or tail bounds on the queue lengths. Since its introduction for load-balancing in data center networks, the transform method, as a framework, has been extended to handle various features that arise in different systems, including customer abandonment, state-dependent arrivals, Markov-modulated arrivals, large-system scale, and multi-dimensional networks with multiple bottlenecks. This tutorial presents an overview of the transform method starting with the simplest setting viz., a single server queue. The transform method is introduced as a three step procedure. We then illustrate how the method can be adapted within this three-step framework to handle the aforementioned features.",
+ "primary": "math.OC"
+}

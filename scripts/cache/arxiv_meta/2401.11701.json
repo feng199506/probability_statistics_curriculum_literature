@@ -1,0 +1,17 @@
+{
+ "id": "2401.11701",
+ "title": "Forecasting and Backtesting Gradient Allocations of Expected Shortfall",
+ "authors": [
+  "Takaaki Koike",
+  "Cathy W. S. Chen",
+  "Edward M. H. Lin"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 2,
+ "latest_date": "2024-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Capital allocation is a procedure for quantifying the contribution of each source of risk to aggregated risk. The gradient allocation rule, also known as the Euler principle, is a prevalent rule of capital allocation under which the allocated capital captures the diversification benefit of the marginal risk as a component of overall risk. This research concentrates on Expected Shortfall (ES) as a regulatory standard and focuses on the gradient allocations of ES, also called ES contributions (ESCs). We present the comprehensive treatment of backtesting the tuple of ESCs in the framework of the traditional and comparative backtests based on the concepts of joint identifiability and multi-objective elicitability. For robust forecast evaluation against the choice of scoring function, we also extend the Murphy diagram, a graphical tool to check whether one forecast dominates another under a class of scoring functions, to the case of ESCs. Finally, leveraging the recent concept of multi-objective elicitability, we propose a novel semiparametric model for forecasting dynamic ESCs based on a compositional regression model. In an empirical analysis of stock returns we evaluate and compare a variety of models for forecasting dynamic ESCs and demonstrate the outstanding performance of the proposed model.",
+ "primary": "q-fin.RM"
+}

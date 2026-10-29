@@ -1,0 +1,20 @@
+{
+ "id": "2511.05487",
+ "title": "Function on Scalar Regression with Complex Survey Designs",
+ "authors": [
+  "Lily Koffman",
+  "Sunan Gao",
+  "Xinkai Zhou",
+  "Andrew Leroux",
+  "Ciprian Crainiceanu",
+  "John Muschelli"
+ ],
+ "v1_date": "2025-11-07",
+ "latest_version": 2,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large health surveys increasingly collect high-dimensional functional data from wearable devices, and function on scalar regression (FoSR) is used to quantify the relationship between these functional outcomes and scalar covariates like age and sex. However, existing methods for FoSR fail to account for complex survey design. We introduce inferential methods for FoSR with complex survey designs. The approach combines fast univariate inference (FUI) developed for functional outcomes and survey sampling inferential methods developed for scalar outcomes. Our approach consists of three steps: (1) fit survey weighted GLMs at each point along the functional domain, (2) smooth coefficients along the functional domain, and (3) use balanced repeated replication (BRR) or Rao-Wu-Yue-Beaumont (RWYB) bootstrap to obtain pointwise and joint confidence bands for the functional coefficients. The approach is motivated by association studies between continuous physical activity data and covariates collected in the National Health and Nutrition Examination Survey (NHANES). A first-of-its-kind analytical simulation study and empirical simulation using NHANES data demonstrates that our approach performs better than existing methods that do not account for the survey structure. Finally, application of the approach in NHANES shows the practical implications of accounting for survey structure. The approach is implemented in the R package \\texttt{svyfosr}.",
+ "primary": "stat.ME"
+}

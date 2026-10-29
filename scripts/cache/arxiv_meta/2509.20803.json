@@ -1,0 +1,17 @@
+{
+ "id": "2509.20803",
+ "title": "Statistical Learning of Trade Credit Insurance Network Data with Applications to Ratemaking and Reserving",
+ "authors": [
+  "Woongchae Yoo",
+  "Spark C. Tseung",
+  "Tsz Chai Fung"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Trade credit insurance (TCI) is a specialized line of property and casualty insurance, protecting businesses against financial losses due to buyer's insolvency. Predictive modeling for TCI claims poses formidable challenges due to the data's complexity, yet remains underexplored in the literature. Leveraging six years of detailed TCI data from an Asian TCI insurer, we develop a bivariate, network-augmented Generalized Linear Mixed Model (GLMM) to jointly model claim probability and reporting time gaps. Our model integrates extended-order degree centrality and random effects at the business and policy levels, adjusted for data incompleteness, to capture claim histories, reporting time gaps, and network relationships specific to TCI data. To implement a feasible workaround for the high-dimensional integrations required by individual random effects, we propose a scalable Stochastic Expectation-Maximization (SEM) algorithm. Data analysis using this TCI dataset demonstrates that our model significantly outperforms benchmark models in both model fit and predictive accuracy, highlighting the effectiveness of our approach for improved ratemaking and reserving in TCI. Supplementary materials for this article are available as an online supplement.",
+ "primary": "stat.AP"
+}

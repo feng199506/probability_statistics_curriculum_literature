@@ -1,0 +1,16 @@
+{
+ "id": "2605.25687",
+ "title": "Confidence intervals for causal effects in sequential decision making",
+ "authors": [
+  "Vladimir Vovk",
+  "Ruodu Wang"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 2,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 5 figures. In v2 we added a formal statement (Theorem 6) and proof of the necessity of an iterated logarithm term in Theorem 3. There were gaps in the proofs of Theorems 4 and 6 in v1, and so these statements were removed in v2",
+ "abstract": "We derive confidence intervals and confidence sequences for causal effects in situations where the back-door criterion is applicable. Our tightest confidence intervals hold in the standard setting where the training data consists of IID observations over a system described by a given causal diagram. When interventions are allowed to depend on the past data, our confidence intervals become wider and involve a term coming from the law of the iterated logarithm, even where the number of observations is known in advance. In the sequential setting where the number of observations is not given, our confidence intervals, arranged into a confidence sequence for causal effects, involve more iterated logarithm terms and become even wider.",
+ "primary": "math.ST"
+}

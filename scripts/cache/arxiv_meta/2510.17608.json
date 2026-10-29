@@ -1,0 +1,18 @@
+{
+ "id": "2510.17608",
+ "title": "Non-asymptotic error bounds for probability flow ODEs under weak log-concavity",
+ "authors": [
+  "Gitte Kremling",
+  "Francesco Iafrate",
+  "Mahsa Taheri",
+  "Johannes Lederer"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Score-based generative modeling, implemented through probability flow ODEs, has shown impressive results in numerous practical settings. However, most convergence guarantees rely on restrictive regularity assumptions on the target distribution -- such as strong log-concavity or bounded support. This work establishes non-asymptotic convergence bounds in the 2-Wasserstein distance for a general class of probability flow ODEs under considerably weaker assumptions: weak log-concavity and Lipschitz continuity of the score function. Our framework accommodates non-log-concave distributions, such as Gaussian mixtures, and explicitly accounts for initialization errors, score approximation errors, and effects of discretization via an exponential integrator scheme. Bridging a key theoretical challenge in diffusion-based generative modeling, our results extend convergence theory to more realistic data distributions and practical ODE solvers. We provide concrete guarantees for the efficiency and correctness of the sampling algorithm, complementing the empirical success of diffusion models with rigorous theory. Moreover, from a practical perspective, our explicit rates might be helpful in choosing hyperparameters, such as the step size in the discretization.",
+ "primary": "stat.ML"
+}

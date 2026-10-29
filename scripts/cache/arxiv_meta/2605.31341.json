@@ -1,0 +1,19 @@
+{
+ "id": "2605.31341",
+ "title": "BEND: An R Package for the Bayesian Estimation of Nonlinear Longitudinal Data",
+ "authors": [
+  "Corissa T. Rohloff",
+  "Rik Lamm",
+  "Yadira Peralta",
+  "Nidhi Kohli",
+  "Eric F. Lock"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 7 figures",
+ "abstract": "Longitudinal data are useful for capturing and analyzing patterns of change over time. Often, these patterns follow a nonlinear form. One useful and commonly applied nonlinear function is the piecewise function, which assumes growth occurs in distinct phases, each with its own functional form. Past literature has established that Bayesian inference is preferred over likelihood-based methods for estimating piecewise models. To address this, we developed the R package BEND - Bayesian Estimation of Nonlinear Data (available on CRAN). The purpose of BEND is to provide a user friendly software for estimating nonlinear longitudinal models using a Bayesian inference approach. Given the flexibility and practicality of the piecewise models, BEND includes several extensions of it to accommodate various types of complex longitudinal datasets and applications. Bayes_PREM() can empirically identify the number and location of random changepoints in a piecewise random effects model. This function can also model multiple latent classes with different longitudinal growth patterns and incorporate covariates to predict the outcome and latent class membership. Bayes_BPREM() can jointly model the longitudinal piecewise trajectories of two interrelated outcomes. Lastly, Bayes_CREM() can estimate the impact of group membership on longitudinal growth. This paper provides an overview of the functions included in BEND and empirical examples of how to apply these models in practice.",
+ "primary": "stat.ME"
+}

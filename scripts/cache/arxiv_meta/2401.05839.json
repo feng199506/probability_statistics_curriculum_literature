@@ -1,0 +1,19 @@
+{
+ "id": "2401.05839",
+ "title": "Modelling physical activity profiles in COPD patients: a fully functional approach to variable domain functional regression models",
+ "authors": [
+  "Pavel Hernandez-Amaro",
+  "Maria Durban",
+  "M. Carmen Aguilera-Morillo",
+  "Cristobal Esteban Gonzalez",
+  "Inmaculada Arostegui"
+ ],
+ "v1_date": "2024-01-11",
+ "latest_version": 1,
+ "latest_date": "2024-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Physical activity plays a significant role in the well-being of individuals with Chronic obstructive Pulmonary Disease (COPD). Specifically, it has been directly associated with changes in hospitalization rates for these patients. However, previous investigations have primarily been conducted in a cross-sectional or longitudinal manner and have not considered a continuous perspective. Using the telEPOC program we use telemonitoring data to analyze the impact of physical activity adopting a functional data approach. However, Traditional functional data methods, including functional regression models, typically assume a consistent data domain. However, the data in the telEPOC program exhibits variable domains, presenting a challenge since the majority of functional data methods, are based on the fact that data are observed in the same domain. To address this challenge, we introduce a novel fully functional methodology tailored to variable domain functional data, eliminating the need for data alignment, which can be computationally taxing. Although models designed for variable domain data are relatively scarce and may have inherent limitations in their estimation methods, our approach circumvents these issues. We substantiate the effectiveness of our methodology through a simulation study, comparing our results with those obtained using established methodologies. Finally, we apply our methodology to analyze the impact of physical activity in COPD patients using the telEPOC program's data. Software for our method is available in the form of R code on request at \\url{https://github.com/Pavel-Hernadez-Amaro/V.D.F.R.M-new-estimation-approach.git}.",
+ "primary": "stat.ME"
+}

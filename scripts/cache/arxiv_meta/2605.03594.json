@@ -1,0 +1,15 @@
+{
+ "id": "2605.03594",
+ "title": "Poisson Empirical Bayes via Gamma-Smoothed Nonparametric Maximum Likelihood",
+ "authors": [
+  "Taehyun Kim"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical Bayes methods are widely used for large-scale estimation and inference in the Poisson means problem. Existing results establish theoretical properties of the nonparametric maximum likelihood estimator (NPMLE) for optimal posterior mean estimation, but comparatively less is known about uncertainty quantification (i.e., construction of confidence sets). Two main challenges in constructing confidence sets for the latent parameters based on the NPMLE are its discreteness and its slow rate of prior estimation. We resolve these limitations by introducing a smooth NPMLE that models the prior as a Gamma mixture, which is a flexible class capable of approximating a wide range of continuous priors on $(0,\\infty)$. This procedure preserves the convex optimization structure of the classical NPMLE. The smooth NPMLE achieves the optimal nearly parametric rate for posterior mean estimation. Moreover, it achieves a polynomial convergence rate for prior and posterior density estimation under a compact support assumption on the mixing distribution. Based on the smooth NPMLE, we construct plug-in empirical Bayes confidence sets that mimic the oracle optimal (in terms of expected length) marginal coverage sets. We show theoretically and empirically that these sets achieve asymptotically exact marginal coverage and are substantially shorter than existing methods.",
+ "primary": "math.ST"
+}

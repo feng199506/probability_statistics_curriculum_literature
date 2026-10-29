@@ -1,0 +1,15 @@
+{
+ "id": "2508.13418",
+ "title": "Identification and Estimation of Multi-order Tensor Factor Models",
+ "authors": [
+  "Zetai Cen"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 3,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages",
+ "abstract": "We propose a novel framework in high-dimensional factor models to simultaneously analyze multiple tensor time series, each with potentially different tensor orders and dimensionality. The connection between different tensor time series is through their global factors that are correlated to each other. A salient feature of our model is that when all tensor time series have the same order, it can be regarded as an extension of multilevel factor models from vectors to general tensors. Under an explicit full-rank condition on the cross-thread covariance and an orthogonality condition between the global and local loading spaces, we separate the global and local components. Parameter estimation is thoroughly discussed, including a consistent factor number estimator. With strong correlation between global factors and noise allowed, we derive the rates of convergence of our estimators, which can be superior to those of existing methods for multilevel factor models. We also develop estimators that are more computationally efficient, with rates of convergence spelt out. Extensive experiments are performed under various settings, corroborating with the pronounced theoretical results. As a real application example, we analyze a set of taxi data to study the traffic flow between Times Square and its neighboring areas.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2506.18656",
+ "title": "On the Interpolation Error of Nonlinear Attention versus Linear Regression",
+ "authors": [
+  "Zhenyu Liao",
+  "Jiaqing Liu",
+  "TianQi Hou",
+  "Difan Zou",
+  "Zenan Ling"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 7 figures",
+ "abstract": "Attention has become the core building block of modern machine learning (ML) by efficiently capturing the long-range dependencies among input tokens. Its inherently parallelizable structure allows for efficient performance scaling with the rapidly increasing size of both data and model parameters. Despite its central role, the theoretical understanding of Attention, especially in the nonlinear setting, is progressing at a more modest pace. This paper provides a precise characterization of the interpolation error for a nonlinear Attention, in the high-dimensional regime where the number of input tokens $n$ and the embedding dimension $p$ are both large and comparable. Under a signal-plus-noise data model and for fixed Attention weights, we derive explicit (limiting) expressions for the mean-squared interpolation error. Leveraging recent advances in random matrix theory, we show that nonlinear Attention generally incurs a larger interpolation error than linear regression on random inputs. However, this gap vanishes, and can even be reversed, when the input contains a structured signal, particularly if the Attention weights align with the signal direction. Our theoretical insights are supported by numerical experiments.",
+ "primary": "stat.ML"
+}

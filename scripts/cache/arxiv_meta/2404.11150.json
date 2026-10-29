@@ -1,0 +1,17 @@
+{
+ "id": "2404.11150",
+ "title": "Automated, efficient and model-free inference for randomized clinical trials via data-driven covariate adjustment",
+ "authors": [
+  "Kelly Van Lancker",
+  "Iván Díaz",
+  "Stijn Vansteelandt"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In 2023, the U.S. Food and Drug Administration issued guidance for adjustment of covariates in randomized clinical trials, emphasizing its role in enhancing precision and power through prognostic baseline variables. Despite its potential, many trials underutilize this method partly due to challenges in pre-specifying optimal baseline covariates and their functional forms. We explore the potential of automated, data-adaptive methods-including stepwise regression, Lasso and flexible machine learning algorithms-for covariate adjustment, addressing the challenge of pre-specification. Our approach ensures valid and interpretable treatment effect estimates and standard errors, even when outcome models are misspecified or biased outcome predictions are used. This differs from most competing methods, which assume correctly specified models for consistent standard errors. Our estimators require cross-fitting for reliable standard error estimation, though it can be omitted when variable selection is used, provided the outcome model satisfies an ultra-sparsity assumption. As such, we arrive at simple estimators and standard errors for marginal treatment effects in randomized clinical trials (or similar studies like A/B-testing), exploiting data-adaptive predictions from prognostic baseline covariates, with little (or no) bias in finite samples even when predictions are biased. Empirical and methodological results demonstrate promise of automated covariate adjustment for improving statistical power of trial analyses.",
+ "primary": "stat.ME"
+}

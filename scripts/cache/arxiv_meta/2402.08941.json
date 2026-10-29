@@ -1,0 +1,18 @@
+{
+ "id": "2402.08941",
+ "title": "Local-Polynomial Estimation for Multivariate Regression Discontinuity Designs",
+ "authors": [
+  "Masayuki Sawada",
+  "Takuya Ishihara",
+  "Daisuke Kurisu",
+  "Yasumasa Matsuda"
+ ],
+ "v1_date": "2024-02-14",
+ "latest_version": 4,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a multivariate regression discontinuity design in which treatment is assigned by crossing a boundary in the space of multiple running variables. We document that the existing bandwidth selector is suboptimal for a multivariate regression discontinuity design when the distance to a boundary point is used for its running variable, and introduce a multivariate local-linear estimator for multivariate regression discontinuity designs. Our estimator is asymptotically valid and can capture heterogeneous treatment effects over the boundary. We demonstrate that our estimator exhibits smaller root mean squared errors and often shorter confidence intervals in numerical simulations. We illustrate our estimator in our empirical applications of multivariate designs of a Colombian scholarship study and a U.S. House of representative voting study and demonstrate that our estimator reveals richer heterogeneous treatment effects with often shorter confidence intervals than the existing estimator.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2507.18118",
+ "title": "A Two-armed Bandit Framework for A/B Testing",
+ "authors": [
+  "Jinjuan Wang",
+  "Qianglin Wen",
+  "Yu Zhang",
+  "Xiaodong Yan",
+  "Chengchun Shi"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 1,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A/B testing is widely used in modern technology companies for policy evaluation and product deployment, with the goal of comparing the outcomes under a newly-developed policy against a standard control. Various causal inference and reinforcement learning methods developed in the literature are applicable to A/B testing. This paper introduces a two-armed bandit framework designed to improve the power of existing approaches. The proposed procedure consists of three main steps: (i) employing doubly robust estimation to generate pseudo-outcomes, (ii) utilizing a two-armed bandit framework to construct the test statistic, and (iii) applying a permutation-based method to compute the $p$-value. We demonstrate the efficacy of the proposed method through asymptotic theories, numerical experiments and real-world data from a ridesharing company, showing its superior performance in comparison to existing methods.",
+ "primary": "stat.ML"
+}

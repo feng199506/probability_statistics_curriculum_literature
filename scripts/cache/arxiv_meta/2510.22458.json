@@ -1,0 +1,15 @@
+{
+ "id": "2510.22458",
+ "title": "Derivative-Free Sequential Quadratic Programming for Equality-Constrained Stochastic Optimization",
+ "authors": [
+  "Sen Na"
+ ],
+ "v1_date": "2025-10-25",
+ "latest_version": 1,
+ "latest_date": "2025-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages",
+ "abstract": "We consider solving nonlinear optimization problems with a stochastic objective and deterministic equality constraints, assuming that only zero-order information is available for both the objective and constraints, and that the objective is also subject to random sampling noise. Under this setting, we propose a Derivative-Free Stochastic Sequential Quadratic Programming (DF-SSQP) method. Due to the lack of derivative information, we adopt a simultaneous perturbation stochastic approximation (SPSA) technique to randomly estimate the gradients and Hessians of both the objective and constraints. This approach requires only a dimension-independent number of zero-order evaluations -- as few as eight -- at each iteration step. A key distinction between our derivative-free and existing derivative-based SSQP methods lies in the intricate random bias introduced into the gradient and Hessian estimates of the objective and constraints, brought by stochastic zero-order approximations. To address this issue, we introduce an online debiasing technique based on momentum-style estimators that properly aggregate past gradient and Hessian estimates to reduce stochastic noise, while avoiding excessive memory costs via a moving averaging scheme. Under standard assumptions, we establish the global almost-sure convergence of the proposed DF-SSQP method. Notably, we further complement the global analysis with local convergence guarantees by demonstrating that the rescaled iterates exhibit asymptotic normality, with a limiting covariance matrix resembling the minimax optimal covariance achieved by derivative-based methods, albeit larger due to the absence of derivative information. Our local analysis enables online statistical inference of model parameters leveraging DF-SSQP. Numerical experiments on benchmark nonlinear problems demonstrate both the global and local behavior of DF-SSQP.",
+ "primary": "math.OC"
+}

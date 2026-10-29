@@ -1,0 +1,18 @@
+{
+ "id": "2509.20249",
+ "title": "Indirect Statistical Inference with Guaranteed Necessity and Sufficiency",
+ "authors": [
+  "Z Zhang",
+  "X Hu",
+  "C Lu",
+  "T Liu"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 1,
+ "latest_date": "2025-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a new framework for indirect statistical inference with guaranteed necessity and sufficiency, applicable to continuous random variables. We prove that when comparing exponentially transformed order statistics from an assumed distribution with those from simulated unit exponential samples, the ranked quotients exhibit distinct asymptotics: the left segment converges to a non-degenerate distribution, while the middle and right segments degenerate to one. This yields a necessary and sufficient condition in probability for two sequences of continuous random variables to follow the same distribution. Building on this, we propose an optimization criterion based on relative errors between ordered samples. The criterion achieves its minimum if and only if the assumed and true distributions coincide, providing a second necessary and sufficient condition in optimization. These dual NS properties, rare in the literature, establish a fundamentally stronger inference framework than existing methods. Unlike classical approaches based on absolute errors (e.g., Kolmogorov-Smirnov), NSE exploits relative errors to ensure faster convergence, requires only mild approximability of the cumulative distribution function, and provides both point and interval estimates. Simulations and real-data applications confirm NSE's superior performance in preserving distributional assumptions where traditional methods fail.",
+ "primary": "math.ST"
+}

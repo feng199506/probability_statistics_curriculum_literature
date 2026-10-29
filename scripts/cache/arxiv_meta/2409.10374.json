@@ -1,0 +1,16 @@
+{
+ "id": "2409.10374",
+ "title": "Nonlinear Causality in Time Series Networks: With Application to Motor Imagery vs Execution",
+ "authors": [
+  "Sipan Aslan",
+  "Hernando Ombao"
+ ],
+ "v1_date": "2024-09-16",
+ "latest_version": 3,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal interactions in time series networks can be dynamic and nonlinear, making it difficult to identify them using conventional linear causality estimations. We propose a novel approach, called Threshold Autoregressive Modeling for Causality (TAR4C), a causality detection approach built on threshold autoregressive (TAR) models, where a potential driver (cause variable) acts both as a predictor and as a trigger (switching threshold) that governs which autoregressive process the target (effect variable) follows. Threshold nonlinearity is conceptualized here to determine causality. The flow of the target is forced to transition between regimes with distinct dynamics when the driver exceeds a data-driven threshold in the past. We propose a two-stage inference procedure: Stage 1 tests for threshold connectivity (TC); Stage 2, conditional on a detected threshold effect, estimates threshold Granger causality (TGC). TAR4C is applied to a multichannel EEG dataset collected from a motor imagery and execution experiment. Delay-dependent directional interactions are observed among channels across different sites of the EEG map. The real-world application demonstrates the usefulness of the proposed approach for determining nonlinear causal connectivity in complex time-series networks, such as brain circuitry. The proposed model-based methodology extends to other complex networks of time series.",
+ "primary": "stat.AP"
+}

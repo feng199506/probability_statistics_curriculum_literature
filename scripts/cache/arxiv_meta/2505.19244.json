@@ -1,0 +1,16 @@
+{
+ "id": "2505.19244",
+ "title": "Sharpening Identification in Large Structural VARs Using Narrative Restrictions",
+ "authors": [
+  "Lukas Berend",
+  "Jan Prüser"
+ ],
+ "v1_date": "2025-05-25",
+ "latest_version": 3,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a high-dimensional structural vector autoregression framework with a factor structure in the error terms that accommodates a large number of linear inequality restrictions on both impact impulse responses and structural shocks. Our framework extends recent advances in large sign-restricted VARs by allowing narrative restrictions to be imposed directly through constraints on structural shocks via prior distributions, thereby sharpening identification and enhancing the economic interpretability of the structural shocks. To estimate the model, we develop a computationally efficient sampling algorithm that scales well with both model dimension and the number of imposed restrictions, while avoiding the low acceptance-rate problems associated with existing rejection-based approaches. We apply our methodology to a large-scale structural VAR model of the U.S. economy, identifying ten structural shocks and tracing their dynamic effects across thirty-nine macroeconomic and financial variables. The empirical application demonstrates that the incorporation of narrative restrictions improves structural identification in high-dimensional settings by reducing the uncertainty surrounding impulse response functions and facilitating a clearer economic interpretation of the identified structural shocks.",
+ "primary": "econ.EM"
+}

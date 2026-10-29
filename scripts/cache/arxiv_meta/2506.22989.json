@@ -1,0 +1,16 @@
+{
+ "id": "2506.22989",
+ "title": "Design-Based and Network Sampling-Based Uncertainties in Network Experiments",
+ "authors": [
+  "Kensuke Sakamoto",
+  "Yuya Shimizu"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 3,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ordinary least squares (OLS) estimators are widely used in network experiments to estimate spillover effects. We study the causal interpretation of, and inference for the OLS estimator under both design-based uncertainty from random treatment assignment and sampling-based uncertainty in network links. We show that correlations among regressors that capture the exposure to neighbors' treatments can induce contamination bias, preventing OLS from aggregating heterogeneous spillover effects for a clear causal interpretation. We derive the OLS estimator's asymptotic distribution and propose a network-robust variance estimator. Simulations and an empirical application demonstrate that contamination bias can be substantial, leading to inflated spillover estimates.",
+ "primary": "econ.EM"
+}

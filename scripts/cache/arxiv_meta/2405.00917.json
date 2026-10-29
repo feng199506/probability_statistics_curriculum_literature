@@ -1,0 +1,16 @@
+{
+ "id": "2405.00917",
+ "title": "Semiparametric mean and variance joint models with clipped-Laplace link functions for bounded integer-valued time series",
+ "authors": [
+  "Tianqing Liu",
+  "Xiaohui Yuan"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 1,
+ "latest_date": "2024-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2404.18421",
+ "abstract": "We present a novel approach for modeling bounded count time series data, by deriving accurate upper and lower bounds for the variance of a bounded count random variable while maintaining a fixed mean. Leveraging these bounds, we propose semiparametric mean and variance joint (MVJ) models utilizing a clipped-Laplace link function. These models offer a flexible and feasible structure for both mean and variance, accommodating various scenarios of under-dispersion, equi-dispersion, or over-dispersion in bounded time series. The proposed MVJ models feature a linear mean structure with positive regression coefficients summing to one and allow for negative regression cefficients and autocorrelations. We demonstrate that the autocorrelation structure of MVJ models mirrors that of an autoregressive moving-average (ARMA) process, provided the proposed clipped-Laplace link functions with nonnegative regression coefficients summing to one are utilized. We establish conditions ensuring the stationarity and ergodicity properties of the MVJ process, along with demonstrating the consistency and asymptotic normality of the conditional least squares estimators. To aid model selection and diagnostics, we introduce two model selection criteria and apply two model diagnostics statistics. Finally, we conduct simulations and real data analyses to investigate the finite-sample properties of the proposed MVJ models, providing insights into their efficacy and applicability in practical scenarios.",
+ "primary": "stat.ME"
+}

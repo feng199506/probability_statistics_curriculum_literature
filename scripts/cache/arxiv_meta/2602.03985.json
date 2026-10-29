@@ -1,0 +1,16 @@
+{
+ "id": "2602.03985",
+ "title": "Doubly-Robust Bayesian Estimation of Optimal Individualized Treatment Rules using Network Meta-Analysis",
+ "authors": [
+  "Augustine Wigle",
+  "Erica E. M. Moodie"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An optimal individualized treatment rule (ITR) is a function that takes a patient's characteristics, such as demographics, biomarkers, and treatment history, and outputs a treatment that is expected to give the best outcome for that patient. Major Depressive Disorder (MDD) is a common and disabling mental health condition for which an optimal ITR is of interest. Unfortunately, the power to detect treatment-covariate interactions in individual studies of MDD treatments is low. Additionally, all treatments of interest are not compared head-to-head in a single study. Network meta-analysis (NMA) is a method of synthesizing data from multiple studies to estimate the relative effects of a set of treatments. Recently, two-stage ITR NMA was proposed as a method to estimate ITRs that has the potential to improve power and simultaneously consider all relevant treatment options. In the first stage, study-specific ITRs are estimated, and in the second stage, they are pooled using a Bayesian NMA model. The existing approach is vulnerable to model misspecification and fails to address missing outcomes, which occur in the MDD data. We overcome these challenges by proposing Bayesian Bootstrap dynamic Weighted Ordinary Least Squares (BBdWOLS), a doubly-robust approach to ITR estimation that accounts for missing at random outcomes and naturally quantifies the uncertainty in estimation. We also propose an improvement to the NMA model that incorporates the full variance-covariance matrix of study-specific estimates. In a simulation study, we show that our fully Bayesian ITR NMA method is more robust and efficient than the existing approach. We apply our method to the motivating dataset consisting of three studies of pharmacological treatments for MDD, and explore how ITR NMA results can support personalized decision making in this context.",
+ "primary": "stat.ME"
+}

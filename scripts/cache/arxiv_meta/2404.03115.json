@@ -1,0 +1,18 @@
+{
+ "id": "2404.03115",
+ "title": "Deep Learning-Based Weather-Related Power Outage Prediction with Socio-Economic and Power Infrastructure Data",
+ "authors": [
+  "Xuesong Wang",
+  "Nina Fatehi",
+  "Caisheng Wang",
+  "Masoud H. Nazari"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 1,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in 2024 IEEE PES General Meeting, Seattle, Washington (PES GM 2024)",
+ "abstract": "This paper presents a deep learning-based approach for hourly power outage probability prediction within census tracts encompassing a utility company's service territory. Two distinct deep learning models, conditional Multi-Layer Perceptron (MLP) and unconditional MLP, were developed to forecast power outage probabilities, leveraging a rich array of input features gathered from publicly available sources including weather data, weather station locations, power infrastructure maps, socio-economic and demographic statistics, and power outage records. Given a one-hour-ahead weather forecast, the models predict the power outage probability for each census tract, taking into account both the weather prediction and the location's characteristics. The deep learning models employed different loss functions to optimize prediction performance. Our experimental results underscore the significance of socio-economic factors in enhancing the accuracy of power outage predictions at the census tract level.",
+ "primary": "cs.LG"
+}

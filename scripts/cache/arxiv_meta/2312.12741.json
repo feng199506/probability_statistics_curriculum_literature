@@ -1,0 +1,15 @@
+{
+ "id": "2312.12741",
+ "title": "Locally Optimal Fixed-Budget Best Arm Identification in Two-Armed Gaussian Bandits with Unknown Variances",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2024-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the problem of best arm identification (BAI) with a fixed budget for two-armed Gaussian bandits. In BAI, given multiple arms, we aim to find the best arm, an arm with the highest expected reward, through an adaptive experiment. Kaufmann et al. (2016) develops a lower bound for the probability of misidentifying the best arm. They also propose a strategy, assuming that the variances of rewards are known, and show that it is asymptotically optimal in the sense that its probability of misidentification matches the lower bound as the budget approaches infinity. However, an asymptotically optimal strategy is unknown when the variances are unknown. For this open issue, we propose a strategy that estimates variances during an adaptive experiment and draws arms with a ratio of the estimated standard deviations. We refer to this strategy as the Neyman Allocation (NA)-Augmented Inverse Probability weighting (AIPW) strategy. We then demonstrate that this strategy is asymptotically optimal by showing that its probability of misidentification matches the lower bound when the budget approaches infinity, and the gap between the expected rewards of two arms approaches zero (small-gap regime). Our results suggest that under the worst-case scenario characterized by the small-gap regime, our strategy, which employs estimated variance, is asymptotically optimal even when the variances are unknown.",
+ "primary": "cs.LG"
+}

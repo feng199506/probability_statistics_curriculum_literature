@@ -1,0 +1,18 @@
+{
+ "id": "2508.15069",
+ "title": "Sampling by averaging: A multiscale approach to score estimation",
+ "authors": [
+  "Paula Cordero-Encinar",
+  "Andrew B. Duncan",
+  "Sebastian Reich",
+  "O. Deniz Akyildiz"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 2,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel framework for efficient sampling from complex, unnormalised target distributions by exploiting multiscale dynamics. Traditional score-based sampling methods either rely on learned approximations of the score function or involve computationally expensive nested Markov chain Monte Carlo (MCMC) loops. In contrast, the proposed approach leverages stochastic averaging within a slow-fast system of stochastic differential equations (SDEs) to estimate intermediate scores along a diffusion path without training or inner-loop MCMC. Two algorithms are developed under this framework: MultALMC, which uses multiscale annealed Langevin dynamics, and MultCDiff, based on multiscale controlled diffusions for the reverse-time Ornstein-Uhlenbeck process. Both overdamped and underdamped variants are considered, with theoretical guarantees of convergence to the desired diffusion path. The framework is extended to handle heavy-tailed target distributions using Student's t-based noise models and tailored fast-process dynamics. Empirical results across synthetic and real-world benchmarks, including multimodal and high-dimensional distributions, demonstrate that the proposed methods are competitive with existing samplers in terms of accuracy and efficiency, without the need for learned models.",
+ "primary": "stat.CO"
+}

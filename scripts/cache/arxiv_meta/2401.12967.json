@@ -1,0 +1,16 @@
+{
+ "id": "2401.12967",
+ "title": "Measure transport with kernel mean embeddings",
+ "authors": [
+  "L. Wang",
+  "N. Nüsken"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 2,
+ "latest_date": "2024-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kalman filters constitute a scalable and robust methodology for approximate Bayesian inference, matching first and second order moments of the target posterior. To improve the accuracy in nonlinear and non-Gaussian settings, we extend this principle to include more or different characteristics, based on kernel mean embeddings (KMEs) of probability measures into reproducing kernel Hilbert spaces. Focusing on the continuous-time setting, we develop a family of interacting particle systems (termed $\\textit{KME-dynamics}$) that bridge between prior and posterior, and that include the Kalman-Bucy filter as a special case. KME-dynamics does not require the score of the target, but rather estimates the score implicitly and intrinsically, and we develop links to score-based generative modeling and importance reweighting. A variant of KME-dynamics has recently been derived from an optimal transport and Fisher-Rao gradient flow perspective by Maurais and Marzouk, and we expose further connections to (kernelised) diffusion maps, leading to a variational formulation of regression type. Finally, we conduct numerical experiments on toy examples and the Lorenz 63 and 96 models, comparing our results against the ensemble Kalman filter and the mapping particle filter (Pulido and van Leeuwen, 2019, J. Comput. Phys.). Our experiments show particular promise for a hybrid modification (called Kalman-adjusted KME-dynamics).",
+ "primary": "math.ST"
+}

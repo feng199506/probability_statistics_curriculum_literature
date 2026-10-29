@@ -1,0 +1,15 @@
+{
+ "id": "2408.16799",
+ "title": "Replica Analysis for Ensemble Techniques in Variable Selection",
+ "authors": [
+  "Takashi Takahashi"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 1,
+ "latest_date": "2024-08-29",
+ "journal_ref": "J. Phys. Soc. Jpn. 94, 031011 (2025)",
+ "doi": "10.7566/jpsj.94.031011",
+ "comment": "25 pages, 4 figures, 1 table",
+ "abstract": "Variable selection is a problem of statistics that aims to find the subset of the $N$-dimensional possible explanatory variables that are truly related to the generation process of the response variable. In high-dimensional setups, where the input dimension $N$ is comparable to the data size $M$, it is difficult to use classic methods based on $p$-values. Therefore, methods based on the ensemble learning are often used. In this review article, we introduce how the performance of these ensemble-based methods can be systematically analyzed using the replica method from statistical mechanics when $N$ and $M$ diverge at the same rate as $N,M\\to\\infty, M/N\\toα\\in(0,\\infty)$. As a concrete application, we analyze the power of stability selection (SS) and the derandomized knockoff (dKO) with the $\\ell_1$-regularized statistics in the high-dimensional linear model. The result indicates that dKO provably outperforms the vanilla knockoff and the standard SS, while increasing the bootstrap resampling rate in SS might further improve the detection power.",
+ "primary": "math.ST"
+}

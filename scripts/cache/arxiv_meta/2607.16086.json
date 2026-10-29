@@ -1,0 +1,16 @@
+{
+ "id": "2607.16086",
+ "title": "Improving Mendelian Randomization Analysis by Instrument Borrowing from Auxiliary Outcome Traits",
+ "authors": [
+  "Anagh Chattopadhyay",
+  "Nilanjan Chatterjee"
+ ],
+ "v1_date": "2026-07-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mendelian randomization (MR) infers causal effects of exposures on outcomes using genetic variants as instrumental variables, but existing methods remain vulnerable to bias and loss of power when instruments are invalid. We hypothesize that closely related outcome traits share a large overlap in their valid instruments for a given exposure, so that borrowing instruments across such traits can yield more robust MR inference. To operationalize this, we introduce a novel coheterogeneity statistic, together with its asymptotic theory under different paradigms that allows for a growing number of instruments as the sample size increases, to identify secondary outcome traits likely to share valid instruments with the primary trait. We then propose extensions of two popular methods, MR-Mode and MR-PRESSO, that improve inference for the primary trait by exploiting a secondary trait. Extensive simulations show that the coheterogeneity statistic has the expected finite-sample properties and that instrument-borrowing methods consistently outperform their standard counterparts, with gains increasing as the overlap in valid instruments grows. Applications to established positive and negative control hypotheses indicate improved control of type I error and increased power. We further illustrate practical utility by revisiting the long-debated hypothesis of the causal effect of vitamin D on cardiometabolic traits.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2402.00307",
+ "title": "A More Robust Approach to Multivariable Mendelian Randomization",
+ "authors": [
+  "Yinxiang Wu",
+  "Hyunseung Kang",
+  "Ting Ye"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 5,
+ "latest_date": "2025-08-17",
+ "journal_ref": "Biometrika, asaf053 (2025)",
+ "doi": "10.1093/biomet/asaf053",
+ "comment": "",
+ "abstract": "Multivariable Mendelian randomization (MVMR) uses genetic variants as instrumental variables to infer the direct effects of multiple exposures on an outcome. However, unlike univariable Mendelian randomization, MVMR often faces greater challenges with many weak instruments, which can lead to bias not necessarily toward zero and inflation of type I errors. In this work, we introduce a new asymptotic regime that allows exposures to have varying degrees of instrument strength, providing a more accurate theoretical framework for studying MVMR estimators. Under this regime, our analysis of the widely used multivariable inverse-variance weighted method shows that it is often biased and tends to produce misleadingly narrow confidence intervals in the presence of many weak instruments. To address this, we propose a simple, closed-form modification to the multivariable inverse-variance weighted estimator to reduce bias from weak instruments, and additionally introduce a novel spectral regularization technique to improve finite-sample performance. We show that the resulting spectral-regularized estimator remains consistent and asymptotically normal under many weak instruments. Through simulations and real data applications, we demonstrate that our proposed estimator and asymptotic framework can enhance the robustness of MVMR analyses.",
+ "primary": "stat.ME"
+}

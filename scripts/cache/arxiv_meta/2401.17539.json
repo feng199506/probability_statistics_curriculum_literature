@@ -1,0 +1,16 @@
+{
+ "id": "2401.17539",
+ "title": "Gradient-Free Score-Based Sampling Methods with Ensembles",
+ "authors": [
+  "Bryan Riel",
+  "Tobias Bischoff"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-05-31",
+ "journal_ref": "Applied Mathematical Modelling (2025), 147,",
+ "doi": "10.1016/j.apm.2025.116224",
+ "comment": "",
+ "abstract": "Recent developments in generative modeling have utilized score-based methods coupled with stochastic differential equations to sample from complex probability distributions. However, these and other performant sampling methods generally require gradients of the target probability distribution, which can be unavailable or computationally prohibitive in many scientific and engineering applications. Here, we introduce ensembles within score-based sampling methods to develop gradient-free approximate sampling techniques that leverage the collective dynamics of particle ensembles to compute approximate reverse diffusion drifts. We introduce the underlying methodology, emphasizing its relationship with generative diffusion models and the previously introduced Föllmer sampler. We demonstrate the efficacy of the ensemble strategies through various examples, ranging from low- to medium-dimensionality sampling problems, including multi-modal and highly non-Gaussian probability distributions, and provide comparisons to traditional methods like the No-U-Turn Sampler. Additionally, we showcase these strategies in the context of a high-dimensional Bayesian inversion problem within the geophysical sciences. Our findings highlight the potential of ensemble strategies for modeling complex probability distributions in situations where gradients are unavailable.",
+ "primary": "cs.LG"
+}

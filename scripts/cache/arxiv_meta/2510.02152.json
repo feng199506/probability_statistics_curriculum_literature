@@ -1,0 +1,16 @@
+{
+ "id": "2510.02152",
+ "title": "Multivariate distributional modeling of low, moderate, and large intensities without threshold selection steps",
+ "authors": [
+  "Carlo Gaetan",
+  "Philippe Naveau"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 1,
+ "latest_date": "2025-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In fields such as hydrology and climatology, modelling the entire distribution of positive data is essential, as stakeholders require insights into the full range of values, from low to extreme. Traditional approaches often segment the distribution into separate regions, which introduces subjectivity and limits coherence. This is especially true when dealing with multivariate data. In line with multivariate extreme value theory, this paper presents a unified, threshold-free framework for modelling marginal behaviours and dependence structures based on an extended generalized Pareto distribution (EGPD). We propose decomposing multivariate data into radial and angular components. The radial component is modelled using a semi-parametric EGPD and the angular distribution is permitted to vary conditionally. This approach allows for sufficiently flexible dependence modelling. The hierarchical structure of the model facilitates the inference process. First, we combine classical maximum likelihood estimation (MLE) methods with semi-parametric approaches based on Bernstein polynomials to estimate the distribution of the radial component. Then, we use multivariate regression techniques to estimate the angular component's parameters. The model is evaluated through synthetic simulations and applied to hydrological datasets to exemplify its capacity to capture heavy-tailed marginals and complex multivariate dependencies without threshold specification.",
+ "primary": "stat.ME"
+}

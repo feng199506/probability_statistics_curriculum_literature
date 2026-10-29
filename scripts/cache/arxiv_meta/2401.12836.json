@@ -1,0 +1,16 @@
+{
+ "id": "2401.12836",
+ "title": "Empirical Likelihood Inference over Decentralized Networks",
+ "authors": [
+  "Jinye Du",
+  "Qihua Wang"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 1,
+ "latest_date": "2024-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As a nonparametric statistical inference approach, empirical likelihood has been found very useful in numerous occasions. However, it encounters serious computational challenges when applied directly to the modern massive dataset. This article studies empirical likelihood inference over decentralized distributed networks, where the data are locally collected and stored by different nodes. To fully utilize the data, this article fuses Lagrange multipliers calculated in different nodes by employing a penalization technique. The proposed distributed empirical log-likelihood ratio statistic with Lagrange multipliers solved by the penalized function is asymptotically standard chi-squared under regular conditions even for a divergent machine number. Nevertheless, the optimization problem with the fused penalty is still hard to solve in the decentralized distributed network. To address the problem, two alternating direction method of multipliers (ADMM) based algorithms are proposed, which both have simple node-based implementation schemes. Theoretically, this article establishes convergence properties for proposed algorithms, and further proves the linear convergence of the second algorithm in some specific network structures. The proposed methods are evaluated by numerical simulations and illustrated with analyses of census income and Ford gobike datasets.",
+ "primary": "stat.ME"
+}

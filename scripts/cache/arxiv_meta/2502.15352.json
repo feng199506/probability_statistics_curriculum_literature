@@ -1,0 +1,17 @@
+{
+ "id": "2502.15352",
+ "title": "Semiparametric Bernstein-von Mises Phenomenon via Isotonized Posterior in Wicksell's problem",
+ "authors": [
+  "Francesco Gili",
+  "Geurt Jongbloed",
+  "Aad van der Vaart"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 2,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 11 figures",
+ "abstract": "In this paper, we propose a novel Bayesian approach for nonparametric estimation in Wicksell's problem. This has important applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions and in materials science to determine the 3D microstructure of a material, using its 2D cross sections. We deviate from the classical Bayesian nonparametric approach, which would place a Dirichlet Process (DP) prior on the distribution function of the unobservables, by directly placing a DP prior on the distribution function of the observables. Our method offers computational simplicity due to the conjugacy of the posterior and allows for asymptotically efficient estimation by projecting the posterior onto the \\( \\mathbb{L}_2 \\) subspace of increasing, right-continuous functions. Indeed, the resulting Isotonized Inverse Posterior (IIP) satisfies a Bernstein--von Mises (BvM) phenomenon with minimax asymptotic variance \\( g_0(x)/2γ\\), where \\( γ> 1/2 \\) reflects the degree of Hölder continuity of the true cdf at \\( x \\). Since the IIP gives automatic uncertainty quantification, it eliminates the need to estimate \\( γ\\). Our results provide the first semiparametric Bernstein--von Mises theorem for projection-based posteriors with a DP prior in inverse problems.",
+ "primary": "math.ST"
+}

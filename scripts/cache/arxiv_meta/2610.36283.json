@@ -1,0 +1,16 @@
+{
+ "id": "2610.36283",
+ "title": "Minimax Rates for Robust Gaussian Mean Estimation Near the Breakdown Point under Constraints",
+ "authors": [
+  "Tuorui Peng",
+  "Matey Neykov"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages",
+ "abstract": "We study the mean estimation of Gaussian location model with star-shaped constraints under adversarial contamination, where at most $ k<N/2 $ among $ N $ observations are corrupted by an oracle adversary. We characterize the minimax squared $ \\ell_2 $ risk throughout the full range of contamination level $ \\varepsilon = k/N \\in [0,1/2) $. The minimax risk is \\begin{equation*} \\mathfrak{M}\\asymp \\big( δ_\\varepsilon ^{*2} \\vee σ^2\\varepsilon ^2\\log \\frac{e}{1-2\\varepsilon } \\big) \\wedge d^2 , \\end{equation*} where $ δ_\\varepsilon ^* := \\sup \\big\\{ r \\geq 0: (1-2\\varepsilon )\\frac{Nr ^2}{σ^2} \\leq \\log M^\\mathrm{ loc }_K(r ,c) \\big\\} $, $ \\log M^\\mathrm{ loc }_K(r ,c) $ is the local entropy of constraint set $ K $, $ d $ is the diameter of $ K $ (set $ d=\\infty $ if $ K $ is unbounded), $ σ^2 I_n $ is the covariance of the Gaussian noise, and $ c $ is a sufficiently large constant. Our result sheds light on the interaction between contamination error and information theoretic complexity in the regime of proximity to the breakdown point $ \\varepsilon \\uparrow 1/2 $.",
+ "primary": "math.ST"
+}

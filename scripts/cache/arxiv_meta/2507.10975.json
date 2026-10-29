@@ -1,0 +1,18 @@
+{
+ "id": "2507.10975",
+ "title": "Robust Bayesian high-dimensional variable selection and inference with the horseshoe family of priors",
+ "authors": [
+  "Kun Fan",
+  "Srijana Subedi",
+  "Vishmi Ridmika Dissanayake Pathiranage",
+  "Cen Wu"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 2,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Frequentist robust variable selection has been extensively investigated in high-dimensional regression. Despite success, developing the corresponding statistical inference procedures remains a challenging task. Recently, tackling this challenge from a Bayesian perspective has received much attention. In literature, the two-group spike-and-slab priors that can induce exact sparsity have been demonstrated to yield valid inference in robust sparse linear models. Nevertheless, another important category of sparse priors, the horseshoe family of priors, including horseshoe, horseshoe+, and regularized horseshoe priors, has not yet been examined in robust high-dimensional regression by far. Their performance in variable selection and especially statistical inference in the presence of heavy-tailed model errors is not well understood. In this paper, we address the question by developing robust Bayesian hierarchical models utilizing the horseshoe family of priors along with an efficient Gibbs sampling scheme. We show that compared with competing methods with alternative sampling strategies such as slice sampling, our proposals lead to superior performance in variable selection, Bayesian estimation and statistical inference. In particular, our numeric studies indicate that even without imposing exact sparsity, the one-group horseshoe priors can still yield valid Bayesian credible intervals under robust high-dimensional linear regression models. Applications of the proposed and alternative methods on real data further illustrates the advantage of the proposed methods.",
+ "primary": "stat.ME"
+}

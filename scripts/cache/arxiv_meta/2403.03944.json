@@ -1,0 +1,16 @@
+{
+ "id": "2403.03944",
+ "title": "MR.RGM: An R Package for Fitting Bayesian Multivariate Bidirectional Mendelian Randomization Networks",
+ "authors": [
+  "Bitan Sarkar",
+  "Yang Ni"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 2,
+ "latest_date": "2024-10-23",
+ "journal_ref": "Bioinformatics, Volume 41, Issue 4, April 2025, btaf130",
+ "doi": "10.1093/bioinformatics/btaf130",
+ "comment": "",
+ "abstract": "Motivation: Mendelian randomization (MR) infers causal relationships between exposures and outcomes using genetic variants as instrumental variables. Typically, MR considers only a pair of exposure and outcome at a time, limiting its capability of capturing the entire causal network. We overcome this limitation by developing 'MR.RGM' (Mendelian randomization via reciprocal graphical model), a fast R-package that implements the Bayesian reciprocal graphical model and enables practitioners to construct holistic causal networks with possibly cyclic/reciprocal causation and proper uncertainty quantifications, offering a comprehensive understanding of complex biological systems and their interconnections. We developed 'MR.RGM', an open-source R package that applies bidirectional MR using a network-based strategy, enabling the exploration of causal relationships among multiple variables in complex biological systems. 'MR.RGM' holds the promise of unveiling intricate interactions and advancing our understanding of genetic networks, disease risks, and phenotypic complexities.",
+ "primary": "stat.AP"
+}

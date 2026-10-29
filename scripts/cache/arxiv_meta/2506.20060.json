@@ -1,0 +1,18 @@
+{
+ "id": "2506.20060",
+ "title": "hdbayes: An R Package for Bayesian Analysis of Generalized Linear Models Using Historical Data",
+ "authors": [
+  "Ethan M. Alt",
+  "Xinxin Chen",
+  "Luiz M. Carvalho",
+  "Joseph G. Ibrahim"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 1,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 3 figures. R package 'hdbayes' is available on CRAN and at https://github.com/ethan-alt/hdbayes",
+ "abstract": "There has been increased interest in the use of historical data to formulate informative priors in regression models. While many such priors for incorporating historical data have been proposed, adoption is limited due to access to software. Where software does exist, the implementations between different methods could be vastly different, making comparisons between methods difficult. In this paper, we introduce the R package hdbayes, an implementation of the power prior, normalized power prior, Bayesian hierarchical model, robust meta-analytic prior, commensurate prior, and latent exchangeability prior for generalized linear models. The bulk of the package is written in the Stan programming language, with user-friendly R wrapper functions to call samplers.",
+ "primary": "stat.ME"
+}

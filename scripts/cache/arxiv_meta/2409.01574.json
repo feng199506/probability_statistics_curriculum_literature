@@ -1,0 +1,16 @@
+{
+ "id": "2409.01574",
+ "title": "Policy Gradients for Optimal Parallel Tempering MCMC",
+ "authors": [
+  "Daniel Zhao",
+  "Natesh S. Pillai"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 2,
+ "latest_date": "2024-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 5 figures, accepted to ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling",
+ "abstract": "Parallel tempering is a meta-algorithm for Markov Chain Monte Carlo that uses multiple chains to sample from tempered versions of the target distribution, enhancing mixing in multi-modal distributions that are challenging for traditional methods. The effectiveness of parallel tempering is heavily influenced by the selection of chain temperatures. Here, we present an adaptive temperature selection algorithm that dynamically adjusts temperatures during sampling using a policy gradient approach. Experiments demonstrate that our method can achieve lower integrated autocorrelation times compared to traditional geometrically spaced temperatures and uniform acceptance rate schemes on benchmark distributions.",
+ "primary": "stat.CO"
+}

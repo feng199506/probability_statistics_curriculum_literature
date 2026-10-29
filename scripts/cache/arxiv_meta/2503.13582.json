@@ -1,0 +1,18 @@
+{
+ "id": "2503.13582",
+ "title": "Spectrally-Corrected and Regularized QDA Classifier for Spiked Covariance Model",
+ "authors": [
+  "Wenya Luo",
+  "Hua Li",
+  "Zhidong Bai",
+  "Zhijun Liu"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 1,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quadratic discriminant analysis (QDA) is a widely used method for classification problems, particularly preferable over Linear Discriminant Analysis (LDA) for heterogeneous data. However, QDA loses its effectiveness in high-dimensional settings, where the data dimension and sample size tend to infinity. To address this issue, we propose a novel QDA method utilizing spectral correction and regularization techniques, termed SR-QDA. The regularization parameters in our method are selected by maximizing the Fisher-discriminant ratio. We compare SR-QDA with QDA, regularized quadratic discriminant analysis (R-QDA), and several other competitors. The results indicate that SR-QDA performs exceptionally well, especially in moderate and high-dimensional situations. Empirical experiments across diverse datasets further support this conclusion.",
+ "primary": "cs.LG"
+}

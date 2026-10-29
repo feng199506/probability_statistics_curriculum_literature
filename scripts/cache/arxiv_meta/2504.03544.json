@@ -1,0 +1,21 @@
+{
+ "id": "2504.03544",
+ "title": "evalprob4cast: An R-package for evaluation of ensembles as probabilistic forecasts or event forecasts",
+ "authors": [
+  "Mathias Blicher Bjerregård",
+  "Jethro Browell",
+  "John Zack",
+  "Jan Kloppenborg Møller",
+  "Henrik Madsen",
+  "Gregor Giebel",
+  "Corinna Möhrlen"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 1,
+ "latest_date": "2025-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 13 figures",
+ "abstract": "For any forecasting application, evaluation of forecasts is an important task. For example, in the field of renewable energy sources there is high variability and uncertainty of power production, which makes forecasting and the evaluation hereof crucial both for power trading and power grid balancing. In particular, probabilistic forecasts represented by ensembles are popular due to their ability to cover the full range of scenarios that can occur, thus enabling forecast users to make more informed decisions than what would be possible with simple deterministic forecasts. The selection of open source software that supports evaluation of ensemble forecasts, and especially event detection, is currently limited. As a solution, evalprob4cast is a new R-package for probabilistic forecast evaluation that aims to provide its users with all the tools needed for the assessment of ensemble forecasts, in the form of metrics and visualization methods. Both univariate and multivariate probabilistic forecasts as well as event detection are covered. Furthermore, it offers a user-friendly design where all of the evaluation methods can be applied in a fast and easy way, as long as the input data is organized in accordance with the format defined by the package. While its development is motivated by forecasting of renewables, the package can be used for any application with ensemble forecasts.",
+ "primary": "stat.AP"
+}

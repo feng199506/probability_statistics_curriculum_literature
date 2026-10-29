@@ -1,0 +1,17 @@
+{
+ "id": "2505.15638",
+ "title": "Bayesian Ensembling: Insights from Online Optimization and Empirical Bayes",
+ "authors": [
+  "Daniel Waxman",
+  "Fernando Llorente",
+  "Petar M. Djurić"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2026-01-22",
+ "journal_ref": "Transactions on Machine Learning Research (TMLR), 2026",
+ "doi": "",
+ "comment": "28 pages, 10 figures; Accepted to Transactions on Machine Learning Research (TMLR)",
+ "abstract": "We revisit the classical problem of Bayesian ensembles and address the challenge of learning optimal combinations of Bayesian models in an online, continual learning setting. To this end, we reinterpret existing approaches such as Bayesian model averaging (BMA) and Bayesian stacking through a novel empirical Bayes lens, shedding new light on the limitations and pathologies of BMA. Further motivated by insights from online optimization, we propose Online Bayesian Stacking (OBS), a method that optimizes the log-score over predictive distributions to adaptively combine Bayesian models. A key contribution of our work is establishing a novel connection between OBS and portfolio selection, bridging Bayesian ensemble learning with a rich, well-studied theoretical framework that offers efficient algorithms and extensive regret analysis. We further clarify the relationship between OBS and online BMA, showing that they optimize related but distinct cost functions. Through theoretical analysis and empirical evaluation, we identify scenarios where OBS outperforms online BMA and provide principled methods and guidance on when practitioners should prefer one approach over the other.",
+ "primary": "cs.LG"
+}

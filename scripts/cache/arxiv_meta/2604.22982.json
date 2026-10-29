@@ -1,0 +1,15 @@
+{
+ "id": "2604.22982",
+ "title": "Stacked Triple Differences",
+ "authors": [
+  "Meng Hsuan Hsieh"
+ ],
+ "v1_date": "2026-04-24",
+ "latest_version": 2,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main text is 37 pages with 6 pages of figures",
+ "abstract": "Triple differences (DDD) is a workhorse quasi-experimental design in applied economics. But, under staggered adoption, its conventional three-way fixed-effects (3WFE) implementation inherits the interpretation issues now well understood in the difference-in-differences literature. I introduce stacked DDD. I extend the stacked difference-in-differences approach to the DDD setting by creating self-contained stacks, each consisting of four cells over an event window: treated and clean comparison cohorts, each with treatment-eligible and treatment-ineligible units. Appending these stacks yields a unified dataset for estimating treatment effects. I prove that, at each post-treatment event-time, a linear regression with fully saturated fixed-effects applied to the stacked dataset identifies a strictly positive, cell-size-weighted average of stack-level conditional average treatment effects, with stack weights proportional to stack-level cell sizes. Building on this characterization, I outline alternative weighting schemes that recover causal estimands with clear interpretations. Stacked DDD complements recent GMM and imputation-based frameworks by trading efficiency for regression-based transparency, pairwise (rather than global) parallel changes-in-trends, and direct control over both the comparison group for each treated unit and the aggregation weights. I provide two empirical illustrations where stacked DDD yields substantially different quantitative conclusions compared to existing procedures.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2403.00224",
+ "title": "Tobit models for count time series",
+ "authors": [
+  "Christian H. Weiß",
+  "Fukang Zhu"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Several models for count time series have been developed during the last decades, often inspired by traditional autoregressive moving average (ARMA) models for real-valued time series, including integer-valued ARMA (INARMA) and integer-valued generalized autoregressive conditional heteroscedasticity (INGARCH) models. Both INARMA and INGARCH models exhibit an ARMA-like autocorrelation function (ACF). To achieve negative ACF values within the class of INGARCH models, log and softplus link functions are suggested in the literature, where the softplus approach leads to conditional linearity in good approximation. However, the softplus approach is limited to the INGARCH family for unbounded counts, i.e. it can neither be used for bounded counts, nor for count processes from the INARMA family. In this paper, we present an alternative solution, named the Tobit approach, for achieving approximate linearity together with negative ACF values, which is more generally applicable than the softplus approach. A Skellam--Tobit INGARCH model for unbounded counts is studied in detail, including stationarity, approximate computation of moments, maximum likelihood and censored least absolute deviations estimation for unknown parameters and corresponding simulations. Extensions of the Tobit approach to other situations are also discussed, including underlying discrete distributions, INAR models, and bounded counts. Three real-data examples are considered to illustrate the usefulness of the new approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2509.12119",
+ "title": "Fairness-Aware and Interpretable Policy Learning",
+ "authors": [
+  "Nora Bearth",
+  "Michael Lechner",
+  "Jana Mareckova",
+  "Fabian Muny"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 1,
+ "latest_date": "2025-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fairness and interpretability play an important role in the adoption of decision-making algorithms across many application domains. These requirements are intended to avoid undesirable group differences and to alleviate concerns related to transparency. This paper proposes a framework that integrates fairness and interpretability into algorithmic decision making by combining data transformation with policy trees, a class of interpretable policy functions. The approach is based on pre-processing the data to remove dependencies between sensitive attributes and decision-relevant features, followed by a tree-based optimization to obtain the policy. Since data pre-processing compromises interpretability, an additional transformation maps the parameters of the resulting tree back to the original feature space. This procedure enhances fairness by yielding policy allocations that are pairwise independent of sensitive attributes, without sacrificing interpretability. Using administrative data from Switzerland to analyze the allocation of unemployed individuals to active labor market programs (ALMP), the framework is shown to perform well in a realistic policy setting. Effects of integrating fairness and interpretability constraints are measured through the change in expected employment outcomes. The results indicate that, for this particular application, fairness can be substantially improved at relatively low cost.",
+ "primary": "econ.EM"
+}

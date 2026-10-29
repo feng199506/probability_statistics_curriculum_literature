@@ -1,0 +1,20 @@
+{
+ "id": "2511.03115",
+ "title": "SDE-based Monte Carlo dose calculation for proton therapy validated against Geant4",
+ "authors": [
+  "Christopher B. C. Dean",
+  "Maria L. Pérez-Lara",
+  "Emma Horton",
+  "Matthew Southerby",
+  "Jere Koskela",
+  "Andreas E. Kyprianou"
+ ],
+ "v1_date": "2025-11-05",
+ "latest_version": 3,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 11 figures",
+ "abstract": "Objective: To assess the accuracy and computational performance of a stochastic differential equation (SDE)--based model for proton beam dose calculation by benchmarking against Geant4 in simplified phantom geometries. Approach: Building on Crossley et al. (2025), we implemented the SDE model using standard approximations to interaction cross sections and mean excitation energies, enabling straightforward adaptation to new materials and configurations. The model was benchmarked against Geant4 in homogeneous, longitudinally heterogeneous and laterally heterogeneous phantoms to assess depth--dose behaviour, lateral transport and material heterogeneities. Main results: Across all phantoms and beam energies, the SDE model reproduced the main depth--dose characteristics predicted by Geant4, with proton range agreement within 0.2 mm for 100 MeV beams and 0.6 mm for 150 MeV beams. Voxel--wise comparisons yielded gamma pass rates exceeding 95% under 2%/0.5 mm criteria with a 1% dose threshold. Differences were localised to steep dose gradients or material interfaces, while overall lateral beam dispersion was well reproduced. The SDE model achieved speed-up factors of about 2.5--3 relative to single-threaded Geant4. Significance: The SDE approach reproduces key dosimetric features with good accuracy at lower computational cost and is amenable to parallel and GPU implementations, supporting fast proton therapy dose calculations.",
+ "primary": "physics.med-ph"
+}

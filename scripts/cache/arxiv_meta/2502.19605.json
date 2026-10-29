@@ -1,0 +1,15 @@
+{
+ "id": "2502.19605",
+ "title": "Mixture models for data with unknown distributions",
+ "authors": [
+  "M. E. J. Newman"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 11 figures, 1 table. Code and data are available at https://umich.edu/~mejn/lpa",
+ "abstract": "We describe and analyze a broad class of mixture models for real-valued multivariate data in which the probability density of observations within each component of the model is represented as an arbitrary combination of basis functions. Fits to these models give us a way to cluster data with distributions of unknown form, including strongly non-Gaussian or multimodal distributions, and return both a division of the data and an estimate of the distributions, effectively performing clustering and density estimation within each cluster at the same time. We describe two fitting methods, one using an expectation-maximization (EM) algorithm and the other a Bayesian non-parametric method using a collapsed Gibbs sampler. The former is numerically efficient, but gives only point estimates of the probability densities. The latter is more computationally demanding but returns a full Bayesian posterior and also an estimate of the number of components. We demonstrate our methods with a selection of illustrative applications and give code implementing both algorithms.",
+ "primary": "stat.ME"
+}

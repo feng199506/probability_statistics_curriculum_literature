@@ -1,0 +1,16 @@
+{
+ "id": "2410.03471",
+ "title": "ROSE Random Forests for Robust Semiparametric Efficient Estimation",
+ "authors": [
+  "Elliot H. Young",
+  "Rajen D. Shah"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 2,
+ "latest_date": "2024-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is widely recognised that semiparametric efficient estimation can be hard to achieve in practice: estimators that are in theory efficient may require unattainable levels of accuracy for the estimation of complex nuisance functions. As a consequence, estimators deployed on real datasets are often chosen in a somewhat ad hoc fashion, and may suffer high variance. We study this gap between theory and practice in the context of a broad collection of semiparametric regression models that includes the generalised partially linear model. We advocate using estimators that are robust in the sense that they enjoy $\\sqrt{n}$-consistent uniformly over a sufficiently rich class of distributions characterised by certain conditional expectations being estimable by user-chosen machine learning methods. We show that even asking for locally uniform estimation within such a class narrows down possible estimators to those parametrised by certain weight functions. Conversely, we show that such estimators do provide the desired uniform consistency and introduce a novel random forest-based procedure for estimating the optimal weights. We prove that the resulting estimator recovers a notion of $\\textbf{ro}$bust $\\textbf{s}$emiparametric $\\textbf{e}$fficiency (ROSE) and provides a practical alternative to semiparametric efficient estimators. We demonstrate the effectiveness of our ROSE random forest estimator in a variety of semiparametric settings on simulated and real-world data.",
+ "primary": "math.ST"
+}

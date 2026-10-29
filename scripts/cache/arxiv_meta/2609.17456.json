@@ -1,0 +1,15 @@
+{
+ "id": "2609.17456",
+ "title": "Finite-Sample Hausdorff Bounds and Hadamard Sensitivity for Regressions with MNAR Covariates",
+ "authors": [
+  "Hugo Dunias"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariates missing not at random generally prevent point identification of regression coefficients without untestable restrictions. This paper studies linear regression when every missing covariate is restricted to a prespecified compact interval. The resulting population target is the set of best linear predictor coefficients compatible with the observed-data law. Under a non-atomic observed-data law and the stated regularity conditions, we can represent this identified set as the image, under the least-squares moment map, of the Aumann expectation of a random moment set. For the population set and its empirical analogue, we derive explicit bounds under bounded, sub-exponential and polynomial envelope conditions. The bounds show their dependence on sample size, dimension, confidence level and tail parameters. Under a Donsker condition and a uniform zero-set error bound, an oracle enlargement of the set-valued Z-estimator also converges at the root n rate. We separately study a Hadamard-design method for exploring the effect of admissible imputations without enumerating all vertices and build intuition to detect situations where the population target can be approximated by a zonotope. A numerical experiment illustrates how co-missingness and the width of the imputation intervals affect this diagnostic.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2401.06347",
+ "title": "Diagnostics for Regression Models with Semicontinuous Outcomes",
+ "authors": [
+  "Lu Yang"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 1,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "10.1093/biomtc/ujae007",
+ "comment": "",
+ "abstract": "Semicontinuous outcomes commonly arise in a wide variety of fields, such as insurance claims, healthcare expenditures, rainfall amounts, and alcohol consumption. Regression models, including Tobit, Tweedie, and two-part models, are widely employed to understand the relationship between semicontinuous outcomes and covariates. Given the potential detrimental consequences of model misspecification, after fitting a regression model, it is of prime importance to check the adequacy of the model. However, due to the point mass at zero, standard diagnostic tools for regression models (e.g., deviance and Pearson residuals) are not informative for semicontinuous data. To bridge this gap, we propose a new type of residuals for semicontinuous outcomes that are applicable to general regression models. Under the correctly specified model, the proposed residuals converge to being uniformly distributed, and when the model is misspecified, they significantly depart from this pattern. In addition to in-sample validation, the proposed methodology can also be employed to evaluate predictive distributions. We demonstrate the effectiveness of the proposed tool using health expenditure data from the US Medical Expenditure Panel Survey.",
+ "primary": "stat.ME"
+}

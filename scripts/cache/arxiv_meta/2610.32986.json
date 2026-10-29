@@ -1,0 +1,16 @@
+{
+ "id": "2610.32986",
+ "title": "LLM-as-a-Judge Version Shift: The Instrument Changed, Not the Standard",
+ "authors": [
+  "Guijia Zhang",
+  "Harry Yang"
+ ],
+ "v1_date": "2026-09-07",
+ "latest_version": 1,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 5 figures, 14 tables",
+ "abstract": "Automated research pipelines increasingly rely on fixed LLM judges to rank, filter, and revise proposals, yet these judges are routinely replaced by newer versions. We study whether such replacements preserve the underlying measurement standard. Using a preregistered, frozen-weight design, we evaluate three adjacent same-family transitions across Qwen, Gemma, and Mistral on frozen ML research proposals under randomized information conditions. The common assumption that newer judges are simply harsher fails: two transitions shift toward greater leniency, while the third shifts in the opposite direction on anchors but attenuates off-anchor. More importantly, version changes can alter not only score location but also criterion geometry and resolution; one transition collapses clean-flawed discrimination, placing 93% of pool scores on a single value. Supplying identical facts does not close the version gap, placebo-controlled interventions show that observed packet effects are largely format-driven rather than content-driven, and global recalibration repairs the mean while explaining little object-level dispersion. We organize these failures with a measurement model in which a judge replacement can change its origin, criterion geometry, or resolution. A small stratified anchor audit of about 200 calls identifies the failure class before deployment, and frozen thresholds correctly diagnose two post-registration API judge replacements. We release six preregistration locks and the full audit trail of 14882 judge calls.",
+ "primary": "cs.CY"
+}

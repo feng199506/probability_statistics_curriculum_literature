@@ -1,0 +1,16 @@
+{
+ "id": "2404.14534",
+ "title": "Random Indicator Imputation for Missing Not At Random Data",
+ "authors": [
+  "Shahab Jolani",
+  "Stef van Buuren"
+ ],
+ "v1_date": "2024-04-22",
+ "latest_version": 1,
+ "latest_date": "2024-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Imputation methods for dealing with incomplete data typically assume that the missingness mechanism is at random (MAR). These methods can also be applied to missing not at random (MNAR) situations, where the user specifies some adjustment parameters that describe the degree of departure from MAR. The effect of different pre-chosen values is then studied on the inferences. This paper proposes a novel imputation method, the Random Indicator (RI) method, which, in contrast to the current methodology, estimates these adjustment parameters from the data. For an incomplete variable $X$, the RI method assumes that the observed part of $X$ is normal and the probability for $X$ to be missing follows a logistic function. The idea is to estimate the adjustment parameters by generating a pseudo response indicator from this logistic function. Our method iteratively draws imputations for $X$ and the realization of the response indicator $R$, to which we refer as $\\dot{R}$, for $X$. By cross-classifying $X$ by $R$ and $\\dot{R}$, we obtain various properties on the distribution of the missing data. These properties form the basis for estimating the degree of departure from MAR. Our numerical simulations show that the RI method performs very well across a variety of situations. We show how the method can be used in a real life data set. The RI method is automatic and opens up new ways to tackle the problem of MNAR data.",
+ "primary": "stat.ME"
+}

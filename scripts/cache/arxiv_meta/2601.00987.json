@@ -1,0 +1,17 @@
+{
+ "id": "2601.00987",
+ "title": "Tessellation Localized Transfer learning for nonparametric regression",
+ "authors": [
+  "Hélène Halconruy",
+  "Benjamin Bobbia",
+  "Paul Lejamtel"
+ ],
+ "v1_date": "2026-01-02",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 pages, 2 figures",
+ "abstract": "Transfer learning aims to improve performance on a target task by leveraging information from related source tasks. We propose a nonparametric regression transfer learning framework that explicitly models heterogeneity in the source-target relationship. Our approach relies on a local transfer assumption: the covariate space is partitioned into finitely many cells such that, within each cell, the target regression function can be expressed as a low-complexity transformation of the source regression function. This localized structure enables effective transfer where similarity is present while limiting negative transfer elsewhere. We introduce estimators that jointly learn the local transfer functions and the target regression, together with fully data-driven procedures that adapt to unknown partition structure and transfer strength. We establish sharp minimax rates for target regression estimation, showing that local transfer can mitigate the curse of dimensionality by exploiting reduced functional complexity. Our theoretical guarantees take the form of oracle inequalities that decompose excess risk into estimation and approximation terms, ensuring robustness to model misspecification. Numerical experiments illustrate the benefits of the proposed approach.",
+ "primary": "math.ST"
+}

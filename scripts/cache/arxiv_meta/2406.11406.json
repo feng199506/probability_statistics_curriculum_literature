@@ -1,0 +1,19 @@
+{
+ "id": "2406.11406",
+ "title": "Predictive Probabilities Made Simple: A Fast and Accurate Method for Clinical Trial Decision Making",
+ "authors": [
+  "Joe Marion",
+  "Liz Lorenzi",
+  "Cora Allen-Savietta",
+  "Scott Berry",
+  "Kert Viele"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 1,
+ "latest_date": "2024-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "under review",
+ "abstract": "Bayesian predictive probabilities are commonly used for interim monitoring of clinical trials through efficacy and futility stopping rules. Despite their usefulness, calculation of predictive probabilities, particularly in pre-experiment trial simulation, can be a significant challenge. We introduce an approximation for computing predictive probabilities using either a p-value or a posterior probability that significantly reduces this burden. We show the approximation has a high degree of concordance with standard Monte Carlo imputation methods for computing predictive probabilities, and present five simulation studies comparing the approximation to the full predictive probability for a range of primary analysis strategies: dichotomous, time-to-event, and ordinal endpoints, as well as historical borrowing and longitudinal modeling. We find that this faster method of predictive probability approximation works well in all five applications, thus significantly reducing the computational burden of trial simulation, allowing more virtual trials to be simulated to achieve greater precision in estimating trial operating characteristics.",
+ "primary": "stat.AP"
+}

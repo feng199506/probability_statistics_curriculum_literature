@@ -1,0 +1,16 @@
+{
+ "id": "2406.18390",
+ "title": "The $\\ell$-test: leveraging sparsity in the Gaussian linear model for improved inference",
+ "authors": [
+  "Souhardya Sengupta",
+  "Lucas Janson"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 2,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop novel LASSO-based methods for coefficient testing and confidence interval construction in the Gaussian linear model with $n\\ge d$. Our methods' finite-sample validity is identical to that of their ubiquitous ordinary-least-squares-$t$-test-based analogues, yet have substantially higher power when the true coefficient vector is sparse. In particular, under sparsity our coefficient test, which we call the $\\ell$-test, performs like the \\emph{one-sided} $t$-test (despite not being given any information about the sign), and $\\ell$-test-based confidence intervals are correspondingly shorter than the standard $t$-test-based intervals. The nature of the $\\ell$-test directly provides a novel exact adjustment conditional on LASSO selection for post-selection inference, allowing for the construction of post-selection $p$-values and confidence intervals. None of our methods require resampling or Monte Carlo estimation. We perform a variety of simulations and a real data analysis on an HIV drug resistance data set to demonstrate the benefits of the $\\ell$-test. We additionally show that the $\\ell$-test can be applied to a large class of asymptotically Gaussian estimators, dramatically expanding its applicability beyond linear models.",
+ "primary": "stat.ME"
+}

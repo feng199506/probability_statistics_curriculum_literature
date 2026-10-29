@@ -1,0 +1,17 @@
+{
+ "id": "2604.24392",
+ "title": "Numerical approximation of Markovian BSDEs in infinite horizon and elliptic PDEs",
+ "authors": [
+  "Emmanuel Gobet",
+  "Adrien Richou",
+  "Charu Shardul"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study backward stochastic differential equations (BSDEs) in infinite horizon and design efficient numerical schemes for solving them. We establish a probabilistic representation of the solution of the BSDE using Malliavin derivative and prove results for contraction of a Picard scheme. We develop three numerical schemes, of which the first two are based on a fixed point argument using contraction, imposing additional assumptions compared to what is needed for existence and uniqueness of the solution. The first scheme is a space grid based approximation where we establish tight numerical error bounds using a growth truncation argument; it performs well in low dimensions but computational times increase exponentially with dimension. The second scheme uses neural network approximations for which we have proved a convergence result. Using neural networks alleviates the curse of dimensionality, giving good accuracy in very high dimensions. The third scheme also uses neural networks but does not rely on contraction arguments, showcasing good performance even for larger z-Lipschitz dependence outside the domain of contraction.",
+ "primary": "math.PR"
+}

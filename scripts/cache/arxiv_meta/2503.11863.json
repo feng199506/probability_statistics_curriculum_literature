@@ -1,0 +1,17 @@
+{
+ "id": "2503.11863",
+ "title": "Excess Mean Squared Error of Empirical Bayes Estimators",
+ "authors": [
+  "Yue Ju",
+  "Bo Wahlberg",
+  "Håkan Hjalmarsson"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 1,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical Bayes estimators are based on minimizing the average risk with the hyper-parameters in the weighting function being estimated from observed data. The performance of an empirical Bayes estimator is typically evaluated by its mean squared error (MSE). However, the explicit expression for its MSE is generally unavailable for finite sample sizes. To address this issue, we define a high-order analytical criterion: the excess MSE. It quantifies the performance difference between the maximum likelihood and empirical Bayes estimators. An explicit expression for the excess MSE of an empirical Bayes estimator employing a general data-dependent hyper-parameter estimator is derived. As specific instances, we provide excess MSE expressions for kernel-based regularized estimators using the scaled empirical Bayes, Stein unbiased risk estimation, and generalized cross-validation hyper-parameter estimators. Moreover, we propose a modification to the excess MSE expressions for regularized estimators for moderate sample sizes and show its improvement on accuracy in numerical simulations.",
+ "primary": "math.ST"
+}

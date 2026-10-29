@@ -1,0 +1,18 @@
+{
+ "id": "2404.02453",
+ "title": "ANPP: the Adapted Normalized Power Prior for Borrowing Information from Multiple Historical Datasets in Clinical Trials",
+ "authors": [
+  "Yueqi Shen",
+  "Matthew A. Psioda",
+  "Luiz M. Carvalho",
+  "Joseph G. Ibrahim"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 2,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The power prior is a popular class of informative priors for incorporating information from historical data. It involves raising the likelihood for the historical data to a power, which acts as a discounting parameter. When the discounting parameter is modeled as random, the normalized power prior (NPP) is recommended. When there are multiple historical datasets, there has been limited research on how to choose priors for the multiple discounting parameters of the NPP to induce desirable information borrowing behavior. In this work, we address this question by investigating the analytical relationship between the NPP and the Bayesian hierarchical model (BHM), which is a widely used method for synthesizing information from different sources. We develop the adapted normalized power prior (ANPP), which establishes dependence between the dataset-specific discounting parameters of the NPP, leading to inferences that are identical to the BHM. We establish a direct relationship between the prior for the dataset-specific discounting parameters of the ANPP and the prior for the variance parameter of the BHM. Establishing this relationship not only justifies the NPP from the perspective of hierarchical modeling, but also achieves easy prior elicitation for the NPP for the purpose of dynamic borrowing. We examine the borrowing properties of the ANPP through simulations, and apply it to a case study for a pediatric lupus trial.",
+ "primary": "stat.ME"
+}

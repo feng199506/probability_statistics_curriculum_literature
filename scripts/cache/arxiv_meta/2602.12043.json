@@ -1,0 +1,18 @@
+{
+ "id": "2602.12043",
+ "title": "Improved Inference for CSDID Using the Cluster Jackknife",
+ "authors": [
+  "Sunny R. Karim",
+  "Morten Ørregaard Nielsen",
+  "James G. MacKinnon",
+  "Matthew D. Webb"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Obtaining reliable inferences with traditional difference-in-differences (DiD) methods can be difficult. Problems can arise when both outcomes and errors are serially correlated, when there are few clusters or few treated clusters, when cluster sizes vary greatly, and in various other cases. In recent years, recognition of the ``staggered adoption'' problem has shifted the focus away from inference towards consistent estimation of treatment effects. One of the most popular new estimators is the CSDID procedure of Callaway and Sant'Anna (2021). We find that the issues of over-rejection with few clusters and/or few treated clusters are at least as severe for CSDID as for traditional DiD methods. We also propose using a cluster jackknife for inference with CSDID, which simulations suggest greatly improves inference. We provide software packages in Stata csdidjack and R didjack to calculate cluster-jackknife standard errors easily.",
+ "primary": "econ.EM"
+}

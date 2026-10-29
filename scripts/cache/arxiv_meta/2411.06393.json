@@ -1,0 +1,16 @@
+{
+ "id": "2411.06393",
+ "title": "Evolution of weights on a connected finite graph",
+ "authors": [
+  "Jicheng Ma",
+  "Yunyan Yang"
+ ],
+ "v1_date": "2024-11-10",
+ "latest_version": 3,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "On a connected finite graph, we propose an evolution of weights including Ollivier's Ricci flow as a special case. During the evolution process, on each edge, the speed of change of weight is exactly the difference between the Wasserstein distance related to two probability measures and certain graph distance. Here the probability measure may be chosen as an $α$-lazy one-step random walk, an $α$-lazy two-step random walk, or a general probability measure. Based on the ODE theory, we show that the initial value problem has a unique global solution. A discrete version of the above evolution is applied to the problem of community detection. Our algorithm is based on such a discrete evolution, where probability measures are chosen as $α$-lazy one-step random walk and $α$-lazy two-step random walk respectively. Note that the latter measure has not been used in previous works. Moreover, only one surgery needs to be performed after the last iteration, which makes our algorithm much simpler than earlier ones based on Lin-Lu-Yau's Ricci curvature.",
+ "primary": "math.CA"
+}

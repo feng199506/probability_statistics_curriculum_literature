@@ -1,0 +1,16 @@
+{
+ "id": "2502.10532",
+ "title": "Variational empirical Bayes variable selection in high-dimensional logistic regression",
+ "authors": [
+  "Yiqi Tang",
+  "Ryan Martin"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 1,
+ "latest_date": "2025-02-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Logistic regression involving high-dimensional covariates is a practically important problem. Often the goal is variable selection, i.e., determining which few of the many covariates are associated with the binary response. Unfortunately, the usual Bayesian computations can be quite challenging and expensive. Here we start with a recently proposed empirical Bayes solution, with strong theoretical convergence properties, and develop a novel and computationally efficient variational approximation thereof. One such novelty is that we develop this approximation directly for the marginal distribution on the model space, rather than on the regression coefficients themselves. We demonstrate the method's strong performance in simulations, and prove that our variational approximation inherits the strong selection consistency property satisfied by the posterior distribution that it is approximating.",
+ "primary": "stat.CO"
+}

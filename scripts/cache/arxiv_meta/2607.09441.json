@@ -1,0 +1,18 @@
+{
+ "id": "2607.09441",
+ "title": "Near-optimal node-private community estimation in polynomial-time",
+ "authors": [
+  "Laurentiu Marchis",
+  "Olga Klopp",
+  "Po-Ling Loh",
+  "Ilias Zadik"
+ ],
+ "v1_date": "2026-07-10",
+ "latest_version": 1,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages",
+ "abstract": "In this paper, we resolve an open question of Klopp & Zadik (2026) by providing a high-probability polynomial-time, node-private algorithm which nearly matches the performance of their exponential-time node-private algorithm for exact recovery in stochastic block models. Our result involves an explicitly constructed Lipschitz surrogate for the penalized likelihood function, as well as a carefully devised accept-reject algorithm that samples community labels from the corresponding exponential mechanism in polynomial-time. We rigorously analyze the privacy, runtime, and utility of our proposed algorithm, showing that even when the number of communities K grows logarithmically with the number of nodes n, we can achieve the minimax rates for exact recovery with the privacy parameter epsilon growing as log(n), thus matching known lower bounds on the cost of privacy for this setting.",
+ "primary": "math.ST"
+}

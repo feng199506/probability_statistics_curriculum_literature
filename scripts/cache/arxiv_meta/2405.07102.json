@@ -1,0 +1,18 @@
+{
+ "id": "2405.07102",
+ "title": "Nested Instrumental Variables Analysis: Switcher Average Treatment Effect, Identification, Efficient Estimation and Generalizability",
+ "authors": [
+  "Rui Wang",
+  "Ying-Qi Zhao",
+  "Oliver Dukes",
+  "Bo Zhang"
+ ],
+ "v1_date": "2024-05-11",
+ "latest_version": 7,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Instrumental variables (IVs) are widely used to estimate causal effects from non-randomized data. A canonical example is a randomized trial with noncompliance, in which the randomized treatment assignment serves as an IV for the non-ignorable treatment received. Under a monotonicity assumption, a valid IV nonparametrically identifies the average treatment effect among a latent complier subgroup, whose generalizability is often under debate. In many studies, there exist multiple versions of an IV, for instance, different nudges to take the same treatment in different study sites in a multicenter clinical trial. These different versions of an IV may result in different compliance rates and offer a unique opportunity to study IV estimates' generalizability. In this article, we introduce a novel nested IV assumption and study identification of the average treatment effect among two latent subgroups: always-compliers and switchers, who are defined based on the joint potential treatment received under two versions of a binary IV. We derive the efficient influence function for the SWitcher Average Treatment Effect (SWATE) under a nonparametric model and propose efficient estimators. We then propose formal statistical tests of the generalizability of IV estimates under the nested IV framework. The proposed tests are flexible nonparametric generalizations of classical overidentification tests that allow estimating nuisance parameters using machine learning tools. We apply the proposed method to the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial and study the causal effect of colorectal cancer screening and its generalizability.",
+ "primary": "stat.ME"
+}

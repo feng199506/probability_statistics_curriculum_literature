@@ -1,0 +1,18 @@
+{
+ "id": "2401.01665",
+ "title": "Utilizing Multiple Testing for Grouping in Singular Spectrum Analysis",
+ "authors": [
+  "Maryam Movahedifar",
+  "Friederike Preusse",
+  "Anna Vesely",
+  "Thorsten Dickhaus"
+ ],
+ "v1_date": "2024-01-03",
+ "latest_version": 3,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A key step in separating signal from noise in time series by means of singular spectrum analysis (SSA) is grouping. We present a multiple testing method for the grouping step in SSA. As separability criterion, we utilize the weighted correlation between the signal and the noise component of the (reconstructed) time series, and we test whether this weighted correlation is equal to zero. This test has to be performed for several possible groupings, resulting in a multiple test problem. The null distributions of the corresponding test statistics are approximated by a wild bootstrap procedure. The performance of our proposed method is assessed in a simulation study, and we illustrate its practical application with an analysis of real world data.",
+ "primary": "stat.ME"
+}

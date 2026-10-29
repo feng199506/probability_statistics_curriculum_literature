@@ -1,0 +1,15 @@
+{
+ "id": "2608.27111",
+ "title": "Animarium:Technical Report Version 1",
+ "authors": [
+  "Mirko Degli Esposti"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 4,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Synthetic populations of eleven Italian municipalities (1,814,317 individuals in 887,937 households) generated from published aggregates alone: ISTAT census and register tables, census-section counts, the national civic-address register, public-use survey microdata, and six municipal open-data portals, every source certified in a registry with licence, fingerprint and declared affordances. Four rings give every attribute a declared place: a maximum-entropy joint model of up to nine demographic attributes; whole-vector donation of twenty-three attitudinal and health variables from survey respondents; placement to census section, single year of age and address; and households constrained by the census size distribution per section. Every downstream layer (detailed titles, work, names, biographies) is a declared derivation adding no information. The pipeline is deterministic to the byte: regenerating all eleven municipalities from the tagged commit reproduces every file of every ring bit for bit, in 33 minutes on one workstation. Populations are released in a public regime enforced in the data (no names, no addresses, coordinates randomised within census section), browsable in Animarium, a dependency-free web viewer where every number carries its comparison and every view is a citable URL, and downloadable as an open dataset. The report documents the architecture, the sources and their certification, the reproducibility and quality measurements at the release tag, the viewer, and the narrative layer that renders records into personas for LLM-driven simulation, with the platform's controllability demonstrated in companion experiments, and validation explicitly out of scope.",
+ "primary": "cs.CY"
+}

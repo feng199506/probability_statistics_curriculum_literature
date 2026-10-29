@@ -1,0 +1,17 @@
+{
+ "id": "2407.06619",
+ "title": "CAESar: Conditional Autoregressive Expected Shortfall",
+ "authors": [
+  "Federico Gatta",
+  "Fabrizio Lillo",
+  "Piero Mazzarisi"
+ ],
+ "v1_date": "2024-07-09",
+ "latest_version": 2,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In financial risk management, Value at Risk (VaR) estimates potential portfolio losses but fails to account for losses beyond a certain threshold. Expected Shortfall (ES) addresses this limitation by providing the conditional expectation of such exceedances, providing a better measure of tail risk. However, ES is not elicitable on its own, meaning that it cannot be estimated by minimizing some scoring function, although its joint elicitability with VaR allows for combined estimation. Building on this property, we propose the Conditional Autoregressive Expected Shortfall (CAESar) model, which flexibly handles dynamic patterns and heteroskedasticity, without making distributional assumptions on price returns. The optimization of CAESar coefficients involves three steps: fitting the VaR component via CAViaR regression, formulating ES as an autoregressive process, and jointly estimating VaR and ES coefficients while ensuring a monotonicity constraint to avoid crossing quantiles. Through extensive backtesting, CAESar outperforms existing methods, proving highly effective for risk forecasting.",
+ "primary": "q-fin.RM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2604.24534",
+ "title": "Robust linear regression under latent group heterogeneity",
+ "authors": [
+  "Xifeng Li",
+  "Shuzhen Yang"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Uncertainty is ubiquitous in real-world data, and the assumptions underlying classical linear regression models are often violated in practice. Inspired by the theory of sublinear expectation, we consider a linear regression model where the random intercept term has mean uncertainty and the error term has variance uncertainty. We develop a novel two-step approach, named Expectation-Maximization with Moving Block (EMMB), to estimate the model parameters. The proposed method requires no prior knowledge of group structures or change points. Theoretical properties of the estimators are established under mild regularity conditions. Simulation studies and a real-data application to PM2.5 concentration modeling in Beijing demonstrate the superiority of the proposed method: it captures substantial intercept heterogeneity overlooked by ordinary least squares and yields more accurate and interpretable estimates.",
+ "primary": "math.ST"
+}

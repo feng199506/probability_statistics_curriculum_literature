@@ -1,0 +1,16 @@
+{
+ "id": "2502.18242",
+ "title": "Minimum Distance Estimation of Quantile Panel Data Models",
+ "authors": [
+  "Blaise Melly",
+  "Martina Pons"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 1,
+ "latest_date": "2025-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "75 pages, 3 figures, 5 tables",
+ "abstract": "We propose a minimum distance estimation approach for quantile panel data models where unit effects may be correlated with covariates. This computationally efficient method involves two stages: first, computing quantile regression within each unit, then applying GMM to the first-stage fitted values. Our estimators apply to (i) classical panel data, tracking units over time, and (ii) grouped data, where individual-level data are available, but treatment varies at the group level. Depending on the exogeneity assumptions, this approach provides quantile analogs of classic panel data estimators, including fixed effects, random effects, between, and Hausman-Taylor estimators. In addition, our method offers improved precision for grouped (instrumental) quantile regression compared to existing estimators. We establish asymptotic properties as the number of units and observations per unit jointly diverge to infinity. Additionally, we introduce an inference procedure that automatically adapts to the potentially unknown convergence rate of the estimator. Monte Carlo simulations demonstrate that our estimator and inference procedure perform well in finite samples, even when the number of observations per unit is moderate. In an empirical application, we examine the impact of the food stamp program on birth weights. We find that the program's introduction increased birth weights predominantly at the lower end of the distribution, highlighting the ability of our method to capture heterogeneous effects across the outcome distribution.",
+ "primary": "econ.EM"
+}

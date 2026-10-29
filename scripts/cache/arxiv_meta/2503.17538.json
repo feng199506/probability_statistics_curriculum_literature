@@ -1,0 +1,16 @@
+{
+ "id": "2503.17538",
+ "title": "A Statistical Theory of Contrastive Learning via Approximate Sufficient Statistics",
+ "authors": [
+  "Licong Lin",
+  "Song Mei"
+ ],
+ "v1_date": "2025-03-21",
+ "latest_version": 2,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Contrastive learning -- a modern approach to extract useful representations from unlabeled data by training models to distinguish similar samples from dissimilar ones -- has driven significant progress in foundation models. In this work, we develop a new theoretical framework for analyzing data augmentation-based contrastive learning, with a focus on SimCLR as a representative example. Our approach is based on the concept of \\emph{approximate sufficient statistics}, which we extend beyond its original definition in \\cite{oko2025statistical} for contrastive language-image pretraining (CLIP) using KL-divergence. We generalize it to equivalent forms and general f-divergences, and show that minimizing SimCLR and other contrastive losses yields encoders that are approximately sufficient. Furthermore, we demonstrate that these near-sufficient encoders can be effectively adapted to downstream regression and classification tasks, with performance depending on their sufficiency and the error induced by data augmentation in contrastive learning. Concrete examples in linear regression and topic classification are provided to illustrate the broad applicability of our results.",
+ "primary": "stat.ML"
+}

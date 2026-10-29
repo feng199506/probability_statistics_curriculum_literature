@@ -1,0 +1,20 @@
+{
+ "id": "2401.01905",
+ "title": "Machine-learning-based particle identification with missing data",
+ "authors": [
+  "Miłosz Kasak",
+  "Kamil Deja",
+  "Maja Karwowska",
+  "Monika Jakubowska",
+  "Łukasz Graczykowski",
+  "Małgorzata Janik"
+ ],
+ "v1_date": "2023-12-21",
+ "latest_version": 2,
+ "latest_date": "2024-07-22",
+ "journal_ref": "Eur.Phys.J.C 84 (2024) 7, 691",
+ "doi": "10.1140/epjc/s10052-024-13047-3",
+ "comment": "",
+ "abstract": "In this work, we introduce a novel method for Particle Identification (PID) within the scope of the ALICE experiment at the Large Hadron Collider at CERN. Identifying products of ultrarelativisitc collisions delivered by the LHC is one of the crucial objectives of ALICE. Typically employed PID methods rely on hand-crafted selections, which compare experimental data to theoretical simulations. To improve the performance of the baseline methods, novel approaches use machine learning models that learn the proper assignment in a classification task. However, because of the various detection techniques used by different subdetectors, as well as the limited detector efficiency and acceptance, produced particles do not always yield signals in all of the ALICE components. This results in data with missing values. Machine learning techniques cannot be trained with such examples, so a significant part of the data is skipped during training. In this work, we propose the first method for PID that can be trained with all of the available data examples, including incomplete ones. Our approach improves the PID purity and efficiency of the selected sample for all investigated particle species.",
+ "primary": "physics.ins-det"
+}

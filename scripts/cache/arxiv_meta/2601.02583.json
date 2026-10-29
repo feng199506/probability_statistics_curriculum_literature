@@ -1,0 +1,19 @@
+{
+ "id": "2601.02583",
+ "title": "Improve Power of Knockoffs with Annotation Information of Covariates",
+ "authors": [
+  "Xiangyu Zhang",
+  "Lijun Wang",
+  "Changjun Li",
+  "Chen Lin",
+  "Hongyu Zhao"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 1,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 5 figures",
+ "abstract": "Genome-wide association studies (GWAS) often find association signals between many genetic variants and traits of interest in a genomic region. Functional annotations of these variants provide valuable prior information that helps prioritize biologically relevant variants and enhances the power to detect causal variants. However, due to substantial correlations among these variants, a critical question is how to rigorously control the false discovery rate while effectively leveraging prior knowledge. We introduce annotation-informed knockoffs (AnnoKn), a knockoff-based method that performs annotation-informed variable selection with strict control of the false discovery rate. AnnoKn integrates the knockoff procedure with adaptive Lasso regression to evaluate the importance of multiple covariates while incorporating functional annotation information within a unified Bayesian framework. To facilitate real-world applications where individual-level data are not accessible, we further extend AnnoKn to operate on summary statistics. Through simulations and real-world applications to GTEx and GWAS datasets, we show that AnnoKn achieves superior power in detecting causal genetic variants compared with existing annotation-informed variable selection methods, while maintaining valid control over false discoveries.",
+ "primary": "stat.ME"
+}

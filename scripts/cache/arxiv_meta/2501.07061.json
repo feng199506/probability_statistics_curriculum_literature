@@ -1,0 +1,18 @@
+{
+ "id": "2501.07061",
+ "title": "A Beta Cauchy-Cauchy (BECCA) shrinkage prior for Bayesian variable selection",
+ "authors": [
+  "Linduni M. Rodrigo",
+  "Robert Kohn",
+  "Hadi M. Afshar",
+  "Sally Cripps"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 2,
+ "latest_date": "2025-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a novel Bayesian approach for variable selection in high-dimensional and potentially sparse regression settings. Our method replaces the indicator variables in the traditional spike and slab prior with continuous, Beta-distributed random variables and places half Cauchy priors over the parameters of the Beta distribution, which significantly improves the predictive and inferential performance of the technique. Similar to shrinkage methods, our continuous parameterization of the spike and slab prior enables us explore the posterior distributions of interest using fast gradient-based methods, such as Hamiltonian Monte Carlo (HMC), while at the same time explicitly allowing for variable selection in a principled framework. We study the frequentist properties of our model via simulation and show that our technique outperforms the latest Bayesian variable selection methods in both linear and logistic regression. The efficacy, applicability and performance of our approach, are further underscored through its implementation on real datasets.",
+ "primary": "stat.ME"
+}

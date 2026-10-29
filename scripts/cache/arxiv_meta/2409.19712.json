@@ -1,0 +1,16 @@
+{
+ "id": "2409.19712",
+ "title": "Posterior Conformal Prediction",
+ "authors": [
+  "Yao Zhang",
+  "Emmanuel J. Candès"
+ ],
+ "v1_date": "2024-09-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "67 pages, 17 figures",
+ "abstract": "Conformal prediction is a popular technique for constructing prediction intervals with distribution-free coverage guarantees. The coverage is marginal, meaning it only holds on average over the entire population but not necessarily for any specific subgroup. This article introduces posterior conformal prediction (PCP), which generates prediction intervals with both marginal and approximate conditional validity for clusters (or subgroups) naturally discovered in the data. PCP achieves these guarantees by modelling the conditional nonconformity score distribution as a mixture of cluster distributions. Compared to other methods with approximate conditional validity, this approach produces tighter intervals, particularly when the test data is drawn from clusters that are well represented in the validation data. PCP can also be applied to guarantee conditional coverage on user-specified subgroups, in which case it further ensures coverage for underrepresented individuals in each subgroup. When the response variable is categorical, PCP can adjust the coverage level based on the classifier's predictive probabilities, yielding low-cardinality prediction sets if the classifier is well calibrated. We demonstrate enhanced performance on datasets from socioeconomics, materials science, and healthcare.",
+ "primary": "stat.ME"
+}

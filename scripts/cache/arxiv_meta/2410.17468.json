@@ -1,0 +1,16 @@
+{
+ "id": "2410.17468",
+ "title": "Formal Privacy Guarantees with Invariant Statistics",
+ "authors": [
+  "Young Hyun Cho",
+  "Jordan Awan"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 1,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the 2020 US Census products, this paper extends differential privacy (DP) to address the joint release of DP outputs and nonprivate statistics, referred to as invariant. Our framework, Semi-DP, redefines adjacency by focusing on datasets that conform to the given invariant, ensuring indistinguishability between adjacent datasets within invariant-conforming datasets. We further develop customized mechanisms that satisfy Semi-DP, including the Gaussian mechanism and the optimal $K$-norm mechanism for rank-deficient sensitivity spaces. Our framework is applied to contingency table analysis which is relevant to the 2020 US Census, illustrating how Semi-DP enables the release of private outputs given the one-way margins as the invariant. Additionally, we provide a privacy analysis of the 2020 US Decennial Census using the Semi-DP framework, revealing that the effective privacy guarantees are weaker than advertised.",
+ "primary": "cs.CR"
+}

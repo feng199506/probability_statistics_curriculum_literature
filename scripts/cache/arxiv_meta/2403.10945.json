@@ -1,0 +1,16 @@
+{
+ "id": "2403.10945",
+ "title": "Zero-inflated stochastic volatility model for disaggregated inflation data with exact zeros",
+ "authors": [
+  "Geonhee Han",
+  "Kaoru Irie"
+ ],
+ "v1_date": "2024-03-16",
+ "latest_version": 3,
+ "latest_date": "2026-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The disaggregated time-series for the Consumer Price Index (CPI) often exhibits exact zero price changes, stemming from structural features of the data collection process. However, the currently prominent stochastic volatility model of trend-inflation is designed for aggregate measures of price inflation, where zeros rarely occur. We formulate a zero-inflated stochastic volatility model applicable to such non-stationary, real-valued, multivariate time-series data with exact zeros, which jointly specifies the dynamic zero-generating process. For posterior inference, an efficient custom Pólya--Gamma augmented Gibbs sampler is derived. Applying the model to disaggregated CPI data in four advanced economies -- US, UK, Germany, and Japan -- we find that the zero-inflated model yields more informative estimates of time-varying trend and volatility, as it accounts for the presence of zeros and avoids underestimation. In an out-of-sample forecasting exercise, we find that the zero-inflated model delivers improved point forecasts and better calibrated interval forecasts, particularly when zero-inflation is prevalent.",
+ "primary": "stat.ME"
+}

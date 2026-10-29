@@ -1,0 +1,18 @@
+{
+ "id": "2603.27189",
+ "title": "Conformal Prediction Assessment: A Framework for Conditional Coverage Evaluation and Selection",
+ "authors": [
+  "Zheng Zhou",
+  "Xiangfei Zhang",
+  "Chongguang Tao",
+  "Yuhong Yang"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 2,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction provides rigorous distribution-free finite-sample guarantees for marginal coverage under the assumption of exchangeability, but may exhibit systematic undercoverage or overcoverage for specific subpopulations. Assessing conditional validity is challenging, as standard stratification methods suffer from the curse of dimensionality. We propose Conformal Prediction Assessment (CPA), a framework that reframes the evaluation of conditional coverage as a supervised learning task by training a reliability estimator that predicts instance-level coverage probabilities. Building on this estimator, we introduce the Conditional Validity Index (CVI), which decomposes reliability into safety (undercoverage risk) and efficiency (overcoverage cost). We establish convergence rates for the reliability estimator and prove the consistency of CVI-based model selection. Extensive experiments on synthetic and real-world datasets demonstrate that CPA effectively diagnoses local failure modes and that CC-Select, our CVI-based model selection algorithm, consistently identifies predictors with superior conditional coverage performance.",
+ "primary": "stat.ME"
+}

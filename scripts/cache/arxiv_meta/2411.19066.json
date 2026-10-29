@@ -1,0 +1,17 @@
+{
+ "id": "2411.19066",
+ "title": "Evaluating marginal likelihood approximations of dose-response relationship models in Bayesian benchmark dose methods for risk assessment",
+ "authors": [
+  "Sota Minewaki",
+  "Tomohiro Ohigashi",
+  "Takashi Sozu"
+ ],
+ "v1_date": "2024-11-28",
+ "latest_version": 1,
+ "latest_date": "2024-11-28",
+ "journal_ref": "",
+ "doi": "10.1016/j.comtox.2025.100347",
+ "comment": "",
+ "abstract": "Benchmark dose (BMD; a dose associated with a specified change in response) is used to determine the point of departure for the acceptable daily intake of substances for humans. Multiple dose-response relationship models are considered in the BMD method. Bayesian model averaging (BMA) is commonly used, where several models are averaged based on their posterior probabilities, which are determined by calculating the marginal likelihood (ML). Several ML approximation methods are employed in standard software packages, such as BBMD, \\texttt{ToxicR}, and Bayesian BMD for the BMD method, because the ML cannot be analytically calculated. Although ML values differ among approximation methods, resulting in different posterior probabilities and BMD estimates, this phenomenon is neither widely recognized nor quantitatively evaluated. In this study, we evaluated the performance of five ML approximation methods: (1) maximum likelihood estimation (MLE)-based Schwarz criterion, (2) Markov chain Monte Carlo (MCMC)-based Schwarz criterion, (3) Laplace approximation, (4) density estimation, and (5) bridge sampling through numerical examples using four real experimental datasets. Eight models and three prior distributions used in BBMD and \\texttt{ToxicR} were assumed. The approximation and estimation biases of bridge sampling were the smallest regardless of the dataset or prior distributions. Both the approximation and estimation biases of MCMC-based Schwarz criterion and Laplace approximation were large for some datasets. Thus, the approximation biases of the density estimation were relatively small but were large for some datasets. In terms of the accuracy of ML approximation methods, using Bayesian BMD, in which the bridge sampling is available, is preferred.",
+ "primary": "stat.CO"
+}

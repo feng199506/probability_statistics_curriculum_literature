@@ -1,0 +1,17 @@
+{
+ "id": "2501.19345",
+ "title": "PUATE: Efficient Average Treatment Effect Estimation from Treated (Positive) and Unlabeled Units",
+ "authors": [
+  "Masahiro Kato",
+  "Fumiaki Kozai",
+  "Ryo Inokuchi"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimation of average treatment effects (ATEs), defined as the difference in expected outcomes between treatment and control groups, is a central topic in causal inference. This study develops semiparametric efficient estimators for ATE in a setting where only a treatment group and an unlabeled group, consisting of units whose treatment status is unknown, are observed. This scenario constitutes a variant of learning from positive and unlabeled data (PU learning) and can be viewed as a special case of ATE estimation with missing data. For this setting, we derive the semiparametric efficiency bounds, which characterize the lowest achievable asymptotic variance for regular estimators. We then construct semiparametric efficient ATE estimators that attain these bounds. Our results contribute to the literature on causal inference with missing data and weakly supervised learning.",
+ "primary": "cs.LG"
+}

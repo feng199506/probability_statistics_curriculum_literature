@@ -1,0 +1,17 @@
+{
+ "id": "2602.03049",
+ "title": "Unified Inference Framework for Single and Multi-Player Performative Prediction: Method and Asymptotic Optimality",
+ "authors": [
+  "Zhixian Zhang",
+  "Xiaotian Hou",
+  "Linjun Zhang"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Performative prediction characterizes environments where predictive models alter the very data distributions they aim to forecast, triggering complex feedback loops. While prior research treats single-agent and multi-agent performativity as distinct phenomena, this paper introduces a unified statistical inference framework that bridges these contexts, treating the former as a special case of the latter. Our contribution is two-fold. First, we put forward the Repeated Risk Minimization (RRM) procedure for estimating the performative stability, and establish a rigorous inferential theory for admitting its asymptotic normality and confirming its asymptotic efficiency. Second, for the performative optimality, we introduce a novel two-step plug-in estimator that integrates the idea of Recalibrated Prediction Powered Inference (RePPI) with Importance Sampling, and further provide formal derivations for the Central Limit Theorems of both the underlying distributional parameters and the plug-in results. The theoretical analysis demonstrates that our estimator achieves the semiparametric efficiency bound and maintains robustness under mild distributional misspecification. This work provides a principled toolkit for reliable estimation and decision-making in dynamic, performative environments.",
+ "primary": "stat.ML"
+}

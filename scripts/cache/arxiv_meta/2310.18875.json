@@ -1,0 +1,18 @@
+{
+ "id": "2310.18875",
+ "title": "Feature calibration for computer models",
+ "authors": [
+  "Wenzhe Xu",
+  "Daniel B. Williamson",
+  "Frederic Hourdin",
+  "Romain Roehrig"
+ ],
+ "v1_date": "2023-10-29",
+ "latest_version": 1,
+ "latest_date": "2023-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages",
+ "abstract": "Computer model calibration involves using partial and imperfect observations of the real world to learn which values of a model's input parameters lead to outputs that are consistent with real-world observations. When calibrating models with high-dimensional output (e.g. a spatial field), it is common to represent the output as a linear combination of a small set of basis vectors. Often, when trying to calibrate to such output, what is important to the credibility of the model is that key emergent physical phenomena are represented, even if not faithfully or in the right place. In these cases, comparison of model output and data in a linear subspace is inappropriate and will usually lead to poor model calibration. To overcome this, we present kernel-based history matching (KHM), generalising the meaning of the technique sufficiently to be able to project model outputs and observations into a higher-dimensional feature space, where patterns can be compared without their location necessarily being fixed. We develop the technical methodology, present an expert-driven kernel selection algorithm, and then apply the techniques to the calibration of boundary layer clouds for the French climate model IPSL-CM.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.03959",
+ "title": "The signal is not flushed away: Inferring the effective reproduction number from wastewater data in small populations",
+ "authors": [
+  "Isaac H. Goldstein",
+  "Daniel M. Parker",
+  "Sunny Jiang",
+  "Aiswarya Rani Pappu",
+  "Volodymyr M. Minin"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages and 5 figures in the main text. arXiv admin note: text overlap with arXiv:2308.15770",
+ "abstract": "The effective reproduction number is an important descriptor of an infectious disease epidemic. In small populations, ideally we would estimate the effective reproduction number using a Markov Jump Process (MJP) model of the spread of infectious disease, but in practice this is computationally challenging. We propose a computationally tractable approximation to an MJP which tracks only latent and infectious individuals, the EI model, an MJP where the time-varying immigration rate into the E compartment is equal to the product of the proportion of susceptibles in the population and the transmission rate. We use an analogue of the central limit theorem for MJPs to approximate transition densities as normal, which makes Bayesian computation tractable. Using simulated pathogen RNA concentrations collected from wastewater data, we demonstrate the advantages of our stochastic model over its deterministic counterpart for the purpose of estimating effective reproduction number dynamics, and compare against a state of the art method. We apply our new model to inference of changes in the effective reproduction number of SARS-CoV-2 in several college campus communities that were put under wastewater pathogen surveillance in 2022.",
+ "primary": "stat.ME"
+}

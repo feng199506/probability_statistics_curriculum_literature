@@ -1,0 +1,18 @@
+{
+ "id": "2404.08426",
+ "title": "confintROB Package: Confindence Intervals in robust linear mixed models",
+ "authors": [
+  "Fabio Mason",
+  "Manuel Koller",
+  "Eva Cantoni",
+  "Paolo Ghisletta"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 1,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 2 figures",
+ "abstract": "Statistical inference is a major scientific endeavor for many researchers. In terms of inferential methods implemented to mixed-effects models, significant progress has been made in the R software. However, these advances primarily concern classical estimators (ML, REML) and mainly focus on fixed effects. In the confintROB package, we have implemented various bootstrap methods for computing confidence intervals (CIs) not only for fixed effects but also for variance components. These methods can be implemented with the widely used lmer function from the lme4 package, as well as with the rlmer function from the robustlmm package and the varComprob function from the robustvarComp package. These functions implement robust estimation methods suitable for data with outliers. The confintROB package implements the Wald method for fixed effects, whereas for both fixed effects and variance components, two bootstrap methods are implemented: the parametric bootstrap and the wild bootstrap. Moreover, the confintROB package can obtain both the percentile and the bias-corrected accelerated versions of CIs.",
+ "primary": "stat.ME"
+}

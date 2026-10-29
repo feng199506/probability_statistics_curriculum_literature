@@ -1,0 +1,17 @@
+{
+ "id": "2405.04928",
+ "title": "A joint model for DHS and MICS surveys: Spatial modeling with anonymized locations",
+ "authors": [
+  "John Paige",
+  "Geir-Arne Fuglstad",
+  "Andrea Riebler"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 1,
+ "latest_date": "2024-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "main manuscript: 31 pages, 6 figures, 2 tables; supplemental materials: 10 pages, 4 figures, 7 tables",
+ "abstract": "Anonymizing the GPS locations of observations can bias a spatial model's parameter estimates and attenuate spatial predictions when improperly accounted for, and is relevant in applications from public health to paleoseismology. In this work, we demonstrate that a newly introduced method for geostatistical modeling in the presence of anonymized point locations can be extended to account for more general kinds of positional uncertainty due to location anonymization, including both jittering (a form of random perturbations of GPS coordinates) and geomasking (reporting only the name of the area containing the true GPS coordinates). We further provide a numerical integration scheme that flexibly accounts for the positional uncertainty as well as spatial and covariate information. We apply the method to women's secondary education completion data in the 2018 Nigeria demographic and health survey (NDHS) containing jittered point locations, and the 2016 Nigeria multiple indicator cluster survey (NMICS) containing geomasked locations. We show that accounting for the positional uncertainty in the surveys can improve predictions in terms of their continuous rank probability score.",
+ "primary": "stat.ME"
+}

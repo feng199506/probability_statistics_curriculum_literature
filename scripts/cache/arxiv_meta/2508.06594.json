@@ -1,0 +1,15 @@
+{
+ "id": "2508.06594",
+ "title": "Stochastic Boundaries in Spatial General Equilibrium: A Diffusion-Based Approach to Causal Inference with Spillover Effects",
+ "authors": [
+  "Tatsuru Kikuchi"
+ ],
+ "v1_date": "2025-08-08",
+ "latest_version": 1,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "62 pages",
+ "abstract": "This paper introduces a novel framework for causal inference in spatial economics that explicitly models the stochastic transition from partial to general equilibrium effects. We develop a Denoising Diffusion Probabilistic Model (DDPM) integrated with boundary detection methods from stochastic process theory to identify when and how treatment effects propagate beyond local markets. Our approach treats the evolution of spatial spillovers as a Lévy process with jump-diffusion dynamics, where the first passage time to critical thresholds indicates regime shifts from partial to general equilibrium. Using CUSUM-based sequential detection, we identify the spatial and temporal boundaries at which local interventions become systemic. Applied to AI adoption across Japanese prefectures, we find that treatment effects exhibit Lévy jumps at approximately 35km spatial scales, with general equilibrium effects amplifying partial equilibrium estimates by 42\\%. Monte Carlo simulations show that ignoring these stochastic boundaries leads to underestimation of treatment effects by 28-67\\%, with particular severity in densely connected economic regions. Our framework provides the first rigorous method for determining when spatial spillovers necessitate general equilibrium analysis, offering crucial guidance for policy evaluation in interconnected economies.",
+ "primary": "econ.GN"
+}

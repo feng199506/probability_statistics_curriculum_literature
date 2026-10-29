@@ -1,0 +1,16 @@
+{
+ "id": "1906.00199",
+ "title": "Bayesian Deconditional Kernel Mean Embeddings",
+ "authors": [
+  "Kelvin Hsu",
+  "Fabio Ramos"
+ ],
+ "v1_date": "2019-06-01",
+ "latest_version": 1,
+ "latest_date": "2019-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "In the Proceedings of the 36th International Conference on Machine Learning (ICML 2019), Long Beach, California, USA",
+ "abstract": "Conditional kernel mean embeddings form an attractive nonparametric framework for representing conditional means of functions, describing the observation processes for many complex models. However, the recovery of the original underlying function of interest whose conditional mean was observed is a challenging inference task. We formalize deconditional kernel mean embeddings as a solution to this inverse problem, and show that it can be naturally viewed as a nonparametric Bayes' rule. Critically, we introduce the notion of task transformed Gaussian processes and establish deconditional kernel means as their posterior predictive mean. This connection provides Bayesian interpretations and uncertainty estimates for deconditional kernel mean embeddings, explains their regularization hyperparameters, and reveals a marginal likelihood for kernel hyperparameter learning. These revelations further enable practical applications such as likelihood-free inference and learning sparse representations for big data.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2409.03410",
+ "title": "Error bounds of Median-of-means estimators with VC-dimension",
+ "authors": [
+  "Yuxuan Wang",
+  "Yiming Chen",
+  "Hanchao Wang",
+  "Lixin Zhang"
+ ],
+ "v1_date": "2024-09-05",
+ "latest_version": 2,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We obtain the upper error bounds of robust estimators for mean vector, using the median-of-means (MOM) method. The method is designed to handle data with heavy tails and contamination, with only a finite second moment, which is weaker than many others, relying on the VC dimension rather than the Rademacher complexity to measure statistical complexity. This allows us to implement MOM in covariance estimation, without imposing conditions such as $L$-sub-Gaussian or $L_{4}-L_{2}$ norm equivalence. In particular, we derive a new robust estimator, the MOM version of the halfspace depth, along with error bounds for mean estimation in any norm.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2608.17143",
+ "title": "Randomized quasi-Monte Carlo integration",
+ "authors": [
+  "Art B. Owen"
+ ],
+ "v1_date": "2026-08-17",
+ "latest_version": 1,
+ "latest_date": "2026-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quasi-Monte Carlo sampling is a numerical integration method that uses points with a space-filling property in $[0,1]^s$ designed to give better estimates than plain Monte Carlo methods do. For integrands of bounded variation in the sense of Hardy and Krause, errors of $O(n^{-1+ε})$ for any $ε>0$ are obtained from $n$ sample points. Randomized quasi-Monte Carlo (RQMC) points are individually uniformly distributed but collectively space-filling and then independent replications provide variance estimates. For smooth enough integrands the randomization can give a root mean squared error of $O(n^{-3/2+ε})$. This article explains RQMC for a statistical readership recounting some history and presenting some current directions.",
+ "primary": "stat.CO"
+}

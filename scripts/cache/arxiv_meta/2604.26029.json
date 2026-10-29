@@ -1,0 +1,16 @@
+{
+ "id": "2604.26029",
+ "title": "Safe, Scalable, and Accurate Bayes Posterior Sampling for Large-Data Generalized Linear Mixed Models",
+ "authors": [
+  "Youngsoo Baek",
+  "Samuel I. Berchuck"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 5 figures",
+ "abstract": "We consider the problem of scalable sampling algorithms to fit Bayesian generalized linear mixed models on large datasets. Stochastic gradient Langevin dynamics, coupled with smooth re-parameterizations of variance parameters, produces divergent Markov chains and cannot be reliably used for sampling covariance parameters of random effects. We advocate the use of a mirror Langevin dynamics algorithm, propose the novel stochastic mirror Langevin dynamics based on data subsampling, and provide concrete guidelines for its use in a Bayesian inference framework. Based on an explicit Wasserstein distance error bound between the posterior and its algorithmic approximation, we propose a post-processing step that yields an asymptotic, order-wise correct estimation of the posterior variance, eliminating the irreducible posterior variance estimation bias due to subsampling. Empirical performance of the method is evaluated through simulated experiments and a longitudinal study of pain trajectories in a study of breast cancer survivors.",
+ "primary": "stat.ME"
+}

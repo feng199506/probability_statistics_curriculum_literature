@@ -1,0 +1,18 @@
+{
+ "id": "2512.01508",
+ "title": "A mixture of distributed lag non-linear models to account for spatially heterogeneous exposure-lag-response associations",
+ "authors": [
+  "Álvaro Briz-Redón",
+  "Ana Corberán-Vallet",
+  "Adina Iftimi",
+  "Carmen Íñiguez"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 2,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 8 figures",
+ "abstract": "Environmental exposures, such as air pollution and extreme temperatures, have complex effects on human health. These effects are often characterized by non-linear exposure-lag-response relationships and delayed impacts over time. Accurately capturing these dynamics is crucial for informing public health interventions. The Distributed Lag Non-Linear Model (DLNM) is a flexible statistical framework for estimating such effects in epidemiological research. However, standard DLNM implementations typically assume a homogeneous exposure-lag-response association across the study region, overlooking potential spatial heterogeneity, which can lead to biased risk estimates. To address this limitation, we introduce DLNM-Clust: a novel mixture of DLNMs that extends the traditional DLNM. Within a Bayesian framework, DLNM-Clust probabilistically assigns each geographic unit to one of $C$ latent spatial clusters, each of which is defined by a distinct DLNM specification. This approach allows capturing both common patterns and singular deviations in the exposure-lag-response surface. We demonstrate the method using municipality-level time-series data on the relationship between air pollution and the incidence of COVID-19 in Belgium. Our results emphasize the importance of spatially aware modeling strategies in environmental epidemiology, facilitating region-specific risk assessment and supporting the development of targeted public health initiatives.",
+ "primary": "stat.ME"
+}

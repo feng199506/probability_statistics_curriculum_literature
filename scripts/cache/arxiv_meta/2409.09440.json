@@ -1,0 +1,16 @@
+{
+ "id": "2409.09440",
+ "title": "Group Sequential Testing of a Treatment Effect Using a Surrogate Marker",
+ "authors": [
+  "Layla Parast",
+  "Jay Bartroff"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 1,
+ "latest_date": "2024-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The identification of surrogate markers is motivated by their potential to make decisions sooner about a treatment effect. However, few methods have been developed to actually use a surrogate marker to test for a treatment effect in a future study. Most existing methods consider combining surrogate marker and primary outcome information to test for a treatment effect, rely on fully parametric methods where strict parametric assumptions are made about the relationship between the surrogate and the outcome, and/or assume the surrogate marker is measured at only a single time point. Recent work has proposed a nonparametric test for a treatment effect using only surrogate marker information measured at a single time point by borrowing information learned from a prior study where both the surrogate and primary outcome were measured. In this paper, we utilize this nonparametric test and propose group sequential procedures that allow for early stopping of treatment effect testing in a setting where the surrogate marker is measured repeatedly over time. We derive the properties of the correlated surrogate-based nonparametric test statistics at multiple time points and compute stopping boundaries that allow for early stopping for a significant treatment effect, or for futility. We examine the performance of our testing procedure using a simulation study and illustrate the method using data from two distinct AIDS clinical trials.",
+ "primary": "stat.ME"
+}

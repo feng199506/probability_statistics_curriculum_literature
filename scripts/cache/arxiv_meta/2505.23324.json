@@ -1,0 +1,17 @@
+{
+ "id": "2505.23324",
+ "title": "Ultrahigh-dimensional Quadratic Discriminant Analysis Using Random Projections",
+ "authors": [
+  "Annesha Deb",
+  "Minerva Mukhopadhyay",
+  "Subhajit Dutta"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 2,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates the effectiveness of using the Random Projection Ensemble (RPE) approach in Quadratic Discriminant Analysis (QDA) for ultrahigh-dimensional classification problems. Classical methods such as Linear Discriminant Analysis (LDA) and QDA are used widely, but face significant challenges in their implementation when the data dimension (say, $p$) exceeds the sample size (say, $n$). In particular, both LDA (using the Moore-Penrose inverse for covariance matrices) and QDA (even with known covariance matrices) may perform as poorly as random guessing when $p/n \\to \\infty$ as $n \\to \\infty$. The RPE method, known for addressing the curse of dimensionality, offers a fast and effective solution without relying on selective summary measures of the competing distributions. This paper demonstrates the practical advantages of employing RPE on QDA in terms of classification performance as well as computational efficiency. We establish results for limiting perfect classification in both the population and sample versions of the proposed RPE-QDA classifier, under fairly general assumptions that allow for sub-exponential growth of $p$ relative to $n$. Several simulated and gene expression data sets are analyzed to evaluate the performance of the proposed classifier in ultrahigh-dimensional~scenarios.",
+ "primary": "stat.ME"
+}

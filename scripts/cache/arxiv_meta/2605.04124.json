@@ -1,0 +1,15 @@
+{
+ "id": "2605.04124",
+ "title": "Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators",
+ "authors": [
+  "Isaac Gerber"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 2,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 1 figure, 8 tables. Companion software: diff-diff v3.3.2 (https://doi.org/10.5281/zenodo.19803705), public replication archive (https://github.com/igerber/design-based-did-replication; Zenodo DOI 10.5281/zenodo.20097360)",
+ "abstract": "Modern heterogeneity-robust difference-in-differences estimators derive their asymptotic properties under iid, cluster, or fixed-design frameworks that abstract from complex survey sampling, yet practitioners routinely apply them to nationally representative surveys with stratified cluster designs. We show that, under standard regularity conditions, the influence functions of each smooth IF-based or regression-based modern DiD estimator satisfy Binder's (1983) smoothness conditions, so the standard stratified-cluster variance formula applied to their values produces design-consistent standard errors. A Monte Carlo study with 66,000 replications shows where the design effect comes from. HC1 standard errors that treat observations as iid produce coverage as low as 34% under a baseline survey design and below 11% under informative sampling. Combining the survey-weighted point estimate with PSU-level clustering - the practitioner's cluster=psu heuristic - recovers near-nominal coverage across all scenarios. Adding strata and finite-population corrections yields incremental precision but is not required for valid coverage. Survey-weighted doubly robust estimation produces well-calibrated inference when parallel trends hold only conditionally. An NHANES illustration of the ACA dependent coverage provision shows that point estimates and standard errors change substantively - enough to reverse significance conclusions - when the survey design is accounted for. We provide diff-diff (https://github.com/igerber/diff-diff), an open-source Python package implementing design-based variance for fifteen modern DiD estimators.",
+ "primary": "stat.ME"
+}

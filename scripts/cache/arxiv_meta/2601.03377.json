@@ -1,0 +1,18 @@
+{
+ "id": "2601.03377",
+ "title": "On estimands in target trial emulation",
+ "authors": [
+  "Edoardo Efrem Gervasoni",
+  "Liesbet De Bus",
+  "Stijn Vansteelandt",
+  "Oliver Dukes"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 1,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 11 figures",
+ "abstract": "The target trial framework enables causal inference from longitudinal observational data by emulating randomized trials initiated at multiple time points. Precision is often improved by pooling information across trials, with standard models typically assuming - among other things - a time-constant treatment effect. However, this obscures interpretation when the true treatment effect varies, which we argue to be likely as a result of relying on noncollapsible estimands. To address these challenges, this paper introduces a model-free strategy for target trial analysis, centered around the choice of the estimand, rather than model specification. This ensures that treatment effects remain clearly interpretable for well-defined populations even under model misspecification. We propose estimands suitable for different study designs, and develop accompanying G-computation and inverse probability weighted estimators. Applications on simulations and real data on antimicrobial de-escalation in an intensive care unit setting demonstrate the greater clarity and reliability of the proposed methodology over traditional techniques.",
+ "primary": "stat.ME"
+}

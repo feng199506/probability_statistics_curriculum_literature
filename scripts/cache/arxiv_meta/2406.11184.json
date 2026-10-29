@@ -1,0 +1,17 @@
+{
+ "id": "2406.11184",
+ "title": "HEDE: Heritability estimation in high dimensions by Ensembling Debiased Estimators",
+ "authors": [
+  "Yanke Song",
+  "Xihong Lin",
+  "Pragya Sur"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 1,
+ "latest_date": "2024-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages, 7 figures",
+ "abstract": "Estimating heritability remains a significant challenge in statistical genetics. Diverse approaches have emerged over the years that are broadly categorized as either random effects or fixed effects heritability methods. In this work, we focus on the latter. We propose HEDE, an ensemble approach to estimate heritability or the signal-to-noise ratio in high-dimensional linear models where the sample size and the dimension grow proportionally. Our method ensembles post-processed versions of the debiased lasso and debiased ridge estimators, and incorporates a data-driven strategy for hyperparameter selection that significantly boosts estimation performance. We establish rigorous consistency guarantees that hold despite adaptive tuning. Extensive simulations demonstrate our method's superiority over existing state-of-the-art methods across various signal structures and genetic architectures, ranging from sparse to relatively dense and from evenly to unevenly distributed signals. Furthermore, we discuss the advantages of fixed effects heritability estimation compared to random effects estimation. Our theoretical guarantees hold for realistic genotype distributions observed in genetic studies, where genotypes typically take on discrete values and are often well-modeled by sub-Gaussian distributed random variables. We establish our theoretical results by deriving uniform bounds, built upon the convex Gaussian min-max theorem, and leveraging universality results. Finally, we showcase the efficacy of our approach in estimating height and BMI heritability using the UK Biobank.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.14602",
+ "title": "Minimax Optimal Design with Spillover and Carryover Effects",
+ "authors": [
+  "Haoyang Yu",
+  "Wei Ma",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 1,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In various applications, the potential outcome of a unit may be influenced by the treatments received by other units, a phenomenon known as interference, as well as by prior treatments, referred to as carryover effects. These phenomena violate the stable unit treatment value assumption and pose significant challenges in causal inference. To address these complexities, we propose a minimax optimal experimental design that simultaneously accounts for both spillover and carryover effects, enhancing the precision of estimates for direct and spillover effects. This method is particularly applicable to multi-unit experiments, reducing sample size requirements and experimental costs. We also investigate the asymptotic properties of the Horvitz--Thompson estimators of direct and spillover effects, demonstrating their consistency and asymptotic normality under the minimax optimal design. To facilitate valid inferences, we propose conservative variance estimators. Furthermore, we tackle the challenges associated with potential misspecifications in the order of carryover effects. Our approach is validated by comprehensive numerical studies that demonstrate superior performance compared to existing experimental designs.",
+ "primary": "stat.ME"
+}

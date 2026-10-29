@@ -1,0 +1,18 @@
+{
+ "id": "2511.04403",
+ "title": "Online Bayesian Experimental Design for Partially Observed Dynamical Systems",
+ "authors": [
+  "Sara Pérez-Vieites",
+  "Sahel Iqbal",
+  "Simo Särkkä",
+  "Dominik Baumann"
+ ],
+ "v1_date": "2025-11-06",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 7 figures",
+ "abstract": "Bayesian experimental design (BED) provides a principled framework for optimizing data collection by choosing experiments that are maximally informative about unknown parameters. However, existing methods cannot deal with the joint challenge of (a) partially observable dynamical systems, where only noisy and incomplete observations are available, and (b) fully online inference, which updates posterior distributions and selects designs sequentially in a computationally efficient manner. Under partial observability, dynamical systems are naturally modeled as state-space models (SSMs), where latent states mediate the link between parameters and data, making the likelihood -- and thus information-theoretic objectives like the expected information gain (EIG) -- intractable. We address these challenges by deriving new estimators of the EIG and its gradient that explicitly marginalize latent states, enabling scalable stochastic optimization in nonlinear SSMs. Our approach leverages nested particle filters for efficient online state-parameter inference with convergence guarantees. Applications to realistic models, such as the susceptible-infectious-recovered (SIR) and a moving source location task, show that our framework successfully handles both partial observability and online inference.",
+ "primary": "stat.ML"
+}

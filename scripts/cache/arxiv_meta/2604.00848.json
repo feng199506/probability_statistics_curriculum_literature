@@ -1,0 +1,15 @@
+{
+ "id": "2604.00848",
+ "title": "Debiased Estimators in High-Dimensional Regression: A Review and Replication of Javanmard and Montanari (2014)",
+ "authors": [
+  "Benjamin Smith"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 2,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional statistical settings ($p \\gg n$) pose fundamental challenges for classical inference, largely due to bias introduced by regularized estimators such as the LASSO. To address this, Javanmard and Montanari (2014) propose a debiased estimator that enables valid hypothesis testing and confidence interval construction. This report examines their debiased LASSO framework, which yields asymptotically normal estimators in high-dimensional settings. The key theoretical results underlying this approach are presented. Specifically, the construction of an optimized debiased estimator that restores asymptotic normality, which enables the computation of valid confidence intervals and $p$-values. To evaluate the claims of Javanmard and Montanari, a subset of the original simulation study and the real-data analysis is presented. The original empirical analysis is extended to the desparsified LASSO, which is referenced but not implemented in the original study. The results demonstrate that while the debiased LASSO achieves reliable coverage and controls Type I error, the LASSO projection estimator can offer improved power in idealized low-signal settings without compromising error rates. The results reveal a trade-off: the LASSO projection estimator performs well in low-signal settings, while Javanmard and Montanari's method is more robust to complex correlations, improving precision and signal detection in real data.",
+ "primary": "stat.OT"
+}

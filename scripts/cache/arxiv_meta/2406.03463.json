@@ -1,0 +1,17 @@
+{
+ "id": "2406.03463",
+ "title": "Gaussian Copula Models for Nonignorable Missing Data Using Auxiliary Marginal Quantiles",
+ "authors": [
+  "Joseph Feldman",
+  "Jerome P. Reiter",
+  "Daniel R. Kowal"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 2,
+ "latest_date": "2024-11-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages (main text only), 8 Figures",
+ "abstract": "We present an approach for modeling and imputation of nonignorable missing data. Our approach uses Bayesian data integration to combine (1) a Gaussian copula model for all study variables and missingness indicators, which allows arbitrary marginal distributions, nonignorable missingess, and other dependencies, and (2) auxiliary information in the form of marginal quantiles for some study variables. We prove that, remarkably, one only needs a small set of accurately-specified quantiles to estimate the copula correlation consistently. The remaining marginal distribution functions are inferred nonparametrically and jointly with the copula parameters using an efficient MCMC algorithm. We also characterize the (additive) nonignorable missingness mechanism implied by the copula model. Simulations confirm the effectiveness of this approach for multivariate imputation with nonignorable missing data. We apply the model to analyze associations between lead exposure and end-of-grade test scores for 170,000 North Carolina students. Lead exposure has nonignorable missingness: children with higher exposure are more likely to be measured. We elicit marginal quantiles for lead exposure using statistics provided by the Centers for Disease Control and Prevention. Multiple imputation inferences under our model support stronger, more adverse associations between lead exposure and educational outcomes relative to complete case and missing-at-random analyses.",
+ "primary": "stat.ME"
+}

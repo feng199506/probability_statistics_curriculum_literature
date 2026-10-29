@@ -1,0 +1,16 @@
+{
+ "id": "2510.07559",
+ "title": "A coupling-based approach to f-divergences diagnostics for Markov chain Monte Carlo",
+ "authors": [
+  "Adrien Corenflos",
+  "Hai-Dang Dau"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 3,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages + 23 pages of appendix comprising mostly proofs. 8 figures. Main differences w.r.t. v1 are: - the addition of a theorem on the almost sure convergence our the weights system to 1/N under minimal assumptions. - fixed numerical simulations",
+ "abstract": "A long-standing gap exists between the theoretical analysis of Markov chain Monte Carlo convergence, which is often based on statistical divergences, and the diagnostics used in practice. We introduce the first general convergence diagnostics for Markov chain Monte Carlo based on any $f$-divergence, allowing users to directly monitor, among others, the Kullback-Leibler and the $χ^2$ divergences as well as the Hellinger and the total variation distances. Our approach rests on a coupling-based \"weight harmonization\" scheme that produces direct, computable, and consistent importance weights for interacting Markov chains with respect to their target distribution. Beyond their use as convergence diagnostics, these weights are consistent estimates of the Radon-Nikodym derivative $\\mathrm{d}π/\\mathrm{d} μ_t$, a richer object than the convergence bounds alone, with natural applications to importance-weighted inference. We show how such weightings can provide upper bounds to any $f$-divergence, prove that these bounds tighten over time and converge to zero as the chains approach stationarity, and demonstrate that, while more conservative than existing coupling-based total variation estimators, our method remains a practical and broadly applicable diagnostic tool.",
+ "primary": "stat.CO"
+}

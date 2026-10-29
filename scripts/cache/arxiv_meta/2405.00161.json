@@ -1,0 +1,19 @@
+{
+ "id": "2405.00161",
+ "title": "Estimating Heterogeneous Treatment Effects with Item-Level Outcome Data: Insights from Item Response Theory",
+ "authors": [
+  "Joshua B. Gilbert",
+  "Zachary Himmelsbach",
+  "James Soland",
+  "Mridul Joshi",
+  "Benjamin W. Domingue"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 4,
+ "latest_date": "2025-01-20",
+ "journal_ref": "Journal of Policy Analysis and Management (2025)",
+ "doi": "10.1002/pam.70025",
+ "comment": "",
+ "abstract": "Analyses of heterogeneous treatment effects (HTE) are common in applied causal inference research. However, when outcomes are latent variables assessed via psychometric instruments such as educational tests, standard methods ignore the potential HTE that may exist among the individual items of the outcome measure. Failing to account for \"item-level\" HTE (IL-HTE) can lead to both underestimated standard errors and identification challenges in the estimation of treatment-by-covariate interaction effects. We demonstrate how Item Response Theory (IRT) models that estimate a treatment effect for each assessment item can both address these challenges and provide new insights into HTE generally. This study articulates the theoretical rationale for the IL-HTE model and demonstrates its practical value using 75 datasets from 48 randomized controlled trials containing 5.8 million item responses in economics, education, and health research. Our results show that the IL-HTE model reveals item-level variation masked by single-number scores, provides more meaningful standard errors in many settings, allows for estimates of the generalizability of causal effects to untested items, resolves identification problems in the estimation of interaction effects, and provides estimates of standardized treatment effect sizes corrected for attenuation due to measurement error.",
+ "primary": "econ.EM"
+}

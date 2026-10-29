@@ -1,0 +1,18 @@
+{
+ "id": "2409.15663",
+ "title": "BARD: A seamless two-stage dose optimization design integrating backfill and adaptive randomization",
+ "authors": [
+  "Yixuan Zhao",
+  "Rachael Liu",
+  "Jianchang Lin",
+  "Ying Yuan"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 2,
+ "latest_date": "2024-11-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One common approach for dose optimization is a two-stage design, which initially conducts dose escalation to identify the maximum tolerated dose (MTD), followed by a randomization stage where patients are assigned to two or more doses to further assess and compare their risk-benefit profiles to identify the optimal dose. A limitation of this approach is its requirement for a relatively large sample size. To address this challenge, we propose a seamless two-stage design, BARD (Backfill and Adaptive Randomization for Dose Optimization), which incorporates two key features to reduce sample size and shorten trial duration. The first feature is the integration of backfilling into the stage 1 dose escalation, enhancing patient enrollment and data generation without prolonging the trial. The second feature involves seamlessly combining patients treated in stage 1 with those in stage 2, enabled by covariate-adaptive randomization, to inform the optimal dose and thereby reduce the sample size. Our simulation study demonstrates that BARD reduces the sample size, improves the accuracy of identifying the optimal dose, and maintains covariate balance in randomization, allowing for unbiased comparisons between doses. BARD designs offer an efficient solution to meet the dose optimization requirements set by Project Optimus, with software freely available at www.trialdesign.org.",
+ "primary": "stat.ME"
+}

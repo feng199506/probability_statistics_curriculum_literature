@@ -1,0 +1,17 @@
+{
+ "id": "2606.23326",
+ "title": "Online forecast reconciliation using linear models",
+ "authors": [
+  "Tobias Rønlev-Knudsen",
+  "Henrik Madsen",
+  "Jan Kloppenborg Møller"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 15 figures",
+ "abstract": "We present a framework for online and adaptive forecasting and hierarchical reconciliation using linear regression models. We begin by formalizing hierarchies using graphs, and motivated by their structure, formulate a multivariate linear model using the matrix normal distribution to characterize residuals. Parameter estimation is posed as a ridge regression problem and applied to hierarchical forecast reconciliation. The connections between ridge regression, Bayesian estimation and shrinkage for hierarchical reconciliation are discussed, and results for uncertainty quantification in parameters and forecasts are provided. Based on the ridge regression formulation, a recursive inference scheme inspired by recursive least squares is described. The algorithm is implemented in the PyOnlineForecast package. Finally, the proposed methodology is demonstrated on a case study for district heating load forecasting using a temporal hierarchy. Our results provide a reference for implementation of forecast reconciliation via multivariate linear models in an online setting. The case study furthermore highlights practical considerations of using temporal hierarchies in an online setting and demonstrates the usefulness of the proposed framework and implementation, both for district heating load forecasting and more generally for online hierarchical forecasting.",
+ "primary": "stat.ME"
+}

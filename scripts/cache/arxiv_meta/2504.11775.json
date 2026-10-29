@@ -1,0 +1,17 @@
+{
+ "id": "2504.11775",
+ "title": "Discrimination-free Insurance Pricing with Privatized Sensitive Attributes",
+ "authors": [
+  "Tianhe Zhang",
+  "Suhan Liu",
+  "Peng Shi"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 3,
+ "latest_date": "2026-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fairness has become an important concern in insurance pricing as insurers increasingly rely on machine learning models to predict expected losses. At the same time, regulatory and privacy constraints often restrict insurers' ability to access or use sensitive attributes such as gender or race. Recent actuarial research addresses fairness in this context through the concept of the discrimination-free premium, which removes both the direct and indirect effects of sensitive attributes while preserving actuarial consistency. However, implementing this approach typically requires access to the sensitive attributes themselves, which may not be available in practice. This paper studies the estimation of discrimination-free insurance premiums when sensitive attributes are observed only in privatized or noise-perturbed form. We consider a multi-party data setting in which insurers observe non-sensitive attributes and outcomes, while a trusted third party holds privatized sensitive attributes generated through a privacy mechanism. Within this framework, we develop statistical methods for estimating discrimination-free premiums using only the privatized attributes. We study two settings of practical relevance: when the privacy mechanism is known and when its noise level is unknown. For both cases, we establish theoretical guarantees for the proposed estimators. Numerical experiments and empirical applications demonstrate that the proposed approach enables fair insurance pricing while respecting privacy and regulatory constraints.",
+ "primary": "stat.ML"
+}

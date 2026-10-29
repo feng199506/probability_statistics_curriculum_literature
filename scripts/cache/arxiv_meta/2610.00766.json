@@ -1,0 +1,16 @@
+{
+ "id": "2610.00766",
+ "title": "Factor Model Estimation for High-Dimensional Time Series with Heteroskedastic Noise",
+ "authors": [
+  "Da Zhao",
+  "Jing Chen"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 1,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Factor modeling provides a framework for extracting common components from high-dimensional time series. We develop an estimator of the factor loading space that combines contemporaneous covariance with lagged autocovariance information. Under cross-sectionally heteroskedastic white noise, the contemporaneous covariance contains heterogeneous diagonal noise contributions. We apply the existing HeteroPCA algorithm to the combined estimation matrix to correct this contamination while retaining information from serial dependence. The framework also accommodates noise contamination on a known set of entries subject to sparsity and incoherence conditions. Under regularity conditions for dependent observations, we establish consistency and derive convergence rates, identifying regimes in which incorporating contemporaneous covariance improves the rate relative to the lagged-autocovariance estimator. Simulations evaluate loading-space estimation error and the effects of contemporaneous covariance inclusion and diagonal correction. An application to S\\&P 500 stock returns illustrates the method.",
+ "primary": "stat.ME"
+}

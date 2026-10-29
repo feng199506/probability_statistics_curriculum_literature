@@ -1,0 +1,17 @@
+{
+ "id": "2604.00198",
+ "title": "One-step TMLE for weighted average treatment effects",
+ "authors": [
+  "Yang Liu",
+  "Patrick Lopatto",
+  "Ivana Malenica"
+ ],
+ "v1_date": "2026-03-31",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider Targeted Maximum Likelihood Estimation (TMLE) of weighted average treatment effects (WATEs), a class of causal estimands that reweight the covariate distribution using a specified function of the propensity score. This class includes the average treatment effect and average treatment effect on the treated, as well as various overlap-based targets. We provide a comprehensive analysis of the one-step TMLE along the universal least favorable path for such parameters. Under explicit regularity conditions on the weight function and initialization, we show that the targeting procedure is well-defined, reaches a solution of the estimating equation in finite time, and yields an asymptotically efficient estimator. In particular, convergence of the targeting dynamics and control of the second-order remainder are derived from these conditions rather than imposed as separate assumptions on the output of the algorithm.",
+ "primary": "math.ST"
+}

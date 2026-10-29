@@ -1,0 +1,16 @@
+{
+ "id": "2408.11315",
+ "title": "Smoothing Variances Across Time: Adaptive Stochastic Volatility",
+ "authors": [
+  "Jason B. Cho",
+  "David S. Matteson"
+ ],
+ "v1_date": "2024-08-21",
+ "latest_version": 5,
+ "latest_date": "2025-12-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel Bayesian framework for estimating time-varying volatility by extending the Random Walk Stochastic Volatility (RWSV) model with Dynamic Shrinkage Processes (DSP) in log-variances. Unlike the classical Stochastic Volatility (SV) or GARCH-type models with restrictive parametric stationarity assumptions, our proposed Adaptive Stochastic Volatility (ASV) model provides smooth yet dynamically adaptive estimates of evolving volatility and its uncertainty. We further enhance the model by incorporating a nugget effect, allowing it to flexibly capture small-scale variability while preserving smoothness elsewhere. We derive the theoretical properties of the global-local shrinkage prior DSP. Through simulation studies, we show that ASV exhibits remarkable misspecification resilience and low prediction error across various data-generating processes. Furthermore, ASV's capacity to yield locally smooth and interpretable estimates facilitates a clearer understanding of the underlying patterns and trends in volatility. As an extension, we develop the Bayesian Trend Filter with ASV (BTF-ASV) which allows joint modeling of the mean and volatility with abrupt changes. Finally, our proposed models are applied to time series data from finance, econometrics, and environmental science, highlighting their flexibility and broad applicability.",
+ "primary": "stat.ME"
+}

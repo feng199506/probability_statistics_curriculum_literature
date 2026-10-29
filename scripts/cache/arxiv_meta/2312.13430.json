@@ -1,0 +1,16 @@
+{
+ "id": "2312.13430",
+ "title": "Debiasing Sample Loadings and Scores in Exponential Family PCA for Sparse Count Data",
+ "authors": [
+  "Ruochen Huang",
+  "Yoonkyung Lee"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 1,
+ "latest_date": "2023-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate count data with many zeros frequently occur in a variety of application areas such as text mining with a document-term matrix and cluster analysis with microbiome abundance data. Exponential family PCA (Collins et al., 2001) is a widely used dimension reduction tool to understand and capture the underlying low-rank structure of count data. It produces principal component scores by fitting Poisson regression models with estimated loadings as covariates. This tends to result in extreme scores for sparse count data significantly deviating from true scores. We consider two major sources of bias in this estimation procedure and propose ways to reduce their effects. First, the discrepancy between true loadings and their estimates under a limited sample size largely degrades the quality of score estimates. By treating estimated loadings as covariates with bias and measurement errors, we debias score estimates, using the iterative bootstrap method for loadings and considering classical measurement error models. Second, the existence of MLE bias is often ignored in score estimation, but this bias could be removed through well-known MLE bias reduction methods. We demonstrate the effectiveness of the proposed bias correction procedure through experiments on both simulated data and real data.",
+ "primary": "stat.ME"
+}

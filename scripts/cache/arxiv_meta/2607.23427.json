@@ -1,0 +1,16 @@
+{
+ "id": "2607.23427",
+ "title": "A note on Lata\\la's argument in SK model",
+ "authors": [
+  "Seiichiro Kusuoka",
+  "Shuta Nakajima"
+ ],
+ "v1_date": "2026-07-26",
+ "latest_version": 1,
+ "latest_date": "2026-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 1 figure. We provide a formalization of the proof in Lean 4. see https://github.com/njimaMath/research_public/tree/main/generalizedLatala",
+ "abstract": "In this note, we consider the Sherrington--Kirkpatrick model with deterministic external field. Let $q=q(β,h)$ denote the solution of the replica-symmetric self-consistency equation \\[ q=\\mathbb E\\tanh^2\\!\\left(h+β\\sqrt q\\,Z\\right), \\qquad Z\\sim N(0,1), \\] where $β$ and $h$ are inverse temperature and external field, respectively. By refining Lata\\la' s argument, previously limited to \\(β< \\frac{1}{2}\\), and using the Kearns--Saul inequality, we prove overlap concentration and convergence of the free energy to the replica symmetric formula with error \\(O(N^{-1})\\) whenever \\[ β^2\\frac{q}{{\\rm arctanh}q}<1. \\] Note that for any $β<1$ and $h\\in \\mathbb R$, the condition above is satisfied. Moreover, for every nonzero $h$, this region contains a nonempty interval with $β>1$.",
+ "primary": "math.PR"
+}

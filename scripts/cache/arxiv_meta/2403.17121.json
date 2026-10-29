@@ -1,0 +1,17 @@
+{
+ "id": "2403.17121",
+ "title": "High-dimensional Factor Analysis for Network-linked Data",
+ "authors": [
+  "Jinming Li",
+  "Gongjun Xu",
+  "Ji Zhu"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 1,
+ "latest_date": "2024-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Factor analysis is a widely used statistical tool in many scientific disciplines, such as psychology, economics, and sociology. As observations linked by networks become increasingly common, incorporating network structures into factor analysis remains an open problem. In this paper, we focus on high-dimensional factor analysis involving network-connected observations, and propose a generalized factor model with latent factors that account for both the network structure and the dependence structure among high-dimensional variables. These latent factors can be shared by the high-dimensional variables and the network, or exclusively applied to either of them. We develop a computationally efficient estimation procedure and establish asymptotic inferential theories. Notably, we show that by borrowing information from the network, the proposed estimator of the factor loading matrix achieves optimal asymptotic variance under much milder identifiability constraints than existing literature. Furthermore, we develop a hypothesis testing procedure to tackle the challenge of discerning the shared and individual latent factors' structure. The finite sample performance of the proposed method is demonstrated through simulation studies and a real-world dataset involving a statistician co-authorship network.",
+ "primary": "stat.ME"
+}

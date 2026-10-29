@@ -1,0 +1,15 @@
+{
+ "id": "2601.13955",
+ "title": "Uniform Consistency of Generalized Cross-Validation for Ridge Regression in High-Dimensional Misspecified Linear Models",
+ "authors": [
+  "Akira Shinkyu"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 1,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study examines generalized cross-validation for the tuning parameter selection for ridge regression in high-dimensional misspecified linear models. The set of candidates for the tuning parameter includes not only positive values but also zero and negative values. We demonstrate that if the second moment of the specification error converges to zero, generalized cross-validation is still a uniformly consistent estimator of the out-of-sample prediction risk. This implies that generalized cross-validation selects the tuning parameter for which ridge regression asymptotically achieves the smallest prediction risk among the candidates if the degree of misspecification for the regression function is small. Our simulation studies show that ridge regression tuned by generalized cross-validation exhibits a prediction performance similar to that of optimally tuned ridge regression and outperforms the Lasso under correct and incorrect model specifications.",
+ "primary": "math.ST"
+}

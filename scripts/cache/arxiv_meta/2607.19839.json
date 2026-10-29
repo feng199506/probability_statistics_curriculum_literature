@@ -1,0 +1,15 @@
+{
+ "id": "2607.19839",
+ "title": "Finite-horizon quantile martingale posteriors: raw-urn laws and matrix-gain regression",
+ "authors": [
+  "Nam Anh Le"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The author has identified substantive flaws in the theoretical arguments supporting the finite-horizon quantile calibration law and the matrix-gain regression result (Sections 3--4 and Supplementary Sections S2--S3). These flaws affect the paper's main conclusions, so the paper is withdrawn",
+ "abstract": "Martingale posteriors quantify uncertainty by forward-imputing observations from one-step-ahead predictive distributions, but implementations stop after finitely many imputations. For the empirical Pólya-urn posterior of a quantile the law of the stopped state is derived. The quantile of the stopped urn measure keeps the familiar martingale tail-sum variance fraction; the deployed stochastic-approximation tracker with frozen gain $c$ does not. Its variance carries an explicit factor $G_a$ with $a=cf_0(q_τ)$, which may fall below or exceed the tail fraction, and a density-adapted gain restores calibration through a density-free inflation. Shared urn innovations yield the joint law of finitely many quantile levels. For conditional quantile regression, a smoothed martingale posterior started at the ordinary quantile-regression estimator with a full inverse-Jacobian matrix gain satisfies a process Bernstein--von Mises theorem with calibrated finite-horizon bands; scalar or diagonal gains cannot match the sandwich covariance process.",
+ "primary": "math.ST"
+}

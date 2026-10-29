@@ -1,0 +1,20 @@
+{
+ "id": "2509.04604",
+ "title": "Precision Mental Health: Predicting Heterogeneous Treatment Effects for Depression through Data Integration",
+ "authors": [
+  "Carly L. Brantner",
+  "Trang Quynh Nguyen",
+  "Harsh Parikh",
+  "Congwen Zhao",
+  "Hwanhee Hong",
+  "Elizabeth A. Stuart"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 1,
+ "latest_date": "2025-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When treating depression, clinicians are interested in determining the optimal treatment for a given patient, which is challenging given the amount of treatments available. To advance individualized treatment allocation, integrating data across multiple randomized controlled trials (RCTs) can enhance our understanding of treatment effect heterogeneity by increasing available information. However, extending these inferences to individuals outside of the original RCTs remains crucial for clinical decision-making. We introduce a two-stage meta-analytic method that predicts conditional average treatment effects (CATEs) in target patient populations by leveraging the distribution of CATEs across RCTs. Our approach generates 95\\% prediction intervals for CATEs in target settings using first-stage models that can incorporate parametric regression or non-parametric methods such as causal forests or Bayesian additive regression trees (BART). We validate our method through simulation studies and operationalize it to integrate multiple RCTs comparing depression treatments, duloxetine and vortioxetine, to generate prediction intervals for target patient profiles. Our analysis reveals no strong evidence of effect heterogeneity across trials, with the exception of potential age-related variability. Importantly, we show that CATE prediction intervals capture broader uncertainty than study-specific confidence intervals when warranted, reflecting both within-study and between-study variability.",
+ "primary": "stat.AP"
+}

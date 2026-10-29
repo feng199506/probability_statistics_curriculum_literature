@@ -1,0 +1,29 @@
+{
+ "id": "2608.06540",
+ "title": "Authentic Multinational Federated Time-to-Event Analyses Among People with HIV in Latin America",
+ "authors": [
+  "Kaixing Liu",
+  "Zhuohui J. Liang",
+  "Fabio Paredes",
+  "Ronaldo I. Moreira",
+  "Yanink Caro-Vega",
+  "Jiayi Tong",
+  "Zhuohang Li",
+  "Carina Cesar",
+  "Yong Chen",
+  "Jessica L. Castilho",
+  "Stephany N. Duda",
+  "Bradley A. Malin",
+  "Chao Yan",
+  "Bryan E. Shepherd",
+  "the CCASAnet"
+ ],
+ "v1_date": "2026-08-06",
+ "latest_version": 1,
+ "latest_date": "2026-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multinational HIV cohort studies face regulatory barriers to cross-border sharing of individual participant data, limiting centralized pooled analyses. Federated statistical methods, which exchange only aggregated information, offer a privacy-preserving alternative but have rarely been examined in real-world distributed environments for HIV research. Here, we evaluate the feasibility and analytical performance of a communication-efficient federated framework within the Caribbean, Central, and South America Network for HIV epidemiology. Virologic failure and major regimen change after antiretroviral therapy initiation were analyzed as separate outcomes; for each, we estimated cumulative incidence functions (CIFs) and fit stratified cause-specific Cox proportional hazards models via a surrogate likelihood-based federated implementation. Each site imputed missing data, conducted local analysis, and shared only summary statistics according to a coordinated computation protocol. The federated approach exactly reproduced centralized CIFs and closely approximated centralized Cox regression estimates, outperforming conventional meta-analysis for both outcomes. These findings demonstrate that authentic federated analysis is feasible for multinational HIV research and can yield results closely aligned with centralized analysis while preserving data privacy. Post-hoc feedback from local analysts, however, indicated that broader adoption will require managing the logistical and coordination overhead and ensuring harmonized data collection and quality control across sites.",
+ "primary": "stat.AP"
+}

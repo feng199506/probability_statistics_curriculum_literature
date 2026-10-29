@@ -1,0 +1,16 @@
+{
+ "id": "2512.25042",
+ "title": "Compound Estimation for Binomials",
+ "authors": [
+  "Yan Chen",
+  "Lihua Lei"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many applications involve estimating the mean of multiple binomial outcomes as a common problem -- assessing intergenerational mobility of census tracts, estimating prevalence of infectious diseases across countries, and measuring click-through rates for different demographic groups. The most standard approach is to report the plain average of each outcome. Despite simplicity, the estimates are noisy when the sample sizes or mean parameters are small. In contrast, the Empirical Bayes (EB) methods are able to boost the average accuracy by borrowing information across tasks. Nevertheless, the EB methods require a Bayesian model where the parameters are sampled from a prior distribution which, unlike the commonly-studied Gaussian case, is unidentified due to discreteness of binomial measurements. Even if the prior distribution is known, the computation is difficult when the sample sizes are heterogeneous as there is no simple joint conjugate prior for the sample size and mean parameter. In this paper, we consider the compound decision framework which treats the sample size and mean parameters as fixed quantities. We develop an approximate Stein's Unbiased Risk Estimator (SURE) for the average mean squared error given any class of estimators. For a class of machine learning-assisted linear shrinkage estimators, we establish asymptotic optimality, regret bounds, and valid inference. Unlike existing work, we work with the binomials directly without resorting to Gaussian approximations. This allows us to work with small sample sizes and/or mean parameters in both one-sample and two-sample settings. We demonstrate our approach using three datasets on firm discrimination, education outcomes, and innovation rates.",
+ "primary": "econ.EM"
+}

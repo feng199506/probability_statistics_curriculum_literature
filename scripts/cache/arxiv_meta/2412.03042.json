@@ -1,0 +1,18 @@
+{
+ "id": "2412.03042",
+ "title": "On a penalised likelihood approach for joint modelling of longitudinal covariates and partly interval-censored data -- an application to the Anti-PD1 brain collaboration trial",
+ "authors": [
+  "Annabel Webb",
+  "Nan Zou",
+  "Serigne Lo",
+  "Jun Ma"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 1,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article considers the joint modeling of longitudinal covariates and partly-interval censored time-to-event data. Longitudinal time-varying covariates play a crucial role in obtaining accurate clinically relevant predictions using a survival regression model. However, these covariates are often measured at limited time points and may be subject to measurement error. Further methodological challenges arise from the fact that, in many clinical studies, the event times of interest are interval-censored. A model that simultaneously accounts for all these factors is expected to improve the accuracy of survival model estimations and predictions. In this article, we consider joint models that combine longitudinal time-varying covariates with the Cox model for time-to-event data which is subject to interval censoring. The proposed model employs a novel penalised likelihood approach for estimating all parameters, including the random effects. The covariance matrix of the estimated parameters can be obtained from the penalised log-likelihood. The performance of the model is compared to an existing method under various scenarios. The simulation results demonstrated that our new method can provide reliable inferences when dealing with interval-censored data. Data from the Anti-PD1 brain collaboration clinical trial in advanced melanoma is used to illustrate the application of the new method.",
+ "primary": "stat.ME"
+}

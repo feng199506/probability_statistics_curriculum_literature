@@ -1,0 +1,17 @@
+{
+ "id": "2512.20057",
+ "title": "Structure-Preserving Nonlinear Sufficient Dimension Reduction for Tensors",
+ "authors": [
+  "Dianjun Lin",
+  "Bing Li",
+  "Lingzhou Xue"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "We introduce two nonlinear sufficient dimension reduction methods for regressions with tensor-valued predictors. Our goal is two-fold: the first is to preserve the tensor structure when performing dimension reduction, particularly the meaning of the tensor modes, for improved interpretation; the second is to substantially reduce the number of parameters in dimension reduction, thereby achieving model parsimony and enhancing estimation accuracy. Our two tensor dimension reduction methods echo the two commonly used tensor decomposition mechanisms: one is the Tucker decomposition, which reduces a larger tensor to a smaller one; the other is the CP-decomposition, which represents an arbitrary tensor as a sequence of rank-one tensors. We developed the Fisher consistency of our methods at the population level and established their consistency and convergence rates. Both methods are easy to implement numerically: the Tucker-form can be implemented through a sequence of least-squares steps, and the CP-form can be implemented through a sequence of singular value decompositions. We investigated the finite-sample performance of our methods and showed substantial improvement in accuracy over existing methods in simulations and two data applications.",
+ "primary": "math.ST"
+}

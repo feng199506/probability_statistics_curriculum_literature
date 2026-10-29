@@ -1,0 +1,18 @@
+{
+ "id": "2312.10042",
+ "title": "A Generic Stochastic Hybrid Car-following Model Based on Approximate Bayesian Computation",
+ "authors": [
+  "Jiwan Jiang",
+  "Yang Zhou",
+  "Xin Wang",
+  "Soyoung Ahn"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 1,
+ "latest_date": "2023-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures",
+ "abstract": "Car following (CF) models are fundamental to describing traffic dynamics. However, the CF behavior of human drivers is highly stochastic and nonlinear. As a result, identifying the best CF model has been challenging and controversial despite decades of research. Introduction of automated vehicles has further complicated this matter as their CF controllers remain proprietary, though their behavior appears different than human drivers. This paper develops a stochastic learning approach to integrate multiple CF models, rather than relying on a single model. The framework is based on approximate Bayesian computation that probabilistically concatenates a pool of CF models based on their relative likelihood of describing observed behavior. The approach, while data-driven, retains physical tractability and interpretability. Evaluation results using two datasets show that the proposed approach can better reproduce vehicle trajectories for both human driven and automated vehicles than any single CF model considered.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2408.05807",
+ "title": "Kernel Density Estimators in Large Dimensions",
+ "authors": [
+  "Giulio Biroli",
+  "Marc Mézard"
+ ],
+ "v1_date": "2024-08-11",
+ "latest_version": 3,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies Kernel Density Estimation for a high-dimensional distribution $ρ(x)$. Traditional approaches have focused on the limit of large number of data points $n$ and fixed dimension $d$. We analyze instead the regime where both the number $n$ of data points $y_i$ and their dimensionality $d$ grow with a fixed ratio $α=(\\log n)/d$. Our study reveals three distinct statistical regimes for the kernel-based estimate of the density $\\hat ρ_h^{\\mathcal {D}}(x)=\\frac{1}{n h^d}\\sum_{i=1}^n K\\left(\\frac{x-y_i}{h}\\right)$, depending on the bandwidth $h$: a classical regime for large bandwidth where the Central Limit Theorem (CLT) holds, which is akin to the one found in traditional approaches. Below a certain value of the bandwidth, $h_{CLT}(α)$, we find that the CLT breaks down. The statistics of $\\hatρ_h^{\\mathcal {D}}(x)$ for a fixed $x$ drawn from $ρ(x)$ is given by a heavy-tailed distribution (an alpha-stable distribution). In particular below a value $h_G(α)$, we find that $\\hatρ_h^{\\mathcal {D}}(x)$ is governed by extreme value statistics: only a few points in the database matter and give the dominant contribution to the density estimator. We provide a detailed analysis for high-dimensional multivariate Gaussian data. We show that the optimal bandwidth threshold based on Kullback-Leibler divergence lies in the new statistical regime identified in this paper. As known by practitioners, when decreasing the bandwidth a Kernel-estimated estimated changes from a smooth curve to a collections of peaks centred on the data points. Our findings reveal that this general phenomenon is related to sharp transitions between phases characterized by different statistical properties, and offer new insights for Kernel density estimation in high-dimensional settings.",
+ "primary": "cs.LG"
+}

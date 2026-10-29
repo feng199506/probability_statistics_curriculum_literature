@@ -1,0 +1,15 @@
+{
+ "id": "2311.14892",
+ "title": "An Identification and Dimensionality Robust Test for Instrumental Variables Models",
+ "authors": [
+  "Manu Navjeevan"
+ ],
+ "v1_date": "2023-11-25",
+ "latest_version": 2,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Using modifications of Lindeberg's interpolation technique, I propose a new identification-robust test for the structural parameter in a heteroskedastic instrumental variables model. While my analysis allows the number of instruments to be much larger than the sample size, it does not require many instruments, making my test applicable in settings that have not been well studied. Instead, the proposed test statistic has a limiting chi-squared distribution so long as an auxiliary parameter can be consistently estimated. This is possible using machine learning methods even when the number of instruments is much larger than the sample size. To improve power, a simple combination with the sup-score statistic of Belloni et al. (2012) is proposed. I point out that first-stage F-statistics calculated on LASSO selected variables may be misleading indicators of identification strength and demonstrate favorable performance of my proposed methods in both empirical data and simulation study.",
+ "primary": "econ.EM"
+}

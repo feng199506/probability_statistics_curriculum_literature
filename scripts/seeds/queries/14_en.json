@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:primer) AND abs:\"causal inference\" AND (cat:stat.ME OR cat:stat.TH OR cat:econ.EM OR cat:math.ST)", "subtopic": "因果推断综述与教程"},
+ {"q": "(abs:\"randomization inference\" OR abs:\"design-based inference\" OR abs:\"Fisher randomization test\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "随机化与基于设计的推断"},
+ {"q": "(abs:rerandomization OR abs:\"covariate adjustment\" OR abs:\"stratified randomization\" OR abs:\"blocking\") AND abs:\"randomized experiment\" AND (cat:stat.ME OR cat:math.ST)", "subtopic": "区组、再随机化与协变量调整"},
+ {"q": "(abs:\"factorial design\" OR abs:\"fractional factorial\" OR abs:\"optimal design\" OR abs:\"design of experiments\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "析因与最优设计"},
+ {"q": "(abs:\"adaptive experiment\" OR abs:\"response-adaptive\" OR abs:\"A/B test\" OR abs:\"sequential experiment\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.ML)", "subtopic": "序贯与自适应实验"},
+ {"q": "(abs:\"survey sampling\" OR abs:\"finite population\" OR abs:\"sampling weights\" OR abs:calibration) AND abs:survey AND (cat:stat.ME OR cat:math.ST)", "subtopic": "抽样与权重"},
+ {"q": "(abs:\"nonprobability sample\" OR abs:\"non-probability\" OR abs:\"data integration\" OR abs:\"multilevel regression and poststratification\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "非概率样本与数据整合"},
+ {"q": "(abs:nonresponse OR abs:\"total survey error\" OR abs:\"small area estimation\" OR abs:\"measurement error\") AND abs:survey AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "调查误差与小域估计"},
+ {"q": "(abs:\"causal graph\" OR abs:\"directed acyclic graph\" OR abs:identification OR abs:\"potential outcomes\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:overview) AND (cat:stat.ME OR cat:econ.EM OR cat:stat.ML)", "subtopic": "因果识别"},
+ {"q": "(abs:\"propensity score\" OR abs:matching OR abs:\"inverse probability weighting\" OR abs:\"doubly robust\") AND abs:\"observational stud\" AND (cat:stat.ME OR cat:econ.EM)", "subtopic": "观察研究：匹配与加权"},
+ {"q": "(abs:\"sensitivity analysis\" AND abs:\"unmeasured confounding\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "敏感性分析"},
+ {"q": "(abs:\"difference-in-differences\" OR abs:\"staggered adoption\" OR abs:\"event study\") AND (cat:econ.EM OR cat:stat.ME)", "subtopic": "双重差分"},
+ {"q": "abs:\"regression discontinuity\" AND (cat:econ.EM OR cat:stat.ME OR cat:math.ST)", "subtopic": "断点回归"},
+ {"q": "(abs:\"synthetic control\" OR abs:\"panel data\" AND abs:\"causal\") AND (cat:econ.EM OR cat:stat.ME)", "subtopic": "合成控制"},
+ {"q": "(abs:\"instrumental variable\" OR abs:\"weak instruments\" OR abs:LATE) AND (cat:econ.EM OR cat:stat.ME) AND (ti:review OR ti:survey OR ti:guide OR abs:identification)", "subtopic": "工具变量"},
+ {"q": "(abs:interference OR abs:spillover OR abs:\"network experiment\") AND abs:\"causal\" AND (cat:stat.ME OR cat:math.ST)", "subtopic": "干扰与网络实验"},
+ {"q": "(abs:\"heterogeneous treatment effect\" OR abs:\"conditional average treatment effect\" OR abs:\"double machine learning\") AND (cat:stat.ME OR cat:econ.EM)", "subtopic": "异质处理效应与双重机器学习"},
+ {"q": "(abs:\"generalizability\" OR abs:transportability OR abs:\"external validity\") AND abs:\"causal\" AND (cat:stat.ME)", "subtopic": "外推与可迁移性"}
+]

@@ -1,0 +1,16 @@
+{
+ "id": "2409.18117",
+ "title": "Formulating the Proxy Pattern-Mixture Model as a Selection Model to Assist with Sensitivity Analysis",
+ "authors": [
+  "Seth Adarkwah Yiadom",
+  "Rebecca Andridge"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 1,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures",
+ "abstract": "Proxy pattern-mixture models (PPMM) have previously been proposed as a model-based framework for assessing the potential for nonignorable nonresponse in sample surveys and nonignorable selection in nonprobability samples. One defining feature of the PPMM is the single sensitivity parameter, $φ$, that ranges from 0 to 1 and governs the degree of departure from ignorability. While this sensitivity parameter is attractive in its simplicity, it may also be of interest to describe departures from ignorability in terms of how the odds of response (or selection) depend on the outcome being measured. In this paper, we re-express the PPMM as a selection model, using the known relationship between pattern-mixture models and selection models, in order to better understand the underlying assumptions of the PPMM and the implied effect of the outcome on nonresponse. The selection model that corresponds to the PPMM is a quadratic function of the survey outcome and proxy variable, and the magnitude of the effect depends on the value of the sensitivity parameter, $φ$ (missingness/selection mechanism), the differences in the proxy means and standard deviations for the respondent and nonrespondent populations, and the strength of the proxy, $ρ^{(1)}$. Large values of $φ$ (beyond $0.5$) often result in unrealistic selection mechanisms, and the corresponding selection model can be used to establish more realistic bounds on $φ$. We illustrate the results using data from the U.S. Census Household Pulse Survey.",
+ "primary": "stat.ME"
+}

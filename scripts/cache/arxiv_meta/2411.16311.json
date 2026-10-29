@@ -1,0 +1,18 @@
+{
+ "id": "2411.16311",
+ "title": "Bayesian models for missing and misclassified variables using integrated nested Laplace approximations",
+ "authors": [
+  "Emma Skarstein",
+  "Leonardo Soares Bastos",
+  "Håvard Rue",
+  "Stefanie Muff"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 1,
+ "latest_date": "2024-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Misclassified variables used in regression models, either as a covariate or as the response, may lead to biased estimators and incorrect inference. Even though Bayesian models to adjust for misclassification error exist, it has not been shown how these models can be implemented using integrated nested Laplace approximation (INLA), a popular framework for fitting Bayesian models due to its computational efficiency. Since INLA requires the latent field to be Gaussian, and the Bayesian models adjusting for covariate misclassification error necessarily introduce a latent categorical variable, it is not obvious how to fit these models in INLA. Here, we show how INLA can be combined with importance sampling to overcome this limitation. We also discuss how to account for a misclassified response variable using INLA directly without any additional sampling procedure. The proposed methods are illustrated through a number of simulations and applications to real-world data, and all examples are presented with detailed code in the supporting information.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2606.12739",
+ "title": "Estimating Semiparametric and Nonparametric Fixed Effects Panel Data Models with mgcv",
+ "authors": [
+  "Ivan Korolev"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 1,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper provides a practical guide to estimating semiparametric and nonparametric fixed-effects panel data models using the mgcv package in R. The focus is implementation: handling fixed effects with unit indicators, first differencing, or penalized unit effects; specifying smooth terms; and conducting cluster-robust inference. Monte Carlo experiments compare \\code{mgcv::bam} estimators with linear and fixed-series spline estimators. Simulations suggest that penalized splines adapt to unknown smoothness and estimate functions accurately in the designs studied here. A penalty-adjusted cluster-robust covariance estimator yields tests with near-nominal size for finite-dimensional parameters, and confidence bands provide accurate coverage for centered unknown functions.",
+ "primary": "econ.EM"
+}

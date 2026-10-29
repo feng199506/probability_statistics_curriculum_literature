@@ -1,0 +1,17 @@
+{
+ "id": "1306.6430",
+ "title": "A General Framework for Updating Belief Distributions",
+ "authors": [
+  "Pier Giovanni Bissiri",
+  "Chris Holmes",
+  "Stephen Walker"
+ ],
+ "v1_date": "2013-06-27",
+ "latest_version": 2,
+ "latest_date": "2016-01-28",
+ "journal_ref": "",
+ "doi": "10.1111/rssb.12158",
+ "comment": "This is the pre-peer reviewed version of the article \"A General Framework for Updating Belief Distributions\", which has been accepted for publication in the Journal of Statistical Society - Series B. This article may be used for non-commercial purposes in accordance with Wiley Terms and Conditions for Self-Archiving",
+ "abstract": "We propose a framework for general Bayesian inference. We argue that a valid update of a prior belief distribution to a posterior can be made for parameters which are connected to observations through a loss function rather than the traditional likelihood function, which is recovered under the special case of using self information loss. Modern application areas make it is increasingly challenging for Bayesians to attempt to model the true data generating mechanism. Moreover, when the object of interest is low dimensional, such as a mean or median, it is cumbersome to have to achieve this via a complete model for the whole data distribution. More importantly, there are settings where the parameter of interest does not directly index a family of density functions and thus the Bayesian approach to learning about such parameters is currently regarded as problematic. Our proposed framework uses loss-functions to connect information in the data to functionals of interest. The updating of beliefs then follows from a decision theoretic approach involving cumulative loss functions. Importantly, the procedure coincides with Bayesian updating when a true likelihood is known, yet provides coherent subjective inference in much more general settings. Connections to other inference frameworks are highlighted.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.22072",
+ "title": "Partially Retargeted Balancing Weights for Causal Effect Estimation Under Positivity Violations",
+ "authors": [
+  "Martha Barnard",
+  "Jared D. Huling",
+  "Julian Wolfson"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 4 figures",
+ "abstract": "Positivity violations, which occur when some subgroups either always or never receive a treatment of interest, pose significant challenges for causal effect estimation with observational data. Recent balancing weight methods have proved to be highly effective in confounding control, however their utility is diminished in the presence of positivity violations, resulting in bias and excess variance. Approaches that deal with positivity violations, on the other hand, work by targeting a modified estimand that may be misaligned with the original research question. To address these challenges, we propose a novel balancing weights approach, which mitigates positivity violations while attempting to retain the original estimand by a targeted relaxation of the balancing constraints. Our proposed weighted estimator is consistent for the original estimand when either 1) the implied propensity score model is correct; or 2) all treatment effect modifiers are balanced to the target population. When these conditions do not hold, our estimator is consistent for a slightly modified treatment effect estimand. Furthermore, our proposed weighted estimator has reduced asymptotic variance when positivity does not hold. We evaluate our approach through applications to synthetic data, an observational study, and when transporting a treatment effect from a randomized trial.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2501.15896",
+ "title": "A mirror descent approach to maximum likelihood estimation in latent variable models",
+ "authors": [
+  "Francesca R. Crucinio"
+ ],
+ "v1_date": "2025-01-27",
+ "latest_version": 2,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce an approach based on mirror descent and sequential Monte Carlo (SMC) to perform joint parameter inference and posterior estimation in latent variable models. This approach is based on minimisation of a functional over the parameter space and the space of probability distributions and, contrary to other popular approaches, can be implemented when the latent variable takes values in discrete spaces. We provide a detailed theoretical analysis of both the mirror descent algorithm and its approximation via SMC. We experimentally show that the proposed algorithm outperforms standard expectation maximisation algorithms and is competitive with other popular methods for real-valued latent variables.",
+ "primary": "stat.CO"
+}

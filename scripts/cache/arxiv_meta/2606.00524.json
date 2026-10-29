@@ -1,0 +1,16 @@
+{
+ "id": "2606.00524",
+ "title": "Wire-Level Interrupt-to-Decision Latency of On-Sensor MLC versus Host Inference on the NVIDIA Jetson Orin Nano: A Pre-Registered Measurement Study",
+ "authors": [
+  "Akul Swami",
+  "Dnyaneshwar Sonawane"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 2 figures, 1 table. v2: revision under review at IEEE Sensors Letters (SENSL-26-06-RL-0906.R1). Code, data, pre-registration: github.com/akulswami/sensor-mlc-latency",
+ "abstract": "The Machine Learning Core (MLC) embedded in the STMicroelectronics LSM6DSOX IMU is widely cited as a low-latency alternative to host-side inference, yet wire-level decision-delivery latency is rarely measured. Using a Saleae Logic Pro 8 logic analyzer on an NVIDIA Jetson Orin Nano, we measured interrupt-to-decision latency (sensor INT1 edge to host decision GPIO) for three pipelines (a host-side decision-tree classifier, the standard MLC bank-switch read protocol, and an MLC binary-fast variant) under idle, I2C bus contention, and CPU stress. The protocol was pre-registered with 13 externally-timestamped Zenodo amendments before confirmatory data collection (4,770 of 4,860 trials included, 98.15%, across nine cells). The host pipeline exhibits lower median latency than the MLC pipeline under all conditions: 321.7 vs 681.5 us at idle (2.1x faster) and 574.5 vs 1,325.4 us under I2C contention (2.3x faster). The three-transaction I2C read protocol, not the silicon's classification, is the dominant latency contributor. We additionally characterize a reproducible 706.5 ms MLC decision cadence that bounds full stimulus-to-decision latency. Code, data, and pre-registration: github.com/akulswami/sensor-mlc-latency.",
+ "primary": "eess.SY"
+}

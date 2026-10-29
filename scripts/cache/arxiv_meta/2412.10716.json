@@ -1,0 +1,17 @@
+{
+ "id": "2412.10716",
+ "title": "Control of Overfitting with Physics",
+ "authors": [
+  "Sergei V. Kozyrev",
+  "Ilya A Lopatin",
+  "Alexander N Pechen"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 1,
+ "latest_date": "2024-12-14",
+ "journal_ref": "Entropy, 26, 1090 (2024)",
+ "doi": "10.3390/e26121090",
+ "comment": "20 pages, 6 figures",
+ "abstract": "While there are many works on the applications of machine learning, not so many of them are trying to understand the theoretical justifications to explain their efficiency. In this work, overfitting control (or generalization property) in machine learning is explained using analogies from physics and biology. For stochastic gradient Langevin dynamics, we show that the Eyring formula of kinetic theory allows to control overfitting in the algorithmic stability approach - when wide minima of the risk function with low free energy correspond to low overfitting. For the generative adversarial network (GAN) model, we establish an analogy between GAN and the predator-prey model in biology. An application of this analogy allows us to explain the selection of wide likelihood maxima and overfitting reduction for GANs.",
+ "primary": "cs.LG"
+}

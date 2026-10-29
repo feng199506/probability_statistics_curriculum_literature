@@ -1,0 +1,16 @@
+{
+ "id": "2507.20079",
+ "title": "Lasso Penalization for High-Dimensional Beta Regression Models: Computation, Analysis, and Inference",
+ "authors": [
+  "Niloofar Ramezani",
+  "Martin Slawski"
+ ],
+ "v1_date": "2025-07-26",
+ "latest_version": 1,
+ "latest_date": "2025-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Beta regression is commonly employed when the outcome variable is a proportion. Since its conception, the approach has been widely used in applications spanning various scientific fields. A series of extensions have been proposed over time, several of which address variable selection and penalized estimation, e.g., with an $\\ell_1$-penalty (LASSO). However, a theoretical analysis of this popular approach in the context of Beta regression with high-dimensional predictors is lacking. In this paper, we aim to close this gap. A particular challenge arises from the non-convexity of the associated negative log-likelihood, which we address by resorting to a framework for analyzing stationary points in a neighborhood of the target parameter. Leveraging this framework, we derive a non-asymptotic bound on the $\\ell_1$-error of such stationary points. In addition, we propose a debiasing approach to construct confidence intervals for the regression parameters. A proximal gradient algorithm is devised for optimizing the resulting penalized negative log-likelihood function. Our theoretical analysis is corroborated via simulation studies, and a real data example concerning the prediction of county-level proportions of incarceration is presented to showcase the practical utility of our methodology.",
+ "primary": "stat.ME"
+}

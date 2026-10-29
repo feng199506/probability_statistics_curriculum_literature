@@ -1,0 +1,16 @@
+{
+ "id": "2507.21769",
+ "title": "Factorization by extremal privacy mechanisms: new insights into efficiency",
+ "authors": [
+  "Chiara Amorino",
+  "Arnaud Gloter"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of efficiency under $α$ local differential privacy ($α$ LDP) in both discrete and continuous settings. Building on a factorization lemma, which shows that any privacy mechanism can be decomposed into an extremal mechanism followed by additional randomization, we reduce the Fisher information maximization problem to a search over extremal mechanisms. The representation of extremal mechanisms requires working in infinite dimensional spaces and invokes advanced tools from convex and functional analysis, such as Choquet's theorem. Our analysis establishes matching upper and lower bounds on the Fisher information in the high privacy regime ($α\\to 0$), and proves that the maximization problem always admits a solution for any $α$. As a concrete application, we consider the problem of estimating the parameter of a uniform distribution on $[0, θ]$ under $α$ LDP. Guided by our theoretical findings, we design an extremal mechanism that yields a consistent and asymptotically efficient estimator in high privacy regime. Numerical experiments confirm our theoretical results.",
+ "primary": "math.ST"
+}

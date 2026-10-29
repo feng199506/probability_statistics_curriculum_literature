@@ -1,0 +1,16 @@
+{
+ "id": "2404.18256",
+ "title": "Semiparametric causal mediation analysis of cluster-randomized trials for indirect and spillover effects",
+ "authors": [
+  "Chao Cheng",
+  "Fan Li"
+ ],
+ "v1_date": "2024-04-28",
+ "latest_version": 3,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In cluster-randomized trials (CRTs), there is emerging interest in exploring the causal mechanism in which a cluster-level treatment affects the outcome through an intermediate outcome. The majority of existing causal mediation methods are applicable to independent data and only a few exceptions have considered assessing causal mediation in CRTs, all of which heavily depend on parametric assumptions. In this article, we develop a formal semiparametric efficiency theory to motivate new doubly-robust methods for addressing different mediation effect estimands -- the natural indirect effect, individual mediation effect, and spillover mediation effect (the extent to which one's outcome is influenced by others' mediators). We derive the efficient influence function for each estimand, and carefully parameterize each efficient influence function to motivate practical estimators. We consider both parametric working models and data-adaptive machine learners to estimate the nuisance functions, and obtain the semiparametric efficient estimators in the latter case. We conduct simulation studies to demonstrate the finite-sample performance of our new estimators and illustrate our proposed methods by reanalyzing a real-world CRT.",
+ "primary": "stat.ME"
+}

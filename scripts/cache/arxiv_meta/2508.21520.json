@@ -1,0 +1,16 @@
+{
+ "id": "2508.21520",
+ "title": "Practically significant change points in high dimension -- measuring signal strength pro active component",
+ "authors": [
+  "Pascal Quanz",
+  "Holger Dette"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 1,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the change point testing problem for high-dimensional time series. Unlike conventional approaches, where one tests whether the difference $δ$ of the mean vectors before and after the change point is equal to zero, we argue that the consideration of the null hypothesis $H_0:\\|δ\\|\\leΔ$, for some norm $\\|\\cdot\\|$ and a threshold $Δ>0$, is better suited. By the formulation of the null hypothesis as a composite hypothesis, the change point testing problem becomes significantly more challenging. We develop pivotal inference for testing hypotheses of this type in the setting of high-dimensional time series, first, measuring deviations from the null vector by the $\\ell_2$-norm $\\|\\cdot\\|_2$ normalized by the dimension. Second, by measuring deviations using a sparsity adjusted $\\ell_2$-\"norm\" $\\|\\cdot \\|_2/\\sqrt{\\|\\cdot\\|_0} $, where $\\|\\cdot\\|_0$ denotes the $\\ell_0$-\"norm,\" we propose a pivotal test procedure which intrinsically adapts to sparse alternatives in a data-driven way by pivotally estimating the set of nonzero entries of the vector $δ$. To establish the statistical validity of our approach, we derive tail bounds of certain classes of distributions that frequently appear as limiting distributions of self-normalized statistics. As a theoretical foundation for all results, we develop a general weak invariance principle for the partial sum process $X_1^\\topξ+\\cdots +X_{\\lfloorλn\\rfloor}^\\topξ$ for a time series $(X_j)_{j\\in\\mathbb{Z}}$ and a contrast vector $ξ\\in\\mathbb{R}^p$ under increasing dimension $p$, which is of independent interest. Finally, we investigate the finite sample properties of the tests by means of a simulation study and illustrate its application in a data example.",
+ "primary": "math.ST"
+}

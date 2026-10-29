@@ -1,0 +1,17 @@
+{
+ "id": "2504.21275",
+ "title": "Hurdle Network Model With Latent Dynamic Shrinkage For Enhanced Edge Prediction in Zero-Inflated Directed Network Time Series",
+ "authors": [
+  "Sandipan Pramanik",
+  "Raymond Robertson",
+  "Yang Ni"
+ ],
+ "v1_date": "2025-04-30",
+ "latest_version": 1,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article aims to model international trade relationships among 29 countries in the apparel industry between 1994 and 2013. Bilateral trade flows can be represented as a directed network, where nodes correspond to countries and directed edges indicate trade flows (i.e., whether one country exported to another in a given year). Additionally, node (e.g., GDP) and edge-specific (e.g., labor provision) covariates are also available. The study focuses on two key challenges: (1) capturing multiple forms of temporal and network dependence, and dependence on covariates; and (2) accounting for potential trade volume as an important but partially observed edge-specific covariate, which is only available for country pairs that engaged in trade. To address these challenges, we introduce the dynamic hurdle network model (Hurdle-Net) for zero-inflated directed network time series that incorporates several novel features. First, it represents the time series as a paired binary and continuous time series and utilizes a hurdle model that effectively handles sparsity in edge occurrence. Second, the model captures evolving network dependencies using node-specific latent variables governed by a dynamic shrinkage process. Third, it leverages a shared latent structure across the binary and continuous components, reflecting the fact that both networks involve the same nodes. Finally, the model employs a generalized logistic link function to relate edge occurrence to edge weight, allowing for a parsimonious and coherent hierarchical Bayesian framework that jointly models both network components. Compared to static or independent models, Hurdle-Net provides improved model selection, estimation, and prediction performance for analyzing international trade patterns. Its effectiveness is demonstrated through simulation studies and an application to bilateral trade flow data.",
+ "primary": "stat.ME"
+}

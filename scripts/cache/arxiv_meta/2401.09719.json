@@ -1,0 +1,17 @@
+{
+ "id": "2401.09719",
+ "title": "Kernel-based multi-marker tests of association based on the accelerated failure time model",
+ "authors": [
+  "Chenxi Li",
+  "Di Wu",
+  "Qing Lu"
+ ],
+ "v1_date": "2024-01-18",
+ "latest_version": 1,
+ "latest_date": "2024-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel-based multi-marker tests for survival outcomes use primarily the Cox model to adjust for covariates. The proportional hazards assumption made by the Cox model could be unrealistic, especially in the long-term follow-up. We develop a suite of novel multi-marker survival tests for genetic association based on the accelerated failure time model, which is a popular alternative to the Cox model due to its direct physical interpretation. The tests are based on the asymptotic distributions of their test statistics and are thus computationally efficient. The association tests can account for the heterogeneity of genetic effects across sub-populations/individuals to increase the power. All the new tests can deal with competing risks and left truncation. Moreover, we develop small-sample corrections to the tests to improve their accuracy under small samples. Extensive numerical experiments show that the new tests perform very well in various scenarios. An application to a genetic dataset of Alzheimer's disease illustrates the tests' practical utility.",
+ "primary": "stat.ME"
+}

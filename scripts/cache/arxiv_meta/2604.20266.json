@@ -1,0 +1,15 @@
+{
+ "id": "2604.20266",
+ "title": "Bayesian Modeling of the Stochastic Block Model for Weighted Network Data with Zero-Inflated Negative Binomial Distribution",
+ "authors": [
+  "Fumiya Iwashige"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 3,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 1 figure",
+ "abstract": "Weighted networks encode not only the presence of interactions but also their strength. Existing methods for weighted network community detection often rely on Poisson models, which can be restrictive for overdispersed data and make efficient posterior computation difficult when covariates are incorporated. We propose Bayesian stochastic block models based on the zero-inflated negative binomial distribution: ZINB-SBM without covariates and CZINB-SBM with pairwise covariates. The proposed models accommodate overdispersion, naturally account for missing interactions through zero inflation, and admit efficient Gibbs sampling. In CZINB-SBM, Pólya-Gamma data augmentation enables posterior inference for regression coefficients with uncertainty quantification. We further employ a dynamic mixture of finite mixtures, which allows the number of communities to be inferred from the data and can lead to more accurate clustering. Simulation studies show that ZINB-SBM is more robust than a zero-inflated Poisson SBM for highly overdispersed networks. Real data analysis demonstrates interpretable block specific covariate effects and substantially improved missing link prediction compared with a Poisson regression-based Bayesian SBM.",
+ "primary": "stat.ME"
+}

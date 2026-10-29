@@ -1,0 +1,16 @@
+{
+ "id": "2407.08259",
+ "title": "Wind Power Assessment based on Super-Resolution and Downscaling -- A Comparison of Deep Learning Methods",
+ "authors": [
+  "Luca Schmidt",
+  "Nicole Ludwig"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 1,
+ "latest_date": "2024-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The efficient placement of wind turbines relies on accurate local wind speed forecasts. Climate projections provide valuable insight into long-term wind speed conditions, yet their spatial data resolution is typically insufficient for precise wind power forecasts. Deep learning methods, particularly models developed for image super-resolution, offer a promising solution to bridge this scale gap by increasing the spatial resolution of climate models. In this paper, we compare the performance of various deep learning models on two distinct tasks: super-resolution, where we map artificially coarsened ERA5 data to its native resolution, and downscaling, where we map native ERA5 to high-resolution COSMO-REA6 data. We evaluate the models on their downstream application in forecasting long-term wind power, emphasizing the impact of spatial wind speed resolution on wind power estimates. Our findings highlight the importance of aligning models and evaluation metrics with their specific downstream applications. We show that a diffusion model outperforms other models for estimating the wind power potential by better preserving the wind speeds' distributional and physical properties.",
+ "primary": "stat.AP"
+}

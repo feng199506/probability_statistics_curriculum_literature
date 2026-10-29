@@ -1,0 +1,18 @@
+{
+ "id": "2603.15763",
+ "title": "Optimizing the Roman Space Telescope High-Latitude Wide Area Survey for mitigating chromatic PSF effects on shear measurement",
+ "authors": [
+  "Federico Berlfein",
+  "Rachel Mandelbaum",
+  "Jiachuan Xu",
+  "Tianqing Zhang"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 1,
+ "latest_date": "2026-03-16",
+ "journal_ref": "Mon Not R Astron Soc (2026)",
+ "doi": "10.1093/mnras/stag1032",
+ "comment": "15 pages, 7 figures, submitted to MNRAS",
+ "abstract": "Chromatic point-spread-function (PSF) effects arise from differences between the spectral energy distributions (SEDs) of stars, used to model the PSF, and galaxies, used to measure shape distortions due to weak gravitational lensing, or shear. For the Roman Space Telescope, these effects can bias shear measurement and cosmological inference, making them an important systematic effect for shear calibration. These biases depend sensitively on survey design choices, particularly filter coverage and the availability of color information. In this work, we investigate how different Roman survey strategies affect the ability to mitigate chromatic PSF effects and whether residual biases in shear propagate into cosmological inference. Using realistic image simulations, we infer per-galaxy near-infrared SED slopes via radial basis function regression for four-, three-, two-, and single-band survey configurations. We quantify residual shear calibration biases under representative and non-representative training assumptions and propagate these biases into Markov Chain Monte Carlo analyses of cosmic shear and $3\\times2$-point statistics. We find that three- and four-band strategies can reduce residual shear biases to $|m|\\lesssim10^{-3}$, lowering the induced shifts in the lensing amplitude from $ΔS_8 \\sim 0.6σ$ (cosmic shear) and $ΔS_8 \\sim 0.7σ$ ($3\\times2$-pt) in the uncorrected case to $ΔS_8 \\lesssim 0.07σ$. Single-band surveys remain limited, with residual shear biases reaching or exceeding $|m|\\sim 2\\times 10^{-3}$ in some tomographic bins. Average, sample-wide corrections reduce but do not eliminate chromatic systematics, leaving residual biases of $ΔS_8 \\sim 0.1σ$. Overall, our results demonstrate that we can robustly correct for these effects in the recommended three-band medium tier, but may encounter residual biases in a single-band wide tier.",
+ "primary": "astro-ph.CO"
+}

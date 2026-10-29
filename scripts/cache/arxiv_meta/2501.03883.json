@@ -1,0 +1,16 @@
+{
+ "id": "2501.03883",
+ "title": "Spline Quantile Regression",
+ "authors": [
+  "Ta-Hsin Li",
+  "Nimrod Megiddo"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 2,
+ "latest_date": "2025-04-08",
+ "journal_ref": "Journal of Statistical Theory Practice, 20:30, 2026",
+ "doi": "10.1007/s42519-026-00545-8",
+ "comment": "",
+ "abstract": "Quantile regression is a powerful tool capable of offering a richer view of the data as compared to least-squares regression. Quantile regression is typically performed individually on a few quantiles or a grid of quantiles without considering the similarity of the underlying regression coefficients at nearby quantiles. When needed, an ad hoc post-processing procedure such as kernel smoothing is employed to smooth the individually estimated coefficients across quantiles and thereby improve the performance of these estimates. This paper introduces a new method, called spline quantile regression (SQR), that unifies quantile regression with quantile smoothing and jointly estimates the regression coefficients across quantiles as smoothing splines. We discuss the computation of the SQR solution as a linear program (LP) using an interior-point algorithm. We also experiment with some gradient algorithms that require less memory than the LP algorithm. The performance of the SQR method and these algorithms is evaluated using simulated and real-world data.",
+ "primary": "stat.ME"
+}

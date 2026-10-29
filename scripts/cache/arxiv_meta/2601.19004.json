@@ -1,0 +1,19 @@
+{
+ "id": "2601.19004",
+ "title": "Asymptotic Distribution of Robust Effect Size Index",
+ "authors": [
+  "Xinyu Zhang",
+  "Rachael Muscatello",
+  "Megan Jones",
+  "Blythe Corbett",
+  "Simon Vandekar"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 1,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Robust Effect Size Index (RESI) is a recently proposed standardized effect size to quantify association strength across models. However, its confidence interval construction has relied on computationally intensive bootstrap procedures. We establish a general theorem for the asymptotic distribution of the RESI using a Taylor expansion that accommodates a broad class of models. Simulations under various linear and logistic regression settings show that RESI and its CI have smaller bias and more reliable coverage than commonly used effect sizes such as Cohen's d and f. Combining with robust covariance estimation yields valid inference under model misspecification. We use the methods to investigate associations of depression and behavioral problems with sex and diagnosis in Autism spectrum disorders, and demonstrate that the asymptotic approach achieves up to a 50-fold speedup over the bootstrap. Our work provides a scalable and reliable alternative to bootstrap inference, greatly enhancing the applicability of RESI to high-dimensional studies.",
+ "primary": "stat.ME"
+}

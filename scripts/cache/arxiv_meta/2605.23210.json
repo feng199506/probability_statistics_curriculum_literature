@@ -1,0 +1,16 @@
+{
+ "id": "2605.23210",
+ "title": "Fundamental Bounds and Efficient Estimation for Dead-Time-Constrained Event Detection, with Application to Single-Photon Lidar",
+ "authors": [
+  "Frederic J. N. Jorgensen",
+  "Steven G. Johnson"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figures",
+ "abstract": "We develop an asymptotic statistical theory for parameter estimation from a class of non-i.i.d. periodic binary event-detection processes subject to nonparalyzable dead time and gating, which we call \"dead-time event detection\" (DED) processes. Such processes arise in single-photon lidar, fluorescence lifetime imaging, X-ray astronomy, and particle or radiation flux measurements in nuclear physics, where each detection renders the radiation/particle detector inactive for a recovery interval. Our theory quantifies how dead time and gating affect the fundamental lower bounds of estimation and identifies practical estimators that attain these bounds. First, we identify a sufficient statistic, showing in particular that activation counts can carry statistically useful information discarded by conventional histogramming hardware. We then prove local asymptotic normality and derive the corresponding Fisher-information rate, thereby obtaining fundamental lower bounds for estimation from DED processes. We prove that the maximum likelihood estimator (MLE), widely used in DED applications, attains these lower bounds. Since computing the MLE typically requires solving a nonconvex optimization problem, we also propose Le Cam one-step estimators, which attain the same asymptotic bounds with only a single local correction rather than iterative optimization. We illustrate the validity of our asymptotic theory and the practical usefulness of one-step estimators through the example of single-photon lidar in both simulations and real-data experiments.",
+ "primary": "eess.SP"
+}

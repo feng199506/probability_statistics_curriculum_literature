@@ -1,0 +1,16 @@
+{
+ "id": "2409.02397",
+ "title": "High-dimensional Bayesian Model for Disease-Specific Gene Detection in Spatial Transcriptomics",
+ "authors": [
+  "Qicheng Zhao",
+  "Qihuang Zhang"
+ ],
+ "v1_date": "2024-09-04",
+ "latest_version": 1,
+ "latest_date": "2024-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 Pages",
+ "abstract": "Identifying disease-indicative genes is critical for deciphering disease mechanisms and has attracted significant interest in biomedical research. Spatial transcriptomics offers unprecedented insights for the detection of disease-specific genes by enabling within-tissue contrasts. However, this new technology poses challenges for conventional statistical models developed for RNA-sequencing, as these models often neglect the spatial organization of tissue spots. In this article, we propose a Bayesian shrinkage model to characterize the relationship between high-dimensional gene expressions and the disease status of each tissue spot, incorporating spatial correlation among these spots through autoregressive terms. Our model adopts a hierarchical structure to facilitate the analysis of multiple correlated samples and is further extended to accommodate the missing data within tissues. To ensure the model's applicability to datasets of varying sizes, we carry out two computational frameworks for Bayesian parameter estimation, tailored to both small and large sample scenarios. Simulation studies are conducted to evaluate the performance of the proposed model. The proposed model is applied to analyze the data arising from a HER2-positive breast cancer study.",
+ "primary": "stat.ME"
+}

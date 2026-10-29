@@ -1,0 +1,16 @@
+{
+ "id": "2407.18504",
+ "title": "Multilevel Monte Carlo in Sample Average Approximation: Convergence, Complexity and Application",
+ "authors": [
+  "Devang Sinha",
+  "Siddhartha P. Chakrabarty"
+ ],
+ "v1_date": "2024-07-26",
+ "latest_version": 1,
+ "latest_date": "2024-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we examine the Sample Average Approximation (SAA) procedure within a framework where the Monte Carlo estimator of the expectation is biased. We also introduce Multilevel Monte Carlo (MLMC) in the SAA setup to enhance the computational efficiency of solving optimization problems. In this context, we conduct a thorough analysis, exploiting Cramér's large deviation theory, to establish uniform convergence, quantify the convergence rate, and determine the sample complexity for both standard Monte Carlo and MLMC paradigms. Additionally, we perform a root-mean-squared error analysis utilizing tools from empirical process theory to derive sample complexity without relying on the finite moment condition typically required for uniform convergence results. Finally, we validate our findings and demonstrate the advantages of the MLMC estimator through numerical examples, estimating Conditional Value-at-Risk (CVaR) in the Geometric Brownian Motion and nested expectation framework.",
+ "primary": "q-fin.CP"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.26726",
+ "title": "Phantom types for robust hierarchical models with typegeist",
+ "authors": [
+  "Daniel O'Hanlon"
+ ],
+ "v1_date": "2025-10-30",
+ "latest_version": 1,
+ "latest_date": "2025-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Bayesian hierarchical models, group-level parameter arrays must be mapped to the observation axis, often using explicit indexing. In complex models with numerous incompatible data and parameter sets, this introduces the potential for bugs, as indexing with the incorrect indices typically fails silently. Here we present typegeist, a type system for Python that uses static type analysis to enable specification and enforcement of data-parameter-index correspondences. We show how this can be used with common probabilistic programming frameworks to help guarantee model correctness with minimal run-time overhead.",
+ "primary": "stat.CO"
+}

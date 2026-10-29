@@ -1,0 +1,15 @@
+{
+ "id": "2405.09797",
+ "title": "Extrapolating Single-Treatment Effects Out of Factorial Experiments",
+ "authors": [
+  "Guilherme Duarte"
+ ],
+ "v1_date": "2024-05-16",
+ "latest_version": 3,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite their cost, randomized controlled trials (RCTs) are widely regarded as gold-standard evidence in disciplines ranging from social science to medicine. In recent decades, researchers have increasingly sought to reduce the resource burden of repeated RCTs with factorial designs that simultaneously test multiple hypotheses, e.g. experiments that evaluate the effects of many medications or products simultaneously. Here I show that when multiple interventions are randomized in experiments, the effect any single intervention would have outside the experimental setting is not identified absent heroic assumptions, even if otherwise perfectly realistic conditions are achieved. This happens because single-treatment effects involve a counterfactual world with a single focal intervention, allowing other variables to take their natural values (which may be confounded or modified by the focal intervention). In contrast, observational studies and factorial experiments provide information about potential-outcome distributions with zero and multiple interventions, respectively. In this paper, I formalize sufficient conditions for the identifiability of those isolated quantities. I show that researchers who rely on this type of design have to justify either linearity of functional forms or -- in the nonparametric case -- specify with Directed Acyclic Graphs how variables are related in the real world. Finally, I develop nonparametric sharp bounds -- i.e., maximally informative best-/worst-case estimates consistent with limited RCT data -- that show when extrapolations about effect signs are empirically justified. These new results are illustrated with simulated data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2406.19346",
+ "title": "Eliciting prior information from clinical trials via calibrated Bayes factor",
+ "authors": [
+  "Roberto Macrì Demartino",
+  "Leonardo Egidi",
+  "Nicola Torelli",
+  "Ioannis Ntzoufras"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 2,
+ "latest_date": "2025-01-24",
+ "journal_ref": "Computational Statistics & Data Analysis 209 (2025): 108180",
+ "doi": "10.1016/j.csda.2025.108180",
+ "comment": "",
+ "abstract": "In the Bayesian framework power prior distributions are increasingly adopted in clinical trials and similar studies to incorporate external and past information, typically to inform the parameter associated to a treatment effect. Their use is particularly effective in scenarios with small sample sizes and where robust prior information is actually available. A crucial component of this methodology is represented by its weight parameter, which controls the volume of historical information incorporated into the current analysis. This parameter can be considered as either fixed or random. Although various strategies exist for its determination, eliciting the prior distribution of the weight parameter according to a full Bayesian approach remains a challenge. In general, this parameter should be carefully selected to accurately reflect the available prior information without dominating the posterior inferential conclusions. To this aim, we propose a novel method for eliciting the prior distribution of the weight parameter through a simulation-based calibrated Bayes factor procedure. This approach allows for the prior distribution to be updated based on the strength of evidence provided by the data: The goal is to facilitate the integration of historical data when it aligns with current information and to limit it when discrepancies arise in terms, for instance, of prior-data conflicts. The performance of the proposed method is tested through simulation studies and applied to real data from clinical trials.",
+ "primary": "stat.ME"
+}

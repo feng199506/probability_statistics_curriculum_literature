@@ -1,0 +1,16 @@
+{
+ "id": "2406.16227",
+ "title": "VICatMix: variational Bayesian clustering and variable selection for discrete biomedical data",
+ "authors": [
+  "Jackie Rao",
+  "Paul D. W. Kirk"
+ ],
+ "v1_date": "2024-06-23",
+ "latest_version": 2,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effective clustering of biomedical data is crucial in precision medicine, enabling accurate stratifiction of patients or samples. However, the growth in availability of high-dimensional categorical data, including `omics data, necessitates computationally efficient clustering algorithms. We present VICatMix, a variational Bayesian finite mixture model designed for the clustering of categorical data. The use of variational inference (VI) in its training allows the model to outperform competitors in term of efficiency, while maintaining high accuracy. VICatMix furthermore performs variable selection, enhancing its performance on high-dimensional, noisy data. The proposed model incorporates summarisation and model averaging to mitigate poor local optima in VI, allowing for improved estimation of the true number of clusters simultaneously with feature saliency. We demonstrate the performance of VICatMix with both simulated and real-world data, including applications to datasets from The Cancer Genome Atlas (TCGA), showing its use in cancer subtyping and driver gene discovery. We demonstrate VICatMix's utility in integrative cluster analysis with different `omics datasets, enabling the discovery of novel subtypes. \\textbf{Availability:} VICatMix is freely available as an R package, incorporating C++ for faster computation, at https://github.com/j-ackierao/VICatMix.",
+ "primary": "stat.ML"
+}

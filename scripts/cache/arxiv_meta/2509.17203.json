@@ -1,0 +1,15 @@
+{
+ "id": "2509.17203",
+ "title": "Hodge Decomposition for Urban Traffic Flow: Limits on Dense OD Graphs and Advantages on Road Networks - Los Angeles Case",
+ "authors": [
+  "Yifei Sun"
+ ],
+ "v1_date": "2025-09-21",
+ "latest_version": 1,
+ "latest_date": "2025-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "I study Hodge decomposition (HodgeRank) for urban traffic flow on two graph representations: dense origin--destination (OD) graphs and road-segment networks. Reproducing the method of Aoki et al., we observe that on dense OD graphs the curl and harmonic components are negligible and the potential closely tracks node divergence, limiting the added value of Hodge potentials. In contrast, on a real road network (UTD19, downtown Los Angeles; 15-minute resolution), potentials differ substantially from divergence and exhibit clear morning/evening reversals consistent with commute patterns. We quantify smoothness and discriminability via local/global variances derived from the graph spectrum, and propose flow-aware embeddings that combine topology, bidirectional volume, and net-flow asymmetry for clustering. Code and preprocessing steps are provided to facilitate reproducibility.",
+ "primary": "cs.SI"
+}

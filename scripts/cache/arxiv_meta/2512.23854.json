@@ -1,0 +1,15 @@
+{
+ "id": "2512.23854",
+ "title": "Extrapolating LATE with Weak IVs",
+ "authors": [
+  "Muyang Ren"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 1,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages (main text), 6 figures, 8 tables",
+ "abstract": "To evaluate the effectiveness of a counterfactual policy, it is often necessary to extrapolate treatment effects on compliers to broader populations. This extrapolation relies on exogenous variation in instruments, which is often weak in practice. This limited variation leads to invalid confidence intervals that are typically too short and cannot be accurately detected by classical methods. For instance, the F-test may falsely conclude that the instruments are strong. Consequently, I develop inference results that are valid even with limited variation in the instruments. These results lead to asymptotically valid confidence sets for various linear functionals of marginal treatment effects, including LATE, ATE, ATT, and policy-relevant treatment effects, regardless of identification strength. This is the first paper to provide weak instrument robust inference results for this class of parameters. Finally, I illustrate my results using data from Agan, Doleac, and Harvey (2023) to analyze counterfactual policies of changing prosecutors' leniency and their effects on reducing recidivism.",
+ "primary": "econ.EM"
+}

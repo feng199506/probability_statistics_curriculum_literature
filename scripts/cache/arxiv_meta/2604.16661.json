@@ -1,0 +1,16 @@
+{
+ "id": "2604.16661",
+ "title": "Horseshoe Predictive Inference",
+ "authors": [
+  "Percy S. Zhai",
+  "Veronika Ročková"
+ ],
+ "v1_date": "2026-04-17",
+ "latest_version": 1,
+ "latest_date": "2026-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Predictive inference in the sparse Gaussian sequence model has received considerably less attention than its non-sparse, finite-sample counterpart. Existing work has largely been confined to discrete mixture priors. In this paper, we study predictive inference under a widely used continuous mixture prior, the Horseshoe. We provide new theoretical results establishing exact asymptotic minimax optimality of the predictive Bayes estimator when the sparsity level is known. Furthermore, through a Gaussian-mixture representation of the posterior predictive density (which we term Horseshoe spectroscopy), the phase-transition in the local shrinkage scale is inherited by the predictive mechanism, producing behavior similar to that of previous thresholding/switching estimators. When sparsity is unknown, we adopt a fully Bayesian approach using a hierarchical Horseshoe prior and show that it performs adaptive, as opposed to manual, switching. Under a theta-min condition, the resulting predictive risk admits an upper bound over a restricted parameter class that is sharper than the minimax rate over the full class. We demonstrate the practical value of predictive Horseshoe shrinkage on data such as images and time series that can be naturally modeled as sparse Gaussian sequences. We illustrate this approach on facial recognition across varying facial expressions and study region-wise atypical brain lateralization in autism spectrum disorder.",
+ "primary": "math.ST"
+}

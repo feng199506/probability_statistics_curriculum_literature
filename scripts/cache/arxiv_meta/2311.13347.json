@@ -1,0 +1,15 @@
+{
+ "id": "2311.13347",
+ "title": "Loss-based Objective and Penalizing Priors for Model Selection Problems",
+ "authors": [
+  "Changwoo J. Lee"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 1,
+ "latest_date": "2023-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 3 figures",
+ "abstract": "Many Bayesian model selection problems, such as variable selection or cluster analysis, start by setting prior model probabilities on a structured model space. Based on a chosen loss function between models, model selection is often performed with a Bayes estimator that minimizes the posterior expected loss. The prior model probabilities and the choice of loss both highly affect the model selection results, especially for data with small sample sizes, and their proper calibration and careful reflection of no prior model preference are crucial in objective Bayesian analysis. We propose risk equilibrium priors as an objective choice for prior model probabilities that only depend on the model space and the choice of loss. Under the risk equilibrium priors, the Bayes action becomes indifferent before observing data, and the family of the risk equilibrium priors includes existing popular objective priors in Bayesian variable selection problems. We generalize the result to the elicitation of objective priors for Bayesian cluster analysis with Binder's loss. We also propose risk penalization priors, where the Bayes action chooses the simplest model before seeing data. The concept of risk equilibrium and penalization priors allows us to interpret prior properties in light of the effect of loss functions, and also provides new insight into the sensitivity of Bayes estimators under the same prior but different loss. We illustrate the proposed concepts with variable selection simulation studies and cluster analysis on a galaxy dataset.",
+ "primary": "stat.ME"
+}

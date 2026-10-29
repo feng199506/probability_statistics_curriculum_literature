@@ -1,0 +1,15 @@
+{
+ "id": "2501.06864",
+ "title": "Fisher's Randomization Test for Causality with General Types of Treatments",
+ "authors": [
+  "Zhen Zhong"
+ ],
+ "v1_date": "2025-01-12",
+ "latest_version": 2,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We extend Fisher's randomization test (FRT) to test conditional independence between observed outcomes and treatments given covariates in both randomized experiments and observational studies, with no restriction on the variable type of treatments. Under a generalized unconfoundedness assumption, we provide causal identification for this hypothesis. Our approach requires neither the no-interference nor the positive overlap assumption, making it a widely applicable tool for detecting causal effects. A unique advantage of FRT lies in the separated roles of assignment and outcome models. The former, whether known from randomized experiments or estimated in observational studies, guarantees valid Type I error control at least asymptotically. The latter, even if misspecified, is used to construct optimal test statistics derived from Bayes factors. The synthesis of two classes of models through FRT yields a calibrated Bayesian procedure with desired frequentist properties. Recognizing that the generalized unconfoundedness assumption is untestable in observational studies, we develop a novel sensitivity analysis to assess the robustness of causal conclusions to unobserved confounding. Through a re-analysis of a panel dataset, we show how our methods can be integrated into a pipeline for observational causal inference.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.07170",
+ "title": "Bayesian Dynamic Gamma Models for Route-Level Travel Time Reliability",
+ "authors": [
+  "Vadim Sokolov",
+  "Refik Soyer"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Route-level travel time reliability requires characterizing the distribution of total travel time across correlated segments -- a problem where existing methods either assume independence (fast but miscalibrated) or model dependence via copulas and simulation (accurate but expensive). We propose a conjugate Bayesian dynamic Gamma model with a common random environment that resolves this trade-off. Each segment's travel time follows a Gamma distribution conditional on a shared latent environment process that evolves as a Markov chain, inducing cross-segment dependence while preserving conditional independence. A moment-matching approximation yields a closed-form $F$-distribution for route travel time, from which the Planning Time Index, Buffer Index, and on-time probability are computed instantly -- at the same $O(1)$ cost as independence-based methods. The conjugate structure ensures that Bayesian posterior updates and the full predictive distribution are available in closed form as new sensor data arrives. Applied to 16 sensors spanning 8.26 miles on I-55 in Chicago, the model achieves 95.4% coverage of nominal 90\\% predictive intervals versus 34--37% for independence-based convolution, at identical computational cost.",
+ "primary": "stat.AP"
+}

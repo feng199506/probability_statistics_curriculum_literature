@@ -1,0 +1,17 @@
+{
+ "id": "2405.13767",
+ "title": "Enhancing Dose Selection in Phase I Cancer Trials: Extending the Bayesian Logistic Regression Model with Non-DLT Adverse Events Integration",
+ "authors": [
+  "Andrea Nizzardo",
+  "Luca Genetti",
+  "Marco Pergher"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 4,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 7 tables, 10 figures; revised version of the submission to \"Journal of Biopharmaceutical Statistics\"",
+ "abstract": "This work introduces the Burdened Bayesian Logistic Regression Model (BBLRM), an enhancement of the Bayesian Logistic Regression Model (BLRM) for dose-finding in phase I oncology trials. The BLRM determines the maximum tolerated dose (MTD) based on dose limiting toxicities (DLTs). However, clinicians often perceive model-based designs like BLRM as complex and less conservative than rule-based designs, such as the widely used 3+3 method. To address these concerns, BBLRM incorporates non-DLT adverse events (nDLTAEs), which, although not severe enough to be DLTs, indicate potential toxicity risks at higher doses. BBLRM introduces an additional parameter δ to account for nDLTAEs, adjusting toxicity probability estimates to make dose escalation more conservative while maintaining accurate MTD allocation. This parameter, generated basing on the proportion of patients experiencing nDLTAEs, is tuned to balance conservatism with model performance, reducing the risk of selecting overly toxic doses. Additionally, involving clinicians in identifying nDLTAEs enhances their engagement in the dose-finding process. A simulation study compares BBLRM with two other BLRM methods and a two-stage Continual Reassessment Method (CRM) incorporating nDLTAEs. Results show that BBLRM reduces the proportion of toxic doses selected as MTD without compromising the accuracy in MTD identification. These findings suggest that integrating nDLTAEs can improve the safety and acceptance of model-based designs in phase I oncology trials.",
+ "primary": "stat.ME"
+}

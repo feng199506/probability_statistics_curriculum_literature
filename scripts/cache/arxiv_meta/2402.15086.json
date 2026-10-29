@@ -1,0 +1,21 @@
+{
+ "id": "2402.15086",
+ "title": "A modified debiased inverse-variance weighted estimator in two-sample summary-data Mendelian randomization",
+ "authors": [
+  "Youpeng Su",
+  "Siqi Xu",
+  "Yilei Ma",
+  "Ping Yin",
+  "Wing Kam Fung",
+  "Hongwei Jiang",
+  "Peng Wang"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 2,
+ "latest_date": "2024-03-18",
+ "journal_ref": "Statistics in Medicine (2024)",
+ "doi": "10.1002/sim.10245",
+ "comment": "33 pages, 6 figures. Statistics in Medicine (2024)",
+ "abstract": "Mendelian randomization uses genetic variants as instrumental variables to make causal inferences about the effects of modifiable risk factors on diseases from observational data. One of the major challenges in Mendelian randomization is that many genetic variants are only modestly or even weakly associated with the risk factor of interest, a setting known as many weak instruments. Many existing methods, such as the popular inverse-variance weighted (IVW) method, could be biased when the instrument strength is weak. To address this issue, the debiased IVW (dIVW) estimator, which is shown to be robust to many weak instruments, was recently proposed. However, this estimator still has non-ignorable bias when the effective sample size is small. In this paper, we propose a modified debiased IVW (mdIVW) estimator by multiplying a modification factor to the original dIVW estimator. After this simple correction, we show that the bias of the mdIVW estimator converges to zero at a faster rate than that of the dIVW estimator under some regularity conditions. Moreover, the mdIVW estimator has smaller variance than the dIVW estimator.We further extend the proposed method to account for the presence of instrumental variable selection and balanced horizontal pleiotropy. We demonstrate the improvement of the mdIVW estimator over the dIVW estimator through extensive simulation studies and real data analysis.",
+ "primary": "stat.ME"
+}

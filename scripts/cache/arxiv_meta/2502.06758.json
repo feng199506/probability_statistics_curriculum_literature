@@ -1,0 +1,16 @@
+{
+ "id": "2502.06758",
+ "title": "Comment on \"Generic machine learning inference on heterogeneous treatment effects in randomized experiments.\"",
+ "authors": [
+  "Kosuke Imai",
+  "Michael Lingzhi Li"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 1,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comment on arXiv:1712.04802",
+ "abstract": "We analyze the split-sample robust inference (SSRI) methodology proposed by Chernozhukov, Demirer, Duflo, and Fernandez-Val (CDDF) for quantifying uncertainty in heterogeneous treatment effect estimation. While SSRI effectively accounts for randomness in data splitting, its computational cost can be prohibitive when combined with complex machine learning (ML) models. We present an alternative randomization inference (RI) approach that maintains SSRI's generality without requiring repeated data splitting. By leveraging cross-fitting and design-based inference, RI achieves valid confidence intervals while significantly reducing computational burden. We compare the two methods through simulation, demonstrating that RI retains statistical efficiency while being more practical for large-scale applications.",
+ "primary": "stat.ME"
+}

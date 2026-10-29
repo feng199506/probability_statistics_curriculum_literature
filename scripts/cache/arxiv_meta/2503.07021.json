@@ -1,0 +1,18 @@
+{
+ "id": "2503.07021",
+ "title": "Learning Energy-Based Models by Self-normalising the Likelihood",
+ "authors": [
+  "Hugo Senetaire",
+  "Paul Jeha",
+  "Pierre-Alexandre Mattei",
+  "Jes Frellsen"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 1,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10pages, 3figures",
+ "abstract": "Training an energy-based model (EBM) with maximum likelihood is challenging due to the intractable normalisation constant. Traditional methods rely on expensive Markov chain Monte Carlo (MCMC) sampling to estimate the gradient of logartihm of the normalisation constant. We propose a novel objective called self-normalised log-likelihood (SNL) that introduces a single additional learnable parameter representing the normalisation constant compared to the regular log-likelihood. SNL is a lower bound of the log-likelihood, and its optimum corresponds to both the maximum likelihood estimate of the model parameters and the normalisation constant. We show that the SNL objective is concave in the model parameters for exponential family distributions. Unlike the regular log-likelihood, the SNL can be directly optimised using stochastic gradient techniques by sampling from a crude proposal distribution. We validate the effectiveness of our proposed method on various density estimation tasks as well as EBMs for regression. Our results show that the proposed method, while simpler to implement and tune, outperforms existing techniques.",
+ "primary": "cs.LG"
+}

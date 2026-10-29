@@ -1,0 +1,15 @@
+{
+ "id": "2603.10674",
+ "title": "Conformal prediction for high-dimensional functional time series: Applications to subnational mortality",
+ "authors": [
+  "Han Lin Shang"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 5 figures, 2 tables",
+ "abstract": "In statistics, forecast uncertainty is often quantified using a specified statistical model, though such approaches may be vulnerable to model misspecification, selection bias, and limited finite-sample validity. While bootstrapping can potentially mitigate some of these concerns, it is often computationally demanding. Instead, we take a model-agnostic and distribution-free approach, namely conformal prediction, to construct prediction intervals in high-dimensional functional time series. Among a rich family of conformal prediction methods, we study split and sequential conformal prediction. In split conformal prediction, the data are divided into training, validation, and test sets, where the validation set is used to select optimal tuning parameters by calibrating empirical coverage probabilities to match nominal levels; after this, prediction intervals are constructed for the test set, and their accuracy is evaluated. In contrast, sequential conformal prediction removes the need for a validation set by updating predictive quantiles sequentially via an autoregressive process. Using subnational age-specific log-mortality data from Japan and Canada, we compare the finite-sample forecast performance of these two conformal methods using empirical coverage probability and the mean interval score.",
+ "primary": "stat.ME"
+}

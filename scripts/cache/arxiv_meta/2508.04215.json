@@ -1,0 +1,17 @@
+{
+ "id": "2508.04215",
+ "title": "Robust estimation of causal dose-response relationship using exposure data with dose as an instrumental variable",
+ "authors": [
+  "Jixian Wang",
+  "Zhiwei Zhang",
+  "Ram Tiwari"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 1,
+ "latest_date": "2025-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 2 figures",
+ "abstract": "An accurate estimation of the dose-response relationship is important to determine the optimal dose. For this purpose, a dose finding trial in which subjects are randomized to a few fixed dose levels is the most commonly used design. Often, the estimation uses response data only, although drug exposure data are often obtained during the trial. The use of exposure data to improve this estimation is difficult, as exposure-response relationships are typically subject to confounding bias even in a randomized trial. We propose a robust approach to estimate the dose-response relationship without assuming a true exposure-response model, using dose as an instrumental variable. Our approach combines the control variable approach in causal inference with unobserved confounding factors and the ANCOVA adjustment of randomized trials. The approach presented uses working models for dose-exposure-response data, but they are robust to model misspecification and remain consistent when the working models are far from correct. The asymptotic properties of the proposed approach are also examined. A simulation study is performed to evaluate the performance of the proposed approach. For illustration, the approach is used to a Car-T trial with randomized doses.",
+ "primary": "stat.ME"
+}

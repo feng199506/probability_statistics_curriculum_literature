@@ -1,0 +1,20 @@
+{
+ "id": "2509.06223",
+ "title": "Maximum-likelihood estimation of the Matérn covariance structure of isotropic spatial random fields on finite, sampled grids",
+ "authors": [
+  "Frederik J. Simons",
+  "Olivia L. Walbert",
+  "Arthur P. Guillaumin",
+  "Gabriel L. Eggers",
+  "Kevin W. Lewis",
+  "Sofia C. Olhede"
+ ],
+ "v1_date": "2025-09-07",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Geophysical Journal International, January 2026",
+ "abstract": "We present a statistically and computationally efficient spectral-domain maximum-likelihood procedure to solve for the structure of Gaussian spatial random fields within the Matern covariance hyperclass. For univariate, stationary, and isotropic fields, the three controlling parameters are the process variance, smoothness, and range. The debiased Whittle likelihood maximization explicitly treats discretization and edge effects for finite sampled regions in parameter estimation and uncertainty quantification. As even the best parameter estimate may not be good enough, we provide a test for whether the model specification itself warrants rejection. Our results are practical and relevant for the study of a variety of geophysical fields, and for spatial interpolation, out-of-sample extension, kriging, machine learning, and feature detection of geological data. We present procedural details and high-level results on real-world examples.",
+ "primary": "stat.ME"
+}

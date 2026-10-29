@@ -1,0 +1,16 @@
+{
+ "id": "2407.01036",
+ "title": "Ranking by Lifts: A Cost-Benefit Approach to Large-Scale A/B Tests",
+ "authors": [
+  "Pallavi Basu",
+  "Ron Berman"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 3,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updated",
+ "abstract": "A/B testing is a core tool for decision-making in business experimentation, particularly in digital platforms and marketplaces. Practitioners often prioritize lift in performance metrics while seeking to control the costs of false discoveries. This paper develops a decision-theoretic framework for maximizing expected profit subject to a constraint on the cost-weighted false discovery rate (FDR). We propose an empirical Bayes approach that uses a greedy knapsack algorithm to rank experiments based on the ratio of expected lift to cost, incorporating the local false discovery rate (lfdr) as a key statistic. The resulting oracle rule is valid and rank-optimal. In large-scale settings, we establish the asymptotic validity of a data-driven implementation and demonstrate superior finite-sample performance over existing FDR-controlling methods. An application to A/B tests run on the Optimizely platform highlights the business value of the approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2602.20383",
+ "title": "Detecting and Mitigating Group Bias in Heterogeneous Treatment Effects",
+ "authors": [
+  "Joel Persson",
+  "Jurriën Bakker",
+  "Dennis Bohle",
+  "Stefan Feuerriegel",
+  "Florian von Wangenheim"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Heterogeneous treatment effects (HTEs) are increasingly estimated using machine learning models that produce highly personalized predictions of treatment effects. In practice, however, predicted treatment effects are rarely interpreted, reported, or audited at the individual level but, instead, are often aggregated to broader subgroups, such as demographic segments, risk strata, or markets. We show that such aggregation can induce systematic bias of the group-level causal effect: even when models for predicting the individual-level conditional average treatment effect (CATE) are correctly specified and trained on data from randomized experiments, aggregating the predicted CATEs up to the group level does not, in general, recover the corresponding group average treatment effect (GATE). We develop a unified statistical framework to detect and mitigate this form of group bias in randomized experiments. We first define group bias as the discrepancy between the model-implied and experimentally identified GATEs, derive an asymptotically normal estimator, and then provide a simple-to-implement statistical test. For mitigation, we propose a shrinkage-based bias-correction, and show that the theoretically optimal and empirically feasible solutions have closed-form expressions. The framework is fully general, imposes minimal assumptions, and only requires computing sample moments. We analyze the economic implications of mitigating detected group bias for profit-maximizing personalized targeting, thereby characterizing when bias correction alters targeting decisions and profits, and the trade-offs involved. Applications to large-scale experimental data at major digital platforms validate our theoretical results and demonstrate empirical performance.",
+ "primary": "stat.ME"
+}

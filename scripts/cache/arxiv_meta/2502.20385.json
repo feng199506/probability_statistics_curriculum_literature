@@ -1,0 +1,16 @@
+{
+ "id": "2502.20385",
+ "title": "rSPDE: tools for statistical modeling using fractional SPDEs",
+ "authors": [
+  "David Bolin",
+  "Alexandre B. Simas"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 1,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages",
+ "abstract": "The R software package rSPDE contains methods for approximating Gaussian random fields based on fractional-order stochastic partial differential equations (SPDEs). A common example of such fields are Whittle-Matérn fields on bounded domains in $\\mathbb{R}^d$, manifolds, or metric graphs. The package also implements various other models which are briefly introduced in this article. Besides the approximation methods, the package contains methods for simulation, prediction, and statistical inference for such models, as well as interfaces to INLA, inlabru and MetricGraph. With these interfaces, fractional-order SPDEs can be used as model components in general latent Gaussian models, for which full Bayesian inference can be performed, also for fractional models on metric graphs. This includes estimation of the smoothness parameter of the fields. This article describes the computational methods used in the package and summarizes the theoretical basis for these. The main functions of the package are introduced, and their usage is illustrated through various examples.",
+ "primary": "stat.CO"
+}

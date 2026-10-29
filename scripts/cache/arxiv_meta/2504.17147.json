@@ -1,0 +1,18 @@
+{
+ "id": "2504.17147",
+ "title": "A Delayed Acceptance Auxiliary Variable MCMC for Spatial Models with Intractable Likelihood Function",
+ "authors": [
+  "Jong Hyeon Lee",
+  "Jongmin Kim",
+  "Heesang Lee",
+  "Jaewoo Park"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 2,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A large class of spatial models contains intractable normalizing functions, such as spatial lattice models, interaction spatial point processes, and social network models. Bayesian inference for such models is challenging since the resulting posterior distribution is doubly intractable. Although auxiliary variable MCMC (AVM) algorithms are known to be the most practical, they are computationally expensive due to the repeated auxiliary variable simulations. To address this, we propose delayed-acceptance AVM (DA-AVM) methods, which can reduce the number of auxiliary variable simulations. The first stage of the kernel uses a cheap surrogate to decide whether to accept or reject the proposed parameter value. The second stage guarantees detailed balance with respect to the posterior. The auxiliary variable simulation is performed only on the parameters accepted in the first stage. We construct various surrogates specifically tailored for doubly intractable problems, including subsampling strategy, Gaussian process emulation, and frequentist estimator-based approximation. We validate our method through simulated and real data applications, demonstrating its practicality for complex spatial models.",
+ "primary": "stat.ME"
+}

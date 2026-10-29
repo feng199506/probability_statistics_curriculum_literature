@@ -1,0 +1,18 @@
+{
+ "id": "2605.14943",
+ "title": "Piece-wise linear isotonic regression",
+ "authors": [
+  "Timo Kuosmanen",
+  "Juan F. Monge",
+  "José L. Ruiz",
+  "Xun Zhou"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 2,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Isotonic regression provides a flexible, tuning-free approach to estimating monotonic functions without imposing global curvature constraints, yet the estimated regression function is inherently a step function. This paper addresses a key limitation of such estimators: their inability to provide meaningful marginal properties, such as shadow prices or elasticities. We propose a novel piece-wise linear smoothing framework that recovers meaningful marginal estimates even in non-convex settings. Building on the concept of conditional convexity originally developed in deterministic frontier analysis, we formulate the smoothing process as a bilevel optimization problem that fits a continuous, monotonic, piece-wise linear function to the initial isotonic regression predictions. Monte Carlo simulations demonstrate that the proposed approach can significantly improve estimation accuracy in both convex and non-convex settings for univariate and multivariate data. We apply this approach to analyze agglomeration economies in Finnish municipalities, illustrating its practical value.",
+ "primary": "stat.ME"
+}

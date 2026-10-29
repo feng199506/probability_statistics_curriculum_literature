@@ -1,0 +1,19 @@
+{
+ "id": "2405.05909",
+ "title": "Multilevel Regression and Poststratification Interface: An Application to Track Community-level COVID-19 Viral Transmission",
+ "authors": [
+  "Yajuan Si",
+  "Toan Tran",
+  "Jonah Gabry",
+  "Mitzi Morris",
+  "Andrew Gelman"
+ ],
+ "v1_date": "2024-05-09",
+ "latest_version": 3,
+ "latest_date": "2026-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a novel Bayesian workflow for multilevel regression and poststratification (MRP), introducing extensions to time-varying data and granular geography and publicly available open-source computation tools, facilitating broad research adoption and reproducibility. In the absence of comprehensive or random testing throughout the COVID-19 pandemic, we have developed a proxy method for synthetic random sampling to estimate community-level viral incidence, based on viral RNA testing of asymptomatic patients who present for elective procedures within a hospital system. The approach collects routine testing data on SARS-CoV-2 exposure among outpatients and performs statistical adjustments of sample representation using MRP, a procedure that adjusts for nonrepresentativeness of the sample and yields stable small group estimates. We illustrate the MRP interface with an application to track community-level COVID-19 viral transmission in the state of Michigan.",
+ "primary": "stat.AP"
+}

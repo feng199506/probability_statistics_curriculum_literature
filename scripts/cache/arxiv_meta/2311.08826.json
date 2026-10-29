@@ -1,0 +1,15 @@
+{
+ "id": "2311.08826",
+ "title": "Multi-stage Euler-Maruyama methods for backward stochastic differential equations driven by continuous-time Markov chains",
+ "authors": [
+  "Akihiro Kaneko"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 2,
+ "latest_date": "2023-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Numerical methods for computing the solutions of Markov backward stochastic differential equations (BSDEs) driven by continuous-time Markov chains (CTMCs) are explored. The main contributions of this paper are as follows: (1) we observe that Euler-Maruyama temporal discretization methods for solving Markov BSDEs driven by CTMCs are equivalent to exponential integrators for solving the associated systems of ordinary differential equations (ODEs); (2) we introduce multi-stage Euler-Maruyama methods for effectively solving \"stiff\" Markov BSDEs driven by CTMCs; these BSDEs typically arise from the spatial discretization of Markov BSDEs driven by Brownian motion; (3) we propose a multilevel spatial discretization method on sparse grids that efficiently approximates high-dimensional Markov BSDEs driven by Brownian motion with a combination of multiple Markov BSDEs driven by CTMCs on grids with different resolutions. We also illustrate the effectiveness of the presented methods with a number of numerical experiments in which we treat nonlinear BSDEs arising from option pricing problems in finance.",
+ "primary": "math.PR"
+}

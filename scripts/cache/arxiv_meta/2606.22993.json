@@ -1,0 +1,15 @@
+{
+ "id": "2606.22993",
+ "title": "Generalized nonparametric regression in reproducing kernel Hilbert spaces: Consistency and rates of convergence",
+ "authors": [
+  "Ioannis Kalogridis"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a comprehensive theory for regularized M-estimation in reproducing kernel Hilbert spaces. Under mild conditions on the loss we establish existence and measurability of the estimator, covering a wide range of convex and non-convex losses, including bounded robust losses. We further prove sharp rates of convergence with an explicit bias-variance decomposition governed by a novel complexity measure. We show that the variance is independent of misspecification, while the bias depends on a source condition parameter known in the learning literature. For tensor product Sobolev spaces we obtain new rates that connect to spaces of functions with dominating mixed smoothness, substantially extending existing results and explaining why these estimators circumvent the curse of dimensionality. Our methodology, combining elements from both functional analysis and empirical process theory, allows for an asymptotic linearisation of the objective function that avoids both closed-form solutions and global Lipschitz assumptions, and may be of independent interest. The estimators are implemented in C++ and theory is supported by numerical experiments.",
+ "primary": "math.ST"
+}

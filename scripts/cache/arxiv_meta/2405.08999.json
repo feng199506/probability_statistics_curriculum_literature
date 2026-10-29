@@ -1,0 +1,16 @@
+{
+ "id": "2405.08999",
+ "title": "Robust Approximate Sampling via Stochastic Gradient Barker Dynamics",
+ "authors": [
+  "Lorenzo Mauri",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 1,
+ "latest_date": "2024-05-14",
+ "journal_ref": "Proceedings of The 27th International Conference on Artificial Intelligence and Statistics, AISTATS'24, volume 238, 2024, page 2107-2115",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic Gradient (SG) Markov Chain Monte Carlo algorithms (MCMC) are popular algorithms for Bayesian sampling in the presence of large datasets. However, they come with little theoretical guarantees and assessing their empirical performances is non-trivial. In such context, it is crucial to develop algorithms that are robust to the choice of hyperparameters and to gradients heterogeneity since, in practice, both the choice of step-size and behaviour of target gradients induce hard-to-control biases in the invariant distribution. In this work we introduce the stochastic gradient Barker dynamics (SGBD) algorithm, extending the recently developed Barker MCMC scheme, a robust alternative to Langevin-based sampling algorithms, to the stochastic gradient framework. We characterize the impact of stochastic gradients on the Barker transition mechanism and develop a bias-corrected version that, under suitable assumptions, eliminates the error due to the gradient noise in the proposal. We illustrate the performance on a number of high-dimensional examples, showing that SGBD is more robust to hyperparameter tuning and to irregular behavior of the target gradients compared to the popular stochastic gradient Langevin dynamics algorithm.",
+ "primary": "stat.ML"
+}

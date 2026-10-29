@@ -1,0 +1,16 @@
+{
+ "id": "2403.06357",
+ "title": "Inference for Median and a Generalization of HulC",
+ "authors": [
+  "Manit Paul",
+  "Arun Kumar Kuchibhotla"
+ ],
+ "v1_date": "2024-03-11",
+ "latest_version": 2,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "88 pages, 12 figures",
+ "abstract": "It is well-documented in the literature that sample splitting offers significant methodological and theoretical advantages in statistical inference. This, for example, includes cross-fitting in double machine learning, universal inference for parametric inference, and split conformal prediction. The recently proposed inference method, HulC, also falls into this category. HulC operates by viewing the target functional of interest as an approximate median of an estimator and applying the classical distribution-free confidence intervals for median with minimal sample size. When the estimators are asymptotically normal, HulC intervals are shown to be 50\\% wider than the Wald intervals asymptotically, on average, for $95\\%$ coverage. Interestingly, this ratio of widths converges to a non-degenerate distribution. In this paper, we propose a generalization of HulC that are only 25\\% wider than the Wald intervals for asymptotically normal estimators, irrespective of the nominal coverage. Furthermore, similarly to HulC, these generalized intervals remain valid for a significantly wider class of problems with non-normal limiting distributions. To better understand width properties under non-normal limiting distributions, we analyze distribution-free confidence intervals for the median when the Lebesgue density at the median is either zero or infinite. Surprisingly, we find that properly scaled, the interval width converges to a non-degenerate random variable.",
+ "primary": "math.ST"
+}

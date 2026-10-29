@@ -1,0 +1,17 @@
+{
+ "id": "2503.13191",
+ "title": "Stein's method of moment estimators for local dependency exponential random graph models",
+ "authors": [
+  "Adrian Fischer",
+  "Gesine Reinert",
+  "Wenkai Xu"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 2,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updated version with detailed connection to MPLE",
+ "abstract": "Providing theoretical guarantees for parameter estimation in exponential random graph models is a largely open problem. While maximum likelihood estimation has theoretical guarantees in principle, verifying the assumptions for these guarantees to hold can be very difficult. Moreover, in complex networks, numerical maximum likelihood estimation is computer-intensive and may not converge in reasonable time. To ameliorate this issue, local dependency exponential random graph models have been introduced, which assume that the network consists of many independent exponential random graphs. In this setting, progress towards maximum likelihood estimation has been made. However the estimation is still computer-intensive. Instead, we propose to use so-called Stein estimators: we use the Stein characterizations to obtain new estimators for local dependency exponential random graph models.",
+ "primary": "math.ST"
+}

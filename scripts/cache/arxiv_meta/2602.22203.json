@@ -1,0 +1,15 @@
+{
+ "id": "2602.22203",
+ "title": "Local Bayesian Regression",
+ "authors": [
+  "Nils Lid Hjort"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 1,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages; statistical Research Report, Department of Mathematics, University of Oslo, August 1994, but arXiv'd in February 2026. A journal paper can be written up based on this report, requiring though numerical studies and good illustrations",
+ "abstract": "This paper develops a class of Bayesian non- and semiparametric methods for estimating regression curves and surfaces. The main idea is to model the regression as locally linear, and then place suitable local priors on the local parameters. The method requires the posterior distribution of the local parameters given local data, and this is found via a suitably defined local likelihood function. When the width of the local data window is large the methods reduce to familiar fully parametric Bayesian methods, and when the width is small the estimators are essentially nonparametric. When noninformative reference priors are used the resulting estimators coincide with recently developed well-performing local weighted least squares methods for nonparametric regression. Each local prior distribution needs in general a centre parameter and a variance parameter. Of particular interest are versions of the scheme that are more or less automatic and objective in the sense that they do not require subjective specifications of prior parameters. We therefore develop empirical Bayes methods to obtain the variance parameter and a hierarchical Bayes method to account for uncertainty in the choice of centre parameter. There are several possible versions of the general programme, and a number of its specialisations are discussed. Some of these are shown to be capable of outperforming standard nonparametric regression methods, particularly in situations with several covariates.",
+ "primary": "stat.ME"
+}

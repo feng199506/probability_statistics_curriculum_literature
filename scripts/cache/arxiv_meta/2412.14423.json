@@ -1,0 +1,17 @@
+{
+ "id": "2412.14423",
+ "title": "Cross-Validation with Antithetic Gaussian Randomization",
+ "authors": [
+  "Sifan Liu",
+  "Snigdha Panigrahi",
+  "Jake A. Soloff"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 3,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a new cross-validation method based on an equicorrelated Gaussian randomization scheme. Our method is well-suited for problems where sample splitting is infeasible, either because the data violate the assumption of independent and identically distributed samples, or because there are insufficient samples to form representative train-test data pairs. In such problems, our method provides a simple, principled, and computationally efficient approach to estimating prediction error, often outperforming standard cross-validation while requiring only a small number of repetitions. Drawing inspiration from recent splitting techniques like data fission and data thinning, our method constructs train-test data pairs using Gaussian randomization. Our main contribution is the introduction of an antithetic Gaussian randomization scheme, involving a carefully designed correlation structure among the randomization variables. We show theoretically that this antithetic construction can eliminate the bias of cross-validation for a broad class of smooth prediction functions, without inflating variance. Through simulations across a range of data types and loss functions, we demonstrate that our estimator outperforms existing methods for prediction error estimation.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2406.06749",
+ "title": "Federated Nonparametric Hypothesis Testing with Differential Privacy Constraints: Optimal Rates and Adaptive Tests",
+ "authors": [
+  "T. Tony Cai",
+  "Abhinav Chakraborty",
+  "Lasse Vuursteen"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 1,
+ "latest_date": "2024-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "77 pages total; consisting of a main article (28 pages) and supplement (49 pages)",
+ "abstract": "Federated learning has attracted significant recent attention due to its applicability across a wide range of settings where data is collected and analyzed across disparate locations. In this paper, we study federated nonparametric goodness-of-fit testing in the white-noise-with-drift model under distributed differential privacy (DP) constraints. We first establish matching lower and upper bounds, up to a logarithmic factor, on the minimax separation rate. This optimal rate serves as a benchmark for the difficulty of the testing problem, factoring in model characteristics such as the number of observations, noise level, and regularity of the signal class, along with the strictness of the $(ε,δ)$-DP requirement. The results demonstrate interesting and novel phase transition phenomena. Furthermore, the results reveal an interesting phenomenon that distributed one-shot protocols with access to shared randomness outperform those without access to shared randomness. We also construct a data-driven testing procedure that possesses the ability to adapt to an unknown regularity parameter over a large collection of function classes with minimal additional cost, all while maintaining adherence to the same set of DP constraints.",
+ "primary": "math.ST"
+}

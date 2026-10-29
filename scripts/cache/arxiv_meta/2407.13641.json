@@ -1,0 +1,16 @@
+{
+ "id": "2407.13641",
+ "title": "Optimal rates for estimating the covariance kernel from synchronously sampled functional data",
+ "authors": [
+  "Max Berger",
+  "Hajo Holzmann"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We obtain minimax-optimal convergence rates in the supremum norm, including information-theoretic lower bounds, for estimating the covariance kernel of a stochastic process which is repeatedly observed at discrete, synchronous design points. We focus on the supremum norm instead of the simpler $L_2$ norm, since it corresponds to the visualization of the estimation error and forms the basis for the construction of uniform confidence bands. For dense design, assuming Hölder-smooth sample paths we obtain the $\\sqrt n$-rate of convergence in the supremum norm without additional logarithmic factors which typically occur in the results in the literature. Surprisingly, in the transition from dense to sparse design the rates do not reflect the two-dimensional nature of the covariance kernel but correspond to those for univariate mean function estimation. Our estimation method can make use of higher-order smoothness of the covariance kernel away from the diagonal, and does not require the same smoothness on the diagonal itself. Hence, our results cover covariance kernels of processes with rough, non-differentiable sample paths. Moreover, the estimator does not use mean function estimation to form residuals, and no smoothness assumptions on the mean have to be imposed. In the dense case we also obtain a central limit theorem in the supremum norm, which can be used as the basis for the construction of uniform confidence sets. Extensions to estimating partial derivatives as well as to asynchronous designs are also discussed. Simulations and real-data applications illustrate the practical usefulness of the methods.",
+ "primary": "math.ST"
+}

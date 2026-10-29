@@ -1,0 +1,18 @@
+{
+ "id": "2501.18095",
+ "title": "Robust Mean Estimation With Auxiliary Samples",
+ "authors": [
+  "Barron Han",
+  "Danil Akhtiamov",
+  "Reza Ghane",
+  "Babak Hassibi"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 2,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to International Symposium on Information Theory 2025",
+ "abstract": "In data-driven learning and inference tasks, the high cost of acquiring samples from the target distribution often limits performance. A common strategy to mitigate this challenge is to augment the limited target samples with data from a more accessible \"auxiliary\" distribution. This paper establishes fundamental limits of this approach by analyzing the improvement in the mean square error (MSE) when estimating the mean of the target distribution. Using the Wasserstein-2 metric to quantify the distance between distributions, we derive expressions for the worst-case MSE when samples are drawn (with labels) from both a target distribution and an auxiliary distribution within a specified Wasserstein-2 distance from the target distribution. We explicitly characterize the achievable MSE and the optimal estimator in terms of the problem dimension, the number of samples from the target and auxiliary distributions, the Wasserstein-2 distance, and the covariance of the target distribution. We note that utilizing samples from the auxiliary distribution effectively improves the MSE when the squared radius of the Wasserstein-2 uncertainty ball is small compared to the variance of the true distribution and the number of samples from the true distribution is limited. Numerical simulations in the Gaussian location model illustrate the theoretical findings.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2508.12085",
+ "title": "Unified Conformalized Multiple Testing with Full Data Efficiency",
+ "authors": [
+  "Yuyang Huo",
+  "Xiaoyang Wu",
+  "Changliang Zou",
+  "Haojie Ren"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 2,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformalized multiple testing offers a model-free way to control predictive uncertainty in decision-making. Existing methods typically use only part of the available data to build score functions tailored to specific settings. We propose a unified framework that puts data utilisation at the centre: it uses all available data-null, alternative, and unlabelled-to construct scores and calibrate p-values through a full permutation strategy. This unified use of all available data significantly improves power by enhancing non-conformity score quality and maximising calibration set size while rigorously controlling the false discovery rate. Crucially, our framework provides a systematic design principle for conformal testing and enables automatic selection of the best conformal procedure among candidates without extra data splitting. Extensive numerical experiments demonstrate that our enhanced methods deliver superior efficiency and adaptability across diverse scenarios.",
+ "primary": "stat.ME"
+}

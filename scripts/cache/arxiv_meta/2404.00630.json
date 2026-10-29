@@ -1,0 +1,16 @@
+{
+ "id": "2404.00630",
+ "title": "Sobolev Calibration of Imperfect Computer Models",
+ "authors": [
+  "Qingwen Zhang",
+  "Wenjia Wang"
+ ],
+ "v1_date": "2024-03-31",
+ "latest_version": 1,
+ "latest_date": "2024-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Calibration refers to the statistical estimation of unknown model parameters in computer experiments, such that computer experiments can match underlying physical systems. This work develops a new calibration method for imperfect computer models, Sobolev calibration, which can rule out calibration parameters that generate overfitting calibrated functions. We prove that the Sobolev calibration enjoys desired theoretical properties including fast convergence rate, asymptotic normality and semiparametric efficiency. We also demonstrate an interesting property that the Sobolev calibration can bridge the gap between two influential methods: $L_2$ calibration and Kennedy and O'Hagan's calibration. In addition to exploring the deterministic physical experiments, we theoretically justify that our method can transfer to the case when the physical process is indeed a Gaussian process, which follows the original idea of Kennedy and O'Hagan's. Numerical simulations as well as a real-world example illustrate the competitive performance of the proposed method.",
+ "primary": "math.ST"
+}

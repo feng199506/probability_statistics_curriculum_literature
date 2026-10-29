@@ -1,0 +1,16 @@
+{
+ "id": "2312.07792",
+ "title": "Differentially private projection-depth-based medians",
+ "authors": [
+  "Kelly Ramsay",
+  "Dylan Spicker"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 3,
+ "latest_date": "2024-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 1 figure",
+ "abstract": "We develop $(ε,δ)$-differentially private projection-depth-based medians using the propose-test-release (PTR) and exponential mechanisms. Under general conditions on the input parameters and the population measure, (e.g. we do not assume any moment bounds), we quantify the probability the test in PTR fails, as well as the cost of privacy via finite sample deviation bounds. Next, we show that when some observations are contaminated, the private projection-depth-based median does not break down, provided its input location and scale estimators do not break down. We demonstrate our main results on the canonical projection-depth-based median, as well as on projection-depth-based medians derived from trimmed estimators. In the Gaussian setting, we show that the resulting deviation bound matches the known lower bound for private Gaussian mean estimation. In the Cauchy setting, we show that the ``outlier error amplification'' effect resulting from the heavy tails outweighs the cost of privacy. This result is then verified via numerical simulations. Additionally, we present results on general PTR mechanisms and a uniform concentration result on the projected spacings of order statistics, which may be of general interest.",
+ "primary": "math.ST"
+}

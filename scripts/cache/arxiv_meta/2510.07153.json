@@ -1,0 +1,17 @@
+{
+ "id": "2510.07153",
+ "title": "Randomization Restrictions: Their Impact on Type I Error When Experimenting with Finite Populations",
+ "authors": [
+  "Jonathan J. Chipman",
+  "Oleksandr Sverdlov",
+  "Diane Uschner"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 1,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 figures",
+ "abstract": "Participants in clinical trials are often viewed as a unique, finite population. Yet, statistical analyses often assume that participants were randomly sampled from a larger population. Under Complete Randomization, Randomization-Based Inference (RBI; a finite population inference) and Analysis of Variance (ANOVA; a random sampling inference) provide asymptotically equivalent difference-in-means tests. However, sequentially-enrolling trials typically employ restricted randomization schemes, such as block or Maximum Tolerable Imbalance (MTI) designs, to reduce the chance of chronological treatment imbalances. The impact of these restrictions on RBI and ANOVA concordance is not well understood. With real-world frames of reference, such as rare and ultra-rare diseases, we review full versus random sampling of finite populations and empirically evaluate finite population Type I error when using ANOVA following randomization restrictions. Randomization restrictions strongly impacted ANOVA Type I error, even for trials with 1,000 participants. Properly adjusting for restrictions corrected Type I error. We corrected for block randomization, yet leave open how to correct for MTI designs. More directly, RBI accounts for randomization restrictions while ensuring correct finite population Type I error. Novel contributions are: 1) deepening the understanding and correction of RBI and ANOVA concordance under block and MTI restrictions and 2) using finite populations to estimate the convergence of Type I error to a nominal rate. We discuss the challenge of specifying an estimand's population and reconciling with sampled trial participants.",
+ "primary": "stat.ME"
+}

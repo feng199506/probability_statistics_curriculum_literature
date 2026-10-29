@@ -1,0 +1,15 @@
+{
+ "id": "2404.04303",
+ "title": "Approximate Bayesian Computation As An Informed Fuzzing-Inference System",
+ "authors": [
+  "Chris Vaisnor"
+ ],
+ "v1_date": "2024-04-04",
+ "latest_version": 2,
+ "latest_date": "2024-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages",
+ "abstract": "The power of fuzz testing lies in its random, often brute-force, generation and execution of inputs to trigger unexpected behaviors and vulnerabilities in software applications. However, given the reality of infinite possible input sequences, pursuing all test combinations would not only be computationally expensive, but practically impossible. Approximate Bayesian Computation (ABC), a form of Bayesian simulation, represents a novel, probabilistic approach to addressing this problem. The parameter space for working with these types of problems is effectively infinite, and the application of these techniques is untested in relevant literature. We use a relaxed, manual implementation of two ABC methods, a Sequential Monte Carlo (SMC) simulation, and a Markov Chain Monte Carlo (MCMC) simulation. We found promising results with the SMC posterior and mixed results with MCMC posterior distributions on our white-box fuzz-test function.",
+ "primary": "cs.SE"
+}

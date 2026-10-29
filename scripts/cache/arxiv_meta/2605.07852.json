@@ -1,0 +1,18 @@
+{
+ "id": "2605.07852",
+ "title": "CHASM: Online Changepoint Detection in Temporal and Cross-Variable Dependence",
+ "authors": [
+  "Victor K. Khamesi",
+  "Edward A. K. Cohen",
+  "Niall M. Adams",
+  "Dean A. Bodenham"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 5 figures, and supplementary (53 pages total)",
+ "abstract": "Changepoint detection identifies times when the generative process of a time series changes, with applications in healthcare, cybersecurity, and finance. In multivariate settings, changes in cross-variable and temporal dependence are particularly challenging to detect, as they are often less pronounced than shifts in marginal statistics such as the mean or variance. Existing methods detect changes using reconstruction error, which provides only an indirect measure of dynamical change, or rely on scalar functionals that may be too coarse to capture global structure. We introduce CHASM, an online nonparametric method that monitors the truncated eigenvalue sequence of the recursively estimated dynamic mode decomposition operator. Designing such an approach raises two challenges: the permutation invariance of eigendecompositions, resolved via optimal linear assignment, and the lack of online changepoint methods for multivariate complex-valued time series, addressed through a novel augmented monitoring scheme. We study the theoretical properties of the dynamics estimator under the canonical vector autoregressive model, which directly motivates our algorithmic design. The proposed method achieves competitive or superior performance to modern competitors across synthetic and real-world data sets, including challenging settings in video and text data. It is unsupervised, depends on a small number of interpretable parameters, and requires no distributional assumptions beyond finite moments, making it readily deployable across scientific domains.",
+ "primary": "stat.ME"
+}

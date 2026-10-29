@@ -1,0 +1,17 @@
+{
+ "id": "2505.18205",
+ "title": "Source identification via pathwise gradient estimation",
+ "authors": [
+  "Richard B. Lehoucq",
+  "Scott A. McKinley",
+  "Petr Plecháč"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the context of PDE-constrained optimization theory, source identification problems traditionally entail particles emerging from an unknown source distribution inside a domain, moving according to a prescribed stochastic process, e.g.~Brownian motion, and then exiting through the boundary of a compact domain. Given information about the flux of particles through the boundary of the domain, the challenge is to infer as much as possible about the source. In the PDE setting, it is usually assumed that the flux can be observed without error and at all points on the boundary. Here we consider a different, more statistical presentation of the problem, in which the data has the form of discrete counts of particles arriving at a set of disjoint detectors whose union is a strict subset of the boundary. In keeping with the primacy of the stochastic processes in the generation of the model, we present a stochastic gradient descent algorithm in which exit rates and parameter sensitivities are computed by simulations of particle paths. We present examples for both Itô diffusion and piecewise-deterministic Markov processes, noting that the form of the sensitivities depends only on the parameterization of the source distribution and is universal among a large class of Markov processes.",
+ "primary": "math.OC"
+}

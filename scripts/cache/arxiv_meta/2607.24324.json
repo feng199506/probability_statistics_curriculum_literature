@@ -1,0 +1,16 @@
+{
+ "id": "2607.24324",
+ "title": "Diffusion Bootstrap for High-Dimensional Linear Models",
+ "authors": [
+  "Ce Liang",
+  "Wei Ma"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 1,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Classical bootstrap methods can behave poorly in high-dimensional linear models: the pairs bootstrap often yields overly conservative inference, whereas the residual bootstrap can be anti-conservative, reflecting systematic failures in variance calibration. We propose a diffusion-based pairs bootstrap that replaces the empirical joint distribution with a learned generative law. We establish variance consistency under a score approximation assumption, using complementary SDE and PDE arguments. Counterexamples show that terminal $W_4$ convergence alone is insufficient for variance consistency. Experiments indicate that diffusion pairs bootstrap improves variance calibration and generally improves Type~I error calibration, including in settings not covered by our theory.",
+ "primary": "stat.ME"
+}

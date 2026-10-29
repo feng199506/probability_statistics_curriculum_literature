@@ -1,0 +1,15 @@
+{
+ "id": "2408.05106",
+ "title": "Restricted Spatial Regression is Reasonable Statistical Practice: Clarifications, Interpretations, and New Developments",
+ "authors": [
+  "Jonathan R. Bradley"
+ ],
+ "v1_date": "2024-08-09",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The spatial linear mixed model (SLMM) consists of fixed and spatial random effects that may be linearly dependent. Partially motivated as a means to address potential issues with confounding, the Restricted spatial regression (RSR) model restricts spatial random effects to be in the orthogonal column space of the covariates. Recent articles have shown that the misspecified Bayesian RSR generally performs worse than the SLMM when the data is generated from the SLMM. However, we show that the misspecified Bayesian RSR model's marginal posterior distribution is equivalent up to a reparameterization to that of the SLMM's marginal posterior distribution, under a certain prior assumption on the orthogonalized regression coefficients. This suggests that the RSR models are not sub-optimal as the subsequent Bayesian analysis can be interpreted as a type of SLMM Bayesian analysis. This equivalence relationship is developed further in the context of unmeasured confounders and nonlinearity, where we explore a semi-parametric property of the orthogonalized regression effects. Several results are provided to demonstrate new benefits of an RSR. In particular, we provide new results that show that the RSR can produce clear computational advantages via a direct sampler from the posterior distribution for all hyperparameters, fixed effects, and random effects. Additionally, a transfer learning approach offers a new interpretation to orthogonalized regression coefficients, which we show empirically can improve inference on dependent regression coefficients in the presence of spatial confounding. Simulations and an illustration using COVID-19 mortality data are provided.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2604.20611",
+ "title": "Bayesian Inference for Incomplete 2x2 Diagnostic Tables",
+ "authors": [
+  "Sara Antonijevic",
+  "Danielle Sitalo",
+  "Brani Vidakovic"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 10 tables. Supplementary materials and reproducible code available at https://github.com/saraantonijevic/bayesian_diagnostic_table-reconstruction",
+ "abstract": "Incomplete reporting of diagnostic accuracy data remains a persistent problem in medical research. In many studies, only part of the 2x2 diagnostic table is reported, leaving denominators for diseased and non-diseased groups unknown and preventing direct calculation of sensitivity, specificity, predictive values, and related operating characteristics. To address this limitation, we develop hierarchical Bayesian models for reconstructing incomplete 2x2 diagnostic tables from such partial information. Two motivating scenarios are considered: one in which only a single test-outcome row is observed, and another in which true positives, false positives, and the total sample size are reported but the remaining cells are missing. The proposed models are illustrated on a benchmark breast MRI study with complete counts, treated as partially observed in order to assess reconstruction performance under controlled missingness. The framework yields posterior inference for the missing cell counts and associated diagnostic measures, together with uncertainty quantification in weakly identified settings.",
+ "primary": "stat.AP"
+}

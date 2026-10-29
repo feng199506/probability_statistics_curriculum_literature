@@ -1,0 +1,18 @@
+{
+ "id": "2605.18448",
+ "title": "Fixed-order PCA: Theory for Overestimated Factor Models",
+ "authors": [
+  "Yuan Liao",
+  "Xin Tong",
+  "Wanjie Wang",
+  "Dacheng Xiu"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 2,
+ "latest_date": "2026-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop asymptotic theory for principal component analysis (PCA) of a high-dimensional factor model in which the working dimension $R$ is fixed and only required to satisfy $R \\ge r$, where $r$ is the true number of factors. Building on anisotropic local laws from random matrix theory, we show that the ``extra'' empirical eigencomponents beyond the $r$-th are asymptotically noise-governed, incoherent, and nearly orthogonal to the factor loadings. We introduce two rotations, an expanded $r\\times R$ map $H'$ and a compressed $R\\times r$ map $H^{+}$, and establish consistency of the estimated factors under both. As an application, we analyze a factor-augmented regression for treatment-effect inference and prove $\\sqrt{T}$-asymptotic normality for every fixed $R \\ge r$. These results provide a theoretical underpinning for the common empirical practice of adopting a conservative upper bound on the number of factors, and shift the analytical burden from consistent dimension selection to the milder requirement of bounding $r$ from above.",
+ "primary": "math.ST"
+}

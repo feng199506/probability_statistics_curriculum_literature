@@ -1,0 +1,15 @@
+{
+ "id": "2312.03165",
+ "title": "A Theory Guide to Using Control Functions to Instrument Hazard Models",
+ "authors": [
+  "William Liu"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 1,
+ "latest_date": "2023-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 0 figures. Barebones first draft",
+ "abstract": "I develop the theory around using control functions to instrument hazard models, allowing the inclusion of endogenous (e.g., mismeasured) regressors. Simple discrete-data hazard models can be expressed as binary choice panel data models, and the widespread Prentice and Gloeckler (1978) discrete-data proportional hazards model can specifically be expressed as a complementary log-log model with time fixed effects. This allows me to recast it as GMM estimation and its instrumented version as sequential GMM estimation in a Z-estimation (non-classical GMM) framework; this framework can then be leveraged to establish asymptotic properties and sufficient conditions. Whilst this paper focuses on the Prentice and Gloeckler (1978) model, the methods and discussion developed here can be applied more generally to other hazard models and binary choice models. I also introduce my Stata command for estimating a complementary log-log model instrumented via control functions (available as ivcloglog on SSC), which allows practitioners to easily instrument the Prentice and Gloeckler (1978) model.",
+ "primary": "econ.EM"
+}

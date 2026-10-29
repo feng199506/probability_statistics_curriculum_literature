@@ -1,0 +1,17 @@
+{
+ "id": "2606.17777",
+ "title": "On Response-Adaptive Targeting Strategies for Multi-Treatment Experiments",
+ "authors": [
+  "Redouane Yagouti",
+  "Rémy Degenne",
+  "Emilie Kaufmann"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 1,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Response-adaptive randomization (RAR) in clinical trials aims to improve ethical and statistical efficiency by dynamically allocating patients to treatments based on observed outcomes. While RAR based on a target optimal allocation have been extensively studied for two-arms settings, their extension to multi-treatment experiments ($K \\geq 2$) remains theoretically fragmented, with most existing methods focusing on specific algorithms or restricted target allocations. In this paper, we introduce a unified framework for response-adaptive targeting, the $α$-Rebalancing Targeting Strategies ($α$RTS), which generalize the ERADE two-armed strategy of Hu et al. [2009]. We prove that all designs in this family share fundamental asymptotic properties: strong consistency, asymptotic normality of allocation proportions and treatment effect estimators, and asymptotic efficiency. To address sparse target regimes (where some treatments are asymptotically eliminated), we further propose $α$RTS with Forced Exploration, a variant that guarantees infinite sampling for all treatments while preserving the asymptotic guarantees. Extensive simulations illustrate the finite-sample behavior of $α$RTS variants in a 3-armed context, highlighting in particular the critical role of forced exploration in sparse settings.",
+ "primary": "stat.ME"
+}

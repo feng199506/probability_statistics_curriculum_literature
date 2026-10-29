@@ -1,0 +1,17 @@
+{
+ "id": "2603.16854",
+ "title": "Spatial Causal Tensor Completion for Multiple Exposures and Outcomes: An Application to the Health Effects of PFAS Pollution",
+ "authors": [
+  "Xiaodan Zhou",
+  "Brian J Reich",
+  "Shu Yang"
+ ],
+ "v1_date": "2026-03-17",
+ "latest_version": 1,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Per- and polyfluoroalkyl substances (PFAS) are typically encountered as mixtures of distinct chemicals with distinct effects on multiple health outcomes. Estimating joint causal effects using spatially-dependent observed data is challenging. We propose a spatial causal tensor completion framework that jointly models multiple exposures and outcomes within a low-rank tensor structure, while adjusting for observed confounders and latent spatial confounders. This method combines a low-rank tensor representation to pool information across exposures and outcomes with a spectral adjustment step that incorporates graph-Laplacian eigenvectors to approximate unmeasured spatial confounders, implemented via a projected-gradient descent algorithm. This framework enables causal inference in the presence of unmeasured spatial confounding and pervasive missingness of potential outcomes. We establish theoretical guarantees for the estimator and evaluate its finite-sample performance through extensive simulations. In an application to national PFAS monitoring data, our approach yields more conservative and credible causal relationships between PFOA and PFOS exposure and 13 chronic disease outcomes compared with existing alternatives.",
+ "primary": "stat.ME"
+}

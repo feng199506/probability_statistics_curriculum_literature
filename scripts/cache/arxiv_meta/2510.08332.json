@@ -1,0 +1,21 @@
+{
+ "id": "2510.08332",
+ "title": "What Makes a Visualization Image Complex?",
+ "authors": [
+  "Mengdi Chu",
+  "Zefeng Qiu",
+  "Meng Ling",
+  "Shuning Jiang",
+  "Robert S. Laramee",
+  "Michael Sedlmair",
+  "Jian Chen"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 3,
+ "latest_date": "2025-11-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9+20 pages, 9+18 figures. Accepted at IEEE VIS 2025",
+ "abstract": "We investigate the perceived visual complexity (VC) in data visualizations using objective image-based metrics. We collected VC scores through a large-scale crowdsourcing experiment involving 349 participants and 1,800 visualization images. We then examined how these scores align with 12 image-based metrics spanning information-theoretic, clutter, color, and our two object-based metrics. Our results show that both low-level image properties and the high-level elements affect perceived VC in visualization images; The number of corners and distinct colors are robust metrics across visualizations. Second, feature congestion, an information-theoretic metric capturing statistical patterns in color and texture, is the strongest predictor of perceived complexity in visualizations rich in the same stimuli; edge density effectively explains VC in node-link diagrams. Additionally, we observe a bell-curve effect for text annotations: increasing text-to-ink ratio (TiR) initially reduces complexity, reaching an optimal point, beyond which further text increases perceived complexity. Our quantification pipeline is also interpretable, enabling metric-based explanations, grounded in the VisComplexity2K dataset, bridging computational metrics with human perceptual responses. osf.io/5xe8a has the preregistration and osf.io/bdet6 has the VisComplexity2K dataset, source code, and all Apdx. and figures.",
+ "primary": "cs.HC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2311.07156",
+ "title": "Deep mixture of linear mixed models for complex longitudinal data",
+ "authors": [
+  "Lucas Kock",
+  "Nadja Klein",
+  "David J. Nott"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 2,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70288",
+ "comment": "",
+ "abstract": "Mixtures of linear mixed models are widely used for modelling longitudinal data for which observation times differ between subjects. In typical applications, temporal trends are described using a basis expansion, with basis coefficients treated as random effects varying by subject. Additional random effects can describe variation between mixture components, or other known sources of variation in complex experimental designs. A key advantage of these models is that they provide a natural mechanism for clustering, which can be helpful for interpretation in many applications. Current versions of mixtures of linear mixed models are not specifically designed for the case where there are many observations per subject and a complex temporal trend, which requires a large number of basis functions to capture. In this case, the subject-specific basis coefficients are a high-dimensional random effects vector, for which the covariance matrix is hard to specify and estimate, especially if it varies between mixture components. To address this issue, we consider the use of recently-developed deep mixture of factor analyzers models as the prior for the random effects. The resulting deep mixture of linear mixed models is well-suited to high-dimensional settings, and we describe an efficient variational inference approach to posterior computation. The efficacy of the method is demonstrated on both real and simulated data.",
+ "primary": "stat.ME"
+}

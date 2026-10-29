@@ -1,0 +1,17 @@
+{
+ "id": "2609.20000",
+ "title": "A Bayesian Bi-Directional Splitting Framework for Variable Selection in Large Datasets",
+ "authors": [
+  "Aaron Coats",
+  "Vinny Davies",
+  "Mayetri Gupta"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 1,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern tabular datasets are becoming increasingly large, both in the number of samples and covariates, posing significant challenges for Bayesian variable selection due to the resulting computational burden. While there is extensive literature on scaling Bayesian inference to large numbers of observations or high-dimensional covariate spaces, comparatively little work addresses scalable Bayesian variable selection when both dimensions are large simultaneously in a practical setting. This paper presents a novel Bayesian variable selection framework for efficiently analysing data with a large number of both rows and columns. The proposed framework operates via a divide-and-conquer approach, splitting data into batches along both directions and analysing each batch independently in parallel, after which the results are combined together in a two-phase consensus procedure. Experiments demonstrate the computational gains while retaining strong variable selection performance, successfully identifying relevant signals in noisy, high-dimensional settings despite the loss of information induced by data splitting. Practical guidelines are also provided, including recommendations for tuning parameter choices and effective data partitioning strategies, followed by a real application to an H3N2 influenza dataset.",
+ "primary": "stat.ME"
+}

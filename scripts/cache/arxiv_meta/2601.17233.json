@@ -1,0 +1,17 @@
+{
+ "id": "2601.17233",
+ "title": "An Empirical Method for Analyzing Count Data",
+ "authors": [
+  "Jiren Sun",
+  "Linda Amoafo",
+  "Yongming Qu"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Count endpoints are common in clinical trials, particularly for recurrent events such as hypoglycemia. When interest centers on comparing overall event rates between treatment groups, negative binomial (NB) regression is widely used because it accommodates overdispersion and requires only event counts and exposure times. However, NB regression can be numerically unstable when events are sparse, and the efficiency gains from baseline covariate adjustment may be sensitive to model misspecification. We propose an empirical method that targets the same marginal estimand as NB regression -- the ratio of marginal event rates -- while avoiding distributional assumptions on the count outcome. Simulation studies show that the empirical method maintains appropriate Type I error control across diverse scenarios, including extreme overdispersion and zero inflation, achieves power comparable to NB regression, and yields consistent efficiency gains from baseline covariate adjustment. We illustrate the approach using severe hypoglycemia data from the QWINT-5 trial comparing insulin efsitora alfa with insulin degludec in adults with type 1 diabetes. In this sparse-event setting, the empirical method produced stable marginal rate estimates and rate ratios closely aligned with observed rates, while NB regression exhibited greater sensitivity and larger deviations from the observed rates in the sparsest intervals. The proposed empirical method provides a robust and numerically stable alternative to NB regression, particularly when the number of events is low or when numerical stability is a concern.",
+ "primary": "stat.ME"
+}

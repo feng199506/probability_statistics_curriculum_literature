@@ -1,0 +1,16 @@
+{
+ "id": "2610.36835",
+ "title": "Joint Distributional Copula Regression for Insurance Claim Frequency and Severity via Boosting",
+ "authors": [
+  "Banghee So",
+  "Na Zhang"
+ ],
+ "v1_date": "2026-10-27",
+ "latest_version": 1,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a model-based boosting approach for fitting structured additive distributional copula regression models with bivariate responses, focusing particularly on the joint modeling of claim frequency and claim severity. The proposed approach is based on generalized additive models for location, scale, and shape (GAMLSS), which extend the general idea of GAMs by allowing multiple parameters of a response distribution, rather than only its conditional mean, to depend on covariates. The model is therefore intrinsically interpretable at the level of its additive predictors, providing greater transparency and auditability than black-box alternatives. We evaluate the proposed framework using synthetic and real-world data. We demonstrate its ability to recover the underlying covariate effects and dependence structure, identify informative variables, and achieve competitive predictive performance relative to benchmark models. We also illustrate how the fitted model can be interpreted.",
+ "primary": "stat.ML"
+}

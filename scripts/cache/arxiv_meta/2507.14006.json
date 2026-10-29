@@ -1,0 +1,18 @@
+{
+ "id": "2507.14006",
+ "title": "Using off-treatment sequential multiple imputation for binary outcomes to address intercurrent events handled by a treatment policy strategy",
+ "authors": [
+  "Sunita Rehal",
+  "Nicky Best",
+  "Sarah Watts",
+  "Thomas Drury"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimand framework proposes different strategies to address intercurrent events. The treatment policy strategy seems to be the most favoured as it is closely aligned with the pre-addendum intention-to-treat principle. All data for all patients should ideally be collected, however, in reality patients may withdraw from a study leading to missing data. This needs to be dealt with as part of the estimation. Several areas of research have been conducted exploring models to estimate the estimand when intercurrent events are handled using a treatment policy strategy, however the research is limited for binary endpoints. We explore different retrieved dropout models, where post-intercurrent event, the observed data can be used to multiply impute the missing post-intercurrent event data. We compare our proposed models to a simple imputation model that makes no distinction between the pre- and post-intercurrent event data, and assess varying statistical properties through a simulation study. We then provide an example how retrieved dropout models were used in practice for Phase 3 clinical trials in rheumatoid arthritis. From the models explored, we conclude that a simple retrieved dropout model including an indicator for whether or not the intercurrent event occurred is the most pragmatic choice. However, at least 50% of observed post-intercurrent event data is required for these models to work well. Therefore, the suitability of implementing this model in practice will depend on the amount of observed post-intercurrent event data available and missing data.",
+ "primary": "stat.ME"
+}

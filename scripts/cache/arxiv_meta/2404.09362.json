@@ -1,0 +1,19 @@
+{
+ "id": "2404.09362",
+ "title": "A Bayesian Joint Modelling for Misclassified Interval-censoring and Competing Risks",
+ "authors": [
+  "Zhenwei Yang",
+  "Dimitris Rizopoulos",
+  "Eveline A. M. Heijnsdijk",
+  "Lisa F. Newcomb",
+  "Nicole S. Erler"
+ ],
+ "v1_date": "2024-04-14",
+ "latest_version": 2,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In active surveillance of prostate cancer, cancer progression is interval-censored and the examination to detect progression is subject to misclassification, usually false negatives. Meanwhile, patients may initiate early treatment before progression detection, constituting a competing risk. We developed the Misclassification-Corrected Interval-censored Cause-specific Joint Model (MCICJM) to estimate the association between longitudinal biomarkers and cancer progression in this setting. The sensitivity of the examination is considered in the likelihood of this model via a parameter that may be set to a specific value if the sensitivity is known, or for which a prior distribution can be specified if the sensitivity is unknown. Our simulation results show that misspecification of the sensitivity parameter or ignoring it entirely impacts the model parameters, especially the parameter uncertainty and the baseline hazards. Moreover, specification of a prior distribution for the sensitivity parameter may reduce the risk of misspecification in settings where the exact sensitivity is unknown, but may cause identifiability issues. Thus, imposing restrictions on the baseline hazards is recommended. A trade-off between modelling with a sensitivity constant at the risk of misspecification and a sensitivity prior at the cost of flexibility needs to be decided.",
+ "primary": "stat.ME"
+}

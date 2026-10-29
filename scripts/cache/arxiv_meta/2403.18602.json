@@ -1,0 +1,17 @@
+{
+ "id": "2403.18602",
+ "title": "Multi-omics network reconstruction with collaborative graphical lasso",
+ "authors": [
+  "Alessio Albanese",
+  "Wouter Kohlen",
+  "Pariya Behrouzi"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 2,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivation: In recent years, the availability of multi-omics data has increased substantially. Multi-omics data integration methods mainly aim to leverage different molecular layers to gain a complete molecular description of biological processes. An attractive integration approach is the reconstruction of multi-omics networks. However, the development of effective multi-omics network reconstruction strategies lags behind. Results: In this study, we introduce collaborative graphical lasso, a novel approach that extends graphical lasso by incorporating collaboration between omics layers, thereby improving multi-omics data integration and enhancing network inference. Our method leverages a collaborative penalty term, which harmonizes the contribution of the omics layers to the reconstruction of the network structure. This promotes a cohesive integration of information across modalities, and it is introduced alongside a dual regularization scheme that separately controls sparsity within and between layers. To address the challenge of model selection in this framework, we propose XStARS, a stability-based criterion for multi-dimensional hyperparameter tuning. We assess the performance of collaborative graphical lasso and the corresponding model selection procedure through simulations, and we apply them to publicly available multi-omics data. This application demonstrated collaborative graphical lasso recovers established biological interactions while suggesting novel, biologically coherent connections. Availability and implementation: We implemented collaborative graphical lasso as an R package, available on CRAN as coglasso. The results of the manuscript can be reproduced running the code available at https://github.com/DrQuestion/coglasso_reproducible_code",
+ "primary": "stat.ME"
+}

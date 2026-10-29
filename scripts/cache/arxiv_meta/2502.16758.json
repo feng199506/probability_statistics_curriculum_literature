@@ -1,0 +1,16 @@
+{
+ "id": "2502.16758",
+ "title": "Stabilizing the Splits through Minimax Decision Trees",
+ "authors": [
+  "Zhenyuan Zhang",
+  "Hengrui Luo"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 3,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 17 figures; a substantial expansion upon the previous version",
+ "abstract": "By revisiting the end-cut preference (ECP) phenomenon associated with a single CART (Breiman et al. (1984)), we introduce MinimaxSplit decision trees, a robust alternative to CART that selects splits by minimizing the worst-case child risk rather than the average risk. For regression, we minimize the maximum within-child squared error; for classification, we minimize the maximum child entropy, yielding a C4.5-compatible criterion. We also study a cyclic variant that deterministically cycles coordinates, leading to our main method of cyclic MinimaxSplit decision trees. We prove oracle inequalities that cover both regression and classification, under mild marginal non-atomicity conditions. The bounds control the tree's global excess risk by local worst-case impurities and yield fast convergence rates compared to CART. We extend the analysis to a random-dimension forest variant that subsamples coordinates per node. Empirically, (cyclic) MinimaxSplit trees and their forests improve over baselines on structured heterogeneous data such as EEG amplitude regression over fixed time horizons and image denoising, framed as non-parametric regression on spatial coordinates.",
+ "primary": "math.ST"
+}

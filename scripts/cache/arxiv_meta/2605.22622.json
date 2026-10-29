@@ -1,0 +1,16 @@
+{
+ "id": "2605.22622",
+ "title": "A note on convergence of Wasserstein policy optimization",
+ "authors": [
+  "David Šiška",
+  "Yufei Zhang"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wasserstein Policy Optimization (WPO) is a recently proposed reinforcement learning algorithm that leverages Wasserstein gradient flows to optimize stochastic policies in continuous action spaces. Despite its empirical success, the theoretical convergence properties of WPO in environments with continuous state and action spaces have yet to be fully established. In this note, we argue that WPO within the framework of entropy-regularised Markov Decision Processes converges linearly. This is done by leveraging recent advances in mean-field analysis for convergence of gradient flows using log-Sobole inequalities. Assuming existence of sufficiently regular solution to the gradient flow equation we demonstrate monotonic energy dissipation along the flow and establish a local log-Sobolev inequality. Ultimately, these properties allow us to argue that the value function should converge linearly to the global optimum.",
+ "primary": "cs.LG"
+}

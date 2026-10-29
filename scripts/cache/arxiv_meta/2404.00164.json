@@ -1,0 +1,16 @@
+{
+ "id": "2404.00164",
+ "title": "Sequential Synthetic Difference in Differences",
+ "authors": [
+  "Dmitry Arkhangelsky",
+  "Aleksei Samkov"
+ ],
+ "v1_date": "2024-03-29",
+ "latest_version": 2,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose the Sequential Synthetic Difference-in-Differences (Sequential SDiD) estimator for event studies with staggered treatment adoption, particularly when the parallel trends assumption fails. The method uses an iterative imputation procedure on aggregated data, where estimates for early-adopting cohorts are used to construct counterfactuals for later ones. We prove the estimator is asymptotically equivalent to an infeasible oracle OLS estimator within a linear model with interactive fixed effects. This key theoretical result provides a foundation for standard inference by establishing asymptotic normality and clarifying the estimator's efficiency. By offering a robust and transparent method with formal statistical guarantees, Sequential SDiD is a powerful alternative to conventional difference-in-differences strategies.",
+ "primary": "econ.EM"
+}

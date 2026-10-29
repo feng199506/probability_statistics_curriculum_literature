@@ -1,0 +1,18 @@
+{
+ "id": "2502.16513",
+ "title": "Revamping Conformal Selection With Optimal Power: A Neyman--Pearson Perspective",
+ "authors": [
+  "Jing Qin",
+  "Yukun Liu",
+  "Moming Li",
+  "Chiung-Yu Huang"
+ ],
+ "v1_date": "2025-02-23",
+ "latest_version": 1,
+ "latest_date": "2025-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 4 figures",
+ "abstract": "This paper introduces a novel conformal selection procedure, inspired by the Neyman--Pearson paradigm, to maximize the power of selecting qualified units while maintaining false discovery rate (FDR) control. Existing conformal selection methods may yield suboptimal power due to their reliance on conformal p-values, which are derived by substituting unobserved future outcomes with thresholds set by the null hypothesis. This substitution invalidates the exchangeability between imputed nonconformity scores for test data and those derived from calibration data, resulting in reduced power. In contrast, our approach circumvents the need for conformal p-values by constructing a likelihood-ratio-based decision rule that directly utilizes observed covariates from both calibration and test samples. The asymptotic optimality and FDR control of the proposed method are established under a correctly specified model, and modified selection procedures are introduced to improve power under model misspecification. The proposed methods are computationally efficient and can be readily extended to handle covariate shifts, making them well-suited for real-world applications. Simulation results show that these methods consistently achieve comparable or higher power than existing conformal p-value-based selection rules, particularly when the underlying distribution deviates from location-shift models, while effectively maintaining FDR control.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2606.08498",
+ "title": "Tests for Independence of High-Dimensional Nonstationary Time Series",
+ "authors": [
+  "Yunyi Zhang"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This manuscript studies the problem of independence testing between two high-dimensional time series without assuming weak stationarity, that is, allowing their autocovariances to vary over time. To this end, we propose a bimodal weighted-average test statistic that removes the bias induced by temporal dependence under the null hypothesis, thereby avoiding the need to whiten the time series prior to hypothesis testing -- a procedure that is challenging in high-dimensional and nonstationary settings. To facilitate statistical inference, we develop a dependent wild bootstrap procedure. On the theoretical side, we derive a concentration inequality for quadratic forms of time series data stemming from a class of high-dimensional, nonlinear, and nonstationary processes. This result enables us to derive the asymptotic null distribution of the proposed test statistic and to establish the validity of the bootstrap algorithm. Numerical results show that the proposed test attains desired size and good power performance even when the dimension exceeds the sample size or when the data-generating process exhibits time-varying autocovariances. In contrast, tests based on whitening time series fail to maintain correct size in the presence of unstable autocovariance structures. Since nonstationary autocovariances commonly arise in real-life time series data, our work offers a robust procedure for independence testing.",
+ "primary": "math.ST"
+}

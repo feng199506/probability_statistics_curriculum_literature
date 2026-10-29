@@ -1,0 +1,16 @@
+{
+ "id": "2311.11522",
+ "title": "A Bayesian two-step multiple imputation approach based on mixed models for the missing in EMA data",
+ "authors": [
+  "Yiheng Wei",
+  "Donald Hedeker"
+ ],
+ "v1_date": "2023-11-20",
+ "latest_version": 1,
+ "latest_date": "2023-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ecological Momentary Assessments (EMA) capture real-time thoughts and behaviors in natural settings, producing rich longitudinal data for statistical and physiological analyses. However, the robustness of these analyses can be compromised by the large amount of missing in EMA data sets. To address this, multiple imputation, a method that replaces missing values with several plausible alternatives, has become increasingly popular. In this paper, we introduce a two-step Bayesian multiple imputation framework which leverages the configuration of mixed models. We adopt the Random Intercept Linear Mixed model, the Mixed-effect Location Scale model which accounts for subject variance influenced by covariates and random effects, and the Shared Parameter Location Scale Mixed Effect model which links the missing data to the response variable through a random intercept logistic model, to complete the posterior distribution within the framework. In the simulation study and an application on data from a study on caregivers of dementia patients, we further adapt this two-step Bayesian multiple imputation strategy to handle simultaneous missing variables in EMA data sets and compare the effectiveness of multiple imputations across different mixed models. The analyses highlight the advantages of multiple imputations over single imputations. Furthermore, we propose two pivotal considerations in selecting the optimal mixed model for the two-step imputation: the influence of covariates as well as random effects on the within-variance, and the nature of missing data in relation to the response variable.",
+ "primary": "stat.ME"
+}

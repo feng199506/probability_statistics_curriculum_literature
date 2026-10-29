@@ -1,0 +1,16 @@
+{
+ "id": "2609.21710",
+ "title": "Parameter estimation for graphon-interacting particle systems from discrete observations",
+ "authors": [
+  "Chiara Amorino",
+  "Matteo Sfragara"
+ ],
+ "v1_date": "2026-09-18",
+ "latest_version": 1,
+ "latest_date": "2026-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages",
+ "abstract": "In this paper, we address the joint parameter estimation of drift and diffusion coefficients for heterogeneously interacting particle systems. Unlike the homogeneous setting, the interactions are governed by a graphon-weighted mean-field framework, which introduces significant analytical complexity: while homogeneous systems yield i.i.d. limits, our setting results in particles that are independent but non-identically distributed in the limit. Based on discrete observations of the system over a fixed time interval $[0, T]$, we propose a contrast function based on a pseudo-likelihood approach. We prove the consistency of the resulting estimators as the discretization step $Δ_n \\to 0$ and the number of particles $N \\to \\infty$. Furthermore, we establish asymptotic normality under the additional constraint $N Δ_n \\to 0$, demonstrating that the underlying graphon structure can be rigorously handled despite the lack of identical distribution in the limit.",
+ "primary": "math.ST"
+}

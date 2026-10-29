@@ -1,0 +1,16 @@
+{
+ "id": "2604.22791",
+ "title": "R Package iglm: Regression under Interference in Connected Populations",
+ "authors": [
+  "Cornelius Fritz",
+  "Michael Schweinberger"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce R package iglm, which implements a comprehensive framework for studying relationships among predictors and outcomes under interference. The implemented regression framework facilitates the study of spillover and other phenomena in connected populations and has important advantages over existing packages, among them scalability and provable theoretical guarantees. On the computational side, the regression framework relies on scalable methods that can be applied to small and large data sets, by solving a convex optimization program based on pseudo-likelihoods using Minorization-Maximization and Quasi-Newton algorithms. On the statistical side, the regression framework comes with provable theoretical guarantees. To increase the versatility of iglm, users can add custom-built model terms. We showcase iglm using two data sets, including hate speech on the social media platform X and communications among students.",
+ "primary": "stat.CO"
+}

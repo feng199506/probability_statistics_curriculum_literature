@@ -1,0 +1,18 @@
+{
+ "id": "2311.03630",
+ "title": "CATE Estimation With Potential Outcome Imputation From Local Regression",
+ "authors": [
+  "Ahmed Aloui",
+  "Juncheng Dong",
+  "Cat P. Le",
+  "Vahid Tarokh"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 2,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One of the most significant challenges in Conditional Average Treatment Effect (CATE) estimation is the statistical discrepancy between distinct treatment groups. To address this issue, we propose a model-agnostic data augmentation method for CATE estimation. First, we derive regret bounds for general data augmentation methods suggesting that a small imputation error may be necessary for accurate CATE estimation. Inspired by this idea, we propose a contrastive learning approach that reliably imputes missing potential outcomes for a selected subset of individuals formed using a similarity measure. We augment the original dataset with these reliable imputations to reduce the discrepancy between different treatment groups while inducing minimal imputation error. The augmented dataset can subsequently be employed to train standard CATE estimation models. We provide both theoretical guarantees and extensive numerical studies demonstrating the effectiveness of our approach in improving the accuracy and robustness of numerous CATE estimation models.",
+ "primary": "cs.LG"
+}

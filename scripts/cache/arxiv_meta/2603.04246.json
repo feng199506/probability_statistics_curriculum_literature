@@ -1,0 +1,17 @@
+{
+ "id": "2603.04246",
+ "title": "Areal Disaggregation: A Small Area Estimation Perspective",
+ "authors": [
+  "Yunhan Wu",
+  "Finn Lindgren",
+  "Heidi A. Hanson"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 1,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Producing reliable estimates of health and demographic indicators at fine areal scales is crucial for examining heterogeneity and supporting localized health policy. However, many surveys release outcomes only at coarser administrative levels, thereby limiting their relevance for decision-making. We propose a fully Bayesian, single-stage spatial modeling framework for area-level disaggregation that generates fine-scale estimates of indicators directly from coarsely aggregated survey data. By defining a latent spatial process at the target resolution and linking it to observed outcomes through an aggregation step, the framework adopts small-area estimation techniques while incorporating covariates and delivering coherent uncertainty quantification. The proposed methods are implemented with inlabru to achieve computational efficiency. We evaluate performance through a simulation study of general fertility rates in Kenya to demonstrate the models' ability to recover fine-scale variation across diverse data-generating scenarios. We further apply the framework to two national surveys to produce district-level fertility estimates from the 2022 Kenya Demographic and Health Survey and, more importantly, district-level indicators for unpaid care and domestic work and mass media usage from the 2021 Kenya Time Use Survey.",
+ "primary": "stat.ME"
+}

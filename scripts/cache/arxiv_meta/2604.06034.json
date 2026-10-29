@@ -1,0 +1,17 @@
+{
+ "id": "2604.06034",
+ "title": "Efficient Bayesian Inference in the Cox Model via Rank-Ordered Likelihood",
+ "authors": [
+  "Tomohiro Ohigashi",
+  "Shunichiro Orihara",
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 2,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Bayesian inference for the Cox proportional hazards model, modeling the baseline hazard function is challenging. Recently, direct Bayesian inference using the partial likelihood is considered in the framework of general Bayesian inference. In terms of posterior computation, several studies have examined sampling algorithms under the Cox model. In this study, we propose two Gibbs sampling algorithms for Bayesian inference in the Cox proportional hazards model, motivated by a rank-ordered data representation and based on the Plackett--Luce and generalized Plackett--Luce models with P'{o}lya--Gamma data augmentation, referred to as PL-Cox and GPL-Cox, respectively. The two proposed methods offer practical advantages, as they do not require correction of posterior samples, naturally handle tied event times, and are readily extensible to shared frailty models. In simulation study, we considered multiple survival model settings, including continuous and discrete survival time models, as well as scenarios with varying degrees of ties, and found that the PL-Cox model exhibited relatively stable performance. In analyses of a large real dataset, the proposed methods remained computationally feasible, and the GPL-Cox model showed more favorable computational scalability than the PL-Cox model. In analyses of real data incorporating shared frailty, both methods demonstrated good computational efficiency.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2406.08172",
+ "title": "inlamemi: An R package for missing data imputation and measurement error modelling using INLA",
+ "authors": [
+  "Emma Skarstein",
+  "Stefanie Muff"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Measurement error and missing data in variables used in statistical models are common, and can at worst lead to serious biases in analyses if they are ignored. Yet, these problems are often not dealt with adequately, presumably in part because analysts lack simple enough tools to account for error and missingness. In this R package, we provide functions to aid fitting hierarchical Bayesian models that account for cases where either measurement error (classical or Berkson), missing data, or both are present in continuous covariates. Model fitting is done in a Bayesian framework using integrated nested Laplace approximations (INLA), an approach that is growing in popularity due to its combination of computational speed and accuracy. The {inlamemi} R package is suitable for data analysts who have little prior experience using the R package {R-INLA}, and aids in formulating suitable hierarchical models for a variety of scenarios in order to appropriately capture the processes that generate the measurement error and/or missingness. Numerous examples are given to help analysts identify scenarios similar to their own, and make the process of specifying a suitable model easier.",
+ "primary": "stat.ME"
+}

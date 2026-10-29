@@ -1,0 +1,17 @@
+{
+ "id": "2512.23671",
+ "title": "Calibrated Multi-Level Quantile Forecasting",
+ "authors": [
+  "Tiffany Ding",
+  "Isaac Gibbs",
+  "Ryan J. Tibshirani"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 2,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop an online method that guarantees calibration of quantile forecasts at multiple quantile levels simultaneously. In this work, a sequence of quantile forecasts is said to be calibrated provided that its $α$-level predictions are greater than or equal to the target value at an $α$ fraction of time steps, for each level $α$. Our procedure, called the multi-level quantile tracker (MultiQT), is lightweight and wraps around any point or quantile forecaster to produce adjusted quantile forecasts that are guaranteed to be calibrated, even against adversarial distribution shifts. Critically, it does so while ensuring that the quantiles remain ordered, e.g., the 0.5-level quantile forecast will never be larger than the 0.6-level forecast. Moreover, the method has a no-regret guarantee, implying it will not degrade the performance of the existing forecaster (asymptotically), with respect to the quantile loss. In our experiments, we find that MultiQT significantly improves the calibration of real forecasters in epidemic and energy forecasting problems, while leaving the quantile loss largely unchanged or slightly improved.",
+ "primary": "stat.ML"
+}

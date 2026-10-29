@@ -1,0 +1,20 @@
+{
+ "id": "2610.16797",
+ "title": "Information-Theoretic Limits for Rectangular Spiked Matrix Models with Rotationally Invariant Noise",
+ "authors": [
+  "Qun Chen",
+  "Rudy Skerk",
+  "Jean Barbier",
+  "Francesco Camilli",
+  "Junjie Ma",
+  "Haochuan Zhang"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the information-theoretic limits of inference in rectangular rank-one spiked matrix models with additive rotationally invariant noise, thereby going beyond the standard assumption of independent noise entries. Using the replica method from statistical physics, we derive a variational formula for the mutual information between the signal and the data, together with a system of saddle point equations predicting the minimum mean squared error in estimating the rank-one spike. We further show that, in the Bayes-optimal setting, these saddle point equations coincide with the fixed point equations of the state evolution of a recently proposed orthogonal approximate message passing algorithm with Bayes-optimal denoisers. This equivalence provides an algorithmic interpretation of the replica prediction and supports the Bayes-optimality of orthogonal approximate message passing whenever the relevant fixed point is unique. Numerical evaluations of the saddle point equations for several rotationally invariant noise ensembles and signal priors, together with finite-size simulations of the algorithm, confirm the asymptotic predictions. They illustrate both regimes with a unique informative fixed point, where orthogonal approximate message passing is predicted to attain the minimum mean squared error, and regimes with multiple fixed points, where a statistical-to-computational gap exists.",
+ "primary": "cs.IT"
+}

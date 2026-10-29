@@ -1,0 +1,21 @@
+{
+ "id": "2511.09972",
+ "title": "Addressing zero-inflated and mis-measured functional predictors in scalar-on-function regression model",
+ "authors": [
+  "Heyang Ji",
+  "Lan Xue",
+  "Ufuk Beyaztas",
+  "Roger S. Zoh",
+  "Jeff Goldsmith",
+  "Mark E. Benden",
+  "Carmen D. Tekwe"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 1,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wearable devices are often used in clinical and epidemiological studies to monitor physical activity behavior and its influence on health outcomes. These devices are worn over multiple days to record activity patterns, such as step counts recorded at the minute level, resulting in multi-level, longitudinal, high-dimensional, or functional data. When monitoring patterns of step counts over multiple days, devices may record excess zeros during periods of sedentary behavior or non-wear times. Additionally, it has been demonstrated that the accuracy of wearable devices in monitoring true physical activity patterns depends on the intensity of the activities and wear times. While work on adjusting for biases due to measurement errors in functional data is a growing field, relatively less work has been done to study the occurrence of excess zeros along with measurement errors and their combined influence on estimation and inference in multi-level scalar-on-function regression models. We propose semi-continuous modeling approaches to adjust for biases due to zero inflation and measurement errors in scalar-on-function regression models. We provide theoretical justifications for our proposed methods and, through extensive simulations, we demonstrated their finite sample properties. Finally, the developed methods are applied to a school-based intervention study examining the association between school day physical activity with age- and sex-adjusted body mass index among elementary school-aged children.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2508.08415",
+ "title": "Doubly robust pointwise confidence intervals for a monotonic continuous treatment effect curve",
+ "authors": [
+  "Charles R. Doss"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "68 pages; 34 figures",
+ "abstract": "We study nonparametric inference for the causal dose-response (or treatment effect) curve when the treatment variable is continuous rather than binary or discrete. We do this by developing doubly robust confidence intervals for the continuous treatment effect curve (at a fixed point) under the assumption that it is monotonic, based on inverting a likelihood ratio-type test. Monotonicity of the treatment effect curve is often a very natural assumption, and this assumption removes the need to choose a smoothing or tuning parameter for the nonparametrically estimated curve. The likelihood ratio procedure is effective because it allows us to avoid estimating the curve's unknown bias, which is challenging to do. The test statistic is ``doubly robust'' in that a remainder term is the product of errors for the two so-called nuisance functions that naturally arise (the outcome regression and generalized propensity score functions), which allows one nuisance to be estimated poorly if the other is estimated well. Furthermore, we propose a version of our test or confidence interval that is adaptive to a range of the unknown curve's flatness level. We present versions with and without cross fitting. We illustrate the new methods via simulations and a study of a dataset relating the effect of nurse staffing hours on hospital performance.",
+ "primary": "stat.ME"
+}

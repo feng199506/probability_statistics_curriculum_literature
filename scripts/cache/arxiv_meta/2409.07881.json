@@ -1,0 +1,18 @@
+{
+ "id": "2409.07881",
+ "title": "Cellwise outlier detection in heterogeneous populations",
+ "authors": [
+  "Giorgia Zaccaria",
+  "Luis A. García-Escudero",
+  "Francesca Greselin",
+  "Agustín Mayo-Íscar"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 3,
+ "latest_date": "2025-05-13",
+ "journal_ref": "",
+ "doi": "10.1080/00401706.2025.2497822",
+ "comment": "",
+ "abstract": "Real-world applications may be affected by outlying values. In the model-based clustering literature, several methodologies have been proposed to detect units that deviate from the majority of the data (rowwise outliers) and trim them from the parameter estimates. However, the discarded observations can encompass valuable information in some observed features. Following the more recent cellwise contamination paradigm, we introduce a Gaussian mixture model for cellwise outlier detection. The proposal is estimated via an Expectation-Maximization (EM) algorithm with an additional step for flagging the contaminated cells of a data matrix and then imputing - instead of discarding - them before the parameter estimation. This procedure adheres to the spirit of the EM algorithm by treating the contaminated cells as missing values. We analyze the performance of the proposed model in comparison with other existing methodologies through a simulation study with different scenarios and illustrate its potential use for clustering, outlier detection, and imputation on three real data sets. Additional applications include socio-economic studies, environmental analysis, healthcare, and any domain where the aim is to cluster data affected by missing information and outlying values within features.",
+ "primary": "stat.ME"
+}

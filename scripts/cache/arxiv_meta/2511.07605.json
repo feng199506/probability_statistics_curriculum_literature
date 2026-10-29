@@ -1,0 +1,17 @@
+{
+ "id": "2511.07605",
+ "title": "Confidence Intervals for Linear Models with Arbitrary Noise Contamination",
+ "authors": [
+  "Dong Xie",
+  "Chao Gao",
+  "John Lafferty"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 2,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study confidence interval construction for linear regression under Huber's contamination model, where an unknown fraction of noise variables is arbitrarily corrupted. While robust point estimation in this setting is well understood, statistical inference remains challenging, especially because the contamination proportion is not identifiable from the data. We develop a new algorithm that constructs confidence intervals for individual regression coefficients without any prior knowledge of the contamination level. Our method is based on a Z-estimation framework using a smooth estimating function. The method directly quantifies the uncertainty of the estimating equation after a preprocessing step that decorrelates covariates associated with the nuisance parameters. We show that the resulting confidence interval has valid coverage uniformly over all contamination distributions and attains an optimal length of order $O(1/\\sqrt{n(1-ε)^2})$, matching the rate achievable when the contamination proportion $ε$ is known. This result stands in sharp contrast to the adaptation cost of robust interval estimation observed in the simpler Gaussian location model.",
+ "primary": "math.ST"
+}

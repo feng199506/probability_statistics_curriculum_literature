@@ -1,0 +1,16 @@
+{
+ "id": "2403.18961",
+ "title": "Spatial confounding under infill asymptotics",
+ "authors": [
+  "David Bolin",
+  "Jonas Wallin"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 1,
+ "latest_date": "2024-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimation of regression parameters in spatially referenced data plays a crucial role across various scientific domains. A common approach involves employing an additive regression model to capture the relationship between observations and covariates, accounting for spatial variability not explained by the covariates through a Gaussian random field. While theoretical analyses of such models have predominantly focused on prediction and covariance parameter inference, recent attention has shifted towards understanding the theoretical properties of regression coefficient estimates, particularly in the context of spatial confounding. This article studies the effect of misspecified covariates, in particular when the misspecification changes the smoothness. We analyze the theoretical properties of the generalize least-square estimator under infill asymptotics, and show that the estimator can have counter-intuitive properties. In particular, the estimated regression coefficients can converge to zero as the number of observations increases, despite high correlations between observations and covariates. Perhaps even more surprising, the estimates can diverge to infinity under certain conditions. Through an application to temperature and precipitation data, we show that both behaviors can be observed for real data. Finally, we propose a simple fix to the problem by adding a smoothing step in the regression.",
+ "primary": "math.ST"
+}

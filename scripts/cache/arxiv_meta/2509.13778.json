@@ -1,0 +1,16 @@
+{
+ "id": "2509.13778",
+ "title": "Imputation-Powered Inference",
+ "authors": [
+  "Sarah Zhao",
+  "Emmanuel Candès"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 1,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern multi-modal and multi-site data frequently suffer from blockwise missingness, where subsets of features are missing for groups of individuals, creating complex patterns that challenge standard inference methods. Existing approaches have critical limitations: complete-case analysis discards informative data and is potentially biased; doubly robust estimators for non-monotone missingness-where the missingness patterns are not nested subsets of one another-can be theoretically efficient but lack closed-form solutions and often fail to scale; and blackbox imputation can leverage partially observed data to improve efficiency but provides no inferential guarantees when misspecified. To address the limitations of these existing methods, we propose imputation-powered inference (IPI), a model-lean framework that combines the flexibility of blackbox imputation with bias correction using fully observed data, drawing on ideas from prediction-powered inference and semiparametric inference. IPI enables valid and efficient M-estimation under missing completely at random (MCAR) blockwise missingness and improves subpopulation inference under a weaker assumption we formalize as first-moment MCAR, for which we also provide practical diagnostics. Simulation studies and a clinical application demonstrate that IPI may substantially improve subpopulation efficiency relative to complete-case analysis, while maintaining statistical validity in settings where both doubly robust estimators and naive imputation fail to achieve nominal coverage.",
+ "primary": "stat.ME"
+}

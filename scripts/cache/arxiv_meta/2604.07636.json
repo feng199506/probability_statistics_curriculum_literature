@@ -1,0 +1,17 @@
+{
+ "id": "2604.07636",
+ "title": "Sample-split REGression SREG: A robust estimator for high-dimensional survey data",
+ "authors": [
+  "Yonghyun Kwon",
+  "Shu Yang",
+  "Jae Kwang Kim"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model-assisted regression estimation is fundamental in survey sampling for incorporating auxiliary information. However, when the auxiliary dimension grows with the sample size, the standard Generalized regression (GREG) estimator can exhibit non-negligible bias under informative sampling, even when the working model is correctly specified. This failure stems from the double use of sampled outcomes simultaneously for fitting the regression and for forming the residual correction. We propose a sample-split REGression (SREG) estimator based on K-fold cross-fitting that eliminates this bias by pairing each unit's residual with an out-of-fold prediction. The resulting estimator is first-order equivalent to the oracle difference estimator under a weak prediction-norm consistency requirement, without requiring root-n consistent estimation of regression coefficients. We establish asymptotic normality and prove consistency of a variance estimator based on cross-fitted residuals. The key conditional fluctuation assumption is verified for simple random, stratified, and rejective sampling. Simulations demonstrate that SREG effectively removes high-dimensional bias while maintaining competitive efficiency.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2402.03491",
+ "title": "Periodically Correlated Time Series and the Variable Bandpass Periodic Block Bootstrap",
+ "authors": [
+  "Edward Valachovic"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 1,
+ "latest_date": "2024-02-05",
+ "journal_ref": "PLoS ONE 19(9): e0310563. (2024)",
+ "doi": "10.1371/journal.pone.0310563",
+ "comment": "20 pages, 6 figures, 4 tables",
+ "abstract": "This research introduces a novel approach to resampling periodically correlated (PC) time series using bandpass filters for frequency separation called the Variable Bandpass Periodic Block Bootstrap (VBPBB) and then examines the significant advantages of this new method. While bootstrapping allows estimation of a statistic's sampling distribution by resampling the original data with replacement, and block bootstrapping is a model-free resampling strategy for correlated time series data, both fail to preserve correlations in PC time series. Existing extensions of the block bootstrap help preserve the correlation structures of PC processes but suffer from flaws and inefficiencies. Analyses of time series data containing cyclic, seasonal, or PC principal components often seen in annual, daily, or other cyclostationary processes benefit from separating these components. The VBPBB uses bandpass filters to separate a PC component from interference such as noise at other uncorrelated frequencies. A simulation study is presented, demonstrating near universal improvements obtained from the VBPBB when compared with prior block bootstrapping methods for periodically correlated time series.",
+ "primary": "stat.ME"
+}

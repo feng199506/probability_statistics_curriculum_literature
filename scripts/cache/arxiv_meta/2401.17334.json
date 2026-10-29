@@ -1,0 +1,17 @@
+{
+ "id": "2401.17334",
+ "title": "Efficient estimation of parameters in marginals in semiparametric multivariate models",
+ "authors": [
+  "Ivan Medovikov",
+  "Valentyn Panchenko",
+  "Artem Prokhorov"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 1,
+ "latest_date": "2024-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider a general multivariate model where univariate marginal distributions are known up to a parameter vector and we are interested in estimating that parameter vector without specifying the joint distribution, except for the marginals. If we assume independence between the marginals and maximize the resulting quasi-likelihood, we obtain a consistent but inefficient QMLE estimator. If we assume a parametric copula (other than independence) we obtain a full MLE, which is efficient but only under a correct copula specification and may be biased if the copula is misspecified. Instead we propose a sieve MLE estimator (SMLE) which improves over QMLE but does not have the drawbacks of full MLE. We model the unknown part of the joint distribution using the Bernstein-Kantorovich polynomial copula and assess the resulting improvement over QMLE and over misspecified FMLE in terms of relative efficiency and robustness. We derive the asymptotic distribution of the new estimator and show that it reaches the relevant semiparametric efficiency bound. Simulations suggest that the sieve MLE can be almost as efficient as FMLE relative to QMLE provided there is enough dependence between the marginals. We demonstrate practical value of the new estimator with several applications. First, we apply SMLE in an insurance context where we build a flexible semi-parametric claim loss model for a scenario where one of the variables is censored. As in simulations, the use of SMLE leads to tighter parameter estimates. Next, we consider financial risk management examples and show how the use of SMLE leads to superior Value-at-Risk predictions. The paper comes with an online archive which contains all codes and datasets.",
+ "primary": "econ.GN"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.05396",
+ "title": "Bayesian Region Selection and Prediction in Poisson Regression with Spatially Dependent Global-Local Shrinkage Prior",
+ "authors": [
+  "Zihan Zhu",
+  "Xueying Tang",
+  "Shuang Zhou"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 7 figures",
+ "abstract": "High-dimensional spatially correlated covariates are common in regression models encountered in environmental sciences and other fields. In such models, the regression coefficients often exhibit a sparse structure with spatial dependence. Although standard variable selection approaches can help detect the sparse structure, incorporating the dependence into variable selection helps recover spatially contiguous signals and improves prediction accuracy. Motivated by a real-world challenge in hurricane count prediction, we propose a novel neighborhood-structured global-local shrinkage prior for prediction and region selection in Poisson regression with spatial covariates. The proposed prior combines the Conditional Auto-Regressive (CAR) prior with a Super Heavy-tailed prior to introduce spatial dependence among the coefficients while ensuring appropriate shrinkage effects for covariate selection. We develop an efficient Metropolis-within-Gibbs sampler for computation that accommodates the count data. Extensive simulation studies demonstrate that the proposed model excels when signals are weak and adjacent and the spatial dependence in covariates is strong. In the application of hurricane prediction from the north Atlantic, our method outperforms traditional regression-based approaches and rivals the benchmark oracle model.",
+ "primary": "stat.ME"
+}

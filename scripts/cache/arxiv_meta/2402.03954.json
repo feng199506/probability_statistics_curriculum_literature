@@ -1,0 +1,18 @@
+{
+ "id": "2402.03954",
+ "title": "Mixed Matrix Completion in Complex Survey Sampling under Heterogeneous Missingness",
+ "authors": [
+  "Xiaojun Mao",
+  "Hengfang Wang",
+  "Zhonglei Wang",
+  "Shu Yang"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 1,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Journal of Computational and Graphical Statistics, 2023",
+ "abstract": "Modern surveys with large sample sizes and growing mixed-type questionnaires require robust and scalable analysis methods. In this work, we consider recovering a mixed dataframe matrix, obtained by complex survey sampling, with entries following different canonical exponential distributions and subject to heterogeneous missingness. To tackle this challenging task, we propose a two-stage procedure: in the first stage, we model the entry-wise missing mechanism by logistic regression, and in the second stage, we complete the target parameter matrix by maximizing a weighted log-likelihood with a low-rank constraint. We propose a fast and scalable estimation algorithm that achieves sublinear convergence, and the upper bound for the estimation error of the proposed method is rigorously derived. Experimental results support our theoretical claims, and the proposed estimator shows its merits compared to other existing methods. The proposed method is applied to analyze the National Health and Nutrition Examination Survey data.",
+ "primary": "stat.ME"
+}

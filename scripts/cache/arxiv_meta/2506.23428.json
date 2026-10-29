@@ -1,0 +1,15 @@
+{
+ "id": "2506.23428",
+ "title": "Multiple Hypothesis Testing in Genomics",
+ "authors": [
+  "Shyam Gupta"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 1,
+ "latest_date": "2025-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This analysis report presents an in-depth exploration of multiple hypothesis testing in the context of Genomics RNA-seq differential expression (DE) analysis, with a primary focus on techniques designed to control the false discovery rate (FDR). While RNA-seq has become a cornerstone in transcriptomic research, accurately detecting expression changes remains challenging due to the high-dimensional nature of the data. This report delves into the Benjamini-Hochberg (BH) procedure, Benjamini-Yekutieli (BY) approach, and Storey's method, emphasizing their importance in addressing multiple testing issues and improving the reliability of results in large-scale genomic studies. We provide an overview of how these methods can be applied to control FDR while maintaining statistical power, and demonstrate their effectiveness through simulated data analysis. The discussion highlights the significance of using adaptive methods like Storey's q-value, particularly in high-dimensional datasets where traditional approaches may struggle. Results are presented through typical plots (e.g., Volcano, MA, PCA) and confusion matrices to visualize the impact of these techniques on gene discovery. The limitations section also touches on confounding factors like gene correlations and batch effects, which are often encountered in real-world data. Ultimately, the analysis achieves a robust framework for handling multiple hypothesis comparisons, offering insights into how these methods can be used to interpret complex gene expression data while minimizing errors. The report encourages further validation and exploration of these techniques in future research.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2501.03463",
+ "title": "Auxiliary Learning and its Statistical Understanding",
+ "authors": [
+  "Hanchao Yan",
+  "Feifei Wang",
+  "Chuanxin Xia",
+  "Hansheng Wang"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 1,
+ "latest_date": "2025-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern statistical analysis often encounters high-dimensional problems but with a limited sample size. It poses great challenges to traditional statistical estimation methods. In this work, we adopt auxiliary learning to solve the estimation problem in high-dimensional settings. We start with the linear regression setup. To improve the statistical efficiency of the parameter estimator for the primary task, we consider several auxiliary tasks, which share the same covariates with the primary task. Then a weighted estimator for the primary task is developed, which is a linear combination of the ordinary least squares estimators of both the primary task and auxiliary tasks. The optimal weight is analytically derived and the statistical properties of the corresponding weighted estimator are studied. We then extend the weighted estimator to generalized linear regression models. Extensive numerical experiments are conducted to verify our theoretical results. Last, a deep learning-related real-data example of smart vending machines is presented for illustration purposes.",
+ "primary": "math.ST"
+}

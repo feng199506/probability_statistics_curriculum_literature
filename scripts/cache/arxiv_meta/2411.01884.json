@@ -1,0 +1,17 @@
+{
+ "id": "2411.01884",
+ "title": "Frequentist Oracle Properties of Bayesian Stacking Estimators",
+ "authors": [
+  "Valentin Zulj",
+  "Shaobo Jin",
+  "Måns Magnusson"
+ ],
+ "v1_date": "2024-11-04",
+ "latest_version": 1,
+ "latest_date": "2024-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Compromise estimation entails using a weighted average of outputs from several candidate models, and is a viable alternative to model selection when the choice of model is not obvious. As such, it is a tool used by both frequentists and Bayesians, and in both cases, the literature is vast and includes studies of performance in simulations and applied examples. However, frequentist researchers often prove oracle properties, showing that a proposed average asymptotically performs at least as well as any other average comprising the same candidates. On the Bayesian side, such oracle properties are yet to be established. This paper considers Bayesian stacking estimators, and evaluates their performance using frequentist asymptotics. Oracle properties are derived for estimators stacking Bayesian linear and logistic regression models, and combined with Monte Carlo experiments that show Bayesian stacking may outperform the best candidate model included in the stack. Thus, the result is not only a frequentist motivation of a fundamentally Bayesian procedure, but also an extended range of methods available to frequentist practitioners.",
+ "primary": "math.ST"
+}

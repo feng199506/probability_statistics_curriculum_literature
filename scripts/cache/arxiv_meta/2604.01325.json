@@ -1,0 +1,15 @@
+{
+ "id": "2604.01325",
+ "title": "The Digital Twin Counterfactual Framework: A Validation Architecture for Simulated Potential Outcomes",
+ "authors": [
+  "Olav Laudy"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The fundamental problem of causal inference - that the counterfactual outcome for any individual is never observed - has shaped the entire methodology of the field. Every existing approach substitutes assumptions for missing data: ignorability, parallel trends, exclusion restrictions. None produces the counterfactual itself. This paper proposes the Digital Twin Counterfactual Framework (DTCF): rather than estimating the counterfactual statistically, we simulate it using a digital twin and subject the simulation to a hierarchical validation regime. We formalize the digital twin simulator as a stochastic mapping within the potential outcomes framework and introduce a hierarchy of twin fidelity assumptions - from marginal fidelity through joint fidelity to structural fidelity - each unlocking a progressively richer class of estimands. The central contribution is threefold. First, a five-level validation architecture converts the unfalsifiable claim that the simulator produces correct counterfactuals into falsifiable tests against observable data. Second, a formal decomposition separates causal quantities into those that are marginally validated (ATE, CATE, QTE - testable through observable-arm comparison) and those that are copula-dependent (the ITE distribution, probability of benefit/harm, variance of treatment effects - permanently reliant on the unobservable within-individual dependence structure). Third, bounding, sensitivity, and uncertainty quantification tools make the copula dependence explicit. The DTCF does not resolve the fundamental problem of causal inference. What it provides is a framework in which marginal causal claims become increasingly testable, joint causal claims become explicitly assumption-indexed, and the gap between the two is formally characterized.",
+ "primary": "cs.AI"
+}

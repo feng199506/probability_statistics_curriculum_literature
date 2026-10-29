@@ -1,0 +1,17 @@
+{
+ "id": "2601.13514",
+ "title": "Post-selection inference for penalized M-estimators via score thinning",
+ "authors": [
+  "Ronan Perry",
+  "Snigdha Panigrahi",
+  "Daniela Witten"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 2,
+ "latest_date": "2026-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider inference for M-estimators after model selection using a sparsity-inducing penalty. While existing methods for this task require bespoke inference procedures, we propose a simpler approach, which relies on two insights: (i) adding and subtracting carefully-constructed noise to a Gaussian random variable with unknown mean and known variance leads to two \\emph{independent} Gaussian random variables; and (ii) both the selection event resulting from penalized M-estimation, and the event that a standard (non-selective) confidence interval for an M-estimator covers its target, can be characterized in terms of an approximately normal ``score variable\". We combine these insights to show that -- when the noise is chosen carefully -- there is asymptotic independence between the model selected using a noisy penalized M-estimator, and the event that a standard (non-selective) confidence interval on noisy data covers the selected parameter. Therefore, selecting a model via penalized M-estimation (e.g. \\verb=glmnet= in \\verb=R=) on noisy data, and then conducting \\emph{standard} inference on the selected model (e.g. \\verb=glm= in \\verb=R=) using noisy data, yields valid inference: \\emph{no bespoke methods are required}. Our results require independence of the observations, but only weak distributional requirements. We apply the proposed approach to conduct inference on the association between sex and smoking in a social network.",
+ "primary": "stat.ME"
+}

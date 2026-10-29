@@ -1,0 +1,16 @@
+{
+ "id": "2603.10318",
+ "title": "Optimising two-block averaging kernels to speed up Markov chains",
+ "authors": [
+  "Ryan J. Y. Lim",
+  "Michael C. H. Choi"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 5 figures",
+ "abstract": "We study the problem of selecting optimal two-block partitions to accelerate the mixing of finite Markov chains under group-averaging transformations. The main objectives considered are the Kullback-Leibler (KL) divergence and the Frobenius distance to stationarity. We establish explicit connections between these objectives and the induced projection chain. In the case of the KL divergence, this reduction yields explicit decay rates in terms of the log-Sobolev constant. For the Frobenius distance, we identify a Cheeger-type functional that characterises optimal cuts. This formulation recasts two-block selection as a structured combinatorial optimisation problem admitting difference-of-submodular decompositions. We further propose several algorithmic approximations, including majorisation-minimisation and coordinate descent schemes, as computationally feasible alternatives to exhaustive combinatorial search. Our numerical experiments reveal that optimal cuts under the two objectives can substantially reduce total variation distance to stationarity and demonstrate the practical effectiveness of the proposed approximation algorithms.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.11835",
+ "title": "Particle Data Cloning for Complex Ordinary Differential Equations",
+ "authors": [
+  "Donghui Son",
+  "Liangliang Wang"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 1,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages",
+ "abstract": "Ordinary differential equations (ODEs) are fundamental tools for modeling complex dynamic systems across scientific disciplines. However, parameter estimation in ODE models is challenging due to the multimodal nature of the likelihood function, which can lead to local optima and unstable inference. In this paper, we propose particle data cloning (PDC), a novel approach that enhances global optimization by leveraging data cloning and annealed sequential Monte Carlo (ASMC). PDC mitigates multimodality by refining the likelihood through data clones and progressively extracting information from the sharpened posterior. Compared to standard data cloning, PDC provides more reliable frequentist inference and demonstrates superior global optimization performance. We offer practical guidelines for efficient implementation and illustrate the method through simulation studies and an application to a prey-predator ODE model. Our implementation is available at https://github.com/SONDONGHUI/PDC.",
+ "primary": "stat.CO"
+}

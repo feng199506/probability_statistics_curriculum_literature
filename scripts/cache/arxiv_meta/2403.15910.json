@@ -1,0 +1,18 @@
+{
+ "id": "2403.15910",
+ "title": "Difference-in-Differences with Unpoolable Data",
+ "authors": [
+  "Sunny Karim",
+  "Matthew D. Webb",
+  "Nichole Austin",
+  "Erin Strumpf"
+ ],
+ "v1_date": "2024-03-23",
+ "latest_version": 4,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Difference-in-differences (DID) is commonly used to estimate treatment effects but is infeasible in settings where data are unpoolable due to privacy concerns or legal restrictions on data sharing, particularly across jurisdictions. In this study, we identify and relax the assumption of data poolability in DID estimation. We propose an innovative approach to estimate DID with unpoolable data (UN-DID) which can accommodate covariates, multiple groups, and staggered adoption. Through analytical proofs and Monte Carlo simulations, we show that UN-DID and conventional DID estimates of the average treatment effect and standard errors are equal and unbiased in settings without covariates. With covariates, both methods produce estimates that are unbiased, equivalent, and converge to the true value. The estimates differ slightly but the statistical inference and substantive conclusions remain the same. Two empirical examples with real-world data further underscore UN-DID's utility. The UN-DID method allows the estimation of cross-jurisdictional treatment effects with unpoolable data, enabling better counterfactuals to be used and new research questions to be answered.",
+ "primary": "econ.EM"
+}

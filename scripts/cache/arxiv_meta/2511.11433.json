@@ -1,0 +1,19 @@
+{
+ "id": "2511.11433",
+ "title": "Estimating the Effects of Heatwaves on Health: A Causal Inference Framework",
+ "authors": [
+  "Giulio Grossi",
+  "Leo Vanciu",
+  "Veronica Ballerini",
+  "Danielle Braun",
+  "Falco J. Bargagli Stoffi"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 2,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The harmful relationship between heatwaves and health has been extensively documented in medical and epidemiological literature. However, most evidence is associational and cannot be interpreted causally unless strong assumptions are made. In this paper, we first make explicit the assumptions underlying the statistical methods frequently used in the heatwave literature and demonstrate when these assumptions might break down in heatwave contexts. To address these shortcomings, we propose a causal inference framework that transparently elicits causal identification assumptions. Within this new framework, we first introduce synthetic controls (SC) for estimating heatwave effects, then propose a spatially augmented Bayesian synthetic control (SA-SC) method that accounts for spatial dependence and spillovers. Empirical Monte Carlo simulations show both methods perform well, with SA-SC reducing root mean squared error and improving posterior interval coverage under spillovers and spatial dependence. Finally, we apply the proposed methods to estimate the causal effects of heatwaves on Medicare heat-related hospitalizations among 13,753,273 beneficiaries residing in Northeastern U.S. from 2000 to 2019. This causal inference framework provides spatially coherent counterfactual outcomes and robust, interpretable, and transparent causal estimates while explicitly addressing the unexamined assumptions in existing methods that pervade the heatwave effect literature.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2608.07708",
+ "title": "Small Area Bayesian Dynamic Borrowing: Adaptive Subgroup Estimation for Large-Scale Educational Assessments",
+ "authors": [
+  "Sinan Yavuz",
+  "David Kaplan"
+ ],
+ "v1_date": "2026-08-07",
+ "latest_version": 1,
+ "latest_date": "2026-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large-scale assessments suppress subgroup achievement estimates below minimum sample size thresholds, such as the National Assessment of Educational Progress (NAEP) rule of 62, disproportionately affecting historically underrepresented groups. This study introduces Small Area Bayesian Dynamic Borrowing (SABDB), a unit-level small area estimation method assigning each regression coefficient its own between-area variance, so cross-area borrowing adapts to each coefficient's heterogeneity. We compare SABDB against the unit-level Hierarchical Bayesian Small Area Estimation (HBSAE) model in a simulation study and an empirical case study. The simulation mimics the NAEP eighth-grade mathematics assessment, and the case study uses the PISA 2018 dataset. Across both studies, SABDB achieved near-nominal coverage, whereas HBSAE's intervals were narrow but severely miscalibrated.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2404.02671",
+ "title": "Bayesian Bi-level Sparse Group Regressions for Macroeconomic Density Forecasting",
+ "authors": [
+  "Matteo Mogliani",
+  "Anna Simoni"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 3,
+ "latest_date": "2024-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a Machine Learning approach for optimal macroeconomic density forecasting in a high-dimensional setting where the underlying model exhibits a known group structure. Our approach is general enough to encompass specific forecasting models featuring either many covariates, or unknown nonlinearities, or series sampled at different frequencies. By relying on the novel concept of bi-level sparsity in time-series econometrics, we construct density forecasts based on a prior that induces sparsity both at the group level and within groups. We demonstrate the consistency of both posterior and predictive distributions. We show that the posterior distribution contracts at the minimax-optimal rate and, asymptotically, puts mass on a set that includes the support of the model. Our theory allows for correlation between groups, while predictors in the same group can be characterized by strong covariation as well as common characteristics and patterns. Finite sample performance is illustrated through comprehensive Monte Carlo experiments and a real-data nowcasting exercise of the US GDP growth rate.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2607.24055",
+ "title": "Marginal Data Augmentation for Efficient Bayesian Modeling of Counts and Rates with a Demographic Application",
+ "authors": [
+  "Gregor Zens",
+  "Sylvia Frühwirth-Schnatter"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 1,
+ "latest_date": "2026-07-27",
+ "journal_ref": "In: Nagler, T., Kurowicka, D., Cooke, R., Joe, H. (eds), Statistical Dependence Modeling, Springer, Cham, 2026",
+ "doi": "10.1007/978-3-032-14252-8_15",
+ "comment": "",
+ "abstract": "Count data models are ubiquitous in many fields, yet Bayesian data augmentation algorithms for such models frequently encounter challenges with Markov chain Monte Carlo efficiency. Posterior simulation is especially demanding when modeling data with a high proportion of zero outcomes. In this paper, we address this issue by introducing a marginal data augmentation approach for semi-parametric Bayesian count data regression models, based on a working parameter that rescales latent outcomes corresponding to zero-count observations. This strategy alleviates the strong posterior dependencies that typically reduce the efficiency of standard data augmentation schemes and leads to substantial gains in sampling efficiency. Synthetic data examples and simulation studies are used to demonstrate the improvements in mixing compared to conventional sampling methods. A demographic application using latent factor analysis to model subnational mortality counts in Austria further underscores the broader applicability of the proposed methodology.",
+ "primary": "stat.ME"
+}

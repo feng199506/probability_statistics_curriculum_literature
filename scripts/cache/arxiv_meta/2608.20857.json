@@ -1,0 +1,15 @@
+{
+ "id": "2608.20857",
+ "title": "Minimax Quantile Bounds via Information Measures",
+ "authors": [
+  "Amedeo Roberto Esposito"
+ ],
+ "v1_date": "2026-08-21",
+ "latest_version": 2,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a unified information-theoretic framework for lower bounding minimax quantiles. The starting point is a loss-adapted Neyman--Pearson metaconverse that bounds the minimax success probability at every loss threshold and confidence level. The bound separates the small-ball behaviour of the prior under the loss from the statistical distinguishability of the observation model, and is optimised over an auxiliary output distribution. Different relaxations of this Neyman--Pearson bound yield converses based on \\(f\\)-informativity, Sibson mutual information \\(I_α\\), Maximal Leakage, and Amemiya norms. Classical Fano and Le Cam lower bounds are recovered as special cases. The framework also clarifies why different information measures are suited to different recovery criteria. Maximal Leakage is exact for a class of symmetric exact-recovery problems. We use this identity to derive finite-sample bounds on the full minimax exact-recovery risk in the balanced Gaussian weighted stochastic block model, as well as two-sided finite-sample minimax-quantile bounds for low-rank matrix estimation under isotropic bounded-energy noise. For approximate Hamming recovery, we exhibit a heterogeneous binary model in which an optimised finite Sibson order yields a strong converse while the Maximal Leakage specialisation is trivial. Finally, for one-coordinate Poisson localisation, a Bennett-type Young function used through its Amemiya norm recovers the exact success-probability scale, whereas classical Fano and fixed-power relaxations are strictly weaker. These results show that sharp converses for minimax quantiles require adapting the information measure to the recovery resolution, whether exact or approximate, and to the tail behaviour of the likelihood ratio.",
+ "primary": "cs.IT"
+}

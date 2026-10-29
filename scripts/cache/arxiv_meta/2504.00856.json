@@ -1,0 +1,17 @@
+{
+ "id": "2504.00856",
+ "title": "Group Sequential Design with Posterior and Posterior Predictive Probabilities",
+ "authors": [
+  "Luke Hagar",
+  "Shirin Golchi",
+  "Marina B. Klein"
+ ],
+ "v1_date": "2025-04-01",
+ "latest_version": 4,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "10.1080/01621459.2026.2721401",
+ "comment": "",
+ "abstract": "Group sequential designs drive innovation in clinical, industrial, and corporate settings. Early stopping for failure in sequential designs conserves experimental resources, whereas early stopping for success accelerates access to improved interventions. Bayesian decision procedures provide a formal and intuitive framework for early stopping using posterior and posterior predictive probabilities. Design parameters including decision thresholds and sample sizes are chosen to control the error probabilities associated with the sequential decision process. These choices are routinely made based on estimating the sampling distribution of posterior summaries via intensive Monte Carlo simulations for each sample size and design scenario considered. In this paper, we propose an efficient method to calibrate decision thresholds to pre-specified alpha- and beta-spending functions and determine minimum sample sizes for Bayesian group sequential designs. We prove theoretical results that enable posterior and posterior predictive probabilities to be modeled as a function of the sample size. Using these functions, we assess error probabilities at a range of sample sizes given simulations conducted at only two sample sizes. The effectiveness of our methodology is highlighted using several substantive examples.",
+ "primary": "stat.ME"
+}

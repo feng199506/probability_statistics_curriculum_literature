@@ -1,0 +1,18 @@
+{
+ "id": "2603.26297",
+ "title": "Attribution of Spurious Factors from High-Dimensional Functional Time Series",
+ "authors": [
+  "Adam Nie",
+  "Yanrong Yang",
+  "Han Lin Shang",
+  "Yi He"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages,7 figures, 1 table",
+ "abstract": "This article explores a general factor structure for high-dimensional nonstationary functional time series, encompassing a wide range of factor models studied in the existing literature. We investigate the asymptotic spectral behaviors of the sample covariance operator under this general data structure. A novel fundamental sufficient condition, formulated in terms of a newly introduced effective rank tailored to this setup, is established under which empirical eigen-analysis yields spurious results, rendering sample eigenvalues and eigenvectors unreliable for accurately recovering the underlying factor structure. This generalizes the results of Onatski and Wang [2021] from typical high-dimensional time series (HDTS) to the more intricate functional framework. The newly defined effective rank is rigorously analyzed through a decomposition of the effects attributable to functional factor loadings and functional factors. Contrary to the findings in the HDTS setting, empirical eigen-analysis of models with only a small number of strong non-stationary factors may still produce spurious limits in the functional framework. Therefore, additional caution is warranted when applying covariance-based statistical methods to potentially nonstationary functional data. Simulation studies are performed to determine conditions under which spurious limits occur. Real data analysis on age-specific mortality rate data from multiple locations is conducted for evidence of spurious factors induced by empirical eigen-analysis.",
+ "primary": "stat.ME"
+}

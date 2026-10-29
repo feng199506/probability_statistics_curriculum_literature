@@ -1,0 +1,16 @@
+{
+ "id": "2508.07982",
+ "title": "Likelihood Ratio Tests by Kernel Gaussian Embedding",
+ "authors": [
+  "Leonardo V. Santoro",
+  "Victor M. Panaretos"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 2,
+ "latest_date": "2025-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel kernel-based nonparametric two-sample test, employing the combined use of kernel mean and kernel covariance embedding. Our test builds on recent results showing how such combined embeddings map distinct probability measures to mutually singular Gaussian measures on the kernel's RKHS. Leveraging this ``separation of measure phenomenon\", we construct a test statistic based on the relative entropy between the Gaussian embeddings, in effect the likelihood ratio. The likelihood ratio is specifically tailored to detect equality versus singularity of two Gaussians, and satisfies a ``$0/\\infty$\" law, in that it vanishes under the null and diverges under the alternative. To implement the test in finite samples, we introduce a regularised version, calibrated by way of permutation. We prove consistency, establish uniform power guarantees under mild conditions, and discuss how our framework unifies and extends prior approaches based on spectrally regularized MMD. Empirical results on synthetic and real data demonstrate remarkable gains in power compared to state-of-the-art methods, particularly in high-dimensional and weak-signal regimes.",
+ "primary": "stat.ML"
+}

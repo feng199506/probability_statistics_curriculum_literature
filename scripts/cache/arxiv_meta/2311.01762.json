@@ -1,0 +1,15 @@
+{
+ "id": "2311.01762",
+ "title": "Changing the Kernel During Training Leads to Double Descent in Kernel Regression",
+ "authors": [
+  "Oskar Allerbo"
+ ],
+ "v1_date": "2023-11-03",
+ "latest_version": 3,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Article arXiv:2306.16838v1 has been updated and split into two articles: this article and arXiv:2306.16838v2. Thus, much of the content in this article is also a part of arXiv:2306.16838v1",
+ "abstract": "We investigate changing the bandwidth of a translational-invariant kernel during training when solving kernel regression with gradient descent. We present a theoretical bound on the out-of-sample generalization error that advocates for decreasing the bandwidth (and thus increasing the model complexity) during training. We further use the bound to show that kernel regression exhibits a double descent behavior when the model complexity is expressed as the minimum allowed bandwidth during training. Decreasing the bandwidth all the way to zero results in benign overfitting, and also circumvents the need for model selection. We demonstrate the double descent behavior on real and synthetic data and also demonstrate that kernel regression with a decreasing bandwidth outperforms that of a constant bandwidth, selected by cross-validation or marginal likelihood maximization. We finally apply our findings to neural networks, demonstrating that by modifying the neural tangent kernel (NTK) during training, making the NTK behave as if its bandwidth were decreasing to zero, we can make the network overfit more benignly, and converge in fewer iterations.",
+ "primary": "stat.ML"
+}

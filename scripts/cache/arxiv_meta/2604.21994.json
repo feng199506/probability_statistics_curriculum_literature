@@ -1,0 +1,18 @@
+{
+ "id": "2604.21994",
+ "title": "Contrast-Space Projection for Network Meta-Analysis: An Exact and Invariant Study-Based Decomposition of Direct and Indirect Contributions",
+ "authors": [
+  "Chong Wang",
+  "Yanqi Zhang",
+  "Zhezhen Jin",
+  "Annette O'Connor"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 2,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 6 figures. Revised version with expanded theoretical development, clarification of the representation-invariant study-based direct and indirect decomposition, additional results on canonical reduction and path construction, revised generalized Cochran Q diagnostics, and updated empirical illustrations and exposition",
+ "abstract": "Network meta-analysis (NMA) combines direct and indirect comparisons across a treatment network, but exact contribution decompositions that reproduce NMA estimates are lacking, especially for multi-arm trials with correlated contrasts. We develop a contrast-space projection formulation of NMA that expresses the estimator as a linear mapping of observed pairwise contrasts onto the consistency-constrained contrast space. Building on this representation, we define direct and indirect evidence through a canonical within-study reduction that removes algebraic redundancy and yields a unique, invariant study-level decomposition. The resulting covariance-aware weights exactly reconstruct the NMA estimator and can be further resolved into indirect path-level components. Under fixed effects, the same projection also represents the generalized Cochran Q decomposition into within-design heterogeneity and between-design inconsistency. The framework yields diagnostic and graphical tools, including forest plots, tension plots, and path-based visualizations. Applications to empirical networks illustrate how the approach provides a reproducible and interpretable account of evidence contributions in NMA.",
+ "primary": "stat.ME"
+}

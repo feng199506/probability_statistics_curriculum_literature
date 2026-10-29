@@ -1,0 +1,17 @@
+{
+ "id": "2604.10976",
+ "title": "Neural Generalized Mixed-Effects Models",
+ "authors": [
+  "Yuli Slavutsky",
+  "Sebastian Salazar",
+  "David M. Blei"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 1,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalized linear mixed-effects models (GLMMs) are widely used to analyze grouped and hierarchical data. In a GLMM, each response is assumed to follow an exponential-family distribution where the natural parameter is given by a linear function of observed covariates and a latent group-specific random effect. Since exact marginalization over the random effects is typically intractable, model parameters are estimated by maximizing an approximate marginal likelihood. In this paper, we replace the linear function with neural networks. The result is a more flexible model, the neural generalized mixed-effects model (NGMM), which captures complex relationships between covariates and responses. To fit NGMM to data, we introduce an efficient optimization procedure that maximizes the approximate marginal likelihood and is differentiable with respect to network parameters. We show that the approximation error of our objective decays at a Gaussian-tail rate in a user-chosen parameter. On synthetic data, NGMM improves over GLMMs when covariate-response relationships are nonlinear, and on real-world datasets it outperforms prior methods. Finally, we analyze a large dataset of student proficiency to demonstrate how NGMM can be extended to more complex latent-variable models.",
+ "primary": "stat.ML"
+}

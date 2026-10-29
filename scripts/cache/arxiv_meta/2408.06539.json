@@ -1,0 +1,18 @@
+{
+ "id": "2408.06539",
+ "title": "Conformal predictive intervals in survival analysis: a re-sampling approach",
+ "authors": [
+  "Jing Qin",
+  "Jin Piao",
+  "Jing Ning",
+  "Yu Shen"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 1,
+ "latest_date": "2024-08-13",
+ "journal_ref": "Biometrics . 2025 Apr 2;81(2):ujaf063",
+ "doi": "10.1093/biomtc/ujaf063",
+ "comment": "2 figures and 2 tables",
+ "abstract": "The distribution-free method of conformal prediction (Vovk et al, 2005) has gained considerable attention in computer science, machine learning, and statistics. Candes et al. (2023) extended this method to right-censored survival data, addressing right-censoring complexity by creating a covariate shift setting, extracting a subcohort of subjects with censoring times exceeding a fixed threshold. Their approach only estimates the lower prediction bound for type I censoring, where all subjects have available censoring times regardless of their failure status. In medical applications, we often encounter more general right-censored data, observing only the minimum of failure time and censoring time. Subjects with observed failure times have unavailable censoring times. To address this, we propose a bootstrap method to construct one -- as well as two-sided conformal predictive intervals for general right-censored survival data under different working regression models. Through simulations, our method demonstrates excellent average coverage for the lower bound and good coverage for the two-sided predictive interval, regardless of working model is correctly specified or not, particularly under moderate censoring. We further extend the proposed method to several directions in medical applications. We apply this method to predict breast cancer patients' future survival times based on tumour characteristics and treatment.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.09009",
+ "title": "Conditional Inference for Secondary Outcomes Based on the Testing Result for the Primary Outcome in Clinical Trials",
+ "authors": [
+  "Tianyu Pan",
+  "Vivek Charu",
+  "Ying Lu",
+  "Lu Tian"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 1,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages, 0 figure, 5 tables",
+ "abstract": "In clinical trials, inferences on clinical outcomes are often made conditional on specific selective processes. For instance, only when a treatment demonstrates a significant effect on the primary outcome, further analysis is conducted to investigate its efficacy on selected secondary outcomes. Similarly, inferences may also depend on whether a trial is terminated early at interim stage. While conventional approaches primarily aim to control the family-wise error rate through multiplicity adjustments, they do not necessarily ensure the desired statistical property of the inference result, when the analysis is conducted according to a selective process. For example, the conditional coverage level of a regular confidence interval under a selective processes can be very different from its nominal level even after adjustment for multiple testing. In this paper, we argue that the validity of the inference procedure conditional on selective process is important in many applications. In addition, we propose to construct confidence intervals with correct conditional coverage probability by accounting for related selective process. Specifically, our approach involves a pivotal quantity constructed by inversing the cumulative distribution function of a truncated normal distribution induced by the selective process. Theoretical justification and comprehensive simulations illustrate the effectiveness of this method in realistic settings. We also apply our method to analyze data from the SPRINT, resulting in more conservative but conditionally valid confidence intervals for the average treatment effect than those originally published.",
+ "primary": "stat.ME"
+}

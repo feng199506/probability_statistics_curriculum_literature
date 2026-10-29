@@ -1,0 +1,16 @@
+{
+ "id": "2508.11004",
+ "title": "A Selective Review of Modern Stochastic Modeling: SDE/SPDE Numerics, Data-Driven Identification, and Generative Methods with Applications in Biomathematics",
+ "authors": [
+  "Yassine Sabbar",
+  "Kottakkaran Sooppy Nisar"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This review maps developments in stochastic modeling, highlighting non-standard approaches and their applications to biology and epidemiology. It brings together four strands: (1) core models for systems that evolve with randomness; (2) learning key parts of those models directly from data; (3) methods that can generate realistic synthetic data in continuous time; and (4) numerical techniques that keep simulations stable, accurate, and faithful over long runs. The objective is practical: help researchers quickly see what is new, how the pieces fit together, and where important gaps remain. We summarize tools for estimating changing infection or reaction rates under noisy and incomplete observations, modeling spatial spread, accounting for sudden jumps and heavy tails, and reporting uncertainty in a way that is useful for decisions. We also highlight open problems that deserve near-term attention: separating true dynamics from noise when data are irregular; learning spatial dynamics under random influences with guarantees of stability; aligning training with the numerical method used in applications; preserving positivity and conservation in all simulations; reducing cost while controlling error for large studies; estimating rare but important events; and adopting clear, comparable reporting standards. By organizing the field around these aims, the review offers a concise guide to current methods, their practical use, and the most promising directions for future work in biology and epidemiology.s.",
+ "primary": "math.DS"
+}

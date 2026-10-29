@@ -1,0 +1,17 @@
+{
+ "id": "2405.18206",
+ "title": "Multi-CATE: Multi-Accurate Conditional Average Treatment Effect Estimation Robust to Unknown Covariate Shifts",
+ "authors": [
+  "Christoph Kern",
+  "Michael Kim",
+  "Angela Zhou"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 2,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating heterogeneous treatment effects is important to tailor treatments to those individuals who would most likely benefit. However, conditional average treatment effect predictors may often be trained on one population but possibly deployed on different, possibly unknown populations. We use methodology for learning multi-accurate predictors to post-process CATE T-learners (differenced regressions) to become robust to unknown covariate shifts at the time of deployment. The method works in general for pseudo-outcome regression, such as the DR-learner. We show how this approach can combine (large) confounded observational and (smaller) randomized datasets by learning a confounded predictor from the observational dataset, and auditing for multi-accuracy on the randomized controlled trial. We show improvements in bias and mean squared error in simulations with increasingly larger covariate shift, and on a semi-synthetic case study of a parallel large observational study and smaller randomized controlled experiment. Overall, we establish a connection between methods developed for multi-distribution learning and achieve appealing desiderata (e.g. external validity) in causal inference and machine learning.",
+ "primary": "cs.LG"
+}

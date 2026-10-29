@@ -1,0 +1,18 @@
+{
+ "id": "2407.19135",
+ "title": "Bayesian Mapping of Mortality Clusters",
+ "authors": [
+  "Andrea Sottosanti",
+  "Enrico Bovo",
+  "Pietro Belloni",
+  "Giovanna Boccuzzo"
+ ],
+ "v1_date": "2024-07-27",
+ "latest_version": 3,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Figures and tables at the end of the manuscript",
+ "abstract": "Disease mapping analyses the distribution of several disease outcomes within a territory. Primary goals include identifying areas with unexpected changes in mortality rates, studying the relation among multiple diseases, and dividing the analysed territory into clusters based on the observed levels of disease incidence or mortality. In this work, we focus on detecting spatial mortality clusters, that occur when neighbouring areas within a territory exhibit similar mortality levels due to one or more diseases. When multiple causes of death are examined together, it is relevant to identify not only the spatial boundaries of the clusters but also the diseases that lead to their formation. However, existing methods in literature struggle to address this dual problem effectively and simultaneously. To overcome these limitations, we introduce Perla, a multivariate Bayesian model that clusters areas in a territory according to the observed mortality rates of multiple causes of death, also exploiting the information of external covariates. Our model incorporates the spatial structure of data directly into the clustering probabilities by leveraging the stick-breaking formulation of the multinomial distribution. Additionally, it exploits suitable global-local shrinkage priors to ensure that the detection of clusters depends on diseases showing concrete increases or decreases in mortality levels, while excluding uninformative diseases. We propose an MCMC algorithm for posterior inference that consists of closed-form Gibbs sampling moves for nearly every model parameter. To demonstrate the flexibility and effectiveness of our methodology, we validate Perla with a series of simulation experiments and two extensive case studies.",
+ "primary": "stat.ME"
+}

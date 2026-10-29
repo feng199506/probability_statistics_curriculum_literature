@@ -1,0 +1,15 @@
+{
+ "id": "2610.01342",
+ "title": "User-friendly approximation theory for statistical regression",
+ "authors": [
+  "Felix Benning"
+ ],
+ "v1_date": "2026-10-01",
+ "latest_version": 1,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The error of regression using noisy function values naturally decomposes into an approximation error from the choice of model space and stochastic error from the noise on the observations. Statistical theory is mostly concerned with the stochastic error while approximation theory focuses on the approximation error, often subject to the assumption of noiseless observations. We combine the tools from approximation theory and statistics into a framework for bounding both errors in generalized least squares regression. The results cover weighted sup-norms and $L^2(μ)$-norms, real- and complex-valued functions, and correlated noise under a range of tail and moment assumptions. Weighted Lebesgue functions and constants control the amplification of the best approximation error, while concentration inequalities provide bounds on the stochastic error. We organize these results into reusable bounds with explicit constants and establish sharpness where possible. For the common strategy of randomized regression we prove concentration of the Lebesgue function and constant around those of the corresponding $L^2(μ)$-projection. For Fourier and Chebyshev regression on standard sampling grids, we obtain explicit, asymptotically tight $\\mathcal O(\\log m)$ bounds on the Lebesgue constants where $m$ is the model dimension. This improves upon the previous $\\mathcal O(\\sqrt{m})$ bound obtained for the regression setting and matches the bounds known for interpolation. A catalogue of approximation bounds and worked examples illustrates how to turn these results into explicit regression guarantees.",
+ "primary": "math.ST"
+}

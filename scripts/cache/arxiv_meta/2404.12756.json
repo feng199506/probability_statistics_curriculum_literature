@@ -1,0 +1,17 @@
+{
+ "id": "2404.12756",
+ "title": "Why not a thin plate spline for spatial models? A comparative study using Bayesian inference",
+ "authors": [
+  "Joaquin Cavieres",
+  "Paula Moraga",
+  "Cole C. Monnahan"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 1,
+ "latest_date": "2024-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preliminary results of this analysis were presented in CMStatistics, 2023 (Berlin)",
+ "abstract": "Spatial modelling often uses Gaussian random fields to capture the stochastic nature of studied phenomena. However, this approach incurs significant computational burdens (O(n3)), primarily due to covariance matrix computations. In this study, we propose to use a low-rank approximation of a thin plate spline as a spatial random effect in Bayesian spatial models. We compare its statistical performance and computational efficiency with the approximated Gaussian random field (by the SPDE method). In this case, the dense matrix of the thin plate spline is approximated using a truncated spectral decomposition, resulting in computational complexity of O(kn2) operations, where k is the number of knots. Bayesian inference is conducted via the Hamiltonian Monte Carlo algorithm of the probabilistic software Stan, which allows us to evaluate performance and diagnostics for the proposed models. A simulation study reveals that both models accurately recover the parameters used to simulate data. However, models using a thin plate spline demonstrate superior execution time to achieve the convergence of chains compared to the models utilizing an approximated Gaussian random field. Furthermore, thin plate spline models exhibited better computational efficiency for simulated data coming from different spatial locations. In a real application, models using a thin plate spline as spatial random effect produced similar results in estimating a relative index of abundance for a benthic marine species when compared to models incorporating an approximated Gaussian random field. Although they were not the more computational efficient models, their simplicity in parametrization, execution time and predictive performance make them a valid alternative for spatial modelling under Bayesian inference.",
+ "primary": "stat.ME"
+}

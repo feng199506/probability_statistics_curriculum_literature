@@ -1,0 +1,19 @@
+{
+ "id": "2412.15401",
+ "title": "Quantile Mediation Analytics",
+ "authors": [
+  "Canyi Chen",
+  "Yinqiu He",
+  "Huixia J. Wang",
+  "Gongjun Xu",
+  "Peter X. -K. Song"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 1,
+ "latest_date": "2024-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mediation analytics help examine if and how an intermediate variable mediates the influence of an exposure variable on an outcome of interest. Quantiles, rather than the mean, of an outcome are scientifically relevant to the comparison among specific subgroups in practical studies. Albeit some empirical studies available in the literature, there lacks a thorough theoretical investigation of quantile-based mediation analysis, which hinders practitioners from using such methods to answer important scientific questions. To address this significant technical gap, in this paper, we develop a quantile mediation analysis methodology to facilitate the identification, estimation, and testing of quantile mediation effects under a hypothesized directed acyclic graph. We establish two key estimands, quantile natural direct effect (qNDE) and quantile natural indirect effect (qNIE), in the counterfactual framework, both of which have closed-form expressions. To overcome the issue that the null hypothesis of no mediation effect is composite, we establish a powerful adaptive bootstrap method that is shown theoretically and numerically to achieve a proper type I error control. We illustrate the proposed quantile mediation analysis methodology through both extensive simulation experiments and a real-world dataset in that we investigate the mediation effect of lipidomic biomarkers for the influence of exposure to phthalates on early childhood obesity clinically diagnosed by 95\\% percentile of body mass index.",
+ "primary": "stat.ME"
+}

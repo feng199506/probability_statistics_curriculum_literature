@@ -1,0 +1,17 @@
+{
+ "id": "2607.19161",
+ "title": "On the sensitivity of machine-learned probabilistic weather forecast models to scale-aware scoring rules",
+ "authors": [
+  "Simon Lang",
+  "Martin Leutbecher",
+  "Sam Hatfield"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 2,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic forecast models can be machine-learned from data using loss functions based on scoring rules such as the Continuous Ranked Probability Score (CRPS). This note summarises a preliminary study comparing versions of AIFS-CRPS, a global weather forecast model, trained with different univariate and multivariate scoring rules that aim to explicitly represent scale-awareness in the loss function. In the first part, we compare the (almost) fair CRPS, a fair global energy score, and a graph energy score based on node neighbourhoods. Across standard verification metrics, forecast skill is broadly similar. In the extratropics we find only small differences, while in the tropics the graph energy score setup performs somewhat better and the global energy score shows some degradation. These results suggest that multivariate scores are a viable alternative to CRPS-based training for global machine-learned weather forecasting. In the second part of the study, we analyse how different scoring rules and scale-aware loss constraints shape the spectra of forecast fields. It is apparent that any form of explicit scale-awareness improves realism. Here, the largest differences are likely associated with different effective weights per scale.",
+ "primary": "physics.ao-ph"
+}

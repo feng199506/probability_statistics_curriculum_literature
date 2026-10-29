@@ -1,0 +1,15 @@
+{
+ "id": "2411.19523",
+ "title": "Localized Conformal Multi-Quantile Regression",
+ "authors": [
+  "Yuan Lu"
+ ],
+ "v1_date": "2024-11-29",
+ "latest_version": 3,
+ "latest_date": "2025-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard conformal prediction methods guarantee marginal coverage but often produce inefficient intervals that fail to adapt to local heteroscedasticity, while recent localized approaches often struggle to maintain validity across distinct subpopulations with varying noise profiles. To address these challenges, we introduce Localized Conformal Multi-Quantile Regression (LCMQR), a novel framework that synergizes multi-quantile information with kernel-based localization to construct efficient and adaptive prediction intervals. Theoretically, we resolve an inconsistency in Conformalized Composite Quantile Regression (CCQR) by proving that our consistent Average-then-Max scoring mechanism systematically yields tighter intervals than the Max-then-Average approach used in prior work. For heterogeneous environments, we extend this framework to Group-Calibrated LCMQR (GC-LCMQR) via a stratified calibration step that guarantees finite-sample validity within distinct subgroups. Experiments on benchmark datasets and an Individual Treatment Effect (ITE) task demonstrate that LCMQR achieves superior efficiency on standard benchmarks, while GC-LCMQR uniquely achieves group-level coverage for target subgroups in mixture populations where baselines fail.",
+ "primary": "stat.ME"
+}

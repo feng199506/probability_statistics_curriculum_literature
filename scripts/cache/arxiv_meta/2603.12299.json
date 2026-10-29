@@ -1,0 +1,15 @@
+{
+ "id": "2603.12299",
+ "title": "Regenerative Rejection Sampling",
+ "authors": [
+  "Tommaso Bozzi"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 2,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EPFL Master's Thesis, 122 pages, 30 figures",
+ "abstract": "This thesis presents Regenerative Rejection Sampling (RRS), a novel approximate sampling algorithm inspired by classical Rejection Sampling and Markov Chain Monte Carlo methods. The method constructs a continuous-time regenerative process whose stationary distribution coincides with a target density known only up to a normalizing constant. Unlike standard Rejection Sampling, RRS does not require the existence of a finite constant that upper-bounds the likelihood ratio. As a result, its total variation convergence rate remains exponential for a larger class of scenarios compared to, for example, the Independent Metropolis-Hastings sampler, which requires a finite bounding constant. To explain the workings of the method, we first present a detailed review of renewal and regenerative processes, including their limit theorems, stationary versions, and convergence properties under standard conditions. We explain a coupling proof for exponential convergence of regenerative processes, under the assumption of a spread-out cycle length distribution. We then introduce the RRS algorithm, and derive its convergence rate. Its performance is compared theoretically and empirically with classical MCMC methods. Numerical experiments demonstrate that RRS can exhibit lower autocorrelations and faster effective mixing, both in synthetic examples and in a Bayesian probit regression model applied to a real medical dataset. Moreover, if the algorithm is run until time t, we show that the usual order $O(1/t)$ results for the bias of the time-average estimators, is improved to a bias of $O(1/t^2)$ for the estimator constructed from the RRS method, and provide easy-to-estimate non-asymptotic bounds for this bias.",
+ "primary": "stat.CO"
+}

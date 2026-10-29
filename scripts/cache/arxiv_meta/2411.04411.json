@@ -1,0 +1,18 @@
+{
+ "id": "2411.04411",
+ "title": "Parsimoniously Fitting Large Multivariate Random Effects in glmmTMB",
+ "authors": [
+  "Maeve McGillycuddy",
+  "Gordana Popovic",
+  "Benjamin M. Bolker",
+  "David I. Warton"
+ ],
+ "v1_date": "2024-11-07",
+ "latest_version": 1,
+ "latest_date": "2024-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate random effects with unstructured variance-covariance matrices of large dimensions, $q$, can be a major challenge to estimate. In this paper, we introduce a new implementation of a reduced-rank approach to fit large dimensional multivariate random effects by writing them as a linear combination of $d < q$ latent variables. By adding reduced-rank functionality to the package glmmTMB, we enhance the mixed models available to include random effects of dimensions that were previously not possible. We apply the reduced-rank random effect to two examples, estimating a generalized latent variable model for multivariate abundance data and a random-slopes model.",
+ "primary": "stat.ME"
+}

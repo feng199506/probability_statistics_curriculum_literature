@@ -1,0 +1,17 @@
+{
+ "id": "2408.14327",
+ "title": "Learning Topic Hierarchies by Tree-Directed Latent Variable Models",
+ "authors": [
+  "Sunrit Chakraborty",
+  "Rayleigh Lei",
+  "XuanLong Nguyen"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 1,
+ "latest_date": "2024-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a parametric family of latent variable models, namely topic models, equipped with a hierarchical structure among the topic variables. Such models may be viewed as a finite mixture of the latent Dirichlet allocation (LDA) induced distributions, but the LDA components are constrained by a latent hierarchy, specifically a rooted and directed tree structure, which enables the learning of interpretable and latent topic hierarchies of interest. A mathematical framework is developed in order to establish identifiability of the latent topic hierarchy under suitable regularity conditions, and to derive bounds for posterior contraction rates of the model and its parameters. We demonstrate the usefulness of such models and validate its theoretical properties through a careful simulation study and a real data example using the New York Times articles.",
+ "primary": "math.ST"
+}

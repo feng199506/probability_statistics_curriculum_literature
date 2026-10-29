@@ -1,0 +1,15 @@
+{
+ "id": "1805.01729",
+ "title": "Axiomatic Approach to Variable Kernel Density Estimation",
+ "authors": [
+  "Ilja Klebanov"
+ ],
+ "v1_date": "2018-05-04",
+ "latest_version": 1,
+ "latest_date": "2018-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variable kernel density estimation allows the approximation of a probability density by the mean of differently stretched and rotated kernels centered at given sampling points $y_n\\in\\mathbb{R}^d,\\ n=1,\\dots,N$. Up to now, the choice of the corresponding bandwidth matrices $h_n$ has relied mainly on asymptotic arguments, like the minimization of the asymptotic mean integrated squared error (AMISE), which work well for large numbers of sampling points. However, in practice, one is often confronted with small to moderately sized sample sets far below the asymptotic regime, which highly restricts the usability of such methods. As an alternative to this asymptotic reasoning we suggest an axiomatic approach which guarantees invariance of the density estimate under linear transformations of the original density (and the sampling points) as well as under splitting of the density into several `well-separated' parts. In order to still ensure proper asymptotic behavior of the estimate, we \\emph{postulate} the typical dependence $h_n\\propto N^{-1/(d+4)}$. Further, we derive a new bandwidths selection rule which satisfies these axioms and performs considerably better than conventional ones in an artificially intricate two-dimensional example as well as in a real life example.",
+ "primary": "math.ST"
+}

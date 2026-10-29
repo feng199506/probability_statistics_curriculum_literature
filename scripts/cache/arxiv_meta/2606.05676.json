@@ -1,0 +1,17 @@
+{
+ "id": "2606.05676",
+ "title": "regcorr: An R Package for Regression Models of Pearson Correlation Coefficients",
+ "authors": [
+  "Ze Lin",
+  "Bo Li",
+  "Jinyao Shen"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages. R package available on CRAN",
+ "abstract": "Pearson's correlation coefficient is commonly used as a single-number summary of association between two responses. In many applications, however, the strength of association is itself heterogeneous and may vary with demographic, biological, experimental, or environmental covariates. The regcorr package implements regression models in which a Pearson correlation coefficient is linked to a linear predictor of covariates. The package supports bivariate normal responses and bivariate Bernoulli responses, provides Newton-Raphson estimation routines, includes data generators for simulation studies, and supplies a bootstrap-based subroutine for assessing the significance and power of covariate effects. The implementation follows the likelihood-based framework of Dufera, Liu, and Xu (2023) and exposes it through a lightweight R interface with no compiled code and minimal dependencies. This paper describes the statistical model, the computational design of regcorr, reproducible usage examples, and practical guidance for interpreting covariate-dependent correlations. The package is available from the Comprehensive R Archive Network at https://CRAN.R-project.org/package=regcorr under the MIT license.",
+ "primary": "stat.ME"
+}

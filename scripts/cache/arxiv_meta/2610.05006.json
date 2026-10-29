@@ -1,0 +1,15 @@
+{
+ "id": "2610.05006",
+ "title": "Minimax estimation of the expected conditional covariance under bounds on the covariate density",
+ "authors": [
+  "Seyoung Park"
+ ],
+ "v1_date": "2026-10-04",
+ "latest_version": 1,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27pages, 2 figures",
+ "abstract": "In many scientific studies, evaluating the association between two responses requires adjusting for shared covariates. The expected conditional covariance measures this adjusted association and is used in conditional independence testing and treatment effect estimation. Researchers often estimate it using fitted conditional means, but removing the bias caused by the estimation errors of these conditional means remains a difficult task. This difficulty can increase when the true covariate density is unknown and restricted only by known upper and lower bounds. In this article, we study how accurately the expected conditional covariance can be estimated under these density bounds. We propose a multiresolution estimator that reduces bias without estimating the density. Theoretical results show that, for bounded responses and rough regression functions, an unknown density slows the optimal worst-case rate by a power of sample size compared with a known density. We establish that the optimal rate under density bounds alone strictly improves upon the previously conjectured polynomial rate by a sub-polynomial factor, resolving a long-standing conjecture. Our estimator attains this rate up to a logarithmic factor. Through simulations and a real data resampling experiment on diamonds, we show that our method can yield smaller mean squared errors than standard uncorrected estimators.",
+ "primary": "math.ST"
+}

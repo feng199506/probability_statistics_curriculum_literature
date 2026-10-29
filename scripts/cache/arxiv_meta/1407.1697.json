@@ -1,0 +1,16 @@
+{
+ "id": "1407.1697",
+ "title": "L1 Control Theoretic Smoothing Splines",
+ "authors": [
+  "Masaaki Nagahara",
+  "Clyde F. Martin"
+ ],
+ "v1_date": "2014-07-07",
+ "latest_version": 2,
+ "latest_date": "2014-07-23",
+ "journal_ref": "",
+ "doi": "10.1109/lsp.2014.2337017",
+ "comment": "Accepted for publication in IEEE Signal Processing Letters. 4 pages (twocolumn), 5 figures",
+ "abstract": "In this paper, we propose control theoretic smoothing splines with L1 optimality for reducing the number of parameters that describes the fitted curve as well as removing outlier data. A control theoretic spline is a smoothing spline that is generated as an output of a given linear dynamical system. Conventional design requires exactly the same number of base functions as given data, and the result is not robust against outliers. To solve these problems, we propose to use L1 optimality, that is, we use the L1 norm for the regularization term and/or the empirical risk term. The optimization is described by a convex optimization, which can be efficiently solved via a numerical optimization software. A numerical example shows the effectiveness of the proposed method.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2512.10156",
+ "title": "Inference for Batched Adaptive Experiments",
+ "authors": [
+  "Jan Kemper",
+  "Davud Rostam-Afschar"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 1,
+ "latest_date": "2025-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advantages of adaptive experiments have led to their rapid adoption in economics, other fields, as well as among practitioners. However, adaptive experiments pose challenges for causal inference. This note suggests a BOLS (batched ordinary least squares) test statistic for inference of treatment effects in adaptive experiments. The statistic provides a precision-equalizing aggregation of per-period treatment-control differences under heteroskedasticity. The combined test statistic is a normalized average of heteroskedastic per-period z-statistics and can be used to construct asymptotically valid confidence intervals. We provide simulation results comparing rejection rates in the typical case with few treatment periods and few (or many) observations per batch.",
+ "primary": "econ.EM"
+}

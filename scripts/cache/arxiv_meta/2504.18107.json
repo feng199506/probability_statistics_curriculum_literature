@@ -1,0 +1,17 @@
+{
+ "id": "2504.18107",
+ "title": "Multi-Task Learning for High-Dimensional Regression with Many Weak Instruments",
+ "authors": [
+  "Di Zhang",
+  "Xuanyu Li",
+  "Baoluo Sun"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 2,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 2 figures, 4 tables",
+ "abstract": "Many weak instrumental variables (IVs) are routinely used in the health and social sciences to improve identification and inference of the treatment effect of interest, along with a broad collection of data on potential confounding factors in the hope that the IV assumptions hold within each data stratum. We propose a new debiased continuous-updating generalized method of moments estimator with multi-task learning of the IV propensity scores to simultaneously address the biases from a diverging number of weak IVs as well as first-step regularized estimation of nuisance regression functions in high-dimensional potential confounding factors. We develop a new multi-task learning theory for generalized linear models under a general sub-Gaussian design to establish valid inference in the many weak IVs asymptotic regime under appropriate sparsity conditions. We evaluate the proposed method via extensive Monte Carlo studies and an empirical application to investigate the returns to education.",
+ "primary": "stat.ME"
+}

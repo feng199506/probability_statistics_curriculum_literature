@@ -1,0 +1,16 @@
+{
+ "id": "2610.09813",
+ "title": "Drift Estimation for a Multi-Dimensional Lévy-Driven Stochastic Differential Equation Using Deep Neural Networks",
+ "authors": [
+  "Taisei Noguchi",
+  "Teppei Ogihara"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages",
+ "abstract": "We develop a non-asymptotic theory for nonparametric drift estimation in discretely observed multi-dimensional Lévy-driven stochastic differential equations using sparse ReLU neural networks. Under exponential \\(β\\)-mixing and an exponential-tail condition on the Lévy measure, we establish an oracle inequality for the least-squares estimator. The jump component changes both the martingale structure and the concentration regime relative to diffusion models: continuous martingales are replaced by discontinuous martingales, while the relevant empirical-process fluctuations are sub-exponential rather than sub-Gaussian. We handle these difficulties without truncating the observed increments, using an exponential-supermartingale argument for compensated Poisson integrals and \\(ψ_1\\)-chaining. Despite the weaker concentration, the resulting statistical bound is, up to constants, of the same order as the corresponding diffusion bound. For drift functions with hierarchical compositional structure, this yields intrinsic-dimensional convergence rates. The framework allows infinite jump activity and, in some cases, infinite variation. Finally, we establish a minimax lower bound on a fixed non-trivial compound-Poisson submodel. Together with the upper bound, this shows that the estimator is minimax optimal up to logarithmic factors.",
+ "primary": "math.ST"
+}

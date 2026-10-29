@@ -1,0 +1,20 @@
+{
+ "id": "2312.09393",
+ "title": "Bi-scale Car-following Model Calibration for Corridor Based on Trajectory",
+ "authors": [
+  "Keke Long",
+  "Haotian Shi",
+  "Zhiwei Chen",
+  "Zhaohui Liang",
+  "Xiaopeng Li",
+  "Felipe de Souza"
+ ],
+ "v1_date": "2023-12-14",
+ "latest_version": 1,
+ "latest_date": "2023-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The precise estimation of macroscopic traffic parameters, such as travel time and fuel consumption, is essential for the optimization of traffic management systems. Despite its importance, the comprehensive acquisition of vehicle trajectory data for the calculation of these macroscopic measures presents a challenge. To bridge this gap, this study aims to calibrate car-following models capable of predicting both microscopic measures and macroscopic measures. We conduct a numerical analysis to trace the cumulative process of model prediction errors across various measurements, and our findings indicate that macroscopic measures encapsulate the accumulation of model errors. By incorporating macroscopic measures into vehicle model calibration, we can mitigate the impact of noise on microscopic data measurements. We compare three car-following model calibration methods: MiC (using microscopic measurements), MaC (using macroscopic measurements), and BiC (using both microscopic and macroscopic measurements): utilizing real-world trajectory data. The BiC method emerges as the most successful in reconstructing vehicle trajectories and accurately estimating travel time and fuel consumption, whereas the MiC method leads to overfitting and inaccurate macro-measurement predictions. This study underscores the importance of bi-scale calibration for precise traffic and energy consumption predictions, laying the groundwork for future research aimed at enhancing traffic management strategies.",
+ "primary": "stat.AP"
+}

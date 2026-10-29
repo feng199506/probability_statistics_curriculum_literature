@@ -1,0 +1,17 @@
+{
+ "id": "2501.13625",
+ "title": "Information-theoretic limits and approximate message-passing for high-dimensional time series",
+ "authors": [
+  "Daria Tieplova",
+  "Samriddha Lahiry",
+  "Jean Barbier"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 2,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional time series appear in many scientific setups, demanding a nuanced approach to model and analyze the underlying dependence structure. Theoretical advancements so far often rely on stringent assumptions regarding the sparsity of the underlying signal. In non-sparse regimes, analyses have primarily focused on linear regression models with the design matrix having independent rows. In this paper, we expand the scope by investigating a high-dimensional time series model wherein the number of features grows proportionally to the number of sampling points, without assuming sparsity in the signal. Specifically, we consider the stochastic regression model and derive a single-letter formula for the normalized mutual information between observations and the signal, as well as for minimum mean-square errors. We also empirically study the vector approximate message passing VAMP algorithm and show that, despite the lack of theoretical guarantees, its performance for inference in our time series model is robust and often statistically optimal.",
+ "primary": "cs.IT"
+}

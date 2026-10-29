@@ -1,0 +1,16 @@
+{
+ "id": "2411.01697",
+ "title": "A probabilistic diagnostic for Laplace approximations: Introduction and experimentation",
+ "authors": [
+  "Shaun McDonald",
+  "David Campbell"
+ ],
+ "v1_date": "2024-11-03",
+ "latest_version": 1,
+ "latest_date": "2024-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many models require integrals of high-dimensional functions: for instance, to obtain marginal likelihoods. Such integrals may be intractable, or too expensive to compute numerically. Instead, we can use the Laplace approximation (LA). The LA is exact if the function is proportional to a normal density; its effectiveness therefore depends on the function's true shape. Here, we propose the use of the probabilistic numerical framework to develop a diagnostic for the LA and its underlying shape assumptions, modelling the function and its integral as a Gaussian process and devising a \"test\" by conditioning on a finite number of function values. The test is decidedly non-asymptotic and is not intended as a full substitute for numerical integration - rather, it is simply intended to test the feasibility of the assumptions underpinning the LA with as minimal computation. We discuss approaches to optimize and design the test, apply it to known sample functions, and highlight the challenges of high dimensions.",
+ "primary": "stat.ME"
+}

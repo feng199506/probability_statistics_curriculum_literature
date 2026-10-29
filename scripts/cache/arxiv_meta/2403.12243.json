@@ -1,0 +1,17 @@
+{
+ "id": "2403.12243",
+ "title": "Unlocking the Power of Time-Since-Infection Models: Data Augmentation for Improved Instantaneous Reproduction Number Estimation",
+ "authors": [
+  "Jiasheng Shi",
+  "Yizhao Zhou",
+  "Jing Huang"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 2,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Time Since Infection (TSI) models, which use disease surveillance data to model infectious diseases, have become increasingly popular due to their flexibility and capacity to address complex disease control questions. However, a notable limitation of TSI models is their primary reliance on incidence data. Even when hospitalization data are available, existing TSI models have not been crafted to improve the estimation of disease transmission or to estimate hospitalization-related parameters - metrics crucial for understanding a pandemic and planning hospital resources. Moreover, their dependence on reported infection data makes them vulnerable to variations in data quality. In this study, we advance TSI models by integrating hospitalization data, marking a significant step forward in modeling with TSI models. We introduce hospitalization propensity parameters to jointly model incidence and hospitalization data. We use a composite likelihood function to accommodate complex data structure and an Monte Carlo expectation-maximization algorithm to estimate model parameters. We analyze COVID-19 data to estimate disease transmission, assess risk factor impacts, and calculate hospitalization propensity. Our model improves the accuracy of estimating the instantaneous reproduction number in TSI models, particularly when hospitalization data is of higher quality than incidence data. It enables the estimation of key infectious disease parameters without relying on contact tracing data and provides a foundation for integrating TSI models with other infectious disease models.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2509.19465",
+ "title": "A More Realistic Evaluation of Cross-Frequency Transfer Learning and Foundation Forecasting Models",
+ "authors": [
+  "Kin G. Olivares",
+  "Malcolm Wolff",
+  "Tatiana Konstantinova",
+  "Shankar Ramasubramanian",
+  "Boris Oreshkin",
+  "Andrew Gordon Wilson",
+  "Andres Potapczynski",
+  "Willa Potosnak",
+  "Michael W. Mahoney",
+  "Mengfei Cao",
+  "Dmitry Efimov"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 3,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models (BERT2S)",
+ "abstract": "Cross-frequency transfer learning (CFTL) has emerged as a popular framework for curating large-scale time series datasets to pre-train foundation forecasting models (FFMs). Although CFTL has shown promise, current benchmarking practices fall short of accurately assessing its performance. This shortcoming stems from many factors: an over-reliance on small-scale evaluation datasets; inadequate treatment of sample size when computing summary statistics; reporting of suboptimal statistical models; and failing to account for non-negligible risks of overlap between pre-training and test datasets. To address these limitations, we introduce a unified reimplementation of widely-adopted neural forecasting networks, adapting them for the CFTL setup; we pre-train only on proprietary and synthetic data, being careful to prevent test leakage; and we evaluate on 15 large, diverse public forecast competition datasets. Our empirical analysis reveals that statistical models' accuracy is frequently underreported. Notably, we confirm that statistical models and their ensembles consistently outperform existing FFMs by more than 8.2% in sCRPS, and by more than 20% MASE, across datasets. However, we also find that synthetic dataset pre-training does improve the accuracy of a FFM by 7% percent.",
+ "primary": "cs.LG"
+}

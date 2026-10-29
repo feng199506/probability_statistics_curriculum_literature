@@ -1,0 +1,22 @@
+{
+ "id": "2509.12122",
+ "title": "Least squares-based methods to bias adjustment in scalar-on-function regression model using a functional instrumental variable",
+ "authors": [
+  "Xiwei Chen",
+  "Ufuk Beyaztas",
+  "Caihong Qin",
+  "Heyang Ji",
+  "Gilson Honvoh",
+  "Roger S. Zoh",
+  "Lan Xue",
+  "Carmen D. Tekwe"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 1,
+ "latest_date": "2025-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Instrumental variables are widely used to adjust for measurement error bias when assessing associations of health outcomes with ME prone independent variables. IV approaches addressing ME in longitudinal models are well established, but few methods exist for functional regression. We develop two methods to adjust for ME bias in scalar on function linear models. We regress a scalar outcome on an ME prone functional variable using a functional IV for model identification and propose two least squares based methods to adjust for ME bias. Our methods alleviate potential computational challenges encountered when applying classical regression calibration methods for bias adjustment in high dimensional settings and adjust for potential serial correlations across time. Simulations demonstrate faster run times, lower bias, and lower AIMSE for the proposed methods when compared to existing approaches. The proposed methods were applied to investigate the association between body mass index and wearable device-based physical activity intensity among community dwelling adults living in the United States.",
+ "primary": "stat.ME"
+}

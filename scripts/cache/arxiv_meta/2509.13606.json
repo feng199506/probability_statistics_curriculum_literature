@@ -1,0 +1,18 @@
+{
+ "id": "2509.13606",
+ "title": "Robust, sub-Gaussian mean estimators in metric spaces",
+ "authors": [
+  "Daniel Bartl",
+  "Gabor Lugosi",
+  "Roberto Imbuzeiro Oliveira",
+  "Zoraida F. Rico"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 1,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages plus 10-page-long appendix (total of 52 pages)",
+ "abstract": "Estimating the mean of a random vector from i.i.d. data has received considerable attention, and the optimal accuracy one may achieve with a given confidence is fairly well understood by now. When the data take values in more general metric spaces, an appropriate extension of the notion of the mean is the Fréchet mean. While asymptotic properties of the most natural Fréchet mean estimator (the empirical Fréchet mean) have been thoroughly researched, non-asymptotic performance bounds have only been studied recently. The aim of this paper is to study the performance of estimators of the Fréchet mean in general metric spaces under possibly heavy-tailed and contaminated data. In such cases, the empirical Fréchet mean is a poor estimator. We propose a general estimator based on high-dimensional extensions of trimmed means and prove general performance bounds. Unlike all previously established bounds, ours generalize the optimal bounds known for Euclidean data. The main message of the bounds is that, much like in the Euclidean case, the optimal accuracy is governed by two \"variance\" terms: a \"global variance\" term that is independent of the prescribed confidence, and a potentially much smaller, confidence-dependent \"local variance\" term. We apply our results for metric spaces with curvature bounded from below, such as Wasserstein spaces, and for uniformly convex Banach spaces.",
+ "primary": "math.ST"
+}

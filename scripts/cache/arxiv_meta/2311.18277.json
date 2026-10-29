@@ -1,0 +1,17 @@
+{
+ "id": "2311.18277",
+ "title": "Revisiting the two-sample location shift model with a log-concavity assumption",
+ "authors": [
+  "Ridhiman Saha",
+  "Priyam Das",
+  "Nilanjana Laha"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 2,
+ "latest_date": "2023-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Corrected minor algebraic mistakes in the proof of Theorem A.1",
+ "abstract": "In this paper, we consider the two-sample location shift model, a classic semiparametric model introduced by Stein (1956). This model is known for its adaptive nature, enabling nonparametric estimation with full parametric efficiency. Existing nonparametric estimators of the location shift often depend on external tuning parameters, which restricts their practical applicability (Van der Vaart and Wellner, 2021). We demonstrate that introducing an additional assumption of log-concavity on the underlying density can alleviate the need for tuning parameters. We propose a one step estimator for location shift estimation, utilizing log-concave density estimation techniques to facilitate tuning-free estimation of the efficient influence function. While we employ a truncated version of the one step estimator for theoretical adaptivity, our simulations indicate that the one step estimators perform best with zero truncation, eliminating the need for tuning during practical implementation.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.17779",
+ "title": "Sensitivity analysis for incremental effects, with application to a study of victimization & offending",
+ "authors": [
+  "Shuying Shen",
+  "Valerio Bacak",
+  "Edward H. Kennedy"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 1,
+ "latest_date": "2026-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sensitivity analysis for unmeasured confounding under incremental propensity score interventions remains relatively underdeveloped. Incremental interventions define stochastic treatment regimes by multiplying the odds of treatment, offering a flexible framework for causal effect estimation. To study incremental effects when there are unobserved confounders, we adopt Rosenbaum's sensitivity model in single time point settings, and propose a doubly robust estimator for the resulting effect bounds. The bound estimators are asymptotically normal under mild conditions on nuisance function estimation. We show that incremental effect bounds can be narrower or wider than those for mean potential outcomes, and that the bounds must lie between the expected minimum and maximum of the conditional bounds on E(Y^0|X) and E(Y^1|X). For time-varying treatments, we consider the marginal sensitivity model. Although sharp bounds for incremental effects are identifiable from longitudinal data under this model, practical estimators have not yet been established; we discuss this challenge and provide partial results toward implementation. Finally, we apply our methods to study the effect of victimization on subsequent offending using data from the National Longitudinal Study of Adolescent to Adult Health (Add Health), illustrating the robustness of our findings in an empirical setting.",
+ "primary": "stat.ME"
+}

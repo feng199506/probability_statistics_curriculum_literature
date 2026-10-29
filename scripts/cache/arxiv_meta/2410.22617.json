@@ -1,0 +1,17 @@
+{
+ "id": "2410.22617",
+ "title": "Relational Graph in Vector Autoregression: A Case Study on the Effect of the Great Recession on Connectivity of Economic Indicators",
+ "authors": [
+  "Arkaprava Roy",
+  "Anindya Roy",
+  "Subhashis Ghosal"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 2,
+ "latest_date": "2025-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Under a high-dimensional vector autoregressive (VAR) model, we propose a way of efficiently estimating both the stationary graph structure between the nodal time series and their temporal dynamics. The framework is then used to make inferences on the change in interdependencies between several economic indicators due to the impact of the Great Recession, the financial crisis that lasted from 2007 through 2009. There are several key advantages of the proposed framework; (1) it develops a reparametrized VAR likelihood that can be used in general high-dimensional VAR problems, (2) it strictly maintains causality of the estimated process, making inference on stationary features more meaningful and (3) it is computationally efficient due to the reduced rank structure of the parameterization. We apply the methodology to the seasonally adjusted quarterly economic indicators available in the FRED-QD database of the Federal Reserve. The analysis essentially confirms much of the prevailing knowledge about the impact of the Great Recession on different economic indicators. At the same time, it provides deeper insight into the nature and extent of the impact on the interplay of the different indicators. We also contribute to the theory of Bayesian VAR by showing the consistency of the posterior under sparse priors for the parameters of the reduced rank formulation of the VAR process.",
+ "primary": "stat.ME"
+}

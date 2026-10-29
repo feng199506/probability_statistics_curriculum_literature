@@ -1,0 +1,18 @@
+{
+ "id": "2312.10563",
+ "title": "Mediation Analysis with Mendelian Randomization and Efficient Multiple GWAS Integration",
+ "authors": [
+  "Rita Qiuran Lyu",
+  "Chong Wu",
+  "Xinwei Ma",
+  "Jingshen Wang"
+ ],
+ "v1_date": "2023-12-16",
+ "latest_version": 2,
+ "latest_date": "2024-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mediation analysis is a powerful tool for studying causal pathways between exposure, mediator, and outcome variables of interest. While classical mediation analysis using observational data often requires strong and sometimes unrealistic assumptions, such as unconfoundedness, Mendelian Randomization (MR) avoids unmeasured confounding bias by employing genetic variations as instrumental variables. We develop a novel MR framework for mediation analysis with genome-wide associate study (GWAS) summary data, and provide solid statistical guarantees. Our framework employs carefully crafted estimating equations, allowing for different sets of genetic variations to instrument the exposure and the mediator, to efficiently integrate information stored in three independent GWAS. As part of this endeavor, we demonstrate that in mediation analysis, the challenge raised by instrument selection goes beyond the well-known winner's curse issue, and therefore, addressing it requires special treatment. We then develop bias correction techniques to address the instrument selection issue and commonly encountered measurement error bias issue. Collectively, through our theoretical investigations, we show that our framework provides valid statistical inference for both direct and mediation effects with enhanced statistical efficiency compared to existing methods. We further illustrate the finite-sample performance of our approach through simulation experiments and a case study.",
+ "primary": "stat.ME"
+}

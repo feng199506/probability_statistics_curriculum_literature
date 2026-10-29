@@ -1,0 +1,18 @@
+{
+ "id": "2509.10383",
+ "title": "Network Meta-Analysis of survival outcomes with non-proportional hazards using flexible M-splines",
+ "authors": [
+  "David M. Phillippo",
+  "Ayman Sadek",
+  "Hugo Pedder",
+  "Nicky J. Welton"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 1,
+ "latest_date": "2025-09-12",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70695",
+ "comment": "38 pages, 14 figures",
+ "abstract": "Network meta-analysis (NMA) is widely used in healthcare decision-making, where estimates of the effect of multiple treatments on outcomes are required. For time-to-event outcomes such as survival or disease progression the most common approach is to model log hazard ratios; however, this relies on the proportional hazards assumption. Novel treatments such as immunotherapies are expected to display complex hazard functions that cannot be captured by standard parametric models, which results in non-proportional hazards when comparing treatments from different classes. As a result, alternative models such as fractional polynomials or restricted cubic splines are often used. These allow substantial flexibility on the shape of the baseline hazard, but require time-consuming model selection or are intractable for Bayesian analysis. We propose a flexible NMA model using M-splines on the baseline hazard, with a novel weighted random walk prior distribution that provides shrinkage to avoid overfitting and is invariant to the choice of knots and timescale. Non-proportional hazards are modelled either by stratifying by treatment or by introducing treatment effects on the spline coefficients, and covariates may be included on the log hazard rate and spline coefficients. Treatment and covariate effects on the spline coefficients are given random walk prior distributions to smoothly model departures from proportionality over time. The methods are implemented in the user-friendly R package multinma, which supports analyses with aggregate data, individual participant data, or mixtures of both. We apply the methods to a NMA of progression-free survival with treatments for non-small cell lung cancer.",
+ "primary": "stat.ME"
+}

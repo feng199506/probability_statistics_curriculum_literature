@@ -1,0 +1,24 @@
+{
+ "id": "2312.08670",
+ "title": "Temporal-Spatial Entropy Balancing for Causal Continuous Treatment-Effect Estimation",
+ "authors": [
+  "Tao Hu",
+  "Honglong Zhang",
+  "Fan Zeng",
+  "Min Du",
+  "XiangKun Du",
+  "Yue Zheng",
+  "Quanqi Li",
+  "Mengran Zhang",
+  "Dan Yang",
+  "Jihao Wu"
+ ],
+ "v1_date": "2023-12-14",
+ "latest_version": 2,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages;",
+ "abstract": "In the field of intracity freight transportation, changes in order volume are significantly influenced by temporal and spatial factors. When building subsidy and pricing strategies, predicting the causal effects of these strategies on order volume is crucial. In the process of calculating causal effects, confounding variables can have an impact. Traditional methods to control confounding variables handle data from a holistic perspective, which cannot ensure the precision of causal effects in specific temporal and spatial dimensions. However, temporal and spatial dimensions are extremely critical in the logistics field, and this limitation may directly affect the precision of subsidy and pricing strategies. To address these issues, this study proposes a technique based on flexible temporal-spatial grid partitioning. Furthermore, based on the flexible grid partitioning technique, we further propose a continuous entropy balancing method in the temporal-spatial domain, which named TS-EBCT (Temporal-Spatial Entropy Balancing for Causal Continue Treatments). The method proposed in this paper has been tested on two simulation datasets and two real datasets, all of which have achieved excellent performance. In fact, after applying the TS-EBCT method to the intracity freight transportation field, the prediction accuracy of the causal effect has been significantly improved. It brings good business benefits to the company's subsidy and pricing strategies.",
+ "primary": "stat.ME"
+}

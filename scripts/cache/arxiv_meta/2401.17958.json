@@ -1,0 +1,16 @@
+{
+ "id": "2401.17958",
+ "title": "Convergence Analysis for General Probability Flow ODEs of Diffusion Models in Wasserstein Distances",
+ "authors": [
+  "Xuefeng Gao",
+  "Lingjiong Zhu"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-02-15",
+ "journal_ref": "International Conference on Artificial Intelligence and Statistics, PMLR 258:1009-1017, 2025",
+ "doi": "",
+ "comment": "48 pages, 2 tables",
+ "abstract": "Score-based generative modeling with probability flow ordinary differential equations (ODEs) has achieved remarkable success in a variety of applications. While various fast ODE-based samplers have been proposed in the literature and employed in practice, the theoretical understandings about convergence properties of the probability flow ODE are still quite limited. In this paper, we provide the first non-asymptotic convergence analysis for a general class of probability flow ODE samplers in 2-Wasserstein distance, assuming accurate score estimates and smooth log-concave data distributions. We then consider various examples and establish results on the iteration complexity of the corresponding ODE-based samplers. Our proof technique relies on spelling out explicitly the contraction rate for the continuous-time ODE and analyzing the discretization and score-matching errors using synchronous coupling; the challenge in our analysis mainly arises from the inherent non-autonomy of the probability flow ODE and the specific exponential integrator that we study.",
+ "primary": "stat.ML"
+}

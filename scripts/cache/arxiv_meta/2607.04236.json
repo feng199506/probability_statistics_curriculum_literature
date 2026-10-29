@@ -1,0 +1,17 @@
+{
+ "id": "2607.04236",
+ "title": "Robust Bayes-Assisted Conformal Prediction",
+ "authors": [
+  "Kianoosh Ashouritaklimi",
+  "Stefano Cortinovis",
+  "François Caron"
+ ],
+ "v1_date": "2026-07-05",
+ "latest_version": 2,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICML 2026. 44 pages, 8 figures, 7 tables",
+ "abstract": "Bayes-assisted conformal prediction combines the strengths of Bayesian modelling with exact, distribution-free frequentist coverage guarantees. Although conformal validity is preserved even when the Bayesian working model (BWM) is misspecified, the size of the resulting prediction sets can degrade substantially when the prior is poorly aligned with the observed data. We address this limitation by introducing RoBAS (Robust Bayes-Assisted Shrinkage): a Bayes-assisted framework for constructing robust nonconformity scores, with two instantiations: one induced by a heavy-tailed BWM, and a closed-form empirical Bayes shrinkage score. The resulting scores adapt to the quality of the working information encoded in the prior: when this information is reliable, they exploit it to produce efficient prediction sets; when it is weak or inaccurate, they revert to the Distance-To-Average (DTA) score, a robust non-informative baseline. We evaluate the proposed scores on tabular and image regression tasks where the training distribution may differ from the calibration and test distributions, while the calibration and test data themselves remain exchangeable. We find that they are competitive with widely used scores in the absence of such shift, while substantially reducing interval widths in shifted settings.",
+ "primary": "stat.ML"
+}

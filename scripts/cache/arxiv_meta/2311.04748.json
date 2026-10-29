@@ -1,0 +1,18 @@
+{
+ "id": "2311.04748",
+ "title": "Intrinsic Bayesian Cramér-Rao Bound with an Application to Covariance Matrix Estimation",
+ "authors": [
+  "Florent Bouchard",
+  "Alexandre Renaux",
+  "Guillaume Ginolhac",
+  "Arnaud Breloy"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 3,
+ "latest_date": "2024-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a new performance bound for estimation problems where the parameter to estimate lies in a Riemannian manifold (a smooth manifold endowed with a Riemannian metric) and follows a given prior distribution. In this setup, the chosen Riemannian metric induces a geometry for the parameter manifold, as well as an intrinsic notion of the estimation error measure. Performance bound for such error measure were previously obtained in the non-Bayesian case (when the unknown parameter is assumed to deterministic), and referred to as \\textit{intrinsic} Cramér-Rao bound. The presented result then appears either as: \\textit{a}) an extension of the intrinsic Cramér-Rao bound to the Bayesian estimation framework; \\textit{b}) a generalization of the Van-Trees inequality (Bayesian Cramér-Rao bound) that accounts for the aforementioned geometric structures. In a second part, we leverage this formalism to study the problem of covariance matrix estimation when the data follow a Gaussian distribution, and whose covariance matrix is drawn from an inverse Wishart distribution. Performance bounds for this problem are obtained for both the mean squared error (Euclidean metric) and the natural Riemannian distance for Hermitian positive definite matrices (affine invariant metric). Numerical simulation illustrate that assessing the error with the affine invariant metric is revealing of interesting properties of the maximum a posteriori and minimum mean square error estimator, which are not observed when using the Euclidean metric.",
+ "primary": "math.ST"
+}

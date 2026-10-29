@@ -1,0 +1,17 @@
+{
+ "id": "2311.13923",
+ "title": "Optimal $F$-score Clustering for Bipartite Record Linkage",
+ "authors": [
+  "Eric A. Bai",
+  "Olivier Binette",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2023-11-23",
+ "latest_version": 2,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic record linkage is often used to match records from two files, in particular when the variables common to both files comprise imperfectly measured identifiers like names and demographic variables. We consider bipartite record linkage settings in which each entity appears at most once within a file, i.e., there are no duplicates within the files, but some entities appear in both files. In this setting, the analyst desires a point estimate of the linkage structure that matches each record to at most one record from the other file. We propose an approach for obtaining this point estimate by maximizing the expected $F$-score for the linkage structure. We target the approach for record linkage methods that produce either (an approximate) posterior distribution of the unknown linkage structure or probabilities of matches for record pairs. Using simulations and applications with genuine data, we illustrate that the $F$-score estimators can lead to sensible estimates of the linkage structure.",
+ "primary": "stat.ME"
+}

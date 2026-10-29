@@ -1,0 +1,18 @@
+{
+ "id": "2507.03511",
+ "title": "Nonparametric regression for cost-effectiveness analyses with observational data -- a tutorial",
+ "authors": [
+  "Jonas Esser",
+  "Mateus Maia",
+  "Judith Bosmans",
+  "Johanna van Dongen"
+ ],
+ "v1_date": "2025-07-04",
+ "latest_version": 2,
+ "latest_date": "2025-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Healthcare decision-making often requires selecting among treatment options under budget constraints, particularly when one option is more effective but also more costly. Cost-effectiveness analysis (CEA) provides a framework for evaluating whether the health benefits of a treatment justify its additional costs. A key component of CEA is the estimation of treatment effects on both health outcomes and costs, which becomes challenging when using observational data, due to potential confounding. While advanced causal inference methods exist for use in such circumstances, their adoption in CEAs remains limited, with many studies relying on overly simplistic methods such as linear regression or propensity score matching. We believe that this is mainly due to health economists being generally unfamiliar with superior methodology. In this paper, we address this gap by introducing cost-effectiveness researchers to modern nonparametric regression models, with a particular focus on Bayesian Additive Regression Trees (BART). We provide practical guidance on how to implement BART in CEAs, including code examples, and discuss its advantages in producing more robust and credible estimates from observational data.",
+ "primary": "econ.EM"
+}

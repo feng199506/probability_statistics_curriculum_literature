@@ -1,0 +1,18 @@
+{
+ "id": "2408.08259",
+ "title": "Incorporating Local Step-Size Adaptivity into the No-U-Turn Sampler using Gibbs Self Tuning",
+ "authors": [
+  "Nawaf Bou-Rabee",
+  "Bob Carpenter",
+  "Tore Selland Kleppe",
+  "Milo Marsden"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 1,
+ "latest_date": "2024-08-15",
+ "journal_ref": "Journal of Chemical Physics, Vol. 163, 084119, (2025)",
+ "doi": "10.1063/5.0280793",
+ "comment": "for companion code, see https://github.com/bob-carpenter/adaptive-hmc",
+ "abstract": "Adapting the step size locally in the no-U-turn sampler (NUTS) is challenging because the step-size and path-length tuning parameters are interdependent. The determination of an optimal path length requires a predefined step size, while the ideal step size must account for errors along the selected path. Ensuring reversibility further complicates this tuning problem. In this paper, we present a method for locally adapting the step size in NUTS that is an instance of the Gibbs self-tuning (GIST) framework. Our approach guarantees reversibility with an acceptance probability that depends exclusively on the conditional distribution of the step size. We validate our step-size-adaptive NUTS method on Neal's funnel density and a high-dimensional normal distribution, demonstrating its effectiveness in challenging scenarios.",
+ "primary": "stat.ME"
+}

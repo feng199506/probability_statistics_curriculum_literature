@@ -1,0 +1,18 @@
+{
+ "id": "2509.02294",
+ "title": "Causal Spatial Quantile Regression",
+ "authors": [
+  "Yan Gong",
+  "Reetam Majumder",
+  "Brian J. Reich",
+  "Raphaël Huser"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 1,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Treatment effects in a wide range of economic, environmental, and epidemiological applications often vary across space, and understanding the heterogeneity of causal effects across space and outcome quantiles is a critical challenge in spatial causal inference. To effectively capture spatial heterogeneity in distributional treatment effects, we propose a novel semiparametric neural network-based causal framework leveraging deep spatial quantile regression and then construct a plug-in estimator for spatial quantile treatment effects (SQTE). This framework incorporates an efficient adjustment procedure to mitigate the impact of spatial hidden confounders. Extensive simulations across various scenarios demonstrate that our methodology can accurately estimate SQTE, even with the presence of spatial hidden confounders. Additionally, the spatial confounding adjustment procedure effectively reduces neighborhood spatial patterns in the residuals. We apply this method to assess the spatially varying quantile treatment effects of maternal smoking on newborn birth weight in North Carolina, United States. Our findings consistently show negative effects across all birth weight quantiles, with particularly severe impacts observed in the lower quantile regions.",
+ "primary": "stat.ME"
+}

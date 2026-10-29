@@ -1,0 +1,17 @@
+{
+ "id": "2404.03116",
+ "title": "ALAAMEE: Open-source software for fitting autologistic actor attribute models",
+ "authors": [
+  "Alex Stivala",
+  "Peng Wang",
+  "Alessandro Lomi"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 2,
+ "latest_date": "2024-09-23",
+ "journal_ref": "PLOS Complex Syst (2024) 1(4): e0000021",
+ "doi": "10.1371/journal.pcsy.0000021",
+ "comment": "Provisionally accepted for publication",
+ "abstract": "The autologistic actor attribute model (ALAAM) is a model for social influence, derived from the more widely known exponential-family random graph model (ERGM). ALAAMs can be used to estimate parameters corresponding to multiple forms of social contagion associated with network structure and actor covariates. This work introduces ALAAMEE, open-source Python software for estimation, simulation, and goodness-of-fit testing for ALAAM models. ALAAMEE implements both the stochastic approximation and equilibrium expectation (EE) algorithms for ALAAM parameter estimation, including estimation from snowball sampled network data. It implements data structures and statistics for undirected, directed, and bipartite networks. We use a simulation study to assess the accuracy of the EE algorithm for ALAAM parameter estimation and statistical inference, and demonstrate the use of ALAAMEE with empirical examples using both small (fewer than 100 nodes) and large (more than 10 000 nodes) networks.",
+ "primary": "stat.CO"
+}

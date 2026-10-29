@@ -1,0 +1,16 @@
+{
+ "id": "2512.24714",
+ "title": "Boundary error control for numerical solution of BSDEs by the convolution-FFT method",
+ "authors": [
+  "Xiang Gao",
+  "Cody Hyndman"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 3 figures, 1 table",
+ "abstract": "We first review the convolution fast-Fourier-transform (CFFT) approach for the numerical solution of backward stochastic differential equations (BSDEs) introduced in (Hyndman and Oyono Ngou, 2017). We then propose a method for improving the boundary errors obtained when valuing options using this approach. We modify the damping and shifting schemes used in the original formulation, which transforms the target function into a bounded periodic function so that Fourier transforms can be applied successfully. Time-dependent shifting reduces boundary error significantly. We present numerical results for our implementation and provide a detailed error analysis showing the improved accuracy and convergence of the modified convolution method.",
+ "primary": "math.NA"
+}

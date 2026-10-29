@@ -1,0 +1,17 @@
+{
+ "id": "2503.15041",
+ "title": "Multiscale Asymptotic Normality in Quantile Regression: Hilbert Matrices and Polynomial Designs",
+ "authors": [
+  "Saïd Maanan",
+  "Azzouz Dermoune",
+  "Ahmed El Ghini"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 3,
+ "latest_date": "2025-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates the asymptotic properties of quantile regression estimators in linear models, with a particular focus on polynomial regressors and robustness to heavy-tailed noise. Under independent and identically distributed (i.i.d.) errors with continuous density around the quantile of interest, we establish a general Central Limit Theorem (CLT) for the quantile regression estimator under normalization using $Δ_n^{-1}$, yielding asymptotic normality with variance $τ(1-τ)/f^2(0) \\cdot D_0^{-1}$. In the specific case of polynomial regressors, we show that the design structure induces a Hilbert matrix in the asymptotic covariance, and we derive explicit scaling rates for each coefficient. This generalizes Pollard's and Koenker's earlier results on LAD regression to arbitrary quantile levels $τ\\in (0, 1)$. We also examine the convergence behavior of the estimators and propose a relaxation of the standard CLT-based confidence intervals, motivated by a theoretical inclusion principle. This relaxation replaces the usual $T^{j+1/2}$ scaling with $T^α$, for $α< j + 1/2$, to improve finite-sample coverage. Through extensive simulations under Laplace, Gaussian, and Cauchy noise, we validate this approach and highlight the improved robustness and empirical accuracy of relaxed confidence intervals. This study provides both a unifying theoretical framework and practical inference tools for quantile regression under structured regressors and heavy-tailed disturbances.",
+ "primary": "math.ST"
+}

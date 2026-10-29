@@ -1,0 +1,17 @@
+{
+ "id": "2605.01379",
+ "title": "Federated generalized linear mixed models based on one-time shared summary statistics",
+ "authors": [
+  "Marie Analiz April Limpoco",
+  "Christel Faes",
+  "Niel Hens"
+ ],
+ "v1_date": "2026-05-02",
+ "latest_version": 1,
+ "latest_date": "2026-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data privacy has increasingly become a daunting challenge because it limits data availability, which is essential in estimating statistical models such as generalized linear mixed models. Access to personal data often involves considerable time, effort, and paperwork, which can impede research progress and collaboration. Existing approaches that do not use individual-level data for model estimation are either prone to ecological bias, cannot handle heterogeneity, or require iterative communication. In this paper, we propose an approach to estimate generalized linear mixed models based on summary statistics shared only once. We used linear, logistic, and Poisson mixed models as examples to demonstrate the methodology. Our strategy involves generating pseudo-data whose summary statistics match those of the actual but unavailable data. These pseudo-data are then used for model estimation instead of the actual data. The estimates we achieve are identical (up to the third decimal place) to those derived from actual data and have similar bias, coverage, and prediction performance. Communication and resource efficiency distinguish our approach from existing methods.",
+ "primary": "stat.ME"
+}

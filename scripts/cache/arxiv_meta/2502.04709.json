@@ -1,0 +1,16 @@
+{
+ "id": "2502.04709",
+ "title": "Early Stopping for Regression Trees",
+ "authors": [
+  "Ratmir Miftachov",
+  "Markus Reiß"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 3,
+ "latest_date": "2025-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop early stopping rules for growing regression tree estimators. The fully data-driven stopping rule is based on monitoring the global residual norm. The best-first search and the breadth-first search algorithms together with linear interpolation give rise to generalized projection or regularization flows. A general theory of early stopping is established. Oracle inequalities for the early-stopped regression tree are derived without any smoothness assumption on the regression function, assuming the original CART splitting rule, yet with a much broader scope. The remainder terms are of smaller order than the best achievable rates for Lipschitz functions in dimension $d\\ge 2$. In real and synthetic data the early stopping regression tree estimators attain the statistical performance of cost-complexity pruning while significantly reducing computational costs.",
+ "primary": "math.ST"
+}

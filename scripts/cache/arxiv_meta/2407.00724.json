@@ -1,0 +1,16 @@
+{
+ "id": "2407.00724",
+ "title": "Efficient inference of quantum system parameters by Approximate Bayesian Computation",
+ "authors": [
+  "Lewis A. Clark",
+  "Jan Kolodynski"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 3,
+ "latest_date": "2025-02-23",
+ "journal_ref": "Phys. Rev. Applied 23, 044040 (2025)",
+ "doi": "10.1103/physrevapplied.23.044040",
+ "comment": "21 pages, 10 figures, resubmitted version",
+ "abstract": "The ability to efficiently infer system parameters is essential in any signal-processing task that requires fast operation. Dealing with quantum systems, a serious challenge arises due to substantial growth of the underlying Hilbert space with the system size. As the statistics of the measurement data observed, i.e. the likelihood, can no longer be easily computed, common approaches such as maximum-likelihood estimators or particle filters become impractical. To address this issue, we propose the use of the Approximate Bayesian Computation (ABC) algorithm, which evades likelihood computation by sampling from a library of measurement data -- a priori prepared for a given quantum device. We apply ABC to interpret photodetection click-patterns arising when probing in real time a two-level atom and an optomechanical system. For the latter, we consider both linear and non-linear regimes, in order to show how to tailor the ABC algorithm by understanding the quantum measurement statistics. Our work demonstrates that fast parameter inference may be possible no matter the complexity of a quantum device and the measurement scheme involved.",
+ "primary": "quant-ph"
+}

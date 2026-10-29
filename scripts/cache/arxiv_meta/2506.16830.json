@@ -1,0 +1,16 @@
+{
+ "id": "2506.16830",
+ "title": "elicito: A Python Package for Expert Prior Elicitation",
+ "authors": [
+  "Florence Bockting",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Expert prior elicitation plays a critical role in Bayesian analysis by enabling the specification of prior distributions that reflect domain knowledge. However, expert knowledge often refers to observable quantities rather than directly to model parameters, posing a challenge for translating this information into usable priors. We present elicito, a Python package that implements a modular, simulation-based framework for expert prior elicitation. The framework supports both structural and predictive elicitation methods and allows for flexible customization of key components, including the generative model, the form of expert input, prior assumptions (parametric or nonparametric), and loss functions. By structuring the elicitation process into configurable modules, elicito offers transparency, reproducibility, and comparability across elicitation methods. We describe the methodological foundations of the package, its software architecture, and demonstrate its functionality through a case study.",
+ "primary": "stat.ME"
+}

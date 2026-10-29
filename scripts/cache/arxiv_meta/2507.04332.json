@@ -1,0 +1,17 @@
+{
+ "id": "2507.04332",
+ "title": "Consistent Labeling Across Group Assignments: Variance Reduction in Conditional Average Treatment Effect Estimation",
+ "authors": [
+  "Yi-Fu Fu",
+  "Keng-Te Liao",
+  "Shou-De Lin"
+ ],
+ "v1_date": "2025-07-06",
+ "latest_version": 1,
+ "latest_date": "2025-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Numerous algorithms have been developed for Conditional Average Treatment Effect (CATE) estimation. In this paper, we first highlight a common issue where many algorithms exhibit inconsistent learning behavior for the same instance across different group assignments. We introduce a metric to quantify and visualize this inconsistency. Next, we present a theoretical analysis showing that this inconsistency indeed contributes to higher test errors and cannot be resolved through conventional machine learning techniques. To address this problem, we propose a general method called \\textbf{Consistent Labeling Across Group Assignments} (CLAGA), which eliminates the inconsistency and is applicable to any existing CATE estimation algorithm. Experiments on both synthetic and real-world datasets demonstrate significant performance improvements with CLAGA.",
+ "primary": "cs.LG"
+}

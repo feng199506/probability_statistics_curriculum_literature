@@ -1,0 +1,16 @@
+{
+ "id": "2312.07262",
+ "title": "Robust Bayesian graphical modeling using $γ$-divergence",
+ "authors": [
+  "Takahiro Onizuka",
+  "Shintaro Hashimoto"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 2,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 9 figures",
+ "abstract": "Gaussian graphical model is one of the powerful tools to analyze conditional independence between two variables for multivariate Gaussian-distributed observations. When the dimension of data is moderate or high, penalized likelihood methods such as the graphical lasso are useful to detect significant conditional independence structures. However, the estimates are affected by outliers due to the Gaussian assumption. This paper proposes a novel robust posterior distribution for inference of Gaussian graphical models using the $γ$-divergence which is one of the robust divergences. In particular, we focus on the Bayesian graphical lasso by assuming the Laplace-type prior for elements of the inverse covariance matrix. The proposed posterior distribution matches its maximum a posteriori estimate with the minimum $γ$-divergence estimate provided by the frequentist penalized method. We show that the proposed method satisfies the posterior robustness which is a kind of measure of robustness in Bayesian analysis. The property means that the information of outliers is automatically ignored in the posterior distribution as long as the outliers are extremely large. A sufficient condition for the posterior propriety of the proposed posterior distribution is also derived. Furthermore, an efficient posterior computation algorithm via the weighted Bayesian bootstrap method is proposed. The performance of the proposed method is illustrated through simulation studies and real data analysis.",
+ "primary": "stat.ME"
+}

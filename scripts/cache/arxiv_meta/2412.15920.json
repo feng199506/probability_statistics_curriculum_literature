@@ -1,0 +1,19 @@
+{
+ "id": "2412.15920",
+ "title": "Data Preparation for Fairness-Performance Trade-Offs: A Practitioner-Friendly Alternative?",
+ "authors": [
+  "Gianmario Voria",
+  "Rebecca Di Matteo",
+  "Giammaria Giordano",
+  "Gemma Catolino",
+  "Fabio Palomba"
+ ],
+ "v1_date": "2024-12-20",
+ "latest_version": 1,
+ "latest_date": "2024-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as Registered Report at SANER'25",
+ "abstract": "As machine learning (ML) systems are increasingly adopted across industries, addressing fairness and bias has become essential. While many solutions focus on ethical challenges in ML, recent studies highlight that data itself is a major source of bias. Pre-processing techniques, which mitigate bias before training, are effective but may impact model performance and pose integration difficulties. In contrast, fairness-aware Data Preparation practices are both familiar to practitioners and easier to implement, providing a more accessible approach to reducing bias. Objective. This registered report proposes an empirical evaluation of how optimally selected fairness-aware practices, applied in early ML lifecycle stages, can enhance both fairness and performance, potentially outperforming standard pre-processing bias mitigation methods. Method. To this end, we will introduce FATE, an optimization technique for selecting 'Data Preparation' pipelines that optimize fairness and performance. Using FATE, we will analyze the fairness-performance trade-off, comparing pipelines selected by FATE with results by pre-processing bias mitigation techniques.",
+ "primary": "cs.SE"
+}

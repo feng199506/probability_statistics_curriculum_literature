@@ -1,0 +1,16 @@
+{
+ "id": "2508.10055",
+ "title": "Bayesian Models for Joint Selection of Features and Auto-Regressive Lags: Theory and Applications in Environmental and Financial Forecasting",
+ "authors": [
+  "Alokesh Manna",
+  "Sujit K. Ghosh"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 2,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a Bayesian framework for variable selection in linear regression with autocorrelated errors, accommodating lagged covariates and autoregressive structures. This setting occurs in time series applications where responses depend on contemporaneous or past explanatory variables and persistent stochastic shocks, including financial modeling, hydrological forecasting, and meteorological applications requiring temporal dependency capture. Our methodology uses hierarchical Bayesian models with spike-and-slab priors to simultaneously select relevant covariates and lagged error terms. We propose an efficient two-stage MCMC algorithm separating sampling of variable inclusion indicators and model parameters to address high-dimensional computational challenges. Theoretical analysis establishes posterior selection consistency under mild conditions, even when candidate predictors grow exponentially with sample size, common in modern time series with many potential lagged variables. Through simulations and real applications (groundwater depth prediction, S&P 500 log returns modeling), we demonstrate substantial gains in variable selection accuracy and predictive performance. Compared to existing methods, our framework achieves lower MSPE, improved true model component identification, and greater robustness with autocorrelated noise, underscoring practical utility for model interpretation and forecasting in autoregressive settings.",
+ "primary": "stat.ME"
+}

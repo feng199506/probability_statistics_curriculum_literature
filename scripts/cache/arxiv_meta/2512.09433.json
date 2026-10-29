@@ -1,0 +1,16 @@
+{
+ "id": "2512.09433",
+ "title": "Multiply-robust Estimator of Cumulative Incidence Function Difference for Right-Censored Competing Risks Data",
+ "authors": [
+  "Yifei Tian",
+  "Ying Wu"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In causal inference, estimating the average treatment effect is a central objective, and in the context of competing risks data, this effect can be quantified by the cause-specific cumulative incidence function (CIF) difference. While doubly robust estimators give a more robust way to estimate the causal effect from the observational study, they remain inconsistent if both models are misspecified. To improve the robustness, we develop a multiply robust estimator for the difference in cause-specific CIFs using right-censored competing risks data. The proposed framework integrates the pseudo-value approach, which transforms the censored, time-dependent CIF into a complete-data outcome, with the multiply robust estimation framework. By specifying multiple candidate models for both the propensity score and the outcome regression, the resulting estimator is consistent and asymptotically unbiased, provided that at least one of the multiple propensity score or outcome regression models is correctly specified. Simulation studies show our multiply robust estimator remains virtually unbiased and maintains nominal coverage rates under various model misspecification scenarios and a wide range of choices for the censoring rate. Finally, the proposed multiply robust model is illustrated using the Right Heart Catheterization dataset.",
+ "primary": "stat.ME"
+}

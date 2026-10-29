@@ -1,0 +1,16 @@
+{
+ "id": "2503.20131",
+ "title": "Signed Rank Chart For Tied Observations: An Application of Deep Learning Models",
+ "authors": [
+  "Seyedeh Azadeh Fallah Mortezanejad",
+  "Ruochen Wang"
+ ],
+ "v1_date": "2025-03-26",
+ "latest_version": 1,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Shewhart Control Charts (SCC)s are constructed under the assumption of normality and are widely recognized in statistical quality control by numerous researchers. Problems arise when the distribution of process data does not conform to a typical Normal Distribution (ND) or when there is insufficient evidence to confirm that the data has approximately ND. Additionally, in some processes, Tied Observations (TO)s are present. The resolution of the measurement device used to assess a quality characteristic can lead to rounding errors, as well as TOs. In many cases, SCCs prove inadequate. In this paper, we address the challenges of non-normal observations and rounding errors by developing a Shewhart Signed-Rank Control Chart (SS-RCC) based on the Wilcoxon statistic. We define a random variable for TOs and another for Untied Observations (UO)s. Subsequently, we approximate their distributions using a Scaled-Normal Distribution (SND) and apply a Deep Learning (DL) model to estimate the scale parameters of the SND for the Control Chart (CC). In practice, we calculate the Average Run Length ($ARL$) for specific cases using Johnson-type distribution benchmarks to illustrate the effects of ties and shifts in manufacturing processes.",
+ "primary": "stat.AP"
+}

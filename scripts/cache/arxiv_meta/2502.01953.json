@@ -1,0 +1,17 @@
+{
+ "id": "2502.01953",
+ "title": "Local minima of the empirical risk in high dimension: General theorems and convex examples",
+ "authors": [
+  "Kiana Asgari",
+  "Andrea Montanari",
+  "Basil Saeed"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 3,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider a general model for high-dimensional empirical risk minimization whereby the data $\\mathbf{x}_i$ are $d$-dimensional Gaussian vectors, the model is parametrized by $\\mathbfΘ\\in\\mathbb{R}^{d\\times k}$, and the loss depends on the data via the projection $\\mathbfΘ^\\mathsf{T}\\mathbf{x}_i$. This setting covers as special cases classical statistics methods (e.g. multinomial regression and other generalized linear models), but also two-layer fully connected neural networks with $k$ hidden neurons. We use the Kac-Rice formula from Gaussian process theory to derive a bound on the expected number of local minima of this empirical risk, under the proportional asymptotics in which $n,d\\to\\infty$, with $n\\asymp d$. Via Markov's inequality, this bound allows to determine the positions of these minimizers (with exponential deviation bounds) and hence derive sharp asymptotics on the estimation and prediction error. As a special case, we apply our characterization to convex losses. We show that our approach is tight and allows to prove previously conjectured results. In addition, we characterize the spectrum of the Hessian at the minimizer. A companion paper applies our general result to non-convex examples.",
+ "primary": "stat.ML"
+}

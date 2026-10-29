@@ -1,0 +1,16 @@
+{
+ "id": "2610.13656",
+ "title": "Scalable Sparse Autoregressive Variational Inference for Non-Gaussian Spatial Fields",
+ "authors": [
+  "Paul F. V. Wiemann",
+  "Matthias Katzfuss"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 1,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Short paper for the Joint Meeting SIS-FENStatS 2026, Rome, June 22-25, 2026",
+ "abstract": "Latent field models are essential for spatial statistics, but the posterior distribution of the latent field, even with a Gaussian process (GP) prior, is analytically intractable whenever the likelihood is non-Gaussian. Existing approximations are either too slow or too restrictive for large non-Gaussian datasets. We present a scalable variational inference framework that mirrors the sparse nearest-neighbor autoregressive structure of the prior in the variational family, uses normalizing-flow conditionals for expressiveness, and amortizes all variational parameters via a single shared neural conditioner. Doubly stochastic optimization with reduced ancestor sets achieves polylogarithmic complexity per iteration.",
+ "primary": "stat.ML"
+}

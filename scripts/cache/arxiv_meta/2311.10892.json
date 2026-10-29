@@ -1,0 +1,16 @@
+{
+ "id": "2311.10892",
+ "title": "The Hidden Linear Structure in Score-Based Models and its Application",
+ "authors": [
+  "Binxu Wang",
+  "John J. Vastola"
+ ],
+ "v1_date": "2023-11-17",
+ "latest_version": 1,
+ "latest_date": "2023-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Workshop on Diffusion Models in NeurIPS 2023. 24 pages, 8 figures. arXiv admin note: text overlap with arXiv:2311.10892",
+ "abstract": "Score-based models have achieved remarkable results in the generative modeling of many domains. By learning the gradient of smoothed data distribution, they can iteratively generate samples from complex distribution e.g. natural images. However, is there any universal structure in the gradient field that will eventually be learned by any neural network? Here, we aim to find such structures through a normative analysis of the score function. First, we derived the closed-form solution to the scored-based model with a Gaussian score. We claimed that for well-trained diffusion models, the learned score at a high noise scale is well approximated by the linear score of Gaussian. We demonstrated this through empirical validation of pre-trained images diffusion model and theoretical analysis of the score function. This finding enabled us to precisely predict the initial diffusion trajectory using the analytical solution and to accelerate image sampling by 15-30\\% by skipping the initial phase without sacrificing image quality. Our finding of the linear structure in the score-based model has implications for better model design and data pre-processing.",
+ "primary": "cs.AI"
+}

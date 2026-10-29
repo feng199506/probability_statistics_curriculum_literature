@@ -1,0 +1,17 @@
+{
+ "id": "2509.14188",
+ "title": "Covariate-adjusted Group Sequential Comparisons of Restricted Mean Survival Times",
+ "authors": [
+  "Peter Zhang",
+  "Brent Logan",
+  "Michael Martens"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 1,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The restricted mean survival time (RMST) is the mean survival time in the study population followed up to a specific time point, and is simply the area under the survival curve up to the specific time point. The difference between two RMSTs quantifies the group difference in a time scale by measuring the integrated difference between survival curves in the two treatment groups. This paper develops a group sequential (GS) test of comparing two RMSTs up to a restriction time point under a stratified proportional hazards model with stratum representing treatment status. This covariate-adjusted GS test does not require the assumption of a constant hazard ratio over time between the two treatment groups and is valid whether or not the proportional hazards assumption holds for the treatment effect. We establish the large-sample properties of the covariate-adjusted GS test and show that the proposed test statistics sequentially computed at different interim analysis times possess an independent increments covariance structure. Using currently available methodology, this joint independent increments structure allows us to calculate sequential stopping boundaries for preserving the desired type I error probability and maintaining the required statistical power. We evaluate the small-sample performance of the proposed GS test via a simulation study and illustrate its real-world application through analysis of a clinical trial dataset from the BMT CTN 1101 study.",
+ "primary": "stat.ME"
+}

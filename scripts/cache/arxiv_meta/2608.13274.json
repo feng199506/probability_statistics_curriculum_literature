@@ -1,0 +1,16 @@
+{
+ "id": "2608.13274",
+ "title": "Causal Mediation Analysis for Network Data with Graph Neural Network",
+ "authors": [
+  "Peikai Wu",
+  "Zhiguo Xiao"
+ ],
+ "v1_date": "2026-08-13",
+ "latest_version": 1,
+ "latest_date": "2026-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "86 pages",
+ "abstract": "Causal mediation analysis is typically formulated under no interference, an assumption often violated in networked populations. We develop a nonparametric framework for a single large observed network that allows simultaneous treatment and mediator spillovers and high-dimensional network confounding. Exposure and mediator mappings define causal estimands without restricting the true interference mechanism, separating own from spillover effects without prespecified aggregation models. Under strengthened conditional independence conditions, we identify own controlled direct, natural direct, and natural indirect effects and give primitive sufficient conditions in terms of structural errors. We construct augmented inverse probability weighted estimators that are doubly robust for controlled effects and multiply robust for natural effects, using graph neural networks to learn high-dimensional nuisance functions from node features and the adjacency matrix. Under approximate neighborhood interference, weak network dependence, and suitable first-stage rates, we establish asymptotic normality of the effect estimators and consistency of a network HAC variance estimator. In simulations the graph neural network estimator outperforms machine learning methods built on hand-constructed neighborhood features, and a reanalysis of an agricultural insurance experiment in rural China finds insurance knowledge to be a substantive mediating channel while perception-based mediators are not.",
+ "primary": "stat.ME"
+}

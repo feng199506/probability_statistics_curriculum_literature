@@ -1,0 +1,17 @@
+{
+ "id": "2409.15500",
+ "title": "Sticky coupling as a control variate for sensitivity analysis",
+ "authors": [
+  "Shiva Darshan",
+  "Andreas Eberle",
+  "Gabriel Stoltz"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 1,
+ "latest_date": "2024-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 pages, 11 figures",
+ "abstract": "We present and analyze a control variate strategy based on couplings to reduce the variance of finite difference estimators of sensitivity coefficients, called transport coefficients in the physics literature. We study the bias and variance of a sticky-coupling and a synchronous-coupling based estimator as the finite difference parameter $η$ goes to zero. For diffusions with elliptic additive noise, we show that when the drift is contractive outside a compact the bias of a sticky-coupling based estimator is bounded as $η\\to 0$ and its variance behaves like $η^{-1}$, compared to the standard estimator whose bias and variance behave like $η^{-1}$ and $η^{-2}$, respectively. Under the stronger assumption that the drift is contractive everywhere, we additionally show that the bias and variance of the synchronous-coupling based estimator are both bounded as $η\\to 0$. Our hypotheses include overdamped Langevin dynamics with many physically relevant non-convex potentials. We illustrate our theoretical results with numerical examples, including overdamped Langevin dynamics with a highly non-convex Lennard-Jones potential to demonstrate both failure of synchronous coupling and the effectiveness of sticky coupling in the not globally contractive setting.",
+ "primary": "math.PR"
+}

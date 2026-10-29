@@ -1,0 +1,18 @@
+{
+ "id": "2605.05359",
+ "title": "Bayesian inference of sparsity in stable vector autoregressive processes",
+ "authors": [
+  "Sarah E. Heaps",
+  "Ian H. Jermyn",
+  "Yujiang Wang",
+  "Darren J. Wilkinson"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Advances in sensing technology have made it possible to collect large volumes of high-dimensional time-series data. In fields like genetics and neuroscience, key questions concern whether directed relationships between variables can be learned from these data. To this end, graphical vector autoregressions are a popular tool because zeros among the autoregressive coefficients and error precision matrix have natural interpretations in terms of Granger non-causality and contemporaneous conditional independence. In applications where system dynamics are subject to functional or structural constraints, assuming the process is stable can be advantageous. However, enforcing stability demands restricting the autoregressive coefficients to lie in a constrained space with a complex geometry called the stationary region. The resulting inferential challenges are compounded when sparsity is also a requirement. Working in the Bayesian paradigm, we tackle the problem of developing a prior that simultaneously enforces stationarity and sparsity through parameter expansion, constructing a spike-and-slab prior with support constrained to the stationary region. A mixture of G-Wishart distributions provides a sparse prior for the error precision matrix. Computational inference is carried out using Metropolis-within-Gibbs, exploiting the No-U-Turn Sampler and reversible-jump steps. We demonstrate the inferential and predictive benefits of our approach through simulations and applications in macroeconomics and neuroscience.",
+ "primary": "stat.ME"
+}

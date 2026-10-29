@@ -1,0 +1,23 @@
+{
+ "id": "2604.18973",
+ "title": "Ground-Level Near Real-Time Modeling for PM2.5 Pollution Prediction",
+ "authors": [
+  "Zachary R. Fox",
+  "Janet O. Agbaje",
+  "Dakotah Maguire",
+  "Javier E. Santos",
+  "Jeremy Logan",
+  "Maggie Davis",
+  "Rima Habre",
+  "Jim VanDerslice",
+  "Heidi A. Hanson"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 1,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air pollution is a worldwide public health threat that can cause or exacerbate many illnesses, including respiratory disease, cardiovascular disease, and some cancers. However, epidemiological studies and public health decision-making are stymied by the inability to assess pollution exposure impacts in near real time. To address this, developing accurate digital twins of environmental pollutants will enable timely data-driven analytics - a crucial step in modernizing health policy and decision-making. Although other models predict and analyze fine particulate matter exposure, they often rely on modeled input data sources and data streams that are not regularly updated. Another challenge stems from current models relying on predefined grids. In contrast, our deep-learning approach interpolates surface level PM2.5 concentrations between sparsely distributed US EPA monitoring stations in a grid-free manner. By incorporating additional, readily available datasets - including topographic, meteorological, and land-use data - we improve its ability to predict pollutant concentrations with high spatial and temporal resolution. This enables model querying at any spatial location for rapid predictions without computing over the entire grid. To ensure robustness, we randomize spatial sampling during training to enable our model to perform well in both dense and sparse monitored regions. This model is well suited for near real-time deployment because its lightweight architecture allows for fast updates in response to streaming data. Moreover, model flexibility and scalability allow it to be adapted to various geographical contexts and scales, making it a practical tool for delivering accurate and timely air quality assessments. Its capacity to rapidly evaluate multiple scenarios can be especially valuable for decision-making during public health crises.",
+ "primary": "stat.AP"
+}

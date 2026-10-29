@@ -1,0 +1,16 @@
+{
+ "id": "2401.08303",
+ "title": "A Bayesian multivariate model with temporal dependence on random partition of areal data",
+ "authors": [
+  "Jessica Pavani",
+  "Fernando Andrés Quintana"
+ ],
+ "v1_date": "2024-01-16",
+ "latest_version": 1,
+ "latest_date": "2024-01-16",
+ "journal_ref": "",
+ "doi": "10.1002/sim.10325",
+ "comment": "",
+ "abstract": "More than half of the world's population is exposed to the risk of mosquito-borne diseases, which leads to millions of cases and hundreds of thousands of deaths every year. Analyzing this type of data is often complex and poses several interesting challenges, mainly due to the vast geographic area, the peculiar temporal behavior, and the potential correlation between infections. Motivation stems from the analysis of tropical diseases data, namely, the number of cases of two arboviruses, dengue and chikungunya, transmitted by the same mosquito, for all the 145 microregions in Southeast Brazil from 2018 to 2022. As a contribution to the literature on multivariate disease data, we develop a flexible Bayesian multivariate spatio-temporal model where temporal dependence is defined for areal clusters. The model features a prior distribution for the random partition of areal data that incorporates neighboring information, thus encouraging maps with few contiguous clusters and discouraging clusters with disconnected areas. The model also incorporates an autoregressive structure and terms related to seasonal patterns into temporal components that are disease and cluster-specific. It also considers a multivariate directed acyclic graph autoregressive structure to accommodate spatial and inter-disease dependence, facilitating the interpretation of spatial correlation. We explore properties of the model by way of simulation studies and show results that prove our proposal compares well to competing alternatives. Finally, we apply the model to the motivating dataset with a twofold goal: clustering areas where the temporal trend of certain diseases are similar, and exploring the potential existence of temporal and/or spatial correlation between two diseases transmitted by the same mosquito.",
+ "primary": "stat.ME"
+}

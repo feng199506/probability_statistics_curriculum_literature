@@ -1,0 +1,15 @@
+{
+ "id": "2508.20855",
+ "title": "Uniform Quasi ML based inference for the panel AR(1) model",
+ "authors": [
+  "Hugo Kruiniger"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 4,
+ "latest_date": "2025-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages; in the latest version, I have amended Theorem 4 and its proof and added some text to section 3 and a reference",
+ "abstract": "Maximum Likelihood (ML) offers attractive alternatives to Generalized Method of Moments (GMM) estimators for dynamic panel data models. However, to date no identification-robust inference methods exist that can be used in conjunction with the ML estimators for these models. In this paper we propose ML based inference methods for panel AR(1) models with arbitrary initial conditions and heteroskedasticity that are robust to the strength of identification. We show that (Quasi) Lagrange Multiplier (LM) tests and confidence sets (CSs) that use the expected Hessian rather than the observed Hessian of the log-likelihood function have correct asymptotic size and coverage probability in a uniform sense, respectively. Such Quasi LM tests and CSs are also robust to misspecification of the distribution of the data and to heterogeneity, including heteroskedasticity. We derive the power envelope of a Fixed Effects version of such an LM test for hypotheses involving the autoregressive parameter when the average information matrix is estimated by a centered OPG estimator and the model is only second-order identified, and show that it coincides with the maximal attainable power curve in the worst-case setting. We also study the empirical size and power properties of these (Quasi) LM tests and find that the hypothesis that the (Quasi) LM test has correct size cannot be rejected.",
+ "primary": "econ.EM"
+}

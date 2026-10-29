@@ -1,0 +1,16 @@
+{
+ "id": "2401.05315",
+ "title": "Multi-resolution filters via linear projection for large spatio-temporal datasets",
+ "authors": [
+  "Toshihiro Hirano",
+  "Tsunehiro Ishihara"
+ ],
+ "v1_date": "2024-01-10",
+ "latest_version": 3,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 10 figures, 2 tables",
+ "abstract": "Advances in compact sensing devices mounted on satellites have facilitated the collection of large spatio-temporal datasets with coordinates. Since such datasets are often incomplete and noisy, it is useful to create the prediction surface of a spatial field. To this end, we consider an online filtering inference by using the Kalman filter based on linear Gaussian state-space models. However, the Kalman filter is impractically time-consuming when the number of locations in spatio-temporal datasets is large. To address this problem, we propose a multi-resolution filter via linear projection (MRF-lp), a fast computation method for online filtering inference. In the MRF-lp, by carrying out a multi-resolution approximation via linear projection (MRA-lp), the forecast covariance matrix can be approximated while capturing both the large- and small-scale spatial variations. As a result of this approximation, our proposed MRF-lp preserves a block-sparse structure of some matrices appearing in the MRF-lp through time, which leads to the scalability of this algorithm. Additionally, we discuss extensions of the MRF-lp to a nonlinear and non-Gaussian case. Simulation studies and real data analysis for total precipitable water vapor demonstrate that our proposed approach performs well compared with the related methods.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2603.17469",
+ "title": "Fast and scalable inference in hidden Markov models with Gaussian fields",
+ "authors": [
+  "Jan-Ole Fischer"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 13 figures",
+ "abstract": "Hidden Markov models (HMMs) are powerful tools for analysing time series data that depend on discrete underlying but unobserved states. As such, they have gained prominence across numerous empirical disciplines, in particular ecology, medicine, and economics. However, the increasing complexity of empirical data is often accompanied by additional latent structure such as spatial effects, temporal trends, or measurement perturbations. Gaussian fields provide an attractive building block for incorporating such structured latent variation into HMMs. Fast inference methods for Gaussian fields have emerged through the stochastic partial differential equation (SPDE) approach. Due to their sparse representation, these integrate well with novel frequentist estimation methods for random-effects models via the use of automatic differentiation and the Laplace approximation. Scaling to high dimensions requires tools such as (R)TMB to exploit sparsity in the Hessian w.r.t. the latent variables - a property satisfied by SPDE fields but violated by the HMM likelihood. We present a modified forward algorithm to compute the HMM likelihood, constructing sparsity in the Hessian and consequently enabling fast and scalable inference. We demonstrate the practical feasibility and the usefulness through simulations and two case studies exploring the detection of stellar flares as well as modelling the movement of lions.",
+ "primary": "stat.ME"
+}

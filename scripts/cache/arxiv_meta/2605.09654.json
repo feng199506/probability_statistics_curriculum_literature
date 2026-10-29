@@ -1,0 +1,20 @@
+{
+ "id": "2605.09654",
+ "title": "Metropolis-Adjusted Diffusion Models",
+ "authors": [
+  "Kevin H. Lam",
+  "Tyler Farghly",
+  "Christopher Williams",
+  "Jun Yang",
+  "Yee Whye Teh",
+  "Arnaud Doucet"
+ ],
+ "v1_date": "2026-05-10",
+ "latest_version": 1,
+ "latest_date": "2026-05-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from score-based diffusion models incurs bias due to both time discretisation and the approximation of the score function. A common strategy for reducing this bias is to apply corrector steps based on the unadjusted Langevin algorithm (ULA) at each noise level within a predictor-corrector framework. However, ULA is itself a biased sampler, as it discretises a continuous diffusion process. In this work, we consider adjusted Langevin correctors that employ Metropolis--Hastings (MH) or Barker's accept-reject steps to correct for this bias. Since the target density ratio typically required by MH-based algorithms is unavailable, we propose methods that instead utilise the score function to compute the correct acceptance probability. We introduce the first exact method for adjusting Langevin corrections in diffusion models, based on a two-coin Bernoulli factory algorithm. We also propose an efficient approximation based on Simpson's rule that achieves accuracy of order $5/2$ in the step size at near-zero marginal cost. We demonstrate that these procedures improve sample quality on both synthetic and image datasets, yielding consistent gains in Fréchet Inception Distance (FID) on the latter.",
+ "primary": "stat.ML"
+}

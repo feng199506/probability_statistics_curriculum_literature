@@ -1,0 +1,17 @@
+{
+ "id": "2606.02589",
+ "title": "Rashomon-Seeded Annealing for Robust Bayesian Inference in Factorial Designs",
+ "authors": [
+  "Yiyang Fan",
+  "Soumyakanti Pan",
+  "Tyler H. McCormick"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 8 figures",
+ "abstract": "Integrating over model uncertainty in factorial designs via Bayesian model averaging is hindered by the combinatorial explosion of interpretable interaction effects, often yielding a multimodal posterior, where standard Markov chain Monte Carlo algorithms encounter significant convergence issues. We propose a general computational framework that repurposes Rashomon sets, collections of high-performing models traditionally valued for prediction and interpretability, as a strategic \"warm start\" for estimating the full posterior. Our method, Rashomon-seeded annealing, initializes annealed importance sampling (AIS) by anchoring the starting density within these pre-identified, high-evidence regions while preserving global support over the entire model space. Rather than restricting inference to the Rashomon set and understating uncertainty, the AIS correction restores full posterior inference, turning the Rashomon certificate from an inferential truncation into a proposal mechanism. We demonstrate this approach using Rashomon Partition Sets (RPS) as a rigorous, certified seed constructor for factorial designs. The resulting algorithm yields consistent self-normalized posterior summaries, such as model-averaged cell means, credible intervals, and uncertainty summaries without exhaustive enumeration of the complete model space. This bridges the gap between high-evidence model discovery and rigorous Bayesian inference, and outlines a general strategy in which any high-posterior seed set can provide computational leverage for AIS-based model averaging.",
+ "primary": "stat.ME"
+}

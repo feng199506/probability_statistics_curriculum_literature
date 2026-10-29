@@ -1,0 +1,16 @@
+{
+ "id": "2507.12686",
+ "title": "Finite-Dimensional Gaussian Approximation for Deep Neural Networks: Universality in Random Weights",
+ "authors": [
+  "Krishnakumar Balasubramanian",
+  "Nathan Ross"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Bernoulli Journal",
+ "abstract": "We study the Finite-Dimensional Distributions (FDDs) of deep neural networks with randomly initialized weights that have finite-order moments. Specifically, we establish Gaussian approximation bounds in the Wasserstein-$1$ norm between the FDDs and their Gaussian limit assuming a Lipschitz activation function and allowing the layer widths to grow to infinity at arbitrary relative rates. In the special case where all widths are proportional to a common scale parameter $n$ and there are $L-1$ hidden layers, we obtain convergence rates of order $n^{-({1}/{6})^{L-1} + ε}$, for any $ε> 0$.",
+ "primary": "stat.ML"
+}

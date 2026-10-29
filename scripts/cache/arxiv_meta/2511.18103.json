@@ -1,0 +1,17 @@
+{
+ "id": "2511.18103",
+ "title": "Comparing Labeled Markov Chains: A Cantor-Kantorovich Approach",
+ "authors": [
+  "Adrien Banse",
+  "Alessandro Abate",
+  "Raphaël M. Jungers"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 1,
+ "latest_date": "2025-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Labeled Markov Chains (or LMCs for short) are useful mathematical objects to model complex probabilistic languages. A central challenge is to compare two LMCs, for example to assess the accuracy of an abstraction or to quantify the effect of model perturbations. In this work, we study the recently introduced Cantor-Kantorovich (or CK) distance. In particular we show that the latter can be framed as a discounted sum of finite-horizon Total Variation distances, making it an instance of discounted linear distance, but arising from the natural Cantor topology. Building on the latter observation, we analyze the properties of the CK distance along three dimensions: computational complexity, continuity properties and approximation. More precisely, we show that the exact computation of the CK distance is #P-hard. We also provide an upper bound on the CK distance as a function of the approximation relation between the two LMCs, and show that a bounded CK distance implies a bounded error between probabilities of finite-horizon traces. Finally, we provide a computable approximation scheme, and show that the latter is also #P-hard. Altogether, our results provide a rigorous theoretical foundation for the CK distance and clarify its relationship with existing distances.",
+ "primary": "cs.LO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.04256",
+ "title": "regTPS-KLE: A Novel Approach To Approximate A Gaussian Random Field for Bayesian Spatial Modeling",
+ "authors": [
+  "Joaquin Cavieres",
+  "Sebastian Krumscheid"
+ ],
+ "v1_date": "2025-10-05",
+ "latest_version": 2,
+ "latest_date": "2026-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian random field is a ubiquitous model for spatial phenomena in diverse scientific disciplines. Its approximation is often crucial for computational feasibility in simulation, inference, and uncertainty quantification. The Karhunen-Loève Expansion provides a theoretically optimal basis for representing a Gaussian random field as a sum of deterministic orthonormal functions weighted by uncorrelated random variables. While this is a well-established method for dimension reduction and approximation of (spatial) stochastic processes, its practical application depends on the explicit or implicit definition of the covariance structure. In this work, we propose a novel approach, referred to as regTPS-KLE, for approximating a Gaussian random field by explicitly constructing its covariance via a regularized thin plate spline (TPS) kernel. Because TPS kernels are conditionally positive definite and lack a direct spectral decomposition, we formulate the covariance as the inverse of a regularized elliptic operator. To evaluate its statistical performance, we compare its predictive accuracy and computational efficiency with a Gaussian random field approximation constructed using the stochastic partial differential equations (SPDE) method and implemented within an MCMC algorithm. In simulation studies, the predictive differences between the SPDE and regTPS-KLE models were minimal when the spatial field was generated using Matèrn and exponential covariance functions, while regTPS-KLE models consistently outperformed the SPDE approach in terms of computational efficiency. In a real data application, regTPS-KLE exhibits superior predictive accuracy compared with SPDE models based on leave-one-out cross-validation while also achieving improved computational efficiency.",
+ "primary": "stat.CO"
+}

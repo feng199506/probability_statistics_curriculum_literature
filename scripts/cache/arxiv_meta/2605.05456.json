@@ -1,0 +1,17 @@
+{
+ "id": "2605.05456",
+ "title": "Estimator Averaging of Local Projection and VAR Impulse Responses",
+ "authors": [
+  "Chaoyi Chen",
+  "Elena Pesavento",
+  "Balazs Vonnak"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Local projections (LP) and vector autoregressions (VAR) are the two standard tools for impulse response analysis, but they often display a finite-sample trade-off: LP is typically less biased but more volatile, while VAR is more precise but can be biased under misspecification. We propose an easy-to-implement estimator-averaging approach that combines LP and VAR at each horizon by minimizing the mean squared error of the impulse response itself, rather than in-sample fit. We derive closed-form oracle weights for this finite-sample risk problem, develop feasible AR-sieve-bootstrap procedures, and compare them against an Rsquare-based model-averaging benchmark. For a benchmark class of short-memory linear data generating processes in which LP and VAR are both consistent, we establish the consistency and limiting distribution of the feasible averaged estimator. Monte Carlo results show meaningful risk reductions relative to LP and VAR alone. In an empirical application revisiting Bauer and Swanson (2023), estimator averaging delivers stable and economically intuitive responses for yields, activity, prices, and credit spreads.",
+ "primary": "econ.EM"
+}

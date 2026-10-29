@@ -1,0 +1,18 @@
+{
+ "id": "2404.00319",
+ "title": "Direction Preferring Confidence Intervals",
+ "authors": [
+  "Tzviel Frostig",
+  "Orestis A. Panagiotou",
+  "Yoav Benjamini",
+  "Ruth Heller"
+ ],
+ "v1_date": "2024-03-30",
+ "latest_version": 3,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 figures, 45 pages",
+ "abstract": "Confidence intervals (CIs) are fundamental in statistical analysis, providing interval estimates for unknown parameters. We introduce direction-preferring CIs that prioritize inference for parameters with a specific sign (e.g., positive sign). Unlike previous methods of constructing CIs, our intervals are based on the inversion of acceptance regions that differ for positive and negative parameters, to enhance the probability of determining the sign in the prespecified preferred direction while maintaining standard coverage. We apply our suggestion in the typical context that multiple parameters are considered, but only some of the constructed CIs are of interest, e.g., when CIs are reported only for the subset of parameters that are found to differ significantly from zero. This leads us to suggest direction-preferring CIs with false coverage rate (FCR) control, as well as conditional direction-preferring CIs that adjust for selection by conditioning on the selection event. We compare the two selection adjustment methods in theory and using numerical experiments. The procedures we develop are useful for inference on secondary outcomes in medical applications, a setting we highlight through two motivating examples.",
+ "primary": "stat.ME"
+}

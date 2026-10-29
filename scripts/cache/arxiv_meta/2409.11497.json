@@ -1,0 +1,19 @@
+{
+ "id": "2409.11497",
+ "title": "Decomposing Gaussians with Unknown Covariance",
+ "authors": [
+  "Ameer Dharamshi",
+  "Anna Neufeld",
+  "Lucy L. Gao",
+  "Jacob Bien",
+  "Daniela Witten"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 1,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "10.1093/biomet/asaf057",
+ "comment": "",
+ "abstract": "Common workflows in machine learning and statistics rely on the ability to partition the information in a data set into independent portions. Recent work has shown that this may be possible even when conventional sample splitting is not (e.g., when the number of samples $n=1$, or when observations are not independent and identically distributed). However, the approaches that are currently available to decompose multivariate Gaussian data require knowledge of the covariance matrix. In many important problems (such as in spatial or longitudinal data analysis, and graphical modeling), the covariance matrix may be unknown and even of primary interest. Thus, in this work we develop new approaches to decompose Gaussians with unknown covariance. First, we present a general algorithm that encompasses all previous decomposition approaches for Gaussian data as special cases, and can further handle the case of an unknown covariance. It yields a new and more flexible alternative to sample splitting when $n>1$. When $n=1$, we prove that it is impossible to partition the information in a multivariate Gaussian into independent portions without knowing the covariance matrix. Thus, we use the general algorithm to decompose a single multivariate Gaussian with unknown covariance into dependent parts with tractable conditional distributions, and demonstrate their use for inference and validation. The proposed decomposition strategy extends naturally to Gaussian processes. In simulation and on electroencephalography data, we apply these decompositions to the tasks of model selection and post-selection inference in settings where alternative strategies are unavailable.",
+ "primary": "stat.ME"
+}

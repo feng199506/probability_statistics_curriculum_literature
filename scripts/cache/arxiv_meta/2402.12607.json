@@ -1,0 +1,16 @@
+{
+ "id": "2402.12607",
+ "title": "Inference on LATEs with covariates",
+ "authors": [
+  "Tom Boot",
+  "Didier Nibbering"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 2,
+ "latest_date": "2024-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In theory, two-stage least squares (TSLS) identifies a weighted average of covariate-specific local average treatment effects (LATEs) from a saturated specification, without making parametric assumptions on how available covariates enter the model. In practice, TSLS is severely biased as saturation leads to a large number of control dummies and an equally large number of, arguably weak, instruments. This paper derives asymptotically valid tests and confidence intervals for the weighted average of LATEs that is targeted, yet missed by saturated TSLS. The proposed inference procedure is robust to unobserved treatment effect heterogeneity, covariates with rich support, and weak identification. We find LATEs statistically significantly different from zero in applications in criminology, finance, health, and education.",
+ "primary": "econ.EM"
+}

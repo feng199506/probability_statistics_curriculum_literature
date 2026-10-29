@@ -1,0 +1,16 @@
+{
+ "id": "2506.20659",
+ "title": "A High-Dimensional Statistical Theory for Convex and Nonconvex Matrix Sensing",
+ "authors": [
+  "Joshua Agterberg",
+  "René Vidal"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 1,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The problem of matrix sensing, or trace regression, is a problem wherein one wishes to estimate a low-rank matrix from linear measurements perturbed with noise. A number of existing works have studied both convex and nonconvex approaches to this problem, establishing minimax error rates when the number of measurements is sufficiently large relative to the rank and dimension of the low-rank matrix, though a precise comparison of these procedures still remains unexplored. In this work we provide a high-dimensional statistical analysis for symmetric low-rank matrix sensing observed under Gaussian measurements and noise. Our main result describes a novel phenomenon: in this statistical model and in an appropriate asymptotic regime, the behavior of any local minimum of the nonconvex factorized approach (with known rank) is approximately equivalent to that of the matrix hard-thresholding of a corresponding matrix denoising problem, and the behavior of the convex nuclear-norm regularized least squares approach is approximately equivalent to that of matrix soft-thresholding of the same matrix denoising problem. Here \"approximately equivalent\" is understood in the sense of concentration of Lipchitz functions. As a consequence, the nonconvex procedure uniformly dominates the convex approach in mean squared error. Our arguments are based on a matrix operator generalization of the Convex Gaussian Min-Max Theorem (CGMT) together with studying the interplay between local minima of the convex and nonconvex formulations and their \"debiased\" counterparts, and several of these results may be of independent interest.",
+ "primary": "math.ST"
+}

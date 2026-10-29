@@ -1,0 +1,16 @@
+{
+ "id": "2606.04237",
+ "title": "Constrained Weighted Bayesian Bootstrap",
+ "authors": [
+  "Sam Rosen",
+  "Jason Xu"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 Pages, 8 Figures. Accepted to 42nd Conference on Uncertainty in Artificial Intelligence (uai2026)",
+ "abstract": "We prove the weighted Bayesian bootstrap, a method for approximate sampling of a posterior distribution, can be extended to sample from general constrained posterior distributions under mild assumptions. The method entails a simple algorithm that can take advantage of fast tools from convex optimization. Under regularity conditions, we show the asymptotic distribution of samples from the constrained weighted Bayesian bootstrap has a covariance matching the restricted maximum likelihood estimator, an efficient estimator. We assess the method empirically on a variety of constrained Bayesian problems, demonstrating broad applicability of the method as well as advantages over existing peer methods. The constrained weighted Bayesian bootstrap quickly samples from constrained posteriors, providing adequate uncertainty quantification for problems typically solved via optimization methods designed to deliver only a point estimate. As a case study, using constraints required in European-style option prices, uncertainty estimates of an option pricing surface are derived with constrained weighted Bayesian bootstrap.",
+ "primary": "stat.ME"
+}

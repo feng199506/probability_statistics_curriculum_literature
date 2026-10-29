@@ -1,0 +1,16 @@
+{
+ "id": "2301.06162",
+ "title": "Selective Inference with Distributed Data",
+ "authors": [
+  "Sifan Liu",
+  "Snigdha Panigrahi"
+ ],
+ "v1_date": "2023-01-15",
+ "latest_version": 2,
+ "latest_date": "2023-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As datasets grow larger, they are often distributed across multiple machines that compute in parallel and communicate with a central machine through short messages. In this paper, we focus on sparse regression and propose a new procedure for conducting selective inference with distributed data. Although many distributed procedures exist for point estimation in the sparse setting, few options are available for estimating uncertainties or conducting hypothesis tests based on the estimated sparsity. We solve a generalized linear regression on each machine, which then communicates a selected set of predictors to the central machine. The central machine uses these selected predictors to form a generalized linear model (GLM). To conduct inference in the selected GLM, our proposed procedure bases approximately-valid selective inference on an asymptotic likelihood. The proposal seeks only aggregated information, in relatively few dimensions, from each machine which is merged at the central machine for selective inference. By reusing low-dimensional summary statistics from local machines, our procedure achieves higher power while keeping the communication cost low. This method is also applicable as a solution to the notorious p-value lottery problem that arises when model selection is repeated on random splits of data.",
+ "primary": "stat.ME"
+}

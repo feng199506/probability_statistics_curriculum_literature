@@ -1,0 +1,16 @@
+{
+ "id": "2410.01194",
+ "title": "Maximum Ideal Likelihood Estimation: A Unified Inference Framework for Latent Variable Models",
+ "authors": [
+  "Yizhou Cai",
+  "Ting Fung Ma"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a unified estimation framework, the Maximum Ideal Likelihood Estimation (MILE), for general parametric models with latent variables. Unlike traditional approaches relying on the marginal likelihood of the observed data, MILE directly exploits the joint distribution of the complete data by treating the latent variables as parameters (the ideal likelihood). Borrowing strength from optimisation techniques and algorithms, MILE is a broadly applicable framework in case that traditional methods fail, such as when the marginal likelihood has non-finite expectations. MILE offers a flexible and robust alternative to established techniques, including the Expectation-Maximisation algorithm and Markov chain Monte Carlo. We facilitate statistical inference of MILE on consistency, asymptotic distribution, and equivalence to the Maximum Likelihood Estimation, under some mild conditions. Extensive simulations illustrative real-data applications illustrate the empirical advantages of MILE, outperforming existing methods on computational feasibility and scalability.",
+ "primary": "math.ST"
+}

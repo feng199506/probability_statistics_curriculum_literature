@@ -1,0 +1,20 @@
+[
+ {"q": "(abs:\"simulation studies\" OR abs:\"simulation study\") AND (abs:methodological OR abs:ADEMP OR abs:\"neutral comparison\" OR abs:\"best practices\" OR abs:guidance) AND (cat:stat.ME OR cat:stat.CO OR cat:stat.OT)", "subtopic": "模拟研究方法学"},
+ {"q": "(abs:\"neutral comparison\" OR abs:\"benchmarking\" OR abs:\"methodological research\") AND (abs:\"statistical methods\" OR abs:methodology) AND (cat:stat.ME OR cat:stat.OT OR cat:stat.CO)", "subtopic": "模拟研究方法学"},
+ {"q": "abs:estimand AND (cat:stat.ME OR cat:stat.AP OR cat:stat.OT)", "subtopic": "估计目标定义"},
+ {"q": "(abs:reproducibility OR abs:reproducible OR abs:replicability) AND (cat:stat.ME OR cat:stat.OT OR cat:stat.AP OR cat:stat.CO)", "subtopic": "可复现性"},
+ {"q": "(abs:\"replication success\" OR abs:\"replication studies\" OR abs:\"replication crisis\" OR abs:\"replication study\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.OT)", "subtopic": "可重复性与重复研究"},
+ {"q": "abs:\"sensitivity analysis\" AND (ti:tutorial OR ti:review OR ti:guide OR ti:primer OR ti:introduction OR ti:overview) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "敏感性分析"},
+ {"q": "(abs:\"multiverse analysis\" OR abs:\"many analysts\" OR abs:\"specification curve\" OR abs:\"analytic flexibility\" OR abs:\"researcher degrees of freedom\")", "subtopic": "多元分析流程（multiverse）"},
+ {"q": "(abs:preregistration OR abs:\"pre-registration\" OR abs:\"registered report\" OR abs:\"registered reports\" OR abs:\"statistical analysis plan\")", "subtopic": "预注册与分析计划"},
+ {"q": "(abs:\"reporting guidelines\" OR abs:\"reporting guideline\" OR abs:\"statistical reporting\" OR abs:\"reporting checklist\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.OT OR cat:q-bio.QM)", "subtopic": "统计报告规范"},
+ {"q": "(abs:\"p-values\" OR abs:\"statistical significance\" OR abs:\"null hypothesis significance testing\") AND (abs:misinterpretation OR abs:misuse OR abs:reform OR abs:recommendations) AND (cat:stat.ME OR cat:stat.OT OR cat:stat.AP)", "subtopic": "统计显著性与报告"},
+ {"q": "(abs:\"questionable research practices\" OR abs:\"p-hacking\" OR abs:\"publication bias\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.OT)", "subtopic": "研究诚信与偏差"},
+ {"q": "(abs:\"statistical consulting\" OR abs:\"collaborative statistics\" OR abs:\"statistical collaboration\" OR abs:\"collaborative biostatistics\")", "subtopic": "统计咨询与合作"},
+ {"q": "(abs:ethics OR abs:ethical) AND (abs:statisticians OR abs:\"statistical practice\" OR abs:\"data science\") AND (cat:stat.OT OR cat:stat.ME OR cat:stat.AP OR cat:cs.CY)", "subtopic": "研究伦理"},
+ {"q": "(abs:\"data analysis\" OR abs:\"statistical analysis\") AND (abs:workflow OR abs:\"principles\" OR abs:\"practice\") AND (ti:workflow OR ti:principles OR ti:guide OR ti:practice) AND (cat:stat.OT OR cat:stat.ME OR cat:stat.AP)", "subtopic": "数据分析工作流"},
+ {"q": "(abs:\"open science\" OR abs:\"code sharing\" OR abs:\"data sharing\" OR abs:\"research software\") AND (cat:stat.OT OR cat:stat.ME OR cat:stat.CO OR cat:stat.AP)", "subtopic": "可复现性与开放科学"},
+ {"q": "(abs:\"sample size\" OR abs:\"power analysis\") AND (ti:tutorial OR ti:guide OR ti:review OR ti:primer) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "研究设计与样本量"},
+ {"q": "(abs:\"missing data\" OR abs:\"multiple imputation\") AND (ti:tutorial OR ti:guide OR ti:guidance OR ti:framework) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "敏感性分析（缺失数据）"},
+ {"q": "(abs:\"target trial emulation\" OR abs:\"causal roadmap\" OR abs:\"protocol\") AND (ti:tutorial OR ti:guide OR ti:roadmap OR ti:framework) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "研究问题与估计目标"}
+]

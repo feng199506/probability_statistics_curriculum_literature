@@ -1,0 +1,17 @@
+{
+ "id": "2610.16677",
+ "title": "Graphon Hawkes Processes: Sparse Estimation and Network Recovery",
+ "authors": [
+  "Justin R. Baars",
+  "Roger J. A. Laeven",
+  "Michel R. H. Mandjes"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning interaction structures from spatiotemporal event data is a key statistical problem in fields such as neuroscience, epidemiology, and seismology. We study this problem for Hawkes processes on a continuous spatial domain, where events may trigger future events at different locations. Following the framework developed in ``Spatiotemporal Hawkes processes with a graphon-induced connectivity structure'' by Baars, Laeven, and Mandjes (2026), we model the spatial interaction mechanism using an underlying graphon that characterizes how the intensities' excitation strength varies across locations. By expanding the baseline intensity, temporal excitation kernel and graphon in orthogonal bases, we represent the problem as a high-dimensional parametric inference problem. We propose a sparse penalized least-squares estimator that recovers the effective interaction structure while controlling model complexity. Our analysis establishes non-asymptotic error bounds in a high-dimensional regime where the number of parameters may grow with the observation horizon, without requiring the conditional intensity to be almost surely bounded. We further establish sparsistency results, showing that the latent interaction network can be consistently recovered. Simulation studies demonstrate the good finite sample performance of the proposed method and an application to large-scale neuronal spike data, comprising 1.81 million events, showcases its practical effectiveness.",
+ "primary": "math.ST"
+}

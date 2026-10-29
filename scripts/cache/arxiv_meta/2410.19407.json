@@ -1,0 +1,16 @@
+{
+ "id": "2410.19407",
+ "title": "Insights into regression-based cross-temporal forecast reconciliation",
+ "authors": [
+  "Daniele Girolimetto",
+  "Tommaso Di Fonzo"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 1,
+ "latest_date": "2024-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cross-temporal forecast reconciliation aims to ensure consistency across forecasts made at different temporal and cross-sectional levels. We explore the relationships between sequential, iterative, and optimal combination approaches, and discuss the conditions under which a sequential reconciliation approach (either first-cross-sectional-then-temporal, or first-temporal-then-cross-sectional) is equivalent to a fully (i.e., cross-temporally) coherent iterative heuristic. Furthermore, we show that for specific patterns of the error covariance matrix in the regression model on which the optimal combination approach grounds, iterative reconciliation naturally converges to the optimal combination solution, regardless the order of application of the uni-dimensional cross-sectional and temporal reconciliation approaches. Theoretical and empirical properties of the proposed approaches are investigated through a forecasting experiment using a dataset of hourly photovoltaic power generation. The study presents a comprehensive framework for understanding and enhancing cross-temporal forecast reconciliation, considering both forecast accuracy and the often overlooked computational aspects, showing that significant improvement can be achieved in terms of memory space and computation time, two particularly important aspects in the high-dimensional contexts that usually arise in cross-temporal forecast reconciliation.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2312.05682",
+ "title": "Multivariate Confluent Hypergeometric Covariance Functions with Simultaneous Flexibility over Smoothness and Tail Decay",
+ "authors": [
+  "Drew Yarger",
+  "Anindya Bhadra"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 3,
+ "latest_date": "2025-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatially-indexed multivariate data appear frequently in geostatistics and related fields including oceanography and environmental science. To take full advantage of this data structure, cross-covariance functions are constructed to describe the dependence between any two component variables at different spatial locations. Modeling of multivariate spatial random fields requires these constructed cross-covariance functions to be valid, which often presents challenges that lead to complicated restrictions on the parameter space. The purpose of this work is to present techniques using multivariate mixtures for establishing validity that are simultaneously simplified and comprehensive. In particular, cross-covariances are constructed for the recently-introduced confluent hypergeometric (CH) class of covariance functions, which has slow (polynomial) decay in the tails of the covariance that better handles large gaps between observations in comparison with other covariance models. In addition, the spectral density of the confluent hypergeometric covariance is established and used to construct new valid cross-covariance models. The approach leads to valid multivariate cross-covariance models that inherit the desired marginal properties of the confluent hypergeometric model and outperform the multivariate Matérn model in out-of-sample prediction under slowly-decaying correlation of the underlying multivariate random field. The model captures heavy tail decay and dependence between variables in an oceanography dataset of temperature, salinity and oxygen, as measured by autonomous floats in the Southern Ocean.",
+ "primary": "stat.ME"
+}

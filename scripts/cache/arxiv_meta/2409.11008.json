@@ -1,0 +1,18 @@
+{
+ "id": "2409.11008",
+ "title": "Latent mixed-effect models for high-dimensional longitudinal data",
+ "authors": [
+  "Priscilla Ong",
+  "Manuel Haußmann",
+  "Otto Lönnroth",
+  "Harri Lähdesmäki"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 1,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review",
+ "abstract": "Modelling longitudinal data is an important yet challenging task. These datasets can be high-dimensional, contain non-linear effects and time-varying covariates. Gaussian process (GP) prior-based variational autoencoders (VAEs) have emerged as a promising approach due to their ability to model time-series data. However, they are costly to train and struggle to fully exploit the rich covariates characteristic of longitudinal data, making them difficult for practitioners to use effectively. In this work, we leverage linear mixed models (LMMs) and amortized variational inference to provide conditional priors for VAEs, and propose LMM-VAE, a scalable, interpretable and identifiable model. We highlight theoretical connections between it and GP-based techniques, providing a unified framework for this class of methods. Our proposal performs competitively compared to existing approaches across simulated and real-world datasets.",
+ "primary": "cs.LG"
+}

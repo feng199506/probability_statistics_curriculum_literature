@@ -1,0 +1,18 @@
+{
+ "id": "2404.13707",
+ "title": "Robust inference for the unification of confidence intervals in meta-analysis",
+ "authors": [
+  "Wei Liang",
+  "Haicheng Huang",
+  "Hongsheng Dai",
+  "Yinghui Wei"
+ ],
+ "v1_date": "2024-04-21",
+ "latest_version": 1,
+ "latest_date": "2024-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional meta-analysis assumes that the effect sizes estimated in individual studies follow a Gaussian distribution. However, this distributional assumption is not always satisfied in practice, leading to potentially biased results. In the situation when the number of studies, denoted as K, is large, the cumulative Gaussian approximation errors from each study could make the final estimation unreliable. In the situation when K is small, it is not realistic to assume the random-effect follows Gaussian distribution. In this paper, we present a novel empirical likelihood method for combining confidence intervals under the meta-analysis framework. This method is free of the Gaussian assumption in effect size estimates from individual studies and from the random-effects. We establish the large-sample properties of the non-parametric estimator, and introduce a criterion governing the relationship between the number of studies, K, and the sample size of each study, n_i. Our methodology supersedes conventional meta-analysis techniques in both theoretical robustness and computational efficiency. We assess the performance of our proposed methods using simulation studies, and apply our proposed methods to two examples.",
+ "primary": "stat.ME"
+}

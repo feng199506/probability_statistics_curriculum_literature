@@ -1,0 +1,19 @@
+{
+ "id": "2502.00644",
+ "title": "A Two-Stage Trip Inference Model of Purposes and Socio-Economic Attributes of Regular Public Transit Users",
+ "authors": [
+  "Yitong Chen",
+  "Wentao Dong",
+  "Chengcheng Yu",
+  "Quan Yuan",
+  "Chao Yang"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 1,
+ "latest_date": "2025-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data-driven research is becoming a new paradigm in transportation, but the natural lack of individual socio-economic attributes in transportation data makes research such as activity purpose inference and mobility pattern identification lack convincingness and verifiability. In this paper, a two-stage trip purpose and socio-economic attributes inference model is proposed based on travel resident survey and smart card data. In the first stage, the trip purpose of each trip is inferred by a combination of rule-based and XGBoost models. In the second stage, based on the trip purpose, a machine-learning model is built to inference the socio-economic attributes of individuals. A teacher-student model based on self-training is then applied on the models above to transfer them to smart card data. The impact of independent variables of socio-economic attributes inference model is also investigated. The results show that models for inferring trip purposes and socio-economic attributes have overall accuracies of 92.7% and 76.3%, respectively. Travel time, arrival time, departure time and purpose of the first two trips are most important factors on age and job status, while the land price of jobs-housing are significant to the inference of individual incomes.",
+ "primary": "stat.AP"
+}

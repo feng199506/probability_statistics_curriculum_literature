@@ -1,0 +1,19 @@
+{
+ "id": "2311.05819",
+ "title": "A flexible framework for synthesizing human activity patterns with application to sequential categorical data",
+ "authors": [
+  "Zuofu Huang",
+  "Julian Wolfson",
+  "Jayne A. Fulkerson",
+  "Ryan Demmer",
+  "Helen N. Chen"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 1,
+ "latest_date": "2023-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The ability to synthesize realistic data in a parametrizable way is valuable for a number of reasons, including privacy, missing data imputation, and evaluating the performance of statistical and computational methods. When the underlying data generating process is complex, data synthesis requires approaches that balance realism and simplicity. In this paper, we address the problem of synthesizing sequential categorical data of the type that is increasingly available from mobile applications and sensors that record participant status continuously over the course of multiple days and weeks. We propose the paired Markov Chain (paired-MC) method, a flexible framework that produces sequences that closely mimic real data while providing a straightforward mechanism for modifying characteristics of the synthesized sequences. We demonstrate the paired-MC method on two datasets, one reflecting daily human activity patterns collected via a smartphone application, and one encoding the intensities of physical activity measured by wearable accelerometers. In both settings, sequences synthesized by paired-MC better capture key characteristics of the real data than alternative approaches.",
+ "primary": "stat.ME"
+}

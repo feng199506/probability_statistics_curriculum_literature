@@ -1,0 +1,17 @@
+{
+ "id": "2412.08064",
+ "title": "Statistical Convergence Rates of Optimal Transport Map Estimation between General Distributions",
+ "authors": [
+  "Yizhe Ding",
+  "Runze Li",
+  "Lingzhou Xue"
+ ],
+ "v1_date": "2024-12-11",
+ "latest_version": 1,
+ "latest_date": "2024-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 8 figures",
+ "abstract": "This paper studies the convergence rates of optimal transport (OT) map estimators, a topic of growing interest in statistics, machine learning, and various scientific fields. Despite recent advancements, existing results rely on regularity assumptions that are very restrictive in practice and much stricter than those in Brenier's Theorem, including the compactness and convexity of the probability support and the bi-Lipschitz property of the OT maps. We aim to broaden the scope of OT map estimation and fill this gap between theory and practice. Given the strong convexity assumption on Brenier's potential, we first establish the non-asymptotic convergence rates for the original plug-in estimator without requiring restrictive assumptions on probability measures. Additionally, we introduce a sieve plug-in estimator and establish its convergence rates without the strong convexity assumption on Brenier's potential, enabling the widely used cases such as the rank functions of normal or t-distributions. We also establish new Poincaré-type inequalities, which are proved given sufficient conditions on the local boundedness of the probability density and mild topological conditions of the support, and these new inequalities enable us to achieve faster convergence rates for the Donsker function class. Moreover, we develop scalable algorithms to efficiently solve the OT map estimation using neural networks and present numerical experiments to demonstrate the effectiveness and robustness.",
+ "primary": "math.ST"
+}

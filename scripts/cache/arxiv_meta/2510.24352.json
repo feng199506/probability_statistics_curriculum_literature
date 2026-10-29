@@ -1,0 +1,17 @@
+{
+ "id": "2510.24352",
+ "title": "Self-Normalized Quantile Empirical Saddlepoint Approximation",
+ "authors": [
+  "Hou Jian",
+  "Meng Tan",
+  "Tian Maozai"
+ ],
+ "v1_date": "2025-10-28",
+ "latest_version": 1,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 3 figures, 12 tables",
+ "abstract": "We propose a density-free method for frequentist inference on population quantiles, termed Self-Normalized Quantile Empirical Saddlepoint Approximation (SNQESA). The approach builds a self-normalized pivot from the indicator score for a fixed quantile threshold and then employs a constrained empirical saddlepoint approximation to obtain highly accurate tail probabilities. Inverting these tail areas yields confidence intervals and tests without estimating the unknown density at the target quantile, thereby eliminating bandwidth selection and the boundary issues that affect kernel-based Wald/Hall-Sheather intervals. Under mild local regularity, the resulting procedures attain higher-order tail accuracy and second-order coverage after inversion. Because the pivot is anchored in a bounded Bernoulli reduction, the method remains reliable for skewed and heavy-tailed distributions and for extreme quantiles. Extensive Monte Carlo experiments across light, heavy, and multimodal distributions demonstrate that SNQESA delivers stable coverage and competitive interval lengths in small to moderate samples while being orders of magnitude faster than large-B resampling schemes. An empirical study on Value-at-Risk with rolling windows further highlights the gains in tail performance and computational efficiency. The framework naturally extends to two-sample quantile differences and to regression-type settings, offering a practical, analytically transparent alternative to kernel, bootstrap, and empirical-likelihood methods for distribution-free quantile inference.",
+ "primary": "stat.ME"
+}

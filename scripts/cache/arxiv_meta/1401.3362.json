@@ -1,0 +1,17 @@
+{
+ "id": "1401.3362",
+ "title": "Kernel Density Estimation with Berkson Error",
+ "authors": [
+  "James P. Long",
+  "Noureddine El Karoui",
+  "John A. Rice"
+ ],
+ "v1_date": "2014-01-14",
+ "latest_version": 4,
+ "latest_date": "2014-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 5 figures",
+ "abstract": "Given a sample $\\{X_i\\}_{i=1}^n$ from $f_X$, we construct kernel density estimators for $f_Y$, the convolution of $f_X$ with a known error density $f_ε$. This problem is known as density estimation with Berkson error and has applications in epidemiology and astronomy. Little is understood about bandwidth selection for Berkson density estimation. We compare three approaches to selecting the bandwidth both asymptotically, using large sample approximations to the MISE, and at finite samples, using simulations. Our results highlight the relationship between the structure of the error $f_ε$ and the optimal bandwidth. In particular, the results demonstrate the importance of smoothing when the error term $f_ε$ is concentrated near 0. We propose a data--driven bandwidth estimator and test its performance on NO$_2$ exposure data.",
+ "primary": "stat.ME"
+}

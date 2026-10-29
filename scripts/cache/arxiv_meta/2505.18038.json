@@ -1,0 +1,17 @@
+{
+ "id": "2505.18038",
+ "title": "Assessing the impact of variance heterogeneity and misspecification in mixed-effects location-scale models",
+ "authors": [
+  "Vincent Jeanselme",
+  "Marco Palma",
+  "Jessica K Barrett"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "10.1186/s12874-025-02755-3",
+ "comment": "BMC Medical Research Methodology (2026)",
+ "abstract": "Linear Mixed Model (LMM) is a common statistical approach to model the relation between exposure and outcome while capturing individual variability through random effects. However, this model assumes the homogeneity of the error term's variance. Breaking this assumption, known as homoscedasticity, can bias estimates and, consequently, may change a study's conclusions. If this assumption is unmet, the mixed-effect location-scale model (MELSM) offers a solution to account for within-individual variability. Our work explores how LMMs and MELSMs behave when the homoscedasticity assumption is not met. Further, we study how misspecification affects inference for MELSM. To this aim, we propose a simulation study with longitudinal data and evaluate the estimates' bias and coverage. Our simulations show that neglecting heteroscedasticity in LMMs leads to loss of coverage for the estimated coefficients and biases the estimates of the standard deviations of the random effects. In MELSMs, scale misspecification does not bias the location model, but location misspecification alters the scale estimates. Our simulation study illustrates the importance of modelling heteroscedasticity, with potential implications beyond mixed effect models, for generalised linear mixed models for non-normal outcomes and joint models with survival data.",
+ "primary": "stat.ME"
+}

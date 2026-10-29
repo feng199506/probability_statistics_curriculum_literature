@@ -1,0 +1,16 @@
+{
+ "id": "2602.07477",
+ "title": "Statistical inference after variable selection in Cox models: A simulation study",
+ "authors": [
+  "Lena Schemet",
+  "Sarah Friedrich-Welz"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Choosing relevant predictors is central to the analysis of biomedical time-to-event data. Classical frequentist inference, however, presumes that the set of covariates is fixed in advance and does not account for data-driven variable selection. As a consequence, naive post-selection inference may be biased and misleading. In right-censored survival settings, these issues may be further exacerbated by the additional uncertainty induced by censoring. We investigate several inference procedures applied after variable selection for the coefficients of the Lasso and its extension, the adaptive Lasso, in the context of the Cox model. The methods considered include sample splitting, exact post-selection inference, and the debiased Lasso. Their performance is examined in a neutral simulation study reflecting realistic covariate structures and censoring rates commonly encountered in biomedical applications. To complement the simulation results, we illustrate the practical behavior of these procedures in an applied example using a publicly available survival dataset.",
+ "primary": "stat.ME"
+}

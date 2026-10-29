@@ -1,0 +1,15 @@
+{
+ "id": "2402.10836",
+ "title": "Manipulation Test for Multidimensional RDD",
+ "authors": [
+  "Federico Crippa"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 2,
+ "latest_date": "2024-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The causal inference model proposed by Lee (2008) for the regression discontinuity design (RDD) relies on assumptions that imply the continuity of the density of the assignment (running) variable. The test for this implication is commonly referred to as the manipulation test and is regularly reported in applied research to strengthen the design's validity. The multidimensional RDD (MRDD) extends the RDD to contexts where treatment assignment depends on several running variables. This paper introduces a manipulation test for the MRDD. First, it develops a theoretical model for causal inference with the MRDD, used to derive a testable implication on the conditional marginal densities of the running variables. Then, it constructs the test for the implication based on a quadratic form of a vector of statistics separately computed for each marginal density. Finally, the proposed test is compared with alternative procedures commonly employed in applied research.",
+ "primary": "econ.EM"
+}

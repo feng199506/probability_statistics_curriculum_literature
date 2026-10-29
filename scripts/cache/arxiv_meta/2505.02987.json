@@ -1,0 +1,15 @@
+{
+ "id": "2505.02987",
+ "title": "New affine invariant ensemble samplers and their dimensional scaling",
+ "authors": [
+  "Yifan Chen"
+ ],
+ "v1_date": "2025-05-05",
+ "latest_version": 3,
+ "latest_date": "2025-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Any feedback welcome!",
+ "abstract": "We introduce new affine invariant ensemble Markov chain Monte Carlo (MCMC) samplers that are easy to construct and improve upon existing methods, especially for high-dimensional problems. We first propose a simple derivative-free side move sampler that improves upon popular samplers in the \\texttt{emcee} package by generating more effective proposal directions. We then develop a class of derivative-based affine invariant ensemble Hamiltonian Monte Carlo (HMC) samplers based on antisymmetric preconditioning using complementary ensembles, which outperform standard, non-affine-invariant HMC when sampling highly anisotropic distributions. We provide asymptotic scaling analysis for high-dimensional Gaussian targets to further elucidate the properties of these affine invariant ensemble samplers. In particular, with derivative information, the affine invariant ensemble HMC can scale much better with dimension compared to derivative-free ensemble samplers.",
+ "primary": "stat.CO"
+}

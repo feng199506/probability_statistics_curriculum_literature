@@ -1,0 +1,16 @@
+{
+ "id": "2312.03929",
+ "title": "Simulation of a Lévy process, its extremum, and hitting time of the extremum via characteristic functions",
+ "authors": [
+  "Svetlana Boyarchenko",
+  "Sergei Levendorskii"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 1,
+ "latest_date": "2023-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We suggest a general framework for simulation of the triplet $(X_T,\\bar X_ T,τ_T)$ (Lévy process, its extremum, and hitting time of the extremum), and, separately, $X_T,\\bar X_ T$ and pairs $(X_T,\\bar X_ T)$, $(\\bar X_ T,τ_T)$, $(\\bar X_ T-X_T,τ_T)$, via characteristic functions and conditional characteristic functions. The conformal deformations technique allows one to evaluate probability distributions, joint probability distributions and conditional probability distributions accurately and fast. For simulations in the far tails of the distribution, we precalculate and store the values of the (conditional) characteristic functions on multi-grids on appropriate surfaces in $C^n$, and use these values to calculate the quantiles in the tails. For simulation in the central part of a distribution, we precalculate the values of the cumulative distribution at points of a non-uniform (multi-)grid, and use interpolation to calculate quantiles.",
+ "primary": "q-fin.CP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2403.05792",
+ "title": "Distributed Conditional Feature Screening via Pearson Partial Correlation with FDR Control",
+ "authors": [
+  "Naiwen Pang",
+  "Xiaochao Xia"
+ ],
+ "v1_date": "2024-03-09",
+ "latest_version": 1,
+ "latest_date": "2024-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the distributed conditional feature screening for massive data with ultrahigh-dimensional features. Specifically, three distributed partial correlation feature screening methods (SAPS, ACPS and JDPS methods) are firstly proposed based on Pearson partial correlation. The corresponding consistency of distributed estimation and the sure screening property of feature screening methods are established. Secondly, because using a hard threshold in feature screening will lead to a high false discovery rate (FDR), this paper develops a two-step distributed feature screening method based on knockoff technique to control the FDR. It is shown that the proposed method can control the FDR in the finite sample, and also enjoys the sure screening property under some conditions. Different from the existing screening methods, this paper not only considers the influence of a conditional variable on both the response variable and feature variables in variable screening, but also studies the FDR control issue. Finally, the effectiveness of the proposed methods is confirmed by numerical simulations and a real data analysis.",
+ "primary": "stat.ME"
+}

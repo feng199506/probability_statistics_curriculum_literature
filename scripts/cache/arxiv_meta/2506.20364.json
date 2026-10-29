@@ -1,0 +1,19 @@
+{
+ "id": "2506.20364",
+ "title": "Path-Based Approach for Detecting and Assessing Inconsistency in Network Meta-Analysis: A Novel Method",
+ "authors": [
+  "Noosheen R. Tahmasebi",
+  "Annabel L. Davies",
+  "Theodoros Papakonstantinou",
+  "Gerta Rücker",
+  "Adriani Nikolakopoulou"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 1,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network Meta-Analysis (NMA) plays a pivotal role in synthesizing evidence from various sources and comparing multiple interventions. At its core, NMA relies on integrating both direct evidence from head-to-head comparisons and indirect evidence from different paths that link treatments through common comparators. A key aspect is evaluating consistency between direct and indirect sources. Existing methods to detect inconsistency, although widely used, have limitations. For example, they do not account for differences within indirect sources or cannot estimate inconsistency when direct evidence is absent. In this paper, we introduce a path-based approach that explores all sources of evidence without separating direct and indirect. We introduce a measure based on the square of differences to quantitatively capture inconsistency, and propose a Netpath plot to visualize inconsistencies between various paths. We provide an implementation of our path-based method within the netmeta R package. Via application to fictional and real-world examples, we show that our method is able to detect and visualize inconsistency between multiple paths of evidence that would otherwise be masked by considering all indirect sources together. The path-based approach therefore provides a more comprehensive evaluation of inconsistency within a network of treatments.",
+ "primary": "stat.ME"
+}

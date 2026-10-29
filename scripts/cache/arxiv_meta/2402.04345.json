@@ -1,0 +1,16 @@
+{
+ "id": "2402.04345",
+ "title": "A Framework of Zero-Inflated Bayesian Negative Binomial Regression Models For Spatiotemporal Data",
+ "authors": [
+  "Qing He",
+  "Hsin-Hsiung Huang"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 1,
+ "latest_date": "2024-02-06",
+ "journal_ref": "Journal of Statistical Planning and Inference (2024). 229, 106098",
+ "doi": "10.1016/j.jspi.2023.106098",
+ "comment": "",
+ "abstract": "Spatiotemporal data analysis with massive zeros is widely used in many areas such as epidemiology and public health. We use a Bayesian framework to fit zero-inflated negative binomial models and employ a set of latent variables from Pólya-Gamma distributions to derive an efficient Gibbs sampler. The proposed model accommodates varying spatial and temporal random effects through Gaussian process priors, which have both the simplicity and flexibility in modeling nonlinear relationships through a covariance function. To conquer the computation bottleneck that GPs may suffer when the sample size is large, we adopt the nearest-neighbor GP approach that approximates the covariance matrix using local experts. For the simulation study, we adopt multiple settings with varying sizes of spatial locations to evaluate the performance of the proposed model such as spatial and temporal random effects estimation and compare the result to other methods. We also apply the proposed model to the COVID-19 death counts in the state of Florida, USA from 3/25/2020 through 7/29/2020 to examine relationships between social vulnerability and COVID-19 deaths.",
+ "primary": "stat.ME"
+}

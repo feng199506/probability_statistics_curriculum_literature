@@ -1,0 +1,20 @@
+{
+ "id": "2412.12335",
+ "title": "Target Aggregate Data Adjustment Method for Transportability Analysis Utilizing Summary-Level Data from the Target Population",
+ "authors": [
+  "Yichen Yan",
+  "Quang Vuong",
+  "Rebecca K Metcalfe",
+  "Tianyu Guan",
+  "Haolun Shi",
+  "Jay JH Park"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 2,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transportability analysis is a causal inference framework used to evaluate the external validity of randomized clinical trials (RCTs) or observational studies. Most existing transportability analysis methods require individual patient-level data (IPD) for both the source and the target population, narrowing its applicability when only target aggregate-level data (AgD) is available. Besides, accounting for censoring is essential to reduce bias in longitudinal data, yet AgD-based transportability methods in the presence of censoring remain underexplored. Here, we propose a two-stage weighting framework named \"Target Aggregate Data Adjustment\" (TADA) to address the mentioned challenges simultaneously. TADA is designed as a two-stage weighting scheme to simultaneously adjust for both censoring bias and distributional imbalances of effect modifiers (EM), where the final weights are the product of the inverse probability of censoring weights and participation weights derived using the method of moments. We have conducted an extensive simulation study to evaluate TADA's performance. Our results indicate that TADA can effectively control the bias resulting from censoring within a non-extreme range suitable for most practical scenarios, and enhance the application and clinical interpretability of transportability analyses in settings with limited data availability.",
+ "primary": "stat.ME"
+}

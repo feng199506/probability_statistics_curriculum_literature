@@ -1,0 +1,19 @@
+{
+ "id": "2311.10900",
+ "title": "Max-Rank: Efficient Multiple Testing for Conformal Prediction",
+ "authors": [
+  "Alexander Timans",
+  "Christoph-Nikolas Straehle",
+  "Kaspar Sakmann",
+  "Christian A. Naesseth",
+  "Eric Nalisnick"
+ ],
+ "v1_date": "2023-11-17",
+ "latest_version": 4,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 5 figures, 3 tables (incl. appendix); published at AISTATS 2025",
+ "abstract": "Multiple hypothesis testing (MHT) frequently arises in scientific inquiries, and concurrent testing of multiple hypotheses inflates the risk of Type-I errors or false positives, rendering MHT corrections essential. This paper addresses MHT in the context of conformal prediction, a flexible framework for predictive uncertainty quantification. Some conformal applications give rise to simultaneous testing, and positive dependencies among tests typically exist. We introduce $\\texttt{max-rank}$, a novel correction that exploits these dependencies whilst efficiently controlling the family-wise error rate. Inspired by existing permutation-based corrections, $\\texttt{max-rank}$ leverages rank order information to improve performance and integrates readily with any conformal procedure. We establish its theoretical and empirical advantages over the common Bonferroni correction and its compatibility with conformal prediction, highlighting the potential to strengthen predictive uncertainty estimates.",
+ "primary": "stat.ME"
+}

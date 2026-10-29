@@ -1,0 +1,15 @@
+{
+ "id": "2607.03367",
+ "title": "Minimax Estimation of Kernel Stein Discrepancy: Trace versus Hilbert-Schmidt Scales",
+ "authors": [
+  "Davit Gogolashvili"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel Stein Discrepancy (KSD) compares a sample to a fixed target distribution known only through its score, and is widely used for goodness-of-fit testing, sample quality assessment, and approximate inference. We study the estimation of $\\operatorname{KSD}(P_0,P)$ from $n$ independent observations and identify the sharp spectral constant governing the minimax risk: it is the Hilbert-Schmidt norm of the Stein covariance operator $C_\\star$, giving the minimax scale $\\sqrt{\\|C_\\star\\|_{\\mathrm{HS}}/n}$. This scale is attained by the positive-part square-root U-statistic, whereas the standard plug-in V-statistic remains at the trace scale $\\sqrt{\\operatorname{tr}(C_\\star)/n}$ and is therefore suboptimal by the fourth root of the effective rank of $C_\\star$; for a Gaussian target with a fixed-bandwidth Gaussian kernel this factor is exponential in the dimension.",
+ "primary": "math.ST"
+}

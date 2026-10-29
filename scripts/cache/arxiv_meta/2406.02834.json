@@ -1,0 +1,16 @@
+{
+ "id": "2406.02834",
+ "title": "Asymptotic inference with flexible covariate adjustment under rerandomization and stratified rerandomization",
+ "authors": [
+  "Bingkai Wang",
+  "Fan Li"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 3,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rerandomization is an effective treatment allocation procedure to control for baseline covariate imbalance. For estimating the average treatment effect, rerandomization has been previously shown to improve the precision of the unadjusted and the linearly-adjusted estimators over simple randomization without compromising consistency. However, it remains unclear whether such results apply more generally to the class of M-estimators, including the g-computation formula with generalized linear regression and doubly-robust methods, and more broadly, to efficient estimators with data-adaptive machine learners. In this paper, we develop the asymptotic theory for a more general class of covariate-adjusted estimators under rerandomization and its stratified extension. We prove that the asymptotic linearity and the influence function remain identical for any M-estimator under simple randomization and rerandomization, but rerandomization may lead to a non-Gaussian asymptotic distribution. We further explain, drawing examples from several common M-estimators, that asymptotic normality can be achieved if rerandomization variables are appropriately adjusted for in the final estimator. These results are extended to stratified rerandomization. Finally, we study the asymptotic theory for efficient estimators based on data-adaptive machine learners, and prove their efficiency optimality under rerandomization and stratified rerandomization. Our results are demonstrated via simulations and re-analyses of a cluster-randomized experiment that used stratified rerandomization.",
+ "primary": "stat.ME"
+}

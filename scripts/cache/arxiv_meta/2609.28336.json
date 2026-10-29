@@ -1,0 +1,18 @@
+{
+ "id": "2609.28336",
+ "title": "Adaptive confidence intervals with missing data",
+ "authors": [
+  "Tianyi Ma",
+  "Kabir A. Verchand",
+  "Chao Gao",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2026-09-23",
+ "latest_version": 1,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "64 pages, 5 figures",
+ "abstract": "We consider the construction of confidence intervals for population means when observations are subject to missingness. To accommodate more general missingness mechanisms than missing completely at random (MCAR), we adopt a reparametrised version of the realisable contamination model of Ma et al. (2026), which is a mixture of an MCAR version and a missing not at random version of the same base distribution $P$. We characterise the minimax length of confidence intervals that can adapt to potentially unknown parameters of the model, including the contamination fraction, for Gaussian base distributions and for nonparametric classes satisfying certain tail or symmetry assumptions. In all of these settings, we provide explicit constructions of simple, practical and finite-sample valid adaptive confidence intervals that attain the corresponding minimax rates. Finally, we provide implications of our results for causal inference.",
+ "primary": "math.ST"
+}

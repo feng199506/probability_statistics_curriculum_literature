@@ -1,0 +1,18 @@
+{
+ "id": "2507.04567",
+ "title": "Inverse Probability Weighting for Recurrent Event Models",
+ "authors": [
+  "Jiren Sun",
+  "Tobias Mutze",
+  "Richard Cook",
+  "Tianmeng Lyu"
+ ],
+ "v1_date": "2025-07-06",
+ "latest_version": 1,
+ "latest_date": "2025-07-06",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70485",
+ "comment": "",
+ "abstract": "Recurrent events are common and important clinical trial endpoints in many disease areas, e.g., cardiovascular hospitalizations in heart failure, relapses in multiple sclerosis, or exacerbations in asthma. During a trial, patients may experience intercurrent events, that is, events after treatment assignment which affect the interpretation or existence of the outcome of interest. In many settings, a treatment effect in the scenario in which the intercurrent event would not occur is of clinical interest. A proper estimation method of such a hypothetical treatment effect has to account for all confounders of the recurrent event process and the intercurrent event. In this paper, we propose estimators targeting hypothetical estimands in recurrent events with proper adjustments of baseline and internal time-varying covariates. Specifically, we apply inverse probability weighting (IPW) to the commonly used Lin-Wei-Yang-Ying (LWYY) and negative binomial (NB) models in recurrent event analysis. Simulation studies demonstrate that our approach outperforms alternative analytical methods in terms of bias and power.",
+ "primary": "stat.ME"
+}

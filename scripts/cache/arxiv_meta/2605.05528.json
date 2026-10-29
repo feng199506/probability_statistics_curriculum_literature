@@ -1,0 +1,17 @@
+{
+ "id": "2605.05528",
+ "title": "Spectral Collapsed Gibbs Sampler for Bayesian Sparse Regression",
+ "authors": [
+  "Andrew Chin",
+  "Xiyu Ding",
+  "Akihiko Nishimura"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse regression based on global-local shrinkage priors are increasingly used for Bayesian modeling of modern high-dimensional data, but scaling up the Gibbs sampler for posterior inference remains a challenge. While much effort has gone into speeding up the high-dimensional coefficient update step, insufficient attention has been given to the potential poor mixing of the global scale parameter $τ$ and of the overall sampler. One proposed remedy has been to marginalize out the coefficients when updating $τ$. Here we show that, while this collapsed update was previously thought to require a Metropolis step, we can in fact sample directly and efficiently from the collapsed density. This is made possible by careful linear algebraic manipulations and a strategic per-Gibbs-scan spectral decomposition, allowing subsequent evaluations of the collapsed density across hundreds of values of $τ$ at negligible cost. We combine this computational trick with adaptive numerical integration and inverse transform sampling to construct a direct sampler. This eliminates the need to tune Metropolis proposals and yields faster convergence and improved mixing. We demonstrate our method on two big data applications, fitting logistic regression under the horseshoe prior to datasets with design matrices of size 120,000 x 1,379 and 1,980 x 17,848.",
+ "primary": "stat.ME"
+}

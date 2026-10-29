@@ -1,0 +1,16 @@
+{
+ "id": "2407.10659",
+ "title": "A nonparametric test for rough volatility",
+ "authors": [
+  "Carsten H. Chong",
+  "Viktor Todorov"
+ ],
+ "v1_date": "2024-07-15",
+ "latest_version": 1,
+ "latest_date": "2024-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a nonparametric test for deciding whether volatility of an asset follows a standard semimartingale process, with paths of finite quadratic variation, or a rough process with paths of infinite quadratic variation. The test utilizes the fact that volatility is rough if and only if volatility increments are negatively autocorrelated at high frequencies. It is based on the sample autocovariance of increments of spot volatility estimates computed from high-frequency asset return data. By showing a feasible CLT for this statistic under the null hypothesis of semimartingale volatility paths, we construct a test with fixed asymptotic size and an asymptotic power equal to one. The test is derived under very general conditions for the data-generating process. In particular, it is robust to jumps with arbitrary activity and to the presence of market microstructure noise. In an application of the test to SPY high-frequency data, we find evidence for rough volatility.",
+ "primary": "math.ST"
+}

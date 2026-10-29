@@ -1,0 +1,17 @@
+{
+ "id": "2410.00662",
+ "title": "Bias in mixed models when analysing longitudinal data subject to irregular observation: when should we worry about it and how can recommended visit intervals help in specifying joint models when needed?",
+ "authors": [
+  "Rose Garrett",
+  "Brian Feldman",
+  "Eleanor Pullenayegum"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 1,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 4 tables, 6 figures",
+ "abstract": "In longitudinal studies using routinely collected data, such as electronic health records (EHRs), patients tend to have more measurements when they are unwell; this informative observation pattern may lead to bias. While semi-parametric approaches to modelling longitudinal data subject to irregular observation are known to be sensitive to misspecification of the visit process, parametric models may provide a more robust alternative. Robustness of parametric models on the outcome alone has been assessed under the assumption that the visit intensity is independent of the time since the last visit, given the covariates and random effects. However, this assumption of a memoryless visit process may not be realistic in the context of EHR data. In a special case which includes memory embedded into the visit process, we derive an expression for the bias in parametric models for the outcome alone and use this to identify factors that lead to increasing bias. Using simulation studies, we show that this bias is often small in practice. We suggest diagnostics for identifying the specific cases when the outcome model may be susceptible to meaningful bias, and propose a novel joint model of the outcome and visit processes that can eliminate or reduce the bias. We apply these diagnostics and the joint model to a study of juvenile dermatomyositis. We recommend that future studies using EHR data avoid relying only on the outcome model and instead first evaluate its appropriateness with our proposed diagnostics, applying our proposed joint model if necessary.",
+ "primary": "stat.ME"
+}

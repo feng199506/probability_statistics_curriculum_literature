@@ -1,0 +1,17 @@
+{
+ "id": "2610.02633",
+ "title": "High-Dimensional Regularization of the Spatial Sign Covariance Matrix for Robust Shape Estimation",
+ "authors": [
+  "Jonas Elmerraji",
+  "James C. Spall",
+  "Mateo Díaz"
+ ],
+ "v1_date": "2026-10-02",
+ "latest_version": 1,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 3 figures",
+ "abstract": "Covariance estimation is a key component of many applications in system identification and data-driven control. Although heavy-tailed distributions may lack a covariance matrix to estimate, the shape matrix provides a well-defined, scale-free generalization for the broad family of elliptical distributions. In this setting, practitioners often employ Tyler's M-estimator (TME), which is defined implicitly and is computed using a fixed-point iteration. The spatial sign covariance matrix estimator (SSCM) offers a much simpler alternative: it corresponds to one iteration of TME. Yet, the SSCM has been largely regarded as an inferior estimator due to its statistical inconsistency under fixed-dimensional asymptotics. By contrast, using second-order tools from random matrix theory, we establish that, under standard assumptions, SSCM asymptotically dominates TME in Frobenius risk when dimension and sample size grow proportionally. This advantage arises from implicit regularization, which reduces variance at the cost of a bias that vanishes as the dimension grows. Numerical experiments support the theoretical predictions even at moderate dimensions.",
+ "primary": "math.ST"
+}

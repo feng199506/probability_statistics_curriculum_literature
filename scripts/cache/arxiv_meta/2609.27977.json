@@ -1,0 +1,15 @@
+{
+ "id": "2609.27977",
+ "title": "BFI: An R Package for Bayesian Federated Inference",
+ "authors": [
+  "Hassan Pazira"
+ ],
+ "v1_date": "2026-09-23",
+ "latest_version": 2,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised version with updates to the manuscript. The author list has been updated with the agreement of the authors",
+ "abstract": "Bayesian Federated Inference (BFI) estimates statistical models from multicenter data when individual-level observations cannot be combined across centers. We present \\pkg{BFI}, an \\proglang{R} package that implements this methodology for Gaussian, binomial logistic, and survival regression models. Each center performs a Bayesian maximum a posteriori analysis and sends only parameter estimates and curvature information to a central server, where these summaries are combined to approximate the analysis of the combined data. The package supports prior specification, structured forms of between-center heterogeneity, several parametric and flexible baseline-hazard models for survival analysis, and treatment-effect estimation for observational and randomized studies. We describe the software design and the information exchanged between centers, give reproducible workflows for these analyses, and compare the federated results with pooled-data analyses for Gaussian, logistic, and survival models.",
+ "primary": "stat.ME"
+}

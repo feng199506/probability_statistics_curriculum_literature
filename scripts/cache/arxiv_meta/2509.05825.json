@@ -1,0 +1,17 @@
+{
+ "id": "2509.05825",
+ "title": "LORDs: Locally Optimal Restricted Designs for Phase I/II Dose-Finding Studies",
+ "authors": [
+  "Oleksandr Sverdlov",
+  "Yevgen Ryeznik",
+  "Weng Kee Wong"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 1,
+ "latest_date": "2025-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 9 figures",
+ "abstract": "We propose Locally Optimal Restricted Designs (LORDs) for phase I/II dose-finding studies that focus on both efficacy and toxicity outcomes. As an illustrative application, we find various LORDs for a 4-parameter continuation-ratio (CR) model defined on a user-specified dose range, where ethical constraints are imposed to prevent patients from receiving excessively toxic or ineffective doses. We study the structure and efficiency of LORDs across several experimental scenarios and assess the sensitivity of the results to changes in the design problem, such as adjusting the dose range or redefining target doses. Additionally, we compare LORDs with a more heuristic phase I/II design and show that LORDs offer more statistically efficient and ethical benchmark designs. A key innovation in our work is the use of a nature-inspired metaheuristic algorithm to determine dose-finding designs. This algorithm is free from assumptions, fast, and highly flexible. As a result, more realistic and adaptable designs for any model and design criterion with multiple practical constraints can be readily found and implemented. Our work also is the first to suggest how to modify and informatively select the next set of doses for the next study for enhanced statistical inference.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.15104",
+ "title": "On the Conservativeness of Robust Variance Estimators in Propensity Score Weighted Cox Models",
+ "authors": [
+  "Hiroya Morita",
+  "Shunichiro Orihara",
+  "Fumitaka Shimizu",
+  "Masataka Taguri"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 1,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "10.1002/pst.70130",
+ "comment": "19 pages, 4 table",
+ "abstract": "In propensity score weighted analysis, robust variance that does not account for weight estimation is commonly used. In propensity score weighted Cox models (CoxPSW), the robust variance is known to be conservative when weights for the average treatment effect (ATE) are used, but it remains unclear whether this conservativeness also holds for other weighting schemes. This study evaluated the performance of the robust variance in CoxPSW when weights other than ATE are applied. We conducted an asymptotic comparison between the robust variance and a variance estimator that accounts for weight estimation under non-ATE weights. Their performance was further evaluated through simulation studies and real data analysis. The analytical results, simulations, and real data analysis indicated that the robust variance is not necessarily conservative in CoxPSW when weights other than ATE are used. These findings suggest that variance estimators that account for weight estimation should be used when applying non-ATE weights in CoxPSW.",
+ "primary": "stat.ME"
+}

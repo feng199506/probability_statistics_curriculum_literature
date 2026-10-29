@@ -1,0 +1,16 @@
+{
+ "id": "2506.11949",
+ "title": "Modeling Complex Life Systems: Bayesian Inference for Weibull Failure Times Using Adaptive MCMC",
+ "authors": [
+  "Tobias Oketch",
+  "Mohammad Sepehrifar"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This research develops a Bayesian framework for analyzing failure times using the Weibull distribution, addressing challenges in prior selection due to the lack of conjugate priors and multi-dimensional sufficient statistics. We propose an adaptive semi-parametric MCMC algorithm for lifetime data analysis, employing a hierarchical Bayesian model and the No-U-Turn Sampler (NUTS) in STAN. Twenty-four combinations of prior distributions are evaluated, with a noninformative LogNormal hyper-prior ensuring flexibility. A simulation study of seventy-two datasets with varying structures compares MCMC and classical methods, identifying optimal priors for Bayesian regularization. The approach effectively handles the Increasing Hazard Rate (IHR) and Decreasing Hazard Rate (DHR) scenarios. Finally, we demonstrate the algorithm's utility by predicting the remaining lifetime of prostate cancer patients, showcasing its practical application. This work advances Bayesian methodologies for modeling complex life systems and testing processes.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2609.32067",
+ "title": "From Ehrenfest to Heisenberg scales: a hierarchy of mixing times for a phase-randomized quantum baker walk",
+ "authors": [
+  "Amir Sepehri"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 1,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The quantum baker map is a standard model of quantum chaos, but rigorous analysis of how it spreads random perturbations remains difficult. Following the repeated ``baker plus refreshed diagonal perturbation'' architecture of Schack and Caves, we study a tractable strong-noise model based on the Balazs--Voros quantization: at each time step, its unitary propagator is followed by a diagonal unitary whose entries are independent and uniform on the unit circle. The resulting random propagator is a structured random walk on $\\U(N)$, $N=2^k$. We quantify how quickly the baker dynamics spreads this basis-local randomness at three levels: ensemble means, two-copy statistics, and the full law of the accumulated propagator. The walk becomes an exact unitary $1$-design at time $k+1$, while its fixed-accuracy $2$-design mixing time is $Θ(\\log N)$. Thus the induced state ensembles reproduce Haar means and two-copy statistics on the Ehrenfest scale. The full law mixes much more slowly. A phase-adapted path coupling gives normalized Wasserstein mixing in $O_\\varepsilon(N)$ steps, whereas metric-entropy and Haar small-ball estimates give an $Ω_\\varepsilon(N/\\log N)$ lower bound and asymptotically maximal distance at every $t=o(N/\\log N)$. The law remains singular with respect to Haar measure for every $t<N$. The moment results and the Wasserstein upper bound are driven by the unistochastic Markov kernel associated with $B_N$, an affine dyadic chain whose nonconstant Fourier modes vanish exactly after $k$ steps. The resulting hierarchy separates Ehrenfest-scale randomization of state ensembles from near-Heisenberg-scale exploration of the full unitary group.",
+ "primary": "math.PR"
+}

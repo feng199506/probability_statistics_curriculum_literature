@@ -1,0 +1,18 @@
+{
+ "id": "2403.16688",
+ "title": "Optimal convex $M$-estimation via score matching",
+ "authors": [
+  "Oliver Y. Feng",
+  "Yu-Chun Kao",
+  "Min Xu",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 2,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "80 pages, 14 figures and 5 tables",
+ "abstract": "In the context of linear regression, we construct a data-driven convex loss function with respect to which empirical risk minimisation yields optimal asymptotic variance in the downstream estimation of the regression coefficients. At the population level, the negative derivative of the optimal convex loss is the best decreasing approximation of the derivative of the log-density of the noise distribution. This motivates a fitting process via a nonparametric extension of score matching, corresponding to a log-concave projection of the noise distribution with respect to the Fisher divergence. At the sample level, our semiparametric estimator is computationally efficient, and we prove that it attains the minimal asymptotic covariance among all convex $M$-estimators. As an example of a non-log-concave setting, the optimal convex loss function for Cauchy errors is Huber-like, and our procedure yields asymptotic efficiency greater than $0.87$ relative to the maximum likelihood estimator of the regression coefficients that uses oracle knowledge of this error distribution. In this sense, we provide robustness and facilitate computation without sacrificing much statistical efficiency. Numerical experiments using our accompanying R package 'asm' confirm the practical merits of our proposal.",
+ "primary": "math.ST"
+}

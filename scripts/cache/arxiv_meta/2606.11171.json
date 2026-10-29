@@ -1,0 +1,15 @@
+{
+ "id": "2606.11171",
+ "title": "Bellman-sufficient Information Complexity",
+ "authors": [
+  "Yunbei Xu"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 10,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Bellman-sufficient information complexity for minimax analysis of sequential decision problems. A Bellman-sufficient state retains enough of the history to close the controlled recursion, while an index $Y=χ(Ω)$ specifies the decision-relevant information being charged. The upper bound is a log-penalized Bellman program; the lower bound is a Bellman--Fano comparison along an algorithm-dependent reference trajectory. If the two values match at a common localization scale and the stated admissibility, calibration, and growth conditions hold, they form an information-risk sandwich. UCB, E2D, and AMS/EBO control or relax the upper Bellman bracket in different ways. For the main application, we give a negative answer to a widely studied form of the GP--UCB minimax-optimality question. For every $0<α<1/4$, we construct one bounded continuous kernel whose minimax regret is $Θ(T^{1-α})$ along an infinite sequence of horizons, while two globally calibrated GP--UCB rules incur linear regret under one fixed truth. An epochwise finite-marginal action-index AIR Bellman policy, implemented through robust AIR/AMS/EBO control, attains the minimax order. The construction separates realized information from the cost of uniform optimism: many low-value directions inflate the exploration multiplier and change the trajectory. Through the canonical RKHS feature map, it also yields a finite-horizon polynomial minimax separation for the specified maximal-information-calibrated LinUCB rule. A reproducible experiment illustrates the mechanism.",
+ "primary": "cs.LG"
+}

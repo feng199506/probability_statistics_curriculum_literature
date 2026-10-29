@@ -1,0 +1,15 @@
+{
+ "id": "2412.12690",
+ "title": "Preference Robust Ordinal Priority Approach with Preference Elicitation under Incomplete Information for Multi-Attribute Robust Ranking and Selection",
+ "authors": [
+  "Renlong Wang"
+ ],
+ "v1_date": "2024-12-17",
+ "latest_version": 2,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "N.A",
+ "abstract": "Ordinal Priority Approach (OPA) has recently been proposed to determine the weights of experts, attributes, and alternatives using ordinal preference without precise information for multi-attribute ranking and selection (MARS). This study extends OPA with preference elicitation under incomplete information to counter the parametric and preference uncertainty within MARS. Specifically, we propose Preference Robust Ordinal Priority Approach (OPA-PR) within a two-stage optimization framework to generalize marginal utility structure and resolve ambiguity in ranking parameters and utility preferences. In the first stage, the worst-case marginal utility functions are elicited from utility preference ambiguity sets, characterized by monotonicity, normalization, concavity, and Lipschitz continuity for global information, and moment-type preference elicitation for the local. In the second stage, decision weights are optimized based on the elicited marginal utility functions, considering the ranking parameters within norm-, budget-, and conditional value-at-risk-based ambiguity sets. We derive tractable reformulations of OPA-PR, especially through piecewise linear approximation for the marginal utility preference ambiguity sets for the first stage. This approximation is verified by the error bounds for both stages, establishing the foundation of preference elicitation strategy design. The proposed approach is demonstrated through a numerical experiment on the emergency supplier selection problem, including the case, sensitivity, and comparison tests.",
+ "primary": "math.OC"
+}

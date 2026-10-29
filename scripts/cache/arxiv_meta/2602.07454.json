@@ -1,0 +1,16 @@
+{
+ "id": "2602.07454",
+ "title": "Estimation of log-Gaussian gamma processes with iterated posterior linearization and Hamiltonian Monte Carlo",
+ "authors": [
+  "Teemu Härkönen",
+  "Simo Särkkä"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic processes are a flexible and widely used family of models for statistical modeling. While stochastic processes offer attractive properties such as inclusion of uncertainty properties, their inference is typically intractable, with the notable exception of Gaussian processes. Inference of models with non-Gaussian errors typically involves estimation of a high-dimensional latent variable. We propose two methods that use iterated posterior linearization followed by Hamiltonian Monte Carlo to sample the posterior distributions of such latent models with a particular focus on log-Gaussian gamma processes. The proposed methods are validated with two synthetic datasets generated from the log-Gaussian gamma process and a multiscale biocomposite stiffness model. In addition, we apply the methodology to an experimental Raman spectrum of argentopyrite.",
+ "primary": "stat.ME"
+}

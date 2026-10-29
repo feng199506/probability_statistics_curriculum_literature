@@ -1,0 +1,20 @@
+{
+ "id": "2407.00791",
+ "title": "inlabru: software for fitting latent Gaussian models with non-linear predictors",
+ "authors": [
+  "Finn Lindgren",
+  "Fabian Bachl",
+  "Janine Illian",
+  "Man Ho Suen",
+  "Håvard Rue",
+  "Andrew E. Seaton"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 1,
+ "latest_date": "2024-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The integrated nested Laplace approximation (INLA) method has become a popular approach for computationally efficient approximate Bayesian computation. In particular, by leveraging sparsity in random effect precision matrices, INLA is commonly used in spatial and spatio-temporal applications. However, the speed of INLA comes at the cost of restricting the user to the family of latent Gaussian models and the likelihoods currently implemented in {INLA}, the main software implementation of the INLA methodology. {inlabru} is a software package that extends the types of models that can be fitted using INLA by allowing the latent predictor to be non-linear in its parameters, moving beyond the additive linear predictor framework to allow more complex functional relationships. For inference it uses an approximate iterative method based on the first-order Taylor expansion of the non-linear predictor, fitting the model using INLA for each linearised model configuration. {inlabru} automates much of the workflow required to fit models using {R-INLA}, simplifying the process for users to specify, fit and predict from models. There is additional support for fitting joint likelihood models by building each likelihood individually. {inlabru} also supports the direct use of spatial data structures, such as those implemented in the {sf} and {terra} packages. In this paper we outline the statistical theory, model structure and basic syntax required for users to understand and develop their own models using {inlabru}. We evaluate the approximate inference method using a Bayesian method checking approach. We provide three examples modelling simulated spatial data that demonstrate the benefits of the additional flexibility provided by {inlabru}.",
+ "primary": "stat.ME"
+}

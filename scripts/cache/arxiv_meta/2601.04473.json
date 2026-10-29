@@ -1,0 +1,16 @@
+{
+ "id": "2601.04473",
+ "title": "Convergence Rates for Learning Pseudo-Differential Operators",
+ "authors": [
+  "Jiaheng Chen",
+  "Daniel Sanz-Alonso"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 1,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "72 pages, 1 figure",
+ "abstract": "This paper establishes convergence rates for learning elliptic pseudo-differential operators, a fundamental operator class in partial differential equations and mathematical physics. In a wavelet-Galerkin framework, we formulate learning over this class as a structured infinite-dimensional regression problem with multiscale sparsity. Building on this structure, we propose a sparse, data- and computation-efficient estimator, which leverages a novel matrix compression scheme tailored to the learning task and a nested-support strategy to balance approximation and estimation errors. In addition to obtaining convergence rates for the estimator, we show that the learned operator induces an efficient and stable Galerkin solver whose numerical error matches its statistical accuracy. Our results therefore contribute to bringing together operator learning, data-driven solvers, and wavelet methods in scientific computing.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.05568",
+ "title": "Learning Optimal Distributionally Robust Individualized Treatment Rules Integrating Multi-Source Data",
+ "authors": [
+  "Wenhai Cui",
+  "Wen Su",
+  "Xingqiu Zhao"
+ ],
+ "v1_date": "2026-03-05",
+ "latest_version": 1,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Integrative analysis of multiple datasets for estimating optimal individualized treatment rules (ITRs) can enhance decision efficiency. A central challenge is posterior shift, wherein the conditional distribution of potential outcomes given covariates differs between source and target populations. We propose a prior information-based distributionally robust ITR (PDRO-ITR) that maximizes the worst-case policy value over a covariate-dependent distributional uncertainty set, ensuring robust performance under posterior shift. The uncertainty set is constructed as an individualized combination of source distributions, with weights combining prior source-membership probabilities and deviation terms constrained to the probability simplex to accommodate posterior shift. We derive a closed-form solution for the PDRO-ITR and develop an adaptive procedure to tune the uncertainty level. We establish risk bounds for the PDRO-ITR estimator, which guarantees robust performance under the worst case. Extensive simulations and two real-data applications demonstrate that the proposed method achieves superior performance compared to existing approaches.",
+ "primary": "stat.ML"
+}

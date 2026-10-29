@@ -1,0 +1,15 @@
+{
+ "id": "2409.09243",
+ "title": "Unconditional Randomization Tests for Interference",
+ "authors": [
+  "Liang Zhong"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 3,
+ "latest_date": "2025-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Researchers are often interested in the existence and extent of interference between units when conducting causal inference or designing policy. However, testing for interference presents significant econometric challenges, particularly due to complex clustering patterns and dependencies that can invalidate standard methods. This paper introduces the pairwise imputation-based randomization test (PIRT), a general and robust framework for assessing the existence and extent of interference in experimental settings. PIRT employs unconditional randomization testing and pairwise comparisons, enabling straightforward implementation and ensuring finite-sample validity under minimal assumptions about network structure. The method's practical value is demonstrated through an application to a large-scale policing experiment in Bogota, Colombia (Blattman et al., 2021), which evaluates the effects of hotspot policing on crime at the street segment level. The analysis reveals that increased police patrolling in hotspots significantly displaces violent crime, but not property crime. Simulations calibrated to this context further underscore the power and robustness of PIRT.",
+ "primary": "econ.EM"
+}

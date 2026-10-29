@@ -1,0 +1,18 @@
+{
+ "id": "2407.05001",
+ "title": "Treatment effect estimation under covariate-adaptive randomization with heavy-tailed outcomes",
+ "authors": [
+  "Hongzi Li",
+  "Wei Ma",
+  "Yingying Ma",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2024-07-06",
+ "latest_version": 1,
+ "latest_date": "2024-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized experiments are the gold standard for investigating causal relationships, with comparisons of potential outcomes under different treatment groups used to estimate treatment effects. However, outcomes with heavy-tailed distributions pose significant challenges to traditional statistical approaches. While recent studies have explored these issues under simple randomization, their application in more complex randomization designs, such as stratified randomization or covariate-adaptive randomization, has not been adequately addressed. To fill the gap, this paper examines the properties of the estimated influence function-based M-estimator under covariate-adaptive randomization with heavy-tailed outcomes, demonstrating its consistency and asymptotic normality. Yet, the existing variance estimator tends to overestimate the asymptotic variance, especially under more balanced designs, and lacks universal applicability across randomization methods. To remedy this, we introduce a novel stratified transformed difference-in-means estimator to enhance efficiency and propose a universally applicable variance estimator to facilitate valid inferences. Additionally, we establish the consistency of kernel-based density estimation in the context of covariate-adaptive randomization. Numerical results demonstrate the effectiveness of the proposed methods in finite samples.",
+ "primary": "stat.ME"
+}

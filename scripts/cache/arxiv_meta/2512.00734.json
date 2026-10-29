@@ -1,0 +1,17 @@
+{
+ "id": "2512.00734",
+ "title": "Infinitely divisible privacy and beyond I: resolution of the $s^2=2k$ conjecture",
+ "authors": [
+  "Aaradhya Pandey",
+  "Arian Maleki",
+  "Sanjeev Kulkarni"
+ ],
+ "v1_date": "2025-11-30",
+ "latest_version": 1,
+ "latest_date": "2025-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Comments welcome. Abstract shortened based on arxiv requirement",
+ "abstract": "Differential privacy is increasingly formalized through the lens of hypothesis testing via the robust and interpretable $f$-DP framework, where privacy guarantees are encoded by a baseline Blackwell trade-off function $f_{\\infty} = T(P_{\\infty}, Q_{\\infty})$ involving a pair of distributions $(P_{\\infty}, Q_{\\infty})$. The problem of choosing the right privacy metric in practice leads to a central question: what is a statistically appropriate baseline $f_{\\infty}$ given some prior modeling assumptions? The special case of Gaussian differential privacy (GDP) showed that, under compositions of nearly perfect mechanisms, these trade-off functions exhibit a central limit behavior with a Gaussian limit experiment. Inspired by Le Cam's theory of limits of statistical experiments, we answer this question in full generality in an infinitely divisible setting. We show that suitable composition experiments $(P_n^{\\otimes n}, Q_n^{\\otimes n})$ converge to a binary limit experiment $(P_{\\infty}, Q_{\\infty})$ whose log-likelihood ratio $L = \\log(dQ_{\\infty} / dP_{\\infty})$ is infinitely divisible under $P_{\\infty}$. Thus any limiting trade-off function $f_{\\infty}$ is determined by an infinitely divisible law $P_{\\infty}$, characterized by its Levy--Khintchine triplet, and its Esscher tilt defined by $dQ_{\\infty}(x) = e^{x} dP_{\\infty}(x)$. This characterizes all limiting baseline trade-off functions $f_{\\infty}$ arising from compositions of nearly perfect differentially private mechanisms. Our framework recovers GDP as the purely Gaussian case and yields explicit non-Gaussian limits, including Poisson examples. It also positively resolves the empirical $s^2 = 2k$ phenomenon observed in the GDP paper and provides an optimal mechanism for count statistics achieving asymmetric Poisson differential privacy.",
+ "primary": "math.ST"
+}

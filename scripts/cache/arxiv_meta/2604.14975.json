@@ -1,0 +1,16 @@
+{
+ "id": "2604.14975",
+ "title": "Theta-regularized Kriging: Modelling and Algorithms",
+ "authors": [
+  "Xuelin Xie",
+  "Xiliang Lu"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 1,
+ "latest_date": "2026-04-16",
+ "journal_ref": "Applied Mathematical Modelling, Vol. 136, 115627 (2024)",
+ "doi": "10.1016/j.apm.2024.07.034",
+ "comment": "",
+ "abstract": "To obtain more accurate model parameters and improve prediction accuracy, we proposed a regularized Kriging model that penalizes the hyperparameter theta in the Gaussian stochastic process, termed the Theta-regularized Kriging. We derived the optimization problem for this model from a maximum likelihood perspective. Additionally, we presented specific implementation details for the iterative process, including the regularized optimization algorithm and the geometric search cross-validation tuning algorithm. Three distinct penalty methods, Lasso, Ridge, and Elastic-net regularization, were meticulously considered. Meanwhile, the proposed Theta-regularized Kriging models were tested on nine common numerical functions and two practical engineering examples. The results demonstrate that, compared with other penalized Kriging models, the proposed model performs better in terms of accuracy and stability.",
+ "primary": "stat.CO"
+}

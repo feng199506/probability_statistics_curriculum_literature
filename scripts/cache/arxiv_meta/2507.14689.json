@@ -1,0 +1,18 @@
+{
+ "id": "2507.14689",
+ "title": "Variable Selection for Stratified Sampling Designs in Semiparametric Accelerated Failure Time Models with Clustered Failure Times",
+ "authors": [
+  "Ying Chen",
+  "Chuan-Fa Tang",
+  "Sy Han Chiou",
+  "Min Chen"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 1,
+ "latest_date": "2025-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In large-scale epidemiological studies, statistical inference is often complicated by high-dimensional covariates under stratified sampling designs for failure times. Variable selection methods developed for full cohort data do not extend naturally to stratified sampling designs, and appropriate adjustments for the sampling scheme are necessary. Further challenges arise when the failure times are clustered and exhibit within-cluster dependence. As an alternative of Cox proportional hazards (PH) model when the PH assumption is not valid, the penalized Buckley-James (BJ) estimating method for accelerated failure time (AFT) models can potentially handle within-cluster correlation in such setting by incorporating generalized estimating equation (GEE) techniques, though its practical implementation remains hindered by computational instability. We propose a regularized estimating method within the GEE framework for stratified sampling designs, in the spirit of the penalized BJ method but with a reliable inference procedure. We establish the consistency and asymptotic normality of the proposed estimators and show that they achieve the oracle property. Extensive simulation studies demonstrate that our method outperforms existing methods that ignore sampling bias or within-cluster dependence. Moreover, the regularization scheme effectively selects relevant variables even with moderate sample sizes. The proposed methodology is illustrated through applications to a dental study.",
+ "primary": "stat.ME"
+}

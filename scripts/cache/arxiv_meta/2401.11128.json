@@ -1,0 +1,17 @@
+{
+ "id": "2401.11128",
+ "title": "Regularized Estimation of Sparse Spectral Precision Matrices",
+ "authors": [
+  "Navonil Deb",
+  "Amy Kuceyeski",
+  "Sumanta Basu"
+ ],
+ "v1_date": "2024-01-20",
+ "latest_version": 3,
+ "latest_date": "2025-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "75 pages, 8 figures",
+ "abstract": "Estimation of a sparse spectral precision matrix, the inverse of a spectral density matrix, is a canonical problem in frequency-domain analysis of high-dimensional time series (HDTS), with applications in neurosciences and environmental sciences. Existing estimators use off-the-shelf optimizers for complex variables that limit scalability, uniform (non-adaptive) penalization that is not tailored to handle heterogeneity across time series components, and lack a formal non-asymptotic theory that systematically analyzes approximation and estimation errors in high-dimension. In this work, develop fast pathwise coordinate descent (CD) algorithms and non-asymptotic theory for a complex graphical lasso (CGLASSO) and an adaptive version CAGLASSO, that adapts penalization to the underlying scale of variability. For fast algorithms, we devise a realification procedure based on ring isomorphism, a notion from abstract algebra, that can be used for other high-dimensional optimization problems over complex variables. Our non-asymptotic analysis shows that consistency is possible in high-dimension under suitable sparsity assumptions. A key step is to separately bound the approximation and estimation error arising from treating the finite-sample discrete Fourier Transforms (DFTs) as i.i.d. complex-valued data, an issue well-addressed in classical time series but relatively less explored in HDTS literature. We demonstrate the performance of our proposed estimators in several simulated data sets and a real data application from neuroscience.",
+ "primary": "stat.ME"
+}

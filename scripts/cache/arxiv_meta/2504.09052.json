@@ -1,0 +1,16 @@
+{
+ "id": "2504.09052",
+ "title": "Bayesian shrinkage priors subject to linear constraints",
+ "authors": [
+  "Zhi Ling",
+  "Shozen Dan"
+ ],
+ "v1_date": "2025-04-12",
+ "latest_version": 1,
+ "latest_date": "2025-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Bayesian regression models with categorical predictors, constraints are needed to ensure identifiability when using all $K$ levels of a factor. The sum-to-zero constraint is particularly useful as it allows coefficients to represent deviations from the population average. However, implementing such constraints in Bayesian settings is challenging, especially when assigning appropriate priors that respect these constraints and general principles. Here we develop a multivariate normal prior family that satisfies arbitrary linear constraints while preserving the local adaptivity properties of shrinkage priors, with an efficient implementation algorithm for probabilistic programming languages. Our approach applies broadly to various shrinkage frameworks including Bayesian Ridge, horseshoe priors and their variants, demonstrating excellent performance in simulation studies. The covariance structure we derive generalizes beyond regression models to any Bayesian analysis requiring linear constraints on parameters, providing practitioners with a principled approach to parameter identification while maintaining proper uncertainty quantification and interpretability.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.07968",
+ "title": "Characterizing the minimax rate of nonparametric regression under bounded star-shaped constraints",
+ "authors": [
+  "Akshay Prasadan",
+  "Matey Neykov"
+ ],
+ "v1_date": "2024-01-15",
+ "latest_version": 5,
+ "latest_date": "2025-06-27",
+ "journal_ref": "Electron. J. Statist. 19 (2) 3449 - 3488, 2025",
+ "doi": "10.1214/25-ejs2419",
+ "comment": "39 pages",
+ "abstract": "We quantify the minimax rate for a nonparametric regression model over a star-shaped function class $\\mathcal{F}$ with bounded diameter. We obtain a minimax rate of ${\\varepsilon^{\\ast}}^2\\wedge\\mathrm{diam}(\\mathcal{F})^2$ where \\[\\varepsilon^{\\ast} =\\sup\\{\\varepsilon\\ge 0:n\\varepsilon^2 \\le \\log M_{\\mathcal{F}}^{\\operatorname{loc}}(\\varepsilon,c)\\},\\] where $\\log M_{\\mathcal{F}}^{\\operatorname{loc}}(\\cdot, c)$ is the local metric entropy of $\\mathcal{F}$, $c$ is some absolute constant scaling down the entropy radius, and our loss function is the squared population $L_2$ distance over our input space $\\mathcal{X}$. In contrast to classical works on the topic [cf. Yang and Barron, 1999], our results do not require functions in $\\mathcal{F}$ to be uniformly bounded in sup-norm. In fact, we propose a condition that simultaneously generalizes boundedness in sup-norm and the so-called $L$-sub-Gaussian assumption that appears in the prior literature. In addition, we prove that our estimator is adaptive to the true point in the convex-constrained case, and to the best of our knowledge this is the first such estimator in this general setting. This work builds on the Gaussian sequence framework of Neykov [2022] using a similar algorithmic scheme to achieve the minimax rate. Our algorithmic rate also applies with sub-Gaussian noise. We illustrate the utility of this theory with examples including multivariate monotone functions, linear functionals over ellipsoids, and Lipschitz classes.",
+ "primary": "math.ST"
+}

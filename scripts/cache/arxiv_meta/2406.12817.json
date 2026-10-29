@@ -1,0 +1,16 @@
+{
+ "id": "2406.12817",
+ "title": "Decomposition-Based Intrinsic Modeling of Shape-Constrained Functional Data",
+ "authors": [
+  "Poorbita Kundu",
+  "Hans-Georg Müller"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 2,
+ "latest_date": "2024-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Shape-constrained functional data encompass a wide array of application fields, such as activity profiling, growth curves, healthcare and mortality. Most existing methods for general functional data analysis often ignore that such data are subject to inherent shape constraints, while some specialized techniques rely on strict distributional assumptions. We propose an approach for modeling such data that harnesses the intrinsic geometry of functional trajectories by decomposing them into size and shape components. We focus on the two most prevalent shape constraints, positivity and monotonicity, and develop individual-level estimators for the size and shape components. Furthermore, we demonstrate the applicability of our approach by conducting subsequent analyses involving Fréchet mean and Fréchet regression and establish rates of convergence for the empirical estimators. Illustrative examples include simulations and data applications for activity profiles for Mediterranean fruit flies during their entire lifespan and for data from the Zürich longitudinal growth study.",
+ "primary": "stat.ME"
+}

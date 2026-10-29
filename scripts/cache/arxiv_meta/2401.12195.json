@@ -1,0 +1,17 @@
+{
+ "id": "2401.12195",
+ "title": "Using spatial extreme-value theory with machine learning to model and understand spatially compounding weather extremes",
+ "authors": [
+  "Jonathan Koh",
+  "Daniel Steinfeld",
+  "Olivia Martius"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 5,
+ "latest_date": "2025-05-28",
+ "journal_ref": "Proc. R. Soc. A. 481 (2025)",
+ "doi": "10.1098/rspa.2024.0763",
+ "comment": "",
+ "abstract": "When extreme weather events affect large areas, their regional to sub-continental spatial scale is important for their impacts. We propose a novel machine learning (ML) framework that integrates spatial extreme-value theory to model weather extremes and to quantify probabilities associated with the occurrence, intensity, and spatial extent of these events. Our approach employs new loss functions adapted to extreme values, enabling our model to prioritize the tail rather than the bulk of the data distribution. Applied to a case study of Western European summertime heat extremes, we use daily 500-hPa geopotential height fields and local soil moisture as predictors to capture the complex interplay between local and remote physical processes. Our generative model reveals that different facets of heat extremes are influenced by individual circulation features, such as the relative position of upper-level ridges and troughs that are part of a large-scale wave pattern. This enriches our process understanding from a data-driven perspective. Our approach can extrapolate beyond the range of the data to make risk-related probabilistic statements. It applies more generally to other weather extremes and offers an alternative to traditional physical and ML-based techniques that focus less on the extremal aspects of weather data.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2503.00730",
+ "title": "Time-Varying Causal Survival Learning",
+ "authors": [
+  "Xiang Meng",
+  "Iavor Bojinov"
+ ],
+ "v1_date": "2025-03-02",
+ "latest_version": 1,
+ "latest_date": "2025-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages main text, 19 pages appendix + reference, 4 figures",
+ "abstract": "This work bridges the gap between staggered adoption designs and survival analysis to estimate causal effects in settings with time-varying treatments, addressing a fundamental challenge in medical research exemplified by the Stanford Heart Transplant study. In medical interventions, particularly organ transplantation, the timing of treatment varies significantly across patients due to factors such as donor availability and patient readiness, introducing potential bias in treatment effect estimation if not properly accounted for. We identify conditions under which staggered adoption assumptions can justify the use of survival analysis techniques for causal inference with time-varying treatments. By establishing this connection, we enable the use of existing survival analysis methods while maintaining causal interpretability. Furthermore, we enhance estimation performance by incorporating double machine learning methods, improving efficiency when handling complex relationships between patient characteristics and survival outcomes. Through both simulation studies and application to heart transplant data, our approach demonstrates superior performance compared to traditional methods, reducing bias and offering theoretical guarantees for improved efficiency in survival analysis settings.",
+ "primary": "stat.ME"
+}

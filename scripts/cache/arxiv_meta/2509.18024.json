@@ -1,0 +1,18 @@
+{
+ "id": "2509.18024",
+ "title": "Core-elements Subsampling for Alternating Least Squares",
+ "authors": [
+  "Dunyao Xue",
+  "Mengyu Li",
+  "Cheng Meng",
+  "Jingyi Zhang"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 2,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a novel element-wise subset selection method for the alternating least squares (ALS) algorithm, focusing on low-rank matrix factorization involving matrices with missing values, as commonly encountered in recommender systems. While ALS is widely used for providing personalized recommendations based on user-item interaction data, its high computational cost, stemming from repeated regression operations, poses significant challenges for large-scale datasets. To enhance the efficiency of ALS, we propose a core-elements subsampling method that selects a representative subset of data and leverages sparse matrix operations to approximate ALS estimations efficiently. We establish theoretical guarantees for the approximation and convergence of the proposed approach, showing that it achieves similar accuracy with significantly reduced computational time compared to full-data ALS. Extensive simulations and real-world applications demonstrate the effectiveness of our method in various scenarios, emphasizing its potential in large-scale recommendation systems.",
+ "primary": "stat.ME"
+}

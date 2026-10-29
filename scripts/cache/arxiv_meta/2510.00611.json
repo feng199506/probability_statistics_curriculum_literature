@@ -1,0 +1,17 @@
+{
+ "id": "2510.00611",
+ "title": "Spatial Gaussian fields for complex areas with application to marine megafauna conservation",
+ "authors": [
+  "Martina Le-Bert Heyl",
+  "Janet van Niekerk",
+  "Haavard Rue"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 1,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial Gaussian fields (SGFs) are widely employed in modeling the distributions of marine megafauna, yet they traditionally rely on assumptions of isotropy and stationarity, conditions that often prove unrealistic in complex ecological environments featuring coastlines, islands, and depth gradients acting as partial movement barriers. Existing spatial models typically treat these barriers as either fully impermeable, completely blocking species movement and dispersal, or entirely absent, which inadequately represents most real-world scenarios. To address this limitation, we introduce the Transparent Barrier Model, an extension of spatial Gaussian fields that explicitly incorporates barriers with varying levels of permeability. The model assigns spatially varying range parameters to distinct barrier regions, allowing ecological and geographical knowledge about barrier permeability to directly inform model specifications. This approach maintains computational efficiency by utilizing the integrated nested Laplace approximation (INLA) framework combined with stochastic partial differential equations (SPDEs), ensuring feasible application even in large, complex spatial domains.We demonstrate the practical utility and flexibility of the Transparent Barrier Model through its application to dugong (Dugong dugon) distribution data from the Red Sea.",
+ "primary": "stat.ME"
+}

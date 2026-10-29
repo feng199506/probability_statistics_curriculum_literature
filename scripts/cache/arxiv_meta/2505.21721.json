@@ -1,0 +1,18 @@
+{
+ "id": "2505.21721",
+ "title": "Nearly Dimension-Independent Convergence of Mean-Field Black-Box Variational Inference",
+ "authors": [
+  "Kyurae Kim",
+  "Yi-An Ma",
+  "Trevor Campbell",
+  "Jacob R. Gardner"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 2,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS'25",
+ "abstract": "We prove that, given a mean-field location-scale variational family, black-box variational inference (BBVI) with the reparametrization gradient converges at a rate that is nearly independent of explicit dimension dependence. Specifically, for a $d$-dimensional strongly log-concave and log-smooth target, the number of iterations for BBVI with a sub-Gaussian family to obtain a solution $ε$-close to the global optimum has a dimension dependence of $\\mathrm{O}(\\log d)$. This is a significant improvement over the $\\mathrm{O}(d)$ dependence of full-rank location-scale families. For heavy-tailed families, we prove a weaker $\\mathrm{O}(d^{2/k})$ dependence, where $k$ is the number of finite moments of the family. Additionally, if the Hessian of the target log-density is constant, the complexity is free of any explicit dimension dependence. We also prove that our bound on the gradient variance, which is key to our result, cannot be improved using only spectral bounds on the Hessian of the target log-density.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2501.00150",
+ "title": "Error estimation for quasi-Monte Carlo",
+ "authors": [
+  "Art B. Owen"
+ ],
+ "v1_date": "2024-12-30",
+ "latest_version": 3,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quasi-Monte Carlo sampling can attain far better accuracy than plain Monte Carlo sampling. However, with plain Monte Carlo sampling it is much easier to estimate the attained accuracy. This article describes methods old and new to quantify the error in quasi-Monte Carlo estimates. An important challenge in this setting is that the goal of getting accuracy conflicts with that of estimating the attained accuracy. A related challenge is that rigorous uncertainty quantifications can be extremely conservative. A recent surprise is that some RQMC estimates have nearly symmetric distributions and that has the potential to allow confidence intervals that do not require either a central limit theorem or a consistent variance estimate.",
+ "primary": "math.NA"
+}

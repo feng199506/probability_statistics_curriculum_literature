@@ -1,0 +1,17 @@
+{
+ "id": "2406.13906",
+ "title": "Semi-supervised Regression Analysis with Model Misspecification and High-dimensional Data",
+ "authors": [
+  "Ye Tian",
+  "Peng Wu",
+  "Zhiqiang Tan"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The accessibility of vast volumes of unlabeled data has sparked growing interest in semi-supervised learning (SSL) and covariate shift transfer learning (CSTL). In this paper, we present an inference framework for estimating regression coefficients in conditional mean models within both SSL and CSTL settings, while allowing for the misspecification of conditional mean models. We develop an augmented inverse probability weighted (AIPW) method, employing regularized calibrated estimators for both propensity score (PS) and outcome regression (OR) nuisance models, with PS and OR models being sequentially dependent. We show that when the PS model is correctly specified, the proposed estimator achieves consistency, asymptotic normality, and valid confidence intervals, even with possible OR model misspecification and high-dimensional data. Moreover, by suppressing detailed technical choices, we demonstrate that previous methods can be unified within our AIPW framework. Our theoretical findings are verified through extensive simulation studies and a real-world data application.",
+ "primary": "stat.ME"
+}

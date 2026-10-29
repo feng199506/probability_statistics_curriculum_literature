@@ -1,0 +1,16 @@
+{
+ "id": "2512.03322",
+ "title": "SSLfmm: An R Package for Semi-Supervised Learning with Mixed Missingness",
+ "authors": [
+  "Geoffrey J. McLachlan",
+  "Jinran Wu"
+ ],
+ "v1_date": "2025-12-03",
+ "latest_version": 5,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages",
+ "abstract": "Partially labelled samples arise when features are observed for data, but class labels are available for only a subset. In such settings, the mechanism governing label availability may itself contain information relevant to classification, yet it is typically left unmodelled in standard semi-supervised learning procedures. The SSLfmm package implements likelihood-based Gaussian finite-mixture classification in which the label-missingness process is modelled jointly with the class distribution. It supports complete-case, missing completely at random (MCAR), entropy-based missing at random (MAR), and mixed analyses in which MCAR and MAR mechanisms may both contribute. For the mixed mechanism, the source of a missing label may be known or unknown. A common R interface is provided for model fitting, prediction, performance assessment, and simulation. We describe the statistical formulation and software implementation and demonstrate its use through reproducible simulation and a semi-synthetic Blood Transfusion application.",
+ "primary": "stat.CO"
+}

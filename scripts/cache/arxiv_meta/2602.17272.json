@@ -1,0 +1,16 @@
+{
+ "id": "2602.17272",
+ "title": "Estimating Zero-inflated Negative Binomial GAMLSS via a Balanced Gradient Boosting Approach with an Application to Antenatal Care Data from Nigeria",
+ "authors": [
+  "Alexandra Daub",
+  "Elisabeth Bergherr"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Statistical boosting algorithms are renowned for their intrinsic variable selection and enhanced predictive performance compared to classical statistical methods, making them especially useful for complex models such as generalized additive models for location scale and shape (GAMLSS). Boosting this model class can suffer from imbalanced updates across the distribution parameters as well as long computation times. Shrunk optimal step lengths have been shown to address these issues. To examine the influence of socio-economic factors on the distribution of the number of antenatal care visits in Nigeria, we generalize boosting of GAMLSS with shrunk optimal step lengths to base-learners beyond simple linear models and to a more complex response variable distribution. In an extensive simulation study and in the application we demonstrate that shrunk optimal step lengths yield a more balanced regularization of the overall model and enhance computational efficiency across diverse settings, in particular in the presence of base-learners penalizing the size of the fit.",
+ "primary": "stat.ME"
+}

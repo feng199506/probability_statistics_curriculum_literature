@@ -1,0 +1,15 @@
+{
+ "id": "2603.27743",
+ "title": "Empirical Likelihood for Nonsmooth Functionals",
+ "authors": [
+  "Hongseok Namkoong"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 1,
+ "latest_date": "2026-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical likelihood is an attractive inferential framework that respects natural parameter boundaries, but existing approaches typically require smoothness of the functional and miscalibrate substantially when these assumptions are violated. For the optimal-value functional central to policy evaluation, smoothness holds only when the optimum is unique -- a condition that fails exactly when rigorous inference is most needed where more complex policies have modest gains. In this work, we develop a bootstrap empirical likelihood method for partially nonsmooth functionals. Our analytic workhorse is a geometric reduction of the profile likelihood to the distance between the score mean and a level set whose shape (a tangent cone given by nonsmoothness patterns) determines the asymptotic distribution. Unlike the classical proof technology based on Taylor expansions on the dual optima, our geometric approach leverages properties of a deterministic convex program and can directly apply to nonsmooth functionals. Since the ordinary bootstrap is not valid in the presence of nonsmoothness, we derive a corrected multiplier bootstrap approach that adapts to the unknown level-set geometry.",
+ "primary": "stat.ME"
+}

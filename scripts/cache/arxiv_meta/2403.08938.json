@@ -1,0 +1,16 @@
+{
+ "id": "2403.08938",
+ "title": "A non-asymptotic theory of Kernel Ridge Regression: deterministic equivalents, test error, and GCV estimator",
+ "authors": [
+  "Theodor Misiakiewicz",
+  "Basil Saeed"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 1,
+ "latest_date": "2024-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "131 pages, 4 figures",
+ "abstract": "We consider learning an unknown target function $f_*$ using kernel ridge regression (KRR) given i.i.d. data $(u_i,y_i)$, $i\\leq n$, where $u_i \\in U$ is a covariate vector and $y_i = f_* (u_i) +\\varepsilon_i \\in \\mathbb{R}$. A recent string of work has empirically shown that the test error of KRR can be well approximated by a closed-form estimate derived from an `equivalent' sequence model that only depends on the spectrum of the kernel operator. However, a theoretical justification for this equivalence has so far relied either on restrictive assumptions -- such as subgaussian independent eigenfunctions -- , or asymptotic derivations for specific kernels in high dimensions. In this paper, we prove that this equivalence holds for a general class of problems satisfying some spectral and concentration properties on the kernel eigendecomposition. Specifically, we establish in this setting a non-asymptotic deterministic approximation for the test error of KRR -- with explicit non-asymptotic bounds -- that only depends on the eigenvalues and the target function alignment to the eigenvectors of the kernel. Our proofs rely on a careful derivation of deterministic equivalents for random matrix functionals in the dimension free regime pioneered by Cheng and Montanari (2022). We apply this setting to several classical examples and show an excellent agreement between theoretical predictions and numerical simulations. These results rely on having access to the eigendecomposition of the kernel operator. Alternatively, we prove that, under this same setting, the generalized cross-validation (GCV) estimator concentrates on the test error uniformly over a range of ridge regularization parameter that includes zero (the interpolating solution). As a consequence, the GCV estimator can be used to estimate from data the test error and optimal regularization parameter for KRR.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,21 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview) AND abs:\"time series\" AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST OR cat:stat.AP)", "subtopic": "时间序列综述与教程"},
+ {"q": "(abs:ARMA OR abs:ARIMA OR abs:autoregressive) AND abs:\"time series\" AND (cat:math.ST OR cat:stat.ME OR cat:stat.TH)", "subtopic": "ARIMA 与线性时间序列模型"},
+ {"q": "abs:\"spectral density\" AND abs:\"time series\" AND (cat:math.ST OR cat:stat.ME OR cat:stat.TH)", "subtopic": "谱分析"},
+ {"q": "abs:\"state space model\" AND (abs:\"Kalman filter\" OR abs:\"particle filter\" OR abs:smoothing) AND (cat:stat.ME OR cat:stat.CO OR cat:math.ST)", "subtopic": "状态空间与滤波"},
+ {"q": "(abs:\"vector autoregressive\" OR abs:\"VAR model\" OR abs:cointegration) AND (cat:stat.ME OR cat:math.ST OR cat:econ.EM)", "subtopic": "多元时间序列"},
+ {"q": "abs:\"high-dimensional time series\" AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "高维时间序列"},
+ {"q": "(abs:\"change point\" OR abs:changepoint) AND abs:\"time series\" AND (cat:stat.ME OR cat:math.ST)", "subtopic": "变点检测"},
+ {"q": "(abs:\"locally stationary\" OR abs:\"long memory\" OR abs:\"long-range dependence\") AND (cat:math.ST OR cat:stat.ME)", "subtopic": "非平稳与长记忆"},
+ {"q": "abs:bootstrap AND abs:\"time series\" AND (abs:dependent OR abs:block) AND (cat:math.ST OR cat:stat.ME)", "subtopic": "相依数据推断"},
+ {"q": "(abs:\"probabilistic forecast\" OR abs:\"forecast evaluation\" OR abs:\"forecast reconciliation\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.TH)", "subtopic": "预测与预测评价"},
+ {"q": "(abs:\"count time series\" OR abs:\"integer-valued\" OR abs:INGARCH) AND (cat:stat.ME OR cat:math.ST)", "subtopic": "计数与非高斯时间序列"},
+ {"q": "(ti:review OR ti:survey OR ti:tutorial OR ti:overview OR ti:introduction) AND (abs:\"spatial statistics\" OR abs:geostatistics OR abs:\"spatial data\")", "subtopic": "空间统计综述"},
+ {"q": "(abs:kriging OR abs:geostatistical OR abs:\"spatial Gaussian process\") AND (cat:stat.ME OR cat:stat.CO OR cat:math.ST)", "subtopic": "地统计与高斯过程"},
+ {"q": "(abs:Vecchia OR abs:\"nearest neighbor Gaussian process\" OR abs:\"SPDE approach\") AND (cat:stat.ME OR cat:stat.CO)", "subtopic": "大规模空间计算"},
+ {"q": "(abs:\"areal data\" OR abs:\"conditional autoregressive\" OR abs:\"disease mapping\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "面数据与 CAR 模型"},
+ {"q": "abs:\"spatial point process\" AND (cat:stat.ME OR cat:math.ST OR cat:stat.CO)", "subtopic": "空间点过程"},
+ {"q": "(abs:\"spatio-temporal\" OR abs:spatiotemporal) AND (ti:review OR ti:survey OR ti:tutorial OR ti:overview OR abs:\"statistical model\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "时空建模"},
+ {"q": "(abs:\"functional data\" OR abs:\"functional time series\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview OR cat:math.ST)", "subtopic": "函数型数据"},
+ {"q": "(abs:\"spatial confounding\" OR abs:\"nonstationary covariance\" OR abs:\"covariance function\") AND abs:spatial AND (cat:stat.ME OR cat:math.ST)", "subtopic": "空间协方差与空间混杂"}
+]

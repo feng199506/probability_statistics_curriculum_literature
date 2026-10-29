@@ -1,0 +1,17 @@
+{
+ "id": "2604.00951",
+ "title": "Quantum Statistical Bootstrap",
+ "authors": [
+  "Yongkai Chen",
+  "Ping Ma",
+  "Wenxuan Zhong"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The bootstrap is a foundational tool in statistical inference, but its classical implementation relies on Monte Carlo resampling, introducing approximation error and incurring high computational cost -- especially for large datasets and complex models. We present the Quantum Bootstrap (QBOOT), a quantum algorithm that computes the ideal bootstrap estimate exactly by encoding all possible resamples in quantum superposition, evaluating the target statistic in parallel, and extracting the aggregate via quantum amplitude estimation. Under mild circuit efficiency assumptions, QBOOT achieves a near-quadratic speedup over the classical bootstrap in approximating the ideal estimator, independent of the statistic or underlying distribution. We provide a rigorous theoretical analysis of its statistical error properties -- addressing a gap in the quantum algorithms literature -- and validate our results through experiments on the IBM quantum simulator for the sample mean problem. Our findings demonstrate that QBOOT preserves the asymptotic properties of the ideal bootstrap while substantially improving computational efficiency and precision, establishing a scalable and principled framework for quantum statistical inference.",
+ "primary": "stat.CO"
+}

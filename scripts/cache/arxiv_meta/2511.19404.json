@@ -1,0 +1,20 @@
+{
+ "id": "2511.19404",
+ "title": "Nonparametric Instrumental Variable Regression with Observed Covariates",
+ "authors": [
+  "Zikai Shen",
+  "Zonghao Chen",
+  "Dimitri Meunier",
+  "Ingo Steinwart",
+  "Arthur Gretton",
+  "Zhu Li"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 1,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of nonparametric instrumental variable regression with observed covariates, which we refer to as NPIV-O. Compared with standard nonparametric instrumental variable regression (NPIV), the additional observed covariates facilitate causal identification and enables heterogeneous causal effect estimation. However, the presence of observed covariates introduces two challenges for its theoretical analysis. First, it induces a partial identity structure, which renders previous NPIV analyses - based on measures of ill-posedness, stability conditions, or link conditions - inapplicable. Second, it imposes anisotropic smoothness on the structural function. To address the first challenge, we introduce a novel Fourier measure of partial smoothing; for the second challenge, we extend the existing kernel 2SLS instrumental variable algorithm with observed covariates, termed KIV-O, to incorporate Gaussian kernel lengthscales adaptive to the anisotropic smoothness. We prove upper $L^2$-learning rates for KIV-O and the first $L^2$-minimax lower learning rates for NPIV-O. Both rates interpolate between known optimal rates of NPIV and nonparametric regression (NPR). Interestingly, we identify a gap between our upper and lower bounds, which arises from the choice of kernel lengthscales tuned to minimize a projected risk. Our theoretical analysis also applies to proximal causal inference, an emerging framework for causal effect estimation that shares the same conditional moment restriction as NPIV-O.",
+ "primary": "stat.ML"
+}

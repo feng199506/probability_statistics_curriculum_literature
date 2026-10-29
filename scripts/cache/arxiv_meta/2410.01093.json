@@ -1,0 +1,16 @@
+{
+ "id": "2410.01093",
+ "title": "High-dimensional logistic regression with missing data: Imputation, regularization, and universality",
+ "authors": [
+  "Kabir Aladin Verchand",
+  "Andrea Montanari"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 1,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study high-dimensional, ridge-regularized logistic regression in a setting in which the covariates may be missing or corrupted by additive noise. When both the covariates and the additive corruptions are independent and normally distributed, we provide exact characterizations of both the prediction error as well as the estimation error. Moreover, we show that these characterizations are universal: as long as the entries of the data matrix satisfy a set of independence and moment conditions, our guarantees continue to hold. Universality, in turn, enables the detailed study of several imputation-based strategies when the covariates are missing completely at random. We ground our study by comparing the performance of these strategies with the conjectured performance -- stemming from replica theory in statistical physics -- of the Bayes optimal procedure. Our analysis yields several insights including: (i) a distinction between single imputation and a simple variant of multiple imputation and (ii) that adding a simple ridge regularization term to single-imputed logistic regression can yield an estimator whose prediction error is nearly indistinguishable from the Bayes optimal prediction error. We supplement our findings with extensive numerical experiments.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2412.10920",
+ "title": "Multiscale Autoregression on Adaptively Detected Timescales",
+ "authors": [
+  "Rafal Baranowski",
+  "Yining Chen",
+  "Piotr Fryzlewicz"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 1,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "10.5705/ss.202023.0017",
+ "comment": "64 pages, 8 figures; to be published in Statistica Sinica",
+ "abstract": "We propose a multiscale approach to time series autoregression, in which linear regressors for the process in question include features of its own path that live on multiple timescales. We take these multiscale features to be the recent averages of the process over multiple timescales, whose number or spans are not known to the analyst and are estimated from the data via a change-point detection technique. The resulting construction, termed Adaptive Multiscale AutoRegression (AMAR) enables adaptive regularisation of linear autoregression of large orders. The AMAR model is designed to offer simplicity and interpretability on the one hand, and modelling flexibility on the other. Our theory permits the longest timescale to increase with the sample size. A simulation study is presented to show the usefulness of our approach. Some possible extensions are also discussed, including the Adaptive Multiscale Vector AutoRegressive model (AMVAR) for multivariate time series, which demonstrates promising performance in the data example on UK and US unemployment rates. The R package amar provides an efficient implementation of the AMAR framework.",
+ "primary": "stat.ME"
+}

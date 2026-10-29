@@ -1,0 +1,17 @@
+{
+ "id": "2312.12782",
+ "title": "Spectral gap bounds for reversible hybrid Gibbs chains",
+ "authors": [
+  "Qian Qin",
+  "Nianqiao Ju",
+  "Guanyang Wang"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 4,
+ "latest_date": "2025-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid Gibbs samplers represent a prominent class of approximated Gibbs algorithms that utilize Markov chains to approximate conditional distributions, with the Metropolis-within-Gibbs algorithm standing out as a well-known example. Despite their widespread use in both statistical and non-statistical applications, little is known about their convergence properties. This article introduces novel methods for establishing bounds on the convergence rates of certain reversible hybrid Gibbs samplers. In particular, we examine the convergence characteristics of hybrid random-scan Gibbs algorithms. Our analysis reveals that the absolute spectral gap of a hybrid Gibbs chain can be bounded based on the absolute spectral gap of the exact Gibbs chain and the absolute spectral gaps of the Markov chains employed for conditional distribution approximations. We also provide a convergence bound of similar flavors for hybrid data augmentation algorithms, extending existing works on the topic. The general bounds are applied to three examples: a random-scan Metropolis-within-Gibbs sampler, random-scan Gibbs samplers with block updates, and a hybrid slice sampler.",
+ "primary": "math.ST"
+}

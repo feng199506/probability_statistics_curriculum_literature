@@ -1,0 +1,17 @@
+{
+ "id": "2501.10930",
+ "title": "An Online Algorithm for Bayesian Variable Selection in Logistic Regression Models With Streaming Data",
+ "authors": [
+  "Payel Ghosal",
+  "Shamriddha De",
+  "Joyee Ghosh"
+ ],
+ "v1_date": "2025-01-19",
+ "latest_version": 1,
+ "latest_date": "2025-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In several modern applications, data are generated continuously over time, such as data generated from smartwatches. We assume data are collected and analyzed sequentially, in batches. Since traditional or offline methods can be extremely slow, Ghosh et al. (2025) proposed an online method for Bayesian model averaging (BMA). Inspired by the literature on renewable estimation, they developed an online Bayesian method for generalized linear models (GLMs) that reduces storage and computational demands dramatically compared to traditional methods for BMA. The method of Ghosh et al. (2025) works very well when the number of models is small. It can also work reasonably well in moderately large model spaces. For the latter case, the method relies on a screening stage to identify important models in the first several batches via offline methods. Thereafter, the model space remains fixed in all subsequent batches. In the post-screening stage, online updates are made to the model specific parameters, for models selected in the screening stage. For high-dimensional model spaces, the chance of missing important models in the screening stage is more likely. This necessitates the development of a method, which permits the model space to be updated as new batches of data arrive. In this article, we develop an online Bayesian model selection method for logistic regression, where the selected model can potentially change throughout the data collection process. We use simulation studies to show that our new method can outperform the method of Ghosh et al. (2025). Furthermore, we describe scenarios under which the gain from our new method is expected to be small. We revisit the traffic crash data analyzed by Ghosh et al. (2025) and illustrate that our new model selection method can have better performance for variable selection.",
+ "primary": "stat.ME"
+}

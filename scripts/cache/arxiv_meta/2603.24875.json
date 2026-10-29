@@ -1,0 +1,17 @@
+{
+ "id": "2603.24875",
+ "title": "Post-selection inference in generalized linear models via parametric programming",
+ "authors": [
+  "Qinyan Shen",
+  "Karl Gregory",
+  "Xianzheng Huang"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "10.5705/ss.202025.0194",
+ "comment": "",
+ "abstract": "We propose a unified framework to draw inferences for regression coefficients in a generalized linear model (GLM) following Lasso-based variable selection. We adapt to non-Gaussian GLMs a recently developed parametric programming strategy for post-selection inference in the linear model with a Gaussian response by drawing parallels between maximum likelihood estimation in GLMs and least squares estimation in linear models. We then conduct post-selection inference based on a linearized model for pseudo response and covariate data strategically created based on the raw data. Using synthetic data generated from regression models for three different types of non-Gaussian responses in simulation experiments, we demonstrate that the proposed method effectively corrects the naive inference that ignores variable selection while achieving greater efficiency than a polyhedral-based post-selection adjustment.",
+ "primary": "stat.ME"
+}

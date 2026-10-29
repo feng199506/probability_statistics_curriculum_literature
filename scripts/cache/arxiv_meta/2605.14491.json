@@ -1,0 +1,16 @@
+{
+ "id": "2605.14491",
+ "title": "Adaptive Long-Run Variance Thresholding for Sparse Covariance Estimation in High-Dimensional Time Series",
+ "authors": [
+  "Wenhao Zhang",
+  "Zhaoxing Gao"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating a sparse covariance matrix is a fundamental problem in high-dimensional statistics. However, thresholding methods developed for independent data are generally not directly applicable to high-dimensional time series, where temporal dependence alters the stochastic behavior of sample covariance estimators. This paper studies sparse covariance matrix estimation for high-dimensional time series under weak dependence. We propose a thresholding procedure that incorporates long-run variance into the construction of entry-specific thresholds, thereby adapting to temporal dependence. Under suitable regularity conditions, we show that the proposed estimator is consistent under the spectral norm and attains the optimal convergence rate over a class of sparse covariance matrices. We further establish support recovery consistency for identifying the nonzero entries of the covariance matrix. In addition, we show that universal and adaptive thresholding methods developed for independent data may fail to recover the support consistently in the presence of autocorrelation. Simulation studies demonstrate that the proposed method compares favorably with existing thresholding estimators in terms of both estimation accuracy and support recovery. Applications to gene expression data and stock return data further illustrate its practical usefulness.",
+ "primary": "stat.ME"
+}

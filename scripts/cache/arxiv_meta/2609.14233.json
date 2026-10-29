@@ -1,0 +1,17 @@
+{
+ "id": "2609.14233",
+ "title": "Lower Bounds for Nonconvex-Concave Minimax Optimization",
+ "authors": [
+  "Qilong Wu",
+  "Zhihao Gu",
+  "Junchi Yang"
+ ],
+ "v1_date": "2026-09-13",
+ "latest_version": 1,
+ "latest_date": "2026-09-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study lower bounds on the first-order oracle complexity of smooth nonconvex-concave minimax optimization. We consider objectives $f$ that are jointly $L$-smooth in the primal and dual variables $(x,y)$, concave in $y$, and whose primal value function $Φ(x) := \\max_{y\\in\\mathcal Y} f(x,y)$ satisfies the initial-gap condition $Φ(0)-\\inf_{x\\in\\mathcal X}Φ(x)\\le Δ_Φ$, with a bounded dual domain satisfying $\\operatorname{diam}(\\mathcal Y)\\le D_{\\mathcal Y}$. We measure stationarity by the norm of the gradient of the Moreau envelope of $Φ+ι_{\\mathcal X}$ with parameter $1/(2L)$. We prove that any deterministic zero-respecting first-order algorithm requires $Ω\\left(L^2D_{\\mathcal Y}Δ_Φε^{-3}\\right)$ oracle evaluations to find an $ε$-stationary point. Under an unbiased stochastic first-order oracle with bounded variance, any stochastic zero-respecting algorithm requires $Ω\\left(L^3D_{\\mathcal Y}^2Δ_Φε^{-6}\\right)$ oracle evaluations. The same lower bounds hold when $Δ_Φ$ is replaced by the initial primal-dual gap $\\mathcal G_0$. These deterministic and stochastic lower bounds match the corresponding upper bounds of [14] and [29], respectively, up to a logarithmic factor in the deterministic setting.",
+ "primary": "math.OC"
+}

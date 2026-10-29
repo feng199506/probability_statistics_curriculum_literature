@@ -1,0 +1,16 @@
+{
+ "id": "2410.19596",
+ "title": "On the robustness of semi-discrete optimal transport",
+ "authors": [
+  "Davy Paindaveine",
+  "Riccardo Passeggeri"
+ ],
+ "v1_date": "2024-10-25",
+ "latest_version": 2,
+ "latest_date": "2025-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We derive the breakdown point for solutions of semi-discrete optimal transport problems, which characterizes the robustness of the multivariate quantiles based on optimal transport proposed in \\cite{GS}. We do so under very mild assumptions: the absolutely continuous reference measure is only assumed to have a support that is \\textcolor{mygreen}{convex}, whereas the target measure is a general discrete measure on a finite number, $n$ say, of atoms. The breakdown point depends on the target measure only through its probability weights (hence not on the location of the atoms) and involves the geometry of the reference measure through the \\cite{Tuk1975} concept of halfspace depth. Remarkably, depending on this geometry, the breakdown point of the optimal transport median can be strictly smaller than the breakdown point of the univariate median or the breakdown point of the spatial median, namely~$\\lceil n/2\\rceil /2$. In the context of robust location estimation, our results provide a subtle insight on how to perform multivariate trimming when constructing trimmed means based on optimal transport.",
+ "primary": "math.PR"
+}

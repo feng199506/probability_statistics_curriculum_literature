@@ -1,0 +1,18 @@
+{
+ "id": "2508.16902",
+ "title": "Efficient Semiparametric Inference for Distributed Data with Blockwise Missingness",
+ "authors": [
+  "Jingyue Huang",
+  "Huiyuan Wang",
+  "Yuqing Lei",
+  "Yong Chen"
+ ],
+ "v1_date": "2025-08-23",
+ "latest_version": 1,
+ "latest_date": "2025-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider statistical inference for a finite-dimensional parameter in a regular semiparametric model under a distributed setting with blockwise missingness, where entire blocks of variables are unavailable at certain sites and sharing individual-level data is not allowed. To improve efficiency of the internal study, we propose a class of augmented one-step estimators that incorporate information from external sites through ``transfer functions.'' The proposed approach has several advantages. First, it is communication-efficient, requiring only one-round communication of summary-level statistics. Second, it satisfies a do-no-harm property in the sense that the augmented estimator is no less efficient than the original one based solely on the internal data. Third, it is statistically optimal, achieving the semiparametric efficiency bound when the transfer function is appropriately estimated from data. Finally, it is scalable, remaining asymptotically normal even when the number of external sites and the data dimension grow exponentially with the internal sample size. Simulation studies confirm both the statistical efficiency and computational feasibility of our method in distributed settings.",
+ "primary": "stat.ME"
+}

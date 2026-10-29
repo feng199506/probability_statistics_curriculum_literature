@@ -1,0 +1,16 @@
+{
+ "id": "2602.07165",
+ "title": "PoissonRatioUQ: An R package for band ratio uncertainty quantification",
+ "authors": [
+  "Matthew LeDuc",
+  "Tomoko Matsuo"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 3,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Description of the R package in https://github.com/mfleduc/PoissonRatioUQ. New release available on Zenodo at https://doi.org/10.5281/zenodo.20492078",
+ "abstract": "We introduce an R package for Bayesian modeling and uncertainty quantification for problems involving count ratios. The modeling relies on the assumption that the quantity of interest is the ratio of Poisson means rather than the ratio of counts. We provide multiple different options for retrieval of this quantity for problems with and without spatial information included. Some added capability for uncertainty quantification for problems of the form $Z=(mT+z_0)^{p}$, where $Z$ is the intensity ratio and $T$ the quantity of interest, is included.",
+ "primary": "stat.CO"
+}

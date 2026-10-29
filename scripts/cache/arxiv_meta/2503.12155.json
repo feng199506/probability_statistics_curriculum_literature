@@ -1,0 +1,18 @@
+{
+ "id": "2503.12155",
+ "title": "On self-training of summary data with genetic applications",
+ "authors": [
+  "Buxin Su",
+  "Jiaoyang Huang",
+  "Jin Jin",
+  "Bingxin Zhao"
+ ],
+ "v1_date": "2025-03-15",
+ "latest_version": 1,
+ "latest_date": "2025-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prediction model training is often hindered by limited access to individual-level data due to privacy concerns and logistical challenges, particularly in biomedical research. Resampling-based self-training presents a promising approach for building prediction models using only summary-level data. These methods leverage summary statistics to sample pseudo datasets for model training and parameter optimization, allowing for model development without individual-level data. Although increasingly used in precision medicine, the general behaviors of self-training remain unexplored. In this paper, we leverage a random matrix theory framework to establish the statistical properties of self-training algorithms for high-dimensional sparsity-free summary data. We demonstrate that, within a class of linear estimators, resampling-based self-training achieves the same asymptotic predictive accuracy as conventional training methods that require individual-level datasets. These results suggest that self-training with only summary data incurs no additional cost in prediction accuracy, while offering significant practical convenience. Our analysis provides several valuable insights and counterintuitive findings. For example, while pseudo-training and validation datasets are inherently dependent, their interdependence unexpectedly cancels out when calculating prediction accuracy measures, preventing overfitting in self-training algorithms. Furthermore, we extend our analysis to show that the self-training framework maintains this no-cost advantage when combining multiple methods or when jointly training on data from different distributions. We numerically validate our findings through simulations and real data analyses using the UK Biobank. Our study highlights the potential of resampling-based self-training to advance genetic risk prediction and other fields that make summary data publicly available.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.12953",
+ "title": "Quantifying Uncertainty in Classification Performance: ROC Confidence Bands Using Conformal Prediction",
+ "authors": [
+  "Zheshi Zheng",
+  "Bo Yang",
+  "Peter Song"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To evaluate a classification algorithm, it is common practice to plot the ROC curve using test data. However, the inherent randomness in the test data can undermine our confidence in the conclusions drawn from the ROC curve, necessitating uncertainty quantification. In this article, we propose an algorithm to construct confidence bands for the ROC curve, quantifying the uncertainty of classification on the test data in terms of sensitivity and specificity. The algorithm is based on a procedure called conformal prediction, which constructs individualized confidence intervals for the test set and the confidence bands for the ROC curve can be obtained by combining the individualized intervals together. Furthermore, we address both scenarios where the test data are either iid or non-iid relative to the observed data set and propose distinct algorithms for each case with valid coverage probability. The proposed method is validated through both theoretical results and numerical experiments.",
+ "primary": "stat.ME"
+}

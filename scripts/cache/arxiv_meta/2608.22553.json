@@ -1,0 +1,15 @@
+{
+ "id": "2608.22553",
+ "title": "Non-asymptotic Analysis of Matérn Regression: The Roles of Target and Kernel Lengthscales",
+ "authors": [
+  "Daniel Sanz-Alonso"
+ ],
+ "v1_date": "2026-08-23",
+ "latest_version": 1,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Theoretical guarantees for kernel regression are typically formulated in terms of smoothness, but practical accuracy depends critically on how the design resolution compares with the target and kernel lengthscales. We develop a finite-sample theory for Matérn regression on periodic domains with quasi-uniform designs, covering noiseless interpolation and noisy kernel ridge regression. Our minimax result shows that accurate recovery requires a design dense enough to resolve the target lengthscale and sufficient information at that scale to overcome noise. We prove that Matérn interpolation additionally requires the design to resolve the kernel lengthscale: if the kernel is too short relative to the point spacing, an additional error remains even when the target is well resolved. For noisy Matérn regression, we derive a three-term fixed-ridge risk characterization consisting of target-scale bias, kernel-scale bias, and variance, and show that optimizing over the ridge parameter yields four distinct contributions. When the target is no more than twice as smooth as the kernel, choosing a kernel lengthscale longer than the target does not worsen the oracle risk, whereas choosing one too short can. Thus these resolution conditions determine when accurate recovery becomes possible, while smoothness determines how rapidly the error decreases thereafter.",
+ "primary": "math.ST"
+}

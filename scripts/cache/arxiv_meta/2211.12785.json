@@ -1,0 +1,16 @@
+{
+ "id": "2211.12785",
+ "title": "Smoothing splines for discontinuous signals",
+ "authors": [
+  "Martin Storath",
+  "Andreas Weinmann"
+ ],
+ "v1_date": "2022-11-23",
+ "latest_version": 2,
+ "latest_date": "2023-09-19",
+ "journal_ref": "",
+ "doi": "10.1080/10618600.2023.2262000",
+ "comment": "",
+ "abstract": "Smoothing splines are twice differentiable by construction, so they cannot capture potential discontinuities in the underlying signal. In this work, we consider a special case of the weak rod model of Blake and Zisserman (1987) that allows for discontinuities penalizing their number by a linear term. The corresponding estimates are cubic smoothing splines with discontinuities (CSSD) which serve as representations of piecewise smooth signals and facilitate exploratory data analysis. However, computing the estimates requires solving a non-convex optimization problem. So far, efficient and exact solvers exist only for a discrete approximation based on equidistantly sampled data. In this work, we propose an efficient solver for the continuous minimization problem with non-equidistantly sampled data. Its worst case complexity is quadratic in the number of data points, and if the number of detected discontinuities scales linearly with the signal length, we observe linear growth in runtime. This efficient algorithm allows to use cross validation for automatic selection of the hyperparameters within a reasonable time frame on standard hardware. We provide a reference implementation and supplementary material. We demonstrate the applicability of the approach for the aforementioned tasks using both simulated and real data.",
+ "primary": "math.NA"
+}

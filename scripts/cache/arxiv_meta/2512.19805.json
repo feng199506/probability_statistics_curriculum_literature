@@ -1,0 +1,15 @@
+{
+ "id": "2512.19805",
+ "title": "Guardrailed Uplift Targeting: A Causal Optimization Playbook for Marketing Strategy",
+ "authors": [
+  "Deepit Sapru"
+ ],
+ "v1_date": "2025-12-22",
+ "latest_version": 2,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "10.1109/ic-icns68863.2026.11537877",
+ "comment": "",
+ "abstract": "This paper introduces a marketing decision framework that optimizes customer targeting by integrating heterogeneous treatment effect estimation with explicit business guardrails. The objective is to maximize revenue and retention while adhering to constraints such as budget, revenue protection, and customer experience. The framework first estimates Conditional Average Treatment Effects (CATE) using uplift learners, then solves a constrained allocation problem to decide whom to target and which offer to deploy. It supports decisions in retention messaging, event rewards, and spend-threshold assignment. Validated through offline simulations and online A/B tests, the approach consistently outperforms propensity and static baselines, offering a reusable playbook for causal targeting at scale.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.22012",
+ "title": "Data-Adaptive Automatic Threshold Calibration for Stability Selection",
+ "authors": [
+  "Martin Huang",
+  "Samuel Muller",
+  "Garth Tarr"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stability selection has gained popularity as a method for enhancing the performance of variable selection algorithms while controlling false discovery rates. However, achieving these desirable properties depends on correctly specifying the stable threshold parameter, which can be challenging. An arbitrary choice of this parameter can substantially alter the set of selected variables, as the variables' selection probabilities are inherently data-dependent. To address this issue, we propose Exclusion Automatic Threshold Selection (EATS), a data-adaptive algorithm that streamlines stability selection by automating the threshold specification process. EATS initially filters out potential noise variables using an exclusion probability threshold, derived from applying stability selection to a randomly shuffled version of the dataset. Following this, EATS selects the stable threshold parameter using the elbow method, balancing the marginal utility of including additional variables against the risk of selecting superfluous variables. We evaluate our approach through an extensive simulation study, benchmarking across commonly used variable selection algorithms and static stable threshold values.",
+ "primary": "stat.ME"
+}

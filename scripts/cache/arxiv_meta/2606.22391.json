@@ -1,0 +1,17 @@
+{
+ "id": "2606.22391",
+ "title": "On the Asymptotic Inadmissibility of Double Machine Learning Estimators Under Structure-Agnostic Models",
+ "authors": [
+  "Lin Liu",
+  "Rajarshi Mukherjee",
+  "James M Robins"
+ ],
+ "v1_date": "2026-06-21",
+ "latest_version": 2,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages; The current version of the paper strengthens the pointwise asymptotic (in)admissibility results of the original arXiv version to uniform",
+ "abstract": "Structure-agnostic (SA) models introduced by Balakrishnan et al. (2026) aim to reflect the general lack of knowledge of structural assumptions on data-generating laws such as smoothness or sparsity in practice. Roughly speaking, SA models restrict the observed-data generating law to be in some rn-neighborhood of (black-box machine learning) estimates, treated as given and fixed, where rn encodes the convergence rates of the estimates to the truth. Under SA models, Balakrishnan et al. (2026) show that the popular Double Machine Learning (DML) estimators for three functionals, the quadratic functional in the Gaussian sequence model, the quadratic density integral functional and the expected conditional covariance, are minimax. However, minimax estimators may be inadmissible. In this paper, we show that, for the first two of the three functionals, the DML estimator is asymptotically inadmissible under the SA model. In particular, we show that these two functionals fall into a class of functionals, which we refer to as the monotone bias class. For this class, we exhibit second-order (U-statistic) estimators, which asymptotically dominate DML estimators, under the SA model. These second-order estimators are empirical higher-order influence function (HOIF) estimators introduced in Liu et al. (2017). Furthermore, the empirical HOIF estimator, like the DML estimator, is minimax for the third functional (the expected conditional covariance), although neither asymptotically dominates the other.",
+ "primary": "math.ST"
+}

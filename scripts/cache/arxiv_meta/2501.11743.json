@@ -1,0 +1,19 @@
+{
+ "id": "2501.11743",
+ "title": "Non-Reversible Langevin Algorithms for Constrained Sampling",
+ "authors": [
+  "Hengrong Du",
+  "Qi Feng",
+  "Changwei Tu",
+  "Xiaoyu Wang",
+  "Lingjiong Zhu"
+ ],
+ "v1_date": "2025-01-20",
+ "latest_version": 2,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 9 figures, typos corrected",
+ "abstract": "We consider the constrained sampling problem where the goal is to sample from a target distribution on a constrained domain. We propose skew-reflected non-reversible Langevin dynamics (SRNLD), a continuous-time stochastic differential equation with skew-reflected boundary. We obtain non-asymptotic convergence rate of SRNLD to the target distribution in both total variation and 1-Wasserstein distances. By breaking reversibility, we show that the convergence is faster than the special case of the reversible dynamics. Based on the discretization of SRNLD, we propose skew-reflected non-reversible Langevin Monte Carlo (SRNLMC), and obtain non-asymptotic discretization error from SRNLD, and convergence guarantees to the target distribution in 1-Wasserstein distance. We show better performance guarantees than the projected Langevin Monte Carlo in the literature that is based on the reversible dynamics. Numerical experiments are provided for both synthetic and real datasets to show efficiency of the proposed algorithms.",
+ "primary": "cs.LG"
+}

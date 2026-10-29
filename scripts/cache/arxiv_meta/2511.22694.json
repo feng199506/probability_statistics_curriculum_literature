@@ -1,0 +1,16 @@
+{
+ "id": "2511.22694",
+ "title": "Minimax spectral estimation of weighted Laplace operators",
+ "authors": [
+  "Yann Chaubet",
+  "Vincent Divol"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Given $n$ i.i.d. observations, we study the problem of estimating the spectrum of weighted Laplace operators of the form $Δ_f=Δ+ α\\nabla \\log f\\cdot \\nabla$, where $f$ is a positive probability density on a known compact $d$-dimensional manifold without boundary and $α\\in \\mathbb{R}$ is a hyperparameter. These operators arise as continuum limits of graph Laplacian matrices and provide valuable geometric information on the underlying data distribution. We establish the exact minimax rates of estimation for this problem, by exhibiting two different rates of convergence for eigenfunctions and eigenvalues. When $f$ belongs to a Hölder-Zygmund class $\\mathscr{C}^s$ of regularity $s\\geqslant 2$, the eigenfunctions can be estimated with respect to the $\\mathrm{L}^q$-norm ($q\\geqslant 1$) via plug-in methods at the minimax rate $n^{-\\frac{s+1}{2s+d}}$ for $d\\geqslant 3$ (with different rates for $d\\leqslant 2$). Moreover, eigenvalues can be estimated at the minimax rate $n^{-\\frac{4s}{4s+d}}+n^{-\\frac 12}$. In the regime $s>\\frac d4$, we further show that asymptotically efficient estimators exist. We also present a general framework for estimating nonlinear functionals over Hölder-Zygmund spaces, with potential applications to a broad class of statistical problems.",
+ "primary": "math.ST"
+}

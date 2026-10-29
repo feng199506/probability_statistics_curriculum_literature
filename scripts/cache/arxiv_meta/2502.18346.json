@@ -1,0 +1,18 @@
+{
+ "id": "2502.18346",
+ "title": "Testing Thresholds and Spectral Properties of High-Dimensional Random Toroidal Graphs via Edgeworth-Style Expansions",
+ "authors": [
+  "Samuel Baguley",
+  "Andreas Göbel",
+  "Marcus Pappik",
+  "Leon Schiller"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 2,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "91 pages, Abstract was accepted for presentation at the Conference on Learning Theory (COLT) 2025",
+ "abstract": "We study high-dimensional random geometric graphs (RGGs) of edge-density $p$ with vertices uniformly distributed on the $d$-dimensional torus and edges inserted between sufficiently close vertices with respect to an $L_q$-norm. We focus on distinguishing an RGG from an Erdős--Rényi (ER) graph if both models have edge probability $p$. So far, most results considered either spherical RGGs with $L_2$-distance or toroidal RGGs under $L_\\infty$-distance. However, for general $L_q$-distances, many questions remain open, especially if $p$ is allowed to depend on $n$. The main reason for this is that RGGs under $L_q$-distances can not easily be represented as the logical AND of their 1-dimensional counterparts, as for $L_\\infty$ geometries. To overcome this, we devise a novel technique for quantifying the dependence between edges based on modified Edgeworth expansions. Our technique yields the first tight algorithmic upper bounds for distinguishing toroidal RGGs under general $L_q$ norms from ER-graphs for fixed $p$ and $q$. We achieve this by showing that signed triangles can distinguish the two models when $d\\ll n^3p^3$ for the whole regime of $c/n<p<1$. Additionally, our technique yields an improved information-theoretic lower bound for this task, showing that the two distributions converge whenever $d=\\tildeΩ(n^3p^2)$, which is just as strong as the currently best known lower bound for spherical RGGs in case of general $p$ from Liu et al. [STOC'22]. Finally, our expansions allow us to tightly characterize the spectral properties of toroidal RGGs both under $L_q$-distances for fixed $1\\le q<\\infty$, and $L_\\infty$-distance. Our results partially resolve a conjecture of Bangachev and Bresler [COLT'24] and prove that the distance metric, rather than the underlying space, is responsible for the observed differences in the behavior of spherical and toroidal RGGs.",
+ "primary": "math.ST"
+}

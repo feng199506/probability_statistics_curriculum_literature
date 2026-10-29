@@ -1,0 +1,17 @@
+{
+ "id": "2601.03760",
+ "title": "Non-Homogeneous Markov-Switching Generalized Additive Models for Location, Scale, and Shape",
+ "authors": [
+  "Katharina Ammann",
+  "Timo Adam",
+  "Jan-Ole Koslik"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an extension of Markov-switching generalized additive models for location, scale, and shape (MS-GAMLSS) that allows covariates to influence not only the parameters of the state-dependent distributions but also the state transition probabilities. Traditional MS-GAMLSS, which combine distributional regression with hidden Markov models, typically assume time-homogeneous (i.e., constant) transition probabilities, thereby preventing regime shifts from responding to covariate-driven changes. Our approach overcomes this limitation by modeling the transition probabilities as smooth functions of covariates, enabling a flexible, data-driven characterization of covariate-dependent regime dynamics. Estimation is carried out within a penalized likelihood framework, where automatic smoothness selection controls model complexity and guards against overfitting. We evaluate the proposed methodology through simulations and applications to daily Lufthansa stock prices and Spanish energy prices. Our results show that incorporating macroeconomic indicators into the transition probabilities yields additional insights into market dynamics. Data and R code to reproduce the results are available online.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.16716",
+ "title": "A class of modular and flexible covariate-based covariance functions for nonstationary spatial modeling",
+ "authors": [
+  "Federico Blasi",
+  "Reinhard Furrer"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 2,
+ "latest_date": "2025-08-04",
+ "journal_ref": "",
+ "doi": "10.1002/env.70038",
+ "comment": "20 pages, 11 figures",
+ "abstract": "Paradoxically, while the assumptions of second-order stationarity and isotropy appear outdated in light of modern spatial data, they remain remarkably robust in practice, as nonstationary methods often provide marginal improvements in predictive performance. This limitation reflects a fundamental trade-off: nonparametric approaches, while offering extreme flexibility, require substantial tuning to avoid overfitting and numerical challenges in practice, while parametric approaches are more robust against overfitting but are constrained in flexibility, often facing considerable numerical challenges as flexibility increases. In this article we introduce a parametric class of covariance functions that extends the use of parametric nonstationary spatial models, aiming to compete with the flexibility and local adaptability of nonparametric approaches. The covariance function is modular in the sense that allows for separate parametric structures for different sources of nonstationarity, such as marginal standard deviation, geometric anisotropy, and smoothness. The proposed covariance function retains the practical identifiability and computational stability of parametric forms while closing the performance gap with fully nonparametric methods. A Matérn stationary isotropic model is nested within the complex model and can be adapted such that it is computationally feasible for handling thousands of observations. A two-stage approach can be employed for model selection. We explore the statistical properties of the presented approach, demonstrate its compatibility with the frequentist paradigm, and highlight the interpretability of its parameters. We illustrate its prediction capabilities as well as interpretability through an analysis of Swiss monthly precipitation data, showing that Gaussian process models with the presented covariance function, while remaining robust against overfitting, provide quantitative and qualitative improvements over existing approaches.",
+ "primary": "stat.ME"
+}

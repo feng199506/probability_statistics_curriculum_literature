@@ -1,0 +1,15 @@
+{
+ "id": "2402.17953",
+ "title": "A Proof of Basic Limit Theorem of Renewal Theory",
+ "authors": [
+  "Toshihiro Koga"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 2,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The author's email address has changed",
+ "abstract": "Let $\\{q_n\\}_{n=0}^\\infty\\subset [0,1]$ satisfy $q_0=0$, $\\sum_{n=0}^\\infty q_n=1$, and $\\gcd\\{n\\geq 1\\mid q_n\\neq 0\\}=1$. We consider the following process: Let $x$ be a real number. We first set $x=0$. Then $x$ is increased by $i$ with probability $q_i~(i=0,1,2,\\cdots)$ every time. For $n\\geq 0$, let $p_n$ be the probability such that $x=n$ occurs, so we have $p_0=1$ and $p_n=q_1p_{n-1}+q_2p_{n-2}+\\cdots+q_np_0~(n\\geq 1)$. In this setting, we have $\\lim_n p_n=1/\\sum_{i=0}^\\infty iq_i$, where we define $1/\\sum_{i=0}^\\infty iq_i=0$ if $\\sum_{i=0}^\\infty iq_i=+\\infty$. This result is known as (discrete case of) Blackwell's renewal theorem. The proof of $\\lim_n p_n=1/\\sum_{i=0}^\\infty iq_i$ is not trivial, while the meaning of $\\lim_n p_n=1/\\sum_{i=0}^\\infty iq_i$ is clear since the expected value of increasing number $i$ is $\\sum_{i=0}^\\infty iq_i$. Many proofs of this result have been given. In this paper, we will also provide a proof of this result. The idea of our proof is based on Fourier-analytic methods and Tauberian theorems for almost convergent sequences, while we actually need only elementary analysis.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.04062",
+ "title": "Multilevel Sampling in Algebraic Statistics",
+ "authors": [
+  "Nathan Kirk",
+  "Ivan Gvozdanović",
+  "Sonja Petrović"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 7 figures",
+ "abstract": "This paper proposes a multilevel sampling algorithm for fiber sampling problems in algebraic statistics, inspired by Henry Wynn's suggestion to adapt multilevel Monte Carlo (MLMC) ideas to discrete models. Focusing on log-linear models, we sample from high-dimensional lattice fibers defined by algebraic constraints. Building on Markov basis methods and results from Diaconis and Sturmfels, our algorithm uses variable step sizes to accelerate exploration and reduce the need for long burn-in. We introduce a novel Fiber Coverage Score (FCS) based on Voronoi partitioning to assess sample quality, and highlight the utility of the Maximum Mean Discrepancy (MMD) quality metric. Simulations on benchmark fibers show that multilevel sampling outperforms naive MCMC approaches. Our results demonstrate that multilevel methods, when properly applied, provide practical benefits for discrete sampling in algebraic statistics.",
+ "primary": "stat.CO"
+}

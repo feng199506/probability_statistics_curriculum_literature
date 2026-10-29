@@ -1,0 +1,16 @@
+{
+ "id": "2602.08486",
+ "title": "Empirical Bayes Variable Selection with Lasso Statistics in the AMP Framework",
+ "authors": [
+  "Lina Hidmi",
+  "Asaf Weinstein"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Lasso is one of the most ubiquitous methods for variable selection in high-dimensional linear regression and has been studied extensively under different regimes. In a particular asymptotic setup entailing $n/p\\to \\text{constant}$, an i.i.d.~Gaussian $X$ matrix and linear sparsity, \\citet{su2017false} analyzed the Lasso selection path and presented negative results, showing that maintaining small levels of the false discovery proportion comes at a substantial cost in power. Followup work by \\citet{wang2020bridge} used the same framework to study the tradeoff between type I error and power for thresholded-Lasso selection, which ranks the variables based on the magnitude of the Lasso estimate instead of the order of appearance on the Lasso path, and demonstrated that significant improvements are possible if the regularization parameter is chosen appropriately. We take this line of research a step further, seeking an {\\em optimal} selection procedure in the AMP framework among procedures that order the variables by some univariate function of the Lasso estimate at a fixed value $λ$ of the regularization term. Observing that the model for the Lasso estimates effectively reduces asymptotically to a version of the well-studied two-groups model, we propose an empirical Bayes variable selection procedure based on an estimate of the local false discovery rate. We extend existing results in the AMP framework to obtain exact predictions for the curve describing the asymptotic tradeoff between type I error and power of this procedure. Additionally, we prove that the optimal $λ$ is the minimizer of the asymptotic mean squared error, and accordingly propose to use the empirical Bayes procedure with $λ$ estimated by cross-validation. The theoretical predictions imply that the gains in power can be substantial, and we confirm this by numerical studies under different settings.",
+ "primary": "math.ST"
+}

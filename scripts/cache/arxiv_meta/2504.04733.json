@@ -1,0 +1,18 @@
+{
+ "id": "2504.04733",
+ "title": "Robustifying Approximate Bayesian Computation",
+ "authors": [
+  "Chaya Weerasinghe",
+  "David T. Frazier",
+  "Ruben Loaiza-Maya",
+  "Christopher Drovandi"
+ ],
+ "v1_date": "2025-04-07",
+ "latest_version": 1,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Bayesian computation (ABC) is one of the most popular \"likelihood-free\" methods. These methods have been applied in a wide range of fields by providing solutions to intractable likelihood problems in which exact Bayesian approaches are either infeasible or computationally costly. However, the performance of ABC can be unreliable when dealing with model misspecification. To circumvent the poor behavior of ABC in these settings, we propose a novel ABC approach that is robust to model misspecification. This new method can deliver more accurate statistical inference under model misspecification than alternatives and also enables the detection of summary statistics that are incompatible with the assumed data-generating process. We demonstrate the effectiveness of our approach through several simulated examples, where it delivers more accurate point estimates and uncertainty quantification over standard ABC approaches when the model is misspecified. Additionally, we apply our approach to an empirical example, further showcasing its advantages over alternative methods.",
+ "primary": "stat.ME"
+}

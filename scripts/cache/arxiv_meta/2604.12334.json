@@ -1,0 +1,16 @@
+{
+ "id": "2604.12334",
+ "title": "On additive averaging kernels for finite Markov chains",
+ "authors": [
+  "Ryan J. Y. Lim",
+  "Michael C. H. Choi"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 2,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 5 figures",
+ "abstract": "We study additive mixtures of Markov kernels of the form $A_α= αP + (1-α)G$, where $α\\in [0,1]$, $P$ is a baseline sampler and $G$ is a Gibbs kernel induced by a partition of the state space. We first motivate the study of $A_α$, which can be interpreted as the projection of a lifted Markov chain. We then consider the minimisation of distance to stationarity under two objectives: the squared Frobenius norm and the Kullback-Leibler (KL) divergence. For the Frobenius objective, we derive explicit trace formulae and identify a Cheeger-type functional that characterises optimal two-block partitions. This yields a structured combinatorial optimisation problem admitting a difference-of-submodular decomposition, enabling efficient approximation via majorisation-minimisation. We also obtain geometric decay rates governed by the absolute spectral gap of $P$. For the KL divergence, we establish convexity-based bounds showing that the divergence of $A_α$ is controlled by those of both $P$ and $G$, thereby reducing partition selection to the Gibbs component. Numerical experiments on the Curie-Weiss model demonstrate that suitable choice of both the partition and the parameter $α$ can significantly accelerate convergence in total variation distance. We observe a consistent trade-off between local exploration and global averaging, with intermediate values of $α$ achieving the best performance across regimes.",
+ "primary": "math.PR"
+}

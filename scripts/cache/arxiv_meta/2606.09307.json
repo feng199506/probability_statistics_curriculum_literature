@@ -1,0 +1,15 @@
+{
+ "id": "2606.09307",
+ "title": "Robust high-dimensional Bayesian regression with non-Gaussian errors under global--local shrinkage priors",
+ "authors": [
+  "Mohammad Arashi"
+ ],
+ "v1_date": "2026-06-08",
+ "latest_version": 1,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 9 figures, 6 tables",
+ "abstract": "Multivariate regression with many correlated responses and predictors commonly violates Gaussian error assumptions due to heavy tails, outliers, and asymmetry. Gaussian procedures then lose efficiency in coefficient estimation and produce biased estimates of conditional dependence graphs. We develop a robust Bayesian framework using a scale-location mixture error distribution and horseshoe+ global-local priors on both the regression coefficients and off-diagonals of the error precision matrix, coupling sparsity in the regression map with sparsity in the residual dependence structure. Theoretical contributions include joint posterior contraction, selection consistency for both supports, a Kullback-Leibler risk bound showing the dominance of horseshoe+ over horseshoe, and bounded sensitivity, ensuring that a single large outlier has vanishing influence under t errors. Simulations across four error regimes, contamination, and varying dimensions show that our estimator matches Gaussian procedures under normality and dominates them under heavy tails and skewness. Applications to FRED-MD macroeconomic data and S&P 500 daily returns recover interpretable sparse coefficient maps and residual dependence graphs while automatically down-weighting crisis-period observations.",
+ "primary": "stat.ME"
+}

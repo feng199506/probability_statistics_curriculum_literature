@@ -1,0 +1,21 @@
+{
+ "id": "2406.10481",
+ "title": "DCILP: A Distributed Approach for Large-Scale Causal Structure Learning",
+ "authors": [
+  "Shuyu Dong",
+  "Michèle Sebag",
+  "Kento Uemura",
+  "Akito Fujii",
+  "Shuang Chang",
+  "Yusuke Koyanagi",
+  "Koji Maruhashi"
+ ],
+ "v1_date": "2024-06-15",
+ "latest_version": 2,
+ "latest_date": "2025-03-01",
+ "journal_ref": "Proceedings of the AAAI Conference on Artificial Intelligence. 39, 15 (Apr. 2025), 16345-16353",
+ "doi": "10.1609/aaai.v39i15.33795",
+ "comment": "",
+ "abstract": "Causal learning tackles the computationally demanding task of estimating causal graphs. This paper introduces a new divide-and-conquer approach for causal graph learning, called DCILP. In the divide phase, the Markov blanket MB($X_i$) of each variable $X_i$ is identified, and causal learning subproblems associated with each MB($X_i$) are independently addressed in parallel. This approach benefits from a more favorable ratio between the number of data samples and the number of variables considered. In counterpart, it can be adversely affected by the presence of hidden confounders, as variables external to MB($X_i$) might influence those within it. The reconciliation of the local causal graphs generated during the divide phase is a challenging combinatorial optimization problem, especially in large-scale applications. The main novelty of DCILP is an original formulation of this reconciliation as an integer linear programming (ILP) problem, which can be delegated and efficiently handled by an ILP solver. Through experiments on medium to large scale graphs, and comparisons with state-of-the-art methods, DCILP demonstrates significant improvements in terms of computational complexity, while preserving the learning accuracy on real-world problem and suffering at most a slight loss of accuracy on synthetic problems.",
+ "primary": "cs.LG"
+}

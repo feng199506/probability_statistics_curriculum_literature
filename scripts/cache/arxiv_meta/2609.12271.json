@@ -1,0 +1,16 @@
+{
+ "id": "2609.12271",
+ "title": "A Sharp Signal-to-Noise Threshold for Quasi-Maximum Likelihood Breakpoint Estimation",
+ "authors": [
+  "Hubeyb Gurdogan",
+  "Georg Menz"
+ ],
+ "v1_date": "2026-09-10",
+ "latest_version": 1,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 5 figures. Ancillary files: Python scripts generating Figures 1-4",
+ "abstract": "We establish a sharp pathwise signal-to-noise criterion for quasi-maximum-likelihood (QML) estimation of a dominant breakpoint in the second-moment structure of a multivariate time series: the QML estimator is consistent whenever the between-regime contrast exceeds the within-regime fluctuation by an explicit factor, and below this threshold global recovery can fail. Two innovations drive the result. First, the framework is pathwise: no stochastic model is imposed on the data. Second, the log-determinant objective carries an additive ridge regularization: it removes the endpoint boundary layers, so no trimming of the candidate set is required, and tuning the ridge weakens the consistency condition. As an application of the main theorem, we establish consistency of QML breakpoint estimation in pervasive factor models whose dimension diverges with the sample size, for completely general error terms -- not necessarily independent, idiosyncratic, or even random.",
+ "primary": "math.ST"
+}

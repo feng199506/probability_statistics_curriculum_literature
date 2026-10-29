@@ -1,0 +1,16 @@
+{
+ "id": "2407.02367",
+ "title": "Rediscovering Bottom-Up: Effective Forecasting in Temporal Hierarchies",
+ "authors": [
+  "Lukas Neubauer",
+  "Peter Filzmoser"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 2,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Forecast reconciliation has become a prominent topic in recent forecasting literature, with a primary distinction made between cross-sectional and temporal hierarchies. This work focuses on temporal hierarchies, such as aggregating monthly time series data to annual data. We explore the impact of various forecast reconciliation methods on temporally aggregated ARIMA models, thereby bridging the fields of hierarchical forecast reconciliation and temporal aggregation both theoretically and experimentally. Our paper is the first to theoretically examine the effects of temporal hierarchical forecast reconciliation, demonstrating that the optimal method aligns with a bottom-up aggregation approach. To assess the practical implications and performance of the reconciled forecasts, we conduct a series of simulation studies, confirming that the findings extend to more complex models. This result helps explain the strong performance of the bottom-up approach observed in many prior studies. Finally, we apply our methods to real data examples, where we observe similar results.",
+ "primary": "stat.ME"
+}

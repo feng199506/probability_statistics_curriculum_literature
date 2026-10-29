@@ -1,0 +1,17 @@
+{
+ "id": "2504.12582",
+ "title": "Fair Conformal Prediction for Incomplete Covariate Data",
+ "authors": [
+  "Jingsen Kong",
+  "YIming Liu",
+  "Guangren Yang"
+ ],
+ "v1_date": "2025-04-17",
+ "latest_version": 2,
+ "latest_date": "2025-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction provides a distribution-free framework for uncertainty quantification. This study explores the application of conformal prediction in scenarios where covariates are missing, which introduces significant challenges for uncertainty quantification. We establish that marginal validity holds for imputed datasets across various mechanisms of missing data and most imputation methods. Building on the framework of nonexchangeable conformal prediction, we demonstrate that coverage guarantees depend on the mask. To address this, we propose a nonexchangeable conformal prediction method for missing covariates that satisfies both marginal and mask-conditional validity. However, as this method does not ensure asymptotic conditional validity, we further introduce a localized conformal prediction approach that employs a novel score function based on kernel smoothing. This method achieves marginal, mask-conditional, and asymptotic conditional validity under certain assumptions. Extensive simulation studies and real-data analysis demonstrate the advantages of these proposed methods.",
+ "primary": "stat.ME"
+}

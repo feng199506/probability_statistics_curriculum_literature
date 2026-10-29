@@ -1,0 +1,18 @@
+{
+ "id": "2607.03290",
+ "title": "Directional variograms for multivariate extremes",
+ "authors": [
+  "Manuel Hentschel",
+  "Frank Röttger",
+  "Johan Segers",
+  "Sebastian Engelke"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate generalized Pareto distributions arise as limits of threshold exceedances and form a central model class for multivariate extremes. Existing inference methods based on the extremal variogram condition on the value of a single component, which can be statistically suboptimal. We generalize this approach by conditioning the multivariate generalized Pareto random vector $Y$ to lie on arbitrary half-spaces. Specifically, for a direction vector $v$, we introduce the random vector $Y^v = (Y \\mid v^\\top Y > 0)$ and define the associated $v$-variogram $Γ_{ij}^v=\\mathrm{Var}(Y_i^v-Y_j^v)$. We establish the decomposition $Y^v \\stackrel{d}{=} W^v+E\\mathbf{1}$ into the so-called $v$-extremal function $W^v$ and an independent exponential random variable $E$, and derive several results relating these random variables to each other. For logistic, Dirichlet, and Hüsler-Reiss multivariate generalized Pareto models, we derive closed-form expressions for $Γ^v$. In the Hüsler-Reiss case, we further derive new density representations and identify a distinguished resistance-curvature vector $v_0$ that uniquely centers the Gaussian law of $W^{v_0}$ while characterizing the least-mass half-space. On the statistical side, we introduce empirical $v$-variograms and show in a simulation study that the choice of $v$ induces a pronounced bias-variance trade-off that is strongly related to the mass of the conditioning half-space. Moreover, combining information across multiple directions $v$ can substantially reduce estimation variance relative to methods based on a single vector.",
+ "primary": "stat.ME"
+}

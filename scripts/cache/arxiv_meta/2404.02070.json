@@ -1,0 +1,16 @@
+{
+ "id": "2404.02070",
+ "title": "Asymptotics of resampling without replacement in robust and logistic regression",
+ "authors": [
+  "Pierre C. Bellec",
+  "Takuya Koriyama"
+ ],
+ "v1_date": "2024-04-02",
+ "latest_version": 3,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 8 figures",
+ "abstract": "This paper studies the asymptotics of resampling without replacement in the proportional regime where dimension $p$ and sample size $n$ are of the same order. For a given dataset $(X,y)\\in \\mathbb{R}^{n\\times p}\\times \\mathbb{R}^n$ and fixed subsample ratio $q\\in(0,1)$, the practitioner samples independently of $(X,y)$ iid subsets $I_1,...,I_M$ of $\\{1,...,n\\}$ of size $q n$ and trains estimators $\\hatβ(I_1),...,\\hatβ(I_M)$ on the corresponding subsets of rows of $(X, y)$. Understanding the performance of the bagged estimate $\\barβ = \\frac1M\\sum_{m=1}^M \\hatβ(I_1),...,\\hatβ(I_M)$, for instance its squared error, requires us to understand correlations between two distinct $\\hatβ(I_m)$ and $\\hatβ(I_{m'})$ trained on different subsets $I_m$ and $I_{m'}$. In robust linear regression and logistic regression, we characterize the limit in probability of the correlation between two estimates trained on different subsets of the data. The limit is characterized as the unique solution of a simple nonlinear equation. We further provide data-driven estimators that are consistent for estimating this limit. These estimators of the limiting correlation allow us to estimate the squared error of the bagged estimate $\\barβ$, and for instance perform parameter tuning to choose the optimal subsample ratio $q$. As a by-product of the proof argument, we obtain the limiting distribution of the bivariate pair $(x_i^T \\hatβ(I_m), x_i^T \\hatβ(I_{m'}))$ for observations $i\\in I_m\\cap I_{m'}$, i.e., for observations used to train both estimates.",
+ "primary": "math.ST"
+}

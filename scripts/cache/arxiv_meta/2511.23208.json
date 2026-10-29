@@ -1,0 +1,16 @@
+{
+ "id": "2511.23208",
+ "title": "A Design-Based Matching Framework for Staggered Adoption with Time-Varying Confounding",
+ "authors": [
+  "Suehyun Kim",
+  "Kwonsang Lee"
+ ],
+ "v1_date": "2025-11-28",
+ "latest_version": 1,
+ "latest_date": "2025-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 3 figures",
+ "abstract": "Causal inference in longitudinal datasets has long been challenging due to dynamic treatment adoption and confounding by time-varying covariates. Prior work either fails to account for heterogeneity across treatment adoption cohorts and treatment timings or relies on modeling assumptions. In this paper, we develop a novel design-based framework for inference on group- and time-specific treatment effects in panel data with staggered treatment adoption. We establish identification results for causal effects under this structure and introduce corresponding estimators, together with a block bootstrap procedure for estimating the covariance matrix and testing the homogeneity of group-time treatment effects. To implement the framework in practice, we propose the Reverse-Time Nested Matching algorithm, which constructs matched strata by pairing units from different adoption cohorts in a way that ensures comparability of covariate histories at each treatment time. Applying the algorithm to the Netflix-IPTV dataset, we find that while Netflix subscription does not significantly affect total IPTV viewing time, it does negatively affect VoD usage. We also provide statistical evidence that the causal effects of Netflix subscription may vary even within the same treatment cohort or across the same outcome and event times.",
+ "primary": "stat.ME"
+}

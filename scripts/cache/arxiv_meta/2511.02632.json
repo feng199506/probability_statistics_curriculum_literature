@@ -1,0 +1,16 @@
+{
+ "id": "2511.02632",
+ "title": "Synthetic Control with Weight Uncertainty: Robust Identification and Statistical Inference",
+ "authors": [
+  "Taehyeon Koo",
+  "Zijian Guo"
+ ],
+ "v1_date": "2025-11-04",
+ "latest_version": 3,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The synthetic control method estimates causal effects by comparing a treated unit with weighted controls matched on its pre-treatment trajectory. However, validity can be compromised when highly correlated controls leave the synthetic weights weakly determined or when treated-control relationships shift after treatment. We propose a new estimand, the weight-robust treatment effect, defined as the optimizer of a worst-case optimization problem over an uncertainty class of synthetic weights compatible with the pre-treatment fit. We establish its connection to sensitivity analysis: the uncertainty class induces an interval of plausible treatment effects, and the proposed estimand is the point in the interval closest to zero. Under the classical identification conditions, the estimand coincides with the true treatment effect. When these conditions fail, the estimand remains point identified; if the uncertainty class contains the true post-treatment weight, it provides a conservative sign-preserving bound on the effect. The estimator of this target may have a non-normal limiting distribution, and we propose a novel perturbation-based method for constructing valid confidence intervals. Our proposal may be of independent interest for partial identification and sensitivity analysis, where estimators defined through constrained optimization can have non-standard limiting distributions.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2607.19961",
+ "title": "focus and focus-cpt: Fast Online Changepoint Detection in R and Python",
+ "authors": [
+  "Gaetano Romano",
+  "Kes Ward",
+  "Yuntang Fan",
+  "Guillem Rigaill",
+  "Vincent Runge",
+  "Idris A. Eckley",
+  "Paul Fearnhead"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 1,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present an R and Python package for fast online changepoint detection in univariate and multivariate data streams for a variety of models. The package implements the focus family of algorithms, which compute the Generalised Likelihood Ratio test for a single changepoint exactly and efficiently, with a per-iteration cost of approximately $\\log(n)^d$ for a d-dimensional sequence, without introducing approximations. This is achieved by exploiting a connection between the location of the changepoint candidates and the geometry of the data. The package supports a broad range of models from the natural exponential family, including Gaussian, Poisson, Binomial, Exponential and Gamma distributions, as well as a non-parametric detector based on the empirical cumulative distribution function and a detector for autoregressive data.",
+ "primary": "stat.ME"
+}

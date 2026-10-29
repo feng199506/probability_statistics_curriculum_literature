@@ -1,0 +1,16 @@
+{
+ "id": "2608.10923",
+ "title": "Finite-sample correction for the covariate-adjusted log-rank test",
+ "authors": [
+  "Pavla Krotka",
+  "Dominic Magirr"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 2,
+ "latest_date": "2026-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The covariate-adjusted log-rank test is a novel method for covariate adjustment in randomized trials with time-to-event endpoints, offering guaranteed efficiency gains compared to the standard log-rank test. However, it has been noted that, in small samples, this method may lead to type I error rate inflation. This issue is particularly pronounced in trials with imbalanced allocation and settings where the number of adjustment covariates is large relative to the sample size. We propose a finite-sample correction for the denominator of the covariate-adjusted log-rank test statistic that accounts for the loss of the residual degrees of freedom as well as the uncertainty in the unknown regression coefficients. In simulations, we show that applying this correction leads to a substantial reduction in the type I error rate inflation across multiple scenarios.",
+ "primary": "stat.ME"
+}

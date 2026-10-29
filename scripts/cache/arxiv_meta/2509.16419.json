@@ -1,0 +1,25 @@
+{
+ "id": "2509.16419",
+ "title": "An Error Model for Evaluating the Accuracy of Satellite-Based XCO$_2$ Products",
+ "authors": [
+  "Vineet Yadav",
+  "Jonathan Hobbs",
+  "Hai M. Nguyen",
+  "Susan S. Kulawik",
+  "Junjie Liu",
+  "David F. Baker",
+  "Isamu Morino",
+  "Hirofumi Ohyama",
+  "Voltaire A. Velazco",
+  "Mihalis Vrekoussis",
+  "Manvendra K. Dubey"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Several satellites (e.g., OCO-2 & 3) and their derived products now provide spatially extensive coverage of the abundance of carbon dioxide in the atmospheric column (XCO$_2$). However, the accuracy of the XCO$_2$ reported in these products needs to be carefully assessed for any downstream scientific analysis; this involves comparison with reference datasets, such as those from the Total Carbon Column Observing Network (TCCON). Previously, systematic and random errors have been used to quantify differences between satellite-based XCO$_2$ measurements and TCCON data. The spatiotemporal density of satellite observations enables the decomposition of the error variability into these components. This study aims to unify the definitions of these error components through a hierarchical statistical model with explicit mathematical terms, which enables a formal definition of the underlying assumptions and estimation of each component. Specifically, we focus on defining model elements, like global bias and systematic and random error, as part of this framework. We use it to compare OCO-2 XCO$_2$ v11.1 data (both original scenes from the `Lite' files and 10-sec averages) and gridded Making Earth System Data Records for Use in Research Environments (MEaSUREs) products to TCCON data. The MEaSUREs products exhibit comparable systematic errors to other OCO-2 products, with larger errors over land versus ocean. We describe the methodology for creating the MEaSUREs products, including their prior and posterior error covariances, with information on spatial correlation for efficient incorporation into scientific analysis.",
+ "primary": "stat.AP"
+}

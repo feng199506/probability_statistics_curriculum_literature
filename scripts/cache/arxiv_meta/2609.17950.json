@@ -1,0 +1,17 @@
+{
+ "id": "2609.17950",
+ "title": "Taylor Diagram and Wasserstein Distance for Model Evaluation",
+ "authors": [
+  "Dongwei Chen",
+  "Emily J. King",
+  "Hungjui Yu"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 8 figures, and 3 tables",
+ "abstract": "The Taylor diagram is used to evaluate and compare predictive models with observed data and has many applications in climate and environmental sciences. Three statistics of interest--the centered root-mean-squared error, standard deviation, and the product-moment correlation coefficient--are related by the law of cosines; Taylor diagrams leverage this fact to allow visualization of all three statistics in a two-dimensional plot without any loss of information. In this work, we present a novel model evaluation tool--the Wasserstein-Taylor diagram--formed from integrating the Wasserstein distance from optimal transport into a Taylor diagram framework. This tool is built upon the fact that the law of cosines still holds in the Taylor diagram if the centered root-mean-squared error and product-moment correlation coefficient are replaced by the centered 2-Wasserstein distance and quantile correlation coefficient, respectively. The advantage of this Wasserstein-Taylor diagram is that one can use the distribution perspective afforded by the Wasserstein distance to compare observed and predicted data sets of different sizes and even to compare statistical models with only observed data. We further show that the quantile correlation coefficient on empirical measures converges to the quantile correlation coefficient on the sampled measures.",
+ "primary": "stat.ME"
+}

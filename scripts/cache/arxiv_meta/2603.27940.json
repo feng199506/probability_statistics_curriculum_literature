@@ -1,0 +1,17 @@
+{
+ "id": "2603.27940",
+ "title": "Stability of supermartingale optimal transport problems",
+ "authors": [
+  "Shuoqing Deng",
+  "Gaoyue Guo",
+  "Dominykas Norgilas"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Supermartingale optimal transport, Stability, Monotonicity Principle",
+ "abstract": "We investigate stability properties of weak supermartingale optimal transport (WSOT) problems on $\\mathbb{R}$. For probability measures $μ,ν\\in\\mathcal{P}_r$ satisfying $μ\\leq_{cd} ν$ (equivalently, $Π_S(μ,ν)\\neq\\emptyset$), we consider supermartingale couplings $π=μ(d x)π_x(d y)$ and the weak transport functional \\[ V_S^C(μ,ν) := \\inf_{π\\inΠ_S(μ,ν)} \\int_\\mathbb{R} C(x,π_x)\\,μ(d x), \\] for some appropriate cost function $C:\\mathbb{R}\\times\\mathcal{P}_r\\to\\mathbb{R}$. Our first main contribution is an approximation result in adapted Wasserstein distance: under $W_r$-convergence of marginals $(μ^k,ν^k)\\to(μ,ν)$ with $μ^k\\leq_{cd} ν^k$, any $π\\inΠ_S(μ,ν)$ can be approximated by $π^k\\inΠ_S(μ^k,ν^k)$ such that $A\\mathcal{W}_r(π^k,π)\\to0$. As a consequence, we obtain the continuity of the functional $(μ,ν) \\mapsto V_S^C(μ,ν)$, and the monotonicity principle for WSOT.",
+ "primary": "math.PR"
+}

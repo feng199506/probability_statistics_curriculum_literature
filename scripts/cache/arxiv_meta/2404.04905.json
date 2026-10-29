@@ -1,0 +1,17 @@
+{
+ "id": "2404.04905",
+ "title": "Review for Handling Missing Data with special missing mechanism",
+ "authors": [
+  "Youran Zhou",
+  "Sunil Aryal",
+  "Mohamed Reda Bouadjenek"
+ ],
+ "v1_date": "2024-04-07",
+ "latest_version": 1,
+ "latest_date": "2024-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Missing data poses a significant challenge in data science, affecting decision-making processes and outcomes. Understanding what missing data is, how it occurs, and why it is crucial to handle it appropriately is paramount when working with real-world data, especially in tabular data, one of the most commonly used data types in the real world. Three missing mechanisms are defined in the literature: Missing Completely At Random (MCAR), Missing At Random (MAR), and Missing Not At Random (MNAR), each presenting unique challenges in imputation. Most existing work are focused on MCAR that is relatively easy to handle. The special missing mechanisms of MNAR and MAR are less explored and understood. This article reviews existing literature on handling missing values. It compares and contrasts existing methods in terms of their ability to handle different missing mechanisms and data types. It identifies research gap in the existing literature and lays out potential directions for future research in the field. The information in this review will help data analysts and researchers to adopt and promote good practices for handling missing data in real-world problems.",
+ "primary": "stat.ME"
+}

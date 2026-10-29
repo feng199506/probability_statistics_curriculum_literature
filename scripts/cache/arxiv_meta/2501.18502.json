@@ -1,0 +1,16 @@
+{
+ "id": "2501.18502",
+ "title": "One-Bit Distributed Mean Estimation with Unknown Variance",
+ "authors": [
+  "Ritesh Kumar",
+  "Shashank Vatedka"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 4,
+ "latest_date": "2026-06-23",
+ "journal_ref": "Transactions on Machine Learning Research, February 2026",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research https://openreview.net/forum?id=g95C4zIEPg",
+ "abstract": "In this work, we study the problem of distributed mean estimation with 1-bit communication constraints when the variance is unknown. We focus on the setting where each user has access to one iid sample drawn from a distribution belonging to a location-scale family, and is limited to sending just a single bit of information to a central server whose goal is to estimate the mean. We propose simple non-adaptive and adaptive protocols and show that both achieve asymptotic normality. We derive bounds on the asymptotic (in the number of users) Mean Squared Error (MSE) achieved by these protocols. For a class of symmetric log-concave distributions, we derive matching lower bounds for the MSE of adaptive protocols, establishing the optimality of our scheme. Furthermore, we develop a lower bound on the MSE for non-adaptive protocols that applies to any symmetric strictly log-concave distribution, using a refined squared Hellinger distance analysis. Through this, we show that for many common distributions, including a subclass of the generalized Gaussian family, the asymptotic minimax MSE achieved by the best non-adaptive protocol is strictly larger than that achieved by our simple adaptive protocol. We also demonstrate that increasing the number of bits per user can only marginally reduce the asymptotic MSE of adaptive protocols. Our simulation results confirm a positive gap between the adaptive and non-adaptive settings, aligning with the theoretical bounds.",
+ "primary": "cs.IT"
+}

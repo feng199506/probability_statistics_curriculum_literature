@@ -1,0 +1,18 @@
+{
+ "id": "2405.12581",
+ "title": "Spectral analysis for the inference of noisy Hawkes processes",
+ "authors": [
+  "Anna Bonnet",
+  "Felix Cheysson",
+  "Miguel Martinez Herrera",
+  "Maxime Sangnier"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 2,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Classic estimation methods for Hawkes processes rely on the assumption that observed event times are indeed a realisation of a Hawkes process, without considering any potential perturbation of the model. However, in practice, observations are often altered by some noise, the form of which depends on the context. It is then required to model the alteration mechanism in order to infer accurately such a noisy Hawkes process. While several models exist, we consider, in this work, the observations to be the indistinguishable union of event times coming from a Hawkes process and from an independent Poisson process. Since standard inference methods (such as maximum likelihood or Expectation-Maximisation) are either unworkable or numerically prohibitive in this context, we propose an estimation procedure based on the spectral analysis of second order properties of the noisy Hawkes process. Novel results include sufficient conditions for identifiability of the ensuing statistical model with exponential interaction functions for both univariate and bivariate processes, along with consistency and asymptotic normality guarantees of our estimator in the univariate case. Although we mainly focus on the exponential scenario, other types of kernels are investigated and discussed. A new estimator based on maximising the spectral log-likelihood is then described, and its behaviour is numerically illustrated on both synthetic data and neuronal data. Besides being free from knowing the source of each observed time (Hawkes or Poisson process), the proposed estimator is shown to perform accurately in estimating both processes.",
+ "primary": "stat.ME"
+}

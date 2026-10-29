@@ -1,0 +1,17 @@
+{
+ "id": "2605.22892",
+ "title": "Is TabPFN the Silver Bullet for Insurance Pricing?",
+ "authors": [
+  "Bruno Deprez",
+  "Wouter Verbeke",
+  "Tim Verdonck"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 3,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modelling claim frequency and severity for non-life insurance pricing predominantly relies on generalised linear models (GLMs), with gradient-boosted machines as the leading machine learning alternative. Tabular foundation models (TFMs) present a fundamentally different inference paradigm. By pre-training on large collections of synthetic datasets, TFMs enable inference on new data through in-context learning, without any dataset-specific preprocessing, fitting, or hyperparameter tuning. This paper presents a first empirical evaluation of TabPFN for motor insurance pricing, benchmarking two versions of TabPFN against GLM and XGBoost on two publicly available motor third-party liability (MTPL) datasets. Our results show that TabPFN does not consistently outperform established baselines: it falls behind the GLM on claim frequency, where its performance depends on the size of the in-context training set, but it is competitive on claim severity, where data are scarcer. Its inference times are substantially longer. Although tabular foundation models are promising, particularly in data-scarce settings, TabPFN is not yet ready to replace established actuarial methods for claim frequency.",
+ "primary": "q-fin.RM"
+}

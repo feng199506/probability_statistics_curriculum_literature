@@ -1,0 +1,17 @@
+{
+ "id": "2410.14263",
+ "title": "Asymptotically efficient estimation under local constraint in Wicksell's problem",
+ "authors": [
+  "Francesco Gili",
+  "Geurt Jongbloed",
+  "Aad van der Vaart"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 1,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 7 figures",
+ "abstract": "We consider nonparametric estimation of the distribution function $F$ of squared sphere radii in the classical Wicksell problem. Under smoothness conditions on $F$ in a neighborhood of $x$, in \\cite{21} it is shown that the Isotonic Inverse Estimator (IIE) is asymptotically efficient and attains rate of convergence $\\sqrt{n / \\log n}$. If $F$ is constant on an interval containing $x$, the optimal rate of convergence increases to $\\sqrt{n}$ and the IIE attains this rate adaptively, i.e.\\ without explicitly using the knowledge of local constancy. However, in this case, the asymptotic distribution is not normal. In this paper, we introduce three \\textit{informed} projection-type estimators of $F$, which use knowledge on the interval of constancy and show these are all asymptotically equivalent and normal. Furthermore, we establish a local asymptotic minimax lower bound in this setting, proving that the three \\textit{informed} estimators are asymptotically efficient and a convolution result showing that the IIE is not efficient. We also derive the asymptotic distribution of the difference of the IIE with the efficient estimators, demonstrating that the IIE is \\textit{not} asymptotically equivalent to the \\textit{informed} estimators. Through a simulation study, we provide evidence that the performance of the IIE closely resembles that of its competitors.",
+ "primary": "math.ST"
+}

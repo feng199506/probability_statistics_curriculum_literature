@@ -1,0 +1,15 @@
+{
+ "id": "2607.11920",
+ "title": "Sensitivity to Subjective Expected Utility Maximization: A Methodological Study, with an Illustrative Application to LLM Decision-Making",
+ "authors": [
+  "Jeff Helzner"
+ ],
+ "v1_date": "2026-07-08",
+ "latest_version": 1,
+ "latest_date": "2026-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "64 pages, 5 figures. Code and data archived at Zenodo: https://doi.org/10.5281/zenodo.21250951",
+ "abstract": "Evaluating decisions made under uncertainty is hard when labeled outcomes are scarce, costly, or confounded with luck. We treat subjective expected utility (SEU) maximization as a stated standard and define a graded measure -- SEU sensitivity -- of an agent's conformity to it. The vehicle is a softmax choice model with a sensitivity parameter $α$ on SEU-valued alternatives; the contribution is a sequence of identifiability results for $α$ and for belief and utility parameters $(β, δ)$, validated in Stan via prior predictive checks, parameter recovery, and simulation-based calibration (SBC), with finite-sample caveats intact. In the uncertain-choice-only model $m_0$, $α$ is identifiable given the expected-utility vector $η$ and sharply recovered, while $(β, δ)$ are only weakly informed: the posterior barely contracts and concentrates on a $β$-$δ$ trade-off. In the extended model $m_1$, $δ$ becomes identifiable in principle via a $β$-free risky block, but its practical recovery gain at realistic sample sizes is negligible (matched-count CI-width reduction under 1%), and that block yields no detected $α$-precision gain at matched choice count. These are two distinct phenomena: for $δ$, identifiability does not imply precise estimability at realistic $n$; for $α$, identifiability is silent about what governs finite-$n$ precision. Marginal SBC passes for both models even where the joint posterior is weakly informed -- a demarcation we make precise. A two-by-two application (GPT-4o and Claude 3.5 Sonnet, each on insurance-claims triage and Ellsberg-style urns, with sampling temperature as the lever) runs end-to-end on real LLM choice data, detecting a structured comparative $α$ effect in two of four cells.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2412.03185",
+ "title": "Information borrowing in Bayesian clinical trials: choice of tuning parameters for the robust mixture prior",
+ "authors": [
+  "Vivienn Weru",
+  "Annette Kopp-Schneider",
+  "Manuel Wiesenfarth",
+  "Sebastian Weber",
+  "Silvia Calderazzo"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 2,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "External data borrowing in clinical trial designs has increased in recent years. This is accomplished in the Bayesian framework by specifying informative prior distributions. To mitigate the impact of potential inconsistency (bias) between external and current data, robust approaches have been proposed. One such approach is the robust mixture prior arising as a mixture of an informative prior and a more dispersed prior inducing dynamic borrowing. This prior requires the choice of four quantities: the mixture weight, mean, dispersion and parametric form of the robust component. To address the challenge associated with choosing these quantities, we perform a case-by-case study of their impact on specific operating characteristics in one-arm and hybrid-control trials with a normal endpoint. All four quantities were found to strongly impact the operating characteristics. As already known, variance of the robust component is linked to robustness. Less known, however, is that its location can have severe impact on test and estimation error. Further, the impact of the weight choice is strongly linked with the robust component's location and variance. We provide recommendations for the choice of the robust component parameters, prior weight, alternative functional form for this component and considerations for evaluating operating characteristics.",
+ "primary": "stat.ME"
+}

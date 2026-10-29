@@ -1,0 +1,15 @@
+{
+ "id": "2402.07743",
+ "title": "Local Projections Inference with High-Dimensional Covariates without Sparsity",
+ "authors": [
+  "Jooyoung Cha"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 2,
+ "latest_date": "2024-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a comprehensive local projections (LP) framework for estimating future responses to current shocks, robust to high-dimensional controls without relying on sparsity assumptions. The approach is applicable to various settings, including impulse response analysis and difference-in-differences (DiD) estimation. While methods like LASSO exist, they often assume most parameters are exactly zero, limiting their effectiveness in dense data generation processes. I propose a novel technique incorporating high-dimensional covariates in local projections using the Orthogonal Greedy Algorithm with a high-dimensional AIC (OGA+HDAIC) model selection method. This approach offers robustness in both sparse and dense scenarios, improved interpretability, and more reliable causal inference in local projections. Simulation studies show superior performance in dense and persistent scenarios compared to conventional LP and LASSO-based approaches. In an empirical application to Acemoglu, Naidu, Restrepo, and Robinson (2019), I demonstrate efficiency gains and robustness to a large set of controls. Additionally, I examine the effect of subjective beliefs on economic aggregates, demonstrating robustness to various model specifications. A novel state-dependent analysis reveals that inflation behaves more in line with rational expectations in good states, but exhibits more subjective, pessimistic dynamics in bad states.",
+ "primary": "econ.EM"
+}

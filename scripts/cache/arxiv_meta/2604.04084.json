@@ -1,0 +1,23 @@
+{
+ "id": "2604.04084",
+ "title": "Meta-analysis with the glmmTMB R package",
+ "authors": [
+  "Coralie Williams",
+  "Maeve McGillycuddy",
+  "Mollie Brooks",
+  "Benjamin M. Bolker",
+  "Ayumi Mizuno",
+  "Yefeng Yang",
+  "Wolfgang Viechtbauer",
+  "David I. Warton",
+  "Shinichi Nakagawa"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 2,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two common formulations of meta-analytical models include the standard two-stage normal-normal models, which synthesise estimated effect sizes, and the one-stage generalised linear mixed model (GLMM), which directly model the underlying outcome data across studies. The general-purpose glmmTMB R package provides flexible response distributions and random-effect covariance structures through Template Model Builder (TMB). Its existing functionality can fit one-stage meta-analytic GLMM specifications. However, incorporating known sampling variances and covariances in the conventional two-stage inverse-variance formulation of meta-analysis was previously not easily accomplished in glmmTMB. Here, we introduce equalto, a new covariance structure in glmmTMB that allows users to supply a known sampling error variance-covariance matrix when fitting meta-analytic models. This enables explicit modelling of heteroscedasticity and dependence among sampling errors. Using simulations, we show that glmmTMB produces estimates identical to those from the corresponding metafor package functions for normal-normal models and similar estimates for GLMM specifications. We illustrate these models using published meta-analysis datasets in medicine, evolutionary ecology, and the social sciences. With the addition of the equalto covariance structure, glmmTMB now provides a unified and flexible framework for fitting two-stage normal-normal models and one-stage meta-analytic GLMMs, including multivariate specifications. These models can be fitted using the same glmmTMB() function, expanding the R toolkit available for evidence synthesis.",
+ "primary": "stat.CO"
+}

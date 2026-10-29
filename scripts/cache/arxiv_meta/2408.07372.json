@@ -1,0 +1,16 @@
+{
+ "id": "2408.07372",
+ "title": "An Adaptive Importance Sampling for Locally Stable Point Processes",
+ "authors": [
+  "Hee-Geon Kang",
+  "Sunggon Kim"
+ ],
+ "v1_date": "2024-08-14",
+ "latest_version": 2,
+ "latest_date": "2025-03-01",
+ "journal_ref": "",
+ "doi": "10.1007/s00180-025-01609-2",
+ "comment": "",
+ "abstract": "The problem of finding the expected value of a statistic of a locally stable point process in a bounded region is addressed. We propose an adaptive importance sampling for solving the problem. In our proposal, we restrict the importance point process to the family of homogeneous Poisson point processes, which enables us to generate quickly independent samples of the importance point process. The optimal intensity of the importance point process is found by applying the cross-entropy minimization method. In the proposed scheme, the expected value of the function and the optimal intensity are iteratively estimated in an adaptive manner. We show that the proposed estimator converges to the target value almost surely, and prove the asymptotic normality of it. We explain how to apply the proposed scheme to the estimation of the intensity of a stationary pairwise interaction point process. The performance of the proposed scheme is compared numerically with the Markov chain Monte Carlo simulation and the perfect sampling.",
+ "primary": "stat.ML"
+}

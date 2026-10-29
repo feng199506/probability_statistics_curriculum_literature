@@ -1,0 +1,16 @@
+{
+ "id": "2403.17132",
+ "title": "A Personalized Predictive Model that Jointly Optimizes Discrimination and Calibration",
+ "authors": [
+  "Tatiana Krikella",
+  "Joel A. Dubin"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 2,
+ "latest_date": "2025-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Precision medicine is accelerating rapidly in the field of health research. This includes fitting predictive models for individual patients based on patient similarity in an attempt to improve model performance. We propose an algorithm which fits a personalized predictive model (PPM) using an optimal size of a similar subpopulation that jointly optimizes model discrimination and calibration, as it is criticized that calibration is not assessed nearly as often as discrimination despite poorly calibrated models being potentially misleading. We define a mixture loss function that considers model discrimination and calibration, and allows for flexibility in emphasizing one performance measure over another. We empirically show that the relationship between the size of subpopulation and calibration is quadratic, which motivates the development of our jointly optimized model. We also investigate the effect of within-population patient weighting on performance and conclude that the size of subpopulation has a larger effect on the predictive performance of the PPM compared to the choice of weight function.",
+ "primary": "stat.ME"
+}

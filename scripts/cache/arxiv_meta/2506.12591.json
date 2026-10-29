@@ -1,0 +1,16 @@
+{
+ "id": "2506.12591",
+ "title": "An Easily Tunable Approach to Robust and Sparse High-Dimensional Linear Regression",
+ "authors": [
+  "Takeyuki Sasai",
+  "Hironori Fujisawa"
+ ],
+ "v1_date": "2025-06-14",
+ "latest_version": 1,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse linear regression methods such as Lasso require a tuning parameter that depends on the noise variance, which is typically unknown and difficult to estimate in practice. In the presence of heavy-tailed noise or adversarial outliers, this problem becomes more challenging. In this paper, we propose an estimator for robust and sparse linear regression that eliminates the need for explicit prior knowledge of the noise scale. Our method builds on the Huber loss and incorporates an iterative scheme that alternates between coefficient estimation and adaptive noise calibration via median-of-means. The approach is theoretically grounded and achieves sharp non-asymptotic error bounds under both sub-Gaussian and heavy-tailed noise assumptions. Moreover, the proposed method accommodates arbitrary outlier contamination in the response without requiring prior knowledge of the number of outliers or the sparsity level. While previous robust estimators avoid tuning parameters related to the noise scale or sparsity, our procedure achieves comparable error bounds when the number of outliers is unknown, and improved bounds when it is known. In particular, the improved bounds match the known minimax lower bounds up to constant factors.",
+ "primary": "math.ST"
+}

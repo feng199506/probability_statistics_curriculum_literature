@@ -1,0 +1,18 @@
+{
+ "id": "2602.18988",
+ "title": "Latent Moment Models for Recurrent Binary Outcomes: A Bayesian and Quasi-Distributional Approach",
+ "authors": [
+  "Niloofar Ramezani",
+  "Lori P. Selby",
+  "Pascal Nitiema",
+  "Jeffrey R. Wilson"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 1,
+ "latest_date": "2026-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 1 figure, 4 tables, 1 Supplementary Table",
+ "abstract": "Recurrent binary outcomes within individuals, such as hospital readmissions, often reflect latent risk processes that evolve over time. Conventional methods like generalized linear mixed models and generalized estimating equations estimate average risk but fail to capture temporal changes in variability, asymmetry, and tail behavior. We introduce two statistical frameworks that model each binary event as the outcome of a thresholded value drawn from a time-varying latent distribution defined by its location, scale, skewness, and kurtosis. Rather than treating these four quantities as nonparametric moment estimators, we model them as interpretable latent moments within a flexible latent distributional family. The first, BLaS-Recurrent, is a Bayesian model using the sinh-arcsinh distribution (a parametric family that provides explicit control over asymmetry and tail weight) to estimate latent moment trajectories; the second, QuaD-Recurrent, is a quasi-distributional approach that maps simulated moment vectors to event probabilities using a flexible nonparametric surface. Both models support time-dependent covariates, serial correlation, and multiple membership structures. Simulation studies show improved calibration, interpretability, and robustness over standard models. Applied to ICU readmission data from the MIMIC-IV database, both approaches uncover clinically meaningful patterns in latent risk, such as right-skewed escalation and widening dispersion, that are missed by traditional methods. These models provide interpretable, distribution-sensitive tools for longitudinal binary outcomes in healthcare while explicitly acknowledging that latent \"moments\" summarize but do not uniquely determine the underlying distribution.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2605.21757",
+ "title": "Substantive-Model-Compatible Multiple Imputation for Cox Regression with a Diverging Number of Covariates",
+ "authors": [
+  "Zhilin Zhang",
+  "Yi Li"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern biomedical survival studies with high-dimensional genomic and clinical predictors are challenged by missing covariates. Existing methods conduct inference through penalization and debiasing when the number of covariates diverges with sample size, but they are typically developed with fully observed covariates. Conversely, substantive-model-compatible multiple imputation methods, particularly substantive-model-compatible fully conditional specification (SMC-FCS), provide principled handling of missing covariates while preserving compatibility with the Cox model, yet current methodology and theory remain largely restricted to fixed-dimensional settings. To address these limitations, we propose a semiparametric multiple imputation framework for inference in Cox regression with missing covariates of a diverging dimension. Missing covariates are imputed through a high-dimensional SMC-FCS procedure driven by Cox-model likelihood contributions, with rejection sampling used to enforce substantive-model compatibility and ridge-regularized posterior draws used to stabilize the imputation models. The algorithm stabilizes the Cox estimator through an imputation-regularized optimization iteration and then generates multiply imputed datasets from a stabilized chain. Inference for low-dimensional linear functionals or contrasts, $c^\\top β$, is obtained by combining debiased estimators and within-imputation variance estimates through Rubin's rules. We establish consistency and asymptotic normality of the resulting pooled estimator under a diverging-dimensional regime. Simulation studies demonstrate favorable finite-sample performance, and an application to the Boston Lung Cancer Survival Cohort illustrates the practical utility of the proposed method for high-dimensional survival studies with incomplete covariates.",
+ "primary": "stat.ME"
+}

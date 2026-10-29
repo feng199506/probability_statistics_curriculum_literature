@@ -1,0 +1,16 @@
+{
+ "id": "2603.10886",
+ "title": "Kernel Tests of Equivalence",
+ "authors": [
+  "Xing Liu",
+  "Axel Gandy"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 2,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages; 6 figures",
+ "abstract": "We propose novel kernel-based tests for assessing the equivalence between distributions. Traditional goodness-of-fit testing is inappropriate for concluding the absence of distributional differences, because failure to reject the null hypothesis may simply be a result of lack of test power, also known as the Type-II error. This motivates \\emph{equivalence testing}, which aims to assess the \\emph{absence} of a statistically meaningful effect under controlled error rates. However, existing equivalence tests are either limited to parametric distributions or focus only on specific moments rather than the full distribution. We address these limitations using two kernel-based statistical discrepancies: the \\emph{kernel Stein discrepancy} and the \\emph{Maximum Mean Discrepancy}. The null hypothesis of our proposed tests assumes the candidate distribution differs from the nominal distribution by at least a pre-defined margin, which is measured by these discrepancies. We propose two approaches for computing the critical values of the tests, one using an asymptotic normality approximation, and another based on bootstrapping. Numerical experiments are conducted to assess the performance of these tests.",
+ "primary": "stat.ML"
+}

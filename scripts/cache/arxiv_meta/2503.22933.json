@@ -1,0 +1,19 @@
+{
+ "id": "2503.22933",
+ "title": "Improving Transportability of Regression Calibration Under the Main/External Validation Study Design",
+ "authors": [
+  "Zexiang Li",
+  "Donna Spiegelman",
+  "Molin Wang",
+  "Zuoheng Wang",
+  "Xin Zhou"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 1,
+ "latest_date": "2025-03-29",
+ "journal_ref": "",
+ "doi": "10.1093/biomtc/ujag019",
+ "comment": "",
+ "abstract": "In epidemiology, obtaining accurate individual exposure measurements can be costly and challenging. Thus, these measurements are often subject to error. Regression calibration with a validation study is widely employed as a study design and analysis method to correct for measurement error in the main study due to its broad applicability and simple implementation. However, relying on an external validation study to assess the measurement error process carries the risk of introducing bias into the analysis. Specifically, if the parameters of regression calibration model estimated from the external validation study are not transportable to the main study, the subsequent estimated parameter describing the exposure-disease association will be biased. In this work, we improve the regression calibration method for linear regression models using an external validation study. Unlike the original approach, our proposed method ensures that the regression calibration model is transportable by estimating the parameters in the measurement error generating process using the external validation study and obtaining the remaining parameter values in the regression calibration model directly from the main study. This guarantees that parameter values in the regression calibration model will be applicable to the main study. We derived the theoretical properties of our proposed method. The simulation results show that the proposed method effectively reduces bias and maintains nominal confidence interval coverage. We applied this method to data from the Health Professionals Follow-Up Study (main study) and the Men's Lifestyle Validation Study (external validation study) to assess the effects of dietary intake on body weight.",
+ "primary": "stat.ME"
+}

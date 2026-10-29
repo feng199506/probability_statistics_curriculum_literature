@@ -1,0 +1,17 @@
+{
+ "id": "2607.14122",
+ "title": "Generalized Neural Distributional Regression",
+ "authors": [
+  "Natan Hilario da Silva",
+  "Vicente Garibay Cancho",
+  "Adriano Kamimura Suzuki"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 1,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "51 pages, 10 figures, 5 tables",
+ "abstract": "We introduce the Generalized Neural Distributional Regression (GNDR) framework, which seamlessly embeds deep neural networks into the parameter space of classical probability distributions. To reconcile the inherent non-identifiability of deep architectures with maximum likelihood theory, we propose a two-step semi-parametric estimation procedure. By isolating the terminal prediction heads and treating the upstream network as a fixed, non-linear basis expansion, GNDR enables the extraction of analytical Fisher Information matrices. This facilitates rigorous uncertainty quantification, generating observation-specific confidence bands and tolerance intervals via the multivariate Delta method. We demonstrate the framework's versatility and superior distributional calibration across diverse data modalities, including overdispersed clinical counts, right-censored transcriptomic survival profiles under a mixture cure framework, and zero-truncated age distributions derived directly from unstructured facial images. The methodology is natively implemented in the open-source Python package \\textit{thetaflow}.",
+ "primary": "stat.ML"
+}

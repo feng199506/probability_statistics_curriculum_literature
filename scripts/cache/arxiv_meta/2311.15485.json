@@ -1,0 +1,17 @@
+{
+ "id": "2311.15485",
+ "title": "Calibrated Generalized Bayesian Inference",
+ "authors": [
+  "David T. Frazier",
+  "Christopher Drovandi",
+  "Robert Kohn"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 3,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is a substantially revised version of arXiv:2302.06031v1. This revised version has a slightly different focus, additional examples, and theoretical results, as well as different authors",
+ "abstract": "We propose a simple approach that provides accurate uncertainty quantification for Bayesian inference in misspecified or approximate models, and for generalized (Gibbs) posteriors. While existing solutions in this context are based on explicit Gaussian approximations or post-processing procedures, we demonstrate that correct uncertainty quantification can be achieved by substituting the usual posterior with an intuitively appealing alternative that conveys the same information. This solution applies to both likelihood-based and loss-based posteriors, and is formally demonstrated to reliably quantify uncertainty. This new approach is demonstrated through a range of examples, including generalized linear models, and doubly intractable models.",
+ "primary": "stat.ME"
+}

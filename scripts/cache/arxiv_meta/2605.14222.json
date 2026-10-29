@@ -1,0 +1,20 @@
+{
+ "id": "2605.14222",
+ "title": "Robust and Data-Adaptive Integration of Nonconcurrent Data in Platform Trials via Gaussian Processes",
+ "authors": [
+  "Yuhan Qian",
+  "Yu Du",
+  "Jingning Zhang",
+  "Yanyao Yi",
+  "Patrick J. Heagerty",
+  "Ting Ye"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A platform trial is an innovative clinical trial design that enables simultaneous and continuous evaluation of multiple treatments within a single master protocol. Existing robust methods restrict analyses to concurrently randomized participants due to concerns that including nonconcurrent data may introduce bias from temporal trends. However, this exclusion represents a missed opportunity to improve efficiency. We propose a Gaussian process framework for incorporating nonconcurrent data that exploits temporal smoothness, a key feature of platform trials. The framework includes single-task and multi-task formulations and provides data-adaptive integration of nonconcurrent data with uncertainty quantification. The connection to kernel ridge regression yields a transparent frequentist interpretation of how nonconcurrent data are integrated. We establish two theoretical guarantees: incorporating nonconcurrent controls reduces the posterior variance of the treatment effect, and the resulting bias is controlled by a non-increasing bound. We extend the framework to discrete outcomes and to covariate adjustment, illustrate it on a hypothetical platform trial constructed from SURMOUNT-1, and provide an implementation in the R package RobinCID.",
+ "primary": "stat.ME"
+}

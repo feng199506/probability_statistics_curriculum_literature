@@ -1,0 +1,15 @@
+{
+ "id": "2605.00363",
+ "title": "Profile Likelihood Inference for Anisotropic Hyperbolic Wrapped Normal Models on Hyperbolic Space",
+ "authors": [
+  "Kisung You"
+ ],
+ "v1_date": "2026-05-01",
+ "latest_version": 1,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 2 figures",
+ "abstract": "We study likelihood-based inference for the anisotropic hyperbolic wrapped normal distribution on standard hyperbolic space. The model has a manifold-valued location parameter and a full positive definite covariance matrix in tangent coordinates. For independent observations from this family, we analyze the profile maximum likelihood estimator obtained by optimizing the likelihood over the location after profiling out the covariance. To guarantee finite-sample existence, we formulate the estimator on a covariance shell that bounds eigenvalues away from zero and infinity. We prove that this constrained likelihood is well posed, that the anisotropic wrapped normal family is identifiable, and that the estimator is strongly consistent when the true covariance lies in the interior of the shell. In global normal coordinates for the location and log-covariance coordinates for the nuisance parameter, we establish joint asymptotic normality and derive efficient profile inference for the location parameter through the Schur-complement information. We further prove local asymptotic normality of the experiment and obtain the Hájek--Le Cam local asymptotic minimax lower bound under squared geodesic loss. The profile estimator attains this bound for truncated squared loss, and for ordinary squared loss under a uniform-integrability condition. We also give an explicit computational form of the estimator based on spectral clipping of the empirical tangent covariance, and present a Monte Carlo calibration study showing that the finite-sample scaled location risk and Wald coverage agree with the asymptotic theory.",
+ "primary": "math.ST"
+}

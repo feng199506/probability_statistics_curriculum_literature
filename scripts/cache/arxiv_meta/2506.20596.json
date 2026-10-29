@@ -1,0 +1,19 @@
+{
+ "id": "2506.20596",
+ "title": "Inference for Error-Prone Count Data: Estimation under a Binomial Convolution Framework",
+ "authors": [
+  "Yuqiu Yang",
+  "Christina Vu",
+  "Cornelis J. Potgieter",
+  "Xinlei Wang",
+  "Akihito Kamata"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 1,
+ "latest_date": "2025-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 6 figures, 3 tables",
+ "abstract": "Measurement error in count data is common but underexplored in the literature, particularly in contexts where observed scores are bounded and arise from discrete scoring processes. Motivated by applications in oral reading fluency assessment, we propose a binomial convolution framework that extends binary misclassification models to settings where only the aggregate number of correct responses is observed, and errors may involve both overcounting and undercounting the number of events. The model accommodates distinct true positive and true negative accuracy rates and preserves the bounded nature of the data. Assuming the availability of both contaminated and error-free scores on a subset of items, we develop and compare three estimation strategies: maximum likelihood estimation (MLE), linear regression, and generalized method of moments (GMM). Extensive simulations show that MLE is most accurate when the model is correctly specified but is computationally intensive and less robust to misspecification. Regression is simple and stable but less precise, while GMM offers a compromise in model dependence, though it is sensitive to outliers. In practice, this framework supports improved inference in unsupervised settings where contaminated scores serve as inputs to downstream analyses. By quantifying accuracy rates, the model enables score corrections even when no specific outcome is yet defined. We demonstrate its utility using real oral reading fluency data, comparing human and AI-generated scores. Findings highlight the practical implications of estimator choice and underscore the importance of explicitly modeling asymmetric measurement error in count data.",
+ "primary": "stat.ME"
+}

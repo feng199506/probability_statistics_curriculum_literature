@@ -1,0 +1,17 @@
+{
+ "id": "2406.03056",
+ "title": "Sparse two-stage Bayesian meta-analysis for individualized treatments",
+ "authors": [
+  "Junwei Shen",
+  "Erica E. M. Moodie",
+  "Shirin Golchi"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 1,
+ "latest_date": "2024-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Individualized treatment rules tailor treatments to patients based on clinical, demographic, and other characteristics. Estimation of individualized treatment rules requires the identification of individuals who benefit most from the particular treatments and thus the detection of variability in treatment effects. To develop an effective individualized treatment rule, data from multisite studies may be required due to the low power provided by smaller datasets for detecting the often small treatment-covariate interactions. However, sharing of individual-level data is sometimes constrained. Furthermore, sparsity may arise in two senses: different data sites may recruit from different populations, making it infeasible to estimate identical models or all parameters of interest at all sites, and the number of non-zero parameters in the model for the treatment rule may be small. To address these issues, we adopt a two-stage Bayesian meta-analysis approach to estimate individualized treatment rules which optimize expected patient outcomes using multisite data without disclosing individual-level data beyond the sites. Simulation results demonstrate that our approach can provide consistent estimates of the parameters which fully characterize the optimal individualized treatment rule. We estimate the optimal Warfarin dose strategy using data from the International Warfarin Pharmacogenetics Consortium, where data sparsity and small treatment-covariate interaction effects pose additional statistical challenges.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2408.14618",
+ "title": "Marchenko-Pastur laws for Daniell smoothed periodograms",
+ "authors": [
+  "Ben Deitmar"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 5,
+ "latest_date": "2025-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "53 pages",
+ "abstract": "Given a sample $X_0,...,X_{n-1}$ from a $d$-dimensional stationary time series $(X_t)_{t \\in \\mathbb{Z}}$, the most commonly used estimator for the spectral density matrix $F(θ)$ at a given frequency $θ\\in [0,2π)$ is the Daniell smoothed periodogram $$S(θ) = \\frac{1}{2m+1} \\sum\\limits_{j=-m}^m I\\Big( θ+ \\frac{2πj}{n} \\Big) \\ ,$$ which is an average over $2m+1$ many periodograms at slightly perturbed frequencies. We prove that the Marchenko-Pastur law holds for the eigenvalues of $S(θ)$ uniformly in $θ\\in [0,2π)$, when $d$ and $m$ grow with $n$ such that $\\frac{d}{m} \\rightarrow c>0$ and $d\\asymp n^α$ for some $α\\in (0,1)$. This demonstrates that high-dimensional effects can cause $S(θ)$ to become inconsistent, even when the dimension $d$ is much smaller than the sample size $n$. Notably, we do not assume independence of the $d$ components of the time series. The Marchenko-Pastur law thus holds for Daniell smoothed periodograms, even when it does not necessarily hold for sample auto-covariance matrices of the same processes.",
+ "primary": "math.ST"
+}

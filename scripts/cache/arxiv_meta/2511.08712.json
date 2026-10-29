@@ -1,0 +1,15 @@
+{
+ "id": "2511.08712",
+ "title": "One-sided Davis inequality for (F4) filtrations",
+ "authors": [
+  "Maciej Rzeszut"
+ ],
+ "v1_date": "2025-11-11",
+ "latest_version": 1,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The classical Davis inequality $\\mathbb{E} Mf\\simeq \\mathbb{E} Sf$, where $(Sf)^2=\\sum_{k}\\left|f_{k}-f_{k-1}\\right|^2$ is the square function and $Mf= \\sup_n \\left|f_n\\right|$ is the maximal function, is true with a universal constant for any martingale $f$ on any filtration. A natural analog in the setting of (F4) doubly indexed filtrations, i.e. $\\left(\\mathcal{F}_{i,j}\\right)_{i,j}$ such that the operators $\\mathbb{E}\\left(\\cdot\\mid \\mathcal{F}_{i,\\infty}\\right)$ and $\\mathbb{E}\\left(\\cdot\\mid \\mathcal{F}_{\\infty,j}\\right)$ commute and their product is $\\mathbb{E}\\left(\\cdot\\mid \\mathcal{F}_{i,j}\\right)$, is the conjecture \\[\\mathbb{E}\\sup_{n,m} \\left|f_{n,m}\\right|\\simeq\\mathbb{E}\\left(\\sum_{i,j}\\left|Δf_{i,j}\\right|^2\\right)^\\frac{1}{2},\\] where $Δf_{i,j}=f_{i,j}-f_{i-1,j}-f_{i,j-1}+f_{i-1,j-1}$. It was known to be true only with some highly restrictive additional assumptions, e.g. regularity of the filtration ($g_{n,m}\\gtrsim g_{n+1,m},g_{n,m+1}$ for any positive martingale $g$) or $f$ being a strong martingale ($\\mathbb{E}\\left(Δf_{i,j}\\mid \\mathcal{F}_{i-1,j}\\vee \\mathcal{F}_{i,j-1}\\right)=0$). We prove the inequality $\\lesssim $ assuming just the (F4) condition.",
+ "primary": "math.PR"
+}

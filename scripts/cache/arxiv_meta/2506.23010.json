@@ -1,0 +1,17 @@
+{
+ "id": "2506.23010",
+ "title": "On Universality of Non-Separable Approximate Message Passing Algorithms",
+ "authors": [
+  "Max Lovig",
+  "Tianhao Wang",
+  "Zhou Fan"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 2,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mean-field characterizations of first-order iterative algorithms -- including Approximate Message Passing (AMP), stochastic and proximal gradient descent, and Langevin diffusions -- have enabled a precise understanding of learning dynamics in many statistical applications. For algorithms whose non-linearities have a coordinate-separable form, it is known that such characterizations enjoy a degree of universality with respect to the underlying data distribution. However, mean-field characterizations of non-separable algorithm dynamics have largely remained restricted to i.i.d. Gaussian or rotationally-invariant data. In this work, we initiate a study of universality for non-separable AMP algorithms. We identify a general condition for AMP with polynomial non-linearities, in terms of a Bounded Composition Property (BCP) for their representing tensors, to admit a state evolution that holds universally for matrices with non-Gaussian entries. We then formalize a condition of BCP-approximability for Lipschitz AMP algorithms to enjoy a similar universal guarantee. We demonstrate that many common classes of non-separable non-linearities are BCP-approximable, including local denoisers, spectral denoisers for generic signals, and compositions of separable functions with generic linear maps, implying the universality of state evolution for AMP algorithms employing these non-linearities.",
+ "primary": "math.ST"
+}

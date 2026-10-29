@@ -1,0 +1,22 @@
+{
+ "id": "2505.00925",
+ "title": "What is estimated in cluster randomized crossover trials with informative sizes? -- A survey of estimands and common estimators",
+ "authors": [
+  "Kenneth M. Lee",
+  "Andrew B. Forbes",
+  "Jessica Kasza",
+  "Andrew Copas",
+  "Brennan C. Kahan",
+  "Paul J. Young",
+  "Michael O. Harhay",
+  "Fan Li"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 1,
+ "latest_date": "2025-05-02",
+ "journal_ref": "",
+ "doi": "10.1177/09622802261470087",
+ "comment": "74 pages (42 main, 32 appendix), 15 figures (7 main, 8 appendix), 6 tables (6 main)",
+ "abstract": "In the analysis of cluster randomized trials (CRTs), previous work has defined two meaningful estimands: the individual-average treatment effect (iATE) and cluster-average treatment effect (cATE) estimand, to address individual and cluster-level hypotheses. In multi-period CRT designs, such as the cluster randomized crossover (CRXO) trial, additional weighted average treatment effect estimands help fully reflect the longitudinal nature of these trial designs, namely the cluster-period-average treatment effect (cpATE) and period-average treatment effect (pATE). We define different forms of informative sizes, where the treatment effects vary according to cluster, period, and/or cluster-period sizes, which subsequently cause these estimands to differ in magnitude. Under such conditions, we demonstrate which of the unweighted, inverse cluster-period size weighted, inverse cluster size weighted, and inverse period size weighted: (i.) independence estimating equation, (ii.) fixed effects model, (iii.) exchangeable mixed effects model, and (iv.) nested exchangeable mixed effects model treatment effect estimators are consistent for the aforementioned estimands in 2-period cross-sectional CRXO designs with continuous outcomes. We report a simulation study and conclude with a reanalysis of a CRXO trial testing different treatments on hospital length of stay among patients receiving invasive mechanical ventilation. Notably, with informative sizes, the unweighted and weighted nested exchangeable mixed effects model estimators are not consistent for any meaningful estimand and can yield biased results. In contrast, the unweighted and weighted independence estimating equation, and under specific scenarios, the fixed effects model and exchangeable mixed effects model, can yield consistent and empirically unbiased estimators for meaningful estimands in 2-period CRXO trials.",
+ "primary": "stat.ME"
+}

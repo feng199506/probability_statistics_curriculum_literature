@@ -1,0 +1,16 @@
+{
+ "id": "2602.08108",
+ "title": "Goodness-of-Fit Tests for Censored and Truncated Data: Maximum Mean Discrepancy Over Regular Functionals",
+ "authors": [
+  "Juan Carlos Escanciano",
+  "Jacobo de Uña-Álvarez"
+ ],
+ "v1_date": "2026-02-08",
+ "latest_version": 1,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a systematic, omnibus approach to goodness-of-fit testing for parametric distributional models when the variable of interest is only partially observed due to censoring and/or truncation. In many such designs, tests based on the nonparametric maximum likelihood estimator are hindered by nonexistence, computational instability, or convergence rates too slow to support reliable calibration under composite nulls. We avoid these difficulties by constructing a regular (pathwise differentiable) Neyman-orthogonal score process indexed by test functions, and aggregating it over a reproducing kernel Hilbert space ball. This yields a maximum-mean-discrepancy-type supremum statistic with a convenient quadratic-form representation. Critical values are obtained via a multiplier bootstrap that keeps nuisance estimates fixed. We establish asymptotic validity under the null and local alternatives and provide concrete constructions for left-truncated right-censored data, current status data, and random double truncation; in particular, to the best of our knowledge, we give the first omnibus goodness-of-fit test for a parametric family under random double truncation in the composite-hypothesis case. Simulations and an empirical illustration demonstrate size control and power in practically relevant incomplete-data designs.",
+ "primary": "stat.ME"
+}

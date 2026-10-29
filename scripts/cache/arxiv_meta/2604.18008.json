@@ -1,0 +1,16 @@
+{
+ "id": "2604.18008",
+ "title": "Multi-stream Quickest Change Detection: Foundations and Recent Advances",
+ "authors": [
+  "Topi Halme",
+  "Visa Koivunen"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 1,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "10.3390/e28050566",
+ "comment": "Submitted to Entropy",
+ "abstract": "This paper provides an overview of recent developments in quickest change detection (QCD) for high-dimensional multi-sensor systems, with an emphasis on settings involving structural constraints and limited sensing resources. Classical QCD methodologies, while well understood in low-dimensional and fully observed regimes, face significant challenges when extended to modern applications characterized by large-scale data, constrained sampling or communication, and heterogeneous signal structures. We review key approaches for handling high dimensionality, including methods that exploit sparsity, and other forms of signal heterogeneity. Additionally, we discuss sampling constraints, where observations must be selected or acquired sequentially under resource limitations. Multi-stream applications can require making multiple detections, for example when detecting changes separately in different streams. The underlying assumptions on probability models, the types of changes taking place, commonly used decision-making criteria, performance indices, and error types are described. We also briefly discuss the application of machine learning in cases where the underlying probability models are not known or there is a need to select which sensors should monitor the phenomena because of the large scale of the system.",
+ "primary": "math.ST"
+}

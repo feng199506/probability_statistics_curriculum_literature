@@ -1,0 +1,18 @@
+{
+ "id": "2506.18746",
+ "title": "The Within-Orbit Adaptive Leapfrog No-U-Turn Sampler",
+ "authors": [
+  "Nawaf Bou-Rabee",
+  "Bob Carpenter",
+  "Tore Selland Kleppe",
+  "Sifan Liu"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 1,
+ "latest_date": "2025-06-23",
+ "journal_ref": "Journal of Machine Learning Research 27(113):1-64, 2026; https://www.jmlr.org/papers/v27/25-1452.html",
+ "doi": "",
+ "comment": "for companion GitHub repo, see https://github.com/bob-carpenter/walnuts",
+ "abstract": "Locally adapting parameters within Markov chain Monte Carlo methods while preserving reversibility is notoriously difficult. The success of the No-U-Turn Sampler (NUTS) largely stems from its clever local adaptation of the integration time in Hamiltonian Monte Carlo via a geometric U-turn condition. However, posterior distributions frequently exhibit multi-scale geometries with extreme variations in scale, making it necessary to also adapt the leapfrog integrator's step size locally and dynamically. Despite its practical importance, this problem has remained largely open since the introduction of NUTS by Hoffman and Gelman (2014). To address this issue, we introduce the Within-orbit Adaptive Leapfrog No-U-Turn Sampler (WALNUTS), a generalization of NUTS that adapts the leapfrog step size at fixed intervals of simulated time as the orbit evolves. At each interval, the algorithm selects the largest step size from a dyadic schedule that keeps the energy error below a user-specified threshold. Like NUTS, WALNUTS employs biased progressive state selection to favor states with positions that are further from the initial point along the orbit. Empirical evaluations on multiscale target distributions, including Neal's funnel and the Stock-Watson stochastic volatility time-series model, demonstrate that WALNUTS achieves substantial improvements in sampling efficiency and robustness compared to standard NUTS.",
+ "primary": "stat.CO"
+}

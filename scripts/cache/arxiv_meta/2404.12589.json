@@ -1,0 +1,17 @@
+{
+ "id": "2404.12589",
+ "title": "Geometry and factorization of multivariate Markov chains with applications to MCMC acceleration and approximate inference",
+ "authors": [
+  "Michael C. H. Choi",
+  "Youjia Wang",
+  "Geoffrey Wolfer"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 8,
+ "latest_date": "2026-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 6 figures. To appear in SIAM/ASA Journal on Uncertainty Quantification",
+ "abstract": "This paper analyzes the factorizability and geometry of transition matrices of multivariate Markov chains. Specifically, we demonstrate that the induced chains on factors of a product space can be regarded as information projections with respect to the Kullback-Leibler divergence. This perspective yields Han-Shearer type inequalities and submodularity of the entropy rate of Markov chains, as well as applications in the context of large deviations and mixing time comparison. As concrete algorithmic applications in Markov chain Monte Carlo (MCMC) and approximate inference, we provide three illustrations based on lifted MCMC, swapping algorithm and factored filtering to demonstrate projection samplers improve mixing over the original samplers. The projection sampler based on the swapping algorithm resamples the highest-temperature coordinate at stationarity at each step, and we prove that such practice accelerates the mixing time by multiplicative factors related to the number of temperatures and the dimension of the underlying state space when compared with the original swapping algorithm. Through simple numerical experiments on a bimodal target distribution, we show that the projection samplers mix effectively, in contrast to lifted MCMC and the swapping algorithm, which mix less well. In filtering, our proposed factored filtering scheme is able to scale to high dimensions with linear-in-dimension computational cost per step at the price of an approximation error that can be tracked using the distance to independence, compared with the exponential-in-dimension cost per step of the exact filter.",
+ "primary": "math.PR"
+}

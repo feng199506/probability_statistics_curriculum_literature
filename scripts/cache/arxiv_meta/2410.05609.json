@@ -1,0 +1,16 @@
+{
+ "id": "2410.05609",
+ "title": "The Breakdown of Gaussian Universality in Classification of High-dimensional Linear Factor Mixtures",
+ "authors": [
+  "Xiaoyi Mai",
+  "Zhenyu Liao"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 3,
+ "latest_date": "2025-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 10 figures, accepted by ICLR 2025 (https://openreview.net/forum?id=UrKbn51HjA)",
+ "abstract": "The assumption of Gaussian or Gaussian mixture data has been extensively exploited in a long series of precise performance analyses of machine learning (ML) methods, on large datasets having comparably numerous samples and features. To relax this restrictive assumption, subsequent efforts have been devoted to establish \"Gaussian equivalent principles\" by studying scenarios of Gaussian universality where the asymptotic performance of ML methods on non-Gaussian data remains unchanged when replaced with Gaussian data having the same mean and covariance. Beyond the realm of Gaussian universality, there are few exact results on how the data distribution affects the learning performance. In this article, we provide a precise high-dimensional characterization of empirical risk minimization, for classification under a general mixture data setting of linear factor models that extends Gaussian mixtures. The Gaussian universality is shown to break down under this setting, in the sense that the asymptotic learning performance depends on the data distribution beyond the class means and covariances. To clarify the limitations of Gaussian universality in the classification of mixture data and to understand the impact of its breakdown, we specify conditions for Gaussian universality and discuss their implications for the choice of loss function.",
+ "primary": "stat.ML"
+}

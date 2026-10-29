@@ -1,0 +1,20 @@
+{
+ "id": "2411.17533",
+ "title": "Simplifying Causal Mediation Analysis for Time-to-Event Outcomes using Pseudo-Values",
+ "authors": [
+  "Alex Ocampo",
+  "Enrico Giudice",
+  "Dieter A. Häring",
+  "Baldur Magnusson",
+  "Theis Lange",
+  "Zachary R. McCaw"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 2,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Mediation, Pseudo-Values, Time-to-event, Survival Analysis, Restricted Mean Survival Time, Competing Risks",
+ "abstract": "Mediation analysis for survival outcomes is challenging. Most existing methods quantify the treatment effect using the hazard ratio (HR) and attempt to decompose the HR into the direct effect of treatment plus an indirect, or mediated, effect. However, the HR is not expressible as an expectation, which complicates this decomposition, both in terms of estimation and interpretation. Here, we present an alternative approach which leverages pseudo-values to simplify estimation and inference. Pseudo-values take censoring into account during their construction, and once derived, can be modeled in the same way as any continuous outcome. Thus, pseudo-values enable mediation analysis for a survival outcome to fit seamlessly into standard mediation software (e.g. CMAverse in R). Pseudo-values are easy to calculate via a leave-one-observation-out procedure (i.e. jackknifing) and the calculation can be accelerated when the influence function of the estimator is known. Mediation analysis for causal effects defined by survival probabilities, restricted mean survival time, and cumulative incidence functions - in the presence of competing risks - can all be performed within this framework. Extensive simulation studies demonstrate that the method is unbiased across 324 scenarios/estimands and controls the type-I error at the nominal level under the null of no mediation. We illustrate the approach using data from the PARADIGMS clinical trial for the treatment of pediatric multiple sclerosis using fingolimod. In particular, we evaluate whether an imaging biomarker lies on the causal path between treatment and time-to-relapse, which aids in justifying this biomarker as a surrogate outcome. Our approach greatly simplifies mediation analysis for survival data and provides a decomposition of the total effect that is both intuitive and interpretable.",
+ "primary": "stat.ME"
+}

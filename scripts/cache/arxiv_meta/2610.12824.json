@@ -1,0 +1,17 @@
+{
+ "id": "2610.12824",
+ "title": "GMM for Panel Data Quantile Regression",
+ "authors": [
+  "Antonio F. Galvao",
+  "Ulrich Hounyo",
+  "Jiahao Lin"
+ ],
+ "v1_date": "2026-10-09",
+ "latest_version": 1,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a smoothed generalized method of moments (GMM) framework for panel quantile models with individual-specific fixed-effects and endogenous regressors. By smoothing the indicator in the quantile moment conditions and profiling out the individual effects through smoothed individual quantile restrictions, the proposed estimator can be implemented using standard GMM algorithms. We establish consistency, asymptotic normality, and feasible inference under weak time dependence as both panel dimensions diverge. This dependence structure accommodates dynamic panel specifications, serially dependent disturbances, lagged instruments, and within-individual heteroskedasticity and autocorrelation consistent inference. Monte Carlo simulations show that the estimator is nearly unbiased under endogeneity and yields generally accurate inference while remaining computationally tractable. An application to OECD inflation dynamics suggests asymmetric inflation propagation: under the structural IVQR interpretation, the response of current inflation to lagged inflation is substantially larger at the lower structural quantile than at the upper structural quantile.",
+ "primary": "econ.EM"
+}

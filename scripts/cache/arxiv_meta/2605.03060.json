@@ -1,0 +1,17 @@
+{
+ "id": "2605.03060",
+ "title": "Robust confidence intervals for generalized linear models",
+ "authors": [
+  "Andrea Panarotto",
+  "Riccardo De Santis",
+  "Livio Finos"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 22 in the main text and 8 of supplementary material. 9 total figures, 7 in the main text",
+ "abstract": "Reliable uncertainty quantification is a central challenge in the analysis of modern biomedical data, where complex sources of variability often violate standard modeling assumptions. In generalized linear models (GLMs), confidence intervals for regression parameters provide such information, but they typically rely on correct specification of the mean-variance relationship. However, overdispersion, heteroskedasticity, and unobserved biological variability can lead to substantial undercoverage in practice. We propose a method for constructing confidence intervals that remains valid under variance misspecification. The approach is based on the inversion of hypothesis tests obtained by sign-flipping individual score contributions and uses a bisection algorithm to determine the interval bounds. The resulting intervals inherit robustness properties from the underlying tests, and we establish their asymptotic validity under general variance misspecification. Through simulation studies, we show that the proposed method achieves reliable coverage and outperforms standard Wald-type intervals when model assumptions are violated. We illustrate the approach in a differential expression analysis of RNA-sequencing data from a cancer study, where heterogeneous variability is pervasive and parametric methods can yield inconsistent inference. The proposed framework provides a practical and robust alternative to conventional quasi-likelihood or Wald-based methods for interval estimation in GLMs, particularly suited to high-throughput biomedical applications.",
+ "primary": "stat.ME"
+}

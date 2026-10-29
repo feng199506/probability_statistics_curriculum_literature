@@ -1,0 +1,16 @@
+{
+ "id": "2405.08290",
+ "title": "MCMC using $\\textit{bouncy}$ Hamiltonian dynamics: A unifying framework for Hamiltonian Monte Carlo and piecewise deterministic Markov process samplers",
+ "authors": [
+  "Andrew Chin",
+  "Akihiko Nishimura"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 3,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Piecewise-deterministic Markov process (PDMP) samplers constitute a state-of-the-art Markov chain Monte Carlo paradigm in Bayesian computation, with examples including the zig-zag and bouncy particle sampler (bps). Recent work on the zig-zag has indicated its connection to Hamiltonian Monte Carlo (HMC), a version of the Metropolis algorithm that exploits Hamiltonian dynamics. Here we establish that, in fact, the connection between the two paradigms extends far beyond the specific instance. The key lies in (1) the fact that any time-reversible deterministic dynamics provides a valid Metropolis proposal and (2) how PDMPs' characteristic velocity changes constitute an alternative to the usual acceptance-rejection. We turn this observation into a rigorous framework for constructing rejection-free Metropolis proposals based on bouncy Hamiltonian dynamics which simultaneously possess Hamiltonian-like properties and generate discontinuous trajectories similar in appearance to PDMPs. When combined with periodic refreshment of the inertia, the dynamics converge strongly to PDMP equivalents in the limit of increasingly frequent refreshment. We demonstrate the practical implications of this new framework with a sampler based on a bouncy Hamiltonian dynamics closely related to the bps. The resulting sampler exhibits competitive performance on challenging real-data posteriors involving tens of thousands of parameters. As the sampler of choice in modern probabilistic programming languages, HMC plays a critical role in applied Bayesian modeling; by generalizing the paradigm and elucidating its connection to the leading competitor, our framework opens up opportunities for cross-pollination and innovation to further scale Bayesian inference.",
+ "primary": "stat.CO"
+}

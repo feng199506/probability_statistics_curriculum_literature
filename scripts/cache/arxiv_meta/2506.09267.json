@@ -1,0 +1,16 @@
+{
+ "id": "2506.09267",
+ "title": "Consistent Infill Estimability of the Regression Slope Between Gaussian Random Fields Under Spatial Confounding",
+ "authors": [
+  "Abhirup Datta",
+  "Michael L. Stein"
+ ],
+ "v1_date": "2025-06-10",
+ "latest_version": 3,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The problem of estimating the slope parameter in regression between two spatial processes under confounding by an unmeasured spatial process has received widespread attention in the recent statistical literature. Yet, a fundamental question remains unresolved: when is this slope consistently estimable under spatial confounding, with existing insights being largely empirical or estimator-specific. We characterize conditions for consistent estimability of the regression slope between Gaussian random fields (GRFs), the common stochastic model for spatial processes, under spatial confounding. Under fixed-domain (infill) asymptotics, we give sufficient conditions for consistent estimability in terms of the smoothness or local behavior of the exposure and confounder processes. When estimability holds, we provide consistent estimators of the slope using local differencing (taking discrete differences or Laplacians of the processes of suitable order). Using functional analysis results on Paley-Wiener spaces, we then provide an easy-to-verify necessary condition for consistent estimability of the slope in terms of the relative spectral tail decays of the confounder and exposure. As a by-product, we establish a novel and general spectral condition on the equivalence of measures on the paths of multivariate GRFs with component fields of varying smoothnesses. We show that for many covariance classes like the Matérn, power-exponential, generalized Cauchy, and coregionalization families, the necessary and sufficient conditions become identical, thereby providing a sharp characterization of consistent estimability of the slope for these processes. The results are extended to multivariate slopes, to accommodate measurement error, to popular classes of non-stationary Gaussian random fields and some non-Gaussian random fields, and for irregular designs.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2608.15648",
+ "title": "On the minimax-rate optimality of approximate Bayesian computation in nonparametric problems",
+ "authors": [
+  "Hien Duy Nguyen"
+ ],
+ "v1_date": "2026-08-16",
+ "latest_version": 2,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Bayesian computation (ABC) replaces likelihood evaluation by simulation and comparison of observed and synthetic data. We establish minimax-rate guarantees for nonparametric ABC under random-series priors with simulable finite-dimensional coordinates. The contraction theorem uses local prior mass, bounds on ABC acceptance probabilities, and control of prior mass outside a sieve. In fixed-design orthogonal-series regression with centered $g$-and-$k$ errors, an infinite Gaussian series prior with a compact scale hyperprior yields minimax-rate contraction and a minimax-rate clipped posterior mean. In compound Poisson decompounding, only random sums are observed and the target is the underlying jump density. With an unknown count intensity in a fixed compact subinterval of $(0,π/2)$, we prove stability of the zero-count-augmented trigonometric population summaries and use a square-root Gaussian series prior on the space of probability density functions. Over bounded periodic Sobolev classes of smoothness $α>d/2$, a polynomially enlarged synthetic sample yields ABC contraction at rate $n^{-α/(2α+d)}$ and posterior mean squared risk of order $n^{-2α/(2α+d)}$, matching a lower bound for the aggregate-observation model. Rejection-ABC Monte Carlo approximations inherit these rates under sufficient sampling budgets.",
+ "primary": "math.ST"
+}

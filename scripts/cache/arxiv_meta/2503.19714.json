@@ -1,0 +1,19 @@
+{
+ "id": "2503.19714",
+ "title": "An Approximate Monte Carlo Simulation Method for Estimating Uncertainty and Constructing Confidence Intervals for 2020 Census Statistics",
+ "authors": [
+  "Robert Ashmead",
+  "Michael B. Hawes",
+  "Mary Pritts",
+  "Pavel Zhuravlev",
+  "Sallie Ann Keller"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 1,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To protect the confidentiality of the 2020 Census, the U.S. Census Bureau adopted a statistical disclosure limitation framework based on the principles of differential privacy. A key component was the TopDown Algorithm, which applied differentially-private noise to an extensive series of counts from the confidential 2020 Census data and transformed the resulting noisy measurements into privacy-protected microdata which were then tabulated to produce official data products. Though the codebase is publicly available, currently there is no way to estimate the uncertainty for statistics included in the published data products that accounts for both the noisy measurements and the post-processing performed within the TopDown Algorithm. We propose an approximate Monte Carlo Simulation method that allows for the estimation of statistical quantities like mean squared error, bias, and variance, as well as the construction of confidence intervals. The method uses the output of the production iteration of the TopDown Algorithm as the input to additional iterations, allowing for statistical quantities to be estimated without impacting the formal privacy protections of the 2020 Census. The results show that, in general, the quantities estimated by this approximate method closely match their intended targets and that the resulting confidence intervals are statistically valid.",
+ "primary": "stat.ME"
+}

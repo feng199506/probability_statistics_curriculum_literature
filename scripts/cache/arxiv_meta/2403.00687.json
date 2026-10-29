@@ -1,0 +1,16 @@
+{
+ "id": "2403.00687",
+ "title": "Structurally Aware Robust Model Selection for Mixtures",
+ "authors": [
+  "Jiawei Li",
+  "Jonathan H. Huggins"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixture models are often used to identify meaningful subpopulations (i.e., clusters) in observed data such that the subpopulations have a real-world interpretation (e.g., as cell types). However, when used for subpopulation discovery, mixture model inference is usually ill-defined a priori because the assumed observation model is only an approximation to the true data-generating process. Thus, as the number of observations increases, rather than obtaining better inferences, the opposite occurs: the data is explained by adding spurious subpopulations that compensate for the shortcomings of the observation model. However, there are two important sources of prior knowledge that we can exploit to obtain well-defined results no matter the dataset size: known causal structure (e.g., knowing that the latent subpopulations cause the observed signal but not vice-versa) and a rough sense of how wrong the observation model is (e.g., based on small amounts of expert-labeled data or some understanding of the data-generating process). We propose a new model selection criteria that, while model-based, uses this available knowledge to obtain mixture model inferences that are robust to misspecification of the observation model. We provide theoretical support for our approach by proving a first-of-its-kind consistency result under intuitive assumptions. Simulation studies and an application to flow cytometry data demonstrate our model selection criteria consistently finds the correct number of subpopulations.",
+ "primary": "stat.ME"
+}

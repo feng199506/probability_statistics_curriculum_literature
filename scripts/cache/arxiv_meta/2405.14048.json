@@ -1,0 +1,16 @@
+{
+ "id": "2405.14048",
+ "title": "fsemipar: an R package for SoF semiparametric regression",
+ "authors": [
+  "Silvia Novo",
+  "Germán Aneiros"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 1,
+ "latest_date": "2024-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 7 figures, 11 tables",
+ "abstract": "Functional data analysis has become a tool of interest in applied areas such as economics, medicine, and chemistry. Among the techniques developed in recent literature, functional semiparametric regression stands out for its balance between flexible modelling and output interpretation. Despite the large variety of research papers dealing with scalar-on-function (SoF) semiparametric models, there is a notable gap in software tools for their implementation. This article introduces the R package \\texttt{fsemipar}, tailored for these models. \\texttt{fsemipar} not only estimates functional single-index models using kernel smoothing techniques but also estimates and selects relevant scalar variables in semi-functional models with multivariate linear components. A standout feature is its ability to identify impact points of a curve on the response, even in models with multiple functional covariates, and to integrate both continuous and pointwise effects of functional predictors within a single model. In addition, it allows the use of location-adaptive estimators based on the $k$-nearest-neighbours approach for all the semiparametric models included. Its flexible interface empowers users to customise a wide range of input parameters and includes the standard S3 methods for prediction, statistical analysis, and estimate visualization (\\texttt{predict}, \\texttt{summary}, \\texttt{print}, and \\texttt{plot}), enhancing clear result interpretation. Throughout the article, we illustrate the functionalities and the practicality of \\texttt{fsemipar} using two chemometric datasets.",
+ "primary": "stat.ME"
+}

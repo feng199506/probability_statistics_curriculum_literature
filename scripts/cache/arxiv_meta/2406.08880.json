@@ -1,0 +1,17 @@
+{
+ "id": "2406.08880",
+ "title": "Jackknife inference with two-way clustering",
+ "authors": [
+  "James G. MacKinnon",
+  "Morten Ørregaard Nielsen",
+  "Matthew D. Webb"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 4,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For linear regression models with cross-section or panel data, it is natural to assume that the disturbances are clustered in two dimensions. However, the finite-sample properties of two-way cluster-robust tests and confidence intervals are often poor. We discuss several ways to improve inference with two-way clustering. Two of these are existing methods for avoiding, or at least ameliorating, the problem of undefined standard errors when a cluster-robust variance matrix estimator (CRVE) is not positive definite. One is a new method that always avoids the problem. More importantly, we propose a family of new two-way CRVEs based on the cluster jackknife and prove that they yield valid inferences asymptotically. Simulations for models with two-way fixed effects suggest that, in many cases, the cluster-jackknife CRVE combined with our new method yields surprisingly accurate inferences. We provide a software package, twowayjack for Stata, that implements our recommended variance estimator.",
+ "primary": "econ.EM"
+}

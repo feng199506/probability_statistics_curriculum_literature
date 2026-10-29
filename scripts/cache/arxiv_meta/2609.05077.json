@@ -1,0 +1,16 @@
+{
+ "id": "2609.05077",
+ "title": "Simultaneous Change-Point Inference for High-Dimensional Functional Time Series",
+ "authors": [
+  "Axel Bücher",
+  "Colin Decker"
+ ],
+ "v1_date": "2026-09-04",
+ "latest_version": 1,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main paper: 25 pages. Supplement: 108 pages",
+ "abstract": "We develop a framework for simultaneous change-point inference of high-dimensional functional time series. The observations are modeled as temporally dependent vectors whose coordinates take values in possibly different separable Hilbert spaces, thereby covering a broad class of functional data. Heterogeneous mean changes may occur at coordinate-specific locations, and the contemporaneous dependence across coordinates is left unrestricted. Our procedure is based on coordinatewise cumulative-sum statistics and a residual block multiplier bootstrap that provides a common critical value for the global test and all coordinatewise decisions. We establish a nonasymptotic Gaussian approximation, quantitative nonasymptotic bounds for strong family-wise error control under arbitrary mixtures of changed and unchanged coordinates, covariance-adaptive detection guarantees, and simultaneous high-probability bounds for change-point localization. The bounds accommodate high-dimensional regimes in which the number of functional coordinates grows exponentially in a power of the sample size. We investigate finite-sample performance in simulations and illustrate the method using river discharge curves and high-frequency financial log returns.",
+ "primary": "math.ST"
+}

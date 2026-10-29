@@ -1,0 +1,16 @@
+{
+ "id": "2505.15384",
+ "title": "A two-stage model for factors influencing citation counts",
+ "authors": [
+  "Pablo Dorta-González",
+  "Emilio Gómez-Déniz"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 1,
+ "latest_date": "2025-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 3 figures, 7 tables",
+ "abstract": "This work aims to study a count response random variable, the number of citations of a research paper, affected by some explanatory variables through a suitable regression model. Due to the fact that the count variable exhibits substantial variation since the sample variance is larger than the sample mean, the classical Poisson regression model seems not to be appropriate. We concentrate attention on the negative binomial regression model, which allows the variance of each measurement to be a function of its predicted value. Nevertheless, the process of citations of papers may be divided into two parts. In the first stage, the paper has no citations, and the second part provides the intensity of the citations. A hurdle model for separating the documents with citations and those without citations is considered. The dataset for the empirical application consisted of 43,190 research papers in the field of Economics and Business from 2014-2021, obtained from The Lens database. Citation counts and social attention scores for each article were gathered from Altmetric database. The main findings indicate that both collaboration and funding have a positive impact on citation counts and reduce the likelihood of receiving zero citations. Higher journal impact factors lead to higher citation counts, while lower peer review ratings lead to fewer citations and a higher probability of zero citations. Mentions in news, blogs, and social media have varying but generally limited effects on citation counts. Open access via repositories (green OA) correlates with higher citation counts and a lower probability of zero citations. In contrast, OA via the publisher's website without an explicit open license (bronze OA) is associated with higher citation counts but also with a higher probability of zero citations.",
+ "primary": "cs.DL"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.07620",
+ "title": "Operationalizing Allocation Probability Tests: Practical Guidance on Optimized Implementation for Power and Robustness",
+ "authors": [
+  "Stina Zetterstrom",
+  "David S. Robertson",
+  "Thomas Jaki",
+  "Sofía S. Villar"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recently, a new testing approach for response-adaptive clinical trials was proposed based on the allocation probabilities (AP) rather than the outcome data. While original work on the AP test focused on binary and normal endpoints and demonstrated that significant efficiency gains are possible, many critical questions remain open regarding its practical implementation and upper limits. In this work, rather than simply proposing novel statistics, we seek to understand the maximum gain that can be obtained with the AP test by optimizing how these probabilities are used to define the test statistic. We expand the method's practical utility by applying it to survival endpoints (exponential distributions) and introducing a rigorous strategy for selecting the null hypothesis to properly calibrate type I error. Our simulation studies reveal that by optimizing the functional form of the AP test, investigators can achieve a substantial increase in power, approaching the theoretical maximum, without sacrificing the patient outcome goals of the design. Furthermore, we explicitly compare the method to a standard Bayesian decision rule, finding that the optimized AP test significantly outperforms traditional frequentist tests while maintaining strict error control. This work provides a missing practical framework for implementing robust and optimized AP tests in complex response-adaptive settings.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.04312",
+ "title": "Adjusting for Spatial Correlation in Machine and Deep Learning",
+ "authors": [
+  "Matthew J. Heaton",
+  "Andrew Millane",
+  "Jake S. Rhodes"
+ ],
+ "v1_date": "2024-10-05",
+ "latest_version": 1,
+ "latest_date": "2024-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial data display correlation between observations collected at neighboring locations. Generally, machine and deep learning methods either do not account for this correlation or do so indirectly through correlated features and thereby forfeit predictive accuracy. To remedy this shortcoming, we propose preprocessing the data using a spatial decorrelation transform derived from properties of a multivariate Gaussian distribution and Vecchia approximations. The transformed data can then be ported into a machine or deep learning tool. After model fitting on the transformed data, the output can be spatially re-correlated via the corresponding inverse transformation. We show that including this spatial adjustment results in higher predictive accuracy on simulated and real spatial datasets.",
+ "primary": "stat.ME"
+}

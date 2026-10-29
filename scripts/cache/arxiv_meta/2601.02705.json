@@ -1,0 +1,17 @@
+{
+ "id": "2601.02705",
+ "title": "Diffusion limit for the stationary distribution of a history-dependent two-level M/M/1 queue",
+ "authors": [
+  "Masahiro Kobayashi",
+  "Masakiyo Miyazawa",
+  "Yutaka Sakuma"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 1,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recently, Atar and Miyazawa [2] introduced a multi-level GI/G/1 queue with a finite number of levels, where both the arrival and service rates depend on the level corresponding to the current queue length. For this model, they proved that the diffusion limit of its queue length process in heavy traffic is the level-dependent reflected Brownian motion of [6]. In a subsequent study, Kobayashi et al. [4] derived the corresponding diffusion limit of the stationary distribution. These studies are motivated by the control of service capacity depending on the queue length. We are interested in the more general case where this control may also depend on the history of the queue length. As the first step toward such a generalization, we specialize the multi-level GI/G/1 queue to a two-level M/M/1 queue. We then extend the dynamics of this model so that its arrival and service rates depend not only on the current queue length but also on the recent history of queue lengths. Under the stability condition for this model, we first compute its stationary distribution in closed form, then derive its diffusion limit in heavy traffic. Finally, using this diffusion limit, we derive approximation formulas for the stationary distribution and then numerically assess their accuracy.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2403.14925",
+ "title": "Computational Approaches for Exponential-Family Factor Analysis",
+ "authors": [
+  "Liang Wang",
+  "Luis Carvalho"
+ ],
+ "v1_date": "2024-03-22",
+ "latest_version": 3,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a general factor analysis framework where the $n$-by-$p$ data matrix is assumed to follow a general exponential family distribution entry-wise. While this model framework has been proposed before, we here further relax its distributional assumption by using a quasi-likelihood setup. By parameterizing the mean-variance relationship on data entries, we additionally introduce a dispersion parameter and entry-wise weights to model large variations and missing values. The resulting model is thus not only robust to distribution misspecification but also more flexible and able to capture mean-dependent covariance structures of the data matrix. Our main focus is on efficient computational approaches to perform the factor analysis. Previous modeling frameworks rely on simulated maximum likelihood (SML) to find the factorization solution, but this method was shown to lead to asymptotic bias when the simulated sample size grows slower than the square root of the sample size $n$, eliminating its practical application for data matrices with large $n$. Borrowing from expectation-maximization (EM) and stochastic gradient descent (SGD), we investigate three estimation procedures based on iterative factorization updates. Our proposed solution does not show asymptotic biases, and scales even better for large matrix factorizations with error $O(1/p)$. To support our findings, we conduct simulation experiments and discuss its application in four case studies.",
+ "primary": "stat.ME"
+}

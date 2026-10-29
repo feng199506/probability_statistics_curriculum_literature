@@ -1,0 +1,16 @@
+{
+ "id": "2603.10288",
+ "title": "Version-Robust Methods for Identifying Minimal Sufficient Statistics",
+ "authors": [
+  "Rafael Oliveira Cavalcante",
+  "Alexandre Galvão Patriota"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 2,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages (now it provides a generalization to separable spaces)",
+ "abstract": "Let $f_θ$ be the joint density of a random sample $X$. A frequently used criterion asserts that a statistic $T(X)$ is minimal sufficient if, for any sample points $x$ and $y$, $T(x) = T(y)$ exactly when there exists a finite constant $h_{xy} > 0$, independent of $θ$, such that $f_θ(y) = f_θ(x)h_{xy}$ for all $θ$. We show that this criterion is false in general via a counterexample exploiting the non-uniqueness of versions of Radon--Nikodym derivatives. Although Sato (1996) established sufficient regularity conditions for the validity of this criterion, these conditions are frequently intractable to verify in practice. We resolve this limitation by introducing a version-robust method applicable whenever sufficiency is known. Moreover, our method allows us to generalize Sato's approach from Euclidean settings to arbitrary analytic Borel sample spaces and separable measurable statistic spaces. We also obtain a method for exponential-family densities under verifiable hypotheses. Taken together, these results clarify when pointwise likelihood-ratio arguments for minimal sufficiency are mathematically sound in irregular settings. Finally, we construct a counterexample demonstrating that a distinct criterion for minimal sufficiency due to Pfanzagl (1994, 2017) similarly fails in the absence of supplementary hypotheses. Identifying minimal sufficient statistics is important not only for parsimonious data reduction but also because, in models admitting complete sufficiency, such statistics provide a practical route to the complete sufficient structure underlying optimal estimation and prediction.",
+ "primary": "math.ST"
+}

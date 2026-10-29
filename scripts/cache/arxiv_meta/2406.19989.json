@@ -1,0 +1,18 @@
+{
+ "id": "2406.19989",
+ "title": "A Closed-Form Solution to the 2-Sample Problem for Quantifying Changes in Gene Expression using Bayes Factors",
+ "authors": [
+  "Franziska Hoerbst",
+  "Gurpinder Singh Sidhu",
+  "Melissa Tomkins",
+  "Richard J. Morris"
+ ],
+ "v1_date": "2024-06-28",
+ "latest_version": 1,
+ "latest_date": "2024-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequencing technologies have revolutionised the field of molecular biology. We now have the ability to routinely capture the complete RNA profile in tissue samples. This wealth of data allows for comparative analyses of RNA levels at different times, shedding light on the dynamics of developmental processes, and under different environmental responses, providing insights into gene expression regulation and stress responses. However, given the inherent variability of the data stemming from biological and technological sources, quantifying changes in gene expression proves to be a statistical challenge. Here, we present a closed-form Bayesian solution to this problem. Our approach is tailored to the differential gene expression analysis of processed RNA-Seq data. The framework unifies and streamlines an otherwise complex analysis, typically involving parameter estimations and multiple statistical tests, into a concise mathematical equation for the calculation of Bayes factors. Using conjugate priors we can solve the equations analytically. For each gene, we calculate a Bayes factor, which can be used for ranking genes according to the statistical evidence for the gene's expression change given RNA-Seq data. The presented closed-form solution is derived under minimal assumptions and may be applied to a variety of other 2-sample problems.",
+ "primary": "stat.ME"
+}

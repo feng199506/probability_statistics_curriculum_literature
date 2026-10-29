@@ -1,0 +1,16 @@
+{
+ "id": "2606.22064",
+ "title": "Recursive lower bounds for uniform set systems of bounded VC-dimension",
+ "authors": [
+  "Xiaochen Zhao",
+  "Gennian Ge"
+ ],
+ "v1_date": "2026-06-20",
+ "latest_version": 1,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "For integers $n\\ge d+1$, let $\\mathsf{M}_d(n)$ denote the maximum size of a $(d+1)$-uniform family on an $n$-element ground set with VC-dimension at most $d$. For $n\\ge2d+2$, the classical construction of Ahlswede and Khachatrian, later generalized by Mubayi and Zhao, gives \\[ \\mathsf{M}_d(n)\\ge \\binom{n-1}{d}+\\binom{n-4}{d-2}. \\] We introduce a two-cover lifting construction and prove the recursive lower bound \\[ \\mathsf{M}_d(n)\\ge \\binom{n-1}{d}+\\binom{n-4}{d-2}+\\mathsf{M}_{d-3}(n-5) \\] for every $d\\ge 3$ and $n\\ge d+3$. Consequently, \\[ \\mathsf{M}_d(n)\\ge \\binom{n-1}{d}+\\binom{n-4}{d-2}+\\binom{n-6}{d-3}. \\] Thus the Mubayi--Zhao conjecture on the exact value of $\\mathsf{M}_d(n)$ for $n\\ge2(d+2)$ is false for any $d\\ge 3$. The proof is elementary and proceeds entirely through an explicit analysis of traces.",
+ "primary": "math.CO"
+}

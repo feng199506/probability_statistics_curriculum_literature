@@ -1,0 +1,17 @@
+{
+ "id": "2408.13000",
+ "title": "Air-HOLP: Adaptive Regularized Feature Screening for High Dimensional Correlated Data",
+ "authors": [
+  "Ibrahim Joudah",
+  "Samuel Muller",
+  "Houying Zhu"
+ ],
+ "v1_date": "2024-08-23",
+ "latest_version": 2,
+ "latest_date": "2025-03-02",
+ "journal_ref": "Stat Comput 35, 63 (2025)",
+ "doi": "10.1007/s11222-025-10599-6",
+ "comment": "",
+ "abstract": "Handling high-dimensional datasets presents substantial computational challenges, particularly when the number of features far exceeds the number of observations and when features are highly correlated. A modern approach to mitigate these issues is feature screening. In this work, the High-dimensional Ordinary Least-squares Projection (HOLP) feature screening method is advanced by employing adaptive ridge regularization. The impact of the ridge tuning parameter on the Ridge-HOLP method is examined and Adaptive iterative ridge-HOLP (Air-HOLP) is proposed, a data-adaptive advance to Ridge-HOLP where the ridge-regularization tuning parameter is selected iteratively and optimally for better feature screening performance. The proposed method addresses the challenges of tuning parameter selection in high dimensions by offering a computationally efficient and stable alternative to traditional methods like bootstrapping and cross-validation. Air-HOLP is evaluated using simulated data and a prostate cancer genetic dataset. The empirical results demonstrate that Air-HOLP has improved performance over a large range of simulation settings. We provide R codes implementing the Air-HOLP feature screening method and integrating it into existing feature screening methods that utilize the HOLP formula.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.19755",
+ "title": "Regularized $f$-Divergence Kernel Tests",
+ "authors": [
+  "Mónica Ribero",
+  "Antonin Schrab",
+  "Arthur Gretton"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a framework to construct practical kernel-based two-sample tests from the family of $f$-divergences. The test statistic is computed from the witness function of a regularized variational representation of the divergence, which we estimate using kernel methods. The proposed test is adaptive over hyperparameters such as the kernel bandwidth and the regularization parameter. We provide theoretical guarantees for statistical test power across our family of $f$-divergence estimates. While our test covers a variety of $f$-divergences, we bring particular focus to the Hockey-Stick divergence, motivated by its applications to differential privacy auditing and machine unlearning evaluation. For two-sample testing, experiments demonstrate that different $f$-divergences are sensitive to different localized differences, illustrating the importance of leveraging diverse statistics. For machine unlearning, we propose a relative test that distinguishes true unlearning failures from safe distributional variations.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.18210",
+ "title": "Numerical Generalized Randomized Hamiltonian Monte Carlo for piecewise smooth target densities",
+ "authors": [
+  "Jimmy Huy Tran",
+  "Tore Selland Kleppe"
+ ],
+ "v1_date": "2025-04-25",
+ "latest_version": 1,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional gradient-based sampling methods, like standard Hamiltonian Monte Carlo, require that the desired target distribution is continuous and differentiable. This limits the types of models one can define, although the presented models capture the reality in the observations better. In this project, Generalized Randomized Hamiltonian Monte Carlo (GRHMC) processes for sampling continuous densities with discontinuous gradient and piecewise smooth targets are proposed. The methods combine the advantages of Hamiltonian Monte Carlo methods with the nature of continuous time processes in the form of piecewise deterministic Markov processes to sample from such distributions. It is argued that the techniques lead to GRHMC processes that admit the desired target distribution as the invariant distribution in both scenarios. Simulation experiments verifying this fact and several relevant real-life models are presented, including a new parameterization of the spike and slab prior for regularized linear regression that returns sparse coefficient estimates and a regime switching volatility model.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.08172",
+ "title": "On GEE for Mean-Variance-Correlation Models: Variance Estimation and Model Selection",
+ "authors": [
+  "Zhenyu Xu",
+  "Jason P. Fine",
+  "Wenling Song",
+  "Jun Yan"
+ ],
+ "v1_date": "2024-01-16",
+ "latest_version": 2,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalized estimating equations (GEE) are of great importance in analyzing clustered data without full specification of multivariate distributions. A recent approach jointly models the mean, variance, and correlation coefficients of clustered data through three sets of regressions (Luo and Pan, 2022). We observe that these estimating equations, however, are a special case of those of Yan and Fine (2004) which further allows the variance to depend on the mean through a variance function. The proposed variance estimators may be incorrect for the variance and correlation parameters because of a subtle dependence induced by the nested structure of the estimating equations. We characterize model settings where their variance estimation is invalid and show the variance estimators in Yan and Fine (2004) correctly account for such dependence. In addition, we introduce a novel model selection criterion that enables the simultaneous selection of the mean-scale-correlation model. The sandwich variance estimator and the proposed model selection criterion are tested by several simulation studies and real data analysis, which validate its effectiveness in variance estimation and model selection. Our work also extends the R package geepack with the flexibility to apply different working covariance matrices for the variance and correlation structures.",
+ "primary": "stat.ME"
+}

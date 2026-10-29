@@ -1,0 +1,18 @@
+{
+ "id": "2508.13556",
+ "title": "Multinomial probit model based on joint quantile regression",
+ "authors": [
+  "Masaaki Okabe",
+  "Koki Matsuoka",
+  "Jun Tsuchida",
+  "Hiroshi Yadohisa"
+ ],
+ "v1_date": "2025-08-19",
+ "latest_version": 1,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The multinomial probit model is a typical statistical model for multiple-choice data applied in many research areas. When we are interested in some quantiles of relative utilities for understanding the distribution of these utilities, the multinomial probit model is unsuitable because we only interpret the expectation of relative utilities based on it. We thus propose quantile regression analysis methods for multinomial choice data based on joint quantile regression and multinomial probit models to compare relative utilities with some quantiles. Using a joint quantile regression model allows us to consider the conditional quantile points of relative utilities and explicitly describe the correlation structure in the latent variables. We derive the full conditional distribution under several prior distributions and estimate the model's parameters from the posterior distribution by Gibbs sampling. The ability to calculate by Gibbs sampling is not only computationally less expensive than the Metropolis--Hastings method, but also easier to implement. We also apply the proposed model to several datasets. Consequently, we obtain interpretable results about different parameters by quantile.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2603.25217",
+ "title": "Modeling and Forecasting Tail Risk Spillovers: A Component-Based CAViaR Approach",
+ "authors": [
+  "Demetrio Lacava"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 1,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 8 tables, 3 figures",
+ "abstract": "This paper introduces a new extension of the Conditional Autoregressive Value at Risk (CAViaR) model aimed at improving tail risk forecasting across assets. The proposed component-based model, CAViaR with Spillover Effects (CAViaR-SE), decomposes the conditional Value at Risk into a proper-risk component and a spillover component driven by a linear combination of tail risks from influential assets. These assets are selected via a recursive partial correlation algorithm, allowing multiple spillover sources with minimal parameterization. The spillover component acts as a predictable quantile shifter, directly affecting the conditional quantile dynamics rather than the volatility scale. Empirical results on Dow Jones Industrial Average stocks show that spillover effects account for a substantial share of total tail risk and significantly improve out-of-sample tail risk forecasts. Backtesting procedures, together with Model Confidence Set (MCS) analysis, confirm that CAViaR-SE provides well-calibrated risk measures and statistically superior forecasts compared to standard and augmented CAViaR models.",
+ "primary": "q-fin.RM"
+}

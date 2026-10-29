@@ -1,0 +1,16 @@
+{
+ "id": "2411.18957",
+ "title": "Bayesian Cluster Weighted Gaussian Models",
+ "authors": [
+  "Panagiotis Papastamoulis",
+  "Konstantinos Perrakis"
+ ],
+ "v1_date": "2024-11-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-06",
+ "journal_ref": "Journal of Classification, 2026",
+ "doi": "10.1007/s00357-026-09555-4",
+ "comment": "accepted to Journal of Classification",
+ "abstract": "We introduce a novel class of Bayesian mixtures for normal linear regression models which incorporates a further Gaussian random component for the distribution of the predictor variables. The proposed cluster-weighted model aims to encompass potential heterogeneity in the distribution of the response variable as well as in the multivariate distribution of the covariates for detecting signals relevant to the underlying latent structure. Of particular interest are potential signals originating from: (i) the linear predictor structures of the regression models and (ii) the covariance structures of the covariates. We model these two components using a lasso shrinkage prior for the regression coefficients and a graphical-lasso shrinkage prior for the covariance matrices. A fully Bayesian approach is followed for estimating the number of clusters, by treating the number of mixture components as random and implementing a trans-dimensional telescoping sampler. Alternative Bayesian approaches based on overfitting mixture models or using information criteria to select the number of components are also considered. The proposed method is compared against EM type implementation, mixtures of regressions and mixtures of experts. The method is illustrated using a set of simulation studies and a biomedical dataset.",
+ "primary": "stat.ME"
+}

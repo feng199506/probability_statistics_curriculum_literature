@@ -1,0 +1,17 @@
+{
+ "id": "2602.07613",
+ "title": "Fast Rerandomization for Balancing Covariates in Randomized Experiments: A Metropolis-Hastings Framework",
+ "authors": [
+  "Jiuyao Lu",
+  "Tianruo Zhang",
+  "Ke Zhu"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 1,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Balancing covariates is critical for credible and efficient randomized experiments. Rerandomization addresses this by repeatedly generating treatment assignments until covariate balance meets a prespecified threshold. By shrinking this threshold, it can achieve arbitrarily strong balance, with established results guaranteeing optimal estimation and valid inference in both finite-sample and asymptotic settings across diverse complex experimental settings. Despite its rigorous theoretical foundations, practical use is limited by the extreme inefficiency of rejection sampling, which becomes prohibitively slow under small thresholds and often forces practitioners to adopt suboptimal settings, leading to degraded performance. Existing work focusing on acceleration typically fail to maintain the uniformity over the acceptable assignment space, thus losing the theoretical grounds of classical rerandomization. Building upon a Metropolis-Hastings framework, we address this challenge by introducing an additional sampling-importance resampling step, which restores uniformity and preserves statistical guarantees. Our proposed algorithm, PSRSRR, achieves speedups ranging from 10 to 10,000 times while maintaining exact and asymptotic validity, as demonstrated by simulations and two real-data applications.",
+ "primary": "stat.ME"
+}

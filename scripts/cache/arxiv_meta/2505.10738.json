@@ -1,0 +1,15 @@
+{
+ "id": "2505.10738",
+ "title": "Statistically Significant Linear Regression Coefficients Solely Driven By Outliers In Finite-sample Inference",
+ "authors": [
+  "Felix Reichel"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 2,
+ "latest_date": "2025-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures, 1 table",
+ "abstract": "In this paper, we investigate the impact of outliers on the statistical significance of coefficients in linear regression. We demonstrate, through numerical simulation using R, that a single outlier can cause an otherwise insignificant coefficient to appear statistically significant. We compare this with robust Huber regression, which reduces the effects of outliers. Afterwards, we approximate the influence of a single outlier on estimated regression coefficients and discuss common diagnostic statistics to detect influential observations in regression (e.g., studentized residuals). Furthermore, we relate this issue to the optional normality assumption in simple linear regression [14], required for exact finite-sample inference but asymptotically justified for large n by the Central Limit Theorem (CLT). We also address the general dangers of relying solely on p-values without performing adequate regression diagnostics. Finally, we provide a brief overview of regression methods and discuss how they relate to the assumptions of the Gauss-Markov theorem.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.02454",
+ "title": "Finite-Sample Valid Randomization Tests for Monotone Spillover Effects",
+ "authors": [
+  "Shunzhuang Huang",
+  "Xinran Li",
+  "Panos Toulis"
+ ],
+ "v1_date": "2025-01-05",
+ "latest_version": 2,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomization tests have gained popularity for causal inference under network interference because they are finite-sample valid with minimal assumptions. However, existing procedures are limited as they primarily focus on the existence of spillovers through sharp null hypotheses on potential outcomes. In this paper, we expand the scope of randomization procedures in network settings by developing new tests for the monotonicity of spillover effects. These tests offer insights into whether spillover effects increase, decrease, or exhibit ``diminishing returns'' along certain network dimensions of interest. Our approach partitions the network into multiple (possibly overlapping) parts and tests a monotone contrast hypothesis in each sub-network. The test decisions can then be aggregated in various ways depending on how each test is constructed. We demonstrate our method by re-analyzing a large-scale policing experiment in Colombia, which reveals evidence of monotonicity related to the ``crime displacement hypothesis''. Our analysis suggests that crime spillovers on a control street increase with the number of nearby streets receiving more intense policing but diminish at higher exposure levels.",
+ "primary": "stat.ME"
+}

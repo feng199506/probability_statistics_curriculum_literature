@@ -1,0 +1,18 @@
+{
+ "id": "2402.08181",
+ "title": "Algebraic approach to maximum likelihood factor analysis",
+ "authors": [
+  "Ryoya Fukasaku",
+  "Kei Hirose",
+  "Yutaro Kabata",
+  "Keisuke Teramoto"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 1,
+ "latest_date": "2024-02-13",
+ "journal_ref": "Psychometrika 90 (2025) 1732-1764",
+ "doi": "10.1017/psy.2025.10047",
+ "comment": "",
+ "abstract": "In exploratory factor analysis, model parameters are usually estimated by maximum likelihood method. The maximum likelihood estimate is obtained by solving a complicated multivariate algebraic equation. Since the solution to the equation is usually intractable, it is typically computed with continuous optimization methods, such as Newton-Raphson methods. With this procedure, however, the solution is inevitably dependent on the estimation algorithm and initial value since the log-likelihood function is highly non-concave. Particularly, the estimates of unique variances can result in zero or negative, referred to as improper solutions; in this case, the maximum likelihood estimate can be severely unstable. To delve into the issue of the instability of the maximum likelihood estimate, we compute exact solutions to the multivariate algebraic equation by using algebraic computations. We provide a computationally efficient algorithm based on the algebraic computations specifically optimized for maximum likelihood factor analysis. To be specific, Gröebner basis and cylindrical decomposition are employed, powerful tools for solving the multivariate algebraic equation. Our proposed procedure produces all exact solutions to the algebraic equation; therefore, these solutions are independent of the initial value and estimation algorithm. We conduct Monte Carlo simulations to investigate the characteristics of the maximum likelihood solutions.",
+ "primary": "math.ST"
+}

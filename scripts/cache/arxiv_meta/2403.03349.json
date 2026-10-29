@@ -1,0 +1,18 @@
+{
+ "id": "2403.03349",
+ "title": "A consensus-constrained parsimonious Gaussian mixture model for clustering hyperspectral images",
+ "authors": [
+  "Ganesh Babu",
+  "Aoife Gowen",
+  "Michael Fop",
+  "Isobel Claire Gormley"
+ ],
+ "v1_date": "2024-03-05",
+ "latest_version": 2,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of hyperspectral imaging to investigate food samples has grown due to the improved performance and lower cost of instrumentation. Food engineers use hyperspectral images to classify the type and quality of a food sample, typically using classification methods. In order to train these methods, every pixel in each training image needs to be labelled. Typically, computationally cheap threshold-based approaches are used to label the pixels, and classification methods are trained based on those labels. However, threshold-based approaches are subjective and cannot be generalized across hyperspectral images taken in different conditions and of different foods. Here a consensus-constrained parsimonious Gaussian mixture model (ccPGMM) is proposed to label pixels in hyperspectral images using a model-based clustering approach. The ccPGMM utilizes information that is available on some pixels and specifies constraints on those pixels belonging to the same or different clusters while clustering the rest of the pixels in the image. A latent variable model is used to represent the high-dimensional data in terms of a small number of underlying latent factors. To ensure computational feasibility, a consensus clustering approach is employed, where the data are divided into multiple randomly selected subsets of variables and constrained clustering is applied to each data subset; the clustering results are then consolidated across all data subsets to provide a consensus clustering solution. The ccPGMM approach is applied to simulated datasets and real hyperspectral images of three types of puffed cereal, corn, rice, and wheat. Improved clustering performance and computational efficiency are demonstrated when compared to other current state-of-the-art approaches.",
+ "primary": "stat.ME"
+}

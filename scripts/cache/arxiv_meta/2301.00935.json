@@ -1,0 +1,16 @@
+{
+ "id": "2301.00935",
+ "title": "A Survey of Feedback Particle Filter and related Controlled Interacting Particle Systems (CIPS)",
+ "authors": [
+  "Amirhossein Taghvaei",
+  "Prashant G. Mehta"
+ ],
+ "v1_date": "2023-01-03",
+ "latest_version": 2,
+ "latest_date": "2023-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this survey, we describe controlled interacting particle systems (CIPS) to approximate the solution of the optimal filtering and the optimal control problems. Part I of the survey is focussed on the feedback particle filter (FPF) algorithm, its derivation based on optimal transportation theory, and its relationship to the ensemble Kalman filter (EnKF) and the conventional sequential importance sampling-resampling (SIR) particle filters. The central numerical problem of FPF -- to approximate the solution of the Poisson equation -- is described together with the main solution approaches. An analytical and numerical comparison with the SIR particle filter is given to illustrate the advantages of the CIPS approach. Part II of the survey is focussed on adapting these algorithms for the problem of reinforcement learning. The survey includes several remarks that describe extensions as well as open problems in this subject.",
+ "primary": "eess.SY"
+}

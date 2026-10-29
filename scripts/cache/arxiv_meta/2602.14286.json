@@ -1,0 +1,17 @@
+{
+ "id": "2602.14286",
+ "title": "Online LLM watermark detection via e-processes",
+ "authors": [
+  "Weijie Su",
+  "Ruodu Wang",
+  "Zinan Zhao"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 4,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Watermarking for large language models (LLMs) has emerged as an effective tool for distinguishing AI-generated text from human-written content. Statistically, watermark schemes induce dependence between generated tokens and a pseudo-random sequence, reducing watermark detection to a hypothesis testing problem on independence. We develop a unified framework for LLM watermark detection based on e-processes, providing anytime-valid guarantees for online testing. We propose various methods to construct empirically adaptive e-processes that can enhance the detection power. The proposed methods are applicable to any sequential testing problem where independent pivotal statistics are available. In addition, theoretical results are established to characterize the power properties of the proposed procedures. Some experiments demonstrate that the proposed framework achieves competitive performance compared to existing watermark detection methods.",
+ "primary": "stat.ME"
+}

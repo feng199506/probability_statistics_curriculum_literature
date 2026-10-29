@@ -1,0 +1,19 @@
+{
+ "id": "2603.21524",
+ "title": "CatRAG: Functor-Guided Structural Debiasing with Retrieval Augmentation for Fair LLMs",
+ "authors": [
+  "Ravi Ranjan",
+  "Utkarsh Grover",
+  "Mayur Akewar",
+  "Xiaomin Lin",
+  "Agoritsa Polyzou"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 4 figures, and accepted in IJCNN 2026 (part of IEEE WCCI 2026)",
+ "abstract": "Large Language Models (LLMs) are deployed in high-stakes settings but can show demographic, gender, and geographic biases that undermine fairness and trust. Prior debiasing methods, including embedding-space projections, prompt-based steering, and causal interventions, often act at a single stage of the pipeline, resulting in incomplete mitigation and brittle utility trade-offs under distribution shifts. We propose CatRAG Debiasing, a dual-pronged framework that integrates functor with Retrieval-Augmented Generation (RAG) guided structural debiasing. The functor component leverages category-theoretic structure to induce a principled, structure-preserving projection that suppresses bias-associated directions in the embedding space while retaining task-relevant semantics. On the Bias Benchmark for Question Answering (BBQ) across three open-source LLMs (Meta Llama-3, OpenAI GPT-OSS, and Google Gemma-3), CatRAG achieves state-of-the-art results, improving accuracy by up to 40% over the corresponding base models and by more than 10% over prior debiasing methods, while reducing bias scores to near zero (from 60% for the base models) across gender, nationality, race, and intersectional subgroups.",
+ "primary": "cs.CL"
+}

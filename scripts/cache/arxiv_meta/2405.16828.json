@@ -1,0 +1,17 @@
+{
+ "id": "2405.16828",
+ "title": "Kernel-based Optimally Weighted Conformal Time-Series Prediction",
+ "authors": [
+  "Jonghyeok Lee",
+  "Chen Xu",
+  "Yao Xie"
+ ],
+ "v1_date": "2024-05-27",
+ "latest_version": 4,
+ "latest_date": "2026-02-11",
+ "journal_ref": "In Proceedings of the Thirteenth International Conference on Learning Representations (ICLR), 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we present a novel conformal prediction method for time-series, which we call Kernel-based Optimally Weighted Conformal Prediction Intervals (KOWCPI). Specifically, KOWCPI adapts the classic Reweighted Nadaraya-Watson (RNW) estimator for quantile regression on dependent data and learns optimal data-adaptive weights. Theoretically, we tackle the challenge of establishing a conditional coverage guarantee for non-exchangeable data under strong mixing conditions on the non-conformity scores. We demonstrate the superior performance of KOWCPI on real and synthetic time-series data against state-of-the-art methods, where KOWCPI achieves narrower confidence intervals without losing coverage.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2607.28322",
+ "title": "Non-partitioned e-detectors for nonparametric sequential change detection",
+ "authors": [
+  "Aytijhya Saha",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2026-07-30",
+ "latest_version": 1,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of sequential change detection over a general class of probability distributions ($\\mathcal P$), where both the pre-change and post-change distributions are unknown and belong to $\\mathcal P$. We do not assume a pre-specified partition of $\\mathcal P$ into pre- and post-change families. We propose a general class of sequential change detectors obtained by aggregating point-null e-processes over possible changepoints and taking an infimum over candidate no-change distributions. The weights in the aggregation scheme determine whether they attain average run length (ARL) control and probability-of-false-alarm (PFA) control. Under suitable assumptions, we prove that our methods achieve first-order asymptotically optimal detection delay. Concrete examples include sub-Gaussian and bounded mean changes, Gaussian mean changes with unknown variance, as well as changes in Markov transition matrices.",
+ "primary": "stat.ME"
+}

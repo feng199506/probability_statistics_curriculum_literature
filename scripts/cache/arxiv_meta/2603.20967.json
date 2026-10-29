@@ -1,0 +1,18 @@
+{
+ "id": "2603.20967",
+ "title": "Hard labels sampled from sparse targets mislead rotation invariant algorithms",
+ "authors": [
+  "Avrajit Ghosh",
+  "Bin Yu",
+  "Manfred Warmuth",
+  "Peter Bartlett"
+ ],
+ "v1_date": "2026-03-21",
+ "latest_version": 2,
+ "latest_date": "2026-06-04",
+ "journal_ref": "ICML-2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "One of the most common machine learning setups is logistic regression. In many classification models, including neural networks, the final prediction is obtained by applying a logistic link function to a linear score. In binary logistic regression, the feedback can be either soft labels, corresponding to the true conditional probability of the data (as in distillation), or sampled hard labels (taking values $\\pm 1$). We point out a fundamental problem that arises even in a particularly favorable setting, where the goal is to learn a noise-free soft target of the form $σ(\\mathbf{x}^{\\top}\\mathbf{w}^{\\star})$. In the over-constrained case (i.e. the number of samples $n$ exceeds the input dimension $d$) with examples $(\\mathbf{x}_i,σ(\\mathbf{x}_i^{\\top}\\mathbf{w}^{\\star}))$, it is sufficient to recover $\\mathbf{w}^{\\star}$ and hence achieve the Bayes risk. However, we prove that when the examples are labeled by hard labels $y_i$ sampled from the same conditional distribution $σ(\\mathbf{x}_i^{\\top}\\mathbf{w}^{\\star})$ and $\\mathbf{w}^{\\star}$ is $s$-sparse, then rotation-invariant algorithms are provably suboptimal: they incur an excess risk $Ω\\!\\left(\\frac{d-1}{n}\\right)$, while there are simple non-rotation invariant algorithms with excess risk $O(\\frac{s\\log d}{n})$. The simplest rotation invariant algorithm is gradient descent on the logistic loss (with early stopping). A simple non-rotation-invariant algorithm for sparse targets that achieves the above upper bounds uses gradient descent on the weights $u_i,v_i$, where now the linear weight $w_i$ is reparameterized as $u_iv_i$.",
+ "primary": "stat.ML"
+}

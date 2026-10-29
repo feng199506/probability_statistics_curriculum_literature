@@ -1,0 +1,17 @@
+{
+ "id": "2311.13825",
+ "title": "Online Prediction of Extreme Conditional Quantiles via B-Spline Interpolation",
+ "authors": [
+  "Zhengpin Li",
+  "Jian Wang",
+  "Yanxi Hou"
+ ],
+ "v1_date": "2023-11-23",
+ "latest_version": 1,
+ "latest_date": "2023-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 16 figures",
+ "abstract": "Extreme quantiles are critical for understanding the behavior of data in the tail region of a distribution. It is challenging to estimate extreme quantiles, particularly when dealing with limited data in the tail. In such cases, extreme value theory offers a solution by approximating the tail distribution using the Generalized Pareto Distribution (GPD). This allows for the extrapolation beyond the range of observed data, making it a valuable tool for various applications. However, when it comes to conditional cases, where estimation relies on covariates, existing methods may require computationally expensive GPD fitting for different observations. This computational burden becomes even more problematic as the volume of observations increases, sometimes approaching infinity. To address this issue, we propose an interpolation-based algorithm named EMI. EMI facilitates the online prediction of extreme conditional quantiles with finite offline observations. Combining quantile regression and GPD-based extrapolation, EMI formulates as a bilevel programming problem, efficiently solvable using classic optimization methods. Once estimates for offline observations are obtained, EMI employs B-spline interpolation for covariate-dependent variables, enabling estimation for online observations with finite GPD fitting. Simulations and real data analysis demonstrate the effectiveness of EMI across various scenarios.",
+ "primary": "stat.ME"
+}

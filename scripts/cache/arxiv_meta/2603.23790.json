@@ -1,0 +1,16 @@
+{
+ "id": "2603.23790",
+ "title": "Root Finding and Metamodeling for Rapid and Robust Computer Model Calibration",
+ "authors": [
+  "Yongseok Jeon",
+  "Sara Shashaani"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs. We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search. We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance. We develop a metamodel-based root finding framework under kriging and stochastic kriging that is augmented with a sequential search space reduction. We derive three new acquisition functions for finding roots of the approximate problem along with their derivatives usable by first-order solvers. Compared to kriging, stochastic kriging accounts for observational noise, promoting more robust solutions. We also analyze the case where a root may not exist. Our analysis of the asymptotic behavior in this context show that, since existence of roots in the approximation problem may not be known a priori, using new acquisition functions will not compromise the outcome. Numerical experiments on data-driven and physics-based examples demonstrate significant computational gains over standard calibration approaches.",
+ "primary": "stat.ME"
+}

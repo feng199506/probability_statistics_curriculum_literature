@@ -1,0 +1,16 @@
+{
+ "id": "2406.14738",
+ "title": "Parameter estimation for partially observed second-order diffusion processes",
+ "authors": [
+  "Jan Albrecht",
+  "Sebastian Reich"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 2,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating parameters of a diffusion process given continuous-time observations of the process via maximum likelihood approaches or, online, via stochastic gradient descent or Kalman filter formulations constitutes a well-established research area. It has also been established previously that these techniques are, in general, not robust to perturbations in the data in the form of temporal correlations of the driving noise. While the subject is relatively well understood and appropriate modifications have been suggested in the context of multi-scale diffusion processes and their reduced model equations, we consider here an alternative but related setting where a diffusion process in positions and velocities is only observed via its positions. In this note, we propose a simple modification to standard stochastic gradient descent and Kalman filter formulations, which eliminates the arising systematic estimation biases. The modification can be extended to standard maximum likelihood approaches and avoids computation of previously proposed correction terms.",
+ "primary": "stat.ME"
+}

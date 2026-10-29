@@ -1,0 +1,17 @@
+{
+ "id": "2312.16734",
+ "title": "Selective Inference for Sparse Graphs via Neighborhood Selection",
+ "authors": [
+  "Yiling Huang",
+  "Snigdha Panigrahi",
+  "Walter Dempsey"
+ ],
+ "v1_date": "2023-12-27",
+ "latest_version": 1,
+ "latest_date": "2023-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 6 figures, 3 tables",
+ "abstract": "Neighborhood selection is a widely used method used for estimating the support set of sparse precision matrices, which helps determine the conditional dependence structure in undirected graphical models. However, reporting only point estimates for the estimated graph can result in poor replicability without accompanying uncertainty estimates. In fields such as psychology, where the lack of replicability is a major concern, there is a growing need for methods that can address this issue. In this paper, we focus on the Gaussian graphical model. We introduce a selective inference method to attach uncertainty estimates to the selected (nonzero) entries of the precision matrix and decide which of the estimated edges must be included in the graph. Our method provides an exact adjustment for the selection of edges, which when multiplied with the Wishart density of the random matrix, results in valid selective inferences. Through the use of externally added randomization variables, our adjustment is easy to compute, requiring us to calculate the probability of a selection event, that is equivalent to a few sign constraints and that decouples across the nodewise regressions. Through simulations and an application to a mobile health trial designed to study mental health, we demonstrate that our selective inference method results in higher power and improved estimation accuracy.",
+ "primary": "stat.ME"
+}

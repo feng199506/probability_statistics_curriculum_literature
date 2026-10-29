@@ -1,0 +1,16 @@
+{
+ "id": "2405.11676",
+ "title": "The High-Dimensional Asymptotics of Principal Component Regression",
+ "authors": [
+  "Alden Green",
+  "Elad Romanov"
+ ],
+ "v1_date": "2024-05-19",
+ "latest_version": 3,
+ "latest_date": "2025-06-02",
+ "journal_ref": "Annals of Statistics, 2025",
+ "doi": "10.1214/25-aos2532",
+ "comment": "",
+ "abstract": "We study principal components regression (PCR) in an asymptotic high-dimensional regression setting, where the number of data points is proportional to the dimension. We derive exact limiting formulas for the estimation and prediction risks, which depend in a complicated manner on the eigenvalues of the population covariance, the alignment between the population PCs and the true signal, and the number of selected PCs. A key challenge in the high-dimensional setting stems from the fact that the sample covariance is an inconsistent estimate of its population counterpart, so that sample PCs may fail to fully capture potential latent low-dimensional structure in the data. We demonstrate this point through several case studies, including that of a spiked covariance model. To calculate the asymptotic prediction risk, we leverage tools from random matrix theory which to our knowledge have not seen much use to date in the statistics literature: multi-resolvent traces and their associated eigenvector overlap measures.",
+ "primary": "math.ST"
+}

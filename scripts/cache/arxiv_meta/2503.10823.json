@@ -1,0 +1,18 @@
+{
+ "id": "2503.10823",
+ "title": "Surviving the frailty of time to event analysis in massive datasets with Generalized Additive Models (and the help of Simon Laplace)",
+ "authors": [
+  "Christos Argyropoulos",
+  "Hamza Mir",
+  "Maria-Eleni Roumelioti",
+  "Pablo Garcia"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 1,
+ "latest_date": "2025-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Analyses of time to event datasets have been invariably based on the Cox proportional hazards model (PHM). Reformulations of the PHM as a Poisson Generalized Additive Model (GAM) or as a Generalized Linear Mixed Model (GLMM) have been proposed in the literature, aiming to increase the flexibility of the PHM and allow its use in situations in which complex spatiotemporal relationships have to be taken into account when modeling survival. In this report, we provide a unified framework for considering these previous attempts and consider the implementation in software for GAM and GLMM in the R programming language. The connection between GAM/GLMM and the PHM is leveraged to provide computationally efficient implementations for a subclass of survival models that incorporate individual random effects ('frailty models'). Frailty models provide a unified method to address repeated events, correlated outcomes and also time varying visitation schedules when analyzing Electronic Health Record data. However the current implementation of frailty models in software facilities for the Cox model does not scale because of long computation times; conversely the direct implementation of individual random effects in GAM/GLMM software does not scale well with memory usage. We propose a two stage method for survival models with frailty based on the Laplace approximation. Using a D-optimal experimental design to simulate the performance of the proposed method across simulated datasets we illustrate that the proposed method can circumvent the limitations of existing implementations, opening up the possibility to model datasets of hundred of thousands to million individuals using high end workstations from within R.",
+ "primary": "stat.ME"
+}

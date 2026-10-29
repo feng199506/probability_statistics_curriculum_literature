@@ -1,0 +1,18 @@
+{
+ "id": "2404.07771",
+ "title": "An Overview of Diffusion Models: Applications, Guided Generation, Statistical Rates and Optimization",
+ "authors": [
+  "Minshuo Chen",
+  "Song Mei",
+  "Jianqing Fan",
+  "Mengdi Wang"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 1,
+ "latest_date": "2024-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models, a powerful and universal generative AI technology, have achieved tremendous success in computer vision, audio, reinforcement learning, and computational biology. In these applications, diffusion models provide flexible high-dimensional data modeling, and act as a sampler for generating new samples under active guidance towards task-desired properties. Despite the significant empirical success, theory of diffusion models is very limited, potentially slowing down principled methodological innovations for further harnessing and improving diffusion models. In this paper, we review emerging applications of diffusion models, understanding their sample generation under various controls. Next, we overview the existing theories of diffusion models, covering their statistical properties and sampling capabilities. We adopt a progressive routine, beginning with unconditional diffusion models and connecting to conditional counterparts. Further, we review a new avenue in high-dimensional structured optimization through conditional diffusion models, where searching for solutions is reformulated as a conditional sampling problem and solved by diffusion models. Lastly, we discuss future directions about diffusion models. The purpose of this paper is to provide a well-rounded theoretical exposure for stimulating forward-looking theories and methods of diffusion models.",
+ "primary": "cs.LG"
+}

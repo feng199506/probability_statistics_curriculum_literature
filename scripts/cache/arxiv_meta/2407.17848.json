@@ -1,0 +1,17 @@
+{
+ "id": "2407.17848",
+ "title": "Bayesian Benchmarking Small Area Estimation via Entropic Tilting",
+ "authors": [
+  "Shonosuke Sugasawa",
+  "Genya Kobayashi",
+  "Yuki Kawakubo"
+ ],
+ "v1_date": "2024-07-25",
+ "latest_version": 2,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "Benchmarking estimation and its risk evaluation is a practically important issue in small area estimation. While Bayesian methods have been widely adopted in small area estimation, existing benchmarking approaches are often ad-hoc, such as projecting each MCMC draw to satisfy the constraint. In contrast, our work provides a unified Bayesian formulation based on entropic tilting, which offers a more principled way to define the benchmarked posterior distribution. This approach yields benchmarked point estimates together with coherent uncertainty quantification. We first introduce general Monte Carlo methods for obtaining a benchmarked posterior under hierarchical Bayesian approaches and then show that the benchmarked posterior under empirical Bayesian frameworks can be obtained in an analytical form for some small area models. We demonstrate the usefulness of the proposed method through simulation and empirical studies.",
+ "primary": "stat.ME"
+}

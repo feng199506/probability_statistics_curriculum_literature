@@ -1,0 +1,20 @@
+{
+ "id": "2505.19093",
+ "title": "A Unified Framework for Variable Selection in Model-Based Clustering with Missing Not at Random",
+ "authors": [
+  "Binh H. Ho",
+  "Long Nguyen Chi",
+  "TrungTin Nguyen",
+  "Binh T. Nguyen",
+  "Van Ha Hoang",
+  "Christopher Drovandi"
+ ],
+ "v1_date": "2025-05-25",
+ "latest_version": 3,
+ "latest_date": "2025-11-04",
+ "journal_ref": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+ "doi": "",
+ "comment": "Binh H. Ho, Long Nguyen Chi, and TrungTin Nguyen are co-first authors. Correct final typos for the NeurIPS 2025 camera-ready version",
+ "abstract": "Model-based clustering integrated with variable selection is a powerful tool for uncovering latent structures within complex data. However, its effectiveness is often hindered by challenges such as identifying relevant variables that define heterogeneous subgroups and handling data that are missing not at random, a prevalent issue in fields like transcriptomics. While several notable methods have been proposed to address these problems, they typically tackle each issue in isolation, thereby limiting their flexibility and adaptability. This paper introduces a unified framework designed to address these challenges simultaneously. Our approach incorporates a data-driven penalty matrix into penalized clustering to enable more flexible variable selection, along with a mechanism that explicitly models the relationship between missingness and latent class membership. We demonstrate that, under certain regularity conditions, the proposed framework achieves both asymptotic consistency and selection consistency, even in the presence of missing data. This unified strategy significantly enhances the capability and efficiency of model-based clustering, advancing methodologies for identifying informative variables that define homogeneous subgroups in the presence of complex missing data patterns. The performance of the framework, including its computational efficiency, is evaluated through simulations and demonstrated using both synthetic and real-world transcriptomic datasets.",
+ "primary": "stat.ME"
+}

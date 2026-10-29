@@ -1,0 +1,17 @@
+{
+ "id": "2507.14442",
+ "title": "Bivariate generalized autoregressive models for forecasting bivariate non-Gaussian times series",
+ "authors": [
+  "Tatiane Fontana Ribeiro",
+  "Airlane P. Alencar",
+  "Fábio M. Bayer"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 1,
+ "latest_date": "2025-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a novel approach, the bivariate generalized autoregressive (BGAR) model, for modeling and forecasting bivariate time series data. The BGAR model generalizes the bivariate vector autoregressive (VAR) models by allowing data that does not necessarily follow a normal distribution. We consider a random vector of two time series and assume each belongs to the canonical exponential family, similarly to the univariate generalized autoregressive moving average (GARMA) model. We include autoregressive terms of one series into the dynamical structure of the other and vice versa. The model parameters are estimated using the conditional maximum likelihood (CML) method. We provide general closed-form expressions for the conditional score vector and conditional Fisher information matrix, encompassing all canonical exponential family distributions. We develop asymptotic confidence intervals and hypothesis tests. We discuss techniques for model selection, residual diagnostic analysis, and forecasting. We carry out Monte Carlo simulation studies to evaluate the performance of the finite sample CML inferences, including point and interval estimation. An application to real data analyzes the number of leptospirosis cases on hospitalizations due to leptospirosis in São Paulo state, Brazil. Competing models such as GARMA, autoregressive integrated moving average (ARIMA), and VAR models are considered for comparison purposes. The new model outperforms the competing models by providing more accurate out-of-sample forecasting and allowing quantification of the lagged effect of the case count series on hospitalizations due to leptospirosis.",
+ "primary": "stat.ME"
+}

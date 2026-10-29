@@ -1,0 +1,17 @@
+{
+ "id": "2312.11393",
+ "title": "Assessing Estimation Uncertainty under Model Misspecification",
+ "authors": [
+  "Rong Li",
+  "Yichen Qin",
+  "Yang Li"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 1,
+ "latest_date": "2023-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model misspecification is ubiquitous in data analysis because the data-generating process is often complex and mathematically intractable. Therefore, assessing estimation uncertainty and conducting statistical inference under a possibly misspecified working model is unavoidable. In such a case, classical methods such as bootstrap and asymptotic theory-based inference frequently fail since they rely heavily on the model assumptions. In this article, we provide a new bootstrap procedure, termed local residual bootstrap, to assess estimation uncertainty under model misspecification for generalized linear models. By resampling the residuals from the neighboring observations, we can approximate the sampling distribution of the statistic of interest accurately. Instead of relying on the score equations, the proposed method directly recreates the response variables so that we can easily conduct standard error estimation, confidence interval construction, hypothesis testing, and model evaluation and selection. It performs similarly to classical bootstrap when the model is correctly specified and provides a more accurate assessment of uncertainty under model misspecification, offering data analysts an easy way to guard against the impact of misspecified models. We establish desirable theoretical properties, such as the bootstrap validity, for the proposed method using the surrogate residuals. Numerical results and real data analysis further demonstrate the superiority of the proposed method.",
+ "primary": "stat.ME"
+}

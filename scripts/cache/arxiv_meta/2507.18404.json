@@ -1,0 +1,18 @@
+{
+ "id": "2507.18404",
+ "title": "Convergence Rate of Efficient MCMC with Ancillarity-Sufficiency Interweaving Strategy for Panel Data Models",
+ "authors": [
+  "Makoto Nakakita",
+  "Tomoki Toyabe",
+  "Teruo Nakatsuma",
+  "Takahiro Hoshino"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 2,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Improving Markov chain Monte Carlo algorithm efficiency is essential for enhancing computational speed and inferential accuracy in Bayesian analysis. These improvements can be effectively achieved using the ancillarity-sufficiency interweaving strategy (ASIS), an effective means of achieving such gains. Herein, we provide the first rigorous theoretical justification for applying ASIS in Bayesian hierarchical panel data models. Asymptotic analysis demonstrated that when the product of prior variance of unobserved heterogeneity and cross-sectional sample size N is sufficiently large, the latent individual effects can be sampled almost independently of their global mean. This near-independence accounts for ASIS's rapid mixing behavior and highlights its suitability for modern \"tall\" panel datasets. We derived simple inequalities to predict which conventional data augmentation scheme-sufficient augmentation (SA) or ancillary augmentation (AA)-yields faster convergence. By interweaving SA and AA, ASIS achieves optimal geometric rate of convergence and renders the Markov chain for the global mean parameter asymptotically independent and identically distributed. Monte Carlo experiment confirm that this theoretical efficiency ordering holds even for small panels (e.g., N=10). These findings confirm the empirical success of ASIS application across finance, marketing, and sports, laying the groundwork for its extension to models with more complex covariate structures and nonGaussian specifications.",
+ "primary": "stat.ME"
+}

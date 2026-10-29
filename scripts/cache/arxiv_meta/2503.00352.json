@@ -1,0 +1,16 @@
+{
+ "id": "2503.00352",
+ "title": "Review on Determining the Number of Communities in Network Data",
+ "authors": [
+  "Zhengyuan Du",
+  "Jason Cui"
+ ],
+ "v1_date": "2025-03-01",
+ "latest_version": 1,
+ "latest_date": "2025-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper reviews statistical methods for hypothesis testing and clustering in network models. We analyze the method by Bickel et al. (2016) for deriving the asymptotic null distribution of the largest eigenvalue, noting its slow convergence and the need for bootstrap corrections. The SCORE method by Jin et al. (2015) and the NCV method by Chen et al. (2018) are evaluated for their efficacy in clustering within Degree-Corrected Block Models, with NCV facing challenges due to its time-intensive nature. We suggest exploring eigenvector entry distributions as a potential efficiency improvement.",
+ "primary": "stat.ME"
+}

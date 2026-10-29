@@ -1,0 +1,23 @@
+{
+ "id": "2601.14498",
+ "title": "The RobinCar Family: R Tools for Robust Covariate Adjustment in Randomized Clinical Trials",
+ "authors": [
+  "Marlena Bannick",
+  "Yuanyuan Bian",
+  "Gregory Chen",
+  "Liming Li",
+  "Yuhan Qian",
+  "Daniel Sabanés Bové",
+  "Dong Xi",
+  "Ting Ye",
+  "Yanyao Yi"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 1,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "On behalf of the Software Subteam ASA-BIOP Covariate Adjustment Scientific Working Group. All authors contributed equally to this work",
+ "abstract": "Purpose: Covariate adjustment is a powerful statistical technique that can increase efficiency in clinical trials. Recent guidance from the U.S. FDA provided recommendations and best practices for using covariate adjustment. However, there has existed a gap between the extensive statistical literature on covariate adjustment and software that is easy to use and abides by these best practices. Methods: We have developed the RobinCar Family, which is comprised of RobinCar and RobinCar2. These two R packages enable covariate-adjusted analyses for continuous, discrete, and time-to-event outcomes that follow best practices. For continuous and discrete outcomes, the functions in the RobinCar Family facilitate traditional forms of covariate adjustment such as ANCOVA as well as more recent approaches like ANHECOVA, G-computation with generalized linear models and machine learning models, and adjustment for a super-covariate (as in PROCOVA(TM)). Functions for time-to-event outcomes implement the covariate-adjusted log-rank test, the stratified covariate-adjusted log-rank test, and the marginal covariate-adjusted hazard ratio. The RobinCar Family is supported by the ASA Biopharmaceutical Section Covariate Adjustment Scientific Working Group. Results: We provide an accessible overview of the covariate-adjusted statistical methods, and describe how they are implemented in RobinCar and RobinCar2. We highlight important usage notes for clinical trial practitioners. Conclusion: We apply RobinCar and RobinCar2 functions by analyzing data from the AIDS Clinical Trials Group Study 175, demonstrating that they are straightforward and user-friendly.",
+ "primary": "stat.ME"
+}

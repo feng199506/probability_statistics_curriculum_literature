@@ -1,0 +1,16 @@
+{
+ "id": "2607.20821",
+ "title": "Ball-Codifference Screening for Heavy-Tailed Predictors",
+ "authors": [
+  "Mohsen Rezapour",
+  "Vahed Maroufy"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 1,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional screening is commonly built on covariance, correlation, or least-squares measures. These summary measures can be unstable or even undefined, when predictors are sparse or have heavy-tailed distributions. Building on our recent work on extended codifference and the idea of Ball-covariance, we develop Ball-codifference for marginal screening in statistical modeling with heavy-tailed predictors and responses. The proposed statistic combines the rank-type geometry of random balls with the codifference as a dependency measure constructed based on the characteristic function, so it can be computed without requiring well-defined finite first or second moments. We define Ball-codifference and its normalized screening utility, and formulate a sure independence screening procedure. Large-sample normality follows from a bounded V-statistic and functional-delta-method argument under standard nondegeneracy and regularity conditions. Simulation studies under Gaussian and sub-Gaussian stable designs show that codifference-weighted Ball screening gives competitive or improved recovery of highly associated predictors, especially when tail heaviness is pronounced. Also, our data example illustrates that our variable screening method significantly improves prediction accuracy in linear regression.",
+ "primary": "math.ST"
+}

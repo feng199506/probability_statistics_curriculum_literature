@@ -1,0 +1,19 @@
+{
+ "id": "2607.21790",
+ "title": "Semiparametric inference on identification sets in choice modeling",
+ "authors": [
+  "Antoine Scheid",
+  "Jia Wan",
+  "Guy Aridor",
+  "Nathan Kallus",
+  "Aurelien Bibaut"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 1,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Antoine Scheid and Jia Wan were equal contributors to this work",
+ "abstract": "In a discrete choice model, choice probabilities observed for a finite collection of choice sets may not identify a counterfactual choice probability under an unobserved choice set. We represent this counterfactual probability as a linear functional of a mixing distribution. Because the target is a functional of a distribution whose support is not restricted to a finite set, the parameter space is infinite-dimensional, while the data impose only finitely many moment restrictions. Therefore, observed choice probabilities need not point identify such a target. The identified set is defined as the set of target values compatible with observed choice probabilities. Rather than imposing conditions to ensure point identification, we characterize the identified set, and conduct inference on its lower and upper endpoints. We represent each endpoint as the value of a linear program over probability measures, and give conditions to obtain pathwise differentiability of the identification bounds. As a consequence, we are able to prove asymptotic normality of plug-in endpoint estimators. Finally, we provide an Expectation-Maximization-like algorithm for certifying membership of candidate values in the identified set and establish local convergence guarantees.",
+ "primary": "math.ST"
+}

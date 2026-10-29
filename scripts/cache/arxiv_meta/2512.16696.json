@@ -1,0 +1,17 @@
+{
+ "id": "2512.16696",
+ "title": "Computing Lower and Upper Hitting Probabilities for Imprecise Markov Chains",
+ "authors": [
+  "Marco Sangalli",
+  "Erik Quaeghebeur",
+  "Thomas Krak"
+ ],
+ "v1_date": "2025-12-18",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint for International Journal of Approximate Inference (IJAR)",
+ "abstract": "We study the computation of lower and upper probabilities of hitting a target set of states for imprecise Markov chains, where transition uncertainty is modelled by a convex set of transition matrices. In the precise case, hitting probabilities are the minimal nonnegative solution of a linear system and admit a closed-form expression. We investigate the notion of reachability in the imprecise setting. The literature review highlights several different definitions of lower reachability; thus, we explore the relations among them and present examples to clarify their logical implications. Using this revised definition of reachability for imprecise Markov chains, we partition the state space into classes of states whose hitting probabilities are trivially zero or one, and those which require further computation. For these nontrivial states, we show that the lower hitting probability is the unique solution of a nonlinear fixed-point equation, while the same does not hold for upper hitting probabilities. For the practical computation of lower and upper hitting probabilities, we propose iterative algorithms that alternate between solving a linear system and choosing an extreme point from the set of transition matrices. Numerical experiments demonstrate that, in practice, these algorithms converge in substantially fewer iterations than the theoretically established worst-case bound.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.07295",
+ "title": "GMM with Many Weak Moment Conditions and Nuisance Parameters: General Theory and Applications to Causal Inference",
+ "authors": [
+  "Rui Wang",
+  "Kwun Chuen Gary Chan",
+  "Ting Ye"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 3,
+ "latest_date": "2025-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Weak identification arises in many statistical problems when key variables exhibit weak correlations-for example, when instrumental variables correlate weakly with treatment, or when proxy variables correlate weakly with unmeasured confounders. Under weak identification, standard estimation methods such as the generalized method of moments (GMM) can produce substantial bias, both in finite samples and asymptotically. This challenge is compounded in modern applications that require estimating many nuisance parameters. This paper develops a framework for estimation and inference of a finite-dimensional target parameter in general moment models with the number of weak moment conditions and nuisance parameters growing with sample size. We analyze a general two-step debiasing estimator that accommodates flexible, possibly nonparametric first-step estimation of nuisance parameters, in which Neyman orthogonality plays a more critical role in obtaining debiased inference than in conventional settings with strong identification. Under a many-weak-moment asymptotic regime, we establish the estimator's consistency and asymptotic normality. We provide high-level conditions for the general setting and demonstrate their application to two important special cases: inference with weak instruments and inference with weak proxies.",
+ "primary": "math.ST"
+}

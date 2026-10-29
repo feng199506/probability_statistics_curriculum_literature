@@ -1,0 +1,15 @@
+{
+ "id": "2607.19644",
+ "title": "A Fixed-Effects Causal Forest for Staggered Adoption, with an Application to Medicaid Expansion",
+ "authors": [
+  "Harry Aytug"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 1,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 1 figure, 7 tables. JEL: C14, C21, C23, I13, J38",
+ "abstract": "Difference-in-differences with staggered adoption identifies group-time average treatment effects ATT(g,t) by comparing each cohort to units not yet treated, which avoids the \"forbidden comparisons\" that bias two-way fixed-effects estimators when effects are heterogeneous. This paper studies the covariate-conditional version of that object, tau_{g,t}(x), and estimates it with a fixed-effects causal forest. Within each (g,t) comparison block, the outcome and treatment are residualized on unit and period fixed effects inside each tree node, and honest causal trees split on treatment-effect heterogeneity in the covariates. The estimand is not new: Hatamyar, Kreif, Rocha and Huber (2023) introduced it using a doubly-robust R-learner, and Imai, Qin and Yanagi (2023) study it for a single continuous covariate. What we add is a different way to estimate it. Where those methods remove confounding by modeling nuisance functions, we remove it by differencing out unit and period effects within each tree node, following the fixed-effects residualization of Kattenberg, Scheer and Thiel (2023) and Gavrilova, Langorgen and Zoutman (2025) and carrying it into the Callaway-Sant'Anna group-time structure. In Monte Carlo experiments the estimator is the only forest-based method that stays unbiased and correctly covered for the overall effect under staggered timing with cohort-varying effects; two-way fixed effects and a pooled causal forest inherit large forbidden-comparison bias. We apply the method to the Callaway-Sant'Anna minimum-wage panel as a validation and to the staggered county-level rollout of the ACA Medicaid expansion, where it recovers an average 2.25 percentage-point fall in the uninsured rate and a conditional surface on which poorer and lower-income counties gained substantially more coverage -- heterogeneity measured along socioeconomic covariates that are not lags of the outcome.",
+ "primary": "econ.EM"
+}

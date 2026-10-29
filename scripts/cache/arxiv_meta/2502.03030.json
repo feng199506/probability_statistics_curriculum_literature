@@ -1,0 +1,18 @@
+{
+ "id": "2502.03030",
+ "title": "RISE: Two-Stage Rank-Based Identification of High-Dimensional Surrogate Markers Applied to Vaccinology",
+ "authors": [
+  "Arthur Hughes",
+  "Layla Parast",
+  "Rodolphe Thiébaut",
+  "Boris P. Hejblum"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 3,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In vaccine trials with long-term participant follow-up, it is of great importance to identify surrogate markers that accurately infer long-term immune responses. These markers offer practical advantages such as providing early, indirect evidence of vaccine efficacy, and can accelerate vaccine development while identifying potential biomarkers. High-throughput technologies like RNA-sequencing have emerged as promising tools for understanding complex biological systems and informing new treatment strategies. However, these data are high-dimensional, presenting unique statistical challenges for existing surrogate marker identification methods. We introduce Rank-based Identification of high-dimensional SurrogatE Markers (RISE), a novel approach designed for small sample, high-dimensional settings typical in modern vaccine experiments. RISE employs a non-parametric univariate test to screen variables for promising candidates, followed by surrogate evaluation on independent data. Our simulation studies demonstrate RISE's desirable properties, including type one error rate control and empirical power under various conditions. Applying RISE to a clinical trial for inactivated influenza vaccination, we sought to identify genes whose expression could serve as a surrogate for the induced immune response. This analysis revealed a signature of genes appearing to function as a reasonable surrogate for the neutralising antibody response. Pathways related to innate antiviral signalling and interferon stimulation were strongly represented in this derived surrogate, providing a clear immunological interpretation.",
+ "primary": "stat.ME"
+}

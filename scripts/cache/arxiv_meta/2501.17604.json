@@ -1,0 +1,18 @@
+{
+ "id": "2501.17604",
+ "title": "nabqr: Python package for improving probabilistic forecasts",
+ "authors": [
+  "Bastian Schmidt Jørgensena",
+  "Jan Kloppenborg Møller",
+  "Peter Nystrup",
+  "Henrik Madsen"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 1,
+ "latest_date": "2025-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce the open-source Python package NABQR: Neural Adaptive Basis for (time-adaptive) Quantile Regression that provides reliable probabilistic forecasts. NABQR corrects ensembles (scenarios) with LSTM networks and then applies time-adaptive quantile regression to the corrected ensembles to obtain improved and more reliable forecasts. With the suggested package, accuracy improvements of up to 40% in mean absolute terms can be achieved in day-ahead forecasting of onshore and offshore wind power production in Denmark.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.02112",
+ "title": "Singularity-agnostic incomplete U-statistics for testing polynomial constraints in Gaussian covariance matrices",
+ "authors": [
+  "Dennis Leung",
+  "Nils Sturma"
+ ],
+ "v1_date": "2024-01-04",
+ "latest_version": 1,
+ "latest_date": "2024-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Testing the goodness-of-fit of a model with its defining functional constraints in the parameters could date back to Spearman (1927), who analyzed the famous \"tetrad\" polynomial in the covariance matrix of the observed variables in a single-factor model. Despite its long history, the Wald test typically employed to operationalize this approach could produce very inaccurate test sizes in many situations, even when the regular conditions for the classical normal asymptotics are met and a very large sample is available. Focusing on testing a polynomial constraint in a Gaussian covariance matrix, we obtained a new understanding of this baffling phenomenon: When the null hypothesis is true but \"near-singular\", the standardized Wald test exhibits slow weak convergence, owing to the sophisticated dependency structure inherent to the underlying U-statistic that ultimately drives its limiting distribution; this can also be rigorously explained by a key ratio of moments encoded in the Berry-Esseen bound quantifying the normal approximation error involved. As an alternative, we advocate the use of an incomplete U-statistic to mildly tone down the dependence thereof and render the speed of convergence agnostic to the singularity status of the hypothesis. In parallel, we develop a Berry-Esseen bound that is mathematically descriptive of the singularity-agnostic nature of our standardized incomplete U-statistic, using some of the finest exponential-type inequalities in the literature.",
+ "primary": "math.ST"
+}

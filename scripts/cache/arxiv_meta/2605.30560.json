@@ -1,0 +1,16 @@
+{
+ "id": "2605.30560",
+ "title": "Projected McKean--Vlasov Dynamics for Entropic Weak Optimal Transport",
+ "authors": [
+  "Nathan Sauldubois",
+  "Xin Zhang"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 2,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unlike classical optimal transport, weak transport costs depend nonlinearly on the conditional law of couplings. This feature is essential in problems involving barycenter, conditional moments, and martingale-type constraints. Meanwhile, such conditional dependence makes ordinary Wasserstein geometry insufficient and calls instead for an adapted Wasserstein viewpoint. In this paper, we investigate the entropy-regularized weak optimal transport via gradient flows in adapted Wasserstein space. We derive, from the formal tangent structure of adapted Wasserstein space and the projection onto the set of couplings with prescribed marginals, a coupled McKean--Vlasov SDE. A novel and subtle term is a projection that, at each $Y$-location, averages a weak-transport force that already depends on the conditional law of $Y$ given $X$, thereby preserving marginals while retaining the nonlinear weak-transport structure. Under mild integrability and regularity assumptions, we prove weak existence and uniqueness in law for this projected McKean--Vlasov equation. We then prove that the flow converges, in the adapted Wasserstein topology, to the unique minimizer of the entropic weak optimal transport problem. We also describe a particle approximation and illustrate the dynamics on optimal transport and martingale optimal transport examples.",
+ "primary": "math.PR"
+}

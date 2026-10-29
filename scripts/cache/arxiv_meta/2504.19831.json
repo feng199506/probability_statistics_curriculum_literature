@@ -1,0 +1,17 @@
+{
+ "id": "2504.19831",
+ "title": "Optimizing Real-Time Oxytocin Administration to Prevent Postpartum Hemorrhage: A Bayesian Approach to Dynamic Treatment Regimes",
+ "authors": [
+  "Haiyan Zhu",
+  "Yuqi Qiu",
+  "Yingchun Zhou"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 2,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Postpartum hemorrhage (PPH) remains a leading cause of maternal morbidity and mortality worldwide. Oxytocin, though widely recognized for facilitating labor, is also the primary pharmacological intervention for PPH prevention. However, current dosing protocols lack personalization and fail to account for real-time physiological changes during labor. Moreover, standard dynamic treatment regime (DTR) methods cannot accommodate the continuous monitoring and adjustment. To address this, we propose a semiparametric Bayesian method for estimating an optimal treatment regime in real-time, which allows for the existence of latent individual-level variables. Specifically, random real-time DTRs are defined through interventional parameters, optimized by minimizing posterior predictive loss. We further introduce a \"physician-in-the-loop\" framework to align optimal strategies with clinical expertise. In an application to Consortium on Safe Labor data, the proposed method achieved consistently lower estimated blood loss than other competing methods. The learned policy recommends earlier initiation, rapid dose escalation, and more frequent titration for parturients with higher BMI, alongside increased adjustments relative to cervical dilation and the interval since the last dose change. Simulation studies demonstrate robust performance and computational efficiency, especially when unmeasured patient factors influence outcomes and covariates. Supplementary materials provides a standardized description of the materials available for reproducing the work.",
+ "primary": "stat.ME"
+}

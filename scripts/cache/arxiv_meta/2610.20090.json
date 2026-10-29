@@ -1,0 +1,17 @@
+{
+ "id": "2610.20090",
+ "title": "Drift parameter estimation for interacting particle systems with singular repulsion",
+ "authors": [
+  "Chiara Amorino",
+  "Jacek Malecki",
+  "Radomyra Shevchenko"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the estimation of the interaction parameter in singular interacting particle systems from continuous and discrete observations over a fixed time horizon. The singularity of the interaction drift prevents the direct application of standard likelihood and contrast-based methods, which rely on regularity assumptions that fail in this setting. Our approach exploits an exact reduction of the particle dynamics to a one-dimensional stochastic differential equation for a quadratic empirical moment. By the symmetry of the interaction kernel, the singular terms cancel, yielding an explicit estimator in which the unknown parameter enters linearly. We establish consistency and asymptotic normality as the number of particles, \\(N\\), tends to infinity. Letting \\(\\varepsilon_N\\) denote the microscopic noise scaling of the system, we obtain asymptotic normality at the rate \\(\\sqrt{N/\\varepsilon_N}\\) for strictly positive interaction kernels, under an additional condition on the limiting empirical information. We further extend these results to degenerate interaction kernels, achieving consistency and asymptotic normality at rate \\(N\\) under suitable structural assumptions and the canonical scaling \\(\\varepsilon_N=N^{-1}\\). In both regimes, we provide conditions on the observation mesh ensuring that the statistical limits remain valid under discrete sampling, in high frequency. Finally, we illustrate the applicability of our methodology through Dyson Brownian motion, the Dyson Ornstein--Uhlenbeck process, and Wishart--Laguerre particle systems, alongside a numerical investigation of the estimators' finite-sample performance.",
+ "primary": "math.ST"
+}

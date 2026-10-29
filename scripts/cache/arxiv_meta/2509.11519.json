@@ -1,0 +1,18 @@
+{
+ "id": "2509.11519",
+ "title": "Mendelian Randomization Methods for Causal Inference: Estimands, Identification and Inference",
+ "authors": [
+  "Minhao Yao",
+  "Anqi Wang",
+  "Xihao Li",
+  "Zhonghua Liu"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 2,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mendelian randomization (MR) has become an essential tool for causal inference in biomedical and public health research. By using genetic variants as instrumental variables, MR helps address unmeasured confounding and reverse causation, offering a quasi-experimental framework to evaluate causal effects of modifiable exposures on health outcomes. Despite its promise, MR faces substantial methodological challenges, including invalid instruments, weak instrument bias, and design complexities across different data structures. In this tutorial review, we provide a comprehensive overview of MR methods for causal inference, emphasizing clarity of causal interpretation, study design comparisons, availability of software tools, and practical guidance for applied scientists. We organize the review around causal estimands, ensuring that analyses are anchored to well-defined causal questions. We discuss the problems of invalid and weak instruments, comparing available strategies for their detection and correction. We integrate discussions of population-based versus family-based MR designs, analyses based on individual-level versus summary-level data, and one-sample versus two-sample MR designs, highlighting their relative advantages and limitations. We also summarize recent methodological advances and software developments that extend MR to settings with many weak or invalid instruments and to modern high-dimensional omics data. Real-data applications, including UK Biobank and Alzheimer's disease proteomics studies, illustrate the use of these methods in practice. This review aims to serve as a tutorial-style reference for both methodologists and applied scientists.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2403.05080",
+ "title": "On an Empirical Likelihood based Solution to the Approximate Bayesian Computation Problem",
+ "authors": [
+  "Sanjay Chaudhuri",
+  "Subhroshekhar Ghosh",
+  "Kim Cuc Pham"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 1,
+ "latest_date": "2024-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2011.07721",
+ "abstract": "Approximate Bayesian Computation (ABC) methods are applicable to statistical models specified by generative processes with analytically intractable likelihoods. These methods try to approximate the posterior density of a model parameter by comparing the observed data with additional process-generated simulated datasets. For computational benefit, only the values of certain well-chosen summary statistics are usually compared, instead of the whole dataset. Most ABC procedures are computationally expensive, justified only heuristically, and have poor asymptotic properties. In this article, we introduce a new empirical likelihood-based approach to the ABC paradigm called ABCel. The proposed procedure is computationally tractable and approximates the target log posterior of the parameter as a sum of two functions of the data -- namely, the mean of the optimal log-empirical likelihood weights and the estimated differential entropy of the summary functions. We rigorously justify the procedure via direct and reverse information projections onto appropriate classes of probability densities. Past applications of empirical likelihood in ABC demanded constraints based on analytically tractable estimating functions that involve both the data and the parameter; although by the nature of the ABC problem such functions may not be available in general. In contrast, we use constraints that are functions of the summary statistics only. Equally importantly, we show that our construction directly connects to the reverse information projection. We show that ABCel is posterior consistent and has highly favourable asymptotic properties. Its construction justifies the use of simple summary statistics like moments, quantiles, etc, which in practice produce an accurate approximation of the posterior density. We illustrate the performance of the proposed procedure in a range of applications.",
+ "primary": "stat.ME"
+}

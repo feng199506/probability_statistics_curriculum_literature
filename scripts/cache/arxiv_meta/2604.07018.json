@@ -1,0 +1,17 @@
+{
+ "id": "2604.07018",
+ "title": "Time Series Gaussian Chain Graph Models",
+ "authors": [
+  "Qin Fang",
+  "Xinghao Qiao",
+  "Zihan Wang"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time series graphical models have recently received considerable attention for characterizing (conditional) dependence structures in multivariate time series. In many applications, the multivariate series exhibit variable-partitioned blockwise dependence, with distinct patterns within and across blocks. In this paper, we introduce a new class of time series Gaussian chain graph models that represent contemporaneous and lagged causal relations via directed edges across blocks, while capturing within-block conditional dependencies through undirected edges. In the frequency domain, this formulation induces a cross-frequency shared group sparse plus group low-rank decomposition of the inverse spectral density matrices, which we exploit to establish identifiability of the time series chain graph structure. Building on this, we then propose a three-stage learning procedure for estimating the undirected and directed edge sets, which involves optimizing a regularized Whittle likelihood with a group lasso penalty to encourage group sparsity and a novel tensor-unfolding nuclear norm penalty to enforce group low-rank structure. We investigate the asymptotic properties of the proposed method, ensuring its consistency for exact recovery of the chain graph structure. The superior empirical performance of the proposed method is demonstrated through both extensive simulation studies and an application to U.S. macroeconomic data that highlights key monetary policy transmission mechanisms.",
+ "primary": "stat.ME"
+}

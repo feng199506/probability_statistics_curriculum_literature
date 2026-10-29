@@ -1,0 +1,18 @@
+{
+ "id": "2606.28974",
+ "title": "Faster than Fast-LTS: Robust Regression and Outlier Detection with DC Programming",
+ "authors": [
+  "Marah-Lisanne Thormann",
+  "Phan Tu Vuong",
+  "Alain B. Zemkoho",
+  "Tri-Dung Nguyen"
+ ],
+ "v1_date": "2026-06-27",
+ "latest_version": 1,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When datasets contain outliers, robust regression is a well-established alternative to Ordinary Least Squares. A commonly employed robust estimator is Least Trimmed Squares (LTS), which computes the regression coefficients from a subset of observations. Determining the exact solution corresponds to a combinatorial problem with prohibitive computational costs, even for instances of moderate dimension. Thus, the most prevalent approach in practice remains a heuristic known as Fast-LTS. Although the heuristic often performs effectively, certain elements of the approach remain open to improvement. In particular, its core procedure provides robust results only when initialized with a large number of starting points. To address the heuristic's limitations, this paper reformulates the LTS problem as a concave minimization problem subject to a capped simplex constraint, and proposes the successive Boosted Difference of Convex Functions Algorithm (sBDCA) as a solution method. Theoretically, we establish via the Łojasiewicz property that sBDCA converges to a local solution with a linear rate in the fastest case. To ensure robustness from a single initialization in practice, we derive and integrate a problem-specific preconditioning matrix into the algorithmic setup. Building on this theoretical foundation, we conduct numerical studies on various synthetic and real-world datasets to demonstrate the effectiveness of sBDCA with preconditioning. Specifically, we show that our approach is up to 3.25 times faster than Fast-LTS and achieves up to 90% lower objective function values, particularly in high-dimensional settings. As all code is openly available, this paper further provides a practical guide to robust regression in Python.",
+ "primary": "math.OC"
+}

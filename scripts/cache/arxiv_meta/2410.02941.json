@@ -1,0 +1,16 @@
+{
+ "id": "2410.02941",
+ "title": "Efficient collaborative learning of the average treatment effect",
+ "authors": [
+  "Sijia Li",
+  "Rui Duan"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 2,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 6 figures",
+ "abstract": "In response to the growing need for generating real-world evidence from multi-site collaborative studies, we introduce an efficient collaborative learning approach to evaluate average treatment effect (ECO-ATE) in a multi-site setting under data sharing constraints. Specifically, ECO-ATE operates in a federated manner, using individual-level data from a user-defined target population and summary statistics from other source populations, to construct efficient estimator for the average treatment effect on the target population of interest. Our federated approach does not require iterative communications between sites, making it particularly suitable for research consortia with limited resources for developing automated data-sharing infrastructures. Compared to existing work data integration methods in causal inference, ECO-ATE allows distributional shifts in outcomes, treatments and baseline covariates distributions, and achieves semiparametric efficiency bound under appropriate conditions. We conduct simulation studies to demonstrate the extent of efficiency gains achieved by incorporating additional data sources, as well as the robustness of our approach against varying levels of distributional shifts and overparameterization, compared to existing benchmarks. We apply ECO-ATE to a case study examining the effect of insulin vs. non-insulin treatments on heart failure for patients with type II diabetes using electronic health record data collected from the All of Us program.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.12463",
+ "title": "Understanding Overparametrization in Survival Models through Interpolation",
+ "authors": [
+  "Yin Liu",
+  "Jianwen Cai",
+  "Didong Li"
+ ],
+ "v1_date": "2025-12-13",
+ "latest_version": 3,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Classical statistical learning theory predicts a U-shaped relationship between test loss and model capacity, driven by the bias-variance trade-off. Recent advances in modern machine learning have revealed a more complex pattern, double-descent, in which test loss, after peaking near the interpolation threshold, decreases again as model capacity continues to grow. While this behavior has been extensively analyzed in regression and classification, its manifestation in survival analysis remains unexplored. This study investigates overparametrization in four representative survival models: DeepSurv, PC-Hazard, Nnet-Survival, and N-MTLR. We rigorously define interpolation and finite-norm interpolation, two key characteristics of loss-based models to understand double-descent. We then show the existence (or absence) of (finite-norm) interpolation of all four models. Our findings clarify how likelihood-based losses and model implementation jointly determine the feasibility of interpolation and show that overparametrization should not be regarded as benign for survival models. All theoretical results are supported by numerical experiments that highlight the distinct generalization behaviors of survival models.",
+ "primary": "stat.ML"
+}

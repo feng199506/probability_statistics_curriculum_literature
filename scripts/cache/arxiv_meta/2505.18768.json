@@ -1,0 +1,17 @@
+{
+ "id": "2505.18768",
+ "title": "Multi-Layer Backward Joint Model for Dynamic Prediction of Clinical Events with Multivariate Longitudinal Predictors of Mixed Types",
+ "authors": [
+  "Wenhao Li",
+  "Zhe Yin",
+  "Liang Li"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 1,
+ "latest_date": "2025-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic prediction of time-to-event outcomes using longitudinal data is highly useful in clinical research and practice. A common strategy is the joint modeling of longitudinal and time-to-event data. The shared random effect model has been widely studied for this purpose. However, it can be computationally challenging when applied to problems with a large number of longitudinal predictor variables, particularly when mixed types of continuous and categorical variables are involved. Addressing these limitations, we introduce a novel multi-layer backward joint model (MBJM). The model structure consists of multiple data layers cohesively integrated through a series of conditional distributions that involve longitudinal and time-to-event data, where the time to the clinical event is the conditioning variable. This model can be estimated with standard statistical software with rapid and robust computation, regardless of the dimension of the longitudinal predictor variables. We provide both theoretical and empirical results to show that the MBJM outperforms the static prediction model that does not fully account for the longitudinal nature of the prediction. In an empirical comparison with the shared random effects joint model, the MBJM demonstrated competitive performance with substantially faster and more robust computation. Both the simulation and real data application from a primary biliary cirrhosis study utilized seven longitudinal biomarkers, five continuous and two categorical, larger than the typically published joint modeling problems.",
+ "primary": "stat.ME"
+}

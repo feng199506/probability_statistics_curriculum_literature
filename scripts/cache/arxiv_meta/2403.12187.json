@@ -1,0 +1,18 @@
+{
+ "id": "2403.12187",
+ "title": "Neural Operators for Nonlinear Functionals on RKHS",
+ "authors": [
+  "Tian-Yi Zhou",
+  "Namjoon Suh",
+  "Guang Cheng",
+  "Xiaoming Huo"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 2,
+ "latest_date": "2026-09-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the abundance of functional data, such as time series and images, we study the approximation and statistical learning of nonlinear functionals defined on reproducing kernel Hilbert spaces (RKHSs) using neural networks. By leveraging interpolating orthogonal projections in RKHSs, we use finitely many point evaluations in place of integration-based basis function expansions. This leads to a simpler and more flexible neural-network architecture that remains applicable even when the data domain or the underlying kernel is not explicitly known. We establish universal approximation results and derive explicit kernel-dependent approximation rates and parameter-complexity bounds for RKHSs induced by inverse multiquadric, Gaussian, and Sobolev kernels. We also apply our results to the regression maps arising in generalized functional linear models. Finally, we analyze the generalization properties of the resulting neural-network classes and establish finite-sample guarantees for learning nonlinear functionals.",
+ "primary": "stat.ML"
+}

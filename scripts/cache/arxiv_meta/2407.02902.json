@@ -1,0 +1,20 @@
+{
+ "id": "2407.02902",
+ "title": "Instrumental Variable methods to target Hypothetical Estimands with longitudinal repeated measures data: Application to the STEP 1 trial",
+ "authors": [
+  "Jack Bowden",
+  "Jesper Madsen",
+  "Bryan Goldman",
+  "Aske Thorn Iversen",
+  "Xiaoran Liang",
+  "Stijn Vansteelandt"
+ ],
+ "v1_date": "2024-07-03",
+ "latest_version": 1,
+ "latest_date": "2024-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The STEP 1 randomized trial evaluated the effect of taking semaglutide vs placebo on body weight over a 68 week duration. As with any study evaluating an intervention delivered over a sustained period, non-adherence was observed. This was addressed in the original trial analysis within the Estimand Framework by viewing non-adherence as an intercurrent event. The primary analysis applied a treatment policy strategy which viewed it as an aspect of the treatment regimen, and thus made no adjustment for its presence. A supplementary analysis used a hypothetical strategy, targeting an estimand that would have been realised had all participants adhered, under the assumption that no post-baseline variables confounded adherence and change in body weight. In this paper we propose an alternative Instrumental Variable method to adjust for non-adherence which does not rely on the same `unconfoundedness' assumption and is less vulnerable to positivity violations (e.g., it can give valid results even under conditions where non-adherence is guaranteed). Unlike many previous Instrumental Variable approaches, it makes full use of the repeatedly measured outcome data, and allows for a time-varying effect of treatment adherence on a participant's weight. We show that it provides a natural vehicle for defining two distinct hypothetical estimands: the treatment effect if all participants would have adhered to semaglutide, and the treatment effect if all participants would have adhered to both semaglutide and placebo. When applied to the STEP 1 study, they both suggest a sustained, slowly decaying weight loss effect of semaglutide treatment.",
+ "primary": "stat.ME"
+}

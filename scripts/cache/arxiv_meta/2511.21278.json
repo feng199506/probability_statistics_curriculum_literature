@@ -1,0 +1,18 @@
+{
+ "id": "2511.21278",
+ "title": "Enterprise Profit Prediction Using Multiple Data Sources with Missing Values through Vertical Federated Learning",
+ "authors": [
+  "Huiyun Tang",
+  "Feifei Wang",
+  "Long Feng",
+  "Yang Li"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small and medium-sized enterprises (SMEs) play a crucial role in driving economic growth. Monitoring their financial performance and discovering relevant covariates are essential for risk assessment, business planning, and policy formulation. This paper focuses on predicting profits for SMEs. Two major challenges are faced in this study: 1) SMEs data are stored across different institutions, and centralized analysis is restricted due to data security concerns; 2) data from various institutions contain different levels of missing values, resulting in a complex missingness issue. To tackle these issues, we introduce an innovative approach named Vertical Federated Expectation Maximization (VFEM), designed for federated learning under a missing data scenario. We embed a new EM algorithm into VFEM to address complex missing patterns when full dataset access is unfeasible. Furthermore, we establish the linear convergence rate for the VFEM and establish a statistical inference framework, enabling covariates to influence assessment and enhancing model interpretability. Extensive simulation studies are conducted to validate its finite sample performance. Finally, we thoroughly investigate a real-life profit prediction problem for SMEs using VFEM. Our findings demonstrate that VFEM provides a promising solution for addressing data isolation and missing values, ultimately improving the understanding of SMEs' financial performance.",
+ "primary": "stat.ME"
+}

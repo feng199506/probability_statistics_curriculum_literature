@@ -1,0 +1,20 @@
+{
+ "id": "2407.04967",
+ "title": "posteriordb: Testing, Benchmarking and Developing Bayesian Inference Algorithms",
+ "authors": [
+  "Måns Magnusson",
+  "Jakob Torgander",
+  "Paul-Christian Bürkner",
+  "Lu Zhang",
+  "Bob Carpenter",
+  "Aki Vehtari"
+ ],
+ "v1_date": "2024-07-06",
+ "latest_version": 1,
+ "latest_date": "2024-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The generality and robustness of inference algorithms is critical to the success of widely used probabilistic programming languages such as Stan, PyMC, Pyro, and Turing.jl. When designing a new general-purpose inference algorithm, whether it involves Monte Carlo sampling or variational approximation, the fundamental problem arises in evaluating its accuracy and efficiency across a range of representative target models. To solve this problem, we propose posteriordb, a database of models and data sets defining target densities along with reference Monte Carlo draws. We further provide a guide to the best practices in using posteriordb for model evaluation and comparison. To provide a wide range of realistic target densities, posteriordb currently comprises 120 representative models and has been instrumental in developing several general inference algorithms.",
+ "primary": "stat.CO"
+}

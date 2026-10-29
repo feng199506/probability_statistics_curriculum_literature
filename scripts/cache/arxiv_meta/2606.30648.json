@@ -1,0 +1,17 @@
+{
+ "id": "2606.30648",
+ "title": "MediEncoder: Nonlinear Representation Learning for High-Dimensional Causal Mediation Analysis",
+ "authors": [
+  "Shi Bo",
+  "Debarghya Mukherjee",
+  "AmirEmad Ghassami"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 1,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 3 figures",
+ "abstract": "Causal mediation analysis decomposes a treatment effect into indirect pathways through mediators and direct pathways not operating through them. Modern biomedical studies often involve high-dimensional covariates and mediators that are noisy proxies for lower-dimensional latent biological processes. Existing methods typically rely on sparsity, linear factor models, or ignore the connection among variables in the learned representations, which can be restrictive when measurements are nonlinear and covariate and mediator factors are structurally dependent. We propose MediEncoder, a representation-learning framework for nonlinear high-dimensional mediation analysis. MediEncoder jointly learns low-dimensional covariate and mediator representations using a coupled encoder-decoder architecture with a cross-factor network that links treatment and covariate representations to mediator representations. The learned features are then used in a cross-fitted efficient influence function-based estimator of natural direct and indirect effects. The resulting estimator is multiply robust and asymptotically normal under suitable regularity conditions. Simulations show that MediEncoder improves estimation accuracy over competing dimension-reduction approaches, and an application to Alzheimer's Disease Neuroimaging Initiative data illustrates its utility in high-dimensional biomedical causal mediation analysis.",
+ "primary": "stat.ME"
+}

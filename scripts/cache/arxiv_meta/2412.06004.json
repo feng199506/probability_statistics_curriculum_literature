@@ -1,0 +1,16 @@
+{
+ "id": "2412.06004",
+ "title": "Large-sample analysis of cost functionals for inference under the coalescent",
+ "authors": [
+  "Martina Favero",
+  "Jere Koskela"
+ ],
+ "v1_date": "2024-12-08",
+ "latest_version": 2,
+ "latest_date": "2026-02-18",
+ "journal_ref": "Stochastic Processes and their Applications, Volume 195, 2026, Stochastic Processes and their Applications 195 (2026) 104894",
+ "doi": "10.1016/j.spa.2026.104894",
+ "comment": "34 pages, 7 figures",
+ "abstract": "The coalescent is a foundational model of latent genealogical trees under neutral evolution, but suffers from intractable sampling probabilities. Methods for approximating these sampling probabilities either introduce bias or fail to scale to large sample sizes. We show that a class of cost functionals of the coalescent with recurrent mutation and a finite number of alleles converge to tractable processes in the infinite-sample limit. A particular choice of costs yields insight about importance sampling methods, which are a classical tool for coalescent sampling probability approximation. These insights reveal that the behaviour of coalescent importance sampling algorithms differs markedly from standard sequential importance samplers, with or without resampling. We conduct a simulation study to verify that our asymptotics are accurate for algorithms with finite (and moderate) sample sizes. Our results constitute the first theoretical description of large-sample importance sampling algorithms for the coalescent, provide heuristics for the a priori optimisation of computational effort, and identify settings where resampling is harmful for algorithm performance. We observe strikingly different behaviour for importance sampling methods under the infinite sites model of mutation, which is regarded as a good and more tractable approximation of finite alleles mutation in most respects.",
+ "primary": "math.ST"
+}

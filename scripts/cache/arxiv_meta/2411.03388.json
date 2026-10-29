@@ -1,0 +1,17 @@
+{
+ "id": "2411.03388",
+ "title": "Extending Cluster-Weighted Factor Analyzers for multivariate prediction and high-dimensional interpretability",
+ "authors": [
+  "Xiaoke Qin",
+  "Francesca Martella",
+  "Sanjeena Subedi"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 1,
+ "latest_date": "2024-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 Tables, 7 Figures, 49 pages",
+ "abstract": "Cluster-weighted factor analyzers (CWFA) are a versatile class of mixture models designed to estimate the joint distribution of a random vector that includes a response variable along with a set of explanatory variables. They are particularly valuable in situations involving high dimensionality. This paper enhances CWFA models in two notable ways. First, it enables the prediction of multiple response variables while considering their potential interactions. Second, it identifies factors associated with disjoint groups of explanatory variables, thereby improving interpretability. This development leads to the introduction of the multivariate cluster-weighted disjoint factor analyzers (MCWDFA) model. An alternating expectation-conditional maximization algorithm is employed for parameter estimation. The effectiveness of the proposed model is assessed through an extensive simulation study that examines various scenarios. The proposal is applied to crime data from the United States, sourced from the UCI Machine Learning Repository, with the aim of capturing potential latent heterogeneity within communities and identifying groups of socio-economic features that are similarly associated with factors predicting crime rates. Results provide valuable insights into the underlying structures influencing crime rates which may potentially be helpful for effective cluster-specific policymaking and social interventions.",
+ "primary": "stat.ME"
+}

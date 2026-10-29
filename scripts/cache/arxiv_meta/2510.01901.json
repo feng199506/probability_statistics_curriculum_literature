@@ -1,0 +1,16 @@
+{
+ "id": "2510.01901",
+ "title": "Knots and variance ordering of sequential Monte Carlo algorithms",
+ "authors": [
+  "Joshua J Bon",
+  "Anthony Lee"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages (33 main text), 5 figures",
+ "abstract": "Sequential Monte Carlo algorithms, or particle filters, are widely used for approximating intractable integrals, particularly those arising in Bayesian inference and state-space models. We introduce a new variance reduction technique, the knot operator, which improves the efficiency of particle filters by incorporating potential function information into part, or all, of a transition kernel. The knot operator induces a partial ordering of Feynman-Kac models that implies an order on the asymptotic variance of particle filters, offering a new approach to algorithm design. We discuss connections to existing strategies for designing efficient particle filters, including model marginalisation. Our theory generalises such techniques and provides quantitative asymptotic variance ordering results. We revisit the fully-adapted (auxiliary) particle filter using our theory of knots to show how a small modification guarantees an asymptotic variance ordering for all relevant test functions.",
+ "primary": "stat.CO"
+}

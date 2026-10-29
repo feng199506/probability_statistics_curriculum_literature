@@ -1,0 +1,16 @@
+{
+ "id": "2507.10944",
+ "title": "Debiased Prediction Inference with Non-sparse Loadings in Misspecified High-dimensional Regression Models",
+ "authors": [
+  "Libin Liang",
+  "Zhiqiang Tan"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional regression models with regularized sparse estimation are widely applied. For statistical inferences, debiased methods are available about single coefficients or predictions with sparse new covariate vectors (also called loadings), in the presence of possible model misspecification. However, statistical inferences about predictions with non-sparse loadings are studied only under the assumption of correctly specified models. In this work, we develop debiased estimation and associated Wald confidence intervals for predictions with general loadings, allowed to be non-sparse, from possibly misspecified high-dimensional regression models. Our debiased estimator involves estimation of a debiasing vector, which is the general loading left-multiplied by the non-centered precision matrix in the linear model (LM) setting or the inverse Hessian of the objective function at the target coefficient vector in the generalized linear model (GLM) setting. We propose suitable estimators of the precision matrix or the inverse Hessian respectively in the LM or GLM settings and, for the first time, establish a root-n asymptotic expansion for the debiased prediction and justify associated Wald confidence intervals under sparsity conditions on the precision matrix or the inverse Hessian which are comparable to the conjunction of sparsity conditions required for inferences about all single coefficients in existing works. We also provide numerical results which further demonstrate the validity of our proposed confidence intervals for predictions with general loadings from possibly misspecified regression models.",
+ "primary": "math.ST"
+}

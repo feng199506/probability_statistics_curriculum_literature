@@ -1,0 +1,20 @@
+{
+ "id": "2605.30562",
+ "title": "Option Pricing under Stochastic Volatility and Jumps:A PIDE Framework with Empirical Evidence",
+ "authors": [
+  "Abigail Anokyewaa Mensah",
+  "Ayush Jha",
+  "Hongwei Mei",
+  "Rui Wang",
+  "Svetlozar T. Rachev",
+  "Frank J. Fabozzi"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a partial integro-differential equation (PIDE) framework for option pricing under joint stochastic volatility and jump dynamics, and evaluate its empirical content using the S&P500 index option contracts across three maturities. The framework is derived from the infinitesimal generator of an affine Lévy-type process and implemented via finite-difference discretization with FFT-based treatment of the nonlocal jump operator. Calibration via GMM reveals that stochastic volatility accounts for the dominant share of pricing improvement, where relative to Black-Scholes, the Heston specification reduces implied-volatility RMSE by 39%. Jump augmentation via either Merton or CGMY specifications yields marginal improvements concentrated at short maturities and in the deep out-of-the-money region. The calibrated CGMY activity index supports a compound-Poisson structure, consistent with high-frequency evidence on S&P500 index returns.",
+ "primary": "q-fin.PR"
+}

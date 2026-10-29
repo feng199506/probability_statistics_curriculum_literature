@@ -1,0 +1,16 @@
+{
+ "id": "2511.07270",
+ "title": "High-Dimensional Asymptotics of Differentially Private PCA",
+ "authors": [
+  "Youngjoo Yun",
+  "Rishabh Dudeja"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 4,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In differential privacy, random noise is introduced to privatize summary statistics of a sensitive dataset before releasing them. The noise level determines the privacy loss, which quantifies how easily an adversary can detect a target individual's presence in the dataset using the published statistic. Most privacy analyses provide non-asymptotic upper bounds on the privacy loss which hold uniformly across all datasets. Sometimes, these bounds can be pessimistic on a given dataset. In such cases, it can be useful to complement these privacy bounds with sharp privacy characterizations that quantify a mechanism's exact privacy loss on a given dataset. With this goal, we study differentially private principal component analysis (PCA), where the goal is to privatize the leading principal components of a dataset with $n$ samples and $p$ features. We analyze the exponential mechanism and provide sharp asymptotic characterizations of its utility and privacy loss in the high-dimensional limit ($p \\rightarrow \\infty$). We show that in this limit, detecting a target individual's presence using privatized principal components is asymptotically equivalent to distinguishing between two Gaussians with different means, where the mean difference depends on certain spectral properties of the dataset. Our analysis combines the hypothesis-testing formulation of privacy guarantees proposed by Dong, Roth, and Su (2022) with Le Cam's contiguity arguments.",
+ "primary": "math.ST"
+}

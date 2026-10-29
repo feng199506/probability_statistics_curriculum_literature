@@ -1,0 +1,20 @@
+{
+ "id": "2603.17502",
+ "title": "A lightweight framework for characterising extreme precipitation events in climate ensembles",
+ "authors": [
+  "Dáire Healy",
+  "Isadora Antoniano-Villalobos",
+  "Claudia Collarin",
+  "Nathan Huet",
+  "Ilaria Prosdocimi",
+  "Emilia Siviero"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article summarises the methods used by the team ``Ca' Foscari\" for the EVA 2025 Data Challenge. The questions of the challenge concern the estimation of exceedance probabilities across several locations. Rather than modelling the spatial dependence structure, we reduce the problems to univariate ones by considering relevant spatial order statistics across the sites. Within a Peaks over Threshold framework, we model the marginal distributions of exceedances using generalised Pareto distributions. Generalised additive models are employed to allow the parameters to vary as functions of external predictors, which for all questions are reduced to the month. For questions 1 and 2, the required estimates and confidence intervals are obtained by generating samples from our fitted models. Question 3 involves the dependence between two consecutive observed statistics. To account for this temporal dependence, we fit a conditional extreme value model and derive empirical estimates of persistent extreme events by simulating from this model.",
+ "primary": "stat.ME"
+}

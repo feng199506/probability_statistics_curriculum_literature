@@ -1,0 +1,16 @@
+{
+ "id": "2504.04539",
+ "title": "Sequential Hierarchical Regression Imputation with Variable Selection Routines",
+ "authors": [
+  "Qiushuang Li",
+  "Recai Yucel"
+ ],
+ "v1_date": "2025-04-06",
+ "latest_version": 1,
+ "latest_date": "2025-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We aim to incorporate variable selection routines into variable-by-variable (or sequential) imputation in clustered data to achieve computational improvement in applications with large-scale health data. Specifically, we utilize variable selection routines using spike-and-slab priors within the Bayesian variable selection routine. The choice of these priors allows us to ``force'' variables of importance (e.g., design variables or variables known to play a role in the missingness mechanism) into the imputation models based on a class of mixed-effects models. Our ultimate goal is to improve computational speed by removing unnecessary variables. We employ Markov chain Monte Carlo techniques to sample from the implied posterior distributions for model unknowns as well as missing data. We assess the performance of our proposed methodology via simulation studies. Our results show that our proposed algorithms lead to satisfactory estimates and, in some instances, outperform some of the existing methods that are available to practitioners. We illustrate our methods using a national survey of children's health.",
+ "primary": "stat.ME"
+}

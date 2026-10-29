@@ -1,0 +1,17 @@
+{
+ "id": "2509.10067",
+ "title": "Robust evaluation of treatment effects in longitudinal studies with truncation by death or other intercurrent events",
+ "authors": [
+  "Georgi Baklicharov",
+  "Kelly Van Lancker",
+  "Stijn Vansteelandt"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 2,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Intercurrent events, such as treatment switching, rescue medication, dropout, or truncation by death, frequently complicate intention-to-treat analyses in randomized clinical trials. Existing causal inference frameworks typically target hypothetical or principal stratum estimands (e.g., survivor average causal effects), which rely on unverifiable assumptions and can be sensitive to unmeasured confounders or positivity violations. We propose a novel approach that mitigates this sensitivity by using only information measured prior to the intercurrent event. Our key idea is to compare treated and untreated individuals, matched on baseline covariates, at the most recent time point before either experiences an intercurrent event. We call these contrasts Pairwise Last Observation Time (PLOT) estimands. PLOT estimands are identified in randomized trials without structural assumptions, even under severe positivity violations. Although PLOT-based tests may theoretically be susceptible to residual selection bias, we show this bias vanishes under standard conditions and remains negligible in extensive simulations. We develop asymptotically efficient, model-free tests and treatment effect estimators using data-adaptive nuisance parameter estimation. We evaluate performance via simulation and apply the method to re-analyze the DEVOTE trial, affected by truncation by death. PLOT offers a robust, data-driven alternative for evaluating treatment efficacy in the presence of complex intercurrent events.",
+ "primary": "stat.ME"
+}

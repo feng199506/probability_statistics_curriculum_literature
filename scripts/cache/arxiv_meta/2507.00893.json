@@ -1,0 +1,15 @@
+{
+ "id": "2507.00893",
+ "title": "Stochastic highway capacity: Unsuitable Kaplan-Meier estimator, revised maximum likelihood estimator, and impact of speed harmonisation",
+ "authors": [
+  "Igor Mikolášek"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 3,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Replaces arXiv:2003.05355 (withdrawn due to invalid methodology conclusions). 22 pages, 4 figures, 4 tables. v3 is reformated and includes minor revisions",
+ "abstract": "The Kaplan-Meier estimate, also known as the product-limit method (PLM), is a widely used non-parametric maximum likelihood estimator (MLE) in survival analysis. In the context of highway engineering, it has been repeatedly applied to estimate stochastic traffic flow capacity. However, this paper demonstrates that PLM is fundamentally unsuitable for this purpose. The method implicitly assumes continuous exposure to failure risk over time - a premise invalid for traffic flow, where intensity does not increase linearly, and capacity is not even directly observable. Although parametric MLE approach offers a viable alternative, its earlier derivation for this use case suffers from flawed likelihood formulation, likely due to attempt to preserve consistency with PLM. This study derives a corrected likelihood formula for stochastic capacity MLE and validates it using two empirical datasets. The proposed method is then applied in a case study examining the effect of a variable speed limit (VSL) system used for traffic flow speed harmonisation at a 2-to-1 lane drop. Results show that the VSL improved capacity by approximately 10 % or reduced breakdown probability at the same flow intensity by up to 50 %. The findings underscore the methodological importance of correct model formulation and highlight the practical relevance of stochastic capacity estimation for evaluating traffic control strategies.",
+ "primary": "stat.AP"
+}

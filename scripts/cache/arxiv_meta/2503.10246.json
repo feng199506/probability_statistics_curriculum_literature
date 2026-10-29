@@ -1,0 +1,17 @@
+{
+ "id": "2503.10246",
+ "title": "Combined P-value Functions for Compatible Effect Estimation and Hypothesis Testing in Drug Regulation",
+ "authors": [
+  "Samuel Pawel",
+  "Małgorzata Roos",
+  "Leonhard Held"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 2,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The two-trials rule in drug regulation requires statistically significant results from two pivotal trials to demonstrate efficacy. However, it is unclear how the effect estimates from both trials should be combined to quantify the drug effect. Fixed-effect meta-analysis is commonly used but may yield confidence intervals that exclude the value of no effect even when the two-trials rule is not fulfilled. We systematically address this by recasting the two-trials rule and meta-analysis in a unified framework of combined p-value functions, where they are variants of Wilkinson's and Stouffer's combination methods, respectively. This allows us to obtain compatible combined p-values, effect estimates, and confidence intervals, which we derive in closed-form. Additionally, we provide new results for Edgington's, Fisher's, Pearson's, and Tippett's p-value combination methods. When both trials have the same true effect, all methods can consistently estimate it, although some show bias. When true effects differ, the two-trials rule and Pearson's method are conservative (converging to the less extreme effect), Fisher's and Tippett's methods are anti-conservative (converging to the more extreme effect), and Edgington's method and meta-analysis are balanced (converging to a weighted average). Notably, Edgington's confidence intervals asymptotically always include the individual trial effects, while meta-analytic confidence intervals shrink to a point at the weighted average effect. We conclude that all of these methods may be appropriate depending on the estimand of interest. We implement combined p-value function inference for two trials in the R package twotrials, allowing researchers to easily perform compatible hypothesis testing and effect estimation.",
+ "primary": "stat.ME"
+}

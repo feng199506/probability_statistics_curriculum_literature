@@ -1,0 +1,17 @@
+{
+ "id": "2610.23308",
+ "title": "Sieve-free ReLU Bayesian priors with near-minimax posterior contraction",
+ "authors": [
+  "Hien Duy Nguyen",
+  "Jacob Westerhout",
+  "Julyan Arbel"
+ ],
+ "v1_date": "2026-10-16",
+ "latest_version": 1,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We establish fractional-posterior contraction for shallow ReLU networks in Gaussian random-design regression with a $β$-Hölder target, using priors independent of the sample size and smoothness parameters. For any fixed design law $P_X$ on $[0,1]^d$, we obtain contraction in Rényi divergence and, after clipping posterior draws at a bound on the target range, in squared $\\mathcal{L}^2(P_X)$ loss at rate $(\\log n/n)^{2β/(2β+d)}$. This matches the classical Hölder minimax rate up to a logarithmic factor. These priors have random finite width and use width-dependent uniform or Gaussian weight distributions, or width-independent Student $t$ distributions, including Cauchy distributions.",
+ "primary": "math.ST"
+}

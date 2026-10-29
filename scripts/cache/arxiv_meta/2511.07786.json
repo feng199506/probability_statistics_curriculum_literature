@@ -1,0 +1,15 @@
+{
+ "id": "2511.07786",
+ "title": "A Closed-Form Framework for Schrödinger Bridges Between Arbitrary Densities",
+ "authors": [
+  "Hanwen Huang"
+ ],
+ "v1_date": "2025-11-11",
+ "latest_version": 2,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 3 figures",
+ "abstract": "Score-based generative models have recently attracted significant attention for their ability to generate high-fidelity data by learning maps from simple Gaussian priors to complex data distributions. A natural generalization of this idea to transformations between arbitrary probability distributions leads to the Schrödinger Bridge (SB) problem. However, SB solutions rarely admit closed-form expressios and are commonly obtained through iterative stochastic simulation procedures, which are computationally intensive and can be unstable. In this work, we introduce a unified closed-form framework for representing the stochastic dynamics of SB systems. Our formulation subsumes previously known analytical solutions including the Schrödinger Föllmer process and the Gaussian SB as specific instances. Notably, the classical Gaussian SB solution, previously derived using substantially more sophisticated tools such as Riemannian geometry and generator theory, follows directly from our formulation as an immediate corollary. Leveraging this framework, we develop a simulation-free algorithm that infers SB dynamics directly from samples of the source and target distributions. We demonstrate the versatility of our approach in two settings: (i) modeling developmental trajectories in single-cell genomics and (ii) solving image restoration tasks such as inpainting and deblurring. This work opens a new direction for efficient and scalable nonlinear diffusion modeling across scientific and machine learning applications.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2509.14387",
+ "title": "Environmental Risk Assessment via Nonhomogeneous Hidden Semi-Markov Models with Penalized Vector Auto-Regression",
+ "authors": [
+  "Marco Mingione",
+  "Pierfrancesco Alaimo Di Loro",
+  "Francesco Lagona",
+  "Antonello Maruotti"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 1,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the study of pollution trends in the city of Bergen, we introduce a flexible statistical framework for modeling multivariate air pollution data via a nonhomogeneous Hidden Semi-Markov Vector Auto-Regression. The hidden process captures unobserved environmental conditions, while the vector autoregressive structure accounts for temporal autocorrelation and cross-pollutant dependencies. The model further allows time-varying environmental conditions to influence both the average levels of pollutant concentrations and the duration of different transient states. Parameters are estimated via maximum likelihood using a tailored Expectation-Maximization (EM) algorithm, integrated with state-specific $\\ell_1$ regularization to control overfitting and automatically select relevant temporal lags. The proposal is tested on simulated data under different scenarios and then applied to daily concentrations of nitrogens and particulate matter recorded in a urban area. Environmental risk is assessed by a Shapley value-based decomposition that attribute marginal risk contributions. This approach offers a comprehensive framework for multivariate environmental risk modeling, enabling better identification of high-pollution episodes and informing policy interventions.",
+ "primary": "stat.ME"
+}

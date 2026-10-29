@@ -1,0 +1,17 @@
+{
+ "id": "2011.03900",
+ "title": "The Cost of Privacy in Generalized Linear Models: Algorithms and Minimax Lower Bounds",
+ "authors": [
+  "T. Tony Cai",
+  "Yichen Wang",
+  "Linjun Zhang"
+ ],
+ "v1_date": "2020-11-08",
+ "latest_version": 2,
+ "latest_date": "2020-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages, 6 figures",
+ "abstract": "We propose differentially private algorithms for parameter estimation in both low-dimensional and high-dimensional sparse generalized linear models (GLMs) by constructing private versions of projected gradient descent. We show that the proposed algorithms are nearly rate-optimal by characterizing their statistical performance and establishing privacy-constrained minimax lower bounds for GLMs. The lower bounds are obtained via a novel technique, which is based on Stein's Lemma and generalizes the tracing attack technique for privacy-constrained lower bounds. This lower bound argument can be of independent interest as it is applicable to general parametric models. Simulated and real data experiments are conducted to demonstrate the numerical performance of our algorithms.",
+ "primary": "stat.ML"
+}

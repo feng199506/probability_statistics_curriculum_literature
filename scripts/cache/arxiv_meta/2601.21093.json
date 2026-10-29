@@ -1,0 +1,16 @@
+{
+ "id": "2601.21093",
+ "title": "High-dimensional learning dynamics of multi-pass Stochastic Gradient Descent in multi-index models",
+ "authors": [
+  "Zhou Fan",
+  "Leda Wang"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 3,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Generalized Assumption 2.3 for pseudo-Lipschitz loss; Added Remark 3.1 for single-index DMFT learnability intuitions",
+ "abstract": "The learning dynamics of Stochastic Gradient Descent (SGD) are believed to play an important role in influencing the generalization properties of trained models. While the precise dynamics of how online (one-pass) SGD optimizes the population risk are now understood in a broad range of high-dimensional problems, a comparable understanding of multi-pass SGD for empirical risk minimization is still largely lacking. In this work, we develop an asymptotically exact characterization of the dynamics of multi-pass SGD for a non-convex multi-index model, in the high-dimensional regime where sample size $n$ and data dimension $d$ increase proportionally. We consider any sub-linear batch size $κ\\asymp n^α$ with $α\\in [0,1)$ and a commensurate ``critical'' scaling of the learning rate, and show that the coordinate-wise dynamics of SGD admit a novel continuous-time scaling limit, given by a system of dynamical mean-field equations that are driven by a scalar Poisson jump process representing the asymptotic limit of SGD sampling noise. This scaling limit connects several previously disparate theories around SGD, namely (i) the classical interpretation of SGD as an approximation to gradient flow on the empirical risk, (ii) the characterization of online SGD via an autonomous ODE in its overlap statistics, and (iii) the coincidence between multi-pass SGD dynamics and diffusion approximations in least-squares problems. We illustrate how these perspectives are recovered by specializing our result to small learning rates, large sample sizes, and linear models, respectively. Outside of these specializations, the scaling limit of SGD is distinct both from diffusion approximations and gradient flow, and may enable SGD to converge to local optima of the non-convex empirical risk with different statistical properties.",
+ "primary": "stat.ML"
+}

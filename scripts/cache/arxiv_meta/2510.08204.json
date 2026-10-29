@@ -1,0 +1,17 @@
+{
+ "id": "2510.08204",
+ "title": "Fitting sparse high-dimensional varying-coefficient models with Bayesian regression tree ensembles",
+ "authors": [
+  "Soham Ghosh",
+  "Saloni Bhogale",
+  "Sameer K. Deshpande"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "By allowing the effects of $p$ covariates in a linear regression model to vary as functions of $R$ additional effect modifiers, varying-coefficient models (VCMs) strike a compelling balance between interpretable-but-rigid parametric models popular in classical statistics and flexible-but-opaque methods popular in machine learning. But in high-dimensional settings where $p$ and/or $R$ exceed the number of observations, existing approaches to fitting VCMs fail to identify which covariates have a non-zero effect and which effect modifiers drive these effects. We propose sparseVCBART, a fully Bayesian model that approximates each coefficient function in a VCM with a regression tree ensemble and encourages sparsity with a global--local shrinkage prior on the regression tree leaf outputs and a hierarchical prior on the splitting probabilities of each tree. We show that the sparseVCBART posterior contracts at a near-minimax optimal rate, automatically adapting to the unknown sparsity structure and smoothness of the true coefficient functions. Compared to existing state-of-the-art methods, sparseVCBART achieved competitive predictive accuracy and substantially narrower and better-calibrated uncertainty intervals, especially for null covariate effects. We use sparseVCBART to investigate how the effects of interpersonal conversations on prejudice could vary according to the political and demographic characteristics of the respondents.",
+ "primary": "stat.ME"
+}

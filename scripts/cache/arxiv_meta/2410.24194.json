@@ -1,0 +1,16 @@
+{
+ "id": "2410.24194",
+ "title": "Bayesian hierarchical models with calibrated mixtures of g-priors for assessing treatment effect moderation in meta-analysis",
+ "authors": [
+  "Qiao Wang",
+  "Hwanhee Hong"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 1,
+ "latest_date": "2024-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Assessing treatment effect moderation is critical in biomedical research and many other fields, as it guides personalized intervention strategies to improve participant's outcomes. Individual participant-level data meta-analysis (IPD-MA) offers a robust framework for such assessments by leveraging data from multiple trials. However, its performance is often compromised by challenges such as high between-trial variability. Traditional Bayesian shrinkage methods have gained popularity, but are less suitable in this context, as their priors do not discern heterogeneous studies. In this paper, we propose the calibrated mixtures of g-priors methods in IPD-MA to enhance efficiency and reduce risk in the estimation of moderation effects. Our approach incorporates a trial-level sample size tuning function, and a moderator-level shrinkage parameter in the prior, offering a flexible spectrum of shrinkage levels that enables practitioners to evaluate moderator importance, from conservative to optimistic perspectives. Compared with existing Bayesian shrinkage methods, our extensive simulation studies demonstrate that the calibrated mixtures of g-priors exhibit superior performances in terms of efficiency and risk metrics, particularly under high between-trial variability, high model sparsity, weak moderation effects and correlated design matrices. We further illustrate their application in assessing effect moderators of two active treatments for major depressive disorder, using IPD from four randomized controlled trials.",
+ "primary": "stat.ME"
+}

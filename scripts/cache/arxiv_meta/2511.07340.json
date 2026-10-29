@@ -1,0 +1,16 @@
+{
+ "id": "2511.07340",
+ "title": "Smoothing Out Sticking Points: Sampling from Discrete-Continuous Mixtures with Dynamical Monte Carlo by Mapping Discrete Mass into a Latent Universe",
+ "authors": [
+  "Andrew Chin",
+  "Akihiko Nishimura"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Combining a continuous \"slab\" density with discrete \"spike\" mass at zero, spike-and-slab priors provide important tools for inducing sparsity and carrying out variable selection in Bayesian models. However, the presence of discrete mass makes posterior inference challenging. \"Sticky\" extensions to piecewise-deterministic Markov process samplers have shown promising performance, where sampling from the spike is achieved by the process sticking there for an exponentially distributed duration. As it turns out, the sampler remains valid when the exponential sticking time is replaced with its expectation. We justify this by mapping the spike to a continuous density over a latent universe, allowing the sampler to be reinterpreted as traversing this universe while being stuck in the original space. This perspective opens up an array of possibilities to carry out posterior computation under spike-and-slab type priors. Notably, it enables us to construct sticky samplers using other dynamics-based paradigms such as Hamiltonian Monte Carlo; in fact, original sticky process can be established as a partial position-momentum refreshment limit of our Hamiltonian sticky sampler. Our theoretical and empirical findings suggest these alternatives to be at least as efficient as the original sticky approach.",
+ "primary": "stat.CO"
+}

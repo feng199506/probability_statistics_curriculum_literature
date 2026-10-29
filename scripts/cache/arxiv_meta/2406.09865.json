@@ -1,0 +1,17 @@
+{
+ "id": "2406.09865",
+ "title": "Stable network inference in high-dimensional graphical model using single-linkage",
+ "authors": [
+  "Emilie Devijver",
+  "Rémi Molinier",
+  "Mélina Gallopin"
+ ],
+ "v1_date": "2024-06-14",
+ "latest_version": 1,
+ "latest_date": "2024-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stability, akin to reproducibility, is crucial in statistical analysis. This paper examines the stability of sparse network inference in high-dimensional graphical models, where selected edges should remain consistent across different samples. Our study focuses on the Graphical Lasso and its decomposition into two steps, with the first step involving hierarchical clustering using single linkage.We provide theoretical proof that single linkage is stable, evidenced by controlled distances between two dendrograms inferred from two samples. Practical experiments further illustrate the stability of the Graphical Lasso's various steps, including dendrograms, variable clusters, and final networks. Our results, validated through both theoretical analysis and practical experiments using simulated and real datasets, demonstrate that single linkage is more stable than other methods when a modular structure is present.",
+ "primary": "math.ST"
+}

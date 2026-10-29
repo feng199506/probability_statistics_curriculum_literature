@@ -1,0 +1,17 @@
+{
+ "id": "2311.03644",
+ "title": "BOB: Bayesian Optimized Bootstrap for Uncertainty Quantification in Gaussian Mixture Models",
+ "authors": [
+  "Santiago Marin",
+  "Bronwyn Loong",
+  "Anton H. Westveld"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 2,
+ "latest_date": "2024-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 8 figures",
+ "abstract": "A natural way to quantify uncertainties in Gaussian mixture models (GMMs) is through Bayesian methods. That said, sampling from the joint posterior distribution of GMMs via standard Markov chain Monte Carlo (MCMC) imposes several computational challenges, which have prevented a broader full Bayesian implementation of these models. A growing body of literature has introduced the Weighted Likelihood Bootstrap and the Weighted Bayesian Bootstrap as alternatives to MCMC sampling. The core idea of these methods is to repeatedly compute maximum a posteriori (MAP) estimates on many randomly weighted posterior densities. These MAP estimates then can be treated as approximate posterior draws. Nonetheless, a central question remains unanswered: How to select the random weights under arbitrary sample sizes. We, therefore, introduce the Bayesian Optimized Bootstrap (BOB), a computational method to automatically select these random weights by minimizing, through Bayesian Optimization, a black-box and noisy version of the reverse Kullback-Leibler (KL) divergence between the Bayesian posterior and an approximate posterior obtained via random weighting. Our proposed method outperforms competing approaches in recovering the Bayesian posterior, it provides a better uncertainty quantification, and it retains key asymptotic properties from existing methods. BOB's performance is demonstrated through extensive simulations, along with real-world data analyses.",
+ "primary": "stat.ME"
+}

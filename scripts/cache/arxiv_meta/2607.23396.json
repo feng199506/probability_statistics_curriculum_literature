@@ -1,0 +1,18 @@
+{
+ "id": "2607.23396",
+ "title": "Distributed and recursive Bayesian inference for Big Data and complex spatio-temporal models",
+ "authors": [
+  "Mario Figueira",
+  "David Conesa",
+  "Antonio López-Quílez",
+  "Håvard Rue"
+ ],
+ "v1_date": "2026-07-25",
+ "latest_version": 1,
+ "latest_date": "2026-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages and 13 figures",
+ "abstract": "The rapid growth of massive and complex datasets in fields such as econometrics, environmental sciences, risk management, and public policy has reshaped statistical modeling while introducing significant computational and methodological challenges. These challenges arise not only from data scale and model complexity, but also from the sequential or streaming nature of modern applications and from data-privacy constraints that prevent sharing raw data and thus limit joint analysis. To address these challenges, we introduce a novel and comprehensive Bayesian framework for distributed and recursive inference, grounded in the Integrated Nested Laplace Approximations (INLA) methodology and implemented using the R-INLA software. Our contributions include the partitioning both data and structured model components, reducing computational complexity while preserving accuracy relative to centralized full-data inference. We demonstrate the effectiveness of the proposed framework through case studies that highlight its applicability in large-scale, streaming, and privacy-sensitive settings. By integrating distributed, federated, and recursive paradigms, this work offers scalable, adaptive, and generalizable tools for modern Bayesian inference.",
+ "primary": "stat.ME"
+}

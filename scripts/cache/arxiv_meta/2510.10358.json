@@ -1,0 +1,21 @@
+{
+ "id": "2510.10358",
+ "title": "Generalized Jeffreys's approximate objective Bayes factor: Model-selection consistency, finite-sample accuracy, and statistical evidence in 71,126 clinical trial findings",
+ "authors": [
+  "Puneet Velidi",
+  "Zhengxiao Wei",
+  "Shreena Nisha Kalaria",
+  "Yimeng Liu",
+  "Céline M. Laumont",
+  "Brad H. Nelson",
+  "Farouk S. Nathoo"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 3,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Supplementary material is appended",
+ "abstract": "Concerns about the misuse and misinterpretation of p-values and statistical significance have motivated alternatives for quantifying evidence. We define a generalized form of Jeffreys's approximate objective Bayes factor (eJAB), a one-line calculation that is a function of the p-value, sample size, and parameter dimension. We establish conditions under which eJAB is model-selection consistent and verify them for ten statistical tests. We assess finite-sample accuracy by comparing eJAB with Markov chain Monte Carlo computed Bayes factors in 12 simulation studies. We then apply eJAB to 71,126 results from ClinicalTrials.gov (CTG) and find that the proportion of findings with $\\text{p-value} \\le α$ yet $eJAB_{01}>1$ (favoring the null) closely tracks the significance level $α$, suggesting that such contradictions are pointing to the type I errors. We catalog 4,088 such candidate type I errors and provide details for 131 with reported $\\text{p-value} \\le 0.01$. We also identify 487 instances of the Jeffreys-Lindley paradox. Finally, we estimate that 75% (6%) of clinical trial plans from CTG set $α\\ge 0.05$ as the target evidence threshold, and that 35.5% (0.22%) of results significant at $α=0.05$ correspond to evidence that is no stronger than anecdotal under eJAB.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.02172",
+ "title": "Neural Network Machine Regression (NNMR): A Deep Learning Framework for Uncovering High-order Synergistic Effects",
+ "authors": [
+  "Jiuchen Zhang",
+  "Ling Zhou",
+  "Peter Song"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 1,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new neural network framework, termed Neural Network Machine Regression (NNMR), which integrates trainable input gating and adaptive depth regularization to jointly perform feature selection and function estimation in an end-to-end manner. By penalizing both gating parameters and redundant layers, NNMR yields sparse and interpretable architectures while capturing complex nonlinear relationships driven by high-order synergistic effects. We further develop a post-selection inference procedure based on split-sample, permutation-based hypothesis testing, enabling valid inference without restrictive parametric assumptions. Compared with existing methods, including Bayesian kernel machine regression and widely used post hoc attribution techniques, NNMR scales efficiently to high-dimensional feature spaces while rigorously controlling type I error. Simulation studies demonstrate its superior selection accuracy and inference reliability. Finally, an empirical application reveals sparse, biologically meaningful food group predictors associated with somatic growth among adolescents living in Mexico City.",
+ "primary": "stat.ME"
+}

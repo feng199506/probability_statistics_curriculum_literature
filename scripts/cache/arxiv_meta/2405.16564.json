@@ -1,0 +1,18 @@
+{
+ "id": "2405.16564",
+ "title": "Contextual Linear Optimization with Partial Feedback",
+ "authors": [
+  "Yichun Hu",
+  "Nathan Kallus",
+  "Xiaojie Mao",
+  "Yanchen Wu"
+ ],
+ "v1_date": "2024-05-26",
+ "latest_version": 3,
+ "latest_date": "2025-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Contextual linear optimization (CLO) uses predictive contextual features to reduce uncertainty in random cost coefficients in the objective and thereby improve decision-making performance. A canonical example is the stochastic shortest path problem with random edge costs (e.g., travel time) and contextual features (e.g., lagged traffic, weather). While existing work on CLO assumes fully observed cost coefficient vectors, in many applications the decision maker observes only partial feedback corresponding to each chosen decision in the history. In this paper, we study both a bandit-feedback setting (e.g., only the overall travel time of each historical path is observed) and a semi-bandit-feedback setting (e.g., travel times of the individual segments on each chosen path are additionally observed). We propose a unified class of offline learning algorithms for CLO with different types of feedback, following a powerful induced empirical risk minimization (IERM) framework that integrates estimation and optimization. We provide a novel fast-rate regret bound for IERM that allows for misspecified model classes and flexible choices of estimation methods. To solve the partial-feedback IERM, we also tailor computationally tractable surrogate losses. A byproduct of our theory of independent interest is the fast-rate regret bound for IERM with full feedback and a misspecified policy class. We compare the performance of different methods numerically using stochastic shortest path examples on simulated and real data and provide practical insights from the empirical results.",
+ "primary": "stat.ML"
+}

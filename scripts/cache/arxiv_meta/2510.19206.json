@@ -1,0 +1,15 @@
+{
+ "id": "2510.19206",
+ "title": "Shrinkage to Infinity: Reducing Test Error by Inflating the Minimum Norm Interpolator in Linear Models",
+ "authors": [
+  "Jake Freeman"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 2,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hastie et al. (2022) found that ridge regularization is essential in high dimensional linear regression $y=β^Tx + ε$ with isotropic co-variates $x\\in \\mathbb{R}^d$ and $n$ samples at fixed $d/n$. However, Hastie et al. (2022) also notes that when the co-variates are anisotropic and $β$ is aligned with the top eigenvalues of population covariance, the \"situation is qualitatively different.\" In the present article, we make precise this observation for linear regression with highly anisotropic covariances and diverging $d/n$. We find (both theoretically and empirically) that simply scaling up (or inflating) the minimum $\\ell_2$ norm interpolator by a constant greater than one can improve the generalization error. This is in sharp contrast to traditional regularization/shrinkage prescriptions. Moreover, we use a data-splitting technique to produce consistent estimators that achieve generalization error comparable to that of the optimally inflated minimum-norm interpolator. Our proof relies on matching upper and lower bounds for expectations of Gaussian random projections for a general class of anisotropic covariance matrices when $d/n\\rightarrow \\infty$.",
+ "primary": "math.ST"
+}

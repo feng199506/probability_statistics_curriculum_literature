@@ -1,0 +1,17 @@
+{
+ "id": "2601.18689",
+ "title": "Function estimation in the empirical Bayes setting",
+ "authors": [
+  "Benjamin Kang",
+  "Yury Polyanskiy",
+  "Anzo Teh"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 2,
+ "latest_date": "2026-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study function estimation in the empirical Bayes setting for Poisson and normal means. Specifically, given observations $X_i\\sim f(\\cdot; θ_i)$ with latent parameters $θ_i\\sim π$, the goal is to estimate $\\mathbb{E}_π[\\ell(θ)|X = x]$. This task lies between classical deconvolution (recovering the full prior $π$), and standard empirical Bayes mean estimation. While the minimax risk for estimating $π$ in the Wasserstein distance is known to decay only logarithmically, we show that estimating the corresponding posterior smooth functionals admits dramatically faster rates. In particular, for polynomial functions of degree $k$ in the Poisson model, we establish a tight total regret bound of $Θ((\\frac{\\log n}{\\log \\log n})^{k+1})$ and $Θ((\\log n)^{2k+1})$ for bounded and subexponential priors, respectively, attainable by estimators mimicking those that achieve optimal regret for the mean estimation problem (Robbins, minimum distance, ERM). In the normal means model, we establish tight total regret bound of $Θ((\\frac{\\log n}{\\log \\log n})^{k+1})$ for bounded priors, and bounds that match up to a polylogarithmic factor for subgaussian priors. Our analysis identifies the approximation-theoretic origin of this improvement: smooth functions can be well-approximated by low-degree polynomials, whereas Lipschitz functions have only $O(\\frac{1}{k})$ degree-$k$ polynomial approximation error. The results reveal a sharp hierarchy in the difficulty of empirical Bayes problems: ranging from slow, logarithmic deconvolution to near-parametric convergence for smooth posterior functionals, and establish new connections between nonparametric empirical Bayes theory, polynomial approximation, and statistical inverse problems.",
+ "primary": "math.ST"
+}

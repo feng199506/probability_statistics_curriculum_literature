@@ -1,0 +1,18 @@
+{
+ "id": "2507.08977",
+ "title": "Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery",
+ "authors": [
+  "Carson Dudley",
+  "Reiden Magdaleno",
+  "Christopher Harding",
+  "Marisa Eisenberg"
+ ],
+ "v1_date": "2025-07-11",
+ "latest_version": 4,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scientific modeling faces a tradeoff between the interpretability of mechanistic theory and the predictive power of machine learning. While existing hybrid approaches have made progress by incorporating domain knowledge into machine learning methods as functional constraints, they can be limited by a reliance on precise mathematical specifications. When the underlying equations are partially unknown or misspecified, enforcing rigid constraints can introduce bias and hinder a model's ability to learn from data. We introduce Simulation-Grounded Neural Networks (SGNNs), a framework that incorporates scientific theory by using mechanistic simulations as training data for neural networks. By pretraining on diverse synthetic corpora that span multiple model structures and realistic observational noise, SGNNs internalize the underlying dynamics of a system as a structural prior. We evaluated SGNNs across multiple disciplines, including epidemiology, ecology, social science, and chemistry. In forecasting tasks, SGNNs outperformed both standard data-driven baselines and physics-constrained hybrid models. They nearly tripled the forecasting skill of the average CDC models in COVID-19 mortality forecasts and accurately forecasted high-dimensional ecological systems. SGNNs demonstrated robustness to model misspecification, performing well even when trained on data with incorrect assumptions. Our framework also introduces back-to-simulation attribution, a method for mechanistic interpretability that explains real-world dynamics by identifying their most similar counterparts within the simulated corpus. By unifying these techniques into a single framework, we demonstrate that diverse mechanistic simulations can serve as effective training data for robust scientific inference.",
+ "primary": "cs.LG"
+}

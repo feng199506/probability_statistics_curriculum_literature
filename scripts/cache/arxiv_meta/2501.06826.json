@@ -1,0 +1,20 @@
+{
+ "id": "2501.06826",
+ "title": "Aligning NLP Models with Target Population Perspectives using PAIR: Population-Aligned Instance Replication",
+ "authors": [
+  "Stephanie Eckman",
+  "Bolei Ma",
+  "Christoph Kern",
+  "Rob Chew",
+  "Barbara Plank",
+  "Frauke Kreuter"
+ ],
+ "v1_date": "2025-01-12",
+ "latest_version": 3,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EMNLP 2025 NLPerspectives Workshop",
+ "abstract": "Models trained on crowdsourced annotations may not reflect population views, if those who work as annotators do not represent the broader population. In this paper, we propose PAIR: Population-Aligned Instance Replication, a post-processing method that adjusts training data to better reflect target population characteristics without collecting additional annotations. Using simulation studies on offensive language and hate speech detection with varying annotator compositions, we show that non-representative pools degrade model calibration while leaving accuracy largely unchanged. PAIR corrects these calibration problems by replicating annotations from underrepresented annotator groups to match population proportions. We conclude with recommendations for improving the representativity of training data and model performance.",
+ "primary": "stat.ME"
+}

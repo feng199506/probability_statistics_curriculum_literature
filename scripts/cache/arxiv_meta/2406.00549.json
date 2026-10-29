@@ -1,0 +1,25 @@
+{
+ "id": "2406.00549",
+ "title": "Zero Inflation as a Missing Data Problem: a Proxy-based Approach",
+ "authors": [
+  "Trung Phung",
+  "Jaron J. R. Lee",
+  "Opeyemi Oladapo-Shittu",
+  "Eili Y. Klein",
+  "Ayse Pinar Gurses",
+  "Susan M. Hannum",
+  "Kimberly Weems",
+  "Jill A. Marsteller",
+  "Sara E. Cosgrove",
+  "Sara C. Keller",
+  "Ilya Shpitser"
+ ],
+ "v1_date": "2024-06-01",
+ "latest_version": 2,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 8 figues, accepted for the 40th Conference on Uncertainty in Artificial Intelligence (UAI 2024)",
+ "abstract": "A common type of zero-inflated data has certain true values incorrectly replaced by zeros due to data recording conventions (rare outcomes assumed to be absent) or details of data recording equipment (e.g. artificial zeros in gene expression data). Existing methods for zero-inflated data either fit the observed data likelihood via parametric mixture models that explicitly represent excess zeros, or aim to replace excess zeros by imputed values. If the goal of the analysis relies on knowing true data realizations, a particular challenge with zero-inflated data is identifiability, since it is difficult to correctly determine which observed zeros are real and which are inflated. This paper views zero-inflated data as a general type of missing data problem, where the observability indicator for a potentially censored variable is itself unobserved whenever a zero is recorded. We show that, without additional assumptions, target parameters involving a zero-inflated variable are not identified. However, if a proxy of the missingness indicator is observed, a modification of the effect restoration approach of Kuroki and Pearl allows identification and estimation, given the proxy-indicator relationship is known. If this relationship is unknown, our approach yields a partial identification strategy for sensitivity analysis. Specifically, we show that only certain proxy-indicator relationships are compatible with the observed data distribution. We give an analytic bound for this relationship in cases with a categorical outcome, which is sharp in certain models. For more complex cases, sharp numerical bounds may be computed using methods in Duarte et al.[2023]. We illustrate our method via simulation studies and a data application on central line-associated bloodstream infections (CLABSIs).",
+ "primary": "stat.ME"
+}

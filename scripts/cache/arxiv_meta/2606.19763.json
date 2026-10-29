@@ -1,0 +1,15 @@
+{
+ "id": "2606.19763",
+ "title": "Optimal Sparsification of Gaussian Processes",
+ "authors": [
+  "Shivam Nadimpalli"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 1,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 1 figure",
+ "abstract": "We prove an optimal dimension-free sparsification theorem for suprema of centered Gaussian processes. Given a bounded set $T\\subseteq\\mathbb{R}^n$, we show that the supremum of the canonical Gaussian process on $T$ can be $L^2$-approximated by the supremum of a shifted subprocess indexed by only $\\exp(O(1/\\varepsilon^2))$ points, with error at most $\\varepsilon$ times the Gaussian width of $T$. In particular, the size of the approximating process is independent of both the ambient dimension and the cardinality of the original index set. This improves a recent sparsification theorem of De, Nadimpalli, O'Donnell, and Servedio (2026) by an exponential factor, and we show that the dependence on $\\varepsilon$ is tight up to constants in the exponent. As consequences, we obtain an exponentially improved junta theorem for norms over Gaussian space and sharpen results on learning, property testing, and polyhedral approximation of convex sets under the Gaussian measure. The proof is based on an interpolation argument that combines Sudakov's minoration with the Brascamp--Lieb inequality.",
+ "primary": "math.PR"
+}

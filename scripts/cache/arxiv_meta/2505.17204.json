@@ -1,0 +1,16 @@
+{
+ "id": "2505.17204",
+ "title": "Liouville PDE-based sliced-Wasserstein flow",
+ "authors": [
+  "Jayshawn Cooper",
+  "Pilhwa Lee"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 3,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 10 figures. arXiv admin note: substantial text overlap with arXiv:1806.08141 by other authors",
+ "abstract": "The sliced Wasserstein flow (SWF), a nonparametric and implicit generative gradient flow, is transformed into a Liouville partial differential equation (PDE)-based formalism. First, the stochastic diffusive term from the Fokker-Planck equation-based Monte Carlo is reformulated as a Liouville PDE-based transport without the diffusive term, essentially reflecting the probability flow ODE. The involved density estimation is handled by normalizing flows of neural ODE without an explicitly defined score function. Next, the computation of the Wasserstein barycenter is approximated by the Liouville PDE-based SWF barycenter with the prescription of Kantorovich potentials for the induced gradient flow to generate its samples. These two efforts show outperforming convergence in training and testing Liouville PDE-based SWF and SWF barycenters with reduced variance. Applying the generative Liouville PDE-based SWF barycenter for fair regression demonstrates competent profiles in the accuracy-fairness Pareto curves, with comparable and alternative choices against the standard SWF, and significant benefit in improving fairness with scalability in comparison to the exact Wasserstein barycenter.",
+ "primary": "stat.ML"
+}

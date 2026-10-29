@@ -1,0 +1,15 @@
+{
+ "id": "2607.05223",
+ "title": "Sharp Lower Bound on the Minimax Risk for Multinomial Uniformity Testing via a Conditional Central Limit Theorem",
+ "authors": [
+  "Alon Kipnis"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 1,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Companion note to doi: 10.1109/TIT.2025.3646804",
+ "abstract": "We study minimax goodness-of-fit testing for uniformity from $n$ multinomial observations over $N$ categories against $\\ell_p$ departures of size $ε_n$. Writing $u_n:=ε_n^2 n\\,N^{3/2-2/p}/\\sqrt{2}$ for the associated signal-to-noise ratio, we focus on the intermediate regime $N=o(n^2)$ with $u_n\\to u^*\\in(0,\\infty)$, in which the minimax risk converges to a nontrivial constant. In the Poissonized version of the problem this constant equals $2Φ(-u^*/2)$ \\cite{Kipnis2025minimax}, yielding an upper bound on the multinomial minimax risk. Here we prove the matching lower bound. The key step is a conditional central limit theorem for weighted sums under a Poisson mixture prior, conditioned on the total count. Together with the upper bound in \\cite{Kipnis2025minimax}, this gives an exact sharp-constant characterization of the multinomial minimax risk in the intermediate regime.",
+ "primary": "math.ST"
+}

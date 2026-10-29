@@ -1,0 +1,18 @@
+{
+ "id": "2510.00900",
+ "title": "How can the use of different modes of survey data collection introduce bias? A simple introduction to mode effects using directed acyclic graphs (DAGs)",
+ "authors": [
+  "Georgia D Tomova",
+  "Richard J Silverwood",
+  "Peter WG Tennant",
+  "Liam Wright"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 1,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "10.1093/aje/kwag017",
+ "comment": "",
+ "abstract": "Survey data are self-reported data collected directly from respondents by a questionnaire or an interview and are commonly used in epidemiology. Such data are traditionally collected via a single mode (e.g. face-to-face interview alone), but use of mixed-mode designs (e.g. offering face-to-face interview or online survey) has become more common. This introduces two key challenges. First, individuals may respond differently to the same question depending on the mode; these differences due to measurement are known as 'mode effects'. Second, different individuals may participate via different modes; these differences in sample composition between modes are known as 'mode selection'. Where recognised, mode effects are often handled by straightforward approaches such as conditioning on survey mode. However, while reducing mode effects, this and other equivalent approaches may introduce collider bias in the presence of mode selection. The existence of mode effects and the consequences of naïve conditioning may be underappreciated in epidemiology. This paper offers a simple introduction to these challenges using directed acyclic graphs by exploring a range of possible data structures. We discuss the potential implications of using conditioning- or imputation-based approaches and outline the advantages of quantitative bias analyses for dealing with mode effects.",
+ "primary": "stat.ME"
+}

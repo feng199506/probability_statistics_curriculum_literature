@@ -1,0 +1,19 @@
+{
+ "id": "2503.01514",
+ "title": "A Generalized Fréchet Test for Object Data with Unequal Repeated Measurements",
+ "authors": [
+  "Jingru Zhang",
+  "Shengjie Zhang",
+  "Christopher W Jones",
+  "Mathias Basner",
+  "Haochang Shou"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 8 figures",
+ "abstract": "Advancements in data collection have led to increasingly common repeated observations with complex structures in biomedical studies. Treating these observations as random objects, rather than summarizing features as vectors, avoids feature extraction and better reflects the data's nature. Examples include repeatedly measured activity intensity distributions in physical activity analysis and brain networks in neuroimaging. Testing whether these repeated random objects differ across groups is fundamentally important; however, traditional statistical tests often face challenges due to the non-Euclidean nature of metric spaces, dependencies from repeated measurements, and the unequal number of repeated measures. By defining within-subject variability using pairwise distances between repeated measures and extending Fréchet analysis of variance, we develop a generalized Fréchet test for exchangeable repeated random objects, applicable to general metric space-valued data with unequal numbers of repeated measures. The proposed test can simultaneously detect differences in location, scale, and within-subject variability. We derive the asymptotic distribution of the test statistic, which follows a weighted chi-squared distribution. Simulations demonstrate that the proposed test performs well across different types of random objects. We illustrate its effectiveness through applications to physical activity data and resting-state functional magnetic resonance imaging data.",
+ "primary": "stat.ME"
+}

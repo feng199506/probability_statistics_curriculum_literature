@@ -1,0 +1,20 @@
+{
+ "id": "2604.11165",
+ "title": "Cost-optimal Sequential Testing via Doubly Robust Q-learning",
+ "authors": [
+  "Doudou Zhou",
+  "Yiran Zhang",
+  "Dian Jin",
+  "Yingye Zheng",
+  "Lu Tian",
+  "Tianxi Cai"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical decision-making often involves selecting tests that are costly, invasive, or time-consuming, motivating individualized, sequential strategies for what to measure and when to stop ascertaining. We study the problem of learning cost-optimal sequential decision policies from retrospective data, where test availability depends on prior results, inducing informative missingness. Under a sequential missing-at-random mechanism, we develop a doubly robust Q-learning framework for estimating optimal policies. The method introduces path-specific inverse probability weights that account for heterogeneous test trajectories and satisfy a normalization property conditional on the observed history. By combining these weights with auxiliary contrast models, we construct orthogonal pseudo-outcomes that enable unbiased policy learning when either the acquisition model or the contrast model is correctly specified. We establish oracle inequalities for the stage-wise contrast estimators, along with convergence rates, regret bounds, and misclassification rates for the learned policy. Simulations demonstrate improved cost-adjusted performance over weighted and complete-case baselines, and an application to a prostate cancer cohort study illustrates how the method reduces testing cost without compromising predictive accuracy.",
+ "primary": "stat.ML"
+}

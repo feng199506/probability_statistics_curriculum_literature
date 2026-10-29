@@ -1,0 +1,17 @@
+{
+ "id": "2501.01065",
+ "title": "A Heavily Right Strategy for Statistical Inference with Dependent Studies in Arbitrary Dimensions",
+ "authors": [
+  "Tianle Liu",
+  "Xiao-Li Meng",
+  "Natesh S. Pillai"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 3,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We leverage recent advances in heavy-tail approximations for global hypothesis testing with dependent studies to construct approximate confidence regions without modeling or estimating their dependence structures. A non-rejection region is a confidence region but it may not be convex. Convexity is appealing because it ensures any one-dimensional linear projection of the region is a confidence interval, easy to compute and interpret. We show why convexity fails for nearly all heavy-tail combination tests proposed in recent years, including the influential Cauchy combination test. These insights motivate a heavily right strategy: truncating the left half of the Cauchy distribution to obtain the Half-Cauchy combination test. The harmonic mean test also corresponds to a heavily right distribution with a Cauchy-like tail, namely a Pareto distribution with unit power. We prove that both approaches guarantee convexity when individual studies are summarized by Hotelling $T^2$ or $χ^{2}$ statistics (regardless of the validity of this summary) and provide efficient, exact algorithms for implementation. Applying these methods, we develop a divide-and-combine strategy for mean estimation in any dimension and construct simultaneous confidence intervals in a network meta-analysis for treatment effect comparisons across multiple clinical trials. We also present many open problems and conclude with epistemic reflections.",
+ "primary": "stat.ME"
+}

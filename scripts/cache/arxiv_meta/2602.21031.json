@@ -1,0 +1,17 @@
+{
+ "id": "2602.21031",
+ "title": "Exchangeable Gaussian Processes for Staggered-Adoption Policy Evaluation",
+ "authors": [
+  "Hayk Gevorgyan",
+  "Konstantinos Kalogeropoulos",
+  "Angelos Alexopoulos"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the use of exchangeable multi-task Gaussian processes (GPs) for causal inference in panel data, applying the framework to two settings: one with a single treated unit subject to a once-and-for-all treatment and another with multiple treated units and staggered treatment adoption. Our approach models the joint evolution of outcomes for treated and control units through a GP prior that ensures exchangeability across units while allowing for flexible nonlinear trends over time. The resulting posterior predictive distribution for the untreated potential outcomes of the treated unit provides a counterfactual path, from which we derive pointwise and cumulative treatment effects, along with credible intervals to quantify uncertainty. We implement several variations of the exchangeable GP model using different kernel functions. To assess prediction accuracy, we conduct a placebo-style validation within the pre-intervention window by selecting a ``fake'' intervention date. Ultimately, this study illustrates how exchangeable GPs serve as a flexible tool for policy evaluation in panel data settings and proposes a novel approach to staggered-adoption designs with a large number of treated and control units.",
+ "primary": "stat.ME"
+}

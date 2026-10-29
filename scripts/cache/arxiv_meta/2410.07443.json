@@ -1,0 +1,16 @@
+{
+ "id": "2410.07443",
+ "title": "On the Lower Confidence Band for the Optimal Welfare in Policy Learning",
+ "authors": [
+  "Kirill Ponomarev",
+  "Vira Semenova"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 3,
+ "latest_date": "2025-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study inference on the optimal welfare in a policy learning problem and propose reporting a lower confidence band (LCB). A natural approach to constructing an LCB is to invert a one-sided t-test based on an efficient estimator for the optimal welfare. However, we show that for an empirically relevant class of DGPs, such an LCB can be first-order dominated by an LCB based on a welfare estimate for a suitable suboptimal treatment policy. We show that such first-order dominance is possible if and only if the optimal treatment policy is not ``well-separated'' from the rest, in the sense of the commonly imposed margin condition. When this condition fails, standard debiased inference methods are not applicable. We show that uniformly valid and easy-to-compute LCBs can be constructed analytically by inverting moment-inequality tests with the maximum and quasi-likelihood-ratio test statistics. As an empirical illustration, we revisit the National JTPA study and find that the proposed LCBs achieve reliable coverage and competitive length.",
+ "primary": "econ.EM"
+}

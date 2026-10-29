@@ -1,0 +1,16 @@
+{
+ "id": "2509.07261",
+ "title": "nsEVDx: A Python library for modeling Non-Stationary Extreme Value Distributions",
+ "authors": [
+  "Nischal Kafle",
+  "Claudio I. Meier"
+ ],
+ "v1_date": "2025-09-08",
+ "latest_version": 1,
+ "latest_date": "2025-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is a short technical paper describing a Python software for modelling non-stationary extreme value distributions",
+ "abstract": "nsEVDx is an open-source Python package for fitting stationary and nonstationary Extreme Value Distributions (EVDs) to extreme value data. It can be used to model extreme events in fields like hydrology, climate science, finance, and insurance, using both frequentist and Bayesian methods. For Bayesian inference it employs advanced Monte Carlo sampling techniques such as Metropolis-Hastings, Metropolis-adjusted Langevin (MALA), and Hamiltonian Monte Carlo (HMC). Unlike many existing extreme value theory (EVT) tools, which can be complex or lack Bayesian options, nsEVDx offers an intuitive, Python-native interface that is both user-friendly and extensible. It requires only standard scientific Python libraries (numpy, scipy) for its core functionality, while optional features like plotting and diagnostics use matplotlib and seaborn. A key feature of nsEVDx is its flexible support for non-stationary modeling, where the location, scale, and shape parameters can each depend on arbitrary, user-defined covariates. This enables practical applications such as linking extremes to other variables (e.g., rainfall extremes to temperature or maximum stock market losses to market volatility indices). Overall, nsEVDx aims to serve as a practical, easy-to-use, and extensible tool for researchers and practitioners analyzing extreme events in non-stationary environments.",
+ "primary": "stat.CO"
+}

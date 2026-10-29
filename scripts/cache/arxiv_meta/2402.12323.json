@@ -1,0 +1,15 @@
+{
+ "id": "2402.12323",
+ "title": "Expressing and visualizing model uncertainty in Bayesian variable selection using Cartesian credible sets",
+ "authors": [
+  "J. E. Griffin"
+ ],
+ "v1_date": "2024-02-19",
+ "latest_version": 3,
+ "latest_date": "2024-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern regression applications can involve hundreds or thousands of variables which motivates the use of variable selection methods. Bayesian variable selection defines a posterior distribution on the possible subsets of the variables (which are usually termed models) to express uncertainty about which variables are strongly linked to the response. This can be used to provide Bayesian model averaged predictions or inference, and to understand the relative importance of different variables. However, there has been little work on meaningful representations of this uncertainty beyond first order summaries. We introduce Cartesian credible sets to address this gap. The elements of these sets are formed by concatenating sub-models defined on each block of a partition of the variables. Investigating these sub-models allow us to understand whether the models in the Cartesian credible set always/never/sometimes include a particular variable or group of variables and provide a useful summary of model uncertainty. We introduce a method to find these sets that emphasizes ease of understanding and can be easily computed from Markov chain Monte Carlo output. The potential of the method is illustrated on regression problems with both small and large numbers of variables.",
+ "primary": "stat.ME"
+}

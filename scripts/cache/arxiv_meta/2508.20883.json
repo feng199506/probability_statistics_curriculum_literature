@@ -1,0 +1,19 @@
+{
+ "id": "2508.20883",
+ "title": "Lattice Random Walk Discretisations of Stochastic Differential Equations",
+ "authors": [
+  "Samuel Duffield",
+  "Maxwell Aifer",
+  "Denis Melanson",
+  "Zach Belateche",
+  "Patrick J. Coles"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 7 figures",
+ "abstract": "We introduce a lattice random walk discretisation scheme for stochastic differential equations (SDEs) that samples binary or ternary increments at each step, suppressing complex drift and diffusion computations to simple 1 or 2 bit random values. This approach is a significant departure from traditional floating point discretisations and offers several advantages; including compatibility with stochastic computing architectures that avoid floating-point arithmetic in place of directly manipulating the underlying probability distribution of a bitstream, elimination of Gaussian sampling requirements, robustness to quantisation errors, and handling of non-Lipschitz drifts. We prove weak convergence and demonstrate the advantages through experiments on various SDEs, including state-of-the-art diffusion models.",
+ "primary": "math.NA"
+}

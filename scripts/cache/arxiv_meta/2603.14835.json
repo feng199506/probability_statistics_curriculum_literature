@@ -1,0 +1,17 @@
+{
+ "id": "2603.14835",
+ "title": "Evaluating time-to-event forecasts under fixed-horizon right-censoring",
+ "authors": [
+  "Robert J. Taggart",
+  "Nicholas Loveday",
+  "Simon Louis"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 2,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 5 figures. Major revision. Reframed the probabilistic forecast evaluation results as an application of the localization framework of de Punder et al. (2025). Clarified the focus on fixed-horizon right-censoring, with reduced discussion of biomedical survival-analysis methods. Removed the appendix on threshold-weighted CRPS for the gamma distribution in light of Scheuerer (2015)",
+ "abstract": "Time-to-event forecasts frequently arise in applications with finite prediction or decision horizons, including in operational meteorology, hydrology, warranty analysis and insurance. In such settings, forecasts, observations, or both may only be available through their right-censored values relative to a common fixed censoring time. This article develops a framework for evaluating such forecasts. For probabilistic forecasts, recent localization results for proper scoring rules imply coherent evaluation methods based on threshold-weighted versions of familiar scores, including the continuous ranked probability score (CRPS) and logarithmic score. These methods remain valid when forecasts themselves are right-censored to the prediction horizon. For single-valued and interval-valued forecasts, we develop corresponding notions of local consistency and local elicitability under fixed-horizon right-censoring. We show that quantiles and prediction intervals whose endpoints are quantiles remain locally elicitable through threshold-weighted variants of quantile and interval scores. In contrast, the expectation functional is not locally elicitable, implying that mean-valued time-to-event forecasts do not admit analogous theoretically justified evaluation methods. Several familiar diagnostic tools extend naturally to this setting. Threshold-weighted CRPS and quantile scores retain useful diagnostic representations through Brier-score decompositions and Murphy diagrams, while reliability diagrams based on quantile isotonic regression support diagnosis of conditional biases and forecast recalibration. A synthetic forecasting experiment together with operational flood and wind forecasting applications illustrates the methodology.",
+ "primary": "math.ST"
+}

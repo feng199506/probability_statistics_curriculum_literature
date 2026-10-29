@@ -1,0 +1,17 @@
+{
+ "id": "2603.21623",
+ "title": "Neyman-Pearson multiclass classification under label noise via empirical likelihood",
+ "authors": [
+  "Qiong Zhang",
+  "Qinglong Tian",
+  "Pengfei Li"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 2,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many classification problems, misclassification costs are highly asymmetric, while training labels are often corrupted due to measurement error, annotator variability, or adversarial noise. The Neyman-Pearson multiclass classification (NPMC) framework addresses such asymmetry by controlling class-specific errors, but existing methods assume that training labels are correctly observed. To our knowledge, no existing approach handles NPMC under label noise in the multiclass setting, and the only binary method requires prior knowledge of the noise mechanism. A fundamental difficulty is that, without structural assumptions, noisy-label models are non-identifiable: distinct combinations of class-conditional distributions and noise mechanisms can induce the same observed distribution, preventing recovery of the quantities required for error control. We show that the exponential tilting density ratio model restores identifiability, and leverage this structure to develop an empirical likelihood approach for NPMC with noisy labels. The proposed method jointly estimates clean-label class proportions, posterior probabilities, and the noise mechanism from noisy data, without requiring prior knowledge of the confusion matrix. An expectation-maximization algorithm enables efficient computation. The resulting estimators are root n consistent and asymptotically normal, and the induced classifiers satisfy Neyman-Pearson oracle inequalities in both binary and multiclass settings. Simulation and real-data experiments demonstrate near-oracle performance.",
+ "primary": "stat.ME"
+}

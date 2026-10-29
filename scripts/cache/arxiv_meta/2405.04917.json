@@ -1,0 +1,16 @@
+{
+ "id": "2405.04917",
+ "title": "Guiding adaptive shrinkage by co-data to improve regression-based prediction and feature selection",
+ "authors": [
+  "Mark A. van de Wiel",
+  "Wessel N. van Wieringen"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 1,
+ "latest_date": "2024-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 7 figures. Including Supplementary Material",
+ "abstract": "The high dimensional nature of genomics data complicates feature selection, in particular in low sample size studies - not uncommon in clinical prediction settings. It is widely recognized that complementary data on the features, `co-data', may improve results. Examples are prior feature groups or p-values from a related study. Such co-data are ubiquitous in genomics settings due to the availability of public repositories. Yet, the uptake of learning methods that structurally use such co-data is limited. We review guided adaptive shrinkage methods: a class of regression-based learners that use co-data to adapt the shrinkage parameters, crucial for the performance of those learners. We discuss technical aspects, but also the applicability in terms of types of co-data that can be handled. This class of methods is contrasted with several others. In particular, group-adaptive shrinkage is compared with the better-known sparse group-lasso by evaluating feature selection. Finally, we demonstrate the versatility of the guided shrinkage methodology by showing how to `do-it-yourself': we integrate implementations of a co-data learner and the spike-and-slab prior for the purpose of improving feature selection in genetics studies.",
+ "primary": "stat.ME"
+}

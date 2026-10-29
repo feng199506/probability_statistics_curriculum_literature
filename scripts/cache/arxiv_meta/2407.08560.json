@@ -1,0 +1,16 @@
+{
+ "id": "2407.08560",
+ "title": "Causal inference through multi-stage learning and doubly robust deep neural networks",
+ "authors": [
+  "Yuqian Zhang",
+  "Jelena Bradic"
+ ],
+ "v1_date": "2024-07-11",
+ "latest_version": 1,
+ "latest_date": "2024-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks (DNNs) have demonstrated remarkable empirical performance in large-scale supervised learning problems, particularly in scenarios where both the sample size $n$ and the dimension of covariates $p$ are large. This study delves into the application of DNNs across a wide spectrum of intricate causal inference tasks, where direct estimation falls short and necessitates multi-stage learning. Examples include estimating the conditional average treatment effect and dynamic treatment effect. In this framework, DNNs are constructed sequentially, with subsequent stages building upon preceding ones. To mitigate the impact of estimation errors from early stages on subsequent ones, we integrate DNNs in a doubly robust manner. In contrast to previous research, our study offers theoretical assurances regarding the effectiveness of DNNs in settings where the dimensionality $p$ expands with the sample size. These findings are significant independently and extend to degenerate single-stage learning problems.",
+ "primary": "stat.ML"
+}

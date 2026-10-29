@@ -1,0 +1,19 @@
+{
+ "id": "2605.28762",
+ "title": "Deep Neural Networks for Doubly Robust Estimation with Nonprobability Survey Samples",
+ "authors": [
+  "Yufang Dai",
+  "Shihua Luo",
+  "Wendy Lou",
+  "Zilin Wang",
+  "Xuewen Lu"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 1 figure",
+ "abstract": "Integrating probability and nonprobability survey samples is an important problem in modern survey sampling. Nonprobability samples often contain rich outcome information but may lack population representativeness, whereas probability samples provide design-based auxiliary information but may not contain the study variable. We propose a deep neural network (DNN)-assisted doubly robust framework for estimating the finite population mean from these two data sources. The proposed method models the logit sampling score for the nonprobability sample as an unknown nonparametric function and estimates it by maximizing a pseudo-likelihood that combines information from the nonprobability sample and a reference probability sample. The DNN parameters are optimized using the ADAM algorithm. The resulting DNN-estimated sampling scores are incorporated into a DNN-assisted inverse-probability weighted estimator and a deep doubly robust estimator. We establish consistency and convergence rates under regularity conditions and evaluate the finite-sample performance of the proposed estimators through simulation studies and an empirical application using Pew Research Center and Behavioral Risk Factor Surveillance System data. The results suggest that the proposed estimators can improve robustness to parametric propensity-score misspecification, especially when the true selection mechanism is nonlinear.",
+ "primary": "math.ST"
+}

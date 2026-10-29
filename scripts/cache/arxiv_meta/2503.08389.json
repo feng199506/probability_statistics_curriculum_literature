@@ -1,0 +1,18 @@
+{
+ "id": "2503.08389",
+ "title": "Clustered Flexible Calibration Plots For Binary Outcomes Using Random Effects Modeling",
+ "authors": [
+  "Lasai Barreñada",
+  "Bavo D. C. Campo",
+  "Laure Wynants",
+  "Ben Van Calster"
+ ],
+ "v1_date": "2025-03-11",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "Res. synth. methods 17 (2026) 567-588",
+ "doi": "10.1017/rsm.2025.10046",
+ "comment": "44 pages, 18 figures, 4 tables",
+ "abstract": "Evaluation of clinical prediction models across multiple clusters, whether centers or datasets, is becoming increasingly common. A comprehensive evaluation includes an assessment of the agreement between the estimated risks and the observed outcomes, also known as calibration. Calibration is of utmost importance for clinical decision making with prediction models and it may vary between clusters. We present three approaches to take clustering into account when evaluating calibration. (1) Clustered group calibration (CG-C), (2) two-stage meta-analysis calibration (2MA-C) and (3) mixed model calibration (MIX-C) can obtain flexible calibration plots with random effects modelling and providing confidence and prediction intervals. As a case example, we externally validate a model to estimate the risk that an ovarian tumor is malignant in multiple centers (N = 2489). We also conduct a simulation study and synthetic data study generated from a true clustered dataset to evaluate the methods. In the simulation study MIX-C and 2MA-C (splines) gave estimated curves closest to the true overall curve. In the synthetic data study MIX-C produced cluster specific curves closest to the truth. Coverage of the prediction interval across the plot was best for 2MA-C with splines. We recommend using 2MA-C with splines to estimate the overall curve and the 95% PI and MIX-C for the cluster specific curves, especially when sample size per cluster is limited. We provide ready-to-use code to construct summary flexible calibration curves with confidence and prediction intervals to assess heterogeneity in calibration across datasets or centers.",
+ "primary": "stat.ME"
+}

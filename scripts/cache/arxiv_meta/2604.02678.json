@@ -1,0 +1,17 @@
+{
+ "id": "2604.02678",
+ "title": "Eligibility-Aware Evidence Synthesis: An Agentic Framework for Clinical Trial Meta-Analysis",
+ "authors": [
+  "Yao Zhao",
+  "Zhiyue Zhang",
+  "Yanxun Xu"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical evidence synthesis requires identifying relevant trials from large registries and aggregating results that account for population differences. While recent LLM-based approaches have automated components of systematic review, they do not support end-to-end evidence synthesis. Moreover, conventional meta-analysis weights studies by statistical precision without considering clinical compatibility reflected in eligibility criteria. We propose EligMeta, an agentic framework that integrates automated trial discovery with eligibility-aware meta-analysis, translating natural-language queries into reproducible trial selection and incorporating eligibility alignment into study weighting to produce cohort-specific pooled estimates. EligMeta employs a hybrid architecture separating LLM-based reasoning from deterministic execution: LLMs generate interpretable rules from natural-language queries and perform schema-constrained parsing of trial metadata, while all logical operations, weight computations, and statistical pooling are executed deterministically to ensure reproducibility. The framework structures eligibility criteria and computes similarity-based study weights reflecting population alignment between target and comparator trials. In a gastric cancer landscape analysis, EligMeta reduced 4,044 candidate trials to 39 clinically relevant studies through rule-based filtering, recovering all 13 guideline-cited trials. In an olaparib adverse events meta-analysis across four trials, eligibility-aware weighting shifted the pooled risk ratio from 2.18 (95% CI: 1.71-2.79) under conventional Mantel-Haenszel estimation to 1.97 (95% CI: 1.76-2.20), demonstrating quantifiable impact of incorporating eligibility alignment. EligMeta bridges automated trial discovery with eligibility-aware meta-analysis, providing a scalable and reproducible framework for evidence synthesis in precision medicine.",
+ "primary": "stat.ME"
+}

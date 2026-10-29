@@ -1,0 +1,16 @@
+{
+ "id": "2507.13918",
+ "title": "Confidence Intervals for Random Forest Permutation Importance with Missing Data",
+ "authors": [
+  "Nico Föge",
+  "Markus Pauly"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 1,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Random Forests are renowned for their predictive accuracy, but valid inference, particularly about permutation-based feature importances, remains challenging. Existing methods, such as the confidence intervals (CIs) from Ishwaran et al. (2019), are promising but assume complete feature observation. However, real-world data often contains missing values. In this paper, we investigate how common imputation techniques affect the validity of Random Forest permutation-importance CIs when data are incomplete. Through an extensive simulation and real-world benchmark study, we compare state-of-the-art imputation methods across various missing-data mechanisms and missing rates. Our results show that single-imputation strategies lead to low CI coverage. As a remedy, we adapt Rubin's rule to aggregate feature-importance estimates and their variances over several imputed datasets and account for imputation uncertainty. Our numerical results indicate that the adjusted CIs achieve better nominal coverage.",
+ "primary": "stat.ME"
+}

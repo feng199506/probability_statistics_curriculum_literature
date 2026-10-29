@@ -1,0 +1,15 @@
+{
+ "id": "2603.22408",
+ "title": "Spline Quantile Regression with Cubic and Linear Smoothing Splines",
+ "authors": [
+  "Ta-Hsin Li"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spline quantile regression (SQR) is a method introduced recently by Li and Megiddo (2026) for linear quantile regression where the regression coefficients are treated as smooth functions of the quantile level. With the coefficients represented by cubic splines with fixed knots on a given set of quantiles, the SQR method produces an estimate for the functional coefficients by solving a penalized quantile regression problem. The $\\ell_1$-norm of the second derivatives of the coefficients is employed as the penalty for regulating the roughness of the functional coefficients. This extends the SQR method by introducing additional pairings of the functional representation for the regression coefficients and the penalty for their roughness. The resulting cubic and linear SQR solutions are shown to be smoothing splines which are optimal in a functional space larger than the respective spline space with fixed knots. It is shown that the cubic SQR can be reformulated and solved as a quadratic program and the linear SQR as a linear program. A simulation study demonstrates that the SQR solutions not only offer a concise functional representation of the regression coefficients with distinct smoothness characteristics, but also provide a capability of producing more accurate estimates of the regression coefficients when the underlying functions are suitably smooth. Application of the SQR solutions is demonstrated by real-data examples, including a Granger causality analysis of stock market indices.",
+ "primary": "stat.ME"
+}

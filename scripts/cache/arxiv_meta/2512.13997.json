@@ -1,0 +1,17 @@
+{
+ "id": "2512.13997",
+ "title": "Maximum Mean Discrepancy with Unequal Sample Sizes via Generalized U-Statistics",
+ "authors": [
+  "Aaron Wei",
+  "Milad Jalali",
+  "Danica J. Sutherland"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-09",
+ "journal_ref": "Transactions on Machine Learning Research (2026)",
+ "doi": "",
+ "comment": "v2: various improvements, as published at TMLR - https://openreview.net/forum?id=KjXW75GHHF",
+ "abstract": "Existing two-sample testing techniques, particularly those based on choosing a kernel for the Maximum Mean Discrepancy (MMD), often assume equal sample sizes from the two distributions. Applying these methods in practice can require discarding valuable data, unnecessarily reducing test power. We address this long-standing limitation by extending the theory of generalized U-statistics and applying it to the usual MMD estimator, resulting in new characterization of the asymptotic distributions of the MMD estimator with unequal sample sizes (particularly outside the proportional regimes required by previous partial results). This generalization also provides a new criterion for optimizing the power of an MMD test with unequal sample sizes. Our approach preserves all available data, enhancing test accuracy and applicability in realistic settings. Along the way, we give much cleaner characterizations of the variance of MMD estimators, revealing something that might be surprising to those in the area: while zero MMD implies a degenerate estimator, it is sometimes possible to have a degenerate estimator with nonzero MMD as well; we give a construction and a proof that it does not happen in common situations.",
+ "primary": "stat.ML"
+}

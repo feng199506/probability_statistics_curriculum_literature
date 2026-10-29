@@ -1,0 +1,16 @@
+{
+ "id": "2601.22999",
+ "title": "Computationally efficient segmentation for non-stationary time series with oscillatory patterns",
+ "authors": [
+  "Nicolas Bianco",
+  "Lorenzo Cappello"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel approach for change-point detection and parameter learning in multivariate non-stationary time series exhibiting oscillatory behaviour. We approximate the process through a piecewise function defined by a sum of sinusoidal functions with unknown frequencies and amplitudes plus noise. The inference for this model is non-trivial. However, discretising the parameter space allows us to recast this complex estimation problem into a more tractable linear model, where the covariates are Fourier basis functions. Then, any change-point detection algorithms for segmentation can be used. The advantage of our proposal is that it bypasses the need for trans-dimensional Markov chain Monte Carlo algorithms used by state-of-the-art methods. Through simulations, we demonstrate that our method is significantly faster than existing approaches while maintaining comparable numerical accuracy. We also provide high probability bounds on the change-point localization error. We apply our methodology to climate and EEG sleep data.",
+ "primary": "stat.ME"
+}

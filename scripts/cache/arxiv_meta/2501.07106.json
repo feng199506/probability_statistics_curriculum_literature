@@ -1,0 +1,22 @@
+{
+ "id": "2501.07106",
+ "title": "Efficient Multiple Temporal Network Kernel Density Estimation",
+ "authors": [
+  "Yu Shao",
+  "Peng Cheng",
+  "Xiang Lian",
+  "Lei Chen",
+  "Wangze Ni",
+  "Xuemin Lin",
+  "Chen Zhang",
+  "Liping Wang"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 1,
+ "latest_date": "2025-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel density estimation (KDE) has become a popular method for visual analysis in various fields, such as financial risk forecasting, crime clustering, and traffic monitoring. KDE can identify high-density areas from discrete datasets. However, most existing works only consider planar distance and spatial data. In this paper, we introduce a new model, called TN-KDE, that applies KDE-based techniques to road networks with temporal data. Specifically, we introduce a novel solution, Range Forest Solution (RFS), which can efficiently compute KDE values on spatiotemporal road networks. To support the insertion operation, we present a dynamic version, called Dynamic Range Forest Solution (DRFS). We also propose an optimization called Lixel Sharing (LS) to share similar KDE values between two adjacent lixels. Furthermore, our solutions support many non-polynomial kernel functions and still report exact values. Experimental results show that our solutions achieve up to 6 times faster than the state-of-the-art method.",
+ "primary": "cs.DB"
+}

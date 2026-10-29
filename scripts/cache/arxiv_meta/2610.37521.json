@@ -1,0 +1,16 @@
+{
+ "id": "2610.37521",
+ "title": "Approaching Optimal Scaling of Queue Size for an Input-Queued Switch",
+ "authors": [
+  "Taha Ameen",
+  "Weina Wang"
+ ],
+ "v1_date": "2026-10-27",
+ "latest_version": 1,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the scaling of the expected total queue length in an $n\\times n$ input-queued switch. It has been conjectured that the optimal scaling is $O(n/(1-ρ))$, up to logarithmic factors, where $ρ$ is the system load. This conjecture has been established in the traditional heavy-traffic regime and in certain sub-regimes of the large-system regime. But it remains unresolved over a wide range of load scalings in the large-system regime. In this paper, we develop a family of scheduling policies parameterized by a positive integer $k\\ge 2$. We show that under uniform traffic, our policy achieves an expected total queue length of $O\\bigl({n\\log\\max\\{n,1/(1-ρ)\\}}\\big/{(1-ρ)^{2^k/(2^k-1)}}\\bigr)$, as long as $ρ\\to 1$ in the large-system regime. As $k$ increases, the exponent $2^k/(2^k-1)$ approaches $1$, bringing our bound arbitrarily close to the conjectured scaling. The expected amortized scheduling cost of the policy is $O(n^3 k)$ per time slot. Our policy is of a batching type, with a novel recursive design that allows an arbitrary number of batching levels. This design principle may also be useful for other scheduling problems in which combinatorial constraints restrict which jobs can be served simultaneously.",
+ "primary": "cs.PF"
+}

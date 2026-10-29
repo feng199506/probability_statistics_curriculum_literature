@@ -1,0 +1,18 @@
+{
+ "id": "2604.07153",
+ "title": "Non-asymptotic two-sample kernel testing with the spectrally truncated normalized MMD",
+ "authors": [
+  "Perrine Lacroix",
+  "Bertrand Michel",
+  "Franck Picard",
+  "Vincent Rivoirard"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel methods provide a flexible and powerful framework for nonparametric statistical testing by embedding probability distributions into a reproducing kernel Hilbert space (RKHS). In this work, we study the kernel two-sample testing problem and focus on a normalized version of the Maximum Mean Discrepancy (MMD) as a test statistic, which scales the discrepancy by the within-group covariance operator to account for data variability. This normalization has been shown to improve test power in both theoretical and empirical settings. Because this normalization requires regularization, we study the non-asymptotic properties of the spectrally truncated normalized MMD (st-nMMD) and derive an exponential upper bound under the null hypothesis. Thanks to this result we propose a sharp and explicit upper bound for the corresponding non-asymptotic quantile, along with a data-adaptive estimator. We further propose an algorithm to tune the hyperparameters involved in the quantile estimation, including the truncation level, without requiring data splitting. We demonstrate the performance of the st-nMMD through numerical experiments under both the null and alternative hypotheses.",
+ "primary": "math.ST"
+}

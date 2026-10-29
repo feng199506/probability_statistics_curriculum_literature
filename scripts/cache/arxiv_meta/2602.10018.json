@@ -1,0 +1,16 @@
+{
+ "id": "2602.10018",
+ "title": "Online Selective Conformal Prediction with Asymmetric Rules: A Permutation Test Approach",
+ "authors": [
+  "Mingyi Zheng",
+  "Ying Jin"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Selective conformal prediction aims to construct prediction sets with valid coverage for a test unit conditional on it being selected by a data-driven mechanism. While existing methods in the offline setting handle any selection mechanism that is permutation invariant to the labeled data, their extension to the online setting -- where data arrives sequentially and later decisions depend on earlier ones -- is challenged by the fact that the selection mechanism is naturally asymmetric. As such, existing methods only address a limited collection of selection mechanisms. In this paper, we propose PErmutation-based Mondrian Conformal Inference (PEMI), a general permutation-based framework for selective conformal prediction with arbitrary asymmetric selection rules. Motivated by full and Mondrian conformal prediction, PEMI identifies all permutations of the observed data (or a Monte-Carlo subset thereof) that lead to the same selection event, and calibrates a prediction set using conformity scores over this selection-preserving reference set. Under standard exchangeability conditions, our prediction sets achieve finite-sample exact selection-conditional coverage for any asymmetric selection mechanism and any prediction model. PEMI naturally incorporates additional offline labeled data, extends to selection mechanisms with multiple test samples, and achieves FCR control with fine-grained selection taxonomies. We further work out several efficient instantiations for commonly-used online selection rules, including covariate-based rules, conformal p/e-values-based procedures, and selection based on earlier outcomes. Finally, we demonstrate the efficacy of our methods across various selection rules on a real drug discovery dataset and investigate their performance via simulations.",
+ "primary": "stat.ME"
+}

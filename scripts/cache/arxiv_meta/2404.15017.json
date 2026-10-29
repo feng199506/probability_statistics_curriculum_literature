@@ -1,0 +1,19 @@
+{
+ "id": "2404.15017",
+ "title": "The mosaic permutation test: an exact and nonparametric goodness-of-fit test for factor models",
+ "authors": [
+  "Asher Spector",
+  "Rina Foygel Barber",
+  "Trevor Hastie",
+  "Ronald N. Kahn",
+  "Emmanuel Candès"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 2,
+ "latest_date": "2024-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 13 figures",
+ "abstract": "Financial firms often rely on fundamental factor models to explain correlations among asset returns and manage risk. Yet after major events, e.g., COVID-19, analysts may reassess whether existing risk models continue to fit well: specifically, after accounting for a set of known factor exposures, are the residuals of the asset returns independent? With this motivation, we introduce the mosaic permutation test, a nonparametric goodness-of-fit test for preexisting factor models. Our method can leverage modern machine learning techniques to detect model violations while provably controlling the false positive rate, i.e., the probability of rejecting a well-fitting model, without making asymptotic approximations or parametric assumptions. This property helps prevent analysts from unnecessarily rebuilding accurate models, which can waste resources and increase risk. To illustrate our methodology, we apply the mosaic permutation test to the BlackRock Fundamental Equity Risk (BFRE) model. Although the BFRE model generally explains the most significant correlations among assets, we find evidence of unexplained correlations among certain real estate stocks, and we show that adding new factors improves model fit. We implement our methods in the python package mosaicperm.",
+ "primary": "stat.ME"
+}

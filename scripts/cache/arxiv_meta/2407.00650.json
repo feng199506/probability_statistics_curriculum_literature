@@ -1,0 +1,18 @@
+{
+ "id": "2407.00650",
+ "title": "Proper Scoring Rules for Multivariate Probabilistic Forecasts based on Aggregation and Transformation",
+ "authors": [
+  "Romain Pic",
+  "Clément Dombry",
+  "Philippe Naveau",
+  "Maxime Taillardat"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 1,
+ "latest_date": "2024-06-30",
+ "journal_ref": "",
+ "doi": "10.5194/ascmo-11-23-2025",
+ "comment": "for associated code, see https://github.com/pic-romain/aggregation-transformation",
+ "abstract": "Proper scoring rules are an essential tool to assess the predictive performance of probabilistic forecasts. However, propriety alone does not ensure an informative characterization of predictive performance and it is recommended to compare forecasts using multiple scoring rules. With that in mind, interpretable scoring rules providing complementary information are necessary. We formalize a framework based on aggregation and transformation to build interpretable multivariate proper scoring rules. Aggregation-and-transformation-based scoring rules are able to target specific features of the probabilistic forecasts; which improves the characterization of the predictive performance. This framework is illustrated through examples taken from the literature and studied using numerical experiments showcasing its benefits. In particular, it is shown that it can help bridge the gap between proper scoring rules and spatial verification tools.",
+ "primary": "stat.ME"
+}

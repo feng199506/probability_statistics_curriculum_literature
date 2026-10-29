@@ -1,0 +1,16 @@
+{
+ "id": "2311.07419",
+ "title": "Diaconis-Ylvisaker prior penalized likelihood for $p/n \\to κ\\in (0,1)$ logistic regression",
+ "authors": [
+  "Philipp Sterzinger",
+  "Ioannis Kosmidis"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 3,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 8 figures, pdf attached",
+ "abstract": "We characterise the behavior of the maximum Diaconis--Ylvisaker prior penalized likelihood estimator in high-dimensional logistic regression, where the number of covariates is a fraction $κ\\in (0,1)$ of the number of observations $n$, as $n \\to \\infty$. We construct a rescaled estimator with zero asymptotic aggregate bias and define adjusted $Z$-statistics and rescaled penalized likelihood ratio statistics that exhibit the typical null asymptotic distributions, when the covariates are independent multivariate normal with an arbitrary covariance matrix and the linear predictor has asymptotic variance $γ^2$. While the maximum likelihood estimate asymptotically exists only for a narrow range of $(κ, γ)$ values, the maximum Diaconis--Ylvisaker prior penalized likelihood estimate always exists and can be computed directly using standard maximum likelihood routines. Thus, our asymptotic results extend to $(κ, γ)$ values where the maximum likelihood framework breaks down, with no additional implementation or computational cost. We study the estimator's shrinkage properties, compare the proposed estimation and inference procedures with alternatives that also accommodate proportional asymptotics, and formulate a conjecture -- supported by strong empirical evidence -- that extends our results when the model includes an intercept parameter. Finally, we propose estimation methods for all unknown constants involved in our procedures and demonstrate the theoretical advances through extensive simulation studies and the analysis of digit recognition data.",
+ "primary": "math.ST"
+}

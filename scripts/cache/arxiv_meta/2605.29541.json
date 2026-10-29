@@ -1,0 +1,19 @@
+{
+ "id": "2605.29541",
+ "title": "Change-point estimation for Weibull time series with copula-based Markov models",
+ "authors": [
+  "Li-Hsien Sun",
+  "Zong-Yuan Huang",
+  "Yi-Ling Huang",
+  "Chi-Yang Chiu",
+  "Ning Ning"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study offline change-point estimation for time series data exhibiting nonlinear serial dependence. To address this problem, we propose a copula-based Markov chain model with Weibull marginal distributions, which is suitable for modeling nonnegative data such as event times and volatility measures. Nonlinear dependence is incorporated through the Clayton and Joe copulas, allowing the model to capture asymmetric lower-tail and upper-tail dependence structures, respectively. We derive the corresponding likelihood function and estimate the change point and model parameters using maximum likelihood estimation implemented through the Newton--Raphson algorithm. Confidence intervals are constructed via a parametric bootstrap Monte Carlo procedure. Extensive numerical studies are conducted to evaluate the finite-sample performance and robustness of the proposed method under different dependence structures and copula misspecification scenarios. The results demonstrate that the proposed estimators perform well in terms of RMSE and relative error, particularly for the estimation of the change point. An empirical application to the VIX index during the COVID-19 pandemic further illustrates the practical usefulness of the proposed approach in detecting structural changes in both the marginal distributions and serial dependence structure.",
+ "primary": "stat.ME"
+}

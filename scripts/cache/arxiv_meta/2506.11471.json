@@ -1,0 +1,16 @@
+{
+ "id": "2506.11471",
+ "title": "A Review and Comparison of Different Sensitivity Analysis Techniques in Practice",
+ "authors": [
+  "Devin Francom",
+  "Abigael Nachtsheim"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There exist many methods for sensitivity analysis readily available to the practitioner. While each seeks to help the modeler answer the same general question -- How do sources of uncertainty or changes in the model inputs relate to uncertainty in the output? -- different methods are associated with different assumptions, constraints, and required resources, leading to conclusions that may vary in interpretability and level of detail. Thus, it is crucial that the practitioner selects the desired sensitivity analysis method judiciously, making sure to match the selected approach to the specifics of their problem and to their desired objectives. In this chapter, we provide a practical overview of a collection of widely used, widely available sensitivity analysis methods. We focus on global sensitivity approaches, which seek to characterize how uncertainty in the model output may be allocated to sources of uncertainty in model inputs across the entire input space. Generally, this will require the practitioner to specify a probability distribution over the input space. On the other hand, methods for local sensitivity analysis do not require this specification but they have more limited utility, providing insight into sources of uncertainty associated only with a particular, specified location in the input space. Our hope is that this chapter may serve as a decision-making tool for practitioners, helping to guide the selection of a sensitivity analysis approach that will best fit their needs. To support this goal, we have selected a suite of approaches to cover, which, while not exhaustive, we believe provides a flexible and robust sensitivity analysis toolkit. All methods included are widely used and available in standard software packages.",
+ "primary": "stat.ME"
+}

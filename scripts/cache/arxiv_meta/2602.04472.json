@@ -1,0 +1,16 @@
+{
+ "id": "2602.04472",
+ "title": "Universality of General Spiked Tensor Models",
+ "authors": [
+  "Yanjin Xiang",
+  "Zhihua Zhang"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 2,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "115pages",
+ "abstract": "We study asymmetric rank-one spiked tensor models in the high-dimensional regime, where the noise entries are independent and identically distributed with zero mean, unit variance, and finite fourth moment. This extends the classical Gaussian framework to a substantially broader class of noise distributions. We analyze the maximum-likelihood estimator associated with the best rank-one approximation of an order-$d$ tensor, for $d\\ge 3$. Our approach is formulated along an informative, spectrally separated branch of stationary points of the non-convex maximum-likelihood landscape. In the core order-three asymmetric model, we verify locally in the high-signal regime that such an informative branch exists and remains separated from the bulk. Under this branch-selection framework, we show that the empirical spectral distribution of a suitable block-wise tensor contraction converges almost surely to the same deterministic limit as in the Gaussian case. As a consequence, the asymptotic singular value and the mode-wise alignments between the estimated and planted spike directions admit the same explicit characterizations as under Gaussian noise. These results establish a universality principle for asymmetric spiked tensor models: the high-dimensional spectral behavior and statistical limits of the selected maximum-likelihood stationary point are robust beyond the Gaussian setting. Our proof combines resolvent methods from random matrix theory, cumulant expansions under finite fourth-moment assumptions, and Efron--Stein-type variance bounds. A main technical difficulty is to control the statistical dependence between the estimator and the noise, including the associated cross terms in the non-Gaussian setting.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.20506",
+ "title": "Identification and Estimation of Joint Potential Outcome Distributions from a Single Study",
+ "authors": [
+  "Zach Shahn",
+  "David Madigan"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 3,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most causal inference methods focus on estimating marginal average treatment effects, but many important causal estimands depend on the joint distribution of potential outcomes, including the probability of causation and proportions benefiting from or harmed by treatment. Wu et al (2025) recently established nonparametric identification of this joint distribution for categorical outcomes under binary treatment by leveraging variation across multiple studies. We demonstrate that their multi-study framework can be implemented within a single study by using a baseline covariate that is associated with untreated potential outcomes but does not modify treatment effects conditional on those outcomes. This reframing substantially broadens the practical applicability of their results, as it eliminates the need for multiple independent datasets and gives analysts control over covariate selection to satisfy key identifying assumptions. We provide complete identification and estimation theory for the single-study setting, including a Neyman-orthogonal estimator for cases where the conditional independence assumption only holds after adjusting for covariates. However, we argue that only in unusual settings would it be even theoretically possible for the identifying assumptions to hold exactly, making sensitivity analysis particularly important. We validate the estimator in a simulation and apply it to data from a large field experiment assessing the effect of mailings on voter turnout.",
+ "primary": "stat.ME"
+}

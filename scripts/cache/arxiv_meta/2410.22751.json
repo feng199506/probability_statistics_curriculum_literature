@@ -1,0 +1,20 @@
+{
+ "id": "2410.22751",
+ "title": "Novel Subsampling Strategies for Heavily Censored Reliability Data",
+ "authors": [
+  "Yixiao Ruan",
+  "Zan Li",
+  "Zhaohui Li",
+  "Dennis K. J. Lin",
+  "Qingpei Hu",
+  "Dan Yu"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 1,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 3 figures, to be published in Statistics and Its Interface",
+ "abstract": "Computational capability often falls short when confronted with massive data, posing a common challenge in establishing a statistical model or statistical inference method dealing with big data. While subsampling techniques have been extensively developed to downsize the data volume, there is a notable gap in addressing the unique challenge of handling extensive reliability data, in which a common situation is that a large proportion of data is censored. In this article, we propose an efficient subsampling method for reliability analysis in the presence of censoring data, intending to estimate the parameters of lifetime distribution. Moreover, a novel subsampling method for subsampling from severely censored data is proposed, i.e., only a tiny proportion of data is complete. The subsampling-based estimators are given, and their asymptotic properties are derived. The optimal subsampling probabilities are derived through the L-optimality criterion, which minimizes the trace of the product of the asymptotic covariance matrix and a constant matrix. Efficient algorithms are proposed to implement the proposed subsampling methods to address the challenge that optimal subsampling strategy depends on unknown parameter estimation from full data. Real-world hard drive dataset case and simulative empirical studies are employed to demonstrate the superior performance of the proposed methods.",
+ "primary": "stat.ME"
+}

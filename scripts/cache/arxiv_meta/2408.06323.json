@@ -1,0 +1,18 @@
+{
+ "id": "2408.06323",
+ "title": "Infer-and-widen, or not?",
+ "authors": [
+  "Ronan Perry",
+  "Zichun Xu",
+  "Olivia McGough",
+  "Daniela Witten"
+ ],
+ "v1_date": "2024-08-12",
+ "latest_version": 3,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, there has been substantial interest in the task of selective inference: inference on a parameter that is selected from the data. Many of the existing proposals fall into what we refer to as the \\emph{infer-and-widen} framework: they produce symmetric confidence intervals whose midpoints do not account for selection and therefore are biased; thus, the intervals must be wide enough to account for this bias. In this paper, we investigate infer-and-widen approaches in three vignettes: the winner's curse, maximal contrasts, and inference after the lasso. In each of these examples, we show that a state-of-the-art infer-and-widen proposal leads to confidence intervals that are wider than a non-infer-and-widen alternative. Furthermore, even an ``oracle'' infer-and-widen confidence interval -- the narrowest possible interval that could be theoretically attained via infer-and-widen -- can be wider than the alternative.",
+ "primary": "stat.ME"
+}

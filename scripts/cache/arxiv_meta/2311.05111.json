@@ -1,0 +1,17 @@
+{
+ "id": "2311.05111",
+ "title": "Vector Approximate Survey Propagation",
+ "authors": [
+  "Qun Chen",
+  "Haochuan Zhang",
+  "Huimin Zhu"
+ ],
+ "v1_date": "2023-11-09",
+ "latest_version": 2,
+ "latest_date": "2024-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Message Passing (AMP), originally designed to solve high-dimensional linear inverse problems, has found broad applications in signal processing and statistical inference. Among its key variants, Vector Approximate Message Passing (VAMP) and Generalized Approximate Survey Propagation (GASP) have demonstrated effectiveness even in scenarios where the assumed generative models differ from the true models. However, the maximum a posteriori (MAP) versions of VAMP and GASP have limitations: VAMP is restricted to differentiable priors and likelihoods, while GASP requires the measurement matrix to have independent identically distributed (i.i.d.) elements. To overcome these limitations, this paper introduces a new algorithm, Vector Approximate Survey Propagation (VASP). VASP utilizes survey propagation to handle non-differentiable priors and likelihoods, along with employs vector-form messages to account for correlations in the measurement matrix. Simulations reveal that VASP significantly surpasses VAMP and GASP in estimation accuracy, particularly when the assumed prior is discrete-supported and the measurement matrix is non-i.i.d.. Additionally, the state evolution (SE) of VASP, derived heuristically, accurately reflects the per-iteration mean squared error (MSE). A comparison between the SE and the free energy computed by Takahashi and Kabashima under the one-step replica symmetry breaking (1RSB) ansatz shows that the SE's fixed-point equations align with the free energy's saddle point equations. This suggests that VASP efficiently implements the postulated MAP estimator (which is NP-hard in the worst case) with cubic computational complexity, assuming the 1RSB ansatz is valid.",
+ "primary": "cs.IT"
+}

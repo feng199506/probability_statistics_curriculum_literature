@@ -1,0 +1,18 @@
+{
+ "id": "2010.03531",
+ "title": "Episodic Reinforcement Learning in Finite MDPs: Minimax Lower Bounds Revisited",
+ "authors": [
+  "Omar Darwiche Domingues",
+  "Pierre Ménard",
+  "Emilie Kaufmann",
+  "Michal Valko"
+ ],
+ "v1_date": "2020-10-07",
+ "latest_version": 1,
+ "latest_date": "2020-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose new problem-independent lower bounds on the sample complexity and regret in episodic MDPs, with a particular focus on the non-stationary case in which the transition kernel is allowed to change in each stage of the episode. Our main contribution is a novel lower bound of $Ω((H^3SA/ε^2)\\log(1/δ))$ on the sample complexity of an $(\\varepsilon,δ)$-PAC algorithm for best policy identification in a non-stationary MDP. This lower bound relies on a construction of \"hard MDPs\" which is different from the ones previously used in the literature. Using this same class of MDPs, we also provide a rigorous proof of the $Ω(\\sqrt{H^3SAT})$ regret bound for non-stationary MDPs. Finally, we discuss connections to PAC-MDP lower bounds.",
+ "primary": "cs.LG"
+}

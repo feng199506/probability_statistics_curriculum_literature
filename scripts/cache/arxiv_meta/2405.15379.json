@@ -1,0 +1,17 @@
+{
+ "id": "2405.15379",
+ "title": "Randomized Midpoint Method for Log-Concave Sampling under Constraints",
+ "authors": [
+  "Yifeng Yu",
+  "Shijie Zhang",
+  "Lu Yu"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 3,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we study the problem of sampling from log-concave distributions supported on convex and compact sets, with a particular focus on the randomized midpoint discretization of both overdamped and kinetic Langevin diffusions in constrained domains. We revisit the proximal framework for handling constraints through projection operators and develop a more general formulation that encompasses Euclidean, Bregman, and Gauge projections. The resulting smooth approximation allows a unified and tractable analysis of Langevin algorithms and their variants under constraints. Within this framework, we establish convergence guarantees in Wasserstein-$q$ $(q\\geqslant 1)$ distances between the smooth surrogate and the target distribution. We further derive complementary lower bounds, showing that the results are near-optimal in order. Building upon this tight approximation analysis, we obtain new convergence guarantees for the randomized midpoint Langevin algorithms and refined bounds for both vanilla and kinetic Langevin Monte Carlo methods under constraints, thereby advancing the theoretical understanding of constrained diffusion-based sampling.",
+ "primary": "stat.ML"
+}

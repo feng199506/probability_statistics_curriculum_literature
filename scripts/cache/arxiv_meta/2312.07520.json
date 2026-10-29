@@ -1,0 +1,16 @@
+{
+ "id": "2312.07520",
+ "title": "Estimating Counterfactual Matrix Means with Short Panel Data",
+ "authors": [
+  "Lihua Lei",
+  "Brad Ross"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 3,
+ "latest_date": "2025-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "100 pages, 7 figures, 3 tables",
+ "abstract": "We develop a spectral approach for identifying and estimating average counterfactual outcomes under a low-rank factor model with short panel data and general outcome missingness patterns. Applications include event studies and studies of outcomes of \"matches\" between agents of two types, e.g. people and places, typically conducted using less-flexible Two-Way Fixed Effects (TWFE) models of outcomes. Given finite observed outcomes per unit, we show our approach identifies all counterfactual outcome means, including those not identified by existing methods, if a particular graph algorithm determines that units' sets of observed outcomes have sufficient overlap. Our analogous, computationally efficient estimation procedure yields consistent, asymptotically normal estimates of counterfactual outcome means under fixed-$T$ (number of outcomes), large-$N$ (sample size) asymptotics. When estimating province-level averages of held-out wages from an Italian matched employer-employee dataset, our estimator outperforms a TWFE-model-based estimator.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2601.07539",
+ "title": "Functional Synthetic Control Methods for Metric Space-Valued Outcomes",
+ "authors": [
+  "Ryo Okano",
+  "Daisuke Kurisu"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 1,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The synthetic control method (SCM) is a widely used tool for evaluating causal effects of policy changes in panel data settings. Recent studies have extended its framework to accommodate complex outcomes that take values in metric spaces, such as distributions, functions, networks, covariance matrices, and compositional data. However, due to the lack of linear structure in general metric spaces, theoretical guarantees for estimation and inference within these extended frameworks remain underdeveloped. In this study, we propose the functional synthetic control (FSC) method as an extension of the SCM for metric space-valued outcomes. To address challenges arising from the nonlinearlity of metric spaces, we leverage isometric embeddings into Hilbert spaces. Building on this approach, we develop the FSC and augmented FSC estimators for counterfactual outcomes, with the latter being a bias-corrected version of the former. We then derive their finite-sample error bounds to establish theoretical guarantees for estimation, and construct prediction sets based on these estimators to conduct inference on causal effects. We demonstrate the usefulness of the proposed framework through simulation studies and three empirical applications.",
+ "primary": "stat.ME"
+}

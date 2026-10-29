@@ -1,0 +1,18 @@
+{
+ "id": "2506.01219",
+ "title": "Reluctant Interaction Inference after Additive Modeling",
+ "authors": [
+  "Yiling Huang",
+  "Snigdha Panigrahi",
+  "Guo Yu",
+  "Jacob Bien"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 1,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 8 figures",
+ "abstract": "Additive models enjoy the flexibility of nonlinear models while still being readily understandable to humans. By contrast, other nonlinear models, which involve interactions between features, are not only harder to fit but also substantially more complicated to explain. Guided by the principle of parsimony, a data analyst therefore may naturally be reluctant to move beyond an additive model unless it is truly warranted. To put this principle of interaction reluctance into practice, we formulate the problem as a hypothesis test with a fitted sparse additive model (SPAM) serving as the null. Because our hypotheses on interaction effects are formed after fitting a SPAM to the data, we adopt a selective inference approach to construct p-values that properly account for this data adaptivity. Our approach makes use of external randomization to obtain the distribution of test statistics conditional on the SPAM fit, allowing us to derive valid p-values, corrected for the over-optimism introduced by the data-adaptive process prior to the test. Through experiments on simulated and real data, we illustrate that--even with small amounts of external randomization--this rigorous modeling approach enjoys considerable advantages over naive methods and data splitting.",
+ "primary": "stat.ME"
+}

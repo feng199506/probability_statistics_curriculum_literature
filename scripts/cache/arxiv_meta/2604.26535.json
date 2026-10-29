@@ -1,0 +1,17 @@
+{
+ "id": "2604.26535",
+ "title": "ARMA approximation of a Non-separable Spatio-Temporal Model with Fractional Smoothnesses in Space and Time",
+ "authors": [
+  "S. Knutsen Furset",
+  "Geir-Arne Fuglstad",
+  "Espen R. Jakobsen"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Matérn covariance model is ubiquitous in spatial modelling, but there is no default choice for spatio-temporal modelling. In this paper, we consider the recently proposed ``diffusion-based'' extension of the spatial Matérn covariance model to a spatio-temporal non-separable covariance model that allows fractional smoothnesses in space and in time. The model is described in terms of a space-time fractional stochastic partial differential equation, but currently proposed computational approaches have strong restrictions on the possible smoothnesses in time. We propose a discretization method based on rational approximations in time to handle arbitrary smoothnesses, which leads to a vector autoregressive moving average process (VARMA). We prove that the covariance function of the approximation converges pointwise, determine explicit convergence rates as a function of spatial and temporal resolutions and the accuracy of the rational approximation, and conduct numerical verification to demonstrate small pointwise error for low orders of the VARMA process. Through a simulation study, we demonstrate that the parameters can be estimated back and that correctly specifying the temporal smoothness is especially important for forecasting. The approach is illustrated for three months of daily mean temperatures in mainland France.",
+ "primary": "stat.ME"
+}

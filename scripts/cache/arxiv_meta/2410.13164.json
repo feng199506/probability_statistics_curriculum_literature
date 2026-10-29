@@ -1,0 +1,16 @@
+{
+ "id": "2410.13164",
+ "title": "Markov Random Fields with Proximity Constraints for Spatial Data",
+ "authors": [
+  "Sudipto Saha",
+  "Jonathan R. Bradley"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 1,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 10 figures",
+ "abstract": "The conditional autoregressive (CAR) model, simultaneous autoregressive (SAR) model, and its variants have become the predominant strategies for modeling regional or areal-referenced spatial data. The overwhelming wide-use of the CAR/SAR model motivates the need for new classes of models for areal-referenced data. Thus, we develop a novel class of Markov random fields based on truncating the full-conditional distribution. We define this truncation in two ways leading to versions of what we call the truncated autoregressive (TAR) model. First, we truncate the full conditional distribution so that a response at one location is close to the average of its neighbors. This strategy establishes relationships between TAR and CAR. Second, we truncate on the joint distribution of the data process in a similar way. This specification leads to connection between TAR and SAR model. Our Bayesian implementation does not use Markov chain Monte Carlo (MCMC) for Bayesian computation, and generates samples directly from the posterior distribution. Moreover, TAR does not have a range parameter that arises in the CAR/SAR models, which can be difficult to learn. We present the results of the proposed truncated autoregressive model on several simulated datasets and on a dataset of average property prices.",
+ "primary": "stat.ME"
+}

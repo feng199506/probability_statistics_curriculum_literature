@@ -1,0 +1,17 @@
+{
+ "id": "2402.06428",
+ "title": "Smooth Transformation Models for Survival Analysis: A Tutorial Using R",
+ "authors": [
+  "Sandra Siegfried",
+  "Bálint Tamási",
+  "Torsten Hothorn"
+ ],
+ "v1_date": "2024-02-09",
+ "latest_version": 3,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "10.1177/09622802251414595",
+ "comment": "",
+ "abstract": "Over the last five decades, we have seen strong methodological advances in survival analysis, using parametric methods and, more prominently, methods based on non-/semi-parametric estimation. As the methodological landscape continues to evolve, the task of navigating through the multitude of methods and identifying available software resources is becoming increasingly challenging -- especially in more complex scenarios, such as when dealing with interval-censored or clustered survival data, non-proportional hazards, or dependent censoring. This tutorial explores the potential of using the framework of smooth transformation models for survival analysis in the R system for statistical computing. This framework provides a unified maximum-likelihood approach that covers a wide range of survival models, including well-established ones such as the Weibull model and a fully parametric version of the famous Cox proportional hazards model, and various extensions for more complex scenarios. We explore models for non-proportional/crossing hazards, dependent censoring, clustered observations and extensions towards personalised medicine within this framework. Using survival data from a two-arm randomised controlled trial on rectal cancer therapy, we demonstrate how survival analysis tasks can be seamlessly navigated in R within this framework using the implementation provided by the \"tram\" package, and few related packages.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.02964",
+ "title": "Injecting Measurement Information Yields a Fast and Noise-Robust Diffusion-Based Inverse Problem Solver",
+ "authors": [
+  "Jonathan Patsenker",
+  "Henry Li",
+  "Myeongseob Ko",
+  "Ruoxi Jia",
+  "Yuval Kluger"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 3,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models have been firmly established as principled zero-shot solvers for linear and nonlinear inverse problems, owing to their powerful image prior and iterative sampling algorithm. These approaches often rely on Tweedie's formula, which relates the diffusion variate $\\mathbf{x}_t$ to the posterior mean $\\mathbb{E} [\\mathbf{x}_0 | \\mathbf{x}_t]$, in order to guide the diffusion trajectory with an estimate of the final denoised sample $\\mathbf{x}_0$. However, this does not consider information from the measurement $\\mathbf{y}$, which must then be integrated downstream. In this work, we propose to estimate the conditional posterior mean $\\mathbb{E} [\\mathbf{x}_0 | \\mathbf{x}_t, \\mathbf{y}]$, which can be formulated as the solution to a lightweight, single-parameter maximum likelihood estimation problem. The resulting prediction can be integrated into any standard sampler, resulting in a fast and memory-efficient inverse solver. Our optimizer is amenable to a noise-aware likelihood-based stopping criteria that is robust to measurement noise in $\\mathbf{y}$. We demonstrate comparable or improved performance against a wide selection of contemporary inverse solvers across multiple datasets and tasks.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2601.10732",
+ "title": "Source Exclusion in Regime-Gated Forecasting: A Cross-Market Audit of Equity-Factor Predictability",
+ "authors": [
+  "Chorok Lee"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 2,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 3 figures, 19 tables. Substantially revised: chronological four-market evaluation, controlled mechanism experiments, and simultaneous uncertainty analysis",
+ "abstract": "A source variable can enter a forecast through both lag coefficients and an estimated regime gate. Removing its lag block therefore differs from excluding its information throughout fitting, filtering and tuning. We audit this distinction in equity-factor forecasting. A current-vintage reconstruction of the reported HML-to-SMB relation finds negative incremental MSE gains for pooled, Gaussian-HMM and Student-t-HMM forecasts in 2010-2024. An expansion evaluates all 30 factor directions in four regional panels, with 2025-August 2026 withheld from earlier repository forecast evaluation. Shared-gate ablation and complete exclusion give opposite capped-loss point-estimate signs in 42 of 240 unweighted temporal comparisons. None of 2,400 temporal endpoints resolves a direction under a simultaneous confidence-sequence construction. All 776 intervals within a declared score-resolution margin are explained by forecast proximity. Controlled simulations separate oracle information from fitting costs and show fitted HMM losses despite positive oracle information. A matched Gaussian-versus-Bernoulli channel intervention improves forecasts at one corruption level under known-AR residualization, without identifying the earlier pipeline failure or a financial mechanism. Application-budget and learned-pipeline diagnostics expose poor resolution of known positive targets. Independent implementations replay archived forecasts and recompute all 4,800 primary financial interval summaries. The evidence demonstrates sensitivity to source removal and limited inferential resolution. Correlated markets, retrospective data vintages and unverified outside exposure limit confirmation claims.",
+ "primary": "q-fin.RM"
+}

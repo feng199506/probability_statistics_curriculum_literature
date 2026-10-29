@@ -1,0 +1,15 @@
+{
+ "id": "2310.20294",
+ "title": "Robust nonparametric regression based on deep ReLU neural networks",
+ "authors": [
+  "Juntong Chen"
+ ],
+ "v1_date": "2023-10-31",
+ "latest_version": 1,
+ "latest_date": "2023-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages",
+ "abstract": "In this paper, we consider robust nonparametric regression using deep neural networks with ReLU activation function. While several existing theoretically justified methods are geared towards robustness against identical heavy-tailed noise distributions, the rise of adversarial attacks has emphasized the importance of safeguarding estimation procedures against systematic contamination. We approach this statistical issue by shifting our focus towards estimating conditional distributions. To address it robustly, we introduce a novel estimation procedure based on $\\ell$-estimation. Under a mild model assumption, we establish general non-asymptotic risk bounds for the resulting estimators, showcasing their robustness against contamination, outliers, and model misspecification. We then delve into the application of our approach using deep ReLU neural networks. When the model is well-specified and the regression function belongs to an $α$-Hölder class, employing $\\ell$-type estimation on suitable networks enables the resulting estimators to achieve the minimax optimal rate of convergence. Additionally, we demonstrate that deep $\\ell$-type estimators can circumvent the curse of dimensionality by assuming the regression function closely resembles the composition of several Hölder functions. To attain this, new deep fully-connected ReLU neural networks have been designed to approximate this composition class. This approximation result can be of independent interest.",
+ "primary": "stat.ME"
+}

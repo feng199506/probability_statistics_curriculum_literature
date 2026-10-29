@@ -1,0 +1,16 @@
+{
+ "id": "2509.13169",
+ "title": "Robust Sensitivity Analysis via Augmented Percentile Bootstrap under Simultaneous Violations of Unconfoundedness and Overlap",
+ "authors": [
+  "Han Cui",
+  "Xinran Li"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 1,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The identification of causal effects in observational studies typically relies on two standard assumptions: unconfoundedness and overlap. However, both assumptions are often questionable in practice: unconfoundedness is inherently untestable, and overlap may fail in the presence of extreme unmeasured confounding. While various approaches have been developed to address unmeasured confounding and extreme propensity scores separately, few methods accommodate simultaneous violations of both assumptions. In this paper, we propose a sensitivity analysis framework that relaxes both unconfoundedness and overlap, building upon the marginal sensitivity model. Specifically, we allow the bound on unmeasured confounding to hold for only a subset of the population, thereby accommodating heterogeneity in confounding and allowing treatment probabilities to be zero or one. Moreover, unlike prior work, our approach does not require bounded outcomes and focuses on overlap-weighted average treatment effects, which are both practically meaningful and robust to non-overlap. We develop computationally efficient methods to obtain worst-case bounds via linear programming, and introduce a novel augmented percentile bootstrap procedure for statistical inference. This bootstrap method handles parameters defined through over-identified estimating equations involving unobserved variables and may be of independent interest. Our work provides a unified and flexible framework for sensitivity analysis under violations of both unconfoundedness and overlap.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2605.20550",
+ "title": "Weak-Curvature AMISE and Plug-in Bandwidth Selection for Kernel Density Estimation",
+ "authors": [
+  "Alireza Kabgani",
+  "Elaheh Lotfian"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel density estimation risk expansions are commonly expressed through the integrated squared curvature term that enters second-order AMISE and plug-in bandwidth rules. This paper develops a weak-curvature formulation of this classical calculation for densities whose second derivative exists weakly rather than as a continuous classical function. We prove that if a density has square-integrable weak curvature, then the standard second-order AMISE expansion, oracle bandwidth order, and kernel-dependent optimality calculation remain valid with the curvature functional understood in the weak sense. The class $C^{1,1}(\\mathbb{R})\\setminus C^2(\\mathbb{R})$ serves as a concrete and practically relevant subclass: the first derivative is Lipschitz, while curvature may be kinked, discontinuous, or undefined at isolated points. Building on this formulation, we introduce a generalized-curvature plug-in (GCPI) bandwidth selector. The selector estimates the weak-curvature functional by a pilot density-derivative estimator with a leave-one-out U-statistic correction and substitutes this estimate into the AMISE bandwidth formula. We prove first-order oracle equivalence under ratio-consistent weak-curvature estimation and establish consistency of the proposed U-statistic curvature estimator under explicit pilot-bandwidth conditions. We also give a scalar-bandwidth multivariate extension based on weak Hessians and illustrate the theory through nonsmooth density examples, simulations, and a real-data application.",
+ "primary": "math.ST"
+}

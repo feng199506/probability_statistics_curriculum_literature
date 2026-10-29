@@ -1,0 +1,17 @@
+{
+ "id": "2512.12340",
+ "title": "Quantile regression with generalized multiquadric loss function",
+ "authors": [
+  "Wenwu Gao",
+  "Dongyi Zheng",
+  "Hanbing Zhu"
+ ],
+ "v1_date": "2025-12-13",
+ "latest_version": 1,
+ "latest_date": "2025-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantile regression (QR) is now widely used to analyze the effect of covariates on the conditional distribution of a response variable. It provides a more comprehensive picture of the relationship between a response and covariates compared with classical least squares regression. However, the non-differentiability of the check loss function precludes the use of gradient-based methods to solve the optimization problem in quantile regression estimation. To this end, This paper constructs a smoothed loss function based on multiquadric (MQ) function. The proposed loss function leads to a globally convex optimization problem that can be efficiently solved via (stochastic) gradient descent methods. As an example, we apply the Barzilai-Borwein gradient descent method to obtain the estimation of quantile regression. We establish the theoretical results of the proposed estimator under some regularity conditions, and compare it with other estimation methods using Monte Carlo simulations.",
+ "primary": "stat.ME"
+}

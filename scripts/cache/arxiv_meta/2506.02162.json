@@ -1,0 +1,16 @@
+{
+ "id": "2506.02162",
+ "title": "Asymptotically exact variational flows via involutive MCMC kernels",
+ "authors": [
+  "Zuheng Xu",
+  "Trevor Campbell"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 3,
+ "latest_date": "2026-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most expressive variational families -- such as normalizing flows -- lack practical convergence guarantees, as their theoretical assurances typically hold only at the intractable global optimum. In this work, we present a general recipe for constructing tuning-free, asymptotically exact variational flows on arbitrary state spaces from involutive MCMC kernels. The core methodological component is a novel representation of general involutive MCMC kernels as invertible, measurepreserving iterated random function systems, which act as the flow maps of our variational flows. This leads to three new variational families with provable total variation convergence. Our framework resolves key practical limitations of existing variational families with similar guarantees (e.g., MixFlows), while requiring substantially weaker theoretical assumptions. Finally, we demonstrate the competitive performance of our flows across tasks including posterior approximation, Monte Carlo estimates, and normalization constant estimation, outperforming or matching No-U-Turn sampler (NUTS) and black-box normalizing flows.",
+ "primary": "stat.CO"
+}

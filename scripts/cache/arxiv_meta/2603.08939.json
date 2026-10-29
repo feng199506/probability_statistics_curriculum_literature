@@ -1,0 +1,16 @@
+{
+ "id": "2603.08939",
+ "title": "Shape-constrained density estimation with Wasserstein projection",
+ "authors": [
+  "Takeru Matsuda",
+  "Ting-Kam Leonard Wong"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 2,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 4 figures. Revised",
+ "abstract": "Statistical inference based on optimal transport offers a different perspective from that of maximum likelihood, and has increasingly gained attention in recent years. In this paper, we study univariate nonparametric shape-constrained density estimation via projection with respect to the $p$-Wasserstein distance, with a focus on the quadratic case $p = 2$. By considering shape constraints given by displacement convex subsets of the Wasserstein space, Wasserstein projection estimation is a convex optimization problem. We focus on two fundamental examples, namely non-increasing densities on $\\mathbb{R}_+ := [0, \\infty)$ and log-concave densities on $\\mathbb{R}$. In each case, we prove structural properties of the Wasserstein projection estimator, propose a discretization which can be implemented by off-the-shelf solvers, and compare the projection estimator with the corresponding maximum likelihood estimator.",
+ "primary": "math.ST"
+}

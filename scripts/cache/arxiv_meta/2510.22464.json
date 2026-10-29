@@ -1,0 +1,17 @@
+{
+ "id": "2510.22464",
+ "title": "Robust Spatial Confounding Adjustment via Basis Voting",
+ "authors": [
+  "Anik Burman",
+  "Elizabeth L. Ogburn",
+  "Abhirup Datta"
+ ],
+ "v1_date": "2025-10-26",
+ "latest_version": 2,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages, 9 figures, supplementary appendix included",
+ "abstract": "Estimating effects of spatially structured exposures is complicated by unmeasured spatial confounders, which undermine identifiability in spatial linear regression models unless structural assumptions are imposed. We develop a general framework for effect estimation in spatial regression models that relaxes the commonly assumed requirement that exposures contain higher-frequency variation than confounders. We propose basis voting, a plurality-rule estimator - novel in the spatial literature - that consistently identifies causal effects only under the assumption that, in a spatial basis expansion of the exposure and confounder, there exist several basis functions in the support of the exposure but not the confounder. This assumption generalizes existing assumptions of differential basis support used for identification of the causal effect under spatial confounding, and does not require prior knowledge of which basis functions satisfy this support condition. We design this estimator as the mode of several candidate estimators each computed based on a single working basis function. We also show that the standard projection-based candidate estimator typically used in other plurality-rule based methods is inefficient, and provide a more efficient novel candidate. Extensive simulations and a real-world application demonstrate that our approach reliably recovers unbiased causal estimates whenever exposure and confounder signals are separable on a plurality of basis functions. By not relying on higher-frequency variation, our method remains applicable to settings where exposures are smooth spatial functions, such as distance to pollution sources or major roadways, common in environmental studies.",
+ "primary": "stat.ME"
+}

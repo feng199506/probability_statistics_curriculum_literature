@@ -1,0 +1,21 @@
+{
+ "id": "2408.12541",
+ "title": "Clarifying the Role of the Mantel-Haenszel Risk Difference Estimator in Randomized Clinical Trials",
+ "authors": [
+  "Xiaoyu Qiu",
+  "Yuhan Qian",
+  "Jaehwan Yi",
+  "Jinqiu Wang",
+  "Yu Du",
+  "Yanyao Yi",
+  "Ting Ye"
+ ],
+ "v1_date": "2024-08-22",
+ "latest_version": 2,
+ "latest_date": "2025-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Mantel-Haenszel (MH) risk difference estimator, commonly used in randomized clinical trials for binary outcomes, calculates a weighted average of stratum-specific risk difference estimators. Traditionally, this method requires the stringent assumption that risk differences are homogeneous across strata, also known as the common (constant) risk difference assumption. In our article, we relax this assumption and adopt a modern perspective, viewing the MH risk difference estimator as an approach for covariate adjustment in randomized clinical trials, distinguishing its use from that in meta-analysis and observational studies. We demonstrate that, under reasonable restrictions on risk difference variability, the MH risk difference estimator consistently estimates the average treatment effect within a standard super-population framework, which is often the primary interest in randomized clinical trials, in addition to estimating a weighted average of stratum-specific risk differences. We rigorously study its properties under the large-stratum and sparse-stratum asymptotic regimes, as well as under mixed-regime settings. Furthermore, for either estimand, we propose a unified robust variance estimator that improves over the popular variance estimators by Greenland and Robins (1985) and Sato et al. (1989) and has provable consistency across these asymptotic regimes, regardless of assuming common risk differences. Extensions of our theoretical results also provide new insights into the Mantel-Haenszel test, the post-stratification estimator, and settings with multiple treatments. Our findings are thoroughly validated through simulations and a clinical trial example.",
+ "primary": "stat.ME"
+}

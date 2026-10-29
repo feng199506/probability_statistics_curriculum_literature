@@ -1,0 +1,18 @@
+{
+ "id": "2510.03512",
+ "title": "Comparison of Parametric versus Machine-learning Multiple Imputation in Clinical Trials with Missing Continuous Outcomes",
+ "authors": [
+  "Mia S. Tackney",
+  "Jonathan W. Bartlett",
+  "Elizabeth Williamson",
+  "Kim May Lee"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 1,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of flexible machine-learning (ML) models to generate imputations of missing data within the framework of Multiple Imputation (MI) has recently gained traction, particularly in observational settings. For randomised controlled trials (RCTs), it is unclear whether ML approaches to MI provide valid inference, and whether they outperform parametric MI approaches under complex data generating mechanisms. We conducted two simulations in RCT settings that have incomplete continuous outcomes but fully observed covariates. We compared Complete Cases, standard MI (MI-norm), MI with predictive mean matching (MI-PMM) and ML-based approaches to MI, including classification and regression trees (MI-CART), Random Forests (MI-RF) and SuperLearner when outcomes are missing completely at random or missing at random conditional on treatment/covariate. The first simulation explored non-linear covariate-outcome relationships in the presence/absence of covariate-treatment interactions. The second simulation explored skewed repeated measures, motivated by a trial with digital outcomes. In the absence of interactions, we found that Complete Cases yields reliable inference; MI-norm performs similarly, except when missingness depends on the covariate. ML approaches can lead to smaller mean squared error than Complete Cases and MI-norm in specific non-linear settings, but provide unreliable inference for others. MI-PMM can lead to unreliable inference in several settings. In the presence of complex treatment-covariate interactions, performing MI separately by arm, either with MI-norm, MI-RF or MI-CART, provides inference that has comparable or with better properties compared to Complete Cases when the analysis model omits the interaction. For ML approaches, we observed unreliable inference in terms of bias in the estimated effect and/or its standard error when Rubin's Rules are implemented.",
+ "primary": "stat.ME"
+}

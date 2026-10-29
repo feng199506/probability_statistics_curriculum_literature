@@ -1,0 +1,17 @@
+{
+ "id": "2312.06334",
+ "title": "Model validation for aggregate inferences in out-of-sample prediction",
+ "authors": [
+  "Lauren Kennedy",
+  "Aki Vehtari",
+  "Andrew Gelman"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 3,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalization to new samples is a fundamental rationale for statistical modeling. For this purpose, model validation is particularly important, but recent work in survey inference has suggested that simple aggregation of individual prediction scores does not give a good measure of the score for population aggregate estimates. In this manuscript we explain why this occurs, propose two scoring metrics designed specifically for this problem, and demonstrate their use in three different ways. We show that these scoring metrics correctly order models when compared to the true score, although they do underestimate the magnitude of the score. We demonstrate with a problem in survey research, where multilevel regression and poststratification (MRP) has been used extensively to adjust convenience and low-response surveys to make population and subpopulation estimates.",
+ "primary": "stat.ME"
+}

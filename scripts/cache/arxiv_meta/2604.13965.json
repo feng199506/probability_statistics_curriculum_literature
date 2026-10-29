@@ -1,0 +1,16 @@
+{
+ "id": "2604.13965",
+ "title": "Understanding the Variance Dichotomy in Continuous Simulation Optimization: A Minimax Lower Bound Perspective",
+ "authors": [
+  "Jianzhong Du",
+  "L. Jeff Hong"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 1,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the variance dichotomy in continuous simulation optimization (CSO). Existing literature shows a sharp contrast between deterministic CSO and stochastic CSO, with convergence rates in stochastic settings appearing insensitive to the magnitude of the noise variance. However, this asymptotic view does not fully explain the behavior of CSO under finite simulation budgets, especially in low-noise settings. To address this gap, this work develops a minimax lower-bound analysis and shows that the complexity is decided by the maximum of a variance-dependent term and a variance-independent term. When the simulation budget is not very large and the noise variance is low, the variance-independent term dominates, implying that low-noise stochastic CSO has essentially the same complexity as deterministic CSO. As the budget increases, the variance-dependent term becomes dominant, and the convergence behavior of stochastic CSO transitions to a slower regime determined jointly by the noise variance and the simulation budget.",
+ "primary": "math.OC"
+}

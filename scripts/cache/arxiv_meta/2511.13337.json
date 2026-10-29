@@ -1,0 +1,16 @@
+{
+ "id": "2511.13337",
+ "title": "Novel Tau-Informed Initialization for Maximum Likelihood Estimation of Copulas with Discrete Margins",
+ "authors": [
+  "Anna van Es",
+  "Eva Cantoni"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 1,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study Gaussian-copula models with discrete margins, with primary emphasis on low-count (Poisson) data. Our goal is exact yet computationally efficient maximum likelihood (ML) estimation in regimes where many observations contain small counts, which imperils both identifiability and numerical stability. We develop three novel Kendall's tau-based approaches for initialization tailored to discrete margins in the low-count regime and embed it within an inference functions for margins (IFM) inspired start. We present three practical initializers (exact, low-intensity approximation, and a transformation-based approach) that substantially reduce the number of ML iterations and improve convergence. For the ML stage, we use an unconstrained reparameterization of the model's parameters using the log and spherical-Cholesky and compute exact rectangle probabilities. Analytical score functions are supplied throughout to stabilize Newton-type optimization. A simulation study across dimensions, dependence levels, and intensity regimes shows that the proposed initialization combined with exact ML achieves lower root-mean-squared error, lower bias and faster computation times than the alternative procedures. The methodology provides a pragmatic path to retain the statistical guarantees of ML (consistency, asymptotic normality, efficiency under correct specification) while remaining tractable for moderate- to high-dimensional discrete data. We conclude with guidance on initializer choice and discuss extensions to alternative correlation structures and different margins.",
+ "primary": "stat.ME"
+}

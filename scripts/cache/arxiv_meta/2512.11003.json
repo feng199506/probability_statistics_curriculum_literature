@@ -1,0 +1,16 @@
+{
+ "id": "2512.11003",
+ "title": "Global stability of epidemic models with uniform susceptibility",
+ "authors": [
+  "David J. D. Earn",
+  "C. Connell McCluskey"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 1,
+ "latest_date": "2025-12-10",
+ "journal_ref": "PNAS 122(49), e2510156122 (2025)",
+ "doi": "10.1073/pnas.2510156122",
+ "comment": "13 pages, 1 figure",
+ "abstract": "Transmission dynamics of infectious diseases are often studied using compartmental mathematical models, which are commonly represented as systems of autonomous ordinary differential equations. A key step in the analysis of such models is to identify equilibria and find conditions for their stability. Local stability analysis reduces to a problem in linear algebra, but there is no general algorithm for establishing global stability properties. Substantial progress on global stability of epidemic models has been made in the last 20 years, primarily by successfully applying Lyapunov's method to specific systems. Here, we show that any compartmental epidemic model in which susceptible individuals cannot be distinguished and can be infected only once, has a globally asymptotically stable (GAS) equilibrium. If the basic reproduction number ${R}_0$ satisfies ${R}_0 > 1$, then the GAS fixed point is an endemic equilibrium (i.e., constant, positive disease prevalence). Alternatively, if ${R}_0 \\le 1$, then the GAS equilibrium is disease-free. This theorem subsumes a large number of results published over the last century, strengthens most of them by establishing global rather than local stability, avoids the need for any stability analyses of these systems in the future, and settles the question of whether co-existing stable solutions or non-equilibrium attractors are possible in such models: they are not.",
+ "primary": "q-bio.PE"
+}

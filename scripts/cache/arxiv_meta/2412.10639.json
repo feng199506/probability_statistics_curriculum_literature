@@ -1,0 +1,18 @@
+{
+ "id": "2412.10639",
+ "title": "A Multiprocess State Space Model with Feedback and Switching for Patterns of Clinical Measurements Associated with COVID-19",
+ "authors": [
+  "Xiaoran Ma",
+  "Wensheng Guo",
+  "Peter Kotanko",
+  "Yuedong Wang"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 1,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical measurements, such as body temperature, are often collected over time to monitor an individual's underlying health condition. These measurements exhibit complex temporal dynamics, necessitating sophisticated statistical models to capture patterns and detect deviations. We propose a novel multiprocess state space model with feedback and switching mechanisms to analyze the dynamics of clinical measurements. This model captures the evolution of time series through distinct latent processes and incorporates feedback effects in the transition probabilities between latent processes. We develop estimation methods using the EM algorithm, integrated with multiprocess Kalman filtering and multiprocess fixed-interval smoothing. Simulation study shows that the algorithm is efficient and performs well. We apply the proposed model to body temperature measurements from COVID-19-infected hemodialysis patients to examine temporal dynamics and estimate infection and recovery probabilities.",
+ "primary": "stat.ME"
+}

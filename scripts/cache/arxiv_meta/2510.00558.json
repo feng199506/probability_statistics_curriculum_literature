@@ -1,0 +1,16 @@
+{
+ "id": "2510.00558",
+ "title": "A Data-Adaptive Factor Model Using Composite Quantile Approach",
+ "authors": [
+  "Seeun Park",
+  "Hee-Seok Oh"
+ ],
+ "v1_date": "2025-10-01",
+ "latest_version": 1,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a data-adaptive factor model (DAFM), a novel framework for extracting common factors that explain the structures of high-dimensional data. DAFM adopts a composite quantile strategy to adaptively capture the full distributional structure of the data, thereby enhancing estimation accuracy and revealing latent patterns that are invisible to conventional factor models. In this paper, we develop a practical algorithm for estimating DAFM by minimizing an objective function based on a weighted average of check functions across quantiles. We also establish the theoretical properties of the estimators, including their consistency and convergence rates. Furthermore, we derive their asymptotic distributions by introducing approximated estimators from a kernel-smoothed objective function, and propose two consistent methods for determining the number of factors. Simulation studies demonstrate that DAFM outperforms existing factor models across different data distributions, and real data analyses on volatility and forecasting further validate its effectiveness.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2405.03603",
+ "title": "Copas-Heckman-type sensitivity analysis for publication bias in rare-event meta-analysis under generalized linear mixed models",
+ "authors": [
+  "Yi Zhou",
+  "Taojun Hu",
+  "Yuji Sakamoto",
+  "Ao Huang",
+  "Xiao-Hua Zhou",
+  "Satoshi Hattori"
+ ],
+ "v1_date": "2024-05-06",
+ "latest_version": 2,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In systematic reviews and meta-analyses, publication bias (PB) is one of the serious concerns and mainly induced by selective publication of academic literatures. Although many methods have been proposed to deal with PB, almost all the methods are based on the normal-normal (NN) random-effects model assuming that data are normally distributed in both the within-study and the between-study levels. For rare-event meta-analysis where data contain rare occurrences of events, the standard NN random-effects model may perform poorly. Instead, some generalized linear mixed models (GLMMs) which employ the exact distribution for the number of events in within-study level provide alternatives and have been widely used in practice. However, limited methods can be applied to deal with PB in the GLMMs. To address this limitation, we propose a framework of sensitivity analysis for evaluating the impact of PB in various GLMMs. The proposed framework is developed based on the famous Copas-Heckman-type sensitivity analysis methods and can be easily implemented with the standard software with small computational cost. In this paper, we conduct simulation studies to assess the performance of proposed methods in adjusting PB and compare the results with related existing methods. Several real-world examples are also analyzed to show the broad applicability of our proposal in evaluating the potential impact of PB in meta-analysis of odds ratios and proportions with rare-event outcomes.",
+ "primary": "stat.ME"
+}

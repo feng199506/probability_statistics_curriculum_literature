@@ -1,0 +1,18 @@
+{
+ "id": "2606.23096",
+ "title": "Minimax Quantile Lower Bounds for Interactive Statistical Decision Making with Privacy",
+ "authors": [
+  "Raghav Bongole",
+  "Amirreza Zamani",
+  "Tobias J. Oechtering",
+  "Mikael Skoglund"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Minimax risk and regret are expectation-based criteria and do not capture rare but consequential failures. To address this concern, we develop a $δ$-explicit minimax-quantile theory for interactive statistical decision making (ISDM). We first provide structural relations between minimax quantiles, lower minimax quantiles, and minimax risk. This includes a quantile-to-expectation conversion and an equivalence between strict and lower minimax quantiles outside a countable set of confidence levels. We then derive two converse tools for ISDM: a high-probability interactive Fano's method and a high-probability interactive Le Cam's method. Then, we show that mutual-information (MI) privacy can be handled in the same framework by restricting the admissible decision class. For coordinatewise Gaussian privatization, we derive a two-point template that isolates the privacy-induced variance inflation. We instantiate this template for Gaussian mean estimation, and use the same two-point strategy directly for two-armed Gaussian bandits. We then derive a minimax quantile lower bound for the $K$-armed Gaussian bandit problem, showing that the interactive Fano method captures the exploration cost over multiple possible best arms. The resulting lower bounds are explicit in the confidence level $δ$ and in the privacy budget for the private problems. They yield $\\log(1/δ)/n$ scaling for squared-error Gaussian mean estimation, $\\sqrt{T\\log(1/δ)}$ scaling for two-armed bounded-mean Gaussian bandits, and $\\sqrt{KT\\log(1/δ)}$-type scaling for the $K$-armed bandits, with privacy appearing through a Gaussian variance-inflation factor for the private problems.",
+ "primary": "cs.LG"
+}

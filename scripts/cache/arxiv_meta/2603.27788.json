@@ -1,0 +1,17 @@
+{
+ "id": "2603.27788",
+ "title": "Omitted-Variable Sensitivity Analysis for Generalizing Randomized Trials",
+ "authors": [
+  "Amir Asiaee",
+  "Samhita Pal",
+  "Jared D. Huling"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 1,
+ "latest_date": "2026-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized controlled trials (RCTs) yield internally valid causal effect estimates, but generalizing these results to target populations with different characteristics requires an untestable selection ignorability assumption: conditional on observed covariates, trial participation must be independent of potential outcomes. This assumption fails when unobserved effect modifiers are distributed differently between trial and target populations. We develop a sensitivity analysis framework for trial generalization grounded in omitted variable bias (OVB). Our key theoretical contribution is an exact decomposition showing that external-validity bias equals moderation strength $\\times$ moderator imbalance: (i) how strongly an unobserved variable shifts the treatment effect, times (ii) how differently that variable is distributed across populations after covariate adjustment. We introduce scale-free sensitivity parameters based on partial $R^2$ values, enabling closed-form bounds and benchmarking against observed covariates -- practitioners can assess whether conclusions would change if an unobserved moderator were \"as strong as\" a particular observed variable. Simulations demonstrate that our bounds achieve nominal coverage and remain conservative under model misspecification, while comparisons with alternative sensitivity frameworks highlight the interpretive advantages of the OVB decomposition.",
+ "primary": "stat.ME"
+}

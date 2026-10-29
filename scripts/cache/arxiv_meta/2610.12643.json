@@ -1,0 +1,17 @@
+{
+ "id": "2610.12643",
+ "title": "Median randomized quasi-Monte Carlo for nested integration",
+ "authors": [
+  "Arved Bartuska",
+  "Yang Liu",
+  "Raúl Tempone"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 6 figures",
+ "abstract": "Nested integrals $\\int f\\left(\\int g(\\boldsymbol{y},\\boldsymbol{x})\\mathrm{d}{}\\boldsymbol{x}\\right)\\mathrm{d}{}\\boldsymbol{y}$ where $\\boldsymbol{y}\\in[0,1]^{d_1}$ and $\\boldsymbol{x}\\in[0,1]^{d_2}$ frequently arise in Bayesian experimental design, medical decision making, and computational finance. Statistical estimators for nested integrals are more computationally demanding than for standard integrals. Recent studies demonstrate that the median randomized quasi-Monte Carlo (mRQMC) method achieves super-polynomial convergence rates for analytic integrands. We extend mRQMC methods to nested integrations and propose a novel double-loop mRQMC estimator with super-polynomial convergence rate if both the inner and outer integrands are analytic. Established estimators for nested integrals, such as double-loop or multilevel Monte Carlo, are by contrast limited to algebraic convergence rates. However, expected information gain (EIG) applications from experimental design typically do not fulfill this condition due to a lack of regularity in the outer integrand. We address this through a theoretically-grounded importance sampling regularization scheme. Although super-polynomial convergence rates remain achievable for the inner integral, only the algebraic rate $α+3/2-ε$ for any $ε>0$ can be theoretically guaranteed for the outer integral in the EIG, where $α\\in\\mathbb{N}\\cup\\{0\\}$ denotes the order of the mixed derivatives of the regularized outer integrand. Our approach shows substantial improvements over double-loop randomized quasi-Monte Carlo methods based on the sample mean in moderately high-dimensional settings for a simple polynomial example. Moreover, we demonstrate improved convergence behavior of the median-based estimator for the more challenging setting of EIG estimation.",
+ "primary": "math.NA"
+}

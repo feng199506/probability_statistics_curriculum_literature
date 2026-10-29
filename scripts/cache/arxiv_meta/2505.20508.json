@@ -1,0 +1,16 @@
+{
+ "id": "2505.20508",
+ "title": "Intraday Functional PCA Forecasting of Cryptocurrency Returns",
+ "authors": [
+  "Joann Jasiak",
+  "Cheng Zhong"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the Functional PCA (FPCA) forecasting method in application to functions of intraday returns on Bitcoin. We show that improved interval forecasts of future return functions are obtained when the conditional heteroscedasticity of return functions is taken into account. The Karhunen-Loeve (KL) dynamic factor model is introduced to bridge the functional and discrete time dynamic models. It offers a convenient framework for functional time series analysis. For intraday forecasting, we introduce a new algorithm based on the FPCA applied by rolling, which can be used for any data observed continuously 24/7. The proposed FPCA forecasting methods are applied to return functions computed from data sampled hourly and at 15-minute intervals. Next, the functional forecasts evaluated at discrete points in time are compared with the forecasts based on other methods, including machine learning and a traditional ARMA model. The proposed FPCA-based methods perform well in terms of forecast accuracy and outperform competitors in terms of directional (sign) of return forecasts at fixed points in time.",
+ "primary": "econ.EM"
+}

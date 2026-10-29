@@ -1,0 +1,18 @@
+{
+ "id": "2504.19726",
+ "title": "Discrimination performance in illness-death models with interval-censored disease data",
+ "authors": [
+  "Marta Spreafico",
+  "Anja J. Rueten-Budde",
+  "Hein Putter",
+  "Marta Fiocco"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 2,
+ "latest_date": "2026-01-30",
+ "journal_ref": "Statistical Methods in Medical Research 2026",
+ "doi": "10.1177/09622802251412855",
+ "comment": "Author order updated to match the published version (https://journals.sagepub.com/doi/10.1177/09622802251412855); preprint replaced with the accepted manuscript",
+ "abstract": "In clinical studies, the illness-death model is often used to describe disease progression. A subject starts disease-free, may develop the disease and then die, or die directly. In clinical practice, disease can only be diagnosed at pre-specified follow-up visits, so the exact time of disease onset is often unknown, resulting in interval-censored data. This study examines the impact of ignoring this interval-censored nature of disease data on the discrimination performance of illness-death models, focusing on the time-specific Area Under the receiver operating characteristic Curve (AUC) in both incident/dynamic and cumulative/dynamic definitions. A simulation study with data simulated from Weibull transition hazards and disease state censored at regular intervals is conducted. Estimates are derived using different methods: the Cox model with a time-dependent binary disease marker, which ignores interval-censoring, and the illness-death model for interval-censored data estimated with three implementations - the piecewise-constant model from the msm package, the Weibull and M-spline models from the SmoothHazard package. These methods are also applied to a dataset of 2232 patients with high-grade soft tissue sarcoma, where the interval-censored disease state is the post-operative development of distant metastases. The results suggest that, in the presence of interval-censored disease times, it is important to account for interval-censoring not only when estimating the parameters of the model but also when evaluating the discrimination performance of the disease.",
+ "primary": "stat.ME"
+}

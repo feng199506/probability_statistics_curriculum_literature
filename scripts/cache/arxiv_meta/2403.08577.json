@@ -1,0 +1,19 @@
+{
+ "id": "2403.08577",
+ "title": "Evaluation and comparison of covariate balance metrics in studies with time-dependent confounding",
+ "authors": [
+  "David Adenyo",
+  "Jason R. Guertin",
+  "Bernard Candas",
+  "Caroline Sirois",
+  "Denis Talbot"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 1,
+ "latest_date": "2024-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Marginal structural models have been increasingly used by analysts in recent years to account for confounding bias in studies with time-varying treatments. The parameters of these models are often estimated using inverse probability of treatment weighting. To ensure that the estimated weights adequately control confounding, it is possible to check for residual imbalance between treatment groups in the weighted data. Several balance metrics have been developed and compared in the cross-sectional case but have not yet been evaluated and compared in longitudinal studies with time-varying treatment. We have first extended the definition of several balance metrics to the case of a time-varying treatment, with or without censoring. We then compared the performance of these balance metrics in a simulation study by assessing the strength of the association between their estimated level of imbalance and bias. We found that the Mahalanobis balance performed best.Finally, the method was illustrated for estimating the cumulative effect of statins exposure over one year on the risk of cardiovascular disease or death in people aged 65 and over in population-wide administrative data. This illustration confirms the feasibility of employing our proposed metrics in large databases with multiple time-points.",
+ "primary": "stat.ME"
+}

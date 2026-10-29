@@ -1,0 +1,17 @@
+{
+ "id": "2601.20442",
+ "title": "Blessing of dimensionality in cross-validated bandwidth selection on the sphere",
+ "authors": [
+  "José E. Chacón",
+  "Eduardo García-Portugués",
+  "Andrea Meilán-Vila"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 1,
+ "latest_date": "2026-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures, 2 tables. Supplementary material: 43 pages, 4 figures",
+ "abstract": "We study the asymptotic behavior of least-squares cross-validation bandwidth selection in kernel density estimation on the $d$-dimensional hypersphere, $d\\geq 1$. We show that the exact rate of convergence with respect to the optimal bandwidth minimizing the mean integrated squared error, shown to exist under mild non-uniformity conditions, is $n^{-d/(2d+8)}$, thus approaching the $n^{-1/2}$ parametric rate as $d$ grows. This ``blessing of dimensionality'' in bandwidth selection offers theoretical support for utilizing the conceptually simpler cross-validation selector over plug-in techniques for larger dimensions $d$. We compare this result for bandwidth estimation on the $d$-dimensional Euclidean space through explicit expressions for the asymptotic variance functionals. Numerical experiments corroborate the speed of this convergence in an array of scenarios and dimensions, precisely illustrating the tipping dimension where cross-validation outperforms plug-in approaches.",
+ "primary": "math.ST"
+}

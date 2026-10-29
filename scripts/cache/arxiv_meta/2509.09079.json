@@ -1,0 +1,15 @@
+{
+ "id": "2509.09079",
+ "title": "ANOVA for High-dimensional Non-stationary Time Series",
+ "authors": [
+  "Yunyi Zhang"
+ ],
+ "v1_date": "2025-09-11",
+ "latest_version": 1,
+ "latest_date": "2025-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal dependence and the resulting autocovariances in time series data can introduce bias into ANOVA test statistics, thereby affecting their size and power. This manuscript accounts for temporal dependence in ANOVA and develops a test statistic suitable for high-dimensional, non-stationary time series. Recognizing that the presence of complex fourth-order cumulants may introduce difficulties in variance estimation of the test statistic, we develop a bootstrap algorithm to conduct hypothesis testing through computer simulations. Theoretical results including the asymptotic distribution of the test statistic under the null hypothesis and the validity of the proposed bootstrap algorithm are established. Numerical studies demonstrate a good finite-sample performance of the proposed test statistic. In addition to the new test procedure, this manuscript derives theoretical results on consistency, Gaussian approximation, and variance estimation for quadratic forms of high-dimensional non-stationary time series, which may be of independent interest to researchers.",
+ "primary": "math.ST"
+}

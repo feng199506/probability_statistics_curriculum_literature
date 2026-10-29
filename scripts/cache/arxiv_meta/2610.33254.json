@@ -1,0 +1,17 @@
+{
+ "id": "2610.33254",
+ "title": "Informative inference on the average treatment effect with instrumental variables",
+ "authors": [
+  "Luca Locher",
+  "Thomas Richardson",
+  "Mats Stensrud"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Policy decisions often depend on whether the average treatment effect (ATE) exceeds a specific cutoff. In instrumental variable (IV) settings, point identification of the ATE requires strong assumptions that are often difficult to justify. Therefore, many researchers shift their attention to identification of the local (L) ATE or target bounds of the ATE. Both strategies have well-known drawbacks: the substantive relevance of the LATE is frequently questioned, and the bounds are often too wide to be informative. We propose a simple sensitivity analysis that allows researchers to maintain focus on the ATE, and then discuss its connection to related bounding procedures. Based on these results, researchers can decide, in a principled manner, whether the sign of the ATE is inferable under assumptions they deem credible. The proposed strategies are easy to apply, and we illustrate their value with two real-data examples. The R package ivate implements our procedures.",
+ "primary": "stat.ME"
+}

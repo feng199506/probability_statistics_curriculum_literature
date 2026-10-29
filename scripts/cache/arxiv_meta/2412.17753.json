@@ -1,0 +1,15 @@
+{
+ "id": "2412.17753",
+ "title": "Minimax Optimal Simple Regret in Two-Armed Best-Arm Identification",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 2,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study investigates an asymptotically minimax optimal algorithm in the two-armed fixed-budget best-arm identification (BAI) problem. Given two treatment arms, the objective is to identify the arm with the highest expected outcome through an adaptive experiment. We focus on the Neyman allocation, where treatment arms are allocated following the ratio of their outcome standard deviations. Our primary contribution is to prove the minimax optimality of the Neyman allocation for the simple regret, defined as the difference between the expected outcomes of the true best arm and the estimated best arm. Specifically, we first derive a minimax lower bound for the expected simple regret, which characterizes the worst-case performance achievable under the location-shift distributions, including Gaussian distributions. We then show that the simple regret of the Neyman allocation asymptotically matches this lower bound, including the constant term, not just the rate in terms of the sample size, under the worst-case distribution. Notably, our optimality result holds without imposing locality restrictions on the distribution, such as the local asymptotic normality. Furthermore, we demonstrate that the Neyman allocation reduces to the uniform allocation, i.e., the standard randomized controlled trial, under Bernoulli distributions.",
+ "primary": "stat.ML"
+}

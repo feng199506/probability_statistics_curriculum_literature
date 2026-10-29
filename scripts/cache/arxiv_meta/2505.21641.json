@@ -1,0 +1,17 @@
+{
+ "id": "2505.21641",
+ "title": "PrivATE: Differentially Private Confidence Intervals for Average Treatment Effects",
+ "authors": [
+  "Maresa Schröder",
+  "Justin Hartenstein",
+  "Stefan Feuerriegel"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 2,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The average treatment effect (ATE) is widely used to evaluate the effectiveness of drugs and other medical interventions. In safety-critical applications like medicine, reliable inferences about the ATE typically require valid uncertainty quantification, such as through confidence intervals (CIs). However, estimating treatment effects in these settings often involves sensitive data that must be kept private. In this work, we present PrivATE, a novel machine learning framework for computing CIs for the ATE under differential privacy. Specifically, we focus on deriving valid privacy-preserving CIs for the ATE from observational data. Our PrivATE framework consists of three steps: (i) estimating the differentially private ATE through output perturbation; (ii) estimating the differentially private variance in a doubly robust manner; and (iii) constructing the CIs while accounting for the uncertainty from both the estimation and privatization steps. Our PrivATE framework is model agnostic, doubly robust, and ensures valid CIs. We demonstrate the effectiveness of our framework using synthetic and real-world medical datasets. To the best of our knowledge, we are the first to derive a general, doubly robust framework for valid CIs of the ATE under ($\\varepsilon,δ$)-differential privacy.",
+ "primary": "cs.LG"
+}

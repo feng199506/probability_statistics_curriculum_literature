@@ -1,0 +1,18 @@
+{
+ "id": "2606.26073",
+ "title": "Bayesian Nonparametric Privacy-Preserving Synthetic Data Generation: I. Discrete Data",
+ "authors": [
+  "Maria Chiara Menicucci",
+  "Mario Beraha",
+  "Stefano Favaro",
+  "Riccardo Lazzarini"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 1,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Synthetic data generation is a powerful approach to privacy-preserving statistical analysis, where data-release mechanisms are governed by a privacy-utility tradeoff: they should provide privacy guarantees while preserving the statistical utility of confidential data. We develop a Bayesian nonparametric framework for private synthetic data generation tailored to discrete data. Specifically, the confidential data are modeled as a random sample from an unknown discrete distribution endowed with a Pitman-Yor process prior, and synthetic data are generated from the corresponding posterior-predictive distribution. Since the Pitman-Yor process defines an almost surely discrete random probability measure, the resulting mechanism is naturally suited to data with ties and settings involving a potentially large, unknown, or growing number of categories. We study differential privacy guarantees of the Pitman-Yor posterior-predictive mechanism across the three regimes of the discount parameter $σ\\in(-\\infty,1)$. For $σ\\in(0,1)$, we establish an instance-level $(\\varepsilon,δ)$-differential privacy guarantee. For $σ=0$ and $σ<0$, corresponding respectively to the Dirichlet process prior and to a parametric Dirichlet-Multinomial model, stronger guarantees are obtained, under suitable conditions on the released sample size. We also investigate statistical utility, or informativity, of the released data via the expected $1$-Wasserstein distance between the empirical distribution of the synthetic data and the \"true\" data-generating distribution. For $σ<0$ and $σ=0$, we prove consistency of the empirical distribution in this metric and derive explicit convergence rates, making precise the privacy-utility tradeoff: stronger privacy guarantees impose more restrictive choices of the released sample size, slowing down convergence to the \"true\" data-generating distribution.",
+ "primary": "math.ST"
+}

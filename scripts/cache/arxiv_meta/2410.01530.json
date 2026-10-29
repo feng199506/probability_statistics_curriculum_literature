@@ -1,0 +1,19 @@
+{
+ "id": "2410.01530",
+ "title": "Addressing Spatial Confounding in geostatistical regression models: An R-INLA approach",
+ "authors": [
+  "Jérémy Lamouroux",
+  "Alizée Geffroy",
+  "Sébastien Leblond",
+  "Caroline Meyer",
+  "Isabelle Albert"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 1,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 5 figures",
+ "abstract": "1 - Spatial confounding is a phenomenon that has been studied extensively in recent years in the statistical literature to describe and mitigate apparent inconsistencies between the results obtained by regression models with and without random spatial effects. While the most common solutions target almost exclusively areal data or geostatistical data modelling by splines, we aim to extend some resolution methods in the context of geostatistical data modelling by Gaussian Markov Random Fields (GMRF) using R-INLA methodology. 2 - First, we present three approaches for alleviating spatial confounding: Restricted Spatial Regression (RSR), Spatial+, and its recent simplified version, called here Spatial+ 2.0. We show how each can be implemented from geostatistical data in a GMRF framework using R-inlabru. 3 - Next, a simulation study that reproduces a spatial confounding phenomenon is carried out to assess the coherence of the extensions with the expectations of these methods. Finally, we apply the expanded methods to a case study, linking cadmium (Cd) concentration in terrestrial mosses to Cd concentration in air. 4 - Our findings support the feasibility of our extended approach of spatial confounding resolution methods to geostatistical data using R-INLA in keeping with the previous contexts, although certain precautions and limitations must be considered.",
+ "primary": "stat.AP"
+}

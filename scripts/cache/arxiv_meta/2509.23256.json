@@ -1,0 +1,16 @@
+{
+ "id": "2509.23256",
+ "title": "Automatic Order, Bandwidth Selection and Flaws of Eigen Adjustment in HAC Estimation",
+ "authors": [
+  "Zhuoxun Li",
+  "Clifford M. Hurvich"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a new heteroskedasticity and autocorrelation consistent covariance matrix estimator based on the prewhitened kernel estimator and a localized leave-one-out frequency domain cross-validation (FDCV). We adapt the cross-validated log likelihood (CVLL) function to simultaneously select the order of the prewhitening vector autoregression (VAR) and the bandwidth. The prewhitening VAR is estimated by the Burg method without eigen adjustment as we find the eigen adjustment rule of Andrews and Monahan (1992) can be triggered unnecessarily and harmfully when regressors have nonzero mean. Through Monte Carlo simulations and three empirical examples, we illustrate the flaws of eigen adjustment and the reliability of our method.",
+ "primary": "econ.EM"
+}

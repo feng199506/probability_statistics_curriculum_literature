@@ -1,0 +1,17 @@
+{
+ "id": "2311.01126",
+ "title": "Two improved algorithms for sparse generalized canonical correlation analysis",
+ "authors": [
+  "Kuo-Yue Li",
+  "Qi-Ye Zhang",
+  "Yong-Han Sun"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 2,
+ "latest_date": "2025-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Some of the simulation results in the paper are biased",
+ "abstract": "Regularized generalized canonical correlation analysis (RGCCA) is a generalization of regularized canonical correlation analysis to three or more sets of variables, which is a component-based approach aiming to study the relationships between several sets of variables. Sparse generalized canonical correlation analysis (SGCCA) (proposed in Tenenhaus et al. (2014)), combines RGCCA with an `1-penalty, in which blocks are not necessarily fully connected, makes SGCCA a flexible method for analyzing a wide variety of practical problems, such as biology, chemistry, sensory analysis, marketing, food research, etc. In Tenenhaus et al. (2014), an iterative algorithm for SGCCA was designed based on the solution to the subproblem (LM-P1 for short) of maximizing a linear function on the intersection of an `1-norm ball and a unit `2-norm sphere proposed in Witten et al. (2009). However, the solution to the subproblem (LM-P1) proposed in Witten et al. (2009) is not correct, which may become the reason that the iterative algorithm for SGCCA is slow and not always convergent. For this, we first characterize the solution to the subproblem LM-P1, and the subproblems LM-P2 and LM-P3, which maximize a linear function on the intersection of an `1-norm sphere and a unit `2-norm sphere, and an `1-norm ball and a unit `2-norm sphere, respectively. Then we provide more efficient block coordinate descent (BCD) algorithms for SGCCA and its two variants, called SGCCA-BCD1, SGCCA-BCD2 and SGCCA-BCD3, corresponding to the subproblems LM-P1, LM-P2 and LM-P3, respectively, prove that they all globally converge to their stationary points. We further propose gradient projected (GP) methods for SGCCA and its two variants when using the Horst scheme, called SGCCA-GP1, SGCCA-GP2 and SGCCA-GP3, corresponding to the subproblems LM-P1, LM-P2 and LM-P3, respectively, and prove that they all",
+ "primary": "math.ST"
+}

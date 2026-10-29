@@ -1,0 +1,17 @@
+{
+ "id": "2410.19031",
+ "title": "High-dimensional Statistical Inference and Variable Selection Using Sufficient Dimension Association",
+ "authors": [
+  "Shangyuan Ye",
+  "Shauna Rakshe",
+  "Ye Liang"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 2,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "10.1080/01621459.2026.2632869",
+ "comment": "",
+ "abstract": "Simultaneous variable selection and statistical inference is challenging in high-dimensional data analysis. Most existing post-selection inference methods require explicitly specified regression models, which are often linear, as well as sparsity in the regression model. The performance of such procedures can be poor under either misspecified nonlinear models or a violation of the sparsity assumption. In this paper, we propose a sufficient dimension association (SDA) technique that measures the association between each predictor and the response variable conditioning on other predictors in the high-dimensional setting. Our proposed SDA method requires neither a specific form of regression model nor sparsity in the regression. Alternatively, our method assumes normalized or Gaussian-distributed predictors with a Markov blanket property. We propose an estimator for the SDA and prove asymptotic properties for the estimator. We construct three types of test statistics for the SDA and propose a multiple testing procedure to control the false discovery rate. Extensive simulation studies have been conducted to show the validity and superiority of our SDA method. Gene expression data from the Alzheimer Disease Neuroimaging Initiative are used to demonstrate a real application.",
+ "primary": "stat.ME"
+}

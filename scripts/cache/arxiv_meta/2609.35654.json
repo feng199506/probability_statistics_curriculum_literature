@@ -1,0 +1,17 @@
+{
+ "id": "2609.35654",
+ "title": "Guided Uncertainty-Aware Robust Domain Transfer",
+ "authors": [
+  "Xin Xiong",
+  "Zijian Guo",
+  "Tianxi Cai"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Artificial intelligence models deployed as clinical decision support tools often suffer substantial performance degradation over time and across institutions due to covariate shift, concept drift, and cross-system heterogeneity. Fully retraining complex models is frequently infeasible, particularly in EHR settings where labeled outcome data are scarce and regulatory constraints limit model modification. We propose GUARD (Guided and Uncertainty-Aware Robustness to Domain shift), a unified statistical framework for updating an existing deployed model using limited labeled target data and multiple heterogeneous source populations while guarding against future distributional shifts. GUARD formulates robust multi-source transfer learning as a semi-supervised, adversarial optimization problem anchored at the current model, and employs double machine learning with cross-fitting to obtain debiased, efficient estimates that leverage abundant unlabeled target covariates. It then constructs an uncertainty-aware, guided group DRO estimator that combines source and target information while accounting for sampling variability in the source models. Our framework jointly provides principled robustness to domain shift, efficient semi-supervised estimation, and valid statistical inference for multi-source transfer of clinical prediction models. We demonstrate the utility of GUARD via extensive simulation experiments and a real world application to predicting future disease activity in rheumatoid arthritis from EHR data spanning more than a decade. GUARD recalibrates a pretrained model with only a small number of labeled records per year and remains accurate over multi-year horizons where target-only and standard transfer estimators degrade sharply.",
+ "primary": "stat.ME"
+}

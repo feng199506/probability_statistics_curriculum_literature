@@ -1,0 +1,17 @@
+{
+ "id": "2603.26914",
+ "title": "A Bayesian Functional Concurrent Zero-Inflated Dirichlet-Multinomial Regression Model with Application to Infant Microbiome",
+ "authors": [
+  "Brody Erlandson",
+  "Ander Wilson",
+  "Matthew D. Koslovsky"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Contact author for Supplemental Material",
+ "abstract": "The infant microbiome undergoes rapid changes in composition over time and is associated with long-term risks of conditions such as immune strength, allergy, asthma, and other health outcomes. Modeling the associations between exposures or treatments and microbial composition over time is essential for understanding the factors that drive these changes. Estimating these temporal dynamics has several challenges including: repeated measures, overdispersion, compositionality, high-dimensional parameter spaces, and zero-inflation. Many longitudinal regression models used in human microbiome research assume constant effects over time that cannot capture time-varying or functional effects of exposures, ignore the compositional structure of the data by modeling each taxon separately, and are not equipped to handle potential zero-inflation. Dirichlet-multinomial (DM) regression models inherently accommodate overdispersion and the compositional structure of the data and have been extended to account for excess zeros. However, existing DM-based regression models are unable to additionally handle repeated measures designs. To fill this gap, we propose a functional concurrent zero-inflated Dirichlet-multinomial (FunC-ZIDM) regression model which is designed to model time-varying relations between observed covariates and microbial taxa while accounting for zero-inflation, compositionality, and repeated measures. Through simulation, we demonstrate that the model can accurately estimate the underlying functional relations and scale to large compositional spaces. We apply our model to investigate time-varying associations between infant microbiome composition and observed covariates during the 11-week postnatal period. We found that $α$-diversity (i.e., diversity of the microbiome within an individual) is positively associated with a higher gestational age and percentage of breast milk in the diet.",
+ "primary": "stat.ME"
+}

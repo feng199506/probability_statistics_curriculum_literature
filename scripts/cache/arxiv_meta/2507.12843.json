@@ -1,0 +1,19 @@
+{
+ "id": "2507.12843",
+ "title": "Are Two Datasets Close Enough With Statistical Significance? A Kernel Distributional Closeness Testing Approach",
+ "authors": [
+  "Zhijian Zhou",
+  "Liuhua Peng",
+  "Xunye Tian",
+  "Mingming Gong",
+  "Feng Liu"
+ ],
+ "v1_date": "2025-07-17",
+ "latest_version": 3,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Are two distributions close to each other with statistical significance? Distribution closeness testing (DCT) formalizes this question by testing whether the distance between a distribution pair is at least epsilon-far. Existing DCT methods mainly measure discrepancies between distribution pairs defined on discrete spaces, for example using total variation, which limits their application to complex data such as images. To extend DCT to more types of data, a natural idea is to introduce maximum mean discrepancy (MMD), a powerful measure of distributional discrepancy between complex distributions, into DCT scenarios. However, empirical results indicate that many distribution pairs can have the same MMD value despite having different norms in the same reproducing kernel Hilbert space (RKHS). These pairs may exhibit different finite-sample distinguishability and reflect different practical closeness levels, making MMD less informative for DCT. To mitigate this issue, we design a new measure of distributional discrepancy, norm-adaptive MMD (NAMMD), which scales the MMD value using the RKHS norms of distributions. Based on the asymptotic distribution of NAMMD, we propose NAMMD-based DCT to assess the closeness level of a distribution pair. Theoretically, we prove that NAMMD-based DCT has higher test power than MMD-based DCT while maintaining bounded type-I error. This is further validated by extensive experiments on multiple types of data, including synthetic noise and real images. Our code is available at https://github.com/zhijianzhouml/NAMMD.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.20451",
+ "title": "On Multiple Robustness of Proximal Dynamic Treatment Regimes",
+ "authors": [
+  "Yuanshan Gao",
+  "Yang Bai",
+  "Yifan Cui"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic treatment regimes are sequential decision rules that adapt treatment according to individual time-varying characteristics and outcomes to achieve optimal effects, with applications in precision medicine, personalized recommendations, and dynamic marketing. Estimating optimal dynamic treatment regimes via sequential randomized trials might face costly and ethical hurdles, often necessitating the use of historical observational data. In this work, we utilize proximal causal inference framework for learning optimal dynamic treatment regimes when the unconfoundedness assumption fails. Our contributions are four-fold: (i) we propose three nonparametric identification methods for optimal dynamic treatment regimes; (ii) we establish the semiparametric efficiency bound for the value function of a given regime; (iii) we propose a (K+1)-robust method for learning optimal dynamic treatment regimes, where K is the number of stages; (iv) as a by-product for marginal structural models, we establish identification and estimation of counterfactual means under a static regime. Numerical experiments validate the efficiency and multiple robustness of our proposed methods.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2407.20819",
+ "title": "Design and inference for multi-arm clinical trials with informational borrowing: the interacting urns design",
+ "authors": [
+  "Giacomo Aletti",
+  "Alessandro Baldi Antognini",
+  "Irene Crimaldi",
+  "Rosamarie Frieri",
+  "Andrea Ghiglietti"
+ ],
+ "v1_date": "2024-07-30",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper deals with a new design methodology for stratified comparative experiments based on a system of interacting urns. The key idea is to model the interaction between urns for borrowing information across strata and to use it in the design phase in order to i) enhance the information exchange at the beginning of the study, when only few subjects have been enrolled and the stratum-specific information on treatments' efficacy could be scarce, ii) let the information sharing adaptively evolve via an update mechanism based on the observed outcomes, for skewing at each step the allocations towards the stratum-specific most promising treatment and iii) make the contribution of the strata with different treatment efficacy vanishing as the stratum information grows. In particular, we introduce the Interacting Urns Design, namely a new Covariate-Adjusted Response-Adaptive procedure, that randomizes the treatment allocations according to the evolution of the urn system. The theoretical properties of this proposal are described and the corresponding asymptotic inference is provided. Moreover, by a functional central limit theorem, we obtain the asymptotic joint distribution of the Wald-type sequential test statistics, which allows to sequentially monitor the suggested design in the clinical practice",
+ "primary": "stat.ME"
+}

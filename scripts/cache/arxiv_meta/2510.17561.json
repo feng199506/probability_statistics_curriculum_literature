@@ -1,0 +1,16 @@
+{
+ "id": "2510.17561",
+ "title": "Spectral Thresholds in Correlated Spiked Models and Fundamental Limits of Partial Least Squares",
+ "authors": [
+  "Pierre Mergny",
+  "Lenka Zdeborová"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 1,
+ "latest_date": "2025-10-20",
+ "journal_ref": "AISTATS 2026",
+ "doi": "",
+ "comment": "24 pages, 4 figures",
+ "abstract": "We provide a rigorous random matrix theory analysis of spiked cross-covariance models where the signals across two high-dimensional data channels are partially aligned. These models are motivated by multi-modal learning and form the standard generative setting underlying Partial Least Squares (PLS), a widely used yet theoretically underdeveloped method. We show that the leading singular values of the sample cross-covariance matrix undergo a Baik-Ben Arous-Peche (BBP)-type phase transition, and we characterize the precise thresholds for the emergence of informative components. Our results yield the first sharp asymptotic description of the signal recovery capabilities of PLS in this setting, revealing a fundamental performance gap between PLS and the Bayes-optimal estimator. In particular, we identify the SNR and correlation regimes where PLS fails to recover any signal, despite detectability being possible in principle. These findings clarify the theoretical limits of PLS and provide guidance for the design of reliable multi-modal inference methods in high dimensions.",
+ "primary": "math.ST"
+}

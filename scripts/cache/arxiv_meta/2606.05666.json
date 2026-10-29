@@ -1,0 +1,16 @@
+{
+ "id": "2606.05666",
+ "title": "Weighting a Census as a Non-Probability Sample: A Doubly Robust Framework for Correcting Differential Undercoverage in Uruguay's 2023 Census",
+ "authors": [
+  "Ferreira Juan Pablo",
+  "Goyeneche Juan Jose"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The 2023 Uruguayan Census recorded a population of 3,444,451 with an estimated undercoverage of 10.3%. Post-enumeration evidence shows that omission was non-random, concentrated in vulnerable areas, rural territories, and among young adults. Integrating administrative records (AR) recovered aggregate counts but did not resolve selection bias in outcome variables, as AR lack core census variables, exhibit urbanicity and institutional-visibility biases, and do not reconstruct households. Estimates derived from enumerated microdata remain biased. We treat effectively enumerated households as a non-probability sample with an unknown selection mechanism and construct weights using a doubly robust (DR) estimator. This framework combines a segment-level response-propensity model, using the web linkage rate as a contact proxy, with calibration to combined-census demographic totals (sex, age, department). Because the DR estimator is consistent when either model is correctly specified, it provides robustness against undercoverage misspecification. We describe the application at a scale of three million records, document its effect on social indicators, and present a variance approximation based on an equivalent stratified cluster design. Finally, we establish a methodological framework to guide national statistical offices on optimizing non-response adjustments based on their available registers and paradata.",
+ "primary": "stat.ME"
+}

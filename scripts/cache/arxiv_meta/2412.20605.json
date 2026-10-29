@@ -1,0 +1,19 @@
+{
+ "id": "2412.20605",
+ "title": "LEARNER: A Transfer Learning Method for Low-Rank Matrix Estimation",
+ "authors": [
+  "Sean McGrath",
+  "Cenhao Zhu",
+  "Ryan O'Dea",
+  "Min Guo",
+  "Rui Duan"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 2,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Low-rank matrix estimation is a fundamental problem in statistics and machine learning with applications across biomedical sciences, including genetics, medical imaging, drug discovery, and electronic health record data analysis. In the context of heterogeneous data generated from diverse sources, a key challenge lies in leveraging data from a source population to enhance the estimation of a low-rank matrix in a target population of interest. We propose an approach that leverages similarity in the latent row and column spaces between the source and target populations to improve estimation in the target population, which we refer to as LatEnt spAce-based tRaNsfer lEaRning (LEARNER). LEARNER is based on performing a low-rank approximation of the target population data which penalizes differences between the latent row and column spaces between the source and target populations. We present a cross-validation approach that allows the method to adapt to the degree of heterogeneity across populations. We conducted extensive simulations which found that LEARNER often outperforms the benchmark approach that only uses the target population data, especially as the signal-to-noise ratio in the source population increases. We also performed an illustrative application and empirical comparison of LEARNER and benchmark approaches in a re-analysis of summary statistics from a genome-wide association study in the BioBank Japan cohort. LEARNER is implemented in the R package learner and the Python package learner-py.",
+ "primary": "stat.ME"
+}

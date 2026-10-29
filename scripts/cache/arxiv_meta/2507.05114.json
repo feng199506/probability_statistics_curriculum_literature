@@ -1,0 +1,17 @@
+{
+ "id": "2507.05114",
+ "title": "Sequential multiple importance sampling for high-dimensional Bayesian inference",
+ "authors": [
+  "Li Binbin",
+  "He Xiao",
+  "Liao Zihan"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 1,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a sequential multiple importance sampling (SeMIS) algorithm for high-dimensional Bayesian inference. The method estimates Bayesian evidence using all generated samples from each proposal distribution while obtaining posterior samples through an importance-resampling scheme. A key innovation of SeMIS is the use of a softly truncated prior distribution as the intermediate proposal, providing a new way bridging prior and posterior distributions. By enabling samples from high-likelihood regions to traverse low-probability zones, SeMIS enhances mode mixing in challenging inference problems. Comparative evaluations against subset simulation (SuS) and adaptive Bayesian updating with structural reliability methods (aBUS) demonstrate that SeMIS achieves superior performance in evidence estimation (lower bias and variance) and posterior sampling (higher effective sample sizes and closer approximation to the true posterior), particularly for multimodal distributions. The efficacy of SeMIS is further validated in a high-dimensional finite element model updating application, where it successfully localizes structural damages by quantifying stiffness loss. The proposed algorithm not only advances Bayesian computation for complex posterior distributions but also provides a robust tool for uncertainty quantification in civil engineering systems, offering new possibilities for probabilistic structural health monitoring.",
+ "primary": "stat.ME"
+}

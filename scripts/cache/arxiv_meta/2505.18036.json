@@ -1,0 +1,15 @@
+{
+ "id": "2505.18036",
+ "title": "The bipartite structure of treatment-trial networks reveals the flow of information in network meta-analysis",
+ "authors": [
+  "Annabel L Davies"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 1,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages (main paper), 6 Figures, 3 tables, Supplementary Material (11 pages)",
+ "abstract": "Network meta-analysis (NMA) combines evidence from multiple trials comparing treatment options for the same condition. The method derives its name from a graphical representation of the data where nodes are treatments, and edges represent comparisons between treatments in trials. However, edges in this graph are limited to pairwise comparisons and fail to represent trials that compare more than two treatments. In this paper, we describe NMA as a bipartite graph where trials define a second type of node. Edges then correspond to the arms of trials, connecting each trial node to the treatment nodes it compares. We consider an NMA model parameterized in terms of the observations in each arm. By linking the hat matrix of this model to the bipartite framework, we reveal how evidence flows through the arms of trials. We then define a random walk on the bipartite graph and propose two conjectures that relate the movement of this walker to evidence flow. We illustrate our methods on a network of treatments for plaque psoriasis and verify our conjectures in simulations on randomly generated graphs. The bipartite framework provides new insights into the evidence structure of NMA and the role of individual trials in producing NMA estimates.",
+ "primary": "stat.ME"
+}

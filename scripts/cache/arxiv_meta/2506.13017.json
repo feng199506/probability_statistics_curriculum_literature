@@ -1,0 +1,17 @@
+{
+ "id": "2506.13017",
+ "title": "Spatially Varying Deep Functional Neural Network: Application in Large-Scale Crop Yield Prediction",
+ "authors": [
+  "Yeonjoo Park",
+  "Bo Li",
+  "Yehua Li"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-08",
+ "journal_ref": "Journal of the Royal Statistical Society Series C: Applied Statistic (2026)",
+ "doi": "10.1093/jrsssc/qlag023",
+ "comment": "",
+ "abstract": "Accurate prediction of crop yield is critical for supporting food security, agricultural planning, and economic decision-making. However, yield forecasting remains a significant challenge due to the complex and nonlinear relationships between weather variables and crop production, as well as spatial heterogeneity across agricultural regions. We propose DSNet, a deep neural network architecture that integrates functional and scalar predictors with spatially varying coefficients and spatial random effects. The method is designed to flexibly model spatially indexed functional data, such as daily temperature curves, and their relationship to variability in the response, while accounting for spatial correlation. DSNet mitigates the curse of dimensionality through a low-rank structure inspired by the spatially varying functional index model (SVFIM). Through comprehensive simulations, we demonstrate that DSNet outperforms state-of-the-art functional regression models for spatial data, when the functional predictors exhibit complex structure and their relationship with the response varies spatially in a potentially nonstationary manner. Application to corn yield data from the U.S. Midwest demonstrates that DSNet achieves superior predictive accuracy compared to both leading machine learning approaches and parametric statistical models. These results highlight the model's robustness and its potential applicability to other weather-sensitive crops.",
+ "primary": "stat.AP"
+}

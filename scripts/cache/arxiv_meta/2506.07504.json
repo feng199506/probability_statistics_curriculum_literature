@@ -1,0 +1,16 @@
+{
+ "id": "2506.07504",
+ "title": "Minimax Optimal Rates for Regression on Manifolds and Distributions",
+ "authors": [
+  "Rong Tang",
+  "Yun Yang"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 1,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distribution regression seeks to estimate the conditional distribution of a multivariate response given a continuous covariate. This approach offers a more complete characterization of dependence than traditional regression methods. Classical nonparametric techniques often assume that the conditional distribution has a well-defined density, an assumption that fails in many real-world settings. These include cases where data contain discrete elements or lie on complex low-dimensional structures within high-dimensional spaces. In this work, we establish minimax convergence rates for distribution regression under nonparametric assumptions, focusing on scenarios where both covariates and responses lie on low-dimensional manifolds. We derive lower bounds that capture the inherent difficulty of the problem and propose a new hybrid estimator that combines adversarial learning with simultaneous least squares to attain matching upper bounds. Our results reveal how the smoothness of the conditional distribution and the geometry of the underlying manifolds together determine the estimation accuracy.",
+ "primary": "math.ST"
+}

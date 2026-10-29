@@ -1,0 +1,16 @@
+{
+ "id": "2507.02072",
+ "title": "A novel two-stage parameter estimation framework integrating Approximate Bayesian Computation and Machine Learning: The ABC-RF-rejection algorithm",
+ "authors": [
+  "Renata Retkute",
+  "Christopher A. Gilligan"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 1,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 3 figures",
+ "abstract": "We introduce a novel two-stage parameter estimation framework designed to improve computational efficiency in settings involving complex, stochastic, or analytically intractable dynamic models. The proposed method, termed \\textit{ABC-RF-rejection}, integrates Approximate Bayesian Computation (ABC) rejection sampling with Random Forest (RF) classification to efficiently screen parameter sets that produce simulations consistent with observed data. We evaluate the performance of this approach using both a deterministic Susceptible-Infected-Removed (SIR) epidemic model and a spatially explicit stochastic epidemic model. Results indicate that ABC-RF-rejection achieves substantial gains in computational efficiency while maintaining parameter inference accuracy comparable with standard ABC rejection methods. Finally, we apply the algorithm to estimate parameters governing the spatial spread of cassava brown streak disease (CBSD) in Nakasongola district, Uganda.",
+ "primary": "stat.ME"
+}

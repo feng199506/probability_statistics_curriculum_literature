@@ -1,0 +1,16 @@
+{
+ "id": "2510.12356",
+ "title": "Variational Inference for Count Response Semiparametric Regression: A Convex Solution",
+ "authors": [
+  "Virginia Murru",
+  "Matt P. Wand"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 3,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a version of variational inference for Bayesian count response regression-type models that possesses attractive attributes such as convexity and closed form updates. The convex solution aspect entails numerically stable fitting algorithms, whilst the closed form aspect makes the methodology fast and easy to implement. The essence of the approach is the use of Pólya-Gamma augmentation of a Negative Binomial likelihood, a finite-valued prior on the shape parameter and the structured mean field variational Bayes paradigm. The approach applies to general count response situations. For concreteness, we focus on generalized linear mixed models within the semiparametric regression class of models. Real-time fitting is also described.",
+ "primary": "stat.ME"
+}

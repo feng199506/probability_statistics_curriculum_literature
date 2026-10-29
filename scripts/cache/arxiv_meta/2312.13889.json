@@ -1,0 +1,17 @@
+{
+ "id": "2312.13889",
+ "title": "Metropolis-adjusted interacting particle sampling",
+ "authors": [
+  "Björn Sprungk",
+  "Simon Weissmann",
+  "Jakob Zech"
+ ],
+ "v1_date": "2023-12-21",
+ "latest_version": 1,
+ "latest_date": "2023-12-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, various interacting particle samplers have been developed to sample from complex target distributions, such as those found in Bayesian inverse problems. These samplers are motivated by the mean-field limit perspective and implemented as ensembles of particles that move in the product state space according to coupled stochastic differential equations. The ensemble approximation and numerical time stepping used to simulate these systems can introduce bias and affect the invariance of the particle system with respect to the target distribution. To correct for this, we investigate the use of a Metropolization step, similar to the Metropolis-adjusted Langevin algorithm. We examine Metropolization of either the whole ensemble or smaller subsets of the ensemble, and prove basic convergence of the resulting ensemble Markov chain to the target distribution. Our numerical results demonstrate the benefits of this correction in numerical examples for popular interacting particle samplers such as ALDI, CBS, and stochastic SVGD.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2507.15164",
+ "title": "Causal Mediation Analysis for Zero-inflated Mixture Mediators",
+ "authors": [
+  "Meilin Jiang",
+  "Seonjoo Lee",
+  "A. James O'Malley",
+  "Pengfei Li",
+  "Zhigang Li"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal mediation analysis is an important statistical tool to quantify effects transmitted by intermediate variables from a cause to an outcome. There is a gap in mediation analysis methods to handle mixture mediator data that are zero-inflated with multi-modality and atypical behaviors. We propose an innovative way to model zero-inflated mixture mediators from the perspective of finite mixture distributions to flexibly capture such mediator data. Multiple data types are considered for modeling such mediators including the zero-inflated log-normal mixture, zero-inflated Poisson mixture and zero-inflated negative binomial mixture. A two-part mediation effect is derived to better understand effects on outcomes attributable to the numerical change as well as binary change from 0 to 1 in mediators. The maximum likelihood estimates are obtained by an expectation maximization algorithm to account for unobserved mixture membership and whether an observed zero is a true or false zero. The optimal number of mixture components are chosen by a model selection criterion. The performance of the proposed method is demonstrated in a simulation study and an application to a neuroscience study in comparison with standard mediation analysis methods.",
+ "primary": "stat.ME"
+}

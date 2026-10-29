@@ -1,0 +1,17 @@
+{
+ "id": "2312.01266",
+ "title": "A unified framework for covariate adjustment under stratified randomization",
+ "authors": [
+  "Fuyi Tu",
+  "Wei Ma",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2023-12-03",
+ "latest_version": 1,
+ "latest_date": "2023-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomization, as a key technique in clinical trials, can eliminate sources of bias and produce comparable treatment groups. In randomized experiments, the treatment effect is a parameter of general interest. Researchers have explored the validity of using linear models to estimate the treatment effect and perform covariate adjustment and thus improve the estimation efficiency. However, the relationship between covariates and outcomes is not necessarily linear, and is often intricate. Advances in statistical theory and related computer technology allow us to use nonparametric and machine learning methods to better estimate the relationship between covariates and outcomes and thus obtain further efficiency gains. However, theoretical studies on how to draw valid inferences when using nonparametric and machine learning methods under stratified randomization are yet to be conducted. In this paper, we discuss a unified framework for covariate adjustment and corresponding statistical inference under stratified randomization and present a detailed proof of the validity of using local linear kernel-weighted least squares regression for covariate adjustment in treatment effect estimators as a special case. In the case of high-dimensional data, we additionally propose an algorithm for statistical inference using machine learning methods under stratified randomization, which makes use of sample splitting to alleviate the requirements on the asymptotic properties of machine learning methods. Finally, we compare the performances of treatment effect estimators using different machine learning methods by considering various data generation scenarios, to guide practical research.",
+ "primary": "stat.ME"
+}

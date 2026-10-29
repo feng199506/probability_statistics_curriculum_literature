@@ -1,0 +1,15 @@
+{
+ "id": "2607.06089",
+ "title": "Closed-form fractional radial links for elliptical Mahalanobis discriminant analysis",
+ "authors": [
+  "Serhii Zabolotnii"
+ ],
+ "v1_date": "2026-07-07",
+ "latest_version": 1,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 2 figures. Lean 4/Mathlib formalization of the structural bridge, GAM membership and identity-link/affine-generator dichotomy (0 sorry) and full reproduction code at https://github.com/SZabolotnii/DSGE-MV_Elliptical_LLR-code-supplement",
+ "abstract": "We study binary classification under shared-generator elliptical class-conditional distributions. The log-likelihood ratio is an additive function of the two squared Mahalanobis radii, with radial link $\\varphi=\\log g$; QDA is recovered only when this link is affine. We derive the Bayes radial-link family from the within-class radius law and estimate it by a finite fractional-power stochastic-polynomial projection instead of tuning a generic spline. The link is identifiable from the radius law, the plug-in estimator is $\\sqrt{n}$-consistent and asymptotically normal under finite-moment regularity conditions, and the induced classifier is asymptotically Bayes-optimal in an iterated sieve limit. The structural bridge, GAM membership, and identity-link/affine-generator dichotomy are verified in Lean 4 without unproven placeholders. Against the global Mahalanobis-GAM of Ghosh et al. (2025), reimplemented with mgcv REML splines at equal input budget, the derived link is never significantly worse on three UCI benchmarks and is decisively better on breast_cancer ($[+0.009,+0.021]$ global, $[+0.109,+0.136]$ global+local). Across six real financial series under temporal-dependence-robust validation, it is never significantly worse than the fitted GAM and is significantly better on three of five heavy-tailed series plus the light-tailed control. Relative to QDA, it improves the heaviest-tailed series (oil $[+0.024,+0.070]$, S&P 500 $[+0.038,+0.126]$, JPY/USD $[+0.009,+0.047]$) and ties elsewhere. A closed-form rate simulation corroborates the $\\sqrt{n}$ rate and the predicted excess-risk dichotomy between QDA's approximation-limited floor and the derived link's vanishing excess risk. The contribution is no significant loss relative to a tuned global GAM without spline smoothing-parameter selection, plus improved accuracy over QDA where generator curvature matters.",
+ "primary": "math.ST"
+}

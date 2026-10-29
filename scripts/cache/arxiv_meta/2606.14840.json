@@ -1,0 +1,17 @@
+{
+ "id": "2606.14840",
+ "title": "Causal Sufficient Dimension Reduction for Multiple Continuous Exposures with an Application to Environmental Mixtures",
+ "authors": [
+  "Thomas W. Hsiao",
+  "Howard H. Chang",
+  "Razieh Nabi"
+ ],
+ "v1_date": "2026-06-12",
+ "latest_version": 1,
+ "latest_date": "2026-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating causal effects with multivariate continuous exposures is challenging because causal exposure-response surfaces can be high-dimensional, complicating estimation and interpretation of joint exposure effects. Such settings arise in environmental epidemiology, where interest centers on the health effects of chemical and pollutant mixtures. We develop causal sufficient dimension reduction (CSDR), a semiparametric framework for representing causal exposure-response surfaces through low-dimensional exposure summaries. We formalize the reduction target as the causal central mean subspace and propose a modular two-stage estimator that decouples nuisance-function estimation from subspace estimation, simplifying implementation relative to existing marginal structural model-based approaches. The reduced exposure preserves the information needed to characterize joint causal effects while enabling efficient downstream estimation. We establish a convergence rate for causal subspace recovery accounting for first-stage nuisance estimation error, show that the structural dimension can be estimated consistently, and introduce a subspace importance score that quantifies the contribution of each exposure to the reduction. In simulations, CSDR yielded more accurate estimation and uncertainty quantification of the exposure-response surface than methods using noncausal dimension reduction or the original exposure. We apply CSDR to study the effect of maternal exposure to PFAS chemical mixtures on infant birth weight in the Atlanta African American Maternal-Child Cohort.",
+ "primary": "stat.ME"
+}

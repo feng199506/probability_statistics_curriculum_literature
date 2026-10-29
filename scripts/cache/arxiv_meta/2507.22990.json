@@ -1,0 +1,18 @@
+{
+ "id": "2507.22990",
+ "title": "How to embed any likelihood into SBI: Application to Planck + Stage IV galaxy surveys and Dynamical Dark Energy",
+ "authors": [
+  "Guillermo Franco Abellán",
+  "Noemi Anau Montel",
+  "Oleg Savchenko",
+  "Christoph Weniger"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 2,
+ "latest_date": "2025-11-17",
+ "journal_ref": "Phys.Rev.D 112 (2025) 10, 103526",
+ "doi": "10.1103/ws4b-7qrw",
+ "comment": "9+6 pages, 6 figures, 3 tables. Added minor corrections. v2 matches the published PRD version. Comments welcome!",
+ "abstract": "Simulation-based inference (SBI) allows fast Bayesian inference for simulators encoding implicit likelihoods. However, some explicit likelihoods cannot be easily reformulated as simulators, hindering their integration into combined analyses within SBI frameworks. One key example in cosmology is given by the Planck CMB likelihoods. We present a simple method to construct an effective simulator for any explicit likelihood using samples from a previously converged Markov Chain Monte Carlo (MCMC) run. This effective simulator can subsequently be combined with any forward simulator. To illustrate this method, we combine the full Planck CMB likelihoods with a 3x2pt simulator (cosmic shear, galaxy clustering and their cross-correlation) for a Stage IV survey like Euclid, and test evolving dark energy parameterized by the $w_0w_a$ equation-of-state. Assuming the $w_0w_a$CDM cosmology hinted by DESI BAO DR2 + Planck 2018 + PantheonPlus SNIa datasets, we find that future 3x2pt data alone could detect evolving dark energy at $5σ$, while its combination with current CMB, BAO and SNIa datasets could raise the detection to almost $7σ$. Moreover, thanks to simulation reuse enabled by SBI, we show that our joint analysis is in excellent agreement with MCMC while requiring zero Boltzmann solver calls. This result opens up the possibility of performing massive global scans combining explicit and implicit likelihoods in a highly efficient way.",
+ "primary": "astro-ph.CO"
+}

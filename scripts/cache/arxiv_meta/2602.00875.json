@@ -1,0 +1,17 @@
+{
+ "id": "2602.00875",
+ "title": "Long term convergence rate of Smoluchowski-Kramers approximation by Stein's method",
+ "authors": [
+  "Shiyu Liu",
+  "Wei Liu",
+  "Lihu Xu"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the following second-order stochastic differential equation on $\\mathbb{R}^{2d}$: \\begin{equation*} dX_t^m=Y_t^mdt, \\quad mdY_t^m=b(X_t^m)dt+σ(X_t^m)dB_t-Y^m_tdt, \\end{equation*} where $X^m_t$ and $Y^m_t$ represent the position and velocity of a particle at time $t$, $m>0$ denotes its mass, $b:\\mathbb{R}^d \\rightarrow \\mathbb{R}^d$ is the drift field, $σ:\\mathbb{R}^d \\rightarrow \\mathbb{R}^{d \\times d}$ is the diffusion coefficient, and $\\{B_t\\}_{t \\ge 0}$ is a $d$-dimensional standard Brownian motion. The Smoluchowski--Kramers approximation states that as $m \\rightarrow 0$, this system converges to the limiting equation: \\begin{equation*} dX_t=b(X_t)dt+σ(X_t)dB_t. \\end{equation*} Utilizing Stein's method, we prove that the $1$-Wasserstein distance between the invariant distribution of $X_t^m$ and that of its small-mass limit $X_t$ is of order $O(\\sqrt{m}|\\ln m|).$ Particularly, in the one-dimensional case, the convergence rate can be improved to $O(\\sqrt{m}).$",
+ "primary": "math.PR"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2501.17514",
+ "title": "Semiparametric principal stratification analysis beyond monotonicity",
+ "authors": [
+  "Jiaqi Tong",
+  "Brennan Kahan",
+  "Michael O. Harhay",
+  "Fan Li"
+ ],
+ "v1_date": "2025-01-29",
+ "latest_version": 2,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Intercurrent events, common in clinical trials and observational studies, affect the existence or interpretation of final outcomes. Principal stratification addresses this challenge by defining local average treatment effect estimands within subpopulations, but often relies on restrictive assumptions such as monotonicity and counterfactual intermediate independence. To overcome these limitations, we propose a semiparametric framework for principal stratification analysis leveraging a margin-free, conditional odds ratio sensitivity parameter. Under principal ignorability, we derive nonparametric identification formulas and efficient estimation methods, including a conditionally doubly robust parametric estimator and a debiased machine learning estimator with data-adaptive nuisance learners. Our simulations show that incorrectly assuming monotonicity can frequently lead to biased inference, but incorrectly assuming non-monotonicity when monotonicity holds may maintain approximately valid inference. We demonstrate our methods in the context of a critical care trial, where monotonicity is unlikely to be valid.",
+ "primary": "stat.ME"
+}

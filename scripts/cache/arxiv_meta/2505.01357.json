@@ -1,0 +1,18 @@
+{
+ "id": "2505.01357",
+ "title": "Weight-calibrated estimation for factor models of high-dimensional time series",
+ "authors": [
+  "Xinghao Qiao",
+  "Zihan Wang",
+  "Qiwei Yao",
+  "Bo Zhang"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 3,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This version is the accepted version by Journal of the American Statistical Association",
+ "abstract": "The factor modeling for high-dimensional time series is powerful in discovering latent common components for dimension reduction and information extraction. Most available estimation methods can be divided into two categories: the covariance-based under asymptotically-identifiable assumption and the autocovariance-based with white idiosyncratic noise. This paper follows the autocovariance-based framework and develops a novel weight-calibrated method to improve the estimation performance. It adopts a linear projection to tackle high-dimensionality, and employs a reduced-rank autoregression formulation. The asymptotic theory of the proposed method is established, relaxing the assumption on white noise. Additionally, we make the first attempt in the literature by providing a systematic theoretical comparison among the covariance-based, the standard autocovariance-based, and our proposed weight-calibrated autocovariance-based methods in the presence of factors with different strengths. Extensive simulations are conducted to showcase the superior finite-sample performance of our proposed method, as well as to validate the newly established theory. The superiority of our proposal is further illustrated through the analysis of one financial and one macroeconomic data sets.",
+ "primary": "stat.ME"
+}

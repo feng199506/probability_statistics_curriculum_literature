@@ -1,0 +1,17 @@
+{
+ "id": "2609.20713",
+ "title": "A Unified Framework for Wasserstein Convergence of ULMC Methods beyond Log-Concavity: Old and New",
+ "authors": [
+  "Wanjie Lyu",
+  "Xiaojie Wang",
+  "Bin Yang"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 1,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As a fundamental task across computational statistics, scientific computing and machine learning, sampling from high-dimensional probability distributions has received increasing attention in recent years. Numerous sampling algorithms have been proposed, among which underdamped Langevin Monte Carlo (ULMC) methods based on underdamped Langevin dynamics (ULD) have emerged as a class of efficient ones. In this work, we introduce a ``universal\" predictor-corrector formulation that bridges Euler-type, UBU-type and randomized schemes through different choices of method parameters. Notably, the ``universal\" integrator induces two novel classes of low-cost integrators, termed low-cost randomized integrators (LC-RIs) and low-cost UBU integrators (LC-UBUIs), as well as their exponential-free variants based on polynomial and rational approximations. The resulting new UBU-type and randomized schemes require only one gradient evaluation and two Gaussians per iteration, considerably reducing the number of gradient evaluations or Gaussians per iteration required by existing counterparts. Further, a general framework of long-time error analysis is developed for general discretization schemes in a probability metric. Under certain smoothness and non-log-concavity conditions, we rely on the unified framework to establish non-asymptotic $\\mathcal{W}_1$-error bounds of both old and new schemes, revealing convergence rates of order $\\mathcal{O}(d^{\\frac{1}{2}}h)$ for Euler-type schemes, order $\\mathcal{O}(d h^2)$ for UBU-type ones and order $\\mathcal{O}(d^{\\frac{1}{2}}h^{\\frac{3}{2}})$ for randomized ones. In the strongly convex setting, the same non-asymptotic error bounds can be recovered in $\\mathcal{W}_2$-distance. Numerical experiments corroborate the theoretical findings.",
+ "primary": "math.NA"
+}

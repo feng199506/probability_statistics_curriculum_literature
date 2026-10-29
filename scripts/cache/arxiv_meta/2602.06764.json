@@ -1,0 +1,16 @@
+{
+ "id": "2602.06764",
+ "title": "Prediction-based inference for integrated diffusions with high-frequency data",
+ "authors": [
+  "Emil S. Jørgensen",
+  "Michael Sørensen"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider parametric inference for an ergodic and stationary diffusion process, when the data are high-frequency observations of the integral of the diffusion process. Such data are obtained via certain measurement devices, or if positions are recorded and speed is modelled by a diffusion. In finance, realized volatility or variations thereof can be used to construct observations of the latent integrated volatility process. Specifically, we assume that the integrated process is observed at equidistant, deterministic time points and consider the high-frequency/infinite horizon asymptotic scenario, where the number of observations, the sampling frequency and the time of the last observation all go to infinity. Subject to mild standard regularity conditions on the diffusion model, we prove the asymptotic existence and uniqueness of a consistent estimator for useful and tractable classes of prediction-based estimating functions. Asymptotic normality of the estimator is obtained under an additional assumption on the rates. The proofs are based on the useful Euler-Ito expansions of transformations of diffusions and integrated diffusions, which we study in some detail.",
+ "primary": "math.ST"
+}

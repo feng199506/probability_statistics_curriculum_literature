@@ -1,0 +1,16 @@
+{
+ "id": "2410.17692",
+ "title": "Asymptotics for parametric martingale posteriors",
+ "authors": [
+  "Edwin Fong",
+  "Andrew Yiu"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 1,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "10.1093/biomet/asag007",
+ "comment": "18 pages (main), 50 pages (total), 3 figures, 4 tables",
+ "abstract": "The martingale posterior framework is a generalization of Bayesian inference where one elicits a sequence of one-step ahead predictive densities instead of the likelihood and prior. Posterior sampling then involves the imputation of unseen observables, and can then be carried out in an expedient and parallelizable manner using predictive resampling without requiring Markov chain Monte Carlo. Recent work has investigated the use of plug-in parametric predictive densities, combined with stochastic gradient descent, to specify a parametric martingale posterior. This paper investigates the asymptotic properties of this class of parametric martingale posteriors. In particular, two central limit theorems based on martingale limit theory are introduced and applied. The first is a predictive central limit theorem, which enables a significant acceleration of the predictive resampling scheme through a hybrid sampling algorithm based on a normal approximation. The second is a Bernstein-von Mises result, which is novel for martingale posteriors, and provides methodological guidance on attaining desirable frequentist properties. We demonstrate the utility of the theoretical results in simulations and a real data example.",
+ "primary": "math.ST"
+}

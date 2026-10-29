@@ -1,0 +1,18 @@
+{
+ "id": "2311.03247",
+ "title": "Multivariate selfsimilarity: Multiscale eigen-structures for selfsimilarity parameter estimation",
+ "authors": [
+  "Charles-Gérard Lucas",
+  "Gustavo Didier",
+  "Herwig Wendt",
+  "Patrice Abry"
+ ],
+ "v1_date": "2023-11-06",
+ "latest_version": 2,
+ "latest_date": "2024-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 8 figures",
+ "abstract": "Scale-free dynamics, formalized by selfsimilarity, provides a versatile paradigm massively and ubiquitously used to model temporal dynamics in real-world data. However, its practical use has mostly remained univariate so far. By contrast, modern applications often demand multivariate data analysis. Accordingly, models for multivariate selfsimilarity were recently proposed. Nevertheless, they have remained rarely used in practice because of a lack of available robust estimation procedures for the vector of selfsimilarity parameters. Building upon recent mathematical developments, the present work puts forth an efficient estimation procedure based on the theoretical study of the multiscale eigenstructure of the wavelet spectrum of multivariate selfsimilar processes. The estimation performance is studied theoretically in the asymptotic limits of large scale and sample sizes, and computationally for finite-size samples. As a practical outcome, a fully operational and documented multivariate signal processing estimation toolbox is made freely available and is ready for practical use on real-world data. Its potential benefits are illustrated in epileptic seizure prediction from multi-channel EEG data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2606.25603",
+ "title": "Resampling in conditional SMC algorithms",
+ "authors": [
+  "Axel Finke",
+  "Adam M. Johansen",
+  "Anthony Lee",
+  "Lawrence M. Murray"
+ ],
+ "v1_date": "2026-06-24",
+ "latest_version": 1,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 4 figures",
+ "abstract": "Conditional sequential Monte Carlo (CSMC) algorithms arise in particle Markov chain Monte Carlo and a number of related settings. As in standard sequential Monte Carlo (SMC) algorithms, it is possible to employ a number of approaches to resampling within CSMC, but some additional care is required to arrive at a valid algorithm. We present a simple framework for implementing valid SMC and CSMC algorithms which (a) covers most known resampling schemes including those with a complicated dependence structure like systematic resampling, but also adaptive resampling, and even more `exotic' schemes like a version of chopthin resampling; (b) explains how to implement conditional analogues of these and other well known resampling schemes without randomly permuting/shifting the order of the ancestor indices; (c) requires only very weak assumptions which include neither (marginal) \"unbiasedness\" nor exchangeability.",
+ "primary": "stat.CO"
+}

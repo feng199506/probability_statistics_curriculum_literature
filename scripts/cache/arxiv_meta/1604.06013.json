@@ -1,0 +1,22 @@
+{
+ "id": "1604.06013",
+ "title": "Point process models for spatio-temporal distance sampling data from a large-scale survey of blue whales",
+ "authors": [
+  "Y. Yuan",
+  "F. E. Bachl",
+  "F. Lindgren",
+  "D. L. Brochers",
+  "J. B. Illian",
+  "S. T. Buckland",
+  "H. Rue",
+  "T. Gerrodette"
+ ],
+ "v1_date": "2016-04-20",
+ "latest_version": 4,
+ "latest_date": "2017-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages 19 figures",
+ "abstract": "Distance sampling is a widely used method for estimating wildlife population abundance. The fact that conventional distance sampling methods are partly design-based constrains the spatial resolution at which animal density can be estimated using these methods. Estimates are usually obtained at survey stratum level. For an endangered species such as the blue whale, it is desirable to estimate density and abundance at a finer spatial scale than stratum. Temporal variation in the spatial structure is also important. We formulate the process generating distance sampling data as a thinned spatial point process and propose model-based inference using a spatial log-Gaussian Cox process. The method adopts a flexible stochastic partial differential equation (SPDE) approach to model spatial structure in density that is not accounted for by explanatory variables, and integrated nested Laplace approximation (INLA) for Bayesian inference. It allows simultaneous fitting of detection and density models and permits prediction of density at an arbitrarily fine scale. We estimate blue whale density in the Eastern Tropical Pacific Ocean from thirteen shipboard surveys conducted over 22 years. We find that higher blue whale density is associated with colder sea surface temperatures in space, and although there is some positive association between density and mean annual temperature, our estimates are consitent with no trend in density across years. Our analysis also indicates that there is substantial spatially structured variation in density that is not explained by available covariates.",
+ "primary": "stat.ME"
+}

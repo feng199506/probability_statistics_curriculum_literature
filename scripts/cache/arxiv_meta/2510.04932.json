@@ -1,0 +1,16 @@
+{
+ "id": "2510.04932",
+ "title": "MCMC for State Space models",
+ "authors": [
+  "Paul Fearnhead",
+  "Chris Sherlock"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This review article is intended for the second edition of The Handbook of MCMC and is a substantial revision of the chapter of the same name that appeared in the first edition. In particular, it now describes the particle filter and particle-MCMC algorithms",
+ "abstract": "A state-space model is a time-series model that has an unobserved latent process from which we take noisy measurements over time. The observations are conditionally independent given the latent process and the latent process itself is Markovian. These properties lead to simplifications for the conditional distribution of the latent process given the parameters and the observations. This chapter looks at how we can leverage the properties of state-space models to construct efficient MCMC samplers. We consider a range of Gibbs-sampler schemes, including those which use the forward-backward algorithm to simulate from the full conditional of the latent process given the parameters. For models where the forward-backward algorithm is not applicable we look at particle MCMC algorithms that, given the parameters, use particle filters to approximately simulate from the latent process or estimate the likelihood of the observations. Throughout, we provide intuition and informally discuss theory about the properties of the model that impact the efficiency of the different algorithms and how approaches such as reparameterization can improve mixing.",
+ "primary": "stat.ME"
+}

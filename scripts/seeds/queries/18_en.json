@@ -1,0 +1,122 @@
+[
+ {
+  "q": "abs:\"Markov chain Monte Carlo\" AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\" OR ti:overview)",
+  "subtopic": "MCMC"
+ },
+ {
+  "q": "(abs:\"Hamiltonian Monte Carlo\" OR abs:\"No-U-Turn\" OR abs:\"Langevin\") AND cat:stat.CO",
+  "subtopic": "MCMC（HMC/Langevin）"
+ },
+ {
+  "q": "(abs:\"MCMC\" OR abs:\"Markov chain Monte Carlo\") AND (abs:\"convergence diagnostics\" OR abs:\"effective sample size\" OR abs:\"R-hat\" OR abs:\"mixing time\") AND (cat:stat.CO OR cat:stat.ME)",
+  "subtopic": "MCMC 收敛诊断与理论"
+ },
+ {
+  "q": "(abs:\"piecewise deterministic\" OR abs:\"non-reversible\" OR abs:\"zig-zag\" OR abs:\"bouncy particle\") AND cat:stat.CO",
+  "subtopic": "MCMC（非可逆/PDMP）"
+ },
+ {
+  "q": "(abs:\"sequential Monte Carlo\" OR abs:\"particle filter\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:survey OR ti:overview)",
+  "subtopic": "SMC"
+ },
+ {
+  "q": "(abs:\"sequential Monte Carlo\" OR abs:\"particle filter\" OR abs:\"particle MCMC\") AND cat:stat.CO",
+  "subtopic": "SMC"
+ },
+ {
+  "q": "abs:\"importance sampling\" AND (cat:stat.CO OR cat:stat.ME) AND (ti:review OR ti:survey OR ti:tutorial OR ti:adaptive OR abs:\"effective sample size\" OR abs:\"Pareto\")",
+  "subtopic": "重要性采样"
+ },
+ {
+  "q": "(abs:\"quasi-Monte Carlo\" OR abs:\"multilevel Monte Carlo\" OR abs:\"variance reduction\") AND (cat:stat.CO OR cat:math.NA)",
+  "subtopic": "Monte Carlo 与方差缩减"
+ },
+ {
+  "q": "abs:bootstrap AND (ti:review OR ti:survey OR ti:introduction OR ti:tutorial OR ti:overview)",
+  "subtopic": "Bootstrap 与重抽样"
+ },
+ {
+  "q": "(abs:bootstrap OR abs:resampling OR abs:jackknife) AND cat:stat.CO",
+  "subtopic": "Bootstrap 与重抽样"
+ },
+ {
+  "q": "(abs:\"expectation-maximization\" OR abs:\"EM algorithm\" OR abs:\"MM algorithm\") AND (cat:stat.CO OR cat:math.ST OR cat:stat.ME)",
+  "subtopic": "EM 与优化算法"
+ },
+ {
+  "q": "abs:\"variational inference\" AND (ti:review OR ti:tutorial OR ti:introduction OR ti:survey OR ti:primer OR ti:overview)",
+  "subtopic": "变分推断"
+ },
+ {
+  "q": "abs:\"variational\" AND (abs:\"guarantees\" OR abs:\"consistency\" OR abs:\"mean-field\") AND (cat:math.ST OR cat:stat.CO OR cat:stat.TH)",
+  "subtopic": "变分推断理论"
+ },
+ {
+  "q": "abs:\"approximate Bayesian computation\" OR (abs:\"simulation-based inference\" AND cat:stat.CO)",
+  "subtopic": "ABC 与基于模拟的推断"
+ },
+ {
+  "q": "(abs:\"divide-and-conquer\" OR abs:\"subsampling\" OR abs:\"distributed\" OR abs:\"coresets\" OR abs:\"sketching\") AND (abs:\"massive data\" OR abs:\"large-scale\" OR abs:\"big data\") AND (cat:stat.CO OR cat:stat.ME)",
+  "subtopic": "可扩展计算"
+ },
+ {
+  "q": "(abs:\"stochastic gradient\" AND (abs:MCMC OR abs:\"Langevin\")) AND (cat:stat.CO OR cat:stat.ML)",
+  "subtopic": "可扩展 MCMC"
+ },
+ {
+  "q": "(abs:\"probabilistic programming\" OR abs:Stan OR abs:\"automatic differentiation\") AND cat:stat.CO",
+  "subtopic": "概率编程与自动微分"
+ },
+ {
+  "q": "(ti:\"R package\" OR ti:\"Python package\" OR ti:\"Julia package\") AND cat:stat.CO",
+  "subtopic": "方法与软件"
+ },
+ {
+  "q": "(abs:\"Monte Carlo\" OR abs:\"numerical\") AND (ti:review OR ti:tutorial OR ti:\"lecture notes\" OR ti:introduction) AND cat:stat.CO",
+  "subtopic": "数值方法与 Monte Carlo"
+ },
+ {
+  "q": "(abs:\"diffusion models\" OR abs:\"normalizing flows\" OR abs:\"measure transport\") AND (abs:sampling OR abs:\"posterior sampling\") AND cat:stat.CO",
+  "subtopic": "基于传输的采样"
+ },
+ {
+  "q": "(ti:\"Markov chain Monte Carlo\" OR ti:MCMC OR ti:\"Monte Carlo\" OR ti:sampling) AND (ti:review OR ti:tutorial OR ti:introduction OR ti:primer OR ti:guide OR ti:\"lecture notes\") AND (cat:stat.CO OR cat:stat.ME OR cat:math.ST OR cat:stat.ML)",
+  "subtopic": "MCMC 与 Monte Carlo 教程"
+ },
+ {
+  "q": "(abs:\"Gibbs sampler\" OR abs:\"Gibbs sampling\" OR abs:\"data augmentation\") AND abs:convergence AND (cat:stat.CO OR cat:math.ST)",
+  "subtopic": "MCMC（Gibbs）"
+ },
+ {
+  "q": "(abs:\"parallel tempering\" OR abs:\"replica exchange\" OR abs:\"multimodal\") AND (abs:MCMC OR abs:\"Markov chain Monte Carlo\") AND cat:stat.CO",
+  "subtopic": "MCMC（多峰与回火）"
+ },
+ {
+  "q": "(abs:\"control variates\" OR abs:\"Stein discrepancy\" OR abs:\"kernel Stein\") AND cat:stat.CO",
+  "subtopic": "Monte Carlo 与方差缩减"
+ },
+ {
+  "q": "(abs:\"marginal likelihood\" OR abs:\"normalizing constant\" OR abs:\"evidence\") AND (abs:\"bridge sampling\" OR abs:\"thermodynamic integration\" OR abs:\"nested sampling\") AND cat:stat.CO",
+  "subtopic": "边际似然计算"
+ },
+ {
+  "q": "(abs:\"Laplace approximation\" OR abs:INLA OR abs:\"integrated nested Laplace\") AND (cat:stat.CO OR cat:stat.ME)",
+  "subtopic": "确定性近似推断"
+ },
+ {
+  "q": "(abs:couplings OR abs:\"unbiased estimation\") AND (abs:MCMC OR abs:\"Markov chain\") AND cat:stat.CO",
+  "subtopic": "MCMC 收敛诊断与理论"
+ },
+ {
+  "q": "(abs:\"stochastic approximation\" OR abs:\"stochastic optimization\" OR abs:\"stochastic gradient descent\") AND (abs:\"statistical inference\" OR abs:\"maximum likelihood\") AND (cat:stat.CO OR cat:math.ST)",
+  "subtopic": "优化与随机逼近"
+ },
+ {
+  "q": "(abs:\"Gaussian process\" AND (abs:scalable OR abs:\"Vecchia\" OR abs:\"inducing points\")) AND cat:stat.CO",
+  "subtopic": "可扩展计算"
+ },
+ {
+  "q": "(abs:\"cross-validation\" AND (abs:\"computation\" OR abs:\"approximate\")) AND cat:stat.CO",
+  "subtopic": "重抽样与交叉验证计算"
+ }
+]

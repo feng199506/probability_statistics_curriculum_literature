@@ -1,0 +1,17 @@
+{
+ "id": "2501.01021",
+ "title": "Penalized Quasi-likelihood for High-dimensional Longitudinal Data via Within-cluster Resampling",
+ "authors": [
+  "Yue Ma",
+  "Haofeng Wang",
+  "Xuejun Jiang"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 1,
+ "latest_date": "2025-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The generalized estimating equation (GEE) method is a popular tool for longitudinal data analysis. However, GEE produces biased estimates when the outcome of interest is associated with cluster size, a phenomenon known as informative cluster size (ICS). In this study, we address this issue by formulating the impact of ICS and proposing an integrated approach to mitigate its effects. Our method combines the concept of within-cluster resampling with a penalized quasi-likelihood framework applied to each resampled dataset, ensuring consistency in model selection and estimation. To aggregate the estimators from the resampled datasets, we introduce a penalized mean regression technique, resulting in a final estimator that improves true positive discovery rates while reducing false positives. Simulation studies and an application to yeast cell-cycle gene expression data demonstrate the excellent performance of the proposed penalized quasi-likelihood method via within-cluster resampling.",
+ "primary": "stat.ME"
+}

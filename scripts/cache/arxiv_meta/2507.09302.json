@@ -1,0 +1,21 @@
+{
+ "id": "2507.09302",
+ "title": "The Multiplicative Instrumental Variable Model",
+ "authors": [
+  "Jiewen Liu",
+  "Chan Park",
+  "Yonghoon Lee",
+  "Yunshu Zhang",
+  "Mengxin Yu",
+  "James M. Robins",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-07-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The instrumental variable (IV) design is a common approach to address hidden confounding bias. For validity, an IV must impact the outcome only through its association with the treatment. In addition, IV identification has required a homogeneity condition such as monotonicity or no unmeasured common effect modifier between the additive effect of the treatment on the outcome, and that of the IV on the treatment. In this work, we introduce the Multiplicative Instrumental Variable Model (MIV), which encodes a condition of no multiplicative interaction between the instrument and an unmeasured confounder in the treatment propensity score model. Thus, the MIV provides a novel formalization of the core IV independence condition interpreted as independent mechanisms of action, by which the instrument and hidden confounders influence treatment uptake, respectively. As we formally establish, MIV provides nonparametric identification of the population average treatment effect on the treated (ATT) via a single-arm version of the classical Wald ratio IV estimand, for which we propose a novel class of estimators that are multiply robust and semiparametric efficient. Finally, we illustrate the methods in extended simulations and an application on the causal impact of a job training program on subsequent earnings.",
+ "primary": "stat.ME"
+}

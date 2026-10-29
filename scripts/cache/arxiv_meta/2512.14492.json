@@ -1,0 +1,15 @@
+{
+ "id": "2512.14492",
+ "title": "Causal Secondary Analysis of Linked Data in the Presence of Mismatch Error",
+ "authors": [
+  "Martin Slawski"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The increased prevalence of observational data and the need to integrate information from multiple sources are critical challenges in contemporary data analysis. Record linkage is a widely used tool for combining datasets in the absence of unique identifiers. The presence of linkage errors such as mismatched records, however, often hampers the analysis of data sets obtained in this way. This issue is more difficult to address in secondary analysis settings, where linkage and subsequent analysis are performed separately, and analysts have limited information about linkage quality. In this paper, we investigate the estimation of average treatment effects in the conventional potential outcome-based causal inference framework under linkage uncertainty. To mitigate the bias that would be incurred with naive analyses, we propose an approach based on estimating equations that treats the unknown match status indicators as missing data. Leveraging a variant of the Expectation-Maximization algorithm, these indicators are imputed based on a corresponding two-component mixture model. The approach is amenable to asymptotic inference. Simulation studies and a case study highlight the importance of accounting for linkage uncertainty and demonstrate the effectiveness of the proposed approach.",
+ "primary": "stat.ME"
+}

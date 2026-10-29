@@ -1,0 +1,15 @@
+{
+ "id": "2504.09292",
+ "title": "Stochastic Claims Reserving Using State Space Modeling",
+ "authors": [
+  "Rajesh Selukar"
+ ],
+ "v1_date": "2025-04-12",
+ "latest_version": 1,
+ "latest_date": "2025-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Claims reserving, also known as Incurred But Not Reported (IBNR) claims prediction, is an important issue in general insurance. State space modeling is widely recognized as a statistically robust method for addressing this problem. In state space model-based claims reserving, the Kalman filter and Kalman smoother algorithms are employed for model fitting, diagnostics, and deriving reserve estimates. Additionally, the simulation smoother algorithm is used to obtain the sampling distribution of the derived reserve estimate. The integration of these three algorithms results in an elegant and transparent claim reserving process. Various state space models (SSMs) have been proposed in the literature for claims reserving. This article outlines a step-by-step process for computing the SSM-based reserve estimate and its associated sampling distribution for any proposed SSM. A brief discussion on model selection is also included. The claims reserving computations are demonstrated using a real-life data set. The state space modeling computations in the illustrations are performed by using the CSSM procedure in SAS Viya/Econometrics software. The SAS code for reproducing the output in the illustrations is provided in the supplementary material.",
+ "primary": "stat.CO"
+}

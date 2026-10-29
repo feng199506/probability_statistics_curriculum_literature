@@ -1,0 +1,18 @@
+{
+ "id": "2403.15039",
+ "title": "Deep learning scheme for forward utilities using ergodic BSDEs",
+ "authors": [
+  "Guillaume Broux-Quemerais",
+  "Sarah Kaakaï",
+  "Anis Matoussi",
+  "Wissal Sabbagh"
+ ],
+ "v1_date": "2024-03-22",
+ "latest_version": 3,
+ "latest_date": "2024-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we present a probabilistic numerical method for a class of forward utilities in a stochastic factor model. For this purpose, we use the representation of dynamic consistent utilities with mean of ergodic Backward Stochastic Differential Equations (eBSDEs) introduced by Liang and Zariphopoulou in [27]. We establish a connection between the solution of the ergodic BSDE and the solution of an associated BSDE with random terminal time $τ$ , defined as the hitting time of the positive recurrent stochastic factor V . The viewpoint based on BSDEs with random horizon yields a new characterization of the ergodic cost $λ$ which is a part of the solution of the eBSDEs. In particular, for a certain class of eBSDEs with quadratic generator, the Cole-Hopf transform leads to a semi-explicit representation of the solution as well as a new expression of the ergodic cost $λ$. The latter can be estimated with Monte Carlo methods. We also propose two new deep learning numerical schemes for eBSDEs, where the ergodic cost $λ$ is optimized according to a loss function at the random horizon $τ$ or taking into account the whole trajectory. Finally, we present numerical results for different examples of eBSDEs and forward utilities along with the associated investment strategies.",
+ "primary": "math.PR"
+}

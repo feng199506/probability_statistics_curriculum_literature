@@ -1,0 +1,25 @@
+{
+ "id": "2509.15309",
+ "title": "The Importance of Standardizing Spectra in the Era of Large Spectroscopic Surveys: A Case Study of M Dwarfs in SDSS-V",
+ "authors": [
+  "Ilija Medan",
+  "Zachary Way",
+  "Bárbara Rojas-Ayala",
+  "Guy S. Stringfellow",
+  "Conor Sayres",
+  "Keivan G. Stassun",
+  "Andrew R. Casey",
+  "Sébastien Lépine",
+  "Emma Galligan",
+  "Diogo Souto",
+  "Andrew K. Saydjari"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 1,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 14 figures",
+ "abstract": "SDSS-V will obtain 100,000s of medium-resolution, optical spectra of M dwarfs with the BOSS instrument. M dwarfs have complex atmospheres, and their spectra contain many wide and dense, overlapping molecular features, so determining accurate stellar parameters by fitting models has been difficult. To circumvent this, other surveys have employed machine learning methods to transfer measurements of stellar parameters from high-resolution spectra to their medium-resolution counterparts. These methods provide large catalogs of stellar parameters but, if not addressed properly, are plagued by biases which are, in part, due to the normalization of the spectra. Typical spectral normalization removes the continuum but preserves the relative depths of the absorption features, but optical M dwarf spectra are almost entirely made up of molecular absorption, which makes this difficult. Here, we develop a standardization method that instead defines a pseudo-continuum. We use the spectrum's alpha shape to find the points which lie between the absorption features and apply local polynomial regression to find this pseudo-continuum. To tune the hyperparameters of this method, we create BOSS-like spectra from BT-NextGen models to replicate instrumental, signal-to-noise, and reddening effects. We find that in both this generated set and a validation set of the SDSS-V data, our method performs better than alternative standardizations by producing spectra that are both more uniform for M dwarfs with similar stellar parameters and more easily distinguished compared to M dwarfs of differing parameters. These results from our method will be crucial for better determining stellar parameters of M dwarfs using generative models.",
+ "primary": "astro-ph.SR"
+}

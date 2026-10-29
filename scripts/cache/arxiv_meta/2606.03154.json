@@ -1,0 +1,18 @@
+{
+ "id": "2606.03154",
+ "title": "Efficient Federated Estimation and Inference for High-Dimensional Tail Index Regression",
+ "authors": [
+  "Haoyu Geng",
+  "Liuhua Peng",
+  "Changliang Zou",
+  "Xiaolong Cui"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 5 figures",
+ "abstract": "Tail index regression studies how covariates affect tail heaviness in heavy-tailed data. In many applications, data are distributed across heterogeneous sources, where direct pooling is infeasible due to privacy or regulatory constraints. Existing methods mainly focus on single-dataset analysis and do not address heterogeneous federated settings. We develop a personalized federated framework for high-dimensional tail index regression that accommodates client heterogeneity while exploiting latent similarities across clients. The proposed estimator combines sparsity regularization with nonconcave fusion penalties to perform coefficient estimation, variable selection, and group recovery. We establish non-asymptotic convergence rates and show that the estimator enjoys an oracle property by consistently recovering the underlying grouping structure. For computation, we develop an ADMM-based federated algorithm with adaptive gradient updates and establish its convergence guarantees. We further propose a debiased federated inference procedure based on adaptive weighted aggregation across related clients, yielding valid confidence intervals and hypothesis tests with improved efficiency over target-only inference. Simulation studies and real-data analysis demonstrate the effectiveness of the proposed methods.",
+ "primary": "stat.ME"
+}

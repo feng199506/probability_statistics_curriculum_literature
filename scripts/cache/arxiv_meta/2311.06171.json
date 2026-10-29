@@ -1,0 +1,18 @@
+{
+ "id": "2311.06171",
+ "title": "Fast relaxation of the random field Ising dynamics",
+ "authors": [
+  "Ahmed El Alaoui",
+  "Ronen Eldan",
+  "Reza Gheissari",
+  "Arianna Piana"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 2,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updated version based on referee feedback. 40 pages, 2 figures",
+ "abstract": "We study the convergence properties of Glauber dynamics for the random field Ising model (RFIM) with ferromagnetic interactions on finite domains of $\\mathbb{Z}^d$, $d \\ge 2$. Of particular interest is the Griffiths phase where correlations decay exponentially fast in expectation over the quenched disorder, but there exist arbitrarily large islands of weak fields where low-temperature behavior is observed. Our results are twofold: 1. Under weak spatial mixing (boundary-to-bulk exponential decay of correlations) in expectation, we show that the dynamics satisfy a weak Poincaré inequality implying algebraic relaxation to equilibrium over timescales polynomial in the volume $N$ of the domain, and polynomial time mixing from a warm start. From this we construct a polynomial-time approximate sampling algorithm based on running Glauber dynamics over an increasing sequence of approximations of the domain. 2. Under strong spatial mixing (exponential decay of correlations even near boundary pinnings) in expectation, we prove a full Poincaré inequality, implying exponential relaxation to equilibrium and $N^{o(1)}$-mixing time. Note by way of example, both weak and strong spatial mixing hold at any temperature, provided the external fields are strong enough. Our proofs combine a stochastic localization technique which has the effect of increasing the variance of the field, with a field-dependent coarse graining which controls the resulting sub-critical percolation process of sites with weak fields.",
+ "primary": "math.PR"
+}

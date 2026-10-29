@@ -1,0 +1,19 @@
+{
+ "id": "2507.08099",
+ "title": "Simultaneous Estimation and Model Choice for Big Discrete Time-to-Event Data with Additive Predictors",
+ "authors": [
+  "Benjamin Müller",
+  "Nikolaus Umlauf",
+  "Johannes Seiler",
+  "Kenneth Harttgen",
+  "Stefan Lang"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Discrete-time hazard models are widely used when event times are measured in intervals or are not precisely observed. While these models can be estimated using standard generalized linear model techniques, they rely on extensive data augmentation, making estimation computationally demanding in high-dimensional settings. In this paper, we demonstrate how the recently proposed Batchwise Backfitting algorithm, a general framework for scalable estimation and variable selection in distributional regression, can be effectively extended to discrete hazard models. Using both simulated data and a large-scale application on infant mortality in sub-Saharan Africa, we show that the algorithm delivers accurate estimates, automatically selects relevant predictors, and scales efficiently to large data sets. The findings underscore the algorithm's practical utility for analysing large-scale, complex survival data with high-dimensional covariates.",
+ "primary": "stat.ME"
+}

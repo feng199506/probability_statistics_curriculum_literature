@@ -1,0 +1,17 @@
+{
+ "id": "2507.23285",
+ "title": "CLT in high-dimensional Bayesian linear regression with low SNR",
+ "authors": [
+  "Seunghyun Lee",
+  "Nabarun Deb",
+  "Sumit Mukherjee"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study central limit theorems for linear statistics in high-dimensional Bayesian linear regression with product priors. Unlike the existing literature where the focus is on posterior contraction, we work under a non-contracting regime where neither the likelihood nor the prior dominates the other. This is motivated by modern high-dimensional datasets characterized by a bounded signal-to-noise ratio. This work takes a first step towards understanding limit distributions for one-dimensional projections of the posterior, as well as the posterior mean, in such regimes. Analogous to contractive settings, the resulting limiting distributions are Gaussian, but they heavily depend on the chosen prior and center around the Mean-Field approximation of the posterior. We study two concrete models of interest to illustrate this phenomenon -- the white noise design, and the (misspecified) Bayesian model. As an application, we construct credible intervals and compute their coverage probability under any misspecified prior. Our proofs rely on a combination of recent developments in Berry-Esseen type bounds for Random Field Ising models and both first and second order Poincaré inequalities. Notably, our results do not require any sparsity assumptions on the prior.",
+ "primary": "math.ST"
+}

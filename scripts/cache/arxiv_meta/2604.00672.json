@@ -1,0 +1,18 @@
+{
+ "id": "2604.00672",
+ "title": "Common TF-IDF variants arise as key components in the test statistic of a penalized likelihood-ratio test for word burstiness",
+ "authors": [
+  "Zeyad Ahmed",
+  "Paul Sheridan",
+  "Michael McIsaac",
+  "Aitazaz A. Farooque"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 2,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 3 tables, 7 figures, accepted in Discover Computing 2026",
+ "abstract": "TF-IDF is a classical formula that is widely used for identifying important terms within documents. We show that TF-IDF-like scores arise naturally from the test statistic of a penalized likelihood-ratio test setup capturing word burstiness (also known as word over-dispersion). In our framework, the alternative hypothesis captures word burstiness by modeling a collection of documents according to a family of beta-binomial distributions with a gamma penalty term on the precision parameter. In contrast, the null hypothesis assumes that words are binomially distributed in collection documents, a modeling approach that fails to account for word burstiness. We find that a term-weighting scheme given rise to by this test statistic performs comparably to TF-IDF on document classification tasks. This paper provides insights into TF-IDF from a statistical perspective and underscores the potential of hypothesis testing frameworks for advancing term-weighting scheme development.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2503.06864",
+ "title": "Doubly robust omnibus sensitivity analysis of externally controlled trials with intercurrent events",
+ "authors": [
+  "Chenyin Gao",
+  "Xiang Zhang",
+  "Shu Yang"
+ ],
+ "v1_date": "2025-03-10",
+ "latest_version": 1,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Externally controlled trials are crucial in clinical development when randomized controlled trials are unethical or impractical. These trials consist of a full treatment arm with the experimental treatment and a full external control arm. However, they present significant challenges in learning the treatment effect due to the lack of randomization and a parallel control group. Besides baseline incomparability, outcome mean non-exchangeability, caused by differences in conditional outcome distributions between external controls and counterfactual concurrent controls, is infeasible to test and may introduce biases in evaluating the treatment effect. Sensitivity analysis of outcome mean non-exchangeability is thus critically important to assess the robustness of the study's conclusions against such assumption violations. Moreover, intercurrent events, which are ubiquitous and inevitable in clinical studies, can further confound the treatment effect and hinder the interpretation of the estimated treatment effects. This paper establishes a semi-parametric framework for externally controlled trials with intercurrent events, offering doubly robust and locally optimal estimators for primary and sensitivity analyses. We develop an omnibus sensitivity analysis that accounts for both outcome mean non-exchangeability and the impacts of intercurrent events simultaneously, ensuring root-n consistency and asymptotic normality under specified conditions. The performance of the proposed sensitivity analysis is evaluated in simulation studies and a real-data problem.",
+ "primary": "stat.ME"
+}

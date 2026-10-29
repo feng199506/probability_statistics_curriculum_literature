@@ -1,0 +1,16 @@
+{
+ "id": "2606.18942",
+ "title": "Group Efficient Randomized-Adaptive Designs with Delayed and Missing Responses",
+ "authors": [
+  "Guijing Zhang",
+  "Li-Xin Zhang"
+ ],
+ "v1_date": "2026-06-17",
+ "latest_version": 1,
+ "latest_date": "2026-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Response-adaptive randomization designs have attracted much attention in clinical trials. This paper proposes a new class of response-adaptive design which built on the efficient randomized-adaptive design (ERADE) proposed by Hu, Zhang, and He. The original ERADE uses a discrete allocation probability function and leverages the stopping time theory of stochastic processes to establish asymptotic results. It has been proven that the design can reach the Cramér-Rao lower bound for any target allocation proportion. This study further expands the original framework by replacing the traditional case-by-case sequential enrollment with group recruitment over fixed time intervals(weekly, biweekly, or monthly), and dynamically updates the allocation probabilities based on the cumulative response information within each group. Meanwhile, to better fit practical application scenarios, we further explicitly consider the situations of randomly missing data and response delay. Theoretical analysis shows that the new design retains all the main asymptotic properties of the original ERADE, and still performs well under the conditions of response delay and missing data. Finally, through simulation studies and the redesign of a real-world clinical trial, the effectiveness and practicality of the proposed method are verified.",
+ "primary": "math.ST"
+}

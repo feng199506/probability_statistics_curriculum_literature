@@ -1,0 +1,16 @@
+{
+ "id": "2505.17300",
+ "title": "Statistical Inference for Online Algorithms",
+ "authors": [
+  "Selina Carter",
+  "Arun K Kuchibhotla"
+ ],
+ "v1_date": "2025-05-22",
+ "latest_version": 2,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "1) Adding to ASGD simulations, we add 5 other SGD algorithms: averaged-implicit-SGD, last-iterate-implicit-SGD, ROOT-SGD, truncated-SGD, and noisy-truncated-SGD. 2) We modify links to the online viz/GitHub pages. 3) We qualify previous conclusions on ASGD: ex, we claim that logistic regression is sometimes more challenging \"in terms of achieving the target coverage\" than linear regression",
+ "abstract": "The construction of confidence intervals and hypothesis tests for functionals is a cornerstone of statistical inference. Traditionally, the most efficient procedures - such as the Wald interval or the Likelihood Ratio Test - require both a point estimator and a consistent estimate of its asymptotic variance. However, when estimators are derived from online or sequential algorithms, computational constraints often preclude multiple passes over the data, complicating variance estimation. In this article, we propose a computationally efficient, rate-optimal wrapper method (HulC) that wraps around any online algorithm to produce asymptotically valid confidence regions bypassing the need for explicit asymptotic variance estimation. The method is provably valid for any online algorithm that yields an asymptotically normal estimator. We evaluate the practical performance of the proposed method primarily using Stochastic Gradient Descent (SGD) with Polyak-Ruppert averaging. Furthermore, we provide extensive numerical simulations comparing the performance of our approach (HulC) when used with other online algorithms, including implicit-SGD and ROOT-SGD.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2405.12668",
+ "title": "Short and simple introduction to Bellman filtering and smoothing",
+ "authors": [
+  "Rutger-Jan Lange"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages",
+ "abstract": "Based on Bellman's dynamic-programming principle, Lange (2024) presents an approximate method for filtering, smoothing and parameter estimation for possibly non-linear and/or non-Gaussian state-space models. While the approach applies more generally, this pedagogical note highlights the main results in the case where (i) the state transition remains linear and Gaussian while (ii) the observation density is log-concave and sufficiently smooth in the state variable. I demonstrate how Kalman's (1960) filter and Rauch et al.'s (1965) smoother can be obtained as special cases within the proposed framework. The main aim is to present non-experts (and my own students) with an accessible introduction, enabling them to implement the proposed methods.",
+ "primary": "stat.ME"
+}

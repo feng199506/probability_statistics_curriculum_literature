@@ -1,0 +1,16 @@
+{
+ "id": "2510.27323",
+ "title": "Strong approximation for stochastic Volterra equations by compound Poisson processes",
+ "authors": [
+  "Xicheng Zhang",
+  "Yuanlong Zhao"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 2,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a compound Poisson (random time-change) approximation for stochastic differential equations (SDEs) and stochastic Volterra equations whose coefficients may be merely measurable in time and may even exhibit integrable singularities. For an SDE driven by Brownian motion, we replace the time variable by the Poisson clock $\\mathcal{N}_t^\\varepsilon$ and approximate the stochastic integral by $W_{\\mathcal{N}_t^\\varepsilon}$, which leads to an explicit jump scheme driven by a compensated Poisson random measure. Under standard Lipschitz and linear-growth conditions in the state variable (with no continuity assumed in time for the drift), we prove strong convergence and obtain explicit rates in $\\varepsilon$. For Volterra-type equations with singular kernels, we establish strong convergence as well, with a rate that reflects both the temporal regularity of the kernel and the intrinsic $\\varepsilon^{1/2}$ fluctuation of the Poisson clock. The compound Poisson scheme differs fundamentally from the Euler-Maruyama method: it does not require pointwise evaluation of time-irregular coefficients on a deterministic grid, and it remains stable in the presence of time singularities. We further illustrate the theory on stochastic Volterra equations driven by fractional Brownian motion and provide numerical experiments showing improved performance over Euler-Maruyama for problems with singular time dependence.",
+ "primary": "math.PR"
+}

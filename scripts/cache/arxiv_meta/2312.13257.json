@@ -1,0 +1,16 @@
+{
+ "id": "2312.13257",
+ "title": "Error estimation and adaptive tuning for unregularized robust M-estimator",
+ "authors": [
+  "Pierre C. Bellec",
+  "Takuya Koriyama"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 9 figures",
+ "abstract": "We consider unregularized robust M-estimators for linear models under Gaussian design and heavy-tailed noise, in the proportional asymptotics regime where the sample size n and the number of features p are both increasing such that $p/n \\to γ\\in (0,1)$. An estimator of the out-of-sample error of a robust M-estimator is analyzed and proved to be consistent for a large family of loss functions that includes the Huber loss. As an application of this result, we propose an adaptive tuning procedure of the scale parameter $λ>0$ of a given loss function $ρ$: choosing $\\hat λ$ in a given interval $I$ that minimizes the out-of-sample error estimate of the M-estimator constructed with loss $ρ_λ(\\cdot) = λ^2 ρ(\\cdot/λ)$ leads to the optimal out-of-sample error over $I$. The proof relies on a smoothing argument: the unregularized M-estimation objective function is perturbed, or smoothed, with a Ridge penalty that vanishes as $n\\to+\\infty$, and shows that the unregularized M-estimator of interest inherits properties of its smoothed version.",
+ "primary": "math.ST"
+}

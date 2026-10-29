@@ -1,0 +1,16 @@
+{
+ "id": "2511.11338",
+ "title": "Extreme-PLS with missing data under weak dependence",
+ "authors": [
+  "Stéphane Girard",
+  "Cambyse Pakzad"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 14 figures",
+ "abstract": "This paper develops a theoretical framework for Extreme Partial Least Squares (EPLS) dimension reduction in the presence of missing data and weak temporal dependence. Building upon the recent EPLS methodology for modeling extremal dependence between a response variable and high-dimensional covariates, we extend the approach to more realistic data settings where both serial correlation and missing-ness occur. Specifically, we consider a single-index inverse regression model under heavy-tailed conditions and introduce a Missing-at-Random (MAR) mechanism acting on the covariates, whose probability depends on the extremeness of the response. The asymptotic behavior of the proposed estimator is established within an alpha-mixing framework, leading to consistency results under regularly varying tails. Extensive Monte-Carlo experiments covering eleven dependence schemes (including ARMA, GARCH, and nonlinear ESTAR processes) demonstrate that the method performs robustly across a wide range of heavy-tailed and dependent scenarios, even when substantial portions of data are missing. A real-world application to environmental data further confirms the method's capacity to recover meaningful tail directions.",
+ "primary": "stat.ME"
+}

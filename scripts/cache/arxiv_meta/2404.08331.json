@@ -1,0 +1,18 @@
+{
+ "id": "2404.08331",
+ "title": "A Balanced Statistical Boosting Approach for GAMLSS via New Step Lengths",
+ "authors": [
+  "Alexandra Daub",
+  "Andreas Mayr",
+  "Boyao Zhang",
+  "Elisabeth Bergherr"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 1,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 26 figures",
+ "abstract": "Component-wise gradient boosting algorithms are popular for their intrinsic variable selection and implicit regularization, which can be especially beneficial for very flexible model classes. When estimating generalized additive models for location, scale and shape (GAMLSS) by means of a component-wise gradient boosting algorithm, an important part of the estimation procedure is to determine the relative complexity of the submodels corresponding to the different distribution parameters. Existing methods either suffer from a computationally expensive tuning procedure or can be biased by structural differences in the negative gradients' sizes, which, if encountered, lead to imbalances between the different submodels. Shrunk optimal step lengths have been suggested to replace the typical small fixed step lengths for a non-cyclical boosting algorithm limited to a Gaussian response variable in order to address this issue. In this article, we propose a new adaptive step length approach that accounts for the relative size of the fitted base-learners to ensure a natural balance between the different submodels. The new balanced boosting approach thus represents a computationally efficient and easily generalizable alternative to shrunk optimal step lengths. We implemented the balanced non-cyclical boosting algorithm for a Gaussian, a negative binomial as well as a Weibull distributed response variable and demonstrate the competitive performance of the new adaptive step length approach by means of a simulation study, in the analysis of count data modeling the number of doctor's visits as well as for survival data in an oncological trial.",
+ "primary": "stat.ME"
+}

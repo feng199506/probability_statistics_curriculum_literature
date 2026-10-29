@@ -1,0 +1,17 @@
+{
+ "id": "2509.14218",
+ "title": "Adaptive Off-Policy Inference for M-Estimators Under Model Misspecification",
+ "authors": [
+  "James Leiner",
+  "Robin Dunn",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 6 figures",
+ "abstract": "When data are collected adaptively, such as in bandit algorithms, classical statistical approaches such as ordinary least squares and $M$-estimation will often fail to achieve asymptotic normality. Although recent lines of work have modified the classical approaches to ensure valid inference on adaptively collected data, most of these works assume that the model is correctly specified. The misspecified setting poses unique challenges because the parameter of interest itself may not be well-defined over a non-stationary distribution of rewards. We therefore tackle the problem of \\emph{off-policy} inference in adaptive settings, where we uniquely define a projected solution over a stationary evaluation policy. Our method provides valid inference for $M$-estimators that use adaptively collected bandit data with a possibly misspecified working model. A key ingredient in our approach is the use of flexible approaches to stabilize the variance induced by adaptive data collection. A major novelty is that the procedure enables the construction of valid confidence sets even in settings where treatment policies are unstable and non-converging, such as when there is no unique optimal arm and standard bandit algorithms are used. Empirical results on semi-synthetic datasets constructed from the Osteoarthritis Initiative demonstrate that the method maintains type I error control, while existing methods for inference in adaptive settings do not cover in the misspecified case.",
+ "primary": "stat.ME"
+}

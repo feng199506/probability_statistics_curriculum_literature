@@ -1,0 +1,16 @@
+{
+ "id": "2607.20044",
+ "title": "A Hybrid Framework for Uncertainty Quantification in Partially Observed Dynamic Biological Systems",
+ "authors": [
+  "Alberto Portela",
+  "Julio R. Banga"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 1,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mechanistic ordinary differential equation (ODE) models are widely used in systems biology, but uncertainty quantification (UQ) remains difficult when only a subset of state variables is experimentally observed. Existing Bayesian and likelihood-based approaches can be computationally demanding for nonlinear, weakly identifiable, or high-dimensional systems. We present a framework, and its corresponding software CUQDyn1 Plus, for UQ in partially observed ODE systems. Our method combines leave-one-out jackknife+-style empirical calibration for observed states with sensitivity-based Gaussian uncertainty propagation for hidden states. The software supports global parameter estimation, covariance propagation, bootstrap trajectory uncertainty and simulation-based calibration. It also facilitates comparison with Bayesian workflows, automated reporting, and reproducibility diagnostics. Validation on six benchmark systems shows accurate behavior in well-conditioned cases and model-dependent degradation under nonlinearity, weak identifiability, or global branch-switching non-identifiability. CUQDyn1 Plus provides a practical and computationally efficient UQ workflow for systems biology models with observed and latent states. Its diagnostic outputs help identify when local Gaussian propagation is reliable and when uncertainty bands should be interpreted cautiously, making it a useful complement to fully Bayesian workflows.",
+ "primary": "q-bio.QM"
+}

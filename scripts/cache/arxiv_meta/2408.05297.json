@@ -1,0 +1,16 @@
+{
+ "id": "2408.05297",
+ "title": "Bootstrap Matching: a robust and efficient correction for non-random A/B test, and its applications",
+ "authors": [
+  "Zihao Zheng",
+  "Carol Liu"
+ ],
+ "v1_date": "2024-08-09",
+ "latest_version": 1,
+ "latest_date": "2024-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A/B testing, a widely used form of Randomized Controlled Trial (RCT), is a fundamental tool in business data analysis and experimental design. However, despite its intent to maintain randomness, A/B testing often faces challenges that compromise this randomness, leading to significant limitations in practice. In this study, we introduce Bootstrap Matching, an innovative approach that integrates Bootstrap resampling, Matching techniques, and high-dimensional hypothesis testing to address the shortcomings of A/B tests when true randomization is not achieved. Unlike traditional methods such as Difference-in-Differences (DID) and Propensity Score Matching (PSM), Bootstrap Matching is tailored for large-scale datasets, offering enhanced robustness and computational efficiency. We illustrate the effectiveness of this methodology through a real-world application in online advertising and further discuss its potential applications in digital marketing, empirical economics, clinical trials, and high-dimensional bioinformatics.",
+ "primary": "stat.ME"
+}

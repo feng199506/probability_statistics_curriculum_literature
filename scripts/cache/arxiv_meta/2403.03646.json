@@ -1,0 +1,16 @@
+{
+ "id": "2403.03646",
+ "title": "Bayesian Variable Selection in Distributed Lag Models: A Focus on Binary Quantile and Count Data Regressions",
+ "authors": [
+  "Daniel Dempsey",
+  "Jason Wyse"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 2,
+ "latest_date": "2025-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distributed Lag Models (DLMs) and similar regression approaches such as MIDAS have been used for many decades in econometrics and more recently to investigate how poor air quality adversely affects human health. In this paper we describe how to expand the utility of these models for Bayesian inference by leveraging latent variables. In particular we explain how to perform binary regression to better handle imbalanced data, how to incorporate negative binomial regression, and how to estimate the probability of predictor inclusion. Extra parameters introduced through the DLM framework may require calibration for the MCMC algorithm, but this will not be the case in DLM-based analyses often seen in pollution exposure literature. In these cases, the parameters are inferred through a fully automatic Gibbs sampling procedure.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2505.12308",
+ "title": "A Hybrid Prior Bayesian Method for Combining Domestic Real-World Data and Overseas Data in Global Drug Development",
+ "authors": [
+  "Keer Chen",
+  "Zengyue Zheng",
+  "Pengfei Zhu",
+  "Shuping Jiang",
+  "Nan Li",
+  "Jumin Deng",
+  "Pingyan Chen",
+  "Zhenyu Wu",
+  "Ying Wu"
+ ],
+ "v1_date": "2025-05-18",
+ "latest_version": 1,
+ "latest_date": "2025-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 figures",
+ "abstract": "Background Hybrid clinical trial design integrates randomized controlled trials (RCTs) with real-world data (RWD) to enhance efficiency through dynamic incorporation of external data. Existing methods like the Meta-Analytic Predictive Prior (MAP) inadequately control data heterogeneity, adjust baseline discrepancies, or optimize dynamic borrowing proportions, introducing bias and limiting applications in bridging trials and multi-regional clinical trials (MRCTs). Objective This study proposes a novel hybrid Bayesian framework (EQPS-rMAP) to address heterogeneity and bias in multi-source data integration, validated through simulations and retrospective case analyses of risankizumab's efficacy in moderate-to-severe plaque psoriasis. Design and Methods EQPS-rMAP eliminates baseline covariate discrepancies via propensity score stratification, constructs stratum-specific MAP priors to dynamically adjust external data weights, and introduces equivalence probability weights to quantify data conflict risks. Performance was evaluated across six simulated scenarios (heterogeneity differences, baseline shifts) and real-world case analyses, comparing it with traditional methods (MAP, PSMAP, EBMAP) on estimation bias, type I error control, and sample size requirements. Results Simulations show EQPS-rMAP maintains estimation robustness under significant heterogeneity while reducing sample size demands and enhancing trial efficiency. Case analyses confirm superior external bias control and accuracy compared to conventional approaches. Conclusion and Significance EQPS-rMAP provides empirical evidence for hybrid clinical designs. By resolving baseline-heterogeneity conflicts through adaptive mechanisms, it enables reliable integration of external and real-world data in bridging trials, MRCTs, and post-marketing studies, broadening applicability without compromising rigor.",
+ "primary": "stat.ME"
+}

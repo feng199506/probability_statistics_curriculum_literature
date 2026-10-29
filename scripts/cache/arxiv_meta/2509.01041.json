@@ -1,0 +1,16 @@
+{
+ "id": "2509.01041",
+ "title": "Neural Lévy SDE for State--Dependent Risk and Density Forecasting",
+ "authors": [
+  "Ziyao Wang",
+  "Svetlozar T Rachev"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 1,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Financial returns are known to exhibit heavy tails, volatility clustering and abrupt jumps that are poorly captured by classical diffusion models. Advances in machine learning have enabled highly flexible functional forms for conditional means and volatilities, yet few models deliver interpretable state--dependent tail risk, capture multiple forecast horizons and yield distributions amenable to backtesting and execution. This paper proposes a neural Lévy jump--diffusion framework that jointly learns, as functions of observable state variables, the conditional drift, diffusion, jump intensity and jump size distribution. We show how a single shared encoder yields multiple forecasting heads corresponding to distinct horizons (daily, weekly, etc.), facilitating multi--horizon density forecasts and risk measures. The state vector includes conventional price and volume features as well as novel complexity measures such as permutation entropy and recurrence quantification analysis determinism, which quantify predictability in the underlying process. Estimation is based on a quasi--maximum likelihood approach that separates diffusion and jump contributions via bipower variation weights and incorporates monotonicity and smoothness regularisation to ensure identifiability. A cost--aware portfolio optimiser translates the model's conditional densities into implementable trading strategies under leverage, turnover and no--trade--band constraints. Extensive empirical analyses on cross--sectional equity data demonstrate improved calibration, sharper tail control and economically significant risk reduction relative to baseline diffusive and GARCH benchmarks. The proposed framework is therefore an interpretable, testable and practically deployable method for state--dependent risk and density forecasting.",
+ "primary": "q-fin.RM"
+}

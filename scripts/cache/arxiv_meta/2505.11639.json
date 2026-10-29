@@ -1,0 +1,19 @@
+{
+ "id": "2505.11639",
+ "title": "Covariate-moderated Empirical Bayes Matrix Factorization",
+ "authors": [
+  "William R. P. Denault",
+  "Karl Tayeb",
+  "Peter Carbonetto",
+  "Jason Willwerscheid",
+  "Matthew Stephens"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matrix factorization is a fundamental method in statistics and machine learning for inferring and summarizing structure in multivariate data. Modern data sets often come with \"side information\" of various forms (images, text, graphs) that can be leveraged to improve estimation of the underlying structure. However, existing methods that leverage side information are limited in the types of data they can incorporate, and they assume specific parametric models. Here, we introduce a novel method for this problem, covariate-moderated empirical Bayes matrix factorization (cEBMF). cEBMF is a modular framework that accepts any type of side information that is processable by a probabilistic model or a neural network. The cEBMF framework can accommodate different assumptions and constraints on the factors through the use of different priors, and it adapts these priors to the data. We demonstrate the benefits of cEBMF in simulations and in analyses of spatial transcriptomics and collaborative filtering data. A PyTorch-based implementation of cEBMF with flexible priors is available at https://github.com/william-denault/cebmf_torch.",
+ "primary": "stat.ME"
+}

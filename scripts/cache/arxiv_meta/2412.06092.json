@@ -1,0 +1,16 @@
+{
+ "id": "2412.06092",
+ "title": "Density forecast transformations",
+ "authors": [
+  "Matteo Mogliani",
+  "Florens Odendahl"
+ ],
+ "v1_date": "2024-12-08",
+ "latest_version": 1,
+ "latest_date": "2024-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The popular choice of using a $direct$ forecasting scheme implies that the individual predictions do not contain information on cross-horizon dependence. However, this dependence is needed if the forecaster has to construct, based on $direct$ density forecasts, predictive objects that are functions of several horizons ($e.g.$ when constructing annual-average growth rates from quarter-on-quarter growth rates). To address this issue we propose to use copulas to combine the individual $h$-step-ahead predictive distributions into a joint predictive distribution. Our method is particularly appealing to practitioners for whom changing the $direct$ forecasting specification is too costly. In a Monte Carlo study, we demonstrate that our approach leads to a better approximation of the true density than an approach that ignores the potential dependence. We show the superior performance of our method in several empirical examples, where we construct (i) quarterly forecasts using month-on-month $direct$ forecasts, (ii) annual-average forecasts using monthly year-on-year $direct$ forecasts, and (iii) annual-average forecasts using quarter-on-quarter $direct$ forecasts.",
+ "primary": "econ.EM"
+}

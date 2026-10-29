@@ -1,0 +1,15 @@
+{
+ "id": "2609.18586",
+ "title": "Randomization Inference with Concentration Inequalities",
+ "authors": [
+  "Tobias Freidling"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomization or design-based inference is becoming an increasingly popular tool for analysing data from randomized experiments: It does not require modelling assumptions on the distribution of outcomes or covariates, and hypothesis testing and estimation are respectively valid and unbiased in finite samples. Yet, confidence intervals for the sample average treatment effect (SATE) are still constructed via finite-population central limit theorems and their coverage is only asymptotic. In this work, we explore an alternative approach: We use concentration inequalities to construct confidence intervals for the SATE with non-asymptotic guarantees. We develop this approach for the most common experimental designs (Bernoulli trials and completely randomized experiments) and provide Hoeffding and Bernstein-type confidence intervals. Moreover, we extend these results to matched-pair, cluster and stratified randomized experiments. Our key technical contributions are a novel Bernstein-type concentration inequality for i.i.d. data points as well as a concentration result for Neyman's variance estimator.",
+ "primary": "math.ST"
+}

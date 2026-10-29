@@ -1,0 +1,16 @@
+{
+ "id": "2610.22607",
+ "title": "Volterra-Skorokhod Reflection and Fluid Limits of Loss Queues",
+ "authors": [
+  "Mingrui Wang",
+  "Prakash Chakraborty"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the $G_t/G/n/n$ loss queue, a customer blocked at time $u$ remains missing from the system for as long as it would have been served. A fraction $K(t-u)$ of the blocking at $u$ therefore still affects the occupancy at time $t$, where $K=1-G$ is the service survival function. We show that, for every arrival process satisfying a functional strong law of large numbers, the fluid limit of this queue is a reflection with kernel $K$ of the fluid limit of the associated infinite-server queue. The reflection is defined by a one-sided reflection problem on $(-\\infty,1]$ in which the regulator is convolved with a memory kernel. Given a càdlàg input $ρ$ and a kernel $K$ with $K(0)=1$, we seek a pair $(\\hatρ,η)$ such that $\\hatρ=ρ-\\int_0^\\cdot K(\\cdot-u)\\,dη(u)$ takes values in $(-\\infty,1]$, $η$ is nondecreasing, and $η$ increases only when $\\hatρ=1$. We refer to this problem as the Volterra-Skorokhod problem. We show existence and uniqueness of the solution and that the solution map is Lipschitz continuous in the uniform norm and nonanticipating. It therefore applies to stochastic inputs path by path. Unlike the classical Skorokhod map, this map is not monotone. For nonincreasing kernels, however, the regulator is the smallest admissible one and monotone in the input. In the queue, this orders the cumulative fluid losses under ordered arrival rates. Furthermore, since arrivals enter the queue through the reflection kernel, the regulator is a thinning of the arrivals.",
+ "primary": "math.PR"
+}

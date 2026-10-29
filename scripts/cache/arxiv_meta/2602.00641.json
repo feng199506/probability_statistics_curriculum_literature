@@ -1,0 +1,17 @@
+{
+ "id": "2602.00641",
+ "title": "Sampling from multi-modal distributions on Riemannian manifolds with training-free stochastic interpolants",
+ "authors": [
+  "Alain Durmus",
+  "Maxence Noble",
+  "Thibaut Pellerin"
+ ],
+ "v1_date": "2026-01-31",
+ "latest_version": 1,
+ "latest_date": "2026-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose a general methodology for sampling from un-normalized densities defined on Riemannian manifolds, with a particular focus on multi-modal targets that remain challenging for existing sampling methods. Inspired by the framework of diffusion models developed for generative modeling, we introduce a sampling algorithm based on the simulation of a non-equilibrium deterministic dynamics that transports an easy-to-sample noise distribution toward the target. At the marginal level, the induced density path follows a prescribed stochastic interpolant between the noise and target distributions, specifically constructed to respect the underlying Riemannian geometry. In contrast to related generative modeling approaches that rely on machine learning, our method is entirely training-free. It instead builds on iterative posterior sampling procedures using only standard Monte Carlo techniques, thereby extending recent diffusion-based sampling methodologies beyond the Euclidean setting. We complement our approach with a rigorous theoretical analysis and demonstrate its effectiveness on a range of multi-modal sampling problems, including high-dimensional and heavy-tailed examples.",
+ "primary": "stat.ML"
+}

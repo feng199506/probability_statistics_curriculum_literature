@@ -1,0 +1,19 @@
+{
+ "id": "2602.11496",
+ "title": "High-Dimensional Mediation Analysis for Generalized Linear Models Using Bayesian Variable Selection Guided by Mediator Correlation",
+ "authors": [
+  "Youngho Bae",
+  "Chanmin Kim",
+  "Fenglei Wang",
+  "Qi Sun",
+  "Kyu Ha Lee"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 1,
+ "latest_date": "2026-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional mediation analysis aims to identify mediating pathways and to estimate indirect effects linking an exposure to an outcome. In this paper, we propose a Bayesian framework to address key challenges in these analyses, including high dimensionality, complex dependence among omics mediators, and non-continuous outcomes. Furthermore, commonly used approaches assume independent mediators or ignore correlations in the selection stage, which can reduce power when mediators are highly correlated. Addressing these challenges leads to a non-Gaussian likelihood and specialized selection priors, which in turn require efficient and adaptive posterior computation. Our proposed framework selects active pathways under generalized linear models while accounting for mediator dependence. Specifically, the mediators are modeled using a multivariate distribution, exposure-mediator selection is guided by a Markov random field prior on inclusion indicators, and mediator-outcome activation is restricted to mediators supported in the exposure-mediator model through a sequential subsetting Bernoulli prior. Simulation studies show improved operating characteristics in correlated-mediator settings, with appropriate error control under the global null and stable performance under model misspecification. We illustrate the method using real-world metabolomics data to study metabolites that mediate the association between adherence to the Alternate Mediterranean Diet score and two cardiometabolic outcomes.",
+ "primary": "stat.ME"
+}

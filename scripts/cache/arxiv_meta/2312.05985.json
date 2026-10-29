@@ -1,0 +1,15 @@
+{
+ "id": "2312.05985",
+ "title": "Fused Extended Two-Way Fixed Effects for Difference-in-Differences With Staggered Adoptions",
+ "authors": [
+  "Gregory Faletto"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 4,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "90 pages, 9 figures",
+ "abstract": "To address the bias of the canonical two-way fixed effects estimator for difference-in-differences under staggered adoptions, Wooldridge (2021) proposed the extended two-way fixed effects estimator, which adds many parameters. However, this reduces efficiency. Restricting some of these parameters to be equal (for example, subsequent treatment effects within a cohort) helps, but ad hoc restrictions may reintroduce bias. We propose a machine learning estimator with a single tuning parameter, fused extended two-way fixed effects (FETWFE), that enables automatic data-driven selection of these restrictions. We prove that under an appropriate sparsity assumption FETWFE identifies the correct restrictions with probability tending to one, which improves efficiency. We also prove the consistency, oracle property, and asymptotic normality of FETWFE for several classes of heterogeneous marginal treatment effect estimators under either conditional or marginal parallel trends, and we prove the same results for conditional average treatment effects under conditional parallel trends. We provide an R package implementing fused extended two-way fixed effects, and we demonstrate FETWFE in simulation studies and an empirical application.",
+ "primary": "econ.EM"
+}

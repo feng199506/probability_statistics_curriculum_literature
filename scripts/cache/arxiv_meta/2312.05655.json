@@ -1,0 +1,17 @@
+{
+ "id": "2312.05655",
+ "title": "A novel scaling approach for unbiased adjustment of risk estimators",
+ "authors": [
+  "Marcin Pitera",
+  "Thorsten Schmidt",
+  "Łukasz Stettner"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 1,
+ "latest_date": "2023-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The assessment of risk based on historical data faces many challenges, in particular due to the limited amount of available data, lack of stationarity, and heavy tails. While estimation on a short-term horizon for less extreme percentiles tends to be reasonably accurate, extending it to longer time horizons or extreme percentiles poses significant difficulties. The application of theoretical risk scaling laws to address this issue has been extensively explored in the literature. This paper presents a novel approach to scaling a given risk estimator, ensuring that the estimated capital reserve is robust and conservatively estimates the risk. We develop a simple statistical framework that allows efficient risk scaling and has a direct link to backtesting performance. Our method allows time scaling beyond the conventional square-root-of-time rule, enables risk transfers, such as those involved in economic capital allocation, and could be used for unbiased risk estimation in small sample settings. To demonstrate the effectiveness of our approach, we provide various examples related to the estimation of value-at-risk and expected shortfall together with a short empirical study analysing the impact of our method.",
+ "primary": "q-fin.RM"
+}

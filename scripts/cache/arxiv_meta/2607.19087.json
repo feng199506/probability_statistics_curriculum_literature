@@ -1,0 +1,16 @@
+{
+ "id": "2607.19087",
+ "title": "Identifiability, Convergence and Nonparametric Estimation of Bivariate Archimax Copulas",
+ "authors": [
+  "Nicolas Dietrich",
+  "Wolfgang Trutschnig"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 2,
+ "latest_date": "2026-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Considering that the family of bivariate Archimax copulas contains both the Archimedean and the extreme-value class, Archimax copulas constitute a flexible family allowing to model extreme and moderate levels of dependence. Despite their appeal, no fully nonparametric, consistent estimator that is itself an element of the Archimax family $\\mathcal{C}_{am}$ has been established yet, mainly because Archimedean generators and Pickands dependence functions alone do not identify Archimax copulas. We resolve this identifiability issue by working with transformed generators and transformed Pickands dependence functions, and show that these functions do identify the Archimax copula uniquely. Building upon this result, we prove that uniform convergence of Archimax copulas is equivalent to uniform convergence of the corresponding transformed generators and Pickands dependence functions. Moreover, as for Archimedean and extreme-value copulas, uniform convergence in $\\mathcal{C}_{am}$ is equivalent to weak convergence of almost all conditional distributions. Exploiting these equivalences, we construct two nonparametric estimators for Archimax copulas (a Pickands and a CFG type estimator, both elements of $\\mathcal{C}_{am}$) and show that they are strongly consistent under mild regularity conditions. As a further consequence of the aforementioned weak conditional convergence, we obtain strongly consistent plug-in estimators for measures of directed dependence such as Chatterjee's $ξ$ and Trutschnig's $ζ_1$. A large-scale simulation study shows that the proposed CFG type estimator outperforms both the standard empirical copula estimator and the Pickands type estimator; an application to precipitation data from Bregenz and Dornbirn (Austria) illustrates the practical use of our estimators on real data.",
+ "primary": "math.ST"
+}

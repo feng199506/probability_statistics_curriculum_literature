@@ -1,0 +1,16 @@
+{
+ "id": "2503.11583",
+ "title": "A Unified Framework for Multiple-Try Metropolis: Construction and Empirical Benchmarks",
+ "authors": [
+  "Renny Doig",
+  "Liangliang Wang"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 2,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The multiple-try Metropolis (MTM) algorithm uses a compound proposal with multiple candidate draws to improve local sampling efficiency. While several methodological works have continued to develop MTM and the multi-candidate mechanism that characterizes it, the literature lacks a unified comparison of these components. This paper presents a structured formulation of MTM within the involutive MCMC framework, providing a principled approach for deriving valid acceptance probabilities based on the proposal mechanism. Through a comprehensive simulation experiment, we evaluate the impact of MTM configurations on non-Gaussian and multimodal target distributions. Our results reveal that while weight functions are a focus of several methodological developments, their impact on stationary sampling efficiency is secondary to the configuration of the proposal distribution. Furthermore, we find that while increasing the number of candidates enhances per-iteration efficiency, the realized performance gains are offset by computational overhead introduced by multiple candidacy unless parallelize computing is used. Our findings offer practical guidance for configuring an MTM algorithm for complex and non-Gaussian targets.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2610.32984",
+ "title": "OpenHamoye: A Multi-Scale Open Geospatial Intelligence Framework for Decision Support Across Nigeria",
+ "authors": [
+  "Richard Oduntan"
+ ],
+ "v1_date": "2026-08-15",
+ "latest_version": 1,
+ "latest_date": "2026-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Decision-making in urban planning, infrastructure prioritization and commercial strategy benefits from granular spatial information. In Nigeria, official statistics are often published at coarse scales and with temporal lag. We present OpenHamoye, an open geospatial intelligence framework that integrates nine public remote-sensing and crowd-sourced datasets into reproducible, multi-scale proxy indicators for development conditions across Nigeria. OpenHamoye organizes the country into kilometre-scale analytical cells within a six-tier hierarchy: country, state, LGA, metropolitan area, corridor and cell. The framework constructs six composite indices: market potential, growth index, development momentum, infrastructure stress, commercial readiness, and housing pressure. Inputs include WorldPop, VIIRS Black Marble, ESA WorldCover, Google Open Buildings, Copernicus vegetation indices, OpenStreetMap, Overture Maps, GRID3, and geoBoundaries. We report a multi-scale assessment covering 37 states, 774 LGAs, and 8 metropolitan areas, using GRID3 facility points (46,146 health facilities and 204,513 schools) and Google Open Buildings data (479,088 building-positive cells). Results show large within-state disparities in the night-time-light proxy: the coefficient of variation across LGAs exceeds 4.5 in Borno and 3.8 in Katsina. The framework also flags high-scoring candidate cells in metros such as Benin City. OpenHamoye outputs are proxy-based screening signals for planning, infrastructure prioritization, resilience screening, market intelligence, and service-access context; they do not measure census population, GDP, income, poverty, welfare, firm revenue, transaction volume, commercial demand, infrastructure capacity, facility access, service quality, investment return, or official planning designation. Derived tables, index definitions, and reproducibility materials are released through GitHub.",
+ "primary": "cs.CY"
+}

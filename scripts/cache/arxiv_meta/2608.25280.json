@@ -1,0 +1,18 @@
+{
+ "id": "2608.25280",
+ "title": "Empirical-Bayes Elastic-Net Computation for Exponential Random Graph Models",
+ "authors": [
+  "Dan Han",
+  "Vicki Modisette",
+  "Ting Li",
+  "Akidul Haque"
+ ],
+ "v1_date": "2026-08-26",
+ "latest_version": 1,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Exponential random graph models (ERGMs) describe dependence among network ties, but inference becomes difficult when the likelihood is intractable and candidate network statistics are strongly correlated. We introduce BERGM Elastic Net, an adaptive empirical-Bayes approach that combines lasso shrinkage with ridge stabilization in a Bayesian ERGM. A latent-variable formulation supports approximate exchange sampling, while empirical-Bayes updates adapt the amount of regularization to the observed network. We connect the proposed prior to elastic-net penalized likelihood and clarify the interpretation of thresholded reporting and coefficient grouping. The method is developed for over-specified network models containing many related structural and covariate effects.",
+ "primary": "stat.ME"
+}

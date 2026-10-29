@@ -1,0 +1,17 @@
+{
+ "id": "2501.16703",
+ "title": "Consistent support recovery for high-dimensional diffusions",
+ "authors": [
+  "Dmytro Marushkevych",
+  "Francisco Pina",
+  "Mark Podolskij"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 1,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Statistical inference for stochastic processes has advanced significantly due to applications in diverse fields, but challenges remain in high-dimensional settings where parameters are allowed to grow with the sample size. This paper analyzes a d-dimensional ergodic diffusion process under sparsity constraints, focusing on the adaptive Lasso estimator, which improves variable selection and bias over the standard Lasso. We derive conditions under which the adaptive Lasso achieves support recovery property and asymptotic normality for the drift parameter, with a focus on linear models. Explicit parameter relationships guide tuning for optimal performance, and a marginal estimator is proposed for p>>d scenarios under partial orthogonality assumption. Numerical studies confirm the adaptive Lasso's superiority over standard Lasso and MLE in accuracy and support recovery, providing robust solutions for high-dimensional stochastic processes.",
+ "primary": "math.ST"
+}

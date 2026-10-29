@@ -1,0 +1,17 @@
+{
+ "id": "2512.14337",
+ "title": "The Cost of Adaptation under Differential Privacy: Optimal Adaptive Federated Density Estimation",
+ "authors": [
+  "T. Tony Cai",
+  "Abhinav Chakraborty",
+  "Lasse Vuursteen"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main article is 24 pages, 1 figure, 26 page supplement",
+ "abstract": "Privacy-preserving data analysis has become a central challenge in modern statistics. At the same time, a long-standing goal in statistics is the development of adaptive procedures -- methods that achieve near-optimal performance across diverse function classes without prior knowledge of underlying smoothness or complexity. While adaptation is often achievable at no extra cost in the classical non-private setting, this naturally raises a fundamental question: to what extent is adaptation still possible under privacy constraints? We address this question in the context of density estimation under federated differential privacy (FDP), a framework that encompasses both central and local DP models. We establish sharp results that characterize the cost of adaptation under FDP for both global and pointwise estimation, revealing fundamental differences from the non-private case. We then propose an adaptive FDP estimator that achieves explicit performance guarantees by introducing a new noise mechanism, enabling one-shot adaptation via post-processing. This approach strictly improves upon existing adaptive DP methods. Finally, we develop new lower bound techniques that capture the limits of adaptive inference under privacy and may be of independent interest beyond this problem. Our findings reveal a sharp contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2610.14695",
+ "title": "The price of a weak shadow variable: inference under nonignorable missingness as relevance vanishes",
+ "authors": [
+  "Michael Bücker"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 2,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 2 figures. Replication package: https://doi.org/10.5281/zenodo.23262505. v2 consolidates the work into a single document at the moderators' request. v1 was the theoretical part only; v2 adds the diagnostics, an application to a published credit-scoring study, and an impossibility result for selective labeling. Parts are under review separately as two papers",
+ "abstract": "When an outcome is missing not at random, identification is commonly restored by a shadow variable: a covariate that predicts the outcome but is excluded from the response mechanism. The literature treats the first requirement, relevance, as a yes-or-no condition. We make it continuous, parametrizing it by a scalar that scales the shadow variable's entire contribution to the moment conditions, and ask what inference costs as that scalar vanishes. One functional of the inverse weight governs the answer. We characterize it exactly, show that it fixes the effective sample size, and use it to sharpen the rates of the estimator that avoids the weight. The characterization is concrete. Whether the functional saturates or diverges turns not on boundedness of the outcome but on whether the tilting variable has an atom at its essential supremum: a binary outcome saturates, a uniform one does not. It also bounds how far a scanned set reaches, and that reach grows only as the square root of the logarithm of the sample size, so a thousandfold increase buys one unit of tilt while the set to be scanned widens. A reanalyzed credit-scoring study shows the cost: a characteristic an optimizing selector uses cannot satisfy exclusion.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.06383",
+ "title": "Decomposition with Monotone B-splines: Fitting and Testing",
+ "authors": [
+  "Lijun Wang",
+  "Xiaodan Fan",
+  "Hongyu Zhao",
+  "Jun S. Liu"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 2,
+ "latest_date": "2024-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A univariate continuous function can always be decomposed as the sum of a non-increasing function and a non-decreasing one. Based on this property, we propose a non-parametric regression method that combines two spline-fitted monotone curves. We demonstrate by extensive simulations that, compared to standard spline-fitting methods, the proposed approach is particularly advantageous in high-noise scenarios. Several theoretical guarantees are established for the proposed approach. Additionally, we present statistics to test the monotonicity of a function based on monotone decomposition, which can better control Type I error and achieve comparable (if not always higher) power compared to existing methods. Finally, we apply the proposed fitting and testing approaches to analyze the single-cell pseudotime trajectory datasets, identifying significant biological insights for non-monotonically expressed genes through Gene Ontology enrichment analysis. The source code implementing the methodology and producing all results is accessible at https://github.com/szcf-weiya/MonotoneDecomposition.jl.",
+ "primary": "stat.ME"
+}

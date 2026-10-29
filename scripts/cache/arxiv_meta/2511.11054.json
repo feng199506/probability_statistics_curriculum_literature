@@ -1,0 +1,18 @@
+{
+ "id": "2511.11054",
+ "title": "Tuning free Catoni type joint robust estimation",
+ "authors": [
+  "Xiang Li",
+  "Jun S. Liu",
+  "Qiang Sun",
+  "Lihu Xu"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 2,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a Catoni-type joint (tuning-free) estimation framework for parametric models with heavy-tailed noise, in which the target parameter and the unknown noise variance are estimated simultaneously through a system of two coupled Catoni-type estimating equations. We instantiate the framework in three canonical settings: mean estimation, linear regression, and $\\ell_{2}$-penalized regression. Theoretically, we establish non-asymptotic, sub-Gaussian-type deviation bounds that hold jointly for the target parameter and the variance estimator, under only a finite $2β$-th moment assumption with $β\\in (1,2]$. The resulting rates match -- up to absolute constants -- those of oracle procedures that know the variance in advance, thereby attaining optimality in the heavy-tailed regime. Methodologically, because the coupled equations are intrinsically non-convex and non-linear, classical convex M-estimation arguments are inapplicable. We develop a new analytical toolkit based on the Poincare--Miranda theorem. The resulting proof strategy is of independent methodological interest, and we expect it to be applicable to a broad class of other statistical problems in which several parameters of heterogeneous nature must be estimated jointly.",
+ "primary": "math.ST"
+}

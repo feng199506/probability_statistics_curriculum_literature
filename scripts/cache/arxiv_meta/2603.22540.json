@@ -1,0 +1,19 @@
+{
+ "id": "2603.22540",
+ "title": "Variable Selection in Functional Linear Quantile Regression for Identifying Associations between Daily Patterns of Physical Activity and Cognitive Function",
+ "authors": [
+  "Yuanzhen Yue",
+  "Stella Self",
+  "Yichao Wu",
+  "Jiajia Zhang",
+  "Rahul Ghosal"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantile regression is useful for characterizing the conditional distribution of a response variable and understanding heterogeneity in the covariate effects at different quantiles. The rise of high-dimensional physiological data in biomedical research through wearable and sensor devices underscores the need for effective variable selection methods for interpretable and accurate quantile regression, which can offer robust insights into heterogeneous and dynamic covariate effects. We develop a flexible variable selection approach for functional linear quantile regression with multiple functional and scalar predictors. We use a smooth approximation of the quantile loss function and integrate functional principal component analysis (FPCA) with a group minimax concave penalty (MCP) to impose sparsity on the functional coefficients. A computationally efficient group descent algorithm is employed for optimization. Through numerical simulations, we demonstrate a satisfactory selection, estimation, and prediction accuracy of the proposed method across different quantiles for both dense and sparsely observed functional data. The proposed method is applied to accelerometer data from the 2011-2014 National Health and Nutrition Examination Survey (NHANES) to identify key time-varying distributional patterns of physical activity and demographic predictors associated with cognitive function across different quantiles. Our analysis provides new insights into the complex relationship between the daily distributional patterns of physical activity and cognitive function among older adults, capturing heterogeneous associations across different quantiles.",
+ "primary": "stat.ME"
+}

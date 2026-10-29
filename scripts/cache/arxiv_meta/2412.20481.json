@@ -1,0 +1,16 @@
+{
+ "id": "2412.20481",
+ "title": "EM algorithms for optimization problems with polynomial objectives",
+ "authors": [
+  "Kensuke Asai",
+  "Jun-ya Gotoh"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 2,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The EM (Expectation-Maximization) algorithm is regarded as an MM (Majorization-Minimization) algorithm for maximum likelihood estimation of statistical models. Expanding this view, this paper demonstrates that by choosing an appropriate probability distribution, even nonstatistical optimization problem can be cast as a negative log-likelihood-like minimization problem, which can be approached by an EM (or MM) algorithm. When a polynomial objective is optimized over a simple polyhedral feasible set and an exponential family distribution is employed, the EM algorithm can be reduced to a natural gradient descent of the employed distribution with a constant step size. This is demonstrated through three examples. In this paper, we demonstrate the global convergence of specific cases with some exponential family distributions in a general form. In instances when the feasible set is not sufficiently simple, the use of MM algorithms can nevertheless be adequately described. When the objective is to minimize a convex quadratic function and the constraints are polyhedral, global convergence can also be established based on the existing results for an entropy-like proximal point algorithm.",
+ "primary": "math.OC"
+}

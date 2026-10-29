@@ -1,0 +1,17 @@
+{
+ "id": "2605.19894",
+ "title": "Sharp Spectral Thresholds for Multi-View Spiked Wigner Models",
+ "authors": [
+  "Xiaodong Yang",
+  "Subhabrata Sen",
+  "Yue M. Lu"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 1,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "67 pages, 2 figures",
+ "abstract": "Motivated by multimodal estimation, we study a multi-view spiked Wigner model in which several noisy matrix observations contain correlated latent spikes. We derive a spectral estimator for the latent spikes by linearizing approximate message passing (AMP). Our main result is an explicit sharp transition formula for its spectrum: for $L \\geq 2$ views, letting $λ$ be the $L$-dimensional vector of spike strengths and $B$ the $L\\times L$ limiting Gram matrix of the spikes, the critical parameter is $\\mathsf{SNR}(λ,B)=λ_{\\max}[\\mathrm{Diag}(\\sqrtλ) (B \\odot B) \\mathrm{Diag}(\\sqrtλ)]$. When $\\mathsf{SNR}(λ,B)<1$, the linearized AMP matrix has no outlier beyond the right edge of its bulk spectrum. When $\\mathsf{SNR}(λ,B)>1$, an informative outlier is pinned at the distinguished point $1$, and the associated eigenvector has explicit, nontrivial overlaps with the latent signals. Thus $\\mathsf{SNR}(λ,B)=1$ gives the exact spectral weak-recovery threshold for the linearized AMP method. To establish our results, we analyze the correlated Gaussian noise matrix through a matrix Dyson equation and combine this deterministic description with finite-rank perturbation arguments adapted to the multi-view spike structure. We also show that, for a broad class of spike priors, the spectral threshold $\\mathsf{SNR}(λ,B)=1$ coincides with the information-theoretic threshold for weak recovery, ruling out a statistical-computational gap for this class of priors.",
+ "primary": "math.PR"
+}

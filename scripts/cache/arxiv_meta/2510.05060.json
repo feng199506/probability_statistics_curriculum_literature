@@ -1,0 +1,18 @@
+{
+ "id": "2510.05060",
+ "title": "ResCP: Reservoir Conformal Prediction for Time Series Forecasting",
+ "authors": [
+  "Roberto Neglia",
+  "Andrea Cini",
+  "Michael M. Bronstein",
+  "Filippo Maria Bianchi"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 3,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICLR 2026",
+ "abstract": "Conformal prediction offers a powerful framework for building distribution-free prediction intervals for exchangeable data. Existing methods that extend conformal prediction to sequential data rely on fitting a relatively complex model to capture temporal dependencies. However, these methods can fail if the sample size is small and often require expensive retraining when the underlying data distribution changes. To overcome these limitations, we propose Reservoir Conformal Prediction (ResCP), a novel training-free conformal prediction method for time series. Our approach leverages the efficiency and representation learning capabilities of reservoir computing to dynamically reweight conformity scores. In particular, we compute similarity scores among reservoir states and use them to adaptively reweight the observed residuals at each step. With this approach, ResCP enables us to account for local temporal dynamics when modeling the error distribution without compromising computational scalability. We prove that, under reasonable assumptions, ResCP achieves asymptotic conditional coverage, and we empirically demonstrate its effectiveness across diverse forecasting tasks.",
+ "primary": "cs.LG"
+}

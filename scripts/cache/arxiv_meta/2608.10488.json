@@ -1,0 +1,16 @@
+{
+ "id": "2608.10488",
+ "title": "Tensor-normal maximum likelihood estimation at the operator-norm sample threshold",
+ "authors": [
+  "Hengzhi He",
+  "Guang Cheng"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 2,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Work in Progress",
+ "abstract": "Let $X_1,\\ldots,X_n$ be independent Gaussian tensors in $\\mathbb{R}^{d_1}\\otimes\\cdots\\otimes\\mathbb{R}^{d_k}$ with a common covariance matrix given by the Kronecker product of $k$ unknown positive-definite factors, and let $D=\\prod_{a=1}^k d_a$ and $d_{\\max}=\\max_a d_a$. Franks et al. (2026) established condition-number-free guarantees for the tensor-normal maximum likelihood estimator under the sample-size condition $nD\\gtrsim k^2 d_{\\max}^3$ and asked whether the cubic dependence on $d_{\\max}$ could be reduced to a quadratic one. We answer this question affirmatively. For $t\\geq 1$, if $nD\\geq C k^2 d_{\\max}^2 t^2$, then with high probability the maximum likelihood estimator exists, is unique, and satisfies $d_{\\rm FR}(\\widehatΘ,Θ)\\leq C t \\sqrt{k} d_{\\max}/\\sqrt{n}$ and $d_{\\rm FR}(\\widehatΘ_a,Θ_a)\\leq C t\\sqrt{k d_a} d_{\\max}/\\sqrt{nD}$ for every mode $a$. For every mode $a$ with $d_a=d_{\\max}$, we further establish the sharp Thompson-metric bound $d_{\\rm op}(\\widehatΘ_a,Θ_a)\\leq C t d_{\\max}/\\sqrt{nD}$. These guarantees are uniform over the unknown covariance factors and require neither condition-number bounds nor sparsity assumptions. Gaussian submodel lower bounds match the full and largest-factor Fisher--Rao rates up to a factor of $\\sqrt{k}$ and the largest-factor Thompson rate up to universal constants. Consequently, for fixed $k$, the quadratic dependence of the sample-size threshold on $d_{\\max}$ is optimal. GPT-5.6 Sol and Claude Fable 5 were used to assist with proof development, verification, and manuscript preparation.",
+ "primary": "math.ST"
+}

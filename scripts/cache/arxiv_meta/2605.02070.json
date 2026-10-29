@@ -1,0 +1,16 @@
+{
+ "id": "2605.02070",
+ "title": "Sharp regret-Hellinger bounds for Gaussian empirical Bayes via polynomial approximation",
+ "authors": [
+  "Jiafeng Chen",
+  "Yihong Wu"
+ ],
+ "v1_date": "2026-05-03",
+ "latest_version": 2,
+ "latest_date": "2026-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "New results on optimal density estimation of Gaussian mixtures in Hellinger distance (Appendix E) and optimal regret (Corollary 5)",
+ "abstract": "A central problem in the theory of empirical Bayes is to control the regret (excess risk) of a learned Bayes rule by the Hellinger distance between the estimated and true marginal densities. In the normal means model, the classical result of Jiang and Zhang (2009) achieves this only after regularizing the Bayes rule and incurs an extraneous cubic logarithmic factor through a delicate recursive argument. This paper introduces a new technique, based on polynomial approximation and Bernstein-type inequalities for weighted $L_2$ norms, that bounds the unregularized regret directly. The method is conceptually simpler and yields sharper, sometimes optimal, regret bounds. For compactly supported priors, we prove the sharp bound that the regret is $O(ε^2 \\frac{\\log(1/ε)}{\\log\\log(1/ε)})$, where $ε$ is the Hellinger distance between the marginal densities. The same method also extends to priors with exponential tails. Conversely, we show that regularization is genuinely necessary for heavy-tailed priors under only bounded moment assumptions. As statistical consequences, we obtain improved regret bounds for the nonparametric maximum likelihood estimator (NPMLE). Notably, for compactly supported priors, by determining the optimal Hellinger rate of mixture density estimation, we show that the optimal regret for sample size $n$ scales as $Θ(\\frac{1}{n}(\\frac{\\log n}{\\log\\log n})^2)$, attained by the NPMLE within a $\\log\\log n$ factor.",
+ "primary": "math.ST"
+}

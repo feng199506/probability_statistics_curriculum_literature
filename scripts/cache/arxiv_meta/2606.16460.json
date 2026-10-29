@@ -1,0 +1,17 @@
+{
+ "id": "2606.16460",
+ "title": "Module-structured mixture factor models for molecular subtype discovery in transcriptomic data",
+ "authors": [
+  "Jinran Wu",
+  "Geoffrey J. McLachlan",
+  "Saumyadipta Pyne"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 3,
+ "latest_date": "2026-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 2 figures",
+ "abstract": "High-throughput gene expression data exhibit high dimensionality, complex intergene dependence, and pronounced biological heterogeneity across samples, presenting major challenges for unsupervised clustering and disease subtype discovery. We introduce a module-structured mixture factor model that combines finite mixture modeling with low-rank latent factor representations defined at the gene-module level. By explicitly modeling gene modules in both the mean and covariance structure, the proposed framework decomposes expression variability into global gene-specific effects, cluster-specific module-level shifts, latent dependence within modules, and gene-specific residual noise. An Expectation--Conditional Maximization algorithm is applied for parameter estimation, allowing stable and scalable inference in high-dimensional transcriptomic settings. This framework enables interpretable unsupervised identification of disease-associated molecular subtypes and phenotypic heterogeneity across two autoimmune diseases using a large clinical transcriptomic dataset.",
+ "primary": "stat.AP"
+}

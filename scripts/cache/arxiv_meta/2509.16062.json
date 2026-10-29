@@ -1,0 +1,18 @@
+{
+ "id": "2509.16062",
+ "title": "Transient regime of piecewise deterministic Monte Carlo algorithms",
+ "authors": [
+  "Sanket Agrawal",
+  "Joris Bierkens",
+  "Kengo Kamatani",
+  "Gareth O. Roberts"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 6 figures",
+ "abstract": "Piecewise Deterministic Markov Processes (PDMPs) such as the Bouncy Particle Sampler and the Zig-Zag Sampler, have gained attention as continuous-time counterparts of classical Markov chain Monte Carlo. We study their transient regime under convex potentials, namely how trajectories that start in low-probability regions move toward higher-probability sets. Using fluid-limit arguments with a decomposition of the generator into fast and slow parts, we obtain deterministic ordinary differential equation descriptions of early-stage behaviour. The fast dynamics alone are non-ergodic because once the event rate reaches zero it does not restart. The slow component reactivates the dynamics, so averaging remains valid when taken over short micro-cycles rather than with respect to an invariant law. Using the expected number of jump events as a cost proxy for gradient evaluations, we find that for Gaussian targets the transient cost of PDMP methods is comparable to that of random-walk Metropolis. For convex heavy-tailed families with subquadratic growth, PDMP methods can be more efficient when event simulation is implemented well. Forward Event-Chain and Coordinate Samplers can, under the same assumptions, reach the typical set with an order-one expected number of jumps. For the Zig-Zag Sampler we show that, under a diagonal-dominance condition, the transient choice of direction coincides with the solution of a box-constrained quadratic program; outside that regime we give a formal derivation and a piecewise-smooth update rule that clarifies the roles of the gradient and the Hessian. These results provide theoretical insight and practical guidance for the use of PDMP samplers in large-scale inference.",
+ "primary": "stat.CO"
+}

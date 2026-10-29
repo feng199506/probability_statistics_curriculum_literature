@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "cases",
+ "title": "NHANES Tutorials（美国国家健康与营养调查官方分析教程）",
+ "files": [
+  {
+   "path": "practice/cases/CDC_NHANES_Tutorials_SurveyAnalysis_html_en",
+   "url": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/default.aspx",
+   "html_pages": 17,
+   "files": 56,
+   "bytes": 8165609
+  }
+ ],
+ "note": "官方 HTML，17 个页面全部 HTTP 200 且正文 ≥ 10000 字符；wget 离线保存（页面资源、链接改写），共 56 个文件；页面清单 PAGES_en.txt"
+}

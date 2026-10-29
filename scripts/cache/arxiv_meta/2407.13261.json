@@ -1,0 +1,16 @@
+{
+ "id": "2407.13261",
+ "title": "Enhanced inference for distributions and quantiles of individual treatment effects in various experiments",
+ "authors": [
+  "Zhe Chen",
+  "Xinran Li"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2026-03-28",
+ "journal_ref": "Journal of the American Statistical Association, 2026",
+ "doi": "10.1080/01621459.2026.2615997",
+ "comment": "",
+ "abstract": "Understanding treatment effect heterogeneity has become increasingly important in many fields. In this paper we study distributions and quantiles of individual treatment effects to provide a more comprehensive and robust understanding of treatment effects beyond usual averages, despite they are more challenging to infer due to nonidentifiability from observed data. Recent randomization-based approaches offer finite-sample valid inference for treatment effect distributions and quantiles in both completely randomized and stratified randomized experiments, but can be overly conservative by assuming the worst-case scenario where units with large effects are all assigned to the treated (or control) group. We introduce two improved methods to enhance the power of these existing approaches. The first method reinterprets existing approaches as inferring treatment effects among only treated or control units, and then combines the inference for treated and control units to infer treatment effects for all units. The second method explicitly controls for the actual number of treated units with large effects. Both simulation and applications demonstrate the substantial gain from the improved methods. These methods are further extended to sampling-based experiments as well as quasi-experiments from matching, in which the ideas for both improved methods play critical and complementary roles.",
+ "primary": "stat.ME"
+}

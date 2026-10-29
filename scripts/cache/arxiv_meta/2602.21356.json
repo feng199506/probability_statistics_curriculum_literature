@@ -1,0 +1,19 @@
+{
+ "id": "2602.21356",
+ "title": "Adaptive Importance Tempering: A flexible approach to improve computational efficiency of Metropolis Coupled Markov Chain Monte Carlo algorithms on binary spaces",
+ "authors": [
+  "Alexander Valencia-Sanchez",
+  "Jeffrey S. Rosenthal",
+  "Yasuhiro Watanabe",
+  "Hirotaka Tamura",
+  "Ali Sheikholeslami"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 8 figures",
+ "abstract": "Based on the algorithm Informed Importance Tempering (IIT) proposed by Li et al. (2023) we propose an algorithm that uses an adaptive bounded balancing function. We argue why implementing parallel tempering where each replica uses a rejection free MCMC algorithm can be inefficient in high dimensional spaces and show how the proposed adaptive algorithm can overcome these computational inefficiencies. We present two equivalent versions of the adaptive algorithm (A-IIT and SS-IIT) and establish that both have the same limiting distribution, making either suitable for use within a parallel tempering framework. To evaluate performance, we benchmark the adaptive algorithm against several MCMC methods: IIT, Rejection free Metropolis-Hastings (RF-MH) and RF-MH using a multiplicity list. Simulation results demonstrate that Adaptive IIT identifies high-probability states more efficiently than these competing algorithms in high-dimensional binary spaces with multiple modes.",
+ "primary": "stat.CO"
+}

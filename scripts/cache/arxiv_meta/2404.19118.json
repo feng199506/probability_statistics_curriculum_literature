@@ -1,0 +1,18 @@
+{
+ "id": "2404.19118",
+ "title": "Identification and estimation of causal effects using non-concurrent controls in platform trials",
+ "authors": [
+  "Michele Santacatterina",
+  "Federico Macchiavelli Giron",
+  "Xinyi Zhang",
+  "Ivan Diaz"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 3,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Platform trials are multi-arm designs that simultaneously evaluate multiple treatments for a single disease within the same overall trial structure. Unlike traditional randomized controlled trials, they allow treatment arms to enter and exit the trial at distinct times while maintaining a control arm throughout. This control arm comprises both concurrent controls, where participants are randomized concurrently to either the treatment or control arm, and non-concurrent controls, who enter the trial when the treatment arm under study is unavailable. While flexible, platform trials introduce the challenge of using non-concurrent controls, raising questions about estimating treatment effects. Specifically, which estimands should be targeted? Under what assumptions can these estimands be identified and estimated? Are there any efficiency gains? In this paper, we discuss issues related to the identification and estimation assumptions of common choices of estimand. We conclude that the most robust strategy to increase efficiency without imposing unwarranted assumptions is to target the concurrent average treatment effect (cATE), the ATE among only concurrent units, using a covariate-adjusted doubly robust estimator. Our studies suggest that, for the purpose of obtaining efficiency gains, collecting important prognostic variables is more important than relying on non-concurrent controls. We also discuss the perils of targeting ATE due to an untestable extrapolation assumption that will often be invalid. We provide simulations illustrating our points and an application to the ACTT platform trial, resulting in a 20% improvement in precision compared to the naive estimator that ignores non-concurrent controls and prognostic variables.",
+ "primary": "stat.ME"
+}

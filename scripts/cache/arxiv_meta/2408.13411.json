@@ -1,0 +1,16 @@
+{
+ "id": "2408.13411",
+ "title": "Estimating the Effective Sample Size for an inverse problem in subsurface flows",
+ "authors": [
+  "Lucas Seiffert",
+  "Felipe Pereira"
+ ],
+ "v1_date": "2024-08-24",
+ "latest_version": 1,
+ "latest_date": "2024-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Effective Sample Size (ESS) and Integrated Autocorrelation Time (IACT) are two popular criteria for comparing Markov Chain Monte Carlo (MCMC) algorithms and detecting their convergence. Our goal is to assess those two quantities in the context of an inverse problem in subsurface flows. We begin by presenting a review of some popular methods for their estimation, and then simulate their sample distributions on AR(1) sequences for which the exact values were known. We find that those ESS estimators may not be statistically consistent, because their variance grows linearly in the number of sample values of the MCMC. Next, we analyze the output of two distinct MCMC algorithms for the Bayesian approach to the simulation of an elliptic inverse problem. Here, the estimators cannot even agree about the order of magnitude of the ESS. Our conclusion is that the ESS has major limitations and should not be used on MCMC outputs of complex models.",
+ "primary": "stat.ME"
+}

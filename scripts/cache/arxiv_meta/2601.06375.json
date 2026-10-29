@@ -1,0 +1,16 @@
+{
+ "id": "2601.06375",
+ "title": "Efficient Data Reduction Via PCA-Guided Quantile Based Sampling",
+ "authors": [
+  "Foo Hui-Mean",
+  "Yuan-chin Ivan Chang"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 1,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34",
+ "abstract": "In large-scale statistical modeling, reducing data size through subsampling is essential for balancing computational efficiency and statistical accuracy. We propose a new method, Principal Component Analysis guided Quantile Sampling (PCA-QS), which projects data onto principal components and applies quantile-based sampling to retain representative and diverse subsets. Compared with uniform random sampling, leverage score sampling, and coreset methods, PCA-QS consistently achieves lower mean squared error and better preservation of key data characteristics, while also being computationally efficient. This approach is adaptable to a variety of data scenarios and shows strong potential for broad applications in statistical computing.",
+ "primary": "stat.CO"
+}

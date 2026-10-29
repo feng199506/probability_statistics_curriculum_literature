@@ -1,0 +1,20 @@
+{
+ "id": "2408.17278",
+ "title": "Incorporating Memory into Continuous-Time Spatial Capture-Recapture Models",
+ "authors": [
+  "Clara Panchaud",
+  "Ruth King",
+  "David Borchers",
+  "Hannah Worthington",
+  "Ian Durbach",
+  "Paul Van Dam-Bates"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 2,
+ "latest_date": "2025-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 4 figures",
+ "abstract": "Obtaining reliable and precise estimates of wildlife species abundance and distribution is essential for the conservation and management of animal populations and natural reserves. Spatial capture-recapture (SCR) models provide estimates of population size and spatial density from data collected from remote sensors such as camera traps. Such data contain spatial correlation between observations of the same individual, which SCR models partly account for through a latent individual-specific activity centre, a location near which the individual is more likely detected. However, SCR models assume that the observations of an individual are independent over time and space, conditional on its activity centre, so that observed sightings at a given time and location do not influence the probability of being seen at future times and/or locations. This assumption is ecologically unrealistic given the smooth movement of animals over space through time. We propose a new continuous-time modelling framework that incorporates both an individual's (latent) activity centre and its (known) previous location and time of detection. By formulating the detections of an individual as an inhomogeneous temporal Poisson process, we develop a model drawing inspiration from the Ornstein-Uhlenbeck process, which is commonly used to model animal movement. Applying our model to a camera-trap survey of American martens, we observe a substantial improvement in model fit and notable differences in the estimated spatial distribution of activity centres. A simulation study shows that standard SCR models can produce substantially biased population estimates when spatio-temporal dependence is ignored, while the memory-based model remains robust. These findings highlight the importance of accounting for memory of previous detections in SCR models to improve ecological interpretation and inference.",
+ "primary": "stat.ME"
+}

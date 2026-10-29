@@ -1,0 +1,17 @@
+{
+ "id": "2403.06246",
+ "title": "Estimating Factor-Based Spot Volatility Matrices with Noisy and Asynchronous High-Frequency Data",
+ "authors": [
+  "Degui Li",
+  "Oliver Linton",
+  "Haoxuan Zhang"
+ ],
+ "v1_date": "2024-03-10",
+ "latest_version": 1,
+ "latest_date": "2024-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new estimator of high-dimensional spot volatility matrices satisfying a low-rank plus sparse structure from noisy and asynchronous high-frequency data collected for an ultra-large number of assets. The noise processes are allowed to be temporally correlated, heteroskedastic, asymptotically vanishing and dependent on the efficient prices. We define a kernel-weighted pre-averaging method to jointly tackle the microstructure noise and asynchronicity issues, and we obtain uniformly consistent estimates for latent prices. We impose a continuous-time factor model with time-varying factor loadings on the price processes, and estimate the common factors and loadings via a local principal component analysis. Assuming a uniform sparsity condition on the idiosyncratic volatility structure, we combine the POET and kernel-smoothing techniques to estimate the spot volatility matrices for both the latent prices and idiosyncratic errors. Under some mild restrictions, the estimated spot volatility matrices are shown to be uniformly consistent under various matrix norms. We provide Monte-Carlo simulation and empirical studies to examine the numerical performance of the developed estimation methodology.",
+ "primary": "econ.EM"
+}

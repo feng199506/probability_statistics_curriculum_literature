@@ -1,0 +1,17 @@
+{
+ "id": "2409.11385",
+ "title": "Probability-scale residuals for event-time data",
+ "authors": [
+  "Eric S. Kawaguchi",
+  "Bryan E. Shepherd",
+  "Chun Li"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 2,
+ "latest_date": "2024-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The probability-scale residual (PSR) is defined as $E\\{sign(y, Y^*)\\}$, where $y$ is the observed outcome and $Y^*$ is a random variable from the fitted distribution. The PSR is particularly useful for ordinal and censored outcomes for which fitted values are not available without additional assumptions. Previous work has defined the PSR for continuous, binary, ordinal, right-censored, and current status outcomes; however, development of the PSR has not yet been considered for data subject to general interval censoring. We develop extensions of the PSR, first to mixed-case interval-censored data, and then to data subject to several types of common censoring schemes. We derive the statistical properties of the PSR and show that our more general PSR encompasses several previously defined PSR for continuous and censored outcomes as special cases. The performance of the residual is illustrated in real data from the Caribbean, Central, and South American Network for HIV Epidemiology.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2606.01428",
+ "title": "Quantifying Evidential Rigor in Meta-Analytic Corpora: A Simulation-Characterized, Bias-Robust Bayesian Workflow with a Nutrition Case Study",
+ "authors": [
+  "Matt Hester"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages, 13 figures; supplementary material included as ancillary file; companion repository archived at Zenodo, DOI: 10.5281/zenodo.20467258",
+ "abstract": "Conventional meta-analysis summarizes evidence through pooled estimates, intervals, and p-values, but these outputs do not directly measure evidence for an effect, evidence for no effect, or the degree to which conclusions depend on publication selection or small-study effects. We introduce a corpus-scale Bayesian evidential-audit workflow for meta-analytic corpora. The workflow reconstructs or accepts study-level effects and standard errors, harmonizes directions, fits a matched Bayesian random-effects baseline and a bias-aware model-averaged ensemble, and reports paired estimates with component and joint model-family evidence. The central estimand is rigor: a joint Bayes-factor summary combining resolved effect/no-effect evidence with absence of an explicit bias component in the fitted ensemble. Rigor is not a positive-finding score; no-effect evidence can score highly, whereas inconclusive or bias-dependent evidence scores poorly. We characterize the workflow using an ADEMP-framed simulation/resampling design with known-cell synthetic simulation, empirical registry resampling, and empirical fitted-profile-weighted synthetic sampling. A nutrition intervention corpus provides the worked case study, where bias-aware fitting often attenuates conventional estimates and many nominally meaningful effects lose clean evidential support. A public companion repository provides empirical inputs, generated artifacts, simulation source/design files, and documentation for reproducing and adapting the audit.",
+ "primary": "stat.ME"
+}

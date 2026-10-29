@@ -1,0 +1,16 @@
+{
+ "id": "2603.00347",
+ "title": "Synthetic Priors",
+ "authors": [
+  "Nick Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference in generalized linear models requires a prior on the coefficient vector $β$. Practitioners naturally reason about response probabilities at specific covariate values, not about abstract log-odds parameters. We develop synthetic priors: informative Bayesian priors for GLMs grounded in Good's device of imaginary observations -- the principle that every conjugate prior is equivalent to a likelihood on pseudo-data from the same exponential family. The conditional means prior of Bedrick (1996) elicits independent Beta priors on the conditional mean response at $p$ expert-chosen design points; the induced prior on $β$ is a product of binomial likelihoods at synthetic data points. Combined with Pólya-Gamma data augmentation \\citep{polson2013}, the posterior admits an exact conjugate Gibbs sampler -- no tuning, no Metropolis step -- by treating the augmented dataset as a standard logistic regression. We show that ridge regression and catalytic priors \\citep{huang2020} are instances of Good's device, and identify prediction-powered inference \\citep{angelopoulos2023ppi} as a structural analogue in the frequentist setting -- all three mediate a variance-bias tradeoff through a single informativeness parameter. We illustrate the approach on two benchmark problems: the Challenger O-ring data \\citep{dalal1989}, where the BCJ prior provides a more moderate posterior predictive at the 31°F launch temperature; and a Phase~II atopic dermatitis dose-finding trial ($n = 300$), where the synthetic prior narrows 95\\% credible intervals by 3-6\\% and raises decision probabilities by up to 2 percentage points relative to a flat prior.",
+ "primary": "stat.ME"
+}

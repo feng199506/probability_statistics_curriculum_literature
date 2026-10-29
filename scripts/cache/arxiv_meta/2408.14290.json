@@ -1,0 +1,16 @@
+{
+ "id": "2408.14290",
+ "title": "Universality of the mean-field equations of networks of Hopfield-like neurons",
+ "authors": [
+  "Olivier Faugeras",
+  "Etienne Tanré"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 2,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "10.1007/s00285-025-02271-4",
+ "comment": "",
+ "abstract": "We revisit the problem of characterising the mean-field limit of a network of Hopfield-like neurons. Building on the previous works of Ben Arous and Guionnet we establish for a large class of networks of Hopfield-like neurons, i.e. rate neurons, the mean-field equations on a time interval $[0,\\,T]$, $T>0$, of the thermodynamic limit of these networks, i.e. the limit when the number of neurons goes to infinity. Here, we do not assume that the synaptic weights describing the connections between the neurons are i.i.d. as zero-mean Gaussians. The limit equations are stochastic and very simply described in terms of two functions, a ``correlation'' function noted $K_Q(t,\\,s)$ and a ``mean'' function noted $m_Q(t)$. The ``noise'' part of the equations is a linear function of the Brownian motion, which is obtained by solving a Volterra equation of the second kind whose resolving kernel is expressed as a function of $K_Q$. We give a constructive proof of the uniqueness of the limit equations. We use the corresponding algorithm for an effective computation of the functions $K_Q$ and $m_Q$, given the weights distribution. Several numerical experiments are reported.",
+ "primary": "math.PR"
+}

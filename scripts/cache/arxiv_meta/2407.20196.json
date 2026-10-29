@@ -1,0 +1,17 @@
+{
+ "id": "2407.20196",
+ "title": "The generator gradient estimator is an adjoint state method for stochastic differential equations",
+ "authors": [
+  "Quentin Badolle",
+  "Ankit Gupta",
+  "Mustafa Khammash"
+ ],
+ "v1_date": "2024-07-29",
+ "latest_version": 1,
+ "latest_date": "2024-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the increasing popularity of overparameterized Stochastic Differential Equations (SDEs) like Neural SDEs, Wang, Blanchet and Glynn recently introduced the generator gradient estimator, a novel unbiased stochastic gradient estimator for SDEs whose computation time remains stable in the number of parameters. In this note, we demonstrate that this estimator is in fact an adjoint state method, an approach which is known to scale with the number of states and not the number of parameters in the case of Ordinary Differential Equations (ODEs). In addition, we show that the generator gradient estimator is a close analogue to the exact Integral Path Algorithm (eIPA) estimator which was introduced by Gupta, Rathinam and Khammash for a class of Continuous-Time Markov Chains (CTMCs) known as stochastic chemical reactions networks (CRNs).",
+ "primary": "math.OC"
+}

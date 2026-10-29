@@ -1,0 +1,15 @@
+{
+ "id": "2509.07112",
+ "title": "Self-Normalization for CUSUM-based Change Detection in Locally Stationary Time Series",
+ "authors": [
+  "Florian Heinrichs"
+ ],
+ "v1_date": "2025-09-08",
+ "latest_version": 3,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Keywords: Change point analysis, gradual changes, local stationarity, self-normalization, CUSUM test",
+ "abstract": "A new bivariate partial sum process for locally stationary time series is introduced and its weak convergence to a Brownian sheet is established. This construction enables the development of a novel self-normalized CUSUM test statistic for detecting changes in the mean of a locally stationary time series. For stationary data, self-normalization relies on the factorization of a constant long-run variance and a stochastic factor. In this case, the CUSUM statistic can be divided by another statistic proportional to the long-run variance, so that the latter cancels, avoiding estimation of the long-run variance. Under local stationarity, the partial sum process converges to $\\int_0^t σ(x) d B_x$ and no such factorization is possible. To overcome this obstacle, a bivariate partial-sum process is introduced, allowing the construction of self-normalized test statistics under local stationarity. Weak convergence of the process is proven, and it is shown that the resulting self-normalized tests attain asymptotic level $α$ under the null hypothesis of no change, while being consistent against abrupt, gradual, and multiple changes under mild assumptions. Simulation studies show that the proposed tests have accurate size and substantially improved finite-sample power relative to existing approaches. Two data examples illustrate practical performance.",
+ "primary": "math.ST"
+}

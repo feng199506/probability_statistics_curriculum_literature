@@ -1,0 +1,17 @@
+{
+ "id": "2405.11923",
+ "title": "Rate Optimality and Phase Transition for User-Level Local Differential Privacy",
+ "authors": [
+  "Alexander Kent",
+  "Thomas B. Berrett",
+  "Yi Yu"
+ ],
+ "v1_date": "2024-05-20",
+ "latest_version": 3,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "98 pages, 12 figures, 6 tables",
+ "abstract": "Most of the literature on differential privacy considers the item-level case where each user has a single observation, but a growing field of interest is that of user-level privacy where each of the $n$ users holds $T$ observations and wishes to maintain the privacy of their entire collection. In this paper, we derive a general minimax lower bound, which shows that, for locally private user-level estimation problems, the risk cannot, in general, be made to vanish for a fixed number of users even when each user holds an arbitrarily large number of observations. We then derive matching, up to logarithmic factors, lower and upper bounds for univariate and multidimensional mean estimation, sparse mean estimation and non-parametric density estimation. In particular, with other model parameters held fixed, we observe phase transition phenomena in the minimax rates as $T$ the number of observations each user holds varies. In the case of (non-sparse) mean estimation and density estimation, we see that, for $T$ below a phase transition boundary, the rate is the same as having $nT$ users in the item-level setting. Different behaviour is however observed in the case of $s$-sparse $d$-dimensional mean estimation, wherein consistent estimation is impossible when $d$ exceeds the number of observations in the item-level setting, but is possible in the user-level setting when $T \\gtrsim s \\log (d)$, up to logarithmic factors. This may be of independent interest for applications as an example of a high-dimensional problem that is feasible under local privacy constraints.",
+ "primary": "math.ST"
+}

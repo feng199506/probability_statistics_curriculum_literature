@@ -1,0 +1,16 @@
+{
+ "id": "2402.13933",
+ "title": "Powerful Large-scale Inference in High Dimensional Mediation Analysis",
+ "authors": [
+  "Asmita Roy",
+  "Xianyang Zhang"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 4,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In genome-wide epigenetic studies, exposures (e.g., Single Nucleotide Polymorphisms) affect outcomes (e.g., gene expression) through intermediate variables such as DNA methylation. Mediation analysis offers a way to study these intermediate variables and identify the presence or absence of causal mediation effects. Testing for mediation effects lead to a composite null hypothesis. Existing methods like the Sobel's test or the Max-P test are often underpowered because 1) statistical inference is often conducted based on distributions determined under a subset of the null and 2) they are not designed to shoulder the multiple testing burden. To tackle these issues, we introduce a technique called MLFDR (Mediation Analysis using Local False Discovery Rates) for high dimensional mediation analysis, which uses the local False Discovery Rates based on the coefficients of the structural equation model specifying the mediation relationship to construct a rejection region. We have shown theoretically as well as through simulation studies that in the high-dimensional setting, the new method of identifying the mediating variables controls the FDR asymptotically and performs better with respect to power than several existing methods such as DACT (Liu et al.)and JS-mixture (Dai et al).",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2504.08301",
+ "title": "Enhanced Marginal Sensitivity Model and Bounds",
+ "authors": [
+  "Yi Zhang",
+  "Wenfu Xu",
+  "Zhiqiang Tan"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 1,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sensitivity analysis is important to assess the impact of unmeasured confounding in causal inference from observational studies. The marginal sensitivity model (MSM) provides a useful approach in quantifying the influence of unmeasured confounders on treatment assignment and leading to tractable sharp bounds of common causal parameters. In this paper, to tighten MSM sharp bounds, we propose the enhanced MSM (eMSM) by incorporating another sensitivity constraint that quantifies the influence of unmeasured confounders on outcomes. We derive sharp population bounds of expected potential outcomes under eMSM, which are always narrower than the MSM sharp bounds in a simple and interpretable way. We further discuss desirable specifications of sensitivity parameters related to the outcome sensitivity constraint, and obtain both doubly robust point estimation and confidence intervals for the eMSM population bounds. The effectiveness of eMSM is also demonstrated numerically through two real-data applications. Our development represents, for the first time, a satisfactory extension of MSM to exploit both treatment and outcome sensitivity constraints on unmeasured confounding.",
+ "primary": "stat.ME"
+}

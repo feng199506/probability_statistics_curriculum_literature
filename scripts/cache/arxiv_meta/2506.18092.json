@@ -1,0 +1,17 @@
+{
+ "id": "2506.18092",
+ "title": "GRASP: Grouped Regression with Adaptive Shrinkage Priors",
+ "authors": [
+  "Shu Yu Tew",
+  "Daniel F. Schmidt",
+  "Mario Boley"
+ ],
+ "v1_date": "2025-06-22",
+ "latest_version": 1,
+ "latest_date": "2025-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce GRASP, a simple Bayesian framework for regression with grouped predictors, built on the normal beta prime (NBP) prior. The NBP prior is an adaptive generalization of the horseshoe prior with tunable hyperparameters that control tail behavior, enabling a flexible range of sparsity, from strong shrinkage to ridge-like regularization. Unlike prior work that introduced the group inverse-gamma gamma (GIGG) prior by decomposing the NBP prior into structured hierarchies, we show that directly controlling the tails is sufficient without requiring complex hierarchical constructions. Extending the non-tail adaptive grouped half-Cauchy hierarchy of Xu et al., GRASP assigns the NBP prior to both local and group shrinkage parameters allowing adaptive sparsity within and across groups. A key contribution of this work is a novel framework to explicitly quantify correlations among shrinkage parameters within a group, providing deeper insights into grouped shrinkage behavior. We also introduce an efficient Metropolis-Hastings sampler for hyperparameter estimation. Empirical results on simulated and real-world data demonstrate the robustness and versatility of GRASP across grouped regression problems with varying sparsity and signal-to-noise ratios.",
+ "primary": "stat.ME"
+}

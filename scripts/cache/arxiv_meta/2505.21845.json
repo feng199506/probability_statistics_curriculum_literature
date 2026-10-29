@@ -1,0 +1,18 @@
+{
+ "id": "2505.21845",
+ "title": "Spectral clustering for dependent community Hawkes process models of temporal networks",
+ "authors": [
+  "Lingfei Zhao",
+  "Hadeel Soliman",
+  "Kevin S. Xu",
+  "Subhadeep Paul"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Temporal networks observed continuously over time through timestamped relational events data are commonly encountered in application settings including online social media communications, financial transactions, and international relations. Temporal networks often exhibit community structure and strong dependence patterns among node pairs. This dependence can be modeled through mutual excitations, where an interaction event from a sender to a receiver node increases the possibility of future events among other node pairs. We provide statistical results for a class of models that we call dependent community Hawkes (DCH) models, which combine the stochastic block model with mutually exciting Hawkes processes for modeling both community structure and dependence among node pairs, respectively. We derive a non-asymptotic upper bound on the misclustering error of spectral clustering on the event count matrix as a function of the number of nodes and communities, time duration, and the amount of dependence in the model. Our result leverages recent results on bounding an appropriate distance between a multivariate Hawkes process count vector and a Gaussian vector, along with results from random matrix theory. We also propose a DCH model that incorporates only self and reciprocal excitation along with highly scalable parameter estimation using a Generalized Method of Moments (GMM) estimator that we demonstrate to be consistent for growing network size and time duration.",
+ "primary": "stat.ML"
+}

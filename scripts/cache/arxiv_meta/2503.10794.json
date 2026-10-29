@@ -1,0 +1,17 @@
+{
+ "id": "2503.10794",
+ "title": "Minimaxity and Efficiency in Exponential Family Regression: From Star-Shaped to Convex Constraints",
+ "authors": [
+  "Yikun Li",
+  "Guanghong Yi",
+  "Matey Neykov"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 2,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 1 figure",
+ "abstract": "This paper establishes the minimax estimation rate for nonparametric exponential family regression under star-shaped constraints. We consider a parameter space $K$ that is a star-shaped subset of the hypercube $[-M, M]^n$ for a known constant $M > 0$. We operate under the assumption that the underlying exponential family is nonsingular with a twice continuously differentiable log-partition function. Our main result demonstrates that the minimax rate of the $\\ell _{2}$ error of such estimation problem is $ε^{*2} \\wedge \\operatorname{diam}(K)^2$ up to constants exclusively depending on $M$. Here, the critical radius $ε^*$ is defined as \\begin{equation*} ε^* = \\sup \\{ε\\left\\lvert\\right. ε^2 κ(M) \\le \\log N^{\\text{loc}}(ε,c)\\}, \\end{equation*} where $N^{\\text{loc}}(ε,c)$ denotes the local metric entropy of $K$, and $κ(M) > 0, c>0$ are constants depending only on $M$. Such minimax rate is established by a match between an information-theoretic lower bound and an upper bound implied by a theoretical algorithm. Furthermore, we investigate the computational aspects of this estimation problem. Under mildly stronger assumptions on the constraint set $K$, we propose a computationally efficient, polynomial-time algorithm. We prove that the resulting estimator achieves the minimax optimal rate up to poly-logarithmic factors in the dimension $n$ and the geometric parameters of $K$. Finally, to illustrate the efficacy of our framework, we derive the minimax optimal rates for some concrete examples.",
+ "primary": "math.ST"
+}

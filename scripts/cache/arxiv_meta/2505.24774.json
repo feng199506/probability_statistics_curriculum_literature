@@ -1,0 +1,18 @@
+{
+ "id": "2505.24774",
+ "title": "A studentized permutation test for the treatment effect in individual participant data meta-analysis",
+ "authors": [
+  "Phuc Thien Tran",
+  "Long-Hao Xu",
+  "Christian Röver",
+  "Tim Friede"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 1,
+ "latest_date": "2025-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 8 figures",
+ "abstract": "Meta-analysis is a well-established tool used to combine data from several independent studies, each of which usually compares the effect of an experimental treatment with a control group. While meta-analyses are often performed using aggregated study summaries, they may also be conducted using individual participant data (IPD). Classical meta-analysis models may be generalized to handle continuous IPD by formulating them within a linear mixed model framework. IPD meta-analyses are commonly based on a small number of studies. Technically, inference for the overall treatment effect can be performed using Student-t approximation. However, as some approaches may not adequately control the type I error, Satterthwaite's or Kenward-Roger's method have been suggested to set the degrees-of-freedom parameter. The latter also adjusts the standard error of the treatment effect estimator. Nevertheless, these methods may be conservative. Since permutation tests are known to control the type I error and offer robustness to violations of distributional assumptions, we propose a studentized permutation test for the treatment effect based on permutations of standardized residuals across studies in IPD meta-analysis. Also, we construct confidence intervals for the treatment effect based on this test. The first interval is derived from the percentiles of the permutation distribution. The second interval is obtained by searching values closest to the effect estimate that are just significantly different from the true effect. In a simulation study, we demonstrate satisfactory performance of the proposed methods, often producing shorter confidence intervals compared with competitors.",
+ "primary": "stat.ME"
+}

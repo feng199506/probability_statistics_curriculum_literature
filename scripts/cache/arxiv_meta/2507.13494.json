@@ -1,0 +1,16 @@
+{
+ "id": "2507.13494",
+ "title": "Random Variate Generation with Formal Guarantees",
+ "authors": [
+  "Feras A. Saad",
+  "Wonyeol Lee"
+ ],
+ "v1_date": "2025-07-17",
+ "latest_version": 1,
+ "latest_date": "2025-07-17",
+ "journal_ref": "Proc. ACM Program. Lang. 9, PLDI, Article 152 (June 2025)",
+ "doi": "10.1145/3729251",
+ "comment": "",
+ "abstract": "This article introduces a new approach to principled and practical random variate generation with formal guarantees. The key idea is to first specify the desired probability distribution in terms of a finite-precision numerical program that defines its cumulative distribution function (CDF), and then generate exact random variates according to this CDF. We present a universal and fully automated method to synthesize exact random variate generators given any numerical CDF implemented in any binary number format, such as floating-point, fixed-point, and posits. The method is guaranteed to operate with the same precision used to specify the CDF, does not overflow, avoids expensive arbitrary-precision arithmetic, and exposes a consistent API. The method rests on a novel space-time optimal implementation for the class of generators that attain the information-theoretically optimal Knuth and Yao entropy rate, consuming the least possible number of input random bits per output variate. We develop a random variate generation library using our method in C and evaluate it on a diverse set of ``continuous'' and ``discrete'' distributions, showing competitive runtime with the state-of-the-art GNU Scientific Library while delivering higher accuracy, entropy efficiency, and automation.",
+ "primary": "cs.PL"
+}

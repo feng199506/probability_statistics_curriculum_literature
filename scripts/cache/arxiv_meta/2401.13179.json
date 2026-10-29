@@ -1,0 +1,18 @@
+{
+ "id": "2401.13179",
+ "title": "Realized Stochastic Volatility Models with Skew-t Distributions for Volatility and Tail Risk Forecasting",
+ "authors": [
+  "Makoto Takahashi",
+  "Yuta Yamauchi",
+  "Toshiaki Watanabe",
+  "Yasuhiro Omori"
+ ],
+ "v1_date": "2024-01-24",
+ "latest_version": 5,
+ "latest_date": "2026-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate forecasting of volatility is essential for financial risk management and for the evaluation of tail risk measures such as value-at-risk (VaR) and expected shortfall (ES). This study proposes the realized stochastic volatility (RSV) model, an extension of the traditional stochastic volatility (SV) model that incorporates realized volatility as an efficient proxy for latent volatility. To better capture the stylized features of financial return distributions, particularly skewness and heavy tails, we consider three variants of skew-t distributions, two of which also admit skew-normal components to flexibly model asymmetry. The models are estimated using a Bayesian Markov chain Monte Carlo approach and applied to daily returns and realized volatility measures for major U.S. and Japanese stock indices. Empirically, RSV models robustly improve volatility forecasts relative to SV models across both indices, all four realized volatility proxies, and both pairwise and joint evaluation procedures. The evidence on VaR and ES forecasts is more heterogeneous and the advantage of RSV and skew-t specifications over their SV counterparts is mixed. Across both volatility and tail risk forecasting, RSV and skew-t specifications are useful in several settings, but no single specification dominates uniformly across indices, risk levels, and sample periods.",
+ "primary": "econ.EM"
+}

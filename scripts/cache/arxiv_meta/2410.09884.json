@@ -1,0 +1,18 @@
+{
+ "id": "2410.09884",
+ "title": "Detecting Structural Shifts and Estimating Change-Points in Interval-Based Time Series",
+ "authors": [
+  "Li-Hsien Sun",
+  "Zong-Yuan Huang",
+  "Chi-Yang Chiu",
+  "Ning Ning"
+ ],
+ "v1_date": "2024-10-13",
+ "latest_version": 1,
+ "latest_date": "2024-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the open problem of conducting change-point analysis for interval-valued time series data using the maximum likelihood estimation (MLE) framework. Motivated by financial time series, we analyze data that includes daily opening (O), up (U), low (L), and closing (C) values, rather than just a closing value as traditionally used. To tackle this, we propose a fundamental model based on stochastic differential equations, which also serves as a transformation of other widely used models, such as the log-transformed geometric Brownian motion model. We derive the joint distribution for these interval-valued observations using the reflection principle and Girsanov's theorem. The MLE is obtained by optimizing the log-likelihood function through first and second-order derivative calculations, utilizing the Newton-Raphson algorithm. We further propose a novel parametric bootstrap method to compute confidence intervals, addressing challenges related to temporal dependency and interval-based data relationships. The performance of the model is evaluated through extensive simulations and real data analysis using S&P500 returns during the 2022 Russo-Ukrainian War. The results demonstrate that the proposed OULC model consistently outperforms the traditional OC model, offering more accurate and reliable change-point detection and parameter estimates.",
+ "primary": "stat.ME"
+}

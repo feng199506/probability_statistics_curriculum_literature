@@ -1,0 +1,22 @@
+{
+ "id": "2406.16830",
+ "title": "Adjusting for Selection Bias Due to Missing Eligibility Criteria in Emulated Target Trials",
+ "authors": [
+  "Luke Benz",
+  "Rajarshi Mukherjee",
+  "Rui Wang",
+  "David Arterburn",
+  "Catherine Lee",
+  "Heidi Fischer",
+  "Susan Shortreed",
+  "Sebastien Haneuse"
+ ],
+ "v1_date": "2024-06-24",
+ "latest_version": 2,
+ "latest_date": "2024-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Target trial emulation (TTE) is a popular framework for observational studies based on electronic health records (EHR). A key component of this framework is determining the patient population eligible for inclusion in both a target trial of interest and its observational emulation. Missingness in variables that define eligibility criteria, however, presents a major challenge towards determining the eligible population when emulating a target trial with an observational study. In practice, patients with incomplete data are almost always excluded from analysis despite the possibility of selection bias, which can arise when subjects with observed eligibility data are fundamentally different than excluded subjects. Despite this, to the best of our knowledge, very little work has been done to mitigate this concern. In this paper, we propose a novel conceptual framework to address selection bias in TTE studies, tailored towards time-to-event endpoints, and describe estimation and inferential procedures via inverse probability weighting (IPW). Under an EHR-based simulation infrastructure, developed to reflect the complexity of EHR data, we characterize common settings under which missing eligibility data poses the threat of selection bias and investigate the ability of the proposed methods to address it. Finally, using EHR databases from Kaiser Permanente, we demonstrate the use of our method to evaluate the effect of bariatric surgery on microvascular outcomes among a cohort of severely obese patients with Type II diabetes mellitus (T2DM).",
+ "primary": "stat.ME"
+}

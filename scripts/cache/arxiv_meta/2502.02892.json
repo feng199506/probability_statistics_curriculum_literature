@@ -1,0 +1,19 @@
+{
+ "id": "2502.02892",
+ "title": "Sensitivity analysis for multivariable missing data using multiple imputation: a tutorial",
+ "authors": [
+  "Cattram D Nguyen",
+  "Katherine J Lee",
+  "Ian R White",
+  "Stef van Buuren",
+  "Margarita Moreno-Betancur"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 1,
+ "latest_date": "2025-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 3 figures, 2 tables",
+ "abstract": "Multiple imputation is a popular method for handling missing data, with fully conditional specification (FCS) being one of the predominant imputation approaches for multivariable missingness. Unbiased estimation with standard implementations of multiple imputation depends on assumptions concerning the missingness mechanism (e.g. that data are \"missing at random\"). The plausibility of these assumptions can only be assessed using subject-matter knowledge, and not data alone. It is therefore important to perform sensitivity analyses to explore the robustness of results to violations of these assumptions (e.g. if the data are in fact \"missing not at random\"). In this tutorial, we provide a roadmap for conducting sensitivity analysis using the Not at Random Fully Conditional Specification (NARFCS) procedure for multivariate imputation. Using a case study from the Longitudinal Study of Australian Children, we work through the steps involved, from assessing the need to perform the sensitivity analysis, and specifying the NARFCS models and sensitivity parameters, through to implementing NARFCS using FCS procedures in R and Stata.",
+ "primary": "stat.ME"
+}

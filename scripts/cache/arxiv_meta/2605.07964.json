@@ -1,0 +1,17 @@
+{
+ "id": "2605.07964",
+ "title": "Asymptotically Log-Optimal Bayes-Assisted Confidence Sequences for Bounded Means",
+ "authors": [
+  "Valentin Kilian",
+  "Stefano Cortinovis",
+  "François Caron"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 2,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Valentin and Stefano are joint first authors",
+ "abstract": "Confidence sequences based on test martingales provide time-uniform uncertainty quantification for the mean of bounded IID observations without parametric distributional assumptions. Their practical efficiency, however, depends strongly on the choice of martingale updates, and many existing constructions do not exploit prior information about plausible data-generating distributions or mean values. We propose a Bayes-assisted framework that uses a Bayesian working predictive model to adaptively construct confidence sequences. For each candidate mean and time point, the predictive distribution selects, among valid one-step martingale factors, the update maximising predictive expected log-growth; validity is therefore preserved even when the prior or working model is misspecified. We prove that if the predictive distribution is Wasserstein-consistent, the resulting procedure is asymptotically log-optimal, matching the per-sample log-growth of an oracle procedure with access to the true distribution. We instantiate the framework using robust predictives based on Dirichlet-process mixtures and Bayesian exponentially tilted empirical likelihood. Experiments on synthetic data, sequential best-arm identification for LLM evaluation, and prediction-powered inference show that informative priors can substantially reduce confidence-sequence width and sampling effort while retaining anytime-valid coverage.",
+ "primary": "stat.ML"
+}

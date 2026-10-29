@@ -1,0 +1,15 @@
+{
+ "id": "2601.17621",
+ "title": "Non-parametric finite-sample credible intervals with one-dimensional priors: a middle ground between Bayesian and frequentist intervals",
+ "authors": [
+  "Tim Ritmeester"
+ ],
+ "v1_date": "2026-01-24",
+ "latest_version": 3,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a method of constructing statistical intervals that obtain a natural middle ground between Bayesian and frequentist statistical intervals, previously unexplored in literature: To a p% Bayesian credible interval we should assign a p% belief after observing both the dataset and the interval, to p% frequentist intervals we can generally only assign a p% belief before observing either the data or the interval, while to the intervals proposed here we can assign a p% belief after observing the interval, but not necessarily after inspecting the full dataset ourselves. Even in fully non-parametric problems this only requires a prior over the parameter(s) of interest, not a high-dimensional prior over the full distribution, while maintaining many of the practical and philosophical advantages of Bayesian methods. We belief these methods may therefore provide significant advances in statistical methodology to a number of fields. This work is meant as a proof of principle: We concretely implement such intervals for two different problems and study the properties of resulting intervals. We discuss promising directions where the proposed type of interval may provide significant advantages.",
+ "primary": "stat.ME"
+}

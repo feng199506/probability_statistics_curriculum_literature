@@ -1,0 +1,18 @@
+{
+ "id": "2508.21536",
+ "title": "Triply Robust Panel Estimators",
+ "authors": [
+  "Susan Athey",
+  "Guido Imbens",
+  "Zhaonan Qu",
+  "Davide Viviano"
+ ],
+ "v1_date": "2025-08-29",
+ "latest_version": 3,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies estimation of causal effects in a panel data setting. We introduce a new estimator, the Triply RObust Panel (TROP) estimator, that combines (i) a flexible model for the potential outcomes based on a low-rank factor structure on top of a two-way-fixed effect specification, with (ii) unit weights intended to upweight units similar to the treated units and (iii) time weights intended to upweight time periods close to the treated time periods. We study the performance of the estimator in a set of simulations designed to closely match several commonly studied real data sets. We find that there is substantial variation in the performance of the estimators across the settings considered. The proposed estimator outperforms two-way-fixed-effect/difference-in-differences, synthetic control, matrix completion and synthetic-difference-in-differences estimators. We investigate what features of the data generating process lead to this performance, and assess the relative importance of the three components of the proposed estimator. We have two recommendations. Our preferred strategy is that researchers use simulations closely matched to the data they are interested in, along the lines discussed in this paper, to investigate which estimators work well in their particular setting. A simpler approach is to use more robust estimators such as synthetic difference-in-differences or the new triply robust panel estimator which we find to substantially outperform two-way fixed effect estimators in many empirically relevant settings.",
+ "primary": "stat.ME"
+}

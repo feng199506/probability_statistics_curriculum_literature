@@ -1,0 +1,22 @@
+{
+ "id": "2506.09853",
+ "title": "Causal Sufficiency and Necessity Improves Chain-of-Thought Reasoning",
+ "authors": [
+  "Xiangning Yu",
+  "Zhuohan Wang",
+  "Linyi Yang",
+  "Haoxuan Li",
+  "Anjie Liu",
+  "Xiao Xue",
+  "Jun Wang",
+  "Mengyue Yang"
+ ],
+ "v1_date": "2025-06-11",
+ "latest_version": 3,
+ "latest_date": "2025-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Chain-of-Thought (CoT) prompting plays an indispensable role in endowing large language models (LLMs) with complex reasoning capabilities. However, CoT currently faces two fundamental challenges: (1) Sufficiency, which ensures that the generated intermediate inference steps comprehensively cover and substantiate the final conclusion; and (2) Necessity, which identifies the inference steps that are truly indispensable for the soundness of the resulting answer. We propose a causal framework that characterizes CoT reasoning through the dual lenses of sufficiency and necessity. Incorporating causal Probability of Sufficiency and Necessity allows us not only to determine which steps are logically sufficient or necessary to the prediction outcome, but also to quantify their actual influence on the final reasoning outcome under different intervention scenarios, thereby enabling the automated addition of missing steps and the pruning of redundant ones. Extensive experimental results on various mathematical and commonsense reasoning benchmarks confirm substantial improvements in reasoning efficiency and reduced token usage without sacrificing accuracy. Our work provides a promising direction for improving LLM reasoning performance and cost-effectiveness.",
+ "primary": "cs.CL"
+}

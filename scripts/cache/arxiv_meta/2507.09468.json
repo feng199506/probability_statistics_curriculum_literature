@@ -1,0 +1,27 @@
+{
+ "id": "2507.09468",
+ "title": "Semiparametric Regression Models for Explanatory Variables with Missing Data due to Detection Limit",
+ "authors": [
+  "Jasen Zhang",
+  "Lucy Shao",
+  "Kun Yang",
+  "Natalie E. Quach",
+  "Shengjia Tu",
+  "Ruohui Chen",
+  "Tsungchin Wu",
+  "Jinyuan Liu",
+  "Justin Tu",
+  "Jose R. Suarez-Lopez",
+  "Xinlian Zhang",
+  "Tuo Lin",
+  "Xin M. Tu"
+ ],
+ "v1_date": "2025-07-13",
+ "latest_version": 1,
+ "latest_date": "2025-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Detection limit (DL) has become an increasingly ubiquitous issue in statistical analyses of biomedical studies, such as cytokine, metabolite and protein analysis. In regression analysis, if an explanatory variable is left-censored due to concentrations below the DL, one may limit analyses to observed data. In many studies, additional, or surrogate, variables are available to model, and incorporating such auxiliary modeling information into the regression model can improve statistical power. Although methods have been developed along this line, almost all are limited to parametric models for both the regression and left-censored explanatory variable. While some recent work has considered semiparametric regression for the censored DL-effected explanatory variable, the regression of primary interest is still left parametric, which not only makes it prone to biased estimates, but also suffers from high computational cost and inefficiency due to maximizing an extremely complex likelihood function and bootstrap inference. In this paper, we propose a new approach by considering semiparametric generalized linear models (SPGLM) for the primary regression and parametric or semiparametric models for DL-effected explanatory variable. The semiparametric and semiparametric combination provides the most robust inference, while the semiparametric and parametric case enables more efficient inference. The proposed approach is also much easier to implement and allows for leveraging sample splitting and cross fitting (SSCF) to improve computational efficiency in variance estimation. In particular, our approach improves computational efficiency over bootstrap by 450 times. We use simulated and real study data to illustrate the approach.",
+ "primary": "stat.ME"
+}

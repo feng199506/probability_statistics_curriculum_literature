@@ -1,0 +1,17 @@
+{
+ "id": "2012.02936",
+ "title": "Selective Inference for Hierarchical Clustering",
+ "authors": [
+  "Lucy L. Gao",
+  "Jacob Bien",
+  "Daniela Witten"
+ ],
+ "v1_date": "2020-12-05",
+ "latest_version": 3,
+ "latest_date": "2022-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Final accepted version",
+ "abstract": "Classical tests for a difference in means control the type I error rate when the groups are defined a priori. However, when the groups are instead defined via clustering, then applying a classical test yields an extremely inflated type I error rate. Notably, this problem persists even if two separate and independent data sets are used to define the groups and to test for a difference in their means. To address this problem, in this paper, we propose a selective inference approach to test for a difference in means between two clusters. Our procedure controls the selective type I error rate by accounting for the fact that the choice of null hypothesis was made based on the data. We describe how to efficiently compute exact p-values for clusters obtained using agglomerative hierarchical clustering with many commonly-used linkages. We apply our method to simulated data and to single-cell RNA-sequencing data.",
+ "primary": "stat.ME"
+}

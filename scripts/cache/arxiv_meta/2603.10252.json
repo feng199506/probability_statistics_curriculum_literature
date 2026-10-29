@@ -1,0 +1,15 @@
+{
+ "id": "2603.10252",
+ "title": "Bayesian Hierarchical Models and the Maximum Entropy Principle",
+ "authors": [
+  "Brendon J. Brewer"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 2,
+ "latest_date": "2026-04-30",
+ "journal_ref": "44th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering, Auckland, New Zealand, December 2025",
+ "doi": "10.5281/zenodo.19867761",
+ "comment": "6 pages, 2 figures. To appear in the proceedings of the 44th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering (MaxEnt 2025), held in Auckland, New Zealand",
+ "abstract": "Bayesian hierarchical models are frequently used in practical data analysis contexts. One interpretation of these models is that they provide an indirect way of assigning a prior for unknown parameters, through the introduction of hyperparameters. The resulting marginal prior for the parameters (integrating over the hyperparameters) is usually dependent, so that learning one parameter provides some information about the others. In this contribution, I will demonstrate that, when the prior given the hyperparameters is a canonical distribution (a maximum entropy distribution with moment constraints), the dependent marginal prior also has a maximum entropy property, with a different constraint. This constraint is on the marginal distribution of some function of the unknown quantities. The results shed light on what information is actually being assumed when we assign a hierarchical model.",
+ "primary": "stat.ML"
+}

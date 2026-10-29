@@ -1,0 +1,17 @@
+{
+ "id": "2502.03056",
+ "title": "A two-size Wright--Fisher model: asymptotic analysis via uniform renewal theory",
+ "authors": [
+  "Gerold Alsmeyer",
+  "Fernando Cordero",
+  "Hannah Dopmeyer"
+ ],
+ "v1_date": "2025-02-05",
+ "latest_version": 2,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "10.1016/j.spa.2025.104812",
+ "comment": "28 pages, 7 figures; final and accepted revision",
+ "abstract": "We consider a population with two types of individuals, distinguished by the resources required for reproduction: type-$0$ (small) individuals need a fractional resource unit of size $\\vartheta \\in (0,1)$, while type-$1$ (large) individuals require $1$ unit. The total available resource per generation is $R$. To form a new generation, individuals are sampled one by one, and if enough resources remain, they reproduce, adding their offspring to the next generation. The probability of sampling an individual whose offspring is small is $ρ_{R}(x)$, where $x$ is the proportion of small individuals in the current generation. We call this discrete-time stochastic model a two-size Wright--Fisher model, where the function $ρ_{R}$ can represent mutation and/or frequency-dependent selection. We show that on the evolutionary time scale, i.e. accelerating time by a factor $R$, the frequency process of type-$0$ individuals converges to the solution of a Wright--Fisher-type SDE. The drift term of that SDE accounts for the bias introduced by the function $ρ_{R}$ and the consumption strategy, the latter also inducing an additional multiplicative factor in the diffusion term. To prove this, the dynamics within each generation are viewed as a renewal process, with the population size corresponding to the first passage time $τ(R)$ above level $R$. The proof relies on methods from renewal theory, in particular a uniform version of Blackwell's renewal theorem for binary, non-arithmetic random variables, established via $\\varepsilon$-coupling.",
+ "primary": "math.PR"
+}

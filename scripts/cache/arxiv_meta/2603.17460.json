@@ -1,0 +1,17 @@
+{
+ "id": "2603.17460",
+ "title": "Algorithms for Models with Intractable Normalizing Functions",
+ "authors": [
+  "Murali Haran",
+  "Bokgyeong Kang",
+  "Jaewoo Park"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we discuss a well known computing problem -- inference for models with intractable normalizing functions. Models with intractable normalizing functions arise in a wide variety of areas, for instance network models, models for spatial data on lattices, spatial point processes, flexible models for count data and gene expression, and models for permutations. Simulating from these models for fixed parameter values is well studied, starting with work dating back seventy years to the origin of the Metropolis algorithm. On the other hand some of the most practical and theoretically justified algorithms for inference, particularly Bayesian inference, have only been developed within the past two decades. The most computationally efficient algorithms often do not have well developed theory and few if any approaches exist for assessing the quality of approximations based on them. For many problems even the best algorithms can be computationally infeasible. Hence, this is an exciting area of research with many open problems. We explain several key algorithms, providing connections and touching upon practical advantages and disadvantages of each, with some discussion of theoretical properties where they impact practice. We discuss an approach for assessing the accuracy of approximations produced by these algorithms; this diagnostic is particularly valuable for algorithm tuning. While our focus is largely on models with intractable normalizing functions, we also discuss algorithms that are more broadly applicable to models where the entire likelihood function is intractable; these methods are of course also applicable to intractable normalizing function problems.",
+ "primary": "stat.ME"
+}

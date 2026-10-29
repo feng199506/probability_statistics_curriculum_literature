@@ -1,0 +1,17 @@
+{
+ "id": "2312.15256",
+ "title": "Adaptive Reduced Multilevel Splitting",
+ "authors": [
+  "Frédéric Cérou",
+  "Patrick Héas",
+  "Mathias Rousset"
+ ],
+ "v1_date": "2023-12-23",
+ "latest_version": 3,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers the classical problem of sampling with Monte Carlo methods a target rare event distribution defined by a score function that is very expensive to compute. We assume we can build using evaluations of the true score, an approximate surrogate score certified with error bounds. This work proposes a fully adaptive algorithm to sequentially sample surrogate rare event distributions with increasing target levels. An essential contribution consists in sampling at each iteration the surrogate rare event at a critical level corresponding to a specific cost. This cost is related to importance sampling for a target for a given budget. The critical level is calculated solely from the reduced score and its error bound From a practical point of view, sampling the proposal sequence is performed by extending the framework of the popular adaptive multilevel splitting algorithm to the use of score approximations. Numerical experiments evaluate the proposed importance sampling algorithm in terms of computational complexity versus squared error. In particular, we investigate the performance of the algorithm when simulating rare events related to the solution of a parametric PDE, which is approximated by a reduced basis.",
+ "primary": "stat.CO"
+}

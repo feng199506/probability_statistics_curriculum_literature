@@ -1,0 +1,18 @@
+{
+ "id": "2502.07010",
+ "title": "Enhanced Renewable Energy Forecasting and Operations through Probabilistic Forecast Aggregation",
+ "authors": [
+  "Alireza Moradi",
+  "Mathieu Tanneau",
+  "Reza Zandehshahvar",
+  "Pascal Van Hentenryck"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 1,
+ "latest_date": "2025-02-10",
+ "journal_ref": "Proceedings of the IISE Annual Conference & Expo 2025, pp. 1920-1925 (2025)",
+ "doi": "10.21872/annual2025_9066",
+ "comment": "",
+ "abstract": "Accurate and reliable forecasting of renewable energy generation is crucial for the efficient integration of renewable sources into the power grid. In particular, probabilistic forecasts are becoming essential for managing the intrinsic variability and uncertainty of renewable energy production, especially wind and solar generation. This paper considers the setting where probabilistic forecasts are provided for individual renewable energy sites using, e.g., quantile regression models, but without any correlation information between sites. This setting is common if, e.g., such forecasts are provided by each individual site, or by multiple vendors. However, to effectively manage a fleet of renewable generators, it is necessary to aggregate these individual forecasts to the fleet level, while ensuring that the aggregated probabilistic forecast is statistically consistent and reliable. To address this challenge, this paper presents the integrated use of Copula and Monte-Carlo methods to aggregate individual probabilistic forecasts into a statistically calibrated, probabilistic forecast at the fleet level. The proposed framework is validated using synthetic data from several large-scale systems in the United States. This work has important implications for grid operators and energy planners, providing them with better tools to manage the variability and uncertainty inherent in renewable energy production.",
+ "primary": "stat.AP"
+}

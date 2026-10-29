@@ -1,0 +1,16 @@
+{
+ "id": "2506.12455",
+ "title": "A Transfer Learning Framework for Multilayer Networks via Model Averaging",
+ "authors": [
+  "Yongqin Qiu",
+  "Xinyu Zhang"
+ ],
+ "v1_date": "2025-06-14",
+ "latest_version": 1,
+ "latest_date": "2025-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Link prediction in multilayer networks is a key challenge in applications such as recommendation systems and protein-protein interaction prediction. While many techniques have been developed, most rely on assumptions about shared structures and require access to raw auxiliary data, limiting their practicality. To address these issues, we propose a novel transfer learning framework for multilayer networks using a bi-level model averaging method. A $K$-fold cross-validation criterion based on edges is used to automatically weight inter-layer and intra-layer candidate models. This enables the transfer of information from auxiliary layers while mitigating model uncertainty, even without prior knowledge of shared structures. Theoretically, we prove the optimality and weight convergence of our method under mild conditions. Computationally, our framework is efficient and privacy-preserving, as it avoids raw data sharing and supports parallel processing across multiple servers. Simulations show our method outperforms others in predictive accuracy and robustness. We further demonstrate its practical value through two real-world recommendation system applications.",
+ "primary": "stat.ML"
+}

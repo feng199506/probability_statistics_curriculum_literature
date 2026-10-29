@@ -1,0 +1,16 @@
+{
+ "id": "2405.07552",
+ "title": "Distributed High-Dimensional Quantile Regression: Estimation Efficiency and Support Recovery",
+ "authors": [
+  "Caixing Wang",
+  "Ziliang Shen"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 3,
+ "latest_date": "2024-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Forty-first International Conference on Machine Learning (ICML 2024), 27 pages, 4 figures, 14 tables",
+ "abstract": "In this paper, we focus on distributed estimation and support recovery for high-dimensional linear quantile regression. Quantile regression is a popular alternative tool to the least squares regression for robustness against outliers and data heterogeneity. However, the non-smoothness of the check loss function poses big challenges to both computation and theory in the distributed setting. To tackle these problems, we transform the original quantile regression into the least-squares optimization. By applying a double-smoothing approach, we extend a previous Newton-type distributed approach without the restrictive independent assumption between the error term and covariates. An efficient algorithm is developed, which enjoys high computation and communication efficiency. Theoretically, the proposed distributed estimator achieves a near-oracle convergence rate and high support recovery accuracy after a constant number of iterations. Extensive experiments on synthetic examples and a real data application further demonstrate the effectiveness of the proposed method.",
+ "primary": "stat.ML"
+}

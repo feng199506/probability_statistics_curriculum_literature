@@ -1,0 +1,15 @@
+{
+ "id": "2406.11246",
+ "title": "Parallelizing MCMC with Machine Learning Classifier and Its Criterion Based on Kullback-Leibler Divergence",
+ "authors": [
+  "Tomoki Matsumoto"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 2,
+ "latest_date": "2024-11-07",
+ "journal_ref": "METRON, 84(2), 139-157, 2026",
+ "doi": "10.1007/s40300-026-00316-2",
+ "comment": "",
+ "abstract": "In the era of Big Data, Markov chain Monte Carlo (MCMC) methods, which are currently essential for Bayesian estimation, face significant computational challenges owing to their sequential nature. To achieve a faster and more effective parallel computation, we emphasize the critical role of the overlapped area of the posterior distributions based on partitioned data, which we term the reconstructable area. We propose a method that utilizes machine learning classifiers to effectively identify and extract MCMC draws obtained by parallel computations from the area based on posteriors based on partitioned sub-datasets, approximating the target posterior distribution based on the full dataset. This study also develops a Kullback-Leibler (KL) divergence-based criterion. It does not require calculating the full-posterior density and can be calculated using only information from the sub-posterior densities, which are generally obtained after implementing MCMC. This simplifies the hyperparameter tuning in training classifiers. The simulation studies validated the efficacy of the proposed method. This approach contributes to ongoing research on parallelizing MCMC methods and may offer insights for future developments in Bayesian computation for large-scale data analyses.",
+ "primary": "stat.CO"
+}

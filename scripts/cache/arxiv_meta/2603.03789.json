@@ -1,0 +1,18 @@
+{
+ "id": "2603.03789",
+ "title": "Enhancing Mortality Forecasting with Ensemble Learning: A Shapley-Based Approach",
+ "authors": [
+  "G. Bimonte",
+  "M. Russolillo",
+  "Y. Yang",
+  "H. L. Shang"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 1,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 6 figures",
+ "abstract": "A well-established insight in mortality forecasting is that combining predictions from a set of models improves accuracy compared to relying on a single best model. This paper proposes a novel ensemble approach based on Shapley values, a game-theoretic measure of each model's marginal contribution to the forecast. We further compute these SHapley Additive exPlanations (SHAP)-based weights age-by-age, thereby capturing the specific contribution of each model at each age. In addition, we introduce a threshold mechanism that excludes models with negligible contributions, effectively reducing the forecast variance. Using data from 24 OECD countries, we demonstrate that our SHAP ensemble enhances out-of-sample forecasting performance, especially at longer horizons. By leveraging the complementary strengths of different mortality models and filtering out those that add little predictive power, our approach offers a robust and interpretable solution for improving mortality forecasts.",
+ "primary": "stat.AP"
+}

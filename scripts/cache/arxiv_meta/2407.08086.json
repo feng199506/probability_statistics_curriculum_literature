@@ -1,0 +1,23 @@
+{
+ "id": "2407.08086",
+ "title": "The GeometricKernels Package: Heat and Matérn Kernels for Geometric Learning on Manifolds, Meshes, and Graphs",
+ "authors": [
+  "Peter Mostowsky",
+  "Vincent Dutordoir",
+  "Iskander Azangulov",
+  "Noémie Jaquier",
+  "Michael John Hutchinson",
+  "Aditya Ravuri",
+  "Leonel Rozo",
+  "Alexander Terenin",
+  "Viacheslav Borovitskiy"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-02",
+ "journal_ref": "Journal of Machine Learning Research, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernels are a fundamental technical primitive in machine learning. In recent years, kernel-based methods such as Gaussian processes are becoming increasingly important in applications where quantifying uncertainty is of key interest. In settings that involve structured data defined on graphs, meshes, manifolds, or other related spaces, defining kernels with good uncertainty-quantification behavior, and computing their value numerically, is less straightforward than in the Euclidean setting. To address this difficulty, we present GeometricKernels, a Python software package which implements the geometric analogs of classical Euclidean squared exponential - also known as heat - and Matérn kernels, which are widely-used in settings where uncertainty is of key interest. As a byproduct, we obtain the ability to compute Fourier-feature-type expansions, which are widely used in their own right, on a wide set of geometric spaces. Our implementation supports automatic differentiation in every major current framework simultaneously via a backend-agnostic design. In this companion paper to the package and its documentation, we outline the capabilities of the package and present an illustrated example of its interface. We also include a brief overview of the theory the package is built upon and provide some historic context in the appendix.",
+ "primary": "cs.LG"
+}

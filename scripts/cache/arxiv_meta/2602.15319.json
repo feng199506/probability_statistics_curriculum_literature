@@ -1,0 +1,18 @@
+{
+ "id": "2602.15319",
+ "title": "Bayesian Inference for Joint Tail Risk in Paired Biomarkers via Archimedean Copulas with Restricted Jeffreys Priors",
+ "authors": [
+  "Agnideep Aich",
+  "Md. Monzur Murshed",
+  "Sameera Hewage",
+  "Ashit Baran Aich"
+ ],
+ "v1_date": "2026-02-17",
+ "latest_version": 2,
+ "latest_date": "2026-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a Bayesian copula-based framework to quantify clinically interpretable joint tail risks from paired continuous biomarkers. After converting each biomarker margin to rank-based pseudo-observations, we model dependence using one-parameter Archimedean copulas and focus on three probability-scale summaries at tail level $α$: the lower-tail joint risk $R_L(θ)=C_θ(α,α)$, the upper-tail joint risk $R_U(θ)=2α-1+C_θ(1-α,1-α)$, and the conditional lower-tail risk $R_C(θ)=R_L(θ)/α$. Uncertainty is quantified via a restricted Jeffreys prior on the copula parameter and grid-based posterior approximation, which induces an exact posterior for each tail-risk functional. In simulations from Clayton and Gumbel copulas across multiple dependence strengths, posterior credible intervals achieve near-nominal coverage for $R_L$, $R_U$, and $R_C$. We then analyze NHANES 2017--2018 fasting glucose (GLU) and HbA1c (GHB) ($n=2887$) at $α=0.05$, obtaining tight posterior credible intervals for both the dependence parameter and induced tail risks. The results reveal markedly elevated extremal co-movement relative to independence; under the Gumbel model, the posterior mean joint upper-tail risk is $R_U(α)=0.0286$, approximately $11.46\\times$ the independence benchmark $α^2=0.0025$. Overall, the proposed approach provides a principled, dependence-aware method for reporting joint and conditional extremal-risk summaries with Bayesian uncertainty quantification in biomedical applications.",
+ "primary": "stat.ME"
+}

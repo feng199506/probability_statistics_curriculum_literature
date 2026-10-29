@@ -1,0 +1,18 @@
+{
+ "id": "2511.10911",
+ "title": "Improving Variance and Confidence Interval Estimation in Small-Sample Propensity Score Analyses: Bootstrap vs. Asymptotic Methods",
+ "authors": [
+  "Baoshan Zhang",
+  "Sean M. O'Brien",
+  "Yuan Wu",
+  "Laine E. Thomas"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "Statistics in Medicine (2026)",
+ "doi": "10.1002/sim.70643",
+ "comment": "",
+ "abstract": "Propensity score (PS) methods are widely used to estimate treatment effects in non-randomized studies. Variance is typically estimated using sandwich or bootstrap methods, which can either treat the PS as estimated or fixed. The latter is thought to be conservative. Comparisons between the sandwich and bootstrap estimators have been compared in moderate to large sample sizes, favoring the bootstrap estimator. With the growing interest in treatments for rare disease and externally controlled clinical trials, very small sample sizes are not uncommon and the asymptotic properties of sandwich estimators may not hold. Bootstrap methods that allow for PS re-estimation can also generate problems with quasi-separation in small samples. It is unclear whether it is safe to prefer sandwich estimators or to assume that treating the PS as fixed is conservative. We conducted a Monte Carlo simulation to compare the performance of bootstrap versus sandwich variance and CI estimators for average treatment effects estimated with PS methods. We systematically evaluated the impact of treating the PS as fixed versus re-estimating it. These methodological comparisons were performed using Inverse Probability of Treatment Weighting (IPTW) and Augmented Inverse Probability of Treatment Weighting (AIPW) estimators. Simulations assessed performance under various conditions, including small sample sizes and different outcome and treatment prevalences. We illustrate the differences in our motivating example, the LIMIT-JIA trial. We show that the sandwich estimators can perform quite poorly in small samples, and fixed PS methods are not necessarily conservative. A stratified bootstrap avoids quasi-separation and performs well. Differences were large enough to alter statistical conclusions in our motivating example, LIMIT-JIA.",
+ "primary": "stat.ME"
+}

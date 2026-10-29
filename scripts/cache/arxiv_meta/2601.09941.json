@@ -1,0 +1,17 @@
+{
+ "id": "2601.09941",
+ "title": "Tree Estimation and Saddlepoint-Based Diagnostics for the Nested Dirichlet Distribution: Application to Compositional Behavioral Data",
+ "authors": [
+  "Jacob A. Turner",
+  "Monnie McGee",
+  "Bianca A. Luedeker"
+ ],
+ "v1_date": "2026-01-14",
+ "latest_version": 1,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "main document 34 pages, 8 figures; supplement 9 pages, 2 figures",
+ "abstract": "The Nested Dirichlet Distribution (NDD) provides a flexible alternative to the Dirichlet distribution for modeling compositional data, relaxing constraints on component variances and correlations through a hierarchical tree structure. While theoretically appealing, the NDD is underused in practice due to two main limitations: the need to predefine the tree structure and the lack of diagnostics for evaluating model fit. This paper addresses both issues. First, we introduce a data-driven, greedy tree-finding algorithm that identifies plausible NDD tree structures from observed data. Second, we propose novel diagnostic tools, including pseudo-residuals based on a saddlepoint approximation to the marginal distributions and a likelihood displacement measure to detect influential observations. These tools provide accurate and computationally tractable assessments of model fit, even when marginal distributions are analytically intractable. We demonstrate our approach through simulation studies and apply it to data from a Morris water maze experiment, where the goal is to detect differences in spatial learning strategies among cognitively impaired and unimpaired mice. Our methods yield interpretable structures and improved model evaluation in a realistic compositional setting. An accompanying R package is provided to support reproducibility and application to new datasets.",
+ "primary": "stat.ME"
+}

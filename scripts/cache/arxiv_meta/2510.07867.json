@@ -1,0 +1,16 @@
+{
+ "id": "2510.07867",
+ "title": "On the Optimality of the Median-of-Means Estimator under Adversarial Contamination",
+ "authors": [
+  "Xabier de Juan",
+  "Santiago Mazuelas"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "NeurIPS 2025",
+ "doi": "10.52202/085713-1138",
+ "comment": "",
+ "abstract": "The Median-of-Means (MoM) is a robust estimator widely used in machine learning that is known to be (minimax) optimal in scenarios where samples are i.i.d. In more grave scenarios, samples are contaminated by an adversary that can inspect and modify the data. Previous work has theoretically shown the suitability of the MoM estimator in certain contaminated settings. However, the (minimax) optimality of MoM and its limitations under adversarial contamination remain unknown beyond the Gaussian case. In this paper, we present upper and lower bounds for the error of MoM under adversarial contamination for multiple classes of distributions. In particular, we show that MoM is (minimax) optimal in the class of distributions with finite variance, as well as in the class of distributions with infinite variance and finite absolute $(1+r)$-th moment. We also provide lower bounds for MoM's error that match the order of the presented upper bounds, and show that MoM is sub-optimal for light-tailed distributions.",
+ "primary": "stat.ML"
+}

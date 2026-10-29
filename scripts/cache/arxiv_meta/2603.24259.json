@@ -1,0 +1,16 @@
+{
+ "id": "2603.24259",
+ "title": "Uncertainty Quantification of Spline Predictors on Compact Riemannian Manifolds",
+ "authors": [
+  "Charlie Sire",
+  "Mike Pereira"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To predict smooth physical phenomena from observations, spline interpolation provides an interpretable framework by minimizing an energy functional associated with the Laplacian operator. This work proposes a methodology to construct a spline predictor on a compact Riemannian manifold, while quantifying the uncertainty inherent in the classical deterministic solution. Our approach leverages the equivalence between spline interpolation and universal kriging with a specific covariance kernel. By adopting a Gaussian random field framework, we generate stochastic simulations that reflect prediction uncertainty. However, on compact manifolds, the covariance kernel depends on the generally unknown spectrum of the Laplace-Beltrami operator. To address this, we introduce a finite element approximation based on a triangulation of the manifold. This leads to the use of intrinsic Gaussian Markov Random Fields (GMRF) and allows for the incorporation of anisotropies through local modifications of the Riemannian metric. The method is validated using a temperature study on a sphere, where the operator's spectrum is known, and is further extended to a test case on a cylindrical surface.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.10025",
+ "title": "Sparse Multivariate Linear Regression with Strongly Associated Response Variables",
+ "authors": [
+  "Daeyoung Ham",
+  "Bradley S. Price",
+  "Adam J. Rothman"
+ ],
+ "v1_date": "2024-10-13",
+ "latest_version": 3,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose new methods for multivariate linear regression when the regression coefficient matrix is sparse and the error covariance matrix is dense. We assume that the error covariance matrix has equicorrelation across the response variables. Two procedures are proposed: one is based on constant marginal response variance (compound symmetry), and the other is based on general varying marginal response variance. Two approximate procedures are also developed for high dimensions. We propose an approximation to the Gaussian validation likelihood for tuning parameter selection. Extensive numerical experiments illustrate when our procedures outperform relevant competitors as well as their robustness to a moderate degree of model misspecification.",
+ "primary": "stat.ME"
+}

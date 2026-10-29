@@ -1,0 +1,16 @@
+{
+ "id": "2602.06545",
+ "title": "Operationalizing Stein's Method for Online Linear Optimization: CLT-Based Optimal Tradeoffs",
+ "authors": [
+  "Zhiyu Zhang",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adversarial online linear optimization (OLO) is essentially about making performance tradeoffs with respect to the unknown difficulty of the adversary. In the setting of one-dimensional fixed-time OLO on a bounded domain, it has been observed since Cover (1966) that achievable tradeoffs are governed by probabilistic inequalities, and these descriptive results can be converted into algorithms via dynamic programming, which, however, is not computationally efficient. We address this limitation by showing that Stein's method, a classical framework underlying the proofs of probabilistic limit theorems, can be operationalized as computationally efficient OLO algorithms. The associated regret and total loss upper bounds are \"additively sharp\", meaning that they surpass the conventional big-O optimality and match normal-approximation-based lower bounds by additive lower order terms. Our construction is inspired by the remarkably clean proof of a Wasserstein martingale central limit theorem (CLT) due to Röllin (2018). Several concrete benefits can be obtained from this general technique. First, with the same computational complexity, the proposed algorithm improves upon the total loss upper bounds of online gradient descent (OGD) and multiplicative weight update (MWU). Second, our algorithm can realize a continuum of optimal two-point tradeoffs between the total loss and the maximum regret over comparators, improving upon prior works in parameter-free online learning. Third, by allowing the adversary to randomize on an unbounded support, we achieve sharp in-expectation performance guarantees for OLO with noisy feedback.",
+ "primary": "stat.ML"
+}

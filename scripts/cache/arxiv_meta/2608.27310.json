@@ -1,0 +1,17 @@
+{
+ "id": "2608.27310",
+ "title": "Conformal Prediction Through the Lens of Hypothesis Testing: Universality, Impossibility, and Optimality",
+ "authors": [
+  "Ryan J. Tibshirani",
+  "Rina Foygel Barber",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 2,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The connections between conformal prediction and permutation tests are already widely-known in the literature. Some authors motivate conformal prediction by saying that it computes a permutation p-value for the hypothesis $H_0 : Y_{n+1} = y$, and then inverts this to form a prediction set for $Y_{n+1}$ (i.e., accepts all values $y$ into the prediction set for which the p-value is large). In this paper, we examine an alternative view, which is less well-known: we again cast conformal prediction via the inversion of a permutation test, but for the null of exchangeability of the joint distribution of the $n+1$ samples. This change in perspective, while simple, adheres more closely to traditional formalization in hypothesis testing, which offers several benefits. First, we use the duality between conformal sets and testing to show that foundational universality and impossibility results in the conformal prediction literature can be reproduced directly using classical hypothesis testing theory (due to Neyman, Lehmann, Scheff{é}, Kraft, Le Cam, and others). Furthermore, we show that an optimality result for conformal prediction can be derived using standard Neyman-Pearson theory: for any joint distribution of the covariates and response $X,Y$, and any sample size, the optimal method for prediction sets---delivering the most efficient set among all methods with valid coverage for exchangeable distributions---is a conformal predictor whose score is the inverse conditional density of $Y|X$.",
+ "primary": "math.ST"
+}

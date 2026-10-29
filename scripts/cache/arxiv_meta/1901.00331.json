@@ -1,0 +1,15 @@
+{
+ "id": "1901.00331",
+ "title": "Kernel Density Estimation Bias under Minimal Assumptions",
+ "authors": [
+  "Maciej Skorski"
+ ],
+ "v1_date": "2019-01-02",
+ "latest_version": 1,
+ "latest_date": "2019-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel Density Estimation is a very popular technique of approximating a density function from samples. The accuracy is generally well-understood and depends, roughly speaking, on the kernel decay and local smoothness of the true density. However concrete statements in the literature are often invoked in very specific settings (simplified or overly conservative assumptions) or miss important but subtle points (e.g. it is common to heuristically apply Taylor's expansion globally without referring to compactness). The contribution of this paper is twofold (a) we demonstrate that, when the bandwidth is an arbitrary invertible matrix going to zero, it is necessary to keep a certain balance between the \\emph{kernel decay} and \\emph{magnitudes of bandwidth eigenvalues}; in fact, without the sufficient decay the estimates may not be even bounded (b) we give a rigorous derivation of bounds with explicit constants for the bias, under possibly minimal assumptions. This connects the kernel decay, bandwidth norm, bandwidth determinant and density smoothness. It has been folklore that the issue with Taylor's formula can be fixed with more complicated assumptions on the density (for example p. 95 of \"Kernel Smoothing\" by Wand and Jones); we show that this is actually not necessary and can be handled by the kernel decay alone.",
+ "primary": "math.ST"
+}

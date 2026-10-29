@@ -1,0 +1,17 @@
+{
+ "id": "2510.17578",
+ "title": "A robust and scalable estimation for high-dimensional volatility models",
+ "authors": [
+  "Kejun Chen",
+  "Yuchang Lin",
+  "Qianqian Zhu"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 4,
+ "latest_date": "2026-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a robust and computationally efficient estimation framework for high-dimensional volatility models in the BEKK-ARCH class. The proposed approach employs data truncation to ensure robustness against heavy-tailed distributions and utilizes a regularized least squares method for efficient optimization in high-dimensional settings. Non-asymptotic error bounds are established for the resulting estimators under heavy-tailed regimes, and the minimax optimal convergence rate is derived. Moreover, a robust BIC and a Ridge-type estimator are introduced for selecting the model order and the number of BEKK components, respectively, with their selection consistency established under heavy-tailed settings. Simulation studies demonstrate finite-sample performance of the proposed method, and two empirical applications illustrate its practical utility. The results show that the new framework outperforms existing alternatives in both computational speed and forecasting accuracy.",
+ "primary": "math.ST"
+}

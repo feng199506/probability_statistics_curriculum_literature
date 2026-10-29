@@ -1,0 +1,21 @@
+{
+ "id": "2601.05396",
+ "title": "Uncertainty Analysis of Experimental Parameters for Reducing Warpage in Injection Molding",
+ "authors": [
+  "Yezhuo Li",
+  "Fan Zhang",
+  "Dhanashree Shinde",
+  "Qiong Zhang",
+  "Sai Pradeep",
+  "Srikanth Pilla",
+  "Gang Li"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 1,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Injection molding is a critical manufacturing process, but controlling warpage remains a major challenge due to complex thermomechanical interactions. Simulation-based optimization is widely used to address this, yet traditional methods often overlook the uncertainty in model parameters. In this paper, we propose a data-driven framework to minimize warpage and quantify the uncertainty of optimal process settings. We employ polynomial regression models as surrogates for the injection molding simulations of a box-shaped part. By adopting a Bayesian framework, we estimate the posterior distribution of the regression coefficients. This approach allows us to generate a distribution of optimal decisions rather than a single point estimate, providing a measure of solution robustness. Furthermore, we develop a Monte Carlo-based boundary analysis method. This method constructs confidence bands for the zero-level sets of the response surfaces, helping to visualize the regions where warpage transitions between convex and concave profiles. We apply this framework to optimize four key process parameters: mold temperature, injection speed, packing pressure, and packing time. The results show that our approach finds stable process settings and clearly marks the boundaries of defects in the parameter space.",
+ "primary": "stat.ME"
+}

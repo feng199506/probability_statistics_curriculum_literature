@@ -1,0 +1,17 @@
+{
+ "id": "2412.11140",
+ "title": "BUPD: A Bayesian under-parameterized basket design with the unit information prior in oncology trials",
+ "authors": [
+  "Ryo Kitabayashi",
+  "Hiroyuki Sato",
+  "Akihiro Hirakawa"
+ ],
+ "v1_date": "2024-12-15",
+ "latest_version": 1,
+ "latest_date": "2024-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Basket trials in oncology enroll multiple patients with cancer harboring identical gene alterations and evaluate their response to targeted therapies across cancer types. Several existing methods have extended a Bayesian hierarchical model borrowing information on the response rates in different cancer types to account for the heterogeneity of drug effects. However, these methods rely on several pre-specified parameters to account for the heterogeneity of response rates among different cancer types. Here, we propose a novel Bayesian under-parameterized basket design with a unit information prior (BUPD) that uses only one (or two) pre-specified parameters to control the amount of information borrowed among cancer types, considering the heterogeneity of response rates. BUPD adapts the unit information prior approach, originally developed for borrowing information from historical clinical trial data, to enable mutual information borrowing between two cancer types. BUPD enables flexible controls of the type 1 error rate and power by explicitly specifying the strength of borrowing while providing interpretable estimations of response rates. Simulation studies revealed that BUPD reduced the type 1 error rate in scenarios with few ineffective cancer types and improved the power in scenarios with few effective cancer types better than five existing methods. This study also illustrated the efficiency of BUPD using response rates from a real basket trial.",
+ "primary": "stat.ME"
+}

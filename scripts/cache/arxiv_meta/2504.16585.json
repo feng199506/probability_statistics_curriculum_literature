@@ -1,0 +1,16 @@
+{
+ "id": "2504.16585",
+ "title": "Leveraging Noisy Manual Labels as Useful Information: An Information Fusion Approach for Enhanced Variable Selection in Penalized Logistic Regression",
+ "authors": [
+  "Xiaofei Wu",
+  "Rongmei Liangse"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In large-scale supervised learning, penalized logistic regression (PLR) effectively mitigates overfitting through regularization, yet its performance critically depends on robust variable selection. This paper demonstrates that label noise introduced during manual annotation, often dismissed as a mere artifact, can serve as a valuable source of information to enhance variable selection in PLR. We theoretically show that such noise, intrinsically linked to classification difficulty, helps refine the estimation of non-zero coefficients compared to using only ground truth labels, effectively turning a common imperfection into a useful information resource. To efficiently leverage this form of information fusion in large-scale settings where data cannot be stored on a single machine, we propose a novel partition insensitive parallel algorithm based on the alternating direction method of multipliers (ADMM). Our method ensures that the solution remains invariant to how data is distributed across workers, a key property for reproducible and stable distributed learning, while guaranteeing global convergence at a sublinear rate. Extensive experiments on multiple large-scale datasets show that the proposed approach consistently outperforms conventional variable selection techniques in both estimation accuracy and classification performance, affirming the value of intentionally fusing noisy manual labels into the learning process.",
+ "primary": "cs.LG"
+}

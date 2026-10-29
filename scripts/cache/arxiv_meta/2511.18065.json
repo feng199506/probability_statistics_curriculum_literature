@@ -1,0 +1,15 @@
+{
+ "id": "2511.18065",
+ "title": "Sequential Bootstrap for Out-of-Bag Error Estimation: A 100-Seed Replication Study and Variance-Structure Analysis",
+ "authors": [
+  "Cheng Peng"
+ ],
+ "v1_date": "2025-11-22",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 9 tables, 1 appendix. v2: replication budget extended from 3 to 100 seeds; statistical analyses re-derived under cross-seed paired tests; Section 5 entirely rewritten; new Section 6.3 and Appendix A document the 3-seed vs 100-seed comparison. Code and data: https://github.com/Cheng-Peng0718/SB-OOB-100seed",
+ "abstract": "Out-of-Bag (OOB) estimation is the standard internal diagnostic for bootstrap-aggregated tree ensembles. Under the classical multinomial bootstrap, the number of distinct training observations in each replicate, $U_b$, is itself random, but its contribution to OOB-based variability has rarely been isolated empirically. We use Sequential Bootstrap (SB) -- a resampling scheme that holds $U_b$ at a fixed target $k_n = \\lfloor 0.632 n\\rfloor$ -- as a controlled perturbation of the bootstrap mechanism, and ask whether stabilizing $U_b$ produces any measurable change in OOB-based diagnostics. We reproduce Breiman's five OOB experimental families on twelve synthetic and real datasets, but unlike the three-seed presentation common in this literature, we run 100 independent random seeds with 50 internal replications per seed, enabling formal paired statistical comparison (Wilcoxon signed-rank, paired-$t$, Pitman--Morgan variance test). We report three findings. First, OOB means are essentially insensitive to stabilization of $U_b$: of 57 (experiment, dataset, metric) cells under 100 seeds, only 6 reach $p<0.05$ on the paired mean comparison, and 4 of those 6 point in the opposite direction from what a 3-seed reading would suggest. Second, a narrow but reproducible effect survives at the variance level: SB reduces the cross-seed standard deviation of node-level classification diagnostics on real datasets while slightly increasing it on synthetic ones (permutation $p=0.026$); the Vehicle dataset exhibits a 21% cross-seed sd reduction (Pitman--Morgan $p=0.017$). Third, several directional claims that appear stable across three seeds flip sign under 100-seed replication, illustrating the cost of underpowered replication protocols. We therefore treat SB as a diagnostic tool for probing the distinct-sample-count term in the variance of OOB estimators, not as an alternative to the classical bootstrap.",
+ "primary": "stat.ME"
+}

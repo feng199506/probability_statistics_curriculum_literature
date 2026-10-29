@@ -1,0 +1,20 @@
+{
+ "id": "2605.04219",
+ "title": "Classification-Powered Conformal Inference for Zero-inflated Outcomes",
+ "authors": [
+  "Zhirui Li",
+  "Ricardo Diaz-Rincon",
+  "Benjamin Shickel",
+  "Sai Zhang",
+  "Sohom Bhattacharya",
+  "Muxuan Liang"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 2 figures",
+ "abstract": "Zero-inflated outcomes, where responses are zero with positive probability and otherwise continuous, are common in biomedical, environmental, and social science studies. We propose a conformal prediction based framework that provides distribution-free uncertainty quantification tailored to such outcomes. Standard conformal methods often ignore strong predictors distinguishing zero from non-zero outcomes, leading to overly conservative and unnecessarily long prediction sets. Our method integrates a classification step to identify zero outcomes and applies conformal inference to the non-zero part, producing prediction sets that are either ${0}$ or an interval. Under exchangeability, we establish that the proposed procedure attains the target marginal coverage and achieves asymptotically minimal interval length within this framework, regardless of the choice of classification or regression models. Extensive simulations and real-data application demonstrate the superior performance of our approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.04297",
+ "title": "Staged trees for discrete longitudinal data",
+ "authors": [
+  "Jack Storror Carter",
+  "Manuele Leonelli",
+  "Eva Riccomagno",
+  "Alessandro Ugolini"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 1,
+ "latest_date": "2024-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 11 figures",
+ "abstract": "In this paper we investigate the use of staged tree models for discrete longitudinal data. Staged trees are a type of probabilistic graphical model for finite sample space processes. They are a natural fit for longitudinal data because a temporal ordering is often implicitly assumed and standard methods can be used for model selection and probability estimation. However, model selection methods perform poorly when the sample size is small relative to the size of the graph and model interpretation is tricky with larger graphs. This is exacerbated by longitudinal data which is characterised by repeated observations. To address these issues we propose two approaches: the longitudinal staged tree with Markov assumptions which makes some initial conditional independence assumptions represented by a directed acyclic graph and marginal longitudinal staged trees which model certain margins of the data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2409.16207",
+ "title": "Asymptotic considerations in a Bayesian linear model with nonparametrically modelled time series innovations",
+ "authors": [
+  "Claudia Kirch",
+  "Alexander Meier",
+  "Renate Meyer",
+  "Yifu Tang"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers a semiparametric approach within the general Bayesian linear model where the innovations consist of a stationary, mean zero Gaussian time series. While a parametric prior is specified for the linear model coefficients, the autocovariance structure of the time series is modeled nonparametrically using a Bernstein-Gamma process prior for the spectral density function, the Fourier transform of the autocovariance function. When updating this joint prior with Whittle's likelihood, a Bernstein-von-Mises result is established for the linear model coefficients showing the asymptotic equivalence of the corresponding estimators to those obtained from frequentist pseudo-maximum-likelihood estimation under the Whittle likelihood. Local asymptotic normality of the likelihood is shown, demonstrating that the marginal posterior distribution of the linear model coefficients shrinks at parametric rate towards the true value, and that the conditional posterior distribution of the spectral density contracts in the sup-norm, even in the case of a partially misspecified linear model.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.08749",
+ "title": "Theoretical guarantees for change localization using conformal p-values",
+ "authors": [
+  "Swapnaneel Bhattacharyya",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 8 figures",
+ "abstract": "Changepoint localization aims to provide confidence sets for a changepoint (if one exists). Existing methods either relying on strong parametric assumptions or providing only asymptotic guarantees or focusing on a particular kind of change(e.g., change in the mean) rather than the entire distributional change. A method (possibly the first) to achieve distribution-free changepoint localization with finite-sample validity was recently introduced by \\cite{dandapanthula2025conformal}. However, while they proved finite sample coverage, there was no analysis of set size. In this work, we provide rigorous theoretical guarantees for their algorithm. We also show the consistency of a point estimator for change, and derive its convergence rate without distributional assumptions. Along that line, we also construct a distribution-free consistent test to assess whether a particular time point is a changepoint or not. Thus, our work provides unified distribution-free guarantees for changepoint detection, localization, and testing. In addition, we present various finite sample and asymptotic properties of the conformal $p$-value in the distribution change setup, which provides a theoretical foundation for many applications of the conformal $p$-value. As an application of these properties, we construct distribution-free consistent tests for exchangeability against distribution-change alternatives and a new, computationally tractable method of optimizing the powers of conformal tests. We run detailed simulation studies to corroborate the performance of our methods and theoretical results. Together, our contributions offer a comprehensive and theoretically principled approach to distribution-free changepoint inference, broadening both the scope and credibility of conformal methods in modern changepoint analysis.",
+ "primary": "math.ST"
+}

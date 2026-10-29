@@ -1,0 +1,17 @@
+{
+ "id": "2410.23412",
+ "title": "BAMITA: Bayesian Multiple Imputation for Tensor Arrays",
+ "authors": [
+  "Ziren Jiang",
+  "Gen Li",
+  "Eric F. Lock"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 1,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 5 tables, 2 figures",
+ "abstract": "Data increasingly take the form of a multi-way array, or tensor, in several biomedical domains. Such tensors are often incompletely observed. For example, we are motivated by longitudinal microbiome studies in which several timepoints are missing for several subjects. There is a growing literature on missing data imputation for tensors. However, existing methods give a point estimate for missing values without capturing uncertainty. We propose a multiple imputation approach for tensors in a flexible Bayesian framework, that yields realistic simulated values for missing entries and can propagate uncertainty through subsequent analyses. Our model uses efficient and widely applicable conjugate priors for a CANDECOMP/PARAFAC (CP) factorization, with a separable residual covariance structure. This approach is shown to perform well with respect to both imputation accuracy and uncertainty calibration, for scenarios in which either single entries or entire fibers of the tensor are missing. For two microbiome applications, it is shown to accurately capture uncertainty in the full microbiome profile at missing timepoints and used to infer trends in species diversity for the population. Documented R code to perform our multiple imputation approach is available at https://github.com/lockEF/MultiwayImputation .",
+ "primary": "stat.ME"
+}

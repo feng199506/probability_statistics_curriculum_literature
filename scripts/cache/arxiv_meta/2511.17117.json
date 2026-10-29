@@ -1,0 +1,15 @@
+{
+ "id": "2511.17117",
+ "title": "Modified Delayed Acceptance MCMC for Quasi-Bayesian Inference with Linear Moment Conditions",
+ "authors": [
+  "Masahiro Tanaka"
+ ],
+ "v1_date": "2025-11-21",
+ "latest_version": 5,
+ "latest_date": "2026-02-17",
+ "journal_ref": "Proceedings of the 15th International Conference on Mathematics, Actuarial Science, Computer Science, and Statistics (MACS 2025)",
+ "doi": "10.1109/macs68476.2025.11453367",
+ "comment": "",
+ "abstract": "We develop a computationally efficient framework for quasi-Bayesian inference based on linear moment conditions. The approach employs a delayed acceptance Markov chain Monte Carlo (DA-MCMC) algorithm that uses a surrogate target kernel and a proposal distribution derived from an approximate conditional posterior, thereby exploiting the structure of the quasi-likelihood. Two implementations are introduced. DA-MCMC-Exact fully incorporates prior information into the proposal distribution and maximizes per-iteration efficiency, whereas DA-MCMC-Approx omits the prior in the proposal to reduce matrix inversions, improving numerical stability and computational speed in higher dimensions. Simulation studies on heteroskedastic linear regressions show substantial gains over standard MCMC and conventional DA-MCMC baselines, measured by multivariate effective sample size per iteration and per second. The Approx variant yields the best overall throughput, while the Exact variant attains the highest per-iteration efficiency. Applications to two empirical instrumental variable regressions corroborate these findings: the Approx implementation scales to larger designs where other methods become impractical, while still delivering precise inference. Although developed for moment-based quasi-posteriors, the proposed approach also extends to risk-based quasi-Bayesian formulations when first-order conditions are linear and can be transformed analogously. Overall, the proposed algorithms provide a practical and robust tool for quasi-Bayesian analysis in statistical applications.",
+ "primary": "stat.CO"
+}

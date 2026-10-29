@@ -1,0 +1,17 @@
+{
+ "id": "2507.18876",
+ "title": "A Non-Parametric Sensitivity Analysis for Bounding Bias in Hybrid Control Trials",
+ "authors": [
+  "Alissa Gordon",
+  "Emilie Højbjerre-Frandsen",
+  "Alejandro Schuler"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 2,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study hybrid control trials (HCTs), in which a randomized controlled trial (RCT) is augmented with external control patients. Existing approaches for HCTs typically assume conditional exchangeability of the concurrent and external controls to identify trial-specific effects. When violated, this can induce substantial unquantified bias, which in turn limits the acceptability of HCTs in regulatory settings. We treat violations of mean exchangeability as omitted variable bias and develop a non-parametric sensitivity analysis that (i) applies to the efficient, doubly robust HCT estimator of the trial-specific ATE, and (ii) delivers sharp bounds on the bias induced by unmeasured covariates. Building on recent work in double machine learning, our approach characterizes the maximal bias in terms of two partial R-squared sensitivity parameters: the additional explanatory power that unmeasured confounders could have for the outcome regression and for trial participation. For any given choice of these parameters, we construct valid confidence bounds for bias-adjusted treatment effects and visualize critical causal gaps via contour plots and robustness values that show how strong unmeasured confounding would need to be to overturn nominally significant HCT findings. Through simulations, we show that the method (i) reliably upper-bounds true bias, (ii) restores type I error control in settings where naïve HCT analysis is anti-conservative, and (iii) can still deliver meaningful power gains and RCT sample-size reductions even under moderate violations of mean exchangeability. We illustrate the approach in a phase III trial on diabetes, supplemented with external controls. We discuss practical guidelines for designing and evaluating HCTs, including external-data selection, sample-size allocation, and interpretation of sensitivity contours.",
+ "primary": "stat.ME"
+}

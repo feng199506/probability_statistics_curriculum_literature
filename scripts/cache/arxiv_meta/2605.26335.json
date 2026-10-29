@@ -1,0 +1,18 @@
+{
+ "id": "2605.26335",
+ "title": "Unobserved Heterogeneity in Threshold Regression Based on the Hitting Times of a Reflected Brownian Motion for Recurrent Hypoglycemia",
+ "authors": [
+  "Yingfa Xie",
+  "Haoda Fu",
+  "Yuan Huang",
+  "Jun Yan"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Analyses of recurrent hypoglycemia are critical for effective treatment management in diabetic patients. Typically, within-subject dependency in such analyses is captured through subject-level frailty. Recent research has modeled recurrent hypoglycemia using the first hitting times of a reflected Brownian motion. A close examination of this approach reveals that it does not adequately account for varying frailties among individuals, which indicate notable heterogeneity. To address this gap, we propose a finite mixture model of the first hitting time distribution of the reflected Brownian motion. This model allows for component-specific regression coefficients and frailty parameters, providing nuanced insights into how risk factors differently affect patient subgroups. We employ a Bayesian framework for inference, utilizing Markov chain Monte Carlo for estimation. Model selection is conducted using the Deviance Information Criterion and the Logarithm of the Pseudo-Marginal Likelihood. The effectiveness of these criteria is assessed through simulation studies. Application to recurrent hypoglycemia modeling revealed two subgroups with different risk profiles, as reflected in their volatilities. Bayesian model comparison criteria favor the model with component specific regression coefficients for volatilities. The subgroup with lower volatility exhibits a larger variance and, hence, a greater level of heterogeneity.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.10592",
+ "title": "Bayesian sample size determination using robust commensurate priors with interpretable discrepancy weights",
+ "authors": [
+  "Lou E. Whitehead",
+  "James M. S. Wason",
+  "Oliver Sailer",
+  "Haiyan Zheng"
+ ],
+ "v1_date": "2024-01-19",
+ "latest_version": 2,
+ "latest_date": "2024-05-28",
+ "journal_ref": "Statistical Methods in Medical Research 2026",
+ "doi": "10.1177/09622802261432816",
+ "comment": "A submitted paper with 33 pages (inclusive of references, 4 figures and 5 tables)",
+ "abstract": "Randomized controlled clinical trials provide the gold standard for evidence generation in relation to the efficacy of a new treatment in medical research. Relevant information from previous studies may be desirable to incorporate in the design and analysis of a new trial, with the Bayesian paradigm providing a coherent framework to formally incorporate prior knowledge. Many established methods involve the use of a discounting factor, sometimes related to a measure of `similarity' between historical and the new trials. However, it is often the case that the sample size is highly nonlinear in those discounting factors. This hinders communication with subject-matter experts to elicit sensible values for borrowing strength at the trial design stage. Focusing on a commensurate predictive prior method that can incorporate historical data from multiple sources, we highlight a particular issue of nonmonotonicity and explain why this causes issues with interpretability of the discounting factors (hereafter referred to as `weights'). We propose a solution for this, from which an analytical sample size formula is derived. We then propose a linearization technique such that the sample size changes uniformly over the weights. Our approach leads to interpretable weights that represent the probability that historical data are (ir)relevant to the new trial, and could therefore facilitate easier elicitation of expert opinion on their values. Keywords: Bayesian sample size determination; Commensurate priors; Historical borrowing; Prior aggregation; Uniform shrinkage.",
+ "primary": "stat.ME"
+}

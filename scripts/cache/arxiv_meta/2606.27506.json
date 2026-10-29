@@ -1,0 +1,16 @@
+{
+ "id": "2606.27506",
+ "title": "Contextual Associations Between Webpage Elements for Web Accessibility: An Empirical Study",
+ "authors": [
+  "Kishan Rakesh",
+  "Shiyi Wei"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 2 Figures, 1 Table, submitted to ESEIW 2026 ESEM - Registered Reports Track",
+ "abstract": "[Context] Screen reader users navigating webpages by element list often encounter accessible names such as \"Read more\" that are valid under the W3C Accessible Name and Description Computation specification but uninterpretable in isolation. The surrounding elements that would make these names meaningful exist in the page but are not linked to the target by any mechanism. No prior work has empirically studied how to select which surrounding elements are contextually relevant to a given target. [Objective] This registered report investigates whether human-perceived contextual associations between webpage elements can be recovered from the accessibility tree using link prediction, and whether the learned associations generalize across websites. [Method] We will construct a dataset of human-annotated contextual associations on 35 websites, stratified across the Tranco top-million list, with three independent annotators per page. Each page is represented as a graph derived from its accessibility tree, augmented with spatial and semantic features from the DOM and CSS. We compare four machine learning models (MLP, GCN, GAT, and SEAL) against two heuristic baselines under leave-one-site-out cross-validation with a pre-registered statistical framework, using Hit@K and MRR. [Results] We have conducted a five-site author-annotated pilot study to establish the pipelines and parameterize the power simulation, with pilot Hit@10 ranging from 0.16 to 0.85 across four learned models and 0.08 to 0.30 across two heuristic baselines. The final results will be reported after the planned experiments and analyses are completed. [Conclusion] The study contributes a human-annotated dataset of contextual associations on webpages, an empirical evaluation of link prediction for context selection on accessibility-tree graphs, and a cross-site generalization analysis.",
+ "primary": "cs.SE"
+}

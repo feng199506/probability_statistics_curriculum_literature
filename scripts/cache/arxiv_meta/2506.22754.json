@@ -1,0 +1,18 @@
+{
+ "id": "2506.22754",
+ "title": "Doubly robust estimation of causal effects for random object outcomes with continuous treatments",
+ "authors": [
+  "Satarupa Bhattacharjee",
+  "Bing Li",
+  "Xiao Wu",
+  "Lingzhou Xue"
+ ],
+ "v1_date": "2025-06-28",
+ "latest_version": 1,
+ "latest_date": "2025-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 5 figures",
+ "abstract": "Causal inference is central to statistics and scientific discovery, enabling researchers to identify cause-and-effect relationships beyond associations. While traditionally studied within Euclidean spaces, contemporary applications increasingly involve complex, non-Euclidean data structures that reside in abstract metric spaces, known as random objects, such as images, shapes, networks, and distributions. This paper introduces a novel framework for causal inference with continuous treatments applied to non-Euclidean data. To address the challenges posed by the lack of linear structures, we leverage Hilbert space embeddings of the metric spaces to facilitate Fréchet mean estimation and causal effect mapping. Motivated by a study on the impact of exposure to fine particulate matter on age-at-death distributions across U.S. counties, we propose a nonparametric, doubly-debiased causal inference approach for outcomes as random objects with continuous treatments. Our framework can accommodate moderately high-dimensional vector-valued confounders and derive efficient influence functions for estimation to ensure both robustness and interpretability. We establish rigorous asymptotic properties of the cross-fitted estimators and employ conformal inference techniques for counterfactual outcome prediction. Validated through numerical experiments and applied to real-world environmental data, our framework extends causal inference methodologies to complex data structures, broadening its applicability across scientific disciplines.",
+ "primary": "stat.ME"
+}

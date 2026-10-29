@@ -1,0 +1,16 @@
+{
+ "id": "2610.05741",
+ "title": "A Dirichlet Mixed-Membership Model for Exact Multivariate Distributional Credibility",
+ "authors": [
+  "Sebastián Calcetero Vanegas",
+  "Ian Weng Chan"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Credibility theory combines individual experience with portfolio information for insurance pricing, but classical formulations focus primarily on conditional means and expected premiums. We propose a Dirichlet mixed-membership model (DMMM) for multivariate distributional credibility. Policyholder risk is represented by a stable composition over latent risk classes: baseline characteristics determine its a priori assessment, while repeated multivariate experience progressively updates its a posteriori assessment. Support-specific expert distributions accommodate heterogeneous outcomes, with dependence induced through the shared latent structure. The resulting posterior predictive distribution can be written exactly as a convex combination of portfolio and experience components, extending the familiar credibility-factor structure beyond the conditional mean. We study the framework through a simulation experiment and a vehicle telematics application. The simulation shows that relatively simple experts can capture complex multivariate insurance distributions and learn policyholder-specific risk as experience accumulates. In the telematics application, recent claims and driving behaviour provide complementary information for future claim-frequency prediction, allowing similar policyholders to receive different experience-rated assessments. The DMMM therefore provides a flexible and interpretable framework for combining heterogeneous insurance experience while retaining the structure of classical credibility.",
+ "primary": "stat.ME"
+}

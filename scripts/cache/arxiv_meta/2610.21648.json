@@ -1,0 +1,16 @@
+{
+ "id": "2610.21648",
+ "title": "conformalForecast: An R package for sequential conformal prediction in time series",
+ "authors": [
+  "Xiaoqian Wang",
+  "Daniele Girolimetto"
+ ],
+ "v1_date": "2026-10-15",
+ "latest_version": 1,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable uncertainty quantification is central to modern forecasting. Conformal prediction offers model-agnostic intervals with coverage guarantee under exchangeability, but existing software often targets general prediction problems or individual time series procedures rather than integrated workflows for multistep forecasting applications. We introduce conformalForecast, an open-source R package for constructing, updating, and evaluating conformal prediction intervals for multistep time series forecasts. The package separates point forecasting from calibration, accepts forecasts from diverse sources through a common interface, and preserves horizon-specific forecast errors and calibration states. It implements several conformal calibration schemes spanning empirical-quantile, feedback-based, and dependence-aware approaches, together with tools for assessing coverage, interval width, and interval scores over time and across horizons. Fitted objects can be extended as new observations arrive while retaining previously issued intervals and avoiding recomputation at earlier forecast origins. An application to short-term electricity price forecasting across five Australian regions illustrates the workflow. Aggregate coverage is generally close to the nominal level, while rolling coverage and interval efficiency vary across methods and horizons. In the reported experiment, incremental updating reproduces full-reconstruction intervals under identical forecasting and calibration settings while substantially reducing computation. conformalForecast provides a reproducible and extensible framework linking conformal methodology with sequential forecasting practice.",
+ "primary": "stat.CO"
+}

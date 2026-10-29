@@ -1,0 +1,16 @@
+{
+ "id": "2509.19820",
+ "title": "High-Dimensional Statistical Process Control via Manifold Fitting and Learning",
+ "authors": [
+  "Burak I. Tas",
+  "Enrique del Castillo"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 1,
+ "latest_date": "2025-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the Statistical Process Control (SPC) of high-dimensional, dynamic industrial processes from two complementary perspectives: manifold fitting and manifold learning, both of which assume data lies on an underlying nonlinear, lower dimensional space. We propose two distinct monitoring frameworks for online or 'phase II' Statistical Process Control (SPC). The first method leverages state-of-the-art techniques in manifold fitting to accurately approximate the manifold where the data resides within the ambient high-dimensional space. It then monitors deviations from this manifold using a novel scalar distribution-free control chart. In contrast, the second method adopts a more traditional approach, akin to those used in linear dimensionality reduction SPC techniques, by first embedding the data into a lower-dimensional space before monitoring the embedded observations. We prove how both methods provide a controllable Type I error probability, after which they are contrasted for their corresponding fault detection ability. Extensive numerical experiments on a synthetic process and on a replicated Tennessee Eastman Process show that the conceptually simpler manifold-fitting approach achieves performance competitive with, and sometimes superior to, the more classical lower-dimensional manifold monitoring methods. In addition, we demonstrate the practical applicability of the proposed manifold-fitting approach by successfully detecting surface anomalies in a real image dataset of electrical commutators.",
+ "primary": "stat.ML"
+}

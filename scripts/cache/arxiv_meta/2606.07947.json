@@ -1,0 +1,17 @@
+{
+ "id": "2606.07947",
+ "title": "Bayesian Global Fréchet Regression via Weak Conditional Expectations",
+ "authors": [
+  "Simon Fontaine",
+  "Bing Li",
+  "Lingzhou Xue"
+ ],
+ "v1_date": "2026-06-06",
+ "latest_version": 1,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 4 figures",
+ "abstract": "Fréchet regression provides a versatile framework for modeling responses in metric spaces with Euclidean predictors, yet current methodologies rely almost exclusively on frequentist approaches. We propose a Bayesian framework for Fréchet regression that offers a principled way of incorporating prior information into nonlinear global Fréchet regression. By targeting a novel Fréchet Bayes rule, we reduce the object-valued regression problem to a collection of tractable scalar regression tasks. Our approach allows for a controlled interpolation between the prior and the data-driven frequentist estimate, facilitating effective shrinkage toward informed values. While initially derived under Gaussian assumptions, we demonstrate that our framework is robust to model misspecification by establishing its validity under moment conditions via weak conditional expectations. The numerical properties of the proposed methodology are demonstrated in simulation studies and an application to microbiome compositional data, where we show that leveraging an auxiliary cohort to inform the prior significantly enhances predictive performance in a targeted, small-scale study",
+ "primary": "stat.ME"
+}

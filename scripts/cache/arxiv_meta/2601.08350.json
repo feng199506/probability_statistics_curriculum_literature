@@ -1,0 +1,17 @@
+{
+ "id": "2601.08350",
+ "title": "A parsimonious tail compliant multiscale statistical model for aggregated rainfall",
+ "authors": [
+  "Pierre Ailliot",
+  "Carlo Gaetan",
+  "Philippe Naveau"
+ ],
+ "v1_date": "2026-01-13",
+ "latest_version": 1,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modeling rainfall intensity distributions across aggregation scales (from sub-hourly to weekly) is essential for hydrological risk analysis and IDF curves. Aggregation naturally imposes mathematical constraints: return levels must be ordered by time scale, as daily accumulations necessarily exceed sub-daily ones. From a statistical perspective, each aggregation step should ideally not require additional parameters, yet parsimonious models describing the full distribution remain scarce, as most literature focuses on seasonal block maxima. In this study, we propose a parsimonious framework to model all rainfall intensities (low to large) across scales. We utilize the Extended Generalized Pareto Distribution (EGPD), which aligns with extreme value theory for both tails while remaining flexible for the bulk of the distribution. We establish a general result on the behavior of EGPD variables under various aggregation procedures. To overcome the difficulty of direct likelihood inference, we link the EGPD class to Poisson compound sums. This allows the use of the Panjer algorithm for efficient composite likelihood evaluation. Our approach ensures that return levels do not cross across scales and enables estimation for return periods below annual or seasonal levels. We demonstrate the method using sub-hourly series from six French stations with diverse climates. Only eight parameters are needed per station to capture scales from six minutes to three days. IDF curves above and below the annual scale are provided.",
+ "primary": "stat.AP"
+}

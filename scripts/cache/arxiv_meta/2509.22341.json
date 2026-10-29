@@ -1,0 +1,17 @@
+{
+ "id": "2509.22341",
+ "title": "Preventing Model Collapse Under Overparametrization: Optimal Mixing Ratios for Interpolation Learning and Ridge Regression",
+ "authors": [
+  "Anvit Garg",
+  "Sohom Bhattacharya",
+  "Pragya Sur"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 5 figures",
+ "abstract": "Model collapse occurs when generative models degrade after repeatedly training on their own synthetic outputs. We study this effect in overparameterized linear regression in a setting where each iteration mixes fresh real labels with synthetic labels drawn from the model fitted in the previous iteration. We derive precise generalization error formulae for minimum-$\\ell_2$-norm interpolation and ridge regression under this iterative scheme. Our analysis reveals intriguing properties of the optimal mixing weight that minimizes long-term prediction error and provably prevents model collapse. For instance, in the case of min-$\\ell_2$-norm interpolation, we establish that the optimal real-data proportion converges to the reciprocal of the golden ratio for fairly general classes of covariate distributions. Previously, this property was known only for ordinary least squares, and additionally in low dimensions. For ridge regression, we further analyze two popular model classes -- the random-effects model and the spiked covariance model -- demonstrating how spectral geometry governs optimal weighting. In both cases, as well as for isotropic features, we uncover that the optimal mixing ratio should be at least one-half, reflecting the necessity of favoring real-data over synthetic. We study three additional settings: (i) where real data is fixed and fresh labels are not obtained at each iteration, (ii) where covariates vary across iterations but fresh real labels are available each time, and (iii) where covariates vary with time but only a fraction of them receive fresh real labels at each iteration. Across these diverse settings, we characterize when model collapse is inevitable and when synthetic data improves learning. We validate our theoretical results with extensive simulations.",
+ "primary": "stat.ML"
+}

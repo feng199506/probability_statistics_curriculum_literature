@@ -1,0 +1,16 @@
+{
+ "id": "2412.06119",
+ "title": "Sandwich regression for accurate and robust estimation in generalized linear multilevel and longitudinal models",
+ "authors": [
+  "Elliot H. Young",
+  "Rajen D. Shah"
+ ],
+ "v1_date": "2024-12-09",
+ "latest_version": 1,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalized linear models are a popular tool in applied statistics, with their maximum likelihood estimators enjoying asymptotic Gaussianity and efficiency. As all models are wrong, it is desirable to understand these estimators' behaviours under model misspecification. We study semiparametric multilevel generalized linear models, where only the conditional mean of the response is taken to follow a specific parametric form. Pre-existing estimators from mixed effects models and generalized estimating equations require specificaiton of a conditional covariance, which when misspecified can result in inefficient estimates of fixed effects parameters. It is nevertheless often computationally attractive to consider a restricted, finite dimensional class of estimators, as these models naturally imply. We introduce sandwich regression, that selects the estimator of minimal variance within a parametric class of estimators over all distributions in the full semiparametric model. We demonstrate numerically on simulated and real data the attractive improvements our sandwich regression approach enjoys over classical mixed effects models and generalized estimating equations.",
+ "primary": "stat.ME"
+}

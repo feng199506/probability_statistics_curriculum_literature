@@ -1,0 +1,15 @@
+{
+ "id": "2606.04784",
+ "title": "The Preisach Extremum Stack is a Shannon-Minimal Sufficient Statistic for Rate-Independent Functionals",
+ "authors": [
+  "Piotr Frydrych"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages",
+ "abstract": "Let R denote the class of all computable, causal functionals that are rate-independent in the classical sense (invariant under monotone time reparametrizations), and let Pi_n be the Preisach extremum stack of an input sequence u_{0:n}. We prove a characterization theorem establishing that every F in R satisfies Fu = f(Pi_n) for a computable f, and derive two information-theoretic results. First, under any probability measure on u_{0:n}, the equality I(u_{0:n}; Fu) = I(Pi_n; Fu) holds for every F in R and is an immediate corollary of the characterization theorem. Second, the main result: Pi_n is a Shannon-minimal sufficient statistic in the sense that I(u_{0:n}; Pi_n) <= I(u_{0:n}; S) for every random variable S from which all R-queries are computable. The proof uses the finite indicator family of [Frydrych, 2026] to reconstruct Pi_n from any sufficient S. As a corollary, online maintenance of Pi_n suffices for rate-independent estimation: the NNLS estimator of the Preisach measure mu can be assembled from the incremental stack process (Pi_t)_{t=0}^n in O(k * L^2) memory per step, where k = |Pi_t| and L is the grid resolution.",
+ "primary": "cs.IT"
+}

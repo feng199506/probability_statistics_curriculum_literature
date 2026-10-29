@@ -1,0 +1,16 @@
+{
+ "id": "2505.11085",
+ "title": "A Fast Kernel-based Conditional Independence test with Application to Causal Discovery",
+ "authors": [
+  "Oliver Schacht",
+  "Biwei Huang"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 5 figures",
+ "abstract": "Kernel-based conditional independence (KCI) testing is a powerful nonparametric method commonly employed in causal discovery tasks. Despite its flexibility and statistical reliability, cubic computational complexity limits its application to large datasets. To address this computational bottleneck, we propose \\textit{FastKCI}, a scalable and parallelizable kernel-based conditional independence test that utilizes a mixture-of-experts approach inspired by embarrassingly parallel inference techniques for Gaussian processes. By partitioning the dataset based on a Gaussian mixture model over the conditioning variables, FastKCI conducts local KCI tests in parallel, aggregating the results using an importance-weighted sampling scheme. Experiments on synthetic datasets and benchmarks on real-world production data validate that FastKCI maintains the statistical power of the original KCI test while achieving substantial computational speedups. FastKCI thus represents a practical and efficient solution for conditional independence testing in causal inference on large-scale data.",
+ "primary": "cs.LG"
+}

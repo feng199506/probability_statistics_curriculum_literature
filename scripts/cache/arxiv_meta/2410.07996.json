@@ -1,0 +1,16 @@
+{
+ "id": "2410.07996",
+ "title": "Smoothed pseudo-population bootstrap methods with applications to finite population quantiles",
+ "authors": [
+  "Vanessa McNealis",
+  "Christian Léger"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces smoothed pseudo-population bootstrap methods for the purposes of variance estimation and the construction of confidence intervals for finite population quantiles. In an i.i.d. context, it has been shown that resampling from a smoothed estimate of the distribution function instead of the usual empirical distribution function can improve the convergence rate of the bootstrap variance estimator of a sample quantile. We extend the smoothed bootstrap to the survey sampling framework by implementing it in pseudo-population bootstrap methods for high entropy, single-stage survey designs, such as simple random sampling without replacement and Poisson sampling. Given a kernel function and a bandwidth, it consists of smoothing the pseudo-population from which bootstrap samples are drawn using the original sampling design. Given that the implementation of the proposed algorithms requires the specification of the bandwidth, we develop a plug-in selection method along with a grid search selection method based on a bootstrap estimate of the mean squared error. Simulation results suggest a gain in efficiency associated with the smoothed approach as compared to the standard pseudo-population bootstrap for estimating the variance of a quantile estimator together with mixed results regarding confidence interval coverage.",
+ "primary": "stat.ME"
+}

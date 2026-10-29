@@ -1,0 +1,15 @@
+{
+ "id": "2510.17325",
+ "title": "Composite Lp-quantile regression, near quantile regression and the oracle model selection theory",
+ "authors": [
+  "Fuming Lin WEilin Mou"
+ ],
+ "v1_date": "2025-10-20",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 7 figures, 2 tables",
+ "abstract": "In this paper, we consider high-dimensional Lp-quantile regression which only requires a low order moment of the error and is also a natural generalization of the above methods and Lp-regression as well. The loss function of Lp-quantile regression circumvents the non-differentiability of the absolute loss function and the difficulty of the squares loss function requiring the finiteness of error's variance and thus promises excellent properties of Lp-quantile regression. Specifically, we first develop a new method called composite Lp-quantile regression(CLpQR). We study the oracle model selection theory based on CLpQR (call the estimator CLpQR-oracle) and show in some cases of p CLpQR-oracle behaves better than CQR-oracle (based on composite quantile regression) when error's variance is infinite. Moreover, CLpQR has high efficiency and can be sometimes arbitrarily more efficient than both CQR and the least squares regression. Second, we propose another new regression method,i.e. near quantile regression and prove the asymptotic normality of the estimator when p converges to 1 and the sample size infinity simultaneously. As its applications, a new thought of smoothing quantile objective functions and a new estimation are provided for the asymptotic covariance matrix of quantile regression. Third, we develop a unified efficient algorithm for fitting high-dimensional Lp-quantile regression by combining the cyclic coordinate descent and an augmented proximal gradient algorithm. Remarkably, the algorithm turns out to be a favourable alternative of the commonly used liner programming and interior point algorithm when fitting quantile regression.",
+ "primary": "math.ST"
+}

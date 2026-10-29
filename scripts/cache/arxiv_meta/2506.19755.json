@@ -1,0 +1,15 @@
+{
+ "id": "2506.19755",
+ "title": "Cross-regularization: Adaptive Model Complexity through Validation Gradients",
+ "authors": [
+  "Carlos Stein Brito"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 1,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 13 figures. Accepted at ICML 2025",
+ "abstract": "Model regularization requires extensive manual tuning to balance complexity against overfitting. Cross-regularization resolves this tradeoff by directly adapting regularization parameters through validation gradients during training. The method splits parameter optimization - training data guides feature learning while validation data shapes complexity controls - converging provably to cross-validation optima. When implemented through noise injection in neural networks, this approach reveals striking patterns: unexpectedly high noise tolerance and architecture-specific regularization that emerges organically during training. Beyond complexity control, the framework integrates seamlessly with data augmentation, uncertainty calibration and growing datasets while maintaining single-run efficiency through a simple gradient-based approach.",
+ "primary": "cs.LG"
+}

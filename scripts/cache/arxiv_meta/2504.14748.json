@@ -1,0 +1,16 @@
+{
+ "id": "2504.14748",
+ "title": "Statistical Design and Planning of an Adaptive Trial using Hierarchical Composite Outcomes: A Practical example",
+ "authors": [
+  "Krishna Padmanabhan",
+  "Cyrus Mehta"
+ ],
+ "v1_date": "2025-04-20",
+ "latest_version": 1,
+ "latest_date": "2025-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hierarchical composite endpoints, such as those analyzed using the Finkelstein-Schoenfeld (FS) statistic, are increasingly used in clinical trials for their ability to incorporate clinically prioritized outcomes. However, adaptive design methods for these endpoints remain underdeveloped. This paper presents a practical framework for implementing sample size re-estimation (SSR) in trials using hierarchical composites, motivated by a cardiovascular trial with mortality, hospitalization, and a functional response as prioritized endpoints. We use a two-stage adaptive design with a single interim analysis for illustration. The interim analysis incorporates predictive probabilities to determine whether the trial should stop for futility, continue as planned, or increase the sample size to maintain power. The decision framework is based on predefined zones for predictive probability, with corresponding adjustments to the stage 2 sample size. Simulation studies across various treatment scenarios demonstrate strong type I error control and increased power compared to a fixed design, particularly for treatment effects that are clinically relevant but lower than the alternative hypothesis. We also explore an alternative conditional power approach for SSR, offering further sample size optimization. Our results support the use of SSR with hierarchical composite outcomes using an FS statistic, enhancing trial efficiency.",
+ "primary": "stat.ME"
+}

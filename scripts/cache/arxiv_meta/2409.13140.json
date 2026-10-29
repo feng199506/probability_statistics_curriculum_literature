@@ -1,0 +1,16 @@
+{
+ "id": "2409.13140",
+ "title": "Non-parametric Replication of Instrumental Variable Estimates Across Studies",
+ "authors": [
+  "Roy S. Zawadzki",
+  "Daniel L. Gillen"
+ ],
+ "v1_date": "2024-09-20",
+ "latest_version": 1,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Replicating causal estimates across different cohorts is crucial for increasing the integrity of epidemiological studies. However, strong assumptions regarding unmeasured confounding and effect modification often hinder this goal. By employing an instrumental variable (IV) approach and targeting the local average treatment effect (LATE), these assumptions can be relaxed to some degree; however, little work has addressed the replicability of IV estimates. In this paper, we propose a novel survey weighted LATE (SWLATE) estimator that incorporates unknown sampling weights and leverages machine learning for flexible modeling of nuisance functions, including the weights. Our approach, based on influence function theory and cross-fitting, provides a doubly-robust and efficient framework for valid inference, aligned with the growing \"double machine learning\" literature. We further extend our method to provide bounds on a target population ATE. The effectiveness of our approach, particularly in non-linear settings, is demonstrated through simulations and applied to a Mendelian randomization analysis of the relationship between triglycerides and cognitive decline.",
+ "primary": "stat.ME"
+}

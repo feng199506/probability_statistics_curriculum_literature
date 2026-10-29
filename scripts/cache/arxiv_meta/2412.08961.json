@@ -1,0 +1,16 @@
+{
+ "id": "2412.08961",
+ "title": "Belted and Ensembled Neural Network for Linear and Nonlinear Sufficient Dimension Reduction",
+ "authors": [
+  "Yin Tang",
+  "Bing Li"
+ ],
+ "v1_date": "2024-12-12",
+ "latest_version": 2,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 4 figures, 1 table",
+ "abstract": "We introduce a unified, flexible, and easy-to-implement framework of sufficient dimension reduction that can accommodate both linear and nonlinear dimension reduction, and both the conditional distribution and the conditional mean as the targets of estimation. This unified framework is achieved by a specially structured neural network -- the Belted and Ensembled Neural Network (BENN) -- that consists of a narrow latent layer, which we call the belt, and a family of transformations of the response, which we call the ensemble. By strategically placing the belt at different layers of the neural network, we can achieve linear or nonlinear sufficient dimension reduction, and by choosing the appropriate transformation families, we can achieve dimension reduction for the conditional distribution or the conditional mean. Moreover, thanks to the advantage of the neural network, the method is very fast to compute, overcoming a computation bottleneck of the traditional sufficient dimension reduction estimators, which involves the inversion of a matrix of dimension either p or n. We develop the algorithm and convergence rate of our method, compare it with existing sufficient dimension reduction methods, and apply it to two data examples.",
+ "primary": "stat.ML"
+}

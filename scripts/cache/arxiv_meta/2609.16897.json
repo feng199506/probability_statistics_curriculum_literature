@@ -1,0 +1,16 @@
+{
+ "id": "2609.16897",
+ "title": "The Equivariance Criterion in a Linear Model for Random-$X$ Cases",
+ "authors": [
+  "Zhengyang Zhang",
+  "Haojin Zhou"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Equivariance is increasingly used in machine learning and statistics, often without systematic justification. In a companion article, the equivariance criterion was applied to the normal linear model with a fixed design matrix (fixed-$X$), yielding the minimum risk equivariant (MRE) estimators of the coefficient vector and of the condensed diagonal covariance matrix under a multivariate invariant location--scale group. We extend these results to the random-$X$ case, with covariates sampled from a population. The extension hinges on a distinction vacuous for fixed-$X$ but fundamental for random-$X$: whether risk and unbiasedness are evaluated conditionally on the realized design or after averaging over the design distribution. Under conditional evaluation, the fixed-$X$ group applies given $X$: least squares remains the best equivariant estimator of the coefficient vector, and the MRE estimators of the population variances keep their fixed-$X$ forms with population sizes at the realized design. Under absolute evaluation with an i.i.d.\\ design, the picture changes qualitatively: the natural scale group acting jointly on $(Y,X)$ fixes the coefficient vector, the induced parameter-space action is intransitive, equivariant risks are constant only along orbits indexed by the signal-to-noise ratio $ρ=\\|β\\|^2/σ^2$, and no uniformly minimum risk equivariant estimator exists. In the scalar case the optimal equivariant weight is the oracle shrinkage factor $w^*(ρ)=ρ/(ρ+E[T^{-1}])$, with least squares recovered as the infinite-signal limit $ρ\\to\\infty$---explaining and refining the known failure of the Gauss--Markov theorem with random regressors. For a centered design under location--scale transformations, least squares remains optimal within the natural invariant-contrast class, and the MRE estimator $S^2/(n-p+2)$ of the error variance is valid under both modes.",
+ "primary": "math.ST"
+}

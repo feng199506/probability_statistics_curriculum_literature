@@ -1,0 +1,16 @@
+{
+ "id": "2609.18576",
+ "title": "A Bayesian Model Updating Framework for Systems Under Hybrid Uncertainties via Probability Integral Transform and Maximum Mean Discrepancy",
+ "authors": [
+  "Shijie Zhong",
+  "Jiangfeng Fu"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model updating under hybrid uncertainty is challenging because aleatory input variability makes the simulator output a probability distribution rather than a scalar, rendering the likelihood analytically intractable. Existing Approximate Bayesian Computation (ABC) methods typically employ nested Monte Carlo sampling, where aleatory samples are redrawn for each epistemic parameter evaluation, introducing sampling noise into the discrepancy and consequently affecting posterior inference and model evidence. This paper eliminates this resampling noise by construction. The probability integral transform (PIT) converts the stochastic simulator into a deterministic map of distribution-free latent variables and epistemic parameters. By freezing a set of stratified quantile particles, the resulting discrepancy becomes a deterministic, sampling-noise-free function of the unknown parameters. Transitional Markov Chain Monte Carlo (TMCMC) is then employed for posterior inference and model evidence estimation. The framework is validated on a two-dimensional benchmark, a high-dimensional transient oscillator, and Subproblem A of the NASA Langley Multidisciplinary Uncertainty Quantification Challenge. The complete Bayesian analysis is achieved in approximately half a minute on a standard desktop workstation.",
+ "primary": "cs.CE"
+}

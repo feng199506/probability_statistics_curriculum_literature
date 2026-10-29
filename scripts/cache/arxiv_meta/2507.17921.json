@@ -1,0 +1,15 @@
+{
+ "id": "2507.17921",
+ "title": "Sliding Window Informative Canonical Correlation Analysis",
+ "authors": [
+  "Arvind Prasadan"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages (double column), submitted; revised with updated simulations",
+ "abstract": "Canonical correlation analysis (CCA) is a technique for finding correlated sets of features between two datasets. In this paper, we propose a novel extension of CCA to the online, streaming data setting: Sliding Window Informative Canonical Correlation Analysis (SWICCA). Our method uses a streaming principal component analysis (PCA) algorithm as a backend and uses these outputs combined with a small sliding window of samples to estimate the CCA components in real time. We motivate and describe our algorithm, provide numerical simulations to characterize its performance, and provide a theoretical performance guarantee. The SWICCA method is applicable and scalable to extremely high dimensions, and we provide a real-data example that demonstrates this capability.",
+ "primary": "stat.ML"
+}

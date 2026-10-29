@@ -1,0 +1,16 @@
+{
+ "id": "2411.07651",
+ "title": "Quasi-Bayes empirical Bayes: a sequential approach to the Poisson compound decision problem",
+ "authors": [
+  "Stefano Favaro",
+  "Sandra Fortini"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 3,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages",
+ "abstract": "The Poisson compound decision problem is a long-standing problem is statistics, for which empirical Bayes methods are commonly used to estimate Poisson means in static or batch settings. We consider this problem in a streaming, or online, framework. Building on a quasi-Bayesian approach based on Newton's algorithm, we develop a sequential estimate that is easy to evaluate, computationally efficient, and has constant per-observation cost as the data accrue. We establish frequentist guarantees for the proposed estimate, including consistency and asymptotic optimality, with optimality understood as vanishing excess Bayes risk, or regret. Empirical performance is assessed through simulation studies and comparisons with benchmark procedures.",
+ "primary": "stat.ME"
+}

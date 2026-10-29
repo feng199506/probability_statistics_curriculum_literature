@@ -1,0 +1,21 @@
+{
+ "id": "2607.14521",
+ "title": "Uni-AdaVD: Universal Concept Erasure for Visual Generation via Orthogonal Value Decomposition",
+ "authors": [
+  "Qifan Zhou",
+  "Yuan Wang",
+  "Yanbin Hao",
+  "Xiang Wang",
+  "Kuien Liu",
+  "Richang Hong",
+  "Meng Wang"
+ ],
+ "v1_date": "2026-07-16",
+ "latest_version": 1,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Visual generative models inevitably absorb undesirable concepts from uncurated pretraining data, making concept erasure essential for safe deployment. Existing erasure methods, however, are often architecture-specific and struggle to remove target concepts while preserving non-target content and generative priors. We present Uni-AdaVD, a universal inference-time concept erasure framework for visual generation. Uni-AdaVD treats the value space of multimodal attention as a unified intervention space and introduces encoder-aware target representation construction to localize target semantics across heterogeneous text encoders. It further combines orthogonal value decomposition with an adaptive erasing shift to suppress target semantic directions without updating the original model weights. Extensive experiments on U-Net-, DiT-, and autoregressive image generators, as well as text-to-video models, demonstrate strong performance on single- and multi-concept erasure while preserving non-target priors. These results suggest that Uni-AdaVD provides an efficient and adaptable safety mechanism for modern visual generative models. Our code is available at https://github.com/QifanZhou/Uni-AdaVD.",
+ "primary": "cs.CV"
+}

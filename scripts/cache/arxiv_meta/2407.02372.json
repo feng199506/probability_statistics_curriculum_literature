@@ -1,0 +1,16 @@
+{
+ "id": "2407.02372",
+ "title": "Finer-Grained Hardness of Kernel Density Estimation",
+ "authors": [
+  "Josh Alman",
+  "Yunfeng Guan"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 1,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, to appear in the 39th Computational Complexity Conference (CCC 2024)",
+ "abstract": "In batch Kernel Density Estimation (KDE) for a kernel function $f$, we are given as input $2n$ points $x^{(1)}, \\cdots, x^{(n)}, y^{(1)}, \\cdots, y^{(n)}$ in dimension $m$, as well as a vector $v \\in \\mathbb{R}^n$. These inputs implicitly define the $n \\times n$ kernel matrix $K$ given by $K[i,j] = f(x^{(i)}, y^{(j)})$. The goal is to compute a vector $v$ which approximates $K w$ with $|| Kw - v||_\\infty < \\varepsilon ||w||_1$. A recent line of work has proved fine-grained lower bounds conditioned on SETH. Backurs et al. first showed the hardness of KDE for Gaussian-like kernels with high dimension $m = Ω(\\log n)$ and large scale $B = Ω(\\log n)$. Alman et al. later developed new reductions in roughly this same parameter regime, leading to lower bounds for more general kernels, but only for very small error $\\varepsilon < 2^{- \\log^{Ω(1)} (n)}$. In this paper, we refine the approach of Alman et al. to show new lower bounds in all parameter regimes, closing gaps between the known algorithms and lower bounds. In the setting where $m = C\\log n$ and $B = o(\\log n)$, we prove Gaussian KDE requires $n^{2-o(1)}$ time to achieve additive error $\\varepsilon < Ω(m/B)^{-m}$, matching the performance of the polynomial method up to low-order terms. In the low dimensional setting $m = o(\\log n)$, we show that Gaussian KDE requires $n^{2-o(1)}$ time to achieve $\\varepsilon$ such that $\\log \\log (\\varepsilon^{-1}) > \\tilde Ω((\\log n)/m)$, matching the error bound achievable by FMM up to low-order terms. To our knowledge, no nontrivial lower bound was previously known in this regime. Our new lower bounds make use of an intricate analysis of a special case of the kernel matrix -- the `counting matrix'. As a key technical lemma, we give a novel approach to bounding the entries of its inverse by using Schur polynomials from algebraic combinatorics.",
+ "primary": "cs.DS"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.12420",
+ "title": "Rank-based estimators of global treatment effects for cluster randomized trials with multiple endpoints",
+ "authors": [
+  "E. Davies Smith",
+  "V. Jairath",
+  "G. Zou"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 3,
+ "latest_date": "2024-02-08",
+ "journal_ref": "",
+ "doi": "10.1177/09622802251338387",
+ "comment": "32 pages, 5 tables",
+ "abstract": "Cluster randomization trials commonly employ multiple endpoints. When a single summary of treatment effects across endpoints is of primary interest, global hypothesis testing/effect estimation methods represent a common analysis strategy. However, specification of the joint distribution required by these methods is non-trivial, particularly when endpoint properties differ. We develop rank-based interval estimators for a global treatment effect referred to as the \"global win probability,\" or the probability that a treatment individual responds better than a control individual on average. Using endpoint-specific ranks among the combined sample and within each arm, each individual-level observation is converted to a \"win fraction\" which quantifies the proportion of wins experienced over every observation in the comparison arm. An individual's multiple observations are then replaced by a single \"global win fraction,\" constructed by averaging win fractions across endpoints. A linear mixed model is applied directly to the global win fractions to recover point, variance, and interval estimates of the global win probability adjusted for clustering. Simulation demonstrates our approach performs well concerning coverage and type I error, and methods are easily implemented using standard software. A case study using publicly available data is provided with corresponding R and SAS code.",
+ "primary": "stat.ME"
+}

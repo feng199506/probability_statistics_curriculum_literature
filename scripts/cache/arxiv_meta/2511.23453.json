@@ -1,0 +1,16 @@
+{
+ "id": "2511.23453",
+ "title": "Convergence rates of self-repellent random walks, their local time and Event Chain Monte Carlo",
+ "authors": [
+  "Andreas Eberle",
+  "Francis Lörler"
+ ],
+ "v1_date": "2025-11-28",
+ "latest_version": 1,
+ "latest_date": "2025-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages",
+ "abstract": "We study the rate of convergence to equilibrium of the self-repellent random walk and its local time process on the discrete circle $\\mathbb{Z}_n$. While the self-repellent random walk alone is non-Markovian since the jump rates depend on its history via its local time, jointly considering the evolution of the local time profile and the position yields a piecewise deterministic, non-reversible Markov process. We show that this joint process can be interpreted as a second-order lift of a reversible diffusion process, the discrete stochastic heat equation with Gaussian invariant measure. In particular, we obtain a lower bound on the relaxation time of order $Ω(n^{3/2})$. Using a flow Poincaré inequality, we prove an upper bound for a slightly modified dynamics of order $O(n^2)$, matching recent conjectures in the physics literature. Furthermore, since the self-repellent random walk and its local time process coincide with the Event Chain Monte Carlo algorithm for the harmonic chain, a non-reversible MCMC method, we demonstrate that the relaxation time bound confirms the recent empirical observation that Event Chain Monte Carlo algorithms can outperform traditional MCMC methods such as Hamiltonian Monte Carlo.",
+ "primary": "math.PR"
+}

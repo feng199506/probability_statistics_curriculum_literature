@@ -1,0 +1,18 @@
+{
+ "id": "2311.10489",
+ "title": "Handling Overlapping Asymmetric Datasets -- A Twice Penalized P-Spline Approach",
+ "authors": [
+  "Matthew McTeer",
+  "Robin Henderson",
+  "Quentin M Anstee",
+  "Paolo Missier"
+ ],
+ "v1_date": "2023-11-17",
+ "latest_version": 2,
+ "latest_date": "2023-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 17 figures, 8 tables, 34 references",
+ "abstract": "Overlapping asymmetric datasets are common in data science and pose questions of how they can be incorporated together into a predictive analysis. In healthcare datasets there is often a small amount of information that is available for a larger number of patients such as an electronic health record, however a small number of patients may have had extensive further testing. Common solutions such as missing imputation can often be unwise if the smaller cohort is significantly different in scale to the larger sample, therefore the aim of this research is to develop a new method which can model the smaller cohort against a particular response, whilst considering the larger cohort also. Motivated by non-parametric models, and specifically flexible smoothing techniques via generalized additive models, we model a twice penalized P-Spline approximation method to firstly prevent over/under-fitting of the smaller cohort and secondly to consider the larger cohort. This second penalty is created through discrepancies in the marginal value of covariates that exist in both the smaller and larger cohorts. Through data simulations, parameter tunings and model adaptations to consider a continuous and binary response, we find our twice penalized approach offers an enhanced fit over a linear B-Spline and once penalized P-Spline approximation. Applying to a real-life dataset relating to a person's risk of developing Non-Alcoholic Steatohepatitis, we see an improved model fit performance of over 65%. Areas for future work within this space include adapting our method to not require dimensionality reduction and also consider parametric modelling methods. However, to our knowledge this is the first work to propose additional marginal penalties in a flexible regression of which we can report a vastly improved model fit that is able to consider asymmetric datasets, without the need for missing data imputation.",
+ "primary": "stat.ME"
+}

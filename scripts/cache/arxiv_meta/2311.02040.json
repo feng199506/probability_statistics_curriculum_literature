@@ -1,0 +1,15 @@
+{
+ "id": "2311.02040",
+ "title": "Spectral Properties of Elementwise-Transformed Spiked Matrices",
+ "authors": [
+  "Michael J. Feldman"
+ ],
+ "v1_date": "2023-11-03",
+ "latest_version": 3,
+ "latest_date": "2025-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work concerns elementwise-transformations of spiked matrices: $Y_n = n^{-1/2} f( \\sqrt{n} X_n + Z_n)$. Here, $f$ is a function applied elementwise, $X_n$ is a low-rank signal matrix, and $Z_n$ is white noise. We find that principal component analysis is powerful for recovering signal under highly nonlinear or discontinuous transformations. Specifically, in the high-dimensional setting where $Y_n$ is of size $n \\times p$ with $n,p \\rightarrow \\infty$ and $p/n \\rightarrow γ> 0$, we uncover a phase transition: for signal-to-noise ratios above a sharp threshold -- depending on $f$, the distribution of elements of $Z_n$, and the limiting aspect ratio $γ$ -- the principal components of $Y_n$ (partially) recover those of $X_n$. Below this threshold, the principal components of $Y_n$ are asymptotically orthogonal to the signal. In contrast, in the standard setting where $X_n + n^{-1/2}Z_n$ is observed directly, the analogous phase transition depends only on $γ$. A similar phenomenon occurs with $X_n$ square and symmetric and $Z_n$ a generalized Wigner matrix.",
+ "primary": "math.ST"
+}

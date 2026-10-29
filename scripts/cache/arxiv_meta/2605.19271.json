@@ -1,0 +1,15 @@
+{
+ "id": "2605.19271",
+ "title": "Ranking with Confidence: A Probabilistic Framework for Deterministic Ranking Methods",
+ "authors": [
+  "Shunpu Zhang"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rankings are central to decision-making in fields ranging from education to online platforms, yet classical deterministic methods such as the Borda count method or Copeland-type pairwise methods ignore uncertainty due to sampling noise or incomplete data. We propose a probabilistic framework that treats true ranks as latent random variables, enabling quantification of ranking uncertainty. We introduce new ranking criteria based on pairwise dominance probabilities, derive approximate inference procedures, and provide a novel Worst Best rank method to construct simultaneous and individual confidence intervals for ranks. Our approach is the first to provide formal uncertainty quantification for classical deterministic rankings. It is inherently robust to missing data: unlike Copeland type methods, which penalize entities with fewer observed comparisons by assigning them fewer wins, our pairwise probability model adjusts for incompleteness, eliminating bias toward items with more complete records. The resulting rankings reflect underlying performance rather than data availability, enhancing fairness, transparency, and statistical reliability in high-stakes applications.",
+ "primary": "stat.ME"
+}

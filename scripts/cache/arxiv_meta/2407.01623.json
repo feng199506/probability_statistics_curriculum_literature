@@ -1,0 +1,18 @@
+{
+ "id": "2407.01623",
+ "title": "Combinations of distributional regression algorithms with application in uncertainty estimation of corrected satellite precipitation products",
+ "authors": [
+  "Georgia Papacharalampous",
+  "Hristos Tyralis",
+  "Nikolaos Doulamis",
+  "Anastasios Doulamis"
+ ],
+ "v1_date": "2024-06-29",
+ "latest_version": 2,
+ "latest_date": "2025-01-06",
+ "journal_ref": "Machine Learning with Applications 19 (2025) 100615",
+ "doi": "10.1016/j.mlwa.2024.100615",
+ "comment": "",
+ "abstract": "To facilitate effective decision-making, precipitation datasets should include uncertainty estimates. Quantile regression with machine learning has been proposed for issuing such estimates. Distributional regression offers distinct advantages over quantile regression, including the ability to model intermittency as well as a stronger ability to extrapolate beyond the training data, which is critical for predicting extreme precipitation. Therefore, here, we introduce the concept of distributional regression in precipitation dataset creation, specifically for the spatial prediction task of correcting satellite precipitation products. Building upon this concept, we formulated new ensemble learning methods that can be valuable not only for spatial prediction but also for other prediction problems. These methods exploit conditional zero-adjusted probability distributions estimated with generalized additive models for location, scale and shape (GAMLSS), spline-based GAMLSS and distributional regression forests as well as their ensembles (stacking based on quantile regression and equal-weight averaging). To identify the most effective methods for our specific problem, we compared them to benchmarks using a large, multi-source precipitation dataset. Stacking was shown to be superior to individual methods at most quantile levels when evaluated with the quantile loss function. Moreover, while the relative ranking of the methods varied across different quantile levels, stacking methods, and to a lesser extent mean combiners, exhibited lower variance in their performance across different quantiles compared to individual methods that occasionally ranked extremely low. Overall, a task-specific combination of multiple distributional regression algorithms could yield significant benefits in terms of stability.",
+ "primary": "cs.LG"
+}

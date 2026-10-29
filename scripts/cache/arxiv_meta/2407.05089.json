@@ -1,0 +1,17 @@
+{
+ "id": "2407.05089",
+ "title": "Bayesian network-guided sparse regression with flexible varying effects",
+ "authors": [
+  "Yangfan Ren",
+  "Christine B. Peterson",
+  "Marina Vannucci"
+ ],
+ "v1_date": "2024-07-06",
+ "latest_version": 1,
+ "latest_date": "2024-07-06",
+ "journal_ref": "Biometrics (2024)",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose Varying Effects Regression with Graph Estimation (VERGE), a novel Bayesian method for feature selection in regression. Our model has key aspects that allow it to leverage the complex structure of data sets arising from genomics or imaging studies. We distinguish between the predictors, which are the features utilized in the outcome prediction model, and the subject-level covariates, which modulate the effects of the predictors on the outcome. We construct a varying coefficients modeling framework where we infer a network among the predictor variables and utilize this network information to encourage the selection of related predictors. We employ variable selection spike-and-slab priors that enable the selection of both network-linked predictor variables and covariates that modify the predictor effects. We demonstrate through simulation studies that our method outperforms existing alternative methods in terms of both feature selection and predictive accuracy. We illustrate VERGE with an application to characterizing the influence of gut microbiome features on obesity, where we identify a set of microbial taxa and their ecological dependence relations. We allow subject-level covariates including sex and dietary intake variables to modify the coefficients of the microbiome predictors, providing additional insight into the interplay between these factors.",
+ "primary": "stat.ME"
+}

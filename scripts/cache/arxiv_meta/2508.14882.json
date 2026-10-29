@@ -1,0 +1,16 @@
+{
+ "id": "2508.14882",
+ "title": "Novel Knockoff Generation and Importance Measures with Heterogeneous Data via Conditional Residuals and Local Gradients",
+ "authors": [
+  "Evan Mason",
+  "Zhe Fei"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 1,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to JMLR",
+ "abstract": "Knockoff variable selection is a powerful framework that creates synthetic knockoff variables to mirror the correlation structure of the observed features, enabling principled control of the false discovery rate in variable selection. However, existing methods often assume homogeneous data types or known distributions, limiting their applicability in real-world settings with heterogeneous, distribution-free data. Moreover, common variable importance measures rely on linear outcome models, hindering their effectiveness for complex relationships. We propose a flexible knockoff generation framework based on conditional residuals that accommodates mixed data types without assuming known distributions. To assess variable importance, we introduce the Mean Absolute Local Derivative (MALD), an interpretable metric compatible with nonlinear outcome functions, including random forests and neural networks. Simulations show that our approach achieves better false discovery rate control and higher power than existing methods. We demonstrate its practical utility on a DNA methylation dataset from mouse tissues, identifying CpG sites linked to aging. Software is available in R (rangerKnockoff) and Python (MALDimportance).",
+ "primary": "stat.ME"
+}

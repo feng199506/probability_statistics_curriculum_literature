@@ -1,0 +1,17 @@
+{
+ "id": "2510.26485",
+ "title": "Discovering Causal Relationships Between Time Series With Spatial Structure",
+ "authors": [
+  "Rebecca F. Supple",
+  "Hannah Worthington",
+  "Ben Swallow"
+ ],
+ "v1_date": "2025-10-30",
+ "latest_version": 4,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 2 figures",
+ "abstract": "Causal discovery is the subfield of causal inference concerned with estimating the structure of cause-and-effect relationships in a system of interrelated variables, as opposed to quantifying the strength or describing the form of causal effects. As interest in causal discovery builds in fields such as ecology, public health, and environmental sciences, where data are regularly collected with spatial and temporal structures, approaches must evolve to manage autocorrelation and complex confounding. As it stands, the few proposed causal discovery algorithms for spatiotemporal data require summarizing across locations, ignore spatial autocorrelation, and/or scale poorly to high dimensions. Here, we introduce our framework to extend time-series causal discovery to systems with spatial structure. Building upon work on causal discovery across contexts and methods for handling spatial confounding in causal effect estimation, we prove the soundness and completeness of our extension in the large sample limit. We close by discussing the feasibility of the framework, outlining remaining gaps in the literature, and identifying directions for future research.",
+ "primary": "stat.ME"
+}

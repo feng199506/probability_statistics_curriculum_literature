@@ -1,0 +1,16 @@
+{
+ "id": "2603.25806",
+ "title": "Context Tree Prior Distributions based on Node Weighting with exact Bayes Factors",
+ "authors": [
+  "Thiago Paulichen",
+  "Victor Freguglia"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 3,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 6 figures",
+ "abstract": "Variable-length Markov chains (VLMCs) are a flexible class of higher-order Markov models that admit a natural representation as context trees. Existing Bayesian methods for specifying prior distributions on trees rely on branching processes, but these suffer from a fundamental limitation: the connection between node-branching probabilities and the structural properties of the induced tree distribution is not straightforward, making it difficult to encode specific structural beliefs. We address this issue by introducing a novel representation of prior distributions on tree spaces, characterized by assigning weights to individual contexts through a function on nodes. In this way, our approach provides an intuitive mechanism for incorporating structural hypotheses into the prior while preserving computational tractability, allowing marginal likelihoods and posterior mode trees to be computed exactly via generalizations of the Context Tree Weighting (CTW) and Context Tree Maximizing (CTM) algorithms. By enabling exact Bayes factor calculations, our methodology provides a principled framework for model comparison over structural priors. We demonstrate the flexibility and effectiveness of our approach by comparing different prior specifications through simulation studies and an application to financial markets.",
+ "primary": "stat.ME"
+}

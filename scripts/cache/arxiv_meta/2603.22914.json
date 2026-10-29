@@ -1,0 +1,17 @@
+{
+ "id": "2603.22914",
+ "title": "Nonparametric regression with dependent censoring or competing risks",
+ "authors": [
+  "Jia-Han Shih",
+  "Simon M. S. Lo",
+  "Ralf A. Wilke"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 2 figures, for associated sample code, see https://github.com/ralfawilke/nonparreg",
+ "abstract": "Single-index models or time-to-event models are frequently applied in empirical research. These models are non-identifiable in presence of unknown (dependent) censoring or competing risks and do not give informative results in empirical analysis unless rather strong, non-testable restrictions hold. Little is known, whether the known robustness properties of the single-index model carry over to models with dependent censoring or competing risks. This paper shows that the ratio of partial covariate effects on the margins is identifiable in nonparametric models with unknown dependent censoring or nonparametric competing risks models with nonparametric dependence structure, provided an exclusion restriction holds. Commonly used (semi)parametric models for the margin and independent censoring, such as Cox proportional hazards, accelerated failure time or proportional odds models, can be used to obtain relative covariate effects despite their misspecified censoring mechanism. Several nonparametric estimators for the general model are introduced and their numerical properties are studied.",
+ "primary": "stat.ME"
+}

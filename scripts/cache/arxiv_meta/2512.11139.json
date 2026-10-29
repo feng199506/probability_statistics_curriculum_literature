@@ -1,0 +1,18 @@
+{
+ "id": "2512.11139",
+ "title": "Autotune: fast, accurate, and automatic tuning parameter selection for Lasso",
+ "authors": [
+  "Tathagata Sadhukhan",
+  "Ines Wilms",
+  "Stephan Smeekes",
+  "Sumanta Basu"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 4,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "53 pages, 35 figures",
+ "abstract": "Least absolute shrinkage and selection operator (Lasso), the popular variable selection engine for high-dimensional regression, is commonly tuned using cross-validation (CV). This is known to be slow and loses accuracy in high-dimension, low signal-to-noise ratio (SNR) settings. These issues are exacerbated for high-dimensional time series models such as the vector autoregression (VAR), where time series cross-validaiton (TSCV) is used for tuning. We propose $\\texttt{autotune}$, a strategy for the Lasso to tune itself automatically by exploiting information contained in partial residuals computed during a single Lasso fit. The strategy can also be viewed as alternately estimating noise standard deviation and column space of relevant predictors. Numerical experiments on regression and VAR models show that $\\texttt{autotune}$ is faster than existing alternatives, and more accurate when the SNR is low. It also provides an accurate estimator of noise scale and diagnostic plots akin to screeplots for checking model sparsity. We demonstrate the benefit of $\\texttt{autotune}$ on several real data sets and develop an R package available on CRAN.",
+ "primary": "stat.ME"
+}

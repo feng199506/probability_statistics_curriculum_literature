@@ -1,0 +1,17 @@
+{
+ "id": "2402.14260",
+ "title": "A New Regression Lens on Multi-Class Classification",
+ "authors": [
+  "Xin Bing",
+  "Bingqing Li",
+  "Marten Wegkamp"
+ ],
+ "v1_date": "2024-02-22",
+ "latest_version": 4,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Linear Discriminant Analysis (LDA) is a fundamental method for classification. Its simple linear structure facilitates interpretation, and it is naturally suited to multi-class settings. LDA is also closely connected to several classical multivariate techniques, including Fisher's discriminant analysis, canonical correlation analysis, and linear regression. In this paper, we strengthen the connection between LDA and multivariate response regression by establishing an explicit relationship between discriminant directions and regression coefficients. This characterization yields a new regression-based framework for multi-class classification that accommodates structured, regularized, and even non-parametric regression methods. In contrast to existing regression-based approaches, our formulation is particularly amenable to theoretical analysis: we develop a general strategy for deriving bounds on the excess misclassification risk of the proposed classifier across all such regression procedures. As concrete applications, we provide complete theoretical guarantees for two widely used methods -- $\\ell_1$-regularization and reduced-rank regression -- neither of which has previously been fully analyzed in the LDA context. The theoretical results are supported by extensive simulation studies and empirical evaluations on real data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.27365",
+ "title": "Flexible model for varying levels of zeros and outliers in count data",
+ "authors": [
+  "Touqeer Ahmad",
+  "Abid Hussain"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 1,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 6 figures, and 1 table",
+ "abstract": "Count regression models are necessary for examining discrete dependent variables alongside covariates. Nonetheless, when data display outliers, overdispersion, and an abundance of zeros, traditional methods like the zero-inflated negative binomial (ZINB) model sometimes do not yield a satisfactory fit, especially in the tail regions. This research presents a versatile, heavy-tailed discrete model as a resilient substitute for the ZINB model. The suggested framework is built by extending the generalized Pareto distribution and its zero-inflated version to the discrete domain. This formulation efficiently addresses both overdispersion and zero inflation, providing increased flexibility for heavy-tailed count data. Through intensive simulation studies and real-world implementations, the proposed models are thoroughly tested to see how well they work. The results show that our models always do better than classic negative binomial and zero-inflated negative binomial regressions when it comes to goodness-of-fit. This is especially true for datasets with a lot of zeros and outliers. These results highlight the proposed framework's potential as a strong and flexible option for modeling complicated count data.",
+ "primary": "stat.ME"
+}

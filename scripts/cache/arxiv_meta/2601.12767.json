@@ -1,0 +1,16 @@
+{
+ "id": "2601.12767",
+ "title": "Bayesian Variable Selection with the Quasi-Posterior",
+ "authors": [
+  "Beniamino Hadj-Amar",
+  "Jack Jewson"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Bayesian approach provides powerful methods for variable selection. The ability to incorporate sparsity through prior beliefs and account for parameter uncertainty allows Bayesian variable selection to consistently identify which of the variables are active and exhibit strong finite-sample performance. However, Bayesian methods require the correct specification of full likelihoods for the data, and there is increasing awareness of the problems that model misspecification causes for variable selection. Current approaches to mitigate misspecification either require complex models, detracting from the interpretability of the variable selection task, or move outside rigorous Bayesian uncertainty quantification and provide no recognised method for variable selection. This paper establishes the model quasi-posterior as a principled tool for variable selection. We prove that the model quasi-posterior shares desirable properties of Bayesian variable selection without requiring full likelihood specification. Instead, the quasi-posterior combines a prior with a quasi-likelihood and requires only specification of mean and variance functions, and is therefore robust to other aspects of the data. Marginalising the quasi-likelihood is analytically possible for linear regression, and Laplace approximations are used beyond this to ensure computational tractability. Extensive simulation studies illustrate improved variable selection accuracy across diverse data-generating scenarios when compared with likelihood-based Bayesian variable selection and lasso-penalized methods. We further demonstrate practical relevance through applications to real datasets from social science and genomics.",
+ "primary": "stat.ME"
+}

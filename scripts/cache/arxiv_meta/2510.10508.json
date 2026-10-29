@@ -1,0 +1,18 @@
+{
+ "id": "2510.10508",
+ "title": "Identification and Estimation of Heterogeneous Interference Effects under Unknown Network",
+ "authors": [
+  "Yuhua Zhang",
+  "Jukka-Pekka Onnela",
+  "Shuo Sun",
+  "Ruoyu Wang"
+ ],
+ "v1_date": "2025-10-12",
+ "latest_version": 1,
+ "latest_date": "2025-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Interference--in which a unit's outcome is affected by the treatment of other units--poses significant challenges for the identification and estimation of causal effects. Most existing methods for estimating interference effects assume that the interference networks are known. In many practical settings, this assumption is unrealistic as such networks are typically latent. To address this challenge, we propose a novel framework for identifying and estimating heterogeneous group-level interference effects without requiring a known interference network. Specifically, we assume a shared latent community structure between the observed network and the unknown interference network. We demonstrate that interference effects are identifiable if and only if group-level interference effects are heterogeneous, and we establish the consistency and asymptotic normality of the maximum likelihood estimator (MLE). To handle the intractable likelihood function and facilitate the computation, we propose a Bayesian implementation and show that the posterior concentrates around the MLE. A series of simulation studies demonstrate the effectiveness of the proposed method and its superior performance compared with competitors. We apply our proposed framework to the encounter data of stroke patients from the California Department of Healthcare Access and Information (HCAI) and evaluate the causal interference effects of certain intervention in one hospital on the outcomes of other hospitals.",
+ "primary": "stat.ME"
+}

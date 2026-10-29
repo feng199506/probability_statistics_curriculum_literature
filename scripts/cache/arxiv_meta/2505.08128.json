@@ -1,0 +1,18 @@
+{
+ "id": "2505.08128",
+ "title": "Beyond Basic A/B testing: Improving Statistical Efficiency for Business Growth",
+ "authors": [
+  "Changshuai Wei",
+  "Phuc Nguyen",
+  "Benjamin Zelditch",
+  "Joyce Chen"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 3,
+ "latest_date": "2025-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The standard A/B testing approaches are mostly based on t-test in large scale industry applications. These standard approaches however suffers from low statistical power in business settings, due to nature of small sample-size or non-Gaussian distribution or return-on-investment (ROI) consideration. In this paper, we (i) show the statistical efficiency of using estimating equation and U statistics, which can address these issues separately; and (ii) propose a novel doubly robust generalized U that allows flexible definition of treatment effect, and can handles small samples, distribution robustness, ROI and confounding consideration in one framework. We provide theoretical results on asymptotics and efficiency bounds, together with insights on the efficiency gain from theoretical analysis. We further conduct comprehensive simulation studies, apply the methods to multiple real A/B tests at LinkedIn, and share results and learnings that are broadly useful.",
+ "primary": "stat.ME"
+}

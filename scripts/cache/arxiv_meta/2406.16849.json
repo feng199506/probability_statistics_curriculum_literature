@@ -1,0 +1,16 @@
+{
+ "id": "2406.16849",
+ "title": "Computationally tractable nonparametric bootstrap of high-dimensional sample covariance matrices",
+ "authors": [
+  "Holger Dette",
+  "Angelika Rohde"
+ ],
+ "v1_date": "2024-06-24",
+ "latest_version": 3,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a new ``$(m,mp/n)$ out of $(n,p)$'' sampling-with-replace\\-ment bootstrap for eigenvalue statistics of high-dimensional sample covariance matrices based on $n$ independent $p$-dimensional random vectors. As it only uses $q=\\lfloor mp/n\\rfloor $ coordinates of the observations in a subsample of size $m \\ll n $ from the original data, it is computationally tractable for large scale data. In the high-dimensional scenario $p/n\\rightarrow c\\in (0,\\infty)$, this fully nonparametric bootstrap is shown to consistently reproduce the empirical spectral measure if $m/n\\rightarrow 0$. If $m^2/n\\rightarrow 0$, it approximates correctly the distribution of linear spectral statistics. The crucial component is a suitably defined Representative Subpopulation Condition which is shown to be verified in a large variety of situations. Our proofs are conducted under minimal moment requirements and incorporate delicate results on non-centered quadratic forms, combinatorial trace moments estimates as well as a conditional bootstrap martingale CLT which may be of independent interest.",
+ "primary": "math.ST"
+}

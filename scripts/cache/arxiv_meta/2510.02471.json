@@ -1,0 +1,16 @@
+{
+ "id": "2510.02471",
+ "title": "Predictive inference for time series: why is split conformal effective despite temporal dependence?",
+ "authors": [
+  "Rina Foygel Barber",
+  "Ashwin Pananjady"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 2,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2 has minor changes to the presentation",
+ "abstract": "We consider the problem of uncertainty quantification for prediction in a time series: if we use past data to forecast the next time point, can we provide valid prediction intervals around our forecasts? To avoid placing distributional assumptions on the data, in recent years the conformal prediction method has been a popular approach for predictive inference, since it provides distribution-free coverage for any iid or exchangeable data distribution. However, in the time series setting, the strong empirical performance of conformal prediction methods is not well understood, since even short-range temporal dependence is a strong violation of the exchangeability assumption. Using predictors with \"memory\" -- i.e., predictors that utilize past observations, such as autoregressive models -- further exacerbates this problem. In this work, we examine the theoretical properties of split conformal prediction in the time series setting, including the case where predictors may have memory. Our results bound the loss of coverage of these methods in terms of a new \"switch coefficient\", measuring the extent to which temporal dependence within the time series creates violations of exchangeability. Our characterization of the coverage probability is sharp over the class of stationary, $β$-mixing processes. Along the way, we introduce tools that may prove useful in analyzing other predictive inference methods for dependent data.",
+ "primary": "stat.ML"
+}

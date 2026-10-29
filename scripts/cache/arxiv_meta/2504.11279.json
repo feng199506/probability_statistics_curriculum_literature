@@ -1,0 +1,18 @@
+{
+ "id": "2504.11279",
+ "title": "Simulation-based inference for stochastic nonlinear mixed-effects models with applications in systems biology",
+ "authors": [
+  "Henrik Häggström",
+  "Sebastian Persson",
+  "Marija Cvijovic",
+  "Umberto Picchini"
+ ],
+ "v1_date": "2025-04-15",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "Stat. Comput. 36, 99 (2026)",
+ "doi": "10.1007/s11222-026-10850-8",
+ "comment": "42 pages, 23 figures",
+ "abstract": "The analysis of data from multiple experiments, such as observations of several individuals, is commonly approached using mixed-effects models, which account for variation between individuals through hierarchical representations. This makes mixed-effects models widely applied in fields such as biology, pharmacokinetics, and sociology. In this work, we propose a novel methodology for scalable Bayesian inference in hierarchical mixed-effects models. Our framework first constructs amortized approximations of the likelihood and the posterior distribution, which are then rapidly refined for each individual dataset, to ultimately approximate the parameters posterior across many individuals. The framework is easily trainable, as it uses mixtures of experts but without neural networks, leading to parsimonious yet expressive surrogate models of the likelihood and the posterior. We demonstrate the effectiveness of our methodology using challenging stochastic models, such as mixed-effects stochastic differential equations emerging in systems biology-driven problems. However, the approach is broadly applicable and can accommodate both stochastic and deterministic models. We show that our approach can seamlessly handle inference for many parameters. Additionally, we applied our method to a real-data case study of mRNA transfection. When compared to exact pseudomarginal Bayesian inference, our approach proved to be both fast and competitive in terms of statistical accuracy.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2610.27647",
+ "title": "BARRR: Bidimensional Augmented Reduced Rank Regression for Multi-View Multi-Cohort Data",
+ "authors": [
+  "Jiuzhou Wang",
+  "Eric F. Lock"
+ ],
+ "v1_date": "2026-10-20",
+ "latest_version": 1,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bidimensional data integration across multiple cohorts (i.e., sample groups) and views (i.e., sources or modalities) is crucial in biomedical research to derive holistic insights from heterogeneous datasets. However, most existing integrative methods focus on a single dimension, such as multi-view integration across distinct sources or multi-cohort integration across distinct sample groups. Existing approaches for bidimensional integration are scarce and predominantly unsupervised, overlooking the valuable insights offered by covariates. To address this gap, we introduce the Bidimensional Augmented Reduced Rank Regression (baRRR) method. Our approach models covariate-related and unrelated effects concurrently, while also decomposing effect levels (global, partially shared, and individual) across both dimensions. Extensive simulations demonstrate the advantages of our method with respect to signal recovery, outcome prediction, and missing data imputation. We apply our approach to data from The Cancer Genome Atlas (TCGA), using somatic mutations as covariates to inform patterns of variability across different omics platforms and cancer types. These studies highlight its potential as a robust and adaptable tool for integrative analysis in biomedical research.",
+ "primary": "stat.ME"
+}

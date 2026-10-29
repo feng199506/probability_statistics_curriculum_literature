@@ -1,0 +1,18 @@
+{
+ "id": "2504.09111",
+ "title": "Study on Text Classification for Public Administration",
+ "authors": [
+  "Stefanie Schwaar",
+  "Franziska Diez",
+  "Michael Trebing",
+  "Nils Witznick"
+ ],
+ "v1_date": "2025-04-12",
+ "latest_version": 1,
+ "latest_date": "2025-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In German public administration, there are 45 different offices to which incoming messages need to be distributed. Since these messages are often unstructured, the system has to be based at least partly on message content. For public service no data are given so far and no pretrained model is available. The data we used are conducted by Governikus KG and are of highly different length. To handle those data with standard methods different approaches are known, like normalization or segmentation. However, text classification is highly dependent on the data structure, a study for public administration data is missing at the moment. We conducted such a study analyzing different techniques of classification based on segments, normalization and feature selection. Thereby, we used different methods, this means neural nets, random forest, logistic regression, SVM classifier and SVAE. The comparison shows for the given public service data a classification accuracy of above 80\\% can be reached based on cross validation. We further show that normalization is preferable, while the difference to the segmentation approach depends mainly on the choice of algorithm.",
+ "primary": "stat.AP"
+}

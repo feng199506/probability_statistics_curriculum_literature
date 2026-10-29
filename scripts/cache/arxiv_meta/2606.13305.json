@@ -1,0 +1,19 @@
+{
+ "id": "2606.13305",
+ "title": "Semiparametric Bayesian inference for causal mediation in cluster randomized trials",
+ "authors": [
+  "Woojung Bae",
+  "Michael Daniels",
+  "Joseph Hogan",
+  "Rajesh Vedanthan",
+  "Stavroula Chrysanthopoulou"
+ ],
+ "v1_date": "2026-06-11",
+ "latest_version": 1,
+ "latest_date": "2026-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cluster randomized trials (CRTs) are frequently used to evaluate interventions, yet conducting causal mediation analysis in these settings remains challenging, particularly when the mediator is measured at the cluster level and the number of clusters is small. Standard inference methods often rely on asymptotic assumptions that fail in finite-sample settings, leading to biased variance estimation and invalid confidence intervals. In this paper, we propose a robust inference framework for causal mediation analysis in CRTs. We utilize parametric Bayesian models for the outcome and mediator to ensure computational efficiency and interpretability. Crucially, to quantify uncertainty, we specify a novel similarity-weighted Bayesian bootstrap (SWBB) with a `distance' metric between clusters; this avoids the need for restrictive parametric assumptions and allows the model to borrow more information from `closer' clusters. By combining observed data models with causal assumptions, our approach accurately estimates natural direct and indirect effects even with limited clusters. Simulation studies demonstrate that our method achieves nominal coverage probability across diverse scenarios. We illustrate the practical utility of our approach by assessing mediation in a CRT in Kenya.",
+ "primary": "stat.ME"
+}

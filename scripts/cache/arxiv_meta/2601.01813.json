@@ -1,0 +1,18 @@
+{
+ "id": "2601.01813",
+ "title": "Spatio-temporal modeling and forecasting with Fourier neural operators",
+ "authors": [
+  "Pratik Nag",
+  "Andrew Zammit-Mangion",
+  "Sumeetpal Singh",
+  "Noel Cressie"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 1,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatio-temporal process models are often used for modeling dynamic physical and biological phenomena that evolve across space and time. These phenomena may exhibit environmental heterogeneity and complex interactions that are difficult to capture using traditional statistical process models such as Gaussian processes. This work proposes the use of Fourier neural operators (FNOs) for constructing statistical dynamical spatio-temporal models for forecasting. An FNO is a flexible mapping of functions that approximates the solution operator of possibly unknown linear or non-linear partial differential equations (PDEs) in a computationally efficient manner. It does so using samples of inputs and their respective outputs, and hence explicit knowledge of the underlying PDE is not required. Through simulations from a nonlinear PDE with known solution, we compare FNO forecasts to those from state-of-the-art statistical spatio-temporal-forecasting methods. Further, using sea surface temperature data over the Atlantic Ocean and precipitation data across Europe, we demonstrate the ability of FNO-based dynamic spatio-temporal (DST) statistical modeling to capture complex real-world spatio-temporal dependencies. Using collections of testing instances, we show that the FNO-DST forecasts are accurate with valid uncertainty quantification.",
+ "primary": "stat.ME"
+}

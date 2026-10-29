@@ -1,0 +1,16 @@
+{
+ "id": "2504.05525",
+ "title": "Debiasing Continuous-time Nonlinear Autoregressions",
+ "authors": [
+  "Simon Kuang",
+  "Xinfan Lin"
+ ],
+ "v1_date": "2025-04-07",
+ "latest_version": 1,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study how to identify a class of continuous-time nonlinear systems defined by an ordinary differential equation affine in the unknown parameter. We define a notion of asymptotic consistency as $(n, h) \\to (\\infty, 0)$, and we achieve it using a family of direct methods where the first step is differentiating a noisy time series and the second step is a plug-in linear estimator. The first step, differentiation, is a signal processing adaptation of the nonparametric statistical technique of local polynomial regression. The second step, generalized linear regression, can be consistent using a least squares estimator, but we demonstrate two novel bias corrections that improve the accuracy for finite $h$. These methods significantly broaden the class of continuous-time systems that can be consistently estimated by direct methods.",
+ "primary": "eess.SY"
+}

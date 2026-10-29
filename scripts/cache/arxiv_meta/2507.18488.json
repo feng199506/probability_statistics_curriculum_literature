@@ -1,0 +1,17 @@
+{
+ "id": "2507.18488",
+ "title": "INLA-RF: A Hybrid Modeling Strategy for Spatio-Temporal Environmental Data",
+ "authors": [
+  "Mario Figueira",
+  "Michela Cameletti",
+  "Luca Patelli"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 2,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Environmental processes often exhibit complex, non-linear patterns and discontinuities across space and time, posing significant challenges for traditional geostatistical modeling approaches. In this paper, we propose a hybrid spatio-temporal modeling framework that combines the interpretability and uncertainty quantification of Bayesian models -- estimated using the INLA-SPDE approach -- with the predictive power and flexibility of Random Forest (RF). Specifically, we introduce two novel algorithms, collectively named INLA-RF, which integrate a statistical spatio-temporal model with RF in an iterative two-stage framework. The first algorithm (INLA-RF1) incorporates RF predictions as an offset in the INLA-SPDE model, while the second (INLA-RF2) uses RF to directly correct selected latent field nodes. Both hybrid strategies enable uncertainty propagation between modeling stages, an aspect often overlooked in existing hybrid approaches. In addition, we propose a Kullback-Leibler divergence-based stopping criterion. We evaluate the predictive performance and uncertainty quantification capabilities of the proposed algorithms through two simulation studies. Results suggest that our hybrid approach enhances spatio-temporal prediction while maintaining interpretability and coherence in uncertainty estimates.",
+ "primary": "stat.ME"
+}

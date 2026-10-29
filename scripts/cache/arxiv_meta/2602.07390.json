@@ -1,0 +1,17 @@
+{
+ "id": "2602.07390",
+ "title": "Balancing Covariates in Survey Experiments",
+ "authors": [
+  "Pengfei Tian",
+  "Jiyang Ren",
+  "Yingying Ma"
+ ],
+ "v1_date": "2026-02-07",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The survey experiment is widely used in economics and social sciences to evaluate the effects of treatments or programs. In a standard population-based survey experiment, the experimenter randomly draws experimental units from a target population of interest and then randomly assigns the sampled units to treatment or control conditions to explore the treatment effect of an intervention. Simple random sampling and treatment assignment can balance covariates on average. However, covariate imbalance often exists in finite samples. To address the imbalance issue, we study a stratified approach to balance covariates in a survey experiment. A stratified rejective sampling and rerandomization design is further proposed to enhance the covariate balance. We develop a design-based asymptotic theory for the widely used stratified difference-in-means estimator of the average treatment effect under the proposed design. In particular, we show that it is consistent and asymptotically a convolution of a normal distribution and two truncated normal distributions. This limiting distribution is more concentrated at the true average treatment effect than that under the existing experimental designs. Moreover, we propose a covariate adjustment method in the analysis stage, which can further improve the estimation efficiency. Numerical studies demonstrate the validity and improved efficiency of the proposed method.",
+ "primary": "stat.ME"
+}

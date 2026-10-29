@@ -1,0 +1,17 @@
+{
+ "id": "2604.09779",
+ "title": "Inference conditional on selection: a review",
+ "authors": [
+  "Anna Neufeld",
+  "Ronan Perry",
+  "Daniela Witten"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this article, we review selective inference, a set of techniques for inference when the statistical question asked is a function of the data. This setting often arises in contemporary scientific workflows, where hypotheses and parameters may be selected from the data, rather than specified in advance. In this setting, classical inferential techniques do not achieve \"classical\" guarantees, such as nominal coverage of confidence intervals. We consider three examples for which selective inference solutions are required: inference on a \"winner\", inference on the mean of a region in a regression tree, and inference on the difference in means between a pair of clusters. We argue that conditional guarantees are of scientific interest in such settings. We then review and draw connections between several approaches that provide such guarantees. Finally, we illustrate these approaches in simulation and through an application to single-cell RNA sequencing data.",
+ "primary": "stat.ME"
+}

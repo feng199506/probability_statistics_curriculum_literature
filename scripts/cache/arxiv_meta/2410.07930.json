@@ -1,0 +1,18 @@
+{
+ "id": "2410.07930",
+ "title": "Cost-aware simulation-based inference",
+ "authors": [
+  "Ayush Bharti",
+  "Daolang Huang",
+  "Samuel Kaski",
+  "François-Xavier Briol"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 2,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) is the preferred framework for estimating parameters of intractable models in science and engineering. A significant challenge in this context is the large computational cost of simulating data from complex models, and the fact that this cost often depends on parameter values. We therefore propose \\textit{cost-aware SBI methods} which can significantly reduce the cost of existing sampling-based SBI methods, such as neural SBI and approximate Bayesian computation. This is achieved through a combination of rejection and self-normalised importance sampling, which significantly reduces the number of expensive simulations needed. Our approach is studied extensively on models from epidemiology to telecommunications engineering, where we obtain significant reductions in the overall cost of inference.",
+ "primary": "stat.ML"
+}

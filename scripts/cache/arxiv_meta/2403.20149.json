@@ -1,0 +1,17 @@
+{
+ "id": "2403.20149",
+ "title": "Conformal Prediction for Stochastic Decision-Making of PV Power in Electricity Markets",
+ "authors": [
+  "Yvet Renkema",
+  "Nico Brinkel",
+  "Tarek Alskaif"
+ ],
+ "v1_date": "2024-03-29",
+ "latest_version": 1,
+ "latest_date": "2024-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the use of conformal prediction (CP), an emerging probabilistic forecasting method, for day-ahead photovoltaic power predictions to enhance participation in electricity markets. First, machine learning models are used to construct point predictions. Thereafter, several variants of CP are implemented to quantify the uncertainty of those predictions by creating CP intervals and cumulative distribution functions. Optimal quantity bids for the electricity market are estimated using several bidding strategies under uncertainty, namely: trust-the-forecast, worst-case, Newsvendor and expected utility maximization (EUM). Results show that CP in combination with k-nearest neighbors and/or Mondrian binning outperforms its corresponding linear quantile regressors. Using CP in combination with certain bidding strategies can yield high profit with minimal energy imbalance. In concrete, using conformal predictive systems with k-nearest neighbors and Mondrian binning after random forest regression yields the best profit and imbalance regardless of the decision-making strategy. Combining this uncertainty quantification method with the EUM strategy with conditional value at risk (CVaR) can yield up to 93\\% of the potential profit with minimal energy imbalance.",
+ "primary": "cs.LG"
+}

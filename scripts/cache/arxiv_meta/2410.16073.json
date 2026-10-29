@@ -1,0 +1,18 @@
+{
+ "id": "2410.16073",
+ "title": "On the Geometry of Regularization in Adversarial Training: High-Dimensional Asymptotics and Generalization Bounds",
+ "authors": [
+  "Matteo Vilucchio",
+  "Nikolaos Tsilivis",
+  "Bruno Loureiro",
+  "Julia Kempe"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 1,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Regularization, whether explicit in terms of a penalty in the loss or implicit in the choice of algorithm, is a cornerstone of modern machine learning. Indeed, controlling the complexity of the model class is particularly important when data is scarce, noisy or contaminated, as it translates a statistical belief on the underlying structure of the data. This work investigates the question of how to choose the regularization norm $\\lVert \\cdot \\rVert$ in the context of high-dimensional adversarial training for binary classification. To this end, we first derive an exact asymptotic description of the robust, regularized empirical risk minimizer for various types of adversarial attacks and regularization norms (including non-$\\ell_p$ norms). We complement this analysis with a uniform convergence analysis, deriving bounds on the Rademacher Complexity for this class of problems. Leveraging our theoretical results, we quantitatively characterize the relationship between perturbation size and the optimal choice of $\\lVert \\cdot \\rVert$, confirming the intuition that, in the data scarce regime, the type of regularization becomes increasingly important for adversarial training as perturbations grow in size.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2407.19670",
+ "title": "Overview of PerpectiveArg2024: The First Shared Task on Perspective Argument Retrieval",
+ "authors": [
+  "Neele Falk",
+  "Andreas Waldis",
+  "Iryna Gurevych"
+ ],
+ "v1_date": "2024-07-29",
+ "latest_version": 1,
+ "latest_date": "2024-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Argument retrieval is the task of finding relevant arguments for a given query. While existing approaches rely solely on the semantic alignment of queries and arguments, this first shared task on perspective argument retrieval incorporates perspectives during retrieval, accounting for latent influences in argumentation. We present a novel multilingual dataset covering demographic and socio-cultural (socio) variables, such as age, gender, and political attitude, representing minority and majority groups in society. We distinguish between three scenarios to explore how retrieval systems consider explicitly (in both query and corpus) and implicitly (only in query) formulated perspectives. This paper provides an overview of this shared task and summarizes the results of the six submitted systems. We find substantial challenges in incorporating perspectivism, especially when aiming for personalization based solely on the text of arguments without explicitly providing socio profiles. Moreover, retrieval systems tend to be biased towards the majority group but partially mitigate bias for the female gender. While we bootstrap perspective argument retrieval, further research is essential to optimize retrieval systems to facilitate personalization and reduce polarization.",
+ "primary": "cs.CL"
+}

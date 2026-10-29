@@ -1,0 +1,19 @@
+{
+ "id": "2603.18957",
+ "title": "BVSIMC: Bayesian Variable Selection-Guided Inductive Matrix Completion for Improved and Interpretable Drug Discovery",
+ "authors": [
+  "Sijian Fan",
+  "Liyan Xiong",
+  "Dayuan Wang",
+  "Guoshuai Cai",
+  "Ray Bai"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in drug discovery have demonstrated that incorporating side information (e.g., chemical properties about drugs and genomic information about diseases) often greatly improves prediction performance. However, these side features can vary widely in relevance and are often noisy and high-dimensional. We propose Bayesian Variable Selection-Guided Inductive Matrix Completion (BVSIMC), a new Bayesian model that enables variable selection from side features in drug discovery. By learning sparse latent embeddings, BVSIMC improves both predictive accuracy and interpretability. We validate our method through simulation studies and two drug discovery applications: 1) prediction of drug resistance in Mycobacterium tuberculosis, and 2) prediction of new drug-disease associations in computational drug repositioning. On both synthetic and real data, BVSIMC outperforms several other state-of-the-art methods in terms of prediction. In our two real examples, BVSIMC further reveals the most clinically meaningful side features.",
+ "primary": "cs.LG"
+}

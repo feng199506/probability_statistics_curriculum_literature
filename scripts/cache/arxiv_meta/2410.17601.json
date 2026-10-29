@@ -1,0 +1,21 @@
+{
+ "id": "2410.17601",
+ "title": "Flexible Approach for Statistical Disclosure Control in Geospatial Data",
+ "authors": [
+  "Jon Olav Skøien",
+  "Nicolas Lampach",
+  "Helena Ramos",
+  "Rudolf Seljak",
+  "Renate Koeble",
+  "Linda See",
+  "Marijn van der Velde"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 1,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 19 figures, preprint",
+ "abstract": "We develop a flexible approach by combining the Quadtree-based method with suppression to maximize the utility of the grid data and simultaneously to reduce the risk of disclosing private information from individual units. To protect data confidentiality, we produce a high resolution grid from geo-reference data with a minimum size of 1 km nested in grids with increasingly larger resolution on the basis of statistical disclosure control methods (i.e threshold and concentration rule). While our implementation overcomes certain weaknesses of Quadtree-based method by accounting for irregularly distributed and relatively isolated marginal units, it also allows creating joint aggregation of several variables. The method is illustrated by relying on synthetic data of the Danish agricultural census 2020 for a set of key agricultural indicators, such as the number of agricultural holdings, the utilized agricultural area and the number of organic farms. We demonstrate the need to assess the reliability of indicators when using a sub-sample of synthetic data followed by an example that presents the same approach for generating a ratio (i.e., the share of organic farming). The methodology is provided as the open-source \\textit{R}-package \\textit{MRG} that is adaptable to use with other geo-referenced survey data underlying confidentiality or other privacy restrictions.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2410.09665",
+ "title": "ipd: An R Package for Conducting Inference on Predicted Data",
+ "authors": [
+  "Stephen Salerno",
+  "Jiacheng Miao",
+  "Awan Afiaz",
+  "Kentaro Hoffman",
+  "Anna Neufeld",
+  "Qiongshi Lu",
+  "Tyler H. McCormick",
+  "Jeffrey T. Leek"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 1,
+ "latest_date": "2024-10-12",
+ "journal_ref": "",
+ "doi": "10.1093/bioinformatics/btaf055",
+ "comment": "5 pages, 1 figure",
+ "abstract": "Summary: ipd is an open-source R software package for the downstream modeling of an outcome and its associated features where a potentially sizable portion of the outcome data has been imputed by an artificial intelligence or machine learning (AI/ML) prediction algorithm. The package implements several recent proposed methods for inference on predicted data (IPD) with a single, user-friendly wrapper function, ipd. The package also provides custom print, summary, tidy, glance, and augment methods to facilitate easy model inspection. This document introduces the ipd software package and provides a demonstration of its basic usage. Availability: ipd is freely available on CRAN or as a developer version at our GitHub page: github.com/ipd-tools/ipd. Full documentation, including detailed instructions and a usage `vignette' are available at github.com/ipd-tools/ipd. Contact: jtleek@fredhutch.org and tylermc@uw.edu",
+ "primary": "stat.ME"
+}

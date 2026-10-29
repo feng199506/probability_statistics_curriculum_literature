@@ -1,0 +1,16 @@
+{
+ "id": "2604.02286",
+ "title": "Bayesian covariance regression for differential network analysis of zero-inflated microbiome data",
+ "authors": [
+  "Zichun Xu",
+  "Jing Ma"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Microbial interaction networks can rewire in response to host and environmental factors, yet most existing methods for network estimation treat the covariance structure as static across samples. We propose TRECOR, a Bayesian covariance regression framework for inferring covariate-dependent microbial covariation networks from zero-inflated compositional count data. The method models microbiome counts through a latent multivariate normal distribution defined on the internal nodes of a phylogenetic tree, where both the mean and covariance of the latent variables depend on covariates. The covariance is decomposed into a sparse baseline component, representing a stable microbial covariation network, and a low-rank covariate-dependent perturbation that captures network rewiring. By exploiting the binomial factorization of the multinomial distribution under the logistic-tree-normal representation, the model achieves full conjugacy and posterior inference proceeds via an efficient Gibbs sampler. In simulations, TRECOR substantially outperforms covariance regression applied to transformed counts, demonstrating the importance of explicitly modeling the compositional sampling layer. Applied to gut microbiome data from 531 individuals across three countries, we find that age has the largest effect on microbial covariation, which is a pattern not revealed by mean-based analysis alone. The age-associated differential network is enriched for Enterobacteriaceae and related families, consistent with known developmental shifts in the gut microbiota, while country-associated differential networks implicate diet-related taxa.",
+ "primary": "stat.ME"
+}

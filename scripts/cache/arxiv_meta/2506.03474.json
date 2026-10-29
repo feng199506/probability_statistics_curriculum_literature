@@ -1,0 +1,19 @@
+{
+ "id": "2506.03474",
+ "title": "CORE: Constraint-Aware One-Step Reinforcement Learning for Simulation-Guided Neural Network Accelerator Design",
+ "authors": [
+  "Yifeng Xiao",
+  "Yurong Xu",
+  "Ning Yan",
+  "Masood Mortazavi",
+  "Pierluigi Nuzzo"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 1,
+ "latest_date": "2025-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. 10 pages + appendix. Submitted to NeurIPS 2025",
+ "abstract": "Simulation-based design space exploration (DSE) aims to efficiently optimize high-dimensional structured designs under complex constraints and expensive evaluation costs. Existing approaches, including heuristic and multi-step reinforcement learning (RL) methods, struggle to balance sampling efficiency and constraint satisfaction due to sparse, delayed feedback, and large hybrid action spaces. In this paper, we introduce CORE, a constraint-aware, one-step RL method for simulationguided DSE. In CORE, the policy agent learns to sample design configurations by defining a structured distribution over them, incorporating dependencies via a scaling-graph-based decoder, and by reward shaping to penalize invalid designs based on the feedback obtained from simulation. CORE updates the policy using a surrogate objective that compares the rewards of designs within a sampled batch, without learning a value function. This critic-free formulation enables efficient learning by encouraging the selection of higher-reward designs. We instantiate CORE for hardware-mapping co-design of neural network accelerators, demonstrating that it significantly improves sample efficiency and achieves better accelerator configurations compared to state-of-the-art baselines. Our approach is general and applicable to a broad class of discrete-continuous constrained design problems.",
+ "primary": "cs.LG"
+}

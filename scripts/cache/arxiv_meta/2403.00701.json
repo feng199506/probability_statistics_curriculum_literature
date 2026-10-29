@@ -1,0 +1,18 @@
+{
+ "id": "2403.00701",
+ "title": "Bayesian Model Averaging for Partial Ordering Continual Reassessment Methods",
+ "authors": [
+  "Luka Kovacevic",
+  "Thomas Jaki",
+  "Helen Barnett",
+  "Pavel Mozgunov"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 10 figures",
+ "abstract": "Phase I clinical trials are essential to bringing novel therapies from chemical development to widespread use. Traditional approaches to dose-finding in Phase I trials, such as the '3+3' method and the Continual Reassessment Method (CRM), provide a principled approach for escalating across dose levels. However, these methods lack the ability to incorporate uncertainty regarding the dose-toxicity ordering as found in combination drug trials. Under this setting, dose-levels vary across multiple drugs simultaneously, leading to multiple possible dose-toxicity orderings. The Partial Ordering CRM (POCRM) extends to these settings by allowing for multiple dose-toxicity orderings. In this work, it is shown that the POCRM is vulnerable to 'estimation incoherency' whereby toxicity estimates shift in an illogical way, threatening patient safety and undermining clinician trust in dose-finding models. To this end, the Bayesian model averaged POCRM (BMA-POCRM) is proposed. BMA-POCRM uses Bayesian model averaging to take into account all possible orderings simultaneously, reducing the frequency of estimation incoherencies. The effectiveness of BMA-POCRM in drug combination settings is demonstrated through a specific instance of estimate incoherency of POCRM and simulation studies. The results highlight the improved safety, accuracy and reduced occurrence of estimate incoherency in trials applying the BMA-POCRM relative to the POCRM model.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.04016",
+ "title": "Computational Efficient and Minimax Optimal Nonignorable Matrix Completion",
+ "authors": [
+  "Yuanhong A",
+  "Guoyu Zhang",
+  "Yongcheng Zeng",
+  "Bo Zhang"
+ ],
+ "v1_date": "2025-04-05",
+ "latest_version": 2,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While the matrix completion problem has attracted considerable attention over the decades, few works address the nonignorable missing issue and all have their limitations. In this article, we propose a nuclear norm regularized row- and column-wise matrix U-statistic loss function for the generalized nonignorable missing mechanism, a flexible and generally applicable missing mechanism which contains both ignorable and nonignorable missing mechanism assumptions. The proposed method achieves computational efficiency comparable to the existing missing-at-random approaches, while providing the near minimax optimal statistical convergence rate guarantees for the more general nonignorable missing case. We propose an accelerated proximal gradient algorithm to solve the associated optimization problem, and characterize the interaction between algorithmic and statistical convergence. Simulations and real data analyzes further support the practical utility of the proposed method.",
+ "primary": "stat.ML"
+}

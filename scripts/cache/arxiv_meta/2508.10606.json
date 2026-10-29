@@ -1,0 +1,15 @@
+{
+ "id": "2508.10606",
+ "title": "Bistochastically private release of longitudinal data",
+ "authors": [
+  "Nicolas Ruiz"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 1,
+ "latest_date": "2025-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2402.16094",
+ "abstract": "Although the bulk of the research in privacy and statistical disclosure control is designed for cross-sectional data, i.e. data where individuals are observed at one single point in time, longitudinal data, i.e. individuals observed over multiple periods, are increasingly collected. Such data enhance undoubtedly the possibility of statistical analysis compared to cross-sectional data, but also come with one additional layer of information, individual trajectories, that must remain practically useful in a privacy-preserving way. Few extensions, essentially k-anonymity based, of popular privacy tools have been proposed to deal with the challenges posed by longitudinal data, and these proposals are often complex. By considering randomized response, and specifically its recent bistochastic extension, in the context of longitudinal data, this paper proposes a simple approach for their anonymization. After having characterized new results on bistochastic matrices, we show that a simple relationship exists between the protection of each data set released at each period, and the protection of individuals trajectories over time. In turn, this relationship can be tuned according to desired protection and information requirements. We illustrate the application of the proposed approach by an empirical example.",
+ "primary": "stat.ME"
+}

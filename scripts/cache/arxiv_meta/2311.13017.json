@@ -1,0 +1,15 @@
+{
+ "id": "2311.13017",
+ "title": "W-Kernel and Its Principal Space for Frequentist Evaluation of Bayesian Estimators",
+ "authors": [
+  "Yukito Iba"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 7,
+ "latest_date": "2026-09-06",
+ "journal_ref": "Neural Computation (2026) 38(8) 1408-1468",
+ "doi": "10.1162/neco.a.1547",
+ "comment": "Minor revisions to figures and text, with additions including a Note Added in Proof. Essentially identical in content to the published version, except for editorial changes, notably equation numbering. Supplementary Material appended; references merged",
+ "abstract": "Evaluating the variability of posterior estimates is a key aspect of Bayesian model assessment. In this study, we focus on the posterior covariance matrix W, defined through the log likelihoods of individual observations. Previous studies, notably MacEachern and Peruggia (2002) and Thomas et al. (2018), examined the role of the principal space of W in Bayesian sensitivity analysis. Here, we show that the principal space of W is also central to frequentist evaluation, using the recently proposed Bayesian infinitesimal jackknife (Bayesian IJ) approximation (Giordano & Broderick, 2023) as a key tool. We further clarify the relationship between W and the Fisher kernel, showing that a modified version of the Fisher kernel can be viewed as an approximation to W. Moreover, the matrix W itself can be interpreted as a reproducing kernel, which we refer to as the W-kernel. Based on this connection, we investigate the relation between the W-kernel formulation in the data space and the classical asymptotic formulation in the parameter space. We also introduce the matrix Z, which is effectively dual to W in the sense of PCA; this formulation provides another perspective on the relationship between W and classical asymptotic theory. In the appendixes, we explore approximate bootstrap methods for posterior means and show that projection onto the principal space of W facilitates frequentist evaluation when higher-order terms are included. In addition, we introduce incomplete Cholesky decomposition as an efficient method for computing the principal space of W and discuss the concept of representative subsets of observations.",
+ "primary": "stat.ME"
+}

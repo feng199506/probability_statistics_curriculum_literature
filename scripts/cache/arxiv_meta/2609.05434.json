@@ -1,0 +1,16 @@
+{
+ "id": "2609.05434",
+ "title": "Deep Learning for Reflected BSDEs: Regularization and Error Analysis",
+ "authors": [
+  "Ruimeng Hu",
+  "Yihan Zou"
+ ],
+ "v1_date": "2026-06-27",
+ "latest_version": 1,
+ "latest_date": "2026-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages",
+ "abstract": "Reflected backward stochastic differential equations (RBSDEs) provide a probabilistic formulation for obstacle constrained problems, but existing deep learning methods for their high dimensional solution remain limited. In this paper, we propose two deep learning schemes for RBSDEs, a deep forward scheme (DFS) and a deep backward scheme (DBS), by first reducing the reflected problem to a family of regularized BSDEs. Our main theoretical contribution concerns the DBS: we establish an explicit error bound showing that, for each fixed regularization parameter $\\varepsilon>0$, the approximation error between the DBS solution and the solution to the regularized BSDE is controlled by the associated training loss. We prove that this training loss can be controlled by the universal approximation capability of neural networks. Together, these results yield a theoretical foundation for the deep learning-based solution and complement existing analysis for forward type methods. We illustrate the framework on high dimensional American option pricing, where the reflected formulation allows us to address the continuous time exercise feature directly rather than through a Bermudan approximation. Numerical experiments demonstrate that both DFS and DBS deliver accurate solutions in high dimensions.",
+ "primary": "q-fin.CP"
+}

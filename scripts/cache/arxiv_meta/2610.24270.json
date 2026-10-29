@@ -1,0 +1,17 @@
+{
+ "id": "2610.24270",
+ "title": "Stochastic models with power-law trends: An analysis of Bitcoin price dynamics",
+ "authors": [
+  "Alex Bomfim",
+  "Marta Calvache",
+  "Felipe Quintino"
+ ],
+ "v1_date": "2026-10-16",
+ "latest_version": 1,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical studies have identified power-law scaling and long-memory dynamics in Bitcoin prices. To capture these features, we propose stochastic differential equations (SDEs) with a power-law trend (PLT) for modeling long-term price behavior. As a starting point, we introduce a PLT driven by a Wiener process, where the log-price follows a trend linear in log time. We explicitly derive the SDE solution, provide estimation procedures, and analyze its asymptotic properties. We extend the framework to more general driving noises. A Levy-driven PLT incorporates jump behavior, whereas fractional Brownian motion captures long-range dependence. The model is extended with a power-law volatility. We present a Monte Carlo simulation study that explores the estimator's applicability under jump-diffusion, Variance Gamma, alpha-stable, and fBm noise, and under daily, weekly, and monthly sampling. To highlight our framework's applicability, we model daily Bitcoin prices, compare the PLT model with geometric Brownian motion, and select the driving noise using out-of-sample Monte Carlo forecasting.",
+ "primary": "stat.ME"
+}

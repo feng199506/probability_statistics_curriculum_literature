@@ -1,0 +1,16 @@
+{
+ "id": "2604.00956",
+ "title": "Model Assisted Data Integration: An unbiased sampling strategy to use nonprobability data",
+ "authors": [
+  "Martin Hyllienmark",
+  "Gustaf Strandell"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The aim of survey statistics is to produce estimates with a minimal bias and a corresponding acceptable variance given a specific budget, preferable with a minor response burden for the participants. In recent years, considerable efforts have been made to achieve this through the extended use of found or non-probability data. However, to be able to safely utilize such data, rigorous theoretical foundations is needed, where one main concern is the of lack control due to not having access to the selection mechanism for the data. Several methods have been proposed in the literature to deal with this, though often relying on assumptions that may be difficult or impossible to verify in practice. Extending on the Data Integrated (DI) estimator introduced by Kim and Tam (2021), this paper introduce the Model Assisted Data Integration (MADI) sampling strategy. The proposed sampling strategy includes an estimator that has the desired properties: it is design-unbiased, has a design-unbiased variance estimator and is suitable for the intense production cycle of the statistical agency. The estimator uses nonprobability data combined with a probability sample that has a sampling design which aims to include individuals not captured by the nonprobability data. The estimator can use arbitrary machine learning models to produce unbiased estimates. A main conclusion of the paper is that the proposed sampling strategy can produce estimates with much lower variances compared to traditional survey estimators, and we use real empirical data to illustrate this point.",
+ "primary": "stat.ME"
+}

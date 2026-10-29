@@ -1,0 +1,16 @@
+{
+ "id": "2602.06360",
+ "title": "Robust Bayesian estimation in conditionally heteroscedastic time series models",
+ "authors": [
+  "Jeongho Lee",
+  "Junmo Song"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 5 figures",
+ "abstract": "Outliers can seriously distort statistical inference by inducing excessive sensitivity in the likelihood function, thereby compromising the reliability of Bayesian estimation. To address this issue, we develop a robust Bayesian estimation method for conditionally heteroscedastic time series models by extending the density power divergence (DPD) framework to the Bayesian setting. The resulting DPD-based posterior distribution, controlled by a tuning parameter, achieves a smooth balance between efficiency and robustness. We establish the asymptotic properties of the proposed estimator; specifically, the DPD-based posterior is shown to satisfy a Bernstein-von Mises type theorem, converging to a normal distribution centered at the minimum DPD estimator (MDPDE). Furthermore, the corresponding Bayes estimator, defined as the posterior mean under the DPD-based posterior (EDPE), is asymptotically equivalent to the MDPDE. Monte Carlo simulations based on GARCH(1,1) models confirm that the proposed EDPE performs well under both uncontaminated and contaminated data, maintaining robustness where the ordinary Bayes estimator becomes severely biased. An empirical application to BTC-USD returns further demonstrates the practical advantages of the proposed robust Bayesian framework for financial time series analysis.",
+ "primary": "math.ST"
+}

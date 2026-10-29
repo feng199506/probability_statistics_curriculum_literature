@@ -1,0 +1,17 @@
+{
+ "id": "2607.19625",
+ "title": "Estimating Network Spillovers under Dense Measurement Error",
+ "authors": [
+  "Yingxing Li",
+  "Aureo De Paula",
+  "Weining Wang"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 1,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper analyzes spillover effects in spatial (network) models when the neighborhood (adjacency) matrix is contaminated by measurement error from reporting, aggregation, or disclosure imperfections, leading to inconsistent estimation of network effects. We introduce a regularization framework for the latent network that allows for sparse and/or low-rank structure and accommodates potential correlation between measurement errors and outcomes. We propose two estimators: (i) a two-stage procedure that first denoises the adjacency matrix and then incorporates the purified network into a regression analysis, and (ii) a Generalized Method of Moments (GMM) estimator that jointly estimates regression parameters and refines the network structure. We then establish strictly improved consistency rates for the spillover effect estimator relative to naive estimation ignoring measurement error. Simulations demonstrate that, in the presence of noisy networks, our approach reduces the root mean squared error of spillover estimates relative to conventional methods by approximately $50-80\\%$. We apply our framework to examine the international spillover of economic growth, and the tax competition across U.S. states, illustrating that denoising might restore Leontief stability and yields improved estimates of spillovers.",
+ "primary": "econ.EM"
+}

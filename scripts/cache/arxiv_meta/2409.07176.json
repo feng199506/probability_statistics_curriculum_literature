@@ -1,0 +1,16 @@
+{
+ "id": "2409.07176",
+ "title": "Non-parametric estimation of transition intensities in interval censored Markov multi-state models without loops",
+ "authors": [
+  "Daniel Gomon",
+  "Hein Putter"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 3,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 7 figures. Software in the form of an R package for the proposed method can be found on CRAN: https://cran.r-project.org/package=icmstate Code to perform the simulation studies and data application can be found on GitHub: https://github.com/d-gomon/icmstate",
+ "abstract": "Interval-censored multi state data is collected when the state of a subject is observed periodically. The analysis of such data using non-parametric multi-state models was not possible until recently, but is very desirable as it allows for more flexibility than its parametric counterparts. The single available result to date has some unique drawbacks. We propose a non-parametric estimator of the transition intensities for interval-censored multi state data using an Expectation Maximisation algorithm. The method allows for a mix of interval-censored and right-censored (exactly observed) transitions. A condition to check for the convergence of the algorithm is given. A simulation study comparing the proposed estimator to a consistent estimator is performed, and shown to yield near identical estimates at smaller computational cost. A data set on the emergence of teeth in children is analysed. Software to perform the analyses is publicly available.",
+ "primary": "stat.ME"
+}

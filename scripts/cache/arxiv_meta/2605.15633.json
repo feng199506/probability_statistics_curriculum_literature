@@ -1,0 +1,20 @@
+{
+ "id": "2605.15633",
+ "title": "Structured Transfer Learning for Survival Risk Stratification in Data-Sparse Clinical Cohorts",
+ "authors": [
+  "Junhan Yu",
+  "Yurui Chen",
+  "Juan Delgado-SanMartin",
+  "Dennis Wang",
+  "Hong Pan",
+  "Doudou Zhou"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: Survival prediction models are often less reliable in clinical groups with limited sample sizes or few outcome events. Target-only models may be unstable, whereas models from larger cohorts may transfer poorly when risk-factor effects differ across populations. We evaluated whether structured transfer learning can improve survival risk stratification in data-sparse cohorts while allowing cohort-specific adaptation. Methods: We developed the COhort-shared Rank-rEduced Cox model (CORE-Cox), a two-stage framework for multi-outcome survival prediction. CORE-Cox learns shared risk-factor patterns across related outcomes in a larger source cohort via a low-rank Cox coefficient structure, then adapts these patterns to a smaller target cohort through regularized residual correction. We evaluated CORE-Cox in UK Biobank (White source, n=150,093; Asian target, n=2,534) and MIMIC-IV (White ICU source, n=15,997; Asian ICU target, n=672), comparing against target-only Cox, penalized Cox, low-rank multi-task, naive pooling, direct transfer, and single-outcome residual transfer under repeated nested cross-validation. Results: CORE-Cox achieved best or near-best discrimination across most outcomes. Mean C-index improved from 0.733 to 0.766 in UK Biobank and from 0.628 to 0.658 in MIMIC-IV, with gains in eight of nine outcomes. CORE-Cox also improved top-15% risk enrichment, with hazard-ratio estimates typically intermediate between source-only and target-only models. Discussion: CORE-Cox offers an interpretable transfer-learning framework for survival risk stratification in data-sparse cohorts, combining shared cross-outcome structure with cohort-specific adaptation. Further validation is needed before use in calibrated absolute-risk prediction or clinical decision-making.",
+ "primary": "stat.ME"
+}

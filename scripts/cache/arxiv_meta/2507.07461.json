@@ -1,0 +1,20 @@
+{
+ "id": "2507.07461",
+ "title": "Hess-MC2: Sequential Monte Carlo Squared using Hessian Information and Second Order Proposals",
+ "authors": [
+  "Joshua Murphy",
+  "Conor Rosato",
+  "Andrew Millard",
+  "Lee Devlin",
+  "Paul Horridge",
+  "Simon Maskell"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE Machine Learning Signal Processing conference 2025",
+ "abstract": "When performing Bayesian inference using Sequential Monte Carlo (SMC) methods, two considerations arise: the accuracy of the posterior approximation and computational efficiency. To address computational demands, Sequential Monte Carlo Squared (SMC$^2$) is well-suited for high-performance computing (HPC) environments. The design of the proposal distribution within SMC$^2$ can improve accuracy and exploration of the posterior as poor proposals may lead to high variance in importance weights and particle degeneracy. The Metropolis-Adjusted Langevin Algorithm (MALA) uses gradient information so that particles preferentially explore regions of higher probability. In this paper, we extend this idea by incorporating second-order information, specifically the Hessian of the log-target. While second-order proposals have been explored previously in particle Markov Chain Monte Carlo (p-MCMC) methods, we are the first to introduce them within the SMC$^2$ framework. Second-order proposals not only use the gradient (first-order derivative), but also the curvature (second-order derivative) of the target distribution. Experimental results on synthetic models highlight the benefits of our approach in terms of step-size selection and posterior approximation accuracy when compared to other proposals.",
+ "primary": "stat.ML"
+}

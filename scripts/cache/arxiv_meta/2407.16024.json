@@ -1,0 +1,18 @@
+{
+ "id": "2407.16024",
+ "title": "Generalized dynamic functional principal component analysis",
+ "authors": [
+  "Tzung Hsuen Khoo",
+  "Issa-Mbenard Dabo",
+  "Dharini Pathmanathan",
+  "Sophie Dabo-Niang"
+ ],
+ "v1_date": "2024-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we explore dimension reduction for functional time series. We propose a generalized dynamic functional principal component analysis (GDFPCA) which does not rely on spectral density estimation and demonstrates strong empirical performance for both stationary and nonstationary functional time series. We define the generalized dynamic functional principal components (GDFPCs) as static factor time series in a functional dynamic factor model and obtain their multivariate representation from a truncation of the functional dynamic factor model. Estimation is based on a least-squares reconstruction criterion and implemented via a two-step procedure for the coefficient vectors of the loading curves under a basis expansion. We establish mean-square consistency of the reconstructed functional time series under weak stationarity. Simulation studies show that GDFPCA performs comparably to dynamic functional principal component analysis (DFPCA) for stationary data, while providing improved reconstruction accuracy in nonstationary settings, where both DFPCA and functional principal component analysis (FPCA) deteriorate. Applications to real datasets support the empirical advantages observed in the simulations.",
+ "primary": "stat.ME"
+}

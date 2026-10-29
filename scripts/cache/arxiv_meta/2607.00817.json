@@ -1,0 +1,17 @@
+{
+ "id": "2607.00817",
+ "title": "Training-Free Debiasing of Diffusion Models via CLIP-Guided Denoising Optimization",
+ "authors": [
+  "Dain Kim",
+  "Jinseo Kim",
+  "Sungyong Baik"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 1,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Text-to-image diffusion models achieve impressive visual quality, yet demographic bias remains a challenge, as neutral prompts consistently produce stereotypical representations across gender and race. Existing approaches remain limited by costly retraining or by inference-time interventions that often degrade image quality and semantic alignment. We propose Text Embedding Steering (TES), a training-free framework that mitigates demographic bias by directly optimizing conditional text embeddings during the diffusion process. We show that a two-stage strategy - early-stage global alignment followed by iterative denoising-time refinement with CLIP-based feedback - enables stable and controllable attribute steering without modifying model parameters. Extensive experiments on Stable Diffusion demonstrate that TES outperforms existing training-free baselines in fairness while maintaining competitive image quality. These results highlight that inference-time text embedding optimization is a practical and scalable solution for fairness-aware generation in diffusion models.",
+ "primary": "cs.CV"
+}

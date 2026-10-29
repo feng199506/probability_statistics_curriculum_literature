@@ -1,0 +1,17 @@
+{
+ "id": "2610.00589",
+ "title": "Foundation or Formula? A Simulation-Based Comparison of Google's TimesFM-3 and Classical Time-Series Models",
+ "authors": [
+  "Ebrahim Khaled Ebrahim",
+  "Somaia Mohamed Ali",
+  "Ahmed El-Kotory"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 1,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages (23 main text and a 17-page Supporting Information), 9 figures, 26 tables. Code, data, protocol and results: https://doi.org/10.5281/zenodo.22681072",
+ "abstract": "Time-series foundation models such as Google's TimesFM-3 forecast series they were never trained on, but whether they should replace classical methods such as ARIMA and exponential smoothing is hard to settle on public benchmarks, because few benchmark datasets are absent from every model's pre-training corpus. This exploratory study compares TimesFM-3 with classical methods on data generated from nine known processes, which the model cannot have seen. Across 7200 series and a pre-registered protocol with a 12-step horizon, neither family dominates. TimesFM-3's error is never more than 1.31 times that of the best method in a scenario, whereas every classical method's is at least 2.2 times somewhere; the largest classical failures occur with only two seasonal cycles, where the automatic methods fall back to non-seasonal models. With four or more cycles automatic ARIMA is 21-24% more accurate than TimesFM-3 on seasonal ARIMA data. Among five foundation models this robustness is specific to TimesFM-3, and it holds only at short horizons: at steps 25 to 48 the three foundation models tested there forecast a decline on a saturating process whose level stays flat, and automatic ARIMA has the smaller worst case elsewhere. On intermittent demand TimesFM-3 shows no advantage over simple benchmarks built from the history. Randomised parameters, heavy-tailed noise and outliers leave these patterns qualitatively unchanged; on the official test period of 1000 M4 monthly series TimesFM-3 is level with the fifth- to seventh-ranked M4 entries, behind the four best, and on 101 macroeconomic series observed after the models' documented training data it is statistically level with the classical methods. The study characterises the behaviour of a black-box model, not the reasons for it, and its findings are conditional on the processes and horizons examined.",
+ "primary": "stat.ME"
+}

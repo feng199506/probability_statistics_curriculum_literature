@@ -1,0 +1,17 @@
+{
+ "id": "2601.11422",
+ "title": "Stein's method for the matrix normal distribution",
+ "authors": [
+  "Robert E. Gaunt",
+  "Frédéric Ouimet",
+  "Donald Richards"
+ ],
+ "v1_date": "2026-01-16",
+ "latest_version": 3,
+ "latest_date": "2026-08-19",
+ "journal_ref": "Journal of Multivariate Analysis (2026), 216, 1-24",
+ "doi": "10.1016/j.jmva.2026.105696",
+ "comment": "25 pages, 0 figures",
+ "abstract": "This work presents the first systematic development of Stein's method for matrix distributions. We establish the basic essential ingredients of Stein's method for matrix normal approximation: we derive an extended-generator-based Stein identity from a matrix Ornstein-Uhlenbeck diffusion with two-sided scales, provide an explicit semigroup representation for the solution of the Stein equation, and obtain regularity estimates for the solution. The new methodology is demonstrated in three examples: (i) smooth Wasserstein distance bounds to quantify the matrix central limit theorem (a didactic example), (ii) a Wasserstein distance bound for the matrix normal approximation of the centered matrix $T$ distribution, and (iii) a Stein's method-of-moments approach to estimating the row and column covariance factors of the matrix normal, yielding a flexible class of weighted flip-flop Stein estimators that generalize Dutilleul's classical flip-flop algorithm and naturally accommodate row/column importance weights, systematic missingness, and projection onto structured covariance families. The latter two examples are intrinsically matrix-valued and cannot be treated using naive vectorization.",
+ "primary": "math.ST"
+}

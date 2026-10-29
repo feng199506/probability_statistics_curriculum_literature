@@ -1,0 +1,16 @@
+{
+ "id": "2603.17984",
+ "title": "On min-Storey estimators for multiple testing and conformal novelty detection",
+ "authors": [
+  "Gao Zijun",
+  "Roquain Etienne"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 9 figures, 2 tables",
+ "abstract": "In a multiple testing task, finding an appropriate estimator of the proportion $π_0$ of non-signal in the data to boost power of false discovery rate (FDR) controlling procedures is a long-standing research theme, sometimes referred to as 'adaptive FDR control'. The interest in this theme has been reinforced in the recent years with conformal novelty detection, for which it turns out that similar tools can be used in combination with any 'blackbox' machine learning algorithm. Nevertheless, perhaps surprisingly, finding a solution for 'adaptive FDR control' that is optimal in a broad sense is still an open problem. This paper fills this gap by introducing new $π_0$-estimators, referred to as min-Storey (MS) and interval-min-Storey (IMS), which are built upon the so-called 'Storey estimator'. Plugging these estimators in the adaptive Benjamini-Hochberg (BH) procedure is shown to deliver FDR control both in the independent and conformal settings. In addition, these methods satisfy an optimal power property over any (regular) alternative distribution. The excellent behaviors of the new adaptive procedures are illustrated with numerical experiments both in the independent and conformal models for various distribution structures.",
+ "primary": "stat.ME"
+}

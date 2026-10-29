@@ -1,0 +1,18 @@
+{
+ "id": "2601.14461",
+ "title": "Variance Reduction in the Fokker-Planck Particle Method for Rarefied Gases using Quasi-Random Numbers",
+ "authors": [
+  "Lukas Netterdon",
+  "Veronica Montanaro",
+  "Manuel Torrilhon",
+  "Hossein Gorji"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 1,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Fokker-Planck (FP) particle method accelerates rarefied-gas simulations by replacing the binary collisions of the commonly used Direct Simulation Monte Carlo (DSMC) method with a drift=diffusion process. Like all particle methods, the FP method is inherently stochastic, which leads to statistical fluctuations in macroscopic quantities and necessitates large particle numbers for accurate results. In this work, we investigate the use of quasi-random numbers, which sample distributions more evenly and thereby reduce the variance. To preserve the low-discrepancy structure across time steps, we employ the Array Randomized Quasi-Monte Carlo (Array-RQMC) technique. We combine the FP method with Array-RQMC and compare it in homogeneous and inhomogeneous problems with other commonly used variance-reduction techniques. The proposed FP-Array-RQMC approach achieves improved convergence rates compared with pseudo-random sampling and yields smaller estimator errors for sufficiently large particle numbers.",
+ "primary": "math.NA"
+}

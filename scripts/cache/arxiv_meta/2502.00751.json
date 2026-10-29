@@ -1,0 +1,17 @@
+{
+ "id": "2502.00751",
+ "title": "Online Generalized Method of Moments for Time Series",
+ "authors": [
+  "Man Fung Leung",
+  "Kin Wai Chan",
+  "Xiaofeng Shao"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 1,
+ "latest_date": "2025-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages (26 main), 10 figures, 3 tables",
+ "abstract": "Online learning has gained popularity in recent years due to the urgent need to analyse large-scale streaming data, which can be collected in perpetuity and serially dependent. This motivates us to develop the online generalized method of moments (OGMM), an explicitly updated estimation and inference framework in the time series setting. The OGMM inherits many properties of offline GMM, such as its broad applicability to many problems in econometrics and statistics, natural accommodation for over-identification, and achievement of semiparametric efficiency under temporal dependence. As an online method, the key gain relative to offline GMM is the vast improvement in time complexity and memory requirement. Building on the OGMM framework, we propose improved versions of online Sargan--Hansen and structural stability tests following recent work in econometrics and statistics. Through Monte Carlo simulations, we observe encouraging finite-sample performance in online instrumental variables regression, online over-identifying restrictions test, online quantile regression, and online anomaly detection. Interesting applications of OGMM to stochastic volatility modelling and inertial sensor calibration are presented to demonstrate the effectiveness of OGMM.",
+ "primary": "stat.ME"
+}

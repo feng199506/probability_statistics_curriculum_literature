@@ -1,0 +1,17 @@
+{
+ "id": "2508.01738",
+ "title": "Bayesian Smoothed Quantile Regression",
+ "authors": [
+  "Bingqi Liu",
+  "Kangqiang Li",
+  "Tianxiao Pang"
+ ],
+ "v1_date": "2025-08-03",
+ "latest_version": 4,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "94 pages, 4 figures, 6 tables, 1 algorithm. JEL Classification: Primary: C21, C11; Secondary: C63, C14. The source code and data to replicate all results are publicly available at https://github.com/BeauquinLau/BSQR",
+ "abstract": "The standard asymmetric Laplace framework for Bayesian quantile regression (BQR) suffers from a fundamental decision-theoretic misalignment, yielding biased finite-sample estimates, and precludes gradient-based computation due to non-smoothness. We propose Bayesian smoothed quantile regression (BSQR), a principled framework built on a kernel-smoothed, fully differentiable likelihood. Methodologically, the symmetrizing property of our objective reduces inferential bias and aligns the posterior mean with the true conditional quantile. Theoretically, we establish posterior consistency and a Bernstein--von Mises theorem under misspecification, delivering asymptotic normality and valid frequentist coverage via a generalized Wilks phenomenon, while guaranteeing global posterior existence unlike empirical likelihood approaches. Computationally, BSQR enables Hamiltonian Monte Carlo for BQR, alleviating high-dimensional mixing bottlenecks. In simulations, BSQR reduces out-of-sample prediction error by up to 50% and improves sampling efficiency by up to 80% relative to asymmetric Laplace benchmarks, with uniform and triangular kernels performing particularly well. In a financial application to asymmetric systemic risk, BSQR uncovers distinct regime shifts around the COVID-19 period and yields sharper yet well-calibrated predictive quantiles, underscoring its practical relevance.",
+ "primary": "stat.ME"
+}

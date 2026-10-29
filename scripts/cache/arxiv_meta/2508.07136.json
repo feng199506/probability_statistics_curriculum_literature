@@ -1,0 +1,17 @@
+{
+ "id": "2508.07136",
+ "title": "Bayesian Forecast Combination with Predictive Priors via Particle Filtering",
+ "authors": [
+  "Xiaorui Luo",
+  "Yanfei Kang",
+  "Xue Luo"
+ ],
+ "v1_date": "2025-08-10",
+ "latest_version": 2,
+ "latest_date": "2025-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 19 figures, 4 tables",
+ "abstract": "We propose a Bayesian forecast combination framework that, for the first time, embeds forward-looking signals, formulated as predictive priors, directly into the time-varying weight-updating process. This approach enables weights to adapt using both historical forecast performance and anticipated future model behavior. We implement the framework with model diversity as the forward-looking signal, yielding the diversity-driven time-varying weights (DTVW) method. Compared with the standard time-varying weights (TVW) approach, DTVW embeds diversity-driven predictive priors that penalize redundancy and encourage informative contributions across constituent models. Simulation experiments, covering both a simple complete model set and a complex misspecified environment, show that DTVW improves forecast accuracy by dynamically focusing on well-performing models. Empirical applications to multi-step-ahead oil price forecasts and bivariate forecasts of U.S. inflation and GDP growth confirm its superiority over benchmarks including Equal weighting, Bayesian Model Averaging, and standard TVW. Beyond accuracy gains, diversity-based predictive priors provide diagnostic insights into model incompleteness and forecast uncertainty, making DTVW both more adaptive and more informative than existing Bayesian combination methods.",
+ "primary": "stat.ME"
+}

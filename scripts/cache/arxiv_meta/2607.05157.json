@@ -1,0 +1,19 @@
+{
+ "id": "2607.05157",
+ "title": "Variance reduction with probing and Multilevel Monte Carlo in Lattice QCD",
+ "authors": [
+  "Andreas Frommer",
+  "Jose Jimenez-Merchan",
+  "Bruno Lang",
+  "Mario Papace",
+  "Gustavo Ramirez-Hidalgo"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 1,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Trace estimation is central in many lattice QCD computations, but the accuracy of the standard, stochastic Hutchinson method improves only with the square root of the sample size, making precise results expensive. We investigate two complementary variance reduction strategies. First, multigrid multilevel Monte Carlo uses a multigrid hierarchy to construct an unbiased multilevel estimator via recursive coarse grid corrections available from the multigrid hierarchy of the solver. Second, stochastic probing uses distance-$d$ graph colorings; we propose a torus based coloring that requires substantially fewer colors than hierarchical probing at the same distance. We test these approaches on two representative problems: the connected pseudoscalar correlator and disconnected fermion loops. For the connected pseudoscalar two-point function, the multilevel decomposition yields a variance reduction of up to $\\mathcal{O}(10^5)$ at large time separations and translates into a clear cost reduction at fixed accuracy, thus confirming earlier results of arXiv:2412.06347. For the disconnected loops, in contrast, the multilevel decomposition provides only moderate gains, whereas probing combined with dilution delivers a substantial cost reduction that improves as the number of probing vectors is increased. Overall, the results highlight a pronounced complementarity: deflation schemes are most effective for observables dominated by long distance propagation, while probing is most effective for localized quantities.",
+ "primary": "hep-lat"
+}

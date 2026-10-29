@@ -1,0 +1,16 @@
+{
+ "id": "2601.17319",
+ "title": "Statistical process control via $p$-values",
+ "authors": [
+  "Hien Duy Nguyen",
+  "Dan Wang"
+ ],
+ "v1_date": "2026-01-24",
+ "latest_version": 1,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study statistical process control (SPC) through charting of $p$-values. When in control (IC), any valid sequence $(P_{t})_{t}$ is super-uniform, a requirement that can hold in nonparametric and two-phase designs without parametric modelling of the monitored process. Within this framework, we analyse the Shewhart rule that signals when $P_{t}\\leα$. Under super-uniformity alone, and with no assumptions on temporal dependence, we derive universal IC lower bounds for the average run length (ARL) and for the expected time to the $k$th false alarm ($k$-ARL). When conditional super-uniformity holds, these bounds sharpen to the familiar $α^{-1}$ and $kα^{-1}$ rates, giving simple, distribution-free calibration for $p$-value charts. Beyond thresholding, we use merging functions for dependent $p$-values to build EWMA-like schemes that output, at each time $t$, a valid $p$-value for the hypothesis that the process has remained IC up to $t$, enabling smoothing without ad hoc control limits. We also study uniform EWMA processes, giving explicit distribution formulas and left-tail guarantees. Finally, we propose a modular approach to directional and coordinate localisation in multivariate SPC via closed testing, controlling the family-wise error rate at the time of alarm. Numerical examples illustrate the utility and variety of our approach.",
+ "primary": "stat.ME"
+}

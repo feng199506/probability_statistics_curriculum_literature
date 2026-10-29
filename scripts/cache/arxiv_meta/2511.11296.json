@@ -1,0 +1,17 @@
+{
+ "id": "2511.11296",
+ "title": "Online Spectral Density Estimation",
+ "authors": [
+  "Shahriar Hasnat Kazi",
+  "Niall Adams",
+  "Edward A. K. Cohen"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops the first online algorithms for estimating the spectral density function -- a fundamental object of interest in time series analysis -- that satisfies the three core requirements of streaming inference: fixed memory, fixed computational complexity, and temporal adaptivity. Our method builds on the concept of forgetting factors, allowing the estimator to adapt to gradual or abrupt changes in the data-generating process without prior knowledge of its dynamics. We introduce a novel online forgetting-factor periodogram and show that, under stationarity, it asymptotically recovers the properties of its offline counterpart. Leveraging this, we construct an online Whittle estimator, and further develop an adaptive online spectral estimator that dynamically tunes its forgetting factor using the Whittle likelihood as a loss. Through extensive simulation studies and an application to ocean drifter velocity data, we demonstrate the method's ability to track time-varying spectral properties in real-time with strong empirical performance.",
+ "primary": "stat.ME"
+}

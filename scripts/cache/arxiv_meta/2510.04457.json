@@ -1,0 +1,18 @@
+{
+ "id": "2510.04457",
+ "title": "Two approaches to multiple canonical correlation analysis for repeated measures data",
+ "authors": [
+  "Tomasz Górecki",
+  "Mirosław Krzyśko",
+  "Felix Gnettner",
+  "Piotr Kokoszka"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In classical canonical correlation analysis (CCA), the goal is to determine the linear transformations of two random vectors into two new random variables that are most strongly correlated. Canonical variables are pairs of these new random variables, while canonical correlations are correlations between these pairs. In this paper, we propose and study two generalizations of this classical method: (1) Instead of two random vectors we study more complex data structures that appear in important applications. In these structures, there are $L$ features, each described by $p_l$ scalars, $1 \\le l \\le L$. We observe $n$ such objects over $T$ time points. We derive a suitable analog of the CCA for such data. Our approach relies on embeddings into Reproducing Kernel Hilbert Spaces, and covers several related data structures as well. (2) We develop an analogous approach for multidimensional random processes. In this case, the experimental units are multivariate continuous, square-integrable functions over a given interval. These functions are modeled as elements of a Hilbert space, so in this case, we define the multiple functional canonical correlation analysis, MFCCA. We justify our approaches by their application to two data sets and suitable large sample theory. We derive consistency rates for the related transformation and correlation estimators, and show that it is possible to relax two common assumptions on the compactness of the underlying cross-covariance operators and the independence of the data.",
+ "primary": "stat.ME"
+}

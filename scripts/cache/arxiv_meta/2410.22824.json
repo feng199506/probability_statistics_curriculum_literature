@@ -1,0 +1,18 @@
+{
+ "id": "2410.22824",
+ "title": "Surface data imputation with stochastic processes",
+ "authors": [
+  "Arsalan Jawaid",
+  "Samuel Schmidt",
+  "Marvin Lotz",
+  "Jörg Seewig"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 2,
+ "latest_date": "2025-04-09",
+ "journal_ref": "Meas. Sci. Technol. 36 (2025) 046131",
+ "doi": "10.1088/1361-6501/adc6a3",
+ "comment": "",
+ "abstract": "Spurious measurements frequently occur in surface data from technical components. Excluding or ignoring these spurious points may lead to incorrect surface characterization if these points inherit features of the surface. Therefore, data imputation must be applied to ensure that the estimated data points at spurious measurements do not deviate strongly from the true surface and its characteristics. Traditional surface data imputation methods rely on simple assumptions and ignore existing knowledge of the surface, resulting in suboptimal estimates. In this paper, we propose the use of stochastic processes for data imputation. This approach, which originates from surface texture simulation, allows a straightforward integration of a priori knowledge. We employ Gaussian processes with both stationary and non-stationary covariance structures to address missing values in surface data. In addition, we apply the method to a real-world scenario in which a spurious turned profile is obtained from an actual measurement. Our results demonstrate that the proposed method fills the missing values by maintaining the surface characteristics, particularly when surface features are missing.",
+ "primary": "stat.ME"
+}

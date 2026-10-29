@@ -1,0 +1,18 @@
+{
+ "id": "2511.20876",
+ "title": "Data Privatization in Vertical Federated Learning with Client-wise Missing Problem",
+ "authors": [
+  "Huiyun Tang",
+  "Long Feng",
+  "Yang Li",
+  "Feifei Wang"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vertical Federated Learning (VFL) often suffers from client-wise missingness, where entire feature blocks from some clients are unobserved, and conventional approaches are vulnerable to privacy leakage. We propose a Gaussian copulabased framework for VFL data privatization under missingness constraints, which requires no prior specification of downstream analysis tasks and imposes no restriction on the number of analyses. To privately estimate copula parameters, we introduce a debiased randomized response mechanism for correlation matrix estimation from perturbed ranks, together with a nonparametric privatized marginal estimation that yields consistent CDFs even under MAR. The proposed methods comprise VCDS for MCAR data, EVCDS for MAR data, and IEVCDS, which iteratively refines copula parameters to mitigate MAR-induced bias. Notably, EVCDS and IEVCDS also apply under MCAR, and the framework accommodates mixed data types, including discrete variables. Theoretically, we introduce the notion of Vertical Distributed Attribute Differential Privacy (VDADP), tailored to the VFL setting, establish corresponding privacy and utility guarantees, and investigate the utility of privatized data for GLM coefficient estimation and variable selection. We further establish asymptotic properties including estimation and variable selection consistency for VFL-GLMs. Extensive simulations and a real-data application demonstrate the effectiveness of the proposed framework.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2210.06672",
+ "title": "Variance-Aware Estimation of Kernel Mean Embedding",
+ "authors": [
+  "Geoffrey Wolfer",
+  "Pierre Alquier"
+ ],
+ "v1_date": "2022-10-13",
+ "latest_version": 3,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An important feature of kernel mean embeddings (KME) is that the rate of convergence of the empirical KME to the true distribution KME can be bounded independently of the dimension of the space, properties of the distribution and smoothness features of the kernel. We show how to speed-up convergence by leveraging variance information in the reproducing kernel Hilbert space. Furthermore, we show that even when such information is a priori unknown, we can efficiently estimate it from the data, recovering the desiderata of a distribution agnostic bound that enjoys acceleration in fortuitous settings. We further extend our results from independent data to stationary mixing sequences and illustrate our methods in the context of hypothesis testing and robust parametric estimation.",
+ "primary": "math.ST"
+}

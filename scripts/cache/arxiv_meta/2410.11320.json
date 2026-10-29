@@ -1,0 +1,18 @@
+{
+ "id": "2410.11320",
+ "title": "Regularized Estimation of High-Dimensional Matrix-Variate Autoregressive Models",
+ "authors": [
+  "Hangjin Jiang",
+  "Baining Shen",
+  "Yuzhou Li",
+  "Zhaoxing Gao"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 1,
+ "latest_date": "2024-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matrix-variate time series data are increasingly popular in economics, statistics, and environmental studies, among other fields. This paper develops regularized estimation methods for analyzing high-dimensional matrix-variate time series using bilinear matrix-variate autoregressive models. The bilinear autoregressive structure is widely used for matrix-variate time series, as it reduces model complexity while capturing interactions between rows and columns. However, when dealing with large dimensions, the commonly used iterated least-squares method results in numerous estimated parameters, making interpretation difficult. To address this, we propose two regularized estimation methods to further reduce model dimensionality. The first assumes banded autoregressive coefficient matrices, where each data point interacts only with nearby points. A two-step estimation method is used: first, traditional iterated least-squares is applied for initial estimates, followed by a banded iterated least-squares approach. A Bayesian Information Criterion (BIC) is introduced to estimate the bandwidth of the coefficient matrices. The second method assumes sparse autoregressive matrices, applying the LASSO technique for regularization. We derive asymptotic properties for both methods as the dimensions diverge and the sample size $T\\rightarrow\\infty$. Simulations and real data examples demonstrate the effectiveness of our methods, comparing their forecasting performance against common autoregressive models in the literature.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2409.05741",
+ "title": "On integer partitions and the Wilcoxon rank-sum statistic",
+ "authors": [
+  "Andrew V. Sills"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 1,
+ "latest_date": "2024-09-09",
+ "journal_ref": "Communication in Statistics - Theory and Methods 53(24), 8954--8963. (2024)",
+ "doi": "10.1080/03610926.2024.2315297",
+ "comment": "14 pages",
+ "abstract": "In the literature, derivations of exact null distributions of rank-sum statistics is often avoided in cases where one or more ties exist in the data. By deriving the null distribution in the no-ties case with the aid of classical $q$-series results of Euler and Rothe, we demonstrate how a natural generalization of the method may be employed to derive exact null distributions even when one or more ties are present in the data. It is suggested that this method could be implemented in a computer algebra system, or even a more primitive computer language, so that the normal approximation need not be employed in the case of small sample sizes, when it is less likely to be very accurate. Several algorithms for determining exact distributions of the rank-sum statistic (possibly with ties) have been given in the literature (see Streitberg and Röhmel (1986) and Marx et al. (2016)), but none seem as simple as the procedure discussed here which amounts to multiplying out a certain polynomial, extracting coefficients, and finally dividing by a binomal coefficient.",
+ "primary": "math.ST"
+}

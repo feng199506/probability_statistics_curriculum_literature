@@ -1,0 +1,17 @@
+{
+ "id": "2404.06735",
+ "title": "A Copula Graphical Model for Multi-Attribute Data using Optimal Transport",
+ "authors": [
+  "Qi Zhang",
+  "Bing Li",
+  "Lingzhou Xue"
+ ],
+ "v1_date": "2024-04-10",
+ "latest_version": 1,
+ "latest_date": "2024-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages",
+ "abstract": "Motivated by modern data forms such as images and multi-view data, the multi-attribute graphical model aims to explore the conditional independence structure among vectors. Under the Gaussian assumption, the conditional independence between vectors is characterized by blockwise zeros in the precision matrix. To relax the restrictive Gaussian assumption, in this paper, we introduce a novel semiparametric multi-attribute graphical model based on a new copula named Cyclically Monotone Copula. This new copula treats the distribution of the node vectors as multivariate marginals and transforms them into Gaussian distributions based on the optimal transport theory. Since the model allows the node vectors to have arbitrary continuous distributions, it is more flexible than the classical Gaussian copula method that performs coordinatewise Gaussianization. We establish the concentration inequalities of the estimated covariance matrices and provide sufficient conditions for selection consistency of the group graphical lasso estimator. For the setting with high-dimensional attributes, a {Projected Cyclically Monotone Copula} model is proposed to address the curse of dimensionality issue that arises from solving high-dimensional optimal transport problems. Numerical results based on synthetic and real data show the efficiency and flexibility of our methods.",
+ "primary": "stat.ML"
+}

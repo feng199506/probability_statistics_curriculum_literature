@@ -1,0 +1,17 @@
+{
+ "id": "2405.15531",
+ "title": "MMD Two-sample Testing in the Presence of Arbitrarily Missing Data",
+ "authors": [
+  "Yijin Zeng",
+  "Niall M. Adams",
+  "Dean A. Bodenham"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 1,
+ "latest_date": "2024-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 3 figures, 1 table, and appendix",
+ "abstract": "In many real-world applications, it is common that a proportion of the data may be missing or only partially observed. We develop a novel two-sample testing method based on the Maximum Mean Discrepancy (MMD) which accounts for missing data in both samples, without making assumptions about the missingness mechanism. Our approach is based on deriving the mathematically precise bounds of the MMD test statistic after accounting for all possible missing values. To the best of our knowledge, it is the only two-sample testing method that is guaranteed to control the Type I error for both univariate and multivariate data where data may be arbitrarily missing. Simulation results show that our method has good statistical power, typically for cases where 5% to 10% of the data are missing. We highlight the value of our approach when the data are missing not at random, a context in which either ignoring the missing values or using common imputation methods may not control the Type I error.",
+ "primary": "stat.ME"
+}

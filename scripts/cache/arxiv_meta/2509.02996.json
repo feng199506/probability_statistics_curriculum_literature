@@ -1,0 +1,16 @@
+{
+ "id": "2509.02996",
+ "title": "Group-averaged Markov chains: mixing improvement",
+ "authors": [
+  "Michael C. H. Choi",
+  "Youjia Wang"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 2,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "68 pages",
+ "abstract": "For Markov kernels $P$ on a general state space $\\mathcal{X}$, we introduce a new class of averaged Markov kernels $P_{da}(G,ν)$ of $P$ induced by a group $G$ that acts on $\\mathcal{X}$ and a probability measure $ν$ on $G \\times G$. Notable special cases are the group-orbit average $\\overline{P}$, left-average $P_{la}$, right-average $P_{ra}$ and the independent-double-average $(P_{la})_{ra}$. For $π$-stationary $P$ in which $π$ is invariant with respect to $G$, we show that in general $P_{da}$ enjoys favorable convergence properties than $P$ based on metrics such as spectral gap or asymptotic variance, and within the family of $P_{da}$ the most preferable kernel is in general $(P_{la})_{ra}$. We demonstrate that $P_{la}, P_{ra}, (P_{la})_{ra}$ are comparable in terms of mixing times, which supports the use of $P_{la}, P_{ra}$ in practice as computationally cheaper alternatives over $(P_{la})_{ra}$. These averaged kernels also admit natural geometric interpretations: they emerge as unique projections of $P$ onto specific $G$-invariant structures under the Kullback-Leibler divergence or the Hilbert-Schmidt norm and satisfy Pythagorean identities. On the other hand, in the general case if $π$ is not invariant with respect to $G$, we propose and study a technique that we call state-dependent averaging of Markov kernels which generalizes the earlier results to this setting. As examples and applications, this averaging perspective not only allows us to recast state-of-the-art Markov chain samplers such as Hamiltonian Monte Carlo or piecewise-deterministic Markov processes as specific cases of $P_{da}$, but also enables improvements to existing samplers such as Metropolis-Hastings, achieving rapid mixing in some toy models or when $π$ is the discrete uniform distribution.",
+ "primary": "math.PR"
+}

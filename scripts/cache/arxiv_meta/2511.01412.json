@@ -1,0 +1,16 @@
+{
+ "id": "2511.01412",
+ "title": "Nonparametric Sensitivity Analysis for Unobserved Confounding with Survival Outcomes",
+ "authors": [
+  "Rui Hu",
+  "Ted Westling"
+ ],
+ "v1_date": "2025-11-03",
+ "latest_version": 1,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In observational studies, the observed association between an exposure and outcome of interest may be distorted by unobserved confounding. Causal sensitivity analysis can be used to assess the robustness of observed associations to potential unobserved confounding. For time-to-event outcomes, existing sensitivity analysis methods rely on parametric assumptions on the structure of the unobserved confounders and Cox proportional hazards models for the outcome regression. If these assumptions fail to hold, it is unclear whether the conclusions of the sensitivity analysis remain valid. Additionally, causal interpretation of the hazard ratio is challenging. To address these limitations, in this paper we develop a nonparametric sensitivity analysis framework for time-to-event data. Specifically, we derive nonparametric bounds for the difference between the observed and counterfactual survival curves and propose estimators and inference for these bounds using semiparametric efficiency theory. We also provide nonparametric bounds and inference for the difference between the observed and counterfactual restricted mean survival times. We demonstrate the performance of our proposed methods using numerical studies and an analysis of the causal effect of elective neck dissection on mortality in patients with high-grade parotid carcinoma.",
+ "primary": "stat.ME"
+}

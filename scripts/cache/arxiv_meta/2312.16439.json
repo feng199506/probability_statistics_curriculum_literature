@@ -1,0 +1,16 @@
+{
+ "id": "2312.16439",
+ "title": "Inferring the Effect of a Confounded Treatment by Calibrating Resistant Population's Variance",
+ "authors": [
+  "Zikun Qin",
+  "Bikram Karmakar"
+ ],
+ "v1_date": "2023-12-27",
+ "latest_version": 1,
+ "latest_date": "2023-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In a general set-up that allows unmeasured confounding, we show that the conditional average treatment effect on the treated can be identified as one of two possible values. Unlike existing causal inference methods, we do not require an exogenous source of variability in the treatment, e.g., an instrument or another outcome unaffected by the treatment. Instead, we require (a) a nondeterministic treatment assignment, (b) that conditional variances of the two potential outcomes are equal in the treatment group, and (c) a resistant population that was not exposed to the treatment or, if exposed, is unaffected by the treatment. Assumption (a) is commonly assumed in theoretical work, while (b) holds under fairly general outcome models. For (c), which is a new assumption, we show that a resistant population is often available in practice. We develop a large sample inference methodology and demonstrate our proposed method in a study of the effect of surface mining in central Appalachia on birth weight that finds a harmful effect.",
+ "primary": "stat.ME"
+}

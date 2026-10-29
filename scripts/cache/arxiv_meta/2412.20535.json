@@ -1,0 +1,18 @@
+{
+ "id": "2412.20535",
+ "title": "Inference with Randomized Regression Trees",
+ "authors": [
+  "Soham Bakshi",
+  "Yiling Huang",
+  "Snigdha Panigrahi",
+  "Walter Dempsey"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 2,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 6 figures",
+ "abstract": "Regression trees are a popular machine learning algorithm that fit piecewise constant models by recursively partitioning the predictor space. This paper focuses on statistical inference for a data-dependent model obtained from a fitted regression tree. We introduce Randomized Regression Trees (RRT), a novel selective inference method that adds independent Gaussian noise to the gain function underlying the splitting rules of classic regression trees. The RRT method offers several advantages over existing methods. First, added randomization is used to obtain a closed-form pivot while accounting for the data-dependent tree structure. Second, RRT with a small amount of randomization achieves predictive accuracy similar to a model trained on the entire dataset, while also providing significantly more powerful inference than existing selective inference methods, such as data splitting. Third, RRT yields intervals that automatically adapt to the signal strength in the data. Our empirical analyses highlight these advantages of the RRT method and its ability to convert a purely predictive algorithm into a method capable of performing powerful inference in the non-linear tree model.",
+ "primary": "stat.ME"
+}

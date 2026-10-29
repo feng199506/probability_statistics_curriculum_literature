@@ -1,0 +1,17 @@
+{
+ "id": "2410.05169",
+ "title": "False Discovery Rate Control for Fast Screening of Large-Scale Genomics Biobanks",
+ "authors": [
+  "Jasin Machkour",
+  "Michael Muma",
+  "Daniel P. Palomar"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 1,
+ "latest_date": "2024-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in IEEE Statistical Signal Processing Workshop (SSP), 2-5 July 2023, Hanoi, Vietnam",
+ "abstract": "Genomics biobanks are information treasure troves with thousands of phenotypes (e.g., diseases, traits) and millions of single nucleotide polymorphisms (SNPs). The development of methodologies that provide reproducible discoveries is essential for the understanding of complex diseases and precision drug development. Without statistical reproducibility guarantees, valuable efforts are spent on researching false positives. Therefore, scalable multivariate and high-dimensional false discovery rate (FDR)-controlling variable selection methods are urgently needed, especially, for complex polygenic diseases and traits. In this work, we propose the Screen-T-Rex selector, a fast FDR-controlling method based on the recently developed T-Rex selector. The method is tailored to screening large-scale biobanks and it does not require choosing additional parameters (sparsity parameter, target FDR level, etc). Numerical simulations and a real-world HIV-1 drug resistance example demonstrate that the performance of the Screen-T-Rex selector is superior, and its computation time is multiple orders of magnitude lower compared to current benchmark knockoff methods.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.03473",
+ "title": "A Minimum-Jerk Approach to Handle Singularities in Virtual Fixtures",
+ "authors": [
+  "Giovanni Braglia",
+  "Sylvain Calinon",
+  "Luigi Biagiotti"
+ ],
+ "v1_date": "2024-05-06",
+ "latest_version": 2,
+ "latest_date": "2024-07-26",
+ "journal_ref": "",
+ "doi": "10.1109/lra.2024.3469814",
+ "comment": "8 pages, 6 figures",
+ "abstract": "Implementing virtual fixtures in guiding tasks constrains the movement of the robot's end effector to specific curves within its workspace. However, incorporating guiding frameworks may encounter discontinuities when optimizing the reference target position to the nearest point relative to the current robot position. This article aims to give a geometric interpretation of such discontinuities, with specific reference to the commonly adopted Gauss-Newton algorithm. The effect of such discontinuities, defined as Euclidean Distance Singularities, is experimentally proved. We then propose a solution that is based on a Linear Quadratic Tracking problem with minimum jerk command, then compare and validate the performances of the proposed framework in two different human-robot interaction scenarios.",
+ "primary": "cs.RO"
+}

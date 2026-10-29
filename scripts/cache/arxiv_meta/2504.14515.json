@@ -1,0 +1,17 @@
+{
+ "id": "2504.14515",
+ "title": "A robust mixed-effects quantile regression model using generalized Laplace mixtures to handle outliers and skewness",
+ "authors": [
+  "Divan A. Burger",
+  "Sean van der Merwe",
+  "Emmanuel Lesaffre"
+ ],
+ "v1_date": "2025-04-20",
+ "latest_version": 3,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "10.1007/s00180-025-01651-0",
+ "comment": "",
+ "abstract": "Mixed-effects quantile regression models are widely used to capture heterogeneous responses in hierarchically structured data. The asymmetric Laplace (AL) distribution has traditionally served as the basis for quantile regression; however, its fixed skewness limits flexibility and renders it sensitive to outliers. In contrast, the generalized asymmetric Laplace (GAL) distribution enables more flexible modeling of skewness and heavy-tailed behavior, yet it remains vulnerable to extreme observations. In this paper, we extend the GAL distribution by introducing a contaminated GAL (cGAL) mixture model that incorporates a scale-inflated component to mitigate the impact of outliers without requiring explicit outlier identification or deletion. We apply this model within a Bayesian mixed-effects quantile regression framework to model HIV viral load decay over time. Our results demonstrate that the cGAL-based model more reliably captures the dynamics of HIV viral load decay, yielding more accurate parameter estimates compared to both AL and GAL approaches. Model diagnostics and comparison statistics confirm the cGAL model as the preferred choice. A simulation study further shows that the cGAL model is more robust to outliers than the GAL and exhibits favorable frequentist properties.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2609.01638",
+ "title": "Simple Covariate Adjustment for Many Estimands Using Stable Balancing Weights",
+ "authors": [
+  "Kayla Irish",
+  "José Zubizarreta",
+  "Alex Luedtke"
+ ],
+ "v1_date": "2026-08-26",
+ "latest_version": 1,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "66 pages, 6 figures",
+ "abstract": "Covariate adjustment can improve precision in estimating treatment effects in clinical trials, and regulatory guidance increasingly encourages its implementation. Despite its benefits, covariate adjustment can require advanced statistical techniques or tailored approaches for different estimands, which can deter its use in practice. To address this issue, we introduce a simplified approach to covariate adjustment using stable balancing weights that applies directly across many clinical trial estimands, including the average treatment effect, relative risk, Mann-Whitney estimand, and survival ratio. More precisely, our results cover any estimand that is a Hadamard differentiable functional of the arm-specific distributions. Once the weights are obtained, our adjusted estimator can be implemented with the same software used for an unadjusted analysis, provided that software can take observation weights. This construction improves asymptotic efficiency relative to unadjusted estimation and preserves the plug-in relationship between arm-specific marginal and subgroup-specific summaries.",
+ "primary": "stat.ME"
+}

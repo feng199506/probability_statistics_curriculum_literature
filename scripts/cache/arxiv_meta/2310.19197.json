@@ -1,0 +1,21 @@
+{
+ "id": "2310.19197",
+ "title": "concrete: Targeted Estimation of Survival and Competing Risks in Continuous Time",
+ "authors": [
+  "David Chen",
+  "Helene C. W. Rytgaard",
+  "Edwin C. H. Fong",
+  "Jens M. Tarp",
+  "Maya L. Petersen",
+  "Mark J. van der Laan",
+  "Thomas A. Gerds"
+ ],
+ "v1_date": "2023-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 4 figures, submitted to the R Journal",
+ "abstract": "This article introduces the R package concrete, which implements a recently developed targeted maximum likelihood estimator (TMLE) for the cause-specific absolute risks of time-to-event outcomes measured in continuous time. Cross-validated Super Learner machine learning ensembles are used to estimate propensity scores and conditional cause-specific hazards, which are then targeted to produce robust and efficient plug-in estimates of the effects of static or dynamic interventions on a binary treatment given at baseline quantified as risk differences or risk ratios. Influence curve-based asymptotic inference is provided for TMLE estimates and simultaneous confidence bands can be computed for target estimands spanning multiple multiple times or events. In this paper we review the one-step continuous-time TMLE methodology as it is situated in an overarching causal inference workflow, describe its implementation, and demonstrate the use of the package on the PBC dataset.",
+ "primary": "stat.CO"
+}

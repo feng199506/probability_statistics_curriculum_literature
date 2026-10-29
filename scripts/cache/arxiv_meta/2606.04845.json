@@ -1,0 +1,17 @@
+{
+ "id": "2606.04845",
+ "title": "Bayesian learning for the stochastic shortest path problem",
+ "authors": [
+  "Chon Wai Ho",
+  "Sumeetpal S. Singh",
+  "Jiaqi Guo"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages, 19 figures",
+ "abstract": "Sequential decision-making problems are often modelled as a Markov decision process (MDP). We focus on the stochastic shortest path (SSP) problem, which is an infinite-horizon undiscounted MDP with absorbing terminal states. We develop a Bayesian framework to learn the optimal decision strategy through interactions with the decision-making task. Specifically, we learn the optimal action-value function $Q^*$, but unlike many existing Bayesian approaches, we do not rely on unrealistic modelling assumptions and ad-hoc approximations. Our approach is to directly construct the posterior beliefs for $Q^*$ through Bellman's optimality equations. For deterministic rewards, we characterise the posterior as a distribution with a manifold density. To facilitate simpler inference, we relax the likelihood so that a Lebesgue density exists. The flip side is to create unidentifiability issues. Specifically, the relaxed posterior can have significant mass on improper decision rules, while the exact posterior will not. We also calculate the exact posterior probabilities for optimal action selections for the tabular parametrisation of $Q^*$, a Gaussian likelihood relaxation and a Gaussian prior, which is useful in benchmarking studies. Numerical studies on variants of the Deep Sea benchmark verify our findings. We demonstrate that our framework faithfully quantifies uncertainty and, compared to other temporal-difference-based Bayesian methodologies, is more data efficient. We conclude with recommendations for future work.",
+ "primary": "stat.ML"
+}

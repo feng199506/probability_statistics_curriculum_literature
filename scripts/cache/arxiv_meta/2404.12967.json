@@ -1,0 +1,17 @@
+{
+ "id": "2404.12967",
+ "title": "Bootstrap confidence intervals: A comparative simulation study",
+ "authors": [
+  "Vinícius Litvinoff Justus",
+  "Vitor Batista Rodrigues",
+  "Alex Rodrigo dos Santos Sousa"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 1,
+ "latest_date": "2024-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bootstrap is a widely used technique that allows estimating the properties of a given estimator, such as its bias and standard error. In this paper, we evaluate and compare five bootstrap-based methods for making confidence intervals: two of them (Normal and Studentized) based on the bootstrap estimate of the standard error; another two (Quantile and Better) based on the estimated distribution of the parameter estimator; and finally, considering an interval constructed based on Bayesian bootstrap, relying on the notion of credible interval. The methods are compared through Monte Carlo simulations in different scenarios, including samples with autocorrelation induced by a copula model. The results are also compared with respect to the coverage rate, the median interval length and a novel indicator, proposed in this paper, combining both of them. The results show that the Studentized method has the best coverage rate, although the smallest intervals are attained by the Bayesian method. In general, all methods are appropriate and demonstrated good performance even in the scenarios violating the independence assumption.",
+ "primary": "stat.CO"
+}

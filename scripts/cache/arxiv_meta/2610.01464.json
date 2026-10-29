@@ -1,0 +1,16 @@
+{
+ "id": "2610.01464",
+ "title": "Valid Inference After Control Selection in Difference-in-Differences",
+ "authors": [
+  "Takahiro Hoshino",
+  "Ryoya Nakano"
+ ],
+ "v1_date": "2026-10-01",
+ "latest_version": 3,
+ "latest_date": "2026-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Selecting difference-in-differences controls from a candidate pool by pre-treatment fit can alter the estimator's distribution and cause undercoverage despite parallel trends for every candidate. We develop the first empirically implementable selective inference for the average treatment effect on the treated. We estimate the full covariance matrix from the same observations and condition inference on the full selection event. Joint Gaussian approximation of outcome means yields uniform asymptotic validity including perfect fit and population ties. Endpoints approach known-covariance counterparts in standard-error units; widths shrink with effective sample size despite vanishing regional sample shares. We cover staggered adoption, reused observations and finite fitting-rule searches favoring larger estimates. At fixed smoothing, skewness and mean--covariance corrections give randomized tests second-order accuracy for joint selection and rejection probabilities. The adjusted interval for police deployment's effect on car theft includes zero; intervals for minimum-wage employment effects admit larger losses at $\\$5$ to below $\\$14$ per hour.",
+ "primary": "econ.EM"
+}

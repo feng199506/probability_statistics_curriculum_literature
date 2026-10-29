@@ -1,0 +1,17 @@
+{
+ "id": "2507.04163",
+ "title": "Nested importance sampling for Bayesian inference: error bounds and the role of dimension",
+ "authors": [
+  "Fabián González",
+  "Víctor Elvira",
+  "Joaquín Miguez"
+ ],
+ "v1_date": "2025-07-05",
+ "latest_version": 2,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many Bayesian inference problems involve high dimensional models for which only a subset of the model variables are of actual interest. All other variables are just nuisance parameters that one would ideally like to integrate out analytically. Unfortunately, such integration is often impossible. There are several computational methods that have been proposed over the past 15 years that replace intractable analytical marginalization by numerical integration, typically using different flavours of importance sampling (IS). Such methods include particle Markov chain Monte Carlo, sequential Monte Carlo squared (SMC$^2$), IS$^2$, nested particle filters, and others. In this paper, we investigate the role of the dimension of the nuisance variables in the error bounds achieved by nested IS methods in Bayesian inference. We prove that, under suitable regularity assumptions on the model, the approximation errors increase at a polynomial (rather than exponential) rate w.r.t. the dimension of the nuisance variables. Our analysis relies on tools from functional analysis and measure theory, and it includes the case of polynomials of degree zero, where the approximation error remains uniformly bounded, even as the dimension of the nuisance variables grows without bound. We also show how the general analysis can be applied to specific classes of models, including linear and Gaussian settings, models with bounded observation functions, and others. These findings improve the current understanding of how the performance of IS techniques scales with dimension in Bayesian inference problems.",
+ "primary": "stat.CO"
+}

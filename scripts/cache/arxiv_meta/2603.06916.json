@@ -1,0 +1,19 @@
+{
+ "id": "2603.06916",
+ "title": "Living forwards or understanding backwards? A comparison of Inverse Probability of Treatment Weighting and G-estimation methods for targeting hypothetical full adherence estimands in longitudinal cohort studies",
+ "authors": [
+  "Xiaoran Liang",
+  "Deniz Türkmen",
+  "Jane A H Masoli",
+  "Luke C Pilling",
+  "Jack Bowden"
+ ],
+ "v1_date": "2026-03-06",
+ "latest_version": 1,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Medication adherence is essential to ensure treatment effectiveness, but too often in routine care non-adherence compromises the desired outcome. We explore longitudinal causal modelling using observational data to estimate the time-varying effects of continuous drug adherence measures on health outcomes over a sustained period. The goal of such analyses is to quantify the potential impact of interventions to improve adherence on long-term health. We consider two established longitudinal causal approaches designed to handle time-varying confounding under the ``no unmeasured confounding'' (NUC) assumption: G-estimation and inverse probability of treatment weighting (IPTW). In randomized controlled trial, NUC-based methods have been applied to address non-adherence as an intercurrent event, and instrumental variable (IV) extensions of G-estimation have also been introduced for settings where the NUC assumption may fail. We adapt these methods to observational data settings and illustrate their use for assessing how adherence over time impacts health outcomes. We align the causal parameters across methods and show they can target the same causal estimand: the average effect among treated individuals of full adherence versus zero adherence. We set out the identification conditions for IPTW and G-estimation under NUC, and for an IV-based extension that has specific utility when the NUC assumption is implausible. We assess the statistical properties, strengths and weaknesses of each approach through Monte Carlo simulations designed to reflect longitudinal studies with a continuous exposure. We demonstrate these methods by quantifying the effect of full statin adherence on LDL cholesterol control in 13,000 UK Biobank participants with linked primary care data.",
+ "primary": "stat.ME"
+}

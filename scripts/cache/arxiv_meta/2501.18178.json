@@ -1,0 +1,18 @@
+{
+ "id": "2501.18178",
+ "title": "Estimating Multi-chirp Parameters using Curvature-guided Langevin Monte Carlo",
+ "authors": [
+  "Sattwik Basu",
+  "Debottam Dutta",
+  "Yu-Lin Wei",
+  "Romit Roy Choudhury"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 1,
+ "latest_date": "2025-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers the problem of estimating chirp parameters from a noisy mixture of chirps. While a rich body of work exists in this area, challenges remain when extending these techniques to chirps of higher order polynomials. We formulate this as a non-convex optimization problem and propose a modified Langevin Monte Carlo (LMC) sampler that exploits the average curvature of the objective function to reliably find the minimizer. Results show that our Curvature-guided LMC (CG-LMC) algorithm is robust and succeeds even in low SNR regimes, making it viable for practical applications.",
+ "primary": "eess.SP"
+}

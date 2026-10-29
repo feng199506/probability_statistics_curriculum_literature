@@ -1,0 +1,15 @@
+{
+ "id": "1511.08866",
+ "title": "Selective inference after cross-validation",
+ "authors": [
+  "Joshua R. Loftus"
+ ],
+ "v1_date": "2015-11-28",
+ "latest_version": 1,
+ "latest_date": "2015-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 2 figures",
+ "abstract": "This paper describes a method for performing inference on models chosen by cross-validation. When the test error being minimized in cross-validation is a residual sum of squares it can be written as a quadratic form. This allows us to apply the inference framework in Loftus et al. (2015) for models determined by quadratic constraints to the model that minimizes CV test error. Our only requirement on the model training pro- cedure is that its selection events are regions satisfying linear or quadratic constraints. This includes both Lasso and forward stepwise, which serve as our main examples throughout. We do not require knowledge of the error variance $σ^2$. The procedures described here are computationally intensive methods of selecting models adaptively and performing inference for the selected model. Implementations are available in an R package.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.00627",
+ "title": "Rényi's $α$-divergence variational Bayes for spike-and-slab high-dimensional linear regression",
+ "authors": [
+  "Chadi Bsila",
+  "Yiqi Tang",
+  "Kaiwen Wang"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 2,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse high-dimensional linear regression is a central problem in statistics, where the goal is often variable selection and/or coefficient estimation. We propose a mean-field variational Bayes approximation for sparse regression with spike-and-slab Laplace priors that replaces the standard Kullback-Leibler (KL) divergence objective with the Rényi's $α$ divergence: a one-parameter generalization of KL divergence indexed by $α\\in (0, \\infty) \\setminus \\{1\\}$ that allows flexibility between zero-forcing and mass-covering behavior. We derive coordinate ascent variational inference (CAVI) updates via a second-order delta method and develop a stochastic variational inference algorithm based on a Monte Carlo surrogate Rényi lower bound. In simulations, our two methods perform comparably to state-of-the-art Bayesian variable selection procedures across a range of sparsity configurations and $α$ values for both variable selection and estimation, and our numerical results illustrate how different choices of $α$ can be advantageous in different sparsity configurations.",
+ "primary": "stat.ME"
+}

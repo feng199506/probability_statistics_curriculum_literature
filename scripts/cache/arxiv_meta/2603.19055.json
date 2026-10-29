@@ -1,0 +1,21 @@
+{
+ "id": "2603.19055",
+ "title": "Probabilistic multivariate statistical process control via kernel parameter uncertainty propagation",
+ "authors": [
+  "Zina-Sabrina Duma",
+  "Victoria Jorry",
+  "Ayesha Safraz",
+  "Maria Paola di Crosta",
+  "Tuomas Sihvonen",
+  "Lassi Roininen",
+  "Satu-Pia Reinikainen"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel-based multivariate statistical process control (K-MSPC) extends classical monitoring to nonlinear industrial processes. Its performance depends critically on kernel parameters such as lengthscales and variance terms. In current practice these parameters are typically selected by heuristics or deterministic optimisation, and then treated as fixed, despite being inferred from finite and noisy data. This can lead to overconfident control limits and unstable alarm behaviour when the kernel choice is uncertain. This work proposes a probabilistic K-MSPC framework that quantifies and propagates kernel parameter uncertainty to the monitoring statistics. The approach follows a two-stage workflow: (i) deterministic kernel calibration using supervised or unsupervised models, and (ii) Bayesian inference of kernel parameters via Markov chain Monte Carlo. Posterior samples are propagated through kernel Principal Component Analysis to produce probabilistic $T^2$ and squarred prediction error control charts, together with uncertainty-aware contribution plots. The framework is evaluated on the Tennessee Eastman Process benchmark. Results show that posterior-mean monitoring often improves fault detection compared to deterministic prior-mean charts for the squared exponential kernel, while credible bands remain narrow in-control and widen under faults, reflecting amplified epistemic uncertainty in abnormal regimes. The automatic relevance determination kernel reduces posterior uncertainty and yields performance close to the deterministic baseline, whereas unsupervised calibration produces wider posterior bands but still robust fault detection.",
+ "primary": "stat.AP"
+}

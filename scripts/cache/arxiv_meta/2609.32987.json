@@ -1,0 +1,16 @@
+{
+ "id": "2609.32987",
+ "title": "Maximum Likelihood Estimation for Entity Ranking under Iterative Synthetic Data Augmentation",
+ "authors": [
+  "Yiqiao Jin",
+  "Mengxin Yu"
+ ],
+ "v1_date": "2026-09-26",
+ "latest_version": 1,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study entity ranking and inference under the Bradley--Terry--Luce (BTL) model using pairwise comparisons collected over sparse comparison graphs. In practice, collecting high-quality human judgments can be expensive and time-consuming, motivating the use of synthetic data augmentation in model training. We analyze an iterative synthetic augmentation workflow in which synthetic comparisons generated from fitted models are successively added to the original dataset. In this process, the proportion of real data may vanish as the number of iterations grows. However, emerging literature has shown that recursive training on synthetic data can lead to model collapse, raising concerns about the statistical reliability of such augmentation procedures. To this end, we systematically analyze the resulting MLE in finite-sample, high-dimensional regimes. For the resulting iterative maximum likelihood estimator (MLE), we derive its optimal finite-sample $\\ell_2$ and $\\ell_{\\infty}$ statistical rates and establish its asymptotic normality under natural identifiability conditions. We further characterize regimes in which model collapse is avoided despite the diminishing fraction of real data. We validate our theoretical findings through large-scale numerical experiments and an application to the Arena Human Preference 140k dataset.",
+ "primary": "stat.ME"
+}

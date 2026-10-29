@@ -1,0 +1,15 @@
+{
+ "id": "2606.30692",
+ "title": "Stochastic Analysis of Fade Duration Using Wiener Chaos Expansion and Malliavin Calculus: Optimal Importance Sampling via Adaptive SGD",
+ "authors": [
+  "Francisco Delgado-Vences"
+ ],
+ "v1_date": "2026-06-28",
+ "latest_version": 1,
+ "latest_date": "2026-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 1 figure",
+ "abstract": "Characterizing fade duration in wireless channels is fundamental for designing robust communication systems. Classical approaches -- Rice's level-crossing theory and Monte Carlo simulation -- lack precision for tail events and are computationally prohibitive for rare-event probability estimation. This paper introduces a rigorous framework combining Wiener Chaos Expansion (WCE), Malliavin Calculus, and importance sampling with adaptive weights to analyze fade duration $Z(T)$ distributions. Main contributions include: (i) high-accuracy moment estimation and CCDF characterization via WCE minimizing Monte Carlo variance; (ii) Markovian projection reducing infinite-dimensional dynamics to tractable systems ($\\dim \\leq 3$) for Rayleigh, Rician, and Nakagami models under stated assumptions; (iii) asymptotically optimal importance sampling weights derived from Malliavin sensitivities, achieving 839 to 2516x variance reductions; (iv) a theoretically grounded and provably efficient adaptive SGD algorithm with Robbins-Monro step size schedule for parameter estimation. Numerical experiments validate our approach with relative errors below 0.5\\%, enabling gradient-based optimization of fade duration statistics even for regimes where $P \\sim 10^{-15}$, without requiring $\\mathcal{O}(1/P)$ samples, by evaluating sensitivities through analytical Malliavin weights.",
+ "primary": "math.NA"
+}

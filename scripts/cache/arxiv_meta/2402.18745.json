@@ -1,0 +1,17 @@
+{
+ "id": "2402.18745",
+ "title": "Degree-heterogeneous Latent Class Analysis for High-dimensional Discrete Data",
+ "authors": [
+  "Zhongyuan Lyu",
+  "Ling Chen",
+  "Yuqi Gu"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 5,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by the Journal of the American Statistical Association",
+ "abstract": "The latent class model is a widely used mixture model for multivariate discrete data. Besides the existence of qualitatively heterogeneous latent classes, real data often exhibit additional quantitative heterogeneity nested within each latent class. The modern latent class analysis also faces extra challenges, including the high-dimensionality, sparsity, and heteroskedastic noise inherent in discrete data. Motivated by these phenomena, we introduce the Degree-heterogeneous Latent Class Model and propose an easy-to-implement HeteroClustering algorithm for it. HeteroClustering uses heteroskedastic PCA with $\\ell_2$ normalization to remove degree effects and perform clustering in the top singular subspace of the data matrix. We establish the result of exact clustering under minimal signal-to-noise conditions. We further investigate the estimation and inference of the high-dimensional continuous item parameters in the model, which are crucial to interpreting and finding useful markers for latent classes. We provide comprehensive procedures for global testing and multiple testing of these parameters with valid error controls. The superior performance of our methods is demonstrated through extensive simulations and applications to three diverse real-world datasets from political voting records, genetic variations, and single-cell sequencing.",
+ "primary": "stat.ME"
+}

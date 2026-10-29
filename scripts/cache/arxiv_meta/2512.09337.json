@@ -1,0 +1,15 @@
+{
+ "id": "2512.09337",
+ "title": "Balancing Weights for Causal Mediation Analysis",
+ "authors": [
+  "Kentaro Kawato"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 1,
+ "latest_date": "2025-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages",
+ "abstract": "This paper develops methods for estimating the natural direct and indirect effects in causal mediation analysis. The efficient influence function-based estimator (EIF-based estimator) and the inverse probability weighting estimator (IPW estimator), which are standard in causal mediation analysis, both rely on the inverse of the estimated propensity scores, and thus they are vulnerable to two key issues (i) instability and (ii) finite-sample covariate imbalance. We propose estimators based on the weights obtained by an algorithm that directly penalizes weight dispersion while enforcing approximate covariate and mediator balance, thereby improving stability and mitigating bias in finite samples. We establish the convergence rates of the proposed weights and show that the resulting estimators are asymptotically normal and achieve the semiparametric efficiency bound. Monte Carlo simulations demonstrate that the proposed estimator outperforms not only the EIF-based estimator and the IPW estimator but also the regression imputation estimator in challenging scenarios with model misspecification. Furthermore, the proposed method is applied to a real dataset from a study examining the effects of media framing on immigration attitudes.",
+ "primary": "stat.ME"
+}

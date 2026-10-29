@@ -1,0 +1,17 @@
+{
+ "id": "2604.04529",
+ "title": "Dynamic Factor Stochastic Volatility-in-Mean VAR for Large Macroeconomic Panels",
+ "authors": [
+  "Daichi Hiraki",
+  "Siddhartha Chib",
+  "Yasuhiro Omori"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "72 pages, 27 figures, 22 tables",
+ "abstract": "We develop a dynamic factor stochastic volatility-in-mean (SVM) specification for vector autoregressions (VARs) that embeds an SVM component within a dynamic factor stochastic volatility structure. A small number of latent volatility factors capture common movements in conditional variances, while volatility enters the conditional mean of the VAR. This specification allows time-varying uncertainty to influence macroeconomic dynamics through both second moments and expected outcomes while preserving tractability in large panels. We construct an efficient Markov chain Monte Carlo algorithm for estimation in this high-dimensional, non-Gaussian setting. Using quarterly data on twenty variables from the FRED-QD database, we compare predictive performance with the benchmark stochastic volatility VAR model. The dynamic factor SVM specification delivers superior forecasts for more variables during major macroeconomic disruptions such as the 2008 global financial crisis. The results indicate that allowing volatility to enter the mean captures an important transmission channel in macroeconomic dynamics.",
+ "primary": "stat.ME"
+}

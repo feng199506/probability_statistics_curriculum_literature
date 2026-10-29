@@ -1,0 +1,17 @@
+{
+ "id": "2410.07242",
+ "title": "Dynamic borrowing from historical controls via the synthetic prior with covariates in randomized clinical trials",
+ "authors": [
+  "Daniel E. Schwartz",
+  "Yuan Ji",
+  "Li Wang"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 2,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by a rheumatoid arthritis clinical trial, we propose a new Bayesian method called SPx, standing for synthetic prior with covariates, to borrow information from historical trials to reduce the control group size in a new trial. The method involves a novel use of Bayesian model averaging to balance between multiple possible relationships between the historical and new trial data, allowing the historical data to be dynamically trusted or discounted as appropriate. We require only trial-level summary statistics, which are available more often than patient-level data. Through simulations and an application to the rheumatoid arthritis trial we show that SPx can substantially reduce the control group size while maintaining Frequentist properties.",
+ "primary": "stat.ME"
+}

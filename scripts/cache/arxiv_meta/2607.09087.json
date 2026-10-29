@@ -1,0 +1,17 @@
+{
+ "id": "2607.09087",
+ "title": "Achieving Almost Exact Recovery in Almost Quadratic Time: Rank-Based Graph Matching via Local Tree Correlation Tests",
+ "authors": [
+  "Jiale Cheng",
+  "Ziao Wang",
+  "Lei Ying"
+ ],
+ "v1_date": "2026-07-10",
+ "latest_version": 3,
+ "latest_date": "2026-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added Acknowledgements; fixed a typo in the proof of Lemma 17",
+ "abstract": "This paper studies graph matching under the correlated $\\text{Erdős-Rényi}$ (ER) graph pair model. This model first samples an $\\mathrm{ER}(n,\\fracλ{ns})$ base graph, whose edges are then independently subsampled twice with probability $s$ to produce two correlated $\\mathrm{ER}(n,\\fracλ{n})$ graphs. We propose a graph matching algorithm that has $n^{2+o(1)}$ time complexity and achieves almost exact recovery with high probability under the assumptions $λ=(\\log n)^{α+o(1)}$ for some $α\\in(0,1)$ and $s\\in(\\sqrt{C_{\\mathrm{Otter}}},1]$, where $C_{\\mathrm{Otter}}\\approx 0.338$ is Otter's tree-counting constant. This is the first algorithm with almost quadratic time complexity in this regime of $λ$, while the best known result in this regime is the chandelier-counting algorithm with time complexity $O(n^{c(s)})$, where $c(s)\\rightarrow \\infty$ as $s$ approaches $\\sqrt{C_\\mathrm{Otter}}$ from above. The proposed algorithm is based on local tree correlation tests. It uses a rank-based algorithm to match the vertex pairs instead of threshold-based rules in the literature. This avoids the need of computing an explicit threshold, which is computationally difficult to obtain. To prove the almost exact recovery result, we establish a new analysis of tree correlation tests in the diverging-degree regime, where both the mean degree and the tree depth grow with $n$. Based on this new result, we establish the existence of a threshold for a threshold-based graph matching algorithm via local tree correlation tests. Finally, we couple the performance of the rank-based algorithm with the threshold-based algorithm to show almost exact recovery.",
+ "primary": "cs.DS"
+}

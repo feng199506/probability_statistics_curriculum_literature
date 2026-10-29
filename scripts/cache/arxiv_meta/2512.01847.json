@@ -1,0 +1,22 @@
+{
+ "id": "2512.01847",
+ "title": "A discomfort-informed adaptive Gibbs sampler for finite mixture models",
+ "authors": [
+  "Davide Fabbrico",
+  "Andi Q. Wang",
+  "Sebastiano Grazzi",
+  "Alice Corbella",
+  "Gareth O. Roberts",
+  "Sylvia Richardson",
+  "Filippo Pagani",
+  "Paul D. W. Kirk"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 1,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages",
+ "abstract": "Finite mixture models are frequently used to uncover latent structures in high-dimensional datasets (e.g.\\ identifying clusters of patients in electronic health records). The inference of such structures can be performed in a Bayesian framework, and involves the use of sampling algorithms such as Gibbs samplers aimed at deriving posterior distribution of the probabilities of observations to belong to specific clusters. Unfortunately, traditional implementations of Gibbs samplers in this context often face critical challenges, such as inefficient use of computational resources and unnecessary updates for observations that are highly likely to remain in their current cluster. This paper introduces a new adaptive Gibbs sampler that improves the convergence efficiency over existing methods. In particular, our sampler is guided by a function that, at each iteration, uses the past of the chain to focus the updating on observations potentially misclassified in the current clustering, i.e.\\ those with a low probability of belonging to their current component. Through simulation studies and two real data analyses, we empirically demonstrate that, in terms of convergence time, our method tends to perform more efficiently compared to state-of-the-art approaches.",
+ "primary": "stat.ME"
+}

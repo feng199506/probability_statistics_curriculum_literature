@@ -1,0 +1,16 @@
+{
+ "id": "2605.10406",
+ "title": "Multi-Fidelity Quantile Regression",
+ "authors": [
+  "Yixiang Liu",
+  "Yao Zhang"
+ ],
+ "v1_date": "2026-05-11",
+ "latest_version": 2,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 12 figures, 3 tables",
+ "abstract": "High-fidelity (HF) data are often expensive to collect and therefore scarce, making conditional quantiles difficult to estimate accurately. We propose a two-stage, model-agnostic method for multi-fidelity quantile regression. The central idea is a local quantile link: at each covariate value, the HF quantile is represented as a low-fidelity (LF) quantile evaluated at a covariate-dependent level. This reformulation reduces the problem to estimating the level function, which can be smoother than the HF quantile itself when the LF and HF conditional distributions have similar shapes. We also study the complementary regime in which this advantage weakens and introduce a correction step to improve robustness. Our theory characterizes when the proposed estimator converges faster than direct quantile regression using HF data alone and when the correction step provides further improvement. Experiments on synthetic and real data show that our method yields more accurate quantile estimates and tighter conformal prediction intervals.",
+ "primary": "stat.ME"
+}

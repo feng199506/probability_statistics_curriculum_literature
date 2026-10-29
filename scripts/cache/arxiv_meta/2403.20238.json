@@ -1,0 +1,17 @@
+{
+ "id": "2403.20238",
+ "title": "An ordinary differential equation for entropic optimal transport and its linearly constrained variants",
+ "authors": [
+  "Joshua Zoen-Git Hiew",
+  "Luca Nenna",
+  "Brendan Pass"
+ ],
+ "v1_date": "2024-03-29",
+ "latest_version": 1,
+ "latest_date": "2024-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 6 figures, 5 tables",
+ "abstract": "We characterize the solution to the entropically regularized optimal transport problem by a well-posed ordinary differential equation (ODE). Our approach works for discrete marginals and general cost functions, and in addition to two marginal problems, applies to multi-marginal problems and those with additional linear constraints. Solving the ODE gives a new numerical method to solve the optimal transport problem, which has the advantage of yielding the solution for all intermediate values of the ODE parameter (which is equivalent to the usual regularization parameter). We illustrate this method with several numerical simulations. The formulation of the ODE also allows one to compute derivatives of the optimal cost when the ODE parameter is $0$, corresponding to the fully regularized limit problem in which only the entropy is minimized.",
+ "primary": "math.OC"
+}

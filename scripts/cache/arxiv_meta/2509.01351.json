@@ -1,0 +1,17 @@
+{
+ "id": "2509.01351",
+ "title": "Bootstrap Diagnostic Tests",
+ "authors": [
+  "Giuseppe Cavaliere",
+  "Luca Fanelli",
+  "Iliyan Georgiev"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 2,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Violation of the assumptions underlying classical (Gaussian) limit theory often yields unreliable statistical inference. This paper shows that the bootstrap can detect such violations by delivering simple and powerful diagnostic tests that (a) induce no pre-testing bias, (b) use the same critical values across applications, and (c) are consistent against deviations from asymptotic normality. The tests compare the conditional distribution of a bootstrap statistic with the Gaussian limit implied by valid specification and assess whether the resulting discrepancy is large enough to indicate failure of the asymptotic Gaussian approximation. The method is computationally straightforward and only requires a sample of i.i.d. draws of the bootstrap statistic. We derive sufficient conditions for the randomness in the data to mix with the randomness in the bootstrap repetitions in a way such that (a), (b) and (c) above hold. We demonstrate the practical relevance and broad applicability of bootstrap diagnostics by considering several scenarios where the asymptotic Gaussian approximation may fail, including weak instruments, non-stationarity, parameters on the boundary of the parameter space, infinite variance data and singular Jacobian in applications of the delta method. An illustration drawn from the empirical macroeconomic literature concludes.",
+ "primary": "econ.EM"
+}

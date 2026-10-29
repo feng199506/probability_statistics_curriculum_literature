@@ -1,0 +1,15 @@
+{
+ "id": "1509.09169",
+ "title": "Lecture notes on ridge regression",
+ "authors": [
+  "Wessel N. van Wieringen"
+ ],
+ "v1_date": "2015-09-30",
+ "latest_version": 9,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The linear regression model cannot be fitted to high-dimensional data, as the high-dimensionality brings about empirical non-identifiability. Penalized regression overcomes this non-identifiability by augmentation of the loss function by a penalty (i.e. a function of regression coefficients). The ridge penalty is the sum of squared regression coefficients, giving rise to ridge regression. Here many aspect of ridge regression are reviewed e.g. moments, mean squared error, its equivalence to constrained estimation, and its relation to Bayesian regression. Finally, its behaviour and use are illustrated in simulation and on high-throughput data. Subsequently, ridge regression is generalized to allow for a more general penalty. The ridge penalization framework is then translated to logistic regression and its properties are shown to carry over. To contrast ridge penalized estimation, the final chapters introduce its lasso counterpart and generalizations thereof.",
+ "primary": "stat.ME"
+}

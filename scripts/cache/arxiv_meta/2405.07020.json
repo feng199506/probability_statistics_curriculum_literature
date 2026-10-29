@@ -1,0 +1,16 @@
+{
+ "id": "2405.07020",
+ "title": "Bayesian Frequency Estimation Under Local Differential Privacy With an Adaptive Randomized Response Mechanism",
+ "authors": [
+  "Soner Aydin",
+  "Sinan Yildirim"
+ ],
+ "v1_date": "2024-05-11",
+ "latest_version": 2,
+ "latest_date": "2024-11-30",
+ "journal_ref": "ACM Transactions on Knowledge Discovery from Data (2025), Volume 19, Issue 2 Article No.: 28, Pages 1-40",
+ "doi": "10.1145/3706584",
+ "comment": "Code for experiments available at https://github.com/soneraydin/AdOBEst_LDP",
+ "abstract": "Frequency estimation plays a critical role in many applications involving personal and private categorical data. Such data are often collected sequentially over time, making it valuable to estimate their distribution online while preserving privacy. We propose AdOBEst-LDP, a new algorithm for adaptive, online Bayesian estimation of categorical distributions under local differential privacy (LDP). The key idea behind AdOBEst-LDP is to enhance the utility of future privatized categorical data by leveraging inference from previously collected privatized data. To achieve this, AdOBEst-LDP uses a new adaptive LDP mechanism to collect privatized data. This LDP mechanism constrains its output to a \\emph{subset} of categories that `predicts' the next user's data. By adapting the subset selection process to the past privatized data via Bayesian estimation, the algorithm improves the utility of future privatized data. To quantify utility, we explore various well-known information metrics, including (but not limited to) the Fisher information matrix, total variation distance, and information entropy. For Bayesian estimation, we utilize \\emph{posterior sampling} through stochastic gradient Langevin dynamics, a computationally efficient approximate Markov chain Monte Carlo (MCMC) method. We provide a theoretical analysis showing that (i) the posterior distribution of the category probabilities targeted with Bayesian estimation converges to the true probabilities even for approximate posterior sampling, and (ii) AdOBEst-LDP eventually selects the optimal subset for its LDP mechanism with high probability if posterior sampling is performed exactly. We also present numerical results to validate the estimation accuracy of AdOBEst-LDP. Our comparisons show its superior performance against non-adaptive and semi-adaptive competitors across different privacy levels and distributional parameters.",
+ "primary": "cs.LG"
+}

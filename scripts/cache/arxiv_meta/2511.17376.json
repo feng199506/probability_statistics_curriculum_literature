@@ -1,0 +1,19 @@
+{
+ "id": "2511.17376",
+ "title": "U-DESPE: a Bayesian Utility-based methodology for dosing regimen optimization in early-phase oncology trials based on Dose-Exposure, Safety, Pharmacodynamics, Efficacy",
+ "authors": [
+  "Anaïs Andrillon",
+  "Sandrine Micallef",
+  "Moreno Ursino",
+  "Pavel Mozgunov",
+  "Marie-Karelle Riviere"
+ ],
+ "v1_date": "2025-11-21",
+ "latest_version": 1,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main manuscript and Supplementary materials",
+ "abstract": "With the development of novel therapies such as molecularly targeted agents and immunotherapy, the maximum tolerated dose paradigm that \"more is better\" does not necessarily hold anymore. In this context, doses and schedules of novel therapies may be inadequately characterized and oncology drug dose-finding approaches should be revised. This is increasingly recognized by health authorities, notably through the Optimus project. We developed a Bayesian dose-finding design, called U-DESPE, which allows to either determine the optimal dosing regimen at the end of the dose-escalation phase, or use of dedicated cohorts for randomizing patients to candidate optimal dosing regimens after that safe dosing regimens have been found. U-DESPE design relies on a dose-exposure model built from pharmacokinetic data using non-linear mixed-effect modeling approaches. Then three models are built to assess the relationships between exposure and the probability of selected relevant endpoints on safety, efficacy, and pharmacodynamics. These models are then combined to predict the different endpoints for every candidate dosing regimens. Finally, a utility function is proposed to quantify the trade-off between these endpoints and to determine the optimal dosing regimen. We applied the proposed method on a clinical trial case study and performed an extensive simulation study to evaluate the operating characteristics of the method.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2603.27010",
+ "title": "Bayesian analysis of the causal reference-based model for missing data in clinical trials, accommodating partially observed post-intercurrent event data",
+ "authors": [
+  "Brendah Nansereko",
+  "Marcel Wolbers",
+  "James R. Carpenter",
+  "Jonathan W. Bartlett"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When treatment policy estimands are of interest, clinical trials often attempt to collect patient data after intercurrent events (ICEs), although such data are often limited. Retrieved dropout imputation methods, which use pre-ICE and available post-ICE data to impute missing post-ICE outcomes, are commonly applied but often yield treatment effect estimates with large standard errors (SEs) and may encounter convergence issues when post-ICE data are sparse. Reference-based imputation methods are also used, but they rely on strong assumptions about post-ICE outcomes, which can lead to biased estimates if these assumptions are incorrect. To address these limitations, we previously proposed the reference-based Bayesian causal model (BCM), which incorporates a prior on the maintained effect parameter to reflect uncertainty in reference-based assumptions for missing post-ICE data. Our earlier work assumed no post-ICE data were observed. Here, we extend the BCM to incorporate available post-ICE outcomes, providing an approach that mitigates limitations of both retrieved-dropout and standard reference-based methods. We propose both a fully Bayesian model and an imputation-based approach. A simulation study was conducted to evaluate the frequentist properties of the proposed methods in settings with partially observed post-ICE data and to compare performance with existing approaches. Retrieved-dropout methods produced higher estimated SEs than the BCM, particularly when post-ICE data were sparse. Under the BCM, treatment effect SEs increased as post-ICE data became more limited for both modelling approaches. Importantly, this increase can be controlled through the prior variance of the maintained effect parameter, with more informative priors stabilising estimation when post-ICE data are scarce.",
+ "primary": "stat.ME"
+}

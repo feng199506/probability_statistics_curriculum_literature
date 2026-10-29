@@ -1,0 +1,17 @@
+{
+ "id": "2604.23229",
+ "title": "Solidarity of Spectral Gaps for Component-Wise Markov Chains",
+ "authors": [
+  "Youngwoo Kwon",
+  "Galin Jones",
+  "Qian Qin"
+ ],
+ "v1_date": "2026-04-25",
+ "latest_version": 2,
+ "latest_date": "2026-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages",
+ "abstract": "Deterministic-scan and random-scan component-wise Markov chain Monte Carlo algorithms, such as Gibbs samplers and conditional Metropolis-Hastings, are popular approaches for sampling from multivariate distributions. A long-standing open question is to determine the conditions under which these algorithms have similar convergence rates. A block-wise contraction condition for the component-wise updates is used to establish a solidarity principle for the $L^2$ spectral gaps of the associated Markov chains. Specifically, under this condition, the spectral gaps of the random-scan and deterministic-scan versions of the Gibbs and component-wise chains are either simultaneously positive or simultaneously zero. Moreover, the spectral gaps differ by at most polynomial factors in the number of blocks. As an application of the general results, a deterministic-scan conditional Metropolis-adjusted Langevin algorithm (MALA) for multivariate Gaussian targets is studied. The block-wise contraction condition is combined with known spectral gap bounds for the random-scan Gibbs sampler to obtain a spectral gap bound that is polynomial in dimension. The result is used to clarify how the convergence rate of the conditional MALA depends on the precision matrix of the Gaussian target and the step sizes of the block-wise MALA updates.",
+ "primary": "math.ST"
+}

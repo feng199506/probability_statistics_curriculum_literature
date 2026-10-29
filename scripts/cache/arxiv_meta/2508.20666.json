@@ -1,0 +1,16 @@
+{
+ "id": "2508.20666",
+ "title": "Evanescent random walker on networks: Hitting times, budget renewal, and survival dynamics",
+ "authors": [
+  "Thomas M. Michelitsch",
+  "Alejandro P. Riascos"
+ ],
+ "v1_date": "2025-08-28",
+ "latest_version": 3,
+ "latest_date": "2025-11-20",
+ "journal_ref": "Chaos 35, 123114 (2025)",
+ "doi": "10.1063/5.0299615",
+ "comment": "39 pages, 10 figures",
+ "abstract": "We consider a mortal random walker evolving with discrete time on a network, where transitions follow a degree-biased Markovian navigation strategy. The walker starts with a random initial budget $T_1 \\in \\mathbb{N}$ and must maintain a strictly positive budget to remain alive. Each step incurs a unit cost, decrementing the budget by one; the walker perishes (is ruined) upon depletion of the budget. However, when the walker reaches designated target nodes, the budget is renewed by an independent and identically distributed (IID) copy of its initial value. The degree bias is tuned to either favor or disfavor visits to these target nodes. Our model exhibits connections with stochastic resetting. The evolution of the budget can be interpreted as a deterministic drift on the integer line toward negative values, where the walker is intermittently reset to positive IID random positions and dies at the first hit of the origin. The first part of the paper focuses on the target-hitting statistics of an immortal Markovian walker. We analyze the \\textit{target hitting counting process} (THCP) for an arbitrary set of target nodes. Within this framework, the second part of the paper addresses the dynamics of the evanescent walker. We derive analytical results for arbitrary configurations of target nodes, including the evanescent propagator matrix, the survival probability, the mean residence time on a set of nodes during the walker's lifetime, and the expected lifetime itself. Additionally, we compute the expected number of target hits (i.e., budget renewals) in a lifetime of the walker and related distributions. We explore both analytically and numerically various scenarios affecting the life expectancy of the walker.",
+ "primary": "cond-mat.stat-mech"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.15491",
+ "title": "Structural Causality-based Generalizable Concept Discovery Models",
+ "authors": [
+  "Sanchit Sinha",
+  "Guangzhi Xiong",
+  "Aidong Zhang"
+ ],
+ "v1_date": "2024-10-20",
+ "latest_version": 1,
+ "latest_date": "2024-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rising need for explainable deep neural network architectures has utilized semantic concepts as explainable units. Several approaches utilizing disentangled representation learning estimate the generative factors and utilize them as concepts for explaining DNNs. However, even though the generative factors for a dataset remain fixed, concepts are not fixed entities and vary based on downstream tasks. In this paper, we propose a disentanglement mechanism utilizing a variational autoencoder (VAE) for learning mutually independent generative factors for a given dataset and subsequently learning task-specific concepts using a structural causal model (SCM). Our method assumes generative factors and concepts to form a bipartite graph, with directed causal edges from generative factors to concepts. Experiments are conducted on datasets with known generative factors: D-sprites and Shapes3D. On specific downstream tasks, our proposed method successfully learns task-specific concepts which are explained well by the causal edges from the generative factors. Lastly, separate from current causal concept discovery methods, our methodology is generalizable to an arbitrary number of concepts and flexible to any downstream tasks.",
+ "primary": "cs.LG"
+}

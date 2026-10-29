@@ -1,0 +1,17 @@
+{
+ "id": "2409.11967",
+ "title": "Incremental effects for continuous exposures",
+ "authors": [
+  "Kyle Schindl",
+  "Shuying Shen",
+  "Edward H. Kennedy"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 3,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference problems often involve continuous treatments, such as dose, duration, or frequency. However, identifying and estimating standard dose-response estimands requires that everyone has some chance of receiving any level of the exposure (i.e., positivity). To avoid this assumption, we consider stochastic interventions based on exponentially tilting the treatment distribution by some parameter $δ$ (an incremental effect); this increases or decreases the likelihood a unit receives a given treatment level. We derive the efficient influence function and semiparametric efficiency bound for these incremental effects under continuous exposures. We then show estimation depends on the size of the tilt, as measured by $δ$. In particular, we derive new minimax lower bounds illustrating how the best possible root mean squared error scales with an effective sample size of $n / δ$, instead of $n$. Further, we establish new convergence rates and bounds on the bias of double machine learning-style estimators. Our novel analysis gives a better dependence on $δ$ compared to standard analyses by using mixed supremum and $L_2$ norms. Finally, we define a \"reflected\" exponential tilt around any interior point and show that taking $δ\\to \\infty$ yields a new estimator of the dose-response curve across the treatment support.",
+ "primary": "stat.ME"
+}

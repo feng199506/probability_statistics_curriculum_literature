@@ -1,0 +1,17 @@
+{
+ "id": "2406.00245",
+ "title": "Model-based Clustering of Multi-Dimensional Zero-Inflated Counts via the EM Algorithm",
+ "authors": [
+  "Zahra AghahosseinaliShirazi",
+  "Pedro A. Rangel",
+  "Camila P. E. de Souza"
+ ],
+ "v1_date": "2024-06-01",
+ "latest_version": 3,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38",
+ "abstract": "Zero-inflated count data arise in various fields, including health, biology, economics, and the social sciences. These data are often modelled using probabilistic distributions such as zero-inflated Poisson (ZIP), zero-inflated negative binomial (ZINB), or zero-inflated binomial (ZIB). To account for heterogeneity in the data, it is often useful to cluster observations into groups that may explain underlying differences in the data-generating process. This paper focuses on model-based clustering for zero-inflated counts when observations are structured in a matrix form rather than a vector. We propose a clustering framework based on mixtures of ZIP or ZINB distributions, with both the count and zero components depending on cluster assignments. Our approach incorporates covariates through a log-linear structure for the mean parameter and includes a size factor to adjust for differences in total sampling or exposure. Model parameters and cluster assignments are estimated via the Expectation-Maximization (EM) algorithm. We assess the performance of our proposed methodology through simulation studies evaluating clustering accuracy and estimator properties, followed by applications to publicly available datasets.",
+ "primary": "stat.ME"
+}

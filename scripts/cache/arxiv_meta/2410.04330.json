@@ -1,0 +1,16 @@
+{
+ "id": "2410.04330",
+ "title": "Sparse VARs Do Not Imply Sparse Local Projections: Robust Inference for High-Dimensional Granger Causality",
+ "authors": [
+  "Eugene Dettaa",
+  "Endong Wang"
+ ],
+ "v1_date": "2024-10-06",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies multi-horizon Granger causality using high-dimensional local projections in sparse Vector Autoregressive (VAR) systems. Since local projection coefficients are nonlinear transformations of the underlying VAR parameters, existing approaches, such as de-biased least absolute shrinkage and selection operator (LASSO) and post-double-selection methods applied directly to local projections, lack a general justification, as sparsity of the VAR does not always propagate to higher horizons. We propose a two-step framework that avoids imposing sparsity at each horizon and delivers valid inference without relying on heteroskedasticityand autocorrelation-consistent (HAC) corrections. We establish large sample theory for the proposed estimators and develop feasible Wald tests. Monte Carlo experiments demonstrate improved size control across horizons relative to existing methods. An application to large financial systems illustrates horizon-specific connectedness.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2511.06655",
+ "title": "A kernel method for the learning of Wasserstein geometric flows",
+ "authors": [
+  "Jianyu Hu",
+  "Juan-Pablo Ortega",
+  "Daiying Yin"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 2,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wasserstein gradient and Hamiltonian flows have emerged as essential tools for modeling complex dynamics in the natural sciences, providing a unifying geometric formulation of many partial differential equations (PDEs) and finding applications in fields ranging from optimal transport to quantum mechanics and information geometry. Despite their significance, the inverse identification of potential functions and interaction kernels underlying these flows remains relatively unexplored. In this work, we tackle this challenge by addressing the inverse problem of simultaneously recovering the potential function and interaction kernel from discretized observations of the density flow. We formulate the problem as an optimization task that minimizes a loss function specifically designed to enforce the underlying variational structure of Wasserstein flows, ensuring consistency with the geometric properties of the density manifold. Our framework employs a kernel-based operator approach using the associated {reproducing kernel Hilbert space (RKHS)}, which provides a closed-form representation of the unknown components. Furthermore, we conduct a comprehensive error analysis, providing convergence rates under adaptive regularization parameters as the temporal and spatial discretization mesh sizes tend to zero. Moreover, a stability analysis is presented to bridge the gap between discrete trajectory data and continuous-time flow dynamics for the Wasserstein Hamiltonian flow. {Finally, numerical experiments on both Wasserstein gradient and Hamiltonian flows demonstrate accurate and robust recovery from discrete density observations, while comparisons with sparse-learning approaches illustrate the strong dependence of sparse recovery on the choice of dictionary.}",
+ "primary": "math.NA"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "2606.04567",
+ "title": "The GALAH Survey: Neutron-Capture Elemental Abundances for 350,000 Gaia-RVS spectra and the Chemodynamics of Accreted Structures",
+ "authors": [
+  "Pradosh Barun Das",
+  "Daniel B. Zucker",
+  "Aldo Mura-Guzmán",
+  "Nicholas W. Borsato",
+  "Gayandhi M. De Silva",
+  "Sven Buder",
+  "Diane Feuillet",
+  "Thomas Nordlander",
+  "Melissa K. Ness",
+  "Sarah L. Martell",
+  "Janez Kos",
+  "Joss Bland-Hawthorn",
+  "Ken C. Freeman",
+  "Andrew R. Casey",
+  "Geraint F. Lewis",
+  "Dennis Stello",
+  "Richard de Grijs",
+  "the GALAH Collaboration"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-08-25",
+ "journal_ref": "Mon. Not. R. Astron. Soc. 550, 1-24 (2026)",
+ "doi": "10.1093/mnras/stag1142",
+ "comment": "Published in MNRAS; 24 pages, 14 figures, 8 tables. The resulting catalogues are available via the VizieR catalogue service at https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/550/G1142",
+ "abstract": "We present a comprehensive data-driven spectroscopic analysis of 357,415 red giant stars using Gaia DR3 Radial Velocity Spectrometer (RVS) spectra (8460-8700 A; $R\\approx11,500$), aimed at deriving homogenous stellar parameters and elemental abundances (collectively referred to as stellar labels). We employ The Cannon, a generative model based on 2747 giants in common with GALactic Archaeology with HERMES (GALAH) DR4, adopting GALAH labels ($R\\approx28,000$) for training. The resulting model predicts 11 stellar labels for RVS giants: effective temperature ($T_{\\rm eff}$), surface gravity ($\\log g$), projected rotational velocity ($v\\sin i$), and abundances of [Fe/H], [Ca/Fe], [Si/Fe], [Ni/Fe], [Ti/Fe], as well as the neutron-capture elements [Zr/Fe], [Ce/Fe], and [Nd/Fe]. Building on these results, we develop a probabilistic framework to chemically identify debris from the Gaia-Sausage-Enceladus (GSE) accretion event. A logistic regression classifier, optimized via Markov chain Monte Carlo sampling and trained on a small reference sample of GSE members and comparison stars, identifies stars with high GSE membership probabilities based solely on their chemical abundances, with the resulting candidates exhibiting distinctive abundance-ratio patterns, including [Ca/Ti], [Ti/Ce], and [Nd/Zr]. Applying independent kinematic constraints yields a robust sample of GSE candidates, demonstrating that the characteristic chemical signatures remain consistent after applying these constraints. This work demonstrates the potential of data-driven analysis techniques to extract detailed chemical information from medium-resolution spectra and establishes a framework for tracing Galactic accretion events using chemical abundances.",
+ "primary": "astro-ph.GA"
+}

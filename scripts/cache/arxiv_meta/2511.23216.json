@@ -1,0 +1,23 @@
+{
+ "id": "2511.23216",
+ "title": "Comparing Variable Selection and Model Averaging Methods for Logistic Regression",
+ "authors": [
+  "Nikola Sekulovski",
+  "František Bartoš",
+  "Don van den Bergh",
+  "Giuseppe Arena",
+  "Henrik R. Godmann",
+  "Vipasha Goyal",
+  "Julius M. Pfadt",
+  "Maarten Marsman",
+  "Adrian E. Raftery"
+ ],
+ "v1_date": "2025-11-28",
+ "latest_version": 3,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "10.1073/pnas.2534552123",
+ "comment": "",
+ "abstract": "Model uncertainty is a central challenge in statistical models for binary outcomes such as logistic regression, arising when it is unclear which predictors should be included in the model. Many methods have been proposed to address this issue for logistic regression, but their relative performance under realistic conditions remains poorly understood. We therefore conducted a preregistered, simulation-based comparison of 28 established methods for variable selection and inference under model uncertainty, using 11 empirical datasets spanning a range of sample sizes and number of predictors, in cases both with and without separation. We found that Bayesian model averaging (BMA) methods based on g-priors, particularly g = max(n, p^2), show the strongest overall performance when separation is absent. When separation occurs, penalized likelihood approaches, especially the LASSO, provide the most stable results, while BMA with the local empirical Bayes (EB-local) prior is competitive in both situations. These findings offer practical guidance for applied researchers on how to effectively address model uncertainty in logistic regression in modern empirical and machine learning research.",
+ "primary": "stat.ME"
+}

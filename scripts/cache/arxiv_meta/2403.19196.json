@@ -1,0 +1,17 @@
+{
+ "id": "2403.19196",
+ "title": "What Is a Good Imputation Under MAR Missingness?",
+ "authors": [
+  "Jeffrey Näf",
+  "Erwan Scornet",
+  "Julie Josse"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 5,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Missing values pose a persistent challenge in modern data science. Consequently, there is an ever-growing number of publications introducing new imputation methods in various fields. The present paper attempts to take a step back and provide a more systematic analysis. Starting from an in-depth discussion of the Missing at Random (MAR) condition for nonparametric imputation, we first investigate whether the widely used fully conditional specification (FCS) approach indeed identifies the correct conditional distributions. Based on this analysis, we propose three essential properties an ideal imputation method should meet, thus enabling a more principled evaluation of existing methods and more targeted development of new methods. In particular, we introduce a new imputation method, denoted mice-DRF, that meets two out of the three criteria. We also discuss ways to compare imputation methods, based on distributional distances. Finally, numerical experiments illustrate the points made in this discussion.",
+ "primary": "math.ST"
+}

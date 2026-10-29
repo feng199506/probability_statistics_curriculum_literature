@@ -1,0 +1,16 @@
+{
+ "id": "2509.17949",
+ "title": "Local Projections Bootstrap Inference",
+ "authors": [
+  "María Dolores Gadea",
+  "Òscar Jordà"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 1,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bootstrap procedures for local projections typically rely on assuming that the data generating process (DGP) is a finite order vector autoregression (VAR), often taken to be that implied by the local projection at horizon 1. Although convenient, it is well documented that a VAR can be a poor approximation to impulse dynamics at horizons beyond its lag length. In this paper we assume instead that the precise form of the parametric model generating the data is not known. If one is willing to assume that the DGP is perhaps an infinite order process, a larger class of models can be accommodated and more tailored bootstrap procedures can be constructed. Using the moving average representation of the data, we construct appropriate bootstrap procedures.",
+ "primary": "econ.EM"
+}

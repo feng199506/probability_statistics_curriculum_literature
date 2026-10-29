@@ -1,0 +1,18 @@
+{
+ "id": "2511.08070",
+ "title": "ANOVATS: A subsampling-based test to detect differences among short time series in marine studies",
+ "authors": [
+  "Yuichi Goto",
+  "Hiroko Kato Solvang",
+  "Masanobu Taniguchi",
+  "Tone Falkenhaug"
+ ],
+ "v1_date": "2025-11-11",
+ "latest_version": 1,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 12 figures",
+ "abstract": "Assessing marine ecosystems is important for understanding the impacts of climate change and human activity, as well as for maintaining healthy oceans and ecosystems. In marine science, it is common for biologists and geologists to identify regional differences based on expert knowledge, frequently through data visualization. However, time series data collected through surveys in marine studies typically span only a few decades, limiting the applicability of classical time series methods. Additionally, without expert knowledge, detecting significant differences becomes challenging. To address these issues, we introduce ANOVATS (ANOVA for small-sample time series data), a subsampling-based method to detect regional differences in small-sample time series data with a fixed number of groups. This method bypasses the need for spectral density estimation, which requires a large number of time points in the data. Furthermore, after detecting differences in homogeneity across all areas using the ANOVATS procedure, we devised a simple ANOVATS post hoc procedure to group the areas. Finally, we demonstrate the effectiveness of our method by analyzing zooplankton biomass data collected in different strata of the North Sea, showing its ability to quantify differences in species between geographical areas without relying on prior biological or geographical knowledge.",
+ "primary": "stat.ME"
+}

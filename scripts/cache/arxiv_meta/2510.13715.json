@@ -1,0 +1,17 @@
+{
+ "id": "2510.13715",
+ "title": "Exact Coordinate Descent for High-Dimensional Regularized Huber Regression",
+ "authors": [
+  "Younghoon Kim",
+  "Po-Ling Loh",
+  "Sumanta Basu"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 3,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study develops a coordinate descent algorithm for high-dimensional Huber regression with an elastic-net penalty. Unlike existing gradient descent algorithms and coordinate descent methods based on second-order optimization, the proposed algorithm performs each coordinate update exactly, without approximation or gradient and Hessian computations. Consequently, it remains stable and converges rapidly even in the presence of highly correlated covariates or heavy-tailed noise. Building on these exact updates, adaptive variable screening rules and optimality-condition validation procedures are introduced to determine which coordinates to update at each iteration, substantially accelerating convergence in high-dimensional settings. Theoretical guarantees are established for both the convergence of the proposed algorithm and the validity of validation procedures. Extensive simulation studies under heavy-tailed noise and highly correlated designs, together with a real-data application, demonstrate that the proposed method is both accurate and computationally efficient in these challenging settings.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2605.23692",
+ "title": "Trajectory-Oriented Optimization Via Adaptive Thompson Sampling And Grid Refinement: A Tutorial With The ADAPTIVE\\_TS Package",
+ "authors": [
+  "David O'Gara",
+  "Arindam Fadikar",
+  "Mickaël Binois",
+  "Nicholson Collier",
+  "Jonathan Ozik"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic simulators are increasingly used to expand the frontier of scientific knowledge and inform decision-making across real-world contexts. Simulator calibration, a process by which internal model inputs are tuned to match some external criteria, usually in the form of observed data, is a key step in model design and validation. Epidemiological simulators present an especially compelling use case, as evidenced by the recent COVID-19 pandemic. Among several calibration paradigms, trajectory-oriented optimization is an emerging approach that does not require assumptions on the stochastic behavior of the simulator replicates and is particularly effective at identifying trajectories through the lens of errors between the simulator and observed data, especially when combined with Bayesian optimization. We present a tutorial on trajectory-oriented optimization with \\texttt{adaptive\\_ts}, an open-source Python package. We also provide a series of worked examples on an accompanying webpage.",
+ "primary": "stat.CO"
+}

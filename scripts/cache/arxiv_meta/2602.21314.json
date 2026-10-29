@@ -1,0 +1,16 @@
+{
+ "id": "2602.21314",
+ "title": "Discussion of \"Matrix Completion When Missing Is Not at Random and Its Applications in Causal Panel Data Models\"",
+ "authors": [
+  "Eli Ben-Michael",
+  "Avi Feller"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Invited discussion of Choi and Yuan \"Matrix Completion When Missing Is Not at Random and Its Applications in Causal Panel Data Models\" at JSM 2025",
+ "abstract": "Choi and Yuan (2025) propose a novel approach to applying matrix completion to the problem of estimating causal effects in panel data. The key insight is that even in the presence of structured patterns of missing data -- i.e. selection into treatment -- matrix completion can be effective if the number of treated observations is small relative to the number of control observations. We applaud the authors for their insightful and interesting paper. We discuss this proposal from two complementary perspectives. First, we situate their proposal as an example of a \"split-apply-combine\" strategy that underlies many modern panel data estimators, including difference-in-differences and synthetic control approaches. Second, we discuss the issue of the statistical \"last mile problem\" -- the gap between theory and practice -- and offer suggestions on how to partially address it. We conclude by considering the challenges of estimating the impacts of public policies using panel data and apply the approach to a study on the effect of right to carry laws on violent crime.",
+ "primary": "stat.ME"
+}

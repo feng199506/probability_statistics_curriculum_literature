@@ -1,0 +1,15 @@
+{
+ "id": "2609.22929",
+ "title": "Statistical models as natural transformations: meaningfulness, coherence and priors as states in Markov categories",
+ "authors": [
+  "Francesco Vaccarino"
+ ],
+ "v1_date": "2026-09-19",
+ "latest_version": 3,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages. v3: related work corrected (Fritz 2020, Section 7 and Problem 11.9); Remarks 4.6 and 8.6 extended accordingly; numbering unchanged. Computational supplement: https://github.com/Vaxx66/calamus, release v36",
+ "abstract": "We show that a statistical model in the sense of McCullagh, in the form given by Brøns, is a natural transformation between two functors from the category of designs to the Kleisli category Stoch of the Giry monad, provided that its components are measurable in the parameter. The condition is empty for finite models. A design-indexed quantity is a family of morphisms of Stoch defined on the parameter objects, called meaningful if it is natural. We prove that Tjur's criterion, imposed on parameter functions indexed by finite samples with multiplicities, forces the indexing by the support and then coincides with naturality over the insertions. For finite designs we show that a quantity can be corrected to a natural one within a given class of corrections if and only if a class vanishes in the first cohomology group of a Baues-Wirsching complex relative to that class, while its image in the absolute group is always zero. In the one-way layout, marginal dispersion is not meaningful, and within-group dispersion is the unique correction that leaves the merged design unchanged. A prior is a family of states on the parameter objects, called coherent over a class of design morphisms if it is natural over that class. We show that coherence at a merge confines the prior to the image of the corresponding parameter map, that coherence over the insertions is Kolmogorov consistency, and that coherence over the injections adds the exchangeability assumed by the categorical de Finetti theorem. In the finite one-way scheme, the coherent priors form polytopes of known dimension. The analogue of Jeffreys' general rule is not coherent, while the analogue for location-scale families is. Finally, we show that ridge regression is the Bayesian inversion of the Gaussian linear model with respect to a Gaussian prior, which is coherent over the insertions and never over the injections.",
+ "primary": "math.ST"
+}

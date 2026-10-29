@@ -1,0 +1,19 @@
+{
+ "id": "2510.08838",
+ "title": "Repulsive Mixture Model with Projection Determinantal Point Process",
+ "authors": [
+  "Ziyi Song",
+  "Federico Camerlenghi",
+  "Weining Shen",
+  "Michele Guindani",
+  "Mario Beraha"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many scientific domains, clustering aims to reveal interpretable latent structure that reflects relevant subpopulations or processes. Widely used Bayesian mixture models for model-based clustering often produce overlapping or redundant components because priors on cluster locations are specified independently, hindering interpretability. To mitigate this, repulsive priors have been proposed to encourage well-separated components, yet existing approaches face both computational and theoretical challenges. We introduce a fully tractable Bayesian repulsive mixture model by assigning a projection Determinantal Point Process (DPP) prior to the component locations. Projection DPPs induce strong repulsion and allow exact sampling, enabling parsimonious and interpretable posterior clustering. Leveraging their analytical tractability, we derive closed-form posterior and predictive distributions. These results, in turn, enable two efficient inference algorithms: a conditional Gibbs sampler and the first fully implementable marginal sampler for DPP-based mixtures. We also provide strong frequentist guarantees, including posterior consistency for density estimation, elimination of redundant components, and contraction of the mixing measure. Simulation studies confirm superior mixing and clustering performance compared to alternatives in misspecified settings. Finally, we demonstrate the utility of our method on event-related potential functional data, where it uncovers interpretable neuro-cognitive subgroups. Our results support the projection DPP mixtures as a theoretically sound and practically effective solution for Bayesian clustering.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2608.03889",
+ "title": "Confidence Horizons",
+ "authors": [
+  "Chase Mathis",
+  "Ian Waudby-Smith"
+ ],
+ "v1_date": "2026-08-04",
+ "latest_version": 2,
+ "latest_date": "2026-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages, 18 figures",
+ "abstract": "Anytime-valid inference enables analysts to continuously monitor their data and stop experiments early. However, the majority of these methods incur a certain conservativeness by remaining valid on infinite time horizons. In practice, a bound on the horizon may be imposed due to budgetary, practical, or ethical constraints. In this paper, we ask the question: \"Is it possible to obtain sharper large-sample anytime-valid inference by forgoing validity beyond some finite time horizon?\". We provide a positive answer to this question by proposing a family of statistical objects that we call \"confidence horizons\". These objects can be viewed as large-sample confidence sequences on bounded time horizons, or alternatively as group sequential repeated confidence intervals with a maximal number of interim peeking times. We make explicit connections to the group sequential boundaries of Pocock [1977], O'Brien--Fleming [1979], and Wang--Tsiatis [1987]. We derive closed-form distribution functions of certain statistics which can be used to calculate the asymptotic quantiles of confidence horizons exactly, sidestepping the repeated integration typically employed in group sequential methods. We illustrate the use of confidence horizons for treatment effect estimation in sequentially randomized experiments under adaptive Neyman allocation.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2405.10229",
+ "title": "Random ReLU Neural Networks as Non-Gaussian Processes",
+ "authors": [
+  "Rahul Parhi",
+  "Pakshal Bohra",
+  "Ayoub El Biari",
+  "Mehrsa Pourya",
+  "Michael Unser"
+ ],
+ "v1_date": "2024-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-02-12",
+ "journal_ref": "Journal of Machine Learning Research, vol. 26, no. 19, pp. 1-31, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider a large class of shallow neural networks with randomly initialized parameters and rectified linear unit activation functions. We prove that these random neural networks are well-defined non-Gaussian processes. As a by-product, we demonstrate that these networks are solutions to stochastic differential equations driven by impulsive white noise (combinations of random Dirac measures). These processes are parameterized by the law of the weights and biases as well as the density of activation thresholds in each bounded region of the input domain. We prove that these processes are isotropic and wide-sense self-similar with Hurst exponent 3/2. We also derive a remarkably simple closed-form expression for their autocovariance function. Our results are fundamentally different from prior work in that we consider a non-asymptotic viewpoint: The number of neurons in each bounded region of the input domain (i.e., the width) is itself a random variable with a Poisson law with mean proportional to the density parameter. Finally, we show that, under suitable hypotheses, as the expected width tends to infinity, these processes can converge in law not only to Gaussian processes, but also to non-Gaussian processes depending on the law of the weights. Our asymptotic results provide a new take on several classical results (wide networks converge to Gaussian processes) as well as some new ones (wide networks can converge to non-Gaussian processes).",
+ "primary": "stat.ML"
+}

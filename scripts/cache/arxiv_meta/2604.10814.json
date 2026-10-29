@@ -1,0 +1,16 @@
+{
+ "id": "2604.10814",
+ "title": "Online Covariance Estimation in Averaged SGD: Improved Batch-Mean Rates and Minimax Optimality via Trajectory Regression",
+ "authors": [
+  "Yijin Ni",
+  "Xiaoming Huo"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 1,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study online covariance matrix estimation for Polyak--Ruppert averaged stochastic gradient descent (SGD). The online batch-means estimator of Zhu, Chen and Wu (2023) achieves an operator-norm convergence rate of $O(n^{-(1-α)/4})$, which yields $O(n^{-1/8})$ at the optimal learning-rate exponent $α\\rightarrow 1/2^+$. A rigorous per-block bias analysis reveals that re-tuning the block-growth parameter improves the batch-means rate to $O(n^{-(1-α)/3})$, achieving $O(n^{-1/6})$. The modified estimator requires no Hessian access and preserves $O(d^2)$ memory. We provide a complete error decomposition into variance, stationarity bias, and nonlinearity bias components. A weighted-averaging variant that avoids hard truncation is also discussed. We establish the minimax rate $Θ(n^{-(1-α)/2})$ for Hessian-free covariance estimation from the SGD trajectory: a Le Cam lower bound gives $Ω(n^{-(1-α)/2})$, and a trajectory-regression estimator--which estimates the Hessian by regressing SGD increments on iterates--achieves $O(n^{-(1-α)/2})$, matching the lower bound. The construction reveals that the bottleneck is the sublinear accumulation of information about the Hessian from the SGD drift.",
+ "primary": "cs.LG"
+}

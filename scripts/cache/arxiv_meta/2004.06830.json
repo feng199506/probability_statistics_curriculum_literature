@@ -1,0 +1,17 @@
+{
+ "id": "2004.06830",
+ "title": "Differentially Private Assouad, Fano, and Le Cam",
+ "authors": [
+  "Jayadev Acharya",
+  "Ziteng Sun",
+  "Huanyu Zhang"
+ ],
+ "v1_date": "2020-04-14",
+ "latest_version": 3,
+ "latest_date": "2020-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Le Cam's method, Fano's inequality, and Assouad's lemma are three widely used techniques to prove lower bounds for statistical estimation tasks. We propose their analogues under central differential privacy. Our results are simple, easy to apply and we use them to establish sample complexity bounds in several estimation tasks. We establish the optimal sample complexity of discrete distribution estimation under total variation distance and $\\ell_2$ distance. We also provide lower bounds for several other distribution classes, including product distributions and Gaussian mixtures that are tight up to logarithmic factors. The technical component of our paper relates coupling between distributions to the sample complexity of estimation under differential privacy.",
+ "primary": "cs.LG"
+}

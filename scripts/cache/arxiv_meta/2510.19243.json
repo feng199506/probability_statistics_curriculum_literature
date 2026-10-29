@@ -1,0 +1,19 @@
+{
+ "id": "2510.19243",
+ "title": "A New Targeted-Federated Learning Framework for Estimating Heterogeneity of Treatment Effects: A Robust Framework with Applications in Aging Cohorts",
+ "authors": [
+  "Rong Zhao",
+  "Jason Falvey",
+  "Xu Shi",
+  "Vernon M. Chinchilli",
+  "Chixiang Chen"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 2,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Analyzing data from multiple sources offers valuable opportunities to improve the estimation efficiency of causal estimands. However, this analysis also poses many challenges due to population heterogeneity and data privacy constraints. While several advanced methods for causal inference in federated settings have been developed in recent years, many focus on difference-based averaged causal effects and are not designed to study effect modification. In this study, we introduce a novel targeted-federated learning framework to study the heterogeneity of treatment effects (HTEs) for a targeted population by proposing a projection-based estimand. This HTE framework integrates information from multiple data sources without sharing raw data, while accounting for covariate distribution shifts among sources. Our proposed approach is shown to be doubly robust, conveniently supporting both difference-based estimands for continuous outcomes and odds ratio-based estimands for binary outcomes. Furthermore, we develop a communication-efficient bootstrap-based selection procedure to detect non-transportable data sources, thereby enhancing robust information aggregation without introducing bias. The superior performance of the proposed estimator over existing methods is demonstrated through extensive simulation studies, and the utility of our approach has been shown in a real-world data application using nationwide Medicare-linked data.",
+ "primary": "stat.ME"
+}

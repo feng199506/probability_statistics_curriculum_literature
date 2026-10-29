@@ -1,0 +1,17 @@
+{
+ "id": "2511.06870",
+ "title": "Multiscale Change Point Detection for Functional Time Series",
+ "authors": [
+  "Tim Kutta",
+  "Holger Dette",
+  "Shixuan Wang"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 1,
+ "latest_date": "2025-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of detecting and localizing multiple changes in the mean parameter of a Banach space-valued time series. The goal is to construct a collection of narrow confidence intervals, each containing at least one (or exactly one) change, with globally controlled error probability. Our approach relies on a new class of weighted scan statistics, called Hölder-type statistics, which allow a smooth trade-off between efficiency (enabling the detection of closely spaced, small changes) and robustness (against heavier tails and stronger dependence). For Gaussian noise, maximum weighting can be applied, leading to a generalization of optimality results known for scalar, independent data. Even for scalar time series, our approach is advantageous, as it accommodates broad classes of dependency structures and non-stationarity. Its primary advantage, however, lies in its applicability to functional time series, where few methods exist and established procedures impose strong restrictions on the spacing and magnitude of changes. We obtain general results by employing new Gaussian approximations for the partial sum process in Hölder spaces. As an application of our general theory, we consider the detection of distributional changes in a data panel. The finite-sample properties and applications to financial datasets further highlight the merits of our method.",
+ "primary": "math.ST"
+}

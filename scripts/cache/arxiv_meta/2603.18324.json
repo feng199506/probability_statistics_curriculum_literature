@@ -1,0 +1,17 @@
+{
+ "id": "2603.18324",
+ "title": "Bridging Theory and Practice in Efficient Gaussian Process-Based Statistical Modeling for Large Datasets",
+ "authors": [
+  "Flávio B. Gonçalves",
+  "Marcos O. Prates",
+  "Gareth O. Roberts"
+ ],
+ "v1_date": "2026-03-18",
+ "latest_version": 1,
+ "latest_date": "2026-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Geostatistics is a branch of statistics concerned with stochastic processes over continuous domains, with Gaussian processes (GPs) providing a flexible and principled modelling framework. However, the high computational cost of simulating or computing likelihoods with GPs limits their scalability to large datasets. This paper introduces the piecewise continuous Gaussian process (PCGP), a new process that retains the rich probabilistic structure of traditional GPs while offering substantial computational efficiency. As will be shown and discussed, existing scalable approaches that define stochastic processes on continuous domains -- such as the nearest-neighbour GP (NNGP) and the radial-neighbour GP (RNGP) -- rely on conditional independence structures that effectively constrain the measurable space on which the processes are defined, which may induce undesirable probabilistic behaviour and compromise their practical applicability, particularly in complex latent GP models. The PCGP mitigates these limitations and provides a theoretically grounded and computationally efficient alternative, as demonstrated through numerical illustrations.",
+ "primary": "stat.CO"
+}

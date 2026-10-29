@@ -1,0 +1,15 @@
+{
+ "id": "2608.28007",
+ "title": "Exact Risk Ratios for Weighted Data Selection in Linear Regression",
+ "authors": [
+  "Guangjian Zhang"
+ ],
+ "v1_date": "2026-08-28",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages",
+ "abstract": "How much data must a fixed learner retain? Hanneke, Moran, Shlimovich and Yehudayoff (COLT 2025) posed this question for linear regression with the minimum-norm empirical risk minimizer. A selector sees a finite dataset $D\\subseteq R^d\\times R$, keeps at most $n$ examples with nonnegative weights, and $F_w(d,n)$ is the worst-case ratio between the full-data loss of the trained predictor and the optimal loss. The value is $\\infty$ for $n<d$, $d+1$ at $n=d$ and $1$ for $n\\ge2d$, and the regime $d<n<2d$ was left open. We settle several cases. For every $d$ we prove $F_w(d,2d-1)=1+1/d$, which confirms a claim stated without proof in the original note. We also prove $F_w(3,4)=5/3$, $F_w(4,5)=2$ and $F_w(4,6)=3/2$, the three smallest cells not covered by that formula. For every intermediate budget $n=d+k$ we prove the lower bound $F_w(d,d+k)\\ge1+Γ_{d,k}$, where $Γ_{d,k}$ is an explicit harmonic quantity over balanced partitions of $d$. This bound is the exact minimax value on the class of datasets whose whitened systems split into orthogonal circuit blocks. All proved values equal $1+Γ_{d,k}$, and we conjecture that this holds throughout the open regime. Our upper bounds combine a rigidity theorem for positive spanning configurations of loss gradients with normal forms of the small positive bases in $R^3$ and $R^4$. These forms are special cases of the classification of Cornaz, Kerleau and Royer; we also control all gradients outside the basis. A dimension-free extremal-basis argument converts sign-cone geometry into selections of $d+1$ points. Explicit counterexamples rule out several shorter routes. Every upper bound is constructive, with selection procedures polynomial in the number of points for fixed dimension. Every numerical claim about a specific instance is an exact rational or algebraic identity, recomputed in exact arithmetic in the supplementary material.",
+ "primary": "cs.LG"
+}

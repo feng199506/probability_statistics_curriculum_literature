@@ -1,0 +1,16 @@
+{
+ "id": "2602.21408",
+ "title": "Generative Bayesian Computation as a Scalable Alternative to Gaussian Process Surrogates",
+ "authors": [
+  "Nick Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian process (GP) surrogates are the default tool for emulating expensive computer experiments, but cubic cost, stationarity assumptions, and Gaussian predictive distributions limit their reach. We propose Generative Bayesian Computation (GBC) via Implicit Quantile Networks (IQNs) as a surrogate framework that targets all three limitations. GBC learns the full conditional quantile function from input--output pairs; at test time, a single forward pass per quantile level produces draws from the predictive distribution. Across fourteen benchmarks we compare GBC to four GP-based methods. GBC improves CRPS by 11--26\\% on piecewise jump-process benchmarks, by 14\\% on a ten-dimensional Friedman function, and scales linearly to 90,000 training points where dense-covariance GPs are infeasible. A boundary-augmented variant matches or outperforms Modular Jump GPs on two-dimensional jump datasets (up to 46\\% CRPS improvement). In active learning, a randomized-prior IQN ensemble achieves nearly three times lower RMSE than deep GP active learning on Rocket LGBB. Overall, GBC records a favorable point estimate in 12 of 14 comparisons. GPs retain an edge on smooth surfaces where their smoothness prior provides effective regularization.",
+ "primary": "cs.LG"
+}

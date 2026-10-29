@@ -1,0 +1,18 @@
+{
+ "id": "2405.20352",
+ "title": "Adapting Quantile Mapping to Bias Correct Solar Radiation Data",
+ "authors": [
+  "Maggie D. Bailey",
+  "Douglas W. Nychka",
+  "Manajit Sengupta",
+  "Soutir Bandyopadhyay"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 1,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 15 figures",
+ "abstract": "Bias correction is a common pre-processing step applied to climate model data before it is used for further analysis. This article introduces an efficient adaptation of a well-established bias-correction method - quantile mapping - for global horizontal irradiance (GHI) that ensures corrected data is physically plausible through incorporating measurements of clearsky GHI. The proposed quantile mapping method is fit on reanalysis data to first bias correct for regional climate models (RCMs) and is tested on RCMs forced by general circulation models (GCMs) to understand existing biases directly from GCMs. Additionally, we adapt a functional analysis of variance methodology that analyzes sources of remaining biases after implementing the proposed quantile mapping method and considered biases by climate region. This analysis is applied to four sets of climate model output from NA-CORDEX and compared against data from the National Solar Radiation Database produced by the National Renewable Energy Lab.",
+ "primary": "stat.AP"
+}

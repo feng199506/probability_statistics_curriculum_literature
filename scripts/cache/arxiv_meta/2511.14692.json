@@ -1,0 +1,16 @@
+{
+ "id": "2511.14692",
+ "title": "Scalable and Efficient Multiple Imputation for Case-Cohort Studies via Influence Function-Based Supersampling",
+ "authors": [
+  "Jooho Kim",
+  "Yei Eun Shin"
+ ],
+ "v1_date": "2025-11-18",
+ "latest_version": 2,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 3 figures, 6 tables (3 in appendix)",
+ "abstract": "Two-phase sampling designs have been widely adopted in epidemiological studies to reduce costs when measuring certain biomarkers is prohibitively expensive. Under these designs, investigators commonly relate survival outcomes to risk factors using the Cox proportional hazards model. To fully utilize covariates collected in phase 1, multiple imputation (MI) methods have been developed to impute missing covariates for individuals not included in the phase 2 sample. However, MI becomes computationally intensive in large-scale cohorts, particularly when rejection sampling is employed to mitigate bias arising from nonlinear or interaction terms in the analysis model. To address this issue, Borgan et al. (2023) proposed a random supersampling (RSS) approach that randomly selects a subset of cohort members for imputation, albeit at the cost of reduced efficiency. In this study, we propose an influence function-based supersampling (ISS) method with weight calibration. The method achieves efficiency comparable to imputing the entire cohort, even with a small supersample, while substantially reducing computational burden. We further demonstrate that the proposed method is especially advantageous when estimating hazard ratios for high-dimensional expensive biomarkers. Extensive simulation studies are conducted, and a real data application is provided using the National Institutes of Health-American Association of Retired Persons (NIH-AARP) Diet and Health Study.",
+ "primary": "stat.ME"
+}

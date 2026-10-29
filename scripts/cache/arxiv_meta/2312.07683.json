@@ -1,0 +1,17 @@
+{
+ "id": "2312.07683",
+ "title": "On Rosenbaum's Rank-based Matching Estimator",
+ "authors": [
+  "Matias D. Cattaneo",
+  "Fang Han",
+  "Zhexiao Lin"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 2,
+ "latest_date": "2024-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Assumption 4.1 is slightly weakened in this version",
+ "abstract": "In two influential contributions, Rosenbaum (2005, 2020) advocated for using the distances between component-wise ranks, instead of the original data values, to measure covariate similarity when constructing matching estimators of average treatment effects. While the intuitive benefits of using covariate ranks for matching estimation are apparent, there is no theoretical understanding of such procedures in the literature. We fill this gap by demonstrating that Rosenbaum's rank-based matching estimator, when coupled with a regression adjustment, enjoys the properties of double robustness and semiparametric efficiency without the need to enforce restrictive covariate moment assumptions. Our theoretical findings further emphasize the statistical virtues of employing ranks for estimation and inference, more broadly aligning with the insights put forth by Peter Bickel in his 2004 Rietz lecture (Bickel, 2004).",
+ "primary": "math.ST"
+}

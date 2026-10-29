@@ -1,0 +1,16 @@
+{
+ "id": "2605.15859",
+ "title": "Complexity of Non-Log-Concave Sampling in Fisher Information",
+ "authors": [
+  "Sinho Chewi",
+  "Andre Wibisono"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the query complexity of obtaining a relative Fisher information guarantee for sampling from a log-smooth non-log-concave distribution; this is a sampling analog of finding an approximate stationary point in optimization. Our algorithm is based on the proximal sampler, which is an implicit discretization of the Langevin diffusion, and requires an implementation of the backward step known as the restricted Gaussian oracle (RGO). We show that by leveraging the recent results for log-concave sampling with high-accuracy guarantees in Rényi divergence, we can obtain an approximate RGO implementation that -- when used with the proximal sampler -- yields a complexity guarantee in relative Fisher information that inherits the same dimension dependence as log-concave sampling, and improves upon prior work for non-log-concave sampling. We also show a converse reduction that any improvement in the dimension dependence in relative Fisher information for non-log-concave sampling will yield an improved dimension dependence for high-accuracy log-concave sampling.",
+ "primary": "cs.DS"
+}

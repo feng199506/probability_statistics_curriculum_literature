@@ -1,0 +1,18 @@
+{
+ "id": "2403.16336",
+ "title": "Predictive Inference in Multi-environment Scenarios",
+ "authors": [
+  "John C. Duchi",
+  "Suyash Gupta",
+  "Kuanhao Jiang",
+  "Pragya Sur"
+ ],
+ "v1_date": "2024-03-25",
+ "latest_version": 2,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the challenge of constructing valid confidence intervals and sets in problems of prediction across multiple environments. We investigate two types of coverage suitable for these problems, extending the jackknife and split-conformal methods to show how to obtain distribution-free coverage in such non-traditional, potentially hierarchical data-generating scenarios. We demonstrate a novel resizing method to adapt to problem difficulty, which applies both to existing approaches for predictive inference and the methods we develop; this reduces prediction set sizes using limited information from the test environment, a key to the methods' practical performance, which we evaluate through neurochemical sensing and species classification datasets. Our contributions also include extensions for settings with non-real-valued responses, a theory of consistency for predictive inference in these general problems, and insights on the limits of conditional coverage.",
+ "primary": "stat.ML"
+}

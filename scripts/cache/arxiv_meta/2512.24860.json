@@ -1,0 +1,15 @@
+{
+ "id": "2512.24860",
+ "title": "Approximate Computation via Le Cam Simulability",
+ "authors": [
+  "Deniz Akdemir"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a decision-theoretic framework for computational complexity, complementary to classical theory: moving from syntactic exactness (Turing / Shannon) to semantic simulability (Le Cam). While classical theory classifies problems by the cost of exact solution, modern computation often seeks only decision-valid approximations. We introduce a framework where \"computation\" is viewed as the efficient simulation of a target statistical experiment within a bounded risk distortion (Le Cam deficiency). We formally define computational deficiency ($δ_{\\text{poly}}$) and use it to construct the complexity class LeCam-P (Decision-Robust Polynomial Time), characterizing problems that may be syntactically hard but semantically easy to approximate. We show that classical Karp reductions can be viewed as zero-deficiency simulations, and that approximate reductions correspond to bounded deficiency. Furthermore, we establish the No-Free-Transfer Inequality, showing that strictly invariant representations inevitably destroy decision-relevant information. This framework offers a statistical perspective on approximation theory, bridging the gap between algorithmic complexity and decision theory.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2412.19963",
+ "title": "Linear Shrinkage Convexification of Penalized Linear Regression With Missing Data",
+ "authors": [
+  "Seongoh Park",
+  "Seongjin Lee",
+  "Nguyen Thi Hai Yen",
+  "Nguyen Phuoc Long",
+  "Johan Lim"
+ ],
+ "v1_date": "2024-12-28",
+ "latest_version": 2,
+ "latest_date": "2025-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One of the common challenges faced by researchers in recent data analysis is missing values. In the context of penalized linear regression, which has been extensively explored over several decades, missing values introduce bias and yield a non-positive definite covariance matrix of the covariates, rendering the least square loss function non-convex. In this paper, we propose a novel procedure called the linear shrinkage positive definite (LPD) modification to address this issue. The LPD modification aims to modify the covariance matrix of the covariates in order to ensure consistency and positive definiteness. Employing the new covariance estimator, we are able to transform the penalized regression problem into a convex one, thereby facilitating the identification of sparse solutions. Notably, the LPD modification is computationally efficient and can be expressed analytically. In the presence of missing values, we establish the selection consistency and prove the convergence rate of the $\\ell_1$-penalized regression estimator with LPD, showing an $\\ell_2$-error convergence rate of square-root of $\\log p$ over $n$ by a factor of $(s_0)^{3/2}$ ($s_0$: the number of non-zero coefficients). To further evaluate the effectiveness of our approach, we analyze real data from the Genomics of Drug Sensitivity in Cancer (GDSC) dataset. This dataset provides incomplete measurements of drug sensitivities of cell lines and their protein expressions. We conduct a series of penalized linear regression models with each sensitivity value serving as a response variable and protein expressions as explanatory variables.",
+ "primary": "stat.ME"
+}

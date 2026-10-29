@@ -1,0 +1,19 @@
+{
+ "id": "1604.04173",
+ "title": "Distribution-Free Predictive Inference For Regression",
+ "authors": [
+  "Jing Lei",
+  "Max G'Sell",
+  "Alessandro Rinaldo",
+  "Ryan J. Tibshirani",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2016-04-14",
+ "latest_version": 2,
+ "latest_date": "2017-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages, 7 figures, 3 tables",
+ "abstract": "We develop a general framework for distribution-free predictive inference in regression, using conformal inference. The proposed methodology allows for the construction of a prediction band for the response variable using any estimator of the regression function. The resulting prediction band preserves the consistency properties of the original estimator under standard assumptions, while guaranteeing finite-sample marginal coverage even when these assumptions do not hold. We analyze and compare, both empirically and theoretically, the two major variants of our conformal framework: full conformal inference and split conformal inference, along with a related jackknife method. These methods offer different tradeoffs between statistical accuracy (length of resulting prediction intervals) and computational efficiency. As extensions, we develop a method for constructing valid in-sample prediction intervals called {\\it rank-one-out} conformal inference, which has essentially the same computational efficiency as split conformal inference. We also describe an extension of our procedures for producing prediction bands with locally varying length, in order to adapt to heteroskedascity in the data. Finally, we propose a model-free notion of variable importance, called {\\it leave-one-covariate-out} or LOCO inference. Accompanying this paper is an R package {\\tt conformalInference} that implements all of the proposals we have introduced. In the spirit of reproducibility, all of our empirical results can also be easily (re)generated using this package.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.01500",
+ "title": "Log-concave Density Estimation with Independent Components",
+ "authors": [
+  "Sharvaj Kubal",
+  "Christian Campbell",
+  "Elina Robeva"
+ ],
+ "v1_date": "2024-01-03",
+ "latest_version": 2,
+ "latest_date": "2024-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 10 figures. Various improvements over the previous version (v1), and substantial reorganization of Section 3. Some missing assumptions required by Theorem 3.10 of the previous version (v1) have now been made explicit (Lemma 3.13 of the current version)",
+ "abstract": "We propose a method for estimating a log-concave density on $\\mathbb R^d$ from samples, under the assumption that there exists an orthogonal transformation that makes the components of the random vector independent. While log-concave density estimation is hard both computationally and statistically, the independent components assumption alleviates both issues, while still maintaining a large non-parametric class. We prove that under mild conditions, at most $\\tilde{\\mathcal{O}}(ε^{-4})$ samples (suppressing constants and log factors) suffice for our proposed estimator to be within $ε$ of the original density in squared Hellinger distance. On the computational front, while the usual log-concave maximum likelihood estimate can be obtained via a finite-dimensional convex program, it is slow to compute -- especially in higher dimensions. We demonstrate through numerical experiments that our estimator can be computed efficiently, making it more practical to use.",
+ "primary": "math.ST"
+}

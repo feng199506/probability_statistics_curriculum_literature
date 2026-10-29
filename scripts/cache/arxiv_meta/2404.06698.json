@@ -1,0 +1,16 @@
+{
+ "id": "2404.06698",
+ "title": "Bayesian Model Selection with Latent Group-Based Effects and Variances with the R Package slgf",
+ "authors": [
+  "Thomas A. Metzger",
+  "Christopher T. Franck"
+ ],
+ "v1_date": "2024-04-10",
+ "latest_version": 1,
+ "latest_date": "2024-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 5 figures",
+ "abstract": "Linear modeling is ubiquitous, but performance can suffer when the model is misspecified. We have recently demonstrated that latent groupings in the levels of categorical predictors can complicate inference in a variety of fields including bioinformatics, agriculture, industry, engineering, and medicine. Here we present the R package slgf which enables the user to easily implement our recently-developed approach to detect group-based regression effects, latent interactions, and/or heteroscedastic error variance through Bayesian model selection. We focus on the scenario in which the levels of a categorical predictor exhibit two latent groups. We treat the detection of this grouping structure as an unsupervised learning problem by searching the space of possible groupings of factor levels. First we review the suspected latent grouping factor (SLGF) method. Next, using both observational and experimental data, we illustrate the usage of slgf in the context of several common linear model layouts: one-way analysis of variance (ANOVA), analysis of covariance (ANCOVA), a two-way replicated layout, and a two-way unreplicated layout. We have selected data that reveal the shortcomings of classical analyses to emphasize the advantage our method can provide when a latent grouping structure is present.",
+ "primary": "stat.ME"
+}

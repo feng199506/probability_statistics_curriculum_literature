@@ -1,0 +1,17 @@
+{
+ "id": "2507.02467",
+ "title": "DUST: A Duality-Based Pruning Method For Exact Multiple Change-Point Detection",
+ "authors": [
+  "Vincent Runge",
+  "Charles Truong",
+  "Simon Querné"
+ ],
+ "v1_date": "2025-07-03",
+ "latest_version": 2,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We tackle the challenge of detecting multiple change points in large time series by optimising a penalised likelihood derived from exponential family models. Dynamic programming algorithms can solve this task exactly with at most quadratic time complexity. In recent years, the development of pruning strategies has drastically improved their computational efficiency. However, the two existing approaches have notable limitations: PELT struggles with pruning efficiency in sparse-change scenarios, while FPOP's structure is not adapted to multi-parametric settings. To address these issues, we introduce the DUal Simple Test (DUST) framework, which prunes candidate changes by evaluating a dual function against a threshold. This approach is highly flexible and broadly applicable to parametric models of any dimension. Under mild assumptions, we establish strong duality for the underlying non-convex pruning problem. We demonstrate DUST's effectiveness across various change-point regimes and models. In particular, for one-parametric models, DUST matches the simplicity of PELT with the efficiency of FPOP. Its use is especially advantageous for non-Gaussian models. Finally, we apply DUST to mouse monitoring time series under a change-in-variance model, illustrating its ability to recover the optimal change-point structure efficiently.",
+ "primary": "stat.ME"
+}

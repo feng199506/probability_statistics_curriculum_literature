@@ -1,0 +1,16 @@
+{
+ "id": "2602.08347",
+ "title": "Estimating the Shannon Entropy Using the Pitman--Yor Process",
+ "authors": [
+  "Takato Hashino",
+  "Koji Tsukuda"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 2,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 5 figures. Corrected errors",
+ "abstract": "The Shannon entropy is a fundamental measure for quantifying diversity and model complexity in fields such as information theory, ecology, and genetics. However, many existing studies assume that the number of species is known, an assumption that is often unrealistic in practice. In recent years, efforts have been made to relax this restriction. Motivated by these developments, this study proposes an entropy estimation method based on the Pitman--Yor process, a representative approach in Bayesian nonparametrics. By approximating the true distribution as an infinite-dimensional process, the proposed method enables stable estimation even when the number of observed species is smaller than the true number of species. This approach provides a principled way to deal with the uncertainty in species diversity and enhances the reliability and robustness of entropy-based diversity assessment. In addition, we investigate the convergence property of the Shannon entropy for regularly varying distributions and use this result to establish the consistency of the proposed estimator. Finally, we demonstrate the effectiveness of the proposed method through numerical experiments.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.07440",
+ "title": "Bayesian Penalized Transformation Models: Structured Additive Location-Scale Regression for Arbitrary Conditional Distributions",
+ "authors": [
+  "Johannes Brachem",
+  "Paul F. V. Wiemann",
+  "Thomas Kneib"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 5,
+ "latest_date": "2026-06-12",
+ "journal_ref": "",
+ "doi": "10.1080/10618600.2026.2703269",
+ "comment": "",
+ "abstract": "Penalized transformation models (PTMs) are a semiparametric location-scale regression family that estimate a response's conditional distribution directly from the data, and model the location and scale through structured additive predictors. The core of the model is a monotonically increasing transformation function that relates the response distribution to a reference distribution. The transformation function is equipped with a smoothness prior that regularizes how much the estimated distribution diverges from the reference. PTMs can be seen as a bridge between conditional transformation models and generalized additive models for location, scale and shape. Markov chain Monte Carlo inference for PTMs offers straightforward uncertainty quantification for the conditional distribution as well as for the covariate effects. A simulation study demonstrates the effectiveness of the approach and includes comparisons to many alternative methods. Applications to the Fourth Dutch Growth Study and the Framingham Heart Study illustrate the usage and practical utility. A full-featured implementation is available as a Python library. Supplementary material for this article is available online.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2609.24929",
+ "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+ "authors": [
+  "Rustam Isaev",
+  "Anton Conrad",
+  "Denis Belomestny",
+  "Eric Moulines",
+  "Sergey Samsonov"
+ ],
+ "v1_date": "2026-09-21",
+ "latest_version": 1,
+ "latest_date": "2026-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "65 pages, 3 figures",
+ "abstract": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration and test covariates have different distributions, and derive nonasymptotic bounds for this setting. We obtain matching minimax upper and lower bounds in expectation for two constructed fixed-score calibration benchmarks under known covariate shift. The bounds match for every $p\\in[1,\\infty]$ in the scalar problem and for finite $p$ in the $K$-threshold problem; for the latter, a high-probability minimax lower bound holds for every $p\\in[1,\\infty]$.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.03059",
+ "title": "Asymptotically-exact selective inference for quantile regression",
+ "authors": [
+  "Yumeng Wang",
+  "Snigdha Panigrahi",
+  "Xuming He"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 3,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In modern data analysis, it is common to select a model before performing statistical inference. Selective inference tools make adjustments for the model selection process in order to ensure reliable inference post selection. In this paper, we introduce an asymptotic pivot to infer about the effects of selected variables on conditional quantile functions. Utilizing estimators from smoothed quantile regression, our proposed pivot is easy to compute and yields asymptotically-exact selective inference without making strict distributional assumptions about the response variable. At the core of our pivot is the use of external randomization variables, which allows us to utilize all available samples for both selection and inference, without partitioning the data into independent subsets or discarding samples at any step. From simulation studies, we find that: (i) the asymptotic confidence intervals based on our pivot achieve the desired coverage rates, even in cases where sample splitting fails due to insufficient sample size for inference; (ii) our intervals are consistently shorter than those produced by sample splitting across various models and signal settings. We report similar findings when we apply our approach to study risk factors for low birth weights in a publicly accessible dataset of US birth records from 2022.",
+ "primary": "stat.ME"
+}

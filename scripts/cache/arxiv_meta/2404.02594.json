@@ -1,0 +1,17 @@
+{
+ "id": "2404.02594",
+ "title": "Comparison of the LASSO and Integrative LASSO with Penalty Factors (IPF-LASSO) methods for multi-omics data: Variable selection with Type I error control",
+ "authors": [
+  "Charlotte Castel",
+  "Zhi Zhao",
+  "Magne Thoresen"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 1,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 4 figures",
+ "abstract": "Variable selection in relation to regression modeling has constituted a methodological problem for more than 60 years. Especially in the context of high-dimensional regression, developing stable and reliable methods, algorithms, and computational tools for variable selection has become an important research topic. Omics data is one source of such high-dimensional data, characterized by diverse genomic layers, and an additional analytical challenge is how to integrate these layers into various types of analyses. While the IPF-LASSO model has previously explored the integration of multiple omics modalities for feature selection and prediction by introducing distinct penalty parameters for each modality, the challenge of incorporating heterogeneous data layers into variable selection with Type I error control remains an open problem. To address this problem, we applied stability selection as a method for variable selection with false positives control in both IPF-LASSO and regular LASSO. The objective of this study was to compare the LASSO algorithm with IPF-LASSO, investigating whether introducing different penalty parameters per omics modality could improve statistical power while controlling false positives. Two high-dimensional data structures were investigated, one with independent data and the other with correlated data. The different models were also illustrated using data from a study on breast cancer treatment, where the IPF-LASSO model was able to select some highly relevant clinical variables.",
+ "primary": "stat.ME"
+}

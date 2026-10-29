@@ -1,0 +1,16 @@
+{
+ "id": "2312.01234",
+ "title": "On the admissibility of Horvitz-Thompson estimator for estimating causal effects under network interference",
+ "authors": [
+  "Vishesh Karwa",
+  "Edoardo M. Airoldi"
+ ],
+ "v1_date": "2023-12-02",
+ "latest_version": 2,
+ "latest_date": "2025-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "updated the paper, added new results",
+ "abstract": "The Horvitz-Thompson (H-T) estimator is widely used for estimating network causal effects. We study its optimality properties by embedding it in the class of all linear estimators. We show that, under any form of interference, the H-T estimator is inadmissible with respect to mean squared error for designs that generate a random number of units for a given treatment-exposure combination, which includes completely randomized and Bernoulli designs. In contrast, the Hajek and Ratio estimators are admissible under such designs as long as their weights exceed one. We show that the H-T estimator becomes admissible under restricted randomization schemes that fix treatment-exposure counts. These findings motivate a new estimator, the conditional horvitz-Thompson (CHT) estimator, which uses propensity scores conditional on the realized number of units in each treatment-exposure combination. We prove that the CHT estimator is unbiased and admissible for network causal effects, for any design, within the class of linear estimators. Because computing conditional propensity scores can be challenging in practice, we develop three practical approximations: an MCMC approximation and two closed-form approximations based on the difference-in-means and Ratio estimators, the first one avoids computing any propensity scores. Numerical experiments on the Add Health network illustrate the theoretical results.",
+ "primary": "math.ST"
+}

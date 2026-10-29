@@ -1,0 +1,17 @@
+{
+ "id": "2406.16136",
+ "title": "Distribution-Free Online Change Detection for Low-Rank Images",
+ "authors": [
+  "Tingnan Gong",
+  "Seong-Hee Kim",
+  "Yao Xie"
+ ],
+ "v1_date": "2024-06-23",
+ "latest_version": 2,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 7 figures",
+ "abstract": "We present a distribution-free CUSUM procedure designed for online change detection in a time series of low-rank images, particularly when the change causes a mean shift. We represent images as matrix data and allow for temporal dependence, in addition to inherent spatial dependence, before and after the change. The marginal distributions are assumed to be general, not limited to any specific parametric distribution. We propose new monitoring statistics that utilize the low-rank structure of the in-control mean matrix. Additionally, we study the properties of the proposed detection procedure, assessing whether the monitoring statistics effectively capture a mean shift and evaluating the rate of increase in the average run length relative to the control limit in both the in-control and out-of-control cases. The effectiveness of our procedure is demonstrated through simulated and real data experiments.",
+ "primary": "stat.ME"
+}

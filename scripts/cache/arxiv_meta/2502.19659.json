@@ -1,0 +1,16 @@
+{
+ "id": "2502.19659",
+ "title": "Time-Varying Identification of Structural Vector Autoregressions",
+ "authors": [
+  "Annika Camehl",
+  "Tomasz Woźniak"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 1,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Keywords: Identification through Heteroskedasticity, Markov Switching, Time-varying Parameters, Verification of Identification. arXiv admin note: substantial text overlap with arXiv:2311.05883",
+ "abstract": "We propose a novel Bayesian heteroskedastic Markov-switching structural vector autoregression with data-driven time-varying identification. The model selects among alternative patterns of exclusion restrictions to identify structural shocks within the Markov process regimes. We implement the selection through a multinomial prior distribution over these patterns, which is a spike'n'slab prior for individual parameters. By combining a Markov-switching structural matrix with heteroskedastic structural shocks following a stochastic volatility process, the model enables shock identification through time-varying volatility within a regime. As a result, the exclusion restrictions become over-identifying, and their selection is driven by the signal from the data. Our empirical application shows that data support time variation in the US monetary policy shock identification. We also verify that time-varying volatility identifies the monetary policy shock within the regimes.",
+ "primary": "econ.EM"
+}

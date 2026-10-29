@@ -1,0 +1,17 @@
+{
+ "id": "2503.04593",
+ "title": "Bayesian estimation of a multivariate TAR model when the noise process distribution belongs to the class of Gaussian variance mixtures",
+ "authors": [
+  "L. H. Vanegas",
+  "S. A. Calderón",
+  "L. M. Rondón"
+ ],
+ "v1_date": "2025-03-06",
+ "latest_version": 1,
+ "latest_date": "2025-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A threshold autoregressive (TAR) model is a powerful tool for analyzing nonlinear multivariate time series, which includes special cases like self-exciting threshold autoregressive (SETAR) models and vector autoregressive (VAR) models. In this paper, estimation, inference, and forecasting using the Bayesian approach are developed for multivariate TAR (MTAR) models considering a flexible setup, under which the noise process behavior can be described using not only the Gaussian distribution but also other distributions that belong to the class of Gaussian variance mixtures, which includes Student-t, Slash, symmetric hyperbolic, and contaminated normal distributions, which are also symmetric but are more flexible and with heavier tails than the Gaussian one. Inferences from MTAR models based on that kind of distribution may be less affected by extreme or outlying observations than those based on the Gaussian one. All parameters in the MTAR model are included in the proposed MCMC-type algorithm, except the number of regimes and the autoregressive orders, which can be chosen using the Deviance Information Criterion (DIC) and/or the Watanabe-Akaike Information Criterion (WAIC). A library for the language and environment for statistical computing R was also developed to assess the effectiveness of the proposed methodology using simulation studies and analysis of two real multivariate time series.",
+ "primary": "stat.ME"
+}

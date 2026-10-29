@@ -1,0 +1,17 @@
+{
+ "id": "2312.15781",
+ "title": "A Computational Note on the Graphical Ridge in High-dimension",
+ "authors": [
+  "A. Bekker",
+  "A. Kheyri",
+  "M. Arashi"
+ ],
+ "v1_date": "2023-12-25",
+ "latest_version": 1,
+ "latest_date": "2023-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 10 figures, 10 tables",
+ "abstract": "This article explores the estimation of precision matrices in high-dimensional Gaussian graphical models. We address the challenge of improving the accuracy of maximum likelihood-based precision estimation through penalization. Specifically, we consider an elastic net penalty, which incorporates both L1 and Frobenius norm penalties while accounting for the target matrix during estimation. To enhance precision matrix estimation, we propose a novel two-step estimator that combines the strengths of ridge and graphical lasso estimators. Through this approach, we aim to improve overall estimation performance. Our empirical analysis demonstrates the superior efficiency of our proposed method compared to alternative approaches. We validate the effectiveness of our proposal through numerical experiments and application on three real datasets. These examples illustrate the practical applicability and usefulness of our proposed estimator.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.15097",
+ "title": "Predictive Quantile Regression with High-Dimensional Predictors: The Variable Screening Approach",
+ "authors": [
+  "Hongqi Chen",
+  "Ji Hyung Lee"
+ ],
+ "v1_date": "2024-10-19",
+ "latest_version": 1,
+ "latest_date": "2024-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper advances a variable screening approach to enhance conditional quantile forecasts using high-dimensional predictors. We have refined and augmented the quantile partial correlation (QPC)-based variable screening proposed by Ma et al. (2017) to accommodate $β$-mixing time-series data. Our approach is inclusive of i.i.d scenarios but introduces new convergence bounds for time-series contexts, suggesting the performance of QPC-based screening is influenced by the degree of time-series dependence. Through Monte Carlo simulations, we validate the effectiveness of QPC under weak dependence. Our empirical assessment of variable selection for growth-at-risk (GaR) forecasting underscores the method's advantages, revealing that specific labor market determinants play a pivotal role in forecasting GaR. While prior empirical research has predominantly considered a limited set of predictors, we employ the comprehensive Fred-QD dataset, retaining a richer breadth of information for GaR forecasts.",
+ "primary": "econ.EM"
+}

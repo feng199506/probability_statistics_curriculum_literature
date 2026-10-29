@@ -1,0 +1,16 @@
+{
+ "id": "2508.00210",
+ "title": "Efficient rare event estimation for multimodal and high-dimensional system reliability via subset adaptive importance sampling",
+ "authors": [
+  "Sara Helal",
+  "Victor Elvira"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating rare events in complex systems is a key challenge in reliability analysis. The challenge grows in multimodal problems, where traditional methods often rely on a small set of design points and risk overlooking critical failure modes. Further, higher dimensions make the probability mass harder to capture and demand substantially larger sample sizes to estimate failures. In this work, we propose a new sampling strategy, subset adaptive importance sampling (SAIS), that combines the strengths of subset simulation and adaptive multiple importance sampling. SAIS iteratively refines a set of proposal distributions using weighted samples from previous stages, efficiently exploring complex and high-dimensional failure regions. Leveraging recent advances in adaptive importance sampling, SAIS yields low-variance estimates using fewer samples than state-of-the-art methods and achieves pronounced improvements in both accuracy and computational cost. Through a series of benchmark problems involving high-dimensional, nonlinear performance functions, and multimodal scenarios, we demonstrate that SAIS consistently outperforms competing methods in capturing diverse failure modes and estimating failure probabilities with high precision.",
+ "primary": "stat.CO"
+}

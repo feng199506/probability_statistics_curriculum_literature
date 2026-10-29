@@ -1,0 +1,15 @@
+{
+ "id": "2608.12174",
+ "title": "Empirical likelihood confidence regions for ordered bivariate means",
+ "authors": [
+  "Naresh Garg"
+ ],
+ "v1_date": "2026-08-12",
+ "latest_version": 1,
+ "latest_date": "2026-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Let $\\boldsymbol{X}_i=(X_{1i},X_{2i})^\\top$ be independent and identically distributed observations with mean $\\boldsymbolμ=(μ_1,μ_2)^\\top$ constrained by $μ_1\\leqμ_2$. We study empirical-likelihood inference for a fixed mean vector and distinguish it from the previously known test of equality against an ordered alternative. At a fixed interior point, the constrained empirical likelihood ratio has the usual $χ^2_2$ limit. At a fixed boundary point $(m,m)^\\top$, its limit is the chi-bar-square distribution $\\tfrac12χ^2_1+\\tfrac12χ^2_2$. By contrast, profiling the unknown common mean in the equality-versus-order test yields $\\tfrac12χ^2_0+\\tfrac12χ^2_1$, the $k=2$ ordered-mean case of El Barmi (1996). We give an exact reduction of the latter statistic to the empirical likelihood of the paired differences, establish the localization step needed for the fixed-boundary expansion, and derive a local-to-boundary limit showing that interior calibration is not uniform over $n^{-1/2}$-neighborhoods of the boundary. Monte Carlo experiments under Gaussian, Student $t_5$, and shifted log-normal sampling examine fixed, boundary, and local regimes with explicit numerical-failure accounting. Illustrative paired-data analyses show the practical distinction between fixed-candidate confidence regions, directional equality tests, and ordinary scalar empirical-likelihood intervals truncated to the nonnegative parameter space.",
+ "primary": "math.ST"
+}

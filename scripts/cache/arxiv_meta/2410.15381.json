@@ -1,0 +1,15 @@
+{
+ "id": "2410.15381",
+ "title": "High-dimensional prediction for count response via sparse exponential weights",
+ "authors": [
+  "The Tien Mai"
+ ],
+ "v1_date": "2024-10-20",
+ "latest_version": 1,
+ "latest_date": "2024-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2409.01687",
+ "abstract": "Count data is prevalent in various fields like ecology, medical research, and genomics. In high-dimensional settings, where the number of features exceeds the sample size, feature selection becomes essential. While frequentist methods like Lasso have advanced in handling high-dimensional count data, Bayesian approaches remain under-explored with no theoretical results on prediction performance. This paper introduces a novel probabilistic machine learning framework for high-dimensional count data prediction. We propose a pseudo-Bayesian method that integrates a scaled Student prior to promote sparsity and uses an exponential weight aggregation procedure. A key contribution is a novel risk measure tailored to count data prediction, with theoretical guarantees for prediction risk using PAC-Bayesian bounds. Our results include non-asymptotic oracle inequalities, demonstrating rate-optimal prediction error without prior knowledge of sparsity. We implement this approach efficiently using Langevin Monte Carlo method. Simulations and a real data application highlight the strong performance of our method compared to the Lasso in various settings.",
+ "primary": "stat.ME"
+}

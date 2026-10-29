@@ -1,0 +1,17 @@
+{
+ "id": "2311.05033",
+ "title": "Distribution-free tests for lossless feature selection in classification and regression",
+ "authors": [
+  "László Györfi",
+  "Tamás Linder",
+  "Harro Walk"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 2,
+ "latest_date": "2024-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Test",
+ "abstract": "We study the problem of lossless feature selection for a $d$-dimensional feature vector $X=(X^{(1)},\\dots ,X^{(d)})$ and label $Y$ for binary classification as well as nonparametric regression. For an index set $S\\subset \\{1,\\dots ,d\\}$, consider the selected $|S|$-dimensional feature subvector $X_S=(X^{(i)}, i\\in S)$. If $L^*$ and $L^*(S)$ stand for the minimum risk based on $X$ and $X_S$, respectively, then $X_S$ is called lossless if $L^*=L^*(S)$. For classification, the minimum risk is the Bayes error probability, while in regression, the minimum risk is the residual variance. We introduce nearest-neighbor based test statistics to test the hypothesis that $X_S$ is lossless. This test statistic is an estimate of the excess risk $L^*(S)-L^*$. Surprisingly, estimating this excess risk turns out to be a functional estimation problem that does not suffer from the curse of dimensionality in the sense that the convergence rate does not depend on the dimension $d$. For the threshold $a_n=\\log n/\\sqrt{n}$, the corresponding tests are proved to be consistent under conditions on the distribution of $(X,Y)$ that are significantly milder than in previous work. Also, our threshold is universal (dimension independent), in contrast to earlier methods where for large $d$ the threshold becomes too large to be useful in practice.",
+ "primary": "math.ST"
+}

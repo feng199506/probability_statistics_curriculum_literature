@@ -1,0 +1,17 @@
+{
+ "id": "2503.05448",
+ "title": "Joint graphical model estimation using Stein-type shrinkage for fast large scale network inference in scRNAseq data",
+ "authors": [
+  "Duong H. T. Vo",
+  "Nelofer Syed",
+  "Thomas Thorne"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graphical modeling is a widely used tool for analyzing conditional dependencies between variables and traditional methods may struggle to capture shared and distinct structures in multi-group or multi-condition settings. Joint graphical modeling (JGM) extends this framework by simultaneously estimating network structures across multiple related datasets, allowing for a deeper understanding of commonalities and differences. This capability is particularly valuable in fields such as genomics and neuroscience, where identifying variations in network topology can provide critical biological insights. Existing JGM methodologies largely fall into two categories: regularization-based approaches, which introduce additional penalties to enforce structured sparsity, and Bayesian frameworks, which incorporate prior knowledge to improve network inference. In this study, we explore an alternative method based on two-target linear covariance matrix shrinkage. Formula for optimal shrinkage intensities is proposed which leads to the development of JointStein framework. Performance of JointStein framework is proposed through simulation benchmarking which demonstrates its effectiveness for large-scale single-cell RNA sequencing (scRNA-seq) data analysis. Finally, we apply our approach to glioblastoma scRNA-seq data, uncovering dynamic shifts in T cell network structures across disease progression stages. The result highlights potential of JointStein framework in extracting biologically meaningful insights from high-dimensional data.",
+ "primary": "stat.ME"
+}

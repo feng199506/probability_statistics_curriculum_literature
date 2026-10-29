@@ -1,0 +1,16 @@
+{
+ "id": "2603.23963",
+ "title": "An Exponential-Polynomial Divergence-based Robust Information Criterion for Linear Panel Data Models and Neural Networks",
+ "authors": [
+  "Udita Goswami",
+  "Shuvashree Mondal"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 2 figures",
+ "abstract": "Model selection is a cornerstone of statistical inference, where information criteria are widely employed to balance model fit and complexity. However, classical likelihood-based criteria are often highly sensitive to contamination, outliers, and model misspecification. In this paper, we develop a robust alternative based on the Exponential-Polynomial Divergence, a flexible extension of existing divergence measures that enhances adaptability to diverse data irregularities. The proposed Exponential-Polynomial Divergence Information Criterion preserves the objective of approximating the discrepancy between the true model and candidate models while incorporating robustness against anomalous observations. Its theoretical properties are established, and robustness is examined through influence function analysis, demonstrating controlled sensitivity to extreme data points. For practical implementation, a data-driven tuning parameter selection strategy based on generalized score matching is employed, ensuring improved computational stability and efficiency. The effectiveness of the proposed method is demonstrated through extensive simulation studies under varying contamination levels, as well as real data applications involving linear mixed-effects panel data models and neural network-based prediction tasks. The results consistently show improved stability and reliability compared to classical likelihood and density power divergence-based information criteria. The proposed framework thus provides a practical and unified approach for model selection in complex and contaminated data settings.",
+ "primary": "stat.ME"
+}

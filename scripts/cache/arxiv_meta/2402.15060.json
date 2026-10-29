@@ -1,0 +1,17 @@
+{
+ "id": "2402.15060",
+ "title": "The Cox-Polya-Gamma Algorithm for Flexible Bayesian Inference of Multilevel Survival Models",
+ "authors": [
+  "Benny Ren",
+  "Jeffrey Morris",
+  "Ian Barnett"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 2,
+ "latest_date": "2024-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian Cox semiparametric regression is an important problem in many clinical settings. Bayesian procedures provide finite-sample inference and naturally incorporate prior information if MCMC algorithms and posteriors are well behaved. Survival analysis should also be able to incorporate multilevel modeling such as case weights, frailties and smoothing splines, in a straightforward manner. To tackle these modeling challenges, we propose the Cox-Polya-Gamma (Cox-PG) algorithm for Bayesian multilevel Cox semiparametric regression and survival functions. Our novel computational procedure succinctly addresses the difficult problem of monotonicity constrained modeling of the nonparametric baseline cumulative hazard along with multilevel regression. We develop two key strategies. First, we exploit an approximation between Cox models and negative binomial processes through the Poisson process to reduce Bayesian computation to iterative Gaussian sampling. Next, we appeal to sufficient dimension reduction to address the difficult computation of nonparametric baseline cumulative hazard, allowing for the collapse of the Markov transition within the Gibbs sampler based on beta sufficient statistics. In addition, we explore conditions for uniform ergodicity of the Cox-PG algorithm. We demonstrate our multilevel modeling approach using open source data and simulations. We provide software for our Bayesian procedure in the supplement.",
+ "primary": "stat.ME"
+}

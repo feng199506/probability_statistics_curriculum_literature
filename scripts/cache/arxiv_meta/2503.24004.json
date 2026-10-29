@@ -1,0 +1,18 @@
+{
+ "id": "2503.24004",
+ "title": "Multivariate Species Sampling Models",
+ "authors": [
+  "Beatrice Franzolini",
+  "Antonio Lijoi",
+  "Igor Prünster",
+  "Giovanni Rebaudo"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 3,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Species sampling processes have long served as the fundamental framework for modeling random discrete distributions and exchangeable sequences. However, data arising from distinct but related sources require a broader notion of probabilistic invariance, making partial exchangeability a natural choice. Countless models for partially exchangeable data, collectively known as dependent nonparametric priors, have been proposed. These include hierarchical, nested and additive processes, widely used in statistics and machine learning. Still, a unifying framework is lacking and key questions about their underlying learning mechanisms remain unanswered. We fill this gap by introducing multivariate species sampling models, a new general class of nonparametric priors that encompasses most existing finite- and infinite-dimensional dependent processes. They are characterized by the induced partially exchangeable partition probability function encoding their multivariate clustering structure. We establish their core distributional properties and analyze their dependence structure, demonstrating that borrowing of information across groups is entirely determined by shared ties. This provides new insights into the underlying learning mechanisms, offering, for instance, a principled rationale for the previously unexplained correlation structure observed in existing models. Beyond providing a cohesive theoretical foundation, our approach serves as a constructive tool for developing new models and opens novel research directions for capturing richer dependence structures beyond the framework of multivariate species sampling processes.",
+ "primary": "math.ST"
+}

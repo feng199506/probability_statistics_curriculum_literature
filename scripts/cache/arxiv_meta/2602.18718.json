@@ -1,0 +1,19 @@
+{
+ "id": "2602.18718",
+ "title": "Stochastic Gradient Variational Inference with Price's Gradient Estimator from Bures-Wasserstein to Parameter Space",
+ "authors": [
+  "Kyurae Kim",
+  "Qiang Fu",
+  "Yi-An Ma",
+  "Jacob R. Gardner",
+  "Trevor Campbell"
+ ],
+ "v1_date": "2026-02-21",
+ "latest_version": 2,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to ICML'26",
+ "abstract": "For approximating a target distribution given only its unnormalized log-density, stochastic gradient-based variational inference (VI) algorithms are a popular approach. For example, Wasserstein VI (WVI) and black-box VI (BBVI) perform gradient descent in measure space (Bures-Wasserstein space) and parameter space, respectively. Previously, for the Gaussian variational family, convergence guarantees for WVI have shown superiority over existing results for black-box VI with the reparametrization gradient, suggesting the measure space approach might provide some unique benefits. In this work, however, we close this gap by obtaining identical state-of-the-art iteration complexity guarantees for both. In particular, we identify that WVI's superiority stems from the specific gradient estimator it uses, which BBVI can also leverage with minor modifications. The estimator in question is usually associated with Price's theorem and utilizes second-order information (Hessians) of the target log-density. We will refer to this as Price's gradient. On the flip side, WVI can be made more widely applicable by using the reparametrization gradient, which requires only gradients of the log-density. We empirically demonstrate that the use of Price's gradient is the major source of performance improvement.",
+ "primary": "stat.ML"
+}

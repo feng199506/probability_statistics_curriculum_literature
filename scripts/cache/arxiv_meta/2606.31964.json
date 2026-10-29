@@ -1,0 +1,17 @@
+{
+ "id": "2606.31964",
+ "title": "Scalable Joint Modeling of Dependent Multi-Type Survey Data for Small Area Estimation",
+ "authors": [
+  "Zewei Kong",
+  "Paul A. Parker",
+  "Scott H. Holan"
+ ],
+ "v1_date": "2026-06-30",
+ "latest_version": 1,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 3 figures",
+ "abstract": "We develop a Bayesian area-level small area estimation framework that jointly models binomial and Gaussian survey responses through shared spatial random effects. This work is motivated by the American Community Survey (ACS), which provides useful information that contributes to federal funding and policy making decisions, and often yields direct estimates with large standard errors in small domains. The proposed Multi-type model borrows strength across outcomes and spatial neighbors to improve the precision of the associated estimates. For the binomial component, Polya-Gamma data augmentation yields a conditionally Gaussian representation, while spatial basis functions provide dimension reduction for high-dimensional spatial data. Together, these features lead to closed-form conditional posteriors and, thus, an efficient Gibbs sampler. Through empirical simulations, we show that the proposed joint model improves estimation precision relative to independent Univariate models. Applying the method to ACS median income and poverty rate data, we find that the proposed Multi-type model yields similar point estimates but smaller posterior variances than the corresponding Univariate models.",
+ "primary": "stat.ME"
+}

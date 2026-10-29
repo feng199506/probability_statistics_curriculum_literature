@@ -1,0 +1,16 @@
+{
+ "id": "2411.15306",
+ "title": "Heavy-tailed Contamination is Easier than Adversarial Contamination",
+ "authors": [
+  "Yeshwanth Cherapanamjeri",
+  "Daniel Lee"
+ ],
+ "v1_date": "2024-11-22",
+ "latest_version": 1,
+ "latest_date": "2024-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A large body of work in the statistics and computer science communities dating back to Huber (Huber, 1960) has led to statistically and computationally efficient outlier-robust estimators. Two particular outlier models have received significant attention: the adversarial and heavy-tailed models. While the former models outliers as the result of a malicious adversary manipulating the data, the latter relaxes distributional assumptions on the data allowing outliers to naturally occur as part of the data generating process. In the first setting, the goal is to develop estimators robust to the largest fraction of outliers while in the second, one seeks estimators to combat the loss of statistical efficiency, where the dependence on the failure probability is paramount. Despite these distinct motivations, the algorithmic approaches to both these settings have converged, prompting questions on the relationship between the models. In this paper, we investigate and provide a principled explanation for this phenomenon. First, we prove that any adversarially robust estimator is also resilient to heavy-tailed outliers for any statistical estimation problem with i.i.d data. As a corollary, optimal adversarially robust estimators for mean estimation, linear regression, and covariance estimation are also optimal heavy-tailed estimators. Conversely, for arguably the simplest high-dimensional estimation task of mean estimation, we construct heavy-tailed estimators whose application to the adversarial setting requires any black-box reduction to remove almost all the outliers in the data. Taken together, our results imply that heavy-tailed estimation is likely easier than adversarially robust estimation opening the door to novel algorithmic approaches for the heavy-tailed setting. Additionally, confidence intervals obtained for adversarially robust estimation also hold with high-probability.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2410.07191",
+ "title": "Curb Your Attention: Causal Attention Gating for Robust Trajectory Prediction in Autonomous Driving",
+ "authors": [
+  "Ehsan Ahmadi",
+  "Ray Mercurius",
+  "Soheil Alizadeh",
+  "Kasra Rezaee",
+  "Amir Rasouli"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 2,
+ "latest_date": "2025-03-06",
+ "journal_ref": "",
+ "doi": "10.1109/icra55743.2025.11128367",
+ "comment": "Accepted ICRA 2025",
+ "abstract": "Trajectory prediction models in autonomous driving are vulnerable to perturbations from non-causal agents whose actions should not affect the ego-agent's behavior. Such perturbations can lead to incorrect predictions of other agents' trajectories, potentially compromising the safety and efficiency of the ego-vehicle's decision-making process. Motivated by this challenge, we propose $\\textit{Causal tRajecTory predICtion}$ $\\textbf{(CRiTIC)}$, a novel model that utilizes a $\\textit{Causal Discovery Network}$ to identify inter-agent causal relations over a window of past time steps. To incorporate discovered causal relationships, we propose a novel $\\textit{Causal Attention Gating}$ mechanism to selectively filter information in the proposed Transformer-based architecture. We conduct extensive experiments on two autonomous driving benchmark datasets to evaluate the robustness of our model against non-causal perturbations and its generalization capacity. Our results indicate that the robustness of predictions can be improved by up to $\\textbf{54%}$ without a significant detriment to prediction accuracy. Lastly, we demonstrate the superior domain generalizability of the proposed model, which achieves up to $\\textbf{29%}$ improvement in cross-domain performance. These results underscore the potential of our model to enhance both robustness and generalization capacity for trajectory prediction in diverse autonomous driving domains. Further details can be found on our project page: https://ehsan-ami.github.io/critic.",
+ "primary": "cs.RO"
+}

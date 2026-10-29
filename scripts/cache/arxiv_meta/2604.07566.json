@@ -1,0 +1,18 @@
+{
+ "id": "2604.07566",
+ "title": "Robust Mendelian Randomization Estimation using Weighted Quantile Regression",
+ "authors": [
+  "Julien St-Pierre",
+  "Archer Y. Yang",
+  "Mireille E. Schnitzer",
+  "Marc-André Legault"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 8 figures, 3 supplementary figures",
+ "abstract": "In Mendelian randomization (MR) studies, genetic variants are used as instrumental variables (IVs) to investigate causal relationships between exposures and outcomes based on observational data. However, numerous genetic studies have shown the pervasive pleiotropy of genetic variants, meaning that many, if not most, variants are associated with multiple traits, potentially violating the core assumptions of IV estimation. Uncorrelated pleiotropy occurs when genetic variants have a direct effect on the outcome that is not mediated by the exposure, while correlated pleiotropy occurs when genetic variants affect the exposure and outcome via shared heritable confounders. In this work, we propose a novel MR method, called MR-Quantile, based on weighted quantile regression (WQR) that is robust to both correlated and uncorrelated pleiotropy. We propose a procedure for selecting the optimal quantile of the ratio estimates through a likelihood-based formulation of WQR using the asymmetric Laplace distribution. Monte Carlo simulations demonstrate the empirical performance of the proposed method, especially in settings with many invalid IVs with weak pleiotropic effects. Finally, we apply our method to study the causal effect of resting heart rate on atrial fibrillation. Genetic variants associated with heart rate were identified in a genome-wide association study of 425,748 individuals from the VA Million Veteran Program, and used as instruments in a two-sample MR analysis with summary statistics from a genetic meta-analysis of 228,926 AF cases across eight studies.",
+ "primary": "stat.ME"
+}

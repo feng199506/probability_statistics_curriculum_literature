@@ -1,0 +1,18 @@
+{
+ "id": "2502.13570",
+ "title": "A Scalable Nystrom-Based Kernel Two-Sample Test with Permutations",
+ "authors": [
+  "Antoine Chatalic",
+  "Marco Letizia",
+  "Nicolas Schreuder",
+  "Lorenzo Rosasco"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 4,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two-sample hypothesis testing-determining whether two sets of data are drawn from the same distribution-is a fundamental problem in statistics and machine learning with broad scientific applications. In the context of nonparametric testing, maximum mean discrepancy (MMD) has gained popularity as a test statistic due to its flexibility and strong theoretical foundations. However, its use in large-scale scenarios is plagued by high computational costs. In this work, we use a Nyström approximation of the MMD to design a computationally efficient and practical testing algorithm while preserving statistical guarantees. Our main result is a finite-sample bound on the power of the proposed test for distributions that are sufficiently separated with respect to the MMD. The derived separation rate matches the known minimax optimal rate in this setting. We support our findings with a series of numerical experiments, emphasizing applicability to realistic scientific data.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2605.01198",
+ "title": "Modular Markov chain Monte Carlo with application to multimodal sampling",
+ "authors": [
+  "Joonha Park"
+ ],
+ "v1_date": "2026-05-02",
+ "latest_version": 1,
+ "latest_date": "2026-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a modular approach to Markov chain Monte Carlo (MCMC) sampling for unnormalized target densities. In this approach, Markov chains are constructed in parallel, each constrained to a subset of the target space. The Monte Carlo estimates from the constrained chains are then combined with appropriate weights, calculated from the transition probabilities between subsets. In addition to the computational advantages arising from its parallelized structure, this modular MCMC approach enables variance reduction for Monte Carlo estimation in settings where sampling from low-density regions is required. We develop a central limit theorem-type result for the resulting Monte Carlo estimates and propose a method for estimating their standard errors. Furthermore, by applying this modular sampling technique to simulated tempering, we propose a method for Monte Carlo estimation of expectations with respect to multimodal target distributions. This approach effectively addresses a well-known challenge of tempering-based methods: sampling efficiency can be greatly reduced when separated modes of the target distribution have different scales. We demonstrate the efficiency of the proposed methods through numerical examples, including one arising from Bayesian sparse regression with a spike-and-slab prior.",
+ "primary": "stat.CO"
+}

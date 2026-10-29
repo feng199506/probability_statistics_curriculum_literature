@@ -1,0 +1,119 @@
+[
+ {
+  "q": "(ti:review OR ti:survey OR ti:tutorial OR ti:introduction) AND (abs:\"kernel density estimation\" OR abs:\"kernel smoothing\" OR abs:\"local polynomial\")",
+  "subtopic": "核平滑与密度估计"
+ },
+ {
+  "q": "(ti:\"kernel density\" OR ti:\"bandwidth selection\" OR ti:\"local polynomial\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "核平滑与密度估计"
+ },
+ {
+  "q": "(ti:\"reproducing kernel\" OR ti:\"kernel mean embedding\" OR ti:MMD OR ti:\"maximum mean discrepancy\" OR ti:HSIC) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:test)",
+  "subtopic": "RKHS核方法与核检验"
+ },
+ {
+  "q": "(ti:spline OR ti:splines OR ti:\"P-splines\" OR ti:\"smoothing spline\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.CO)",
+  "subtopic": "样条与可加模型"
+ },
+ {
+  "q": "(ti:\"rank test\" OR ti:\"rank tests\" OR ti:\"rank-based\" OR ti:Wilcoxon OR ti:\"Mann-Whitney\" OR ti:\"signed rank\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "秩方法"
+ },
+ {
+  "q": "(abs:\"center-outward\" OR abs:\"multivariate ranks\" OR abs:\"optimal transport\") AND (abs:rank OR abs:quantile) AND cat:math.ST",
+  "subtopic": "秩方法"
+ },
+ {
+  "q": "(ti:robust OR ti:robustness) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:\"lecture notes\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.ML)",
+  "subtopic": "稳健统计"
+ },
+ {
+  "q": "(abs:\"median-of-means\" OR abs:\"heavy-tailed\" OR abs:\"Huber contamination\") AND (abs:\"mean estimation\" OR abs:\"robust estimation\") AND cat:math.ST",
+  "subtopic": "稳健统计"
+ },
+ {
+  "q": "(ti:\"breakdown point\" OR ti:\"M-estimator\" OR ti:\"M-estimators\" OR ti:\"Huber\" OR ti:\"influence function\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "稳健统计与影响函数"
+ },
+ {
+  "q": "(ti:\"influence function\" OR ti:\"influence functions\" OR ti:\"one-step\" OR ti:\"debiased\" OR ti:\"doubly robust\") AND (ti:tutorial OR ti:review OR ti:introduction OR ti:primer OR ti:guide)",
+  "subtopic": "影响函数与半参数估计"
+ },
+ {
+  "q": "(abs:\"double machine learning\" OR abs:\"targeted maximum likelihood\" OR abs:\"debiased machine learning\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:guide OR ti:primer OR ti:overview)",
+  "subtopic": "影响函数与半参数估计"
+ },
+ {
+  "q": "(ti:\"missing data\" OR ti:\"incomplete data\" OR ti:\"missing not at random\" OR ti:\"missingness\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:guide)",
+  "subtopic": "缺失数据"
+ },
+ {
+  "q": "(ti:\"multiple imputation\" OR ti:imputation) AND (cat:stat.ME OR cat:stat.CO OR cat:math.ST)",
+  "subtopic": "缺失数据与多重插补"
+ },
+ {
+  "q": "(ti:\"missing data\" OR ti:\"missing at random\" OR ti:\"nonignorable\") AND (cat:math.ST OR cat:stat.ME) AND abs:identification",
+  "subtopic": "缺失数据"
+ },
+ {
+  "q": "(ti:nonparametric) AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction) AND (cat:stat.ME OR cat:math.ST)",
+  "subtopic": "非参数方法综述"
+ },
+ {
+  "q": "(ti:\"isotonic\" OR ti:\"shape-constrained\" OR ti:\"shape constraints\" OR ti:\"log-concave\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "形状约束非参数估计"
+ },
+ {
+  "q": "(ti:\"robust statistics\" OR ti:\"multiple imputation\" OR ti:\"kernel density estimation\" OR ti:\"influence function\" OR ti:\"smoothing splines\" OR ti:\"kernel mean embedding\")",
+  "subtopic": "经典",
+  "old": true
+ },
+ {
+  "q": "(ti:\"distribution-free\" OR ti:\"nonparametric test\" OR ti:\"independence test\") AND (cat:math.ST OR cat:stat.ME) AND (abs:kernel OR abs:rank)",
+  "subtopic": "秩方法与非参数检验"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:\"lecture notes\") AND (abs:\"robust statistics\" OR abs:\"robust estimation\" OR abs:\"heavy-tailed\" OR abs:\"contamination\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.ML OR cat:cs.DS)",
+  "subtopic": "稳健统计"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview) AND (abs:\"nonparametric regression\" OR abs:\"density estimation\" OR abs:\"nonparametric smoothing\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.ML)",
+  "subtopic": "核平滑与密度估计"
+ },
+ {
+  "q": "(ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:primer) AND (abs:\"generalized additive model\" OR abs:\"penalized splines\" OR abs:\"smoothing splines\" OR abs:\"P-splines\")",
+  "subtopic": "样条与可加模型"
+ },
+ {
+  "q": "(ti:review OR ti:survey OR ti:tutorial OR ti:guide OR ti:overview) AND abs:\"multiple imputation\"",
+  "subtopic": "缺失数据与多重插补"
+ },
+ {
+  "q": "(ti:review OR ti:survey OR ti:overview OR ti:introduction) AND (abs:\"statistical depth\" OR abs:\"data depth\" OR abs:\"multivariate quantile\" OR abs:\"center-outward\" OR abs:\"multivariate ranks\")",
+  "subtopic": "秩方法"
+ },
+ {
+  "q": "(ti:review OR ti:tutorial OR ti:introduction OR ti:survey OR ti:overview) AND (abs:\"isotonic regression\" OR abs:\"shape constraint\" OR abs:\"shape-constrained\" OR abs:\"log-concave density\")",
+  "subtopic": "形状约束非参数估计"
+ },
+ {
+  "q": "(ti:semiparametric OR ti:debiased OR ti:\"doubly robust\" OR ti:Riesz OR ti:\"one-step\" OR ti:\"targeted\") AND cat:math.ST",
+  "subtopic": "影响函数与半参数估计"
+ },
+ {
+  "q": "ti:robust AND (ti:\"mean estimation\" OR ti:\"covariance\" OR ti:\"regression\" OR ti:\"location\") AND cat:math.ST",
+  "subtopic": "稳健统计"
+ },
+ {
+  "q": "ti:\"empirical likelihood\" AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "非参数似然"
+ },
+ {
+  "q": "ti:kernel AND (ti:test OR ti:testing OR ti:\"two-sample\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.ML)",
+  "subtopic": "RKHS核方法与核检验"
+ },
+ {
+  "q": "(ti:\"missing data\" OR ti:\"missing not at random\" OR ti:\"nonignorable\" OR ti:\"missing at random\") AND (ti:semiparametric OR ti:efficient OR ti:\"doubly robust\" OR ti:identification OR ti:identifiability OR ti:graphical)",
+  "subtopic": "缺失数据"
+ }
+]

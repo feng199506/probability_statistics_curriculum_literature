@@ -1,0 +1,18 @@
+{
+ "id": "2601.13759",
+ "title": "ChauBoxplot and AdaptiveBoxplot: Two R packages for boxplot-based outlier detection",
+ "authors": [
+  "Tiejun Tong",
+  "Hongmei Lin",
+  "Bowen Gang",
+  "Riquan Zhang"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 2,
+ "latest_date": "2026-03-03",
+ "journal_ref": "Statistical Theory and Related Fields, 2026",
+ "doi": "",
+ "comment": "11 pages, 2 figures, 2 tables",
+ "abstract": "Tukey's boxplot is widely used for outlier detection; however, its classic fixed-fence rule tends to flag an excessive number of outliers as the sample size grows. To address this, we introduce two new R packages, ChauBoxplot and AdaptiveBoxplot, which implement more robust and statistically principled outlier detection methods. We illustrate their advantages and practical implications through comprehensive simulation studies and a real-world analysis of provincial university admission rates from China's National College Entrance Examination. Based on these findings, we provide practical guidance to help practitioners select appropriate boxplot methods, achieving a balance between interpretability and statistical reliability.",
+ "primary": "stat.ME"
+}

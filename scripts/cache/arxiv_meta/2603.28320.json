@@ -1,0 +1,17 @@
+{
+ "id": "2603.28320",
+ "title": "Design-Based Inference for the AUC with Complex Survey Data",
+ "authors": [
+  "Amaia Iparragirre",
+  "Thomas Lumley",
+  "Irantzu Barrio"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 1,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Complex survey data are usually collected following complex sampling designs. Accounting for the sampling design is essential to obtain unbiased estimates and valid inferences when analyzing complex survey data. The area under the receiver operating characteristic curve (AUC) is routinely used to assess the discriminative ability of predictive models for binary outcomes. However, valid inference for the AUC under complex sampling designs remains challenging. Although bootstrap techniques are widely applied under simple random sampling for variance estimation in this framework, traditional implementations do not account for complex designs. In this work, we propose a design-based framework for AUC inference. In particular, replicate weights methods are used to construct confidence intervals and hypothesis tests. The performance of replicate weights methods and the traditional non-design-based bootstrap for this purpose has been analyzed through an extensive simulation study. Design-based methods achieve coverage probabilities close to nominal levels and appropriate rejection rates under the null hypothesis. In contrast, the traditional non-design-based bootstrap method tends to underestimate the variance, leading to undercoverage and inflated rejection rates. Differences between methods decrease as the number of selected clusters per stratum increases. An application to data from the National Health and Nutrition Examination Survey (NHANES) illustrates the practical relevance of the proposed framework. The methods have been incorporated into the svyROC R package.",
+ "primary": "stat.ME"
+}

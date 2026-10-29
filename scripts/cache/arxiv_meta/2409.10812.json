@@ -1,0 +1,17 @@
+{
+ "id": "2409.10812",
+ "title": "Statistical Inference for Chi-square Statistics or F-Statistics Based on Multiple Imputation",
+ "authors": [
+  "Binhuan Wang",
+  "Yixin Fang",
+  "Man Jin"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 1,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages",
+ "abstract": "Missing data is a common issue in medical, psychiatry, and social studies. In literature, Multiple Imputation (MI) was proposed to multiply impute datasets and combine analysis results from imputed datasets for statistical inference using Rubin's rule. However, Rubin's rule only works for combined inference on statistical tests with point and variance estimates and is not applicable to combine general F-statistics or Chi-square statistics. In this manuscript, we provide a solution to combine F-test statistics from multiply imputed datasets, when the F-statistic has an explicit fractional form (that is, both the numerator and denominator of the F-statistic are reported). Then we extend the method to combine Chi-square statistics from multiply imputed datasets. Furthermore, we develop methods for two commonly applied F-tests, Welch's ANOVA and Type-III tests of fixed effects in mixed effects models, which do not have the explicit fractional form. SAS macros are also developed to facilitate applications.",
+ "primary": "stat.ME"
+}

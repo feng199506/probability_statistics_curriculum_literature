@@ -1,0 +1,17 @@
+{
+ "id": "2406.07825",
+ "title": "Shape-Constrained Distributional Optimization via Importance-Weighted Sample Average Approximation",
+ "authors": [
+  "Henry Lam",
+  "Zhenyuan Liu",
+  "Dashi I. Singham"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Shape-constrained optimization arises in a wide range of problems including distributionally robust optimization (DRO) that has surging popularity in recent years. In the DRO literature, these problems are usually solved via reduction into moment-constrained problems using the Choquet representation. While powerful, such an approach could face tractability challenges arising from the geometries and the compatibility between the shape and the objective function and moment constraints. In this paper, we propose an alternative methodology to solve shape-constrained optimization problems by integrating sample average approximation with importance sampling, the latter used to convert the distributional optimization into an optimization problem over the likelihood ratio with respect to a sampling distribution. We demonstrate how our approach, which relies on finite-dimensional linear programs, can handle a range of shape-constrained problems beyond the reach of previous Choquet-based reformulations, and entails vanishing and quantifiable optimality gaps. Moreover, our theoretical analyses based on strong duality and empirical processes reveal the critical role of shape constraints in guaranteeing desirable consistency and convergence rates.",
+ "primary": "math.OC"
+}

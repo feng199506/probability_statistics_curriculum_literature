@@ -1,0 +1,16 @@
+{
+ "id": "2501.18819",
+ "title": "Recent advances in doubly-robust weighted ordinary least squares techniques for dynamic treatment regime estimation",
+ "authors": [
+  "Adel Ahmadi Nadi",
+  "Michael Wallace"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 1,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A dynamic treatment regime (DTR) is an approach to delivering precision medicine that uses patient characteristics to guide treatment decisions for optimal health outcomes. Numerous methods have been proposed for DTR estimation, including dynamic weighted ordinary least squares (dWOLS), a regression-based approach that affords double robustness to model misspecification within an easy to implement analytical framework. Initially, the dWOLS approach was developed under the assumptions of continuous outcomes and binary treatment decisions. Motivated by clinical research, subsequent theoretical advancements have extended the dWOLS framework to address binary, continuous and multicategory treatments across various outcome types, including binary, continuous, and survival-type. However, certain scenarios remain unexplored. This paper summarizes the last ten years of extension and application of the dWOLS method, providing a comprehensive and detailed review of the original dWOLS method and its extensions, as well as highlighting its diverse practical applications. We also explore studies that have addressed challenges associated with dWOLS implementation, such as model validation, variable selection, and handling measurement errors. Using simulated data, we present numerical illustrations along with step-by-step implementations in the \\texttt{R} environment to facilitate a deeper understanding of dWOLS-based DTR estimation methodologies.",
+ "primary": "stat.ME"
+}

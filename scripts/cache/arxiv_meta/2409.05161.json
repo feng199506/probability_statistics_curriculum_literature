@@ -1,0 +1,16 @@
+{
+ "id": "2409.05161",
+ "title": "Beyond Arbitrary Replications: A Principled Approach to Simulation Design in Causal Inference",
+ "authors": [
+  "Hugo Gobato Souto",
+  "Francisco Louzada Neto"
+ ],
+ "v1_date": "2024-09-08",
+ "latest_version": 3,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evaluation of novel treatment effect estimators frequently relies on simulation studies lacking formal statistical comparisons and using arbitrary numbers of replications ($J$). This hinders reproducibility and efficiency. We propose the Test-Informed Simulation Count Algorithm (TISCA) to address these shortcomings. TISCA integrates Welch's t-tests with power analysis, iteratively running simulations until a pre-specified power (e.g., 0.8) is achieved for detecting a user-defined minimum detectable effect size (MDE) at a given significance level ($α$). This yields a statistically justified simulation count ($J$) and rigorous model comparisons. Our bibliometric study confirms the heterogeneity of current practices regarding $J$. A case study revisiting McJames et al. (2024) demonstrates TISCA identifies sufficient simulations ($J=500$ vs. original $J=1000$), saving computational resources while providing statistically sound evidence. TISCA promotes rigorous, efficient, and sustainable simulation practices in causal inference and beyond.",
+ "primary": "stat.ME"
+}

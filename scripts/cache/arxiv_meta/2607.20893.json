@@ -1,0 +1,17 @@
+{
+ "id": "2607.20893",
+ "title": "A Two-Sample Test on Weighted Persistence Intensity Functions in Topological Data Analysis",
+ "authors": [
+  "Yeongung Han",
+  "Ilmun Kim",
+  "Jisu Kim"
+ ],
+ "v1_date": "2026-07-23",
+ "latest_version": 4,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Persistence intensity functions provide interpretable and informative first-order summaries of random persistence diagram distributions. We study two-sample testing for equality of persistence intensity functions, allowing the underlying diagram distributions to differ under the null. We construct a weighted-kernel statistic as an unbiased estimator of the squared reproducing-kernel Hilbert space distance between the corresponding weighted intensity embeddings, and calibrate it by studentization. For shrinking bandwidths, we establish uniform asymptotic normality under the null and thereby obtain asymptotic Type I error control. Its power is characterized in terms of the $L^2$ discrepancy between the weighted intensity functions. To accommodate persistence diagrams with possibly unbounded cardinality, we introduce regularity conditions that control the effect of cardinality variation and yield the desired moment bounds for the test statistic. We further show that every probability density on $\\{(x,y)\\in\\mathbb{R}^2:y>x > 0\\}$ can be realized as the persistence intensity function of a random diagram. Using these results, we establish that the proposed test attains minimax-optimal separation rates over anisotropic Sobolev balls. Lastly, since the optimal bandwidth is not directly accessible in practice, we adapt a bandwidth aggregation framework.",
+ "primary": "math.ST"
+}

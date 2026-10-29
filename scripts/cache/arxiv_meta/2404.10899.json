@@ -1,0 +1,18 @@
+{
+ "id": "2404.10899",
+ "title": "Demonstrating the power and flexibility of variational assumptions for amortized neural posterior estimation in environmental applications",
+ "authors": [
+  "Elliot Maceda",
+  "Emily C. Hector",
+  "Amanda Lenzi",
+  "Brian J. Reich"
+ ],
+ "v1_date": "2024-04-16",
+ "latest_version": 2,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Classic Bayesian methods with complex models are frequently infeasible due to an intractable likelihood. Simulation-based inference methods, such as Approximate Bayesian Computing (ABC), calculate posteriors without accessing a likelihood function by leveraging the fact that data can be quickly simulated from the model, but converge slowly and/or poorly in high-dimensional settings. In this paper, we propose a framework for Bayesian posterior estimation by mapping data to posteriors of parameters using a neural network trained on data simulated from the complex model. Posterior distributions of model parameters are efficiently obtained by feeding observed data into the trained neural network. We show theoretically that our posteriors converge to the true posteriors in Kullback-Leibler divergence. Our approach yields computationally efficient and theoretically justified uncertainty quantification, which is lacking in existing simulation-based neural network approaches. Comprehensive simulation studies highlight our method's robustness and accuracy.",
+ "primary": "stat.CO"
+}

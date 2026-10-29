@@ -1,0 +1,17 @@
+{
+ "id": "2402.12719",
+ "title": "Restricted maximum likelihood estimation in generalized linear mixed models",
+ "authors": [
+  "Luca Maestrini",
+  "Francis K. C. Hui",
+  "Alan H. Welsh"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 2,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Restricted maximum likelihood (REML) estimation is a widely accepted and frequently used method for fitting linear mixed models, with its principal advantage being that it produces less biased estimates of the variance components. However, the concept of REML does not immediately generalize to the setting of non-normally distributed responses, and it is not always clear the extent to which, either asymptotically or in finite samples, such generalizations reduce the bias of variance component estimates compared to standard unrestricted maximum likelihood estimation. In this article, we review various attempts that have been made over the past four decades to extend REML estimation in generalized linear mixed models. We establish four major classes of approaches, namely approximate linearization, integrated likelihood, modified profile likelihoods, and direct bias correction of the score function, and show that while these four classes may have differing motivations and derivations, they often arrive at a similar if not the same REML estimate. We compare the finite sample performance of these four classes, along with methods for REML estimation in hierarchical generalized linear models, through a numerical study involving binary and count data, with results demonstrating that all approaches perform similarly well reducing the finite sample size bias of variance components. Overall, we believe REML estimation should more widely adopted by practitioners using generalized linear mixed models, and that the exact choice of which REML approach to use should, at this point in time, be driven by software availability and ease of implementation.",
+ "primary": "stat.ME"
+}

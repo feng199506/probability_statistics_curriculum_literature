@@ -1,0 +1,16 @@
+{
+ "id": "2409.07948",
+ "title": "Quickest Change Detection Using Mismatched CUSUM",
+ "authors": [
+  "Austin Cooper",
+  "Sean Meyn"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 4,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of extended abstract for the Allerton Conference on Communication, Control, and Computing, September 2024",
+ "abstract": "Quickest change detection concerns estimation of an unknown change time \\(τ_a\\) from a sequence of partial observations \\(\\{Y_k:k\\ge 0\\}\\). We consider stopping rules of CUSUM form, \\[ \\mathcal{X}_{n+1} = \\max\\{0,\\mathcal{X}_n+F(Y_{n+1})\\}, \\quad τ_s=\\min\\{n\\ge 0:\\mathcal{X}_n\\ge \\textrm{H}\\}, \\] where the function \\(F\\) and threshold \\(\\textrm{H}\\) are design parameters. The observations and change time are modeled jointly through a hidden Markov model, and \\( F\\) is selected from a prescribed function class \\(\\mathcal{G}\\) to minimize the weighted criterion \\[ \\textsf{E}\\bigl[ (τ_s-τ_a)_+ + κ(τ_s-τ_a)_- \\bigr]. \\] When \\(\\mathcal{G}\\) is a linear function class, the optimizer \\(F^*\\) is characterized by a convex program, whose dual yields extensions of classical likelihood-ratio constructions. This conclusion is based on analysis that is asymptotic in the regime \\(κ\\to\\infty\\). We show that the hidden Markov model admits an asymptotically equivalent conditionally independent approximation of the type commonly used in the quickest change detection literature. We then develop the design and asymptotic theory for a substantially broader class of conditionally independent models, so that the resulting conclusions are not tied to the particular POMDP reduction. Combining renewal theory and large deviations for reflected random walks, we obtain for each $F\\in\\mathcal{G}$ asymptotically accurate approximations of the optimal threshold and average cost, with error vanishing as \\(κ\\to\\infty\\). It is found in numerical experiments that the resulting approximations are accurate for moderate values of \\(κ\\).",
+ "primary": "math.ST"
+}

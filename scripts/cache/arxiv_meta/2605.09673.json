@@ -1,0 +1,16 @@
+{
+ "id": "2605.09673",
+ "title": "On the Need for Spatial Random Effects in Bayesian Regression Models for Multilevel Areal Data",
+ "authors": [
+  "Shuqi Lin",
+  "Joshua L. Warren"
+ ],
+ "v1_date": "2026-05-10",
+ "latest_version": 1,
+ "latest_date": "2026-05-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although spatial models for areal data are widely used in multilevel settings, the conditions under which spatial and nonspatial random effects yield equivalent posterior inference for regression coefficients have never been formally characterized. We address this question within a hierarchical Bayesian framework for Gaussian outcomes, using the Leroux conditional autoregressive (CAR) prior distribution as a representative specification. We derive a closed-form sample size threshold, $m^*$, below which spatial modeling materially affects inference on regression coefficients and above which a simpler nonspatial model yields effectively equivalent results, and show that the absolute relative difference in posterior variances converges to zero at rate $O(m^{-1})$. The threshold depends on three interpretable quantities: the spatial correlation parameter, the ratio of between-area to within-area variance, and the alignment between the covariate and dominant spatial patterns in the data. Because each can often be estimated prior to model fitting, $m^*$ can serve as a practical study design tool. Simulation studies confirm that $m^*$ accurately identifies this threshold across a range of settings. However, when the covariate does not vary within a given location, spatial modeling remains necessary regardless of within-area sample size. These results offer formal guidance for practitioners deciding whether the added complexity of spatial modeling is warranted.",
+ "primary": "stat.ME"
+}

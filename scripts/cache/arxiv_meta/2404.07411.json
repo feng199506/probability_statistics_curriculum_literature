@@ -1,0 +1,17 @@
+{
+ "id": "2404.07411",
+ "title": "Joint mixed-effects models for causal inference in clustered network-based observational studies",
+ "authors": [
+  "Vanessa McNealis",
+  "Erica E. M. Moodie",
+  "Nema Dean"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 1,
+ "latest_date": "2024-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference on populations embedded in social networks poses technical challenges, since the typical no interference assumption frequently does not hold. Existing methods developed in the context of network interference rely upon the assumption of no unmeasured confounding. However, when faced with multilevel network data, there may be a latent factor influencing both the exposure and the outcome at the cluster level. We propose a Bayesian inference approach that combines a joint mixed-effects model for the outcome and the exposure with direct standardization to identify and estimate causal effects in the presence of network interference and unmeasured cluster confounding. In simulations, we compare our proposed method with linear mixed and fixed effects models and show that unbiased estimation is achieved using the joint model. Having derived valid tools for estimation, we examine the effect of maternal college education on adolescent school performance using data from the National Longitudinal Study of Adolescent Health.",
+ "primary": "stat.ME"
+}

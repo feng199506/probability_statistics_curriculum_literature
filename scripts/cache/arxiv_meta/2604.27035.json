@@ -1,0 +1,16 @@
+{
+ "id": "2604.27035",
+ "title": "Doubly robust local projections difference-in-differences",
+ "authors": [
+  "Daniel de Abreu Pereira Uhr",
+  "Guilherme Valle Moura"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a doubly robust extension of local-projections difference-in-differences (LP-DiD) for staggered absorbing treatments. The resulting estimator, DRLPDID, preserves the LP-DiD local-stack ATT target and is consistent when either the local untreated-outcome regression or the local treatment-probability model is correctly specified. It also delivers influence-function-based inference for post-treatment summaries and multiplier-bootstrap bands for dynamic paths. In Monte Carlo designs with covariate-driven selection, DRLPDID matches regression-adjusted LP-DiD under outcome-model alignment and clearly outperforms the IPT-only variant under propensity-score misspecification. In the no-fault-divorce application, DRLPDID tracks robust staggered-adoption estimators and is less negative than unadjusted LP-DiD.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.04200",
+ "title": "Estimating Causal Effects in Networks with Cluster-Based Bandits",
+ "authors": [
+  "Ahmed Sayeed Faruk",
+  "Jason Sulskis",
+  "Elena Zheleva"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 1,
+ "latest_date": "2025-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Presented at the AAAI 2022 Workshop on Artificial Intelligence for Behavioral Change (AI4BC)",
+ "abstract": "The gold standard for estimating causal effects is randomized controlled trial (RCT) or A/B testing where a random group of individuals from a population of interest are given treatment and the outcome is compared to a random group of individuals from the same population. However, A/B testing is challenging in the presence of interference, commonly occurring in social networks, where individuals can impact each others outcome. Moreover, A/B testing can incur a high performance loss when one of the treatment arms has a poor performance and the test continues to treat individuals with it. Therefore, it is important to design a strategy that can adapt over time and efficiently learn the total treatment effect in the network. We introduce two cluster-based multi-armed bandit (MAB) algorithms to gradually estimate the total treatment effect in a network while maximizing the expected reward by making a tradeoff between exploration and exploitation. We compare the performance of our MAB algorithms with a vanilla MAB algorithm that ignores clusters and the corresponding RCT methods on semi-synthetic data with simulated interference. The vanilla MAB algorithm shows higher reward-action ratio at the cost of higher treatment effect error due to undesired spillover. The cluster-based MAB algorithms show higher reward-action ratio compared to their corresponding RCT methods without sacrificing much accuracy in treatment effect estimation.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2511.21992",
+ "title": "Design-based nested instrumental variable analysis",
+ "authors": [
+  "Zhe Chen",
+  "Xinran Li",
+  "Michael O. Harhay",
+  "Bo Zhang"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 2,
+ "latest_date": "2026-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two binary instrumental variables (IVs) are nested if individuals who comply under one binary IV also comply under the other. This situation often arises when the two IVs represent different intensities of encouragement or discouragement to take the treatment, with one stronger than the other. In a nested IV structure, treatment effects can be identified for two latent subgroups: always-compliers and switchers. Always-compliers are individuals who comply even under the weaker IV, while switchers are those who do not comply under the weaker IV but do under the stronger IV. We introduce a novel pair-of-pairs nested IV design, where each matched stratum consists of four units organized in two pairs. We develop design-based inference for the always-complier sample average treatment effect and switcher sample average treatment effect. In a nested IV analysis, IV assignment is randomized within each IV pair; however, whether a study unit receives the weaker or stronger IV may not be randomized. To address this complication, we then propose a novel partly biased randomization scheme and study design-based inference under this new scheme. Using extensive simulation studies, we demonstrate the validity of the proposed method even in challenging scenarios with small sample sizes and a low proportion of switchers. Applying the nested IV framework, we estimated that 52.2% (95% CI: 50.4%-53.9%) of participants enrolled at the Henry Ford Health System in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial were always-compliers, while 26.7% (95% CI: 24.5%-28.9%) were switchers. Among always-compliers, flexible sigmoidoscopy was associated with a trend toward a decreased colorectal cancer rate. No effect was detected among switchers. This offers a richer interpretation of why no increase in the intention-to-treat effect was observed after 1997, even though the compliance rate rose.",
+ "primary": "stat.ME"
+}

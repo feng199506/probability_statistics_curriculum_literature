@@ -1,0 +1,17 @@
+{
+ "id": "2410.05211",
+ "title": "The Informed Elastic Net for Fast Grouped Variable Selection and FDR Control in Genomics Research",
+ "authors": [
+  "Jasin Machkour",
+  "Michael Muma",
+  "Daniel P. Palomar"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 1,
+ "latest_date": "2024-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP), 10-13 December 2023, Los Sueños, Costa Rica",
+ "abstract": "Modern genomics research relies on genome-wide association studies (GWAS) to identify the few genetic variants among potentially millions that are associated with diseases of interest. Only reproducible discoveries of groups of associations improve our understanding of complex polygenic diseases and enable the development of new drugs and personalized medicine. Thus, fast multivariate variable selection methods that have a high true positive rate (TPR) while controlling the false discovery rate (FDR) are crucial. Recently, the T-Rex+GVS selector, a version of the T-Rex selector that uses the elastic net (EN) as a base selector to perform grouped variable election, was proposed. Although it significantly increased the TPR in simulated GWAS compared to the original T-Rex, its comparably high computational cost limits scalability. Therefore, we propose the informed elastic net (IEN), a new base selector that significantly reduces computation time while retaining the grouped variable selection property. We quantify its grouping effect and derive its formulation as a Lasso-type optimization problem, which is solved efficiently within the T-Rex framework by the terminated LARS algorithm. Numerical simulations and a GWAS study demonstrate that the proposed T-Rex+GVS (IEN) exhibits the desired grouping effect, reduces computation time, and achieves the same TPR as T-Rex+GVS (EN) but with lower FDR, which makes it a promising method for large-scale GWAS.",
+ "primary": "stat.ME"
+}

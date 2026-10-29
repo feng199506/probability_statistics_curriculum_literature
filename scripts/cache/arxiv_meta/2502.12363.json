@@ -1,0 +1,16 @@
+{
+ "id": "2502.12363",
+ "title": "A Pathwise Coordinate Descent Algorithm for LASSO Penalized Quantile Regression",
+ "authors": [
+  "Sanghee Kim",
+  "Sumanta Basu"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 12 figures, 5 tables",
+ "abstract": "$\\ell_1$ penalized quantile regression is used in many fields as an alternative to penalized least squares regressions for high-dimensional data analysis. Existing algorithms for penalized quantile regression either use linear programming, which does not scale well in high dimension, or an approximate coordinate descent (CD) which does not solve for exact coordinatewise minimum of the nonsmooth loss function. Further, neither approaches build fast, pathwise algorithms commonly used in high-dimensional statistics to leverage sparsity structure of the problem in large-scale data sets. To avoid the computational challenges associated with the nonsmooth quantile loss, some recent works have even advocated using smooth approximations to the exact problem. In this work, we develop a fast, pathwise coordinate descent algorithm to compute exact $\\ell_1$ penalized quantile regression estimates for high-dimensional data. We derive an easy-to-compute exact solution for the coordinatewise nonsmooth loss minimization, which, to the best of our knowledge, has not been reported in the literature. We also employ a random perturbation strategy to help the algorithm avoid getting stuck along the regularization path. In simulated data sets, we show that our algorithm runs substantially faster than existing alternatives based on approximate CD and linear program, while retaining the same level of estimation accuracy.",
+ "primary": "stat.CO"
+}

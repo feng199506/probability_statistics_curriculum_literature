@@ -1,0 +1,16 @@
+{
+ "id": "2602.03483",
+ "title": "Kriging for large datasets via penalized neighbor selection",
+ "authors": [
+  "Francisco Cuevas-Pacheco",
+  "Jonathan Acosta"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted for Journal publication",
+ "abstract": "Kriging is a fundamental tool for spatial prediction, but its computational complexity of $O(N^3)$ becomes prohibitive for large datasets. While local kriging using $K$-nearest neighbors addresses this issue, the selection of $K$ typically relies on ad-hoc criteria that fail to account for spatial correlation structure. We propose a penalized kriging framework that incorporates LASSO-type penalties directly into the kriging equations to achieve automatic, data-driven neighbor selection. We further extend this to adaptive LASSO, using data-driven penalty weights that account for the spatial correlation structure. Our method determines which observations contribute non-zero weights through $\\ell_1$ regularization, with the penalty parameter selected via a novel criterion based on effective sample size that balances prediction accuracy against information redundancy. Numerical experiments demonstrate that penalized kriging automatically adapts neighborhood structure to the underlying spatial correlation, selecting fewer neighbors for smoother processes and more for highly variable fields, while maintaining prediction accuracy comparable to global kriging at substantially reduced computational cost.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2602.17414",
+ "title": "Nested Sampling with Slice-within-Gibbs: Efficient Evidence Calculation for Hierarchical Bayesian Models",
+ "authors": [
+  "David Yallup"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 1,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 6 figures",
+ "abstract": "We present Nested Sampling with Slice-within-Gibbs (NS-SwiG), an algorithm for Bayesian inference and evidence estimation in high-dimensional models whose likelihood admits a factorization, such as hierarchical Bayesian models. We construct a procedure to sample from the likelihood-constrained prior using a Slice-within-Gibbs kernel: an outer update of hyperparameters followed by inner block updates over local parameters. A likelihood-budget decomposition caches per-block contributions so that each local update checks feasibility in constant time rather than recomputing the global constraint at linearly growing cost. This reduces the per-replacement cost from quadratic to linear in the number of groups, and the overall algorithmic complexity from cubic to quadratic under standard assumptions. The decomposition extends naturally beyond independent observations, and we demonstrate this on Markov-structured latent variables. We evaluate NS-SwiG on challenging benchmarks, demonstrating scalability to thousands of dimensions and accurate evidence estimates even on posterior geometries where state-of-the-art gradient-based samplers can struggle.",
+ "primary": "stat.CO"
+}

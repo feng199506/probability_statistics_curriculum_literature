@@ -1,0 +1,18 @@
+{
+ "id": "2312.01928",
+ "title": "Consensus-Based Distributed Nonlinear Filtering with Kernel Mean Embedding",
+ "authors": [
+  "Liping Guo",
+  "Jimin Wang",
+  "Yanlong Zhao",
+  "Ji-Feng Zhang"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 1,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a consensus-based distributed nonlinear filter with kernel mean embedding (KME). This fills with gap of posterior density approximation with KME for distributed nonlinear dynamic systems. To approximate the posterior density, the system state is embedded into a higher-dimensional reproducing kernel Hilbert space (RKHS), and then the nonlinear measurement function is linearly converted. As a result, an update rule of KME of posterior distribution is established in the RKHS. To show the proposed distributed filter being capable of achieving the centralized estimation accuracy, a centralized filter, serving as an extension of the standard Kalman filter in the state space to the RKHS, is developed first. Benefited from the KME, the proposed distributed filter converges to the centralized one while maintaining the distributed pattern. Two examples are introduced to demonstrate the effectiveness of the developed filters in target tracking scenarios including nearly constantly moving target and turning target, respectively, with bearing-only, range and bearing measurements.",
+ "primary": "eess.SY"
+}

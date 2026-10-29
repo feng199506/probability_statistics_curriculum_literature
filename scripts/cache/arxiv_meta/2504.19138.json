@@ -1,0 +1,15 @@
+{
+ "id": "2504.19138",
+ "title": "Quasi-Monte Carlo confidence intervals using quantiles of randomized nets",
+ "authors": [
+  "Zexin Pan"
+ ],
+ "v1_date": "2025-04-27",
+ "latest_version": 2,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in quasi-Monte Carlo integration have shown that for linearly scrambled digital net estimators, the convergence rate can be dramatically improved by taking the median rather than the mean of multiple independent replicates. In this work, we demonstrate that the quantiles of such estimators can be used to construct confidence intervals with asymptotically valid coverage for high-dimensional integrals. By analyzing the error distribution for a class of infinitely differentiable integrands, we prove that as the sample size increases, the integration error decomposes into an asymptotically symmetric component and a vanishing remainder. Consequently, the asymptotic error distribution is symmetric about zero, ensuring that a quantile-based interval constructed from independent replicates captures the true integral with probability converging to a nominal level determined by the binomial distribution.",
+ "primary": "math.ST"
+}

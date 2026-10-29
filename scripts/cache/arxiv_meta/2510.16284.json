@@ -1,0 +1,15 @@
+{
+ "id": "2510.16284",
+ "title": "Communication-Efficient and Memory-Aware Parallel Bootstrapping using MPI",
+ "authors": [
+  "Di Zhang"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 1,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages",
+ "abstract": "Bootstrapping is a powerful statistical resampling technique for estimating the sampling distribution of an estimator. However, its computational cost becomes prohibitive for large datasets or a high number of resamples. This paper presents a theoretical analysis and design of parallel bootstrapping algorithms using the Message Passing Interface (MPI). We address two key challenges: high communication overhead and memory constraints in distributed environments. We propose two novel strategies: 1) Local Statistic Aggregation, which drastically reduces communication by transmitting sufficient statistics instead of full resampled datasets, and 2) Synchronized Pseudo-Random Number Generation, which enables distributed resampling when the entire dataset cannot be stored on a single process. We develop analytical models for communication and computation complexity, comparing our methods against naive baseline approaches. Our analysis demonstrates that the proposed methods offer significant reductions in communication volume and memory usage, facilitating scalable parallel bootstrapping on large-scale systems.",
+ "primary": "cs.DC"
+}

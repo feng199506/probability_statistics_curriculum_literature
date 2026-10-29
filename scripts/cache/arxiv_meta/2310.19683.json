@@ -1,0 +1,16 @@
+{
+ "id": "2310.19683",
+ "title": "An Online Bootstrap for Time Series",
+ "authors": [
+  "Nicolai Palm",
+  "Thomas Nagler"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 2,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Resampling methods such as the bootstrap have proven invaluable in the field of machine learning. However, the applicability of traditional bootstrap methods is limited when dealing with large streams of dependent data, such as time series or spatially correlated observations. In this paper, we propose a novel bootstrap method that is designed to account for data dependencies and can be executed online, making it particularly suitable for real-time applications. This method is based on an autoregressive sequence of increasingly dependent resampling weights. We prove the theoretical validity of the proposed bootstrap scheme under general conditions. We demonstrate the effectiveness of our approach through extensive simulations and show that it provides reliable uncertainty quantification even in the presence of complex data dependencies. Our work bridges the gap between classical resampling techniques and the demands of modern data analysis, providing a valuable tool for researchers and practitioners in dynamic, data-rich environments.",
+ "primary": "stat.ML"
+}

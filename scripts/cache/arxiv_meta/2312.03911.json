@@ -1,0 +1,20 @@
+{
+ "id": "2312.03911",
+ "title": "Improving Gradient-guided Nested Sampling for Posterior Inference",
+ "authors": [
+  "Pablo Lemos",
+  "Nikolay Malkin",
+  "Will Handley",
+  "Yoshua Bengio",
+  "Yashar Hezaveh",
+  "Laurence Perreault-Levasseur"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 1,
+ "latest_date": "2023-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures. Code available at https://github.com/Pablo-Lemos/GGNS",
+ "abstract": "We present a performant, general-purpose gradient-guided nested sampling algorithm, ${\\tt GGNS}$, combining the state of the art in differentiable programming, Hamiltonian slice sampling, clustering, mode separation, dynamic nested sampling, and parallelization. This unique combination allows ${\\tt GGNS}$ to scale well with dimensionality and perform competitively on a variety of synthetic and real-world problems. We also show the potential of combining nested sampling with generative flow networks to obtain large amounts of high-quality samples from the posterior distribution. This combination leads to faster mode discovery and more accurate estimates of the partition function.",
+ "primary": "cs.LG"
+}

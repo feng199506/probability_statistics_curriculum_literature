@@ -1,0 +1,18 @@
+{
+ "id": "2411.08352",
+ "title": "Imputation-based randomization tests for randomized experiments with interference",
+ "authors": [
+  "Tingxuan Han",
+  "Ke Zhu",
+  "Hanzhong Liu",
+  "Ke Deng"
+ ],
+ "v1_date": "2024-11-13",
+ "latest_version": 1,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 12 figures",
+ "abstract": "The presence of interference renders classic Fisher randomization tests infeasible due to nuisance unknowns. To address this issue, we propose imputing the nuisance unknowns and computing Fisher randomization p-values multiple times, then averaging them. We term this approach the imputation-based randomization test and provide theoretical results on its asymptotic validity. Our method leverages the merits of randomization and the flexibility of the Bayesian framework: for multiple imputations, we can either employ the empirical distribution of observed outcomes to achieve robustness against model mis-specification or utilize a parametric model to incorporate prior information. Simulation results demonstrate that our method effectively controls the type I error rate and significantly enhances the testing power compared to existing randomization tests for randomized experiments with interference. We apply our method to a two-round randomized experiment with multiple treatments and one-way interference, where existing randomization tests exhibit limited power.",
+ "primary": "stat.ME"
+}

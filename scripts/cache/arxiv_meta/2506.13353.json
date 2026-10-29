@@ -1,0 +1,18 @@
+{
+ "id": "2506.13353",
+ "title": "From Graphical Lasso to Atomic Norms: High-Dimensional Pattern Recovery",
+ "authors": [
+  "Piotr Graczyk",
+  "Bartosz Kołodziejek",
+  "Hideto Nakashima",
+  "Maciej Wilczyński"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 3,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 2 figures",
+ "abstract": "We study high-dimensional precision-matrix estimation with polyhedral atomic-norm penalties on the off-diagonal entries. This framework covers the graphical lasso, $\\ell_\\infty$-type penalties, SLOPE/OWL penalties, and penalties motivated by colored graphical models. We define the target pattern through the subdifferential face of the dual ball and derive sufficient conditions for exact pattern recovery from the sample covariance matrix. Our analysis introduces two geometric thresholds, a generalized irrepresentability condition, and extends the primal-dual witness method beyond the $\\ell_1$ setting. For the graphical lasso, our results yield weaker covariance-deviation requirements and a less restrictive irrepresentability condition than existing theory, leading to sharper asymptotic guarantees. Numerical experiments for several graph topologies show that the resulting bounds are often close to the empirical recovery threshold.",
+ "primary": "math.ST"
+}

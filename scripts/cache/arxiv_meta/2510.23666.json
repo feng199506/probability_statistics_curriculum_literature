@@ -1,0 +1,20 @@
+{
+ "id": "2510.23666",
+ "title": "Beyond Normality: Reliable A/B Testing with Non-Gaussian Data",
+ "authors": [
+  "Junpeng Gong",
+  "Chunkai Wang",
+  "Hao Li",
+  "Jinyong Ma",
+  "Haoxuan Li",
+  "Xu He"
+ ],
+ "v1_date": "2025-10-26",
+ "latest_version": 1,
+ "latest_date": "2025-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 3 figures",
+ "abstract": "A/B testing has become the cornerstone of decision-making in online markets, guiding how platforms launch new features, optimize pricing strategies, and improve user experience. In practice, we typically employ the pairwise $t$-test to compare outcomes between the treatment and control groups, thereby assessing the effectiveness of a given strategy. To be trustworthy, these experiments must keep Type I error (i.e., false positive rate) under control; otherwise, we may launch harmful strategies. However, in real-world applications, we find that A/B testing often fails to deliver reliable results. When the data distribution departs from normality or when the treatment and control groups differ in sample size, the commonly used pairwise $t$-test is no longer trustworthy. In this paper, we quantify how skewed, long tailed data and unequal allocation distort error rates and derive explicit formulas for the minimum sample size required for the $t$-test to remain valid. We find that many online feedback metrics require hundreds of millions samples to ensure reliable A/B testing. Thus we introduce an Edgeworth-based correction that provides more accurate $p$-values when the available sample size is limited. Offline experiments on a leading A/B testing platform corroborate the practical value of our theoretical minimum sample size thresholds and demonstrate that the corrected method substantially improves the reliability of A/B testing in real-world conditions.",
+ "primary": "stat.ML"
+}

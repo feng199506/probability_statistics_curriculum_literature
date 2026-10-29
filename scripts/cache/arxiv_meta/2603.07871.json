@@ -1,0 +1,15 @@
+{
+ "id": "2603.07871",
+ "title": "Effective and flexible depth-based inference for functional parameters",
+ "authors": [
+  "Hyemin Yeon"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 1,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For hypothesis testing of functional parameters, given a functional statistic $T_n$ and a functional depth $D$ with respect to the distribution $P_n$ of $T_n$, we propose the depth value $DT_n \\equiv D(T_n;P_n)$ as a test statistic, which we refer to as a depth statistic. In practice, its sampling distribution is approximated by a resampling method such as bootstrap. While achieving accurate sizes, a test based on the proposed depth statistic produces stronger power, as it remains sensitive even to subtle variations arising from complex functional patterns in the alternatives. Moreover, it is broadly applicable to a broad range of inference problems for functional parameters, including two-sample tests, analysis of variance, regression, etc. We provide its theoretical guarantee under mild assumptions along with examples of bootstrap methods and functional depths that satisfy these conditions. Its effectiveness is thoroughly investigated through numerical studies under two popular frameworks: (i) two-sample functional mean tests and (ii) mean response inference for function-on-function regression. The proposed depth statistic is illustrated with two data examples: Canadian weather and German electricity prices datasets.",
+ "primary": "stat.ME"
+}

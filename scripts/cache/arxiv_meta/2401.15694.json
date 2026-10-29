@@ -1,0 +1,17 @@
+{
+ "id": "2401.15694",
+ "title": "Constrained Markov decision processes for response-adaptive procedures in clinical trials with binary outcomes",
+ "authors": [
+  "Stef Baas",
+  "Aleida Braaksma",
+  "Richard J. Boucherie"
+ ],
+ "v1_date": "2024-01-28",
+ "latest_version": 1,
+ "latest_date": "2024-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 18 figures",
+ "abstract": "A constrained Markov decision process (CMDP) approach is developed for response-adaptive procedures in clinical trials with binary outcomes. The resulting CMDP class of Bayesian response -- adaptive procedures can be used to target a certain objective, e.g., patient benefit or power while using constraints to keep other operating characteristics under control. In the CMDP approach, the constraints can be formulated under different priors, which can induce a certain behaviour of the policy under a given statistical hypothesis, or given that the parameters lie in a specific part of the parameter space. A solution method is developed to find the optimal policy, as well as a more efficient method, based on backward recursion, which often yields a near-optimal solution with an available optimality gap. Three applications are considered, involving type I error and power constraints, constraints on the mean squared error, and a constraint on prior robustness. While the CMDP approach slightly outperforms the constrained randomized dynamic programming (CRDP) procedure known from literature when focussing on type I and II error and mean squared error, showing the general quality of CRDP, CMDP significantly outperforms CRDP when the focus is on type I and II error only.",
+ "primary": "stat.ME"
+}

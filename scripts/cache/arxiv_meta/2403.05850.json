@@ -1,0 +1,18 @@
+{
+ "id": "2403.05850",
+ "title": "Estimating Causal Effects of Discrete and Continuous Treatments with Binary Instruments",
+ "authors": [
+  "Victor Chernozhukov",
+  "Iván Fernández-Val",
+  "Sukjin Han",
+  "Kaspar Wüthrich"
+ ],
+ "v1_date": "2024-03-09",
+ "latest_version": 3,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "66 pages, 4 figures, includes supplemental appendix, major revision with respect to previous version",
+ "abstract": "We propose an instrumental variable framework for identifying and estimating causal effects of discrete and continuous treatments with binary instruments. The basis of our approach is a local copula representation of the joint distribution of the potential outcomes and unobservables determining treatment assignment. This representation allows us to introduce an identifying assumption, so-called constant local dependence, that restricts the local dependence of the copula with respect to the treatment propensity. We show that constant local dependence identifies treatment effects for the entire population and other subpopulations such as the treated. The identification results are constructive and lead to practical estimation and inference procedures based on distribution regression. An application to estimating the effect of sleep on well-being uncovers interesting patterns of heterogeneity.",
+ "primary": "econ.EM"
+}

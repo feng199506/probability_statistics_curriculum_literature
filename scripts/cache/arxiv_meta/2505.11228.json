@@ -1,0 +1,19 @@
+{
+ "id": "2505.11228",
+ "title": "Learning hidden cascades via classification",
+ "authors": [
+  "Derrick Gilchrist Edward Manoharan",
+  "Anubha Goel",
+  "Alexandros Iosifidis",
+  "Henri Hansen",
+  "Juho Kanniainen"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 4,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The spreading dynamics in social networks are often studied under the assumption that individuals' statuses, whether informed or infected, are fully observable. However, in many real-world situations, such statuses remain unobservable, which is crucial for determining an individual's potential to further spread the infection. While final statuses are hidden, intermediate indicators such as symptoms of infection are observable and provide useful representations of the underlying diffusion process. We propose a partial observability-aware Machine Learning framework to learn the characteristics of the spreading model. We term the method Distribution Classification, which utilizes the power of classifiers to infer the underlying transmission dynamics. Through extensive benchmarking against Approximate Bayesian Computation and GNN-based baselines, our framework consistently outperforms these state-of-the-art methods, delivering accurate parameter estimates across diverse diffusion settings while scaling efficiently to large networks. We validate the method on synthetic networks and extend the study to a real-world insider trading network, demonstrating its effectiveness in analyzing spreading phenomena where direct observation of individual statuses is not possible.",
+ "primary": "cs.SI"
+}

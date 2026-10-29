@@ -1,0 +1,17 @@
+{
+ "id": "2312.09860",
+ "title": "Automatic Rao-Blackwellization for Sequential Monte Carlo with Belief Propagation",
+ "authors": [
+  "Waïss Azizian",
+  "Guillaume Baudart",
+  "Marc Lelarge"
+ ],
+ "v1_date": "2023-12-15",
+ "latest_version": 1,
+ "latest_date": "2023-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Exact Bayesian inference on state-space models~(SSM) is in general untractable, and unfortunately, basic Sequential Monte Carlo~(SMC) methods do not yield correct approximations for complex models. In this paper, we propose a mixed inference algorithm that computes closed-form solutions using belief propagation as much as possible, and falls back to sampling-based SMC methods when exact computations fail. This algorithm thus implements automatic Rao-Blackwellization and is even exact for Gaussian tree models.",
+ "primary": "cs.LG"
+}

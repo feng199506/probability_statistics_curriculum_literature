@@ -1,0 +1,17 @@
+{
+ "id": "2606.03230",
+ "title": "Predictively-Oriented Kalman Filtering",
+ "authors": [
+  "Zheyang Shen",
+  "Gerardo Duran-Martin",
+  "Chris. J. Oates"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a post-Bayesian approach to online filtering in nonlinear state-space models, capable of avoiding over-confident inferences in settings where either the dynamical model, the measurement model, or both, could be misspecified. This is addressed using predictively oriented (PrO) posteriors, an emerging paradigm in which learning (i.e., posterior concentration) occurs if and only if the overall model is well-specified, without strict adherence to Bayes' theorem. As the characterisation of PrO posteriors is challenging, our main technical contribution is a fast approximate linear-Gaussian update procedure, analogous to an (iterated) extended Kalman filter. The methodology, which we call EKF-PrO, has no tunable hyper-parameters and has a computational cost comparable to that of existing filtering methods. Performance is empirically assessed on a range of linear and non-linear applications, in which the state-space model is systematically misspecified.",
+ "primary": "stat.ME"
+}

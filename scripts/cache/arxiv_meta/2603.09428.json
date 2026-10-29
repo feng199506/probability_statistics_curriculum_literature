@@ -1,0 +1,17 @@
+{
+ "id": "2603.09428",
+ "title": "Bayesian Species Distribution Models using Hierarchical Decomposition Priors",
+ "authors": [
+  "Luisa Ferrari",
+  "Massimo Ventrucci",
+  "Alex Laini"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 1,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 8 figures",
+ "abstract": "Understanding the relative contributions of environmental, spatial, and temporal processes in shaping species distribution is a central objective in ecology. Bayesian species distribution models (SDMs) offer a flexible framework for this task, yet prior specification for variance components remains challenging. To address this issue, we adapt the Hierarchical Decomposition (HD) prior framework to latent Gaussian SDMs, enabling direct and transparent prior control over variance partitioning. The HD approach reparametrizes variances into a total variance and a set of interpretable proportions, structured through a decomposition tree that reflects both model architecture and ecologically meaningful groupings of effects. We discuss a principled approach for a default tree design tailored to SDMs and a practical workflow for the step-by-step implementation of the method. The framework is illustrated using presence--absence data for 39 demersal fish species from the NOAA Northeast Fisheries Science Center fall bottom trawl survey. Results demonstrate predictive performance comparable to established priors, while providing substantially improved interpretability and transparency in variance attribution and prior sensitivity analysis.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.20621",
+ "title": "Changepoint Detection in Categorical Time Series with Application to Daily Total Cloud Cover in Canada",
+ "authors": [
+  "Mo Li",
+  "QiQi Lu",
+  "XiaoLan Wang"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 16 figures, 5 tables; includes supplementary material; R/Rcpp code available in the linked GitHub repository",
+ "abstract": "Changepoints are essential for homogenizing categorical time series and analyzing their trends and variations. The original total cloud cover in Canada was recorded hourly in tenths (or eighths), exhibiting inherent seasonality and serial correlation. Lu and Wang (2012) introduced an extended cumulative logit model to detect shifts in the annual frequencies of cloud cover conditions. While annual aggregation mitigates seasonality and serial correlation, it shortens the time series and may lead to overdispersion. This article introduces a marginalized transition model to detect a single changepoint in periodic and serially correlated categorical time series. The model captures serial dependence using a first-order Markov chain and enables category-specific changepoint specification. To enhance computational efficiency, we develop a new parameter estimation procedure for obtaining maximum likelihood estimates. A maximally selected likelihood ratio test statistic is then proposed to test for sudden changes in categorical time series, and the method is illustrated using daily total cloud cover observations recorded at 9 a.m. and 3 p.m. at Fort St. John Airport, British Columbia, Canada.",
+ "primary": "stat.ME"
+}

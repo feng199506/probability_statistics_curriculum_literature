@@ -1,0 +1,16 @@
+{
+ "id": "2604.21407",
+ "title": "Even More Guarantees for Variational Inference in the Presence of Symmetries",
+ "authors": [
+  "Lena Zellinger",
+  "Antonio Vergari"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 2,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When approximating an intractable density via variational inference (VI) the variational family is typically chosen as a simple parametric family that very likely does not contain the target. This raises the question: Under which conditions can we recover characteristics of the target despite misspecification? In this work, we extend previous theoretical results on robust VI with location-scale families under target symmetries in two substantial ways: (1) We open them up to a wider range of divergences by providing sufficient conditions for exact recovery of the target mean and correlation matrix when using the forward Kullback-Leibler divergence and $α$-divergences. (2) By doing so, we find that we can drop the restrictive assumption of a log-concave target made in previous work, allowing us to give guarantees for a wider range of targets, including multi-modal ones. In our experiments, we show how our guarantees can serve as guidelines for the choice of the variational family and $α$-value and we illustrate on a diverse set of examples how and why optimization can fail in the absence of our sufficient conditions.",
+ "primary": "cs.LG"
+}

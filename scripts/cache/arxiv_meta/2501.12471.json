@@ -1,0 +1,16 @@
+{
+ "id": "2501.12471",
+ "title": "Outcome-Assisted Multiple Imputation of Missing Treatments",
+ "authors": [
+  "Joseph Feldman",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2025-01-21",
+ "latest_version": 1,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We provide guidance on multiple imputation of missing at random treatments in observational studies. Specifically, analysts should account for both covariates and outcomes, i.e., not just use propensity scores, when imputing the missing treatments. To do so, we develop outcome-assisted multiple imputation of missing treatments: the analyst fits a regression for the outcome on the treatment indicator and covariates, which is used to sharpen the predictive probabilities for missing treatments under an estimated propensity score model. We derive an expression for the bias of the inverse probability weighted estimator for the average treatment effect under multiple imputation of missing treatments, and we show theoretically that this bias can be made small by using outcome-assisted multiple imputation. Simulations demonstrate empirically that outcome-assisted multiple imputation can offer better inferential properties than using the treatment assignment model alone. We illustrate the procedure in an analysis of data from the National Longitudinal Survey of Youth.",
+ "primary": "stat.ME"
+}

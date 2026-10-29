@@ -1,0 +1,16 @@
+{
+ "id": "2402.05789",
+ "title": "High Dimensional Factor Analysis with Weak Factors",
+ "authors": [
+  "Jungjun Choi",
+  "Ming Yuan"
+ ],
+ "v1_date": "2024-02-08",
+ "latest_version": 1,
+ "latest_date": "2024-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the principal components (PC) estimator for high dimensional approximate factor models with weak factors in that the factor loading ($\\boldsymbolΛ^0$) scales sublinearly in the number $N$ of cross-section units, i.e., $\\boldsymbolΛ^{0\\top} \\boldsymbolΛ^0 / N^α$ is positive definite in the limit for some $α\\in (0,1)$. While the consistency and asymptotic normality of these estimates are by now well known when the factors are strong, i.e., $α=1$, the statistical properties for weak factors remain less explored. Here, we show that the PC estimator maintains consistency and asymptotical normality for any $α\\in(0,1)$, provided suitable conditions regarding the dependence structure in the noise are met. This complements earlier result by Onatski (2012) that the PC estimator is inconsistent when $α=0$, and the more recent work by Bai and Ng (2023) who established the asymptotic normality of the PC estimator when $α\\in (1/2,1)$. Our proof strategy integrates the traditional eigendecomposition-based approach for factor models with leave-one-out analysis similar in spirit to those used in matrix completion and other settings. This combination allows us to deal with factors weaker than the former and at the same time relax the incoherence and independence assumptions often associated with the later.",
+ "primary": "econ.EM"
+}

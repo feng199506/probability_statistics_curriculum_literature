@@ -1,0 +1,18 @@
+{
+ "id": "2405.13591",
+ "title": "Practical limitations for real-life application of data fission and data thinning in post-clustering differential analysis",
+ "authors": [
+  "Benjamin Hivert",
+  "Denis Agniel",
+  "Rodolphe Thiébaut",
+  "Boris P. Hejblum"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 4,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-clustering inference in single-cell RNA sequencing (scRNA-seq) analysis presents significant challenges in controlling Type I error during differential expression analysis. Data fission, a promising approach that aims to split data into two independent parts, relies on strong parametric assumptions of non-mixture distributions that are inherently violated in clustered data. To address this limitation, we introduce conditional data fission, an extension designed to decompose each mixture component into two independent parts. However, we demonstrate that applying such conditional data fission to mixture distributions requires prior knowledge of the clustering structure to ensure valid post-clustering inference. This arises from the need to accurately estimate component-specific scale parameters, which are critical for performing decomposition while maintaining independence. We theoretically quantify how biases in estimating these parameters lead to inflated Type I error rates due to deviations from independence. Given that mixture components are typically unknown in practice, our results underscore the fundamental difficulty of applying data fission in real-world settings, despite its prior proposal as a solution for post-clustering inference.",
+ "primary": "stat.ME"
+}

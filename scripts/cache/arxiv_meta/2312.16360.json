@@ -1,0 +1,16 @@
+{
+ "id": "2312.16360",
+ "title": "Mean-field underdamped Langevin dynamics and its spacetime discretization",
+ "authors": [
+  "Qiang Fu",
+  "Ashia Wilson"
+ ],
+ "v1_date": "2023-12-26",
+ "latest_version": 5,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 5 figures, 2 tables",
+ "abstract": "We propose a new method called the N-particle underdamped Langevin algorithm for optimizing a special class of non-linear functionals defined over the space of probability measures. Examples of problems with this formulation include training mean-field neural networks, maximum mean discrepancy minimization and kernel Stein discrepancy minimization. Our algorithm is based on a novel spacetime discretization of the mean-field underdamped Langevin dynamics, for which we provide a new, fast mixing guarantee. In addition, we demonstrate that our algorithm converges globally in total variation distance, bridging the theoretical gap between the dynamics and its practical implementation.",
+ "primary": "stat.CO"
+}

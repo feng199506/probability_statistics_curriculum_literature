@@ -1,0 +1,17 @@
+{
+ "id": "2412.04918",
+ "title": "On one dimensional weighted Poincare inequalities for Global Sensitivity Analysis",
+ "authors": [
+  "David Heredia",
+  "Aldéric Joulin",
+  "Olivier Roustant"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 1,
+ "latest_date": "2024-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "One-dimensional Poincare inequalities are used in Global Sensitivity Analysis (GSA) to provide derivative-based upper bounds and approximations of Sobol indices. We add new perspectives by investigating weighted Poincare inequalities. Our contributions are twofold. In a first part, we provide new theoretical results for weighted Poincare inequalities, guided by GSA needs. We revisit the construction of weights from monotonic functions, providing a new proof from a spectral point of view. In this approach, given a monotonic function g, the weight is built such that g is the first non-trivial eigenfunction of a convenient diffusion operator. This allows us to reconsider the linear standard, i.e. the weight associated to a linear g. In particular, we construct weights that guarantee the existence of an orthonormal basis of eigenfunctions, leading to approximation of Sobol indices with Parseval formulas. In a second part, we develop specific methods for GSA. We study the equality case of the upper bound of a total Sobol index, and link the sharpness of the inequality to the proximity of the main effect to the eigenfunction. This leads us to theoretically investigate the construction of data-driven weights from estimators of the main effects when they are monotonic, another extension of the linear standard. Finally, we illustrate the benefits of using weights on a GSA study of two toy models and a real flooding application, involving the Poincare constant and/or the whole eigenbasis.",
+ "primary": "math.PR"
+}

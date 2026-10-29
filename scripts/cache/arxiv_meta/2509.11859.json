@@ -1,0 +1,19 @@
+{
+ "id": "2509.11859",
+ "title": "Statistical Model Checking Beyond Means: Quantiles, CVaR, and the DKW Inequality (extended version)",
+ "authors": [
+  "Carlos E. Budde",
+  "Arnd Hartmanns",
+  "Tobias Meggendorfer",
+  "Maximilian Weininger",
+  "Patrick Wienhöft"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 1,
+ "latest_date": "2025-09-15",
+ "journal_ref": "",
+ "doi": "10.1007/978-3-032-05792-1_5",
+ "comment": "Extended version of the article \"Statistical Model Checking Beyond Means: Quantiles, CVaR, and the DKW Inequality\" presented/published at the 2nd International Joint Conference on Quantitative Evaluation of Systems and Formal Modeling and Analysis of Timed Systems (QEST+FORMATS 2025), 26-28 August 2025, Aarhus, Denmark (https://www.qest.org/qest-formats-2025/)",
+ "abstract": "Statistical model checking (SMC) randomly samples probabilistic models to approximate quantities of interest with statistical error guarantees. It is traditionally used to estimate probabilities and expected rewards, i.e. means of different random variables on paths. In this paper, we develop methods using the Dvoretzky-Kiefer-Wolfowitz-Massart inequality (DKW) to extend SMC beyond means to compute quantities such as quantiles, conditional value-at-risk, and entropic risk. The DKW provides confidence bounds on the random variable's entire cumulative distribution function, a much more versatile guarantee compared to the statistical methods prevalent in SMC today. We have implemented support for computing new quantities via the DKW in the 'modes' simulator of the Modest Toolset. We highlight the implementation and its versatility on benchmarks from the quantitative verification literature.",
+ "primary": "stat.ME"
+}

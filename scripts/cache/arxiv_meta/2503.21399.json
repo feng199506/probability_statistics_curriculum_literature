@@ -1,0 +1,15 @@
+{
+ "id": "2503.21399",
+ "title": "Transition probabilities for stochastic differential equations using the Laplace approximation: Analysis of the continuous-time limit",
+ "authors": [
+  "Uffe Høgsbro Thygesen"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 2,
+ "latest_date": "2025-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 2 figures. New version has updated bibliography to include reference to companion paper on arXiv",
+ "abstract": "We recently proposed a method for estimation of states and parameters in stochastic differential equations, which included intermediate time points between observations and used the Laplace approximation to integrate out these intermediate states. In this paper, we establish a Laplace approximation for the transition probabilities in the continuous-time limit where the computational time step between intermediate states vanishes. Our technique views the driving Brownian motion as a control, casts the problem as one of minimum effort control between two states, and employs a Girsanov shift of probability measure as well as a weak noise approximation to obtain the Laplace approximation. We demonstrate the technique with examples; one where the approximation is exact due to a property of coordinate transforms, and one where contributions from non-near paths impair the approximation. We assess the order of discrete-time scheme, and demonstrate the Strang splitting leads to higher order and accuracy than Euler-type discretization. Finally, we investigate numerically how the accuracy of the approximation depends on the noise intensity and the length of the time interval.",
+ "primary": "math.PR"
+}

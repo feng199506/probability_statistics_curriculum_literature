@@ -1,0 +1,16 @@
+{
+ "id": "2502.16874",
+ "title": "A dynamic copula model for probabilistic forecasting of non-Gaussian multivariate time series",
+ "authors": [
+  "John Zito",
+  "Daniel R. Kowal"
+ ],
+ "v1_date": "2025-02-24",
+ "latest_version": 1,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 10 figures, 4 tables",
+ "abstract": "Multivariate time series (MTS) data often include a heterogeneous mix of non-Gaussian distributional features (asymmetry, multimodality, heavy tails) and data types (continuous and discrete variables). Traditional MTS methods based on convenient parametric distributions are typically ill-equipped to model this heterogeneity. Copula models provide an appealing alternative, but present significant obstacles for fully Bayesian inference and probabilistic forecasting. To overcome these challenges, we propose a novel and general strategy for posterior approximation in MTS copula models and apply it to a Gaussian copula built from a dynamic factor model. This framework provides scalable, fully Bayesian inference for cross-sectional and serial dependencies and nonparametrically learns heterogeneous marginal distributions. We validate this approach by establishing posterior consistency and confirm excellent finite-sample performance even under model misspecification using simulated data. We apply our method to crime count and macroeconomic MTS data and find superior probabilistic forecasting performance compared to popular MTS models. These results demonstrate that the proposed method is a versatile, general-purpose utility for probabilistic forecasting of MTS that works well across of range of applications with minimal user input.",
+ "primary": "stat.ME"
+}

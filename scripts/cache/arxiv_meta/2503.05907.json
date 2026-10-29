@@ -1,0 +1,18 @@
+{
+ "id": "2503.05907",
+ "title": "Real-time Bus Travel Time Prediction and Reliability Quantification: A Hybrid Markov Model",
+ "authors": [
+  "Yuran Sun",
+  "James Spall",
+  "Wai Wong",
+  "Xilei Zhao"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate and reliable bus travel time prediction in real-time is essential for improving the operational efficiency of public transportation systems. However, this remains a challenging task due to the limitations of existing models and data sources. This study proposed a hybrid Markovian framework for real-time bus travel time prediction, incorporating uncertainty quantification. Firstly, the bus link travel time distributions were modeled by integrating various influential factors while explicitly accounting for heteroscedasticity. Particularly, the parameters of the distributions were estimated using Maximum Likelihood Estimation, and the Fisher Information Matrix was then employed to calculate the 95\\% uncertainty bounds for the estimated parameters, ensuring a robust and reliable quantification of prediction uncertainty of bus link travel times. Secondly, a Markovian framework with transition probabilities based on previously predicted bus link travel times was developed to predict travel times and their uncertainties from a current location to any future stop along the route. The framework was evaluated using the General Transit Feed Specification (GTFS) Static and Realtime data collected in 2023 from Gainesville, Florida. The results showed that the proposed model consistently achieved better prediction performance compared to the selected baseline approaches (including historical mean, statistical and AI-based models) while providing narrower uncertainty bounds. The model also demonstrated high interpretability, as the estimated coefficients provided insights into how different factors influencing bus travel times across links with varying characteristics. These findings suggest that the model could serve as a valuable tool for transit system performance evaluation and real-time trip planning.",
+ "primary": "stat.AP"
+}

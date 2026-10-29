@@ -1,0 +1,17 @@
+{
+ "id": "2507.15416",
+ "title": "Sufficiency-principled Transfer Learning via Model Averaging",
+ "authors": [
+  "Xiyuan Zhang",
+  "Huihang Liu",
+  "Xinyu Zhang"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages",
+ "abstract": "When the transferable set is unknowable, transfering informative knowledge as much as possible\\textemdash a principle we refer to as \\emph{sufficiency}, becomes crucial for enhancing transfer learning effectiveness. However, existing transfer learning methods not only overlook the sufficiency principle, but also rely on restrictive single-similarity assumptions (\\eg individual or combinatorial similarity), leading to suboptimal performance. To address these limitations, we propose a sufficiency-principled transfer learning framework via unified model averaging algorithms, accommodating both individual and combinatorial similarities. Theoretically, we establish the asymptotic/high-probability optimality, enhanced convergence rate and asymptotic normality for multi-source linear regression models with a diverging number of parameters, achieving sufficiency, robustness to negative transfer, privacy protection and feasible statistical inference. Extensive simulations and an empirical data analysis of Beijing housing rental data demonstrate the promising superiority of our framework over conventional alternatives.",
+ "primary": "stat.ME"
+}

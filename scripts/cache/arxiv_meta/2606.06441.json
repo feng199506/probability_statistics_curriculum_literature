@@ -1,0 +1,17 @@
+{
+ "id": "2606.06441",
+ "title": "Leveraging External Controls for Treatment Switching in Randomized Controlled Trials: A Weighted Causal Inference Framework for Overall Survival",
+ "authors": [
+  "Andy A. Shen",
+  "Chenqi Fu",
+  "Ray Lin"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many oncology clinical trials where overall survival is a key endpoint, patients are permitted to switch from the control arm to the experimental treatment arm or other suitable therapies. Switching can occur for various reasons, including disease progression. This violates the causal guarantees of randomized treatment assignment, resulting in biased treatment effect estimates. Existing methods often require strong assumptions, complicated model specifications, or both. In this paper, we propose a general framework that incorporates external controls to account for treatment switching in randomized controlled trials. Leveraging the synthetic control method and balancing weights from observational causal inference, we propose several estimators that use multiple imputation and time-varying weights to adjust for treatment switching. We also discuss approaches to selecting the risk set of external controls to impute from. Through extensive simulation studies, we show that our proposed methods lead to meaningful statistical improvements relative to standard adjustment methods that utilize external controls in naive ways or those that do not utilize external controls at all. We then demonstrate the utility of our external control-based approaches with two phase III oncology trials.",
+ "primary": "stat.ME"
+}

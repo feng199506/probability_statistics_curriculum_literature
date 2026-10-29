@@ -1,0 +1,17 @@
+{
+ "id": "2604.11300",
+ "title": "Detection and Mode-Identification of Multiple Change Points in Tensor Factor Models",
+ "authors": [
+  "Yuqi Zhang",
+  "Zetai Cen",
+  "Haeran Cho"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "173 pages",
+ "abstract": "We study the problem of modeling high-dimensional tensor-valued time series under a Tucker decomposition-based factor model while permitting the presence of multiple structural change points. Such data call for a method that (i) handles high dimensionality and complex dependence while achieving consistency in multiple change points and further, (ii) addresses a unique challenge posed by the multi-dimensional array setting, of identifying the modes associated with each change while the shifts in different modes interact with one another. To this end, we propose a change point detection procedure utilizing the low-rank structure of the data for statistical and computational efficiency. In addition, we formalize the $\\textit{mode-identifiability}$ of each change and propose an algorithm for detecting the modes at which the data undergo a mode-identifiable shift. We establish the consistency of both change point detection and mode-identification methods under a weak moment condition, and demonstrate their good performance on simulated datasets where, in particular, it is shown that the mode-identification step can improve the post-segmentation estimation of the mode-wise loading space. We also analyze the datasets on New York City taxi usage and Fama--French portfolio returns using the proposed suite of methods.",
+ "primary": "math.ST"
+}

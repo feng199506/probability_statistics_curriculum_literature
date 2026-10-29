@@ -1,0 +1,18 @@
+{
+ "id": "2411.08141",
+ "title": "Probably approximately correct high-dimensional causal effect estimation given a valid adjustment set",
+ "authors": [
+  "Davin Choo",
+  "Chandler Squires",
+  "Arnab Bhattacharyya",
+  "David Sontag"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 1,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate estimates of causal effects play a key role in decision-making across applications such as healthcare, economics, and operations. In the absence of randomized experiments, a common approach to estimating causal effects uses \\textit{covariate adjustment}. In this paper, we study covariate adjustment for discrete distributions from the PAC learning perspective, assuming knowledge of a valid adjustment set $\\bZ$, which might be high-dimensional. Our first main result PAC-bounds the estimation error of covariate adjustment by a term that is exponential in the size of the adjustment set; it is known that such a dependency is unavoidable even if one only aims to minimize the mean squared error. Motivated by this result, we introduce the notion of an \\emph{$\\eps$-Markov blanket}, give bounds on the misspecification error of using such a set for covariate adjustment, and provide an algorithm for $\\eps$-Markov blanket discovery; our second main result upper bounds the sample complexity of this algorithm. Furthermore, we provide a misspecification error bound and a constraint-based algorithm that allow us to go beyond $\\eps$-Markov blankets to even smaller adjustment sets. Our third main result upper bounds the sample complexity of this algorithm, and our final result combines the first three into an overall PAC bound. Altogether, our results highlight that one does not need to perfectly recover causal structure in order to ensure accurate estimates of causal effects.",
+ "primary": "math.ST"
+}

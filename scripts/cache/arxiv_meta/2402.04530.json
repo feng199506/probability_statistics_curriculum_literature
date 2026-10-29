@@ -1,0 +1,15 @@
+{
+ "id": "2402.04530",
+ "title": "To ignore dependencies is perhaps not a sin",
+ "authors": [
+  "Douglas P. Wiens"
+ ],
+ "v1_date": "2024-02-07",
+ "latest_version": 13,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a result according to which certain functions of covariance matrices are maximized at scalar multiples of the identity matrix. In a statistical context in which such functions measure loss, this says that the least favourable form of dependence is in fact independence, so that a procedure optimal for i.i.d.\\ data can be minimax. In particular, the ordinary least squares (\\textsc{ols}) estimate of a correctly specified regression response is minimax among generalized least squares (\\textsc{gls}) estimates, when the maximum is taken over certain classes of error covariance structures and the loss function possesses a natural monotonicity property. An implication is that it can be not only safe, but optimal to ignore such departures from the usual assumption of i.i.d.\\ errors. We then consider regression models in which the response function is possibly misspecified, and show that \\textsc{ols} is minimax if the design is uniform on its support, but that this often fails otherwise. We go on to investigate the interplay between minimax \\textsc{gls} procedures and minimax designs, leading us to extend, to robustness against dependencies, an existing observation -- that robustness against model misspecifications is increased by splitting replicates into clusters of observations at nearby locations.",
+ "primary": "math.ST"
+}

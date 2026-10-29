@@ -1,0 +1,18 @@
+{
+ "id": "2506.03086",
+ "title": "Synergy-Informed Design of Platform Trials for Combination Therapies",
+ "authors": [
+  "Nan Miles Xi",
+  "Man Mandy Jin",
+  "Lin Wang",
+  "Xin Huang"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 1,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Combination drug therapies hold significant promise for enhancing treatment efficacy, particularly in fields such as oncology, immunotherapy, and infectious diseases. However, designing clinical trials for these regimens poses unique statistical challenges due to multiple hypothesis testing, shared control groups, and overlapping treatment components that induce complex correlation structures. In this paper, we develop a novel statistical framework tailored for early-phase translational combination therapy trials, with a focus on platform trial designs. Our methodology introduces a generalized Dunnett's procedure that controls false positive rates by accounting for the correlations between treatment arms. Additionally, we propose strategies for power analysis and sample size optimization that leverage preclinical data to estimate effect sizes, synergy parameters, and inter-arm correlations. Simulation studies demonstrate that our approach not only controls various false positive metrics under diverse trial scenarios but also informs optimal allocation ratios to maximize power. A real-data application further illustrates the integration of translational preclinical insights into the clinical trial design process. An open-source R package is provided to support the application of our methods in practice. Overall, our framework offers statistically rigorous guidance for the design of early-phase combination therapy trials, aiming to enhance the efficiency of the bench-to-bedside transition.",
+ "primary": "stat.ME"
+}

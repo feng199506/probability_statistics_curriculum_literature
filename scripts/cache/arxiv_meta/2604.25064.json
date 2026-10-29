@@ -1,0 +1,20 @@
+{
+ "id": "2604.25064",
+ "title": "Evolving Longitudinal Patient Histories and Re-enrollment in Master Protocol Trials",
+ "authors": [
+  "Shiyu Wan",
+  "Yuhan Qian",
+  "Yanyao Yi",
+  "Nicole Mayer-Hamblett",
+  "Patrick J. Heagerty",
+  "Ting Ye"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A master protocol trial uses a single overarching protocol to test multiple therapies, often across several diseases or subtypes. Although such trials offer considerable flexibility and efficiency, their constrained and non-uniform treatment assignment raises two core challenges: precisely defining treatment effects and conducting robust, efficient inference. These challenges intensify when participants can re-enroll to receive additional eligible therapies over time. To address these issues, we first define a clinically meaningful estimand with a clear population specification for master protocol trials that allow re-enrollment across multiple episodes. Specifically, we define the episode-specific entire concurrently eligible (ECE) population, which preserves the integrity of randomized comparisons and remains invariant to randomization ratios and operational formats. We then introduce a per-episode added-effect estimand that aggregates episode-specific effects into an interpretable overall measure. For inference, we develop weighting and post-stratification estimators under the same minimal assumptions as conventional randomized trials, with model-assisted covariate adjustment to improve efficiency. We establish asymptotic distributions for all estimators and provide cluster-robust variance estimators that properly account for within-participant correlation induced by re-enrollment. We evaluate our methods through extensive simulations and apply our methods to SIMPLIFY, a master protocol trial comparing continuation versus discontinuation of two common cystic fibrosis therapies. All analyses are conducted using the \\textsf{R} package \\textsf{RobinCID}.",
+ "primary": "stat.ME"
+}

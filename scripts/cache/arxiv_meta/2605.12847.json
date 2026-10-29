@@ -1,0 +1,15 @@
+{
+ "id": "2605.12847",
+ "title": "Never Too LATE: A Fully Stochastic Update to the Potential Outcome Framework",
+ "authors": [
+  "Hanti Lin"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the classic potential outcome framework, the local average treatment effect (LATE) and its identification via an instrumental variable are stated in a deterministic setting at the individual level: each individual has settled potential outcomes such as ``cured if treated''. Several authors have proposed working instead with \\emph{stochastic} potential outcomes -- counterfactual probabilities of the form ``the chance of being cured if treated'' -- but the integration of stochastic potential outcomes with the LATE machinery raises an issue. It is a metaphysical issue: in a stochastic setting, the standard joint-probability definitions of compliers and the LATE assume what I will call the \\emph{unique-parallel-universe view}, which asserts that, in any genuinely possible state of the world, every counterfactual condition settles a unique determinate outcome even when the underlying causal disposition is irreducibly chancy. The statistician Dawid (2000) doubts the plausibility of this view; the philosopher Lewis (1973) develops a reductio argument against it. I propose a fully stochastic update to the Rubin causal model that drops the assumption of the unique-parallel-universe view: stochastic potential outcomes are introduced as Bernoulli parameters in their own (small) probability spaces, and are connected to observables via the factorization rule of a causal Bayes net. Within this framework, I define a Degree-of-compliance-weighted Average Treatment Effect (DATE) and prove that, under assumptions analogous to those used for the LATE but rewritten for the fully stochastic setting, the DATE equals the usual IV estimand. The classic LATE identification result emerges as a deterministic special case. Existing IV practice can therefore be reinterpreted: it has been estimating the DATE all along, in a general stochastic setting, without assuming the unique-parallel-universe view.",
+ "primary": "stat.ME"
+}

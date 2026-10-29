@@ -1,0 +1,16 @@
+{
+ "id": "2302.05955",
+ "title": "Recursive Estimation of Conditional Kernel Mean Embeddings",
+ "authors": [
+  "Ambrus Tamás",
+  "Balázs Csanád Csáji"
+ ],
+ "v1_date": "2023-02-12",
+ "latest_version": 2,
+ "latest_date": "2024-08-30",
+ "journal_ref": "Journal of Machine Learning Research, Volume 25, 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel mean embeddings, a widely used technique in machine learning, map probability distributions to elements of a reproducing kernel Hilbert space (RKHS). For supervised learning problems, where input-output pairs are observed, the conditional distribution of outputs given the inputs is a key object. The input dependent conditional distribution of an output can be encoded with an RKHS valued function, the conditional kernel mean map. In this paper we present a new recursive algorithm to estimate the conditional kernel mean map in a Hilbert space valued $L_2$ space, that is in a Bochner space. We prove the weak and strong $L_2$ consistency of our recursive estimator under mild conditions. The idea is to generalize Stone's theorem for Hilbert space valued regression in a locally compact Polish space. We present new insights about conditional kernel mean embeddings and give strong asymptotic bounds regarding the convergence of the proposed recursive method. Finally, the results are demonstrated on three application domains: for inputs coming from Euclidean spaces, Riemannian manifolds and locally compact subsets of function spaces.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2410.23706",
+ "title": "Complex trend inference for high-dimensional piecewise locally stationary time series",
+ "authors": [
+  "Lujia Bai",
+  "David Veitch",
+  "Weichi Wu",
+  "Wenyang Zhang",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 4,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies high-dimensional trend inference for piecewise smooth signals under nonstationary noise and asynchronous structural breaks by first detecting asynchronous changes without assuming stationarity and then further exploiting latent group structures to estimate trend functions. In the first step, we propose AJDN (Asynchronous Jump Detection under Nonstationary Noise), a multiscale framework for the identification and localization of jumps in high-dimensional time series. We show that AJDN consistently recovers the number of jumps with a prescribed asymptotic probability and achieves nearly optimal localization rates in the presence of asynchronicity and nonstationarity, both of which often violate the assumptions of existing high-dimensional change point methods and thereby deteriorate their performance. In the second step, we augment AJDN with a homogeneity pursuit step and obtain AJDN-H, which identifies latent groups of dimensions that share common jump structures and trend parameters given the detected jumps. This allows for efficient information pooling and improves the accuracy of trend estimation under both asynchronicity and nonstationarity. The robustness and finite-sample performance of the proposed methodology are examined by extensive simulation studies. An application to financial data demonstrates the practical utility of the AJDN-H framework in complex, high-dimensional settings.",
+ "primary": "stat.ME"
+}

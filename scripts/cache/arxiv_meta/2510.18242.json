@@ -1,0 +1,18 @@
+{
+ "id": "2510.18242",
+ "title": "Fast and Efficient Parallel Sampling Using Higher Order Langevin Dynamics",
+ "authors": [
+  "Jaideep Mahajan",
+  "Kaihong Zhang",
+  "Feng Liang",
+  "Jingbo Liu"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 2,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study parallel sampling from high-dimensional strongly log-concave distributions. Langevin-based samplers converge rapidly in continuous time, but their discretizations are typically sequential and often require polynomially many steps in the dimension $d$, the target accuracy $\\varepsilon^{-1}$, or both. Picard-based parallel sampling methods reduce this sequential depth to polylogarithmic scale by solving for many time-discretization points in parallel; however, existing guarantees often require a polynomial number of processors, leading to substantial memory and gradient-evaluation costs in high dimensions. We show that higher-order Langevin structure can reduce this parallel resource burden while preserving polylogarithmic sequential depth. Our method combines arbitrary-order Langevin dynamics with blockwise Lagrange polynomial interpolation. This sharper discretization reduces the number of parallel points required to achieve a target accuracy. Our results cover both higher-order smooth potentials and ridge-separable potentials, including models such as Bayesian logistic regression and two-layer neural networks, and improve upon the space complexity of the current literature on parallel log-concave sampling.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2407.18885",
+ "title": "Simulation Experiment Design for Calibration via Active Learning",
+ "authors": [
+  "Özge Sürer"
+ ],
+ "v1_date": "2024-07-26",
+ "latest_version": 1,
+ "latest_date": "2024-07-26",
+ "journal_ref": "",
+ "doi": "10.1080/00224065.2024.2391780",
+ "comment": "",
+ "abstract": "Simulation models often have parameters as input and return outputs to understand the behavior of complex systems. Calibration is the process of estimating the values of the parameters in a simulation model in light of observed data from the system that is being simulated. When simulation models are expensive, emulators are built with simulation data as a computationally efficient approximation of an expensive model. An emulator then can be used to predict model outputs, instead of repeatedly running an expensive simulation model during the calibration process. Sequential design with an intelligent selection criterion can guide the process of collecting simulation data to build an emulator, making the calibration process more efficient and effective. This article proposes two novel criteria for sequentially acquiring new simulation data in an active learning setting by considering uncertainties on the posterior density of parameters. Analysis of several simulation experiments and real-data simulation experiments from epidemiology demonstrates that proposed approaches result in improved posterior and field predictions.",
+ "primary": "stat.ME"
+}

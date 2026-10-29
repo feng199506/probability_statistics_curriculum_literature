@@ -1,0 +1,16 @@
+{
+ "id": "2509.11070",
+ "title": "A Kernel-based Stochastic Approximation Framework for Nonlinear Operator Learning",
+ "authors": [
+  "Jia-Qi Yang",
+  "Lei Shi"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 4,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 3 figures",
+ "abstract": "We develop a stochastic approximation framework for learning nonlinear operators between infinite-dimensional spaces utilizing general Mercer operator-valued kernels. Our framework encompasses two key classes: (i) operator-valued kernels whose associated integral operators are compact and hence admit discrete spectral decompositions, and (ii) separable kernels of the form $K(x,x')=k(x,x')T$, where $k$ is a scalar-valued kernel and $T$ is a positive operator on the output space. This broad setting induces expressive vector-valued reproducing kernel Hilbert spaces (RKHSs) that generalize the classical $K=kI$ paradigm, thereby enabling rich structural modeling with rigorous theoretical guarantees. To address target operators lying outside the RKHS, we introduce vector-valued interpolation spaces to precisely quantify misspecification error. Within this framework, we establish non-asymptotic convergence rates for prediction, estimation, and misspecification errors in the online and finite-horizon settings. Importantly, the framework also accommodates a range of operator learning settings, from Fredholm integral operators to encoder--decoder architectures. Numerical experiments on the two-dimensional Navier--Stokes equations illustrate the proposed approach.",
+ "primary": "stat.ML"
+}

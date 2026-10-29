@@ -1,0 +1,16 @@
+{
+ "id": "2601.00084",
+ "title": "Exploration in the Limit",
+ "authors": [
+  "Brian M. Cho",
+  "Nathan Kallus"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In fixed-confidence best arm identification (BAI), the objective is to quickly identify the optimal option while controlling the probability of error below a desired threshold. Despite the plethora of BAI algorithms, existing methods typically fall short in practical settings, as stringent exact error control requires using loose tail inequalities and/or parametric restrictions. To overcome these limitations, we introduce a relaxed formulation that requires valid error control asymptotically with respect to a minimum sample size. This aligns with many real-world settings that often involve weak signals, high desired significance, and post-experiment inference requirements, all of which necessitate long horizons. This allows us to achieve tighter optimality, while better handling flexible nonparametric outcome distributions and fully leveraging individual-level contexts. We develop a novel asymptotic anytime-valid confidence sequences over arm indices, and we use it to design a new BAI algorithm for our asymptotic framework. Our method flexibly incorporates covariates for variance reduction and ensures approximate error control in fully nonparametric settings. Under mild convergence assumptions, we provide asymptotic bounds on the sample complexity and show the worst-case sample complexity of our approach matches the best-case sample complexity of Gaussian BAI under exact error guarantees and known variances. Experiments suggest our approach reduces average sample complexities while maintaining error control.",
+ "primary": "cs.LG"
+}

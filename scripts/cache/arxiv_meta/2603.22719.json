@@ -1,0 +1,17 @@
+{
+ "id": "2603.22719",
+ "title": "A Frequency-Domain Approach for Integrating Multiple Functional Time Series",
+ "authors": [
+  "Zerui Guo",
+  "Jianbin Tan",
+  "Hui Huang"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "Stat 15.1 (2026): e70140",
+ "doi": "10.1002/sta4.70140",
+ "comment": "",
+ "abstract": "Integrative analysis of multivariate functional time series (MFTS) is both critical and challenging across many scientific domains. Such data often exhibit complex multi-way dependencies arising from within-curve structures, temporal correlations across curves, and cross-subject interactions, underscoring the need for efficient methods that can jointly capture these dependencies and support accurate downstream analyses. In this work, we propose a novel frequency-domain framework based on a marginal dynamic Karhunen--Loève expansion. The key idea is to integrate individual spectral densities of the MFTS to construct a marginal spectral operator, whose eigenfunctions yield optimal functional filters. These filters transform complex functional observations into a structured multivariate time series representation, providing a powerful foundation for joint modeling and estimation. Through extensive simulation studies, we demonstrate the superior performance of the proposed approach. We further validate its practical utility through an application to the imputation and forecasting of air pollutant concentration trajectories in China.",
+ "primary": "stat.ME"
+}

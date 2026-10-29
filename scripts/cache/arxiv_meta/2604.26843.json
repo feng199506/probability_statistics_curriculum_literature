@@ -1,0 +1,16 @@
+{
+ "id": "2604.26843",
+ "title": "Nonparametric Testing and Variable Selection for ARCH-m(X) Model",
+ "authors": [
+  "Adriano Zanin Zambom",
+  "Qing Wang"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 1,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce the ARCH-m(X) model, a semiparametric extension of the ARCH-X framework in which the effect of a multivariate exogenous covariate vector X on the conditional variance is modeled through an unknown nonparametric function m(), accommodating complex nonlinear relationships between external predictors and financial volatility. Within this model, we develop a novel hypothesis test for the significance of covariates constructed with an artificial one-way ANOVA. Under some regularity conditions, the test statistic is shown to converge in distribution to the standard Normal. Another key contribution of this paper is the construction of a variable selection procedure based on the Benjamini-Yekutieli false discovery rate correction applied to covariate-level p-values. We show that the resulting index set coincides with the true set of relevant covariates with probability tending to one as n goes to infinity. Extensive simulations confirm that the proposed methods outperform existing competitors, and an empirical application to SP500 return volatility illustrates the practical utility of the proposed variable selection framework.",
+ "primary": "stat.ME"
+}

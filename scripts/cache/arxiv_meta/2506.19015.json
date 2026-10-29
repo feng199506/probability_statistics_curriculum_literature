@@ -1,0 +1,18 @@
+{
+ "id": "2506.19015",
+ "title": "Principal stratification with recurrent events truncated by a terminal event: A nested Bayesian nonparametric approach",
+ "authors": [
+  "Yuki Ohnishi",
+  "Michael O. Harhay",
+  "Guangyu Tong",
+  "Fan Li"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 3,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages",
+ "abstract": "Recurrent events often serve as key endpoints in clinical studies but may be prematurely truncated by terminal events such as death, creating selection bias and complicating causal inference. To address this challenge, we develop a Bayesian nonparametric framework to address potential selection bias due to truncation by death within the continuous-time principal stratification framework. We introduce causal estimands for recurrent events in the presence of a terminal event and derive a partial identification result for the estimand under a dual-frailty framework, enabling transparent sensitivity analysis for non-identifiable parameters. We then propose a flexible Bayesian nonparametric prior, the enriched dependent Dirichlet process, specifically designed for joint modeling of recurrent and terminal events, addressing a limitation where standard Dirichlet process priors create random partitions dominated by recurrent events, yielding poor predictive performance for terminal events. Simulations are carried out to show that our method has superior performance compared to existing methods. We apply the proposed new Bayesian nonparametric methods to infer the causal effect of a structured exercise program on rehospitalizations, which are subject to truncation by death.",
+ "primary": "stat.ME"
+}

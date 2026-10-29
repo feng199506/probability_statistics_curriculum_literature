@@ -1,0 +1,18 @@
+{
+ "id": "2312.05523",
+ "title": "Functional Data Analysis: An Introduction and Recent Developments",
+ "authors": [
+  "Jan Gertheiss",
+  "David Rügamer",
+  "Bernard X. W. Liew",
+  "Sonja Greven"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 1,
+ "latest_date": "2023-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Functional data analysis (FDA) is a statistical framework that allows for the analysis of curves, images, or functions on higher dimensional domains. The goals of FDA, such as descriptive analyses, classification, and regression, are generally the same as for statistical analyses of scalar-valued or multivariate data, but FDA brings additional challenges due to the high- and infinite dimensionality of observations and parameters, respectively. This paper provides an introduction to FDA, including a description of the most common statistical analysis techniques, their respective software implementations, and some recent developments in the field. The paper covers fundamental concepts such as descriptives and outliers, smoothing, amplitude and phase variation, and functional principal component analysis. It also discusses functional regression, statistical inference with functional data, functional classification and clustering, and machine learning approaches for functional data analysis. The methods discussed in this paper are widely applicable in fields such as medicine, biophysics, neuroscience, and chemistry, and are increasingly relevant due to the widespread use of technologies that allow for the collection of functional data. Sparse functional data methods are also relevant for longitudinal data analysis. All presented methods are demonstrated using available software in R by analyzing a data set on human motion and motor control. To facilitate the understanding of the methods, their implementation, and hands-on application, the code for these practical examples is made available on Github: https://github.com/davidruegamer/FDA_tutorial .",
+ "primary": "stat.ME"
+}

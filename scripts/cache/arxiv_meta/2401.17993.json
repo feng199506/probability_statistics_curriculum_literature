@@ -1,0 +1,18 @@
+{
+ "id": "2401.17993",
+ "title": "Robust Inference for Generalized Linear Mixed Models: An Approach Based on Score Sign Flipping",
+ "authors": [
+  "Angela Andreella",
+  "Jelle Goeman",
+  "Jesse Hemerik",
+  "Livio Finos"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 2,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The paper contains errors that we are thoroughly analyzing for a revised version, though this process requires time",
+ "abstract": "Despite the versatility of generalized linear mixed models in handling complex experimental designs, they often suffer from misspecification and convergence problems. This makes inference on the values of coefficients problematic. To address these challenges, we propose a robust extension of the score-based statistical test using sign-flipping transformations. Our approach efficiently handles within-variance structure and heteroscedasticity, ensuring accurate regression coefficient testing. The approach is illustrated by analyzing the reduction of health issues over time for newly adopted children. The model is characterized by a binomial response with unbalanced frequencies and several categorical and continuous predictors. The proposed approach efficiently deals with critical problems related to longitudinal nonlinear models, surpassing common statistical approaches such as generalized estimating equations and generalized linear mixed models.",
+ "primary": "stat.ME"
+}

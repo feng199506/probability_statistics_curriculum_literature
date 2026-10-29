@@ -1,0 +1,16 @@
+{
+ "id": "2406.12028",
+ "title": "Mixed-resolution hybrid modeling in an element-based framework",
+ "authors": [
+  "Kara Bocan",
+  "Natasa Miskov-Zivanov"
+ ],
+ "v1_date": "2024-06-17",
+ "latest_version": 1,
+ "latest_date": "2024-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computational modeling of a complex system is limited by the parts of the system with the least information. While detailed models and high-resolution data may be available for parts of a system, abstract relationships are often necessary to connect the parts and model the full system. For example, modeling food security necessitates the interaction of climate and socioeconomic factors, with models of system components existing at different levels of information in terms of granularity and resolution. Connecting these models is an ongoing challenge. In this work, we demonstrate methodology to quantize and integrate information from data and detailed component models alongside abstract relationships in a hybrid element-based modeling and simulation framework. In a case study of modeling food security, we apply quantization methods to generate (1) time-series model input from climate data and (2) a discrete representation of a component model (a statistical emulator of crop yield), which we then incorporate as an update rule in the hybrid element-based model, bridging differences in model granularity and resolution. Simulation of the hybrid element-based model recapitulated the trends of the original emulator, supporting the use of this methodology to integrate data and information from component models to simulate complex systems.",
+ "primary": "stat.ME"
+}

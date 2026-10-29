@@ -1,0 +1,18 @@
+{
+ "id": "2503.00254",
+ "title": "Heteroscedastic Growth Curve Modeling with Shape-Restricted Splines",
+ "authors": [
+  "Jieying Jiao",
+  "Wenling Song",
+  "Yishu Xue",
+  "Jun Yan"
+ ],
+ "v1_date": "2025-03-01",
+ "latest_version": 1,
+ "latest_date": "2025-03-01",
+ "journal_ref": "The New England Journal of Statistics in Data Science, 2025",
+ "doi": "10.51387/24-nejsds69",
+ "comment": "16 pages, 6 figures",
+ "abstract": "Growth curve analysis (GCA) has a wide range of applications in various fields where growth trajectories need to be modeled. Heteroscedasticity is often present in the error term, which can not be handled with sufficient flexibility by standard linear fixed or mixed-effects models. One situation that has been addressed is where the error variance is characterized by a linear predictor with certain covariates. A frequently encountered scenario in GCA, however, is one in which the variance is a smooth function of the mean with known shape restrictions. A naive application of standard linear mixed-effects models would underestimate the variance of the fixed effects estimators and, consequently, the uncertainty of the estimated growth curve. We propose to model the variance of the response variable as a shape-restricted (increasing/decreasing; convex/concave) function of the marginal or conditional mean using shape-restricted splines. A simple iteratively reweighted fitting algorithm that takes advantage of existing software for linear mixed-effects models is developed. For inference, a parametric bootstrap procedure is recommended. Our simulation study shows that the proposed method gives satisfactory inference with moderate sample sizes. The utility of the method is demonstrated using two real-world applications.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2508.10061",
+ "title": "Regression adjustment in covariate-adaptive randomized experiments with missing covariates",
+ "authors": [
+  "Wanjia Fu",
+  "Yingying Ma",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 1,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariate-adaptive randomization is widely used in clinical trials to balance prognostic factors, and regression adjustments are often adopted to further enhance the estimation and inference efficiency. In practice, the covariates may contain missing values. Various methods have been proposed to handle the covariate missing problem under simple randomization. However, the statistical properties of the resulting average treatment effect estimators under stratified randomization, or more generally, covariate-adaptive randomization, remain unclear. To address this issue, we investigate the asymptotic properties of several average treatment effect estimators obtained by combining commonly used missingness processing procedures and regression adjustment methods. Moreover, we derive consistent variance estimators to enable valid inferences. Finally, we conduct a numerical study to evaluate the finite-sample performance of the considered estimators under various sample sizes and numbers of covariates and provide recommendations accordingly. Our analysis is model-free, meaning that the conclusions remain asymptotically valid even in cases of misspecification of the regression model.",
+ "primary": "stat.ME"
+}

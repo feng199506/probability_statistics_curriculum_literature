@@ -1,0 +1,16 @@
+{
+ "id": "2607.20576",
+ "title": "Restricted nonlinear shrinkage of high-dimensional residual covariance matrices in multivariate regressions",
+ "authors": [
+  "Hamid Karamikabir",
+  "Mohammad Arashi"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Corresponding author: Mohammad Arashi",
+ "abstract": "We study estimation of the p*p residual scatter (shape) matrix in a high-dimensional multivariate linear regression, where p and n grow proportionally. When the coefficient matrix obeys a known linear restriction of rank q < d, as in multivariate analysis of variance, growth-curve models, and reduced-rank regression, the restricted fit leaves additional residual degrees of freedom that sharpen estimation of the shape matrix. To accommodate heavy-tailed errors, we work with independent elliptically distributed rows under a mild scale condition, a finite second moment on the radii, which is far weaker than the usual sub-Gaussian assumptions and covers every multivariate-t law with more than two degrees of freedom. Shrinking the restricted residual sample covariance directly is unsound here, since its limiting spectrum depends on the radial distribution. We instead shrink a scale-invariant scatter of the restricted residuals, whose spectrum is distribution-free over the elliptical family and obeys the same limiting law as under Gaussian errors, at a smaller effective aspect ratio. The resulting estimator attains the rotation-equivariant oracle and is asymptotically optimal within that class, and a Stein-type combination with the unrestricted estimator dominates it while remaining safe under misspecification. We further correct for the case in which the restriction is itself selected from the data. Simulations, a growth-curve experiment, and two real-data analyses illustrate the results.",
+ "primary": "stat.ME"
+}

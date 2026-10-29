@@ -1,0 +1,18 @@
+{
+ "id": "2410.00882",
+ "title": "Perfect sampling from rapidly mixing Markov chains",
+ "authors": [
+  "Andreas Göbel",
+  "Jingcheng Liu",
+  "Pasin Manurangsi",
+  "Marcus Pappik"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 2,
+ "latest_date": "2024-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We show that efficient approximate sampling algorithms, combined with a slow exponential time oracle for computing its output distribution, can be combined into constructing efficient perfect samplers, which sample exactly from a target distribution with zero error upon termination. This extends a classical reduction of Jerrum, Valiant and Vazirani, which says that for self-reducible problems, deterministic approximate counting can be used to construct perfect samplers. We provide two surprisingly simple constructions, and our perfect samplers run in polynomial time both in expectation and with high probability. An overwhelming amount of efficient approximate sampling algorithms are based on Markov chains. Informally, we show that any Markov chains with absolute spectral gap $γ$ can be converted into a perfect sampler with expected time $O\\left(\\frac{1}γ\\ln\\frac{|Ω|}{π_{*}}\\right)$, where $π_{*}$ is the minimum probability in the stationary distribution. This is also the best possible bound for mixing time to achieve approximate sampling from a spectral gap, and we are able to do perfect sampling in the same time bound in expectation. We also highlight a number of applications where we either get the first perfect sampler up to the uniqueness regime (roughly speaking, everywhere except where NP-hardness results are known), or the fastest perfect sampler known to date. Remarkably, we are able to get the first perfect sampler for perfect matchings of bipartite graphs based on the celebrated Jerrum-Sinclair-Vigoda algorithm.",
+ "primary": "cs.CC"
+}

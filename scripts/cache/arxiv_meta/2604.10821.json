@@ -1,0 +1,16 @@
+{
+ "id": "2604.10821",
+ "title": "Slithering Through Gaps: Capturing Discrete Isolated Modes via Logistic Bridging",
+ "authors": [
+  "Pinaki Mohanty",
+  "Ruqi Zhang"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 1,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional and complex discrete distributions often exhibit multimodal behavior due to inherent discontinuities, posing significant challenges for sampling. Gradient-based discrete samplers, while effective, frequently become trapped in local modes when confronted with rugged or disconnected energy landscapes. This limits their ability to achieve adequate mixing and convergence in high-dimensional multimodal discrete spaces. To address these challenges, we propose \\emph{Hyperbolic Secant-squared Gibbs-Sampling (HiSS)}, a novel family of sampling algorithms that integrates a \\emph{Metropolis-within-Gibbs} framework to enhance mixing efficiency. HiSS leverages a logistic convolution kernel to couple the discrete sampling variable with the continuous auxiliary variable in a joint distribution. This design allows the auxiliary variable to encapsulate the true target distribution while facilitating easy transitions between distant and disconnected modes. We provide theoretical guarantees of convergence and demonstrate empirically that HiSS outperforms many popular alternatives on a wide variety of tasks, including Ising models, binary neural networks, and combinatorial optimization.",
+ "primary": "cs.LG"
+}

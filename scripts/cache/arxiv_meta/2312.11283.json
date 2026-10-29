@@ -1,0 +1,29 @@
+{
+ "id": "2312.11283",
+ "title": "A Simulated Reconstruction and Reidentification Attack on the 2010 U.S. Census",
+ "authors": [
+  "John M. Abowd",
+  "Tamara Adams",
+  "Robert Ashmead",
+  "David Darais",
+  "Sourya Dey",
+  "Simson L. Garfinkel",
+  "Nathan Goldschlag",
+  "Michael B. Hawes",
+  "Daniel Kifer",
+  "Philip Leclerc",
+  "Ethan Lew",
+  "Scott Moore",
+  "Rolando A. Rodríguez",
+  "Ramy N. Tadros",
+  "Lars Vilhuber"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 3,
+ "latest_date": "2025-07-28",
+ "journal_ref": "",
+ "doi": "10.1162/99608f92.4a1ebf70",
+ "comment": "This is the accepted Harvard Data Science Review (2025) paper. The accepted supplemental text is here: https://arxiv.org/abs/2312.11283v2",
+ "abstract": "We show that individual, confidential microdata records from the 2010 U.S. Census of Population and Housing can be accurately reconstructed from the published tabular summaries. Ninety-seven million person records (every resident in 70% of all census blocks) are exactly reconstructed with provable certainty using only public information. We further show that a hypothetical attacker using our methods can reidentify with 95% accuracy population unique individuals who are perfectly reconstructed and not in the modal race and ethnicity category in their census block (3.4 million persons)--a result that is only possible because their confidential records were used in the published tabulations. Finally, we show that the methods used for the 2020 Census, based on a differential privacy framework, provide better protection against this type of attack, with better published data accuracy, than feasible alternatives.",
+ "primary": "stat.AP"
+}

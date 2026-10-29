@@ -1,0 +1,23 @@
+{
+ "id": "2402.03263",
+ "title": "Small area estimation of forest biomass via a two-stage model for continuous zero-inflated data",
+ "authors": [
+  "Grayson W. White",
+  "Josh K. Yamamoto",
+  "Dinan H. Elsyad",
+  "Julian F. Schmitt",
+  "Niels H. Korsgaard",
+  "Jie Kate Hu",
+  "George C. Gaines",
+  "Tracey S. Frescino",
+  "Kelly S. McConville"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 2,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The United States (US) Forest Inventory & Analysis Program (FIA) collects data on and monitors the trends of forests in the US. FIA is increasingly interested in monitoring forest attributes such as biomass at fine geographic and temporal scales, resulting in a need for assessment and development of small area estimation techniques in forest inventory. We implement a small area estimator and parametric bootstrap estimator that account for zero-inflation in biomass data via a two-stage model-based approach and compare its performance to a post-stratified estimator and to the unit- and area-level empirical best linear unbiased prediction (EBLUP) estimators. For estimator comparison, we conduct a simulation study with counties in the US state Nevada as domains based on sampled plot data and remote sensing data products. Results show the zero-inflated estimator has the lowest relative bias and the smallest empirical root mean square error. Moreover, the 95% confidence interval coverages of the zero-inflated estimator and the unit-level EBLUP are more accurate than the other two estimators. To further illustrate the practical utility, we employ a data application across the 2019 measurement year in Nevada. We introduce the R package, saeczi, which efficiently implements the zero-inflated estimator and its mean squared error estimator.",
+ "primary": "stat.AP"
+}

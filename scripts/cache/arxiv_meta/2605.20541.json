@@ -1,0 +1,15 @@
+{
+ "id": "2605.20541",
+ "title": "Finite-Sample Bounds for Expected Signature Estimation under Weak Dependence",
+ "authors": [
+  "Bryson Schenck"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages, 1 figure",
+ "abstract": "The expected signature uniquely determines the law of a random rough path under a moment-growth condition, yet finite-sample bounds for estimating its truncations from a single long dependent trajectory remain unavailable. We study a strictly stationary stochastic process equipped with a geometric rough-path lift, observed in non-overlapping blocks of equally-spaced samples, and prove a non-asymptotic mean-squared error (MSE) bound for the block-averaging estimator of its truncated expected signature. Under moment and stationarity assumptions together with a direct covariance-decay condition on block signatures -- strictly weaker than $α$-mixing and applicable to long-range-dependent processes -- the error separates into a discretization term and a fluctuation term, with rates determined respectively by path regularity and dependence strength. A levelwise rough-factorial variance analysis keeps finite-truncation constants explicit and yields an optimal allocation rule under a fixed observation budget. We verify the assumptions for independent-coordinate fractional Ornstein--Uhlenbeck processes in three regimes: short-range (Hurst $1/4<H<1/2$), semimartingale ($H=1/2$), and long-range ($H>1/2$); in all three, the block-signature covariance is summable, so the fluctuation term decays at the same rate as in the independent-block case, even under long memory at $H>1/2$. Monte Carlo experiments show empirical slopes steeper than the guaranteed upper-bound rates.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2610.34368",
+ "title": "QuantileMix: A Python package for quantile g-computation",
+ "authors": [
+  "Nilson Chapagain"
+ ],
+ "v1_date": "2026-10-25",
+ "latest_version": 1,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "10.5281/zenodo.23643431",
+ "comment": "70 pages, including the reference manual; 6 figures. Software: https://github.com/nilson01/quantilemix",
+ "abstract": "Health researchers often study how a mixture of pollutants or nutrients relates to health. Quantile g-computation addresses this question by giving each exposure an ordered score and fitting a model for the outcome. For example, dividing an exposure into four quantile groups gives scores 0, 1, 2, and 3. The model can compare score 1 with score 2 for every exposure at once. These groups need not contain equal numbers of observations when measurements are tied. A one-score increase can represent different changes in the original units for different exposures. QuantileMix provides selected quantile g-computation methods in Python. It returns estimates, confidence intervals, predictions, and diagnostics for continuous, binary, count, and survival outcomes. Other models handle measurement limits, outcomes with several categories, and counts with many zeros. Fitting and prediction use NumPy and SciPy and do not require R. The package includes a reference manual, runnable examples, and numerical comparisons with R.",
+ "primary": "stat.CO"
+}

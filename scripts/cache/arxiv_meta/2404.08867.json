@@ -1,0 +1,16 @@
+{
+ "id": "2404.08867",
+ "title": "An efficient implementation algorithm for quasi-Monte Carlo approximations of high-dimensional integrals",
+ "authors": [
+  "Huicong Zhong",
+  "Xiaobing Feng"
+ ],
+ "v1_date": "2024-04-13",
+ "latest_version": 1,
+ "latest_date": "2024-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages",
+ "abstract": "In this paper, we develop and test a fast numerical algorithm, called MDI-LR, for efficient implementation of quasi-Monte Carlo lattice rules for computing $d$-dimensional integrals of a given function. It is based on the idea of converting and improving the underlying lattice rule into a tensor product rule by an affine transformation and adopting the multilevel dimension iteration approach which computes the function evaluations (at the integration points) in the tensor product multi-summation in cluster and iterates along each (transformed) coordinate direction so that a lot of computations can be reused. The proposed algorithm also eliminates the need for storing integration points and computing function values independently at each point. Extensive numerical experiments are presented to gauge the performance of the algorithm MDI-LR and to compare it with standard implementation of quasi-Monte Carlo lattice rules. It is also showed numerically that the algorithm MDI-LR can achieve a computational complexity of order $O(N^2d^3)$ or better, where $N$ represents the number of points in each (transformed) coordinate direction and $d$ standard for the dimension. Thus, the algorithm MDI-LR effectively overcomes the curse of dimensionality and revitalizes QMC lattice rules for high-dimensional integration.",
+ "primary": "math.NA"
+}

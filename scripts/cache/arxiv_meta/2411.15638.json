@@ -1,0 +1,17 @@
+{
+ "id": "2411.15638",
+ "title": "Learning state and proposal dynamics in state-space models using differentiable particle filters and neural networks",
+ "authors": [
+  "Benjamin Cox",
+  "Santiago Segarra",
+  "Victor Elvira"
+ ],
+ "v1_date": "2024-11-23",
+ "latest_version": 2,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "update to accepted version",
+ "abstract": "State-space models are a popular statistical framework for analysing sequential data. Within this framework, particle filters are often used to perform inference on non-linear state-space models. We introduce a new method, StateMixNN, that uses a pair of neural networks to learn the proposal distribution and transition distribution of a particle filter. Both distributions are approximated using multivariate Gaussian mixtures. The component means and covariances of these mixtures are learnt as outputs of learned functions. Our method is trained targeting the log-likelihood, thereby requiring only the observation series, and combines the interpretability of state-space models with the flexibility and approximation power of artificial neural networks. The proposed method significantly improves recovery of the hidden state in comparison with the state-of-the-art, showing greater improvement in highly non-linear scenarios.",
+ "primary": "cs.LG"
+}

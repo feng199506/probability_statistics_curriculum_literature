@@ -1,0 +1,17 @@
+{
+ "id": "2503.02266",
+ "title": "Generalized Tree-Informed Mixed Model Regression",
+ "authors": [
+  "Jeremiah Allis",
+  "Xin Jin",
+  "Riddhi Ghosh"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 1,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 6 figures, 4 tables",
+ "abstract": "The standard regression tree method applied to observations within clusters poses both methodological and implementation challenges. Effectively leveraging these data requires methods that account for both individual-level and sample-level effects. We propose Generalized Tree-Informed Mixed Model (GTIMM), which replaces the linear fixed effect in a generalized linear mixed model (GLMM) with the output of a regression tree. Traditional parameter estimation and prediction techniques, such as the expectation-maximization algorithm, scale poorly in high-dimensional settings, creating a computational bottleneck. To address this, we employ a quasi-likelihood framework with stochastic gradient descent for optimized parameter estimation. Additionally, we establish a theoretical bound for the mean squared prediction error. The predictive performance of our method is evaluated through simulations and compared with existing approaches. Finally, we apply our model to predict country-level GDP based on trade, foreign direct investment, unemployment, inflation, and geographic region.",
+ "primary": "stat.ME"
+}

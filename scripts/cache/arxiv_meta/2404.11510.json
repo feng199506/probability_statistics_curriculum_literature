@@ -1,0 +1,17 @@
+{
+ "id": "2404.11510",
+ "title": "Improved bounds and inference on optimal regimes",
+ "authors": [
+  "Julien D. Laurendeau",
+  "Aaron L. Sarvet",
+  "Mats J. Stensrud"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 1,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Point identification of causal effects requires strong assumptions that are unreasonable in many practical settings. However, informative bounds on these effects can often be derived under plausible assumptions. Even when these bounds are wide or cover null effects, they can guide practical decisions based on formal decision theoretic criteria. Here we derive new results on optimal treatment regimes in settings where the effect of interest is bounded. These results are driven by consideration of superoptimal regimes; we define regimes that leverage an individual's natural treatment value, which is typically ignored in the existing literature. We obtain (sharp) bounds for the value function of superoptimal regimes, and provide performance guarantees relative to conventional optimal regimes. As a case study, we consider a commonly studied Marginal Sensitivity Model and illustrate that the superoptimal regime can be identified when conventional optimal regimes are not. We similarly illustrate this property in an instrumental variable setting. Finally, we derive efficient estimators for upper and lower bounds on the superoptimal value in instrumental variable settings, building on recent results on covariate adjusted Balke-Pearl bounds. These estimators are applied to study the effect of prompt ICU admission on survival.",
+ "primary": "stat.ME"
+}

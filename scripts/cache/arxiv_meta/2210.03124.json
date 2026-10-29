@@ -1,0 +1,17 @@
+{
+ "id": "2210.03124",
+ "title": "Learning Transfer Operators by Kernel Density Estimation",
+ "authors": [
+  "Sudam Surasinghe",
+  "Jeremie Fish",
+  "Erik M. Bollt"
+ ],
+ "v1_date": "2022-08-01",
+ "latest_version": 3,
+ "latest_date": "2023-07-27",
+ "journal_ref": "",
+ "doi": "10.1063/5.0179937",
+ "comment": "",
+ "abstract": "Inference of transfer operators from data is often formulated as a classical problem that hinges on the Ulam method. The conventional description, known as the Ulam-Galerkin method, involves projecting onto basis functions represented as characteristic functions supported over a fine grid of rectangles. From this perspective, the Ulam-Galerkin approach can be interpreted as density estimation using the histogram method. In this study, we recast the problem within the framework of statistical density estimation. This alternative perspective allows for an explicit and rigorous analysis of bias and variance, thereby facilitating a discussion on the mean square error. Through comprehensive examples utilizing the logistic map and a Markov map, we demonstrate the validity and effectiveness of this approach in estimating the eigenvectors of the Frobenius-Perron operator. We compare the performance of Histogram Density Estimation(HDE) and Kernel Density Estimation(KDE) methods and find that KDE generally outperforms HDE in terms of accuracy. However, it is important to note that KDE exhibits limitations around boundary points and jumps. Based on our research findings, we suggest the possibility of incorporating other density estimation methods into this field and propose future investigations into the application of KDE-based estimation for high-dimensional maps. These findings provide valuable insights for researchers and practitioners working on estimating the Frobenius-Perron operator and highlight the potential of density estimation techniques in this area of study. Keywords: Transfer Operators; Frobenius-Perron operator; probability density estimation; Ulam-Galerkin method; Kernel Density Estimation; Histogram Density Estimation.",
+ "primary": "cs.LG"
+}

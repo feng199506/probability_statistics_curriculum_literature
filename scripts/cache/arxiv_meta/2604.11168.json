@@ -1,0 +1,15 @@
+{
+ "id": "2604.11168",
+ "title": "Prediction decomposition for causal analysis",
+ "authors": [
+  "Ofir Reich"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 1,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 7 figures",
+ "abstract": "There is rising interest in using Machine Learning (ML) model predictions as outcomes in causal analysis. However, these methods have faced challenges in finding the true treatment effects. It is also challenging to make choices about which prediction models to choose, since we are interested not only in the accuracy of the prediction but in its ability to produce the correct causal effect in the analysis. In this paper I propose a decomposition of the prediction into between-unit prediction ($η_μ$), within-unit-across-time prediction ($η_ε$), and counterfactual-treatment-effect prediction ($η_T$). I show that the counterfactual-treatment-effect component is the one that determines whether the model recovers the true treatment effect, but only the first two components can be estimated from non-experimental data. I argue that within-unit-across-time prediction accuracy ($η_ε$) is a structurally better proxy for the counterfactual-treatment-effect component ($η_T$) than overall prediction accuracy, and propose a metric to estimate it from panel data with at least two time periods. This metric serves as a diagnostic and model-selection tool for choosing ML models for causal analysis. Under the stronger assumption that $η_T \\approx η_ε$, it also enables constructing an approximately unbiased estimate of the treatment effect. I develop the theoretical framework and illustrate it with simulations of synthetic data.",
+ "primary": "stat.ME"
+}

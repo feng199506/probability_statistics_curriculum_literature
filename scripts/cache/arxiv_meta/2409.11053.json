@@ -1,0 +1,17 @@
+{
+ "id": "2409.11053",
+ "title": "Functional Adaptive Huber Linear Regression",
+ "authors": [
+  "Ling Peng",
+  "Xiaohui Liu",
+  "Heng Lian"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 1,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust estimation has played an important role in statistical and machine learning. However, its applications to functional linear regression are still under-developed. In this paper, we focus on Huber's loss with a diverging robustness parameter which was previously used in parametric models. Compared to other robust methods such as median regression, the distinction is that the proposed method aims to estimate the conditional mean robustly, instead of estimating the conditional median. We only require $(1+κ)$-th moment assumption ($κ>0$) on the noise distribution, and the established error bounds match the optimal rate in the least-squares case as soon as $κ\\ge 1$. We establish convergence rate in probability when the functional predictor has a finite 4-th moment, and finite-sample bound with exponential tail when the functional predictor is Gaussian, in terms of both prediction error and $L^2$ error. The results also extend to the case of functional estimation in a reproducing kernel Hilbert space (RKHS).",
+ "primary": "math.ST"
+}

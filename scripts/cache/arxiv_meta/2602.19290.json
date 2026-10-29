@@ -1,0 +1,16 @@
+{
+ "id": "2602.19290",
+ "title": "Distributional Discontinuity Design",
+ "authors": [
+  "Kyle Schindl",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 1,
+ "latest_date": "2026-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Regression discontinuity and kink designs are typically analyzed through mean effects, even when treatment changes the shape of the entire outcome distribution. To address this, we introduce distributional discontinuity designs, a framework for estimating causal effects for a scalar outcome at the boundary of a discontinuity in treatment assignment. Our estimand is the Wasserstein distance between limiting conditional outcome distributions; a single scale-interpretable measure of distribution shift. We show that this weakly bounds the average treatment effect, where equality holds if and only if the treatment effect is purely additive; thus, departure from equality measures effect heterogeneity. To further encode effect heterogeneity we show that the Wasserstein distance admits an orthogonal decomposition into squared differences in $L$-moments, thereby quantifying the contribution from location, scale, skewness, and higher-order shape components to the overall distributional distance. Next, we extend this framework to distributional kink designs by evaluating the Wasserstein derivative at a policy kink; this describes the flow of probability mass through the kink. In the case of fuzzy kink designs, we derive new identification results. Finally, we apply our methods on real data by re-analyzing two natural experiments to compare our distributional effects to traditional causal estimands.",
+ "primary": "stat.ME"
+}

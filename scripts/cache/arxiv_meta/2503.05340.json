@@ -1,0 +1,17 @@
+{
+ "id": "2503.05340",
+ "title": "A Hybrid Framework Combining Autoregression and Common Factors for Matrix Time Series",
+ "authors": [
+  "Zhiyun Fan",
+  "Xiaoyu Zhang",
+  "Di Wang"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 3,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matrix-valued time series are ubiquitous in modern economics and finance, yet modeling them requires navigating a trade-off between flexibility and parsimony. We propose the Matrix Autoregressive model with Common Factors (MARCF), a unified framework for high-dimensional matrix time series that bridges the structural gap between the Matrix Autoregression (MAR) and Matrix Factor Model (MFM). While MAR typically assumes distinct predictor and response subspaces and MFM enforces identical ones, MARCF explicitly characterizes the intersection of these subspaces. By decomposing the coefficient matrices into common, predictor-specific, and response-specific components, the framework accommodates distinct input and output structures while exploiting their overlap for dimension reduction. We develop a regularized gradient descent estimator that is scalable for high-dimensional data and can efficiently handle the non-convex parameter space. Theoretical analysis establishes local linear convergence of the algorithm and statistical consistency of the estimator under high-dimensional scaling. The estimation efficiency and interpretability of the proposed methods are demonstrated through simulations and an application to global macroeconomic forecasting.",
+ "primary": "stat.ME"
+}

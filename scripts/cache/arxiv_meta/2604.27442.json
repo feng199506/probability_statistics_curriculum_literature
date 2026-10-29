@@ -1,0 +1,18 @@
+{
+ "id": "2604.27442",
+ "title": "Bayesian online learning in the one-pass regime: Frequentist validity and uncertainty quantification",
+ "authors": [
+  "Jeyong Lee",
+  "Junhyeok Choi",
+  "Dongguen Kim",
+  "Minwoo Chae"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages",
+ "abstract": "Bayesian online learning provides a coherent framework for sequential inference. However, its theoretical understanding remains limited, particularly in the one-pass setting. Existing theoretical guarantees typically require the mini-batch sample size to diverge, a condition that fails in the one-pass regime. In this paper, we propose a new Bayesian online learning algorithm tailored to the one-pass setting, which incorporates a warm-start phase to ensure stable sequential updates. For this algorithm, we show that the sequentially updated posterior attains the optimal convergence rate. Building on this, we establish an online analogue of the Bernstein-von Mises theorem, which guarantees valid uncertainty quantification without diverging mini-batch sample sizes. Our analysis is based on a novel theoretical framework that differs fundamentally from existing approaches in the online learning literature. Numerical experiments on generalized linear models show that the proposed method matches the performance of the batch estimator while outperforming existing online procedures.",
+ "primary": "math.ST"
+}

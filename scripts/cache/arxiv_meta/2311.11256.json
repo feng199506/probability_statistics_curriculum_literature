@@ -1,0 +1,18 @@
+{
+ "id": "2311.11256",
+ "title": "Bayesian Modeling of Incompatible Spatial Data: A Case Study Involving Post-Adrian Storm Forest Damage Assessment",
+ "authors": [
+  "Lu Zhang",
+  "Andrew O. Finley",
+  "Arne Nothdurft",
+  "Sudipto Banerjee"
+ ],
+ "v1_date": "2023-11-19",
+ "latest_version": 2,
+ "latest_date": "2024-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 8 figures",
+ "abstract": "Modeling incompatible spatial data, i.e., data with different spatial resolutions, is a pervasive challenge in remote sensing data analysis. Typical approaches to addressing this challenge aggregate information to a common coarse resolution, i.e., compatible resolutions, prior to modeling. Such pre-processing aggregation simplifies analysis, but potentially causes information loss and hence compromised inference and predictive performance. To avoid losing potential information provided by finer spatial resolution data and improve predictive performance, we propose a new Bayesian method that constructs a latent spatial process model at the finest spatial resolution. This model is tailored to settings where the outcome variable is measured on a coarser spatial resolution than predictor variables -- a configuration seen increasingly when high spatial resolution remotely sensed predictors are used in analysis. A key contribution of this work is an efficient algorithm that enables full Bayesian inference using finer resolution data while optimizing computational and storage costs. The proposed method is applied to a forest damage assessment for the 2018 Adrian storm in Carinthia, Austria, that uses high-resolution laser imaging detection and ranging (LiDAR) measurements and relatively coarse resolution forest inventory measurements. Extensive simulation studies demonstrate the proposed approach substantially improves inference for small prediction units.",
+ "primary": "stat.ME"
+}

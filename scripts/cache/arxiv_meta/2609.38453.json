@@ -1,0 +1,18 @@
+{
+ "id": "2609.38453",
+ "title": "Grokking through the Lens of Minimum-Norm Interpolation",
+ "authors": [
+  "Gil Kur",
+  "Ileana Rugina",
+  "Clémentine Carla Juliette Dominé",
+  "Marco Mondelli"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted",
+ "abstract": "Grokking shows that fitting the training data and learning the underlying signal can occur at very different stages. However, existing theories offer limited quantitative insight into how this delayed generalization depends on inductive bias and signal structure. Our work addresses the gap by developing a statistical theory that characterizes how regularization geometry and signal sparsity govern generalization near interpolation. In particular, we focus on the prototypical setting of high-dimensional regression and identify regimes in which sparsity-promoting regularization makes exact interpolation much more accurate than approximate fitting. In strongly overparameterized noiseless problems, we prove a zero--one generalization law and construct a family of convex norms whose interpolators transition from the trivial risk of the all-zero predictor to exact recovery, while keeping the training error equal to $0$. Furthermore, when feature dimension and sample size are proportional, we provide a precise characterization of training and generalization errors along $\\ell_r$-regularization paths. This in turn allows us to quantify the generalization gain that remains near interpolation: we show that this gain increases as the norm becomes more sparsity-promoting and as the target becomes sparser, with a sharp drop in generalization reached for noiseless data and $\\ell_1$ regularization. Experiments on diagonal linear networks and transformers trained on modular arithmetic demonstrate the generality of our theoretical predictions. Finally, beyond grokking, our work reveals a statistical instability in minimum-norm interpolation: small perturbations in the regularization strength can lead to drastically different generalization, while preserving small training error.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2506.19958",
+ "title": "RobustiPy: An efficient next generation multiversal library with model selection, averaging, resampling, and explainable artificial intelligence",
+ "authors": [
+  "Daniel Valdenegro",
+  "Jiani Yan",
+  "Duiyi Dai",
+  "Charles Rahal"
+ ],
+ "v1_date": "2025-06-24",
+ "latest_version": 4,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scientific inference is often undermined by the vast but rarely explored \"multiverse\" of defensible modelling choices, which can generate results as variable as the phenomena under study. We introduce RobustiPy, an open-source Python library that systematizes multiverse analysis and model-uncertainty quantification at scale. RobustiPy unifies bootstrap-based inference, combinatorial specification search, model selection and averaging, joint-inference routines, and explainable AI methods within a modular, reproducible framework. Beyond exhaustive specification curves, it supports rigorous out-of-sample validation and quantifies the marginal contribution of each covariate. We demonstrate its utility across five simulation designs and ten empirical case studies spanning economics, sociology, psychology, and medicine, including a re-analysis of widely cited findings with documented discrepancies. Benchmarking on ~672 million simulated regressions shows that RobustiPy delivers state-of-the-art computational efficiency while expanding transparency in empirical research. By standardizing and accelerating robustness analysis, RobustiPy transforms how researchers interrogate sensitivity across the analytical multiverse, offering a practical foundation for more reproducible and interpretable computational science.",
+ "primary": "stat.ME"
+}

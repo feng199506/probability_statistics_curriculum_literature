@@ -1,0 +1,18 @@
+{
+ "id": "2504.12190",
+ "title": "Rebalancing Markov jump processes for non-reversible continuous-time sampling",
+ "authors": [
+  "Erik Jansson",
+  "Moritz Schauer",
+  "Ruben Seyer",
+  "Akash Sharma"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 3,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 13 figures; completely revised",
+ "abstract": "Markov chain Monte Carlo methods are central in computational statistics, and typically rely on detailed balance to ensure invariance with respect to a target distribution. Although straightforward to construct by Metropolization, this can induce diffusion-like exploration of the sample space, requiring careful tuning of parameters such as step size. We introduce a general mechanism for constructing non-reversible continuous-time samplers, without requiring detailed balance. Our approach transforms jump processes satisfying a skew-detailed balance condition for a reference measure into processes sampling a target measure absolutely continuous with respect to it. Unbounded balancing functions allow such samplers to dynamically select favourable transitions. We establish invariance under weak criteria and demonstrate how to verify geometric ergodicity. Numerical experiments demonstrate that the resulting samplers are more robust to parameter tuning.",
+ "primary": "math.ST"
+}

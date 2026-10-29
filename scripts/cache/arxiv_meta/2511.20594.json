@@ -1,0 +1,18 @@
+{
+ "id": "2511.20594",
+ "title": "Variational bagging: a robust approach for Bayesian uncertainty quantification",
+ "authors": [
+  "Shitao Fan",
+  "Ilsang Ohn",
+  "David Dunson",
+  "Lizhen Lin"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 14 figures",
+ "abstract": "Variational Bayes methods are popular due to their computational efficiency and adaptability to diverse applications. In specifying the variational family, mean-field classes are commonly used, which enables efficient algorithms such as coordinate ascent variational inference (CAVI) but fails to capture parameter dependence and typically underestimates uncertainty. In this work, we introduce a variational bagging approach that integrates a bagging procedure with variational Bayes, resulting in a bagged variational posterior for improved inference. We establish strong theoretical guarantees, including posterior contraction rates for general models and a Bernstein-von Mises (BVM) type theorem that ensures valid uncertainty quantification. Notably, our results show that even when using a mean-field variational family, our approach can recover off-diagonal elements of the limiting covariance structure and provide proper uncertainty quantification. In addition, variational bagging is robust to model misspecification, with covariance structures matching those of the target covariance. We illustrate our variational bagging method in numerical studies through applications to parametric models, finite mixture models, deep neural networks, and variational autoencoders (VAEs).",
+ "primary": "math.ST"
+}

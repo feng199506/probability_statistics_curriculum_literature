@@ -1,0 +1,15 @@
+{
+ "id": "2607.27576",
+ "title": "Maximum Likelihood and Bayesian Estimation for State-Space Models Using the Non-Gaussian Filter",
+ "authors": [
+  "Genshiro Kitagawa"
+ ],
+ "v1_date": "2026-07-30",
+ "latest_version": 1,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 5 tables, 16 figures",
+ "abstract": "The non-Gaussian filter provides a deterministic numerical method for nonlinear and non-Gaussian state-space models, but its application has long been limited due to the computational cost of numerical integration. Advances in computing power and memory capacity have substantially reduced this limitation for low and moderate dimensional models. This paper re-examines the non-Gaussian filter and demonstrates its usefulness for maximum likelihood estimation and Bayesian inference. Numerical experiments with linear, nonlinear and radar-tracking models show that log-likelihood obtained by non-Gaussian filter is smooth and can be optimized reliably, whereas the ones obtained by particle filter are affected strongly by Monte Carlo variability even with many particles. Bayesian estimation is performed using a self-organizing state-space model, in which unknown parameters are incorporated into the state vector and estimated jointly with the latent states. These results demonstrate that the current computing technology has renewed the practical value of deterministic filtering for statistical inference in state-space models.",
+ "primary": "stat.CO"
+}

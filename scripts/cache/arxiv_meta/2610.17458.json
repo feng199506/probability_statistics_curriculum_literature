@@ -1,0 +1,16 @@
+{
+ "id": "2610.17458",
+ "title": "Selective Inference for Clustering Under Unknown Covariance",
+ "authors": [
+  "Yiqun T. Chen",
+  "Lucy L. Gao"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Unsupervised clustering is widely used to discover underlying group structure, after which researchers often seek to validate these groups via post-hoc hypothesis testing on the population means. However, using the same data both to form clusters and to test for a difference in means inflates the Type I error rate. Recent work in selective inference has proposed solutions when the underlying data are drawn from a multivariate Gaussian distribution with a known covariance matrix or an unknown isotropic covariance matrix. We propose a new selective test for the difference in means between two clusters that provably controls the Type I error rate under an arbitrary unknown covariance matrix. Our test statistic does not require estimating the feature covariance matrix; instead, it leverages a Monte Carlo sampling procedure over the set of orthogonal matrices. We show that this new selective test can be computed efficiently, and we derive closed-form solutions when clusters are formed using k-means or hierarchical clustering. In simulations, we demonstrate that our proposed p-value controls the selective Type I error rate and achieves substantial power, and we illustrate its application on gene expression and drug review data sets.",
+ "primary": "stat.ME"
+}

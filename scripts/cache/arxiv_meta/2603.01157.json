@@ -1,0 +1,17 @@
+{
+ "id": "2603.01157",
+ "title": "Adaptive Window Selection for Financial Risk Forecasting",
+ "authors": [
+  "Yinhuan Li",
+  "Chenxin Lyu",
+  "Ruodu Wang"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Risk forecasts in financial regulation and internal management are calculated through historical data. The unknown structural changes of financial data pose a substantial challenge in selecting an appropriate look-back window for risk modeling and forecasting. We develop a data-driven online learning method, called the bootstrap-based adaptive window selection (BAWS), that adaptively determines the window size in a sequential manner. A central component of BAWS is to compare the realized scores against a data-dependent threshold based on the bootstrap method. We provide an asymptotic justification for the bootstrap threshold, covering non-smooth scores such as the VaR check loss and the joint VaR--ES score, with an extension to stationary weakly dependent data via the moving block bootstrap. A single-break analysis further shows that BAWS rejects overlong windows crossing sufficiently large breaks. The proposed method is applicable to the forecasting of risk measures that are elicitable individually or jointly, such as the Value-at-Risk (VaR) and the pair of VaR and the corresponding Expected Shortfall. Through simulation studies and an empirical analysis, we demonstrate that BAWS often improves upon the standard rolling window approach and the recently developed method of stability-based adaptive window selection, especially when there are structural changes in the data-generating process.",
+ "primary": "q-fin.RM"
+}

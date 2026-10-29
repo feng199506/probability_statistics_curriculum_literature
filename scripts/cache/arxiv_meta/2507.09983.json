@@ -1,0 +1,17 @@
+{
+ "id": "2507.09983",
+ "title": "Gradient boosted multi-population mortality modelling with high-frequency data",
+ "authors": [
+  "Ziting Miao",
+  "Han Li",
+  "Yuyu Chen"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 2,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-frequency mortality data have attracted growing attention, but their use has largely been confined to specific applications rather than general modelling and forecasting. Such data pose new challenges to traditional mortality models due to pronounced seasonal patterns and short-term fluctuations. To address these challenges and produce more accurate forecasts with the high-frequency mortality data, this paper introduces a novel integration of gradient boosting techniques into traditional stochastic mortality models under a multi-population setting. Our key innovation lies in using the Li and Lee model as the weak learner within the gradient boosting framework, replacing conventional decision trees. Empirical studies are conducted using weekly mortality data from 30 countries (Human Mortality Database, 2015-2019). Empirical evidence highlights that the proposed methodology not only enhances model fit by accurately capturing underlying mortality trends and seasonal patterns, but also achieves superior forecast accuracy, compared to the benchmark models. We also investigate a key challenge in multi-population mortality modelling: how to select appropriate sub-populations with sufficiently similar mortality experiences. A comprehensive clustering exercise is conducted based on mortality improvement rates and seasonal strength. The empirical results demonstrate that our proposed model maintains strong forecast accuracy across different clustering configurations, thereby reducing the need for extensive data preprocessing.",
+ "primary": "stat.AP"
+}

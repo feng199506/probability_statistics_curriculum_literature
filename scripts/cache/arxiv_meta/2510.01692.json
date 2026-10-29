@@ -1,0 +1,16 @@
+{
+ "id": "2510.01692",
+ "title": "Forecasting intraday particle number size distribution: A functional time series approach",
+ "authors": [
+  "Han Lin Shang",
+  "Israel Martinez Hernandez"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 1,
+ "latest_date": "2025-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 11 figures, 2 tables",
+ "abstract": "Particulate matter data now include various particle sizes, which often manifest as a collection of curves observed sequentially over time. When considering 51 distinct particle sizes, these curves form a high-dimensional functional time series observed over equally spaced and densely sampled grids. While high dimensionality poses statistical challenges due to the curse of dimensionality, it also offers a rich source of information that enables detailed analysis of temporal variation across short time intervals for all particle sizes. To model this complexity, we propose a multilevel functional time series framework incorporating a functional factor model to facilitate one-day-ahead forecasting. To quantify forecast uncertainty, we develop a calibration approach and a split conformal prediction approach to construct prediction intervals. Both approaches are designed to minimise the absolute difference between empirical and nominal coverage probabilities using a validation dataset. Furthermore, to improve forecast accuracy as new intraday data become available, we implement dynamic updating techniques for point and interval forecasts. The proposed methods are validated through an empirical application to hourly measurements of particulate matter in 51 size categories in London.",
+ "primary": "stat.ME"
+}

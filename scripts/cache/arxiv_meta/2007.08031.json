@@ -1,0 +1,15 @@
+{
+ "id": "2007.08031",
+ "title": "Optimal Coreset for Gaussian Kernel Density Estimation",
+ "authors": [
+  "Wai Ming Tai"
+ ],
+ "v1_date": "2020-07-15",
+ "latest_version": 5,
+ "latest_date": "2022-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for Symposium on Computational Geometry (SoCG) 2022",
+ "abstract": "Given a point set $P\\subset \\mathbb{R}^d$, the kernel density estimate of $P$ is defined as \\[ \\overline{\\mathcal{G}}_P(x) = \\frac{1}{\\left|P\\right|}\\sum_{p\\in P}e^{-\\left\\lVert x-p \\right\\rVert^2} \\] for any $x\\in\\mathbb{R}^d$. We study how to construct a small subset $Q$ of $P$ such that the kernel density estimate of $P$ is approximated by the kernel density estimate of $Q$. This subset $Q$ is called a coreset. The main technique in this work is constructing a $\\pm 1$ coloring on the point set $P$ by discrepancy theory and we leverage Banaszczyk's Theorem. When $d>1$ is a constant, our construction gives a coreset of size $O\\left(\\frac{1}{\\varepsilon}\\right)$ as opposed to the best-known result of $O\\left(\\frac{1}{\\varepsilon}\\sqrt{\\log\\frac{1}{\\varepsilon}}\\right)$. It is the first result to give a breakthrough on the barrier of $\\sqrt{\\log}$ factor even when $d=2$.",
+ "primary": "cs.DS"
+}

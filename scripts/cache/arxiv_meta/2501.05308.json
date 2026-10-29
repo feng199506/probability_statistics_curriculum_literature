@@ -1,0 +1,15 @@
+{
+ "id": "2501.05308",
+ "title": "Entropy Adjusted Graphical Lasso for Sparse Precision Matrix Estimation",
+ "authors": [
+  "Vahe Avagyan"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimation of a precision matrix is a crucial problem in various research fields, particularly when working with high dimensional data. In such settings, the most common approach is to use the penalized maximum likelihood. The literature typically employs Lasso, Ridge and Elastic Net norms, which effectively shrink the entries of the estimated precision matrix. Although these shrinkage approaches provide well-conditioned precision matrix estimates, they do not explicitly address the uncertainty associated with these estimated matrices. In fact, as the matrix becomes sparser, the precision matrix imposes fewer restrictions, leading to greater variability in the distribution, and thus, to higher entropy. In this paper, we introduce an entropy-adjusted extension of widely used Graphical Lasso using an additional log-determinant penalty term. The objective of the proposed technique is to impose sparsity on the precision matrix estimate and adjust the uncertainty through the log-determinant term. The advantage of the proposed method compared to the existing ones in the literature is evaluated through comprehensive numerical analyses, including both simulated and real-world datasets. The results demonstrate its benefits compared to existing approaches in the literature, with respect to several evaluation metrics.",
+ "primary": "stat.ME"
+}

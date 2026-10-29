@@ -1,0 +1,18 @@
+{
+ "id": "2511.08772",
+ "title": "Deep neural expected shortfall regression with tail-robustness",
+ "authors": [
+  "Myeonghun Yu",
+  "Kean Ming Tan",
+  "Huixia Judy Wang",
+  "Wen-Xin Zhou"
+ ],
+ "v1_date": "2025-11-11",
+ "latest_version": 1,
+ "latest_date": "2025-11-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Expected shortfall (ES), also known as conditional value-at-risk, is a widely recognized risk measure that complements value-at-risk by capturing tail-related risks more effectively. Compared with quantile regression, which has been extensively developed and applied across disciplines, ES regression remains in its early stage, partly because the traditional empirical risk minimization framework is not directly applicable. In this paper, we develop a nonparametric framework for expected shortfall regression based on a two-step approach that treats the conditional quantile function as a nuisance parameter. Leveraging the representational power of deep neural networks, we construct a two-step ES estimator using feedforward ReLU networks, which can alleviate the curse of dimensionality when the underlying functions possess hierarchical composition structures. However, ES estimation is inherently sensitive to heavy-tailed response or error distributions. To address this challenge, we integrate a properly tuned Huber loss into the neural network training, yielding a robust deep ES estimator that is provably resistant to heavy-tailedness in a non-asymptotic sense and first-order insensitive to quantile estimation errors in the first stage. Comprehensive simulation studies and an empirical analysis of the effect of El Niño on extreme precipitation illustrate the accuracy and robustness of the proposed method.",
+ "primary": "stat.ME"
+}

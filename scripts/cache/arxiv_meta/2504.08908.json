@@ -1,0 +1,15 @@
+{
+ "id": "2504.08908",
+ "title": "Finite Mixture Cox Model for Heterogeneous Time-dependent Right-Censored Data",
+ "authors": [
+  "Ahmad Talafha"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 1,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this study, we address the challenge of survival analysis within heterogeneous patient populations, where traditional reliance on a single regression model such as the Cox proportional hazards (Cox PH) model often falls short. Recognizing that such populations frequently exhibit varying covariate effects, resulting in distinct subgroups, we argue for the necessity of using separate regression models for each subgroup to avoid the biases and inaccuracies inherent in a uniform model. To address subgroup identification and component selection in survival analysis, we propose a novel approach that integrates the Cox PH model with dynamic penalty functions, specifically the smoothly clipped absolute deviation (SCAD) and the minimax concave penalty (MCP). These modifications provide a more flexible and theoretically sound method for determining the optimal number of mixture components, which is crucial for accurately modeling heterogeneous datasets. Through a modified expectation--maximization (EM) algorithm for parameter estimation and component selection, supported by simulation studies and two real data analyses, our method demonstrates improved precision in risk prediction.",
+ "primary": "stat.ME"
+}

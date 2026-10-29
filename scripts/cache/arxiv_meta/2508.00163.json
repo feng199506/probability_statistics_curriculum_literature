@@ -1,0 +1,17 @@
+{
+ "id": "2508.00163",
+ "title": "Parametric convergence rate of some nonparametric estimators in mixtures of power series distributions",
+ "authors": [
+  "Fadoua Balabdaoui",
+  "Harald Besdziek",
+  "Yong Wang"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 7 figures",
+ "abstract": "We consider the problem of estimating a mixture of power series distributions with infinite support, to which belong very well-known models such as Poisson, Geometric, Logarithmic or Negative Binomial probability mass functions. We consider the nonparametric maximum likelihood estimator (NPMLE) and show that, under very mild assumptions, it converges to the true mixture distribution $π_0$ at a rate no slower than $(\\log n)^{3/2} n^{-1/2}$ in the Hellinger distance. Recent work on minimax lower bounds suggests that the logarithmic factor in the obtained Hellinger rate of convergence can not be improved, at least for mixtures of Poisson distributions. Furthermore, we construct nonparametric estimators that are based on the NPMLE and show that they converge to $π_0$ at the parametric rate $n^{-1/2}$ in the $\\ell_p$-norm ($p \\in [1, \\infty]$ or $p \\in [2, \\infty])$: The weighted least squares and hybrid estimators. Simulations and a real data application are considered to assess the performance of all estimators we study in this paper and illustrate the practical aspect of the theory. The simulations results show that the NPMLE has the best performance in the Hellinger, $\\ell_1$ and $\\ell_2$ distances in all scenarios. Finally, to construct confidence intervals of the true mixture probability mass function, both the nonparametric and parametric bootstrap procedures are considered. Their performances are compared with respect to the coverage and length of the resulting intervals.",
+ "primary": "math.ST"
+}

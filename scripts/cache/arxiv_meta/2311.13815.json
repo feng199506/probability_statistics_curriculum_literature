@@ -1,0 +1,17 @@
+{
+ "id": "2311.13815",
+ "title": "Resampling Methods with Imputed Data",
+ "authors": [
+  "Michael W. Robbins",
+  "Lane Burgette",
+  "Sebastian Bauhoff"
+ ],
+ "v1_date": "2023-11-23",
+ "latest_version": 1,
+ "latest_date": "2023-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Resampling techniques have become increasingly popular for estimation of uncertainty in data collected via surveys. Survey data are also frequently subject to missing data which are often imputed. This note addresses the issue of using resampling methods such as a jackknife or bootstrap in conjunction with imputations that have be sampled stochastically (e.g., in the vein of multiple imputation). It is illustrated that the imputations must be redrawn within each replicate group of a jackknife or bootstrap. Further, the number of multiply imputed datasets per replicate group must dramatically exceed the number of replicate groups for a jackknife. However, this is not the case in a bootstrap approach. A brief simulation study is provided to support the theory introduced in this note.",
+ "primary": "stat.ME"
+}

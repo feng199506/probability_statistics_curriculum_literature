@@ -1,0 +1,18 @@
+{
+ "id": "2605.24620",
+ "title": "Optimized multilevel Monte Carlo methods in Banach spaces",
+ "authors": [
+  "Kristin Kirchner",
+  "Fabio Nobile",
+  "Christoph Schwab",
+  "Tommaso Vanzan"
+ ],
+ "v1_date": "2026-05-23",
+ "latest_version": 1,
+ "latest_date": "2026-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 6 figures",
+ "abstract": "We present a theoretical and numerical analysis of Monte Carlo methods for the estimation of statistical moments of random variables $X:Ω\\rightarrow E$ taking values in a Banach space $E$. For practical computation, we consider finite-dimensional approximation subspaces ${(E_\\ell)_{\\ell\\in\\mathbb{N}}\\subset E}$ of increasing dimension. We develop a refined error analysis that explicitly accounts for a dependence of the Rademacher type constants on the dimension of $E_\\ell$, leading to novel complexity results for single- and multilevel Monte Carlo methods to estimate the mean and injective moments of arbitrary order, which are, in certain cases, sharper than those derived in [Kirchner, Schwab, J. Funct. Anal, 2024]. Moreover, we show that, in favorable cases, the resulting error-vs.-work bounds are independent of the Rademacher type of $E$. We then focus on $L^p(S)$-valued random variables for a $σ$-finite measure space satisfying certain approximation properties, and prove that for a random variable $X\\in L^q(Ω;L^p(S))\\cap L^p(S;L^q(Ω))$, with $q\\in (1,\\infty)$ and $p\\in [1,\\infty)$, the $L^q$-convergence rate of a Monte Carlo estimator is determined exclusively by the integrability parameter $\\min\\{q,2\\}$, with no dependence on the Rademacher type $\\min\\{p,2\\}$ of $L^p(S)$. We further investigate the impact of measuring the (multilevel) Monte Carlo error in the $L^q(Ω;L^p(S))$-norm while $X$ possesses additional regularity, $X\\in L^{\\tilde{q}}(Ω;L^p(S))\\cap L^p(S;L^{\\tilde{q}}(Ω))$ with $\\tilde{q}\\in [q,\\infty)$. This analysis reveals an interplay between the sampling error and the strong approximation error, and leads to optimized error-vs.-work bounds for both single- and multilevel Monte Carlo methods. Numerical experiments confirm the sharpness of the analyses presented.",
+ "primary": "math.NA"
+}

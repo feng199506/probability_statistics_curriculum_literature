@@ -1,0 +1,16 @@
+{
+ "id": "2511.20466",
+ "title": "Extrapolating into the Extremes with Minimum Distance Estimation",
+ "authors": [
+  "Alexis Boulin",
+  "Erik Haufs"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding complex dependencies and extrapolating beyond observations are key challenges in modeling environmental space-time extremes. To address this, we introduce a simplifying approach that projects a wide range of multivariate exceedance problems onto a univariate peaks-over-threshold problem. In this framework, an estimator is computed by minimizing the $L_2$-distance between the empirical distribution function of the data and the theoretical distribution of the model. Asymptotic properties of this estimator are derived and validated in a simulation study. We evaluated our estimator in the EVA (2025) conference Data Challenge as part of Team Bochum's submission. The challenge provided precipitation data from four runs of LENS2, an ensemble of long-term weather simulations, on a $5 \\times 5$ grid of locations centered at the grid point closest to Asheville, NC. Our estimator achieved a top-three rank in two of six competitive categories and won the overall preliminary challenge against ten competing teams.",
+ "primary": "stat.ME"
+}

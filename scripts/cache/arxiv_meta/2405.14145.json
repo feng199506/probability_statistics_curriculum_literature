@@ -1,0 +1,17 @@
+{
+ "id": "2405.14145",
+ "title": "Generalised Bayes Linear Inference",
+ "authors": [
+  "Lachlan Astfalck",
+  "Cassandra Bird",
+  "Daniel Williamson"
+ ],
+ "v1_date": "2024-05-23",
+ "latest_version": 3,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Bayesian Analysis",
+ "abstract": "Motivated by big data and the vast parameter spaces in modern machine learning models, optimisation approaches to Bayesian inference have seen a surge in popularity in recent years. In this paper, we address the connection between the popular new methods termed generalised Bayesian inference and Bayes linear methods. We propose a further generalisation to Bayesian inference that unifies these and other recent approaches by considering the Bayesian inference problem as one of finding the closest point in a particular solution space to a data generating process, where these notions differ depending on user-specified geometries and foundational belief systems. Motivated by this framework, we propose a generalisation to Bayes linear approaches that enables fast and principled inferences that obey the coherence requirements implied by domain restrictions on random quantities. We demonstrate the efficacy of generalised Bayes linear inference on a number of examples, including monotonic regression and inference for spatial counts. This paper is accompanied by an R package available at github.com/astfalckl/bayeslinear.",
+ "primary": "stat.ME"
+}

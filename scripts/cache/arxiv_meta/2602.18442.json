@@ -1,0 +1,15 @@
+{
+ "id": "2602.18442",
+ "title": "Ostrom-Weighted Bootstrap: A Theoretically Optimal and Provably Complete Framework for Hierarchical Imputation in Multi-Agent Systems",
+ "authors": [
+  "Hirofumi Wakimoto"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 1,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 pages, initial submission",
+ "abstract": "We study the statistical properties of the \\emph{Ostrom-Weighted Bootstrap} (OWB), a hierarchical, variance-aware resampling scheme for imputing missing values and estimating archetypes in multi-agent voting data. At Level~1, under mild linear model assumptions, the \\emph{ideal} OWB estimator -- with known persona-level (agent-level) variances -- is shown to be the Gauss--Markov best linear unbiased estimator (BLUE) and to strictly dominate uniform weighting whenever persona variances differ. At Level~2, within a canonical hierarchical normal model, the ideal OWB coincides with the conditional Bayesian posterior mean of the archetype. We then analyze the \\emph{feasible} OWB, which replaces unknown variances with hierarchically pooled empirical estimates, and show that it can be interpreted as both a feasible generalized least-squares (FGLS) and an empirical-Bayes shrinkage estimator with asymptotically valid weighted bootstrap confidence intervals under mild regularity conditions. Finally, we establish a Zero-NaN Guarantee: as long as each petal has at least one finite observation, the OWB imputation algorithm produces strictly NaN-free completed data using only explicit, non-uniform bootstrap weights and never resorting to uniform sampling or numerical zero-filling. To our knowledge, OWB is the first resampling-based method that simultaneously achieves exact BLUE optimality, conditional Bayesian posterior mean interpretation, empirical Bayes shrinkage of precision parameters, asymptotic efficiency via FGLS, consistent weighted bootstrap inference, and provable zero-NaN completion under minimal data assumptions.",
+ "primary": "stat.ME"
+}

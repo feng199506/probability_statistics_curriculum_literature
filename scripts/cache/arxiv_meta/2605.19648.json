@@ -1,0 +1,15 @@
+{
+ "id": "2605.19648",
+ "title": "Influence as soft sparsity: Estimation of monotone functions on $\\{0,1\\}^d$",
+ "authors": [
+  "Gérard Biau"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 1,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of estimating a monotone function $f:\\{0,1\\}^d\\to[0,1]$ from noisy observations at uniformly random vertices of the Boolean hypercube. As a measure of complexity for the target~$f$, we use the total $L^1$-influence $I(f)=\\sum\\_{i=1}^d(\\E[f(X)\\mid X\\_i=1]-\\E[f(X)\\mid X\\_i=0])$, a classical quantity in Boolean analysis that is nonnegative for monotone functions and controls the effective dimensionality of the estimation problem: through a spectral concentration result in the spirit of Friedgut's junta theorem, the Fourier spectrum of any $f$ with $I(f)\\leqslant K$ concentrates on low-degree subsets of the influential coordinates. We establish minimax bounds over the class $\\cF\\_K=\\{f:\\{0,1\\}^d\\to[0,1],\\;f\\text{ monotone},\\; I(f)\\leqslant K\\}$: \\[ c\\,\\frac{K^2}{(\\log n)^{3/2}} \\;\\leqslant\\; \\inf\\_{\\hat f}\\;\\sup\\_{f\\in\\cF\\_K}\\; \\E\\bigl[\\|\\hat f - f\\|\\_2^2\\bigr] \\;\\leqslant\\; C\\,\\frac{K}{\\sqrt{\\log n}}, \\] where $n$ is the sample size. The upper bound holds for all $K\\geqslant 1$ and is uniform in the ambient dimension~$d$ (under the mild condition $\\log d\\leqslant n^{1-\\varepsilon}$). It is achieved by a Fourier thresholding estimator that adapts to the unknown~$K$. The lower bound relies on a Varshamov--Gilbert packing on the middle layer of the hypercube combined with Fano's inequality.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2604.03122",
+ "title": "Nested Multilevel Monte Carlo with Preintegration for Efficient Risk Estimation",
+ "authors": [
+  "Yu Xu",
+  "Xiaoqun Wang"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nested Monte Carlo is widely used for risk estimation, but its efficiency is limited by the discontinuity of the indicator function and high computational cost. This paper proposes a nested Multilevel Monte Carlo (MLMC) method combined with preintegration for efficient risk estimation. We first use preintegration to integrate out one outer random variable, which effectively handles the discontinuity of the indicator function, then we construct the MLMC estimator with preintegration to reduce the computational cost. Our theoretical analysis proves that the strong convergence rate of the MLMC combined with preintegration reaches -1, compared with -1/2 for the standard MLMC. Consequently, we obtain a nearly optimal computational complexity. Besides, our method can also handle the high-kurtosis phenomenon caused by indicator functions. Numerical experiments verify that the smoothed MLMC with preintegration outperforms the standard MLMC and the optimal computational cost can be attained. Combining our method with quasi-Monte Carlo further improves its performance in high dimensions. Keywords: Nested simulation, Multilevel Monte Carlo, Risk estimation, Preintegration",
+ "primary": "math.NA"
+}

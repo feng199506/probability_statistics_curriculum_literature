@@ -1,0 +1,16 @@
+{
+ "id": "2505.10715",
+ "title": "Dependency-Aware Shrinkage Priors for High Dimensional Regression",
+ "authors": [
+  "Javier Enrique Aguilar",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 11 figures",
+ "abstract": "In high dimensional regression, global local shrinkage priors have gained significant traction for their ability to yield sparse estimates, improve parameter recovery, and support accurate predictive modeling. While recent work has explored increasingly flexible shrinkage prior structures, the role of explicitly modeling dependencies among coefficients remains largely unexplored. In this paper, we investigate whether incorporating such structures into traditional shrinkage priors improves their performance. We introduce dependency-aware shrinkage priors, an extension of continuous shrinkage priors that integrates correlation structures inspired by Zellner's g prior approach. We provide theoretical insights into how dependence alters the prior and posterior structure, and evaluate the method empirically through simulations and real data. We find that modeling dependence can improve parameter recovery when predictors are strongly correlated, but offers only modest gains in predictive accuracy. These findings suggest that prior dependence should be used selectively and guided by the specific inferential goals of the analysis.",
+ "primary": "stat.ME"
+}

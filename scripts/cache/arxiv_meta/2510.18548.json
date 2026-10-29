@@ -1,0 +1,16 @@
+{
+ "id": "2510.18548",
+ "title": "Interval Prediction of Annual Average Daily Traffic on Local Roads via Quantile Random Forest with High-Dimensional Spatial Data",
+ "authors": [
+  "Ying Yao",
+  "Daniel J. Graham"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate annual average daily traffic (AADT) data are vital for transport planning and infrastructure management. However, automatic traffic detectors across national road networks often provide incomplete coverage, leading to underrepresentation of minor roads. While recent machine learning advances have improved AADT estimation at unmeasured locations, most models produce only point predictions and overlook estimation uncertainty. This study addresses that gap by introducing an interval prediction approach that explicitly quantifies predictive uncertainty. We integrate a Quantile Random Forest model with Principal Component Analysis to generate AADT prediction intervals, providing plausible traffic ranges bounded by estimated minima and maxima. Using data from over 2,000 minor roads in England and Wales, and evaluated with specialized interval metrics, the proposed method achieves an interval coverage probability of 88.22%, a normalized average width of 0.23, and a Winkler Score of 7,468.47. By combining machine learning with spatial and high-dimensional analysis, this framework enhances both the accuracy and interpretability of AADT estimation, supporting more robust and informed transport planning.",
+ "primary": "stat.ML"
+}

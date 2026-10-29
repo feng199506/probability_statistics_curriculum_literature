@@ -1,0 +1,15 @@
+{
+ "id": "2502.06564",
+ "title": "Nearly Optimal Robust Covariance and Scatter Matrix Estimation Beyond Gaussians",
+ "authors": [
+  "Gleb Novikov"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2025-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of computationally efficient robust estimation of the covariance/scatter matrix of elliptical distributions -- that is, affine transformations of spherically symmetric distributions -- under the strong contamination model in the high-dimensional regime $d \\gtrsim 1/\\varepsilon^2$, where $d$ is the dimension and $\\varepsilon$ is the fraction of adversarial corruptions. We propose an algorithm that, under a very mild assumption on the scatter matrix $Σ$, and given a nearly optimal number of samples $n = \\tilde{O}(d^2/\\varepsilon^2)$, computes in polynomial time an estimator $\\hatΣ$ such that, with high probability, \\[ \\left\\| Σ^{-1/2} \\hatΣ Σ^{-1/2} - Id \\right\\|_{\\text F} \\le O(\\varepsilon \\log(1/\\varepsilon))\\,. \\] As an application of our result, we obtain the first efficiently computable, nearly optimal robust covariance estimators that extend beyond the Gaussian case. Specifically, for elliptical distributions satisfying the Hanson--Wright inequality (such as Gaussians and uniform distributions over ellipsoids), our estimator $\\hatΣ$ of the covariance $Σ$ achieves the same error guarantee as in the Gaussian case. Moreover, for elliptical distributions with sub-exponential tails (such as the multivariate Laplace distribution), we construct an estimator $\\hatΣ$ satisfying the spectral norm bound \\[ \\left\\| Σ^{-1/2} \\hatΣ Σ^{-1/2} - Id \\right\\| \\le O(\\varepsilon \\log(1/\\varepsilon))\\,. \\] Our approach is based on estimating the covariance of the spatial sign of elliptical distributions. The estimation proceeds in several stages, one of which involves a novel spectral covariance filtering algorithm. This algorithm combines covariance filtering techniques with degree-4 sum-of-squares relaxations, and we believe it may be of independent interest for future applications.",
+ "primary": "cs.DS"
+}

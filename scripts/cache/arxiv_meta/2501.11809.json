@@ -1,0 +1,18 @@
+{
+ "id": "2501.11809",
+ "title": "Dynamic Risk-Adjusted Monitoring of Time Between Events: Applications of NHPP in Pipeline Accident Surveillance",
+ "authors": [
+  "Hussam Ahmad",
+  "Adel Ahmadi Nadi",
+  "Mohammad Amini",
+  "Subhabrata Chakraborti"
+ ],
+ "v1_date": "2025-01-21",
+ "latest_version": 1,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monitoring time between events (TBE) is a critical task in industrial settings. Traditional Statistical Process Monitoring (SPM) methods often assume that TBE variables follow an exponential distribution, which implies a constant failure intensity. While this assumption may hold for products with homogeneous quality, it is less appropriate for complex systems, such as repairable systems, where failure mechanisms evolve over time due to degradation or aging. In such cases, the Non-Homogeneous Poisson Process (NHPP), which accommodates time-varying failure intensity, is a more suitable model. Furthermore, failure patterns in complex systems are frequently influenced by risk factors, including environmental conditions and human interventions, and system failures often incur restoration costs. This work introduces a novel approach: a risk-adjusted control chart based on the NHPP model, specifically designed to monitor the ratio of cost to TBE, referred to as the average cost per time unit (AC). The proposed method is evaluated through extensive simulations, demonstrating its superior performance. Additionally, the chart is applied to monitor pipeline accidents over time, accounting for the impact of various risk factors. These results highlight the effectiveness of the developed chart in enhancing monitoring capabilities for complex systems.",
+ "primary": "stat.ME"
+}

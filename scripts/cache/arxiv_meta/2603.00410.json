@@ -1,0 +1,17 @@
+{
+ "id": "2603.00410",
+ "title": "Sensitivity Analysis for False Discovery Rate Estimation with Published p-Values",
+ "authors": [
+  "Tianyu Cao",
+  "Sangyoon Yi",
+  "Joshua Habiger"
+ ],
+ "v1_date": "2026-02-28",
+ "latest_version": 1,
+ "latest_date": "2026-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There is recent interest in estimating the false discovery rate (FDR) with published p-values. However, there is little formal research that addresses the manner and extent to which the presumed selection, or publication, bias model impacts the bias and variance of FDR estimators. This manuscript provides general and closed-form expressions for the bias and variance of an established FDR estimator when the publication bias model (p<0.05) may or may not be correct. Expressions reveal that FDR estimates could be conservative or liberal, depending on how well a $p<0.05$ publication rule approximates the true selection mechanism. Analysis of a well-studied large-scale replication project in psychology, where selection model parameters are estimable, suggests that bias expressions are accurate in practice. Another well-studied collection of p-values mined from medical journal abstracts is used to illustrate how provided closed-form expressions may facilitate a simple sensitivity analysis when the goal is FDR estimation using selected p-values with unknown selection mechanism.",
+ "primary": "stat.ME"
+}

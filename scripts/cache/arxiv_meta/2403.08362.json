@@ -1,0 +1,17 @@
+{
+ "id": "2403.08362",
+ "title": "Mean-Field Microcanonical Gradient Descent",
+ "authors": [
+  "Marcus Häggbom",
+  "Morten Karlsmark",
+  "Joakim Andén"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 2,
+ "latest_date": "2024-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Microcanonical gradient descent is a sampling procedure for energy-based models allowing for efficient sampling of distributions in high dimension. It works by transporting samples from a high-entropy distribution, such as Gaussian white noise, to a low-energy region using gradient descent. We put this model in the framework of normalizing flows, showing how it can often overfit by losing an unnecessary amount of entropy in the descent. As a remedy, we propose a mean-field microcanonical gradient descent that samples several weakly coupled data points simultaneously, allowing for better control of the entropy loss while paying little in terms of likelihood fit. We study these models in the context of financial time series, illustrating the improvements on both synthetic and real data.",
+ "primary": "stat.ML"
+}

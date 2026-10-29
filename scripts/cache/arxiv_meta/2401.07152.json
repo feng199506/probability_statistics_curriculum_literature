@@ -1,0 +1,16 @@
+{
+ "id": "2401.07152",
+ "title": "Inference for Synthetic Controls via Refined Placebo Tests",
+ "authors": [
+  "Lihua Lei",
+  "Timothy Sudijono"
+ ],
+ "v1_date": "2024-01-13",
+ "latest_version": 3,
+ "latest_date": "2025-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages. V3: New results + references",
+ "abstract": "The synthetic control method is often applied to problems with one treated unit and a small number of control units. A common inferential task in this setting is to test null hypotheses regarding the average treatment effect on the treated. Inference procedures that are justified asymptotically are often unsatisfactory due to (1) small sample sizes that render large-sample approximation fragile and (2) simplification of the estimation procedure that is implemented in practice. An alternative is permutation inference, which is related to a common diagnostic called the placebo test. It has provable Type-I error guarantees in finite samples without simplification of the method, when the treatment is uniformly assigned. Despite this robustness, the placebo test suffers from low resolution since the null distribution is constructed from only $N$ reference estimates, where $N$ is the sample size. This creates a barrier for statistical inference at a common level like $α= 0.05$, especially when $N$ is small. We propose a novel leave-two-out procedure that bypasses this issue, while still maintaining the same finite-sample Type-I error guarantee under uniform assignment for a wide range of $N$. Unlike the placebo test whose Type-I error always equals the theoretical upper bound, our procedure often achieves a lower unconditional Type-I error than theory suggests; this enables useful inference in the challenging regime when $α< 1/N$. Empirically, our procedure achieves a higher power when the effect size is reasonably large and a comparable power otherwise. We generalize our procedure to non-uniform assignments and show how to conduct sensitivity analysis. From a methodological perspective, our procedure can be viewed as a new type of randomization inference different from permutation or rank-based inference, which is particularly effective in small samples.",
+ "primary": "stat.ME"
+}

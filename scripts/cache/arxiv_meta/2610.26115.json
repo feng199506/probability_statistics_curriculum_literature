@@ -1,0 +1,16 @@
+{
+ "id": "2610.26115",
+ "title": "Dunnett's and Tukey's procedures under mixed model covariance structures: dimensional reduction of multivariate-t integrals",
+ "authors": [
+  "Dmytro Ivanchenko",
+  "Rostyslav Yamnenko"
+ ],
+ "v1_date": "2026-10-19",
+ "latest_version": 1,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dunnett's test compares several treatments with one control, and Tukey's test compares every pair for independent samples with a common variance. We investigate which designs and covariances for a linear mixed model remain on the ordinary Dunnett and Tukey integrals, and in which direction the constants move when the correlation changes. It is shown that for Dunnett's procedure AR(1), the Toeplitz band, alternating ante-dependence, and the random slope have roots below the ordinary analysis-of-variance value, while heterogeneous compound symmetry and heteroscedastic groups have roots above that value. For Tukey's procedure every computed non-spherical covariance lowers the root. The second goal is the dimensional reduction of these multivariate-t integrals: a normal probability mixed over one chi-square scale. Conditioning on the latent variables shared by the contrasts replaces that probability by a product of univariate normals, and the integral has the dimension of the conditioning vector plus one. Balanced compound symmetry leaves a double integral. The studentized range reduces to the Pearson-Hartley integral. The reduction stops for asymmetric overlap of four or more treatments, for four or more autoregressive or unstructured follow-up times, for pair-dependent variances or correlated disjoint pairs, and for a separate variance estimate in each group.",
+ "primary": "math.ST"
+}

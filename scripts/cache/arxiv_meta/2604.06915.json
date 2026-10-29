@@ -1,0 +1,16 @@
+{
+ "id": "2604.06915",
+ "title": "Covariance Correction for Permutation Statistics in Multiple Testing Problems",
+ "authors": [
+  "Merle Munko",
+  "Paavo Sattler"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In qualitative statistics, permutation tests are very popular, mainly because of their finite-sample exactness under exchangeability. However, in non-exchangeable settings, the covariance structure of permuted statistics typically differs from that of the original statistic. A common solution is studentization, which restores asymptotic correctness for general hypotheses while preserving exactness under exchangeability. In multiple testing settings, however, standard studentization fails to provide the correct joint limiting distribution. Existing solutions such as prepivoting address this issue but are computationally expensive and therefore rarely used in practice. We propose a general, computationally more efficient methodology that overcomes this fundamental limitation. By appropriately correcting the covariance matrix of multiple permutation statistics, our approach restores the correct joint asymptotic dependence structure, enabling asymptotically valid permutation tests in broad multiple testing frameworks. The proposed method is highly flexible: it accommodates singular covariance structures and is not tied to specific parameters, test statistics, or permutation schemes. This generality makes it applicable across a wide range of problems. Extensive simulation studies demonstrate that our approach results in reliable inference and outperforms existing methods across diverse settings.",
+ "primary": "stat.ME"
+}

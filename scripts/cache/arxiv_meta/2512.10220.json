@@ -1,0 +1,16 @@
+{
+ "id": "2512.10220",
+ "title": "On Learning-Curve Monotonicity for Maximum Likelihood Estimators",
+ "authors": [
+  "Mark Sellke",
+  "Steven Yin"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 2,
+ "latest_date": "2025-12-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages; updated references",
+ "abstract": "The property of learning-curve monotonicity, highlighted in a recent series of work by Loog, Mey and Viering, describes algorithms which only improve in average performance given more data, for any underlying data distribution within a given family. We establish the first nontrivial monotonicity guarantees for the maximum likelihood estimator in a variety of well-specified parametric settings. For sequential prediction with log loss, we show monotonicity (in fact complete monotonicity) of the forward KL divergence for Gaussian vectors with unknown covariance and either known or unknown mean, as well as for Gamma variables with unknown scale parameter. The Gaussian setting was explicitly highlighted as open in the aforementioned works, even in dimension 1. Finally we observe that for reverse KL divergence, a folklore trick yields monotonicity for very general exponential families. All results in this paper were derived by variants of GPT-5.2 Pro. Humans did not provide any proof strategies or intermediate arguments, but only prompted the model to continue developing additional results, and verified and transcribed its proofs.",
+ "primary": "math.ST"
+}

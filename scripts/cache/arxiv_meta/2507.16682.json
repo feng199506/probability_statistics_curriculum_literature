@@ -1,0 +1,18 @@
+{
+ "id": "2507.16682",
+ "title": "Structural Effect and Spectral Enhancement of High-Dimensional Regularized Linear Discriminant Analysis",
+ "authors": [
+  "Yonghan Zhang",
+  "Zhangni Pu",
+  "Lu Yan",
+  "Jiang Hu"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Regularized linear discriminant analysis (RLDA) is a widely used tool for classification and dimensionality reduction, but its performance in high-dimensional scenarios is inconsistent. Existing theoretical analyses of RLDA often lack clear insight into how data structure affects classification performance. To address this issue, we derive a non-asymptotic approximation of the misclassification rate and thus analyze the structural effect and structural adjustment strategies of RLDA. Based on this, we propose the Spectral Enhanced Discriminant Analysis (SEDA) algorithm, which optimizes the data structure by adjusting the spiked eigenvalues of the population covariance matrix. By developing a new theoretical result on eigenvectors in random matrix theory, we derive an asymptotic approximation on the misclassification rate of SEDA. The bias correction algorithm and parameter selection strategy are then obtained. Experiments on synthetic and real datasets show that SEDA achieves higher classification accuracy and dimensionality reduction compared to existing LDA methods.",
+ "primary": "stat.ML"
+}

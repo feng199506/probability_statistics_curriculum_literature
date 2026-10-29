@@ -1,0 +1,18 @@
+{
+ "id": "2511.09823",
+ "title": "Diagnostics for Semiparametric Accelerated Failure Time Models with R Package afttest",
+ "authors": [
+  "Woojung Bae",
+  "Dongrak Choi",
+  "Jun Yan",
+  "Sangwook Kang"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The semiparametric accelerated failure time (AFT) model offers a direct and interpretable alternative to the Cox proportional hazards model, yet practical diagnostic tools for this framework remain limited. We introduce afttest, an R package that implements martingale-residual-based goodness-of-fit procedures for semiparametric AFT models. In addition to the recently developed multiplier bootstrap diagnostics, the package introduces a new computationally efficient resampling strategy based on an influence-function linear approximation. Unlike the original approach, which requires repeatedly solving estimating equations for each bootstrap replicate, the proposed method avoids iterative optimization and substantially reduces computation time while preserving asymptotic validity. Both the standard multiplier bootstrap and the accelerated linear approximation are implemented, allowing users to balance finite-sample performance and computational scalability. The package supports rank-based and least-squares estimators, provides omnibus, link function, and functional form tests, and includes graphical tools for visualizing residual processes. An application to the Mayo Clinic primary biliary cirrhosis study illustrates the workflow.",
+ "primary": "stat.CO"
+}

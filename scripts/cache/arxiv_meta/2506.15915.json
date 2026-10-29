@@ -1,0 +1,16 @@
+{
+ "id": "2506.15915",
+ "title": "Estimating Multiple Weighted Networks with Node-Sparse Differences and Shared Low-Rank Structure",
+ "authors": [
+  "Hao Yan",
+  "Keith Levin"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of modeling multiple symmetric, weighted networks defined on a common set of nodes, where networks arise from different groups or conditions. We propose a model in which each network is expressed as the sum of a shared low-rank structure and a node-sparse matrix that captures the differences between conditions. This formulation is motivated by practical scenarios, such as in connectomics, where most nodes share a global connectivity structure while only a few exhibit condition-specific deviations. We develop a multi-stage estimation procedure that combines a spectral initialization step, semidefinite programming for support recovery, and a debiased refinement step for low-rank estimation. We establish minimax-optimal guarantees for recovering the shared low-rank component under the row-wise $\\ell_{2,\\infty}$ norm and elementwise $\\ell_{\\infty}$ norm, as well as for detecting node-level perturbations under various signal-to-noise regimes. We demonstrate that the availability of multiple networks can significantly enhance estimation accuracy compared to single-network settings. Additionally, we show that commonly-used methods such as group Lasso may provably fail to recover the sparse structure in this setting, a result which might be of independent interest.",
+ "primary": "math.ST"
+}

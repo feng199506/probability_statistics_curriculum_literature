@@ -1,0 +1,18 @@
+{
+ "id": "2509.15359",
+ "title": "Bayesian Mixture Models for Heterogeneous Extremes",
+ "authors": [
+  "Viviana Carcaiso",
+  "Miguel de Carvalho",
+  "Ilaria Prosdocimi",
+  "Isadora Antoniano-Villalobos"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper updated based on reviewers' comments",
+ "abstract": "The conventional use of the Generalized Extreme Value (GEV) distribution to model block maxima may be inappropriate when extremes are actually structured into multiple heterogeneous groups. In this work, we propose a novel approach for describing the behavior of extreme values in the presence of such heterogeneity. Rather than defaulting to the GEV distribution simply because it arises as a theoretical limit, we show that alternative block maxima-based models can also align with the extremal types theorem while providing improved flexibility in practice. Our formulation leads us to a mixture model that has a Bayesian nonparametric interpretation as a Dirichlet process mixture of GEV distributions. The use of an infinite number of components enables the characterization of every possible block behavior, while at the same time capturing similarities between observations based on their extremal behavior. By employing a Dirichlet process prior on the mixing measure, we can capture the complex structure of the data without the need to pre-specify the number of mixture components. The application of the proposed model is illustrated using both simulated and real-world data.",
+ "primary": "stat.ME"
+}

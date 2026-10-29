@@ -1,0 +1,17 @@
+{
+ "id": "2609.29231",
+ "title": "Choosing the penalty in nonparametric regression: short and long-range dependence",
+ "authors": [
+  "Emmanuel Caron Parte",
+  "Jérôme Dedecker",
+  "Bertrand Michel"
+ ],
+ "v1_date": "2026-09-24",
+ "latest_version": 1,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work, we study the one-dimensional regression problem under random design and Gaussian errors. Our framework is very general: we make no prior assumptions about the design (which may be nonstationary and exhibit short or long-range dependence), nor do we assume that the errors are homoscedastic. We examine in detail the cases where the error process exhibits short or long-range dependence. We adopt a least-squares penalized strategy using piecewise polynomials to estimate the regression function, following the framework of Baron, Birg{é} and Massart [1999]. We derive explicit penalties, up to calibration constants, to obtain adaptive estimators for which we establish risk bounds. Since these penalties depend on the dependence properties of the error process, which are unknown in practice, we propose several adaptations of the dimension jump calibration algorithm to make our procedures fully data-driven.",
+ "primary": "math.ST"
+}

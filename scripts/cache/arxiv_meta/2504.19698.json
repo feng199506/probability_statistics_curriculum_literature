@@ -1,0 +1,17 @@
+{
+ "id": "2504.19698",
+ "title": "Advances in Approximate Bayesian Inference for Models in Epidemiology",
+ "authors": [
+  "Xiahui Li",
+  "Fergus Chadwick",
+  "Ben Swallow"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference methods are useful in infectious diseases modeling due to their capability to propagate uncertainty, manage sparse data, incorporate latent structures, and address high-dimensional parameter spaces. However, parameter inference through assimilation of observational data in these models remains challenging. While asymptotically exact Bayesian methods offer theoretical guarantees for accurate inference, they can be computationally demanding and impractical for real-time outbreak analysis. This review synthesizes recent advances in approximate Bayesian inference methods that aim to balance inferential accuracy with scalability. We focus on four prominent families: Approximate Bayesian Computation, Bayesian Synthetic Likelihood, Integrated Nested Laplace Approximation, and Variational Inference. For each method, we evaluate its relevance to epidemiological applications, emphasizing innovations that improve both computational efficiency and inference accuracy. We also offer practical guidance on method selection across a range of modeling scenarios. Finally, we identify hybrid exact approximate inference as a promising frontier that combines methodological rigor with the scalability needed for the response to outbreaks. This review provides epidemiologists with a conceptual framework to navigate the trade-off between statistical accuracy and computational feasibility in contemporary disease modeling.",
+ "primary": "stat.ME"
+}

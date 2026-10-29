@@ -1,0 +1,16 @@
+{
+ "id": "2502.03693",
+ "title": "Misspecification-Robust Shrinkage and Selection for VAR Forecasts and IRFs",
+ "authors": [
+  "Oriol González-Casasús",
+  "Frank Schorfheide"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 2,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Vector autoregressions (VARs) are vulnerable to dynamic misspecification, forcing researchers to navigate complex bias-variance trade-offs when forecasting or estimating impulse response functions (IRFs). We derive novel, task-specific selection criteria -- PC for forecasting and IRFC for IRF estimation -- based on asymptotically unbiased estimates of frequentist risk under local dynamic misspecification. These criteria give empirical researchers a fully data-driven and misspecification-aware workflow that simultaneously selects among candidate estimators, the degree of Bayesian shrinkage, and the lag length. IRFC is the first criterion allowing researchers to seamlessly choose between iterated-VAR and local-projection IRF estimators while jointly tuning shrinkage and lag length for the task at hand.",
+ "primary": "econ.EM"
+}

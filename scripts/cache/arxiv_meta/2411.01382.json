@@ -1,0 +1,19 @@
+{
+ "id": "2411.01382",
+ "title": "On MCMC mixing for predictive inference under unidentified transformation models",
+ "authors": [
+  "Chong Zhong",
+  "Jin Yang",
+  "Junshan Shen",
+  "Zhaohai Li",
+  "Catherine C. Liu"
+ ],
+ "v1_date": "2024-11-03",
+ "latest_version": 4,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable Bayesian predictive inference has long been an open problem under unidentified transformation models, since the Markov Chain Monte Carlo (MCMC) chains of posterior predictive distribution (PPD) values are generally poorly mixed. We address the poorly mixed PPD value chains under unidentified transformation models through an adaptive scheme for prior adjustment. Specifically, we originate a conception of sufficient informativeness, which explicitly quantifies the information level provided by nonparametric priors, and assesses MCMC mixing by comparison with the within-chain MCMC variance. We formulate the prior information level by a set of hyperparameters induced from the nonparametric prior elicitation with an analytic expression, which is guaranteed by asymptotic theory for the posterior variance under unidentified transformation models. The analytic prior information level consequently drives a hyperparameter tuning procedure to achieve MCMC mixing. The proposed method is general enough to cover various data domains through a multiplicative error working model. Comprehensive simulations and real-world data analysis demonstrate that our method successfully achieves MCMC mixing and outperforms state-of-the-art competitors in predictive capability.",
+ "primary": "stat.ME"
+}

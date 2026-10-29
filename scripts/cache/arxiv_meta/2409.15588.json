@@ -1,0 +1,16 @@
+{
+ "id": "2409.15588",
+ "title": "Eigenvalue Statistics for Change-Point Detection in Covariance Matrices",
+ "authors": [
+  "Nina Dörnemann",
+  "Holger Dette"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 3,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Testing for change points in sequences of covariance matrices is an important and equally challenging problem in statistical methodology with applications in various fields. Motivated by the observation that even in cases where the ratio between dimension and sample size is as small as $0.05$, tests based on a fixed-dimension asymptotics do not keep their preassigned level, we propose to derive critical values of test statistics using an asymptotic regime where the dimension diverges at the same rate as the sample size. This paper introduces a novel and well-founded statistical methodology for detecting change points in a sequence of moderately dimensional covariance matrices. Our approach utilizes a min-type statistic based on a sequential process of likelihood ratio statistics. This is used to construct a test for the hypothesis of the existence of a change point with a corresponding estimator for its location. We provide theoretical guarantees by thoroughly analyzing the asymptotic properties of the sequential process of likelihood ratio statistics. In particular, we prove weak convergence towards a Gaussian process under the null hypothesis of no change. To identify the challenging dependency structure between consecutive test statistics, we employ tools from random matrix theory and stochastic processes.",
+ "primary": "math.ST"
+}

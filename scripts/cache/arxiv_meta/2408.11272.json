@@ -1,0 +1,17 @@
+{
+ "id": "2408.11272",
+ "title": "High-Dimensional Overdispersed Generalized Factor Model with Application to Single-Cell Sequencing Data Analysis",
+ "authors": [
+  "Jinyu Nie",
+  "Zhilong Qin",
+  "Wei Liu"
+ ],
+ "v1_date": "2024-08-21",
+ "latest_version": 1,
+ "latest_date": "2024-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The current high-dimensional linear factor models fail to account for the different types of variables, while high-dimensional nonlinear factor models often overlook the overdispersion present in mixed-type data. However, overdispersion is prevalent in practical applications, particularly in fields like biomedical and genomics studies. To address this practical demand, we propose an overdispersed generalized factor model (OverGFM) for performing high-dimensional nonlinear factor analysis on overdispersed mixed-type data. Our approach incorporates an additional error term to capture the overdispersion that cannot be accounted for by factors alone. However, this introduces significant computational challenges due to the involvement of two high-dimensional latent random matrices in the nonlinear model. To overcome these challenges, we propose a novel variational EM algorithm that integrates Laplace and Taylor approximations. This algorithm provides iterative explicit solutions for the complex variational parameters and is proven to possess excellent convergence properties. We also develop a criterion based on the singular value ratio to determine the optimal number of factors. Numerical results demonstrate the effectiveness of this criterion. Through comprehensive simulation studies, we show that OverGFM outperforms state-of-the-art methods in terms of estimation accuracy and computational efficiency. Furthermore, we demonstrate the practical merit of our method through its application to two datasets from genomics. To facilitate its usage, we have integrated the implementation of OverGFM into the R package GFM.",
+ "primary": "stat.ME"
+}

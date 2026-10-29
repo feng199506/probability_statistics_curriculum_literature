@@ -1,0 +1,19 @@
+{
+ "id": "2508.14482",
+ "title": "On the notion of missingness for path attribution explainability methods in medical settings: Guiding the selection of medically meaningful baselines",
+ "authors": [
+  "Alexander Geiger",
+  "Lars Wagner",
+  "Daniel Rueckert",
+  "Dirk Wilhelm",
+  "Alissa Jell"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 3,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The explainability of deep learning models remains a significant challenge, particularly in the medical domain where interpretable outputs are essential for clinical trust and transparency. Path attribution methods such as Integrated Gradients rely on a baseline that represents the absence of informative features, a notion commonly referred to as missingness. Standard baselines, such as all-zero inputs, are often semantically meaningless in medical contexts, where intensity values carry clinical significance. In this work, we revisit the notion of missingness for medical imaging, expose the limitations of standard baselines in this setting, and formalize a stricter missingness we term semantic missingness: a baseline must not merely lack signal, but must represent a clinically plausible state in which the disease-related features are absent. This formulation motivates a counterfactual-guided approach to baseline selection, in which a synthetically generated counterfactual (i.e. a clinically normal variant of the pathological input) serves as a principled and semantically meaningful reference. We derive theoretical guarantees showing that counterfactual baselines yield more faithful attributions than standard alternatives, and empirically validate this with two complementary counterfactual generative models, a VAE and a diffusion model, though the concept is model-agnostic and compatible with any suitable counterfactual method. Across three diverse medical datasets, counterfactual baselines produce more faithful and medically relevant attributions, outperforming standard baseline choices as well as related methods. Notably, we also compare against using the counterfactual directly as an explanation (an established paradigm in its own) and show that employing it as a baseline for Integrated Gradients yields superior results, thereby bridging two complementary explainability paradigms.",
+ "primary": "cs.LG"
+}

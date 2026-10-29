@@ -1,0 +1,16 @@
+{
+ "id": "2403.01330",
+ "title": "Re-evaluating the impact of hormone replacement therapy on heart disease using match-adaptive randomization inference",
+ "authors": [
+  "Samuel D. Pimentel",
+  "Ruoqi Yu"
+ ],
+ "v1_date": "2024-03-02",
+ "latest_version": 1,
+ "latest_date": "2024-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 5 tables, 4 figures",
+ "abstract": "Matching is an appealing way to design observational studies because it mimics the data structure produced by stratified randomized trials, pairing treated individuals with similar controls. After matching, inference is often conducted using methods tailored for stratified randomized trials in which treatments are permuted within matched pairs. However, in observational studies, matched pairs are not predetermined before treatment; instead, they are constructed based on observed treatment status. This introduces a challenge as the permutation distributions used in standard inference methods do not account for the possibility that permuting treatments might lead to a different selection of matched pairs ($Z$-dependence). To address this issue, we propose a novel and computationally efficient algorithm that characterizes and enables sampling from the correct conditional distribution of treatment after an optimal propensity score matching, accounting for $Z$-dependence. We show how this new procedure, called match-adaptive randomization inference, corrects for an anticonservative result in a well-known observational study investigating the impact of hormone replacement theory (HRT) on coronary heart disease and corroborates experimental findings about heterogeneous effects of HRT across different ages of initiation in women. Keywords: matching, causal inference, propensity score, permutation test, Type I error, graphs.",
+ "primary": "stat.ME"
+}

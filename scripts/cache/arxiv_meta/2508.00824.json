@@ -1,0 +1,18 @@
+{
+ "id": "2508.00824",
+ "title": "Local Poisson Deconvolution for Discrete Signals",
+ "authors": [
+  "Shayan Hundrieser",
+  "Tudor Manole",
+  "Danila Litskevich",
+  "Axel Munk"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 1,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The first two authors contributed equally",
+ "abstract": "We analyze the statistical problem of recovering an atomic signal, modeled as a discrete uniform distribution $μ$, from a binned Poisson convolution model. This question is motivated, among others, by super-resolution laser microscopy applications, where precise estimation of $μ$ provides insights into spatial formations of cellular protein assemblies. Our main results quantify the local minimax risk of estimating $μ$ for a broad class of smooth convolution kernels. This local perspective enables us to sharply quantify optimal estimation rates as a function of the clustering structure of the underlying signal. Moreover, our results are expressed under a multiscale loss function, which reveals that different parts of the underlying signal can be recovered at different rates depending on their local geometry. Overall, these results paint an optimistic perspective on the Poisson deconvolution problem, showing that accurate recovery is achievable under a much broader class of signals than suggested by existing global minimax analyses. Beyond Poisson deconvolution, our results also allow us to establish the local minimax rate of parameter estimation in Gaussian mixture models with uniform weights. We apply our methods to experimental super-resolution microscopy data to identify the location and configuration of individual DNA origamis. In addition, we complement our findings with numerical experiments on runtime and statistical recovery that showcase the practical performance of our estimators and their trade-offs.",
+ "primary": "math.ST"
+}

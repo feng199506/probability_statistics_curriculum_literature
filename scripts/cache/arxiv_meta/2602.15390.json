@@ -1,0 +1,16 @@
+{
+ "id": "2602.15390",
+ "title": "Space-filling lattice designs for computer experiments",
+ "authors": [
+  "Naoki Sakai",
+  "Takashi Goda"
+ ],
+ "v1_date": "2026-02-17",
+ "latest_version": 1,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figures",
+ "abstract": "This paper investigates the construction of space-filling designs for computer experiments. The space-filling property is characterized by the covering and separation radii of a design, which are integrated through the unified criterion of quasi-uniformity. We focus on a special class of designs, known as quasi-Monte Carlo (QMC) lattice point sets, and propose two construction algorithms. The first algorithm generates rank-1 lattice point sets as an approximation of quasi-uniform Kronecker sequences, where the generating vector is determined explicitly. As a byproduct of our analysis, we prove that this explicit point set achieves an isotropic discrepancy of $O(N^{-1/d})$. The second algorithm utilizes Korobov lattice point sets, employing the Lenstra--Lenstra--Lovász (LLL) basis reduction algorithm to identify the generating vector that ensures quasi-uniformity. Numerical experiments are provided to validate our theoretical claims regarding quasi-uniformity. Furthermore, we conduct empirical comparisons between various QMC point sets in the context of Gaussian process regression, showcasing the efficacy of the proposed designs for computer experiments.",
+ "primary": "stat.ME"
+}

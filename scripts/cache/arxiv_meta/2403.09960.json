@@ -1,0 +1,18 @@
+{
+ "id": "2403.09960",
+ "title": "Multivariate Gaussian Approximation for Random Forest via Region-based Stabilization",
+ "authors": [
+  "Zhaoyang Shi",
+  "Chinmoy Bhattacharjee",
+  "Krishnakumar Balasubramanian",
+  "Wolfgang Polonik"
+ ],
+ "v1_date": "2024-03-15",
+ "latest_version": 4,
+ "latest_date": "2025-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We derive Gaussian approximation bounds for $k$-Potential Nearest Neighbor ($k$-PNN) based random forest predictions based on a set of training points given by a Poisson process under fairly mild regularity assumptions on the data generating process. Our approach is based on the key observation that $k$-PNN based random forest predictions satisfy a certain geometric property called region-based stabilization. We also compare the rates with those of $k$-nearest neighbor-based random forests, highlighting a form of universality in our result. In the process of developing our results, we also establish a probabilistic result on multivariate Gaussian approximation bounds for general functionals of Poisson process that are region-based stabilizing. This general result makes use of the Malliavin-Stein method, and is potentially applicable to various related statistical problems.",
+ "primary": "math.ST"
+}

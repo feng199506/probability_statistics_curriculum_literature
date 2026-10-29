@@ -1,0 +1,15 @@
+{
+ "id": "2605.09509",
+ "title": "Empirical Bayes 1-bit matrix completion",
+ "authors": [
+  "Takeru Matsuda"
+ ],
+ "v1_date": "2026-05-10",
+ "latest_version": 2,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The problem of predicting unobserved entries in a binary matrix, known as 1-bit matrix completion, has found diverse applications in fields such as recommendation systems. In this study, we develop an empirical Bayes method for 1-bit matrix completion motivated by the Efron--Morris estimator, a matrix generalization of the James--Stein estimator that shrinks singular values toward zero. The proposed method exploits the underlying low-rank structure of binary matrices, drawing parallels with multidimensional item response theory. Simulation studies and real-data applications demonstrate that the proposed method achieves competitive predictive accuracy and favorable predictive calibration.",
+ "primary": "stat.ML"
+}

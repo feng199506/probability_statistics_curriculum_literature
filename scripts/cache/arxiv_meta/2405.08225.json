@@ -1,0 +1,17 @@
+{
+ "id": "2405.08225",
+ "title": "Linear Operator Approximate Message Passing (OpAMP)",
+ "authors": [
+  "Riccardo Rossetti",
+  "Bobak Nazer",
+  "Galen Reeves"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 2,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "10.1093/imaiai/iaaf032",
+ "comment": "29 pages, 5 figures",
+ "abstract": "This paper introduces a framework for approximate message passing (AMP) in dynamic settings where the data at each iteration is passed through a linear operator. This framework is motivated in part by applications in large-scale, distributed computing where only a subset of the data is available at each iteration. An autoregressive memory term is used to mitigate information loss across iterations and a specialized algorithm, called projection AMP, is designed for the case where each linear operator is an orthogonal projection. Precise theoretical guarantees are provided for a class of Gaussian matrices and non-separable denoising functions. Specifically, it is shown that the iterates can be well-approximated in the high-dimensional limit by a Gaussian process whose second-order statistics are defined recursively via state evolution. These results are applied to the problem of estimating a rank-one spike corrupted by additive Gaussian noise using partial row updates, and the theory is validated by numerical simulations.",
+ "primary": "math.ST"
+}

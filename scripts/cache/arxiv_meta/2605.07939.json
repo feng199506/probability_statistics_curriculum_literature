@@ -1,0 +1,16 @@
+{
+ "id": "2605.07939",
+ "title": "Accelerating Langevin Monte Carlo via Efficient Stochastic Runge--Kutta Methods beyond Log-Concavity",
+ "authors": [
+  "Bin Yang",
+  "Xiaojie Wang"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from a high-dimensional probability distribution is a fundamental algorithmic task arising in wide-ranging applications across multiple disciplines, including scientific computing, computational statistics and machine learning. Langevin Monte Carlo (LMC) algorithms are among the most widely used sampling methods in high-dimensional settings. This paper introduces a novel higher-order and Hessian-free LMC sampling algorithm based on an efficient stochastic Runge--Kutta method of strong order $1.5$ for the overdamped Langevin dynamics. In contrast to the existing Runge--Kutta type LMC (Li et al., 2019) involved with three gradient evaluations, the newly proposed algorithm is computationally cheaper and requires only two gradient evaluations for one iteration. Under certain log-smooth conditions, non-asymptotic error bounds of the proposed algorithms are analyzed in $\\mathcal{W}_2$-distance. In particular, a uniform-in-time convergence rate of order $O(d ^{\\frac32} h^{\\frac32})$ is derived in a non-log-concave setting, matching the convergence rate proved in the aforementioned work but under the log-concavity condition. Numerical experiments are finally presented to demonstrate the effectiveness of the new sampling algorithm.",
+ "primary": "math.ST"
+}

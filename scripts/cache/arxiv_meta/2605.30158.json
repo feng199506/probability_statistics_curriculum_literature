@@ -1,0 +1,16 @@
+{
+ "id": "2605.30158",
+ "title": "High-Dimensional Data with Measurement Error",
+ "authors": [
+  "Herman Tesso",
+  "Georges Nguefack-Tsague"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 0 figure",
+ "abstract": "In many important statistical analyses, the number of covariates $p$ often exceeds the data size $n$, a regime commonly referred to as high-dimensional. While considerable progress has been made in high-dimensional regression under the assumption of error-free covariates, real-world data frequently involve noisy or corrupted measurements. When left unaddressed, measurement errors can silently distort the analysis and mislead the conclusions. This paper reviews and evaluates some advisable statistical inference methods for high-dimensional regression in the presence of mismeasured covariates. We discuss four penalized regression methods -- ridge, lasso, Dantzig selector, and Elastic-net -- alongside their measurement-error-corrected variants, and conduct a comparative study under linear additive and uncorrelated measurement error models. Through simulation studies and a real application to high-dimensional medical genetic data, we illustrate the methods studied, show that the choice of correction procedure is problem-specific, and provide practical recommendations to help practitioners navigate this methodological landscape.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.15543",
+ "title": "Heavy-tailed and Horseshoe priors for regression and sparse Besov rates",
+ "authors": [
+  "Sergios Agapiou",
+  "Ismaël Castillo",
+  "Paul Egels"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 6 figures",
+ "abstract": "The large variety of functions encountered in nonparametric statistics, calls for methods that are flexible enough to achieve optimal or near-optimal performance over a wide variety of functional classes, such as Besov balls, as well as over a large array of loss functions. In this work, we show that a class of heavy-tailed prior distributions on basis function coefficients introduced in \\cite{AC} and called Oversmoothed heavy-Tailed (OT) priors, leads to Bayesian posterior distributions that satisfy these requirements; the case of horseshoe distributions is also investigated, for the first time in the context of nonparametrics, and we show that they fit into this framework. Posterior contraction rates are derived in two settings. The case of Sobolev--smooth signals and $L_2$--risk is considered first, along with a lower bound result showing that the imposed form of the scalings on prior coefficients by the OT prior is necessary to get full adaptation to smoothness. Second, the broader case of Besov-smooth signals with $L_{p'}$--risks, $p' \\geq 1$, is considered, and minimax posterior contraction rates, adaptive to the underlying smoothness, and including rates in the so-called {\\em sparse} zone, are derived. We provide an implementation of the proposed method and illustrate our results through a simulation study.",
+ "primary": "math.ST"
+}

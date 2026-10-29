@@ -1,0 +1,24 @@
+{
+ "id": "2407.13374",
+ "title": "A unifying modelling approach for hierarchical distributed lag models",
+ "authors": [
+  "Theo Economou",
+  "Daphne Parliari",
+  "Aurelio Tobias",
+  "Laura Dawkins",
+  "Oliver Stoner",
+  "Hamish Steptoe",
+  "Rachel Lowe",
+  "Maria Athanasiadou",
+  "Christophe Sarran",
+  "Jos Lelieveld"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 1,
+ "latest_date": "2024-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted for review in \"Statistics in Medicine\" on 4/January/ 2024",
+ "abstract": "We present a statistical modelling framework for implementing Distributed Lag Models (DLMs), encompassing several extensions of the approach to capture the temporally distributed effect from covariates via regression. We place DLMs in the context of penalised Generalized Additive Models (GAMs) and illustrate that implementation via the R package \\texttt{mgcv}, which allows for flexible and interpretable inference in addition to thorough model assessment. We show how the interpretation of penalised splines as random quantities enables approximate Bayesian inference and hierarchical structures in the same practical setting. We focus on epidemiological studies and demonstrate the approach with application to mortality data from Cyprus and Greece. For the Cyprus case study, we investigate for the first time, the joint lagged effects from both temperature and humidity on mortality risk with the unexpected result that humidity severely increases risk during cold rather than hot conditions. Another novel application is the use of the proposed framework for hierarchical pooling, to estimate district-specific covariate-lag risk on morality and the use of posterior simulation to compare risk across districts.",
+ "primary": "stat.ME"
+}

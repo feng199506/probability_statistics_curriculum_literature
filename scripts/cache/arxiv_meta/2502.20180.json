@@ -1,0 +1,18 @@
+{
+ "id": "2502.20180",
+ "title": "Testing Prioritized Composite Endpoint with Multiple Follow-up Time Examinations",
+ "authors": [
+  "Yunhan Mou",
+  "Haitao Pan",
+  "Yu Jiang",
+  "Yuan Huang"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 2,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Composite endpoints are widely used in cardiovascular clinical trials. In recent years, hierarchical composite endpoints-particularly the win ratio approach and its predecessor, the Finkelstein-Schoenfeld (FS) test, also known as the unmatched win ratio test-have gained popularity. These methods involve comparing individuals across multiple endpoints, ranked by priority, with mortality typically assigned the highest priority in many applications. However, these methods have not accounted for varying treatment effects, known as non-constant hazards over time in the context of survival analysis. To address this limitation, we propose an adaptation of the FS test that incorporates progressive follow-up time, which we will refer to as ProFS. This proposed test can jointly evaluate treatment effects at various follow-up time points by incorporating the maximum of several FS test statistics calculated at those specific times. Moreover, ProFS also supports clinical trials with group sequential monitoring strategies, providing flexibility in trial design. As demonstrated through extensive simulations, ProFS offers increased statistical power in scenarios where the treatment effect is mainly in the short term or when the second (non-fatal) layer might be concealed by a lack of effect or weak effect on the top (fatal) layer. We also apply ProFS to the SPRINT clinical trial, illustrating how our proposed method improves the performance of FS.",
+ "primary": "stat.ME"
+}

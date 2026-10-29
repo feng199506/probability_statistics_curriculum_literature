@@ -1,0 +1,15 @@
+{
+ "id": "2512.21981",
+ "title": "A Sieve M-Estimator for Entropic Optimal Transport",
+ "authors": [
+  "Rami V. Tabri"
+ ],
+ "v1_date": "2025-12-26",
+ "latest_version": 4,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "I added more details to the proof of Corollary C.1, which uses Massart's finite class lemma",
+ "abstract": "Entropically regularized optimal transport between probability measures supported on compact subsets of Euclidean space admits a representation as an information projection under moment inequality constraints. Exploiting this structure, I develop a sieve-based approximation of the Fenchel dual, yielding a sequence of finite-dimensional convex programs whose sample analogues provide tractable estimators of the regularized optimal value and associated dual optimizers. Under minimal assumptions--compact support and continuity of the cost function--I establish almost sure consistency of these estimators. I further derive finite-sample bounds for the estimation error of the optimal value, featuring only logarithmic dependence on sieve complexity, and obtain asymptotic stochastic bounds characterized by suprema of centered Gaussian processes. The results furnish general statistical guarantees for sieve-based estimation of entropic optimal transport and apply to settings not covered by existing theory for the empirical Sinkhorn divergence and other sieve-based methods.",
+ "primary": "math.ST"
+}

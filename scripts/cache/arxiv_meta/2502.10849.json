@@ -1,0 +1,16 @@
+{
+ "id": "2502.10849",
+ "title": "Dynamic spectral co-clustering of directed networks to unveil latent community paths in VAR-type models",
+ "authors": [
+  "Younghoon Kim",
+  "Changryong Baek"
+ ],
+ "v1_date": "2025-02-15",
+ "latest_version": 4,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is withdrawn due to an error in the model specification. Specifically, the direction of propagation of the network structure in Section 2 was incorrectly defined. This issue also affects the simulation setup and model applications to real data in Sections 5 and 6, which were constructed based on the same specification. Consequently, the results reported in the paper may not be valid",
+ "abstract": "Identifying network Granger causality in large vector autoregressive (VAR) models enhances explanatory power by capturing complex dependencies among variables. This study proposes a methodology that explores latent community structures to uncover underlying network dynamics, rather than relying on sparse coefficient estimation for network construction. A dynamic network framework embeds directed connectivity in the transition matrices of VAR-type models, allowing the tracking of evolving community structures over time, called seasons. To account for network directionality, degree-corrected stochastic co-block models are fitted for each season, then a combination of spectral co-clustering and singular vector smoothing is utilized to refine transitions between latent communities. Periodic VAR (PVAR) and vector heterogeneous autoregressive (VHAR) models are adopted as alternatives to conventional VAR models for dynamic network construction. Theoretical results establish the validity of the proposed methodology, while empirical analyses demonstrate its effectiveness in capturing both the cyclic evolution and transient trajectories of latent communities. The proposed approach is applied to US nonfarm payroll employment data and realized stock market volatility data. Spectral co-clustering of multi-layered directed networks, constructed from high-dimensional PVAR and VHAR representations, reveals rich and dynamic latent community structures.",
+ "primary": "stat.ME"
+}

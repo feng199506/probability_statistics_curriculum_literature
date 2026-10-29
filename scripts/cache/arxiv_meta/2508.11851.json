@@ -1,0 +1,16 @@
+{
+ "id": "2508.11851",
+ "title": "Likelihood confidence intervals for misspecified Cox models",
+ "authors": [
+  "Yongwu Shao",
+  "Xu Guo"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 1,
+ "latest_date": "2025-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The robust Wald confidence interval (CI) for the Cox model is commonly used when the model may be misspecified or when weights are applied. However it can perform poorly when there are few events in one or both treatment groups, as may occur when the event of interest is rare or when the experimental arm is highly efficacious. For instance, if we artificially remove events (assuming more events are unfavorable) from the experimental group, the resulting upper CI may increase. This is clearly counter-intuitive as a small number of events in the experimental arm represents stronger evidence for efficacy. It is well known that, when the sample size is small to moderate, likelihood CIs are better than Wald CIs in terms of actual coverage probabilities closely matching nominal levels. However, a robust version of the likelihood CI for the Cox model remains an open problem. For example, in the SAS procedure PHREG, the likelihood CI provided in the outputs is still the regular version, even when the robust option is specified. This is obviously undesirable as a user may mistakenly assume that the CI is the robust version. In this article we demonstrate that the likelihood ratio test statistic of the Cox model converges to a weighted chi-square distribution when the model is misspecified. The robust likelihood CI is then obtained by inverting the robust likelihood ratio test. The proposed CIs are evaluated through simulation studies and illustrated using real data from an HIV prevention trial.",
+ "primary": "stat.ME"
+}

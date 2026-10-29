@@ -1,0 +1,16 @@
+{
+ "id": "2411.17618",
+ "title": "Valid Bayesian Inference based on Variance Weighted Projection for High-Dimensional Logistic Regression with Binary Covariates",
+ "authors": [
+  "Abhishek Ojha",
+  "Naveen N. Narisetty"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 1,
+ "latest_date": "2024-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the challenge of conducting inference for a categorical treatment effect related to a binary outcome variable while taking into account high-dimensional baseline covariates. The conventional technique used to establish orthogonality for the treatment effect from nuisance variables in continuous cases is inapplicable in the context of binary treatment. To overcome this obstacle, an orthogonal score tailored specifically to this scenario is formulated which is based on a variance-weighted projection. Additionally, a novel Bayesian framework is proposed to facilitate valid inference for the desired low-dimensional parameter within the complex framework of high-dimensional logistic regression. We provide uniform convergence results, affirming the validity of credible intervals derived from the posterior distribution. The effectiveness of the proposed method is demonstrated through comprehensive simulation studies and real data analysis.",
+ "primary": "stat.ME"
+}

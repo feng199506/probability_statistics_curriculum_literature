@@ -1,0 +1,18 @@
+{
+ "id": "2602.19126",
+ "title": "Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features",
+ "authors": [
+  "Michele Caprio",
+  "Katerina Papagiannouli",
+  "Siu Lun Chau",
+  "Sayan Mukherjee"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a robust Bayesian formulation of random feature (RF) regression that accounts explicitly for prior and likelihood misspecification via Huber-style contamination sets. Starting from the classical equivalence between ridge-regularized RF training and Bayesian inference with Gaussian priors and likelihoods, we replace the single prior and likelihood with $ε$- and $η$-contaminated credal sets, respectively, and perform inference using pessimistic generalized Bayesian updating. We derive explicit and tractable bounds for the resulting lower and upper posterior predictive densities. These bounds show that, when contamination is moderate, prior and likelihood ambiguity effectively acts as a direct contamination of the posterior predictive distribution, yielding uncertainty envelopes around the classical Gaussian predictive. We introduce an Imprecise Highest Density Region (IHDR) for robust predictive uncertainty quantification and show that it admits an efficient approximation via an adjusted Gaussian credible interval. We further obtain predictive variance bounds (under a mild truncation approximation for the upper bound) and prove that they preserve the leading-order proportional-growth asymptotics known for RF models. Together, these results establish a robustness theory for Bayesian random features: predictive uncertainty remains computationally tractable, inherits the classical double-descent phase structure, and is improved by explicit worst-case guarantees under bounded prior and likelihood misspecification.",
+ "primary": "cs.LG"
+}

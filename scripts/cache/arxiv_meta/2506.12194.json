@@ -1,0 +1,17 @@
+{
+ "id": "2506.12194",
+ "title": "Resilience Measures for the Surrogate Paradox",
+ "authors": [
+  "Emily Hsiao",
+  "Lu Tian",
+  "Layla Parast"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Surrogate markers are often used in clinical trials to evaluate treatment effects when primary outcomes are costly, invasive, or take a long time to observe. However, reliance on surrogates can lead to the surrogate paradox, where a treatment appears beneficial based on the surrogate but is actually harmful with respect to the primary outcome. In this paper, we propose formal measures to assess resilience against the surrogate paradox. Our setting assumes an existing study in which the surrogate marker and primary outcome have been measured (Study A) and a new study (Study B) in which only the surrogate is measured. Rather than assuming transportability of the conditional mean functions across studies, we consider a class of functions for Study B that deviate from those in Study A. Using these, we estimate the distribution of potential treatment effects on the unmeasured primary outcome and define resilience measures including a resilience probability, resilience bound, and resilience set. Our approach complements traditional surrogate validation methods by quantifying the plausibility of the surrogate paradox under controlled deviations from what is known from Study A. We investigate the performance of our proposed measures via a simulation study and application to two distinct HIV clinical trials.",
+ "primary": "stat.ME"
+}

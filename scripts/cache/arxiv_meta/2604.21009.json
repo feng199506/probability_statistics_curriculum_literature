@@ -1,0 +1,15 @@
+{
+ "id": "2604.21009",
+ "title": "Revisiting Bayesian Variable Selection via Optimization",
+ "authors": [
+  "Leo L Duan"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variable selection in linear regression has been a central topic in statistical research for decades. Bayesian variable selection methods, which account for uncertainty in both the regression coefficients and the noise variance, have achieved broad success through the use of discrete or continuous shrinkage priors and efficient collapsed Gibbs samplers. Despite their popularity and strong empirical performance, an enigma remains: the marginal likelihood, obtained by integrating out the regression coefficients and noise variance, is not log-concave; therefore, there is no guarantee of reliably finding its global optimum. In this article, we study this problem from an optimization perspective. Taking the negative log-marginal likelihood as a loss function of the latent precision parameters, we can rewrite it as a difference of convex functions (DC), and then optimize it via a simple iterative algorithm. Under mild compact set conditions, the DC algorithm converges to the global optimum at a linear rate. The positive finding applies to type-II maximum likelihood and extends to maximum marginal posterior under suitable priors, indicating that the problem of mode finding in Bayesian variable selection is much more benign than the lack of log-concavity might suggest. Besides the theoretical insight, the proposed algorithm is easy to implement, free of tuning, and extensible to structured sparsity, and thus can serve as an efficient alternative or warm-start for traditional Markov chain Monte Carlo solutions. The method is illustrated through numerical studies and a spatial data application for quantifying the aftershock risk following the 2019 Ridgecrest earthquakes. The source code for the algorithm is publicly available at https://github.com/leoduan/dca_optimization_variable_selection.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2505.03168",
+ "title": "Approximation of Markov Chain Expectations and the Key Role of Stationary Distribution Convergence",
+ "authors": [
+  "Peter W. Glynn",
+  "Zeyu Zheng"
+ ],
+ "v1_date": "2025-05-06",
+ "latest_version": 1,
+ "latest_date": "2025-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Consider a sequence $P_n$ of positive recurrent transition matrices or kernels that approximate a limiting infinite state matrix or kernel $P_{\\infty}$. Such approximations arise naturally when one truncates an infinite state Markov chain and replaces it with a finite state approximation. It also describes the situation in which $P_{\\infty}$ is a simplified limiting approximation to $P_n$ when $n$ is large. In both settings, it is often verified that the approximation $P_n$ has the characteristic that its stationary distribution $π_n$ converges to the stationary distribution $π_{\\infty}$ associated with the limit. In this paper, we show that when the state space is countably infinite, this stationary distribution convergence implies that $P_n^m$ can be approximated uniformly in $m$ by $P_{\\infty}^m$ when n is large. We show that this ability to approximate the marginal distributions at all time scales $m$ fails in continuous state space, but is valid when the convergence is in total variation or when we have weak convergence and the kernels are suitably Lipschitz. When the state space is discrete (as in the truncation setting), we further show that stationary distribution convergence also implies that all the expectations that are computable via first transition analysis (e.g. mean hitting times, expected infinite horizon discounted rewards) converge to those associated with the limit $P_{\\infty}$. Simply put, we show that once one has established stationary distribution convergence, one immediately can infer convergence for a huge range of other expectations.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2609.21017",
+ "title": "A Smoothed Discrepancy Principle for Random Feature Methods and Neural Networks",
+ "authors": [
+  "Mike Nguyen",
+  "Nicole Mücke"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 1,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study data-driven early stopping for spectral regularisation methods in the classical non-parametric regression setting. Building on the discrepancy principle, we propose a multi-scale stopping rule that applies to general kernel estimators and show that, unlike previous approaches, it achieves full adaptivity over all smoothness levels in the well-specified case. A key contribution of our work is an extension based on random feature approximations, which reduces computational cost on large datasets while preserving minimax-optimal statistical guarantees. Our procedure not only selects an optimal stopping time but also provides a fully data-driven choice of the number of random features needed to achieve optimal rates. Through the established connection between random features and neural networks in the neural tangent kernel regime, our method further yields a principled, data-driven recommendation for the network width. We prove that the resulting simultaneously chosen width and stopping time allow neural networks to attain minimax-optimal learning rates without prior knowledge of smoothness or capacity parameters.",
+ "primary": "stat.ML"
+}

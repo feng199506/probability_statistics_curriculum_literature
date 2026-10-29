@@ -1,0 +1,17 @@
+{
+ "id": "2311.09015",
+ "title": "Identification and Estimation for Nonignorable Missing Data: A Data Fusion Approach",
+ "authors": [
+  "Zixiao Wang",
+  "AmirEmad Ghassami",
+  "Ilya Shpitser"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 2,
+ "latest_date": "2024-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 3 figures",
+ "abstract": "We consider the task of identifying and estimating a parameter of interest in settings where data is missing not at random (MNAR). In general, such parameters are not identified without strong assumptions on the missing data model. In this paper, we take an alternative approach and introduce a method inspired by data fusion, where information in an MNAR dataset is augmented by information in an auxiliary dataset subject to missingness at random (MAR). We show that even if the parameter of interest cannot be identified given either dataset alone, it can be identified given pooled data, under two complementary sets of assumptions. We derive an inverse probability weighted (IPW) estimator for identified parameters, and evaluate the performance of our estimation strategies via simulation studies, and a data application.",
+ "primary": "stat.ME"
+}

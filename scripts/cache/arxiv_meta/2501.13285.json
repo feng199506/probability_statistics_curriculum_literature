@@ -1,0 +1,17 @@
+{
+ "id": "2501.13285",
+ "title": "A Bayesian Record Linkage Approach to Applications in Tree Demography Using Overlapping LiDAR Scans",
+ "authors": [
+  "L. Drew",
+  "A. Kaplan",
+  "I. Breckheimer"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 2,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the information age, it has become increasingly common for data containing records about overlapping individuals to be distributed across multiple sources, making it necessary to identify which records refer to the same individual. The goal of record linkage is to estimate this unknown structure in the absence of a unique identifiable attribute. We introduce a Bayesian hierarchical record linkage model for spatial location data motivated by the estimation of individual specific growth-size curves for conifer species using data derived from overlapping LiDAR scans. Annual tree growth may be estimated dependent upon correctly identifying unique individuals across scans in the presence of noise. We formalize a two-stage modeling framework, connecting the record linkage model and a flexible downstream individual tree growth model, that provides robust uncertainty quantification and propagation through both stages of the modeling pipeline via an extension of the linkage-averaging approach of Sadinle (2018). In this paper, we discuss the two-stage model formulation, outline the computational strategies required to achieve scalability, assess the model performance on simulated data, and fit the model to a bi-temporal dataset derived from LiDAR scans of the Upper Gunnison Watershed provided by the Rocky Mountain Biological Laboratory to assess the impact of key topographic covariates on the growth behavior of conifer species in the Southern Rocky Mountains (USA).",
+ "primary": "stat.ME"
+}

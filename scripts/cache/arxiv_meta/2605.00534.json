@@ -1,0 +1,17 @@
+{
+ "id": "2605.00534",
+ "title": "Estimating Treatment and Spillover Effects with the Ego-Cluster Experimental Design",
+ "authors": [
+  "Xiao Liu",
+  "Feifang Hu",
+  "Jingfei Zhang"
+ ],
+ "v1_date": "2026-05-01",
+ "latest_version": 1,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network interference occurs when a unit's outcome depends not only on its own treatment but also on the treatments received by connected units in the network. Experimental designs and analysis methods that ignore such interference can yield biased estimators of causal effects. In this paper, we develop a new experimental design for the estimation and inference of global treatment effect and spillover effect under a model-based framework and ego-cluster randomization. Under this design, the network is partitioned into a collection of ego-clusters, each consisting of a focal unit (the ego) and its network neighbors (the alters), with randomization conducted at the cluster level. We propose model-based estimators for the global treatment effect and spillover effect and establish their consistency and asymptotic normality, with asymptotic variances determined by the ego-cluster structure. Building on these theoretical results, we introduce an ego-clustering algorithm that sequentially selects egos and assigns alters to minimize asymptotic variances. Simulation studies and two empirical applications demonstrate that the proposed procedure yields accurate inference and efficiency improvements over existing network experimental designs.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2507.22967",
+ "title": "Stability Analysis and Local Influence Diagnostics for an Extreme-Value Regression Model of Anomalous Wind Gusts",
+ "authors": [
+  "José I. C. Lima",
+  "Raydonal Ospina",
+  "Michelli Barros",
+  "Antônio M. S. Macêdo"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 1,
+ "latest_date": "2025-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 6 Figures. Submitted to Physica A",
+ "abstract": "Extreme events in complex physical systems, such as anomalous wind gusts, often cause significant material and human damage. Their modeling is crucial for risk assessment and understanding the underlying dynamics. In this work, we introduce a local influence analysis to assess the stability of a class of extreme-value Birnbaum-Saunders regression models, which are particularly suited for analyzing such data. The proposed approach uses the conformal normal curvature (CNC) of the log-likelihood function to diagnose the influence of individual observations on the postulated model. By examining the eigenvalues and eigenvectors associated with the CNC, we identify influential data points-physical events that disproportionately affect the model's parameters. We illustrate the methodology through a simulation study and apply it to a time series of wind gust data from Itajai, Brazil, where a severe event caused multiple damages and casualties. Our approach successfully pinpoints this specific event as a highly influential observation and quantifies its impact on the fitted model. This work provides a valuable diagnostic tool for physicists and data scientists working with extreme-value models of complex natural phenomena.",
+ "primary": "stat.ME"
+}

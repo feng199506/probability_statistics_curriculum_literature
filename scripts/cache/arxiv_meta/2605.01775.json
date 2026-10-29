@@ -1,0 +1,17 @@
+{
+ "id": "2605.01775",
+ "title": "A Semi-Supervised Kernel Two-Sample Test",
+ "authors": [
+  "Gyumin Lee",
+  "Shubhanshu Shekhar",
+  "Ilmun Kim"
+ ],
+ "v1_date": "2026-05-03",
+ "latest_version": 1,
+ "latest_date": "2026-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of two-sample testing in a semi-supervised setting with abundant unlabeled covariate data. Standard two-sample tests neglect covariate information, which has the potential to significantly boost performance. However, incorporating covariates potentially breaks the exchangeability assumption under the null, which further complicates a calibration procedure. To address these issues, we propose a semi-supervised method that produces a test statistic with asymptotic normality, while effectively integrating additional information from covariates. Our test is straightforward to calibrate due to the asymptotic normality under the null and achieves asymptotic power that is often much higher than existing kernel tests without covariates. Furthermore, we formally show that the proposed method is consistent in power against fixed and local alternatives. Simulations confirm the practical and theoretical strengths of our approach.",
+ "primary": "stat.ML"
+}

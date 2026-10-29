@@ -1,0 +1,16 @@
+{
+ "id": "2410.20318",
+ "title": "Low-rank Bayesian matrix completion via geodesic Hamiltonian Monte Carlo on Stiefel manifolds",
+ "authors": [
+  "Tiangang Cui",
+  "Alex Gorodetsky"
+ ],
+ "v1_date": "2024-10-27",
+ "latest_version": 1,
+ "latest_date": "2024-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a new sampling-based approach for enabling efficient computation of low-rank Bayesian matrix completion and quantifying the associated uncertainty. Firstly, we design a new prior model based on the singular-value-decomposition (SVD) parametrization of low-rank matrices. Our prior is analogous to the seminal nuclear-norm regularization used in non-Bayesian setting and enforces orthogonality in the factor matrices by constraining them to Stiefel manifolds. Then, we design a geodesic Hamiltonian Monte Carlo (-within-Gibbs) algorithm for generating posterior samples of the SVD factor matrices. We demonstrate that our approach resolves the sampling difficulties encountered by standard Gibbs samplers for the common two-matrix factorization used in matrix completion. More importantly, the geodesic Hamiltonian sampler allows for sampling in cases with more general likelihoods than the typical Gaussian likelihood and Gaussian prior assumptions adopted in most of the existing Bayesian matrix completion literature. We demonstrate an applications of our approach to fit the categorical data of a mice protein dataset and the MovieLens recommendation problem. Numerical examples demonstrate superior sampling performance, including better mixing and faster convergence to a stationary distribution. Moreover, they demonstrate improved accuracy on the two real-world benchmark problems we considered.",
+ "primary": "stat.ML"
+}

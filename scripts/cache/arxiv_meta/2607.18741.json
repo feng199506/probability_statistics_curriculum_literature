@@ -1,0 +1,17 @@
+{
+ "id": "2607.18741",
+ "title": "Variational Bayesian Sparse Negative Binomial Regression",
+ "authors": [
+  "Mitra Kharabati",
+  "Morteza Amini",
+  "Mohammad Arashi"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 2,
+ "latest_date": "2026-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The second paper of the PhD thesis of Miss Kharabati",
+ "abstract": "Count data with overdispersion and high-dimensional predictors pose significant challenges in modern applications. While negative binomial regression offers a flexible modeling framework, existing Bayesian approaches rely on computationally expensive MCMC methods that become impractical in high-dimensional settings. This paper develops a variational Bayesian framework for sparse negative binomial regression using horseshoe and continuous spike-and-slab priors. Our proposed methods achieve estimation accuracy and variable selection performance comparable to MCMC benchmarks while offering substantial computational savings over MCMC. Extensive simulations demonstrate that the negative binomial specification is essential for overdispersed data, as Poisson-based approaches exhibit substantial performance degradation under overdispersion. Conversely, our methods remain robust when the data are Poisson, making them a safer default choice. Applications to real benchmark datasets further confirm the practical utility of our approach.",
+ "primary": "stat.ME"
+}

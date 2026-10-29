@@ -1,0 +1,16 @@
+{
+ "id": "2409.08354",
+ "title": "Bayesian Dynamic Factor Models for High-Dimensional Matrix-Valued Time Series",
+ "authors": [
+  "Joshua C. C. Chan",
+  "Wei Zhang"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 4,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a class of Bayesian dynamic factor models for matrix-valued time series, with autoregressive factor dynamics and idiosyncratic components that allow stochastic volatility, outliers, and a Kronecker-structured covariance capturing cross-row and cross-column correlation. Exploiting the matrix structure, we make these richly parameterized models tractable in high dimensions and develop an efficient Gibbs sampler for estimation. For model comparison, we propose a unified approach based on the cross-entropy importance-sampling estimator of the marginal likelihood, which under a common criterion selects the factor dimension, a vector versus matrix structure, and the idiosyncratic specification. Monte Carlo experiments confirm that the estimator reliably recovers the true model. In an application to an OECD macroeconomic panel of 190 time series, the data favor both cross-sectional correlation and stochastic volatility, and the model delivers statistically significant out-of-sample forecast gains over a static matrix factor benchmark.",
+ "primary": "econ.EM"
+}

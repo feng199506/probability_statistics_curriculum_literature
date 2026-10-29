@@ -1,0 +1,16 @@
+{
+ "id": "2412.20858",
+ "title": "From sparse to dense functional time series: phase transitions of detecting structural breaks and beyond",
+ "authors": [
+  "Leheng Cai",
+  "Qirui Hu"
+ ],
+ "v1_date": "2024-12-30",
+ "latest_version": 1,
+ "latest_date": "2024-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a novel methodology for detecting abrupt break points in mean functions of functional time series, adaptable to arbitrary sampling schemes. By employing B-spline smoothing, we introduce $\\mathcal L_{\\infty}$ and $\\mathcal L_2$ test statistics statistics based on a smoothed cumulative summation (CUMSUM) process, and derive the corresponding asymptotic distributions under the null and local alternative hypothesis, as well as the phase transition boundary from sparse to dense. We further establish the convergence rate of the proposed break point estimators and conduct statistical inference on the jump magnitude based on the estimated break point, also applicable across sparsely, semi-densely, and densely, observed random functions. Extensive numerical experiments validate the effectiveness of the proposed procedures. To illustrate the practical relevance, we apply the developed methods to analyze electricity price data and temperature data.",
+ "primary": "stat.ME"
+}

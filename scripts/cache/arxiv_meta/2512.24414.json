@@ -1,0 +1,18 @@
+{
+ "id": "2512.24414",
+ "title": "Exact two-stage finite-mixture representations for species sampling processes",
+ "authors": [
+  "Ramsés H. Mena",
+  "Christos Merkatas",
+  "Theodoros Nicoleris",
+  "Carlos E. Rodríguez"
+ ],
+ "v1_date": "2025-12-30",
+ "latest_version": 3,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 6 figures",
+ "abstract": "Discrete random probability measures are central to Bayesian inference, particularly as priors for mixture modeling and clustering. A broad and unifying class is that of proper species sampling processes (SSPs), encompassing many Bayesian nonparametric priors. We show that any proper SSP admits an exact two-stage finite-mixture representation built from a latent truncation index and a simple reweighting of the atoms. For each realized truncation index, the representation has finitely many atoms, and averaging over the induced law of that index recovers the original SSP setwise. This yields at least two consequences: (i) an exact two-stage finite construction for arbitrary SSPs, without user-chosen truncation levels; and (ii) posterior inference in SSP mixture models via standard finite-mixture machinery, leading to tractable MCMC algorithms without ad hoc truncations. We explore these consequences by deriving explicit total-variation bounds for the approximation error when the truncation level is fixed, and by studying practical performance in mixture modeling, with emphasis on Dirichlet and geometric SSPs.",
+ "primary": "stat.ME"
+}

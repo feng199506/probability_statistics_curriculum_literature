@@ -1,0 +1,16 @@
+{
+ "id": "2502.05703",
+ "title": "Subspace Splitting Fast Sampling from Gaussian Posterior Distributions of Linear Inverse Problems",
+ "authors": [
+  "Daniela Calvetti",
+  "Erkki Somersalo"
+ ],
+ "v1_date": "2025-02-08",
+ "latest_version": 1,
+ "latest_date": "2025-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is well-known that the posterior density of linear inverse problems with Gaussian prior and Gaussian likelihood is also Gaussian, hence completely described by its covariance and expectation. Sampling from a Gaussian posterior may be important in the analysis of various non-Gaussian inverse problems in which a estimates from a Gaussian posterior distribution constitute an intermediate stage in a Bayesian workflow. Sampling from a Gaussian distribution is straightforward if the Cholesky factorization of the covariance matrix or its inverse is available, however when the unknown is high dimensional, the computation of the posterior covariance maybe unfeasible. If the linear inverse problem is underdetermined, it is possible to exploit the orthogonality of the fundamental subspaces associated with the coefficient matrix together with the idea behind the Randomize-Then-Optimize approach to design a low complexity posterior sampler that does not require the posterior covariance to be formed. The performance of the proposed sampler is illustrated with a few computed examples, including non-Gaussian problems with non-linear forward model, and hierarchical models comprising a conditionally Gaussian submodel.",
+ "primary": "math.NA"
+}

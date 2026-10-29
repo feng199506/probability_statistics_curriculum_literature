@@ -1,0 +1,16 @@
+{
+ "id": "2501.07685",
+ "title": "Adaptive sequential Monte Carlo for structured cross validation in Bayesian hierarchical models",
+ "authors": [
+  "Geonhee Han",
+  "Andrew Gelman"
+ ],
+ "v1_date": "2025-01-13",
+ "latest_version": 2,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Importance sampling (IS) is commonly used for cross validation (CV) in Bayesian models, because it only involves reweighting existing posterior draws without needing to re-estimate the model by re-running Markov chain Monte Carlo (MCMC). For hierarchical models, standard IS can be unreliable; the out-of-sample generalization hypothesis may involve structured case-deletion schemes which significantly alter the posterior geometry. This can force costly MCMC re-runs and make CV impractical. As a principled alternative, we tailor adaptive sequential Monte Carlo to sample along a path of posteriors that leads to the case-deleted posterior. The sampler is designed to support various hypotheses by accommodating diverse CV designs, and to streamline the workflow by automating path construction and systematically minimizing MCMC intervention. We demonstrate its utility with three types of predictive model assessment: longitudinal leave-group-out CV, group $K$-fold CV, and sequential one-step-ahead validation.",
+ "primary": "stat.CO"
+}

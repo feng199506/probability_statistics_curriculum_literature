@@ -1,0 +1,18 @@
+{
+ "id": "2509.25588",
+ "title": "Conservative Decisions with Risk Scores",
+ "authors": [
+  "Yishu Wei",
+  "Wen-Yee Lee",
+  "George Ekow Quaye",
+  "Xiaogang Su"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages plus a supplement with 3 pages",
+ "abstract": "In binary classification applications, conservative decision-making that allows for abstention can be advantageous. To this end, we introduce a novel approach that determines the optimal cutoff interval for risk scores, which can be directly available or derived from fitted models. Within this interval, the algorithm refrains from making decisions, while outside the interval, classification accuracy is maximized. Our approach is inspired by support vector machines (SVM), but differs in that it minimizes the classification margin rather than maximizing it. We provide the theoretical optimal solution to this problem, which holds important practical implications. Our proposed method not only supports conservative decision-making but also inherently results in a risk-coverage curve. Together with the area under the curve (AUC), this curve can serve as a comprehensive performance metric for evaluating and comparing classifiers, akin to the receiver operating characteristic (ROC) curve. To investigate and illustrate our approach, we conduct both simulation studies and a real-world case study in the context of diagnosing prostate cancer.",
+ "primary": "stat.ML"
+}

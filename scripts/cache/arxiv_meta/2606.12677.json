@@ -1,0 +1,16 @@
+{
+ "id": "2606.12677",
+ "title": "Restricted Multivariate Spatial Modeling",
+ "authors": [
+  "Jihyeon Kwon",
+  "Harrison Quick"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 1,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages",
+ "abstract": "When modeling health events in small areas, the conditional autoregressive (CAR) framework of Besag, York, and Mollié (BYM) is widely used. For multiple outcomes, the multivariate CAR (MCAR) extension accommodates dependence among diseases that share risk factors, in addition to spatial dependence, and can also jointly model demographic subgroups for a single disease, allowing information to be borrowed across related populations. However, recent studies have shown that the BYM CAR model can be overly informative, leading to excessively precise estimates. While the MCAR model is expected to be more informative due to additional information shared across subgroups, its level of informativeness has not been previously quantified. We propose a framework to measure MCAR model informativeness as an extension of prior work and introduce a method to control it, ensuring the model contributes comparably to each subgroup. We achieve this through a reparameterization of the MCAR model within a computationally efficient framework. We demonstrate how the MCAR model compares with the BYM CAR model in terms of informativeness and oversmoothing and highlight the advantages of the restricted MCAR model using county-level heart disease death data stratified by race and sex.",
+ "primary": "stat.ME"
+}

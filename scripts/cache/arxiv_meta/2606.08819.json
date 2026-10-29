@@ -1,0 +1,16 @@
+{
+ "id": "2606.08819",
+ "title": "Model Selection for SLOPE Models: A Bayesian Perspective",
+ "authors": [
+  "Fabio Feser",
+  "Marina Evangelou"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sorted $\\ell_1$ Penalized Estimation (SLOPE) models, that perform either variable or group selection, control the false discovery rate (FDR) under orthogonal settings with known noise, but such settings are rare in practice. Under general conditions, cross-validation is the default model selection approach for SLOPE, yet it targets predictive performance rather than FDR control. We address this gap for the SLOPE family of models by proposing new Bayesian approaches, Bayesian Group SLOPE (BGSLOPE) and Bayesian Sparse-group SLOPE (BSGS). BGSLOPE and BSGS embed group-based SLOPE models into a spike-and-slab framework, with BSGS providing a continuous spike-and-slab framework for sparse-group models. We further introduce Two-step Orthogonal (TSO), which transforms a general setting into an orthogonal one to recover SLOPE's FDR control properties. Through extensive synthetic and real data studies comparing all major model selection strategies for SLOPE models, the proposed Bayesian models consistently control FDR, achieve higher power, and outperform competing methods in prediction.",
+ "primary": "stat.ME"
+}

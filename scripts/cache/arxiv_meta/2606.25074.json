@@ -1,0 +1,17 @@
+{
+ "id": "2606.25074",
+ "title": "Spatio-Temporal Disaggregation with Changing Areal Boundaries",
+ "authors": [
+  "Noah Ripstein",
+  "Patrick Brown",
+  "Jamie Stafford"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 3 figures",
+ "abstract": "Small area estimation and disease mapping increasingly rely on areal data where reporting boundaries change over time. We develop a computationally efficient spatio-temporal disaggregation method to recover high-resolution risk surfaces from observed counts under changing boundaries. Our approach extends the spatially aggregated log-Gaussian Cox process and uses the Extended Latent Gaussian Model framework for fast approximate posterior inference. We replace standard lognormal polygon-specific effects with gamma-distributed overdispersion which yields a marginal negative binomial likelihood, and removes one latent variable per polygon-time pair. We illustrate the approach by mapping mortality risk across shifting NUTS-3 boundaries in Belgium and the Netherlands. For the purpose of dissemination we use Codex to leverage the methodology presented in this paper for the analysis of a separate data set concerning the city of Manchester. The methodology is implemented in the open-source R package DAST.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,24 @@
+{
+ "id": "2509.15134",
+ "title": "Sequential sample size calculations and learning curves safeguard the robust development of a clinical prediction model for individuals",
+ "authors": [
+  "Amardeep Legha",
+  "Joie Ensor",
+  "Rebecca Whittle",
+  "Lucinda Archer",
+  "Ben Van Calster",
+  "Evangelia Christodoulou",
+  "Kym I. E. Snell",
+  "Mohsen Sadatsafavi",
+  "Gary S. Collins",
+  "Richard D. Riley"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 1,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 5 figures",
+ "abstract": "When prospectively developing a new clinical prediction model (CPM), fixed sample size calculations are typically conducted before data collection based on sensible assumptions. But if the assumptions are inaccurate the actual sample size required to develop a reliable model may be very different. To safeguard against this, adaptive sample size approaches have been proposed, based on sequential evaluation of a models predictive performance. Aim: illustrate and extend sequential sample size calculations for CPM development by (i) proposing stopping rules based on minimising uncertainty (instability) and misclassification of individual-level predictions, and (ii) showcasing how it safeguards against inaccurate fixed sample size calculations. Using the sequential approach repeats the pre-defined model development strategy every time a chosen number (e.g., 100) of participants are recruited and adequately followed up. At each stage, CPM performance is evaluated using bootstrapping, leading to prediction and classification stability statistics and plots, alongside optimism-adjusted measures of calibration and discrimination. Our approach is illustrated for development of acute kidney injury using logistic regression CPMs. The fixed sample size calculation, based on perceived sensible assumptions suggests recruiting 342 patients to minimise overfitting; however, the sequential approach reveals that a much larger sample size of 1100 is required to minimise overfitting (targeting population-level stability). If the stopping rule criteria also target small uncertainty and misclassification probability of individual predictions, the sequential approach suggests an even larger sample size (n=1800). Our sequential sample size approach allows users to dynamically monitor individual-level prediction and classification instability and safeguard against using inaccurate assumptions.",
+ "primary": "stat.ME"
+}

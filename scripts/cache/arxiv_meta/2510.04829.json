@@ -1,0 +1,17 @@
+{
+ "id": "2510.04829",
+ "title": "Selection Bias in Hybrid Randomized Controlled Trials using External Controls: A Simulation Study",
+ "authors": [
+  "Han Chang Chiam",
+  "Franz König",
+  "Martin Posch"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid randomized controlled trials (hybrid RCTs) integrate external control data, such as historical or concurrent data, with data from randomized trials. While numerous frequentist and Bayesian methods, such as the test-then-pool and Meta-Analytic-Predictive prior, have been developed to account for potential disagreement between the external control and randomized data, they cannot ensure strict type I error rate control. However, these methods can reduce biases stemming from systematic differences between external controls and trial data. A critical yet underexplored issue in hybrid RCTs is the prespecification of external data to be used in analysis. The validity of statistical conclusions in hybrid RCTs depends on the assumption that external control selection is independent of historical trials outcomes. In practice, historical data may be accessible during the planning stage, potentially influencing important decisions, such as which historical datasets to include or the sample size of the prospective part of the hybrid trial, thus introducing bias. Such data-driven design choices can be an additional source of bias, which can occur even when historical and prospective controls are exchangeable. Through a simulation study, we quantify the biases introduced by outcome-dependent selection of historical controls in hybrid RCTs using both Bayesian and frequentist approaches, and discuss potential strategies to mitigate this bias. Our scenarios consider variability and time trends in the historical studies, distributional shifts between historical and prospective control groups, sample sizes and allocation ratios, as well as the number of studies included. The impact of different rules for selecting external controls is demonstrated using a clinical trial example.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2507.12241",
+ "title": "Assessing the Impact of Covariate Distribution and Positivity Violation on Weighting-Based Indirect Comparisons: a Simulation Study",
+ "authors": [
+  "Arnaud Serret-Larmande",
+  "Jérôme Lambert",
+  "Stéphane Gaudry",
+  "David Hajage"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 11 figures",
+ "abstract": "Population-Adjusted Indirect Comparisons (PAICs) are used to estimate treatment effects when direct comparisons are infeasible and individual patient data (IPD) are only available for one trial. Among PAIC methods, Matching-Adjusted Indirect Comparison (MAIC) is the most widely used. However, little is known about how MAIC performs under challenging conditions such as limited covariate overlap or markedly non-normal covariate distributions. We conducted a Monte Carlo simulation study comparing three estimators: (i) MAIC matching first moment (MAIC-1), (ii) MAIC matching first and second moments (MAIC-2), and (iii) a benchmark method leveraging full IPD -- Propensity Score Weighting (PSW). We examined eight scenarios ranging from ideal conditions to situations with positivity violations and non-normal (including bimodal) covariate distributions. We assessed both anchored and unanchored estimators and examined the impact of adjustment model misspecification. We also applied these estimators to real-world data from the AKIKI and AKIKI-2 trials, comparing renal replacement therapy strategies in critically ill patients. MAIC-1 demonstrated robust performance, remaining unbiased in the presence of moderate positivity violations and non-normal covariates, while MAIC-2 and PSW appeared more sensitive to positivity violations. All methods showed substantial bias when key confounders were omitted, emphasizing the importance of correct model specification. In real-world data, a consistent trend was found with MAIC-1 showing narrower confidence intervals with positivity violation. Our findings support the cautious use of unanchored MAICs and highlight MAIC-1's resilience across moderate violations of assumptions. However, the method's limited flexibility underscores the need for careful use in real-world settings.",
+ "primary": "stat.ME"
+}

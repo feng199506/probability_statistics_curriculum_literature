@@ -1,0 +1,18 @@
+{
+ "id": "2602.22975",
+ "title": "permApprox: a general framework for accurate permutation p-value approximation",
+ "authors": [
+  "Stefanie Peschel",
+  "Anne-Laure Boulesteix",
+  "Erika von Mutius",
+  "Christian L. Müller"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Permutation procedures are common practice in hypothesis testing when distributional assumptions about the test statistic are not met or unknown. With only few permutations, empirical p-values lie on a coarse grid and may even be zero when the observed test statistic exceeds all permuted values. Such zero p-values are statistically invalid and hinder multiple testing correction. Parametric tail modeling with the Generalized Pareto Distribution (GPD) has been proposed to address this issue, but existing implementations can again yield zero p-values when the estimated shape parameter is negative and the fitted distribution has a finite upper bound. We introduce a method for accurate and zero-free p-value approximation in permutation testing, embedded in the permApprox workflow and R package. Building on GPD tail modeling, the method enforces a support constraint during parameter estimation to ensure valid extrapolation beyond the observed statistic, thereby strictly avoiding zero p-values. The workflow further integrates robust parameter estimation, data-driven threshold selection, and principled handling of hybrid p-values that are discrete in the bulk and continuous in the extreme tail. Extensive simulations using two-sample t-tests and Wilcoxon rank-sum tests show that permApprox produces accurate, robust, and zero-free p-value approximations across a wide range of sample and effect sizes. Applications to single-cell RNA-seq and microbiome data demonstrate its practical utility: permApprox yields smooth and interpretable p-value distributions even with few permutations. By resolving the zero-p-value problem while preserving accuracy and computational efficiency, permApprox enables reliable permutation-based inference in high-dimensional and computationally intensive settings.",
+ "primary": "stat.ME"
+}

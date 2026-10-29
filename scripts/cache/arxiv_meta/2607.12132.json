@@ -1,0 +1,17 @@
+{
+ "id": "2607.12132",
+ "title": "Extracting Bayesian Evidence from Frequentist p-Values",
+ "authors": [
+  "Frederik Aust",
+  "Samuel Pawel",
+  "Eric-Jan Wagenmakers"
+ ],
+ "v1_date": "2026-07-13",
+ "latest_version": 1,
+ "latest_date": "2026-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 7 figures, 1 table, data and code to reproduce all results are available at https://github.com/crsh/jabp",
+ "abstract": "The $p$-value and the Bayes factor are measures of evidence that are often considered to be philosophically and mathematically incompatible: The $p$-value quantifies conflict between data and $H_0$ (\"surprise\"), whereas the Bayes factor quantifies the relative predictive accuracy of $H_0$ versus $H_1$ (\"evidence\"). We revisit Jeffreys's Approximate Bayes factor (JAB) -- a simple, largely overlooked approximation dating back to the 1930s -- which connects these two paradigms for objective hypothesis testing of the existence of an effect. Under a unit-information prior the approximation requires only the $p$-value and the effective sample size $n_\\text{eff}$. We clarify the core assumptions and boundary conditions for the application of JAB and show across 704 published $t$-tests and 39 comparisons of proportions that JAB approximates objective Bayes factors remarkably well. The connection between $p$-values and JAB has a practical implication: The evidence implied by a $p$-value depends strongly on $n_\\text{eff}$. Conventional verbal labels for $p$-values (e.g., \"strong surprise\" for .001 < $p$ < .01) correspond to similarly graded Bayes factors only around $n_\\text{eff} \\approx 8$; for larger samples the same $p$-value implies weaker evidence. In moderately sized to large samples, $p > .10$ can amount to moderate or even strong evidence for $H_0$. JAB offers a cheap, sample-size-sensitive supplement to $p$-values, computable from routinely reported statistics, that remains valid even under optional stopping.",
+ "primary": "stat.ME"
+}

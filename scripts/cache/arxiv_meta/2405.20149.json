@@ -1,0 +1,17 @@
+{
+ "id": "2405.20149",
+ "title": "Accounting for Mismatch Error in Small Area Estimation with Linked Data",
+ "authors": [
+  "Enrico Fabrizi",
+  "Nicola Salvati",
+  "Martin Slawski"
+ ],
+ "v1_date": "2024-05-30",
+ "latest_version": 1,
+ "latest_date": "2024-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "total: 46 pages, main: 33 pages, references: 4 pages, technical appendix: 9 pages",
+ "abstract": "In small area estimation different data sources are integrated in order to produce reliable estimates of target parameters (e.g., a mean or a proportion) for a collection of small subsets (areas) of a finite population. Regression models such as the linear mixed effects model or M-quantile regression are often used to improve the precision of survey sample estimates by leveraging auxiliary information for which means or totals are known at the area level. In many applications, the unit-level linkage of records from different sources is probabilistic and potentially error-prone. In this paper, we present adjustments of the small area predictors that are based on either the linear mixed effects model or M-quantile regression to account for the presence of linkage error. These adjustments are developed from a two-component mixture model that hinges on the assumption of independence of the target and auxiliary variable given incorrect linkage. Estimation and inference is based on composite likelihoods and machinery revolving around the Expectation-Maximization Algorithm. For each of the two regression methods, we propose modified small area predictors and approximations for their mean squared errors. The empirical performance of the proposed approaches is studied in both design-based and model-based simulations that include comparisons to a variety of baselines.",
+ "primary": "stat.ME"
+}

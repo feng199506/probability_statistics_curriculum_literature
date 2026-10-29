@@ -1,0 +1,20 @@
+{
+ "id": "2605.02338",
+ "title": "Evaluation of the npde performance for the evaluation of joint model with longitudinal and TTE data: an application in metastatic hormono-resistant prostate cancer",
+ "authors": [
+  "Marc Cerou",
+  "Jimmy Mullaert",
+  "Marc Lavielle",
+  "Sophie Peigné",
+  "Marylore Chenel",
+  "Emmanuelle Comets"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Supplementary material in additional PDF file",
+ "abstract": "Introduction: Joint models are increasingly used in clinical trials. An important part of model building is to properly assess the descriptive and predictive ability of these models. Normalised prediction discrepancies (npd) and normalised prediction distribution errors (npde) have been developed to evaluate graphically and statistically non-linear mixed effect models for continuous responses. In this work, we propose to use a combined test to evaluate joint models. Methods: Prediction discrepancies (pd) are defined as the quantile of the observation within its predictive distribution and obtained by Monte-Carlo simulations. The pd for unobserved (censored) event times are imputed in a uniform distribution based on the model prediction of the probability of censoring, using a similar method as the one developed to handle data under the lower quantification limit (LOQ). We propose to combine the p-values of the tests on longitudinal data and on time-to-event (TTE) data, adjusted with a Bonferroni correction. We performed simulation studies based on a joint model characterising the relationship between prostate specific antigen biomarker (PSA) and survival in prostate cancer patients to evaluate the type I error and power of npd/npde to detect different types of model misspecifications. Results: For all types of misspecifications, the type I error of the combined test was found to be close to the expected 5%. The power of the combined test to detect model misspecifications increased with the difference from the true model and as expected, with sample size. Graphically the power increase can be related to larger differences in the shape of the survival function or PSA evolution. Conclusions: npd can be readily extended for event data by imputing the pd for censored event under the model. The test showed an adequate type I error, and was quite sensitive to alternative models tested.",
+ "primary": "stat.ME"
+}

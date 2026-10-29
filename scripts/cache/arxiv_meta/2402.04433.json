@@ -1,0 +1,17 @@
+{
+ "id": "2402.04433",
+ "title": "Fast Online Changepoint Detection",
+ "authors": [
+  "Fabrizio Ghezzi",
+  "Eduardo Rossi",
+  "Lorenzo Trapani"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 1,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study online changepoint detection in the context of a linear regression model. We propose a class of heavily weighted statistics based on the CUSUM process of the regression residuals, which are specifically designed to ensure timely detection of breaks occurring early on during the monitoring horizon. We subsequently propose a class of composite statistics, constructed using different weighing schemes; the decision rule to mark a changepoint is based on the largest statistic across the various weights, thus effectively working like a veto-based voting mechanism, which ensures fast detection irrespective of the location of the changepoint. Our theory is derived under a very general form of weak dependence, thus being able to apply our tests to virtually all time series encountered in economics, medicine, and other applied sciences. Monte Carlo simulations show that our methodologies are able to control the procedure-wise Type I Error, and have short detection delays in the presence of breaks.",
+ "primary": "stat.ME"
+}

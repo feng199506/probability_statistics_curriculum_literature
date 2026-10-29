@@ -1,0 +1,19 @@
+{
+ "id": "2403.14348",
+ "title": "Statistical modeling to adjust for time trends in adaptive platform trials utilizing non-concurrent controls",
+ "authors": [
+  "Pavla Krotka",
+  "Martin Posch",
+  "Mohamed Gewily",
+  "Günter Höglinger",
+  "Marta Bofill Roig"
+ ],
+ "v1_date": "2024-03-21",
+ "latest_version": 2,
+ "latest_date": "2025-09-11",
+ "journal_ref": "Biometrical Journal (2025)",
+ "doi": "10.1002/bimj.70059",
+ "comment": "",
+ "abstract": "Utilizing non-concurrent control data (NCC) in the analysis of late-entering arms in platform trials has recently received considerable attention. While incorporating NCC can lead to increased power and lower sample sizes, it might introduce bias to the effect estimators if temporal drifts are present. Aiming to mitigate this potential bias, we propose various frequentist model-based approaches that leverage the NCC, while adjusting for time. One of the currently available models incorporates time as a categorical fixed effect, separating the trial duration into periods, defined as time intervals bounded by any arm entering or leaving the platform. In this work, we propose two extensions of this model. First, we consider an alternative definition of time by dividing the trial into fixed-length calendar time intervals. Second, we propose alternative model-based time adjustments. Specifically, we investigate adjusting for random effects and employing splines to model time with a polynomial function. We evaluate the performance of the proposed approaches in a simulation study and illustrate their use through a case study. We show that adjusting for time via a spline function controls the type I error in trials with a sufficiently smooth time trend pattern and may lead to power gains compared to the standard fixed effect model. However, the fixed effect model with period adjustment is the most robust model for arbitrary time trends, provided that the trend is equal across all arms. Especially, in trials with sudden changes in the time trend, the period-adjustment model is preferred if NCC are included.",
+ "primary": "stat.ME"
+}

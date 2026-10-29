@@ -1,0 +1,17 @@
+{
+ "id": "2411.02811",
+ "title": "Temporal Wasserstein Imputation: A Versatile Method for Time Series Imputation",
+ "authors": [
+  "Shuo-Chieh Huang",
+  "Tengyuan Liang",
+  "Ruey S. Tsay"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 3,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Missing data can significantly hamper standard time series analysis, yet they occur frequently in applications. In this paper, we introduce temporal Wasserstein imputation, a novel method for imputing missing data in time series. Unlike most existing techniques, our approach is fully nonparametric, circumventing the need for model specification prior to imputation, making it suitable for empirical applications even with nonlinear dynamics. Its principled algorithmic implementation can seamlessly handle univariate or multivariate time series with any non-systematic missing pattern. In addition, the plausible range and side information of the missing entries (such as box constraints) can easily be incorporated. Furthermore, our method mitigates the distributional bias common among many existing approaches, ensuring more reliable downstream statistical analysis using the imputed series. We establish the convergence of an alternating minimization algorithm to critical points. We also provide conditions under which the marginal distributions of the underlying time series can be identified. Numerical experiments, including extensive simulations covering both linear and nonlinear time series and an analysis on a real-world groundwater dataset, corroborate the practical usefulness of the proposed method.",
+ "primary": "stat.ME"
+}

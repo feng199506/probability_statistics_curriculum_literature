@@ -1,0 +1,17 @@
+{
+ "id": "2602.03077",
+ "title": "Empirical Bayes Shrinkage of Functional Effects, with Application to Analysis of Dynamic eQTLs",
+ "authors": [
+  "Ziang Zhang",
+  "Peter Carbonetto",
+  "Matthew Stephens"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce functional adaptive shrinkage (FASH), an empirical Bayes method for joint analysis of observation units in which each unit estimates an effect function at several values of a continuous condition variable. The ideas in this paper are motivated by dynamic expression quantitative trait locus (eQTL) studies, which aim to characterize how genetic effects on gene expression vary with time or another continuous condition. FASH integrates a broad family of Gaussian processes defined through linear differential operators into an empirical Bayes shrinkage framework, enabling adaptive smoothing and borrowing of information across units. This provides improved estimation of effect functions and principled hypothesis testing, allowing straightforward computation of significance measures such as local false discovery and false sign rates. To encourage conservative inferences, we propose a simple prior- adjustment method that has theoretical guarantees and can be more broadly used with other empirical Bayes methods. We illustrate the benefits of FASH by reanalyzing dynamic eQTL data on cardiomyocyte differentiation from induced pluripotent stem cells. FASH identified novel dynamic eQTLs, revealed diverse temporal effect patterns, and provided improved power compared with the original analysis. More broadly, FASH offers a flexible statistical framework for joint analysis of functional data, with applications extending beyond genomics. To facilitate use of FASH in dynamic eQTL studies and other settings, we provide an accompanying R package at https: //github.com/stephenslab/fashr.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.16711",
+ "title": "Bayesian Analyses of Structural Vector Autoregressions with Sign, Zero, and Narrative Restrictions Using the R Package bsvarSIGNs",
+ "authors": [
+  "Xiaolei Wang",
+  "Tomasz Woźniak"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 1,
+ "latest_date": "2025-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The R package bsvarSIGNs implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions. It offers fast and efficient estimation thanks to the deployment of frontier econometric and numerical techniques and algorithms written in C++. The core model is based on a flexible Vector Autoregression with estimated hyper-parameters of the Minnesota prior and the dummy observation priors. The structural model can be identified by sign, zero, and narrative restrictions, including a novel solution, making it possible to use the three types of restrictions at once. The package facilitates predictive and structural analyses using impulse responses, forecast error variance and historical decompositions, forecasting and conditional forecasting, as well as analyses of structural shocks and fitted values. All this is complemented by colourful plots, user-friendly summary functions, and comprehensive documentation. The package was granted the Di Cook Open-Source Statistical Software Award by the Statistical Society of Australia in 2024.",
+ "primary": "econ.EM"
+}

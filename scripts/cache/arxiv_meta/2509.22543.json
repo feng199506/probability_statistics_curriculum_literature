@@ -1,0 +1,16 @@
+{
+ "id": "2509.22543",
+ "title": "Estimating average treatment effects when treatment data are absent in a target study",
+ "authors": [
+  "Lan Wen",
+  "Aaron L Sarvet"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Researchers are frequently interested in understanding the causal effect of treatment interventions. However, in some cases, the treatment of interest--readily available in a randomized controlled trial (RCT)--is either not directly measured or entirely unavailable in observational datasets. This challenge has motivated the development of stochastic incremental propensity score interventions which operate on post-treatment exposures affected by the treatment of interest with the aim of approximating the causal effects of the treatment intervention. Yet, a key challenge lies in the fact that the precise distributional shift of these post-treatment exposures induced by the treatment is typically unknown, making it uncertain whether the approximation truly reflects the causal effect of interest. The primary objective of this paper is to explore data integration methodologies to characterize a distribution of post-treatment exposures resulting from the treatment in an external dataset, and to use this information to estimate counterfactual mean outcomes under treatment interventions, in settings where the observational data lack treatment information and the external data may not contain measurements of the outcome of interest. We will discuss the underlying assumptions required for this approach and provide methodological guidance on estimation strategies to address these challenges.",
+ "primary": "stat.ME"
+}

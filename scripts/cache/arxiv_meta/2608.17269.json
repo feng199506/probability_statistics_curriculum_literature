@@ -1,0 +1,15 @@
+{
+ "id": "2608.17269",
+ "title": "Task-Based Evaluation of Raw Radar Data Compression: A Pre-Registered Study of Where Classical Codecs Fail to Preserve Target Detection, and Why",
+ "authors": [
+  "Eric Michael Chrabot"
+ ],
+ "v1_date": "2026-08-18",
+ "latest_version": 2,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 9 figures, 5 tables. v2: corrects the retention-only counterfactual (Secs. I, III-A, V-C); states the criterion's commit chronology; adds an Umbra image-domain scene and previously unreported learned-codec runs; scopes the frontier to its mapping rule and grid resolution; reconciles numbers. No new experiments. Code and results log: https://github.com/signalcurrent/radar-codec-eval",
+ "abstract": "Synthetic aperture radar (SAR) systems collect raw I/Q echo data at rates that exceed downlink capacity; fielded systems compress onboard with block-adaptive quantization (BAQ/FDBAQ). Proposed replacements, including learned compression, are evaluated with image-quality metrics (PSNR, SSIM, SQNR); none measures whether the data still supports its operational use. We introduce a task-based evaluation methodology for raw radar compression, with a published pre-registration trail: codecs are scored after SAR focusing against a two-sided criterion -- a CFAR detection-retention floor and a spurious-detection budget at matched threshold -- using frozen task models trained once on uncompressed data. On Sentinel-1 stripmap Level-0 data the evaluation brackets the fielded FDBAQ operating point at the resolution of the BAQ grid (3-bit BAQ sustains utility at 6.12 bits per complex sample; 2-bit does not), with a reported lattice artifact found to change retention by at most 0.004. Under the final plane-mapping rule no classical configuration sustains utility below 4.86 bits per complex sample on this scene. Energy concentration after focusing delivers the predicted retention gain (0.888 vs 0.691 at 2 bits) but converts it into target-adjacent false alarms for wavelet and block-transform codecs alike: a retention-only rule certifies focused-domain JPEG2000 at 4 bits while it produces 2.5 times the tolerable spurious count. On AFRL Gotcha GMTI data (airborne, never compressed onboard) the frontier is bracketed at 7.4-8.0 bits per complex sample and the same trade reappears; on an Umbra spotlight image JPEG2000 passes the retention floor at 2, 1, and 0.5 bits while producing 10-14 times the spurious budget. We report the full pre-registration trail, including the chronology of the criterion's two clauses, one retracted overclaim, and a bounded negative result for a small learned codec.",
+ "primary": "eess.SP"
+}

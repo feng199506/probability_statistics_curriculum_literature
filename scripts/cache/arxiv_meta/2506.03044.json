@@ -1,0 +1,16 @@
+{
+ "id": "2506.03044",
+ "title": "On the Benefits of Accelerated Optimization in Robust and Private Estimation",
+ "authors": [
+  "Laurentiu Andrei Marchis",
+  "Po-Ling Loh"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 1,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "91 pages, 8 figures",
+ "abstract": "We study the advantages of accelerated gradient methods, specifically based on the Frank-Wolfe method and projected gradient descent, for privacy and heavy-tailed robustness. Our approaches are as follows: For the Frank-Wolfe method, our technique is based on a tailored learning rate and a uniform lower bound on the gradient of the $\\ell_2$-norm over the constraint set. For accelerating projected gradient descent, we use the popular variant based on Nesterov's momentum, and we optimize our objective over $\\mathbb{R}^p$. These accelerations reduce iteration complexity, translating into stronger statistical guarantees for empirical and population risk minimization. Our analysis covers three settings: non-random data, random model-free data, and parametric models (linear regression and generalized linear models). Methodologically, we approach both privacy and robustness based on noisy gradients. We ensure differential privacy via the Gaussian mechanism and advanced composition, and we achieve heavy-tailed robustness using a geometric median-of-means estimator, which also sharpens the dependency on the dimension of the covariates. Finally, we compare our rates to existing bounds and identify scenarios where our methods attain optimal convergence.",
+ "primary": "math.ST"
+}

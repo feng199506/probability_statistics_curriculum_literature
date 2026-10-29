@@ -1,0 +1,15 @@
+{
+ "id": "2412.17163",
+ "title": "Spline Autoregression Method for Estimation of Quantile Spectrum",
+ "authors": [
+  "Ta-Hsin Li"
+ ],
+ "v1_date": "2024-12-22",
+ "latest_version": 3,
+ "latest_date": "2025-11-25",
+ "journal_ref": "JOURNAL OF COMPUTATIONAL AND GRAPHICAL STATISTICS, 1-15, 2025",
+ "doi": "10.1080/10618600.2025.2549452",
+ "comment": "",
+ "abstract": "The quantile spectrum was introduced in Li (2012; 2014) as an alternative tool for spectral analysis of time series. It has the capability of providing a richer view of time series data than that offered by the ordinary spectrum especially for nonlinear dynamics such as stochastic volatility. A novel method, called spline autoregression (SAR), is proposed in this paper for estimating the quantile spectrum as a bivaraite function of frequency and quantile level, under the assumption that the quantile spectrum varies smoothly with the quantile level. The SAR method is facilitated by the quantile discrete Fourier transform (QDFT) based on trigonometric quantile regression. It is enabled by the resulting time-domain quantile series (QSER) which represents properly scaled oscillatory characteristics of the original time series around a quantile. A functional autoregressive (AR) model is fitted to the QSER on a grid of quantile levels by penalized least-squares with the AR coefficients represented as smoothing splines of the quantile level. While the ordinary AR model is widely used for conventional spectral estimation, the proposed SAR method provides an effective way of estimating the quantile spectrum as a bivariate function in comparison with the alternatives. This is confirmed by a simulation study.",
+ "primary": "stat.ME"
+}

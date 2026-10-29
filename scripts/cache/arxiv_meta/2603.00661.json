@@ -1,0 +1,16 @@
+{
+ "id": "2603.00661",
+ "title": "Martingale Posterior Predictive Coherence: Hausdorff Moment Hierarchy",
+ "authors": [
+  "Nicholas G. Polson",
+  "Daniel Zantedeschi"
+ ],
+ "v1_date": "2026-02-28",
+ "latest_version": 6,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Fixed typos, and updated references",
+ "abstract": "For an exchangeable Bernoulli sequence with de Finetti mixing measure Pi, the k-step predictive probability P(X_{n+1}=...=X_{n+k}=0 | F_n) equals the posterior expectation E[(1-theta)^k | F_n]. By binomial expansion, this depends on all posterior moments up to order k. We show that the first moment alone is not sufficient to uniquely identify these quantities: for k >= 2, the mapping from posterior mean to k-step predictive is set-valued. The martingale posterior framework of Fong, Holmes, and Walker (which constrains only the first conditional moment of the terminal value) does not, in general, uniquely identify multi-step predictive distributions. Under any strictly proper scoring rule, the plug-in predictive is strictly dominated by the Bayes predictive whenever the posterior is non-degenerate. A closure theorem establishes that a martingale posterior determines all k-step predictives if and only if the conditional law of the terminal value is uniquely specified. Hill's A_{(n)} rule under the Jeffreys Beta(1/2,1/2) prior is a positive example. The discrepancy is O(Var(theta | F_n)) and vanishes as the posterior concentrates. These results clarify the structural requirements for predictive completeness under exchangeability.",
+ "primary": "math.ST"
+}

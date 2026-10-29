@@ -1,0 +1,16 @@
+{
+ "id": "2404.09142",
+ "title": "Controlling the False Discovery Rate in Subspace Selection",
+ "authors": [
+  "Mateo Díaz",
+  "Venkat Chandrasekaran"
+ ],
+ "v1_date": "2024-04-14",
+ "latest_version": 1,
+ "latest_date": "2024-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 13 Figures",
+ "abstract": "Controlling the false discovery rate (FDR) is a popular approach to multiple testing, variable selection, and related problems of simultaneous inference. In many contemporary applications, models are not specified by discrete variables, which necessitates a broadening of the scope of the FDR control paradigm. Motivated by the ubiquity of low-rank models for high-dimensional matrices, we present methods for subspace selection in principal components analysis that provide control on a geometric analog of FDR that is adapted to subspace selection. Our methods crucially rely on recently-developed tools from random matrix theory, in particular on a characterization of the limiting behavior of eigenvectors and the gaps between successive eigenvalues of large random matrices. Our procedure is parameter-free, and we show that it provides FDR control in subspace selection for common noise models considered in the literature. We demonstrate the utility of our algorithm with numerical experiments on synthetic data and on problems arising in single-cell RNA sequencing and hyperspectral imaging.",
+ "primary": "math.ST"
+}

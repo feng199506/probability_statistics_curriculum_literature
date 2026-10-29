@@ -1,0 +1,17 @@
+{
+ "id": "2510.13233",
+ "title": "Scalable Bayesian inference for high-dimensional mixed-type multivariate spatial data",
+ "authors": [
+  "Arghya Mukherjee",
+  "Arnab Hazra",
+  "Dootika Vats"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 2,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 8 figures, 13 tables",
+ "abstract": "Spatial generalized linear mixed-effects models are popularly used to analyze spatially indexed univariate responses. However, with modern technology, it is common to observe vector-valued mixed-type responses, e.g., a combination of binary, count, or continuous types, at each location. Methods for jointly modeling such mixed-type multivariate spatial responses are rare. Using multivariate Gaussian processes (GPs) in the latent layer, we present a class of Bayesian spatial methods applicable to any combination of exponential family responses. Since multivariate GP-based methods can suffer from computational bottlenecks when the number of spatial locations is high, we further employ a computationally efficient Vecchia approximation for fast posterior inference and prediction. Key theoretical properties of the proposed model, such as identifiability and the structure of the induced covariance, are established. Our approach employs a Markov chain Monte Carlo-based inference method that uses elliptical slice sampling within a blocked Metropolis-within-Gibbs sampling framework. We illustrate the efficacy of the proposed method through simulation studies and a real-data application on joint modeling of wildfire counts and burnt areas across the United States.",
+ "primary": "stat.ME"
+}

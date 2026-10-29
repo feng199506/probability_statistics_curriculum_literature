@@ -1,0 +1,17 @@
+{
+ "id": "2607.17345",
+ "title": "A multiverse-consensus pipeline for reproducible feature selection in untargeted LC-MS metabolomics",
+ "authors": [
+  "Mohammed Saeed Al-Huraibi",
+  "Ihsan Yozgat",
+  "Ahmet Kaplan"
+ ],
+ "v1_date": "2026-07-19",
+ "latest_version": 1,
+ "latest_date": "2026-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages",
+ "abstract": "Background: Untargeted LC-MS metabolomics requires a long chain of preprocessing decisions, each with several equally defensible options. Analysts typically commit to one pipeline and report the resulting feature shortlist. How strongly that shortlist depends on choices that were never varied stays invisible. Results: We adapt multiverse analysis to untargeted metabolomics feature selection. We present an auditable, configuration-driven pipeline that (i) applies a ten-stage quality-control filter cascade in which every feature's fate is logged, and (ii) runs the downstream analysis as a multiverse over four contrasting preprocessing philosophies, each combined with four feature-ranking methods under bootstrap stability selection and label-permutation testing. Only features recurring across paths enter a tiered consensus. On a demonstration dataset of five breast-cancer cell lines (30,370 detected features), the four single pipelines individually returned shortlists of 4-20 features whose pairwise agreement was as low as Jaccard = 0.05. The multiverse consensus retained 15 features (>=2/4 paths), of which one recurred across all four, although two paths (sharing normalization and drift-correction methods) dominate the consensus. A pipeline-wide label-permutation test found no false discoveries in 50 null permutations. Conclusions: Reporting only preprocessing-robust features, with a complete kept/dropped audit trail, converts hidden analytical degrees of freedom into an explicit, inspectable output. We discuss scope and limitations, including single-batch design and the need for independent validation.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2411.19444",
+ "title": "Capital Asset Pricing Model with Size Factor and Normalizing by Volatility Index",
+ "authors": [
+  "Abraham Atsiwo",
+  "Andrey Sarantsev"
+ ],
+ "v1_date": "2024-11-29",
+ "latest_version": 8,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 2 tables, 5 figures. Keywords: Capital Asset Pricing Model, stochastic volatility, ergodic Markov process, stationary distribution, size effect, autoregression, capital distribution curve",
+ "abstract": "The Capital Asset Pricing Model (CAPM) relates a well-diversified stock portfolio to a benchmark portfolio, usually taken to be the S\\&P 500. We insert size effect in the CAPM, capturing a real-life feature that on average, small stocks (measured by market capitalization) have higher risk and return than large stocks. Testing CAPM involves fitting linear regressions. Our goal is to ensure that regression residuals are independent identically distributed Gaussian. In some cases, we find that including the Volatility Index as a multiplicative factor by these residuals makes them closer to that ideal. In this article, we combine these ideas to create a new discrete-time model, which includes volatility, size factor, and the CAPM. We fit this model using real-world data, prove the long-term stability of this model, and analyze the resulting capital distribution curves.",
+ "primary": "q-fin.MF"
+}

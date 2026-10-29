@@ -1,0 +1,16 @@
+{
+ "id": "2402.19172",
+ "title": "Point Processes and spatial statistics in time-frequency analysis",
+ "authors": [
+  "Barbara Pascal",
+  "Rémi Bardenet"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 2,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To be published as a chapter of the book \"Stochastic Geometry: Percolation, Tesselations, Gaussian Fields and Point Processes\"",
+ "abstract": "A finite-energy signal is represented by a square-integrable, complex-valued function $t\\mapsto s(t)$ of a real variable $t$, interpreted as time. Similarly, a noisy signal is represented by a random process. Time-frequency analysis, a subfield of signal processing, amounts to describing the temporal evolution of the frequency content of a signal. Loosely speaking, if $s$ is the audio recording of a musical piece, time-frequency analysis somehow consists in writing the musical score of the piece. Mathematically, the operation is performed through a transform $\\mathcal{V}$, mapping $s \\in L^2(\\mathbb{R})$ onto a complex-valued function $\\mathcal{V}s \\in L^2(\\mathbb{R}^2)$ of time $t$ and angular frequency $ω$. The squared modulus $(t, ω) \\mapsto \\vert\\mathcal{V}s(t,ω)\\vert^2$ of the time-frequency representation is known as the spectrogram of $s$; in the musical score analogy, a peaked spectrogram at $(t_0,ω_0)$ corresponds to a musical note at angular frequency $ω_0$ localized at time $t_0$. More generally, the intuition is that upper level sets of the spectrogram contain relevant information about in the original signal. Hence, many signal processing algorithms revolve around identifying maxima of the spectrogram. In contrast, zeros of the spectrogram indicate perfect silence, that is, a time at which a particular frequency is absent. Assimilating $\\mathbb{R}^2$ to $\\mathbb{C}$ through $z = ω+ \\mathrm{i}t$, this chapter focuses on time-frequency transforms $\\mathcal{V}$ that map signals to analytic functions. The zeros of the spectrogram of a noisy signal are then the zeros of a random analytic function, hence forming a Point Process in $\\mathbb{C}$. This chapter is devoted to the study of these Point Processes, to their links with zeros of Gaussian Analytic Functions, and to designing signal detection and denoising algorithms using spatial statistics.",
+ "primary": "eess.SP"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2606.18651",
+ "title": "TGCM: Topic-Guided Consistency Modeling for One-Step Disentanglement of Interleaved APT Technique Sequences",
+ "authors": [
+  "Guo-Wei Wong",
+  "Ming-Chuan Yang",
+  "Shou-De Lin",
+  "Wang-Chien Lee",
+  "Meng Chang Chen"
+ ],
+ "v1_date": "2026-06-17",
+ "latest_version": 2,
+ "latest_date": "2026-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, Due to arXiv's abstract length limit, the web version of the abstract has been shortened while preserving the paper's original scope, claims, and results. The implementation and experimental artifacts are publicly available at https://irish-kw.github.io/TGCM_Website/",
+ "abstract": "Multiple Advanced Persistent Threat (APT) campaigns may execute concurrently, producing audit logs whose events are interleaved without explicit campaign boundaries. We formulate this setting as Unknown-K Interleaved Sequence Demixing (UKISD): recovering coherent campaign episodes when the number of concurrent campaigns is unknown. Each episode is represented as a sequence of MITRE ATT&CK technique occurrences, and demixing is cast as occurrence-level assignment with sequence reconstruction. Existing methods often assume single-campaign observations or rely on local heuristics, limiting robustness to severe interleaving, repeated techniques, abstraction noise, and unknown mixture cardinality. We propose Topic-Guided Consistency Modeling (TGCM), a consistency-inspired one-step framework for UKISD. TGCM maps an interleaved technique sequence to campaign episodes, jointly performing occurrence assignment and sequence reconstruction in one forward pass. It combines topic guidance from ATT&CK narratives with an embedding-space self-consistency objective to improve semantic coherence and retain efficient inference. We evaluate TGCM on synthetic mixtures, mixed benchmarks, DARPA engagement traces, and CAPTure, an end-to-end benchmark containing 200 scenarios, 855 million audit events, and 25 ATT&CK-aligned attack profiles in single-host and multi-host settings. TGCM improves occurrence-level assignment under heavy interleaving, repeated technique reuse, symbolic extraction errors, and budgeted unknown-K inference. It also generalizes to unseen benchmarks without retraining and remains effective with practical ATT&CK extraction pipelines. These results establish TGCM as a practical post-abstraction framework for reasoning about concurrent APT campaigns. Code and artifacts are available at https://irish-kw.github.io/TGCM_Website/.",
+ "primary": "cs.CR"
+}

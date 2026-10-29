@@ -1,0 +1,17 @@
+{
+ "id": "2407.09915",
+ "title": "Automatic Parallel Tempering Markov Chain Monte Carlo with Nii-C",
+ "authors": [
+  "Sheng Jin",
+  "Wenxin Jiang",
+  "Dong-Hong Wu"
+ ],
+ "v1_date": "2024-07-13",
+ "latest_version": 1,
+ "latest_date": "2024-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 9 figures, accepted for publication in ApJS",
+ "abstract": "Due to the high dimensionality or multimodality that is common in modern astronomy, sampling Bayesian posteriors can be challenging. Several publicly available codes based on different sampling algorithms can solve these complex models, but the execution of the code is not always efficient or fast enough. The article introduces a C language general-purpose code, Nii-C (https://github.com/shengjin/nii-c.git), that implements a framework of Automatic Parallel Tempering Markov Chain Monte Carlo. Automatic in this context means that the parameters that ensure an efficient parallel tempering process can be set by a control system during the initial stages of a sampling process. The auto-tuned parameters consist of two parts, the temperature ladders of all parallel tempering Markov chains and the proposal distributions for all model parameters across all parallel tempering chains. In order to reduce dependencies in the compilation process and increase the code's execution speed, Nii-C code is constructed entirely in the C language and parallelised using the Message-Passing Interface protocol to optimise the efficiency of parallel sampling. These implementations facilitate rapid convergence in the sampling of high-dimensional and multi-modal distributions, as well as expeditious code execution time. The Nii-C code can be used in various research areas to trace complex distributions due to its high sampling efficiency and quick execution speed. This article presents a few applications of the Nii-C code.",
+ "primary": "astro-ph.IM"
+}

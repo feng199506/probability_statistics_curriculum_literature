@@ -1,0 +1,18 @@
+{
+ "id": "2604.27961",
+ "title": "Clustering in co-evolving opinion dynamics: reduced SPDE models",
+ "authors": [
+  "Sebastian Zimper",
+  "Nataša Djurdjevac Conrad",
+  "Federico Cornalba",
+  "Ana Djurdjevac"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clustering is a fundamental collective phenomenon in agent-based models (ABMs) of opinion dynamics. To study clustering in systems with co-evolving social and opinion variables, we derive stochastic partial differential equation (SPDE) models that describe the evolution of clusters. Specifically, these SPDE models are reduced in the sense that their domain accounts only for social variables, while opinion variables are instead incorporated in a multiplicative (Eulerian velocity-type) fashion. The model reduction is primarily guided by computational efficiency, as well as model interpretability. We consider two settings: one in which opinions do not affect social interactions, and another one in which a feedback mechanism couples the two. Our approach extends reduced PDE modelling to a stochastic framework, which is essential for capturing long-term cluster behaviour. Numerical experiments indeed demonstrate that the proposed reduced SPDEs substantially decrease computational cost compared to full-state SPDE models, such as the Dean--Kawasaki equation, while still accurately reproducing the clustering behaviour of the underlying ABM. As a result, these reduced models provide an efficient tool for studying systems with large populations, including those arising in the analysis of real-world data: in particular, we provide an application related to the large-scale General Social Survey (GSS), which comprises opinion and social data of the US population since 1972.",
+ "primary": "physics.soc-ph"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.21549",
+ "title": "Bayesian inference for ordinary differential equations models with heteroscedastic measurement error",
+ "authors": [
+  "Selva Salimi",
+  "David J. Warne",
+  "Christopher Drovandi"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 1,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages",
+ "abstract": "Ordinary differential equation (ODE) models are widely used to describe systems in many areas of science. To ensure these models provide accurate and interpretable representations of real-world dynamics, it is often necessary to infer parameters from data, which involves specifying the form of the ODE system as well as a statistical model describing the observational process. A popular and convenient choice for the error model is a Gaussian distribution with constant variance. However, the choice may not be realistic in many systems, since the variance of the observational error may vary over time or have some dependence on the system state (heteroscedastic), reflecting changes in measurement conditions, environmental fluctuations, or intrinsic system variability. Misspecification of the error model can lead to substantial inaccuracies of the posterior estimates of the ODE model parameters and predictions. More elaborate parametric error models could be specified, but this would increase computational cost because additional parameters would need to be estimated within the MCMC procedure and may still be misspecified. In this work we propose a two-step semi-parametric framework for Bayesian parameter estimation of ODE model parameters when there exists heteroscedasticity in the error process. The first step applies a heteroscedastic Gaussian process to estimate the time-dependent error, and the second step performs Bayesian inference for the ODE model parameters using the estimated time-dependent error estimated from step one in the likelihood function. Through a simulation study and two real-world applications, we demonstrate that the proposed approach yields more reliable posterior inference and predictive uncertainty compared to the standard homoscedastic models. Although our focus is on heteroscedasticity, the framework could be applied to handle more complex error processes.",
+ "primary": "stat.ME"
+}

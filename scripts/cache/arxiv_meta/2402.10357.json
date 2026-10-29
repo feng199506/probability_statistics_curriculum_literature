@@ -1,0 +1,17 @@
+{
+ "id": "2402.10357",
+ "title": "Efficient Sampling on Riemannian Manifolds via Langevin MCMC",
+ "authors": [
+  "Xiang Cheng",
+  "Jingzhao Zhang",
+  "Suvrit Sra"
+ ],
+ "v1_date": "2024-02-15",
+ "latest_version": 1,
+ "latest_date": "2024-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is an old paper from NeurIPS 2022. arXiv admin note: text overlap with arXiv:2204.13665",
+ "abstract": "We study the task of efficiently sampling from a Gibbs distribution $d π^* = e^{-h} d {vol}_g$ over a Riemannian manifold $M$ via (geometric) Langevin MCMC; this algorithm involves computing exponential maps in random Gaussian directions and is efficiently implementable in practice. The key to our analysis of Langevin MCMC is a bound on the discretization error of the geometric Euler-Murayama scheme, assuming $\\nabla h$ is Lipschitz and $M$ has bounded sectional curvature. Our error bound matches the error of Euclidean Euler-Murayama in terms of its stepsize dependence. Combined with a contraction guarantee for the geometric Langevin Diffusion under Kendall-Cranston coupling, we prove that the Langevin MCMC iterates lie within $ε$-Wasserstein distance of $π^*$ after $\\tilde{O}(ε^{-2})$ steps, which matches the iteration complexity for Euclidean Langevin MCMC. Our results apply in general settings where $h$ can be nonconvex and $M$ can have negative Ricci curvature. Under additional assumptions that the Riemannian curvature tensor has bounded derivatives, and that $π^*$ satisfies a $CD(\\cdot,\\infty)$ condition, we analyze the stochastic gradient version of Langevin MCMC, and bound its iteration complexity by $\\tilde{O}(ε^{-2})$ as well.",
+ "primary": "math.ST"
+}

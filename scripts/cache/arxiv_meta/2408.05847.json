@@ -1,0 +1,16 @@
+{
+ "id": "2408.05847",
+ "title": "Correcting invalid regression discontinuity designs with multiple time period data",
+ "authors": [
+  "Dor Leventer",
+  "Daniel Nevo"
+ ],
+ "v1_date": "2024-08-11",
+ "latest_version": 2,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Regression Discontinuity (RD) designs rely on the continuity of potential outcome means at the cutoff, but this assumption often fails when other treatments or policies are implemented at this cutoff. We characterize the bias in sharp and fuzzy RD designs due to violations of continuity, and develop a general identification framework that leverages multiple time periods to estimate local effects on the (un)treated. We extend the framework to settings with carry-over effects and time-varying running variables, highlighting additional assumptions needed for valid causal inference. We propose an estimation framework that extends the conventional and bias-corrected single-period local linear regression framework to multiple periods and different sampling schemes, and study its finite-sample performance in simulations. Finally, we revisit a prior study on fiscal rules in Italy to illustrate the practical utility of our approach.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.11561",
+ "title": "Online Electric Vehicle Charging Control with Battery Thermal Management in Cold Environments",
+ "authors": [
+  "Xiaowei Wang",
+  "Yize Chen",
+  "Yue Chen"
+ ],
+ "v1_date": "2026-02-12",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 7 figures",
+ "abstract": "Electric vehicle (EV) adoption in cold regions is hindered by degraded EV charging performance at low temperatures, which necessitates effective battery thermal management during charging. Given the coupling of battery charging and heating dynamics, this paper examines the benefits of online coordinated charging and heating control, rather than performing them separately. Specifically, we first build queue models for both battery charging and thermal dynamics. Then, we formulate an optimization problem to minimize the system cost of a charging station, which allows us to coordinate charging and heating through maintaining queue stability. To solve the problem, we develop our online coordinated charging and heating control algorithm within the theoretical framework of Lyapunov optimization. Note that our online method is prediction-free and independent of any assumed modeling of uncertainty. We also characterize both the feasibility and optimality of the proposed control approach. Numerical results based on real-world data demonstrate the effectiveness and robustness of our control method through comparisons.",
+ "primary": "math.OC"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.09559",
+ "title": "The Gibbs sampler revisited from the perspective of conditional modeling",
+ "authors": [
+  "Kun-Lin Kuo",
+  "Yuchung J. Wang"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 1,
+ "latest_date": "2024-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "The Gibbs sampler (GS) is a crucial algorithm for approximating complex calculations, and it is justified by Markov chain theory, the alternating projection theorem, and $I$-projection, separately. We explore the equivalence between these three operators. Partially collapsed Gibbs sampler (PCGS) and pseudo-Gibbs sampler (PGS) are two generalizations of GS. For PCGS, the associated Markov chain is heterogeneous with varying state spaces, and we propose the iterative conditional replacement algorithm (ICR) to prove its convergence. In addition, ICR can approximate the multiple stationary distributions modeled by a PGS. Our approach highlights the benefit of using one operator for one conditional distribution, rather than lumping all the conditionals into one operator. Because no Markov chain theory is required, this approach simplifies the understanding of convergence.",
+ "primary": "stat.CO"
+}

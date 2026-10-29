@@ -1,0 +1,17 @@
+{
+ "id": "2508.00089",
+ "title": "Gradient-Boosted Pseudo-Weighting: Methods for Population Inference from Nonprobability samples",
+ "authors": [
+  "Kangrui Liu",
+  "Lingxiao Wang",
+  "Yan Li"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 2,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nonprobability samples have rapidly emerged to address time-sensitive priority topics in a variety of fields. While these data are timely, they are prone to selection bias. To mitigate selection bias, a large number of survey research literature has explored the use of propensity score (PS) adjustment methods to enhance population representativeness of nonprobability samples, using probability-based survey samples as external references. A recent advancement, the 2-step PS-based pseudo-weighting adjustment method (2PS, Li 2024), has been shown to improve upon recent developments with respect to mean squared error. However, the effectiveness of these methods in reducing bias critically depends on the ability of the underlying propensity model to accurately reflect the true selection process, which is challenging with parametric regression. In this study, we propose a set of pseudo-weight construction methods, which utilize gradient boosting methods (GBM) to estimate PSs in 2PS to construct pseudo-weights, offering greater flexibility compared to logistic regression-based methods. We compare the proposed GBM-based pseudo-weights with existing methods, including 2PS. The population mean estimators are evaluated via Monte Carlo simulation studies. We also evaluated prevalence of various health outcomes, including 15-year mortality, using 1988 ~ 1994 NHANES III as a nonprobability sample and the 1994 NHIS as the reference survey.",
+ "primary": "stat.ME"
+}

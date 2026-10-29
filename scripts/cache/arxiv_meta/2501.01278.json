@@ -1,0 +1,15 @@
+{
+ "id": "2501.01278",
+ "title": "Risk forecasting using Long Short-Term Memory Mixture Density Networks",
+ "authors": [
+  "Nico Herrig"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 1,
+ "latest_date": "2025-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "A thesis presented for the degree of Master of Science (MSc.) in Applied Statistics and Datamining, supervised by Prof. Dr. Valentin Popov",
+ "abstract": "This work aims to implement Long Short-Term Memory mixture density networks (LSTM-MDNs) for Value-at-Risk forecasting and compare their performance with established models (historical simulation, CMM, and GARCH) using a defined backtesting procedure. The focus was on the neural network's ability to capture volatility clustering and its real-world applicability. Three architectures were tested: a 2-component mixture density network, a regularized 2-component model (Arimond et al., 2020), and a 3-component mixture model, the latter being tested for the first time in Value-at-Risk forecasting. Backtesting was performed on three stock indices (FTSE 100, S&P 500, EURO STOXX 50) over two distinct two-year periods (2017-2018 as a calm period, 2021-2022 as turbulent). Model performance was assessed through unconditional coverage and independence assumption tests. The neural network's ability to handle volatility clustering was validated via correlation analysis and graphical evaluation. Results show limited success for the neural network approach. LSTM-MDNs performed poorly for 2017/2018 but outperformed benchmark models in 2021/2022. The LSTM mechanism allowed the neural network to capture volatility clustering similarly to GARCH models. However, several issues were identified: the need for proper model initialization and reliance on large datasets for effective learning. The findings suggest that while LSTM-MDNs provide adequate risk forecasts, further research and adjustments are necessary for stable performance.",
+ "primary": "q-fin.CP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2603.28989",
+ "title": "Linear Regression from 1-bit Quantized Data",
+ "authors": [
+  "Daniel Hill",
+  "Martin Slawski"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 1,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the prevalence of environments in which data is abundant while resources for storage and/or transmission might be scarce, we study linear regression when predictors, their squares, and responses are subject to single-bit dithered quantization. An estimator relying on plug-in estimation of the quadratic and linear terms in the quadratic program formulation of the least squares problem is proposed. We provide a non-asymptotic bound on the $\\ell_2$-estimation error of this estimator and obtain its asymptotic distribution when the number of predictors is fixed, which can be used for inference and an investigation of the mean-square error efficiency relative to the ordinary least squares estimator. It is shown that for the quantization protocol under consideration, substantial improvements over the proposed estimator cannot be expected. A compression pipeline in which the underlying data is first subject to sketching and subsequently quantization can be studied within our framework as well. We also present an extension to address high-dimensional predictors. Numerical experiments with synthetic data complement our theoretical findings.",
+ "primary": "math.ST"
+}

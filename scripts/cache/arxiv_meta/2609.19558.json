@@ -1,0 +1,15 @@
+{
+ "id": "2609.19558",
+ "title": "Oracle high-dimensional $M$-estimation using smooth reparameterization for sparsity",
+ "authors": [
+  "Yoichi Nishiyama"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 3,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages",
+ "abstract": "This paper establishes a unified non-linear regularization framework for high-dimensional $M$-estimation, encompassing both linear regression and Cox's proportional hazards models. Rather than relying on traditional additive non-convex penalties, the proposed paradigm embeds sparsity directly into the parameter mapping using a smooth ($C^2$) component-wise ReParametrization map for Sparsity (RePS). This geometric formulation dynamically adapts to local parameter scales, successfully suppressing high-dimensional noise and recovering unbiased oracle asymptotic normality under the large-sample limit. Through the Primal-Dual Witness method, we establish a unified oracle equivalence for both model classes under a liberated micro-penalty scaling regime $λ\\ll n^{-1/2}$, effectively accommodating model-specific structures such as the shift-invariance in survival analysis. Extensive Monte Carlo simulations demonstrate that the RePS framework consistently achieves near-perfect false-positive control and optimal 95\\% confidence interval coverage, outperforming conventional non-convex regularizers (SCAD and MCP) which suffer from severe variance inflation and under-coverage due to post-selection noise leakage.",
+ "primary": "stat.ME"
+}

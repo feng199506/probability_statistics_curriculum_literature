@@ -1,0 +1,16 @@
+{
+ "id": "2512.08173",
+ "title": "Bayesian Semiparametric Mixture Cure (Frailty) Models",
+ "authors": [
+  "Fatih Kızılaslan",
+  "Valeria Vitelli"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 4 tables, 8 figures",
+ "abstract": "In recent years, mixture cure models have gained increasing popularity in survival analysis as an alternative to the Cox proportional hazards model, particularly in settings where a subset of patients is considered cured. The proportional hazards mixture cure model is especially advantageous when the presence of a cured fraction can be reasonably assumed, providing a more accurate representation of long-term survival dynamics. In this study, we propose a novel hierarchical Bayesian framework for the semiparametric mixture cure model, which accommodates both the inclusion and exclusion of a frailty component, allowing for greater flexibility in capturing unobserved heterogeneity among patients. Samples from the posterior distribution are obtained using a Markov chain Monte Carlo method, leveraging a hierarchical structure inspired by Bayesian Lasso. Comprehensive simulation studies are conducted across diverse scenarios to evaluate the performance and robustness of the proposed models. Bayesian model comparison and assessment are performed using various criteria. Finally, the proposed approaches are applied to two well-known datasets in the cure model literature: the E1690 melanoma trial and a colon cancer clinical trial.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.17108",
+ "title": "A general framework for probabilistic model uncertainty",
+ "authors": [
+  "Vik Shirvaikar",
+  "Stephen G. Walker",
+  "Chris Holmes"
+ ],
+ "v1_date": "2024-10-22",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 28 figures, 1 table",
+ "abstract": "Existing approaches to model uncertainty typically either compare models using a quantitative model selection criterion or evaluate posterior model probabilities having set a prior. In this paper, we propose an alternative strategy which views missing observations as the source of model uncertainty, where the true model would be identified with the complete data. To quantify model uncertainty, it is then necessary to provide a probability distribution for the missing observations conditional on what has been observed. This can be set sequentially using one-step-ahead predictive densities, which recursively sample from the best model according to some consistent model selection criterion. Repeated predictive sampling of the missing data, to give a complete dataset and hence a best model each time, provides our measure of model uncertainty. This approach bypasses the need for subjective prior specification or integration over parameter spaces, addressing issues with standard methods such as the Bayes factor. Predictive resampling also suggests an alternative view of hypothesis testing as a decision problem based on a population statistic, where we directly index the probabilities of competing models. In addition to hypothesis testing, we demonstrate our approach on illustrations from density estimation and variable selection.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2507.21491",
+ "title": "Evaluating the effect of different non-informative prior specifications on the Bayesian proportional odds model in randomised controlled trials: a simulation study",
+ "authors": [
+  "Chris J. Selman",
+  "Katherine J. Lee",
+  "Michael Dymock",
+  "Ian C. Marschner",
+  "Steven Y. C. Tong",
+  "Mark Jones",
+  "Robert K. Mahar"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 1,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: Ordinal outcomes combine multiple distinct ordered patient states into a single endpoint and are commonly analysed using proportional odds (PO) models in clinical trials. When using a Bayesian approach, it is not obvious what the influence of a 'non-informative' prior is in the analysis of a fixed design or on early stopping decisions in adaptive designs. Methods: This study compares different non-informative prior specifications for the Bayesian PO model in the context of both a two-arm trial with a fixed design and an adaptive design with an early stopping rule. We conducted an extensive simulation study, varying the effect size, sample size, number of categories and distribution of the control arm probabilities. Results: Our findings indicate that the choice of prior specification can introduce bias in the estimation of the treatment effect, particularly when control arm probabilities are right-skewed. The R-square prior specification resulted in the smallest bias and increased the likelihood of appropriately stopping early when there was a treatment effect. However, this specification exhibited larger biases when control arm probabilities were U-shaped when there was an early stopping rule. Dirichlet priors with concentration parameters close to zero resulted in the smallest bias when probabilities were right-skewed in the control arm, but were more likely to inappropriately stop early for superiority when there was no treatment effect and an early stopping rule. Conclusions: The specification of non-informative priors in Bayesian adaptive trials with ordinal outcomes has implications for treatment effect estimation and early stopping decisions. We recommend the careful selection of priors that consider the possible distribution of control arm probabilities and that sensitivity analyses to the prior be conducted.",
+ "primary": "stat.ME"
+}

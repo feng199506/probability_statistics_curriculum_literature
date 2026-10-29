@@ -1,0 +1,16 @@
+{
+ "id": "2408.00955",
+ "title": "Aggregation Models with Optimal Weights for Distributed Gaussian Processes",
+ "authors": [
+  "Haoyuan Chen",
+  "Rui Tuo"
+ ],
+ "v1_date": "2024-08-01",
+ "latest_version": 2,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 8 figures, 2 tables",
+ "abstract": "Gaussian process (GP) models have received increasing attention in recent years due to their superb prediction accuracy and modeling flexibility. To address the computational burdens of GP models for large-scale datasets, distributed learning for GPs are often adopted. Current aggregation models for distributed GPs is not time-efficient when incorporating correlations between GP experts. In this work, we propose a novel approach for aggregated prediction in distributed GPs. The technique is suitable for both the exact and sparse variational GPs. The proposed method incorporates correlations among experts, leading to better prediction accuracy with manageable computational requirements. As demonstrated by empirical studies, the proposed approach results in more stable predictions in less time than state-of-the-art consistent aggregation models.",
+ "primary": "stat.ML"
+}

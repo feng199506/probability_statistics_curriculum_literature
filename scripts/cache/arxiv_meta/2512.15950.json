@@ -1,0 +1,15 @@
+{
+ "id": "2512.15950",
+ "title": "Modeling Issues with Eye Tracking Data",
+ "authors": [
+  "Gregory Camilli"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 5,
+ "latest_date": "2026-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Total effects are replaced with transition effects to enable better comparisons across methods",
+ "abstract": "I describe and compare procedures for binary eye-tracking (ET) data. The basic GLM model is a logistic mixed model combined with random effects for persons and items. Additional models address error correlation in eye-tracking serial observations. In particular, three novel approaches are illustrated that address serial without the use of an observed lag-1 predictor: a first-order autoregressive model and a first-order moving average models obtained with generalized estimating equations, and a recurrent two-state survival model used with run-length encoded data. Altogether, the results of five different analyses point to unresolved issues in the analysis of eye-tracking data and new directions for analytic development. A more traditional model incorporating a lag-1 observed outcome for serial correlation is also included.",
+ "primary": "stat.ME"
+}

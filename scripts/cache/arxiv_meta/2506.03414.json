@@ -1,0 +1,18 @@
+{
+ "id": "2506.03414",
+ "title": "ROC Curves for Spatial Point Patterns and Presence-Absence Data",
+ "authors": [
+  "Adrian Baddeley",
+  "Ege Rubak",
+  "Suman Rakshit",
+  "Gopalan Nair"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 1,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Receiver Operating Characteristic (ROC) curves have recently been used to evaluate the performance of models for spatial presence-absence or presence-only data. Applications include species distribution modelling and mineral prospectivity analysis. We clarify the interpretation of the ROC curve in this context. Contrary to statements in the literature, ROC does not measure goodness-of-fit of a spatial model, and its interpretation as a measure of predictive ability is weak; it is a measure of ranking ability, insensitive to the precise form of the model. To gain insight we draw connections between ROC and existing statistical techniques for spatial point pattern data. The area under the ROC curve (AUC) is related to hypothesis tests of the null hypothesis that the explanatory variables have no effect. The shape of the ROC curve has a diagnostic interpretation. This suggests several new techniques, which extend the scope of application of ROC curves for spatial data, to support variable selection and model selection, analysis of segregation between different types of points, adjustment for a baseline, and analysis of spatial case-control data. The new techniques are illustrated with several real example datasets. Open source R code implementing the techniques is available in the development version of our package spatstat [Baddeley and Turner, 2005, Baddeley et al., 2015] and will be included in the next public release.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2312.09052",
+ "title": "Applying Pre-Trained Deep-Learning Model on Wrist Angel Data -- An Analysis Plan",
+ "authors": [
+  "Harald Vilhelm Skat-Rørdam",
+  "Mia Hang Knudsen",
+  "Simon Nørby Knudsen",
+  "Nicole Nadine Lønfeldt",
+  "Sneha Das",
+  "Line Katrine Harder Clemmensen"
+ ],
+ "v1_date": "2023-12-14",
+ "latest_version": 1,
+ "latest_date": "2023-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Statistical Analysis Plan, 11 pages",
+ "abstract": "We aim to investigate if we can improve predictions of stress caused by OCD symptoms using pre-trained models, and present our statistical analysis plan in this paper. With the methods presented in this plan, we aim to avoid bias from data knowledge and thereby strengthen our hypotheses and findings. The Wrist Angel study, which this statistical analysis plan concerns, contains data from nine participants, between 8 and 17 years old, diagnosed with obsessive-compulsive disorder (OCD). The data was obtained by an Empatica E4 wristband, which the participants wore during waking hours for 8 weeks. The purpose of the study is to assess the feasibility of predicting the in-the-wild OCD events captured during this period. In our analysis, we aim to investigate if we can improve predictions of stress caused by OCD symptoms, and to do this we have created a pre-trained model, trained on four open-source data for stress prediction. We intend to apply this pre-trained model to the Wrist Angel data by fine-tuning, thereby utilizing transfer learning. The pre-trained model is a convolutional neural network that uses blood volume pulse, heart rate, electrodermal activity, and skin temperature as time series windows to predict OCD events. Furthermore, using accelerometer data, another model filters physical activity to further improve performance, given that physical activity is physiologically similar to stress. By evaluating various ways of applying our model (fine-tuned, non-fine-tuned, pre-trained, non-pre-trained, and with or without activity classification), we contextualize the problem such that it can be assessed if transfer learning is a viable strategy in this domain.",
+ "primary": "stat.AP"
+}

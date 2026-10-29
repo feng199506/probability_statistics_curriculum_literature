@@ -1,0 +1,16 @@
+{
+ "id": "2506.07614",
+ "title": "Poisson Midpoint Method for Log Concave Sampling: Beyond the Strong Error Lower Bounds",
+ "authors": [
+  "Rishikesh Srinivasan",
+  "Dheeraj Nagaraj"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 4,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of sampling from strongly log-concave distributions over $\\mathbb{R}^d$ using the Poisson midpoint discretization (a variant of the randomized midpoint method) for overdamped/underdamped Langevin dynamics. We prove its convergence in the 2-Wasserstein distance ($W_2$), achieving a cubic speedup in dependence on the target accuracy ($ε$) over the Euler-Maruyama discretization, surpassing existing bounds for randomized midpoint methods. Notably, in the case of underdamped Langevin dynamics, we demonstrate the complexity of $W_2$ convergence is much smaller than the complexity lower bounds for convergence in $L^2$ strong error established in the literature.",
+ "primary": "math.PR"
+}

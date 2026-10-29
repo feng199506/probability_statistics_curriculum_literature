@@ -1,0 +1,18 @@
+{
+ "id": "2604.21735",
+ "title": "A semiparametric two-sample homogeneity test with nonignorable nonresponse using callback data",
+ "authors": [
+  "Xinyu Wang",
+  "Tao Yu",
+  "Chunlin Wang",
+  "Pengfei Li"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 4 tables",
+ "abstract": "Testing the homogeneity of two distributions is fundamental in statistics, but classical procedures may fail under nonignorable nonresponse. In many surveys, callback data record repeated contact attempts and provide auxiliary information about the response mechanism. We develop a semiparametric framework for two-sample homogeneity testing that explicitly incorporates such information. The response mechanism is modeled by a flexible semiparametric callback model, while the two population distributions are linked through a density ratio model. Within this unified framework, we propose an empirical likelihood ratio test for distributional homogeneity and show that, under the null hypothesis, it has a Wilks-type chi-square limit. To facilitate computation, we develop an efficient expectation-maximization-type algorithm. Simulation results show that the proposed method controls type I error well and achieves substantially higher power than existing methods that ignore nonignorable missingness. An application to real survey income data illustrates its practical value.",
+ "primary": "stat.ME"
+}

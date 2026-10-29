@@ -1,0 +1,16 @@
+{
+ "id": "2408.13474",
+ "title": "Ridge, lasso, and elastic-net estimations of the modified Poisson and least-squares regressions for binary outcome data",
+ "authors": [
+  "Takahiro Kitano",
+  "Hisashi Noma"
+ ],
+ "v1_date": "2024-08-24",
+ "latest_version": 2,
+ "latest_date": "2024-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 4 figures, 2 supplementary tables",
+ "abstract": "Logistic regression is a standard method in multivariate analysis for binary outcome data in epidemiological and clinical studies; however, the resultant odds-ratio estimates fail to provide directly interpretable effect measures. The modified Poisson and least-squares regressions are alternative standard methods that can provide risk-ratio and risk difference estimates without computational problems. However, the bias and invalid inference problems of these regression analyses under small or sparse data conditions (i.e.,the \"separation\" problem) have been insufficiently investigated. We show that the separation problem can adversely affect the inferences of the modified Poisson and least squares regressions, and to address these issues, we apply the ridge, lasso, and elastic-net estimating approaches to the two regression methods. As the methods are not founded on the maximum likelihood principle, we propose regularized quasi-likelihood approaches based on the estimating equations for these generalized linear models. The methods provide stable shrinkage estimates of risk ratios and risk differences even under separation conditions, and the lasso and elastic-net approaches enable simultaneous variable selection. We provide a bootstrap method to calculate the confidence intervals on the basis of the regularized quasi-likelihood estimation. The proposed methods are applied to a hematopoietic stem cell transplantation cohort study and the National Child Development Survey. We also provide an R package, regconfint, to implement these methods with simple commands.",
+ "primary": "stat.ME"
+}

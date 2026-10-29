@@ -1,0 +1,17 @@
+{
+ "id": "2502.17741",
+ "title": "A Unified Framework for Semiparametrically Efficient Semi-Supervised Learning",
+ "authors": [
+  "Zichun Xu",
+  "Daniela Witten",
+  "Ali Shojaie"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 2,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages, 5 figures",
+ "abstract": "We consider statistical inference under a semi-supervised setting where we have access to both a labeled dataset consisting of pairs $\\{X_i, Y_i \\}_{i=1}^n$ and an unlabeled dataset $\\{ X_i \\}_{i=n+1}^{n+N}$. We ask the question: under what circumstances, and by how much, can incorporating the unlabeled dataset improve upon inference using the labeled data? To answer this question, we investigate semi-supervised learning through the lens of semiparametric efficiency theory. We characterize the efficiency lower bound under the semi-supervised setting for an arbitrary inferential problem, and show that incorporating unlabeled data can potentially improve efficiency if the parameter is not well-specified. We then propose two types of semi-supervised estimators: a safe estimator that imposes minimal assumptions, is simple to compute, and is guaranteed to be at least as efficient as the initial supervised estimator; and an efficient estimator, which -- under stronger assumptions -- achieves the semiparametric efficiency bound. Our findings unify existing semiparametric efficiency results for particular special cases, and extend these results to a much more general class of problems. Moreover, we show that our estimators can flexibly incorporate predicted outcomes arising from ``black-box\" machine learning models, and thereby achieve the same goal as prediction-powered inference (PPI), but with superior theoretical guarantees. We also provide a complete understanding of the theoretical basis for the existing set of PPI methods. Finally, we apply the theoretical framework developed to derive and analyze efficient semi-supervised estimators in a number of settings, including M-estimation, U-statistics, and average treatment effect estimation, and demonstrate the performance of the proposed estimators via simulations.",
+ "primary": "math.ST"
+}

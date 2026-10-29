@@ -1,0 +1,15 @@
+{
+ "id": "2401.09715",
+ "title": "Fast Variational Inference of Latent Space Models for Dynamic Networks Using Bayesian P-Splines",
+ "authors": [
+  "Joshua Daniel Loyal"
+ ],
+ "v1_date": "2024-01-18",
+ "latest_version": 1,
+ "latest_date": "2024-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "75 pages, 8 figures, and 2 tables",
+ "abstract": "Latent space models (LSMs) are often used to analyze dynamic (time-varying) networks that evolve in continuous time. Existing approaches to Bayesian inference for these models rely on Markov chain Monte Carlo algorithms, which cannot handle modern large-scale networks. To overcome this limitation, we introduce a new prior for continuous-time LSMs based on Bayesian P-splines that allows the posterior to adapt to the dimension of the latent space and the temporal variation in each latent position. We propose a stochastic variational inference algorithm to estimate the model parameters. We use stochastic optimization to subsample both dyads and observed time points to design a fast algorithm that is linear in the number of edges in the dynamic network. Furthermore, we establish non-asymptotic error bounds for point estimates derived from the variational posterior. To our knowledge, this is the first such result for Bayesian estimators of continuous-time LSMs. Lastly, we use the method to analyze a large data set of international conflicts consisting of 4,456,095 relations from 2018 to 2022.",
+ "primary": "stat.ME"
+}

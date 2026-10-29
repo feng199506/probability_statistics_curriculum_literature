@@ -1,0 +1,18 @@
+{
+ "id": "2509.25291",
+ "title": "Mathematical Framework for Epidemic Dynamics: Optimal Control and Global Sensitivity Analysis",
+ "authors": [
+  "Liban Ismail",
+  "Yahyeh Souleiman",
+  "Saraless Nadarajah",
+  "Abdisalam Hassan"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study develops and analyzes an extended Susceptible, Infected, Hospitalized and Recovered (SIHR) model incorporating time dependent control functions to capture preventive measures (e.g., distancing, mask use) and resource limited therapeutic interventions. This formulation provides a realistic mathematical framework for modeling public health responses beyond classical uncontrolled epidemic models. The control design is integrated into the model via an optimal control framework, solved numerically using the Forward Backward Sweep method, enabling the exploration of intervention strategies on epidemic dynamics, including infection prevalence, hospitalization burden, and the effective reproduction number. To assess the robustness of these strategies under uncertainty, we employ Polynomial Chaos Expansion combined with Sobol sensitivity indices, quantifying the influence of key epidemiological parameters (transmission, recovery, hospitalization rates) on model outcomes. Numerical simulations, calibrated to Djiboutian COVID 19 data, show that combined preventive and therapeutic interventions substantially mitigate epidemic burden, though their effectiveness depends critically on transmission related uncertainties. The originality of this work lies in combining optimal control theory with global sensitivity analysis, thus bridging numerical methods, optimization, and epidemic modeling. This integrated approach offers a general mathematical framework for designing and evaluating control strategies in infectious disease outbreaks, with applications to low resource settings and beyond.",
+ "primary": "q-bio.PE"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.10032",
+ "title": "Dimension-free Structured Covariance Estimation",
+ "authors": [
+  "Nikita Puchkin",
+  "Maxim Rakhuba"
+ ],
+ "v1_date": "2024-02-15",
+ "latest_version": 2,
+ "latest_date": "2024-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation at the 37th Annual Conference on Learning Theory (COLT 2024)",
+ "abstract": "Given a sample of i.i.d. high-dimensional centered random vectors, we consider a problem of estimation of their covariance matrix $Σ$ with an additional assumption that $Σ$ can be represented as a sum of a few Kronecker products of smaller matrices. Under mild conditions, we derive the first non-asymptotic dimension-free high-probability bound on the Frobenius distance between $Σ$ and a widely used penalized permuted least squares estimate. Because of the hidden structure, the established rate of convergence is faster than in the standard covariance estimation problem.",
+ "primary": "math.ST"
+}

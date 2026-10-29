@@ -1,0 +1,17 @@
+{
+ "id": "2603.25668",
+ "title": "A generalized Bayesian approach to multiple changepoint analysis",
+ "authors": [
+  "Yuhui Wang",
+  "Andrew M. Thomas",
+  "Michael Jauch"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 1,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 10 figures",
+ "abstract": "We introduce a generalized Bayesian method for multiple changepoint analysis with a loss function inspired by multinomial logistic regression. The method does not require a specification of the data-generating process and avoids restrictive assumptions on the nature of changepoints. From the joint posterior distribution, we can make simultaneous inference on the locations of changepoints and the coefficients of a multinomial logistic regression model for distinguishing data across homogeneous segments. The multinomial logistic regression coefficients provide a familiar means of interpreting potentially complex changes. To select the number of changepoints, we leverage posterior summaries that measure whether the multinomial logistic classifier can distinguish data from either side of a potential changepoint. To simulate from the generalized posterior distribution, we present a Gibbs sampler based on Pólya-Gamma data augmentation. We assess the accuracy and flexibility of our method through simulation studies featuring different types of changes and demonstrate its interpretability through applications to financial network data and topological data derived from nanoparticle videos.",
+ "primary": "stat.ME"
+}

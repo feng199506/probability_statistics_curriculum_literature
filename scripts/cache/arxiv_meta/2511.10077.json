@@ -1,0 +1,19 @@
+{
+ "id": "2511.10077",
+ "title": "A tutorial for propensity score weighting methods under violations of the positivity assumption",
+ "authors": [
+  "Yi Liu",
+  "Yuan Wang",
+  "Ying Gao",
+  "Tonia Poteat",
+  "Roland A. Matsouaka"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 1,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Violations of the positivity assumption can render conventional causal estimands unidentifiable, including the average treatment effect (ATE), the average treatment effect on the treated (ATT), and the average treatment effect on the controls (ATC). Shifting the inferential focus to their alternative counterparts -- the weighted ATE (WATE), the weighted ATT (WATT), and the weighted ATC (WATC) -- offers valuable insights into treatment effects while preserving internal validity. In this tutorial, we provide a comprehensive review of recent advances in propensity score (PS) weighting methods, along with practical guidance on how to select a primary target estimand (while other estimands serve as supplementary analyses), implement the corresponding PS-weighted estimators, and conduct post-weighting diagnostic assessments. The tutorial is accompanied by a user-friendly R package, ChiPS. We demonstrate the pertinence of various estimators through extensive simulation studies. We illustrate the flow of the tutorial on two real-world case studies: (i) Effect of smoking on blood lead level using data from the 2007-2008 National Health and Nutrition Examination Survey (NHANES); and (ii) Impact of history of sex work on HIV status among transgender women in South Africa.",
+ "primary": "stat.ME"
+}

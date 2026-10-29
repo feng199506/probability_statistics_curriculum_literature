@@ -1,0 +1,18 @@
+{
+ "id": "2601.20192",
+ "title": "Online Change Point Detection for Multivariate Inhomogeneous Poisson Processes Time Series",
+ "authors": [
+  "Xiaokai Luo",
+  "Haotian Xu",
+  "Carlos Misael Madrid Padilla",
+  "Oscar Hernan Madrid Padilla"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study online change point detection for multivariate inhomogeneous Poisson point process time series. This setting arises commonly in applications such as earthquake seismology, climate monitoring, and epidemic surveillance, yet remains underexplored in the machine learning and statistics literature. We propose a method that uses low-rank matrices to represent the multivariate Poisson intensity functions, resulting in an adaptive nonparametric detection procedure. Our algorithm is single-pass and requires only constant computational cost per new observation, independent of the elapsed length of the time series. We provide theoretical guarantees to control the overall false alarm probability and characterize the detection delay under temporal dependence. We also develop a new Matrix Bernstein inequality for temporally dependent Poisson point process time series, which may be of independent interest. Numerical experiments demonstrate that our method is both statistically robust and computationally efficient.",
+ "primary": "stat.ME"
+}

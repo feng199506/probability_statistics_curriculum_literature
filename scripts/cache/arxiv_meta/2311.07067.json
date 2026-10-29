@@ -1,0 +1,16 @@
+{
+ "id": "2311.07067",
+ "title": "High Dimensional Binary Choice Model with Unknown Heteroskedasticity or Instrumental Variables",
+ "authors": [
+  "Fu Ouyang",
+  "Thomas Tao Yang"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 2,
+ "latest_date": "2025-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a new method for estimating high-dimensional binary choice models. We consider a semiparametric model that places no distributional assumptions on the error term, allows for heteroskedastic errors, and permits endogenous regressors. Our approaches extend the special regressor estimator originally proposed by Lewbel (2000). This estimator becomes impractical in high-dimensional settings due to the curse of dimensionality associated with high-dimensional conditional density estimation. To overcome this challenge, we introduce an innovative data-driven dimension reduction method for nonparametric kernel estimators, which constitutes the main contribution of this work. The method combines distance covariance-based screening with cross-validation (CV) procedures, making special regressor estimation feasible in high dimensions. Using this new feasible conditional density estimator, we address variable and moment (instrumental variable) selection problems for these models. We apply penalized least squares (LS) and generalized method of moments (GMM) estimators with an L1 penalty. A comprehensive analysis of the oracle and asymptotic properties of these estimators is provided. Finally, through Monte Carlo simulations and an empirical study on the migration intentions of rural Chinese residents, we demonstrate the effectiveness of our proposed methods in finite sample settings.",
+ "primary": "econ.EM"
+}

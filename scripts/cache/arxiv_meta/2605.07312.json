@@ -1,0 +1,20 @@
+{
+ "id": "2605.07312",
+ "title": "Incorporating Missing Data Considerations into Sample Size Calculations for Developing Clinical Prediction Models",
+ "authors": [
+  "Glen P. Martin",
+  "Sian Bladon",
+  "Rebecca Whittle",
+  "Molly Wells",
+  "Gary S. Collins",
+  "Richard D. Riley"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 5 figures (8 supplementary figures), 1 table (1 supplementary table)",
+ "abstract": "Clinical prediction models must be developed using sufficiently large datasets to minimise overfitting and ensure robust predictive performance. Existing sample size calculations assume complete predictor data for all included participants, yet missing values are common and may increase required sample sizes. This study aimed to quantify how missing predictor data and different imputation methods affect overfitting and model degradation, within datasets that adhere to current sample size criteria. We also aimed to explore how a general sample size framework based on anticipated posterior (sampling) distributions can be adapted to incorporate missing data assumptions and handling strategies. Using a simulation study, we found that in development data meeting current minimum sample size requirements, missing data reduced predictive performance, with expected calibration slopes frequently falling below the targeted value of 0.9. Increasing the required sample size to account for missing data reduced overfitting concerns, but the necessary inflation factor was context specific. In some scenarios, up to twice the minimum sample size was needed to achieve performance comparable to models developed using fully observed data. Expected value of perfect information calculations allowed quantification of the expected loss due to finite samples and missingness. Through two applied examples, we illustrate how embedding missing data assumptions and handling within the posterior sampling approach provides a principled way to determine required minimum sample sizes under missing data. Overall, missing predictor data increases minimum sample size requirements to develop stable and well-calibrated models. Our adaptations to recent posterior (sampling) sample size calculations offer a practical approach for incorporating missing data directly into sample size calculations.",
+ "primary": "stat.ME"
+}

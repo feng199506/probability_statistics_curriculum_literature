@@ -1,0 +1,18 @@
+{
+ "id": "2609.26501",
+ "title": "Inference for H{ü}sler-Reiss block models",
+ "authors": [
+  "Capel Alexandre",
+  "Demangeot Marine",
+  "Meyer Nicolas",
+  "Toulemonde Gwladys"
+ ],
+ "v1_date": "2026-09-22",
+ "latest_version": 1,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating the H{ü}sler-Reiss precision matrix is a fundamental problem for statistical inference in multivariate extremes. In high-dimensional settings, the number of unknown parameters grows quadratically with the dimension, making regularisation indispensable. Existing approaches regularise the estimation problem by exploiting sparsity. In this paper, we consider an alternative structural assumption, namely that the H{ü}sler-Reiss precision matrix is block-structured. To estimate such a matrix, we introduce a new regularisation framework based on a convex fusion penalty. By encouraging rows and columns to merge, this approach provides a parsimonious representation of the precision matrix, allowing for the simultaneous estimation of its coefficients and the underlying partition of the variables. The resulting convex optimisation problem is solved by an efficient algorithm combining gradient-based updates with progressive fusion steps. We establish non-asymptotic concentration bounds for the empirical weights entering the penalty and prove consistency of both block recovery and precision matrix estimation under suitable regularity conditions. Numerical experiments demonstrate that our methodology accurately recovers the latent block structure while accurately estimating the H{ü}sler-Reiss precision matrix across various configurations, illustrating the practical benefits of fusion-based regularisation for multivariate extremes. These benefits are also demonstrated by applying the proposed method to foreign exchange data.",
+ "primary": "math.ST"
+}

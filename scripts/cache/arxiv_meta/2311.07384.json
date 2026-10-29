@@ -1,0 +1,16 @@
+{
+ "id": "2311.07384",
+ "title": "Individual claims reserving using the Aalen--Johansen estimator",
+ "authors": [
+  "Martin Bladt",
+  "Gabriele Pittarello"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 3,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an individual claims reserving model based on the conditional Aalen-Johansen estimator, as developed in Bladt and Furrer (2023b). In our approach, we formulate a multi-state problem, where the underlying variable is the individual claim size, rather than time. The states in this model represent development periods, and we estimate the cumulative density function of individual claim sizes using the conditional Aalen-Johansen method as transition probabilities to an absorbing state. Our methodology reinterprets the concept of multi-state models and offers a strategy for modeling the complete curve of individual claim sizes. To illustrate our approach, we apply our model to both simulated and real datasets. Having access to the entire dataset enables us to support the use of our approach by comparing the predicted total final cost with the actual amount, as well as evaluating it in terms of the continuously ranked probability score.",
+ "primary": "stat.AP"
+}

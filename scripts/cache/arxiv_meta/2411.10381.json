@@ -1,0 +1,17 @@
+{
+ "id": "2411.10381",
+ "title": "An Instrumental Variables Framework to Unite Spatial Confounding Methods",
+ "authors": [
+  "Sophie M. Woodward",
+  "Mauricio Tec",
+  "Francesca Dominici"
+ ],
+ "v1_date": "2024-11-15",
+ "latest_version": 3,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "71 pages with 14 figures and tables",
+ "abstract": "Studies investigating the causal effects of spatially varying exposures on outcomes often rely on observational and spatially indexed data. A prevalent challenge is unmeasured spatial confounding, where an unobserved spatially varying variable affects both exposure and outcome, leading to biased estimates and invalid confidence intervals. There is a very large literature on spatial statistics that attempts to address unmeasured spatial confounding bias; most of this literature is not framed in the context of causal inference and relies on strict assumptions. In this paper, we propose an instrumental variables (IV) framework that unifies and extends existing methods for addressing unmeasured spatial confounding bias. This framework reveals that many spatial confounding methods can be viewed as IV methods, in which small-scale spatial variation in exposure operates as the instrument, providing a common theoretical foundation for approaches that previously appeared distinct. The framework clarifies that these methods share a common set of assumptions and differ primarily in how small-scale spatial variation is defined, while offering a general strategy for constructing instruments. It also extends to identify and estimate a broad class of causal effects, including the exposure response curve, without requiring a linear outcome model. We apply our methodology in simulation and to a national data set of 33,255 zip codes to estimate the effect of enforcing air pollution exposure levels below 6-12 $μg/m^3$ on all-cause mortality while adjusting for unmeasured spatial confounding.",
+ "primary": "stat.ME"
+}

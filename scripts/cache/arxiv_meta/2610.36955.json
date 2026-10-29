@@ -1,0 +1,16 @@
+{
+ "id": "2610.36955",
+ "title": "Multilevel Monte Carlo methods for random nonlinear eigenvalue problems",
+ "authors": [
+  "Jürgen Dölz",
+  "Jimena Lozano-Simón"
+ ],
+ "v1_date": "2026-10-27",
+ "latest_version": 1,
+ "latest_date": "2026-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a multilevel Monte Carlo (MLMC) estimator to compute statistical quantities of interest of solutions to parameter-dependent nonlinear eigenvalue problems. The main difficulty for this problem is that parametrized eigenpairs often lack a globally well-defined parameter-to-solution map due to crossings and bifurcations. These phenomena render eigenvalue-tracking infeasible in multi-dimensional parameter domains. To overcome this issue, we propose both an Eulerian and a Lagrangian perspective on parameter-to-solution maps for nonlinear eigenvalue problems, which remain well-defined even in the presence of local crossings and bifurcations. Their implementation is based on a straightforward modification of Beyn's contour integral approach. Building on these maps, we propose an MLMC estimator that does not rely on matching eigenvalues or eigenvectors across samples or discretization levels. Nested approximation spaces and inter-level prolongation are only required when statistical quantities of interest related to the eigenspaces are of interest, but not for quantities of interest related to the eigenvalues. We demonstrate the feasibility and validity of our approach by numerical examples using a quasi-Monte Carlo method, including a nonlinear formulation of the Laplace Dirichlet eigenvalue problem on random domains in three dimensions motivated by the work of Steinbach and Unger. To the best of our knowledge, this is the first work considering the approximation of statistical quantities of interest for random nonlinear eigenvalue problems.",
+ "primary": "math.NA"
+}

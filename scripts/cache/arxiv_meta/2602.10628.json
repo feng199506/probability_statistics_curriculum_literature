@@ -1,0 +1,16 @@
+{
+ "id": "2602.10628",
+ "title": "Queues with Rechargeable Servers",
+ "authors": [
+  "Eliezer Fuentes-Quezada",
+  "Jamol Pender"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 2,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages, 16 figures",
+ "abstract": "We introduce an Erlang-S$^*$ queue with stochastic server unavailability motivated by charging dynamics in drone delivery systems. Servers enter a charging state after service with probability $p$ and return at rate $γ$, while customers may abandon. We develop fluid and diffusion approximations for the joint process $(Q,S)$. In strictly underloaded and overloaded regimes, the diffusion limits reduce to Ornstein Uhlenbeck processes, enabling closed-form moment approximations and tractable staffing rules. At the critical boundary, however, the drift becomes non-smooth, and the limiting diffusion transitions into a continuous regime switching process between two operational phases. This shift alters the covariance structure and calls for a new staffing rule driven by diffusion-scale fluctuations of the gap $Q - S$. To address this challenge, we introduce a new Gaussian closure method, which remains tractable even in the non-smooth boundary regime. Numerical experiments confirm the accuracy of the approximations and the resulting staffing prescriptions across overloaded, underloaded and critical regimes.",
+ "primary": "math.PR"
+}

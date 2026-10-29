@@ -1,0 +1,17 @@
+{
+ "id": "2512.10254",
+ "title": "Peace Sells, But Whose Songs Connect? Bayesian Multilayer Network Analysis of the Big 4 of Thrash Metal",
+ "authors": [
+  "Juan Sosa",
+  "Erika Martínez",
+  "Danna L. Cruz-Reyes"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 8 figures, 8 tables",
+ "abstract": "We propose a Bayesian framework for multilayer song similarity networks and apply it to the complete studio discographies of the \"Big 4\" of thrash metal (Metallica, Slayer, Megadeth, Anthrax). Starting from raw audio, we construct four feature-specific layers (loudness, brightness, tonality, rhythm), augment them with song exogenous information, and represent each layer as a k-nearest neighbor graph. We then fit a family of hierarchical probit models with global and layer-specific baselines, node- and layer-specific sociability effects, dyadic covariates, and alternative forms of latent structure (bilinear, distance-based, and stochastic block communities), comparing increasingly flexible specifications using posterior predictive checks, discrimination and calibration metrics (AUC, Brier score, log-loss), and information criteria (DIC, WAIC). Across all bands, the richest stochastic block specification attains the best predictive performance and posterior predictive fit, while revealing sparse but structured connectivity, interpretable covariate effects (notably album membership and temporal proximity), and latent communities and hubs that cut across albums and eras. Taken together, these results illustrate how Bayesian multilayer network models can help organize high-dimensional audio and text features into coherent, musically meaningful patterns.",
+ "primary": "stat.ME"
+}

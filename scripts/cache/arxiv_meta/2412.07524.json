@@ -1,0 +1,18 @@
+{
+ "id": "2412.07524",
+ "title": "Gaussian Process with dissolution spline kernel",
+ "authors": [
+  "Fiona Murphy",
+  "Marina Navas Bachiller",
+  "Deirdre M. D'Arcy",
+  "Alessio Benavoli"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 1,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 10 figures",
+ "abstract": "In-vitro dissolution testing is a critical component in the quality control of manufactured drug products. The $\\mathrm{f}_2$ statistic is the standard for assessing similarity between two dissolution profiles. However, the $\\mathrm{f}_2$ statistic has known limitations: it lacks an uncertainty estimate, is a discrete-time metric, and is a biased measure, calculating the differences between profiles at discrete time points. To address these limitations, we propose a Gaussian Process (GP) with a dissolution spline kernel for dissolution profile comparison. The dissolution spline kernel is a new spline kernel using logistic functions as its basis functions, enabling the GP to capture the expected monotonic increase in dissolution curves. This results in better predictions of dissolution curves. This new GP model reduces bias in the $\\mathrm{f}_2$ calculation by allowing predictions to be interpolated in time between observed values, and provides uncertainty quantification. We assess the model's performance through simulations and real datasets, demonstrating its improvement over a previous GP-based model introduced for dissolution testing. We also show that the new model can be adapted to include dissolution-specific covariates. Applying the model to real ibuprofen dissolution data under various conditions, we demonstrate its ability to extrapolate curve shapes across different experimental settings.",
+ "primary": "stat.ME"
+}

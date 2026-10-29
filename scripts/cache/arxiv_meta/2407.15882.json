@@ -1,0 +1,19 @@
+{
+ "id": "2407.15882",
+ "title": "Ensemble quantile-based deep learning framework for streamflow and flood prediction in Australian catchments",
+ "authors": [
+  "Rohitash Chandra",
+  "Arpit Kapoor",
+  "Siddharth Khedkar",
+  "Jim Ng",
+  "R. Willem Vervoort"
+ ],
+ "v1_date": "2024-07-20",
+ "latest_version": 2,
+ "latest_date": "2025-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, climate extremes such as floods have created significant environmental and economic hazards for Australia. Deep learning methods have been promising for predicting extreme climate events; however, large flooding events present a critical challenge due to factors such as model calibration and missing data. We present an ensemble quantile-based deep learning framework that addresses large-scale streamflow forecasts using quantile regression for uncertainty projections in prediction. We evaluate selected univariate and multivariate deep learning models and catchment strategies. Furthermore, we implement a multistep time-series prediction model using the CAMELS dataset for selected catchments across Australia. The ensemble model employs a set of quantile deep learning models for streamflow determined by historical streamflow data. We utilise the streamflow prediction and obtain flood probability using flood frequency analysis and compare it with historical flooding events for selected catchments. Our results demonstrate notable efficacy and uncertainties in streamflow forecasts with varied catchment properties. Our flood probability estimates show good accuracy in capturing the historical floods from the selected catchments. This underscores the potential for our deep learning framework to revolutionise flood forecasting across diverse regions and be implemented as an early warning system.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2411.14285",
+ "title": "Stochastic interventions, sensitivity analysis, and optimal transport",
+ "authors": [
+  "Alexander W. Levis",
+  "Edward H. Kennedy",
+  "Alec McClean",
+  "Sivaraman Balakrishnan",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2024-11-21",
+ "latest_version": 1,
+ "latest_date": "2024-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 1 figure",
+ "abstract": "Recent methodological research in causal inference has focused on effects of stochastic interventions, which assign treatment randomly, often according to subject-specific covariates. In this work, we demonstrate that the usual notion of stochastic interventions have a surprising property: when there is unmeasured confounding, bounds on their effects do not collapse when the policy approaches the observational regime. As an alternative, we propose to study generalized policies, treatment rules that can depend on covariates, the natural value of treatment, and auxiliary randomness. We show that certain generalized policy formulations can resolve the \"non-collapsing\" bound issue: bounds narrow to a point when the target treatment distribution approaches that in the observed data. Moreover, drawing connections to the theory of optimal transport, we characterize generalized policies that minimize worst-case bound width in various sensitivity analysis models, as well as corresponding sharp bounds on their causal effects. These optimal policies are new, and can have a more parsimonious interpretation compared to their usual stochastic policy analogues. Finally, we develop flexible, efficient, and robust estimators for the sharp nonparametric bounds that emerge from the framework.",
+ "primary": "stat.ME"
+}

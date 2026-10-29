@@ -1,0 +1,16 @@
+{
+ "id": "2311.07474",
+ "title": "A Federated Data Fusion-Based Prognostic Model for Applications with Multi-Stream Incomplete Signals",
+ "authors": [
+  "Madi Arabi",
+  "Xiaolei Fang"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 2,
+ "latest_date": "2024-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most prognostic methods require a decent amount of data for model training. In reality, however, the amount of historical data owned by a single organization might be small or not large enough to train a reliable prognostic model. To address this challenge, this article proposes a federated prognostic model that allows multiple users to jointly construct a failure time prediction model using their multi-stream, high-dimensional, and incomplete data while keeping each user's data local and confidential. The prognostic model first employs multivariate functional principal component analysis to fuse the multi-stream degradation signals. Then, the fused features coupled with the times-to-failure are utilized to build a (log)-location-scale regression model for failure prediction. To estimate parameters using distributed datasets and keep the data privacy of all participants, we propose a new federated algorithm for feature extraction. Numerical studies indicate that the performance of the proposed model is the same as that of classic non-federated prognostic models and is better than that of the models constructed by each user itself.",
+ "primary": "stat.ML"
+}

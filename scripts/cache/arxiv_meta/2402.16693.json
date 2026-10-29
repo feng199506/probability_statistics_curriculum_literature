@@ -1,0 +1,15 @@
+{
+ "id": "2402.16693",
+ "title": "Fast Algorithms for Quantile Regression with Selection",
+ "authors": [
+  "Santiago Pereda-Fernández"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses computational challenges in estimating Quantile Regression with Selection (QRS). The estimation of the parameters that model self-selection requires the estimation of the entire quantile process several times. Moreover, closed-form expressions of the asymptotic variance are too cumbersome, making the bootstrap more convenient to perform inference. Taking advantage of recent advancements in the estimation of quantile regression, along with some specific characteristics of the QRS estimation problem, I propose streamlined algorithms for the QRS estimator. These algorithms significantly reduce computation time through preprocessing techniques and quantile grid reduction for the estimation of the copula and slope parameters. I show the optimization enhancements with some simulations. Lastly, I show how preprocessing methods can improve the precision of the estimates without sacrificing computational efficiency. Hence, they constitute a practical solutions for estimators with non-differentiable and non-convex criterion functions such as those based on copulas.",
+ "primary": "econ.EM"
+}

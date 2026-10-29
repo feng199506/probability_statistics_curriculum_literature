@@ -1,0 +1,18 @@
+{
+ "id": "2511.21562",
+ "title": "StaRQR-K: False Discovery Rate Controlled Regional Quantile Regression",
+ "authors": [
+  "Sang Kyu Lee",
+  "Tongwu Zhang",
+  "Hyokyoung G. Hong",
+  "Haolei Weng"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantifying how genomic features influence different parts of an outcome distribution requires statistical tools that go beyond mean regression, especially in ultrahigh-dimensional settings. Motivated by the study of LINE-1 activity in cancer, we propose StaRQR-K, a stabilized regional quantile regression framework with model-X knockoffs for false discovery rate control. StaRQR-K identifies CpG sites whose methylation levels are associated with specific quantile regions of an outcome, allowing detection of heterogeneous and tail-sensitive effects. The method combines an efficient regional quantile sure independence screening procedure with a winsorizing-based model-X knockoff filter, providing false discovery rate (FDR) control for regional quantile regression. Simulation studies show that StaRQR-K achieves valid FDR control and substantially higher power than existing approaches. In an application to The Cancer Genome Atlas head and neck cancer cohort, StaRQR-K reveals quantile-region-specific associations between CpG methylation and LINE-1 activity that improve out-of-sample prediction and highlight genomic regions with known functional relevance.",
+ "primary": "stat.ME"
+}

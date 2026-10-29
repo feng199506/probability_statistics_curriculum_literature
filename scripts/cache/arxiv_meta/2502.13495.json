@@ -1,0 +1,20 @@
+{
+ "id": "2502.13495",
+ "title": "A Study on Monthly Marine Heatwave Forecasts in New Zealand: An Investigation of Imbalanced Regression Loss Functions with Neural Network Models",
+ "authors": [
+  "Ding Ning",
+  "Varvara Vetrova",
+  "Sébastien Delaux",
+  "Rachael Tappenden",
+  "Karin R. Bryan",
+  "Yun Sing Koh"
+ ],
+ "v1_date": "2025-02-19",
+ "latest_version": 1,
+ "latest_date": "2025-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The paper contains 32 pages for the main text",
+ "abstract": "Marine heatwaves (MHWs) are extreme ocean-temperature events with significant impacts on marine ecosystems and related industries. Accurate forecasts (one to six months ahead) of MHWs would aid in mitigating these impacts. However, forecasting MHWs presents a challenging imbalanced regression task due to the rarity of extreme temperature anomalies in comparison to more frequent moderate conditions. In this study, we examine monthly MHW forecasts for 12 locations around New Zealand. We use a fully-connected neural network and compare standard and specialized regression loss functions, including the mean squared error (MSE), the mean absolute error (MAE), the Huber, the weighted MSE, the focal-R, the balanced MSE, and a proposed scaling-weighted MSE. Results show that (i) short lead times (one month) are considerably more predictable than three- and six-month leads, (ii) models trained with the standard MSE or MAE losses excel at forecasting average conditions but struggle to capture extremes, and (iii) specialized loss functions such as the balanced MSE and our scaling-weighted MSE substantially improve forecasting of MHW and suspected MHW events. These findings underscore the importance of tailored loss functions for imbalanced regression, particularly in forecasting rare but impactful events such as MHWs.",
+ "primary": "physics.ao-ph"
+}

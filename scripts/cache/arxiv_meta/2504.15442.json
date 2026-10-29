@@ -1,0 +1,19 @@
+{
+ "id": "2504.15442",
+ "title": "Topological model selection: a case-study in tumour-induced angiogenesis",
+ "authors": [
+  "Robert A McDonald",
+  "Helen M Byrne",
+  "Heather A Harrington",
+  "Thomas Thorne",
+  "Bernadette J Stolz"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Comparing mathematical models offers a means to evaluate competing scientific theories. However, exact methods of model calibration are not applicable to many probabilistic models which simulate high-dimensional spatio-temporal data. Approximate Bayesian Computation is a widely-used method for parameter inference and model selection in such scenarios, and it may be combined with Topological Data Analysis to study models which simulate data with fine spatial structure. We develop a flexible pipeline for parameter inference and model selection in spatio-temporal models. Our pipeline identifies topological summary statistics which quantify spatio-temporal data and uses them to approximate parameter and model posterior distributions. We validate our pipeline on models of tumour-induced angiogenesis, inferring four parameters in three established models and identifying the correct model in synthetic test-cases.",
+ "primary": "q-bio.QM"
+}

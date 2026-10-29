@@ -1,0 +1,18 @@
+{
+ "id": "2508.16256",
+ "title": "A regularized multi-state model for covariate selection with interval-censored survival data",
+ "authors": [
+  "Ariane Bercu",
+  "Agathe Guilloux",
+  "Cécile Proust-Lima",
+  "Hélène Jacqmin-Gadda"
+ ],
+ "v1_date": "2025-08-22",
+ "latest_version": 1,
+ "latest_date": "2025-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In population-based cohorts, disease diagnoses are typically censored by intervals as made during scheduled follow-up visits. The exact disease onset time is thus unknown, and in the presence of semi-competing risk of death, subjects may also die in between two visits before any diagnosis can be made. Illness-death models can be used to handle uncertainty about illness timing and the possible absence of diagnosis due to death. However, they are so far limited in the number of covariates. We developed a regularized estimation procedure for illness-death models with interval-censored illness diagnosis that performs variable selection in the case of high-dimensional predictors. We considered a proximal gradient hybrid algorithm maximizing the regularized likelihood with an elastic-net penalty. The algorithm simultaneously estimates the regression parameters of the three transitions under proportional transition intensities with transition-specific penalty parameters determined in an outer gridsearch. The algorithm, implemented in the R package HIDeM, shows high performances in predicting illness probability, as well as correct selection of transition-specific risk factors across different simulation scenarios. In comparison, the cause-specific competing risk model neglecting interval-censoring systematically showed worse predictive ability and tended to select irrelevant illness predictors, originally associated with death. Applied to the population-based cohort Three-City, the method identified predictors of clinical dementia onset among a large set of brain imaging, cognitive and clinical markers. Keywords: Interval censoring; Multi-state model; Semi-competing risk; Survival Analysis; Variable Selection.",
+ "primary": "stat.ME"
+}

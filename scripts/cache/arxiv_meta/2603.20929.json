@@ -1,0 +1,15 @@
+{
+ "id": "2603.20929",
+ "title": "Stability of Sequential and Parallel Coordinate Ascent Variational Inference",
+ "authors": [
+  "Debdeep Pati"
+ ],
+ "v1_date": "2026-03-21",
+ "latest_version": 1,
+ "latest_date": "2026-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 3 figures",
+ "abstract": "We highlight a striking difference in behavior between two widely used variants of coordinate ascent variational inference: the sequential and parallel algorithms. While such differences were known in the numerical analysis literature in simpler settings, they remain largely unexplored in the optimization-focused literature on variational inference in more complex models. Focusing on the moderately high-dimensional linear regression problem, we show that the sequential algorithm, although typically slower, enjoys convergence guarantees under more relaxed conditions than the parallel variant, which is often employed to facilitate block-wise updates and improve computational efficiency.",
+ "primary": "stat.ML"
+}

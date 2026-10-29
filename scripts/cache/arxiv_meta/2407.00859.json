@@ -1,0 +1,17 @@
+{
+ "id": "2407.00859",
+ "title": "Statistical inference for partially shape-constrained function-on-scalar linear regression models",
+ "authors": [
+  "Kyunghee Han",
+  "Yeonjoo Park",
+  "Soo-Young Kim"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 2,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures",
+ "abstract": "We consider functional linear regression models where functional outcomes are associated with scalar predictors by coefficient functions with shape constraints, such as monotonicity and convexity, that apply to sub-domains of interest. To validate the partial shape constraints, we propose testing a composite hypothesis of linear functional constraints on regression coefficients. Our approach employs kernel- and spline-based methods within a unified inferential framework, evaluating the statistical significance of the hypothesis by measuring an $L^2$-distance between constrained and unconstrained model fits. In the theoretical study of large-sample analysis under mild conditions, we show that both methods achieve the standard rate of convergence observed in the nonparametric estimation literature. Through numerical experiments of finite-sample analysis, we demonstrate that the type I error rate keeps the significance level as specified across various scenarios and that the power increases with sample size, confirming the consistency of the test procedure under both estimation methods. Our theoretical and numerical results provide researchers the flexibility to choose a method based on computational preference. The practicality of partial shape-constrained inference is illustrated by two data applications: one involving clinical trials of NeuroBloc in type A-resistant cervical dystonia and the other with the National Institute of Mental Health Schizophrenia Study.",
+ "primary": "stat.ME"
+}

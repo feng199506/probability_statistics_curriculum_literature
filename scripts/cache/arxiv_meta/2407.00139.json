@@ -1,0 +1,18 @@
+{
+ "id": "2407.00139",
+ "title": "A Calibrated Sensitivity Analysis for Weighted Causal Decompositions",
+ "authors": [
+  "Andy A. Shen",
+  "Elina Visoki",
+  "Ran Barzilay",
+  "Samuel D. Pimentel"
+ ],
+ "v1_date": "2024-06-28",
+ "latest_version": 2,
+ "latest_date": "2025-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Disparities in health or well-being experienced by minority groups can be difficult to study using the traditional exposure-outcome paradigm in causal inference, since potential outcomes in variables such as race or sexual minority status are challenging to interpret. Causal decomposition analysis addresses this gap by positing causal effects on disparities under interventions to other, intervenable exposures that may play a mediating role in the disparity. While invoking weaker assumptions than causal mediation approaches, decomposition analyses are often conducted in observational settings and require uncheckable assumptions that eliminate unmeasured confounders. Leveraging the marginal sensitivity model, we develop a sensitivity analysis for weighted causal decomposition estimators and use the percentile bootstrap to construct valid confidence intervals for causal effects on disparities. We also propose a two-parameter reformulation that enhances interpretability and facilitates an intuitive understanding of the plausibility of unmeasured confounders and their effects. We illustrate our framework on a study examining the effect of parental acceptance on disparities in suicidal ideation among sexual minority youth. We find that the effect is small and sensitive to unmeasured confounding, suggesting that further screening studies are needed to identify mitigating interventions in this vulnerable population.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2605.28341",
+ "title": "Identification and Inference for Structural Accelerated Failure Time Models via Instrument Interactions",
+ "authors": [
+  "Qiushi Bu",
+  "Wen Su",
+  "Xinyu Zhang",
+  "Xingqiu Zhao",
+  "Zhonghua Liu"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study causal inference for time-to-event outcomes under right censoring in the presence of unmeasured confounding. Focusing on structural accelerated failure time models, we develop an identification and inference framework that exploits interactions among instrumental variables. The proposed approach does not rely on classical instrumental variable validity and yields valid causal inference under both valid and invalid instruments, provided that the interaction-based identification condition holds. To accommodate right censoring, we construct a censoring-adjusted observed data moment function using an augmented inverse probability censoring weighting approach. The resulting moment function is Neyman orthogonal with respect to nuisance functions and enjoys a double robustness property, enabling valid inference under flexible nuisance estimation. Estimation and inference are conducted using generalized empirical likelihood, which is well suited to settings with many potentially weak interaction-based moment conditions. We establish consistency, and asymptotic normality under many weak moment asymptotics, and develop diagnostic tools to assess interaction-based identification strength and overidentifying restrictions. Simulation studies demonstrate favorable finite sample performance across a range of censoring rates and instrument configurations. An application to UK Biobank data illustrates the practical relevance of the proposed method for causal survival analysis in large-scale observational studies.",
+ "primary": "stat.ME"
+}

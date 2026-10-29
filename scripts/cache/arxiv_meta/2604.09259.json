@@ -1,0 +1,15 @@
+{
+ "id": "2604.09259",
+ "title": "Exact Bayesian Planning for Simple Step-Stress Accelerated Life Testing with Competing Risks",
+ "authors": [
+  "Kiran Prajapat"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 8 figures",
+ "abstract": "We propose a Bayesian framework for planning simple step-stress accelerated life tests when items are subject to two independent competing failure modes We assume that the competing risks are independent, with lifetimes following Weibull distributions, and adopt the cumulative exposure model with a log-linear stress-life relationship to connect failure time distributions across stress levels. The optimality criterion is the preposterior variance of the $p$-th quantile of the lifetime distribution at use stress, evaluated without reliance on asymptotic approximations, making the methodology valid regardless of sample size. Building on the idea of quantile-based reparametrisation used in single-mode ALT \\citep{zhang2006bayesian}, we extend this approach to the competing risks setting by reparametrising the model parameters for each failure mode to physically interpretable and approximately independent quantities, making it possible to elicit priors directly from engineering knowledge of device behaviour. Posterior inference is carried out using the No-U-Turn Sampler implemented in Stan, and the optimal design is located via Monte Carlo simulation over a grid of candidate designs. The methodology is illustrated on a real step-stress dataset for a solar lighting device subject to capacitor and controller failure modes. A comprehensive sensitivity analysis with respect to the quantile probability, the lower stress level, the prior hyperparameter specification, and the sample size shows that the optimal stress-change time is moderately sensitive to these inputs while the optimal lower stress level consistently favours operation close to use conditions, a finding that holds across all prior specifications considered.",
+ "primary": "stat.ME"
+}

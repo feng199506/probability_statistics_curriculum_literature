@@ -1,0 +1,18 @@
+{
+ "id": "2510.06735",
+ "title": "Incorporating Expert Knowledge into Bayesian Causal Discovery of Mixtures of Directed Acyclic Graphs",
+ "authors": [
+  "Zachris Björkman",
+  "Jorge Loría",
+  "Sophie Wharrie",
+  "Samuel Kaski"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 19 figures",
+ "abstract": "Bayesian causal discovery benefits from prior information elicited from domain experts, and in heterogeneous domains any prior knowledge would be badly needed. However, so far prior elicitation approaches have assumed a single causal graph and hence are not suited to heterogeneous domains. We propose a causal elicitation strategy for heterogeneous settings, based on Bayesian experimental design (BED) principles, and a variational mixture structure learning (VaMSL) method -- extending the earlier differentiable Bayesian structure learning (DiBS) method -- to iteratively infer mixtures of causal Bayesian networks (CBNs). We construct an informative graph prior incorporating elicited expert feedback in the inference of mixtures of CBNs. Our proposed method successfully produces a set of alternative causal models (mixture components or clusters), and achieves an improved structure learning performance on heterogeneous synthetic data when informed by a simulated expert. Finally, we demonstrate that our approach is capable of capturing complex distributions in a breast cancer database.",
+ "primary": "cs.LG"
+}

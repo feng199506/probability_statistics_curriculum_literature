@@ -1,0 +1,15 @@
+{
+ "id": "2507.13259",
+ "title": "On Accelerated Mixing of the No-U-turn Sampler",
+ "authors": [
+  "Stefan Oberdörster"
+ ],
+ "v1_date": "2025-07-17",
+ "latest_version": 1,
+ "latest_date": "2025-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent progress on the theory of variational hypocoercivity established that Randomized Hamiltonian Monte Carlo -- at criticality -- can achieve pronounced acceleration in its convergence and hence sampling performance over diffusive dynamics. Manual critical tuning being unfeasible in practice has motivated automated algorithmic solutions, notably the No-U-turn Sampler. Beyond its empirical success, a rigorous study of this method's ability to achieve accelerated convergence has been missing. We initiate this investigation combining a concentration of measure approach to examine the automatic tuning mechanism with a coupling based mixing analysis for Hamiltonian Monte Carlo. In certain Gaussian target distributions, this yields a precise characterization of the sampler's behavior resulting, in particular, in rigorous mixing guarantees describing the algorithm's ability and limitations in achieving accelerated convergence.",
+ "primary": "math.ST"
+}

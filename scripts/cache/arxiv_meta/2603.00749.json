@@ -1,0 +1,16 @@
+{
+ "id": "2603.00749",
+ "title": "Hidden in Plain Sight: How Non-Collapsibility Biases Treatment Effects in (Network) Meta-Analysis",
+ "authors": [
+  "Harlan Campbell",
+  "Jeroen P. Jansen"
+ ],
+ "v1_date": "2026-02-28",
+ "latest_version": 1,
+ "latest_date": "2026-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network meta-analysis (NMA) is widely used to compare multiple interventions simultaneously by synthesizing direct and indirect evidence. The general fixed or random effects contrast-based NMA model can be applied to different outcomes and data structures by opting for either an arm-based or contrast-based likelihood depending on the data available. Depending on the outcome and link-function, we estimate either collapsible or non-collapsible effect measures. Using an illustrative example involving binary outcomes and the non-collapsible odds ratio, we demonstrate that the standard NMA model produces estimates for non-collapsible effect measures that are biased toward the null when studies in the evidence base enroll heterogeneous populations (mixtures of distinct risk groups) that vary across studies. Importantly, this also holds when there are no differences in effect-modifiers across studies; the standard assumption of a common treatment effect when there are no differences in the distribution of effect-modifiers across studies is not appropriate when studies have different baseline risks. As a potential solution, we propose a ``bookend'' approach that explicitly models mixed-population studies as weighted combinations of two homogeneous subpopulations identified from studies with extreme baseline risks and provide guidance for practitioners to determine if bias due to non-collapsibility may be a concern.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2406.02835",
+ "title": "When does IV identification not restrict outcomes?",
+ "authors": [
+  "Leonard Goff"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 6,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Fixed typos on p2, p15, and p26",
+ "abstract": "Many identification results in instrumental variables (IV) models hold without requiring any restrictions on the distribution of potential outcomes, or how those outcomes are correlated with selection behavior. This enables IV models to allow for arbitrary heterogeneity in treatment effects and the possibility of selection on gains in the outcome. I provide a necessary and sufficient condition for treatment effects to be point identified in a manner that does not restrict outcomes, when the instruments take a finite number of values. The condition generalizes the well-known LATE monotonicity assumption, and unifies a wide variety of other known IV identification results. The result also yields a brute-force approach to reveal all selection models that allow for point identification of treatment effects without restricting outcomes, and then enumerate all of the identified parameters within each such selection model. The search uncovers new selection models that yield identification, provides impossibility results for others, and offers opportunities to relax assumptions on selection used in existing literature. An application considers the identification of complementarities between two cross-randomized treatments, obtaining a necessary and sufficient condition on selection for local average complementarities among compliers to be identified in a manner that does not restrict outcomes. I use this result to revisit two empirical settings, one in which the data are incompatible with this restriction on selection, and another in which the data are compatible with the restriction.",
+ "primary": "econ.EM"
+}

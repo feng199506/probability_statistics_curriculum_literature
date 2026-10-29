@@ -1,0 +1,19 @@
+{
+ "id": "2510.11841",
+ "title": "Estimating Variances for Causal Panel Data Estimators",
+ "authors": [
+  "Alexander Almeida",
+  "Susan Athey",
+  "Guido Imbens",
+  "Eva Lestant",
+  "Alexia Olaizola"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 2,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There has been a recent surge in research on causal panel data models, leading to many new estimators for average causal effects. However, researchers have paid less attention to quantifying the precision of these estimators. This paper addresses that gap by studying the problem of variance estimation in causal panel settings. We develop a unified framework for comparing the three main variance estimators used in these settings: regression-based, Unit-Placebo, and Time-Placebo estimators. We show that each relies on a distinct exchangeability assumption and, correspondingly, each targets a different conditional variance. We find that, under some assumptions, all three estimators are all valid, but that their statistical power differs substantially depending on the heteroskedasticity present in the data. Building on these insights, we propose a new variance estimator that flexibly accounts for heteroskedasticity across the unit and time dimensions, and delivers superior statistical power in realistic panel data settings.",
+ "primary": "econ.EM"
+}

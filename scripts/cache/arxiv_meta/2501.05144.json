@@ -1,0 +1,16 @@
+{
+ "id": "2501.05144",
+ "title": "Improved MCMC with active subspaces",
+ "authors": [
+  "Leonardo Ripoli",
+  "Richard G. Everitt"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Constantine et al. (2016) introduced a Metropolis-Hastings (MH) approach that target the active subspace of a posterior distribution: a linearly projected subspace that is informed by the likelihood. Schuster et al. (2017) refined this approach to introduce a pseudo-marginal Metropolis-Hastings, integrating out inactive variables through estimating a marginal likelihood at every MH iteration. In this paper we show empirically that the effectiveness of these approaches is limited in the case where the linearity assumption is violated, and suggest a particle marginal Metropolis-Hastings algorithm as an alternative for this situation. Finally, the high computational cost of these approaches leads us to consider alternative approaches to using active subspaces in MCMC that avoid the need to estimate a marginal likelihood: we introduce Metropolis-within-Gibbs and Metropolis-within-particle Gibbs methods that provide a more computationally efficient use of the active subspace.",
+ "primary": "stat.ME"
+}

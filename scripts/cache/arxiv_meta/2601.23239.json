@@ -1,0 +1,17 @@
+{
+ "id": "2601.23239",
+ "title": "Graph Attention Network for Node Regression on Random Geometric Graphs with Erdős--Rényi contamination",
+ "authors": [
+  "Somak Laha",
+  "Suqi Liu",
+  "Morgane Austern"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "62 pages, 2 figures, 2 tables",
+ "abstract": "Graph attention networks (GATs) are widely used and often appear robust to noise in node covariates and edges, yet rigorous statistical guarantees demonstrating a provable advantage of GATs over non-attention graph neural networks~(GNNs) are scarce. We partially address this gap for node regression with graph-based errors-in-variables models under simultaneous covariate and edge corruption: responses are generated from latent node-level covariates, but only noise-perturbed versions of the latent covariates are observed; and the sample graph is a random geometric graph created from the node covariates but contaminated by independent Erdős--Rényi edges. We propose and analyze a carefully designed, task-specific GAT that constructs denoised proxy features for regression. We prove that regressing the response variables on the proxies achieves lower error asymptotically in (a) estimating the regression coefficient compared to the ordinary least squares (OLS) estimator on the noisy node covariates, and (b) predicting the response for an unlabelled node compared to a vanilla graph convolutional network~(GCN) -- under mild growth conditions. Our analysis leverages high-dimensional geometric tail bounds and concentration for neighbourhood counts and sample covariances. We verify our theoretical findings through experiments on synthetically generated data. We also perform experiments on real-world graphs and demonstrate the effectiveness of the attention mechanism in several node regression tasks.",
+ "primary": "stat.ML"
+}

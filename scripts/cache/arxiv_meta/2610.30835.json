@@ -1,0 +1,18 @@
+{
+ "id": "2610.30835",
+ "title": "Central limit theorem for the Smoluchowski--Kramers approximation",
+ "authors": [
+  "Yun Li",
+  "Longjie Xie",
+  "Li Yang",
+  "Qianning Zhang"
+ ],
+ "v1_date": "2026-10-22",
+ "latest_version": 1,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We establish the central limit theorem (CLT) for Smoluchowski--Kramers approximation of Langevin equations with state-dependent, possibly non-symmetric friction and multiplicative noise. To the best of our knowledge, this is the first such result, even in the case of constant friction and additive noise. The result differs in an essential way from classical averaging CLTs and reveals a new two-scale fluctuation phenomenon. The normalized difference process retains a persistent fast component and is generally not tight in $C([0,T];\\mathbb{R}^d)$, thus the usual continuous-path CLT cannot hold. We derive an exact decomposition of the normalized difference into an accumulated slow fluctuation and a rapidly relaxing velocity correction. The auxiliary slow fluctuation converges to a linear diffusion driven by both the original Brownian motion and an additional independent Brownian noise whose effective covariance is characterized explicitly through a quadratic Poisson corrector. For every fixed $t>0$, the fast correction converges conditionally to its local Gaussian equilibrium. Consequently, the fixed-time fluctuation limit is identified as a Gaussian mixture: $$ \\frac{\\bar X_t-X_t^\\varepsilon}{\\sqrt{\\varepsilon}} \\Longrightarrow \\bar Y_t+N^{1/2}(\\bar X_t)ξ, $$ where $\\bar X_t$ is the overdamped limit, $\\bar Y_t$ is the limiting slow fluctuation, $N$ is the covariance of the terminal velocity correction and solves a Lyapunov equation, and $ξ$ is a standard Gaussian random variable independent of $(\\bar X_t,\\bar Y_t)$. A quantitative convergence rate is also provided. The result fills the remaining gap in the asymptotic theory of the overdamped approximation at the central limit scale, complementing the existing law of large numbers, moderate deviation and large deviation results.",
+ "primary": "math.PR"
+}

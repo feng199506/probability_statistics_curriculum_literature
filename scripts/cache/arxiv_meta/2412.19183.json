@@ -1,0 +1,17 @@
+{
+ "id": "2412.19183",
+ "title": "Robust Regression under Adversarial Contamination: Theory and Algorithms for the Welsch Estimator",
+ "authors": [
+  "Ilyes Hammouda",
+  "Mohamed Ndaoud",
+  "Abd-Krim Seghouane"
+ ],
+ "v1_date": "2024-12-26",
+ "latest_version": 4,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Convex and penalized robust regression methods often suffer from a persistent bias induced by large outliers, limiting their effectiveness in adversarial or heavy-tailed settings. In this work, we study a smooth redescending non-convex M-estimator, specifically the Welsch estimator, and show that it can eliminate this bias whenever it is statistically identifiable. We focus on high-dimensional linear regression under adversarial contamination, where a fraction of samples may be corrupted by an adversary with full knowledge of the data and underlying model. A central technical contribution of this paper is a practical algorithm that provably finds a statistically valid solution to this non-convex problem. We show that the Welsch objective remains locally convex within a well-characterized basin of attraction, and our algorithm is guaranteed to converge into this region and recover the desired estimator. We establish three main guarantees: (a) non-asymptotic minimax-optimal deviation bounds under contamination, (b) improved unbiasedness in the presence of large outliers, and (c) asymptotic normality, yielding statistical efficiency as the sample size grows. Finally, we support our theoretical findings with comprehensive experiments on synthetic and real datasets, demonstrating the estimator's superior robustness, efficiency, and effectiveness in mitigating outlier-induced bias relative to state-of-the-art robust regression methods.",
+ "primary": "math.ST"
+}

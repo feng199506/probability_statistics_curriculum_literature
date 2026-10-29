@@ -1,0 +1,18 @@
+{
+ "id": "2405.06798",
+ "title": "Estimating Value at Risk and Expected Shortfall: A Brief Review and Some New Developments",
+ "authors": [
+  "Kanon Kamronnaher",
+  "Andrew Bellucco",
+  "Whitney K. Huang",
+  "Colin M. Gallagher"
+ ],
+ "v1_date": "2024-05-10",
+ "latest_version": 1,
+ "latest_date": "2024-05-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages, 21 figures",
+ "abstract": "Value-at-risk (VaR) and expected shortfall (ES) are two commonly utilized metrics for quantifying financial risk. In this study, we review the widely employed Generalized Autoregressive Conditional Heteroskedasticity (GARCH) models. These models are explored with diverse distributional assumptions on innovation, including parametric, non-parametric, and `semi-parametric' that incorporates a parametric tail distribution based on extreme value theory. Additionally, we introduce a non-parametric local linear quantile autoregression (LLQAR) with kernel weights depending on the distance between the current loss and past losses, and decreasing in the time lag. To evaluate the performance of different methods for VaR and ES estimation, we employ a multi-criteria approach. This involves mean squared error assessment using simulated data, backtesting on both simulated data and US stocks, and application of the ESBootstrap test. The LLQAR method, which does not necessarily require stationarity assumptions, seems to perform better for simulated non-stationary data as well as real-world data, for estimating VaR and ES.",
+ "primary": "stat.CO"
+}

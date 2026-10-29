@@ -1,0 +1,16 @@
+{
+ "id": "2502.10065",
+ "title": "Self-Normalized Inference in (Quantile, Expected Shortfall) Regressions for Time Series",
+ "authors": [
+  "Yannick Hoga",
+  "Christian Schulz"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 2,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes valid inference tools, based on self-normalization, in time series expected shortfall regressions and, as a corollary, also in quantile regressions. Extant methods for such time series regressions, based on a bootstrap or direct estimation of the long-run variance, are computationally more involved, require the choice of tuning parameters and have serious size distortions when the regression errors are strongly serially dependent. In contrast, our inference tools only require estimates of the (quantile, expected shortfall) regression parameters that are computed on an expanding window, and are correctly sized as we show in simulations. Two empirical applications to stock return predictability and to Growth-at-Risk demonstrate the practical usefulness of the developed inference tools.",
+ "primary": "econ.EM"
+}

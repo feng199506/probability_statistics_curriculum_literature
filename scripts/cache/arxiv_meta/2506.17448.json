@@ -1,0 +1,17 @@
+{
+ "id": "2506.17448",
+ "title": "Asymptotic theory for the likelihood-based block maxima method in time series",
+ "authors": [
+  "David L. Carl",
+  "Simone A. Padoan",
+  "Stefano Rizzelli"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a rigorous asymptotic framework for likelihood-based inference in the Block Maxima (BM) method for stationary time series. While Bayesian inference under the BM approach has been widely studied in the independence setting, no asymptotic theory currently exists for time series. Further results are needed to establish that BM method can be applied with the kind of dependent time series models relevant to applied fields. To address this gap we first establish a comprehensive likelihood theory for the misspecified Generalized Extreme Value (GEV) model under serial dependence. Our results include uniform convergence of the empirical log-likelihood process, contraction rates for the Maximum Likelihood Estimator, and a local asymptotically Gaussian expansion. Building on this foundation, we develop the asymptotic theory of Bayesian inference for the GEV parameters, the extremal index, $T$-time-horizon return levels, and extreme quantiles (Value at Risk). Under general conditions on the prior, we prove posterior consistency, $\\sqrt{k}$-contraction rates, Bernstein-von Mises theorems, and asymptotic coverage properties for credible intervals. For inference on the extremal index, we propose an adjusted posterior distribution that corrects for poor coverage exhibited by a naive Bayesian approach. Simulations show excellent inferential performances for the proposed methodology.",
+ "primary": "math.ST"
+}

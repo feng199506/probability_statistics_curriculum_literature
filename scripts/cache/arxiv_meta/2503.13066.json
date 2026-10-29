@@ -1,0 +1,18 @@
+{
+ "id": "2503.13066",
+ "title": "A robust score test in g-computation for covariate adjustment in randomized clinical trials leveraging different variance estimators via influence functions",
+ "authors": [
+  "Xin Zhang",
+  "Haitao Chu",
+  "Lin Liu",
+  "Satrajit Roychoudhury"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 1,
+ "latest_date": "2025-03-17",
+ "journal_ref": "Statistics in Medicine 44 (2025) e70080",
+ "doi": "10.1002/sim.70080",
+ "comment": "",
+ "abstract": "G-computation has become a widely used robust method for estimating unconditional (marginal) treatment effects with covariate adjustment in the analysis of randomized clinical trials. Statistical inference in this context typically relies on the Wald test or Wald interval, which can be easily implemented using a consistent variance estimator. However, existing literature suggests that when sample sizes are small or when parameters of interest are near boundary values, Wald-based methods may be less reliable due to type I error rate inflation and insufficient interval coverage. In this article, we propose a robust score test for g-computation estimators in the context of two-sample treatment comparisons. The proposed test is asymptotically valid under simple and stratified (biased-coin) randomization schemes, even when regression models are misspecified. These test statistics can be conveniently computed using existing variance estimators, and the corresponding confidence intervals have closed-form expressions, making them convenient to implement. Through extensive simulations, we demonstrate the superior finite-sample performance of the proposed method. Finally, we apply the proposed method to reanalyze a completed randomized clinical trial. The new analysis using our proposed score test achieves statistical significance, whilst reducing the issue of type I error inflation.",
+ "primary": "stat.ME"
+}

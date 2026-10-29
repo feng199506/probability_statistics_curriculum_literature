@@ -1,0 +1,15 @@
+{
+ "id": "2411.01306",
+ "title": "Convergence proofs and strong error bounds for forward-backward stochastic differential equations using neural network simulations",
+ "authors": [
+  "Oliver Sheridan-Methven"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 2,
+ "latest_date": "2025-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 1 figure",
+ "abstract": "We introduce forward-backward stochastic differential equations, highlighting the connection between solutions of these and solutions of partial differential equations, related by the Feynman-Kac theorem. We review the technique of approximating solutions to high dimensional partial differential equations using neural networks, and similarly approximating solutions of stochastic differential equations using multilevel Monte Carlo. Connecting the multilevel Monte Carlo method with the neural network framework using the setup established by E et al. and Raissi, we provide novel numerical analyses to produce strong error bounds for the specific framework of Raissi. Our results bound the overall strong error in terms of the maximum of the discretisation error and the neural network's approximation error. Our analyses are necessary for applications of multilevel Monte Carlo, for which we propose suitable frameworks to exploit the variance structures of the multilevel estimators we elucidate. Also, focusing on the loss function advocated by Raissi, we expose the limitations of this, highlighting and quantifying its bias and variance. Lastly, we propose various avenues of further research which we anticipate should offer significant insight and speed improvements.",
+ "primary": "math.NA"
+}

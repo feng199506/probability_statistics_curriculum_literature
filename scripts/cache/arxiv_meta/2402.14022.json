@@ -1,0 +1,17 @@
+{
+ "id": "2402.14022",
+ "title": "Statistical validation of a deep learning algorithm for dental anomaly detection in intraoral radiographs using paired data",
+ "authors": [
+  "Pieter Van Leemput",
+  "Johannes Keustermans",
+  "Wouter Mollemans"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 1,
+ "latest_date": "2024-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 2 figures, 10 tables",
+ "abstract": "This article describes the clinical validation study setup, statistical analysis and results for a deep learning algorithm which detects dental anomalies in intraoral radiographic images, more specifically caries, apical lesions, root canal treatment defects, marginal defects at crown restorations, periodontal bone loss and calculus. The study compares the detection performance of dentists using the deep learning algorithm to the prior performance of these dentists evaluating the images without algorithmic assistance. Calculating the marginal profit and loss of performance from the annotated paired image data allows for a quantification of the hypothesized change in sensitivity and specificity. The statistical significance of these results is extensively proven using both McNemar's test and the binomial hypothesis test. The average sensitivity increases from $60.7\\%$ to $85.9\\%$, while the average specificity slightly decreases from $94.5\\%$ to $92.7\\%$. We prove that the increase of the area under the localization ROC curve (AUC) is significant (from $0.60$ to $0.86$ on average), while the average AUC is bounded by the $95\\%$ confidence intervals ${[}0.54, 0.65{]}$ and ${[}0.82, 0.90{]}$. When using the deep learning algorithm for diagnostic guidance, the dentist can be $95\\%$ confident that the average true population sensitivity is bounded by the range $79.6\\%$ to $91.9\\%$. The proposed paired data setup and statistical analysis can be used as a blueprint to thoroughly test the effect of a modality change, like a deep learning based detection and/or segmentation, on radiographic images.",
+ "primary": "eess.IV"
+}

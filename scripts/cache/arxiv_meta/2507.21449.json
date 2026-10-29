@@ -1,0 +1,16 @@
+{
+ "id": "2507.21449",
+ "title": "From Global to Local: A Scalable Benchmark for Local Posterior Sampling",
+ "authors": [
+  "Rohan Hitchcock",
+  "Jesse Hoogland"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 2,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages",
+ "abstract": "Degeneracy is an inherent feature of the loss landscape of neural networks, but it is not well understood how stochastic gradient MCMC (SGMCMC) algorithms interact with this degeneracy. In particular, existing global convergence guarantees for common SGMCMC algorithms rely on assumptions which are likely incompatible with degenerate loss landscapes. In this paper, we argue that this gap requires a shift in focus from global to local posterior sampling, and, as a first step, we introduce a novel scalable benchmark for evaluating the local sampling performance of SGMCMC algorithms. We evaluate a number of common algorithms, and find that RMSProp-preconditioned SGLD is most effective at faithfully representing the local geometry of the posterior distribution among the samplers we evaluate. Although we lack theoretical guarantees about global sampler convergence, our empirical results show that we are able to extract non-trivial local information in models with up to O(100M) parameters.",
+ "primary": "stat.ML"
+}

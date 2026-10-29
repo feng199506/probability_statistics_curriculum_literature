@@ -1,0 +1,15 @@
+{
+ "id": "2601.16041",
+ "title": "Risk reversal for least squares estimators under nested convex constraints",
+ "authors": [
+  "Omar Al-Ghattas"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 2,
+ "latest_date": "2026-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 7 figures",
+ "abstract": "In constrained stochastic optimization, one expects that restricting the feasible set, provided it still contains the true parameter, should not increase the statistical risk of the corresponding projection estimator. We show that this intuition can fail, even in basic settings. We investigate this phenomenon in the Gaussian sequence model. Given a compact, convex set $Θ\\subseteq \\mathbb{R}^d$, one observes \\[ Y = θ^\\star + σZ, \\qquad Z \\sim N(0, I_d), \\] and seeks to estimate an unknown $θ^\\star \\in Θ$. Here, the maximum likelihood estimator over $Θ$ coincides with the least squares estimator (LSE), given by the Euclidean projection of $Y$ onto $Θ$. We construct an explicit example exhibiting \\emph{risk reversal}: for sufficiently large noise, there exist nested compact convex sets $Θ_S \\subsetneq Θ_L$ and $θ^\\star \\in Θ_S$ such that the LSE constrained to $Θ_S$ has strictly larger squared-error risk than the LSE constrained to $Θ_L$. Moreover, we demonstrate that risk reversal can persist at the level of worst-case risk. Finally, we show that the phenomenon is not specific to Gaussian noise or squared-error risk, extending our results beyond both settings. We clarify this phenomenon by contrasting noise regimes. In the vanishing-noise limit, the risk is governed at first order by the statistical dimension of the tangent cone, and risk reversal cannot occur at the leading $σ^2$ scale. In the diverging-noise regime, the risk instead depends on the global geometry of the constraint sets, and the embedding of $Θ_S$ within $Θ_L$ can reverse the risk ordering. These results reveal a previously unrecognized failure mode of the LSE. They demonstrate that in sufficiently noisy settings, tightening a constraint can paradoxically degrade statistical performance.",
+ "primary": "math.ST"
+}

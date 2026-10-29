@@ -1,0 +1,19 @@
+{
+ "id": "2403.05644",
+ "title": "TSSS: A Novel Triangulated Spherical Spline Smoothing for Surface-based Data",
+ "authors": [
+  "Zhiling Gu",
+  "Shan Yu",
+  "Guannan Wang",
+  "Ming-Jun Lai",
+  "Li Wang"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 1,
+ "latest_date": "2024-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages, 16 figures",
+ "abstract": "Surface-based data is commonly observed in diverse practical applications spanning various fields. In this paper, we introduce a novel nonparametric method to discover the underlying signals from data distributed on complex surface-based domains. Our approach involves a penalized spline estimator defined on a triangulation of surface patches, which enables effective signal extraction and recovery. The proposed method offers several advantages over existing methods, including superior handling of \"leakage\" or \"boundary effects\" over complex domains, enhanced computational efficiency, and potential applications in analyzing sparse and irregularly distributed data on complex objects. We provide rigorous theoretical guarantees for the proposed method, including convergence rates of the estimator in both the $L_2$ and supremum norms, as well as the asymptotic normality of the estimator. We also demonstrate that the convergence rates achieved by our estimation method are optimal within the framework of nonparametric estimation. Furthermore, we introduce a bootstrap method to quantify the uncertainty associated with the proposed estimators accurately. The superior performance of the proposed method is demonstrated through simulation experiments and data applications on cortical surface functional magnetic resonance imaging data and oceanic near-surface atmospheric data.",
+ "primary": "stat.ME"
+}

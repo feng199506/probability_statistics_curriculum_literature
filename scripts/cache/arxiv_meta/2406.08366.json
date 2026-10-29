@@ -1,0 +1,16 @@
+{
+ "id": "2406.08366",
+ "title": "Highest Probability Density Conformal Regions",
+ "authors": [
+  "Max Sampson",
+  "Kung-Sik Chan"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 2,
+ "latest_date": "2025-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a new method for finding the highest predictive density set or region, within the heteroscedastic regression framework. This framework enjoys the property that any highest predictive density set is a translation of some scalar multiple of a highest density set for the standardized regression error, with the same prediction accuracy. The proposed method leverages this property to efficiently compute conformal prediction regions, using signed conformal inference, kernel density estimation, in conjunction with any conditional mean, and scale estimators. While most conformal prediction methods output prediction intervals, this method adapts to the target. When the target is multi-modal, the proposed method outputs an approximation of the smallest multi-modal set. When the target is uni-modal, the proposed method outputs an approximation of the smallest interval. Under mild regularity conditions, we show that these conformal prediction sets are asymptotically close to the true smallest prediction sets. Because of the conformal guarantee, even in finite sample sizes the method has guaranteed coverage. With simulations and a real data analysis we demonstrate that the proposed method is better than existing methods when the target is multi-modal, and gives similar results when the target is uni-modal. Supplementary materials, including proofs and additional images, are available online.",
+ "primary": "stat.ME"
+}

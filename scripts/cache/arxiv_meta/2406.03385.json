@@ -1,0 +1,18 @@
+{
+ "id": "2406.03385",
+ "title": "Discrete Autoregressive Switching Processes with Cumulative Shrinkage Priors for Graphical Modeling of Time Series Data",
+ "authors": [
+  "Beniamino Hadj-Amar",
+  "Aaron M. Bornstein",
+  "Michele Guindani",
+  "Marina Vannucci"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 2,
+ "latest_date": "2025-08-19",
+ "journal_ref": "Journal of Computational and Graphical Statistics, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a flexible Bayesian approach for sparse Gaussian graphical modeling of multivariate time series. We account for temporal correlation in the data by assuming that observations are characterized by an underlying and unobserved hidden discrete autoregressive process. We assume multivariate Gaussian emission distributions and capture spatial dependencies by modeling the state-specific precision matrices via graphical horseshoe priors. We characterize the mixing probabilities of the hidden process via a cumulative shrinkage prior that accommodates zero-inflated parameters for non-active components, and further incorporate a sparsity-inducing Dirichlet prior to estimate the effective number of states from the data. For posterior inference, we develop a sampling procedure that allows estimation of the number of discrete autoregressive lags and the number of states, and that cleverly avoids having to deal with the changing dimensions of the parameter space. We thoroughly investigate performance of our proposed methodology through several simulation studies. We further illustrate the use of our approach for the estimation of dynamic brain connectivity based on fMRI data collected on a subject performing a task-based experiment on latent learning",
+ "primary": "stat.ME"
+}

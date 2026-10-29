@@ -1,0 +1,18 @@
+{
+ "id": "2512.23308",
+ "title": "Conformal Prediction = Bayes?",
+ "authors": [
+  "Jyotishka Datta",
+  "Nicholas G. Polson",
+  "Vadim Sokolov",
+  "Daniel Zantedeschi"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 1,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction (CP) is widely presented as distribution-free predictive inference with finite-sample marginal coverage under exchangeability. We argue that CP is best understood as a rank-calibrated descendant of the Fisher-Dempster-Hill fiducial/direct-probability tradition rather than as Bayesian conditioning in disguise. We establish four separations from coherent countably additive predictive semantics. First, canonical conformal constructions violate conditional extensionality: prediction sets can depend on the marginal design P(X) even when P(Y|X) is fixed. Second, any finitely additive sequential extension preserving rank calibration is nonconglomerable, implying countable Dutch-book vulnerabilities. Third, rank-calibrated updates cannot be realized as regular conditionals of any countably additive exchangeable law on Y^infty. Fourth, formalizing both paradigms as families of one-step predictive kernels, conformal and Bayesian kernels coincide only on a Baire-meagre subset of the space of predictive laws. We further show that rank- and proxy-based reductions are generically Blackwell-deficient relative to full-data experiments, yielding positive Le Cam deficiency for suitable losses. Extending the analysis to prediction-powered inference (PPI) yields an analogous message: bias-corrected, proxy-rectified estimators can be valid as confidence devices while failing to define transportable belief states across stages, shifts, or adaptive selection. Together, the results sharpen a general limitation of wrappers: finite-sample calibration guarantees do not by themselves supply composable semantics for sequential updating or downstream decision-making.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2403.13150",
+ "title": "On Training Survival Models with Scoring Rules",
+ "authors": [
+  "Philipp Kopper",
+  "David Rügamer",
+  "Raphael Sonabend",
+  "Bernd Bischl",
+  "Andreas Bender"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 2,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 3 figures",
+ "abstract": "Scoring rules are an established way of comparing predictive performances across model classes. In the context of survival analysis, they require adaptation in order to accommodate censoring. This work investigates using scoring rules for model training rather than evaluation. Doing so, we establish a general framework for training survival models that is model agnostic and can learn event time distributions parametrically or non-parametrically. In addition, our framework is not restricted to any specific scoring rule. While we focus on neural network-based implementations, we also provide proof-of-concept implementations using gradient boosting, generalized additive models, and trees. Empirical comparisons on synthetic and real-world data indicate that scoring rules can be successfully incorporated into model training and yield competitive predictive performance with established time-to-event models.",
+ "primary": "cs.LG"
+}

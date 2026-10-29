@@ -1,0 +1,17 @@
+{
+ "id": "2510.14637",
+ "title": "Accurate Bayesian inference for tail risk extrapolation in time series",
+ "authors": [
+  "David L. Carl",
+  "Simone A. Padoan",
+  "Stefano Rizzelli"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 1,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurately quantifying tail risks-rare but high-impact events such as financial crashes or extreme weather-is a central challenge in risk management, with serially dependent data. We develop a Bayesian framework based on the Generalized Pareto (GP) distribution for modeling threshold exceedances, providing posterior distributions for the GP parameters and tail quantiles in time series. Two cases are considered: extrapolation of tail quantiles for the stationary marginal distribution under beta-mixing dependence, and dynamic, past-conditional tail quantiles in heteroscedastic regression models. The proposal yields asymptotically honest credible regions, whose coverage probabilities converge to their nominal levels. We establish the asymptotic theory for the Bayesian procedure, deriving conditions on the prior distributions under which the posterior satisfies key asymptotic properties. To achieve this, we first develop a likelihood theory under serial dependence, providing local and global bounds for the empirical log-likelihood process of the misspecified GP model and deriving corresponding asymptotic properties of the Maximum Likelihood Estimator (MLE). Simulations demonstrate that our Bayesian credible regions outperform naive Bayesian and MLE-based confidence regions across several standard time series models, including ARMA, GARCH, and Markovian copula models. Two real-data applications-to U.S. interest rates and Swiss electricity demand-highlight the relevance of the proposed methodology.",
+ "primary": "stat.ME"
+}

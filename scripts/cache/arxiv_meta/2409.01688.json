@@ -1,0 +1,19 @@
+{
+ "id": "2409.01688",
+ "title": "Differentially Private Kernel Density Estimation",
+ "authors": [
+  "Erzhi Liu",
+  "Jerry Yao-Chieh Hu",
+  "Alex Reneau",
+  "Zhao Song",
+  "Han Liu"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 3,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: Appendix added. v3: Numerical validations added",
+ "abstract": "We introduce a refined differentially private (DP) data structure for kernel density estimation (KDE), offering not only improved privacy-utility tradeoff but also better efficiency over prior results. Specifically, we study the mathematical problem: given a similarity function $f$ (or DP KDE) and a private dataset $X \\subset \\mathbb{R}^d$, our goal is to preprocess $X$ so that for any query $y\\in\\mathbb{R}^d$, we approximate $\\sum_{x \\in X} f(x, y)$ in a differentially private fashion. The best previous algorithm for $f(x,y) =\\| x - y \\|_1$ is the node-contaminated balanced binary tree by [Backurs, Lin, Mahabadi, Silwal, and Tarnawski, ICLR 2024]. Their algorithm requires $O(nd)$ space and time for preprocessing with $n=|X|$. For any query point, the query time is $d \\log n$, with an error guarantee of $(1+α)$-approximation and $ε^{-1} α^{-0.5} d^{1.5} R \\log^{1.5} n$. In this paper, we improve the best previous result [Backurs, Lin, Mahabadi, Silwal, and Tarnawski, ICLR 2024] in three aspects: - We reduce query time by a factor of $α^{-1} \\log n$. - We improve the approximation ratio from $α$ to 1. - We reduce the error dependence by a factor of $α^{-0.5}$. From a technical perspective, our method of constructing the search tree differs from previous work [Backurs, Lin, Mahabadi, Silwal, and Tarnawski, ICLR 2024]. In prior work, for each query, the answer is split into $α^{-1} \\log n$ numbers, each derived from the summation of $\\log n$ values in interval tree countings. In contrast, we construct the tree differently, splitting the answer into $\\log n$ numbers, where each is a smart combination of two distance values, two counting values, and $y$ itself. We believe our tree structure may be of independent interest.",
+ "primary": "cs.DS"
+}

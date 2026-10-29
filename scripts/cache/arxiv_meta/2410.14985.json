@@ -1,0 +1,17 @@
+{
+ "id": "2410.14985",
+ "title": "Stochastic Loss Reserving: Dependence and Estimation",
+ "authors": [
+  "Andrew Fleck",
+  "Edward Furman",
+  "Yang Shen"
+ ],
+ "v1_date": "2024-10-19",
+ "latest_version": 1,
+ "latest_date": "2024-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages. Preprint of paper from author's PhD thesis",
+ "abstract": "Nowadays insurers have to account for potentially complex dependence between risks. In the field of loss reserving, there are many parametric and non-parametric models attempting to capture dependence between business lines. One common approach has been to use additive background risk models (ABRMs) which provide rich and interpretable dependence structures via a common shock model. Unfortunately, ABRMs are often restrictive. Models that capture necessary features may have impractical to estimate parameters. For example models without a closed-form likelihood function for lack of a probability density function (e.g. some Tweedie, Stable Distributions, etc). We apply a modification of the continuous generalised method of moments (CGMM) of [Carrasco and Florens, 2000] which delivers comparable estimators to the MLE to loss reserving. We examine models such as the one proposed by [Avanzi et al., 2016] and a related but novel one derived from the stable family of distributions. Our CGMM method of estimation provides conventional non-Bayesian estimates in the case where MLEs are impractical.",
+ "primary": "stat.ME"
+}

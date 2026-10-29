@@ -1,0 +1,16 @@
+{
+ "id": "2312.12149",
+ "title": "Bayesian and minimax estimators of loss",
+ "authors": [
+  "Christine Allard",
+  "Éric Marchand"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "We study the problem of loss estimation that involves for an observable $X \\sim f_θ$ the choice of a first-stage estimator $\\hatγ$ of $γ(θ)$, incurred loss $L=L(θ, \\hatγ)$, and the choice of a second-stage estimator $\\hat{L}$ of $L$. We consider both: (i) a sequential version where the first-stage estimate and loss are fixed and optimization is performed at the second-stage level, and (ii) a simultaneous version with a Rukhin-type loss function designed for the evaluation of $(\\hatγ, \\hat{L})$ as an estimator of $(γ, L)$. We explore various Bayesian solutions and provide minimax estimators for both situations (i) and (ii). The analysis is carried out for several probability models, including multivariate normal models $N_d(θ, σ^2 I_d)$ with both known and unknown $σ^2$, Gamma, univariate and multivariate Poisson, and negative binomial models, and relates to different choices of the first-stage and second-stage losses. The minimax findings are achieved by identifying least favourable of sequence of priors and depend critically on particular Bayesian solution properties, namely situations where the second-stage estimator $\\hat{L}(x)$ is constant as a function of $x$.",
+ "primary": "math.ST"
+}

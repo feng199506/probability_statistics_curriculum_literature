@@ -1,0 +1,15 @@
+{
+ "id": "2403.10165",
+ "title": "Finite mixture copulas for modeling dependence in longitudinal count data",
+ "authors": [
+  "Subhajit Chattopadhyay"
+ ],
+ "v1_date": "2024-03-15",
+ "latest_version": 2,
+ "latest_date": "2025-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 6 figures and 8 tables",
+ "abstract": "Dependence modeling of multivariate count data has garnered significant attention in recent years. Multivariate elliptical copulas are typically preferred in statistical literature to analyze dependence between repeated measurements of longitudinal data since they allow for different choices of the correlation structure. But these copulas lack in flexibility to model dependence and inference is only feasible under parametric restrictions. In this article, we propose employing finite mixtures of elliptical copulas to better capture the intricate and hidden temporal dependencies present in discrete longitudinal data. Our approach allows for the utilization of different correlation matrices within each component of the mixture copula. We theoretically explore the dependence properties of finite mixtures of copulas before employing them to construct regression models for count longitudinal data. Inference for this proposed class of models is based on a composite likelihood approach, and we evaluate the finite sample performance of parameter estimates through extensive simulation studies. To validate our models, we extend traditional techniques and introduce the t-plot method to accommodate finite mixtures of elliptical copulas. Finally, we apply our models to analyze the temporal dependence within two real-world longitudinal datasets and demonstrate their superiority over standard elliptical copulas.",
+ "primary": "stat.ME"
+}

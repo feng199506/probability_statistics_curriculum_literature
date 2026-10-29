@@ -1,0 +1,17 @@
+{
+ "id": "2403.11276",
+ "title": "Effects of model misspecification on small area estimators",
+ "authors": [
+  "Yuting Chen",
+  "Partha Lahiri",
+  "Nicola Salvati"
+ ],
+ "v1_date": "2024-03-17",
+ "latest_version": 2,
+ "latest_date": "2024-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nested error regression models are commonly used to incorporate observational unit specific auxiliary variables to improve small area estimates. When the mean structure of this model is misspecified, there is generally an increase in the mean square prediction error (MSPE) of Empirical Best Linear Unbiased Predictors (EBLUP). Observed Best Prediction (OBP) method has been proposed with the intent to improve on the MSPE over EBLUP. We conduct a Monte Carlo simulation experiment to understand the effect of mispsecification of mean structures on different small area estimators. Our simulation results lead to an unexpected result that OBP may perform very poorly when observational unit level auxiliary variables are used and that OBP can be improved significantly when population means of those auxiliary variables (area level auxiliary variables) are used in the nested error regression model or when a corresponding area level model is used. Our simulation also indicates that the MSPE of OBP in an increasing function of the difference between the sample and population means of the auxiliary variables.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2509.11780",
+ "title": "Variational Gaussian Approximation in Replica Analysis of Parametric Models",
+ "authors": [
+  "Takashi Takahashi"
+ ],
+ "v1_date": "2025-09-15",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "J. Phys. Soc. Jpn. 94, 124801 (2025)",
+ "doi": "10.7566/jpsj.94.124801",
+ "comment": "27 pages, 3 figures",
+ "abstract": "We revisit the replica method for analyzing inference and learning in parametric models, considering situations where the data-generating distribution is unknown or analytically intractable. Instead of assuming idealized distributions to carry out quenched averages analytically, we use a variational Gaussian approximation for the replicated system in grand canonical formalism in which the data average can be deferred and replaced by empirical averages, leading to stationarity conditions that adaptively determine the parameters of the trial Hamiltonian for each dataset. This approach clarifies how fluctuations affect information extraction and connects directly with the results of mathematical statistics or learning theory such as information criteria. As a concrete application, we analyze linear regression and derive learning curves. This includes cases with real-world datasets, where exact replica calculations are not feasible.",
+ "primary": "cond-mat.dis-nn"
+}

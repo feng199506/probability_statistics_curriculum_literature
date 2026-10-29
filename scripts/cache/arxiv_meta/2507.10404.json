@@ -1,0 +1,18 @@
+{
+ "id": "2507.10404",
+ "title": "Two-step semiparametric empirical likelihood inference from capture-recapture data with missing covariates",
+ "authors": [
+  "Yang Liu",
+  "Yukun Liu",
+  "Pengfei Li",
+  "Riquan Zhang"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 1,
+ "latest_date": "2025-07-14",
+ "journal_ref": "Test (2024), 33, 786-808",
+ "doi": "10.1007/s11749-024-00921-1",
+ "comment": "",
+ "abstract": "Missing covariates are not uncommon in capture-recapture studies. When covariate information is missing at random in capture-recapture data, an empirical full likelihood method has been demonstrated to outperform conditional-likelihood-based methods in abundance estimation. However, the fully observed covariates must be discrete, and the method is not directly applicable to continuous-time capture-recapture data. Based on the Binomial and Poisson regression models, we propose a two-step semiparametric empirical likelihood approach for abundance estimation in the presence of missing covariates, regardless of whether the fully observed covariates are discrete or continuous. We show that the maximum semiparametric empirical likelihood estimators for the underlying parameters and the abundance are asymptotically normal, and more efficient than the counterpart for a completely known non-missingness probability. After scaling, the empirical likelihood ratio test statistic for abundance follows a limiting chi-square distribution with one degree of freedom. The proposed approach is further extended to one-inflated count regression models, and a score-like test is constructed to assess whether one-inflation exists among the number of captures. Our simulation shows that, compared with the previous method, the proposed method not only performs better in correcting bias, but also has a more accurate coverage in the presence of fully observed continuous covariates, although there may be a slight efficiency loss when the fully observed covariates are only discrete. The performance of the new method is illustrated by an analysis of the Hong Kong prinia data.",
+ "primary": "stat.ME"
+}

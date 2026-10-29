@@ -1,0 +1,15 @@
+{
+ "id": "2410.08492",
+ "title": "Exact MLE for Generalized Linear Mixed Models",
+ "authors": [
+  "Tonglin Zhang"
+ ],
+ "v1_date": "2024-10-11",
+ "latest_version": 1,
+ "latest_date": "2024-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Preprint. arXiv admin note: text overlap with arXiv:2409.09310",
+ "abstract": "Exact MLE for generalized linear mixed models (GLMMs) is a long-standing problem unsolved until today. The proposed research solves the problem. In this problem, the main difficulty is caused by intractable integrals in the likelihood function when the response does not follow normal and the prior distribution for the random effects is specified by normal. Previous methods use Laplace approximations or Monte Carol simulations to compute the MLE approximately. These methods cannot provide the exact MLEs of the parameters and the hyperparameters. The exact MLE problem remains unsolved until the proposed work. The idea is to construct a sequence of mathematical functions in the optimization procedure. Optimization of the mathematical functions can be numerically computed. The result can lead to the exact MLEs of the parameters and hyperparameters. Because computing the likelihood is unnecessary, the proposed method avoids the main difficulty caused by the intractable integrals in the likelihood function.",
+ "primary": "stat.ME"
+}

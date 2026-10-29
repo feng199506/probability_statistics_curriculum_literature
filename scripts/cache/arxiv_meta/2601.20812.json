@@ -1,0 +1,18 @@
+{
+ "id": "2601.20812",
+ "title": "Effective Sample Size for Functional Spatial Data",
+ "authors": [
+  "Alfredo Alegría",
+  "John Gómez",
+  "Jorge Mateu",
+  "Ronny Vallejos"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 1,
+ "latest_date": "2026-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The effective sample size quantifies the amount of independent information contained in a dataset, accounting for redundancy due to correlation between observations. While widely used in geostatistics for scalar data, its extension to functional spatial data has remained largely unexplored. In this work, we introduce a novel definition of the effective sample size for functional geostatistical data, employing the trace-covariogram as a measure of correlation, and show that it retains the intuitive properties of the classical scalar ESS. We illustrate the behavior of this measure using a functional autoregressive process, demonstrating how serial dependence and the allocation of variability across eigen-directions influence the resulting functional ESS. Finally, the approach is applied to a real meteorological dataset of geometric vertical velocities over a portion of the Earth, showing how the method can quantify redundancy and determine the effective number of independent curves in functional spatial datasets.",
+ "primary": "stat.ME"
+}

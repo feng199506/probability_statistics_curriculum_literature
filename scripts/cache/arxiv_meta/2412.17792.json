@@ -1,0 +1,16 @@
+{
+ "id": "2412.17792",
+ "title": "Distributed Estimation and Gap-Free Analysis of Canonical Correlations",
+ "authors": [
+  "Canyi Chen",
+  "Liping Zhu"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 1,
+ "latest_date": "2024-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Massive data analysis calls for distributed algorithms and theories. We design a multi-round distributed algorithm for canonical correlation analysis. We construct principal directions through the convex formulation of canonical correlation analysis and use the shift-and-invert preconditioning iteration to expedite the convergence rate. This distributed algorithm is communication-efficient. The resultant estimate achieves the same convergence rate as if all observations were pooled together, but does not impose stringent restrictions on the number of machines. We take a gap-free analysis to bypass the widely used yet unrealistic assumption of an explicit gap between the successive canonical correlations in the canonical correlation analysis. Extensive simulations and applications to three benchmark image data are conducted to demonstrate the empirical performance of our proposed algorithms and theories.",
+ "primary": "stat.CO"
+}

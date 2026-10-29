@@ -1,0 +1,17 @@
+{
+ "id": "2512.19334",
+ "title": "Orthogonal Approximate Message Passing with Optimal Spectral Initializations for Rectangular Spiked Matrix Models",
+ "authors": [
+  "Haohua Chen",
+  "Songbin Liu",
+  "Junjie Ma"
+ ],
+ "v1_date": "2025-12-22",
+ "latest_version": 1,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an orthogonal approximate message passing (OAMP) algorithm for signal estimation in the rectangular spiked matrix model with general rotationally invariant (RI) noise. We establish a rigorous state evolution that precisely characterizes the algorithm's high-dimensional dynamics and enables the construction of iteration-wise optimal denoisers. Within this framework, we accommodate spectral initializations under minimal assumptions on the empirical noise spectrum. In the rectangular setting, where a single rank-one component typically generates multiple informative outliers, we further propose a procedure for combining these outliers under mild non-Gaussian signal assumptions. For general RI noise models, the predicted performance of the proposed optimal OAMP algorithm agrees with replica-symmetric predictions for the associated Bayes-optimal estimator, and we conjecture that it is statistically optimal within a broad class of iterative estimation methods.",
+ "primary": "cs.IT"
+}

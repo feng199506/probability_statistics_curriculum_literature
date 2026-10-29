@@ -1,0 +1,15 @@
+{
+ "id": "2203.01535",
+ "title": "Kernel Density Estimation by Genetic Algorithm",
+ "authors": [
+  "Kiheiji Nishida"
+ ],
+ "v1_date": "2022-03-03",
+ "latest_version": 1,
+ "latest_date": "2022-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study proposes a data condensation method for multivariate kernel density estimation by genetic algorithm. First, our proposed algorithm generates multiple subsamples of a given size with replacement from the original sample. The subsamples and their constituting data points are regarded as $\\it{chromosome}$ and $\\it{gene}$, respectively, in the terminology of genetic algorithm. Second, each pair of subsamples breeds two new subsamples, where each data point faces either $\\it{crossover}$, $\\it{mutation}$, or $\\it{reproduction}$ with a certain probability. The dominant subsamples in terms of fitness values are inherited by the next generation. This process is repeated generation by generation and brings the sparse representation of kernel density estimator in its completion. We confirmed from simulation studies that the resulting estimator can perform better than other well-known density estimators.",
+ "primary": "stat.ME"
+}

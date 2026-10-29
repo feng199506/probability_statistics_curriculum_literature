@@ -1,0 +1,16 @@
+{
+ "id": "2311.17685",
+ "title": "Semi-supervised linear regression: enhancing efficiency and robustness in high dimensions",
+ "authors": [
+  "Kai Chen",
+  "Yuqian Zhang"
+ ],
+ "v1_date": "2023-11-29",
+ "latest_version": 2,
+ "latest_date": "2025-09-02",
+ "journal_ref": "Biometrics, Volume 81, Issue 3, September 2025, ujaf113",
+ "doi": "10.1093/biomtc/ujaf113",
+ "comment": "",
+ "abstract": "In semi-supervised learning, the prevailing understanding suggests that observing additional unlabeled samples improves estimation accuracy for linear parameters only in the case of model misspecification. In this work, we challenge such a claim and show that additional unlabeled samples are beneficial in high-dimensional settings. Initially focusing on a dense scenario, we introduce robust semi-supervised estimators for the regression coefficient without relying on sparse structures in the population slope. Even when the true underlying model is linear, we show that leveraging information from large-scale unlabeled data helps reduce estimation bias, thereby improving both estimation accuracy and inference robustness. Moreover, we propose semi-supervised methods with further enhanced efficiency in scenarios with a sparse linear slope. The performance of the proposed methods is demonstrated through extensive numerical studies.",
+ "primary": "stat.ME"
+}

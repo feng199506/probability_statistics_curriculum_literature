@@ -1,0 +1,17 @@
+{
+ "id": "2512.12334",
+ "title": "Extending the application of dynamic Bayesian networks in calculating market risk: Standard and stressed expected shortfall",
+ "authors": [
+  "Eden Gross",
+  "Ryan Kruger",
+  "Francois Toerien"
+ ],
+ "v1_date": "2025-12-13",
+ "latest_version": 1,
+ "latest_date": "2025-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the last five years, expected shortfall (ES) and stressed ES (SES) have become key required regulatory measures of market risk in the banking sector, especially following events such as the global financial crisis. Thus, finding ways to optimize their estimation is of great importance. We extend the application of dynamic Bayesian networks (DBNs) to the estimation of 10-day 97.5% ES and stressed ES, building on prior work applying DBNs to value at risk. Using the S&P 500 index as a proxy for the equities trading desk of a US bank, we compare the performance of three DBN structure-learning algorithms with several traditional market risk models, using either the normal or the skewed Student's t return distributions. Backtesting shows that all models fail to produce statistically accurate ES and SES forecasts at the 2.5% level, reflecting the difficulty of modeling extreme tail behavior. For ES, the EGARCH(1,1) model (normal) produces the most accurate forecasts, while, for SES, the GARCH(1,1) model (normal) performs best. All distribution-dependent models deteriorate substantially when using the skewed Student's t distribution. The DBNs perform comparably to the historical simulation model, but their contribution to tail prediction is limited by the small weight assigned to their one-day-ahead forecasts within the return distribution. Future research should examine weighting schemes that enhance the influence of forward-looking DBN forecasts on tail risk estimation.",
+ "primary": "q-fin.RM"
+}

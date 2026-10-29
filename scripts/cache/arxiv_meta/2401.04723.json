@@ -1,0 +1,16 @@
+{
+ "id": "2401.04723",
+ "title": "Spatio-temporal data fusion for the analysis of in situ and remote sensing data using the INLA-SPDE approach",
+ "authors": [
+  "Shiyu He",
+  "Samuel W. K. Wong"
+ ],
+ "v1_date": "2024-01-09",
+ "latest_version": 1,
+ "latest_date": "2024-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 7 figures",
+ "abstract": "We propose a Bayesian hierarchical model to address the challenge of spatial misalignment in spatio-temporal data obtained from in situ and satellite sources. The model is fit using the INLA-SPDE approach, which provides efficient computation. Our methodology combines the different data sources in a \"fusion\"\" model via the construction of projection matrices in both spatial and temporal domains. Through simulation studies, we demonstrate that the fusion model has superior performance in prediction accuracy across space and time compared to standalone \"in situ\" and \"satellite\" models based on only in situ or satellite data, respectively. The fusion model also generally outperforms the standalone models in terms of parameter inference. Such a modeling approach is motivated by environmental problems, and our specific focus is on the analysis and prediction of harmful algae bloom (HAB) events, where the convention is to conduct separate analyses based on either in situ samples or satellite images. A real data analysis shows that the proposed model is a necessary step towards a unified characterization of bloom dynamics and identifying the key drivers of HAB events.",
+ "primary": "stat.ME"
+}

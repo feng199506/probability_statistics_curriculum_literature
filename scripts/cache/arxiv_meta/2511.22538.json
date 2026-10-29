@@ -1,0 +1,16 @@
+{
+ "id": "2511.22538",
+ "title": "Bayesian Nonparametric Marked Hawkes Processes for Earthquake Modeling",
+ "authors": [
+  "Hyotae Kim",
+  "Athanasios Kottas"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Hawkes process is a versatile stochastic model for point patterns that exhibit self-excitation, that is, the property that an event occurrence increases the rate of occurrence for some period of time in the future. We present a Bayesian nonparametric modeling approach for temporal marked Hawkes processes. Our focus is on point process modeling of earthquake occurrences, where the mark variable is given by earthquake magnitude. We develop a nonparametric prior model for the marked Hawkes process excitation function, using a representation with basis components for the time lag and the mark, and basis weights defined through a gamma process prior. We elaborate the model with a nonparametric prior for time-dependent background intensity functions, thus enabling a fully nonparametric approach to modeling the ground process intensity of marked Hawkes processes. The model construction balances computationally tractable inference with flexible forms for marked Hawkes process functionals, including mark-dependent offspring densities. The posterior simulation method provides full inference, without any approximations to the Hawkes process likelihood. In the context of the application, the modeling approach enables estimation of aftershock densities that vary with the magnitude of the main shock, thus significantly expanding the inferential scope of existing self-exciting point process models for earthquake occurrences. We investigate different aspects of the methodology through study of model properties, and with inference results based on synthetic marked point patterns. The practical utility of modeling magnitude-dependent aftershock dynamics is demonstrated with analysis of earthquakes that occurred in Japan from 1885 through 1980.",
+ "primary": "stat.ME"
+}

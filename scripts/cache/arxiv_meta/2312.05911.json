@@ -1,0 +1,17 @@
+{
+ "id": "2312.05911",
+ "title": "A leave-one-out approach to approximate message passing",
+ "authors": [
+  "Zhigang Bao",
+  "Qiyang Han",
+  "Xiaocong Xu"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 3,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate message passing (AMP) has emerged both as a popular class of iterative algorithms and as a powerful analytic tool in a wide range of statistical estimation problems and statistical physics models. A well established line of AMP theory proves Gaussian approximations for the empirical distributions of the AMP iterate in the high dimensional limit, under the GOE random matrix model and its variants. This paper provides a non-asymptotic, leave-one-out representation for the AMP iterate that holds under a broad class of Gaussian random matrix models with general variance profiles. In contrast to the typical AMP theory that describes the empirical distributions of the AMP iterate via a low dimensional state evolution, our leave-one-out representation yields an intrinsically high dimensional state evolution formula which provides non-asymptotic characterizations for the possibly heterogeneous, entrywise behavior of the AMP iterate under the prescribed random matrix models. To exemplify some distinct features of our AMP theory in applications, we analyze, in the context of regularized linear estimation, the precise stochastic behavior of the Ridge estimator for independent and non-identically distributed observations whose covariates exhibit general variance profiles. We find that its finite-sample distribution is characterized via a weighted Ridge estimator in a heterogeneous Gaussian sequence model. Notably, in contrast to the i.i.d. sampling scenario, the effective noise and regularization are now full dimensional vectors determined via a high dimensional system of equations. Our leave-one-out method of proof differs significantly from the widely adopted conditioning approach for rotational invariant ensembles, and relies instead on an inductive method that utilizes almost solely integration-by-parts and concentration techniques.",
+ "primary": "math.ST"
+}

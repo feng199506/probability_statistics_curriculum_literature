@@ -1,0 +1,16 @@
+{
+ "id": "2510.25315",
+ "title": "Tuning-Free Sampling via Optimization on the Space of Probability Measures",
+ "authors": [
+  "Louis Sharrock",
+  "Christopher Nemeth"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce adaptive, tuning-free step size schedules for gradient-based sampling algorithms obtained as time-discretizations of Wasserstein gradient flows. The result is a suite of tuning-free sampling algorithms, including tuning-free variants of the unadjusted Langevin algorithm (ULA), stochastic gradient Langevin dynamics (SGLD), mean-field Langevin dynamics (MFLD), Stein variational gradient descent (SVGD), and variational gradient descent (VGD). More widely, our approach yields tuning-free algorithms for solving a broad class of stochastic optimization problems over the space of probability measures. Under mild assumptions (e.g., geodesic convexity and locally bounded stochastic gradients), we establish strong theoretical guarantees for our approach. In particular, we recover the convergence rate of optimally tuned versions of these algorithms up to logarithmic factors, in both nonsmooth and smooth settings. We then benchmark the performance of our methods against comparable existing approaches. Across a variety of tasks, our algorithms achieve similar performance to the optimal performance of existing algorithms, with no need to tune a step size parameter.",
+ "primary": "stat.ME"
+}

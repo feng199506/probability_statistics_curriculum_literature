@@ -1,0 +1,16 @@
+{
+ "id": "2504.14077",
+ "title": "Asymptotically well-calibrated Bayesian $p$-value using the Kolmogorov-Smirnov statistic",
+ "authors": [
+  "Yueming Shen",
+  "Surya Tokdar"
+ ],
+ "v1_date": "2025-04-18",
+ "latest_version": 3,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The posterior predictive $p$-value (ppp) is widely used in Bayesian model evaluation. However, due to double use of the data, the ppp may not be a valid $p$-value even in large samples: The asymptotic null distribution of the ppp can be non-uniform unless the underlying test statistic satisfies certain well-calibration conditions. Such conditions have been studied in the literature for asymptotically normal test statistics. We extend this line of work by establishing well-calibration conditions for test statistics that are not necessarily asymptotically normal. In particular, we show that Kolmogorov-Smirnov (KS)-type test statistics satisfy these conditions, such that their ppps are asymptotically well-calibrated Bayesian $p$-values. KS-type statistics are versatile, omnibus, and sensitive to model misspecifications. They apply to i.i.d. real-valued data, as well as non-identically distributed observations under regression models. Numerical experiments demonstrate that such $p$-values are well behaved in finite samples and can effectively detect a wide range of alternative models.",
+ "primary": "math.ST"
+}

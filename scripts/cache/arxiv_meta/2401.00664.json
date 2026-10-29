@@ -1,0 +1,16 @@
+{
+ "id": "2401.00664",
+ "title": "Metric Entropy-Free Sample Complexity Bounds for Sample Average Approximation in Convex Stochastic Programming",
+ "authors": [
+  "Hongcheng Liu",
+  "Jindong Tong"
+ ],
+ "v1_date": "2024-01-01",
+ "latest_version": 7,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies sample average approximation (SAA) in solving convex or strongly convex stochastic programming (SP) problems. In estimating SAA's sample efficiency, the state-of-the-art sample complexity bounds entail metric entropy terms (such as the logarithm of the feasible region's covering number), which often grow polynomially with problem dimensionality. While it has been shown that metric entropy-free complexity rates are attainable under a uniform Lipschitz condition, such an assumption can be overly critical for many important SP problem settings. In response, this paper presents metric entropy-free sample complexity bounds for the SAA under standard SP assumptions} -- in the absence of the uniform Lipschitz condition. For a $d$-dimensional problem, the new results often lead to an $O(d)$-improvement in the complexity rate compared with the state-of-the-art. From the newly established complexity bounds, an important revelation is that SAA and the canonical stochastic mirror descent (SMD) method, two mainstream solution approaches to SP, entail almost identical rates of sample efficiency, lifting a theoretical discrepancy of SAA from SMD also by a factor of $O(d)$. Furthermore, this paper explores non-Lipschitzian scenarios where SAA maintains provable efficacy but the corresponding results for SMD remain mostly unexplored, indicating the potential of SAA's better applicability in some irregular settings. The results of our numerical experiments align with our theoretical findings.",
+ "primary": "math.OC"
+}

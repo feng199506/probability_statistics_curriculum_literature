@@ -1,0 +1,16 @@
+{
+ "id": "2510.12183",
+ "title": "L2-relaxation for Economic Prediction",
+ "authors": [
+  "Zhentao Shi",
+  "Yishu Wang"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 1,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We leverage an ensemble of many regressors, the number of which can exceed the sample size, for economic prediction. An underlying latent factor structure implies a dense regression model with highly correlated covariates. We propose the L2-relaxation method for estimating the regression coefficients and extrapolating the out-of-sample (OOS) outcomes. This framework can be applied to policy evaluation using the panel data approach (PDA), where we further establish inference for the average treatment effect. In addition, we extend the traditional single unit setting in PDA to allow for many treated units with a short post-treatment period. Monte Carlo simulations demonstrate that our approach exhibits excellent finite sample performance for both OOS prediction and policy evaluation. We illustrate our method with two empirical examples: (i) predicting China's producer price index growth rate and evaluating the effect of real estate regulations, and (ii) estimating the impact of Brexit on the stock returns of British and European companies.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.26981",
+ "title": "Boosting multi-view association testing via devariation",
+ "authors": [
+  "Ruyi Pan",
+  "Yinqiu He",
+  "Jun Young Park"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding the interplay between high-dimensional data from different views is essential in biomedical research, particularly in fields such as genomics, neuroimaging and biobank-scale studies involving high-dimensional features. Existing statistical tests for the association between two random vectors often do not fully capture dependencies between views due to limitations in modeling within-view dependencies, particularly in high-dimensional data without clear dependency patterns, which can lead to a potential loss of statistical power. In this work, we propose a novel approach termed devariation which is considered a simple yet effective preprocessing method to address the limitations by adopting a penalized low-rank factor model to flexibly capture within-view dependencies. Theoretical analysis of asymptotic power shows that devariation increases statistical power, especially when within-view correlations impact signal-to-noise ratios, while maintaining robustness in scenarios without strong internal correlations. Simulation studies demonstrate devariation's superior performance over existing methods in various scenarios. We further validate devariation in multimodal neuroimaging data from the UK Biobank study, examining the associations between imaging-derived phenotypes (IDPs) from functional, structural, and diffusion magnetic resonance imaging (MRI).",
+ "primary": "stat.ME"
+}

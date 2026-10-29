@@ -1,0 +1,16 @@
+{
+ "id": "2409.14123",
+ "title": "Consistency for Large Neural Networks: Regression and Classification",
+ "authors": [
+  "Haoran Zhan",
+  "Yingcun Xia"
+ ],
+ "v1_date": "2024-09-21",
+ "latest_version": 3,
+ "latest_date": "2026-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although overparameterized models have achieved remarkable practical success, their theoretical properties, particularly their generalization behavior, remain incompletely understood. The well known double descents phenomenon suggests that the test error curve of neural networks decreases monotonically as model size grows and eventually converges to a non-zero constant. This work aims to explain the theoretical mechanism underlying this tail behavior and study the statistical consistency of deep overparameterized neural networks in many different learning tasks including regression and classification. Firstly, we prove that as the number of parameters increases, the approximation error decreases monotonically, while explicit or implicit regularization (e.g., weight decay) keeps the generalization error existing but bounded. Consequently, the overall error curve eventually converges to a constant determined by the bounded generalization error and the optimization error. Secondly, we prove that deep overparameterized neural networks are statistical consistency across multiple learning tasks if regularization technique is used. Our theoretical findings coincide with numerical experiments and provide a perspective for understanding the generalization behavior of overparameterized neural networks.",
+ "primary": "stat.ML"
+}

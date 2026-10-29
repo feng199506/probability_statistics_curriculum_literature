@@ -1,0 +1,18 @@
+{
+ "id": "2511.14535",
+ "title": "A Bayesian INLA-SPDE Approach to Spatio-Temporal Point-Grid Fusion with Change-of-Support and Misaligned Covariates",
+ "authors": [
+  "Weiyue Zheng",
+  "Andrew Elliott",
+  "Claire Miller",
+  "Marian Scott"
+ ],
+ "v1_date": "2025-11-18",
+ "latest_version": 1,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a spatio-temporal data-fusion framework for point data and gridded data with variables observed on different spatial supports. A latent Gaussian field with a Matérn-SPDE prior provides a continuous space representation, while source-specific observation operators map observations to both point measurements and gridded averages, addressing change-of-support and covariate misalignment. Additionally incorporating temporal dependence enables prediction at unknown locations and time points. Inference and prediction are performed using the Integrated Nested Laplace Approximation and the Stochastic Partial Differential Equations approach, which delivers fast computation with uncertainty quantification. Our contributions are: a hierarchical model that jointly fuses multiple data sources of the same variable under different spatial and temporal resolutions and measurement errors, and a practical implementation that incorporates misaligned covariates via the same data fusion framework allowing differing covariate supports. We demonstrate the utility of this framework via simulations calibrated to realistic sensor densities and spatial coverage. Using the simulation framework, we explore the stability and performance of the approach with respect to the number of time points and data/covariate availability, demonstrating gains over single-source models through point and gridded data fusion. We apply our framework to soil moisture mapping in the Elliot Water catchment (Angus, Scotland). We fuse in-situ sensor data with aligned and misaligned covariates, satellite data and elevation data to produce daily high resolution maps with uncertainty.",
+ "primary": "stat.ME"
+}

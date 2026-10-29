@@ -1,0 +1,19 @@
+{
+ "id": "2401.02939",
+ "title": "Penalized Distributed Lag Interaction Model: Air Pollution, Birth Weight and Neighborhood Vulnerability",
+ "authors": [
+  "Danielle Demateis",
+  "Kayleigh P. Keller",
+  "David Rojas-Rueda",
+  "Marianthi-Anna Kioumourtzoglou",
+  "Ander Wilson"
+ ],
+ "v1_date": "2024-01-05",
+ "latest_version": 2,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "10.1002/env.2843",
+ "comment": "41 pages, 4 figures, 2 tables",
+ "abstract": "Maternal exposure to air pollution during pregnancy has a substantial public health impact. Epidemiological evidence supports an association between maternal exposure to air pollution and low birth weight. A popular method to estimate this association while identifying windows of susceptibility is a distributed lag model (DLM), which regresses an outcome onto exposure history observed at multiple time points. However, the standard DLM framework does not allow for modification of the association between repeated measures of exposure and the outcome. We propose a distributed lag interaction model that allows modification of the exposure-time-response associations across individuals by including an interaction between a continuous modifying variable and the exposure history. Our model framework is an extension of a standard DLM that uses a cross-basis, or bi-dimensional function space, to simultaneously describe both the modification of the exposure-response relationship and the temporal structure of the exposure data. Through simulations, we showed that our model with penalization out-performs a standard DLM when the true exposure-time-response associations vary by a continuous variable. Using a Colorado, USA birth cohort, we estimated the association between birth weight and ambient fine particulate matter air pollution modified by an area-level metric of health and social adversities from Colorado EnviroScreen.",
+ "primary": "stat.ME"
+}

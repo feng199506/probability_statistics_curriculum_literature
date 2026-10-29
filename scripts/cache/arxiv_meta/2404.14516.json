@@ -1,0 +1,21 @@
+{
+ "id": "2404.14516",
+ "title": "Instrument Signature Removal and Calibration Products for the Rubin Legacy Survey of Space and Time",
+ "authors": [
+  "Andrés A. Plazas Malagón",
+  "Chris Waters",
+  "Alex Broughton",
+  "Eli Rykoff",
+  "Agnès Ferté",
+  "Merlin Fisher-Levine",
+  "Robert Lupton"
+ ],
+ "v1_date": "2024-04-22",
+ "latest_version": 2,
+ "latest_date": "2025-02-14",
+ "journal_ref": "Journal of Astronomical Telescopes, Instruments, and Systems 11(1), 011209 (14 February 2025)",
+ "doi": "10.1117/1.jatis.11.1.011209",
+ "comment": "Accepted for publication in the Journal of Astronomical Telescopes, Instruments, and Systems as part of the Special Section \"Image Sensors for Precision Astronomy\" (ISPA 2024 Conference at SLAC/KIPAC, March 12-14, 2024, https://www.bnl.gov/ispaworkshop/)",
+ "abstract": "The Vera C. Rubin Legacy Survey of Space and Time (LSST) will conduct an unprecedented optical survey of the southern sky, imaging the entire available sky every few nights for 10 years. To achieve its ambitious science goals of probing dark energy and dark matter, mapping the Milky Way, and exploring the transient optical sky, the systematic errors in the LSST data must be exquisitely controlled. Instrument signature removal (ISR) is a critical early step in LSST data processing to remove inherent camera effects from the raw images and produce accurate representations of the incoming light. This paper describes the current state of the ISR pipelines implemented in the LSST Science Pipelines software. The key steps in ISR are outlined, and the process of generating and verifying the necessary calibration products to carry out ISR is also discussed. Finally, an overview is given of how the Rubin data management system utilizes a data Butler and calibration collections to organize datasets and match images to appropriate calibrations during processing. Precise ISR will be essential to realize the potential of LSST to revolutionize astrophysics.",
+ "primary": "astro-ph.IM"
+}

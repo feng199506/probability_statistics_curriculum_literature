@@ -1,0 +1,23 @@
+{
+ "id": "2606.02130",
+ "title": "Methods for adjusting for covariate measurement error in flexible modelling of functional form: designing a blinded, controlled neutral comparison simulation study",
+ "authors": [
+  "Anne C M Thiébaut",
+  "Aris Perperouglou",
+  "Mohammed Sedki",
+  "Steve Ferreira Guerra",
+  "Paul Gustafson",
+  "Frank E Harrell",
+  "Willi Sauerbrei",
+  "Michal Abrahamowicz",
+  "Laurence S Freedman"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article describes the design of a neutral comparison study in the context of empirical studies where the interest is in learning the functional relationship between a continuous errorprone exposure variable and a binary outcome. The performance of combinations of measurement error correction methods and flexible regression modeling techniques was compared using a simulation study. The project involved four independent teams, one devoted to data generation and evaluation, the other three to specific methods of measurement error correction (Simulation-Extrapolation, Regression-Calibration and Multiple imputation, Bayesian method). The study was conducted in three successive stages. In Stage 1, the first team simulated five datasets differing only by the true exposure-outcome functional form and distribution of true exposure. Furthermore, the implementation of flexible modeling methods (B-splines, P-splines, and fractional polynomials) was standardized. The three methods teams, blinded to the underlying data generation process, created the codes to implement their methods, and provided their results to the first team who evaluated them. These codes were then used by this team in the next Stages of the project. In Stage 2, the team simulated 150 additional datasets where other design parameters varied while using the same five exposureoutcome functions. Stage 3 consisted of simulating independent replications of each of the 150 scenarios considered in Stage 2 to quantify the sampling variance of the estimates. This work emphasizes the relevance of neutral comparison studies to fairly evaluate statistical methods aimed at addressing a complex analytical challenge, and demonstrates their feasibility through a large collaborative project.",
+ "primary": "stat.ME"
+}

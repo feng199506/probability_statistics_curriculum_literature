@@ -1,0 +1,20 @@
+{
+ "id": "2510.07076",
+ "title": "Confidence Regions for Multiple Outcomes, Effect Modifiers, and Other Multiple Comparisons",
+ "authors": [
+  "Paul N Zivich",
+  "Stephen R Cole",
+  "Noah Greifer",
+  "Lina M Montoya",
+  "Michael R Kosorok",
+  "Jessie K Edwards"
+ ],
+ "v1_date": "2025-10-08",
+ "latest_version": 1,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In epidemiology, some have argued that multiple comparison corrections are not necessary as there is rarely interest in the universal null hypothesis. From a parameter estimation perspective, epidemiologists may still be interested in multiple parameters. In this context, standard confidence intervals are not guaranteed to provide simultaneous coverage of more than one parameter. In other words, use of confidence intervals in these cases will understate the uncertainty due to random error. To address this challenge, one can use confidence bands, an extension of confidence intervals to parameter vectors. We illustrate the use of confidence bands in three case studies: estimation of multiple causal effects, effect measure modification by a binary variable, and effect measure modification by a continuous variable. Each example uses publicly available data is accompanied by SAS, R, and Python code. The type of confidence region reported by epidemiologists should depend on whether scientific interest is in a single parameter or a set of parameters. For sets of parameters, like in cases where multiple actions or outcomes, effect measure modification, dose-response, or other functions are of interest, sup-t confidence bands are preferred due to their statistical properties, computational simplicity, and ease of presentation.",
+ "primary": "stat.ME"
+}

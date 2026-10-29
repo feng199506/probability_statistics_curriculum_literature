@@ -1,0 +1,19 @@
+{
+ "id": "2411.06913",
+ "title": "BudgetIV: Optimal Partial Identification of Causal Effects with Mostly Invalid Instruments",
+ "authors": [
+  "Jordan Penn",
+  "Lee M. Gunderson",
+  "Gecia Bravo-Hermsdorff",
+  "Ricardo Silva",
+  "David S. Watson"
+ ],
+ "v1_date": "2024-11-11",
+ "latest_version": 2,
+ "latest_date": "2025-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 4 figures. Substantial revision following acceptance to AISTATS 2025, including new experiments",
+ "abstract": "Instrumental variables (IVs) are widely used to estimate causal effects in the presence of unobserved confounding between exposure and outcome. An IV must affect the outcome exclusively through the exposure and be unconfounded with the outcome. We present a framework for relaxing either or both of these strong assumptions with tuneable and interpretable budget constraints. Our algorithm returns a feasible set of causal effects that can be identified exactly given relevant covariance parameters. The feasible set may be disconnected but is a finite union of convex subsets. We discuss conditions under which this set is sharp, i.e., contains all and only effects consistent with the background assumptions and the joint distribution of observable variables. Our method applies to a wide class of semiparametric models, and we demonstrate how its ability to select specific subsets of instruments confers an advantage over convex relaxations in both linear and nonlinear settings. We also adapt our algorithm to form confidence sets that are asymptotically valid under a common statistical assumption from the Mendelian randomization literature.",
+ "primary": "stat.ME"
+}

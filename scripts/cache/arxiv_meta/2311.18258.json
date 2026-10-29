@@ -1,0 +1,17 @@
+{
+ "id": "2311.18258",
+ "title": "A User-Focused Approach to Evaluating Probabilistic and Categorical Forecasts",
+ "authors": [
+  "Nicholas Loveday",
+  "Robert Taggart",
+  "Mohammadreza Khanarmuei"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 2,
+ "latest_date": "2024-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 12 figures",
+ "abstract": "A user-focused verification approach for evaluating probability forecasts of binary outcomes (also known as probabilistic classifiers) is demonstrated that is (i) based on proper scoring rules, (ii) focuses on user decision thresholds, and (iii) provides actionable insights. It is argued that when categorical performance diagrams and the critical success index are used to evaluate overall predictive performance, rather than the discrimination ability of probabilistic forecasts, they may produce misleading results. Instead, Murphy diagrams are shown to provide better understanding of overall predictive performance as a function of user probabilistic decision threshold. It is illustrated how to select a proper scoring rule, based on the relative importance of different user decision thresholds, and how this choice impacts scores of overall predictive performance and supporting measures of discrimination and calibration. These approaches and ideas are demonstrated using several probabilistic thunderstorm forecast systems as well as synthetic forecast data. Furthermore, a fair method for comparing the performance of probabilistic and categorical forecasts is illustrated using the FIxed Risk Multicategorical (FIRM) score, which is a proper scoring rule directly connected to values on the Murphy diagram. While the methods are illustrated using thunderstorm forecasts, they are applicable for evaluating probabilistic forecasts for any situation with binary outcomes.",
+ "primary": "stat.AP"
+}

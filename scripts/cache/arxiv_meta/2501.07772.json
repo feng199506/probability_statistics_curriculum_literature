@@ -1,0 +1,16 @@
+{
+ "id": "2501.07772",
+ "title": "Honest Inference for Stochastic Optimization",
+ "authors": [
+  "Kenta Takatsu",
+  "Arun Kumar Kuchibhotla"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 4,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This manuscript studies a general approach to construct confidence sets for the solution of stochastic optimization, rendering empirical risk minimization as special cases. Statistical inference for stochastic optimization poses significant challenges due to the non-standard limiting behaviors of the corresponding estimator, which arise in settings with increasing dimension of parameters, non-smooth objectives, or constraints. We propose a simple and unified method that guarantees validity in both regular and irregular cases. We provide a unified treatment of validity, conservativeness, and the size of the resulting confidence sets. In particular, the presented width analysis demonstrates the adaptive behavior of the confidence set to the unknown degree of instance-specific regularity. We apply the proposed method to several high-dimensional and irregular statistical problems. Numerical results for all statistical applications are provided.",
+ "primary": "math.ST"
+}

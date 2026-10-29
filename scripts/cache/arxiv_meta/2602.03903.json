@@ -1,0 +1,15 @@
+{
+ "id": "2602.03903",
+ "title": "Taming Tail Risk in Financial Markets: Conformal Calibration for Nonstationary Portfolio VaR",
+ "authors": [
+  "Marc Schmitt"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 3,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Value-at-risk (VaR) forecasts drive trading constraints and capital allocation, yet realized exceedance rates concentrate in stress periods, when losses are largest. This paper studies sequential one-sided VaR calibration via conformal prediction. It proposes regime-weighted conformal calibration (RWC), which builds a safety buffer from past forecast errors using exponential time decay and regime-similarity weights. RWC is model-agnostic and wraps any conditional quantile forecaster to target a desired exceedance rate, with time-weighted calibration (TWC) as a special case. Coverage bounds are derived for arbitrary data-driven weights under smooth regime drift, without assuming weighted exchangeability. On the CRSP index and sixteen U.S. equity portfolios, RWC and TWC are benchmarked against modern online conformal methods at the Basel-relevant 99% and 97.5% levels. TWC is a strong default under drift, while regime weighting improves stress-period calibration for slowly adapting forecasters, and diagnostics indicate when localization is reliable.",
+ "primary": "q-fin.RM"
+}

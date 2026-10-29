@@ -1,0 +1,16 @@
+{
+ "id": "2303.12213",
+ "title": "Alpha shapes in kernel density estimation",
+ "authors": [
+  "Erik Carlsson",
+  "John Carlsson"
+ ],
+ "v1_date": "2023-03-21",
+ "latest_version": 3,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages",
+ "abstract": "For every Gaussian kernel density estimator $f(x)=\\sum_i a_i \\exp(-\\lVert x-x_i\\rVert^2/2h^2)$ associated to a point cloud $\\mathcal{D}=\\{x_1,...,x_N\\}\\subset \\mathbb{R}^d$, we define a nested family of closed subspaces $\\mathcal{S}(a)\\subset\\mathbb{R}^d$, which we interpret as a continuous version of an alpha shape. Using arguments based on Fenchel duality, we prove that $\\mathcal{S}(a)$ is homotopy equivalent to the superlevel set $\\mathcal{L}(a)=f^{-1}[e^{-a},\\infty)$, and that $\\mathcal{L}(a)$ can be realized as the union of a certain power-shifted covering by balls with centers in $\\mathcal{S}(a)$. By extracting finite alpha complexes with vertices in $\\mathcal{S}(a)$, we obtain refined geometric models of noisy point clouds, as well as density-filtered persistent homology calculations. In order to compute alpha complexes in higher dimension, we used a recent algorithm due to the present authors based on the duality principle.",
+ "primary": "math.AT"
+}

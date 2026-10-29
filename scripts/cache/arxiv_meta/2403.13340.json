@@ -1,0 +1,17 @@
+{
+ "id": "2403.13340",
+ "title": "Forecasting density-valued functional panel data",
+ "authors": [
+  "Cristian F. Jiménez-Varón",
+  "Ying Sun",
+  "Han Lin Shang"
+ ],
+ "v1_date": "2024-03-20",
+ "latest_version": 2,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a statistical method for modeling and forecasting functional panel data represented by multiple densities. Density functions are nonnegative and have a constrained integral and thus do not constitute a linear vector space. We implement a center log-ratio transformation to transform densities into unconstrained functions. These functions exhibit cross-sectional correlation and temporal dependence. Via a functional analysis of variance decomposition, we decompose the unconstrained functional panel data into a deterministic trend component and a time-varying residual component. To produce forecasts for the time-varying component, a functional time series forecasting method, based on the estimation of the long-run covariance, is implemented. By combining the forecasts of the time-varying residual component with the deterministic trend component, we obtain $h$-step-ahead forecast curves for multiple populations. Illustrated by age- and sex-specific life-table death counts in the United States, we apply our proposed method to generate forecasts of the life-table death counts for 51 states.",
+ "primary": "stat.ME"
+}

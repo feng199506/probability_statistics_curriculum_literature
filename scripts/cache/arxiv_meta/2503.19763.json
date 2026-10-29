@@ -1,0 +1,19 @@
+{
+ "id": "2503.19763",
+ "title": "Interpretable Deep Regression Models with Interval-Censored Failure Time Data",
+ "authors": [
+  "Changhui Yuan",
+  "Shishun Zhao",
+  "Shuwei Li",
+  "Xinyuan Song",
+  "Zhao Chen"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 1,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks (DNNs) have become powerful tools for modeling complex data structures through sequentially integrating simple functions in each hidden layer. In survival analysis, recent advances of DNNs primarily focus on enhancing model capabilities, especially in exploring nonlinear covariate effects under right censoring. However, deep learning methods for interval-censored data, where the unobservable failure time is only known to lie in an interval, remain underexplored and limited to specific data type or model. This work proposes a general regression framework for interval-censored data with a broad class of partially linear transformation models, where key covariate effects are modeled parametrically while nonlinear effects of nuisance multi-modal covariates are approximated via DNNs, balancing interpretability and flexibility. We employ sieve maximum likelihood estimation by leveraging monotone splines to approximate the cumulative baseline hazard function. To ensure reliable and tractable estimation, we develop an EM algorithm incorporating stochastic gradient descent. We establish the asymptotic properties of parameter estimators and show that the DNN estimator achieves minimax-optimal convergence. Extensive simulations demonstrate superior estimation and prediction accuracy over state-of-the-art methods. Applying our method to the Alzheimer's Disease Neuroimaging Initiative dataset yields novel insights and improved predictive performance compared to traditional approaches.",
+ "primary": "stat.ML"
+}

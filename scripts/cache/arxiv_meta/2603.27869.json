@@ -1,0 +1,19 @@
+{
+ "id": "2603.27869",
+ "title": "Dependable Exploitation of High-Dimensional Unlabeled Data in an Assumption-Lean Framework",
+ "authors": [
+  "Chao Ying",
+  "Siyi Deng",
+  "Yang Ning",
+  "Jiwei Zhao",
+  "Heping Zhang"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 1,
+ "latest_date": "2026-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semi-supervised learning has attracted significant attention due to the proliferation of applications featuring limited labeled data but abundant unlabeled data. In this paper, we examine the statistical inference problem in an assumption-lean framework which involves a high-dimensional regression parameter, defined by minimizing the least squares, within the context of semi-supervised learning. We investigate when and how unlabeled data can enhance the estimation efficiency of a regression parameter functional. First, we demonstrate that a straightforward debiased estimator can only be more efficient than its supervised counterpart if the unknown conditional mean function can be consistently estimated at an appropriate rate. Otherwise, incorporating unlabeled data can actually be counterproductive. To address this vulnerability, we propose a novel estimator guaranteed to be at least as efficient as the supervised baseline, even when the conditional mean function is misspecified. This ensures the dependable use of unlabeled data for statistical inference. Finally, we extend our approach to the general M-estimation framework, and demonstrate the effectiveness of our methodology through comprehensive simulation studies and a real data application.",
+ "primary": "stat.ME"
+}

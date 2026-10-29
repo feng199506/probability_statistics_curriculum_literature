@@ -1,0 +1,16 @@
+{
+ "id": "2311.18699",
+ "title": "Correlated Bayesian Additive Regression Trees with Gaussian Process for Regression Analysis of Dependent Data",
+ "authors": [
+  "Xuetao Lu a",
+  "Robert E. McCulloch"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 3,
+ "latest_date": "2025-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian Additive Regression Trees (BART) has gained widespread popularity, inspiring numerous extensions across diverse applications. However, relatively little attention has been given to modeling dependent data. To fill this gap, we introduce Correlated BART (CBART), which extends BART to account for correlated errors. With a dummy representation, efficient matrix computation was developed for the estimation of CBART. Building on CBART, we propose CBART$\\unicode{0x2010}$GP, a nonparametric regression model that integrates CBART with a Gaussian process (GP) in an additive framework. In CBART$\\unicode{0x2010}$GP, CBART retrieves the true signal of covariates$\\unicode{0x2010}$response relationship, while the GP extracts the dependency structure of residuals. To enable scalable inference of CBART$\\unicode{0x2010}$GP, we develop a two$\\unicode{0x2010}$stage analysis of variance with weighted residuals approach to substantially reduce the computational complexity. Simulation studies demonstrate that CBART-GP not only accurately recovers the true covariate$\\unicode{0x2010}$response relationship but also achieves strong predictive performance. A real world application further illustrates its practical utility.",
+ "primary": "stat.ME"
+}

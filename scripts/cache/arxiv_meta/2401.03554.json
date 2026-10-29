@@ -1,0 +1,18 @@
+{
+ "id": "2401.03554",
+ "title": "False Discovery Rate and Localizing Power",
+ "authors": [
+  "Anderson M. Winkler",
+  "Paul A. Taylor",
+  "Thomas E. Nichols",
+  "Chris Rorden"
+ ],
+ "v1_date": "2024-01-07",
+ "latest_version": 3,
+ "latest_date": "2025-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 3 figures, 5 tables, 53 references",
+ "abstract": "False discovery rate (FDR) is commonly used for correction for multiple testing in neuroimaging studies. However, when using two-tailed tests, making directional inferences about the results can lead to a vastly inflated error rate, even approaching 100% in some cases. This happens because FDR controls the error rate only globally, over all tests, not within subsets, such as among those in only one or another direction. Here we consider and evaluate different strategies for FDR control in such cases, using both synthetic and real imaging data. Approaches that separate the tests by direction of the hypothesis test, or by the direction of the resulting test statistic, more properly control the directional error rate and preserve FDR benefits, albeit with a doubled risk of errors under complete absence of signal. Strategies that combine tests in both directions, or that use simple two-tailed p-values, can lead to invalid directional conclusions, even if these tests remain globally valid. A solution to this problem is through the use of selective inference, whereby positive and negative tails are treated as sets (families), which are screened locally, then subjected to FDR at a modified level that controls average FDR over those that survive the initial screening. Moreover, the BKY procedure can be used in place of the well-known Benjamini-Hochberg, yielding additional power. These methods are easy to implement. Finally, to enable valid thresholding for directional inference, we suggest that imaging software should allow the user to set asymmetrical thresholds for the two sides of the statistical map. While FDR continues to be a valid, powerful procedure for multiple testing correction, care is needed when making directional inferences for two-tailed tests, or more broadly, when making any localized inference.",
+ "primary": "stat.ME"
+}

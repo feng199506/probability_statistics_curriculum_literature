@@ -1,0 +1,16 @@
+{
+ "id": "2601.06671",
+ "title": "Censored Graphical Horseshoe: Bayesian sparse precision matrix estimation with censored and missing data",
+ "authors": [
+  "The Tien Mai",
+  "Sayantan Banerjee"
+ ],
+ "v1_date": "2026-01-10",
+ "latest_version": 1,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian graphical models provide a powerful framework for studying conditional dependencies in multivariate data, with widespread applications spanning biomedical, environmental sciences, and other data-rich scientific domains. While the Graphical Horseshoe (GHS) method has emerged as a state-of-the-art Bayesian method for sparse precision matrix estimation, existing approaches assume fully observed data and thus fail in the presence of censoring or missingness, which are pervasive in real-world studies. In this paper, we develop the Censored Graphical Horseshoe (CGHS), a novel Bayesian framework that extends the GHS to censored and arbitrarily missing Gaussian data. By introducing a latent-variable representation, CGHS accommodates incomplete observations while retaining the adaptive global-local shrinkage properties of the Horseshoe prior. We derive efficient Gibbs samplers for posterior computation and establish new theoretical results on posterior behavior under censoring and missingness, filling a gap not addressed by frequentist Lasso-based methods. Through extensive simulations, we demonstrate that CGHS consistently improves estimation accuracy compared to penalized likelihood approaches. Our methods are implemented in the package GHScenmis available on Github: https://github.com/tienmt/ghscenmis .",
+ "primary": "stat.ME"
+}

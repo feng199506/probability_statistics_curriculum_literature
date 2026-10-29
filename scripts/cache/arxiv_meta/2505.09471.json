@@ -1,0 +1,18 @@
+{
+ "id": "2505.09471",
+ "title": "Fairness-aware Bayes optimal functional classification",
+ "authors": [
+  "Xiaoyu Hu",
+  "Gengyu Xue",
+  "Zhenhua Lin",
+  "Yi Yu"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 1,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Algorithmic fairness has become a central topic in machine learning, and mitigating disparities across different subpopulations has emerged as a rapidly growing research area. In this paper, we systematically study the classification of functional data under fairness constraints, ensuring the disparity level of the classifier is controlled below a pre-specified threshold. We propose a unified framework for fairness-aware functional classification, tackling an infinite-dimensional functional space, addressing key challenges from the absence of density ratios and intractability of posterior probabilities, and discussing unique phenomena in functional classification. We further design a post-processing algorithm, Fair Functional Linear Discriminant Analysis classifier (Fair-FLDA), which targets at homoscedastic Gaussian processes and achieves fairness via group-wise thresholding. Under weak structural assumptions on eigenspace, theoretical guarantees on fairness and excess risk controls are established. As a byproduct, our results cover the excess risk control of the standard FLDA as a special case, which, to the best of our knowledge, is first time seen. Our theoretical findings are complemented by extensive numerical experiments on synthetic and real datasets, highlighting the practicality of our designed algorithm.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.14513",
+ "title": "GARCH option valuation with long-run and short-run volatility components: A novel framework ensuring positive variance",
+ "authors": [
+  "Luca Vincenzo Ballestra",
+  "Enzo D'Innocenzo",
+  "Christian Tezza"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 1,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Christoffersen, Jacobs, Ornthanalai, and Wang (2008) (CJOW) proposed an improved Generalized Autoregressive Conditional Heteroskedasticity (GARCH) model for valuing European options, where the return volatility is comprised of two distinct components. Empirical studies indicate that the model developed by CJOW outperforms widely-used single-component GARCH models and provides a superior fit to options data than models that combine conditional heteroskedasticity with Poisson-normal jumps. However, a significant limitation of this model is that it allows the variance process to become negative. Oh and Park [2023] partially addressed this issue by developing a related model, yet the positivity of the volatility components is not guaranteed, both theoretically and empirically. In this paper we introduce a new GARCH model that improves upon the models by CJOW and Oh and Park [2023], ensuring the positivity of the return volatility. In comparison to the two earlier GARCH approaches, our novel methodology shows comparable in-sample performance on returns data and superior performance on S&P500 options data.",
+ "primary": "econ.EM"
+}

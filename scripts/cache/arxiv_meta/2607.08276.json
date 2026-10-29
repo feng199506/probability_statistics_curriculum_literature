@@ -1,0 +1,17 @@
+{
+ "id": "2607.08276",
+ "title": "glmSTARMA -- An R-Package for fitting autoregressive spatio-temporal models following generalized linear models",
+ "authors": [
+  "Steffen Maletz",
+  "Konstantinos Fokianos",
+  "Roland Fried"
+ ],
+ "v1_date": "2026-07-09",
+ "latest_version": 3,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages, 20 figures",
+ "abstract": "The R package glmSTARMA implements autoregressive models for spatio-temporal data at fixed locations, with time-invariant spatial dependency structure. We rely on generalized linear models methodology and unify several approaches for the analysis of spatial count time series. Such models allow the (conditional) mean of the response to depend on past observations, lagged (conditional) expectations, and covariates. The response can be a continuous or a discrete random variable. Additionally, the package develops inference for double generalized linear models, allowing the dispersion parameter(s) of the marginal distributions to be modeled similarly to the mean process. This is a new capability which introduces, for example, spatio-temporal volatility models, such as space-time GARCH processes, and count time series models with spatio-temporal overdispersion and underdispersion. We provide functions for model estimation, simulation, inference, and prediction. Its use is illustrated by data examples.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2411.10858",
+ "title": "Scalable Gaussian Process Regression Via Median Posterior Inference for Estimating Multi-Pollutant Mixture Health Effects",
+ "authors": [
+  "Aaron Sonabend",
+  "Jiangshan Zhang",
+  "Edgar Castro",
+  "Joel Schwartz",
+  "Brent A. Coull",
+  "Junwei Lu"
+ ],
+ "v1_date": "2024-11-16",
+ "latest_version": 2,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "10.1093/biomtc/ujag071",
+ "comment": "",
+ "abstract": "Humans are exposed to complex mixtures of environmental pollutants rather than single chemicals, necessitating methods to quantify the health effects of such mixtures. Research on environmental mixtures provides insights into realistic exposure scenarios, informing regulatory policies that better protect public health. However, statistical challenges, including complex correlations among pollutants and nonlinear multivariate exposure-response relationships, complicate such analyses. A popular Bayesian semi-parametric Gaussian process regression framework (Coull et al., 2015) addresses these challenges by modeling exposure-response functions with Gaussian processes and performing feature selection to manage high-dimensional exposures while accounting for confounders. Originally designed for small to moderate-sized cohort studies, this framework does not scale well to massive datasets. To address this, we propose a divide-and-conquer strategy, partitioning data, computing posterior distributions in parallel, and combining results using the generalized median. While we focus on Gaussian process models for environmental mixtures, the proposed distributed computing strategy is broadly applicable to other Bayesian models with computationally prohibitive full-sample Markov Chain Monte Carlo fitting. We provide theoretical guarantees for the convergence of the proposed posterior distributions to those derived from the full sample. We apply this method to estimate associations between a mixture of ambient air pollutants and ~650,000 birthweights recorded in Massachusetts during 2001-2012. Our results reveal negative associations between birthweight and traffic pollution markers, including elemental and organic carbon and PM2.5, and positive associations with ozone and vegetation greenness.",
+ "primary": "stat.ME"
+}

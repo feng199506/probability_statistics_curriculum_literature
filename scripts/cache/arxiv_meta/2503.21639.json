@@ -1,0 +1,16 @@
+{
+ "id": "2503.21639",
+ "title": "Locally minimax optimal confidence sets for the best model",
+ "authors": [
+  "Ilmun Kim",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 4,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper tackles a fundamental inference problem: given $n$ observations from a distribution $P$ over $\\mathbb{R}^d$ with unknown mean $\\boldsymbolμ$, we must form a confidence set for the index (or indices) corresponding to the smallest component of $\\boldsymbolμ$. By duality, we reduce this to testing, for each $r$ in $1,\\ldots,d$, whether $μ_r$ is the smallest. Based on the sample splitting and self-normalization approach of Kim and Ramdas (2024), we propose \"dimension-agnostic\" tests that maintain validity regardless of how $d$ scales with $n$, and regardless of arbitrary ties in $\\boldsymbolμ$. Notably, our validity holds under mild moment conditions, requiring little more than finiteness of a second moment, and permitting possibly strong dependence between coordinates. In addition, we establish the \\emph{local} minimax separation rate for this problem, which adapts to the cardinality of a confusion set, and show that the proposed tests attain this rate. Furthermore, we develop robust variants that continue to achieve the same minimax rate under heavy-tailed distributions with only finite second moments. While these results highlight the theoretical strength of our method, a practical concern is that sample splitting can reduce finite-sample power. We show that this drawback can be substantially alleviated by the multi-split aggregation method of Guo and Shah (2025). Finally, empirical results on simulated and real data illustrate the strong performance of our approach in terms of type I error control and power compared to existing methods.",
+ "primary": "math.ST"
+}

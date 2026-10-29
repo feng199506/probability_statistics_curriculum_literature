@@ -1,0 +1,15 @@
+{
+ "id": "2603.02455",
+ "title": "The Gibbs Posterior and Parametric Portfolio Choice",
+ "authors": [
+  "Christopher G. Lamoureux"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 2,
+ "latest_date": "2026-03-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Parametric portfolio policies may experience estimation risk. I develop a generalized Bayesian framework that updates priors, delivering a posterior distribution over characteristic tilts and out-of-sample returns that is the unique belief-updating rule consistent with the investor's utility function, requiring no model for the return generating process. The Gibbs posterior is the closest distribution to the prior in Kullback-Leibler divergence subject to utility maximization. The posterior's scaling parameter $λ$ controls the weight placed on data relative to the prior. I develop a KNEEDLE algorithm to select optimal $λ^*$ in-sample by trading off posterior precision against numerical fragility, eliminating the need for out-of-sample validation. I apply this to U.S. equities (1955-2024), and confirm characteristic-based gains concentrate pre-2000. I find that $λ^*$ varies meaningfully with risk aversion and depends on higher-order moments.",
+ "primary": "q-fin.PM"
+}

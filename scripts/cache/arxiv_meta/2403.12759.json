@@ -1,0 +1,16 @@
+{
+ "id": "2403.12759",
+ "title": "Robust Numerical Methods for Nonlinear Regression",
+ "authors": [
+  "Peng Liu",
+  "William Q. Meeker"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 1,
+ "latest_date": "2024-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many scientific and engineering applications require fitting regression models that are nonlinear in the parameters. Advances in computer hardware and software in recent decades have made it easier to fit such models. Relative to fitting regression models that are linear in the parameters, however, fitting nonlinear regression models is more complicated. In particular, software like the $\\texttt{nls}$ R function requires care in how the model is parameterized and how initial values are chosen for the maximum likelihood iterations. Often special diagnostics are needed to detect and suggest approaches for dealing with identifiability problems that can arise with such model fitting. When using Bayesian inference, there is the added complication of having to specify (often noninformative or weakly informative) prior distributions. Generally, the details for these tasks must be determined for each new nonlinear regression model. This paper provides a step-by-step procedure for specifying these details for any appropriate nonlinear regression model. Following the procedure will result in a numerically robust algorithm for fitting the nonlinear regression model. We illustrate the methods with three different nonlinear models that are used in the analysis of experimental fatigue data and we include two detailed numerical examples.",
+ "primary": "stat.ME"
+}

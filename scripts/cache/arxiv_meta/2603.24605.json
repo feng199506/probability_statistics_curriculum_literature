@@ -1,0 +1,18 @@
+{
+ "id": "2603.24605",
+ "title": "Bid--Ask Martingale Optimal Transport",
+ "authors": [
+  "Bryan Liang",
+  "Marcel Nutz",
+  "Shunan Sheng",
+  "Valentin Tissot-Daguette"
+ ],
+ "v1_date": "2026-03-14",
+ "latest_version": 2,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages",
+ "abstract": "Martingale Optimal Transport (MOT) provides a framework for robust pricing and hedging of illiquid derivatives. Classical MOT enforces exact calibration of model marginals to the mid-prices of vanilla options. Motivated by the industry practice of fitting bid and ask marginals to vanilla prices, we introduce a relaxation of MOT in which model-implied volatilities are only required to lie within observed bid--ask spreads; equivalently, model marginals lie between the bid and ask marginals in convex order. The resulting Bid--Ask MOT (BAMOT) yields realistic price bounds for illiquid derivatives and, via strong duality, can be interpreted as the superhedging price when short and long positions in vanilla options are priced at the bid and ask, respectively. We further establish convergence of BAMOT to classical MOT as bid--ask spreads vanish, and quantify the convergence rate using a novel distance intrinsically linked to bid--ask spreads. Finally, we support our findings with several synthetic and real-data examples.",
+ "primary": "q-fin.MF"
+}

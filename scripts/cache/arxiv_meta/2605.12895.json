@@ -1,0 +1,19 @@
+{
+ "id": "2605.12895",
+ "title": "RISED: A Pre-Deployment Evaluation Framework for High-Stakes AI Decision-Support Systems, with Application to Healthcare",
+ "authors": [
+  "Rohith Reddy Bellibatlu",
+  "Manpreet Singh",
+  "Yash Jajoo",
+  "Shyamal Lakhanpal",
+  "Abhishek Israni"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 2,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 7 figures, 15 tables. Code at https://github.com/rohithreddybc/rised-healthcare-eval and dataset at https://doi.org/10.57967/hf/8734 (Hugging Face). To be submitted to Expert Systems with Applications (Elsevier)",
+ "abstract": "Clinical decision-support systems are expert systems whose recommendations clinicians act on directly, yet they are usually cleared on one aggregate accuracy number from a held-out test set. That number says nothing about input reliability under encoding shifts, subgroup gaps, threshold sensitivity, or operational feasibility. We present RISED, a pre-deployment evaluation framework operationalising five dimensions (Reliability, Inclusivity, Sensitivity, Equity, Deployability) through BCa bootstrap 95% confidence intervals, literature-grounded thresholds, and Holm-Bonferroni-corrected PASS / FAIL / INCONCLUSIVE verdicts; Equity is a proxy-dependence diagnostic rather than a gating test. Applied to seven cohorts spanning 35 years (n from 303 to 99,492), RISED surfaces failures invisible to AUROC: on Diabetes 130, Reliability passes by three orders of magnitude (PSS = 0.0004) while Inclusivity (AUC parity gap = 0.262) and Sensitivity (max threshold-flip rate 49.1%) fail decisively; both NHIS cohorts reproduce this. NHANES 2021-2023, with a complete feature profile, achieves INCONCLUSIVE verdicts; BRFSS 2024 produces the suite's most severe Sensitivity failure (max threshold-flip rate 64.2%) after instrument rotation removed hypertension and cholesterol. The pattern recurs on credit- and income-prediction cohorts, confirming domain-agnosticity; a multi-model check shows the failures are data-driven, not model-specific. RISED ships as an open-source Python package complementing TRIPOD+AI, FUTURE-AI, and Fairlearn with the structured numerical evidence those standards require but do not prescribe.",
+ "primary": "cs.LG"
+}

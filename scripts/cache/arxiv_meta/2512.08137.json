@@ -1,0 +1,18 @@
+{
+ "id": "2512.08137",
+ "title": "deepspat: An R package for modeling nonstationary spatial and spatio-temporal Gaussian and extremes data through deep deformations",
+ "authors": [
+  "Quan Vu",
+  "Xuanjie Shao",
+  "Raphaël Huser",
+  "Andrew Zammit-Mangion"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nonstationarity in spatial and spatio-temporal processes is ubiquitous in environmental datasets, but is not often addressed in practice, due to a scarcity of statistical software packages that implement nonstationary models. In this article, we introduce the R software package deepspat, which allows for modeling, fitting and prediction with nonstationary spatial and spatio-temporal models applied to Gaussian and extremes data. The nonstationary models in our package are constructed using a deep multi-layered deformation of the original spatial or spatio-temporal domain, and are straightforward to implement. Model parameters are estimated using gradient-based optimization of customized loss functions with tensorflow, which implements automatic differentiation. The functionalities of the package are illustrated through simulation studies and an application to Nepal temperature data.",
+ "primary": "stat.CO"
+}

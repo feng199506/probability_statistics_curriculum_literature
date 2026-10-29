@@ -1,0 +1,16 @@
+{
+ "id": "2312.01411",
+ "title": "Bayesian inference on Cox regression models using catalytic prior distributions",
+ "authors": [
+  "Weihao Li",
+  "Dongming Huang"
+ ],
+ "v1_date": "2023-12-03",
+ "latest_version": 2,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Cox proportional hazards model (Cox model) is a popular model for survival data analysis. When the sample size is small relative to the dimension of the model, the standard maximum partial likelihood inference is often problematic. In this work, we propose the Cox catalytic prior distributions for Bayesian inference on Cox models, which is an extension of a general class of prior distributions originally designed for stabilizing complex parametric models. The Cox catalytic prior is formulated as a weighted likelihood of the regression coefficients based on synthetic data and a surrogate baseline hazard constant. This surrogate hazard can be either provided by the user or estimated from the data, and the synthetic data are generated from the predictive distribution of a fitted simpler model. For point estimation, we derive an approximation of the marginal posterior mode, which can be computed conveniently as a regularized log partial likelihood estimator. We prove that our prior distribution is proper and the resulting estimator is consistent under mild conditions. In simulation studies, our proposed method outperforms standard maximum partial likelihood inference and is on par with existing shrinkage methods. We further illustrate the application of our method to a real dataset.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.11404",
+ "title": "Statistical few-shot learning for large-scale classification via parameter pooling",
+ "authors": [
+  "Andrew Simpson",
+  "Semhar Michael"
+ ],
+ "v1_date": "2025-04-15",
+ "latest_version": 1,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In large-scale few-shot learning for classification problems, often there are a large number of classes and few high-dimensional observations per class. Previous model-based methods, such as Fisher's linear discriminant analysis (LDA), require the strong assumptions of a shared covariance matrix between all classes. Quadratic discriminant analysis will often lead to singular or unstable covariance matrix estimates. Both of these methods can lead to lower-than-desired classification performance. We introduce a novel, model-based clustering method that can relax the shared covariance assumptions of LDA by clustering sample covariance matrices, either singular or non-singular. In addition, we study the statistical properties of parameter estimates. This will lead to covariance matrix estimates which are pooled within each cluster of classes. We show, using simulated and real data, that our classification method tends to yield better discrimination compared to other methods.",
+ "primary": "stat.ME"
+}

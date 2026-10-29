@@ -1,0 +1,16 @@
+{
+ "id": "2606.02592",
+ "title": "Tracking Urban Atmospheric Pollutants using Sentinel-5P Satellite Data",
+ "authors": [
+  "Alice Gomez-Cantos",
+  "Henry O. Velesaca"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Urban nitrogen dioxide ($NO_2$) is a key indicator of combustion-related air pollution and exhibits strong spatial and temporal variability in cities. This study presents a satellite-based framework for tracking urban $NO_2$ pollution using tropospheric column observations from Sentinel-5P/TROPOMI over Guayas Province, Ecuador. Rather than estimating surface concentrations, the methodology emphasizes robust distributional metrics, including the median and upper-tail percentiles ($P_{90}$, $P_{95}$, and $P_{99}$), to characterize background conditions and localized pollution extremes at the canton scale. Multi-year satellite observations are aggregated annually and analyzed using unsupervised K-means clustering to identify characteristic pollution regimes without predefined thresholds. Results show that highly urbanized cantons consistently exhibit elevated extreme $NO_2$ values and greater variability, while less urbanized areas display lower and more homogeneous patterns. The proposed approach provides an interpretable and scalable tool for urban air-quality assessment in data-scarce regions using satellite observations alone. The implementation is publicly available on GitHub https://hvelesaca.github.io/sentinel-5P-clustering/.",
+ "primary": "stat.AP"
+}

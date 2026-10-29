@@ -1,0 +1,19 @@
+{
+ "id": "2409.08396",
+ "title": "Federated One-Shot Ensemble Clustering",
+ "authors": [
+  "Rui Duan",
+  "Xin Xiong",
+  "Jueyi Liu",
+  "Katherine P. Liao",
+  "Tianxi Cai"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 1,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cluster analysis across multiple institutions poses significant challenges due to data-sharing restrictions. To overcome these limitations, we introduce the Federated One-shot Ensemble Clustering (FONT) algorithm, a novel solution tailored for multi-site analyses under such constraints. FONT requires only a single round of communication between sites and ensures privacy by exchanging only fitted model parameters and class labels. The algorithm combines locally fitted clustering models into a data-adaptive ensemble, making it broadly applicable to various clustering techniques and robust to differences in cluster proportions across sites. Our theoretical analysis validates the effectiveness of the data-adaptive weights learned by FONT, and simulation studies demonstrate its superior performance compared to existing benchmark methods. We applied FONT to identify subgroups of patients with rheumatoid arthritis across two health systems, revealing improved consistency of patient clusters across sites, while locally fitted clusters proved less transferable. FONT is particularly well-suited for real-world applications with stringent communication and privacy constraints, offering a scalable and practical solution for multi-site clustering.",
+ "primary": "stat.ML"
+}

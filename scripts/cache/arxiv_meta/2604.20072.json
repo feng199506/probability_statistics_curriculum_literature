@@ -1,0 +1,22 @@
+{
+ "id": "2604.20072",
+ "title": "Vertex misalignment and changepoint localization in network time series",
+ "authors": [
+  "Tianyi Chen",
+  "Mohammad Sharifi Kiasari",
+  "Avanti Athreya",
+  "Sijing Yu",
+  "Youngser Park",
+  "Carey E Priebe",
+  "Vince Lyzinski",
+  "Zachary Lubberts"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 2,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages, 10 figures",
+ "abstract": "Inference for time series of networks often relies on accurate vertex correspondence between network realizations at different times. In practice, such vertex alignments can be misspecified or unknown. We study the impact of errorful vertex alignment on changepoint localization for dynamic networks through two illustrative models, with the key distinction being whether changepoint information is contained in marginal or joint distributions of the time-varying latent positions. We compare localization techniques ranging from the simple network statistic of average degree to the modern procedure of Euclidean mirrors. Our results demonstrate that understanding the interplay of marginal and joint information in the observed network time series is key to robust network inference.",
+ "primary": "math.ST"
+}

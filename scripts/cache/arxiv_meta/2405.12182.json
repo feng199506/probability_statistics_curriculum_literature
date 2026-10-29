@@ -1,0 +1,17 @@
+{
+ "id": "2405.12182",
+ "title": "Nearest Neighbors GParareal: Improving Scalability of Gaussian Processes for Parallel-in-Time Solvers",
+ "authors": [
+  "Guglielmo Gattiglio",
+  "Lyudmila Grigoryeva",
+  "Massimiliano Tamborrino"
+ ],
+ "v1_date": "2024-05-20",
+ "latest_version": 2,
+ "latest_date": "2025-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the advent of supercomputers, multi-processor environments and parallel-in-time (PinT) algorithms offer ways to solve initial value problems for ordinary and partial differential equations (ODEs and PDEs) over long time intervals, a task often unfeasible with sequential solvers within realistic time frames. A recent approach, GParareal, combines Gaussian Processes with traditional PinT methodology (Parareal) to achieve faster parallel speed-ups. The method is known to outperform Parareal for low-dimensional ODEs and a limited number of computer cores. Here, we present Nearest Neighbors GParareal (nnGParareal), a novel data-enriched PinT integration algorithm. nnGParareal builds upon GParareal by improving its scalability properties for higher-dimensional systems and increased processor count. Through data reduction, the model complexity is reduced from cubic to log-linear in the sample size, yielding a fast and automated procedure to integrate initial value problems over long time intervals. First, we provide both an upper bound for the error and theoretical details on the speed-up benefits. Then, we empirically illustrate the superior performance of nnGParareal, compared to GParareal and Parareal, on nine different systems with unique features (e.g., stiff, chaotic, high-dimensional, or challenging-to-learn systems).",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2512.03235",
+ "title": "Estimation of Semiparametric Factor Models with Missing Data",
+ "authors": [
+  "Sijie Zheng"
+ ],
+ "v1_date": "2025-12-02",
+ "latest_version": 2,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This manuscript was posted prematurely and without the agreement of all coauthors. At the request of my coauthors, I am withdrawing the submission. The work is still under internal revision and is not ready for public release",
+ "abstract": "We study semiparametric factor models in high-dimensional panels where the factor loadings consist of a nonparametric component explained by observed covariates and an idiosyncratic component capturing unobserved heterogeneity. A key challenge in empirical applications is the presence of missing observations, which can distort both factor recovery and loading estimation. To address this issue, we develop a projected principal component analysis (PPCA) procedure that accommodates general missing-at-random mechanisms through inverse-probability weighting. We establish consistency and derive the asymptotic distributions of the estimated factors and loading functions, allowing the sieve dimension to diverge and permitting the time dimension to be either fixed or growing. Unlike classical PCA, PPCA achieves consistent factor estimation even when T is fixed, and the limiting distributions under missing data exhibit mixture normality with enlarged asymptotic variances. Theoretical results are supported by simulations and an empirical application. Our findings demonstrate that PPCA provides an effective and robust framework for estimating semiparametric factor models in the presence of missing data.",
+ "primary": "stat.ME"
+}

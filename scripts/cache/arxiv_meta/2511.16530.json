@@ -1,0 +1,16 @@
+{
+ "id": "2511.16530",
+ "title": "Targeted Parameter Estimation for Robust Empirical Bayes Ranking",
+ "authors": [
+  "Nicholas C. Henderson",
+  "Nicholas Hartman"
+ ],
+ "v1_date": "2025-11-20",
+ "latest_version": 1,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ordering the expected outcomes across a collection of clusters after performing a covariate adjustment commonly arises in many applied settings, such as healthcare provider evaluation. Regression parameters in such covariate adjustment models are frequently estimated by maximum likelihood or through other criteria that do not directly evaluate the quality of the rankings resulting from using a particular set of parameter estimates. In this article, we propose both a novel empirical Bayes ranking procedure and an associated estimation approach for finding the regression parameters of the covariate adjustment model. By building our ranking approach around estimating approximate percentiles of the covariate-adjusted cluster-level means, we are able to develop manageable expressions for the expected ranking squared-error loss associated with any choice of the covariate-adjustment model parameters, and we harness this to generate a novel unbiased estimator for this expected loss. Minimization of this unbiased estimator directly leads to a novel ranking procedure that is often more robust than conventional empirical Bayes ranking methods. Through a series of simulation studies, we show that our approach consistently delivers improved ranking squared-error performance relative to competing methods, such as posterior expected ranks and ranking the components of the best linear unbiased predictor. Estimating rankings using our method is illustrated with an example from a longitudinal study evaluating test scores across a large group of schools.",
+ "primary": "stat.ME"
+}

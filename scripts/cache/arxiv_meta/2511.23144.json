@@ -1,0 +1,16 @@
+{
+ "id": "2511.23144",
+ "title": "The Bayesian optimal two-stage design for clinical phase II trials based on Bayes factors",
+ "authors": [
+  "Riko Kelter",
+  "Samuel Pawel"
+ ],
+ "v1_date": "2025-11-28",
+ "latest_version": 1,
+ "latest_date": "2025-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 6 figures",
+ "abstract": "Sequential trial design is an important statistical approach to increase the efficiency of clinical trials. Bayesian sequential trial design relies primarily on conducting a Monte Carlo simulation under the hypotheses of interest and investigating the resulting design characteristics via Monte Carlo estimates. This approach has several drawbacks, namely that replicating the calibration of a Bayesian design requires repeating a possibly complex Monte Carlo simulation. Furthermore, Monte Carlo standard errors are required to judge the reliability of the simulation. All of this is due to a lack of closed-form or numerical approaches to calibrate a Bayesian design which uses Bayes factors. In this paper, we propose the Bayesian optimal two-stage design for clinical phase II trials based on Bayes factors. The optimal two-stage Bayes factor design is a sequential clinical trial design that is built on the idea of trinomial tree branching, a method we propose to correct the resulting design characteristics for introducing a single interim analysis. We build upon this idea to invent a calibration algorithm which yields the optimal Bayesian design that minimizes the expected sample size under the null hypothesis. Examples show that our design recovers Simon's two-stage optimal design as a special case, improves upon non-sequential Bayesian design based on Bayes factors, and can be calibrated quickly, as it makes use only of standard numerical techniques instead of time-consuming Monte Carlo simulations. Furthermore, the design allows to ensure a minimum probability on compelling evidence in favour of the null hypothesis, which is not possible with other designs. As the idea of trinomial tree branching is neither dependent on the endpoint, nor on the use of Bayes factors, the design can therefore be generalized to other settings, too.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.06669",
+ "title": "An Association Test Based on Kernel-Based Neural Networks for Complex Genetic Association Analysis",
+ "authors": [
+  "Tingting Hou",
+  "Chang Jiang",
+  "Qing Lu"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 1,
+ "latest_date": "2023-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 4 figures, 3 tables",
+ "abstract": "The advent of artificial intelligence, especially the progress of deep neural networks, is expected to revolutionize genetic research and offer unprecedented potential to decode the complex relationships between genetic variants and disease phenotypes, which could mark a significant step toward improving our understanding of the disease etiology. While deep neural networks hold great promise for genetic association analysis, limited research has been focused on developing neural-network-based tests to dissect complex genotype-phenotype associations. This complexity arises from the opaque nature of neural networks and the absence of defined limiting distributions. We have previously developed a kernel-based neural network model (KNN) that synergizes the strengths of linear mixed models with conventional neural networks. KNN adopts a computationally efficient minimum norm quadratic unbiased estimator (MINQUE) algorithm and uses KNN structure to capture the complex relationship between large-scale sequencing data and a disease phenotype of interest. In the KNN framework, we introduce a MINQUE-based test to assess the joint association of genetic variants with the phenotype, which considers non-linear and non-additive effects and follows a mixture of chi-square distributions. We also construct two additional tests to evaluate and interpret linear and non-linear/non-additive genetic effects, including interaction effects. Our simulations show that our method consistently controls the type I error rate under various conditions and achieves greater power than a commonly used sequence kernel association test (SKAT), especially when involving non-linear and interaction effects. When applied to real data from the UK Biobank, our approach identified genes associated with hippocampal volume, which can be further replicated and evaluated for their role in the pathogenesis of Alzheimer's disease.",
+ "primary": "q-bio.QM"
+}

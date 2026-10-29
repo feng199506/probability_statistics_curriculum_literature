@@ -1,0 +1,16 @@
+{
+ "id": "2609.06281",
+ "title": "About the Cramér Large Deviation Property for Bell Polynomials",
+ "authors": [
+  "Sophia Li",
+  "Shannon Starr"
+ ],
+ "v1_date": "2026-09-05",
+ "latest_version": 2,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 1 figure. Added appendix on Cramér's theorem",
+ "abstract": "If $\\boldsymbol{w} = (w_1,w_2,\\dots)$ is a sequence in $\\mathbb{N}=\\{1,2,\\dots\\}$, the partial Bell polynomials based on $\\boldsymbol{w}$ are $B_{n,k}$ for $k \\in \\mathbb{N}$ and $n\\in\\{k,k+1,\\dots\\}$. Let $F(z) = \\sum_{n=1}^{\\infty} (w_n/n!)z^n$ be the exponential generating function for $\\boldsymbol{w}$, and assume the radius of convegence is positive $R>0$. Then $F(z)^k = \\sum_{n=k}^{\\infty} (k!/n!) z^n B_{n,k}$ for $|z|<R$. Alternatively, defining $Q_{k,n} = (k!/n!)B_{n,k}$, we have $Q_{1,n} = w_n/n!$, and $Q_{k+1,n}=\\sum_{m=1}^{n-k} Q_{1,m} Q_{k,n-m}$ for $k\\geq 1$. Let us say that the Cramér-type large deviation property holds if $$ \\lim_{\\substack{n \\to \\infty\\\\ k/n \\to κ}} \\frac{1}{n}\\, \\ln\\left(Q_{k,n}\\right)\\, =\\, \\mathcal{G}(κ)\\, ,$$ for every $κ\\in (0,1)$, where $\\mathcal{G}(κ)=\\inf_{r \\in (0,R)} (κ\\ln(F(r))-\\ln(r))$. The (Hardy-Ramanujan) Erdös induction argument suggests this should generally be true as long as two technical conditions are true: one an initial step, and the other a condition for small densities $κ$.",
+ "primary": "math.CO"
+}

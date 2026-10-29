@@ -1,0 +1,17 @@
+{
+ "id": "2312.05858",
+ "title": "Causal inference and policy evaluation without a control group",
+ "authors": [
+  "Augusto Cerqua",
+  "Marco Letta",
+  "Fiammetta Menchetti"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 2,
+ "latest_date": "2024-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 5 figures",
+ "abstract": "Without a control group, the most widespread methodologies for estimating causal effects cannot be applied. To fill this gap, we propose the Machine Learning Control Method, a new approach for causal panel analysis that estimates causal parameters without relying on untreated units. We formalize identification within the potential outcomes framework and then provide estimation based on machine learning algorithms. To illustrate the practical relevance of our method, we present simulation evidence, a replication study, and an empirical application on the impact of the COVID-19 crisis on educational inequality. We implement the proposed approach in the companion R package MachineControl",
+ "primary": "econ.EM"
+}

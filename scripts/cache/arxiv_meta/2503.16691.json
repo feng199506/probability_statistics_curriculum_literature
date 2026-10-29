@@ -1,0 +1,16 @@
+{
+ "id": "2503.16691",
+ "title": "Spatial-temporal prediction of forest attributes using latent Gaussian models and inventory data",
+ "authors": [
+  "Paul B. May",
+  "Andrew O. Finley"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 2,
+ "latest_date": "2025-06-05",
+ "journal_ref": "Spatial Statistics 69 (2025) 100917",
+ "doi": "10.1016/j.spasta.2025.100917",
+ "comment": "",
+ "abstract": "The USDA Forest Inventory and Analysis (FIA) program conducts a national forest inventory for the United States through a network of permanent field plots. FIA produces estimates of area averages and totals for plot-measured forest variables through design-based inference, assuming a fixed population and a probability sample of field plot locations. The fixed-population assumption and characteristics of the FIA sampling scheme make it difficult to estimate change in forest variables over time using design-based inference. We propose spatial-temporal models based on Gaussian processes as a flexible tool for forest inventory data, capable of inferring forest variables and change thereof over arbitrary spatial and temporal domains. It is shown to be beneficial for the covariance function governing the latent Gaussian process to account for variation at multiple scales, separating spatially local variation from ecosystem-scale variation. We demonstrate a model for forest biomass density, inferring 20 years of biomass change within two US National Forests.",
+ "primary": "stat.AP"
+}

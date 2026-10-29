@@ -1,0 +1,16 @@
+{
+ "id": "2406.14717",
+ "title": "Analysis of Linked Files: A Missing Data Perspective",
+ "authors": [
+  "Gauri Kamat",
+  "Roee Gutman"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 3,
+ "latest_date": "2024-07-08",
+ "journal_ref": "Statistical Science, 2026",
+ "doi": "10.1214/24-sts939",
+ "comment": "Accepted manuscript, to be published in Statistical Science",
+ "abstract": "In many applications, researchers seek to identify overlapping entities across multiple data files. Record linkage algorithms facilitate this task, in the absence of unique identifiers. As these algorithms rely on semi-identifying information, they may miss records that represent the same entity, or incorrectly link records that do not represent the same entity. Analysis of linked files commonly ignores such linkage errors, resulting in biased, or overly precise estimates of the associations of interest. We view record linkage as a missing data problem, and delineate the linkage mechanisms that underpin analysis methods with linked files. Following the missing data literature, we group these methods under three categories: likelihood and Bayesian methods, imputation methods, and weighting methods. We summarize the assumptions and limitations of the methods, and evaluate their performance in a wide range of simulation scenarios.",
+ "primary": "stat.ME"
+}

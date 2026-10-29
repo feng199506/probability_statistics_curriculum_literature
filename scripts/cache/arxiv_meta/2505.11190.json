@@ -1,0 +1,18 @@
+{
+ "id": "2505.11190",
+ "title": "JaxSGMC: Modular stochastic gradient MCMC in JAX",
+ "authors": [
+  "Stephan Thaler",
+  "Paul Fuchs",
+  "Ana Cukarska",
+  "Julija Zavadlav"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "SoftwareX, Volume 26, 2024, 101722, ISSN 2352-7110",
+ "doi": "10.1016/j.softx.2024.101722",
+ "comment": "",
+ "abstract": "We present JaxSGMC, an application-agnostic library for stochastic gradient Markov chain Monte Carlo (SG-MCMC) in JAX. SG-MCMC schemes are uncertainty quantification (UQ) methods that scale to large datasets and high-dimensional models, enabling trustworthy neural network predictions via Bayesian deep learning. JaxSGMC implements several state-of-the-art SG-MCMC samplers to promote UQ in deep learning by reducing the barriers of entry for switching from stochastic optimization to SG-MCMC sampling. Additionally, JaxSGMC allows users to build custom samplers from standard SG-MCMC building blocks. Due to this modular structure, we anticipate that JaxSGMC will accelerate research into novel SG-MCMC schemes and facilitate their application across a broad range of domains.",
+ "primary": "stat.CO"
+}

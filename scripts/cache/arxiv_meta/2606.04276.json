@@ -1,0 +1,15 @@
+{
+ "id": "2606.04276",
+ "title": "Local Sensitivity Under Transport Restrictions",
+ "authors": [
+  "Hongseok Namkoong"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We quantify the value of structural knowledge, restrictions a modeler places on the world before seeing data. Our analytic workhorse is the local sensitivity of an estimand to distributional perturbations in the Otto-Wasserstein geometry: the largest first-order change in the estimand per unit displacement of probability mass (transport), equal to the dual norm of the spatial gradient of the efficient influence function. The modeler encodes structural knowledge by restricting the class of transports, and the resulting reduction in sensitivity is the value of their inductive bias. We illustrate by shedding light on a longstanding puzzle in causal inference where classical semiparametric efficiency bounds remain identical regardless of whether the propensity score is known, despite observed practical difficulties when it is unknown. Our approach characterizes how known propensities significantly reduce sensitivity to misspecification.",
+ "primary": "math.ST"
+}

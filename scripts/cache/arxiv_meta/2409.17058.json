@@ -1,0 +1,19 @@
+{
+ "id": "2409.17058",
+ "title": "Degradation-Guided One-Step Image Super-Resolution with Diffusion Priors",
+ "authors": [
+  "Aiping Zhang",
+  "Zongsheng Yue",
+  "Renjing Pei",
+  "Wenqi Ren",
+  "Xiaochun Cao"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 1,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The code is available at https://github.com/ArcticHare105/S3Diff",
+ "abstract": "Diffusion-based image super-resolution (SR) methods have achieved remarkable success by leveraging large pre-trained text-to-image diffusion models as priors. However, these methods still face two challenges: the requirement for dozens of sampling steps to achieve satisfactory results, which limits efficiency in real scenarios, and the neglect of degradation models, which are critical auxiliary information in solving the SR problem. In this work, we introduced a novel one-step SR model, which significantly addresses the efficiency issue of diffusion-based SR methods. Unlike existing fine-tuning strategies, we designed a degradation-guided Low-Rank Adaptation (LoRA) module specifically for SR, which corrects the model parameters based on the pre-estimated degradation information from low-resolution images. This module not only facilitates a powerful data-dependent or degradation-dependent SR model but also preserves the generative prior of the pre-trained diffusion model as much as possible. Furthermore, we tailor a novel training pipeline by introducing an online negative sample generation strategy. Combined with the classifier-free guidance strategy during inference, it largely improves the perceptual quality of the super-resolution results. Extensive experiments have demonstrated the superior efficiency and effectiveness of the proposed model compared to recent state-of-the-art methods.",
+ "primary": "cs.CV"
+}

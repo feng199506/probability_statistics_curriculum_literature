@@ -1,0 +1,16 @@
+{
+ "id": "2405.08623",
+ "title": "Accuracy of the Graphon Mean Field Approximation for Interacting Particle Systems",
+ "authors": [
+  "Sebastian Allmeier",
+  "Nicolas Gast"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 1,
+ "latest_date": "2024-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "preprint",
+ "abstract": "We consider a system of $N$ particles whose interactions are characterized by a (weighted) graph $G^N$. Each particle is a node of the graph with an internal state. The state changes according to Markovian dynamics that depend on the states and connection to other particles. We study the limiting properties, focusing on the dense graph regime, where the number of neighbors of a given node grows with $N$. We show that when $G^N$ converges to a graphon $G$, the behavior of the system converges to a deterministic limit, the graphon mean field approximation. We obtain convergence rates depending on the system size $N$ and cut-norm distance between $G^N$ and $G$. We apply the results for two subcases: When $G^N$ is a discretization of the graph $G$ with individually weighted edges; when $G^N$ is a random graph obtained through edge sampling from the graphon $G$. In the case of weighted interactions, we obtain a bound of order $O(1/N)$. In the random graph case, the error is of order $O(\\sqrt{\\log(N)/N})$ with high probability. We illustrate the applicability of our results and the numerical efficiency of the approximation through two examples: a graph-based load-balancing model and a heterogeneous bike-sharing system.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.00128",
+ "title": "Remote Auditing: Design-based Tests of Randomization, Selection, and Missingness with Broadly Accessible Satellite Imagery",
+ "authors": [
+  "Connor T. Jerzak",
+  "Adel Daoud"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 2,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 5 figures",
+ "abstract": "Randomized controlled trials (RCTs) are the benchmark for causal inference, yet field implementation can drift from the registered design or, by chance, yield imbalances. We introduce a remote audit -- a preregistrable, design-based diagnostic that uses strictly pre-treatment, publicly available satellite imagery to test whether assignment is independent of local conditions. The audit implements a conditional randomization test that asks whether treatment is more predictable from pre-treatment features than under the registered mechanism, delivering a finite-sample-valid, nonparametric check that honors blocks and clusters and controls multiplicity across image models, resolutions, and patch sizes via a max-statistic. The same preregistered procedure can be run before baseline data collection to guide implementation and, after assignments are realized, to audit the actual allocation. In two illustrations -- Uganda's Youth Opportunities Program (randomization corroborated) and a school-based experiment in Bangladesh (assignment predictable relative to the design, consistent with independent concerns) -- the audit can surface potential problems early, before costly scientific investments. We also provide descriptive diagnostics for selection into the study and for missingness. Because it is low-cost and can be implemented rapidly in a unified way across diverse global administrative jurisdictions, the remote audit complements balance tests, strengthens preregistration, and enables rapid design checks when conventional data collection is slow, expensive, or infeasible.",
+ "primary": "stat.ME"
+}

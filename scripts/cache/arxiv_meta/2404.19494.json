@@ -1,0 +1,20 @@
+{
+ "id": "2404.19494",
+ "title": "The harms of class imbalance corrections for machine learning based prediction models: a simulation study",
+ "authors": [
+  "Alex Carriero",
+  "Kim Luijken",
+  "Anne de Hond",
+  "Karel GM Moons",
+  "Ben van Calster",
+  "Maarten van Smeden"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 1,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Risk prediction models are increasingly used in healthcare to aid in clinical decision making. In most clinical contexts, model calibration (i.e., assessing the reliability of risk estimates) is critical. Data available for model development are often not perfectly balanced with respect to the modeled outcome (i.e., individuals with vs. without the event of interest are not equally represented in the data). It is common for researchers to correct this class imbalance, yet, the effect of such imbalance corrections on the calibration of machine learning models is largely unknown. We studied the effect of imbalance corrections on model calibration for a variety of machine learning algorithms. Using extensive Monte Carlo simulations we compared the out-of-sample predictive performance of models developed with an imbalance correction to those developed without a correction for class imbalance across different data-generating scenarios (varying sample size, the number of predictors and event fraction). Our findings were illustrated in a case study using MIMIC-III data. In all simulation scenarios, prediction models developed without a correction for class imbalance consistently had equal or better calibration performance than prediction models developed with a correction for class imbalance. The miscalibration introduced by correcting for class imbalance was characterized by an over-estimation of risk and was not always able to be corrected with re-calibration. Correcting for class imbalance is not always necessary and may even be harmful for clinical prediction models which aim to produce reliable risk estimates on an individual basis.",
+ "primary": "stat.ME"
+}

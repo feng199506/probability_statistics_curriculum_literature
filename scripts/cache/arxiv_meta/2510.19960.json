@@ -1,0 +1,17 @@
+{
+ "id": "2510.19960",
+ "title": "Kernel Density Estimation and Convolution Revisited",
+ "authors": [
+  "Nicholas Tenkorang",
+  "Kwesi Appau Ohene-Obeng",
+  "Xiaogang Su"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 1,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 2 figrues, plus a 8-page supplement",
+ "abstract": "Kernel Density Estimation (KDE) is a cornerstone of nonparametric statistics, yet it remains sensitive to bandwidth choice, boundary bias, and computational inefficiency. This study revisits KDE through a principled convolutional framework, providing an intuitive model-based derivation that naturally extends to constrained domains, such as positive-valued random variables. Building on this perspective, we introduce SHIDE (Simulation and Histogram Interpolation for Density Estimation), a novel and computationally efficient density estimator that generates pseudo-data by adding bounded noise to observations and applies spline interpolation to the resulting histogram. The noise is sampled from a class of bounded polynomial kernel densities, constructed through convolutions of uniform distributions, with a natural bandwidth parameter defined by the kernel's support bound. We establish the theoretical properties of SHIDE, including pointwise consistency, bias-variance decomposition, and asymptotic MISE, showing that SHIDE attains the classical $n^{-4/5}$ convergence rate while mitigating boundary bias. Two data-driven bandwidth selection methods are developed, an AMISE-optimal rule and a percentile-based alternative, which are shown to be asymptotically equivalent. Extensive simulations demonstrate that SHIDE performs comparably to or surpasses KDE across a broad range of models, with particular advantages for bounded and heavy-tailed distributions. These results highlight SHIDE as a theoretically grounded and practically robust alternative to traditional KDE.",
+ "primary": "stat.ME"
+}

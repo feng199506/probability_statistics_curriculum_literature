@@ -1,0 +1,19 @@
+{
+ "id": "2607.04780",
+ "title": "Theoretical Guarantees for SMC-Guided Diffusion Sampling",
+ "authors": [
+  "Stanislas Strasman",
+  "Gabriel Victorino Cardoso",
+  "Sylvain Le Corff",
+  "Vincent Lemaire",
+  "Antonio Ocello"
+ ],
+ "v1_date": "2026-07-06",
+ "latest_version": 2,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-hoc conditioning of pretrained diffusion models can be addressed using Sequential Monte Carlo (SMC) methods. By evolving an interacting particle system, SMC-guided diffusion samplers combine unconditional reverse-diffusion dynamics with sequential reweighting to approximate conditional distributions. Nevertheless, even in the infinite-particle limit, the implemented sampler may differ from the ideal conditional target because of errors in the diffusion model, its numerical implementation, and the guidance mechanism. We characterize how these local errors propagate through forward-smoothing kernels, which jointly account for the reverse dynamics and the remaining conditioning information. This yields non-asymptotic error bounds that capture both finite-particle fluctuations and approximation errors arising from initialization, numerical integration, score approximation, and potential design. In doing so, we extend stability guarantees for diffusion models to the conditional setting. Finally, we apply our framework to several state-of-the-art SMC-guided diffusion algorithms, providing a unified theoretical perspective on their approximation mechanisms and sources of error.",
+ "primary": "stat.ML"
+}

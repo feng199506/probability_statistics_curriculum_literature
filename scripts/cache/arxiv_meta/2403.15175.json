@@ -1,0 +1,18 @@
+{
+ "id": "2403.15175",
+ "title": "Double Cross-fit Doubly Robust Estimators: Beyond Series Regression",
+ "authors": [
+  "Alec McClean",
+  "Sivaraman Balakrishnan",
+  "Edward H. Kennedy",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2024-03-22",
+ "latest_version": 3,
+ "latest_date": "2025-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Doubly robust estimators with cross-fitting have gained popularity in causal inference due to their favorable structure-agnostic error guarantees. However, when additional structure, such as Hölder smoothness, is available then more accurate \"double cross-fit doubly robust\" (DCDR) estimators can be constructed by splitting the training data and undersmoothing nuisance function estimators on independent samples. We study a DCDR estimator of the Expected Conditional Covariance, a functional of interest in causal inference and conditional independence testing. We first provide a structure-agnostic error analysis for the DCDR estimator with no assumptions on the nuisance functions or their estimators. Then, assuming the nuisance functions are Hölder smooth, but without assuming knowledge of the true smoothness level or the covariate density, we establish that DCDR estimators with several linear smoothers are $\\sqrt{n}$-consistent and asymptotically normal under minimal conditions and achieve fast convergence rates in the non-$\\sqrt{n}$ regime. When the covariate density and smoothnesses are known, we propose a minimax rate-optimal DCDR estimator based on undersmoothed kernel regression. Moreover, we show an undersmoothed DCDR estimator satisfies a slower-than-$\\sqrt{n}$ central limit theorem, and that inference is possible even in the non-$\\sqrt{n}$ regime. Finally, we support our theoretical results with simulations, providing intuition for double cross-fitting and undersmoothing, demonstrating where our estimator achieves $\\sqrt{n}$-consistency while the usual \"single cross-fit\" estimator fails, and illustrating asymptotic normality for the undersmoothed DCDR estimator.",
+ "primary": "math.ST"
+}

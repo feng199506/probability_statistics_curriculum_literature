@@ -1,0 +1,20 @@
+{
+ "id": "2505.23302",
+ "title": "State Space Model Programming in Turing.jl",
+ "authors": [
+  "Tim Hargreaves",
+  "Qing Li",
+  "Charles Knipp",
+  "Frederic Wantiez",
+  "Simon J. Godsill",
+  "Hong Ge"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 1,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 6 figures, Presented at LAFI (Languages for Inference) Workshop, POPL 2025",
+ "abstract": "State space models (SSMs) are a powerful and widely-used class of probabilistic models for analysing time-series data across various fields, from econometrics to robotics. Despite their prevalence, existing software frameworks for SSMs often lack compositionality and scalability, hindering experimentation and making it difficult to leverage advanced inference techniques. This paper introduces SSMProblems.jl and GeneralisedFilters.jl, two Julia packages within the Turing.jl ecosystem, that address this challenge by providing a consistent, composable, and general framework for defining SSMs and performing inference on them. This unified interface allows researchers to easily define a wide range of SSMs and apply various inference algorithms, including Kalman filtering, particle filtering, and combinations thereof. By promoting code reuse and modularity, our packages reduce development time and improve the reliability of SSM implementations. We prioritise scalability through efficient memory management and GPU-acceleration, ensuring that our framework can handle large-scale inference tasks.",
+ "primary": "stat.CO"
+}

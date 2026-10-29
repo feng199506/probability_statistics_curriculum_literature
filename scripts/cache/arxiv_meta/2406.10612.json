@@ -1,0 +1,19 @@
+{
+ "id": "2406.10612",
+ "title": "Producing treatment hierarchies in network meta-analysis using probabilistic models and treatment-choice criteria",
+ "authors": [
+  "Theodoros Evrenoglou",
+  "Adriani Nikolakopoulou",
+  "Guido Schwarzer",
+  "Gerta Rücker",
+  "Anna Chaimani"
+ ],
+ "v1_date": "2024-06-15",
+ "latest_version": 2,
+ "latest_date": "2025-08-06",
+ "journal_ref": "Res. synth. methods 17 (2026) 750-769",
+ "doi": "10.1017/rsm.2026.10071",
+ "comment": "",
+ "abstract": "A key output of network meta-analysis (NMA) is the relative ranking of treatments; nevertheless, it has attracted substantial criticism. Existing ranking methods often lack clear interpretability and fail to adequately account for uncertainty, over-emphasizing small differences in treatment effects. We propose a novel framework to estimate treatment hierarchies in NMA using a probabilistic model, focusing on a clinically relevant treatment-choice criterion (TCC). Initially, we formulate a mathematical expression to define a TCC based on smallest worthwhile differences (SWD), converting NMA relative treatment effects into treatment preference format. This data is then synthesized using a probabilistic ranking model, assigning each treatment a latent 'ability' parameter, representing its propensity to yield clinically important and beneficial true treatment effects relative to the rest of the treatments in the network. Parameter estimation relies on the maximum likelihood theory, with standard errors derived asymptotically from Fisher's information matrix. To facilitate the use of our methods, we launched the R package mtrank. We applied our method to two clinical datasets: one comparing 18 antidepressants for major depression and another comparing 6 antihypertensives for the incidence of diabetes. Our approach provided robust, interpretable treatment hierarchies that account for a concrete TCC. We further examined the agreement between the proposed method and existing ranking metrics in 153 published networks, concluding that the degree of agreement depends on the precision of the NMA estimates. Our framework offers a valuable alternative for NMA treatment ranking, mitigating over-interpretation of minor differences. This enables more reliable and clinically meaningful treatment hierarchies.",
+ "primary": "stat.ME"
+}

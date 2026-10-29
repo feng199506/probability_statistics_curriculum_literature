@@ -1,0 +1,15 @@
+{
+ "id": "2312.16546",
+ "title": "Super-Efficient Exact Hamiltonian Monte Carlo for the von Mises Distribution",
+ "authors": [
+  "Ari Pakman"
+ ],
+ "v1_date": "2023-12-27",
+ "latest_version": 2,
+ "latest_date": "2024-12-07",
+ "journal_ref": "Applied Mathematics Letters, Volume 159, January 2025, 109284",
+ "doi": "10.1016/j.aml.2024.109284",
+ "comment": "5 pages, 4 figures",
+ "abstract": "Markov Chain Monte Carlo algorithms, the method of choice to sample from generic high-dimensional distributions, are rarely used for continuous one-dimensional distributions, for which more effective approaches are usually available (e.g. rejection sampling). In this work we present a counter-example to this conventional wisdom for the von Mises distribution, a maximum-entropy distribution over the circle. We show that Hamiltonian Monte Carlo with Laplacian momentum has exactly solvable equations of motion and, with an appropriate travel time, the Markov chain has negative autocorrelation at odd lags for odd observables and yields a relative effective sample size bigger than one.",
+ "primary": "stat.CO"
+}

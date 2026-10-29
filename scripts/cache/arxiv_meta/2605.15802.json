@@ -1,0 +1,20 @@
+{
+ "id": "2605.15802",
+ "title": "Generalized raking and stabilized weights for regression modeling in two-phase samples",
+ "authors": [
+  "Tong Chen",
+  "Joshua Slone",
+  "Gustavo Amorim",
+  "Pamela A. Shaw",
+  "Bryan E. Shepherd",
+  "Thomas Lumley"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In regression models fitted to data from complex survey designs, sampling weights often incorporate non-essential variation, inflating variance estimates. Stabilized weights mitigate this issue by adjusting sampling weights to account for variation explained by covariates. In the context of two-phase sampling, we evaluate the performance of optimal stabilized weights and propose combining the stabilized weight estimator with generalized raking, a class of efficient design-based estimators. This combination improves efficiency by reducing unnecessary weight variation and leveraging information from auxiliary variables. We show this combination can be implemented using the standard statistical package that handles two-phase samples and generalized raking. Simulation studies demonstrate that the proposed estimator enhances precision under realistic two-phase designs, though efficiency gains may be limited in highly informative designs. The developed methods were applied to a large multinational two-phase study of Kaposi sarcoma among people living with HIV.",
+ "primary": "stat.ME"
+}

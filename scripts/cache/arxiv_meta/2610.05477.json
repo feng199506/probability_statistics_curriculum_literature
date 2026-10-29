@@ -1,0 +1,17 @@
+{
+ "id": "2610.05477",
+ "title": "PKComb-BOIN12: A Pharmacokinetically Guided Bayesian Design for Dose Optimisation in Oncology Drug-Combination Trials",
+ "authors": [
+  "Jieqi Tu",
+  "Ruitao Lin",
+  "Ayon Mukherjee"
+ ],
+ "v1_date": "2026-10-04",
+ "latest_version": 1,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 2 Figures, 7 Tables",
+ "abstract": "Dose optimisation of two-agent combinations in early-phase oncology trials must jointly balance toxicity, efficacy, and pharmacologically meaningful drug exposure, yet existing model-assisted combination designs use only binary toxicity--efficacy outcomes and leave pharmacokinetic (PK) data unused for dosing decisions. We propose PKComb-BOIN12, a utility-based Bayesian optimal interval design embedding a continuous PK exposure metric into two-agent dose optimisation via a PK-guided escalation rule and a PK-sufficiency constraint on the final admissible set. Two contributions distinguish this design from a direct combination extension of existing single-agent PK-informed designs. First, PK-based elimination uses a coordinatewise order-ideal (down-set) removal rule, so that eliminating a combination for insufficient exposure is licensed exactly by the assumed monotonicity of exposure in each agent's dose, rather than an unjustified scalar summary of combined dose intensity. Second, the pre-specified target exposure is treated as transportable-but-verifiable: a hierarchical calibration mechanism updates the assumed monotherapy-derived target using accruing combination-arm PK data, with a formal bound on the resulting selection bias under transportability violations. A time-to-event extension, TITE-PKComb-BOIN12, accommodates late-onset outcomes. A factorial simulation study spanning realistic scenarios, including one calibrated to a published combination trial, decomposes the source of PKComb-BOIN12's gains over its non-PK predecessor and evaluates robustness to non-monotone exposure, PK-variance misspecification, and target-transportability violations. An R Shiny application supports design evaluation and real-time conduct.",
+ "primary": "stat.ME"
+}

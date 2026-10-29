@@ -1,0 +1,15 @@
+{
+ "id": "2602.20498",
+ "title": "Fast Algorithms for Exact Confidence Intervals in Randomized Experiments with Binary Outcomes",
+ "authors": [
+  "Peng Zhang"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We construct exact confidence intervals for the average treatment effect in randomized experiments with binary outcomes using sequences of randomization tests. Our approach does not rely on large-sample approximations and is valid for all sample sizes. Under a balanced Bernoulli design or a matched-pairs design, we show that exact confidence intervals can be computed using only $O(\\log n)$ randomization tests, yielding an exponential reduction in the number of tests compared to brute-force. We further prove an information-theoretic lower bound showing that this rate is optimal. In contrast, under balanced complete randomization, the most efficient known procedures require $O(n\\log n)$ randomization tests (Aronow et al., 2023), establishing a sharp separation between these designs. In addition, we extend our algorithm to general Bernoulli designs using $O(n^2)$ randomization tests.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2511.21534",
+ "title": "A Sensitivity Analysis Framework for Causal Inference Under Interference",
+ "authors": [
+  "Matvey Ortyashov",
+  "AmirEmad Ghassami"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 2,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many applications of causal inference, the treatment received by one unit may influence the outcome of another, a phenomenon referred to as interference. Although there are several frameworks for conducting causal inference in the presence of interference, practitioners often lack the data necessary to adjust for its effects. In this paper, we propose a weighting-based sensitivity analysis framework that can be used to assess the systematic bias arising from ignoring interference. Unlike most of the existing literature, we allow for the presence of unmeasured confounding, and show that the combination of interference and unmeasured confounding is a notable challenge to causal inference. We also study a third factor contributing to systematic bias: lack of transportability. Our framework enables practitioners to assess the impact of these three issues simultaneously through several easily interpretable sensitivity parameters that can reflect a wide range of intuitions about the data.",
+ "primary": "stat.ME"
+}

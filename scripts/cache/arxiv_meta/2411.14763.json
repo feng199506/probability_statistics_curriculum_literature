@@ -1,0 +1,15 @@
+{
+ "id": "2411.14763",
+ "title": "From Replications to Revelations: Heteroskedasticity-Robust Inference",
+ "authors": [
+  "Sebastian Kranz"
+ ],
+ "v1_date": "2024-11-22",
+ "latest_version": 2,
+ "latest_date": "2024-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Analysing the Stata regression commands from 4,420 reproduction packages of leading economic journals, we find that, among the 40,571 regressions specifying heteroskedasticity-robust standard errors, 98.1% adhere to Stata's default HC1 specification. We then compare several heteroskedasticity-robust inference methods with a large-scale Monte Carlo study based on regressions from 155 reproduction packages. Our results show that t-tests based on HC1 or HC2 with default degrees of freedom exhibit substantial over-rejection. Inference methods with customized degrees of freedom, as proposed by Bell and McCaffrey (2002), Hansen (2024), and a novel approach based on partial leverages, perform best. Additionally, we provide deeper insights into the role of leverages and partial leverages across different inference methods.",
+ "primary": "econ.EM"
+}

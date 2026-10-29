@@ -1,0 +1,19 @@
+{
+ "id": "2503.13696",
+ "title": "Treatment Effect Heterogeneity in Regression Discontinuity Designs",
+ "authors": [
+  "Sebastian Calonico",
+  "Matias D. Cattaneo",
+  "Max H. Farrell",
+  "Filippo Palomba",
+  "Rocio Titiunik"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 3,
+ "latest_date": "2025-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical studies using Regression Discontinuity (RD) designs often explore heterogeneous treatment effects based on pretreatment covariates, even though no formal statistical methods exist for such analyses. This has led to the widespread use of ad hoc approaches in applications. Motivated by common empirical practice, we develop a unified, theoretically grounded framework for RD heterogeneity analysis. We show that a fully interacted local linear (in functional parameters) model effectively captures heterogeneity while still being tractable and interpretable in applications. The model structure holds without loss of generality for discrete covariates. Although our proposed model is potentially restrictive for continuous covariates, it naturally aligns with standard empirical practice and offers a causal interpretation for RD applications. We establish principled bandwidth selection and robust bias-corrected inference methods to analyze heterogeneous treatment effects and test group differences. We provide companion software to facilitate implementation of our results. An empirical application illustrates the practical relevance of our methods.",
+ "primary": "econ.EM"
+}

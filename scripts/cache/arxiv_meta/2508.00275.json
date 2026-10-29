@@ -1,0 +1,19 @@
+{
+ "id": "2508.00275",
+ "title": "Factor Augmented Quantile Regression Model",
+ "authors": [
+  "Xiaoyang Wei",
+  "Yanlin Tang",
+  "Xu Guo",
+  "Meiling Hao",
+  "Yanmei Shi"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 1,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Along with the widespread adoption of high-dimensional data, traditional statistical methods face significant challenges in handling problems with high correlation of variables, heavy-tailed distribution, and coexistence of sparse and dense effects. In this paper, we propose a factor-augmented quantile regression (FAQR) framework to address these challenges simultaneously within a unified framework. The proposed FAQR combines the robustness of quantile regression and the ability of factor analysis to effectively capture dependencies among high-dimensional covariates, and also provides a framework to capture dense effects (through common factors) and sparse effects (through idiosyncratic components) of the covariates. To overcome the lack of smoothness of the quantile loss function, convolution smoothing is introduced, which not only improves computational efficiency but also eases theoretical derivation. Theoretical analysis establishes the accuracy of factor selection and consistency in parameter estimation under mild regularity conditions. Furthermore, we develop a Bootstrap-based diagnostic procedure to assess the adequacy of the factor model. Simulation experiments verify the rationality of FAQR in different noise scenarios such as normal and $t_2$ distributions.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.01129",
+ "title": "Compositional data analysis for modelling and forecasting mortality using the α-transformation",
+ "authors": [
+  "Han Ying Lim",
+  "Dharini Pathmanathan",
+  "Sophie Dabo-Niang"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 3,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 3 tables, 4 figures",
+ "abstract": "Mortality forecasting is crucial for demographic planning and actuarial studies, especially for projecting population ageing and longevity risk. Classical approaches largely rely on extrapolative methods, such as the Lee-Carter (LC) model, which use mortality rates as the mortality measure. In recent years, compositional data analysis (CoDA), which respects summability and non-negativity constraints, has gained increasing attention for mortality forecasting. While the centred log-ratio (CLR) transformation is commonly used to map compositional data to real space, the α-transformation, a generalisation of log-ratio transformations, offers greater flexibility and adaptability. This study contributes to mortality forecasting by introducing the α-transformation as an alternative to the CLR transformation within a non-functional CoDA model that has not been previously investigated in existing literature. To fairly compare the impact of transformation choices on forecast accuracy, zero values in the data are imputed, although the α-transformation can inherently handle them. Using age-specific life table death counts for males and females in 31 selected European countries/regions from 1983 to 2018, the proposed method demonstrates comparable performance to the CLR transformation in most cases, with improved forecast accuracy in some instances. These findings highlight the potential of the α-transformation for enhancing mortality forecasting within the non-functional CoDA framework.",
+ "primary": "stat.AP"
+}

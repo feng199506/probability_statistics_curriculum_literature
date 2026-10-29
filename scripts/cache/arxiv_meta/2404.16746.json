@@ -1,0 +1,16 @@
+{
+ "id": "2404.16746",
+ "title": "Estimating the Number of Components in Finite Mixture Models via Variational Approximation",
+ "authors": [
+  "Chenyang Wang",
+  "Yun Yang"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 2,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work introduces a new method for selecting the number of components in finite mixture models (FMMs) using variational Bayes, inspired by the large-sample properties of the Evidence Lower Bound (ELBO) derived from mean-field (MF) variational approximation. Specifically, we establish matching upper and lower bounds for the ELBO without assuming conjugate priors, suggesting the consistency of model selection for FMMs based on maximizing the ELBO. As a by-product of our proof, we demonstrate that the MF approximation inherits the stable behavior (benefited from model singularity) of the posterior distribution, which tends to eliminate the extra components under model misspecification where the number of mixture components is over-specified. This stable behavior also leads to the $n^{-1/2}$ convergence rate for parameter estimation, up to a logarithmic factor, under this model overspecification. Empirical experiments are conducted to validate our theoretical findings and compare with other state-of-the-art methods for selecting the number of components in FMMs.",
+ "primary": "stat.ME"
+}

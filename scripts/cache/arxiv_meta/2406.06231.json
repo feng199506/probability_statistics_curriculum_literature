@@ -1,0 +1,17 @@
+{
+ "id": "2406.06231",
+ "title": "Statistical Inference for Privatized Data with Unknown Sample Size",
+ "authors": [
+  "Jordan Awan",
+  "Andres Felipe Barrientos",
+  "Nianqiao Ju"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 4,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages before references, 46 pages in total, 4 figures, 5 tables",
+ "abstract": "We develop both theory and algorithms to analyze privatized data in unbounded differential privacy (DP), where even the sample size is considered a sensitive quantity that requires privacy protection. We show that the distance between the sampling distributions under unbounded DP and bounded DP goes to zero as the sample size $n$ goes to infinity, provided that the noise used to privatize $n$ is at an appropriate rate; we also establish that Approximate Bayesian Computation (ABC)-type posterior distributions converge under similar assumptions. We further give asymptotic results in regimes where the privacy budgets vary, establishing similarity of sampling distributions as well as showing that the MLE in the unbounded setting converges to the bounded-DP MLE. To facilitate valid, finite-sample Bayesian inference on privatized data under unbounded DP, we propose a reversible jump MCMC algorithm which extends the data augmentation MCMC of Ju et al. (2022). We also propose a Monte Carlo EM algorithm to compute the MLE from privatized data in both bounded and unbounded DP. We apply our methodology to analyze a linear regression model as well as a 2019 American Time Use Survey Microdata File which we model using a Dirichlet distribution.",
+ "primary": "math.ST"
+}

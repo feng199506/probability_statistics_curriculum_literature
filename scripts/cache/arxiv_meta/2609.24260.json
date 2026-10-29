@@ -1,0 +1,16 @@
+{
+ "id": "2609.24260",
+ "title": "Adversarially Robust PAC Learning with Optimal VC Rates",
+ "authors": [
+  "Steve Hanneke",
+  "Amirreza Shaeiri"
+ ],
+ "v1_date": "2026-09-21",
+ "latest_version": 1,
+ "latest_date": "2026-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 2 figures",
+ "abstract": "We study the problem of \\emph{adversarially robust} PAC learning. In this framework, the learner observes independent samples from an unknown distribution over $\\mathcal{X} \\times \\{0,1\\}$, as in classical PAC learning. However, given a perturbation map $\\mathcal{U} : \\mathcal{X} \\to 2^{\\mathcal{X}}$ known to the learner, the goal is to output, with high probability, a predictor that correctly classifies \\emph{every} perturbation $z \\in \\mathcal{U}(x)$ of most future examples $(x,y)$ drawn from the same underlying distribution. We determine the \\emph{optimal} $\\mathcal{U}$-independent sample complexity of this problem in both the realizable and agnostic settings. More specifically, for every concept class $\\mathcal{H}$ of $\\operatorname{VC}$ dimension $d$, we prove upper bounds of $\\mathcal{O} \\big( d/ε+ \\log(1/δ)/ε\\big)$ in the realizable setting and $\\mathcal{O} \\big( d/ε^2 + \\log(1/δ)/ε^2 \\big)$ in the agnostic setting, together with an optimal first-order refinement of the latter. These bounds match the corresponding lower bounds for classical PAC learning. Consequently, and perhaps surprisingly, adversarial robustness incurs \\emph{no additional} distribution-free statistical cost, uniformly over all perturbation maps. Our bounds improve exponentially on those of [Montasser, Hanneke, and Srebro; COLT '19]. On the technical side, we present short and elementary proofs based on a new algorithmic principle that we call \\emph{binomial-bagging}. We believe that binomial-bagging and its analysis may be of independent interest.",
+ "primary": "stat.ML"
+}

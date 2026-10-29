@@ -1,0 +1,19 @@
+{
+ "id": "2609.39905",
+ "title": "Is the regression $F$-test doubly robust?",
+ "authors": [
+  "Lucy Xia",
+  "Oliver Y. Feng",
+  "Yang Feng",
+  "Min Xu",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 1,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 2 figures",
+ "abstract": "We study the robustness of the $F$-test in random design linear models, and reach a somewhat nuanced conclusion. On the positive side, one of our main results is that the size of the test is close to its nominal level as soon as either the distribution of the normalised error vector is close to uniform on the unit sphere, or the design matrix, after applying a suitable column space-preserving orthogonalisation scheme, is close to being uniformly distributed. This provides a sense in which the $F$-test is doubly robust. Our conclusion is reached by establishing a Kolmogorov to Wasserstein distance Hölder continuity property controlling the departure of the $F$-statistic from its notional $F$-distribution under the null. Writing $n$, $p$ and $p_0$ for the sample size and the dimensions of the full and null models respectively, we prove that the Hölder exponent is $1/3$ when $\\min(p-p_0,n-p) = 1$ and $1/2$ when $\\min(p-p_0,n-p) \\geq 2$. On the other hand, these exponents are relatively small and cannot be improved in general, revealing that the size of the test may depart from its nominal level quite quickly as we move away from settings where the test is exact. In some cases, our conclusions may be improved by working with a local Kolmogorov distance that focuses on discrepancies between distribution functions in the right tail.",
+ "primary": "math.ST"
+}

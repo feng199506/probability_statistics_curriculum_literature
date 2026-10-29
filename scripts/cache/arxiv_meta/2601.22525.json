@@ -1,0 +1,16 @@
+{
+ "id": "2601.22525",
+ "title": "Group Sequential Methods for the Win Ratio",
+ "authors": [
+  "Tracy Bergemann",
+  "Tim Hanson"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 2 figures, 2 tables",
+ "abstract": "The win ratio is increasingly used in randomized trials due to its intuitive clinical interpretation, ability to incorporate the relative importance of composite endpoints, and its capacity for combining different types of outcomes (e.g. time-to-event, binary, counts, etc.) to be combined. There are open questions, however, about how to implement adaptive design approaches when the primary endpoint is a win ratio, including in group sequential designs. A key requirement allowing for straightforward application of classical group sequential methods is the independence of incremental interim test statistics. This paper derives the covariance structure of incremental U-statistics that evaluate the win ratio under its asymptotic distribution. The derived covariance shows that the independent increments assumption holds for the asymptotic distribution of U-statistics that test the win ratio. Simulations confirm that traditional $α$-spending preserves Type I error across interim looks. A retrospective look at the IN.PACT SFA clinical trial data illustrates the potential for stopping early in a group sequential design using the win ratio. We have demonstrated that straightforward use of Lan-De\\uppercase{M}ets $α$-spending is possible for randomized trials involving the win ratio under certain common conditions. Thus, existing software capable of computing traditional group sequential boundaries can be employed.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2410.22085",
+ "title": "Robust high-dimensional Gaussian and bootstrap approximations for trimmed sample means",
+ "authors": [
+  "Lucas Resende"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust mean estimation has largely focused on concentration guarantees under heavy tails and contamination. We study robustness from a different perspective: high-dimensional Gaussian and bootstrap approximations. We show that trimmed sample means admit Gaussian and bootstrap approximations under finite p-th moment assumptions, even in high-dimensional regimes and in the presence of adversarial contamination. Our bounds recover, up to the dependence on the moment parameter, the rates available for the empirical mean under light tails, while requiring substantially weaker moment assumptions. We further extend the Gaussian approximation to VC-subgraph classes and apply it to robust vector mean estimation under arbitrary norms, obtaining bounds with optimal Gaussian-width complexity. Finally, we develop uniform confidence intervals based on the bootstrap approximation and show empirically that they maintain coverage under heavy tails and adversarial contamination.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2312.16188",
+ "title": "The curious case of the test set AUROC",
+ "authors": [
+  "Michael Roberts",
+  "Alon Hazan",
+  "Sören Dittmer",
+  "James H. F. Rudd",
+  "Carola-Bibiane Schönlieb"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 pages, 4 figures",
+ "abstract": "Whilst the size and complexity of ML models have rapidly and significantly increased over the past decade, the methods for assessing their performance have not kept pace. In particular, among the many potential performance metrics, the ML community stubbornly continues to use (a) the area under the receiver operating characteristic curve (AUROC) for a validation and test cohort (distinct from training data) or (b) the sensitivity and specificity for the test data at an optimal threshold determined from the validation ROC. However, we argue that considering scores derived from the test ROC curve alone gives only a narrow insight into how a model performs and its ability to generalise.",
+ "primary": "cs.LG"
+}

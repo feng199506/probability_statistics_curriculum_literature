@@ -1,0 +1,16 @@
+{
+ "id": "2509.01924",
+ "title": "Non-Linear Model-Based Sequential Decision-Making in Agriculture",
+ "authors": [
+  "Sakshi Arya",
+  "Wentao Lin"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 4,
+ "latest_date": "2026-06-26",
+ "journal_ref": "Environmental Research Communications 8 (2026) 035016",
+ "doi": "10.1088/2515-7620/ae489e",
+ "comment": "",
+ "abstract": "Agricultural decision-making faces a dual challenge: sustaining high yields to meet global food security needs while reducing the environmental impacts of input use, including fertilizer losses and other agrochemical applications such as herbicides, insecticides, and fungicides. Nitrogen inputs are central to this tension. They are indispensable for crop growth yet major drivers of greenhouse gas emissions, nutrient runoff, and escalating production costs. Addressing these intertwined pressures requires adaptive decision-support tools that are statistically principled, economically sustainable and interpretable for practitioners. We develop nonlinear model-based bandit algorithms as a framework for adaptive fertilizer management under uncertainty. Building on classical mechanistic yield-response models, our approach links algorithmic exploration-exploitation strategies directly to interpretable biological processes such as maximum yield and nutrient efficiency. This grounding makes recommendations transparent for practitioners while supporting cost-effective and sustainable input use. Methodologically, we establish regret and sample complexity results for the well-specified nonlinear case, examine robustness under misspecification, and evaluate the proposed methods through profit-oriented simulations and an offline replay case study on publicly available multi-site corn nitrogen field trials from the U.S. Midwest. The results show that incorporating biologically meaningful mechanistic structure enables faster learning and higher profit as evidence accumulates, with flexible nonparametric baselines providing a competitive alternative in pooled and heterogeneous settings. Our findings illustrate how interpretable, uncertainty-aware sequential decision rules can support economically sustainable fertilizer recommendations and contribute to more efficient agricultural input use.",
+ "primary": "stat.ML"
+}

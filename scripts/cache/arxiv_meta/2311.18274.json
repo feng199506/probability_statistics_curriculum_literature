@@ -1,0 +1,17 @@
+{
+ "id": "2311.18274",
+ "title": "Semiparametric Efficient Inference in Adaptive Experiments",
+ "authors": [
+  "Thomas Cook",
+  "Alan Mishler",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 3,
+ "latest_date": "2024-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 6 figures. To appear at CLeaR 2024",
+ "abstract": "We consider the problem of efficient inference of the Average Treatment Effect in a sequential experiment where the policy governing the assignment of subjects to treatment or control can change over time. We first provide a central limit theorem for the Adaptive Augmented Inverse-Probability Weighted estimator, which is semiparametric efficient, under weaker assumptions than those previously made in the literature. This central limit theorem enables efficient inference at fixed sample sizes. We then consider a sequential inference setting, deriving both asymptotic and nonasymptotic confidence sequences that are considerably tighter than previous methods. These anytime-valid methods enable inference under data-dependent stopping times (sample sizes). Additionally, we use propensity score truncation techniques from the recent off-policy estimation literature to reduce the finite sample variance of our estimator without affecting the asymptotic variance. Empirical results demonstrate that our methods yield narrower confidence sequences than those previously developed in the literature while maintaining time-uniform error control.",
+ "primary": "stat.ML"
+}

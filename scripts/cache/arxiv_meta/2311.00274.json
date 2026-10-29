@@ -1,0 +1,16 @@
+{
+ "id": "2311.00274",
+ "title": "Generalization Bounds for Label Noise Stochastic Gradient Descent",
+ "authors": [
+  "Jung Eun Huh",
+  "Patrick Rebeschini"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 1,
+ "latest_date": "2023-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "We develop generalization error bounds for stochastic gradient descent (SGD) with label noise in non-convex settings under uniform dissipativity and smoothness conditions. Under a suitable choice of semimetric, we establish a contraction in Wasserstein distance of the label noise stochastic gradient flow that depends polynomially on the parameter dimension $d$. Using the framework of algorithmic stability, we derive time-independent generalisation error bounds for the discretized algorithm with a constant learning rate. The error bound we achieve scales polynomially with $d$ and with the rate of $n^{-2/3}$, where $n$ is the sample size. This rate is better than the best-known rate of $n^{-1/2}$ established for stochastic gradient Langevin dynamics (SGLD) -- which employs parameter-independent Gaussian noise -- under similar conditions. Our analysis offers quantitative insights into the effect of label noise.",
+ "primary": "stat.ML"
+}

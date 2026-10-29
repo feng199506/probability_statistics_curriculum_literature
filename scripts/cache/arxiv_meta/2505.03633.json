@@ -1,0 +1,18 @@
+{
+ "id": "2505.03633",
+ "title": "CUI-MET: Clinical Utility Index Dose Optimization Approach for Multiple-Dose, Multiple-Outcome Randomized Trial Designs",
+ "authors": [
+  "Fanni Zhang",
+  "Kristine Broglio",
+  "Michael Sweeting",
+  "Gina D'Angelo"
+ ],
+ "v1_date": "2025-05-06",
+ "latest_version": 1,
+ "latest_date": "2025-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 3 tables, 4 figures",
+ "abstract": "Dose optimization in oncology clinical trials has shifted from seeking the maximum tolerated dose to identifying the Optimal Biological Dose (OBD) that balances therapeutic benefits and risks across multiple clinical attributes. Existing advanced dose-finding methods can integrate multiple endpoints and compare dose levels but are often complex or computationally intensive, limiting their use in early-phase trials. To address these challenges, we propose the Clinical Utility Index Dose Optimization Approach for Multiple-dose Multiple-Outcome Randomized Trial Designs (CUI-MET). This framework integrates multiple binary endpoints using a clinical utility-based approach, calculating a combined clinical utility index (CUI) for each dose level by weighting endpoint responses. Both empirical and modeling methods can estimate marginal probabilities for each endpoint. These estimated probabilities are then combined using endpoint-specific weights to compute a utility score for each dose, and the dose with the highest score is selected as optimal. To enhance usability, we implemented these methods in an interactive R Shiny application and demonstrated their functionality through case examples. The framework's flexibility allows for different model selections and endpoint weighting schemes to reflect specific clinical priorities. Bootstrap analysis provides confidence intervals for the CUI and estimates the probability that each dose is selected as optimal, thereby evaluating the robustness of dose selection. By integrating multiple endpoints into a single utility index and incorporating user-friendly visualizations, CUI-MET offers a flexible and accessible solution for dose optimization in early-phase oncology trials, supporting informed decision-making and advancing patient-centered care.",
+ "primary": "stat.ME"
+}

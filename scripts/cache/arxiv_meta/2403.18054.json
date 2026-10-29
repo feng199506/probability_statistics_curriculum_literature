@@ -1,0 +1,15 @@
+{
+ "id": "2403.18054",
+ "title": "Modifying Gibbs sampling to avoid self transitions",
+ "authors": [
+  "Radford M. Neal"
+ ],
+ "v1_date": "2024-03-26",
+ "latest_version": 1,
+ "latest_date": "2024-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gibbs sampling repeatedly samples from the conditional distribution of one variable, x_i, given other variables, either choosing i randomly, or updating sequentially using some systematic or random order. When x_i is discrete, a Gibbs sampling update may choose a new value that is the same as the old value. A theorem of Peskun indicates that, when i is chosen randomly, a reversible method that reduces the probability of such self transitions, while increasing the probabilities of transitioning to each of the other values, will decrease the asymptotic variance of estimates. This has inspired two modified Gibbs sampling methods, originally due to Frigessi, et al and to Liu, though these do not always reduce self transitions to the minimum possible. Methods that do reduce the probability of self transitions to the minimum, but do not satisfy the conditions of Peskun's theorem, have also been devised, by Suwa and Todo. I review past methods, and introduce a broader class of reversible methods, based on what I call \"antithetic modification\", which also reduce asymptotic variance compared to Gibbs sampling, even when not satisfying the conditions of Peskun's theorem. A modification of one method in this class reduces self transitions to the minimum possible, while still always reducing asymptotic variance compared to Gibbs sampling. I introduce another new class of non-reversible methods based on slice sampling that can also minimize self transition probabilities. I provide explicit, efficient implementations of all these methods, and compare their performance in simulations of a 2D Potts model, a Bayesian mixture model, and a belief network with unobserved variables. The non-reversibility produced by sequential updating can be beneficial, but no consistent benefit is seen from the individual updates being done by a non-reversible method.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2607.23974",
+ "title": "Sharp Minimax Rates for Smooth Two-Sample Testing under Central Differential Privacy",
+ "authors": [
+  "Ilmun Kim"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 1,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We establish sharp minimax limits for two-sample testing of Hölder-smooth densities under central differential privacy. Given two independent samples, the goal is to decide whether the underlying distributions are identical or separated in $L_1$ distance, while releasing only an $\\varepsilon$-differentially private decision. We show that privacy changes the classical smooth-testing boundary through multiple regimes: the optimal separation radius is the maximum of four terms, consisting of the classical nonprivate rate and three distinct privacy-induced barriers. Which barrier is active depends on the privacy budget and the smoothness-to-dimension ratio, yielding a sharp phase diagram. Our upper bound discretizes the samples, applies a private discrete two-sample test to the resulting histograms, and chooses the bin resolution to balance approximation bias, sampling fluctuations, and privacy noise. The procedure also admits a permutation-calibrated implementation with finite-sample type~I error control. For the lower bounds, we combine smooth perturbation constructions with privacy-specific coupling and transport inequalities, showing that all four terms are unavoidable. Finally, when the smoothness is unknown, we develop a multiscale private test that attains the optimal adaptive rate and prove a matching lower bound. Adaptation costs exactly an iterated-logarithmic factor, and this cost appears only in the classical nonprivate term.",
+ "primary": "math.ST"
+}

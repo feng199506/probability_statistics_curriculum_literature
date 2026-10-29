@@ -1,0 +1,17 @@
+{
+ "id": "2510.27663",
+ "title": "Bayesian model selection and misspecification testing in imaging inverse problems only from noisy and partial measurements",
+ "authors": [
+  "Tom Sprunck",
+  "Marcelo Pereyra",
+  "Tobias Liaudat"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 3,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern imaging techniques heavily rely on Bayesian statistical models to address difficult image reconstruction and restoration tasks. This paper addresses the objective evaluation of such models in settings where ground truth is unavailable, with a focus on model selection and misspecification diagnosis. Existing unsupervised model evaluation methods are often unsuitable for computational imaging due to their high computational cost and incompatibility with modern image priors defined implicitly via machine learning models. We herein propose a general methodology for unsupervised model selection and misspecification detection in Bayesian imaging sciences, based on a novel combination of Bayesian cross-validation and data fission, a randomized measurement splitting technique. The approach is compatible with any Bayesian imaging sampler, including diffusion and plug-and-play samplers. We demonstrate the methodology through experiments involving various scoring rules and types of model misspecification, where we achieve excellent selection and detection accuracy with a low computational cost.",
+ "primary": "eess.IV"
+}

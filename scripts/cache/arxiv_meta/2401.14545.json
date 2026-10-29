@@ -1,0 +1,16 @@
+{
+ "id": "2401.14545",
+ "title": "Structural Periodic Vector Autoregressions",
+ "authors": [
+  "Daniel Dzikowski",
+  "Carsten Jentsch"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 2,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While seasonality inherent to raw macroeconomic data is commonly removed by seasonal adjustment techniques before it is used for structural inference, this may distort valuable information in the data. As an alternative method to commonly used structural vector autoregressions (SVARs) for seasonally adjusted data, we propose to model potential periodicity in seasonally unadjusted (raw) data directly by structural periodic vector autoregressions (SPVARs). This approach does not only allow for periodically time-varying intercepts, but also for periodic autoregressive parameters and innovations variances. As this larger flexibility leads to an increased number of parameters, we propose linearly constrained estimation techniques. Moreover, based on SPVARs, we provide two novel identification schemes and propose a general framework for impulse response analyses that allows for direct consideration of seasonal patterns. We provide asymptotic theory for SPVAR estimators and impulse responses under flexible linear restrictions and introduce a test for seasonality in impulse responses. For the construction of confidence intervals, we discuss several residual-based (seasonal) bootstrap methods and prove their bootstrap consistency under different assumptions. A real data application shows that useful information about the periodic structure in the data may be lost when relying on common seasonal adjustment methods.",
+ "primary": "econ.EM"
+}

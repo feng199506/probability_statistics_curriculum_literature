@@ -1,0 +1,15 @@
+{
+ "id": "2508.15976",
+ "title": "Bayesimax Theory: Selecting Priors by Minimizing Total Information",
+ "authors": [
+  "Sitaram Vangala"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 2,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages",
+ "abstract": "We introduce Bayesimax theory, a paradigm for objective Bayesian analysis which selects priors by applying minimax theory to prior disclosure games. In these games, the uniquely optimal strategy for a Bayesian agent upon observing the data is to reveal their prior. As such, the prior chosen by minimax theory is, in effect, the implicit prior of minimax agents. Since minimax analysis disregards prior information, this prior is arguably noninformative. We refer to minimax solutions of certain prior disclosure games as Bayesimax priors, and we classify a statistical procedure as Bayesimax if it is a Bayes rule with respect to a Bayesimax prior. Under regular conditions, if a decision rule is minimax, then it is a Bayes rule under priors which maximize the minimum Bayes risk. We study games leveraging strictly proper scoring rules to induce posterior (and thereby prior) revelation. In such games, the minimum Bayes risk equals the conditional (generalized) entropy of the parameter given the data. Bayesimax theory therefore prescribes conditional entropy maximization. As conditional entropy equals marginal entropy (prior uninformativeness) minus mutual information (data informativeness), Bayesimax priors effectively minimize total information. We provide a rigorous formulation of these ideas, characterize sufficient conditions for regularity and identifiability, and investigate asymptotics and conjugate family examples. We next describe a generic Monte Carlo algorithm for estimating conditional entropy under a given prior. Finally, we compare and contrast Bayesimax theory with various related proposals from the objective Bayes and robust Bayes literature.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2511.01103",
+ "title": "Nonparametric Least Squares Estimators for Interval Censoring",
+ "authors": [
+  "Piet Groeneboom"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 5,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 8 figures",
+ "abstract": "The limit distribution of the nonparametric maximum likelihood estimator for interval censored data with more than one observation time per unobservable observation, is still unknown in general. For the so-called separated case, where one has observation times which are at a distance larger than a fixed positive epsilon, the limit distribution was derived in [5]. For the non-separated case there is a conjectured limit distribution, given in [10], Section 5.2 of Part 2. Whether this conjecture holds is still unknown, but the present paper shows that for sample sizes 1000 and 10,000 this limit behavior is still not clearly seen. We prove consistency of a related nonparametric isotonic least squares estimator and sketch of the proof for its limit distribution. We also provide simulation results to show how the nonparametric MLE and least squares estimator behave in comparison. Moreover, we discuss a simpler least squares estimator that can be computed in one step, but is inferior to the other least squares estimator, since it does not use all information. For the simplest model of interval censoring, the current status model, the nonparametric maximum likelihood and least squares estimators are the same. This equivalence breaks down if there are more observation times per unobservable observation. The computations for the simulation of the more complicated interval censoring model were performed by using the iterative convex minorant algorithm. They are provided in the GitHub repository [7].",
+ "primary": "math.ST"
+}

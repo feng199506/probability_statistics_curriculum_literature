@@ -1,0 +1,16 @@
+{
+ "id": "2607.03391",
+ "title": "Power and Limits of Subset Selection in Statistical Estimation",
+ "authors": [
+  "Dina Barak-Pelleg",
+  "Daniel Berend"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages",
+ "abstract": "We study the power and limitations of subset selection in statistical estimation through the framework of \\emph{super-teaching}, where a teacher selects a subset of i.i.d. data to optimize a learner's estimator. Unlike prior work focused on specific distributions or fixed subset sizes, we develop a general theory under minimal assumptions. For mean estimation, we prove that super-teaching is possible for any distribution whose density is bounded away from zero in some neighborhood of the mean, allowing subset sizes growing as $k = o(n^{1/3})$ and achieving error on the order of roughly $k!/n^{k}$. This significantly extends existing results on admissible distributions and subset scaling. We also extend the analysis to parameters expressed as smooth functionals of expectations, such as variance and scale parameters in classical parametric families, including settings with heavy tails. Moreover, we show that super-teaching can greatly improve estimation rates for nonlinear estimators like the sample median, achieving rates beyond classical asymptotics. Through examples, including cases where maximum likelihood estimators are inconsistent or fail to be asymptotically normal, we demonstrate that super-teaching can succeed even when standard statistical guarantees break down. Our results establish a unified theory of data selection to enhance statistical efficiency.",
+ "primary": "math.ST"
+}

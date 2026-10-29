@@ -1,0 +1,17 @@
+{
+ "id": "2605.21535",
+ "title": "An Old Look at Empirical Bayes",
+ "authors": [
+  "Nicholas G. Polson",
+  "Vadim O. Sokolov",
+  "Daniel Zantedeschi"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages",
+ "abstract": "Dennis Lindley once said that there is only one thing worse than a frequentist, and that is an empirical Bayesian. The quip has the air of caricature, but its technical content is serious: empirical Bayes uses the same data twice, conflates levels of a hierarchy, and produces posterior-shaped summaries whose uncertainty quantification differs from what a fully hierarchical model delivers. David Blei's 2026 IMS Medallion Lecture, \"A Fresh Look at Empirical Bayes,\" revives the program under three new banners: empirical Bayes via probabilistic symmetries (rebranded \"Bayesian empirical Bayes\"), empirical Bayes with implicit likelihoods through simulation-based inference, and empirical Bayes for combining experimental and observational data through calibration studies. This is a continuation of Blei and Kucukelbir's earlier \"population empirical Bayes\" (PopEB, 2015). We argue, in the spirit of Lindley, I. J. Good, William DuMouchel, Thomas Louis, and our own recent work with Datta, that Blei's machinery targets inferential objects distinct from the posterior conditional on the realized data, and that the cost of maintaining the full hierarchical discipline has fallen low enough that the computational trade-off no longer favors the shortcut. The case study is the Tweedie formula. Efron's f-modeling empirical Bayes plugs an estimated score function into a posterior-mean identity, but a smoothed score need not arise from any prior. The horseshoe Tweedie formula does. We conclude by recommending that the impressive computational machinery of modern empirical Bayes (variational inference, neural amortization, simulation-based inference) be redeployed in service of properly hierarchical Bayes.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.08258",
+ "title": "Perturbation-based Inference for Extreme Value Index",
+ "authors": [
+  "Yiwei Tang",
+  "Judy Huixia Wang",
+  "Deyuan Li"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The extreme value index (EVI) characterizes the tail behavior of a distribution and is crucial for extreme value theory. Inference on the EVI is challenging due to data scarcity in the tail region. We propose a novel method for constructing confidence intervals for the EVI using synthetic exceedances generated via perturbation. Rather than perturbing the entire sample, we add noise to exceedances above a high threshold and apply the generalized Pareto distribution (GPD) approximation. Confidence intervals are derived by simulating the distribution of pivotal statistics from the perturbed data. We show that the pivotal statistic is consistent, ensuring the proposed method provides consistent intervals for the EVI. Additionally, we demonstrate that the perturbed data is differentially private. When the GPD approximation is inadequate, we introduce a refined perturbation method. Simulation results show that our approach outperforms existing methods, providing robust and reliable inference.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.08332",
+ "title": "High-dimensional Clustering and Signal Recovery under Block Signals",
+ "authors": [
+  "Wu Su",
+  "Yumou Qiu"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 1,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies computationally efficient methods and their minimax optimality for high-dimensional clustering and signal recovery under block signal structures. We propose two sets of methods, cross-block feature aggregation PCA (CFA-PCA) and moving average PCA (MA-PCA), designed for sparse and dense block signals, respectively. Both methods adaptively utilize block signal structures, applicable to non-Gaussian data with heterogeneous variances and non-diagonal covariance matrices. Specifically, the CFA method utilizes a block-wise U-statistic to aggregate and select block signals non-parametrically from data with unknown cluster labels. We show that the proposed methods are consistent for both clustering and signal recovery under mild conditions and weaker signal strengths than the existing methods without considering block structures of signals. Furthermore, we derive both statistical and computational minimax lower bounds (SMLB and CMLB) for high-dimensional clustering and signal recovery under block signals, where the CMLBs are restricted to algorithms with polynomial computation complexity. The minimax boundaries partition signals into regions of impossibility and possibility. No algorithm (or no polynomial time algorithm) can achieve consistent clustering or signal recovery if the signals fall into the statistical (or computational) region of impossibility. We show that the proposed CFA-PCA and MA-PCA methods can achieve the CMLBs for the sparse and dense block signal regimes, respectively, indicating the proposed methods are computationally minimax optimal. A tuning parameter selection method is proposed based on post-clustering signal recovery results. Simulation studies are conducted to evaluate the proposed methods. A case study on global temperature change demonstrates their utility in practice.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.01811",
+ "title": "On regional treatment effect assessment using robust MAP priors",
+ "authors": [
+  "Xin Zhang",
+  "Hui Zhang",
+  "Satrajit Roychoudhury"
+ ],
+ "v1_date": "2026-01-05",
+ "latest_version": 1,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian dynamic borrowing has become an increasingly important tool for evaluating the consistency of regional treatment effects which is a key requirement for local regulatory approval of a new drug. It helps increase the precision of regional treatment effect estimate when regional and global data are similar, while guarding against potential bias when they differ. In practice, the two-component mixture prior, of which one mixture component utilizes the power prior to incorporate external data, is widely used. It allows convenient prior specification, analytical posterior computation, and fast evaluation of operating characteristics. Though the robust meta-analytical-predictive (MAP) prior is broadly used with multiple external data sources, it remains underutilized for regional treatment effect assessment (typically only one external data source is available) due to its inherit complexity in prior specification and posterior computation. In this article, we illustrate the applicability of the robust MAP prior in the regional treatment effect assessment by developing a closed-form approximation for its posterior distribution while leveraging its relationship with the power prior. The proposed methodology substantially reduces the computational burden of identifying prior parameters for desired operating characteristics. Moreover, we have demonstrated that the MAP prior is an attractive choice to construct the informative component of the mixture prior compared to the power prior. The advantage can be explained through a Bayesian hypothesis testing perspective. Using a real-world example, we illustrate how our proposed method enables efficient and transparent development of a Bayesian dynamic borrowing design to show regional consistency.",
+ "primary": "stat.ME"
+}

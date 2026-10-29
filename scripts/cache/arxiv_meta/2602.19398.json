@@ -1,0 +1,17 @@
+{
+ "id": "2602.19398",
+ "title": "Variable selection via knockoffs for clustered data",
+ "authors": [
+  "Silvia Bacci",
+  "Leonardo Grilli",
+  "Carla Rampichini"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, under submission",
+ "abstract": "We extend the knockoffs method for selecting predictors to clustered data (cross-sectional or repeated measures). In the setting of clustered data, variable selection is complex because some predictors are measured at the observation level (level 1), whereas others are measured at the cluster level (level 2), so their values are constant within clusters. The solution we propose is to conduct variable selection separately at the two levels. To this end, we suggest a two-step approach: (i) decompose each level 1 predictor into level 2 and level 1 components by replacing it with the cluster mean and the deviation from the cluster mean; (ii) perform variable selection separately at the two levels, where the level 1 data matrix includes the deviations from the cluster means and the level 2 data matrix includes the cluster means of level 1 predictors and the level 2 predictors. To evaluate the performance of the proposed approach, we conduct a simulation study comparing the sequential knockoff, the derandomized knockoff, and the Lasso. The study shows satisfactory results in terms of false discovery rate and power. All methods fail when applied to the complete data matrix, including both level 1 and level 2 predictors. In contrast, all methods perform better when applied to the level 1 and level 2 data matrices separately. Moreover, the sequential knockoffs method performs substantially better than the Lasso and the derandomized knockoffs. Our proposal to implement the knockoffs method in a clustered data framework is feasible, flexible, and effective.",
+ "primary": "stat.ME"
+}

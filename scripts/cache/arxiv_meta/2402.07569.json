@@ -1,0 +1,18 @@
+{
+ "id": "2402.07569",
+ "title": "EM Estimation of the B-Spline Copula with Penalized Pseudo-Likelihood Functions",
+ "authors": [
+  "Xiaoling Dou",
+  "Satoshi Kuriki",
+  "Gwo Dong Lin",
+  "Donald Richards"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 2,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The B-spline copula function is defined by a linear combination of elements of the normalized B-spline basis. We develop a modified EM algorithm, to maximize the penalized pseudo-likelihood function, wherein we use the smoothly clipped absolute deviation (SCAD) penalty function for the penalization term. We conduct simulation studies to demonstrate the stability of the proposed numerical procedure, show that penalization yields estimates with smaller mean-square errors when the true parameter matrix is sparse, and provide methods for determining tuning parameters and for model selection. We analyze as an example a data set consisting of birth and death rates from 237 countries, available at the website, ''Our World in Data,'' and we estimate the marginal density and distribution functions of those rates together with all parameters of our B-spline copula model.",
+ "primary": "stat.ME"
+}

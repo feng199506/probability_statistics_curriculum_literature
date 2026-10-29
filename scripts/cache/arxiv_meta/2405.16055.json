@@ -1,0 +1,19 @@
+{
+ "id": "2405.16055",
+ "title": "Federated Learning for Non-factorizable Models using Deep Generative Prior Approximations",
+ "authors": [
+  "Conor Hassan",
+  "Joshua J Bon",
+  "Elizaveta Semenova",
+  "Antonietta Mira",
+  "Kerrie Mengersen"
+ ],
+ "v1_date": "2024-05-25",
+ "latest_version": 1,
+ "latest_date": "2024-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 7 figures, 2 tables",
+ "abstract": "Federated learning (FL) allows for collaborative model training across decentralized clients while preserving privacy by avoiding data sharing. However, current FL methods assume conditional independence between client models, limiting the use of priors that capture dependence, such as Gaussian processes (GPs). We introduce the Structured Independence via deep Generative Model Approximation (SIGMA) prior which enables FL for non-factorizable models across clients, expanding the applicability of FL to fields such as spatial statistics, epidemiology, environmental science, and other domains where modeling dependencies is crucial. The SIGMA prior is a pre-trained deep generative model that approximates the desired prior and induces a specified conditional independence structure in the latent variables, creating an approximate model suitable for FL settings. We demonstrate the SIGMA prior's effectiveness on synthetic data and showcase its utility in a real-world example of FL for spatial data, using a conditional autoregressive prior to model spatial dependence across Australia. Our work enables new FL applications in domains where modeling dependent data is essential for accurate predictions and decision-making.",
+ "primary": "stat.ML"
+}

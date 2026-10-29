@@ -1,0 +1,17 @@
+{
+ "id": "2311.06719",
+ "title": "Efficient Multiple-Robust Estimation for Nonresponse Data Under Informative Sampling",
+ "authors": [
+  "Kosuke Morikawa",
+  "Kenji Beppu",
+  "Wataru Aida"
+ ],
+ "v1_date": "2023-11-12",
+ "latest_version": 2,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 figures",
+ "abstract": "Nonresponse after probability sampling is a universal challenge in survey sampling, often necessitating adjustments to mitigate sampling and selection bias simultaneously. This study explored the removal of bias and effective utilization of available information, not just in nonresponse but also in the scenario of data integration, where summary statistics from other data sources are accessible. We reformulate these settings within a two-step monotone missing data framework, where the first step of missingness arises from sampling and the second originates from nonresponse. Subsequently, we derive the semiparametric efficiency bound for the target parameter. We also propose adaptive estimators utilizing methods of moments and empirical likelihood approaches to attain the lower bound. The proposed estimator exhibits both efficiency and double robustness. However, attaining efficiency with an adaptive estimator requires the correct specification of certain working models. To reinforce robustness against the misspecification of working models, we extend the property of double robustness to multiple robustness by proposing a two-step empirical likelihood method that effectively leverages empirical weights. A numerical study is undertaken to investigate the finite-sample performance of the proposed methods. We further applied our methods to a dataset from the National Health and Nutrition Examination Survey data by efficiently incorporating summary statistics from the National Health Interview Survey data.",
+ "primary": "stat.ME"
+}

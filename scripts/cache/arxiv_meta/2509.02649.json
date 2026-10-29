@@ -1,0 +1,18 @@
+{
+ "id": "2509.02649",
+ "title": "Fast kernel methods: Sobolev, physics-informed, and additive models",
+ "authors": [
+  "Nathan Doumèche",
+  "Francis Bach",
+  "Gérard Biau",
+  "Claire Boyer"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 1,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel methods are powerful tools in statistical learning, but their cubic complexity in the sample size n limits their use on large-scale datasets. In this work, we introduce a scalable framework for kernel regression with O(n log n) complexity, fully leveraging GPU acceleration. The approach is based on a Fourier representation of kernels combined with non-uniform fast Fourier transforms (NUFFT), enabling exact, fast, and memory-efficient computations. We instantiate our framework in three settings: Sobolev kernel regression, physics-informed regression, and additive models. When known, the proposed estimators are shown to achieve minimax convergence rates, consistent with classical kernel theory. Empirical results demonstrate that our methods can process up to tens of billions of samples within minutes, providing both statistical accuracy and computational scalability. These contributions establish a flexible approach, paving the way for the routine application of kernel methods in large-scale learning tasks.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.11282",
+ "title": "Outrigger local polynomial regression",
+ "authors": [
+  "Elliot H. Young",
+  "Rajen D. Shah",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard local polynomial estimators of a nonparametric regression function employ a weighted least squares loss function that is tailored to the setting of homoscedastic Gaussian errors. We introduce the outrigger local polynomial estimator, which is designed to achieve distributional adaptivity across different conditional error distributions. It modifies a standard local polynomial estimator by employing an estimate of the conditional score function of the errors and an 'outrigger' that draws on the data in a broader local window to stabilise the influence of the conditional score estimate. Subject to smoothness and moment conditions, and only requiring consistency of the conditional score estimate, we first establish that even under the least favourable settings for the outrigger estimator, the asymptotic ratio of the worst-case local risks of the two estimators is at most $1$, with equality if and only if the conditional error distribution is Gaussian. Moreover, we prove that the outrigger estimator is minimax optimal over Hölder classes up to a multiplicative factor $A_{β,d}$, depending only on the smoothness $β\\in (0,\\infty)$ of the regression function and the dimension~$d$ of the covariates. When $β\\in (0,1]$, we find that $A_{β,d} \\leq 1.69$, with $\\lim_{β\\searrow 0} A_{β,d} = 1$. A further attraction of our proposal is that we do not require structural assumptions such as independence of errors and covariates, or symmetry of the conditional error distribution. Numerical results on simulated and real data validate our theoretical findings; our methodology is implemented in R and available at https://github.com/elliot-young/outrigger.",
+ "primary": "stat.ME"
+}

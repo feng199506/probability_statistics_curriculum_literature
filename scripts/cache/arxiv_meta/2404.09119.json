@@ -1,0 +1,19 @@
+{
+ "id": "2404.09119",
+ "title": "Causal Inference for Genomic Data with Multiple Heterogeneous Outcomes",
+ "authors": [
+  "Jin-Hong Du",
+  "Zhenghao Zeng",
+  "Edward H. Kennedy",
+  "Larry Wasserman",
+  "Kathryn Roeder"
+ ],
+ "v1_date": "2024-04-14",
+ "latest_version": 4,
+ "latest_date": "2025-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages and 5 figures for the main text, 34 pages and 3 figures for the supplement",
+ "abstract": "With the evolution of single-cell RNA sequencing techniques into a standard approach in genomics, it has become possible to conduct cohort-level causal inferences based on single-cell-level measurements. However, the individual gene expression levels of interest are not directly observable; instead, only repeated proxy measurements from each individual's cells are available, providing a derived outcome to estimate the underlying outcome for each of many genes. In this paper, we propose a generic semiparametric inference framework for doubly robust estimation with multiple derived outcomes, which also encompasses the usual setting of multiple outcomes when the response of each unit is available. To reliably quantify the causal effects of heterogeneous outcomes, we specialize the analysis to standardized average treatment effects and quantile treatment effects. Through this, we demonstrate the use of the semiparametric inferential results for doubly robust estimators derived from both Von Mises expansions and estimating equations. A multiple testing procedure based on Gaussian multiplier bootstrap is tailored for doubly robust estimators to control the false discovery exceedance rate. Applications in single-cell CRISPR perturbation analysis and individual-level differential expression analysis demonstrate the utility of the proposed methods and offer insights into the usage of different estimands for causal inference in genomics.",
+ "primary": "stat.ME"
+}

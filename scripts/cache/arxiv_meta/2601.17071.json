@@ -1,0 +1,18 @@
+{
+ "id": "2601.17071",
+ "title": "Superpixel-Based Image Segmentation Using Squared 2-Wasserstein Distances",
+ "authors": [
+  "Jisui Huang",
+  "Andreas Alpers",
+  "Ke Chen",
+  "Na Lei"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 2,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages",
+ "abstract": "We present an efficient method for image segmentation in the presence of strong intensity inhomogeneities. The approach combines two levels of clustering: pixels are first grouped into superpixels using Power-SLIC, which admits a discrete optimal transport (OT) interpretation, and these superpixels are subsequently merged using squared 2-Wasserstein distances between their empirical distributions. We formulate the merging process as an adjacency-constrained hierarchical optimization problem with a regularized objective that accounts for the heterogeneities of previously formed regions. We establish NP-completeness of the associated global optimization problem, even for two final regions and two-bin histograms. For the proposed greedy algorithm, we prove exact recovery under suitable histogram separation conditions and derive an additive approximation bound for the regularized energy. Numerical experiments demonstrate competitive segmentation accuracy on images exhibiting substantial intensity inhomogeneity, while retaining computational efficiency.",
+ "primary": "cs.CV"
+}

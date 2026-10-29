@@ -1,0 +1,15 @@
+{
+ "id": "2406.09183",
+ "title": "Ridge interpolators in correlated factor regression models -- exact risk analysis",
+ "authors": [
+  "Mihailo Stojnic"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 1,
+ "latest_date": "2024-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider correlated \\emph{factor} regression models (FRM) and analyze the performance of classical ridge interpolators. Utilizing powerful \\emph{Random Duality Theory} (RDT) mathematical engine, we obtain \\emph{precise} closed form characterizations of the underlying optimization problems and all associated optimizing quantities. In particular, we provide \\emph{excess prediction risk} characterizations that clearly show the dependence on all key model parameters, covariance matrices, loadings, and dimensions. As a function of the over-parametrization ratio, the generalized least squares (GLS) risk also exhibits the well known \\emph{double-descent} (non-monotonic) behavior. Similarly to the classical linear regression models (LRM), we demonstrate that such FRM phenomenon can be smoothened out by the optimally tuned ridge regularization. The theoretical results are supplemented by numerical simulations and an excellent agrement between the two is observed. Moreover, we note that ``ridge smootenhing'' is often of limited effect already for over-parametrization ratios above $5$ and of virtually no effect for those above $10$. This solidifies the notion that one of the recently most popular neural networks paradigms -- \\emph{zero-training (interpolating) generalizes well} -- enjoys wider applicability, including the one within the FRM estimation/prediction context.",
+ "primary": "stat.ML"
+}

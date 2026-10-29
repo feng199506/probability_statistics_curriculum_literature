@@ -1,0 +1,18 @@
+{
+ "id": "2311.08442",
+ "title": "Mean-field variational inference with the TAP free energy: Geometric and statistical properties in linear models",
+ "authors": [
+  "Michael Celentano",
+  "Zhou Fan",
+  "Licong Lin",
+  "Song Mei"
+ ],
+ "v1_date": "2023-11-14",
+ "latest_version": 1,
+ "latest_date": "2023-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "79 pages, 5 figures",
+ "abstract": "We study mean-field variational inference in a Bayesian linear model when the sample size n is comparable to the dimension p. In high dimensions, the common approach of minimizing a Kullback-Leibler divergence from the posterior distribution, or maximizing an evidence lower bound, may deviate from the true posterior mean and underestimate posterior uncertainty. We study instead minimization of the TAP free energy, showing in a high-dimensional asymptotic framework that it has a local minimizer which provides a consistent estimate of the posterior marginals and may be used for correctly calibrated posterior inference. Geometrically, we show that the landscape of the TAP free energy is strongly convex in an extensive neighborhood of this local minimizer, which under certain general conditions can be found by an Approximate Message Passing (AMP) algorithm. We then exhibit an efficient algorithm that linearly converges to the minimizer within this local neighborhood. In settings where it is conjectured that no efficient algorithm can find this local neighborhood, we prove analogous geometric properties for a local minimizer of the TAP free energy reachable by AMP, and show that posterior inference based on this minimizer remains correctly calibrated.",
+ "primary": "math.ST"
+}

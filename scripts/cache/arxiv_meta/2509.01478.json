@@ -1,0 +1,16 @@
+{
+ "id": "2509.01478",
+ "title": "Handling Sparse Non-negative Data in Finance",
+ "authors": [
+  "Agostino Capponi",
+  "Zhaonan Qu"
+ ],
+ "v1_date": "2025-09-01",
+ "latest_version": 1,
+ "latest_date": "2025-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We show that Poisson regression, though often recommended over log-linear regression for modeling count and other non-negative variables in finance and economics, can be far from optimal when heteroskedasticity and sparsity -- two common features of such data -- are both present. We propose a general class of moment estimators, encompassing Poisson regression, that balances the bias-variance trade-off under these conditions. A simple cross-validation procedure selects the optimal estimator. Numerical simulations and applications to corporate finance data reveal that the best choice varies substantially across settings and often departs from Poisson regression, underscoring the need for a more flexible estimation framework.",
+ "primary": "econ.EM"
+}

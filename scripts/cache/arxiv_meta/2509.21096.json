@@ -1,0 +1,16 @@
+{
+ "id": "2509.21096",
+ "title": "Overidentification testing with weak instruments and heteroskedasticity",
+ "authors": [
+  "Stuart Lane",
+  "Frank Windmeijer"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages",
+ "abstract": "Exogeneity is key for IV estimators, which can assessed via overidentification (OID) tests. We discuss the Kleibergen-Paap (KP) rank test as a heteroskedasticity-robust OID test and compare to the typical J-test. We derive the heteroskedastic weak-instrument limiting distributions for J and KP as special cases of the robust score test estimated via 2SLS and LIML respectively. Monte Carlo simulations show that KP usually performs better than J, which is prone to severe size distortions. Test size depends on model parameters not consistently estimable with weak instruments, so a conservative approach is recommended. This generalises recommendations to use LIML-based OID tests under homoskedasticity. We then revisit the classic problem of estimating the elasticity of intertemporal substitution (EIS) in lifecycle consumption models. Lagged macroeconomic indicators should provide naturally valid but frequently weak instruments. The literature provides a wide range of estimates for this parameter, and J frequently rejects the null of valid instruments. J often rejects the null whereas KP does not; we suggest that J over-rejects, sometimes severely. We argue that KP-test should be used over the J-test. We also argue that instrument invalidity/misspecification is unlikely the cause of the range of EIS estimates in the literature.",
+ "primary": "econ.EM"
+}

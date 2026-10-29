@@ -1,0 +1,16 @@
+{
+ "id": "2408.09532",
+ "title": "Deep Limit Model-free Prediction in Regression",
+ "authors": [
+  "Kejin Wu",
+  "Dimitris N. Politis"
+ ],
+ "v1_date": "2024-08-18",
+ "latest_version": 3,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we provide a novel Model-free approach based on Deep Neural Network (DNN) to accomplish point prediction and prediction interval under a general regression setting. Usually, people rely on parametric or non-parametric models to bridge dependent and independent variables (Y and X). However, this classical method relies heavily on the correct model specification. Even for the non-parametric approach, some additive form is often assumed. A newly proposed Model-free prediction principle sheds light on a prediction procedure without any model assumption. Previous work regarding this principle has shown better performance than other standard alternatives. Recently, DNN, one of the machine learning methods, has received increasing attention due to its great performance in practice. Guided by the Model-free prediction idea, we attempt to apply a fully connected forward DNN to map X and some appropriate reference random variable Z to Y. The targeted DNN is trained by minimizing a specially designed loss function so that the randomness of Y conditional on X is outsourced to Z through the trained DNN. Our method is more stable and accurate compared to other DNN-based counterparts, especially for optimal point predictions. With a specific prediction procedure, our prediction interval can capture the estimation variability so that it can render a better coverage rate for finite sample cases. The superior performance of our method is verified by simulation and empirical studies.",
+ "primary": "stat.ML"
+}

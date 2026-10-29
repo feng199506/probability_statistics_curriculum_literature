@@ -1,0 +1,16 @@
+{
+ "id": "2409.10678",
+ "title": "Learning with Sparsely Permuted Data: A Robust Bayesian Approach",
+ "authors": [
+  "Abhisek Chakraborty",
+  "Saptati Datta"
+ ],
+ "v1_date": "2024-09-16",
+ "latest_version": 1,
+ "latest_date": "2024-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data dispersed across multiple files are commonly integrated through probabilistic linkage methods, where even minimal error rates in record matching can significantly contaminate subsequent statistical analyses. In regression problems, we examine scenarios where the identifiers of predictors or responses are subject to an unknown permutation, challenging the assumption of correspondence. Many emerging approaches in the literature focus on sparsely permuted data, where only a small subset of pairs ($k << n$) are affected by the permutation, treating these permuted entries as outliers to restore original correspondence and obtain consistent estimates of regression parameters. In this article, we complement the existing literature by introducing a novel generalized robust Bayesian formulation of the problem. We develop an efficient posterior sampling scheme by adapting the fractional posterior framework and addressing key computational bottlenecks via careful use of discrete optimal transport and sampling in the space of binary matrices with fixed margins. Further, we establish new posterior contraction results within this framework, providing theoretical guarantees for our approach. The utility of the proposed framework is demonstrated via extensive numerical experiments.",
+ "primary": "math.ST"
+}

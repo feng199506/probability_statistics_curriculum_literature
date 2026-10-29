@@ -1,0 +1,21 @@
+{
+ "id": "2403.07657",
+ "title": "Scalable Spatiotemporal Prediction with Bayesian Neural Fields",
+ "authors": [
+  "Feras Saad",
+  "Jacob Burnim",
+  "Colin Carroll",
+  "Brian Patton",
+  "Urs Köster",
+  "Rif A. Saurous",
+  "Matthew Hoffman"
+ ],
+ "v1_date": "2024-03-12",
+ "latest_version": 3,
+ "latest_date": "2024-11-26",
+ "journal_ref": "Nature Communications 15(7942), 2024",
+ "doi": "10.1038/s41467-024-51477-5",
+ "comment": "29 pages, 7 figures, 2 tables, 1 listing",
+ "abstract": "Spatiotemporal datasets, which consist of spatially-referenced time series, are ubiquitous in diverse applications, such as air pollution monitoring, disease tracking, and cloud-demand forecasting. As the scale of modern datasets increases, there is a growing need for statistical methods that are flexible enough to capture complex spatiotemporal dynamics and scalable enough to handle many observations. This article introduces the Bayesian Neural Field (BayesNF), a domain-general statistical model that infers rich spatiotemporal probability distributions for data-analysis tasks including forecasting, interpolation, and variography. BayesNF integrates a deep neural network architecture for high-capacity function estimation with hierarchical Bayesian inference for robust predictive uncertainty quantification. Evaluations against prominent baselines show that BayesNF delivers improvements on prediction problems from climate and public health data containing tens to hundreds of thousands of measurements. Accompanying the paper is an open-source software package (https://github.com/google/bayesnf) that runs on GPU and TPU accelerators through the JAX machine learning platform.",
+ "primary": "cs.LG"
+}

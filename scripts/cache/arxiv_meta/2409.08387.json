@@ -1,0 +1,17 @@
+{
+ "id": "2409.08387",
+ "title": "Foundation of Calculating Normalized Maximum Likelihood for Continuous Probability Models",
+ "authors": [
+  "Atsushi Suzuki",
+  "Kota Fukuzawa",
+  "Kenji Yamanishi"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 1,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The normalized maximum likelihood (NML) code length is widely used as a model selection criterion based on the minimum description length principle, where the model with the shortest NML code length is selected. A common method to calculate the NML code length is to use the sum (for a discrete model) or integral (for a continuous model) of a function defined by the distribution of the maximum likelihood estimator. While this method has been proven to correctly calculate the NML code length of discrete models, no proof has been provided for continuous cases. Consequently, it has remained unclear whether the method can accurately calculate the NML code length of continuous models. In this paper, we solve this problem affirmatively, proving that the method is also correct for continuous cases. Remarkably, completing the proof for continuous cases is non-trivial in that it cannot be achieved by merely replacing the sums in discrete cases with integrals, as the decomposition trick applied to sums in the discrete model case proof is not applicable to integrals in the continuous model case proof. To overcome this, we introduce a novel decomposition approach based on the coarea formula from geometric measure theory, which is essential to establishing our proof for continuous cases.",
+ "primary": "math.ST"
+}

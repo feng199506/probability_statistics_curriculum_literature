@@ -1,0 +1,17 @@
+{
+ "id": "2405.00626",
+ "title": "SARMA: Scalable Low-Rank High-Dimensional Autoregressive Moving Averages via Tensor Decomposition",
+ "authors": [
+  "Feiqing Huang",
+  "Kexin Lu",
+  "Yao Zheng"
+ ],
+ "v1_date": "2024-05-01",
+ "latest_version": 2,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing models for high-dimensional time series are overwhelmingly developed within the finite-order vector autoregressive (VAR) framework. However, the more flexible vector autoregressive moving averages (VARMA) have been much less considered. This paper introduces a Tucker-low-rank framework to efficiently capture VARMA-type dynamics for high-dimensional time series, named the Scalable ARMA (SARMA) model. It generalizes the Tucker-low-rank finite-order VAR model to the infinite-order case via flexible parameterizations of the AR coefficient tensor along the temporal dimension. The resulting model enables dynamic factor extraction across response and predictor variables, facilitating interpretation of group patterns. Additionally, we consider sparsity assumptions on the factor loadings to accomplish automatic variable selection and greater estimation efficiency. Both rank-constrained and sparsity-inducing estimators are developed for the proposed model, along with algorithms and model selection methods. The validity of our theory and empirical advantages of our approach are confirmed by simulation studies and real data examples.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2312.01692",
+ "title": "Risk-Controlling Model Selection via Guided Bayesian Optimization",
+ "authors": [
+  "Bracha Laufer-Goldshtein",
+  "Adam Fisch",
+  "Regina Barzilay",
+  "Tommi Jaakkola"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 1,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adjustable hyperparameters of machine learning models typically impact various key trade-offs such as accuracy, fairness, robustness, or inference cost. Our goal in this paper is to find a configuration that adheres to user-specified limits on certain risks while being useful with respect to other conflicting metrics. We solve this by combining Bayesian Optimization (BO) with rigorous risk-controlling procedures, where our core idea is to steer BO towards an efficient testing strategy. Our BO method identifies a set of Pareto optimal configurations residing in a designated region of interest. The resulting candidates are statistically verified and the best-performing configuration is selected with guaranteed risk levels. We demonstrate the effectiveness of our approach on a range of tasks with multiple desiderata, including low error rates, equitable predictions, handling spurious correlations, managing rate and distortion in generative models, and reducing computational costs.",
+ "primary": "cs.LG"
+}

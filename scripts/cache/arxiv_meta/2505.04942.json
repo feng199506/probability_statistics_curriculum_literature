@@ -1,0 +1,17 @@
+{
+ "id": "2505.04942",
+ "title": "Randomized Routing to Remote Queues",
+ "authors": [
+  "Shuangchi He",
+  "Yunfang Yang",
+  "Yao Yu"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study load balancing for a queueing system where parallel stations are distant from customers. In the presence of traveling delays, the join-the-shortest-queue (JSQ) policy induces queue length oscillations and prolongs the mean waiting time. A variant of the JSQ policy, dubbed the randomized join-the-shortest-queue (RJSQ) policy, is devised to mitigate the oscillation phenomenon. By the RJSQ policy, customers are sent to each station with a probability approximately proportional to its service capacity; only a small fraction of customers are purposely routed to the shortest queue. The additional probability of routing a customer to the shortest queue, referred to as the balancing fraction, dictates the policy's performance. When the balancing fraction is within a certain range, load imbalance between the stations is negligible in heavy traffic, so that complete resource pooling is achieved. We specify the optimal order of magnitude for the balancing fraction, by which heuristic formulas are proposed to fine-tune the RJSQ policy. A joint problem of capacity planning and load balancing is considered for geographically separated stations. With well planned service capacities, the RJSQ policy sends all but a small fraction of customers to the nearest stations, rendering the system asymptotically equivalent to an aggregated single-server system with all customers having minimum traveling delays. If each customer's service requirement does not depend on the station, the RJSQ policy is asymptotically optimal for reducing workload.",
+ "primary": "math.PR"
+}

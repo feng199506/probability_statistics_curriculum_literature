@@ -1,0 +1,18 @@
+{
+ "id": "2404.16610",
+ "title": "Distribution-free Conformal Prediction for Ordinal Classification",
+ "authors": [
+  "Subhrasish Chakraborty",
+  "Chhavi Tyagi",
+  "Haiyan Qiao",
+  "Wenge Guo"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 2,
+ "latest_date": "2024-11-02",
+ "journal_ref": "In COPA 2024 : 13th Symposium on Conformal and Probabilistic Prediction with Applications, PMLR 230:120-139",
+ "doi": "",
+ "comment": "13 pages, 4 figures; 3 supplementary pages",
+ "abstract": "Conformal prediction is a general distribution-free approach for constructing prediction sets combined with any machine learning algorithm that achieve valid marginal or conditional coverage in finite samples. Ordinal classification is common in real applications where the target variable has natural ordering among the class labels. In this paper, we discuss constructing distribution-free prediction sets for such ordinal classification problems by leveraging the ideas of conformal prediction and multiple testing with FWER control. Newer conformal prediction methods are developed for constructing contiguous and non-contiguous prediction sets based on marginal and conditional (class-specific) conformal $p$-values, respectively. Theoretically, we prove that the proposed methods respectively achieve satisfactory levels of marginal and class-specific conditional coverages. Through simulation study and real data analysis, these proposed methods show promising performance compared to the existing conformal method.",
+ "primary": "stat.ME"
+}

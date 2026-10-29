@@ -1,0 +1,19 @@
+{
+ "id": "2311.15982",
+ "title": "Stab-GKnock: Controlled variable selection for partially linear models using generalized knockoffs",
+ "authors": [
+  "Han Su",
+  "Panxu Yuan",
+  "Qingyang Sun",
+  "Mengxi Yi",
+  "Gaorong Li"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 1,
+ "latest_date": "2023-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 11 figures, 4 tables",
+ "abstract": "The recently proposed fixed-X knockoff is a powerful variable selection procedure that controls the false discovery rate (FDR) in any finite-sample setting, yet its theoretical insights are difficult to show beyond Gaussian linear models. In this paper, we make the first attempt to extend the fixed-X knockoff to partially linear models by using generalized knockoff features, and propose a new stability generalized knockoff (Stab-GKnock) procedure by incorporating selection probability as feature importance score. We provide FDR control and power guarantee under some regularity conditions. In addition, we propose a two-stage method under high dimensionality by introducing a new joint feature screening procedure, with guaranteed sure screening property. Extensive simulation studies are conducted to evaluate the finite-sample performance of the proposed method. A real data example is also provided for illustration.",
+ "primary": "stat.ME"
+}

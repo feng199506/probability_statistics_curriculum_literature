@@ -1,0 +1,15 @@
+{
+ "id": "2502.07462",
+ "title": "The Variable Multiple Bandpass Periodic Block Bootstrap for Time Series with Multiple Periodic Correlations",
+ "authors": [
+  "Edward Valachovic"
+ ],
+ "v1_date": "2025-02-11",
+ "latest_version": 1,
+ "latest_date": "2025-02-11",
+ "journal_ref": "Journal of Probability and Statistics, vol. 2025, Article ID 9968540, 14 pages. (2025)",
+ "doi": "10.1155/jpas/9968540",
+ "comment": "29 pages, 8 figures, 2 tables. arXiv admin note: text overlap with arXiv:2402.03491",
+ "abstract": "This work introduces a novel block bootstrap method for time series with multiple periodically correlated (MPC) components called the Variable Multiple Bandpass Periodic Block Bootstrap (VMBPBB). While past methodological advancements permitted bootstrapping time series to preserve certain correlations, and then periodically correlated (PC) structures, there does not appear to be adequate or efficient methods to bootstrap estimate the sampling distribution of estimators for MPC time series. Current methods that preserve the PC correlation structure resample the original time series, selecting block size to preserve one PC component frequency while simultaneously and unnecessarily resampling all frequencies. This destroys PC components at other frequencies. VMBPBB uses bandpass filters to separate each PC component, creating a set of PC component time series each composed principally of one component. VMBPBB then resamples each PC component time series, not the original MPC time series, with the respective block size preserving the correlation structure of each PC component. Finally, VMBPBB aggregates the PC component bootstraps to form a bootstrap of the MPC time series, successfully preserving all correlations. A simulation study across a wide range of different MPC component frequencies and signal-to-noise ratios is presented and reveals that VMBPBB almost universally outperforms existing methods that fail to bandpass filter the MPC time series.",
+ "primary": "stat.ME"
+}

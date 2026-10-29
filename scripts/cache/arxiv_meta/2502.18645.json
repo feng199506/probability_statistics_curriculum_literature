@@ -1,0 +1,18 @@
+{
+ "id": "2502.18645",
+ "title": "A Matsuoka-Based GARMA Model for Hydrological Forecasting: Theory, Estimation, and Applications",
+ "authors": [
+  "Guilherme Pumi",
+  "Danilo Hiroshi Matsuoka",
+  "Taiane Schaedler Prass",
+  "Bruna Gregory Palm"
+ ],
+ "v1_date": "2025-02-25",
+ "latest_version": 1,
+ "latest_date": "2025-02-25",
+ "journal_ref": "",
+ "doi": "10.1002/env.70095",
+ "comment": "",
+ "abstract": "Time series in natural sciences, such as hydrology and climatology, and other environmental applications, often consist of continuous observations constrained to the unit interval (0,1). Traditional Gaussian-based models fail to capture these bounds, requiring more flexible approaches. This paper introduces the Matsuoka Autoregressive Moving Average (MARMA) model, extending the GARMA framework by assuming a Matsuoka-distributed random component taking values in (0,1) and an ARMA-like systematic structure allowing for random time-dependent covariates. Parameter estimation is performed via partial maximum likelihood (PMLE), for which we present the asymptotic theory. It enables statistical inference, including confidence intervals and model selection. To construct prediction intervals, we propose a novel bootstrap-based method that accounts for dependence structure uncertainty. A comprehensive Monte Carlo simulation study assesses the finite sample performance of the proposed methodologies, while an application to forecasting the useful water volume of the Guarapiranga Reservoir in Brazil showcases their practical usefulness.",
+ "primary": "stat.ME"
+}

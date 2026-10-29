@@ -1,0 +1,16 @@
+{
+ "id": "2501.10845",
+ "title": "A Multi-fidelity Estimator of the Expected Information Gain for Bayesian Optimal Experimental Design",
+ "authors": [
+  "Thomas E. Coons",
+  "Xun Huan"
+ ],
+ "v1_date": "2025-01-18",
+ "latest_version": 2,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "10.1137/25m1731812",
+ "comment": "",
+ "abstract": "Optimal experimental design (OED) is a framework that leverages a mathematical model of the experiment to identify optimal conditions for conducting the experiment. Under a Bayesian approach, the design objective function is typically chosen to be the expected information gain (EIG). However, EIG is intractable for nonlinear models and must be estimated numerically. Estimating the EIG generally entails some variant of Monte Carlo sampling, requiring repeated data model and likelihood evaluations $\\unicode{x2013}$ each involving solving the governing equations of the experimental physics $\\unicode{x2013}$ under different sample realizations. This computation becomes impractical for high-fidelity models. We introduce a novel multi-fidelity EIG (MF-EIG) estimator under the approximate control variate (ACV) framework. This estimator is unbiased with respect to the high-fidelity mean, and minimizes variance under a given computational budget. We achieve this by first reparameterizing the EIG so that its expectations are independent of the data models, a requirement for compatibility with ACV. We then provide specific examples under different data model forms, as well as practical enhancements of sample size optimization and sample reuse techniques. We demonstrate the MF-EIG estimator in two numerical examples: a nonlinear benchmark and a turbulent flow problem involving the calibration of shear-stress transport turbulence closure model parameters within the Reynolds-averaged Navier-Stokes model. We validate the estimator's unbiasedness and observe one- to two-orders-of-magnitude variance reduction compared to existing single-fidelity EIG estimators.",
+ "primary": "stat.CO"
+}

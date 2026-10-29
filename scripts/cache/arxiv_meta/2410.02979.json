@@ -1,0 +1,16 @@
+{
+ "id": "2410.02979",
+ "title": "Optimization, Isoperimetric Inequalities, and Sampling via Lyapunov Potentials",
+ "authors": [
+  "August Y. Chen",
+  "Karthik Sridharan"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 4,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "COLT 2025",
+ "abstract": "In this paper, we prove that optimizability of any function F using Gradient Flow from all initializations implies a Poincaré Inequality for Gibbs measures mu_{beta} = e^{-beta F}/Z at low temperature. In particular, under mild regularity assumptions on the convergence rate of Gradient Flow, we establish that mu_{beta} satisfies a Poincaré Inequality with constant O(C'+1/beta) for beta >= Omega(d), where C' is the Poincaré constant of mu_{beta} restricted to a neighborhood of the global minimizers of F. Under an additional mild condition on F, we show that mu_{beta} satisfies a Log-Sobolev Inequality with constant O(beta max(S, 1) max(C', 1)) where S denotes the second moment of mu_{beta}. Here asymptotic notation hides F-dependent parameters. At a high level, this establishes that optimizability via Gradient Flow from every initialization implies a Poincaré and Log-Sobolev Inequality for the low-temperature Gibbs measure, which in turn imply sampling from all initializations. Analogously, we establish that under the same assumptions, if F can be initialized from everywhere except some set S, then mu_{beta} satisfies a Weak Poincaré Inequality with parameters (O(C'+1/beta), O(mu_{beta}(S))) for β= Omega(d). At a high level, this shows while optimizability from 'most' initializations implies a Weak Poincaré Inequality, which in turn implies sampling from suitable warm starts. Our regularity assumptions are mild and as a consequence, we show we can efficiently sample from several new natural and interesting classes of non-log-concave densities, an important setting with relatively few examples. As another corollary, we obtain efficient discrete-time sampling results for log-concave measures satisfying milder regularity conditions than smoothness, similar to Lehec (2023).",
+ "primary": "stat.ML"
+}

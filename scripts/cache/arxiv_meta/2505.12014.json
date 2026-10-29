@@ -1,0 +1,16 @@
+{
+ "id": "2505.12014",
+ "title": "(Visualizing) Plausible Treatment Effect Paths",
+ "authors": [
+  "Simon Freyaldenhoven",
+  "Christian Hansen"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 1,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider point estimation and inference for the treatment effect path of a policy. Examples include dynamic treatment effects in microeconomics, impulse response functions in macroeconomics, and event study paths in finance. We present two sets of plausible bounds to quantify and visualize the uncertainty associated with this object. Both plausible bounds are often substantially tighter than traditional confidence intervals, and can provide useful insights even when traditional (uniform) confidence bands appear uninformative. Our bounds can also lead to markedly different conclusions when there is significant correlation in the estimates, reflecting the fact that traditional confidence bands can be ineffective at visualizing the impact of such correlation. Our first set of bounds covers the average (or overall) effect rather than the entire treatment path. Our second set of bounds imposes data-driven smoothness restrictions on the treatment path. Post-selection Inference (Berk et al. [2013]) provides formal coverage guarantees for these bounds. The chosen restrictions also imply novel point estimates that perform well across our simulations.",
+ "primary": "econ.EM"
+}

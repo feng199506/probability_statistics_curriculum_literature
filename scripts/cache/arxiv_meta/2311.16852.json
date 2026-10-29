@@ -1,0 +1,17 @@
+{
+ "id": "2311.16852",
+ "title": "Optimal minimax rate of learning nonlocal interaction kernels",
+ "authors": [
+  "Xiong Wang",
+  "Inbar Seroussi",
+  "Fei Lu"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 2,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "55 pages, 1 figure, 2 tables",
+ "abstract": "Nonparametric estimation of nonlocal interaction kernels is crucial in various applications involving interacting particle systems. The inference challenge, situated at the nexus of statistical learning and inverse problems, arises from the nonlocal dependency. A central question is whether the optimal minimax rate of convergence for this problem aligns with the rate of $M^{-\\frac{2β}{2β+1}}$ in classical nonparametric regression, where $M$ is the sample size and $β$ represents the regularity index of the radial kernel. Our study confirms this alignment for systems with a finite number of particles. We introduce a tamed least squares estimator (tLSE) that achieves the optimal convergence rate when $β\\geq 1/4$ for a broad class of exchangeable distributions by leveraging random matrix theory and Sobolev embedding. The upper minimax rate relies on fourth-moment bounds for normal vectors and nonasymptotic bounds for the left tail probability of the smallest eigenvalue of the normal matrix. The lower minimax rate is derived using the Fano-Tsybakov hypothesis testing method. Our tLSE method offers a straightforward approach for establishing the optimal minimax rate for models with either local or nonlocal dependency.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2509.18857",
+ "title": "Optimal estimation for regression discontinuity design with binary outcomes",
+ "authors": [
+  "Takuya Ishihara",
+  "Masayuki Sawada",
+  "Kohei Yata"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 2,
+ "latest_date": "2025-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a finite-sample optimal estimator for regression discontinuity design when the outcomes are bounded, including binary outcomes as the leading case. Our estimator achieves minimax mean squared error among linear shrinkage estimators with nonnegative weights when the regression function lies in a Lipschitz class. Although the original minimax problem involves an iterative noncovex optimization problem, we show that our estimator is obtained by solving a convex optimization problem. A key advantage of the proposed estimator is that the Lipschitz constant is its only tuning parameter. We also propose a uniformly valid inference procedure without a large-sample approximation. In a simulation exercise for small samples, our estimator exhibits smaller mean squared errors and shorter confidence intervals than those of conventional large-sample techniques. In an empirical multi-cutoff design in which the sample size for each cutoff is small, our method yields informative confidence intervals, in contrast to the leading large-sample approach.",
+ "primary": "econ.EM"
+}

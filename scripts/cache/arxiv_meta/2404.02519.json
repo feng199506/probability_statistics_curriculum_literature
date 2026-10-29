@@ -1,0 +1,16 @@
+{
+ "id": "2404.02519",
+ "title": "Differentially Private Verification of Survey-Weighted Estimates",
+ "authors": [
+  "Tong Lin",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 1,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages including references, 5 figures",
+ "abstract": "Several official statistics agencies release synthetic data as public use microdata files. In practice, synthetic data do not admit accurate results for every analysis. Thus, it is beneficial for agencies to provide users with feedback on the quality of their analyses of the synthetic data. One approach is to couple synthetic data with a verification server that provides users with measures of the similarity of estimates computed with the synthetic and underlying confidential data. However, such measures leak information about the confidential records, so that agencies may wish to apply disclosure control methods to the released verification measures. We present a verification measure that satisfies differential privacy and can be used when the underlying confidential are collected with a complex survey design. We illustrate the verification measure using repeated sampling simulations where the confidential data are sampled with a probability proportional to size design, and the analyst estimates a population total or mean with the synthetic data. The simulations suggest that the verification measures can provide useful information about the quality of synthetic data inferences.",
+ "primary": "cs.CR"
+}

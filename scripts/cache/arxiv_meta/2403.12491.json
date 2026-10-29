@@ -1,0 +1,16 @@
+{
+ "id": "2403.12491",
+ "title": "A nonparametric test of spherical symmetry applicable to high dimensional data",
+ "authors": [
+  "Bilol Banerjee",
+  "Anil K. Ghosh"
+ ],
+ "v1_date": "2024-03-19",
+ "latest_version": 2,
+ "latest_date": "2025-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The title of the article has been changed!",
+ "abstract": "We develop a test for spherical symmetry of a multivariate distribution $\\Pr$ that works well even when the dimension of the data $d$ is larger than the sample size $n$. We propose a non-negative measure of spherical asymmetry $ζ(\\Pr)$ such that $ζ(\\Pr)=0$ if and only if $\\Pr$ is spherically symmetric. We construct a consistent estimator of $ζ(\\Pr)$ using the data augmentation method and investigate its large sample properties. The proposed test based on this estimator is calibrated using a novel resampling algorithm. Our test controls the type I error, and it is consistent against general alternatives. We also study its behavior for a sequence of alternatives $(1-δ_n) F+δ_n G$, where $ζ(G)=0$ but $ζ(F)>0$, and $δ_n \\in [0,1]$. When $\\lim\\supδ_n<1$, for any $G$, the power of our test converges to unity as $n$ increases. However, if $\\lim\\supδ_n=1$, the asymptotic power of our test depends on $\\lim n(1-δ_n)^2$. We establish this by proving the minimax rate optimality of our test over a suitable class of alternatives and showing that it is Pitman efficient when $\\lim n(1-δ_n)^2>0$. Moreover, our test is provably consistent for high-dimensional data even when $d$ grows with $n$. When the center of symmetry is not specified by the null hypothesis, most of the existing tests often fail to satisfy the level property. To take care of this problem, we propose a general recipe for constructing modified tests based on pairwise differences of the observations. Our numerical results amply demonstrate the superiority of the proposed test over some state-of-the-art methods.",
+ "primary": "math.ST"
+}

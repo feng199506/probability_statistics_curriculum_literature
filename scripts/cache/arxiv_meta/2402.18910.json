@@ -1,0 +1,17 @@
+{
+ "id": "2402.18910",
+ "title": "DIGIC: Domain Generalizable Imitation Learning by Causal Discovery",
+ "authors": [
+  "Yang Chen",
+  "Yitao Liang",
+  "Zhouchen Lin"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 1,
+ "latest_date": "2024-02-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causality has been combined with machine learning to produce robust representations for domain generalization. Most existing methods of this type require massive data from multiple domains to identify causal features by cross-domain variations, which can be expensive or even infeasible and may lead to misidentification in some cases. In this work, we make a different attempt by leveraging the demonstration data distribution to discover the causal features for a domain generalizable policy. We design a novel framework, called DIGIC, to identify the causal features by finding the direct cause of the expert action from the demonstration data distribution via causal discovery. Our framework can achieve domain generalizable imitation learning with only single-domain data and serve as a complement for cross-domain variation-based methods under non-structural assumptions on the underlying causal models. Our empirical study in various control tasks shows that the proposed framework evidently improves the domain generalization performance and has comparable performance to the expert in the original domain simultaneously.",
+ "primary": "cs.LG"
+}

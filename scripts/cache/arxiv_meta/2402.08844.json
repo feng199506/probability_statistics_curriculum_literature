@@ -1,0 +1,17 @@
+{
+ "id": "2402.08844",
+ "title": "Adaptive tempered reversible jump algorithm for Bayesian curve fitting",
+ "authors": [
+  "Zhiyao Tian",
+  "Anthony Lee",
+  "Shunhua Zhou"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 2,
+ "latest_date": "2024-02-27",
+ "journal_ref": "",
+ "doi": "10.1088/1361-6420/ad2cf7",
+ "comment": "This paper has been accepted for publication in Inverse Problems. Please find the published version at https://doi.org/10.1088/1361-6420/ad2cf7",
+ "abstract": "Bayesian curve fitting plays an important role in inverse problems, and is often addressed using the Reversible Jump Markov Chain Monte Carlo (RJMCMC) algorithm. However, this algorithm can be computationally inefficient without appropriately tuned proposals. As a remedy, we present an adaptive RJMCMC algorithm for the curve fitting problems by extending the Adaptive Metropolis sampler from a fixed-dimensional to a trans-dimensional case. In this presented algorithm, both the size and orientation of the proposal function can be automatically adjusted in the sampling process. Specifically, the curve fitting setting allows for the approximation of the posterior covariance of the a priori unknown function on a representative grid of points. This approximation facilitates the definition of efficient proposals. In addition, we introduce an auxiliary-tempered version of this algorithm via non-reversible parallel tempering. To evaluate the algorithms, we conduct numerical tests involving a series of controlled experiments. The results demonstrate that the adaptive algorithms exhibit significantly higher efficiency compared to the conventional ones. Even in cases where the posterior distribution is highly complex, leading to ineffective convergence in the auxiliary-tempered conventional RJMCMC, the proposed auxiliary-tempered adaptive RJMCMC performs satisfactorily. Furthermore, we present a realistic inverse example to test the algorithms. The successful application of the adaptive algorithm distinguishes it again from the conventional one that fails to converge effectively even after millions of iterations.",
+ "primary": "stat.CO"
+}

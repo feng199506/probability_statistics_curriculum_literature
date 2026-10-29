@@ -1,0 +1,19 @@
+{
+ "id": "2406.02869",
+ "title": "Mesoscopic Bayesian Inference by Solvable Models",
+ "authors": [
+  "Shun Katakami",
+  "Shuhei Kashiwamura",
+  "Kenji Nagata",
+  "Masaichiro Mizumaki",
+  "Masato Okada"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 2,
+ "latest_date": "2024-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The rapid advancement of data science and artificial intelligence has affected physics in numerous ways, including the application of Bayesian inference, setting the stage for a revolution in research methodology. Our group has proposed Bayesian measurement, a framework that applies Bayesian inference to measurement science with broad applicability across various natural sciences. This framework enables the determination of posterior probability distributions of system parameters, model selection, and the integration of multiple measurement datasets. However, applying Bayesian measurement to real data analysis requires a more sophisticated approach than traditional statistical methods like Akaike information criterion (AIC) and Bayesian information criterion (BIC), which are designed for an infinite number of measurements $N$. Therefore, in this paper, we propose an analytical theory that explicitly addresses the case where $N$ is finite in the linear regression model. We introduce $O(1)$ mesoscopic variables for $N$ observation noises. Using this mesoscopic theory, we analyze the three core principles of Bayesian measurement: parameter estimation, model selection, and measurement integration. Furthermore, by introducing these mesoscopic variables, we demonstrate that the difference in free energies, critical for both model selection and measurement integration, can be analytically reduced by two mesoscopic variables of $N$ observation noises. This provides a deeper qualitative understanding of model selection and measurement integration and further provides deeper insights into actual measurements for nonlinear models. Our framework presents a novel approach to understanding Bayesian measurement results.",
+ "primary": "physics.data-an"
+}

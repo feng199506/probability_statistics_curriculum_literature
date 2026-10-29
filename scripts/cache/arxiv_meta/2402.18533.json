@@ -1,0 +1,17 @@
+{
+ "id": "2402.18533",
+ "title": "Constructing Bayesian Optimal Designs for Discrete Choice Experiments by Simulated Annealing",
+ "authors": [
+  "Yicheng Mao",
+  "Roselinde Kessels",
+  "Tom van der Zanden"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 2,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Discrete choice experiments (DCEs) investigate the attributes that influence individuals' choices when selecting among various options. To enhance the quality of the estimated choice models, researchers opt for Bayesian optimal designs that utilize existing information about the attributes' preferences. Given the nonlinear nature of choice models, the construction of an appropriate design requires efficient algorithms. Among these, the coordinate-exchange (CE) algorithm is commonly employed for constructing designs based on the MNL model. However, as a hill-climbing method, the CE algorithm tends to quickly converge to local optima, potentially limiting the quality of the resulting designs. We propose the use of a simulated annealing (SA) algorithm to construct Bayesian optimal designs. This algorithm accepts both superior and inferior solutions, avoiding premature convergence and allowing a more thorough exploration of potential solutions. Consequently, it ultimately obtains higher-quality choice designs compared to the CE algorithm. Our work represents the first application of an SA algorithm in constructing Bayesian optimal designs for DCEs. Through extensive computational experiments, we demonstrate that the SA designs generally outperform the CE designs in terms of statistical efficiency, especially when the prior preference information is highly uncertain.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2411.06006",
+ "title": "Mixing time of the torus shuffle",
+ "authors": [
+  "Olena Blumberg",
+  "Ben Morris",
+  "Alto Senda"
+ ],
+ "v1_date": "2024-11-08",
+ "latest_version": 2,
+ "latest_date": "2026-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 8 figures, to appear in Annals of Applied Probability",
+ "abstract": "In 2009, Morris studied a class of card shuffles that can be reduced to a version of the game three-card Monte on a deck of $n$ cards. In the present paper, we extend the technique and analyze shuffles that can be reduced to what we call 3-Monte shuffles. The main feature of a 3-Monte shuffle is that it uses what we call 3-collisions, which are permutations that are equally likely to be a certain fixed 3-cycle or the identity. We prove a theorem that reduces bounding the mixing time of a 3-Monte shuffle to verifying a condition that involves only triplets of cards. Then we use it to analyze a model of card shuffling we call the torus shuffle, which was introduced by Diaconis in 1988. In the torus shuffle, cards are arranged in an $n$ by $n$ grid. The transition rule is the following. In each step, choose a row or column, uniformly at random, and cyclically rotate it by one unit in a uniform random direction. Diaconis conjectured that the mixing time is ${\\rm O}(n^3 \\log n)$. We obtain a bound that is within a poly log factor of the conjecture.",
+ "primary": "math.PR"
+}

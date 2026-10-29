@@ -1,0 +1,18 @@
+{
+ "id": "2601.16431",
+ "title": "Sequential Experimental Designs for Kriging Model",
+ "authors": [
+  "Ruonan Zheng",
+  "Min-Qian Liu",
+  "Yongdao Zhou",
+  "Xuan Chen"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24pages, 5figures",
+ "abstract": "Computer experiments have become an indispensable alternative to complex physical and engineering experiments. The Kriging model is the most widely used surrogate model, with the core goal of minimizing the discrepancy between the surrogate and true models across the entire experimental domain. However, existing sequential design methods have critical limitations: observation-based batch sequential designs are rarely studied, while one-point sequential designs have insufficient information utilization and suffer from inefficient resource utilization -- they require numerous repeated observation rounds to accumulate sufficient points, leading to prolonged experimental cycles. To address these gaps, this paper proposes two novel one-point sequential design criteria and a general batch sequential design framework. Moreover, the batch sequential design framework solves the inherent point clustering problem in naive batch selection, enabling efficient extension of any sequential criterion to batch scenarios. Simulations on some test functions demonstrate that the proposed methods outperform existing approaches in terms of fitting accuracy in most cases.",
+ "primary": "stat.ME"
+}

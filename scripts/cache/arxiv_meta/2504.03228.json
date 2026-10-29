@@ -1,0 +1,15 @@
+{
+ "id": "2504.03228",
+ "title": "Weak instrumental variables due to ignored nonlinearities in panel data: A Super Learner Control Function estimator",
+ "authors": [
+  "Monika Avila-Marquez"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 11,
+ "latest_date": "2026-07-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A triangular structural panel data model with additive separable individual-specific effects is used to model the causal effect of a covariate on an outcome variable when there are unobservable confounders with some of them time-invariant. In this setup, a linear specification for the reduced-form equation might be problematic when the conditional mean of the endogenous covariate and the instrumental variables is nonlinear in the population. The reason is that ignoring the nonlinearity could lead to weak instruments (instruments are weakly correlated with the endogenous covariate) due to misspecification as shown using a generalized concentration parameter for panel data. As a solution, we propose a triangular simultaneous equation model for panel data with additive separable individual-specific fixed effects composed of a linear structural equation with a nonlinear reduced form equation. The parameter of interest is the structural parameter of the endogenous variable. The identification of this parameter is obtained under the assumption of available exclusion restrictions and using a control function approach. We provide an estimator that we call Super Learner Control Function estimator (SLCFE). The estimation procedure is composed of two main steps and cross-fitting. First, we estimate the control function using a super learner. In the following step, we use the estimated control function to control for endogeneity in the structural equation. Cross-fitting is done across the individual dimension. The estimator is consistent and asymptotically normal achieving a parametric rate of convergence. We show that the SLCF estimator differs from both the plug-in IV estimator and a naive plug-in 2SLS estimator, with the former not being consistent without cross-fitting, and the latter not being consistent even with cross-fitting.",
+ "primary": "econ.EM"
+}

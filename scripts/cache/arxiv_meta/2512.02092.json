@@ -1,0 +1,15 @@
+{
+ "id": "2512.02092",
+ "title": "Opening the Black Box: Nowcasting Singapore's GDP Growth and its Explainability",
+ "authors": [
+  "Luca Attolico"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 1,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "PhD thesis, University of Macerata (2025). PhD programme: Quantitative Methods for Policy Evaluation (Cycle XXXVII). Supervisors: Rosaria Romano, Jamus Jerome Lim",
+ "abstract": "Timely assessment of current conditions is essential especially for small, open economies such as Singapore, where external shocks transmit rapidly to domestic activity. We develop a real-time nowcasting framework for quarterly GDP growth using a high-dimensional panel of approximately 70 indicators, encompassing economic and financial indicators over 1990Q1-2023Q2. The analysis covers penalized regressions, dimensionality-reduction methods, ensemble learning algorithms, and neural architectures, benchmarked against a Random Walk, an AR(3), and a Dynamic Factor Model. The pipeline preserves temporal ordering through an expanding-window walk-forward design with Bayesian hyperparameter optimization, and uses moving block-bootstrap procedures both to construct prediction intervals and to obtain confidence bands for feature-importance measures. It adopts model-specific and XAI-based explainability tools. A Model Confidence Set procedure identifies statistically superior learners, which are then combined through simple, weighted, and exponentially weighted schemes; the resulting time-varying weights provide an interpretable representation of model contributions. Predictive ability is assessed via Giacomini-White tests. Empirical results show that penalized regressions, dimensionality-reduction models, and GRU networks consistently outperform all benchmarks, with RMSFE reductions of roughly 40-60%; aggregation delivers further gains. Feature-attribution methods highlight industrial production, external trade, and labor-market indicators as dominant drivers of Singapore's short-run growth dynamics.",
+ "primary": "econ.EM"
+}

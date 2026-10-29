@@ -1,0 +1,18 @@
+{
+ "id": "2511.04579",
+ "title": "Knothe-Rosenblatt maps via soft-constrained optimal transport",
+ "authors": [
+  "Ricardo Baptista",
+  "Franca Hoffmann",
+  "Minh Van Hoang Nguyen",
+  "Benjamin Zhang"
+ ],
+ "v1_date": "2025-11-06",
+ "latest_version": 1,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages",
+ "abstract": "In the theory of optimal transport, the Knothe-Rosenblatt (KR) rearrangement provides an explicit construction to map between two probability measures by building one-dimensional transformations from the marginal conditionals of one measure to the other. The KR map has shown to be useful in different realms of mathematics and statistics, from proving functional inequalities to designing methodologies for sampling conditional distributions. It is known that the KR rearrangement can be obtained as the limit of a sequence of optimal transport maps with a weighted quadratic cost. We extend these results in this work by showing that one can obtain the KR map as a limit of maps that solve a relaxation of the weighted-cost optimal transport problem with a soft-constraint for the target distribution. In addition, we show that this procedure also applies to the construction of triangular velocity fields via dynamic optimal transport yielding optimal velocity fields. This justifies various variational methodologies for estimating KR maps in practice by minimizing a divergence between the target and pushforward measure through an approximate map. Moreover, it opens the possibilities for novel static and dynamic OT estimators for KR maps.",
+ "primary": "math.OC"
+}

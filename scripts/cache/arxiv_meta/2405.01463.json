@@ -1,0 +1,16 @@
+{
+ "id": "2405.01463",
+ "title": "Dynamic Local Average Treatment Effects",
+ "authors": [
+  "Ravi B. Sojitra",
+  "Vasilis Syrgkanis"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 3,
+ "latest_date": "2025-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider Dynamic Treatment Regimes (DTRs) with One Sided Noncompliance that arise in applications such as digital recommendations and adaptive medical trials. These are settings where decision makers encourage individuals to take treatments over time, but adapt encouragements based on previous encouragements, treatments, states, and outcomes. Importantly, individuals may not comply with encouragements based on unobserved confounders. For settings with binary treatments and encouragements, we provide nonparametric identification, estimation, and inference for Dynamic Local Average Treatment Effects (LATEs), which are expected values of multiple time period treatment effect contrasts for the respective complier subpopulations. Under One Sided Noncompliance and sequential extensions of the assumptions in Imbens and Angrist (1994), we show that one can identify Dynamic LATEs that correspond to treating at single time steps. In Staggered Adoption settings, we show that the assumptions are sufficient to identify Dynamic LATEs for treating in multiple time periods. Moreover, this result extends to any setting where the effect of a treatment in one period is uncorrelated with the compliance event in a subsequent period.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2404.03867",
+ "title": "Dimension-free Relaxation Times of Informed MCMC Samplers on Discrete Spaces",
+ "authors": [
+  "Hyunwoong Chang",
+  "Quan Zhou"
+ ],
+ "v1_date": "2024-04-05",
+ "latest_version": 2,
+ "latest_date": "2025-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by Bernoulli",
+ "abstract": "Convergence analysis of Markov chain Monte Carlo methods in high-dimensional statistical applications is increasingly recognized. In this paper, we develop general mixing time bounds for Metropolis-Hastings algorithms on discrete spaces by building upon and refining some recent theoretical advancements in Bayesian model selection problems. We establish sufficient conditions for a class of informed Metropolis-Hastings algorithms to attain relaxation times that are independent of the problem dimension. These conditions are grounded in the high-dimensional statistical theory and allow for possibly multimodal posterior distributions. We obtain our results through two independent techniques: the multicommodity flow method and single-element drift condition analysis; we find that the latter yields a slightly tighter mixing time bound. Our results are readily applicable to a broad spectrum of statistical problems with discrete parameter spaces, as we demonstrate using both theoretical and numerical examples.",
+ "primary": "stat.CO"
+}

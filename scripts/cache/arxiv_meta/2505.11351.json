@@ -1,0 +1,16 @@
+{
+ "id": "2505.11351",
+ "title": "Targeted empirical Bayes for more supervised joint factor analysis",
+ "authors": [
+  "Glenn Palmer",
+  "David B. Dunson"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Joint Bayesian factor models are popular for characterizing relationships between multivariate correlated predictors and a response variable. Standard models assume that all variables, including both the predictors and the response, are conditionally independent given latent factors. In marginalizing out these factors, one obtains a low rank plus diagonal factorization for the joint covariance, which implies a linear regression for the response given the predictors. Although there are many desirable properties of such models, these methods can struggle to identify the signal when the response is not dependent on the dominant principal components in the predictors. To address this problem, we propose estimating the residual variance in the response model with an empirical Bayes procedure that targets predictive performance of the response given the predictors. We illustrate that this can lead to substantial improvements in simulation performance. We are particularly motivated by studies assessing the health effects of environmental exposures and provide an illustrative application to NHANES data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.24056",
+ "title": "A Martingale-Free Introduction to Conditional Gaussian Nonlinear Systems",
+ "authors": [
+  "Marios Andreou",
+  "Nan Chen"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 3,
+ "latest_date": "2026-06-19",
+ "journal_ref": "Entropy 27, 1 (2025): 2",
+ "doi": "10.3390/e27010002",
+ "comment": "Final revision with corrected typographical errors. 63 pages (Main Text pp. 1--26; Appendix pp. 27--53), 3 figures (all in Main Text). Published in Entropy (MDPI). Code available upon request. For further details visit https://mariosandreou.short.gy/MartingaleFreeIntroCGNS",
+ "abstract": "The conditional Gaussian nonlinear system (CGNS) is a broad class of nonlinear stochastic dynamical systems. Given the trajectories for a subset of state variables, the remaining follow a Gaussian distribution. Despite the conditionally linear structure, the CGNS exhibits strong nonlinearity, thus capturing many non-Gaussian characteristics observed in nature through its joint and marginal distributions. Desirably, it enjoys closed analytic formulae for the time evolution of its conditional Gaussian statistics, which facilitate the study of data assimilation and other related topics. In this paper, we develop a martingale-free approach to improve the understanding of CGNSs. This methodology provides a tractable approach to proving the time evolution of the conditional statistics by deriving results through time discretization schemes, with the continuous-time regime obtained via a formal limiting process as the discretization time-step vanishes. This discretized approach further allows for developing analytic formulae for optimal posterior sampling of unobserved state variables with correlated noise. These tools are particularly valuable for studying extreme events and intermittency and apply to high-dimensional systems. Moreover, the approach improves the understanding of different sampling methods in characterizing uncertainty. The effectiveness of the framework is demonstrated through a physics-constrained, triad-interaction climate model with cubic nonlinearity and state-dependent cross-interacting noise.",
+ "primary": "math.DS"
+}

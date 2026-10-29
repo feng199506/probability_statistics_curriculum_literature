@@ -1,0 +1,16 @@
+{
+ "id": "2407.01874",
+ "title": "Simultaneous semiparametric inference for single-index models",
+ "authors": [
+  "Jiajun Tang",
+  "Holger Dette"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 1,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the common partially linear single-index model we establish a Bahadur representation for a smoothing spline estimator of all model parameters and use this result to prove the joint weak convergence of the estimator of the index link function at a given point, together with the estimators of the parametric regression coefficients. We obtain the surprising result that, despite of the nature of single-index models where the link function is evaluated at a linear combination of the index-coefficients, the estimator of the link function and the estimator of the index-coefficients are asymptotically independent. Our approach leverages a delicate analysis based on reproducing kernel Hilbert space and empirical process theory. We show that the smoothing spline estimator achieves the minimax optimal rate with respect to the $L^2$-risk and consider several statistical applications where joint inference on all model parameters is of interest. In particular, we develop a simultaneous confidence band for the link function and propose inference tools to investigate if the maximum absolute deviation between the (unknown) link function and a given function exceeds a given threshold. We also construct tests for joint hypotheses regarding model parameters which involve both the nonparametric and parametric components and propose novel multiplier bootstrap procedures to avoid the estimation of unknown asymptotic quantities.",
+ "primary": "math.ST"
+}

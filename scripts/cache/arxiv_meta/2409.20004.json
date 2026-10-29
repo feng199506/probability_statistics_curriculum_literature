@@ -1,0 +1,15 @@
+{
+ "id": "2409.20004",
+ "title": "Numerically Robust Fixed-Point Smoothing Without State Augmentation",
+ "authors": [
+  "Nicholas Krämer"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 2,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Practical implementations of Gaussian smoothing algorithms have received a great deal of attention in the last 60 years. However, almost all work focuses on estimating complete time series (''fixed-interval smoothing'', $\\mathcal{O}(K)$ memory) through variations of the Rauch--Tung--Striebel smoother, rarely on estimating the initial states (''fixed-point smoothing'', $\\mathcal{O}(1)$ memory). Since fixed-point smoothing is a crucial component of algorithms for dynamical systems with unknown initial conditions, we close this gap by introducing a new formulation of a Gaussian fixed-point smoother. In contrast to prior approaches, our perspective admits a numerically robust Cholesky-based form (without downdates) and avoids state augmentation, which would needlessly inflate the state-space model and reduce the numerical practicality of any fixed-point smoother code. The experiments demonstrate how a JAX implementation of our algorithm matches the runtime of the fastest methods and the robustness of the most robust techniques while existing implementations must always sacrifice one for the other.",
+ "primary": "math.NA"
+}

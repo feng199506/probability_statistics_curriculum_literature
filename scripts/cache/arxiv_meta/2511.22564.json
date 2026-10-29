@@ -1,0 +1,15 @@
+{
+ "id": "2511.22564",
+ "title": "Convergence of a Sequential Monte Carlo algorithm towards multimodal distributions on Rd",
+ "authors": [
+  "Ruiyu Han"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 3,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "related to previous work arXiv:2508.02763",
+ "abstract": "In an earlier joint work, we studied a sequential Monte Carlo algorithm to sample from the Gibbs measure supported on torus with a non-convex energy function at a low temperature, where we proved that the time complexity of the algorithm is polynomial in the inverse temperature. However, the analysis in that torus setting relied crucially on compactness and does not directly extend to unbounded domains. This work introduces a new approach that resolves this issue and establishes a similar result for sampling from Gibbs measures supported on Rd. In particular, our main result shows that for double-well energy with equal well depths, the time complexity scales as seventh power of the inverse temperature, and quadratically in both the inverse allowed absolute error and probability error.",
+ "primary": "stat.CO"
+}

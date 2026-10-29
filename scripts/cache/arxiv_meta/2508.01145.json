@@ -1,0 +1,17 @@
+{
+ "id": "2508.01145",
+ "title": "Likelihood Functions with Parameter-Dependent Support: A Survey of the Cramér-Rao-Leibniz Lower Bound",
+ "authors": [
+  "Qin Lu",
+  "Yaakov Bar-Shalom",
+  "Peter Willett"
+ ],
+ "v1_date": "2025-08-02",
+ "latest_version": 1,
+ "latest_date": "2025-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Parameter estimation is a fundamental problem in science and engineering. In many safety-critical applications, one is not only interested in a {\\it point} estimator, but also the uncertainty bound that can self-assess the accuracy of the estimator. In this regard, the Cramér-Rao lower bound (CRLB) is of great importance, as it provides a lower bound on the variance of {\\it any} unbiased estimator. In many cases, it is the only way of evaluating, without recourse to simulations, the expected accuracy of numerically obtainable estimates. For the existence of the CRLB, there have been widely accepted regularity conditions, one of which is that the support of the likelihood function (LF) -- the pdf of the observations conditioned on the parameter of interest -- should be independent of the parameter to be estimated. This paper starts from reviewing the derivations of the classical CRLB under the condition that the LF has parameter-independent support. To cope with the case of parameter-dependent support, we generalize the CRLB to the {\\it Cramér-Rao-Leibniz lower bound (CRLLB)}, by leveraging the general Leibniz integral rule. Notably, the existing results on CRLLB and CRLB are unified under the framework of CRLLB with multidimensional parameters. Then, we survey existing examples of LFs to illustrate the usefulness of the CRLLB in providing valid covariance bounds.",
+ "primary": "math.ST"
+}

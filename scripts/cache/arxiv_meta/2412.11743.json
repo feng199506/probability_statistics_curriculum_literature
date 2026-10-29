@@ -1,0 +1,18 @@
+{
+ "id": "2412.11743",
+ "title": "Generalized Bayesian deep reinforcement learning",
+ "authors": [
+  "Shreya Sinha Roy",
+  "Richard G. Everitt",
+  "Christian P. Robert",
+  "Ritabrata Dutta"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 2,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian reinforcement learning (BRL) is a method that merges principles from Bayesian statistics and reinforcement learning to make optimal decisions in uncertain environments. As a model-based RL method, it has two key components: (1) inferring the posterior distribution of the model for the data-generating process (DGP) and (2) policy learning using the learned posterior. We propose to model the dynamics of the unknown environment through deep generative models, assuming Markov dependence. In the absence of likelihood functions for these models, we train them by learning a generalized predictive-sequential (or prequential) scoring rule (SR) posterior. We used sequential Monte Carlo (SMC) samplers to draw samples from this generalized Bayesian posterior distribution. In conjunction, to achieve scalability in the high-dimensional parameter space of the neural networks, we use the gradient-based Markov kernels within SMC. To justify the use of the prequential scoring rule posterior, we prove a Bernstein-von Mises-type theorem. For policy learning, we propose expected Thompson sampling (ETS) to learn the optimal policy by maximising the expected value function with respect to the posterior distribution. This improves upon traditional Thompson sampling (TS) and its extensions, which utilize only one sample drawn from the posterior distribution. This improvement is studied both theoretically and using simulation studies, assuming a discrete action space. Finally, we successfully extended our setup for a challenging problem with a continuous action space without theoretical guarantees.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2401.11422",
+ "title": "Identification and Estimation in a Nonseparable Instrumental Variable Model with Multivariate Outcomes",
+ "authors": [
+  "Haruki Kono"
+ ],
+ "v1_date": "2024-01-21",
+ "latest_version": 5,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a novel nonseparable instrumental variable model to address endogeneity in settings with multivariate outcomes. While traditional approaches typically estimate separate one-dimensional quantile models for each outcome, the inherent correlation among different dimensions frequently invalidates their fundamental assumptions. To overcome this limitation, our framework jointly models the distribution of multiple outcomes. By assuming that the structural function is cyclically monotone, the model accommodates flexible dependence across outcome dimensions. We establish the local identification of these structural functions in the presence of discrete treatments and instruments under a completeness-type condition, which reduces to the well-known full-rank condition in one dimension. Furthermore, we introduce a computationally tractable estimator and prove its uniform consistency. Simulation studies demonstrate the estimator's stable performance in finite samples.",
+ "primary": "econ.EM"
+}

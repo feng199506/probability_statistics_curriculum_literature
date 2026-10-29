@@ -1,0 +1,17 @@
+{
+ "id": "2608.30246",
+ "title": "A Borel Concept Class of VC Dimension One with a Non-PAC Consistent Learner in ZFC",
+ "authors": [
+  "Mateus Jesus de Arruda Campos",
+  "Gabriel Fernandes",
+  "Vinicius de Oliveira Rodrigues"
+ ],
+ "v1_date": "2026-08-31",
+ "latest_version": 1,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The fundamental theorem of statistical learning states that, under suitable measurability assumptions, finite Vapnik--Chervonenkis (VC) dimension guarantees that every proper consistent learning rule is probably approximately correct (PAC). Blumer, Ehrenfeucht, Haussler, and Warmuth showed, assuming the Continuum Hypothesis, that the \"well-behavedness\" condition of the concept class cannot be omitted: they constructed a concept class of Borel sets of VC dimension one admitting a consistent learning rule that is not PAC. We show that the Continuum Hypothesis is unnecessary. Working in Zermelo--Fraenkel set theory with the Axiom of Choice (ZFC) alone, we construct a concept class of Borel sets on $[0,1]$ of VC dimension one and a proper consistent learning rule that is not PAC. More precisely, for a suitable Borel probability measure and target concept, the rule has true risk one at every sample size on a set of samples of outer probability one. Consequently, finite VC dimension and Borel measurability of the individual concepts do not suffice to guarantee that every proper consistent learning rule is PAC. The result shows, with no need of extra set-theoretical assumptions, that the additional regularity assumption in the fundamental theorem cannot in general be omitted.",
+ "primary": "math.LO"
+}

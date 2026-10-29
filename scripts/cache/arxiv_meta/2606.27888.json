@@ -1,0 +1,19 @@
+{
+ "id": "2606.27888",
+ "title": "A Dynamical Low-rank Multilevel Monte Carlo Estimator for High-Dimensional Kinetic Equations",
+ "authors": [
+  "Chinmay Patwardhan",
+  "Sebastian Krumscheid",
+  "Jonas Kusch",
+  "Emil Løvbak",
+  "Pia Stammer"
+ ],
+ "v1_date": "2026-06-26",
+ "latest_version": 1,
+ "latest_date": "2026-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 7 figures, 3 tables",
+ "abstract": "Kinetic equations are used to model a wide range of phenomena important for real-world applications. Their applications span astrophysics, nuclear physics, engineering, and social sciences. Due to their high-dimensional phase space, modelling and quantifying uncertainties, relevant for applications, poses a significant challenge even for modern computing infrastructure. In recent years, dynamical low-rank approximation (DLRA) has gained popularity for making fine grid simulations of high-dimensional problems feasible by evolving the solution of a time-dependent PDE as a low-rank factorization. This reduces the computational and memory requirements significantly. In this work, we propose a low-rank multilevel Monte Carlo estimator for kinetic equations based on a probabilistic rank-adaptive DLRA time integrator. The level hierarchy of the low-rank multilevel estimator is constructed through spatial refinement and by ensuring that the low-rank error remains below the spatial discretization error. We demonstrate the efficacy of the estimator through several numerical experiments from radiation transport, radiation therapy, and shallow water flow.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2605.08995",
+ "title": "Semiparametric Elliptical Mixture Clustering for High-Dimensional Data",
+ "authors": [
+  "Long Feng",
+  "Dan Zhuang"
+ ],
+ "v1_date": "2026-05-09",
+ "latest_version": 1,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clustering high-dimensional data is especially challenging when cluster distributions are heavy tailed and only approximately elliptical. Existing high-dimensional methods are largely built for Gaussian or other light-tailed models, whereas classical robust elliptical procedures are mostly low dimensional or rely on fully parametric radial families. We propose a semiparametric elliptical mixture clustering framework with cluster-specific centers, an unknown common radial generator, and a common sparse precision-shape matrix, together with a data-driven rule for selecting the number of clusters. A generalized expectation-maximization (GEM) algorithm is developed by combining transformed-radius estimation of the radial generator, radial-score center updates, and a Tyler-POET-GLASSO update for the common precision-shape matrix. The method avoids specifying a parametric radial family and remains computationally feasible in high dimensions. We establish high-dimensional consistency for the estimated model components and the excess misclustering error. Simulation studies and a handwritten-digit application demonstrate the competitive performance and robustness of the proposed method, particularly in heavy-tailed elliptical settings.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2608.25765",
+ "title": "Frequency Domain Bootstrap for Functional Time Series",
+ "authors": [
+  "Daniel Rademacher",
+  "Jens-Peter Kreiss",
+  "Efstathios Paparoditis"
+ ],
+ "v1_date": "2026-08-26",
+ "latest_version": 1,
+ "latest_date": "2026-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages",
+ "abstract": "A frequency domain bootstrap procedure for functional time series is proposed and applied to the class of spectral mean operators. The procedure works by first generating independent pseudo periodogram operators across the positive Fourier frequencies using an estimator of the spectral density operator involved. Functional replicates of the spectral mean operators of interest are then generated. Through an additive, projection-based decomposition of the bootstrapped spectral mean operator, its leading $m$-dimensional part is properly complemented to also capture the relevant fourth order characteristics of the process. The complementation is achieved by means of a resampling procedure based on convolved periodogram operators of subsamples. The resulting bootstrap spectral mean operator consistently estimates the entire second order as well as the $m$-dimensional fourth order structure of the distribution of spectral mean operators. By allowing for the decomposition parameter $m$ to increase to infinity as the sample size increases to infinity, consistency in estimating the entire fourth order structure of the process also is achieved. The asymptotic theory developed investigates properties of the procedure for fixed and for increasing $m$ and establishes validity of the frequency domain bootstrap proposal under rather weak conditions on the underlying functional process class.",
+ "primary": "math.ST"
+}

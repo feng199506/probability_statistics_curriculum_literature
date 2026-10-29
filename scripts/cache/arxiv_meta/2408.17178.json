@@ -1,0 +1,19 @@
+{
+ "id": "2408.17178",
+ "title": "Modelling the High-Voltage Grid Using Open Data for Europe and Beyond",
+ "authors": [
+  "Bobby Xiong",
+  "Davide Fioriti",
+  "Fabian Neumann",
+  "Iegor Riepin",
+  "Tom Brown"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "Nature Scientific Data, volume 12, article number: 277 (2025)",
+ "doi": "10.1038/s41597-025-04550-7",
+ "comment": "20 pages, 15 figures, 8 tables. For associated prebuilt electricity network, see https://doi.org/10.5281/zenodo.13358976",
+ "abstract": "This paper provides the background, methodology and validation for constructing a representation of the European high-voltage grid, including and above 200 kV, based on public data provided by OpenStreetMap. The model-independent grid dataset is published under the Open Data Commons Open Database (ODbL 1.0) licence and can be used for large-scale electricity as well as energy system modelling. The dataset and workflow are provided as part of PyPSA-Eur -- an open-source, sector-coupled optimisation model of the European energy system. By integrating with the codebase for initiatives such as PyPSA-Earth, the value of open and maintainable high-voltage grid data extends to the global context. By accessing the latest data through the the Overpass turbo API, the dataset can be easily reconstructed and updated within minutes. To assess the data quality, this paper further compares the dataset with official statistics and representative model runs using PyPSA-Eur based on different electricity grid representations.",
+ "primary": "physics.soc-ph"
+}

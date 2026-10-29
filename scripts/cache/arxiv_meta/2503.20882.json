@@ -1,0 +1,23 @@
+{
+ "id": "2503.20882",
+ "title": "Assessing Bias and Precision in State Policy Evaluations: A Comparative Analysis of Time-Varying Estimators Using Policy Simulations",
+ "authors": [
+  "Max Griswold",
+  "Beth Ann Griffin",
+  "Max Rubinstein",
+  "Mincen Liu",
+  "Megan Schuler",
+  "Elizabeth Stone",
+  "Pedro Nascimento de Lima",
+  "Bradley D. Stein",
+  "Elizabeth A. Stuart"
+ ],
+ "v1_date": "2025-03-26",
+ "latest_version": 1,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Using state-level opioid overdose mortality data from 1999-2016, we simulated four time-varying treatment scenarios, which correspond to real-world policy dynamics (ramp up, ramp down, temporary and inconsistent). We then evaluated seven commonly used policy evaluation methods: two-way fixed effects event study, debiased autoregressive model, augmented synthetic control, difference-in-differences with staggered adoption, event study with heterogeneous treatment, two-stage differences-in-differences and differences-in-differences imputation. Statistical performance was assessed by comparing bias, standard errors, coverage, and root mean squared error over 1,000 simulations. Results Our findings indicate that estimator performance varied across policy scenarios. In settings where policy effectiveness diminished over time, synthetic control methods recovered effects with lower bias and higher variance. Difference-in-difference approaches, while offering reasonable coverage under some scenarios, struggled when effects were non-monotonic. Autoregressive methods, although demonstrating lower variability, underestimated uncertainty. Overall, a clear bias-variance tradeoff emerged, underscoring that no single method uniformly excelled across scenarios. Conclusions This study highlights the importance of tailoring the choice of estimator to the expected trajectory of policy effects. In dynamic time-varying settings, particularly when a policy has an anticipated diminishing impact, methods like augmented synthetic controls may offer advantages despite reduced precision. Researchers should carefully consider these tradeoffs to ensure robust and credible state-policy evaluations.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2502.16118",
+ "title": "Local False Sign Rate and the Role of Prior Covariance Rank in Multivariate Empirical Bayes Multiple Testing",
+ "authors": [
+  "Dongyue Xie"
+ ],
+ "v1_date": "2025-02-22",
+ "latest_version": 2,
+ "latest_date": "2025-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates the relationship between the rank of the prior covariance matrix and the local false sign rate (lfsr) in multivariate empirical Bayes multiple testing, specifically within the context of normal mean models. We demonstrate that using low-rank covariance matrices for the prior results in inflated false sign rates, a consequence of rank deficiency. To address this, we propose an adjustment that mitigates this inflation by employing full-rank covariance matrices. Through simulations, we validate the effectiveness of this adjustment in controlling false sign rates, thereby improving the robustness of empirical Bayes methods in high-dimensional settings. Our results show that the rank of the prior covariance matrix directly influences the accuracy of sign estimation and the performance of the lfsr, with significant implications for large-scale hypothesis testing in statistics and genomics.",
+ "primary": "stat.ME"
+}

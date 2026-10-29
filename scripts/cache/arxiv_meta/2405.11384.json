@@ -1,0 +1,18 @@
+{
+ "id": "2405.11384",
+ "title": "Uniform Ergodicity of Parallel Tempering With Efficient Local Exploration",
+ "authors": [
+  "Nikola Surjanovic",
+  "Saifuddin Syed",
+  "Alexandre Bouchard-Côté",
+  "Trevor Campbell"
+ ],
+ "v1_date": "2024-05-18",
+ "latest_version": 1,
+ "latest_date": "2024-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Non-reversible parallel tempering (NRPT) is an effective algorithm for sampling from target distributions with complex geometry, such as those arising from posterior distributions of weakly identifiable and high-dimensional Bayesian models. In this work we establish the uniform (geometric) ergodicity of NRPT under a model of efficient local exploration. The uniform ergodicity log rates are inversely proportional to an easily-estimable divergence, the global communication barrier (GCB), which was recently introduced in the literature. We obtain analogous ergodicity results for classical reversible parallel tempering, providing new evidence that NRPT dominates its reversible counterpart. Our results are based on an analysis of the hitting time of a continuous-time persistent random walk, which is also of independent interest. The rates that we obtain reflect real experiments well for distributions where global exploration is not possible without parallel tempering.",
+ "primary": "stat.CO"
+}

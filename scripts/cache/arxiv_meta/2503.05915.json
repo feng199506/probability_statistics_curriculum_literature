@@ -1,0 +1,17 @@
+{
+ "id": "2503.05915",
+ "title": "Evaluating Multilevel Regression and Poststratification with Spatial Priors with a Big Data Behavioural Survey",
+ "authors": [
+  "Aja Sutton",
+  "Zack W. Almquist",
+  "Jon Wakefield"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 2,
+ "latest_date": "2025-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages (13 main article + 23 pages of appendix), 4 figures. Prepared for submission to Journals of the Royal Statistical Society Series A",
+ "abstract": "Multilevel regression and poststratification (MRP) is a computationally efficient indirect estimation method that can quickly produce improved population-adjusted estimates with limited data. Recent computational advancements allow efficient, relatively simple, and quick approximate Bayesian estimation for MRP. As population health outcomes of interest including vaccination uptake are known to have spatial structure, precision may be gained by including space in the model. We test a recently proposed spatial MRP method that includes a BYM2 spatial term that smooths across demographics and geographic areas using a large, unrepresentative survey. We produce California county-level estimates of first-dose COVID-19 vaccination up to June 2021 using classic and spatial MRP models, and poststratify using data from the American Community Survey (US Census Bureau). We assess validity using reported first-dose vaccination counts from the Centers for Disease Control (CDC). Neither classic nor spatial MRP models performed well, highlighting: 1. spatial MRP may be most appropriate for richer data contexts, 2. some demographics in the survey data are over-sampled and -aggregated, producing model over-smoothing, and 3. a need for survey producers to share user-representative metrics to better benchmark estimates.",
+ "primary": "stat.AP"
+}

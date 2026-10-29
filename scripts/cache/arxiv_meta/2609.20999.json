@@ -1,0 +1,16 @@
+{
+ "id": "2609.20999",
+ "title": "Aggregated Posterior Predictive Checks for Generative Modeling",
+ "authors": [
+  "Shweta Dutta",
+  "Gemma E. Moran"
+ ],
+ "v1_date": "2026-09-17",
+ "latest_version": 1,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Latent variable generative models are commonly fit using simple priors over latent variables, but draws from these priors often fail to produce realistic data. This failure is due to a mismatch between the prior and the aggregated posterior, the distribution of latent variables induced by the fitted model and the data. This mismatch is often viewed as evidence that the prior is misspecified and should be replaced. Alternatively, in modern generative models, a two-stage strategy is increasingly used where first, the model is fit, and second, the aggregated posterior is estimated (van den Oord et al.,2017; Rombach et al., 2022.). Synthetic data are then obtained by sampling from this aggregated posterior instead of the prior. To check such procedures, we introduce the aggregated posterior predictive check (APPC). Theoretically, we establish sufficient conditions under which the APPC is asymptotically calibrated. For probabilistic principal component analysis, we show that the APPC can remain calibrated under a misspecified latent prior when pervasive factors permit recovery of the signal space. Experiments with variational autoencoders show that aggregated posterior sampling improves generation for heavy-tailed and clustered data relative to Gaussian prior sampling while performing comparably to models with more flexible latent priors.",
+ "primary": "stat.ME"
+}

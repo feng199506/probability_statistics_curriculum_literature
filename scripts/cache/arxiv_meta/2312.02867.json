@@ -1,0 +1,18 @@
+{
+ "id": "2312.02867",
+ "title": "Semi-Supervised Health Index Monitoring with Feature Generation and Fusion",
+ "authors": [
+  "Gaëtan Frusque",
+  "Ismail Nejjar",
+  "Majid Nabavi",
+  "Olga Fink"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 3,
+ "latest_date": "2024-11-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 8 figures",
+ "abstract": "The Health Index (HI) is crucial for evaluating system health and is important for tasks like anomaly detection and Remaining Useful Life (RUL) prediction of safety-critical systems. Real-time, meticulous monitoring of system conditions is essential, especially in manufacturing high-quality and safety-critical components such as spray coatings. However, acquiring accurate health status information (HI labels) in real scenarios can be difficult or costly because it requires continuous, precise measurements that fully capture the system's health. As a result, using datasets from systems run-to-failure, which provide limited HI labels only at the healthy and end-of-life phases, becomes a practical approach. We employ Deep Semi-supervised Anomaly Detection (DeepSAD) embeddings to tackle the challenge of extracting features associated with the system's health state. Additionally, we introduce a diversity loss to further enrich the DeepSAD embeddings. We also propose applying an alternating projection algorithm with isotonic constraints to transform the embedding into a normalized HI with an increasing trend. Validation on the PHME2010 milling dataset, a recognized benchmark with ground truth HIs, confirms the efficacy of our proposed HI estimations. Our methodology is further applied to monitor the wear states of thermal spray coatings using high-frequency voltage. These contributions facilitate more accessible and reliable HI estimation, particularly in scenarios where obtaining ground truth HI labels is impossible.",
+ "primary": "cs.LG"
+}

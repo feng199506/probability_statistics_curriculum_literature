@@ -1,0 +1,17 @@
+{
+ "id": "2604.18751",
+ "title": "Beyond Coefficients: Forecast-Necessity Testing for Interpretable Causal Discovery in Nonlinear Time-Series Models",
+ "authors": [
+  "Valentina Kuskova",
+  "Dmitry Zaytsev",
+  "Michael Coppedge"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 1,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "10.32473/flairs.39.1",
+ "comment": "",
+ "abstract": "Nonlinear machine-learning models are increasingly used to discover causal relationships in time-series data, yet the interpretation of their outputs remains poorly understood. In particular, causal scores produced by regularized neural autoregressive models are often treated as analogues of regression coefficients, leading to misleading claims of statistical significance. In this paper, we argue that causal relevance in nonlinear time-series models should be evaluated through forecast necessity rather than coefficient magnitude, and we present a practical evaluation procedure for doing so. We present an interpretable evaluation framework based on systematic edge ablation and forecast comparison, which tests whether a candidate causal relationship is required for accurate prediction. Using Neural Additive Vector Autoregression as a case study model, we apply this framework to a real-world case study of democratic development, modeled as a multivariate time series of panel data - democracy indicators across 139 countries. We show that relationships with similar causal scores can differ dramatically in their predictive necessity due to redundancy, temporal persistence, and regime-specific effects. Our results demonstrate how forecast-necessity testing supports more reliable causal reasoning in applied AI systems and provides practical guidance for interpreting nonlinear time-series models in high-stakes domains.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2310.20058",
+ "title": "Generalized Asymptotic Limit Theory and Inference for Isotonic Regression",
+ "authors": [
+  "Soham Mallick",
+  "Siddhaarth Sarkar",
+  "Arun Kumar Kuchibhotla"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 3,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Updates to uniform inference (Section 3.3) in the main draft",
+ "abstract": "Monotonicity is a natural shape constraint in nonparametric regression problems, arising for instance when predicting factory yield as a monotone function of labor hours. The widely used isotonic least squares estimator (LSE) does not require any tuning parameters and its rate of convergence and pointwise limiting distribution are well studied, assuming a specific local shape for the true monotone function. We introduce a general condition on the local behavior of this true function, uncovering a far richer family of asymptotic distributions than previously known. Valid inference in the classical framework has remained challenging due to the need to estimate nuisance parameters, and no existing methods address inference in our broader setup. We resolve this by showing the symmetry of these new limiting distributions, which allows the HulC procedure of Kuchibhotla, Balakrishnan, and Wasserman (2024) to produce asymptotically valid confidence intervals. More generally, our framework enables inference that remains uniformly valid over a suitably regular class of true functions.",
+ "primary": "math.ST"
+}

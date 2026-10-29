@@ -1,0 +1,15 @@
+{
+ "id": "2406.09199",
+ "title": "Precise analysis of ridge interpolators under heavy correlations -- a Random Duality Theory view",
+ "authors": [
+  "Mihailo Stojnic"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 1,
+ "latest_date": "2024-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider fully row/column-correlated linear regression models and study several classical estimators (including minimum norm interpolators (GLS), ordinary least squares (LS), and ridge regressors). We show that \\emph{Random Duality Theory} (RDT) can be utilized to obtain precise closed form characterizations of all estimators related optimizing quantities of interest, including the \\emph{prediction risk} (testing or generalization error). On a qualitative level out results recover the risk's well known non-monotonic (so-called double-descent) behavior as the number of features/sample size ratio increases. On a quantitative level, our closed form results show how the risk explicitly depends on all key model parameters, including the problem dimensions and covariance matrices. Moreover, a special case of our results, obtained when intra-sample (or time-series) correlations are not present, precisely match the corresponding ones obtained via spectral methods in [6,16,17,24].",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2311.17100",
+ "title": "Automatic cross-validation in structured models: Is it time to leave out leave-one-out?",
+ "authors": [
+  "A. Adin",
+  "E. Krainski",
+  "A. Lenzi",
+  "Z. Liu",
+  "J. Martínez-Minaya",
+  "H. Rue"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 2,
+ "latest_date": "2024-03-07",
+ "journal_ref": "Spatial Statistics (2024)",
+ "doi": "10.1016/j.spasta.2024.100843",
+ "comment": "",
+ "abstract": "Standard techniques such as leave-one-out cross-validation (LOOCV) might not be suitable for evaluating the predictive performance of models incorporating structured random effects. In such cases, the correlation between the training and test sets could have a notable impact on the model's prediction error. To overcome this issue, an automatic group construction procedure for leave-group-out cross validation (LGOCV) has recently emerged as a valuable tool for enhancing predictive performance measurement in structured models. The purpose of this paper is (i) to compare LOOCV and LGOCV within structured models, emphasizing model selection and predictive performance, and (ii) to provide real data applications in spatial statistics using complex structured models fitted with INLA, showcasing the utility of the automatic LGOCV method. First, we briefly review the key aspects of the recently proposed LGOCV method for automatic group construction in latent Gaussian models. We also demonstrate the effectiveness of this method for selecting the model with the highest predictive performance by simulating extrapolation tasks in both temporal and spatial data analyses. Finally, we provide insights into the effectiveness of the LGOCV method in modelling complex structured data, encompassing spatio-temporal multivariate count data, spatial compositional data, and spatio-temporal geospatial data.",
+ "primary": "stat.ME"
+}

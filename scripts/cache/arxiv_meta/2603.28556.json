@@ -1,0 +1,17 @@
+{
+ "id": "2603.28556",
+ "title": "Flexible and Scalable Bayesian Modelling of Spatio-Temporal Hawkes Processes",
+ "authors": [
+  "Wenqing Liu",
+  "Xenia Miscouridou",
+  "Déborah Sulem"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 1,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing spatio-temporal Hawkes process models typically rely on either parametric or semiparametric assumptions, limiting the model's ability to capture complex endogenous and exogenous event dynamics. We propose a fully Bayesian nonparametric framework for spatio-temporal Hawkes processes using additive Gaussian processes for the prior distributions on the background rate and the triggering kernel. This additive structure enhances interpretability by decoupling temporal and spatial effects while maintaining high modelling flexibility across the entire spatio-temporal domain. To address scalability, we develop a sparse variational inference scheme based on the Gaussian variational family. Synthetic experiments demonstrate that the proposed method accurately recovers background and triggering structures, achieving superior performance compared to existing alternatives. When applied to real-world datasets, it achieves higher held-out log-likelihoods and reveals interpretable spatio-temporal structures of the self-excitation mechanism. Overall, the framework provides a flexible, scalable, interpretable, and uncertainty-aware approach for modelling complex excitation patterns in spatio-temporal event data.",
+ "primary": "stat.ME"
+}

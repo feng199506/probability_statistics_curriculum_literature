@@ -1,0 +1,17 @@
+{
+ "id": "2601.23252",
+ "title": "Nested Slice Sampling: Vectorized Nested Sampling for GPU-Accelerated Inference",
+ "authors": [
+  "David Yallup",
+  "Namu Kroupa",
+  "Will Handley"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 2,
+ "latest_date": "2026-05-10",
+ "journal_ref": "Transactions on Machine Learning Research, 2026",
+ "doi": "",
+ "comment": "58 pages, 13 figures, Accepted to Transactions on Machine Learning Research",
+ "abstract": "Model comparison and calibrated uncertainty quantification often require integrating over parameters, but scalable inference can be challenging for complex, multimodal targets. Nested Sampling is a robust alternative to standard MCMC, yet its typically sequential structure and hard constraints make efficient accelerator implementations difficult. This paper introduces Nested Slice Sampling (NSS), a GPU-friendly, vectorized formulation of Nested Sampling that uses Hit-and-Run Slice Sampling for constrained updates. A tuning analysis yields a simple near-optimal rule for setting the slice width, improving high-dimensional behavior and making per-step compute more predictable for parallel execution. Experiments on challenging synthetic targets, high dimensional Bayesian inference, and Gaussian process hyperparameter marginalization show that NSS maintains accurate evidence estimates and high-quality posterior samples, and is particularly robust on difficult multimodal problems where current state-of-the-art methods such as tempered SMC baselines can struggle. An open-source implementation is released to facilitate adoption and reproducibility.",
+ "primary": "stat.CO"
+}

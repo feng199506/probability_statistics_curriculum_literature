@@ -1,0 +1,18 @@
+{
+ "id": "2507.01732",
+ "title": "Gold after Randomized Sand: Model-X Split Knockoffs for Controlled Transformation Selection",
+ "authors": [
+  "Yang Cao",
+  "Hangyu Lin",
+  "Xinwei Sun",
+  "Yuan Yao"
+ ],
+ "v1_date": "2025-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Controlling the False Discovery Rate (FDR) is critical for reproducible variable selection, especially given the prevalence of complex predictive modeling. The recent Split Knockoff method, an extension of the canonical Knockoffs framework, offers finite-sample FDR control for selecting sparse transformations but is limited to linear models with fixed designs. Extending this framework to random designs, which would accommodate a much broader range of models, is challenged by the fundamental difficulty of reconciling a random covariate design with a deterministic linear transformation. To bridge this gap, we introduce Model-X Split Knockoffs. Our method achieves robust FDR control for transformation selection in random designs by introducing a novel auxiliary randomized design. This key innovation effectively mediates the interaction between the random design and the deterministic transformation, enabling the construction of valid knockoffs. Like the classical Model-X framework, our approach provides provable, finite-sample FDR control under known or accurately estimated covariate distributions, regardless of the response's conditional distribution. Importantly, it guarantees at least the same, and often superior, selection power as standard Model-X Knockoffs when both are applicable. Empirical studies, including simulations and real-world applications to Alzheimer's disease imaging and university ranking analysis, demonstrate robust FDR control and improved statistical power.",
+ "primary": "stat.ME"
+}

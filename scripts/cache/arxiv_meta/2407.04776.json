@@ -1,0 +1,17 @@
+{
+ "id": "2407.04776",
+ "title": "Quantifying Privacy Risks of Public Statistics to Residents of Subsidized Housing",
+ "authors": [
+  "Ryan Steed",
+  "Diana Qing",
+  "Zhiwei Steven Wu"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 2,
+ "latest_date": "2025-05-12",
+ "journal_ref": "Harvard Data Science Review Special Issue 6 (August 2025)",
+ "doi": "10.1162/99608f92.39d8bfa4",
+ "comment": "Harvard Data Science Review, forthcoming",
+ "abstract": "As the U.S. Census Bureau implements its controversial new disclosure avoidance system, researchers and policymakers debate the necessity of new privacy protections for public statistics. With experiments on both public statistics and synthetic microdata, we explore a particular privacy concern: respondents in subsidized housing may deliberately not mention unauthorized children and other household members for fear of being discovered and evicted. By combining public statistics from the Decennial Census and the Department of Housing and Urban Development, we demonstrate a simple, inexpensive reconstruction attack that could identify subsidized households living in violation of occupancy guidelines in 2010. Experiments on synthetic data suggest that a random swapping mechanism similar to the Census Bureau's 2010 disclosure avoidance measures does not significantly reduce the precision of this attack, while a differentially private mechanism similar to the 2020 disclosure avoidance system does. Our results provide a valuable example for policymakers seeking trustworthy public statistics.",
+ "primary": "cs.CY"
+}

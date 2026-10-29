@@ -1,0 +1,17 @@
+{
+ "id": "2311.06147",
+ "title": "Incorporating sufficient physical information into artificial neural networks: a guaranteed improvement via physics-based Rao-Blackwellization",
+ "authors": [
+  "Gian-Luca Geuken",
+  "Jörn Mosler",
+  "Patrick Kurzeja"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 1,
+ "latest_date": "2023-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The concept of Rao-Blackwellization is employed to improve predictions of artificial neural networks by physical information. The error norm and the proof of improvement are transferred from the original statistical concept to a deterministic one, using sufficient information on physics-based conditions. The proposed strategy is applied to material modeling and illustrated by examples of the identification of a yield function, elasto-plastic steel simulations, the identification of driving forces for quasi-brittle damage and rubber experiments. Sufficient physical information is employed, e.g., in the form of invariants, parameters of a minimization problem, dimensional analysis, isotropy and differentiability. It is proven how intuitive accretion of information can yield improvement if it is physically sufficient, but also how insufficient or superfluous information can cause impairment. Opportunities for the improvement of artificial neural networks are explored in terms of the training data set, the networks' structure and output filters. Even crude initial predictions are remarkably improved by reducing noise, overfitting and data requirements.",
+ "primary": "cs.CE"
+}

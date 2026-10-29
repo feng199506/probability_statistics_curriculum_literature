@@ -1,0 +1,16 @@
+{
+ "id": "2502.10939",
+ "title": "Model-assisted inference for dynamic causal effects in staggered rollout cluster randomized experiments",
+ "authors": [
+  "Xinyuan Chen",
+  "Fan Li"
+ ],
+ "v1_date": "2025-02-16",
+ "latest_version": 3,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Staggered rollout cluster randomized experiments (SR-CREs) involve sequential treatment adoption across clusters, requiring analysis methods that address a general class of dynamic causal effects, anticipation, and non-ignorable cluster-period sizes. Without imposing any outcome modeling assumptions, we study regression estimators using individual data, cluster-period averages, and scaled cluster-period totals, with and without covariate adjustment from a design-based perspective. We establish consistency and asymptotic normality of each estimator under a randomization-based framework and prove that the associated variance estimators are asymptotically conservative in the Löwner ordering. Furthermore, we conduct a unified efficiency comparison of the estimators and provide recommendations. We highlight the efficiency advantage of using estimators based on scaled cluster-period totals with covariate adjustment over their counterparts using individual-level data and cluster-period averages. Our results rigorously justify linear regression estimators as model-assisted methods to address an entire class of dynamic causal effects in SR-CREs.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2501.16538",
+ "title": "Synchronized step multilevel Markov chain Monte Carlo",
+ "authors": [
+  "Sanjan C. Muchandimath",
+  "Alex A. Gorodetsky"
+ ],
+ "v1_date": "2025-01-27",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose SYNCE (synchronized step correlation enhancement), a new algorithm for coupling Markov chains within multilevel Markov chain Monte Carlo (ML-MCMC) estimators. We apply this algorithm to solve Bayesian inverse problems using multiple model fidelities. SYNCE is inspired by the concept of common random number coupling in Markov chain Monte Carlo sampling. Unlike state-of-the-art methods that rely on the overlap of level-wise posteriors, our approach enables effective coupling even when posteriors differ substantially. This overlap-independence generates significantly higher correlation between samples at different fidelity levels, improving variance reduction and computational efficiency in the ML-MCMC estimator. We prove that SYNCE admits a unique invariant probability measure and demonstrate that the coupled chains converge to this measure faster than existing overlap-dependent methods, particularly when models are dissimilar. Numerical experiments validate that SYNCE consistently outperforms current coupling strategies in terms of computational efficiency and scalability across varying model fidelities and problem dimensions.",
+ "primary": "stat.AP"
+}

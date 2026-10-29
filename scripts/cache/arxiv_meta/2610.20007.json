@@ -1,0 +1,17 @@
+{
+ "id": "2610.20007",
+ "title": "Minimax estimation of the pseudo-spectral gap of continuous Markov chains, with applications to empirical concentration bounds",
+ "authors": [
+  "Vahe Karagulyan",
+  "Mikołaj Kasprzak",
+  "Pierre Alquier"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the minimax estimation of the pseudo-spectral gap $γ_{ps}$ of a Markov chain from the observation of a single trajectory. Extending earlier works on finite-state space chains by Wolfer and Kontorovich (2024), we provide an estimator in the case of a compact, continuous state-space. Our estimator appears to be minimax-optimal on the class of chains with a transition operator with Lipschitz density, up to logarithmic terms. Our estimator, combined with Paulin's version of Bernstein inequality, allows to derive empirical concentration inequalities for Markov chains. This unlocks many applications, from confidence intervals, to active learning and generalization bounds. In particular, for rested bandits with Markov rewards, we provide a version of UCB with a regret bound similar to the one in the iid case, without assuming any knowledge on the pseudo-spectral gap of the chains.",
+ "primary": "stat.ML"
+}

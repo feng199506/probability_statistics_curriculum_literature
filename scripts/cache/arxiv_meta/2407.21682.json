@@ -1,0 +1,18 @@
+{
+ "id": "2407.21682",
+ "title": "Shape-restricted transfer learning analysis for generalized linear regression model",
+ "authors": [
+  "Pengfei Li",
+  "Tao Yu",
+  "Chixiang Chen",
+  "Jing Qin"
+ ],
+ "v1_date": "2024-07-31",
+ "latest_version": 1,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 2 tables, and 1 figure",
+ "abstract": "Transfer learning has emerged as a highly sought-after and actively pursued research area within the statistical community. The core concept of transfer learning involves leveraging insights and information from auxiliary datasets to enhance the analysis of the primary dataset of interest. In this paper, our focus is on datasets originating from distinct yet interconnected distributions. We assume that the training data conforms to a standard generalized linear model, while the testing data exhibit a connection to the training data based on a prior probability shift assumption. Ultimately, we discover that the two-sample conditional means are interrelated through an unknown, nondecreasing function. We integrate the power of generalized estimating equations with the shape-restricted score function, creating a robust framework for improved inference regarding the underlying parameters. We theoretically establish the asymptotic properties of our estimator and demonstrate, through simulation studies, that our method yields more accurate parameter estimates compared to those based solely on the testing or training data. Finally, we apply our method to a real-world example.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.05345",
+ "title": "Spline-Based Multi-State Models for Analyzing Disease Progression",
+ "authors": [
+  "Alessia Eletti",
+  "Giampiero Marra",
+  "Rosalba Radice"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 4,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Keywords: disease progression; information matrix; multi-state Markov model; penalized log-likelihood; penalized regression spline",
+ "abstract": "Motivated by disease progression-related studies, we propose an estimation method for fitting general non-homogeneous multi-state Markov models. The proposal can handle many types of multi-state processes, with several states and various combinations of observation schemes (e.g., intermittent, exactly observed, censored), and allows for the transition intensities to be flexibly modelled through additive (spline-based) predictors. The algorithm is based on a computationally efficient and stable penalized maximum likelihood estimation approach which exploits the information provided by the analytical Hessian matrix of the model log-likelihood. The proposed modeling framework is employed in case studies that aim at modeling the onset of cardiac allograft vasculopathy, and cognitive decline due to aging, where novel patterns are uncovered. To support applicability and reproducibility, all developed tools are implemented in the R package flexmsm.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2506.07273",
+ "title": "Impact of Label Noise from Large Language Models Generated Annotations on Evaluation of Diagnostic Model Performance",
+ "authors": [
+  "Mohammadreza Chavoshi",
+  "Hari Trivedi",
+  "Janice Newsome",
+  "Aawez Mansuri",
+  "Chiratidzo Rudado Sanyika",
+  "Rohan Satya Isaac",
+  "Frank Li",
+  "Theo Dapamede",
+  "Judy Gichoya"
+ ],
+ "v1_date": "2025-06-08",
+ "latest_version": 1,
+ "latest_date": "2025-06-08",
+ "journal_ref": "",
+ "doi": "10.1148/ryai.250477",
+ "comment": "",
+ "abstract": "Large language models (LLMs) are increasingly used to generate labels from radiology reports to enable large-scale AI evaluation. However, label noise from LLMs can introduce bias into performance estimates, especially under varying disease prevalence and model quality. This study quantifies how LLM labeling errors impact downstream diagnostic model evaluation. We developed a simulation framework to assess how LLM label errors affect observed model performance. A synthetic dataset of 10,000 cases was generated across different prevalence levels. LLM sensitivity and specificity were varied independently between 90% and 100%. We simulated diagnostic models with true sensitivity and specificity ranging from 90% to 100%. Observed performance was computed using LLM-generated labels as the reference. We derived analytical performance bounds and ran 5,000 Monte Carlo trials per condition to estimate empirical uncertainty. Observed performance was highly sensitive to LLM label quality, with bias strongly influenced by disease prevalence. In low-prevalence settings, small reductions in LLM specificity led to substantial underestimation of sensitivity. For example, at 10% prevalence, an LLM with 95% specificity yielded an observed sensitivity of ~53% despite a perfect model. In high-prevalence scenarios, reduced LLM sensitivity caused underestimation of model specificity. Monte Carlo simulations consistently revealed downward bias, with observed performance often falling below true values even when within theoretical bounds. LLM-generated labels can introduce systematic, prevalence-dependent bias into model evaluation. Specificity is more critical in low-prevalence tasks, while sensitivity dominates in high-prevalence settings. These findings highlight the importance of prevalence-aware prompt design and error characterization when using LLMs for post-deployment model assessment in clinical AI.",
+ "primary": "stat.ME"
+}

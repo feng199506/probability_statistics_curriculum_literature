@@ -1,0 +1,17 @@
+{
+ "id": "2412.01952",
+ "title": "No Free Lunch for Stochastic Gradient Langevin Dynamics",
+ "authors": [
+  "Natesh S. Pillai",
+  "Aaron Smith",
+  "Azeem Zaman"
+ ],
+ "v1_date": "2024-12-02",
+ "latest_version": 1,
+ "latest_date": "2024-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As sample sizes grow, scalability has become a central concern in the development of Markov chain Monte Carlo (MCMC) methods. One general approach to this problem, exemplified by the popular stochastic gradient Langevin dynamics (SGLD) algorithm, is to use a small random subsample of the data at every time step. This paper, building on recent work such as \\cite{nagapetyan2017true,JohndrowJamesE2020NFLf}, shows that this approach often fails: while decreasing the sample size increases the speed of each MCMC step, for typical datasets this is balanced by a matching decrease in accuracy. This result complements recent work such as \\cite{nagapetyan2017true} (which came to the same conclusion, but analyzed only specific upper bounds on errors rather than actual errors) and \\cite{JohndrowJamesE2020NFLf} (which did not analyze nonreversible algorithms and allowed for logarithmic improvements).",
+ "primary": "stat.CO"
+}

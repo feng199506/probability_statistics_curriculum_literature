@@ -1,0 +1,17 @@
+{
+ "id": "2411.01381",
+ "title": "Modeling the restricted mean survival time using pseudo-value random forests",
+ "authors": [
+  "Alina Schenk",
+  "Vanessa Basten",
+  "Matthias Schmid"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The restricted mean survival time (RMST) has become a popular measure to summarize event times in longitudinal studies. Defined as the area under the survival function up to a time horizon $τ$ > 0, the RMST can be interpreted as the life expectancy within the time interval [0, $τ$]. In addition to its straightforward interpretation, the RMST also allows for the definition of valid estimands for the causal analysis of treatment contrasts in medical studies. In this work, we introduce a non-parametric approach to model the RMST conditional on a set of baseline variables (including, e.g., treatment variables and confounders). Our method is based on a direct modeling strategy for the RMST, using leave-one-out jackknife pseudo-values within a random forest regression framework. In this way, it can be employed to obtain precise estimates of both patient-specific RMST values and confounder-adjusted treatment contrasts. Since our method (termed \"pseudo-value random forest\", PVRF) is model-free, RMST estimates are not affected by restrictive assumptions like the proportional hazards assumption. Particularly, PVRF offers a high flexibility in detecting relevant covariate effects from higher-dimensional data, thereby expanding the range of existing pseudo-value modeling techniques for RMST estimation. We investigate the properties of our method using simulations and illustrate its use by an application to data from the SUCCESS-A breast cancer trial. Our numerical experiments demonstrate that PVRF yields accurate estimates of both patient-specific RMST values and RMST-based treatment contrasts.",
+ "primary": "stat.ME"
+}

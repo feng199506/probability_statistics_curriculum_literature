@@ -1,0 +1,19 @@
+{
+ "id": "2604.03827",
+ "title": "Confidence Intervals for Rate Estimation with Importance Sampling in Autonomous Vehicle Evaluation",
+ "authors": [
+  "Aiyou Chen",
+  "Ruixuan Rachel Zhou",
+  "Joseph J. Lee",
+  "Nicholas Chamandy",
+  "Henning Hohnhold"
+ ],
+ "v1_date": "2026-04-04",
+ "latest_version": 1,
+ "latest_date": "2026-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 9 figures, Accepted by the Annals of Applied Statistics",
+ "abstract": "Accounting for both rare events and complex sampling presents challenges when quantifying uncertainty for rate estimation in autonomous vehicle performance evaluation. In this paper, we introduce a statistical formulation of this problem and develop a unified compound Poisson model framework for unbiased rate estimation through the Horvitz Thompson estimator. Though asymptotic theory for the model is available, the inference of confidence intervals (CIs) in the presence of rare events requires new investigation. We also advocate for a new monotonicity criterion for rate CIs--summing the rates of disjoint types of events should produce not only a higher point estimate but also higher confidence bounds than for the individual rates--that facilitates interpretability in real applications. We propose a novel exponential bootstrap (EB) method for CI construction based on a fiducial argument; it satisfies the monotonicity property, while novel extensions of some existing methods do not. Comprehensive numerical studies show that EB performs well for a wide range of settings relevant to our applications. Fast implementation of EB based on saddlepoint approximation is also developed, which may be of independent interest.",
+ "primary": "stat.ME"
+}

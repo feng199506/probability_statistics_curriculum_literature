@@ -1,0 +1,15 @@
+{
+ "id": "2604.27813",
+ "title": "A High Dimensional Wild Bootstrap Max-Test for Detecting the Presence of Significant Predictors",
+ "authors": [
+  "Jonathan B. Hill"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 1,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We construct a block bootstrap max-test for detecting the presence of significant predictors in a high dimensional setting, allowing for weakly dependent and heterogeneous (possibly non-stationary) data. The number of covariates to be screened may be large $p$ $>>$ $n$, and growing at an exponential rate, provided $\\ln (p)$ $=$ $o(n^{a})$ for some $a$ $>$ $0$ that depends on memory decay and the growth of higher moments. We study the problem of correlation screening in a high dimensional marginal regression setting, assuming so-called \\textit{physical dependence} in a time series setting. We entirely sidestep covariance matrix estimation and adaptive re-sampling by working with a max-statistic over the many computed parameters. Thus we do not need endogenous selection of the most relevant predictor index yielding non-uniform asymptotics, nor do we need a post-estimation Bonferroni correction. The non-standard limit distribution arising from the maximum of an increasing number of estimators is easily approximated by a multiplier (wild) block bootstrap. The max-test controls for size well, performs well against various deviations from the null, including very slight deviations with a weak or sparse signal. A numerical experiment is performed and an empirical example with the VIX volatility index is provided.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2409.18646",
+ "title": "GephiForR: An R package for creating Gephi-style network visualizations",
+ "authors": [
+  "Julia Manso"
+ ],
+ "v1_date": "2024-09-27",
+ "latest_version": 1,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces GephiForR, an R package designed to replicate Java-based Gephi's key plotting tools in R. The package is accessible to those with minimal R experience and, in particular, implements ForceAtlas2, the key layout feature developed for Gephi by Jacomy et al. (2014). The most significant advancement is the ability to pass previous positions into ForceAtlas2 as baselines, a particularly useful feature for plotting the evolution of network layouts for time series data. GephiForR is especially suited for networks of less than 1000 nodes, simply because R's dependence on single-thread computation means that larger networks take longer to compute, but the package can handle these larger networks as well. I demonstrate the package's capabilities through various examples and comparisons with existing tools and Gephi itself, assessing performance and speed.",
+ "primary": "stat.CO"
+}

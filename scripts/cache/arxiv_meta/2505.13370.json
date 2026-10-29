@@ -1,0 +1,17 @@
+{
+ "id": "2505.13370",
+ "title": "A Kolmogorov-Arnold Neural Model for Cascading Extremes",
+ "authors": [
+  "Miguel de Carvalho",
+  "Clemente Ferrer",
+  "Ronny Vallejos"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the growing concern of cascading extreme events, such as an extreme earthquake followed by a tsunami, by presenting a novel method for risk assessment focused on these domino effects. The proposed approach develops an extreme value theory framework within a Kolmogorov-Arnold network (KAN) to estimate the probability of one extreme event triggering another, conditionally on a feature vector. An extra layer is added to the KAN architecture to ensure that the parameter of interest lies within the unit interval, and we refer to the resulting neural model as KANE (KAN with Natural Enforcement). The proposed method is backed by exhaustive numerical studies and further illustrated with real-world applications to seismology and climatology.",
+ "primary": "stat.ME"
+}

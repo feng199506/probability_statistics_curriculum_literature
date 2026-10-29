@@ -1,0 +1,17 @@
+{
+ "id": "2509.04231",
+ "title": "Conformalized Multiple Testing under Unknown Null Distribution with Symmetric Errors",
+ "authors": [
+  "Yang Tian",
+  "Zinan Zhao",
+  "Wenguang Sun"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 1,
+ "latest_date": "2025-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article addresses a fundamental concern, first raised by Efron (2004), regarding the selection of null distributions in large-scale multiple testing. In modern data-intensive applications involving thousands or even millions of hypotheses, the theoretical null distribution of the test statistics often deviates from the true underlying null distribution, severely compromising the false discovery rate (FDR) analysis. We propose a conformalized empirical Bayes method using self-calibrated empirical null samples (SENS) for both one-sample and two-sample multiple testing problems. The new framework not only sidesteps the use of potentially erroneous theoretical null distributions, which is common in conventional practice, but also mitigates the impact of estimation errors in the unknown null distribution on the validity of FDR control, a challenge frequently encountered in the empirical Bayes FDR literature. In contrast to the empirical Bayes approaches (cf. Efron, 2004; Jin and Cai, 2007; Sun and Cai, 2007) that rely on Gaussian assumptions for the null models, SENS imposes only a weak condition on the symmetry of the error distribution, and leverages conformal tools to achieve FDR control in finite samples. Moreover, SENS incorporates structural insights from empirical Bayes into inference, exhibiting higher power compared to frequentist model-free methods. We conduct an in-depth analysis to establish a novel optimality theory for SENS under Efron's two-group model and demonstrate its superiority over existing empirical Bayes FDR methods and recent model-free FDR methods through numerical experiments on both simulated and real data.",
+ "primary": "stat.ME"
+}

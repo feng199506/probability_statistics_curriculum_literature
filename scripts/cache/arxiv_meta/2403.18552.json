@@ -1,0 +1,17 @@
+{
+ "id": "2403.18552",
+ "title": "Generalized convergence of the deep BSDE method: a step towards fully-coupled FBSDEs and applications in stochastic control",
+ "authors": [
+  "Balint Negyesi",
+  "Zhipeng Huang",
+  "Cornelis W. Oosterlee"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 2,
+ "latest_date": "2025-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 3 figures, 1 table",
+ "abstract": "We are concerned with high-dimensional coupled FBSDE systems approximated by the deep BSDE method of Han et al. (2018). It was shown by Han and Long (2020) that the errors induced by the deep BSDE method admit a posteriori estimate depending on the loss function, whenever the backward equation only couples into the forward diffusion through the Y process. We generalize this result to drift coefficients that may also depend on Z, and give sufficient conditions for convergence under standard assumptions. The resulting conditions are directly verifiable for any equation. Consequently, unlike in earlier theory, our convergence analysis enables the treatment of FBSDEs stemming from stochastic optimal control problems. In particular, we provide a theoretical justification for the non-convergence of the deep BSDE method observed in recent literature, and present direct guidelines for when convergence can be guaranteed in practice. Our theoretical findings are supported by several numerical experiments in high-dimensional settings.",
+ "primary": "math.NA"
+}

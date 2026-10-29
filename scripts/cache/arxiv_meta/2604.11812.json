@@ -1,0 +1,19 @@
+{
+ "id": "2604.11812",
+ "title": "Confidence envelopes for the false discoveries with heterogeneous data",
+ "authors": [
+  "Romain Périer",
+  "Gilles Blanchard",
+  "Sebastian Döhler",
+  "Guillermo Durand",
+  "Etienne Roquain"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 2,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the context of selective inference, confidence envelopes for the false discoveries allow the user to select any subset of null hypotheses while having a statistical guarantee on the number of false discoveries in the selected set. Many constructions of such envelopes have been proposed recently, using local test families (Genovese and Wasserman, 2006; Goeman and Solari, 2011), paths (Katsevich and Ramdas, 2020) or interpolation (Blanchard et al., 2020a). All those methods have in common that they have been well-studied for the homogeneous case where all p-values under the null have a uniform distribution over [0, 1]. However, in many applications the data are heterogeneous and discrete, hence the p-values have heterogeneous, discrete distributions, and the previous constructions may incur a loss of power, in the sense that they over-estimate the number of false discoveries. In this paper, we bridge the previous constructions under the homogeneous case with new tools. We also apply these tools to propose several confidence envelopes based on tools tailored for heterogeneous data, like the Bretagnolle inequality, or a new variant of the Simes inequality. We compare these new envelopes to their homogeneous counterparts on simulated data.",
+ "primary": "math.ST"
+}

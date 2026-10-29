@@ -1,0 +1,17 @@
+{
+ "id": "1903.04797",
+ "title": "Elements of Sequential Monte Carlo",
+ "authors": [
+  "Christian A. Naesseth",
+  "Fredrik Lindsten",
+  "Thomas B. Schön"
+ ],
+ "v1_date": "2019-03-12",
+ "latest_version": 3,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Foundations and Trends in Machine Learning",
+ "abstract": "A core problem in statistics and probabilistic machine learning is to compute probability distributions and expectations. This is the fundamental problem of Bayesian statistics and machine learning, which frames all inference as expectations with respect to the posterior distribution. The key challenge is to approximate these intractable expectations. In this tutorial, we review sequential Monte Carlo (SMC), a random-sampling-based class of methods for approximate inference. First, we explain the basics of SMC, discuss practical issues, and review theoretical results. We then examine two of the main user design choices: the proposal distributions and the so called intermediate target distributions. We review recent results on how variational inference and amortization can be used to learn efficient proposals and target distributions. Next, we discuss the SMC estimate of the normalizing constant, how this can be used for pseudo-marginal inference and inference evaluation. Throughout the tutorial we illustrate the use of SMC on various models commonly used in machine learning, such as stochastic recurrent neural networks, probabilistic graphical models, and probabilistic programs.",
+ "primary": "stat.ML"
+}

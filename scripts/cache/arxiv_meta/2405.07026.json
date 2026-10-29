@@ -1,0 +1,17 @@
+{
+ "id": "2405.07026",
+ "title": "Selective Randomization Inference for Adaptive Experiments",
+ "authors": [
+  "Tobias Freidling",
+  "Qingyuan Zhao",
+  "Zijun Gao"
+ ],
+ "v1_date": "2024-05-11",
+ "latest_version": 4,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adaptive experiments use preliminary analyses of the data to inform further course of action and are commonly used in many disciplines including medical and social sciences. Because the null hypothesis and experimental design are data-dependent, it has long been recognized that statistical inference for adaptive experiments is not straightforward. Most existing methods only apply to specific adaptive designs and rely on strong assumptions. In this work, we propose selective randomization inference as a general framework for analysing adaptive experiments. In a nutshell, our approach applies conditional post-selection inference to randomization tests. By using directed acyclic graphs to describe the data generating process, we derive a selective randomization p-value that controls the selective type-I error. As inference only relies on the randomness in the treatment assignment, no modelling assumptions or independent and identically distributed data are needed. We elaborate on conditions that render the proposed p-value computable and provide rejection sampling and MCMC algorithms to find a Monte Carlo approximation. Moreover, this article shows how to estimate and construct confidence intervals for a homogeneous treatment effect. Lastly, we demonstrate our method and compare it with other randomization tests using synthetic and real-world data.",
+ "primary": "stat.ME"
+}

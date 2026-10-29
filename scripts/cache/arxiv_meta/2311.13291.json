@@ -1,0 +1,16 @@
+{
+ "id": "2311.13291",
+ "title": "Robust Functional Regression with Discretely Sampled Predictors",
+ "authors": [
+  "Ioannis Kalogridis",
+  "Stanislav Nagy"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 1,
+ "latest_date": "2023-11-22",
+ "journal_ref": "Computational Statistics & Data Analysis 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "The functional linear model is an important extension of the classical regression model allowing for scalar responses to be modeled as functions of stochastic processes. Yet, despite the usefulness and popularity of the functional linear model in recent years, most treatments, theoretical and practical alike, suffer either from (i) lack of resistance towards the many types of anomalies one may encounter with functional data or (ii) biases resulting from the use of discretely sampled functional data instead of completely observed data. To address these deficiencies, this paper introduces and studies the first class of robust functional regression estimators for partially observed functional data. The proposed broad class of estimators is based on thin-plate splines with a novel computationally efficient quadratic penalty, is easily implementable and enjoys good theoretical properties under weak assumptions. We show that, in the incomplete data setting, both the sample size and discretization error of the processes determine the asymptotic rate of convergence of functional regression estimators and the latter cannot be ignored. These theoretical properties remain valid even with multi-dimensional random fields acting as predictors and random smoothing parameters. The effectiveness of the proposed class of estimators in practice is demonstrated by means of a simulation study and a real-data example.",
+ "primary": "stat.ME"
+}

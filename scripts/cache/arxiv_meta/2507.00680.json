@@ -1,0 +1,18 @@
+{
+ "id": "2507.00680",
+ "title": "Bayesian analysis of the causal reference-based model for missing data in clinical trials",
+ "authors": [
+  "Brendah Nansereko",
+  "Marcel Wolbers",
+  "James Carpenter",
+  "Jonathan Bartlett"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 2,
+ "latest_date": "2025-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Inadvertently missed Jonathan Bartlett as an author",
+ "abstract": "The statistical analysis of clinical trials is often complicated by missing data. Patients sometimes experience intercurrent events (ICEs), which usually (although not always) lead to missing subsequent outcome measurements for such individuals. The reference-based imputation methods were proposed by Carpenter et al. (2013) and have been commonly adopted for handling missing data due to ICEs when estimating treatment policy strategy estimands. Conventionally, the variance for reference-based estimators was obtained using Rubin's rules. However, Rubin's rules variance estimator is biased compared to the repeated sampling variance of the point estimator, due to uncongeniality. Repeated sampling variance estimators were proposed as an alternative to variance estimation for reference-based estimators. However, these have the property that they decrease as the proportion of ICEs increases. White et al. (2019) introduced a causal model incorporating the concept of a 'maintained treatment effect' following the occurrence of ICEs and showed that this causal model included common reference-based estimators as special cases. Building on this framework, we propose introducing a prior distribution for the maintained effect parameter to account for uncertainty in this assumption. Our approach provides inference for reference-based estimators that explicitly reflects our uncertainty about how much treatment effects are maintained after the occurrence of ICEs. In trials where no or little post-ICE data are observed, our proposed Bayesian reference-based causal model approach can be used to estimate the treatment policy treatment effect, incorporating uncertainty about the reference-based assumption. We compare the frequentist properties of this approach with existing reference-based methods through simulations and by application to an antidepressant trial.",
+ "primary": "stat.ME"
+}

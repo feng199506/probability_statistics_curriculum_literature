@@ -1,0 +1,17 @@
+{
+ "id": "2510.03587",
+ "title": "Exact and Approximate MCMC for Doubly-intractable Probabilistic Graphical Models Leveraging the Underlying Independence Model",
+ "authors": [
+  "Yujie Chen",
+  "Antik Chakraborty",
+  "Anindya Bhadra"
+ ],
+ "v1_date": "2025-10-04",
+ "latest_version": 2,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in Proceedings of the 29th International Conference on Artificial Intelligence and Statistics (AISTATS) 2026, Tangier, Morocco",
+ "abstract": "Bayesian inference for doubly-intractable pairwise exponential graphical models typically involves variations of the exchange algorithm or approximate Markov chain Monte Carlo (MCMC) samplers. However, existing methods for both classes of algorithms require either perfect samplers or sequential samplers for complex models, which are often either not available, or suffer from poor mixing, especially in high dimensions. We develop a method that does not require perfect or sequential sampling, and can be applied to both classes of methods: exact and approximate MCMC. The key to our approach is to utilize the tractable independence model underlying the intractable probabilistic graphical model for the purpose of constructing a finite sample unbiased Monte Carlo (and not MCMC) estimate of the Metropolis--Hastings ratio. This innovation turns out to be crucial for scalability in high dimensions. The method is demonstrated on the Ising model. Gradient-based alternatives to construct a proposal, such as Langevin and Hamiltonian Monte Carlo approaches, also arise as a natural corollary to our general procedure, and are demonstrated as well.",
+ "primary": "stat.CO"
+}

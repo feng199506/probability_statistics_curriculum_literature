@@ -1,0 +1,17 @@
+{
+ "id": "2502.04938",
+ "title": "A note on auxiliary mixture sampling for Bayesian Poisson models",
+ "authors": [
+  "Aldo Gardini",
+  "Fedele Greco",
+  "Carlo Trivisano"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 1,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "10.1007/s11222-025-10781-w",
+ "comment": "",
+ "abstract": "Bayesian hierarchical Poisson models are an essential tool for analyzing count data. However, designing efficient algorithms to sample from the posterior distribution of the target parameters remains a challenging task for this class of models. Auxiliary mixture sampling algorithms have been proposed to address this issue. They involve two steps of data augmentations: the first leverages the theory of Poisson processes, and the second approximates the residual distribution of the resulting model through a mixture of Gaussian distributions. In this way, an approximated Gibbs sampler is obtained. In this paper, we focus on the accuracy of the approximation step, highlighting scenarios where the mixture fails to accurately represent the true underlying distribution, leading to a lack of convergence in the algorithm. We outline key features to monitor, in order to assess if the approximation performs as intended. Building on this, we propose a robust version of the auxiliary mixture sampling algorithm, which can detect approximation failures and incorporate a Metropolis-Hastings step when necessary. Finally, we evaluate the proposed algorithm together with the original mixture sampling algorithms on both simulated and real datasets.",
+ "primary": "stat.ME"
+}

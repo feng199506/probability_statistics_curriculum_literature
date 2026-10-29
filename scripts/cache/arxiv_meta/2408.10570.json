@@ -1,0 +1,17 @@
+{
+ "id": "2408.10570",
+ "title": "A two-sample test based on averaged Wilcoxon rank sums over interpoint distances",
+ "authors": [
+  "Annika Betken",
+  "Aljosa Marjanovic",
+  "Katharina Proksch"
+ ],
+ "v1_date": "2024-08-20",
+ "latest_version": 1,
+ "latest_date": "2024-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An important class of two-sample multivariate homogeneity tests is based on identifying differences between the distributions of interpoint distances. While generating distances from point clouds offers a straightforward and intuitive way for dimensionality reduction, it also introduces dependencies to the resulting distance samples. We propose a simple test based on Wilcoxon's rank sum statistic for which we prove asymptotic normality under the null hypothesis and fixed alternatives under mild conditions on the underlying distributions of the point clouds. Furthermore, we show consistency of the test and derive a variance approximation that allows to construct a computationally feasible, distribution-free test with good finite sample performance. The power and robustness of the test for high-dimensional data and low sample sizes is demonstrated by numerical simulations. Finally, we apply the proposed test to case-control testing on microarray data in genetic studies, which is considered a notorious case for a high number of variables and low sample sizes.",
+ "primary": "stat.ME"
+}

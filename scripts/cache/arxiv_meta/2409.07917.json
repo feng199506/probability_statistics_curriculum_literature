@@ -1,0 +1,17 @@
+{
+ "id": "2409.07917",
+ "title": "Multiple tests for restricted mean time lost with competing risks data",
+ "authors": [
+  "Merle Munko",
+  "Dennis Dobler",
+  "Marc Ditzhaus"
+ ],
+ "v1_date": "2024-09-12",
+ "latest_version": 1,
+ "latest_date": "2024-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Easy-to-interpret effect estimands are highly desirable in survival analysis. In the competing risks framework, one good candidate is the restricted mean time lost (RMTL). It is defined as the area under the cumulative incidence function up to a prespecified time point and, thus, it summarizes the cumulative incidence function into a meaningful estimand. While existing RMTL-based tests are limited to two-sample comparisons and mostly to two event types, we aim to develop general contrast tests for factorial designs and an arbitrary number of event types based on a Wald-type test statistic. Furthermore, we avoid the often-made, rather restrictive continuity assumption on the event time distribution. This allows for ties in the data, which often occur in practical applications, e.g., when event times are measured in whole days. In addition, we develop more reliable tests for RMTL comparisons that are based on a permutation approach to improve the small sample performance. In a second step, multiple tests for RMTL comparisons are developed to test several null hypotheses simultaneously. Here, we incorporate the asymptotically exact dependence structure between the local test statistics to gain more power. The small sample performance of the proposed testing procedures is analyzed in simulations and finally illustrated by analyzing a real data example about leukemia patients who underwent bone marrow transplantation.",
+ "primary": "stat.ME"
+}

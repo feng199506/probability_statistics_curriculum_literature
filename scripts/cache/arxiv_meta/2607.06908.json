@@ -1,0 +1,15 @@
+{
+ "id": "2607.06908",
+ "title": "Iterative detection of global factors near the BBP phase transition",
+ "authors": [
+  "Andrés García-Medina"
+ ],
+ "v1_date": "2026-07-08",
+ "latest_version": 1,
+ "latest_date": "2026-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Detecting the number of global factors in high-dimensional correlation matrices is a central problem in multivariate statistics and random matrix theory, with important implications for asset pricing and econophysics. When the number of variables $p$ is comparable to the number of observations $n$, signal-to-noise separation becomes difficult, especially near the Baik--Ben Arous--Péché (BBP) transition, where weak factors may be confused with fluctuations at the Marčenko--Pastur spectral edge. In this work, we characterize the participation-ratio (PR) structure of the Brown--Harding (BH) factor model. Under strong common loadings, the leading coherent eigenvector $u_1$ satisfies $\\mathrm{PR}(u_1)/p\\to 1$, whereas weak-factor directions and typical idiosyncratic sample eigenvectors $u$ satisfy the delocalized benchmark $\\mathrm{PR}(u)/p\\to 1/3$. These limits motivate an eigenvector-level criterion for retaining extensive directions. We propose an iterative global factor (IGF) algorithm that combines adaptive Marčenko--Pastur edge recalibration with a PR delocalization filter. The method iteratively reestimates the effective noise level, tests eigenvalue separation from the residual bulk, and retains only spectrally separated components with sufficiently extended eigenvectors. Monte Carlo simulations of the BH factor model show that IGF recovers the true number of factors near the BBP transition, where eigenvalue-only criteria can fail or remain ambiguous. A synthetic moving-window calibration matched to the empirical dimensions, which is then applied to S\\&P 500 returns. IGF detects a richer and more dynamic set of global factors than the Onatski test, with a median count of 7 factors. The results indicate that combining spectral separation with eigenvector delocalization improves the detectability of global-factor estimation in high-dimensional financial correlation matrices.",
+ "primary": "q-fin.ST"
+}

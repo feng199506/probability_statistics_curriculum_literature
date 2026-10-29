@@ -1,0 +1,17 @@
+{
+ "id": "2503.01707",
+ "title": "Metropolis Adjusted Microcanonical Hamiltonian Monte Carlo",
+ "authors": [
+  "Jakob Robnik",
+  "Reuben Cohn-Gordon",
+  "Uroš Seljak"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 2,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from high dimensional distributions is a computational bottleneck in many scientific applications. Hamiltonian Monte Carlo (HMC), and in particular the No-U-Turn Sampler (NUTS), are widely used, yet they struggle on problems with a very large number of parameters or a complicated geometry. Microcanonical Langevin Monte Carlo (MCLMC) has been recently proposed as an alternative which shows striking gains in efficiency over NUTS, especially for high-dimensional problems. However, it produces biased samples, with a bias that is hard to control in general. We introduce the Metropolis-Adjusted Microcanonical sampler (MAMS), which relies on the same dynamics as MCLMC, but introduces a Metropolis-Hastings step and thus produces asymptotically unbiased samples. We develop an automated tuning scheme for the hyperparameters of the algorithm, making it applicable out of the box. We demonstrate that MAMS outperforms NUTS across the board on benchmark problems of varying complexity and dimensionality, achieving up to a factor of seven speedup.",
+ "primary": "stat.CO"
+}

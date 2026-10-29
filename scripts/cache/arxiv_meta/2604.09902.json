@@ -1,0 +1,18 @@
+{
+ "id": "2604.09902",
+ "title": "crumble: A comprehensive framework for modern causal mediation analysis with intermediate confounding",
+ "authors": [
+  "Richard Liu",
+  "Nicholas T. Williams",
+  "Kara E. Rudolph",
+  "Ivan Diaz"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal mediation analysis is widely used to investigate how causal effects operate through specific pathways linking treatments or exposures to outcomes. Recently, \\texttt{crumble} was developed to enable nonparametric estimation of several mediation parameters, even when mediators are continuous and/or multi-dimensional or when treatments are non-binary. But a practical and accessible guide to using \\texttt{crumble} -- one that does not require deep familiarity with mediation analysis or semiparametric theory -- is currently lacking. This tutorial aims to an accessible introduction to \\texttt{crumble} while minimizing technical complexity. We first review the mediation parameters implemented in \\texttt{crumble} -- natural direct and indirect effects, randomized interventional effects, and recanting-twin effects. For each, we give the definition, interpretation, identification assumptions, and suitability in the presence or absence of intermediate confounding. Then, we demonstrate the usage of \\texttt{crumble} by examining an example configuration. Next, we describe how \\texttt{crumble} accommodates non-binary treatments through modified treatment policies. Finally, we illustrate the practical use of \\texttt{crumble} through two case studies -- one with a binary treatment and one with a non-binary treatment -- based on the Job Search Intervention Study data.",
+ "primary": "stat.ME"
+}

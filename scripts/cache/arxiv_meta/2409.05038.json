@@ -1,0 +1,16 @@
+{
+ "id": "2409.05038",
+ "title": "An unbiased rank-based estimator of the Mann-Whitney variance including the case of ties",
+ "authors": [
+  "Edgar Brunner",
+  "Frank Konietschke"
+ ],
+ "v1_date": "2024-09-08",
+ "latest_version": 1,
+ "latest_date": "2024-09-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many estimators of the variance of the well-known unbiased and uniform most powerful estimator $\\htheta$ of the Mann-Whitney effect, $θ= P(X < Y) + \\nfrac12 P(X=Y)$, are considered in the literature. Some of these estimators are only valid in case of no ties or are biased in case of small sample sizes where the amount of the bias is not discussed. Here we derive an unbiased estimator that is based on different rankings, the so-called 'placements' (Orban and Wolfe, 1980), and is therefore easy to compute. This estimator does not require the assumption of continuous \\dfs\\ and is also valid in the case of ties. Moreover, it is shown that this estimator is non-negative and has a sharp upper bound which may be considered an empirical version of the well-known Birnbaum-Klose inequality. The derivation of this estimator provides an option to compute the biases of some commonly used estimators in the literature. Simulations demonstrate that, for small sample sizes, the biases of these estimators depend on the underlying \\dfs\\ and thus are not under control. This means that in the case of a biased estimator, simulation results for the type-I error of a test or the coverage probability of a \\ci\\ do not only depend on the quality of the approximation of $\\htheta$ by a normal \\db\\ but also an additional unknown bias caused by the variance estimator. Finally, it is shown that this estimator is $L_2$-consistent.",
+ "primary": "stat.ME"
+}

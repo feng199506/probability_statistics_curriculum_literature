@@ -1,0 +1,16 @@
+{
+ "id": "2506.01267",
+ "title": "Adversarial learning for nonparametric regression: Minimax rate and adaptive estimation",
+ "authors": [
+  "Jingfu Peng",
+  "Yuhong Yang"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 1,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite tremendous advancements of machine learning models and algorithms in various application domains, they are known to be vulnerable to subtle, natural or intentionally crafted perturbations in future input data, known as adversarial attacks. While numerous adversarial learning methods have been proposed, fundamental questions about their statistical optimality in robust loss remain largely unanswered. In particular, the minimax rate of convergence and the construction of rate-optimal estimators under future $X$-attacks are yet to be worked out. In this paper, we address this issue in the context of nonparametric regression, under suitable assumptions on the smoothness of the regression function and the geometric structure of the input perturbation set. We first establish the minimax rate of convergence under adversarial $L_q$-risks with $1 \\leq q \\leq \\infty$ and propose a piecewise local polynomial estimator that achieves the minimax optimality. The established minimax rate elucidates how the smoothness level and perturbation magnitude affect the fundamental limit of adversarial learning under future $X$-attacks. Furthermore, we construct a data-driven adaptive estimator that is shown to achieve, within a logarithmic factor, the optimal rate across a broad scale of nonparametric and adversarial classes.",
+ "primary": "stat.ML"
+}

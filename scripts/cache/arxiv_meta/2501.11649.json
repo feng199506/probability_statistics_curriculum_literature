@@ -1,0 +1,17 @@
+{
+ "id": "2501.11649",
+ "title": "Investigating the performance of the Phase II Hotelling T2 chart when monitoring multivariate time series observations",
+ "authors": [
+  "Adel Ahmadi Nadi",
+  "Giovanni Celano",
+  "Stefan Steiner"
+ ],
+ "v1_date": "2025-01-20",
+ "latest_version": 1,
+ "latest_date": "2025-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Thanks to high-tech measurement systems like sensors, data are often collected with high frequency in modern industrial processes. This phenomenon could potentially produce autocorrelated and cross-correlated measurements. It has been shown that if this issue is not properly accounted for while designing the control charts, many false alarms may be observed, disrupting the monitoring process efficiency. There are generally two recommended ways to monitor autocorrelated data: fitting a time series model and then monitoring the residuals or directly monitoring the original observations. Although residual charts are popular in the literature because they offer advantages such as ease of implementation, questions have been raised about their efficiency due to the loss of information. This paper develops the methodology for applying Hotelling's T2 chart directly to monitoring multivariate autocorrelated and cross-correlated observations. To model such data, we use the multivariate vector autoregressive time series model of order p >= 1, denoted as VAR(p). We compare the performance of the T2 chart based on the original observations and the residual-based T2 chart using the well-known metric average run length and a newly introduced criterion called first-to-signal. The results indicate that the proposed method consistently outperforms the alternative chart. We also illustrate the proposed method using two examples: one from a steel sheet rolling process (VAR(1) observations) and another from a chemical process (VAR(3) observations).",
+ "primary": "stat.ME"
+}

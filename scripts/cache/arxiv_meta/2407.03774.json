@@ -1,0 +1,17 @@
+{
+ "id": "2407.03774",
+ "title": "Mixture Modeling for Temporal Point Processes with Memory",
+ "authors": [
+  "Xiaotian Zheng",
+  "Athanasios Kottas",
+  "Bruno Sansó"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 2,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a constructive approach to building temporal point processes that incorporate dependence on their history. The dependence is modeled through the conditional density of the duration, i.e., the interval between successive event times, using a mixture of first-order conditional densities for each one of a specific number of lagged durations. Such a formulation for the conditional duration density accommodates high-order dynamics, and it thus enables flexible modeling for point processes with memory. The implied conditional intensity function admits a representation as a local mixture of first-order hazard functions. By specifying appropriate families of distributions for the first-order conditional densities, with different shapes for the associated hazard functions, we can obtain either self-exciting or self-regulating point processes. From the perspective of duration processes, we develop a method to specify a stationary marginal density. The resulting model, interpreted as a dependent renewal process, introduces high-order Markov dependence among identically distributed durations. Furthermore, we provide extensions to cluster point processes. These can describe duration clustering behaviors attributed to different factors, thus expanding the scope of the modeling framework to a wider range of applications. Regarding implementation, we develop a Bayesian approach to inference, model checking, and prediction. We investigate point process model properties analytically, and illustrate the methodology with both synthetic and real data examples.",
+ "primary": "stat.ME"
+}

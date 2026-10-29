@@ -1,0 +1,20 @@
+{
+ "id": "2401.11263",
+ "title": "Estimating Heterogeneous Treatment Effects on Survival Outcomes Using Counterfactual Censoring Unbiased Transformations",
+ "authors": [
+  "Shenbo Xu",
+  "Raluca Cobzaru",
+  "Stan N. Finkelstein",
+  "Roy E. Welsch",
+  "Kenney Ng",
+  "Zach Shahn"
+ ],
+ "v1_date": "2024-01-20",
+ "latest_version": 2,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Methods for estimating heterogeneous treatment effects (HTE) from observational data have largely focused on continuous or binary outcomes, with less attention paid to survival outcomes and almost none to settings with competing risks. In this work, we develop censoring unbiased transformations (CUTs) for survival outcomes both with and without competing risks. After converting time-to-event outcomes using these CUTs, direct application of HTE learners for continuous outcomes yields consistent estimates of heterogeneous cumulative incidence effects, total effects, and separable direct effects. Our CUTs enable application of a much larger set of state of the art HTE learners for censored outcomes than had previously been available, especially in competing risks settings. We provide generic model-free learner-specific oracle inequalities bounding the finite-sample excess risk. The oracle efficiency results depend on the oracle selector and estimated nuisance functions from all steps involved in the transformation. We demonstrate the empirical performance of the proposed methods in simulation studies.",
+ "primary": "stat.ME"
+}

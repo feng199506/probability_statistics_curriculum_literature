@@ -1,0 +1,18 @@
+{
+ "id": "2412.21056",
+ "title": "A flexible parametric approach to synthetic patients generation using health data",
+ "authors": [
+  "Marta Cipriani",
+  "Lorenzo Di Rocco",
+  "Maria Puopolo",
+  "Marco Alfò"
+ ],
+ "v1_date": "2024-12-30",
+ "latest_version": 1,
+ "latest_date": "2024-12-30",
+ "journal_ref": "",
+ "doi": "10.1007/s10260-025-00800-5",
+ "comment": "18 pages, 3 figures",
+ "abstract": "Enhancing reproducibility and data accessibility is essential to scientific research. However, ensuring data privacy while achieving these goals is challenging, especially in the medical field, where sensitive data are often commonplace. One possible solution is to use synthetic data that mimic real-world datasets. This approach may help to streamline therapy evaluation and enable quicker access to innovative treatments. We propose using a method based on sequential conditional regressions, such as in a fully conditional specification (FCS) approach, along with flexible parametric survival models to accurately replicate covariate patterns and survival times. To make our approach available to a wide audience of users, we have developed user-friendly functions in R and Python to implement it. We also provide an example application to registry data on patients affected by Creutzfeld-Jacob disease. The results show the potentialities of the proposed method in mirroring observed multivariate distributions and survival outcomes.",
+ "primary": "stat.ME"
+}

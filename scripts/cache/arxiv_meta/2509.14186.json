@@ -1,0 +1,16 @@
+{
+ "id": "2509.14186",
+ "title": "Quickest Change Detection with Cost-Constrained Experiment Design",
+ "authors": [
+  "Patrick Vincent N. Lubenia",
+  "Taposh Banerjee"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the classical quickest change detection problem, an observer performs a single experiment to monitor a stochastic process. The goal in the classical problem is to detect a change in the statistical properties of the process, with the minimum possible delay, subject to a constraint on the rate of false alarms. This paper considers the case where, at each observation time, the decision-maker must choose between multiple experiments with varying information qualities and costs. The change can be detected using any of the experiments. The goal here is to detect the change with the minimum delay, subject to constraints on the rate of false alarms and the fraction of time each experiment is performed before the time of change. The constraint on the fraction of time can be used to control the overall cost of using the system of experiments. An algorithm called the two-experiment cumulative sum (2E-CUSUM) algorithm is first proposed to solve the problem when there are only two experiments. The algorithm for the case of multiple experiments, starting with three experiments, is then designed iteratively using the 2E-CUSUM algorithm. Two key ideas used in the design are the scaling of undershoots and the truncation of tests. The multiple-experiment algorithm can be designed to satisfy the constraints and can achieve the delay performance of the experiment with the highest quality within a constant. The important concept of data efficiency, where the observer has the choice of not performing any experiment, is explored as well.",
+ "primary": "eess.SP"
+}

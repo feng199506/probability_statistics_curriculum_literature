@@ -1,0 +1,15 @@
+{
+ "id": "2409.12019",
+ "title": "Asymptotics for conformal inference",
+ "authors": [
+  "Ulysse Gazin"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 3,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 3 figures, 2 tables",
+ "abstract": "Conformal inference is a versatile tool for building prediction sets in regression or classification. We study the false coverage proportion (FCP) in a simultaneous inference setting with a calibration sample of $n$ points and a test sample of $m$ points. We identify the exact, distribution-free, asymptotic distribution of the FCP when both $n$ and $m$ tend to infinity. This shows in particular that FCP control can be achieved by using the well-known Kolmogorov distribution, and puts forward that the asymptotic variance is decreasing in the ratio $n/m$. We then provide a number of extensions by considering the problems of novelty detection, weighted conformal inference or distribution shift between the calibration sample and the test sample. In particular, our asymptotic results allow to accurately quantify the asymptotic behavior of the errors (a miscovering interval or declaring a false novelty) when weighted conformal inference is used.",
+ "primary": "math.ST"
+}

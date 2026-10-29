@@ -1,0 +1,19 @@
+{
+ "id": "1507.02646",
+ "title": "Pareto Smoothed Importance Sampling",
+ "authors": [
+  "Aki Vehtari",
+  "Daniel Simpson",
+  "Andrew Gelman",
+  "Yuling Yao",
+  "Jonah Gabry"
+ ],
+ "v1_date": "2015-07-09",
+ "latest_version": 9,
+ "latest_date": "2024-03-13",
+ "journal_ref": "Journal of Machine Learning Research, 25(72):1-58, 2024",
+ "doi": "",
+ "comment": "The final version with minor corrections. To be published in JMLR. 58 pages",
+ "abstract": "Importance weighting is a general way to adjust Monte Carlo integration to account for draws from the wrong distribution, but the resulting estimate can be highly variable when the importance ratios have a heavy right tail. This routinely occurs when there are aspects of the target distribution that are not well captured by the approximating distribution, in which case more stable estimates can be obtained by modifying extreme importance ratios. We present a new method for stabilizing importance weights using a generalized Pareto distribution fit to the upper tail of the distribution of the simulated importance ratios. The method, which empirically performs better than existing methods for stabilizing importance sampling estimates, includes stabilized effective sample size estimates, Monte Carlo error estimates, and convergence diagnostics. The presented Pareto $\\hat{k}$ finite sample convergence rate diagnostic is useful for any Monte Carlo estimator.",
+ "primary": "stat.CO"
+}

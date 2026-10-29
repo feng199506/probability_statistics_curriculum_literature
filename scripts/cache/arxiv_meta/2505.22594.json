@@ -1,0 +1,18 @@
+{
+ "id": "2505.22594",
+ "title": "Multi-Environment GLAMP: Approximate Message Passing for Transfer Learning with Applications to Lasso-based Estimators",
+ "authors": [
+  "Longlin Wang",
+  "Yanke Song",
+  "Kuanhao Jiang",
+  "Pragya Sur"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 2,
+ "latest_date": "2025-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Restructured the previous Section 3 and included reference to Gerbelot and Berthier (Information and Inference, 2023). 85 pages, 3 figures",
+ "abstract": "Approximate Message Passing (AMP) algorithms enable precise characterization of certain classes of random objects in the high-dimensional limit, and have found widespread applications in fields such as signal processing, statistics, and communications. In this work, we introduce Multi-Environment Generalized Long AMP, a novel AMP framework that applies to transfer learning problems with multiple data sources and distribution shifts. We rigorously establish state evolution for multi-environment GLAMP. We demonstrate the utility of this framework by precisely characterizing the risk of three Lasso-based transfer learning estimators for the first time: the Stacked Lasso, the Model Averaging Estimator, and the Second Step Estimator. We also demonstrate the remarkable finite sample accuracy of our theory via extensive simulations.",
+ "primary": "math.ST"
+}

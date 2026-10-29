@@ -1,0 +1,15 @@
+{
+ "id": "2512.01003",
+ "title": "Correlated Confounding Variables Are Not Easily Controlled for in Large Survey Research",
+ "authors": [
+  "William H. Press"
+ ],
+ "v1_date": "2025-11-30",
+ "latest_version": 1,
+ "latest_date": "2025-11-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 6 figures",
+ "abstract": "Results in epidemiology and social science often require the removal of confounding effects from measurements of the pairwise correlation of variables in survey data. This is typically accomplished by some variant of linear regression (e.g., ``logistic\" or ``Cox proportional\"). But, knowing whether all possible confounders have been identified, or are even visible (not latent), is in general impossible. Here, we exhibit two examples that frame the issue. The first example proposes a highly unlikely hypothesis on drug use, draws data from a large, respected survey, and succeeds in ``proving\" the implausible hypothesis, despite regressing out more than 20 confounding variables. The second constructs a ``metamodel\" in which a single (by hypothesis unmeasurable) latent variable affects many mutually correlated confounders. From simulations, we derive formulas for the magnitude of spurious association that persists even as increasing numbers of confounders are regressed out. The intent of these examples is for them to serve as cautionary tales.",
+ "primary": "stat.ME"
+}

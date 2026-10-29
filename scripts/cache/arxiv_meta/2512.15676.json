@@ -1,0 +1,24 @@
+{
+ "id": "2512.15676",
+ "title": "Data-driven controlled subgroup selection in clinical trials",
+ "authors": [
+  "Manuel M. Müller",
+  "Björn Bornkamp",
+  "Frank Bretz",
+  "Timothy I. Cannings",
+  "Wei Liu",
+  "Henry W. J. Reeve",
+  "Richard J. Samworth",
+  "Nikolaos Sfikas",
+  "Fang Wan",
+  "Konstantinos Sechidis"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 2,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 10 figures",
+ "abstract": "Subgroup selection in clinical trials is essential for identifying patient groups that react differently to a treatment, thereby enabling personalised medicine. In particular, subgroup selection can identify patient groups that respond particularly well to a treatment or that encounter adverse events more often. However, this is a post-selection inference problem, which may pose challenges for traditional techniques used for subgroup analysis, such as increased Type I error rates and potential biases from data-driven subgroup identification. In this paper, we present two methods for subgroup selection in regression problems: one based on generalised linear modelling and another on isotonic regression. We demonstrate how these methods can be used for data-driven subgroup identification in the analysis of clinical trials, focusing on two distinct tasks: identifying patient groups that are safe from manifesting adverse events and identifying patient groups with high treatment effect, while controlling for Type I error in both cases. A thorough simulation study is conducted to evaluate the strengths and weaknesses of each method, providing detailed insight into the sensitivity of the Type I error rate control to modelling assumptions.",
+ "primary": "stat.ME"
+}

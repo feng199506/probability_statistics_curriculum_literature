@@ -1,0 +1,16 @@
+{
+ "id": "2312.10814",
+ "title": "Design of Bayesian A/B Tests Controlling False Discovery Rates and Power",
+ "authors": [
+  "Luke Hagar",
+  "Nathaniel T. Stevens"
+ ],
+ "v1_date": "2023-12-17",
+ "latest_version": 6,
+ "latest_date": "2025-09-27",
+ "journal_ref": "",
+ "doi": "10.1080/07350015.2025.2572770",
+ "comment": "",
+ "abstract": "Businesses frequently run online controlled experiments (i.e., A/B tests) to learn about the effect of an intervention on multiple business metrics. To account for multiple hypothesis testing, multiple metrics are commonly aggregated into a single composite measure, losing valuable information, or strict family-wise error rate adjustments are imposed, leading to reduced power. In this paper, we propose an economical framework to design Bayesian A/B tests while controlling both power and the false discovery rate (FDR). Selecting optimal decision thresholds to control power and the FDR typically relies on intensive simulation at each sample size considered. Our framework efficiently recommends optimal sample sizes and decision thresholds for Bayesian A/B tests that satisfy criteria for the FDR and average power. Our approach is efficient because we leverage new theoretical results to obtain these recommendations using simulations conducted at only two sample sizes. Our methodology is illustrated using an example based on a real A/B test involving several metrics.",
+ "primary": "stat.ME"
+}

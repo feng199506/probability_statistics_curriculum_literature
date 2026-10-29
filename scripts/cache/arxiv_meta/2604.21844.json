@@ -1,0 +1,17 @@
+{
+ "id": "2604.21844",
+ "title": "Does PCA Work for Rough Functional Data?",
+ "authors": [
+  "Tim Kutta",
+  "Nina Dörnemann",
+  "Piotr Kokoszka"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Functional data analysis is concerned with the analysis of infinite-dimensional data functions. Functional principal component analysis (FPCA) is a key method to obtain finite-dimensional summaries. Consistency of FPCA has been theoretically established for sufficiently regular data functions. However, empirical evidence shows that FPCA can become severely inconsistent when the underlying functions are too rough. This paper provides the first theoretical explanation for this phenomenon. We propose a model that explicitly captures the roughness of functional data and allows us to quantify the resulting bias of FPCA, depending on the functional roughness. The model undergoes a phase transition marking the point at which FPCA becomes entirely uninformative. Based on these probabilistic results, we discuss diagnostic tests for informative principal components. As an additional contribution, we derive results on spectral statistics that may serve as a foundation for goodness-of-fit tests for rough functional data. Mathematically, our approach combines recent advances in random matrix theory and generic chaining with tools from FDA. We illustrate the effects of roughness on FPCA using simulations, as well as climate and environmental datasets.",
+ "primary": "stat.ME"
+}

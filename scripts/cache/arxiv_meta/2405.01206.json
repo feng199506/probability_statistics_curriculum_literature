@@ -1,0 +1,17 @@
+{
+ "id": "2405.01206",
+ "title": "Posterior contraction rates in a sparse non-linear mixed-effects model",
+ "authors": [
+  "Marion Naveau",
+  "Maud Delattre",
+  "Laure Sansonnet"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 2,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent works have shown an interest in investigating the frequentist asymptotic properties of Bayesian procedures for high-dimensional linear models under sparsity constraints. However, there exists a gap in the literature regarding analogous theoretical findings for non-linear models within the high-dimensional setting. The current study provides a novel contribution, focusing specifically on a non-linear mixed-effects model. In this model, the residual variance is assumed to be known, while the regression vector and the covariance matrix of the random effects are unknown and must be estimated. The prior distribution for the sparse regression coefficients consists of a mixture of a point mass at zero and a Laplace distribution, while an Inverse-Wishart prior is employed for the covariance parameter of the random effects. First, the effective dimension of this model is bounded with high posterior probabilities. Subsequently, we derive posterior contraction rates for both the covariance parameter and the prediction term of the response vector. Finally, under additional assumptions, the posterior distribution is shown to contract for recovery of the unknown sparse regression vector at a rate similar to that established in the linear case.",
+ "primary": "math.ST"
+}

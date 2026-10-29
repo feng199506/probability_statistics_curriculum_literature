@@ -1,0 +1,17 @@
+{
+ "id": "2610.33419",
+ "title": "Online Covariance Estimation for Averaged Stochastic Gradient Descent on Riemannian Manifolds",
+ "authors": [
+  "Jingrong Guan",
+  "Liwei Jiang",
+  "Sen Na"
+ ],
+ "v1_date": "2026-10-24",
+ "latest_version": 1,
+ "latest_date": "2026-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pqges, 7 figures, 2 tables",
+ "abstract": "We study online inference for averaged Riemannian stochastic gradient descent (RSGD) when the unknown parameter lies on a manifold. Although the averaged RSGD iterate is asymptotically normal, practical inference requires estimating the unknown covariance operator in its limiting distribution. Existing online batch-means methods cannot be applied directly because a general Riemannian manifold lacks an addition operation, and the tangent space containing the Riemannian gradient varies across iterations. Through vector transport, we construct overlapping and non-overlapping covariance estimators that adaptively combine information from successive batches while accounting for the changing tangent spaces. The proposed estimators are online, require neither Riemannian Hessian computations nor a prespecified terminal sample size, and attain the same convergence rates as their Euclidean counterparts (Zhu et al., 2023). Together with asymptotic normality, these estimators enable online statistical inference for RSGD on manifolds. We illustrate the proposed framework through a detailed study of streaming principal component analysis on Grassmann manifolds.",
+ "primary": "stat.ML"
+}

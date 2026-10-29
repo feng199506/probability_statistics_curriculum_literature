@@ -1,0 +1,16 @@
+{
+ "id": "2603.20082",
+ "title": "Inference in high-dimensional logistic regression under tensor network dependence",
+ "authors": [
+  "Josh Miles",
+  "Sohom Bhattacharya"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the problem of statistical inference for logistic regression with high-dimensional covariates in settings where dependence among individuals is induced by an underlying Markov random field. Going beyond the pairwise interaction models such as the Ising model, we consider a framework to accommodate more general tensor structures that capture higher-order dependencies. We develop a two-step procedure for low-dimensional linear and quadratic functionals. The first step constructs a regularized maximum pseudolikelihood estimator, for which we establish consistency under high-dimensional features. However, as in other classical high-dimensional regression problems, this estimator is biased and cannot be directly used for valid statistical inference. The second step introduces a bias-correction that yields an asymptotically normal estimator from which one can construct confidence intervals and test hypotheses. Our results move beyond the existing literature, where only estimation guarantees were available or only for pairwise interaction models. We complement our theoretical analysis with simulation studies confirming the effectiveness of the proposed method.",
+ "primary": "math.ST"
+}

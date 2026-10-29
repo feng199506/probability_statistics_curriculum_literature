@@ -1,0 +1,18 @@
+{
+ "id": "2512.20837",
+ "title": "Improving optimal subsampling through stratification",
+ "authors": [
+  "Jasper B. Yang",
+  "Thomas Lumley",
+  "Bryan E. Shepherd",
+  "Pamela A. Shaw"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages (20 main, 9 supplemental); 4 figures",
+ "abstract": "Recent works have proposed optimal subsampling algorithms to improve computational efficiency in large datasets and to design validation studies in the presence of measurement error. Existing approaches generally fall into two categories: (i) designs that optimize individualized sampling rules, where unit-specific probabilities are assigned and applied independently, and (ii) designs based on stratified sampling with simple random sampling within strata. Focusing on the logistic regression setting, we derive the asymptotic variances of estimators under both approaches and compare them numerically through extensive simulations and an application to data from the Vanderbilt Comprehensive Care Clinic cohort. Our results reinforce that stratified sampling is not merely an approximation to individualized sampling, showing instead that optimal stratified designs are often more efficient than optimal individualized designs through their elimination of between-stratum contributions to variance. These findings suggest that optimizing over the class of individualized sampling rules overlooks highly efficient sampling designs and highlight the often underappreciated advantages of stratified sampling.",
+ "primary": "stat.ME"
+}

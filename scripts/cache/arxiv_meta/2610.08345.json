@@ -1,0 +1,16 @@
+{
+ "id": "2610.08345",
+ "title": "High-Dimensional Statistical Inference for Sparse Support Vector Machines",
+ "authors": [
+  "Peng Zeng",
+  "Hanwen Huang"
+ ],
+ "v1_date": "2026-10-06",
+ "latest_version": 1,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "7 figures",
+ "abstract": "Using a replica-symmetric high-dimensional characterization, we develop an inferential framework for sparse support vector machines when the sample size and number of features grow proportionally. The main challenge is the nonsmooth hinge loss, which prevents direct application of debiasing arguments developed for smooth classification losses. We overcome this difficulty by representing the $L_1$-penalized support vector machine (SVM) as a linear program and identifying the hinge-loss subgradient through its dual variables. This yields a computationally accessible debiased estimator whose coordinates are asymptotically Gaussian under the proportional asymptotic regime. The resulting distributional characterization provides confidence intervals and hypothesis tests for individual features and enables false-discovery-rate-controlled variable selection. Extensive simulations examine calibration, power, and variable-selection performance under a range of covariance structures, including strongly correlated designs. An analysis of high-dimensional breast cancer gene-expression data illustrates how the proposed inference can distinguish statistically significant features from variables selected by the original sparse SVM.",
+ "primary": "stat.ML"
+}

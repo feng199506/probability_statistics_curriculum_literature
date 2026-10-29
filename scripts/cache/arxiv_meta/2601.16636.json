@@ -1,0 +1,17 @@
+{
+ "id": "2601.16636",
+ "title": "Conformal prediction for full and sparse polynomial chaos expansions",
+ "authors": [
+  "A. Hatstatt",
+  "X. Zhu",
+  "B. Sudret"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Polynomial Chaos Expansions (PCEs) are widely recognized for their efficient computational performance in surrogate modeling. Yet, a robust framework to quantify local model errors is still lacking. While the local uncertainty of PCE prediction can be captured using bootstrap resampling, other methods offering more rigorous statistical guarantees are needed, especially in the context of small training datasets. Recently, conformal predictions have demonstrated strong potential in machine learning, providing statistically robust and model-agnostic prediction intervals. Due to its generality and versatility, conformal prediction is especially valuable, as it can be adapted to suit a variety of problems, making it a compelling choice for PCE-based surrogate models. In this contribution, we explore its application to PCE-based surrogate models. More precisely, we present the integration of two conformal prediction methods, namely the full conformal and the Jackknife+ approaches, into both full and sparse PCEs. For full PCEs, we introduce computational shortcuts inspired by the inherent structure of regression methods to optimize the implementation of both conformal methods. For sparse PCEs, we incorporate the two approaches with appropriate modifications to the inference strategy, thereby circumventing the non-symmetrical nature of the regression algorithm and ensuring valid prediction intervals. Our developments yield better-calibrated prediction intervals for both full and sparse PCEs, achieving superior coverage over existing approaches, such as the bootstrap, while maintaining a moderate computational cost.",
+ "primary": "stat.ME"
+}

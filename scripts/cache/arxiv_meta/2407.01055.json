@@ -1,0 +1,17 @@
+{
+ "id": "2407.01055",
+ "title": "Exact statistical analysis for response-adaptive clinical trials: A general and computationally tractable approach",
+ "authors": [
+  "Stef Baas",
+  "Peter Jacko",
+  "Sofía S. Villar"
+ ],
+ "v1_date": "2024-07-01",
+ "latest_version": 2,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 6 figures, 11 tables",
+ "abstract": "Response-adaptive clinical trial designs allow targeting a given objective by skewing the allocation of participants to treatments based on observed outcomes. Response-adaptive designs face greater regulatory scrutiny due to potential type I error rate inflation, which limits their uptake in practice. Existing approaches for type I error control either only work for specific designs, have a risk of Monte Carlo/approximation error, are conservative, or computationally intractable. To this end, a general and computationally tractable approach is developed for exact analysis in two-arm response-adaptive designs with binary outcomes. This approach can construct exact tests for designs using either a randomized or deterministic response-adaptive procedure. The constructed conditional and unconditional exact tests generalize Fisher's and Barnard's exact tests, respectively. Furthermore, the approach allows for complexities such as delayed outcomes, early stopping, or allocation of participants in blocks. The efficient implementation of forward recursion allows for testing of two-arm trials with 1,000 participants on a standard computer. Through an illustrative computational study of trials using randomized dynamic programming it is shown that, contrary to what is known for equal allocation, the conditional exact Wald test based on total successes has, almost uniformly, higher power than the unconditional exact Wald test. Two real-world trials with the above-mentioned complexities are re-analyzed to demonstrate the value of the new approach in controlling type I errors and/or improving the statistical power.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2603.14233",
+ "title": "Conformalized Robust Principal Component Analysis",
+ "authors": [
+  "Liangliang Yuan",
+  "Lei Wang",
+  "Quan Kong",
+  "Liuhua Peng"
+ ],
+ "v1_date": "2026-03-15",
+ "latest_version": 1,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust principal component analysis (RPCA) is a widely used technique for recovering low-rank structure from matrices with missing entries and sparse, possibly large-magnitude corruptions. Although numerous algorithms achieve accurate point estimation, they offer little guidance on the uncertainty of recovered entries, limiting their reliability in practice. In this paper, we propose conformal prediction-RPCA (CP-RPCA), a practical and distribution-free framework for uncertainty quantification in robust matrix recovery. Our proposed method supports both split and full conformal implementations and incorporates weighted calibration to handle heterogeneous observation probabilities. We provide theoretical guarantees for finite-sample coverage and demonstrate through extensive simulations that CP-RPCA delivers reliable uncertainty quantification under severe outliers, missing data and model misspecification. Empirical results show that CP-RPCA can produce informative intervals and remain competitive in efficiency when the RPCA model is well specified, making it a scalable and robust tool for uncertainty-aware matrix analysis.",
+ "primary": "stat.ME"
+}

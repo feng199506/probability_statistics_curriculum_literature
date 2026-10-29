@@ -1,0 +1,15 @@
+{
+ "id": "2311.01431",
+ "title": "Empirical Lossless Compression Bound of a Data Sequence",
+ "authors": [
+  "Lei M Li"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 2,
+ "latest_date": "2024-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 tables",
+ "abstract": "We consider the lossless compression bound of any individual data sequence. If we fit the data by a parametric model, the entropy quantity $nH({\\hat θ}_n)$ obtained by plugging in the maximum likelihood estimate is an underestimate of the bound, where $n$ is the number of words. Shtarkov showed that the normalized maximum likelihood (NML) distribution or code length is optimal in a minimax sense for any parametric family. We show by the local asymptotic normality that the NML code length for the exponential families is $nH(\\hat θ_n) +\\frac{d}{2}\\log \\, \\frac{n}{2π} +\\log \\int_Θ |I(θ)|^{1/2}\\, dθ+o(1)$, where $d$ is the model dimension or dictionary size, and $|I(θ)|$ is the determinant of the Fisher information matrix. We also demonstrate that sequentially predicting the optimal code length for the next word via a Bayesian mechanism leads to the mixture code, whose pathwise length is given by $nH({\\hat θ}_n) +\\frac{d}{2}\\log \\, \\frac{n}{2π} +\\log \\frac{|\\, I({\\hat θ}_n)|^{1/2}}{w({\\hat θ}_n)}+o(1) $, where $w(θ)$ is a prior. The asymptotics apply to not only discrete symbols but also continuous data if the code length for the former is replaced by the description length for the latter. The analytical result is exemplified by calculating compression bounds of protein-encoding DNA sequences under different parsing models. Typically, the highest compression is achieved when the parsing is in phase of the amino acid codons. On the other hand, the compression rates of pseudo-random sequences are larger than 1 regardless parsing models. These model-based results are in consistency with that random sequences are incompressible as asserted by the Kolmogorov complexity theory. The empirical lossless compression bound is particularly more accurate when dictionary size is relatively large.",
+ "primary": "cs.IT"
+}

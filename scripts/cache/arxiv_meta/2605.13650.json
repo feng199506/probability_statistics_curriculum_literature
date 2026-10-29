@@ -1,0 +1,17 @@
+{
+ "id": "2605.13650",
+ "title": "Weighted and Truncated Tail Index Estimation under Random Censoring: A Unified Full-Range Framework",
+ "authors": [
+  "Abdelhakim Necir",
+  "Nour Elhouda Guesmia",
+  "Djamel Meraghni"
+ ],
+ "v1_date": "2026-05-13",
+ "latest_version": 1,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimation of the extreme value index under right censoring is a fundamental problem in extreme value theory, with important applications in finance, insurance, and reliability. Classical integral estimators for Pareto-type tails typically require that the asymptotic proportion of uncensored observations in the tail is larger than one half, corresponding to the weak censoring regime. This restriction excludes many practically relevant situations involving strong censoring, where the proportion of uncensored observations is smaller than or equal to one half, and reflects the absence of a uniformly valid Gaussian approximation for the associated tail empirical process. To overcome this limitation, we introduce a weighted and truncated Nelson--Aalen tail empirical process and construct a class of integral estimators indexed by a tuning parameter larger than one. This approach restores a tractable asymptotic structure over the entire censoring range, from very weak to very strong censoring. Under standard regular variation conditions, we establish a uniform Gaussian approximation and derive consistency and asymptotic normality without imposing restrictions on the censoring level. A key ingredient of the analysis is a linearization of the estimator as a functional of the underlying process. Simulation studies and real data applications demonstrate improved stability and accuracy, particularly under moderate and strong censoring. In particular, the analysis of insurance loss data, representing weak censoring, and Australian AIDS survival data, representing strong censoring, illustrates the practical relevance of the proposed methodology across contrasting censoring regimes.",
+ "primary": "math.ST"
+}

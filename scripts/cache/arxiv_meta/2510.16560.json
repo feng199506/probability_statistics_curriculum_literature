@@ -1,0 +1,19 @@
+{
+ "id": "2510.16560",
+ "title": "Calibrating confounding strength in sensitivity models for weighting estimators: a comparative review and a new method",
+ "authors": [
+  "Jean-Baptiste Baitairian",
+  "Bernard Sebastien",
+  "Rana Jreich",
+  "Sandrine Katsahian",
+  "Agathe Guilloux"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 2,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference is only valid when its underlying assumptions are satisfied, one of the most central being the ignorability or unconfoundedness assumption. However, this hypothesis is often unrealistic in observational studies, as some confounding variables may remain unobserved. To address this limitation, sensitivity models for Inverse Probability Weighting (IPW) estimators, known as Marginal Sensitivity Models, have been introduced, allowing for a controlled relaxation of ignorability. A substantial body of literature has emerged around these models, aiming to derive sharp and robust bounds for both binary and continuous treatment effects. A key element of these approaches is the specification of a sensitivity parameter, referred to as the \"confounding strength\", which quantifies the extent of deviation from ignorability. Yet, determining an appropriate value for this parameter is challenging, and the final interpretation of sensitivity analyses can be unclear. We believe these difficulties represent major obstacles to the adoption of such methods in practice. Therefore, after introducing sensitivity analyses for IPW estimators, we review different strategies to estimate or lower bound the confounding strength, introduce a new method leveraging negative controls, provide a decision tree with guidelines to choose a suitable approach, and compare the methodologies in an in-depth simulation study.",
+ "primary": "stat.ME"
+}

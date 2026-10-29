@@ -1,0 +1,15 @@
+{
+ "id": "2404.02276",
+ "title": "Heterogeneous Data Access Model for Concurrency Control and Methods to Deal with High Data Contention",
+ "authors": [
+  "Alexander Thomasian"
+ ],
+ "v1_date": "2024-04-02",
+ "latest_version": 1,
+ "latest_date": "2024-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "OLTP has stringent performance requirements defined by Service Level Agreements. Transaction response time is used to determine the maximum throughout in benchmarks. Capacity planning tools for OLTP performance are based on queueing network models for hardware resources and database lock contention has a secondary effect on performance. With ever increasing levels of e-commerce and surges in OLTP traffic we discuss the need for studies of database workloads to develop more realistic lock/latch contention models. Predictive formulas to model increased load leading to thrashing for txns with identical and nonidentical steps are presented. We review concurrency control methods to reduce the level of lock/data conflicts in high contention environments.",
+ "primary": "cs.DB"
+}

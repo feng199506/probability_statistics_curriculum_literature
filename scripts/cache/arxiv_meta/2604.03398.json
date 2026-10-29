@@ -1,0 +1,16 @@
+{
+ "id": "2604.03398",
+ "title": "Robust Standard Errors for Bayesian Posterior Functionals via the Infinitesimal Jackknife",
+ "authors": [
+  "Nanyu Luo",
+  "Feng Ji"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 1,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantitative research in the social and behavioral sciences relies heavily on nonlinear posterior functionals such as indirect effects, standardized coefficients, effect sizes, intraclass correlations, and multilevel variance-explained measures. The posterior standard deviation (PostSD) is the default uncertainty summary for these quantities, yet it presupposes a correctly specified model. When the working model is wrong, as is common with behavioral data that exhibit heavy tails and heteroskedasticity, PostSD can severely underestimate the frequentist standard error. The nonparametric bootstrap offers robustness but requires repeated MCMC refits, while the delta method demands a separate analytic gradient derivation for every new functional. The infinitesimal jackknife standard error (Giordano & Broderick, 2023) sidesteps both limitations: it approximates the bootstrap variance through influence functions computed from a single MCMC run, applies to any posterior functional without modification, and requires no analytic derivatives. We discuss the use the IJSE methodology at both the observation level and the cluster level and evaluate it through four simulation studies covering six functionals from mediation analysis, ANOVA, and multilevel modeling, which are commonly used in the social and behavioral sciences. Under misspecification, PostSD substantially underestimated the true standard error across all settings, whereas IJSE closely tracked the bootstrap at a fraction of the computational cost. Under correct specification all three methods agreed, confirming that IJSE introduces no distortion when the model is right. These results show IJSE as a practical, general-purpose tool for robust uncertainty quantification in Bayesian workflows throughout the social and behavioral sciences",
+ "primary": "stat.ME"
+}

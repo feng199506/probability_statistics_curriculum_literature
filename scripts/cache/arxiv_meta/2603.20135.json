@@ -1,0 +1,16 @@
+{
+ "id": "2603.20135",
+ "title": "Classifier-Based Nonparametric Sequential Hypothesis Testing",
+ "authors": [
+  "Chia-Yu Hsu",
+  "Shubhanshu Shekhar"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of constructing sequential power-one tests where the null and alternative classes are specified indirectly through historical or offline data. More specifically, given an offline dataset consisting of observations from $L+1$ distributions $\\{P_0, P_1, \\ldots, P_L\\}$, and a new unlabeled data stream $\\{X_t: t \\geq 1\\} \\overset{i.i.d}{\\sim} P_θ$, the goal is to decide between the null $H_0: θ= 0$, against the alternative $H_1: θ\\in [L]:=\\{1,\\ldots,L\\}$. Our main methodological contribution is a general approach for designing a level-$α$ power-one test for this problem using a multi-class classifier trained on the given offline dataset. Working under a mild \"separability\" condition on the distributions and the trained classifier, we obtain an upper bound on the expected stopping time of our proposed level-$α$ test, and then show that in general this cannot be improved. In addition to rejecting the null, we show that our procedure can also identify the true underlying distribution almost surely. We then establish a sufficient condition to ensure the required separability of the classifier, and provide some converse results to investigate the role of the size of the offline dataset and the family of classifiers among classifier-based tests that satisfy the level-$α$ power-one criterion. Finally, we present an extension of our analysis for the training-and-testing distribution mismatch and illustrate an application to sequential change detection. Empirical results using both synthetic and real data provide support for our theoretical results.",
+ "primary": "math.ST"
+}

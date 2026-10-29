@@ -1,0 +1,15 @@
+{
+ "id": "2608.03353",
+ "title": "A Direct Route to Markov Chain Convergence via Asymptotic Equivalence with the Target",
+ "authors": [
+  "Patrick Forré"
+ ],
+ "v1_date": "2026-08-04",
+ "latest_version": 2,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "For a Markov kernel $T$ with an invariant probability measure $π$, we give a self-contained proof of the Markov chain convergence theorem via a criterion called asymptotic equivalence with the target. It assumes two parts about the Lebesgue decompositions of $T^n_x$ and $π$ for every starting point $x$: 1.) asymptotic absolute continuity: the singular mass $\\mathrm{sing}(T^n_x \\mid π)$ tends to $0$; and, 2.) asymptotic domination of the target: the singular mass $\\mathrm{sing}(π\\mid T^n_x)$ tends to $0$, as $n \\to \\infty$. Assuming a jointly measurable density for the absolutely continuous part of each iterate $T^n$ w.r.t. $π$, this criterion is sufficient and necessary for convergence. A positive minorant density version of it is verified in three cases: i.) $T$ has a positive transition density w.r.t. $π$; ii.) $T$ consists of an absolutely continuous part with positive transition density together with an atom at the starting point, which covers the Metropolis-Hastings algorithm; iii.) the transition density is positive only after a finite number of steps that may depend on the starting point $x$. To demonstrate our general criterion, we investigate the Gibbs sampler with random scan and the parallel tempering algorithm. Furthermore, we show that in all mentioned settings Birkhoff's ergodic theorem applies, so as to obtain the strong law of large numbers. Throughout this paper, neither irreducibility, nor aperiodicity, nor recurrence, nor couplings, nor splitting constructions, nor small sets are used. In all results, the state space is a general measurable space with no structure beyond a $σ$-algebra. That joint measurability is assumed of the Markov kernel, not of the space; countable generation supplies it. None of the theorems proved here is new; what is offered is a short route to a single, widely applicable Markov chain convergence criterion.",
+ "primary": "math.PR"
+}

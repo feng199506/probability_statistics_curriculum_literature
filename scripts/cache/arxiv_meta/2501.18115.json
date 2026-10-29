@@ -1,0 +1,18 @@
+{
+ "id": "2501.18115",
+ "title": "A spectral clustering-type algorithm for the consistent estimation of the Hurst distribution in moderately high dimensions",
+ "authors": [
+  "Patrice Abry",
+  "Gustavo Didier",
+  "Oliver Orejola",
+  "Herwig Wendt"
+ ],
+ "v1_date": "2025-01-30",
+ "latest_version": 1,
+ "latest_date": "2025-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scale invariance (fractality) is a prominent feature of the large-scale behavior of many stochastic systems. In this work, we construct an algorithm for the statistical identification of the Hurst distribution (in particular, the scaling exponents) undergirding a high-dimensional fractal system. The algorithm is based on wavelet random matrices, modified spectral clustering and a model selection step for picking the value of the clustering precision hyperparameter. In a moderately high-dimensional regime where the dimension, the sample size and the scale go to infinity, we show that the algorithm consistently estimates the Hurst distribution. Monte Carlo simulations show that the proposed methodology is efficient for realistic sample sizes and outperforms another popular clustering method based on mixed-Gaussian modeling. We apply the algorithm in the analysis of real-world macroeconomic time series to unveil evidence for cointegration.",
+ "primary": "stat.ME"
+}

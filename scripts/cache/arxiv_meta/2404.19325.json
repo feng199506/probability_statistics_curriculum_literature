@@ -1,0 +1,20 @@
+{
+ "id": "2404.19325",
+ "title": "Correcting for confounding in longitudinal experiments: positioning non-linear mixed effects modeling as implementation of standardization using latent conditional exchangeability",
+ "authors": [
+  "Christian Bartels",
+  "Martina Scauda",
+  "Neva Coello",
+  "Thomas Dumortier",
+  "Bjoern Bornkamp",
+  "Giusi Moffa"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 1,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Non-linear mixed effects modeling and simulation (NLME M&S) is evaluated to be used for standardization with longitudinal data in presence of confounders. Standardization is a well-known method in causal inference to correct for confounding by analyzing and combining results from subgroups of patients. We show that non-linear mixed effects modeling is a particular implementation of standardization that conditions on individual parameters described by the random effects of the mixed effects model. Our motivation is that in pharmacometrics NLME M&S is routinely used to analyze clinical trials and to predict and compare potential outcomes of the same patient population under different treatment regimens. Such a comparison is a causal question sometimes referred to as causal prediction. Nonetheless, NLME M&S is rarely positioned as a method for causal prediction. As an example, a simulated clinical trial is used that assumes treatment confounder feedback in which early outcomes can cause deviations from the planned treatment schedule. Being interested in the outcome for the hypothetical situation that patients adhere to the planned treatment schedule, we put assumptions in a causal diagram. From the causal diagram, conditional independence assumptions are derived either using latent conditional exchangeability, conditioning on the individual parameters, or using sequential conditional exchangeability, conditioning on earlier outcomes. Both conditional independencies can be used to estimate the estimand of interest, e.g., with standardization, and they give unbiased estimates.",
+ "primary": "stat.ME"
+}

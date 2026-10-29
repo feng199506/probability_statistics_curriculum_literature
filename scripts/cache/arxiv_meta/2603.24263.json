@@ -1,0 +1,19 @@
+{
+ "id": "2603.24263",
+ "title": "XT-REM: A Two-Component Model for Meta-Analysis of Extreme Event Proportions",
+ "authors": [
+  "Jovana Dedeić",
+  "Jelena Ivetić",
+  "Srđan Milićević",
+  "Katarina Vidojević",
+  "Marija Delić"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under preparation for submission to Computational Statistics & Data Analysis. Includes simulation study and real-world application of the XT-REM model",
+ "abstract": "In this paper, we introduce a novel model for the meta-analysis of proportions that integrates the standard random-effects model (REM) with an extreme value theory (EVT)-based component. The proposed model, named XT-REM (Extreme-Tail Random Effects Model), extends the classical REM framework by explicitly accounting for extreme proportions through a partial segmentation of the study set based on a predefined threshold. While the majority of proportions are modeled using REM, proportions exceeding the threshold are analyzed using the Generalized Pareto Distribution (GPD). This formulation enables a dual interpretation of meta-analytic results, providing both an aggregate estimate for the central bulk of studies and a separate characterization of tail behavior. The XT-REM framework accommodates heteroskedastic variance structures inherent to proportion data, while preserving identifiability and consistency. Using real-world data on immunotherapy-related adverse events, together with simulation studies calibrated to empirical settings, we demonstrate that XT-REM yields a comparable central estimate while enabling a more explicit assessment of tail behavior, including high-percentile extreme proportions. Compared with the classical REM, XT-REM achieves higher log-likelihood values and lower AIC, in the considered scenarios, indicating a better fit within this modeling framework. In summary, XT-REM offers a theoretically grounded and practically useful extension of random-effects meta-analysis, with potential relevance to clinical contexts in which extreme event rates carry important implications for risk assessment.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.16961",
+ "title": "Bayesian Compressed Mixed-Effects Models",
+ "authors": [
+  "Sreya Sarkar",
+  "Kshitij Khare",
+  "Sanvesh Srivastava"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 1,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 7 figures, and 6 tables",
+ "abstract": "Penalized likelihood and quasi-likelihood methods dominate inference in high-dimensional linear mixed-effects models. Sampling-based Bayesian inference is less explored due to the computational bottlenecks introduced by the random effects covariance matrix. To address this gap, we propose the compressed mixed-effects (CME) model, which defines a quasi-likelihood using low-dimensional covariance parameters obtained via random projections of the random effects covariance. This dimension reduction, combined with a global-local shrinkage prior on the fixed effects, yields an efficient collapsed Gibbs sampler for prediction and fixed effects selection. Theoretically, when the compression dimension grows slowly relative to the number of fixed effects and observations, the Bayes risk for prediction is asymptotically negligible, ensuring accurate prediction using the CME model. Empirically, the CME model outperforms existing approaches in terms of predictive accuracy, interval coverage, and fixed-effects selection across varied simulation settings and a real-world dataset.",
+ "primary": "stat.ME"
+}

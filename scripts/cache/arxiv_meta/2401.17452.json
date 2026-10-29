@@ -1,0 +1,16 @@
+{
+ "id": "2401.17452",
+ "title": "Group-Weighted Conformal Prediction",
+ "authors": [
+  "Aabesh Bhattacharyya",
+  "Rina Foygel Barber"
+ ],
+ "v1_date": "2024-01-30",
+ "latest_version": 4,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction (CP) is a method for constructing a prediction interval around the output of a fitted model, whose validity does not rely on the model being correct--the CP interval offers a coverage guarantee that is distribution-free, but relies on the training data being drawn from the same distribution as the test data. A recent variant, weighted conformal prediction (WCP), reweights the method to allow for covariate shift between the training and test distributions. However, WCP requires knowledge of the nature of the covariate shift-specifically,the likelihood ratio between the test and training covariate distributions. In practice, since this likelihood ratio is estimated rather than known exactly, the coverage guarantee may degrade due to the estimation error. In this paper, we consider a special scenario where observations belong to a finite number of groups, and these groups determine the covariate shift between the training and test distributions-for instance, this may arise if the training set is collected via stratified sampling. Our results demonstrate that in this special case, the predictive coverage guarantees of WCP can be drastically improved beyond the bounds given by existing estimation error bounds.",
+ "primary": "stat.ME"
+}

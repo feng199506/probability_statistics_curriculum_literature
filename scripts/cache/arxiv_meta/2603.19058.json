@@ -1,0 +1,16 @@
+{
+ "id": "2603.19058",
+ "title": "Adaptive Nonlinear Data Assimilation through P-Spline Triangular Measure Transport",
+ "authors": [
+  "Berent Å. S. Lunde",
+  "Maximilian Ramgraber"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 10 figures",
+ "abstract": "Non-Gaussian statistics are a challenge for data assimilation. Linear methods oversimplify the problem, yet fully nonlinear methods are often too expensive to use in practice. The best solution usually lies between these extremes. Triangular measure transport offers a flexible framework for nonlinear data assimilation. Its success, however, depends on how the map is parametrized. Too much flexibility leads to overfitting; too little misses important structure. To address this balance, we develop an adaptation algorithm that selects a parsimonious parametrization automatically. Our method uses P-spline basis functions and an information criterion as a continuous measure of model complexity. This formulation enables gradient descent and allows efficient, fine-scale adaptation in high-dimensional settings. The resulting algorithm requires no hyperparameter tuning. It adjusts the transport map to the appropriate level of complexity based on the system statistics and ensemble size. We demonstrate its performance in nonlinear, non-Gaussian problems, including a high-dimensional distributed groundwater model.",
+ "primary": "stat.CO"
+}

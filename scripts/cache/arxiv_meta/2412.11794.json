@@ -1,0 +1,19 @@
+{
+ "id": "2412.11794",
+ "title": "But Can You Use It? Design Recommendations for Differentially Private Interactive Systems",
+ "authors": [
+  "Liudas Panavas",
+  "Joshua Snoke",
+  "Erika Tyagi",
+  "Claire McKay Bowen",
+  "Aaron R. Williams"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 1,
+ "latest_date": "2024-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accessing data collected by federal statistical agencies is essential for public policy research and improving evidence-based decision making, such as evaluating the effectiveness of social programs, understanding demographic shifts, or addressing public health challenges. Differentially private interactive systems, or validation servers, can form a crucial part of the data-sharing infrastructure. They may allow researchers to query targeted statistics, providing flexible, efficient access to specific insights, reducing the need for broad data releases and supporting timely, focused research. However, they have not yet been practically implemented. While substantial theoretical work has been conducted on the privacy and accuracy guarantees of differentially private mechanisms, prior efforts have not considered usability as an explicit goal of interactive systems. This work outlines and considers the barriers to developing differentially private interactive systems for informing public policy and offers an alternative way forward. We propose balancing three design considerations: privacy assurance, statistical utility, and system usability, we develop recommendations for making differentially private interactive systems work in practice, we present an example architecture based on these recommendations, and we provide an outline of how to conduct the necessary user-testing. Our work seeks to move the practical development of differentially private interactive systems forward to better aid public policy making and spark future research.",
+ "primary": "cs.HC"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.03820",
+ "title": "Optimal Differentially Private PCA and Estimation for Spiked Covariance Matrices",
+ "authors": [
+  "T. Tony Cai",
+  "Dong Xia",
+  "Mengyue Zha"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 2,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating a covariance matrix and its associated principal components is a fundamental problem in contemporary statistics. While optimal estimation procedures have been developed with well-understood properties, the increasing demand for privacy preservation introduces new complexities to this classical problem. In this paper, we study optimal differentially private Principal Component Analysis (PCA) and covariance estimation within the spiked covariance model. We precisely characterize the sensitivity of eigenvalues and eigenvectors under this model and establish the minimax rates of convergence for estimating both the principal components and covariance matrix. These rates hold up to logarithmic factors and encompass general Schatten norms, including spectral norm, Frobenius norm, and nuclear norm as special cases. We propose computationally efficient differentially private estimators and prove their minimax optimality for sub-Gaussian distributions, up to logarithmic factors. Additionally, matching minimax lower bounds are established. Notably, compared to the existing literature, our results accommodate a diverging rank, a broader range of signal strengths, and remain valid even when the sample size is much smaller than the dimension, provided the signal strength is sufficiently strong. Both simulation studies and real data experiments demonstrate the merits of our method.",
+ "primary": "math.ST"
+}

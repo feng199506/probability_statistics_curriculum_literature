@@ -1,0 +1,18 @@
+{
+ "id": "2502.05460",
+ "title": "False Discovery Rate Control via Frequentist-assisted Horseshoe",
+ "authors": [
+  "Qiaoyu Liang",
+  "Zihan Zhu",
+  "Ziang Fu",
+  "Michael Evans"
+ ],
+ "v1_date": "2025-02-08",
+ "latest_version": 2,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The horseshoe prior, a widely used handy alternative to the spike-and-slab prior, has proven to be an exceptional default global-local shrinkage prior in Bayesian inference and machine learning. However, designing tests with frequentist false discovery rate (FDR) control using the horseshoe prior or the general class of global-local shrinkage priors remains an open problem. In this paper, we propose a frequentist-assisted horseshoe procedure that not only resolves this long-standing FDR control issue for the high dimensional normal means testing problem but also exhibits satisfactory finite-sample FDR control under any desired nominal level for both large-scale multiple independent and correlated tests. We carry out the frequentist-assisted horseshoe procedure in an easy and intuitive way by using the minimax estimator of the global parameter of the horseshoe prior while maintaining the remaining full Bayes vanilla horseshoe structure. The results of both intensive simulations under different sparsity levels, and real-world data demonstrate that the frequentist-assisted horseshoe procedure consistently achieves robust finite-sample FDR control. Existing frequentist or Bayesian FDR control procedures can lose finite-sample FDR control in a variety of common sparse cases. Based on the intimate relationship between the minimax estimation and the level of FDR control discovered in this work, we point out potential generalizations to achieve FDR control for both more complicated models and the general global-local shrinkage prior family.",
+ "primary": "stat.ME"
+}

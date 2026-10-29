@@ -1,0 +1,16 @@
+{
+ "id": "2402.02196",
+ "title": "Sample-Efficient \"Clustering and Conquer\" Procedures for Parallel Large-Scale Ranking and Selection",
+ "authors": [
+  "Zishi Zhang",
+  "Yijie Peng"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 7,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work aims to improve the sample efficiency of parallel large-scale ranking and selection (R&S) problems by leveraging correlation information. We modify the commonly used \"divide and conquer\" framework in parallel computing by adding a correlation-based clustering step, transforming it into \"clustering and conquer\". Theoretically, we develop a novel gradient-based analysis framework and show that this seemingly simple modification substantially improves the performance of large-scale R&S procedures. Our approach enjoys two key advantages: (1) it does not require highly accurate correlation estimation or precise clustering, and (2) it can be seamlessly integrated with various existing fixed-precision and fixed-budget R&S procedures while achieving optimal sample complexity. We also introduce a new parallel clustering algorithm tailored to large-scale settings. Finally, in large-scale AI applications such as neural architecture search, our methods demonstrate superior performance.",
+ "primary": "stat.ME"
+}

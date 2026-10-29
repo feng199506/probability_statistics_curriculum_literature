@@ -1,0 +1,16 @@
+{
+ "id": "2505.04603",
+ "title": "Likelihood-Free Adaptive Bayesian Inference via Nonparametric Distribution Matching",
+ "authors": [
+  "Wenhui Sophia Lu",
+  "Wing Hung Wong"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 1,
+ "latest_date": "2025-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When the likelihood is analytically unavailable and computationally intractable, approximate Bayesian computation (ABC) has emerged as a widely used methodology for approximate posterior inference; however, it suffers from severe computational inefficiency in high-dimensional settings or under diffuse priors. To overcome these limitations, we propose Adaptive Bayesian Inference (ABI), a framework that bypasses traditional data-space discrepancies and instead compares distributions directly in posterior space through nonparametric distribution matching. By leveraging a novel Marginally-augmented Sliced Wasserstein (MSW) distance on posterior measures and exploiting its quantile representation, ABI transforms the challenging problem of measuring divergence between posterior distributions into a tractable sequence of one-dimensional conditional quantile regression tasks. Moreover, we introduce a new adaptive rejection sampling scheme that iteratively refines the posterior approximation by updating the proposal distribution via generative density estimation. Theoretically, we establish parametric convergence rates for the trimmed MSW distance and prove that the ABI posterior converges to the true posterior as the tolerance threshold vanishes. Through extensive empirical evaluation, we demonstrate that ABI significantly outperforms data-based Wasserstein ABC, summary-based ABC, and state-of-the-art likelihood-free simulators, especially in high-dimensional or dependent observation regimes.",
+ "primary": "stat.ME"
+}

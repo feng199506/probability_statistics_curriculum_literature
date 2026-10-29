@@ -1,0 +1,17 @@
+{
+ "id": "2311.14424",
+ "title": "Exact confidence intervals for the mixing distribution from binomial mixture distribution samples",
+ "authors": [
+  "Pallavi Basu",
+  "Barak Brill",
+  "Daniel Yekutieli"
+ ],
+ "v1_date": "2023-11-24",
+ "latest_version": 1,
+ "latest_date": "2023-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present methodology for constructing pointwise confidence intervals for the cumulative distribution function and the quantiles of mixing distributions on the unit interval from binomial mixture distribution samples. No assumptions are made on the shape of the mixing distribution. The confidence intervals are constructed by inverting exact tests of composite null hypotheses regarding the mixing distribution. Our method may be applied to any deconvolution approach that produces test statistics whose distribution is stochastically monotone for stochastic increase of the mixing distribution. We propose a hierarchical Bayes approach, which uses finite Polya Trees for modelling the mixing distribution, that provides stable and accurate deconvolution estimates without the need for additional tuning parameters. Our main technical result establishes the stochastic monotonicity property of the test statistics produced by the hierarchical Bayes approach. Leveraging the need for the stochastic monotonicity property, we explicitly derive the smallest asymptotic confidence intervals that may be constructed using our methodology. Raising the question whether it is possible to construct smaller confidence intervals for the mixing distribution without making parametric assumptions on its shape.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.05032",
+ "title": "Fast Compute via MC Boosting",
+ "authors": [
+  "Sarah Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern training and inference pipelines in statistical learning and deep learning repeatedly invoke linear-system solves as inner loops, yet high-accuracy deterministic solvers can be prohibitively expensive when solves must be repeated many times or when only partial information (selected components or linear functionals) is required. We position \\emph{Monte Carlo boosting} as a practical alternative in this regime, surveying random-walk estimators and sequential residual correction in a unified notation (Neumann-series representation, forward/adjoint estimators, and Halton-style sequential correction), with extensions to overdetermined/least-squares problems and connections to IRLS-style updates in data augmentation and EM/ECM algorithms. Empirically, we compare Jacobi and Gauss--Seidel iterations with plain Monte Carlo, exact sequential Monte Carlo, and a subsampled sequential variant, illustrating scaling regimes that motivate when Monte Carlo boosting can be an enabling compute primitive for modern statistical learning workflows.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.02727",
+ "title": "Regression Discontinuity Designs Under Interference",
+ "authors": [
+  "Elena Dal Torrione",
+  "Tiziano Arduini",
+  "Laura Forastiere"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 6,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We extend the continuity-based framework to Regression Discontinuity Designs (RDDs) to identify and estimate causal effects under interference when units are connected through a network. Assignment to an \"effective treatment,\" combining the individual treatment and a summary of neighbors' treatments, is determined by the unit's score and those of interfering units, yielding a multiscore RDD with complex, multidimensional boundaries. We characterize these boundaries and derive assumptions to identify boundary causal effects. We develop a distance-based nonparametric estimator and establish its asymptotic properties under restrictions on the network degree distribution. We show that while direct effects converge at the standard rate, the rate for indirect effects depends on the number of scores fixed at the cutoff. Finally, we propose a variance estimator accounting for network correlation and apply our method to PROGRESA data to estimate the direct and indirect effects of cash transfers on school attendance.",
+ "primary": "stat.ME"
+}

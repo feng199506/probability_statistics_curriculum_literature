@@ -1,0 +1,19 @@
+{
+ "id": "2604.28047",
+ "title": "Data-Adaptive and Model-Robust Covariate Adjustment for Time-to-Event Outcomes in Stratified Randomized Trials",
+ "authors": [
+  "Raphael C. Kim",
+  "Brian Gilbert",
+  "Ramin Zabih",
+  "Michele Santacatterina",
+  "Ivan Diaz"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 1,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time-to-event outcomes are commonly used as primary endpoints in randomized clinical trials. Despite this, relatively little work incorporates baseline covariate information while also accounting for stratified randomization, a common form of randomization. Moreover, leveraging efficiency gains using these approaches typically requires pre-specifying a subset of covariates that are most predictive of the outcome -- a challenging task in practice, as most trials collect dozens of potentially prognostic baseline variables. In this work, we build on existing literature to propose a data-adaptive and model-robust covariate adjustment method for time-to-event outcomes. Our approach, based on targeted minimum loss-based estimation, allows for data-adaptive covariate selection and model-robust efficient inference on functionals of the survival curve while accounting for stratification. Through extensive simulations and analysis, we showcase the simplicity and improved precision of our method when the covariate set is not known a priori.",
+ "primary": "stat.ME"
+}

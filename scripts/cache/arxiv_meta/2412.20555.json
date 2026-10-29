@@ -1,0 +1,15 @@
+{
+ "id": "2412.20555",
+ "title": "Parameter-Specific Bias Diagnostics in Random-Effects Panel Data Models",
+ "authors": [
+  "Andrew T. Karl"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 6,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures, 3 tables. Corrected bias decomposition and diagnostic interpretation; gasoline and CP value-added conditional response-refit simulations, and covariance-scale sensitivity paths. Focused reproduction/simulation scripts, public data and aggregate results included; R packages installed separately",
+ "abstract": "The Hausman specification test assesses the random-effects specification by comparing random-effects and fixed-effects estimators. This note shows how a coefficient-specific diagnostic for linear mixed models can complement that comparison. The diagnostic measures alignment between fitted random effects and the weights used to estimate a coefficient or contrast. It is an internal sensitivity summary, not an estimate of every contribution to finite-sample bias: response-dependent covariance estimates introduce an additional weighted-error term. We explain this distinction, describe simulations that refit the covariance parameters and retain both contributions, and illustrate the calculations with gasoline-demand data and a multiple-membership value-added model. A covariance-scale analysis of the gasoline example connects the local diagnostic to movement toward the fixed-effects estimate. We also discuss how conditioning on stochastic regressors extends the interpretation, and what further assumptions would be needed for calibrated inference.",
+ "primary": "stat.ME"
+}

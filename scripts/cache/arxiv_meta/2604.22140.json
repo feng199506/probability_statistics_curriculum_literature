@@ -1,0 +1,16 @@
+{
+ "id": "2604.22140",
+ "title": "Concave Statistical Utility Maximization Bandits via Influence-Function Gradients",
+ "authors": [
+  "Matías Carrasco",
+  "Alejandro Cholaquidis"
+ ],
+ "v1_date": "2026-04-24",
+ "latest_version": 3,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study stochastic multi-armed bandits in which the objective is a statistical functional of the long-run reward distribution, rather than expected reward alone. Under mild continuity assumptions, we show that the infinite-horizon problem reduces to optimizing over stationary mixed policies: each weight vector \\(w\\) on the simplex induces a mixture law \\(P^w\\), and performance is measured by the concave utility \\(U(w)=\\mathfrak U(P^w)\\). For differentiable statistical utilities, we use influence-function calculus to derive stochastic gradient estimators from bandit feedback. This leads to an entropic mirror-ascent algorithm on a truncated simplex, implemented through multiplicative-weights updates and plug-in estimates of the influence function. We establish regret bounds that separate the mirror-ascent optimization error from the bias caused by estimating the influence function. The framework is developed for general concave distributional utilities and illustrated through variance and Wasserstein objectives, with numerical experiments comparing exact and plug-in influence-function implementations.",
+ "primary": "stat.ML"
+}

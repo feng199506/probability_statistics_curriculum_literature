@@ -1,0 +1,115 @@
+[
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial OR ti:primer) AND abs:\"stochastic differential equations\"",
+  "subtopic": "随机积分与 SDE"
+ },
+ {
+  "q": "(ti:\"stochastic calculus\" OR ti:\"stochastic integration\" OR ti:\"Ito calculus\" OR ti:\"stochastic integral\") AND (cat:math.PR OR cat:q-fin.MF)",
+  "subtopic": "随机积分与 SDE"
+ },
+ {
+  "q": "(ti:diffusion OR ti:diffusions OR ti:Langevin) AND cat:math.PR AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:tutorial)",
+  "subtopic": "扩散过程"
+ },
+ {
+  "q": "(ti:\"diffusion models\" OR ti:\"score-based\") AND (ti:tutorial OR ti:survey OR ti:review OR ti:primer) AND (cat:math.PR OR cat:stat.ML OR cat:math.ST)",
+  "subtopic": "扩散过程"
+ },
+ {
+  "q": "(ti:\"stochastic control\" OR ti:\"optimal control\" OR ti:\"mean field games\" OR ti:\"mean-field games\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:tutorial)",
+  "subtopic": "随机控制与平均场"
+ },
+ {
+  "q": "(ti:\"rough paths\" OR ti:\"rough path\" OR ti:signature OR ti:\"regularity structures\") AND (ti:survey OR ti:introduction OR ti:primer OR ti:review OR ti:\"lecture notes\" OR ti:course)",
+  "subtopic": "粗糙路径"
+ },
+ {
+  "q": "(ti:\"stochastic partial differential\" OR ti:SPDE OR ti:SPDEs OR ti:KPZ) AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "SPDE"
+ },
+ {
+  "q": "(ti:\"random matrix\" OR ti:\"random matrices\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:tutorial)",
+  "subtopic": "随机矩阵"
+ },
+ {
+  "q": "(ti:\"random graph\" OR ti:\"random graphs\" OR ti:\"random networks\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "随机图"
+ },
+ {
+  "q": "(ti:percolation) AND cat:math.PR AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR abs:survey)",
+  "subtopic": "渗流"
+ },
+ {
+  "q": "(ti:\"interacting particle\" OR ti:\"exclusion process\" OR ti:\"particle systems\" OR ti:\"contact process\" OR ti:\"hydrodynamic limit\") AND cat:math.PR",
+  "subtopic": "交互粒子系统"
+ },
+ {
+  "q": "(ti:\"optimal transport\" OR ti:Wasserstein OR ti:\"Schrodinger bridge\" OR ti:\"Schroedinger bridge\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:tutorial)",
+  "subtopic": "最优传输与概率"
+ },
+ {
+  "q": "(ti:\"optimal transport\" OR ti:\"entropic\") AND cat:math.PR",
+  "subtopic": "最优传输与概率"
+ },
+ {
+  "q": "(ti:\"McKean-Vlasov\" OR ti:\"propagation of chaos\" OR ti:\"mean-field limit\") AND (ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR abs:review)",
+  "subtopic": "随机控制与平均场"
+ },
+ {
+  "q": "(ti:\"Malliavin calculus\" OR ti:\"fractional Brownian motion\" OR ti:\"Gaussian multiplicative chaos\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "高斯分析与分数布朗运动"
+ },
+ {
+  "q": "(ti:\"backward stochastic differential\" OR ti:BSDE OR ti:BSDEs) AND (ti:survey OR ti:introduction OR ti:review OR ti:numerical OR ti:\"deep\")",
+  "subtopic": "随机控制与平均场"
+ },
+ {
+  "q": "(ti:\"Schramm-Loewner\" OR ti:SLE OR ti:\"Liouville quantum gravity\" OR ti:\"random planar maps\" OR ti:\"conformal invariance\") AND (ti:survey OR ti:introduction OR ti:\"lecture notes\" OR ti:review)",
+  "subtopic": "随机几何与 SLE"
+ },
+ {
+  "q": "(ti:\"spin glass\" OR ti:\"spin glasses\" OR ti:\"Ising model\" OR ti:\"random field\") AND cat:math.PR AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "统计物理中的概率"
+ },
+ {
+  "q": "(ti:\"random matrices\" OR ti:\"rough paths\" OR ti:\"random graphs\" OR ti:\"optimal transport\" OR ti:\"interacting particle\" OR ti:\"stochastic partial\") AND (ti:introduction OR ti:survey OR ti:\"lecture notes\" OR ti:course)",
+  "subtopic": "经典综述",
+  "old": true
+ },
+ {
+  "q": "co:\"lecture notes\" AND (abs:\"stochastic differential\" OR abs:SPDE OR abs:\"random matrices\" OR abs:\"rough paths\" OR abs:percolation OR abs:\"random graphs\" OR abs:\"optimal transport\" OR abs:\"particle systems\")",
+  "subtopic": "讲义总览"
+ },
+ {
+  "q": "(abs:\"stochastic differential equations\" OR abs:\"stochastic calculus\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository OR abs:tutorial) AND cat:math.PR",
+  "subtopic": "随机积分与 SDE"
+ },
+ {
+  "q": "(abs:\"random matrix\" OR abs:\"random matrices\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "随机矩阵"
+ },
+ {
+  "q": "(abs:\"random graph\" OR abs:\"random graphs\" OR abs:percolation) AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "随机图与渗流"
+ },
+ {
+  "q": "(abs:\"optimal transport\" OR abs:\"Schrodinger bridge\" OR abs:\"Schrödinger bridge\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:tutorial OR abs:expository) AND (cat:math.PR OR cat:math.OC OR cat:stat.ML)",
+  "subtopic": "最优传输与概率"
+ },
+ {
+  "q": "(abs:\"stochastic control\" OR abs:\"mean field games\" OR abs:\"mean-field games\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:tutorial) AND (cat:math.PR OR cat:math.OC)",
+  "subtopic": "随机控制与平均场"
+ },
+ {
+  "q": "(abs:\"interacting particle\" OR abs:\"exclusion process\" OR abs:\"KPZ\" OR abs:\"hydrodynamic limit\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "交互粒子系统"
+ },
+ {
+  "q": "(abs:\"rough paths\" OR abs:\"signature\" OR abs:\"regularity structures\" OR abs:\"paracontrolled\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository OR abs:introduction) AND cat:math.PR",
+  "subtopic": "粗糙路径"
+ },
+ {
+  "q": "(jr:\"Probability Surveys\" OR jr:\"Probab. Surv\") AND (abs:stochastic OR abs:random)",
+  "subtopic": "综述总览"
+ }
+]

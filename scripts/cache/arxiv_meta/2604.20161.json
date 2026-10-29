@@ -1,0 +1,17 @@
+{
+ "id": "2604.20161",
+ "title": "SMART: A Spectral Transfer Approach to Multi-Task Learning",
+ "authors": [
+  "Boxin Zhao",
+  "Mladen Kolar",
+  "Jinchi Lv"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "53 pages, 4 figures, 1 table",
+ "abstract": "Multi-task learning is effective for related applications, but its performance can deteriorate when the target sample size is small. Transfer learning can borrow strength from related studies; yet, many existing methods rely on restrictive bounded-difference assumptions between the source and target models. We propose SMART, a spectral transfer method for multi-task linear regression that instead assumes spectral similarity: the target left and right singular subspaces lie within the corresponding source subspaces and are sparsely aligned with the source singular bases. Such an assumption is natural when studies share latent structures and enables transfer beyond the bounded-difference settings. SMART estimates the target coefficient matrix through structured regularization that incorporates spectral information from a source study. Importantly, it requires only a fitted source model rather than the raw source data, making it useful when data sharing is limited. Although the optimization problem is nonconvex, we develop a practical ADMM-based algorithm. We establish general, non-asymptotic error bounds and a minimax lower bound in the noiseless-source regime. Under additional regularity conditions, these results yield near-minimax Frobenius error rates up to logarithmic factors. Simulations confirm improved estimation accuracy and robustness to negative transfer, and analysis of multi-modal single-cell data demonstrates better predictive performance. The Python implementation of SMART, along with the code to reproduce all experiments in this paper, is publicly available at https://github.com/boxinz17/smart.",
+ "primary": "cs.LG"
+}

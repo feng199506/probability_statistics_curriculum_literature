@@ -1,0 +1,15 @@
+{
+ "id": "2510.11015",
+ "title": "An interpretable universal bound for multiserver queues via a leave-one-out technique",
+ "authors": [
+  "Yige Hong"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 3,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "62 pages, 2 figures",
+ "abstract": "Bounding the steady-state queue length of a multiserver queue is a central challenge in queueing theory. Even for the classical $GI/GI/n$ queue with homogeneous servers, obtaining a simple, accurate bound that holds across all parameters is highly non-trivial. A recent breakthrough by Li and Goldberg (2025) establishes the first universal bound of order $O(1/(1-ρ))$, holding for every load $ρ<1$ and server count $n$ -- an order known to be tight in many regimes, including classical heavy-traffic, Halfin-Whitt, and Non-Degenerate Slowdown. However, their bounds carry astronomically large constants and rely on an intricate proof; they conjecture that a far simpler bound holds. We introduce a leave-one-out coupling technique that yields a new universal $O(1/(1-ρ))$ bound for the $GI/GI/n$ queue, with a simple and transparent proof. Moreover, for light-tailed service times, the leading constant in our bound is orders of magnitude smaller than that in prior work. For instance, we bound the $M/GI/n$ queue's mean queue length by simply $1/(1-ρ)$ for New-Better-than-Used-in-Expectation service times, with similarly clean bounds for gamma, phase-type, and bounded service times. Finally, our techniques extend to $GI/GI/n$ queues with fully heterogeneous service-time distributions, a setting not addressed by prior universal bounds.",
+ "primary": "math.PR"
+}

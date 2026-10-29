@@ -1,0 +1,18 @@
+{
+ "id": "2509.10238",
+ "title": "Using joint models in phase I dose-finding designs in oncology: considerations for frequentist approaches",
+ "authors": [
+  "Xijin Chen",
+  "Pavel Mozgunov",
+  "Richard D. Baird",
+  "Thomas Jaki"
+ ],
+ "v1_date": "2025-09-12",
+ "latest_version": 1,
+ "latest_date": "2025-09-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 14 figures, 11 tables",
+ "abstract": "Dose-finding trials for oncology studies are traditionally designed to assess safety in the early stages of drug development. With the rise of molecularly targeted therapies and immuno-oncology compounds, biomarker-driven approaches have gained significant importance. In this paper, we propose a novel approach that incorporates multiple values of a predictive biomarker to assist in evaluating binary toxicity outcomes using the factorization of a joint model in phase I dose-finding oncology trials. The proposed joint model framework, which utilizes additional repeated biomarker values as an early predictive marker for potential toxicity, is compared to the likelihood-based continual reassessment method (CRM) using only binary toxicity data, across various dose-toxicity relationship scenarios. Our findings highlight a critical limitation of likelihood-based approaches in early-phase dose-finding studies with small sample sizes: estimation challenges that have been previously overlooked in the phase I dose-escalation setting. We explore potential remedies to address these challenges and emphasize the appropriate use of likelihood-based methods. Simulation results demonstrate that the proposed joint model framework, by integrating biomarker information, can alleviate estimation problems in the the likelihood-based continual reassessment method (CRM) and improve the proportion of correct selection. However, we highlight that the inherent data limitations in early-phase dose-finding studies remain a significant challenge that cannot fully be overcomed in the frequentist framework.",
+ "primary": "stat.ME"
+}

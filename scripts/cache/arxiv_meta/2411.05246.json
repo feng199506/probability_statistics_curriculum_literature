@@ -1,0 +1,17 @@
+{
+ "id": "2411.05246",
+ "title": "Caliper Synthetic Matching: Generalized Radius Matching with Local Synthetic Controls",
+ "authors": [
+  "Jonathan Che",
+  "Xiang Meng",
+  "Luke Miratrix"
+ ],
+ "v1_date": "2024-11-08",
+ "latest_version": 1,
+ "latest_date": "2024-11-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages plus 10 pages of appendices, 9 figures total",
+ "abstract": "Matching promises transparent causal inferences for observational data, making it an intuitive approach for many applications. In practice, however, standard matching methods often perform poorly compared to modern approaches such as response-surface modeling and optimizing balancing weights. We propose Caliper Synthetic Matching (CSM) to address these challenges while preserving simple and transparent matches and match diagnostics. CSM extends Coarsened Exact Matching by incorporating general distance metrics, adaptive calipers, and locally constructed synthetic controls. We show that CSM can be viewed as a monotonic imbalance bounding matching method, so that it inherits the usual bounds on imbalance and bias enjoyed by MIB methods. We further provide a bound on a measure of joint covariate imbalance. Using a simulation study, we illustrate how CSM can even outperform modern matching methods in certain settings, and finally illustrate its use in an empirical example. Overall, we find CSM allows for many of the benefits of matching while avoiding some of the costs.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2402.01514",
+ "title": "Mapping the Multiverse of Latent Representations",
+ "authors": [
+  "Jeremy Wayland",
+  "Corinna Coupette",
+  "Bastian Rieck"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 2,
+ "latest_date": "2024-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2024",
+ "abstract": "Echoing recent calls to counter reliability and robustness concerns in machine learning via multiverse analysis, we present PRESTO, a principled framework for mapping the multiverse of machine-learning models that rely on latent representations. Although such models enjoy widespread adoption, the variability in their embeddings remains poorly understood, resulting in unnecessary complexity and untrustworthy representations. Our framework uses persistent homology to characterize the latent spaces arising from different combinations of diverse machine-learning methods, (hyper)parameter configurations, and datasets, allowing us to measure their pairwise (dis)similarity and statistically reason about their distributions. As we demonstrate both theoretically and empirically, our pipeline preserves desirable properties of collections of latent representations, and it can be leveraged to perform sensitivity analysis, detect anomalous embeddings, or efficiently and effectively navigate hyperparameter search spaces.",
+ "primary": "cs.LG"
+}

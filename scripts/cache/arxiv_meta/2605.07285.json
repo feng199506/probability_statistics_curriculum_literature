@@ -1,0 +1,15 @@
+{
+ "id": "2605.07285",
+ "title": "Transporting treatment effects by calibrating large-scale observational outcomes",
+ "authors": [
+  "Harrison H Li"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 2,
+ "latest_date": "2026-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 5 figures",
+ "abstract": "A high-quality experimental dataset is often much smaller than a corresponding observational dataset. When this holds with possibly biased measurements of the outcome of interest in the latter, we propose an estimation and inference procedure for a transported treatment effect. Our point estimator can be computed as follows. First, we estimate the conditional average treatment effect (CATE) by calibrating a treatment-control contrast estimated using the observational outcomes to the experimental dataset using ordinary least squares (OLS). Then, we compute the sample average of this estimated CATE over the observational dataset. We show that the limiting estimand is a weighted transported average treatment effect even when the OLS calibration is misspecified. Furthermore, our inference for this estimand is asymptotically valid and semiparametrically efficient when the size of the experimental dataset grows more slowly than the size of the observational dataset, regardless of the existence of positivity (overlap) between the two datasets. We illustrate the stable empirical performance of our method under varying degrees of positivity using numerical simulations and a data example using field experiments and satellite-based yield estimates to estimate the average effect of crop rotation on maize (corn) yields over a large area of the Midwestern United States.",
+ "primary": "stat.ME"
+}

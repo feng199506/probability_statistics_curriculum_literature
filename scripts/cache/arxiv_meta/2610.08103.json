@@ -1,0 +1,15 @@
+{
+ "id": "2610.08103",
+ "title": "The mixing time of Mean-Field Gibbs-Ornstein-Uhlenbeck processes",
+ "authors": [
+  "Johan Jonasson"
+ ],
+ "v1_date": "2026-10-06",
+ "latest_version": 1,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "85 pages, 1 figure",
+ "abstract": "We introduce mean-field Gibbs--Ornstein--Uhlenbeck (MFGOU) processes, a class of discrete-time Markov processes with increments of order $1/n$, whose conditional means approximate a smooth vector field. If the field has a unique attracting zero and satisfies a global Lyapunov condition, we prove \\[ τ_{\\mathrm{mix}} = \\frac{1}{λ_1}n\\log n+O(n), \\] where $λ_1$ is the smallest eigenvalue of the drift Jacobian at the attractor. Mean-field block measures form an important subclass encompassing mean-field spin systems and projected Gibbs samplers for Latent Dirichlet Allocation (LDA) and related mixture models. The leading mixing constant has a spectral expression involving the free-energy Hessian and the covariance of single-step dynamics. A block-refinement argument transfers projected-chain results to the full chain under a mild spectral condition, preserving this constant. The theory recovers known cutoff locations for Curie--Weiss Ising and Potts models and complete multipartite Ising models, gives an external-field formula for Curie--Weiss Ising, and covers regular-graph interactions. It yields explicit $n\\log n$ asymptotics for multinomial mixtures and partially collapsed LDA. For full LDA, mixing is determined conditionally on the stationary-point structure of the free energy, distinguishing metastability from topic-label switching. The framework also applies to continuous-state Gibbs sampling, constant-step stochastic gradient descent, and frequently refreshed Hamiltonian Monte Carlo, rigorously for truncated Gaussian increments and heuristically without truncation. The proof combines variance and mean estimates with path coupling allowing slight expansion in expected distance. After rescaling, the coupling distance is a nonnegative supermartingale whose quadratic variation gives a positive probability of coalescence.",
+ "primary": "math.PR"
+}

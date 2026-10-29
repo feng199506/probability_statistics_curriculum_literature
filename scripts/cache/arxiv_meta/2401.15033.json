@@ -1,0 +1,16 @@
+{
+ "id": "2401.15033",
+ "title": "Higher-Order Entrywise Eigenvectors Analysis of Low-Rank Random Matrices: Bias Correction, Edgeworth Expansion, and Bootstrap",
+ "authors": [
+  "Fangzheng Xie",
+  "Yichi Zhang"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 2,
+ "latest_date": "2024-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding the distributions of spectral estimators in low-rank random matrix models, also known as signal-plus-noise matrix models, is fundamentally important in various statistical learning problems, including network analysis, matrix denoising, and matrix completion. This paper investigates the entrywise eigenvector distributions in a broad range of low-rank signal-plus-noise matrix models by establishing their higher-order accurate stochastic expansions. At a high level, the stochastic expansion states that the eigenvector perturbation approximately decomposes into the sum of a first-order term and a second-order term, where the first-order term in the expansion is a linear function of the noise matrix, and the second-order term is a linear function of the squared noise matrix. Our theoretical finding is used to derive the bias correction procedure for the eigenvectors. We further establish the Edgeworth expansion formula for the studentized entrywise eigenvector statistics. In particular, under mild conditions, we show that Cramér's condition on the smoothness of noise distribution is not required, thanks to the self-smoothing effect of the second-order term in the eigenvector stochastic expansion. The Edgeworth expansion result is then applied to justify the higher-order correctness of the residual bootstrap procedure for approximating the distributions of the studentized entrywise eigenvector statistics.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2406.08041",
+ "title": "HARd to Beat: The Overlooked Impact of Rolling Windows in the Era of Machine Learning",
+ "authors": [
+  "Francesco Audrino",
+  "Jonathan Chassot"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the predictive abilities of the heterogeneous autoregressive (HAR) model compared to machine learning (ML) techniques across an unprecedented dataset of 1,455 stocks. Our analysis focuses on the role of fitting schemes, particularly the training window and re-estimation frequency, in determining the HAR model's performance. Despite extensive hyperparameter tuning, ML models fail to surpass the linear benchmark set by HAR when utilizing a refined fitting approach for the latter. Moreover, the simplicity of HAR allows for an interpretable model with drastically lower computational costs. We assess performance using QLIKE, MSE, and realized utility metrics, finding that HAR consistently outperforms its ML counterparts when both rely solely on realized volatility and VIX as predictors. Our results underscore the importance of a correctly specified fitting scheme. They suggest that properly fitted HAR models provide superior forecasting accuracy, establishing robust guidelines for their practical application and use as a benchmark. This study not only reaffirms the efficacy of the HAR model but also provides a critical perspective on the practical limitations of ML approaches in realized volatility forecasting.",
+ "primary": "q-fin.ST"
+}

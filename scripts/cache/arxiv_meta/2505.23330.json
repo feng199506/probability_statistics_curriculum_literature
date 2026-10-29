@@ -1,0 +1,19 @@
+{
+ "id": "2505.23330",
+ "title": "Calibrated Bayesian inference for random fields on large irregular domains using the debiased spatial Whittle likelihood",
+ "authors": [
+  "Thomas Goodwin",
+  "Arthur Guillaumin",
+  "Matias Quiroz",
+  "Mattias Villani",
+  "Robert Kohn"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 1,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference for stationary random fields is computationally demanding. Whittle-type likelihoods in the frequency domain based on the fast Fourier Transform (FFT) have several appealing features: i) low computational complexity of only $\\mathcal{O}(n \\log n)$, where $n$ is the number of spatial locations, ii) robustness to assumptions of the data-generating process, iii) ability to handle missing data and irregularly spaced domains, and iv) flexibility in modelling the covariance function via the spectral density directly in the spectral domain. It is well known, however, that the Whittle likelihood suffers from bias and low efficiency for spatial data. The debiased Whittle likelihood is a recently proposed alternative with better frequentist properties. We propose a methodology for Bayesian inference for stationary random fields using the debiased spatial Whittle likelihood, with an adjustment from the composite likelihood literature. The adjustment is shown to give a well-calibrated Bayesian posterior as measured by coverage properties of credible sets, without sacrificing the quasi-linear computation time. We apply the method to simulated data and two real datasets.",
+ "primary": "stat.ME"
+}

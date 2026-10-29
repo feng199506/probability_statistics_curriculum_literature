@@ -1,0 +1,17 @@
+{
+ "id": "2501.10886",
+ "title": "Linear scaling causal discovery from high-dimensional time series by dynamical community detection",
+ "authors": [
+  "Matteo Allione",
+  "Vittorio Del Tatto",
+  "Alessandro Laio"
+ ],
+ "v1_date": "2025-01-18",
+ "latest_version": 3,
+ "latest_date": "2026-09-08",
+ "journal_ref": "",
+ "doi": "10.1103/kd73-93cg",
+ "comment": "",
+ "abstract": "Understanding which parts of a dynamical system cause each other is extremely relevant in fundamental and applied sciences. However, inferring causal links from observational data, namely without direct manipulations of the system, is still computationally challenging, especially if the data are high-dimensional. In this study we introduce a framework for constructing causal graphs from high-dimensional time series, whose computational cost scales linearly with the number of variables. The approach is based on the automatic identification of dynamical communities, groups of variables which mutually influence each other and can therefore be described as a single node in a causal graph. These communities are efficiently identified by optimizing the Information Imbalance, a statistical quantity that assigns a weight to each putative causal variable based on its information content relative to a target variable. The communities are then ordered starting from the fully autonomous ones, whose evolution is independent from all the others, to those that are progressively dependent on other communities, building in this manner a community causal graph. We demonstrate the computational efficiency and the accuracy of our approach on time-discrete and time-continuous dynamical systems including up to 80 variables.",
+ "primary": "physics.data-an"
+}

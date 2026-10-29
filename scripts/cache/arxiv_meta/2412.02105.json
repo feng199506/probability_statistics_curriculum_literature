@@ -1,0 +1,17 @@
+{
+ "id": "2412.02105",
+ "title": "The causal effects of modified treatment policies under network interference",
+ "authors": [
+  "Salvador V. Balkus",
+  "Scott W. Delaney",
+  "Nima S. Hejazi"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 3,
+ "latest_date": "2025-12-10",
+ "journal_ref": "Journal of the Royal Statistical Society, Series B: Statistical Methodology (2026)",
+ "doi": "10.1093/jrsssb/qkag052",
+ "comment": "30 pages, 5 figures",
+ "abstract": "Modified treatment policies are a widely applicable class of interventions useful for studying the causal effects of continuous exposures. Approaches to evaluating their causal effects assume no interference, meaning that such effects cannot be learned from data in settings where the exposure of one unit affects the outcomes of others, as is common in spatial or network data. We introduce a new class of intervention, induced modified treatment policies, which we show identify such causal effects in the presence of network interference. Building on recent developments for causal inference in networks, we provide flexible, semi-parametric efficient estimators of the statistical estimand. Numerical experiments demonstrate that an induced modified treatment policy can eliminate the causal, or identification, bias that results from network interference. We use the methodology developed to evaluate the effect of zero-emission vehicle uptake on air pollution in California, strengthening prior evidence.",
+ "primary": "stat.ME"
+}

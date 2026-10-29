@@ -1,0 +1,16 @@
+{
+ "id": "2609.04613",
+ "title": "Uniform Gaussian Approximation for The Quasi-Likelihood Estimator for a Weakly Dependent Nonlinear Time Series Models",
+ "authors": [
+  "Zinsou Max Debaly",
+  "Arsene Brice Zotsa-Ngoufack"
+ ],
+ "v1_date": "2026-09-04",
+ "latest_version": 1,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study estimation and inference for a semiparametric class of time series models that specify only the conditional expectation, which is a known link function applied to a linear combination of past observations and covariates. The class covers count, binary, bounded and conditionally heteroskedastic responses within a single formulation, and the parameter is estimated by a quasi-likelihood estimating equation based on the first conditional moment. Under stationarity and a weak-dependence condition expressed through the functional dependence measure, we establish two results. First, using a Fuk--Nagaev inequality for weakly dependent sequences, we show that the estimator is localized in a shrinking neighbourhood of the true value with probability $1-o(n^{-1/2})$. Second, combining a Berry--Esseen bound for weakly dependent sequences with a Gaussian anti-concentration argument to control the remainder of the linear expansion, we obtain a Berry--Esseen bound for linear projections of the estimator, uniform over projection directions. From the projected bound we derive studentized confidence intervals with explicit coverage error and a conservative Bonferroni test for linear hypotheses on the parameters. For real data analysis, we extend the Beta autoregression for double-bounded data to an arbitrary link given by the inverse of a distribution function, and apply it to ten pairwise realized correlations of large-cap technology-stock returns, using Nasdaq and Dow~Jones index returns as covariates.",
+ "primary": "math.ST"
+}

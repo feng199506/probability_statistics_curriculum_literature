@@ -1,0 +1,19 @@
+{
+ "id": "2503.15012",
+ "title": "Benchmarking Brain Connectivity Graph Inference: A Novel Validation Approach",
+ "authors": [
+  "Alice Chevaux",
+  "Ali Fahkar",
+  "Kévin Polisano",
+  "Irène Gannaz",
+  "Sophie Achard"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 1,
+ "latest_date": "2025-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inferring a binary connectivity graph from resting-state fMRI data for a single subject requires making several methodological choices and assumptions that can significantly affect the results. In this study, we investigate the robustness of existing edge detection methods when relaxing a common assumption: the sparsity of the graph. We propose a new pipeline to generate synthetic data and to benchmark the state of the art in graph inference. Simulated correlation matrices are designed to have a set of given zeros and a constraint on the signal-to-noise ratio. We compare approaches based on covariance or precision matrices, emphasizing their implications for connectivity inference. This framework allows us to assess the sensitivity of connectivity estimations and edge detection methods to different parameters.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2609.17629",
+ "title": "Fenchel-Young Duality Gaps: Certified Early Stopping for Regularized Inverse Problems",
+ "authors": [
+  "Pierre-Cyril Aubin-Frankowski",
+  "Yohann de Castro"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study computable error bounds and certified early stopping for regularized inverse problems, where a data-fidelity term is traded against a regularizer. The analysis relies on an exact duality-gap identity that splits the total gap of $F(Φμ)+λR(μ)$ into a data-fidelity Fenchel--Young loss and a regularizer Fenchel--Young loss, $ Δ(μ,h)=L_F(Φμ\\parallel h)+λL_R(μ\\parallelη),\\qquad η=-Φ^\\star h/λ, $ valid for any primal point $μ$ and any dual point $h$. The data-fidelity term $F$ is strictly convex, so wherever $F^\\star$ is differentiable the loss $L_F(Φμ\\parallel h)$ is the Bregman divergence of~$F$ between the prediction $Φμ$ and $\\nabla F^\\star(h)$, and it vanishes exactly at \\emph{Mirror Alignment} $h=\\nabla F(Φμ)$. Evaluated at a dual-feasible point $\\tilde h$, the gap~$Δ(μ,\\tilde h)$ is computable and \\emph{oracle-free}, meaning that it uses no knowledge of the solution, and it bounds the suboptimality of $μ$. Under the source condition, the same Fenchel--Young losses give \\emph{a priori} bounds on the estimation and prediction errors. Their scale is the irreducible model and noise error $L_F(Φμ^\\star\\parallel h^\\star)$, which vanishes exactly when Mirror Alignment holds at the certificate. This gives an early-stopping rule: run the algorithm until the regularizer Fenchel--Young loss falls below a tolerance $ε$. A constructive version of the Brøndsted--Rockafellar theorem then turns the current pair into an exact \\emph{dual-feasible} one, and this proxy lifts to an exact primal certificate. We build the proxy by a proximal step in the geometry of the fidelity, with Bregman kernel $F^\\star$ and tilted by the prediction $Φμ$: it recovers the Euclidean step of Carlier when $F$ is the squared error, and it reduces the duality gap by the regularizer Fenchel--Young loss, up to a second-order remainder that vanishes in the quadratic case. Our running example is the Generalized Beurling--Lasso (GBL), where $R$ is the total-variation norm on signed measures. It contains the classical Beurling--Lasso, obtained with the squared error, and also covers robust, logistic, entropic and inverse-optimal-transport losses. The same duality gap certifies deep-learning optimizers such as Lion-K and Muon, in their proximal form, as solvers of the regularized program. A companion paper by the same authors builds on these error bounds to establish exact support recovery for the GBL under a non-degenerate source condition.",
+ "primary": "math.OC"
+}

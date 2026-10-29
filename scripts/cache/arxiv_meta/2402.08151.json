@@ -1,0 +1,21 @@
+{
+ "id": "2402.08151",
+ "title": "Perturbative adaptive importance sampling for Bayesian LOO cross-validation",
+ "authors": [
+  "Joshua C Chang",
+  "Xiangting Li",
+  "Tianyi Su",
+  "Shixin Xu",
+  "Hao-Ren Yao",
+  "Julia Porcino",
+  "Carson Chow"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 4,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted",
+ "abstract": "Importance sampling (IS) is an efficient stand-in for model refitting in performing (LOO) cross-validation (CV) on a Bayesian model. IS inverts the Bayesian update for a single observation by reweighting posterior samples. The so-called importance weights have high variance -- we resolve this issue through adaptation by transformation. We observe that removing a single observation perturbs the posterior by $\\mathcal{O}(1/n)$, motivating bijective transformations of the form $T(θ)=θ+ h Q(θ)$ for $0<h\\ll 1.$ We introduce several such transformations: partial moment matching, which generalizes prior work on affine moment-matching with a tunable step size; log-likelihood descent, which partially invert the Bayesian update for an observation; and gradient flow steps that minimize the KL divergence or IS variance. The gradient flow and likelihood descent transformations require Jacobian determinants, which are available via auto-differentiation; we additionally derive closed-form expressions for logistic regression and shallow ReLU networks. We tested the methodology on classification ($n\\ll p$), count regression (Poisson and zero-inflated negative binomial), and survival analysis problems, finding that no single transformation dominates but their combination nearly eliminates the need to refit.",
+ "primary": "stat.ME"
+}

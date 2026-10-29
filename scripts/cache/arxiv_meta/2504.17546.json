@@ -1,0 +1,15 @@
+{
+ "id": "2504.17546",
+ "title": "An introduction to R package `mvs`",
+ "authors": [
+  "Wouter van Loon"
+ ],
+ "v1_date": "2025-04-24",
+ "latest_version": 1,
+ "latest_date": "2025-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures. Package vignette corresponding to https://doi.org/10.32614/CRAN.package.mvs",
+ "abstract": "In biomedical science, a set of objects or persons can often be described by multiple distinct sets of features obtained from different data sources or modalities (called \"multi-view data\"). Classical machine learning methods ignore the multi-view structure of such data, limiting model interpretability and performance. The R package `mvs` provides methods that were designed specifically for dealing with multi-view data, based on the multi-view stacking (MVS) framework. MVS is a form of supervised (machine) learning used to train multi-view classification or prediction models. MVS works by training a learning algorithm on each view separately, estimating the predictive power of each view-specific model through cross-validation, and then using another learning algorithm to assign weights to the view-specific models based on their estimated predictions. MVS is a form of ensemble learning, dividing the large multi-view learning problem into smaller sub-problems. Most of these sub-problems can be solved in parallel, making it computationally attractive. Additionally, the number of features of the sub-problems is greatly reduced compared with the full multi-view learning problem. This makes MVS especially useful when the total number of features is larger than the number of observations (i.e., high-dimensional data). MVS can still be applied even if the sub-problems are themselves high-dimensional by adding suitable penalty terms to the learning algorithms. Furthermore, MVS can be used to automatically select the views which are most important for prediction. The R package `mvs` makes fitting MVS models, including such penalty terms, easily and openly accessible. `mvs` allows for the fitting of stacked models with any number of levels, with different penalty terms, different outcome distributions, and provides several options for missing data handling.",
+ "primary": "stat.CO"
+}

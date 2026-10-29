@@ -1,0 +1,17 @@
+{
+ "id": "2504.15543",
+ "title": "Bayesian model-averaging stochastic item selection for adaptive testing",
+ "authors": [
+  "Tina Su",
+  "Edison Choe",
+  "Joshua C. Chang"
+ ],
+ "v1_date": "2025-04-22",
+ "latest_version": 3,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under review; major revision",
+ "abstract": "Computer Adaptive Testing (CAT) aims to accurately estimate an individual's ability using only a subset of an Item Response Theory (IRT) instrument. Many applications also require diverse item exposure across testing sessions, preventing any single item from being over- or underutilized. In CAT, items are selected sequentially based on a running estimate of a respondent's ability. Prior methods almost universally see item selection through an optimization lens, motivating greedy item selection procedures. While efficient, these deterministic methods tend to have poor item exposure. Existing stochastic methods for item selection are ad-hoc, with item sampling weights that lack theoretical justification. We formulate stochastic CAT as a Bayesian model averaging problem. We seek item sampling probabilities, treated in the long-run frequentist sense, that perform optimal model averaging for the ability estimate in a Bayesian sense. The derivation yields an information criterion for optimal stochastic mixing: the expected entropy of the next posterior. We tested our method on seven publicly available psychometric instruments spanning personality, social attitudes, narcissism, and work preferences, in addition to the eight scales of the Work Disability Functional Assessment Battery. Across all instruments, accuracy differences between selection methods at a given test length are varied but minimal relative to the natural noise in ability estimation; however, the stochastic selector achieves full item bank exposure, resolving the longstanding tradeoff between measurement efficiency and item security at negligible accuracy cost.",
+ "primary": "stat.ME"
+}

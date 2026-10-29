@@ -1,0 +1,17 @@
+{
+ "id": "2609.23927",
+ "title": "Time-uniform accuracy of ensemble Kalman filters with localization",
+ "authors": [
+  "Xiaoou Cheng",
+  "Daniel Sanz-Alonso",
+  "Nathan Waniorek"
+ ],
+ "v1_date": "2026-09-20",
+ "latest_version": 1,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "62 pages",
+ "abstract": "This paper establishes time-uniform accuracy guarantees for deterministic square-root ensemble Kalman filters in linear--Gaussian state-space models under perfect-model dynamics. For hyperbolic, detectable systems, we prove that the ensemble means and covariances approximate their Kalman filter counterparts uniformly in time, with high probability and without inflation or resampling. The required ensemble size depends on the effective rank of the initial covariance and the dimension of the unstable subspace, rather than on the ambient state dimension. We also analyze a localized square-root ensemble Kalman filter for weakly coupled spatial systems. We show that the stabilizing Kalman covariance inherits spatial decay from the dynamics and derive accuracy bounds that separate sampling error from localization bias. For the localized filter, the required ensemble size depends on the local intrinsic dimension and only logarithmically on the number of spatial blocks, while the localization bias scales with the interaction strength. Our analysis combines stability and forgetting for possibly singular Riccati recursions, nonasymptotic covariance concentration, and perturbation estimates for localized covariance dynamics.",
+ "primary": "math.NA"
+}

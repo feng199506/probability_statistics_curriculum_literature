@@ -1,0 +1,19 @@
+{
+ "id": "2405.11615",
+ "title": "Approximation of bivariate densities with compositional splines",
+ "authors": [
+  "Stanislav Škorňa",
+  "Jitka Machalová",
+  "Jana Burkotová",
+  "Karel Hron",
+  "Sonja Greven"
+ ],
+ "v1_date": "2024-05-19",
+ "latest_version": 1,
+ "latest_date": "2024-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable estimation and approximation of probability density functions is fundamental for their further processing. However, their specific properties, i.e. scale invariance and relative scale, prevent the use of standard methods of spline approximation and have to be considered when building a suitable spline basis. Bayes Hilbert space methodology allows to account for these properties of densities and enables their conversion to a standard Lebesgue space of square integrable functions using the centered log-ratio transformation. As the transformed densities fulfill a zero integral constraint, the constraint should likewise be respected by any spline basis used. Bayes Hilbert space methodology also allows to decompose bivariate densities into their interactive and independent parts with univariate marginals. As this yields a useful framework for studying the dependence structure between random variables, a spline basis ideally should admit a corresponding decomposition. This paper proposes a new spline basis for (transformed) bivariate densities respecting the desired zero integral property. We show that there is a one-to-one correspondence of this basis to a corresponding basis in the Bayes Hilbert space of bivariate densities using tools of this methodology. Furthermore, the spline representation and the resulting decomposition into interactive and independent parts are derived. Finally, this novel spline representation is evaluated in a simulation study and applied to empirical geochemical data.",
+ "primary": "stat.ME"
+}

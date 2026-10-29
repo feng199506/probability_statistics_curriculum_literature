@@ -1,0 +1,16 @@
+{
+ "id": "2602.03202",
+ "title": "Sharp Inequalities between Total Variation and Hellinger Distances for Gaussian Mixtures",
+ "authors": [
+  "Joonhyuk Jung",
+  "Chao Gao"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 3,
+ "latest_date": "2026-07-08",
+ "journal_ref": "Proceedings of the 43rd International Conference on Machine Learning (ICML), Seoul, South Korea. PMLR 306, 2026",
+ "doi": "",
+ "comment": "36 pages",
+ "abstract": "We study the relation between the total variation (TV) and Hellinger distances between two Gaussian location mixtures. Our first result establishes a general upper bound: for any two mixing distributions supported on a compact set, the Hellinger distance between the two mixtures is controlled by the TV distance raised to a power $1-o(1)$, where the $o(1)$ term is of order $1/\\log\\log(1/\\mathrm{TV})$. We also construct two sequences of mixing distributions that demonstrate the sharpness of this bound. Taken together, our results resolve an open problem raised in Jia et al. (2023) and thus lead to an entropic characterization of learning Gaussian mixtures in total variation. Our inequality also yields optimal robust estimation of Gaussian mixtures in Hellinger distance, which has a direct implication for bounding the minimax regret of empirical Bayes under Huber contamination.",
+ "primary": "math.ST"
+}

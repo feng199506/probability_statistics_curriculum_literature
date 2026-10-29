@@ -1,0 +1,19 @@
+{
+ "id": "2502.05295",
+ "title": "GST-UNet: A Neural Framework for Spatiotemporal Causal Inference with Time-Varying Confounding",
+ "authors": [
+  "Miruna Oprescu",
+  "David K. Park",
+  "Xihaier Luo",
+  "Shinjae Yoo",
+  "Nathan Kallus"
+ ],
+ "v1_date": "2025-02-07",
+ "latest_version": 2,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 6 figures, 6 tables, NeurIPS 2025",
+ "abstract": "Estimating causal effects from spatiotemporal observational data is essential in public health, environmental science, and policy evaluation, where randomized experiments are often infeasible. Existing approaches, however, either rely on strong structural assumptions or fail to handle key challenges such as interference, spatial confounding, temporal carryover, and time-varying confounding -- where covariates are influenced by past treatments and, in turn, affect future ones. We introduce GST-UNet (G-computation Spatio-Temporal UNet), a theoretically grounded neural framework that combines a U-Net-based spatiotemporal encoder with regression-based iterative G-computation to estimate location-specific potential outcomes under complex intervention sequences. GST-UNet explicitly adjusts for time-varying confounders and captures non-linear spatial and temporal dependencies, enabling valid causal inference from a single observed trajectory in data-scarce settings. We validate its effectiveness in synthetic experiments and in a real-world analysis of wildfire smoke exposure and respiratory hospitalizations during the 2018 California Camp Fire. Together, these results position GST-UNet as a principled and ready-to-use framework for spatiotemporal causal inference, advancing reliable estimation in policy-relevant and scientific domains.",
+ "primary": "cs.LG"
+}

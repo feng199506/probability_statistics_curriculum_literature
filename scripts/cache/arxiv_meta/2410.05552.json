@@ -1,0 +1,17 @@
+{
+ "id": "2410.05552",
+ "title": "Optimal Adaptive Experimental Design for Estimating Treatment Effect",
+ "authors": [
+  "Jiachun Li",
+  "David Simchi-Levi",
+  "Yunxiao Zhao"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 3,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Delete unrelated figure, update new lower bound results",
+ "abstract": "Given n experiment subjects with potentially heterogeneous covariates and two possible treatments, namely active treatment and control, this paper addresses the fundamental question of determining the optimal accuracy in estimating the treatment effect. Furthermore, we propose an experimental design that approaches this optimal accuracy, giving a (non-asymptotic) answer to this fundamental yet still open question. The methodological contribution is listed as following. First, we establish an idealized optimal estimator with minimal variance as benchmark, and then demonstrate that adaptive experiment is necessary to achieve near-optimal estimation accuracy. Secondly, by incorporating the concept of doubly robust method into sequential experimental design, we frame the optimal estimation problem as an online bandit learning problem, bridging the two fields of statistical estimation and bandit learning. Using tools and ideas from both bandit algorithm design and adaptive statistical estimation, we propose a general low switching adaptive experiment framework, which could be a generic research paradigm for a wide range of adaptive experimental design. Through novel lower bound techniques for non-i.i.d. data, we demonstrate the optimality of our proposed experiment. Numerical result indicates that the estimation accuracy approaches optimal with as few as two or three policy updates.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.04547",
+ "title": "Variational Bayesian Multiple Imputation in High-Dimensional Regression Models With Missing Responses",
+ "authors": [
+  "Qiushuang Li",
+  "Recai Yucel"
+ ],
+ "v1_date": "2025-04-06",
+ "latest_version": 1,
+ "latest_date": "2025-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multiple imputation has become one of the standard methods in drawing inferences in many incomplete data applications. Applications of multiple imputation in relatively more complex settings, such as high-dimensional clustered data, require specialized methods to overcome the computational burden. Using linear mixed-effects models, we develop such methods that can be applied to continuous, binary, or categorical incomplete data by employing variational Bayesian inference to sample the posterior predictive distribution of the missing data. These methods specifically target high-dimensional data and work with the spike-and-slab prior, which automatically selects the variables of importance to be in the imputation model. The individual regression computation is then incorporated into a variable-by-variable imputation algorithm. Finally, we use a calibration-based algorithm to adopt these methods to multiple imputations of categorical variables. We present a simulation study and illustrate on National Survey of Children's Health data to assess the performance of these methods in a repetitive sampling framework.",
+ "primary": "stat.ME"
+}

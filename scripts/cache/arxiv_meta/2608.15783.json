@@ -1,0 +1,17 @@
+{
+ "id": "2608.15783",
+ "title": "Inferential Evaluation of Surrogate-Derived Models under Covariate Shift",
+ "authors": [
+  "Longtian Shi",
+  "Molei Liu",
+  "Doudou Zhou"
+ ],
+ "v1_date": "2026-08-16",
+ "latest_version": 1,
+ "latest_date": "2026-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In transfer-learning settings, a model derived from abundant surrogate labels may be deployed in a target population where gold-standard outcomes are unobserved. Evaluating its target performance is essential for determining whether decisions based on the model remain reliable, yet it is difficult when gold labels are scarce, and covariate distributions differ across data sources. We study a three-sample setting with a small gold-labeled source, a larger surrogate-labeled source, and an unlabeled target. Under conditional transportability, we evaluate the surrogate-derived model against the latent gold-standard outcome in the target population. We propose cross-fitted estimators that transport information from the two labeled sources through source-specific density ratios. We also combine outcome-regression augmentation with a kernel correction for estimating the model near a threshold, accounting for uncertainty from all three samples. We establish asymptotically linear inference for TPR and FPR, consistency and pointwise inference for the ROC curve, and asymptotically normal inference for AUC. Simulations assess bias, coverage, and sensitivity to bandwidth and relative sample sizes. A retrospective temporal validation on Chatbot Arena and a semi-synthetic ACS-Income study provide validation in real-world AI applications.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2505.17706",
+ "title": "Sampling from Conditional Distributions of Simplified Vines",
+ "authors": [
+  "Ariane Hanebeck",
+  "Özge Şahin",
+  "Petra Havlíčková",
+  "Claudia Czado"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 1,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simplified vine copulas are flexible tools over standard multivariate distributions for modeling and understanding different dependence properties in high-dimensional data. Their conditional distributions are of utmost importance, from statistical learning to graphical models. However, the conditional densities of vine copulas and, thus, vine distributions cannot be obtained in closed form without integration for all possible sets of conditioning variables. We propose a Markov Chain Monte Carlo based approach of using Hamiltonian Monte Carlo to sample from any conditional distribution of arbitrarily specified simplified vine copulas and thus vine distributions. We show its accuracy through simulation studies and analyze data of multiple maize traits such as flowering times, plant height, and vigor. Use cases from predicting traits to estimating conditional Kendall's tau are presented.",
+ "primary": "stat.ME"
+}

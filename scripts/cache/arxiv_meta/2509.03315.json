@@ -1,0 +1,19 @@
+{
+ "id": "2509.03315",
+ "title": "The super learner for time-to-event outcomes: A tutorial",
+ "authors": [
+  "Ruth H. Keogh",
+  "Karla Diaz-Ordaz",
+  "Nan van Geloven",
+  "Jon Michael Gran",
+  "Kamaryn T. Tanner"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 2,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating risks or survival probabilities conditional on individual characteristics based on censored time-to-event data is a commonly faced task. This may be for the purpose of developing a prediction model or may be part of a wider estimation procedure, such as in causal inference. A challenge is that it is impossible to know at the outset which of a set of candidate models will provide the best risk estimates. The super learner is a powerful approach for finding the best model or combination of models ('ensemble') among a pre-specified set of candidate models or 'learners', which can include both 'statistical' models (e.g. parametric, semi-parametric models) and 'machine learning' models. Super learners for time-to-event outcomes have been developed, but the literature is technical and the full details of how these methods work and can be implemented in practice have not previously been presented in an accessible format. In this paper we provide a practical tutorial on super learner methods for time-to-event outcomes. An overview of the general steps involved in the super learner is given, followed by details of three specific implementations for time-to-event outcomes. These include the originally proposed super learner, which involves using a discrete time scale, and two more recently proposed versions of the super learner for continuous-time data. We compare the properties of the methods and provide information on how they can be implemented in R. The methods are illustrated using an open access data set and R code is provided.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2107.00681",
+ "title": "Demystifying statistical learning based on efficient influence functions",
+ "authors": [
+  "Oliver Hines",
+  "Oliver Dukes",
+  "Karla Diaz-Ordaz",
+  "Stijn Vansteelandt"
+ ],
+ "v1_date": "2021-07-01",
+ "latest_version": 3,
+ "latest_date": "2021-12-01",
+ "journal_ref": "",
+ "doi": "10.1080/00031305.2021.2021984",
+ "comment": "",
+ "abstract": "Evaluation of treatment effects and more general estimands is typically achieved via parametric modelling, which is unsatisfactory since model misspecification is likely. Data-adaptive model building (e.g. statistical/machine learning) is commonly employed to reduce the risk of misspecification. Naive use of such methods, however, delivers estimators whose bias may shrink too slowly with sample size for inferential methods to perform well, including those based on the bootstrap. Bias arises because standard data-adaptive methods are tuned towards minimal prediction error as opposed to e.g. minimal MSE in the estimator. This may cause excess variability that is difficult to acknowledge, due to the complexity of such strategies. Building on results from non-parametric statistics, targeted learning and debiased machine learning overcome these problems by constructing estimators using the estimand's efficient influence function under the non-parametric model. These increasingly popular methodologies typically assume that the efficient influence function is given, or that the reader is familiar with its derivation. In this paper, we focus on derivation of the efficient influence function and explain how it may be used to construct statistical/machine-learning-based estimators. We discuss the requisite conditions for these estimators to perform well and use diverse examples to convey the broad applicability of the theory.",
+ "primary": "math.ST"
+}

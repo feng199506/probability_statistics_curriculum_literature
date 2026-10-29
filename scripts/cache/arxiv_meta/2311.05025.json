@@ -1,0 +1,18 @@
+{
+ "id": "2311.05025",
+ "title": "Unbiased Kinetic Langevin Monte Carlo with Inexact Gradients",
+ "authors": [
+  "Neil K. Chada",
+  "Benedict Leimkuhler",
+  "Daniel Paulin",
+  "Peter A. Whalley"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 4,
+ "latest_date": "2025-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "101 Pages, 11 Figures",
+ "abstract": "We present an unbiased method for Bayesian posterior means based on kinetic Langevin dynamics that combines advanced splitting methods with enhanced gradient approximations. Our approach avoids Metropolis correction by coupling Markov chains at different discretization levels in a multilevel Monte Carlo approach. Theoretical analysis demonstrates that our proposed estimator is unbiased, attains finite variance, and satisfies a central limit theorem. It can achieve accuracy $ε>0$ for estimating expectations of Lipschitz functions in $d$ dimensions with $\\mathcal{O}(d^{1/4}ε^{-2})$ expected gradient evaluations, without assuming warm start. We exhibit similar bounds using both approximate and stochastic gradients, and our method's computational cost is shown to scale independently of the size of the dataset. The proposed method is tested using a multinomial regression problem on the MNIST dataset and a Poisson regression model for soccer scores. Experiments indicate that the number of gradient evaluations per effective sample is independent of dimension, even when using inexact gradients. For product distributions, we give dimension-independent variance bounds. Our results demonstrate that in large-scale applications, the unbiased algorithm we present can be 2-3 orders of magnitude more efficient than the ``gold-standard\" randomized Hamiltonian Monte Carlo.",
+ "primary": "stat.CO"
+}

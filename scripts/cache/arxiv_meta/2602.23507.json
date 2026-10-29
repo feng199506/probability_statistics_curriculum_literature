@@ -1,0 +1,21 @@
+{
+ "id": "2602.23507",
+ "title": "Sample Size Calculations for Developing Clinical Prediction Models: Overview and pmsims R package",
+ "authors": [
+  "Diana Shamsutdinova",
+  "Felix Zimmer",
+  "Oyebayo Ridwan Olaniran",
+  "Sarah Markham",
+  "Daniel Stahl",
+  "Gordon Forbes",
+  "Ewan Carr"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 figures, 1 table, preprint",
+ "abstract": "Background: Clinical prediction models are increasingly used to inform healthcare decisions, but determining the minimum sample size for their development remains a critical and unresolved challenge. Inadequate sample sizes can lead to overfitting, poor generalisability, and biased predictions. Existing approaches, such as heuristic rules, closed-form formulas, and simulation-based methods, vary in flexibility and accuracy, particularly for complex data structures and machine learning models. Methods: We review current methodologies for sample size estimation in prediction modelling and introduce a conceptual framework that distinguishes between mean-based and assurance-based criteria. Building on this, we propose a novel simulation-based approach that integrates learning curves, Gaussian Process optimisation, and assurance principles to identify sample sizes that achieve target performance with high probability. This approach is implemented in pmsims, an open-source, model-agnostic R package. Results: Through case studies, we demonstrate that sample size estimates vary substantially across methods, performance metrics, and modelling strategies. Compared to existing tools, pmsims provides flexible, efficient, and interpretable solutions that accommodate diverse models and user-defined metrics while explicitly accounting for variability in model performance. Conclusions: Our framework and software advance sample size methodology for clinical prediction modelling by combining flexibility with computational efficiency. Future work should extend these methods to hierarchical and multimodal data, incorporate fairness and stability metrics, and address challenges such as missing data and complex dependency structures.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2510.14055",
+ "title": "Minimum Hellinger Distance Estimators for Complex Survey Designs",
+ "authors": [
+  "David Kepplinger",
+  "Anand N. Vidyashankar"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "10.1007/s40065-026-00618-3",
+ "comment": "36 pages",
+ "abstract": "Reliable inference from complex survey samples can be derailed by outliers and high-leverage observations induced by unequal inclusion probabilities and calibration. We develop a minimum Hellinger distance estimator (MHDE) for parametric superpopulation models under complex designs, including Poisson PPS and fixed-size SRS/PPS without replacement, with possibly stochastic post-stratified or calibrated weights. Using a Horvitz-Thompson-adjusted kernel density plug-in, we show: (i) $L^1$-consistency of the KDE with explicit large-deviation tail bounds driven by a variance-adaptive effective sample size; (ii) uniform exponential bounds for the Hellinger affinity that yield MHDE consistency under mild identifiability; (iii) an asymptotic Normal distribution for the MHDE with covariance $\\mathbf A^{-1}\\boldsymbolΣ\\mathbf A^{\\intercal}$ (and a finite-population correction under without-replacement designs); and (iv) robustness via the influence function and $α$-influence curves in the Hellinger topology. Simulations under Gamma and lognormal superpopulation models quantify efficiency-robustness trade-offs relative to weighted MLE under independent and high-leverage contamination. An application to NHANES 2021-2023 total water consumption shows that the MHDE remains stable despite extreme responses that markedly bias the MLE. The estimator is simple to implement via quadrature over a fixed grid and is extensible to other divergence families.",
+ "primary": "math.ST"
+}

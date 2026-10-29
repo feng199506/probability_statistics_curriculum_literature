@@ -1,0 +1,16 @@
+{
+ "id": "2405.08687",
+ "title": "Latent group structure in linear panel data models with endogenous regressors",
+ "authors": [
+  "Junho Choi",
+  "Ryo Okui"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 1,
+ "latest_date": "2024-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper concerns the estimation of linear panel data models with endogenous regressors and a latent group structure in the coefficients. We consider instrumental variables estimation of the group-specific coefficient vector. We show that direct application of the Kmeans algorithm to the generalized method of moments objective function does not yield unique estimates. We newly develop and theoretically justify two-stage estimation methods that apply the Kmeans algorithm to a regression of the dependent variable on predicted values of the endogenous regressors. The results of Monte Carlo simulations demonstrate that two-stage estimation with the first stage modeled using a latent group structure achieves good classification accuracy, even if the true first-stage regression is fully heterogeneous. We apply our estimation methods to revisiting the relationship between income and democracy.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2503.05225",
+ "title": "Bayesian analysis of restricted mean survival time adjusted for covariates using pseudo-observations",
+ "authors": [
+  "Léa Orsini",
+  "Emmanuel Lesaffre",
+  "Guosheng Yin",
+  "Caroline Brard",
+  "David Dejardin",
+  "Gwénaël Le Teuff"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 3,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The difference in restricted mean survival time (RMST) is a clinically meaningful measure to quantify treatment effect in randomized controlled trials, especially when the proportional hazards assumption does not hold. Several frequentist methods exist to estimate RMST adjusted for covariates based on modeling and integrating the survival function. A more natural approach may be a regression model on RMST using pseudo-observations, which allows for a direct estimation without modeling the survival function. Only a few Bayesian methods exist, and each requires a model of the survival function. We developed a new Bayesian method that combines the use of pseudo-observations with the generalized method of moments. This offers RMST estimation adjusted for covariates without the need to model the survival function, making it more attractive than existing Bayesian methods. A simulation study was conducted with different time-dependent treatment effects (early, delayed, and crossing survival) and covariate effects, showing that our approach provides valid results, aligns with existing methods, and shows improved precision after covariate adjustment. For illustration, we applied our approach to a phase III trial in prostate cancer, providing estimates of the treatment effect on RMST, comparable to existing methods. In addition, our approach provided the effect of other covariates on RMST and determined the posterior probability of the difference in RMST exceeds any given time threshold for any covariate, allowing for nuanced and interpretable results.",
+ "primary": "stat.AP"
+}

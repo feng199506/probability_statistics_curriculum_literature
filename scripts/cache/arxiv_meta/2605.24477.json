@@ -1,0 +1,16 @@
+{
+ "id": "2605.24477",
+ "title": "The Normalized Maximum Likelihood for Regular Non-Smooth Models: Measure-Theoretic Foundations and Geometric Sampling",
+ "authors": [
+  "Trenton Lau",
+  "Gary P. T. Choi"
+ ],
+ "v1_date": "2026-05-23",
+ "latest_version": 2,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Normalized Maximum Likelihood (NML) codelength, or stochastic complexity, represents a principled criterion for universal coding. While recent coarea-based formulations provided a calculation method for smooth models, this framework collapses for the non-smooth estimators ubiquitous in modern machine learning (e.g., Lasso, Sparse SVMs). In this work, we provide a rigorous framework for computing the NML for regular path-differentiable Lipschitz (PDL) estimators. By applying classical geometric measure theory and bridging the coarea formula with conservative Jacobians, we prove that the stochastic complexity for non-smooth models is well-posed and theoretically consistent with the outputs of modern Automatic Differentiation. To compute this quantity exactly, we introduce the Propose-and-Project Metropolis-Hastings (PDL-PPMH) sampler, a geometric MCMC algorithm capable of traversing the non-differentiable level sets of the maximum likelihood estimator. We theoretically justify its components, including a stochastic tangent space proposal and a provably convergent non-smooth projection solver. We demonstrate the method's robustness by sampling from a high-dimensional Lasso posterior ($P=2000$), while simultaneously quantifying the computational scaling that governs the trade-off between exactness and mixing time. Crucially, we empirically demonstrate that our exact NML criterion provides a highly data-efficient alternative to cross-validation, achieving statistically indistinguishable predictive optima without requiring data splitting. Altogether, our work paves the way for the theoretical analysis of the NML codelength for regular non-smooth models.",
+ "primary": "cs.LG"
+}

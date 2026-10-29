@@ -1,0 +1,19 @@
+{
+ "id": "2601.05875",
+ "title": "Estimating optimal interpretable individualized treatment regimes from a classification perspective using adaptive LASSO",
+ "authors": [
+  "Yunshu Zhang",
+  "Shu Yang",
+  "Wendy Ye",
+  "Ilya Lipkovich",
+  "Douglas E. Faries"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 1,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 4 figures",
+ "abstract": "Real-world data (RWD) gains growing interests to provide a representative sample of the population for selecting the optimal treatment options. However, existing complex black box methods for estimating individualized treatment rules (ITR) from RWD have problems in interpretability and convergence. Providing an interpretable and sparse ITR can be used to overcome the limitation of existing methods. We developed an algorithm using Adaptive LASSO to predict optimal interpretable linear ITR in the RWD. To encourage sparsity, we obtain an ITR by minimizing the risk function with various types of penalties and different methods of contrast estimation. Simulation studies were conducted to select the best configuration and to compare the novel algorithm with the existing state-of-the-art methods. The proposed algorithm was applied to RWD to predict the optimal interpretable ITR. Simulations show that adaptive LASSO had the highest rates of correctly selected variables and augmented inverse probability weighting with Super Learner performed best for estimating treatment contrast. Our method had a better performance than causal forest and R-learning in terms of the value function and variable selection. The proposed algorithm can strike a balance between the interpretability of estimated ITR (by selecting a small set of important variables) and its value.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2410.11716",
+ "title": "Randomization-based Inference for MCP-Mod",
+ "authors": [
+  "Lukas Pin",
+  "Oleksandr Sverdlov",
+  "Frank Bretz",
+  "Björn Bornkamp"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 2,
+ "latest_date": "2025-03-13",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70092",
+ "comment": "",
+ "abstract": "Dose selection is critical in pharmaceutical drug development, as it directly impacts therapeutic efficacy and patient safety of a drug. The Generalized Multiple Comparison Procedures and Modeling (MCP-Mod) approach is commonly used in Phase II trials for testing and estimation of dose-response relationships. However, its effectiveness in small sample sizes, particularly with binary endpoints, is hindered by issues like complete separation in logistic regression, leading to non-existence of estimates. Motivated by an actual clinical trial using the MCP-Mod approach, this paper introduces penalized maximum likelihood estimation (MLE) and randomization-based inference techniques to address these challenges. Randomization-based inference allows for exact finite sample inference, while population-based inference for MCP-Mod typically relies on asymptotic approximations. Simulation studies demonstrate that randomization-based tests can enhance statistical power in small to medium-sized samples while maintaining control over type-I error rates, even in the presence of time trends. Our results show that residual-based randomization tests using penalized MLEs not only improve computational efficiency but also outperform standard randomization-based methods, making them an adequate choice for dose-finding analyses within the MCP-Mod framework. Additionally, we apply these methods to pharmacometric settings, demonstrating their effectiveness in such scenarios. The results in this paper underscore the potential of randomization-based inference for the analysis of dose-finding trials, particularly in small sample contexts.",
+ "primary": "stat.ME"
+}

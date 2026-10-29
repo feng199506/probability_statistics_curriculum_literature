@@ -1,0 +1,20 @@
+{
+ "id": "2602.05716",
+ "title": "MixMashNet: An R Package for Single and Multilayer Networks",
+ "authors": [
+  "Maria De Martino",
+  "Federico Triolo",
+  "Adrien Perigord",
+  "Alice Margherita Ornago",
+  "Davide Liborio Vetrano",
+  "Caterina Gregorio"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 3,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The R package MixMashNet provides an integrated framework for estimating and analyzing single and multilayer networks using Mixed Graphical Models (MGMs), accommodating continuous, count, and categorical variables. In the multilayer setting, layers may comprise different types and numbers of variables, and users can explicitly impose a predefined multilayer topology. Bootstrap procedures are implemented to quantify sampling uncertainty for edge weights and node-level centrality indices. In addition, the package includes tools to assess the stability of node community membership and to compute community scores that summarize the latent dimensions identified through network clustering. MixMashNet also offers interactive Shiny applications to support exploration, visualization, and interpretation of the estimated networks.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.12621",
+ "title": "Asymptotic Distribution of Low-Dimensional Patterns Induced by Non-Differentiable Regularizers under General Loss Functions",
+ "authors": [
+  "Ivan Hejný",
+  "Jonas Wallin",
+  "Małgorzata Bogdan"
+ ],
+ "v1_date": "2025-06-14",
+ "latest_version": 2,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 4 figures",
+ "abstract": "This article investigates the asymptotic distribution of penalized estimators with non-differentiable penalties designed to recover low-dimensional pattern structures. Patterns play a central role in estimation, as they reveal the underlying structure of the parameter -- which coefficients are zero, which are equal, and how they are clustered. The main technical challenge stems from the discontinuous nature of these patterns (such as the sign function in the case of the Lasso penalty), a difficulty not previously addressed in the literature and only recently analyzed for the standard linear model. To overcome this, we extend classical results from empirical process theory for M-estimation by incorporating the distributional behavior of model patterns. We introduce a new mathematical framework for studying pattern convergence of regularized M-estimators. While classical approaches to distributional convergence rely on uniform conditions, our analysis employs a new local condition, stochastic Lipschitz differentiability (SLD), which controls fluctuations of the Taylor remainder. We demonstrate how this framework applies to a broad class of loss functions, covering generalized linear models (e.g., logistic and Poisson regression) and robust regression settings with non-smooth losses such as the Huber and quantile loss.",
+ "primary": "math.ST"
+}

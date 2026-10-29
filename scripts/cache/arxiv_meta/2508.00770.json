@@ -1,0 +1,18 @@
+{
+ "id": "2508.00770",
+ "title": "On admissibility in post-hoc hypothesis testing",
+ "authors": [
+  "Ben Chugg",
+  "Tyron Lardy",
+  "Aaditya Ramdas",
+  "Peter Grünwald"
+ ],
+ "v1_date": "2025-08-01",
+ "latest_version": 3,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages. To appear in the International Journal of Approximate Reasoning",
+ "abstract": "The validity of classical hypothesis testing requires the significance level $α$ be fixed before any statistical analysis takes place. This is a stringent requirement. For instance, it prohibits updating $α$ during (or after) an experiment due to changing concern about the cost of false positives, or to reflect unexpectedly strong evidence against the null. Perhaps most disturbingly, witnessing a p-value $p\\llα$ vs $p= α- ε$ for tiny $ε> 0$ has no (statistical) relevance for any downstream decision-making. Following recent work of Grünwald (2024), we develop a theory of post-hoc hypothesis testing, enabling $α$ to be chosen after seeing and analyzing the data. To study \"good\" post-hoc tests we introduce $Γ$-admissibility, where $Γ$ is a set of adversaries which map the data to a significance level. We classify the set of $Γ$-admissible rules for various sets $Γ$, showing they must be based on e-values, and recover the Neyman-Pearson lemma when $Γ$ is the constant map.",
+ "primary": "math.ST"
+}

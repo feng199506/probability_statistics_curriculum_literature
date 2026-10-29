@@ -1,0 +1,18 @@
+{
+ "id": "2312.02715",
+ "title": "A queueing-based approach for integrated routing and appointment scheduling",
+ "authors": [
+  "René Bekker",
+  "Bharti Bharti",
+  "Leon Lan",
+  "Michel Mandjes"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 1,
+ "latest_date": "2023-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 10 figures",
+ "abstract": "This paper aims to address the integrated routing and appointment scheduling (RAS) problem for a single service provider. The RAS problem is an operational challenge faced by operators that provide services requiring home attendance, such as grocery delivery, home healthcare, or maintenance services. While considering the inherently random nature of service and travel times, the goal is to minimize a weighted sum of the operator's travel times and idle time, and the client's waiting times. To handle the complex search space of routing and appointment scheduling decisions, we propose a queueing-based approach to effectively deal with the appointment scheduling decisions. We use two well-known approximations from queueing theory: first, we use an approach based on phase-type distributions to accurately approximate the objective function, and second, we use an heavy-traffic approximation to derive an efficient procedure to obtain good appointment schedules. Combining these two approaches results in a fast and sufficiently accurate hybrid approximation, thus essentially reducing RAS to a routing problem. Moreover, we propose the use a simple yet effective large neighborhood search metaheuristic to explore the space of routing decisions. The effectiveness of our proposed methodology is tested on benchmark instances with up to 40 clients, demonstrating an efficient and accurate methodology for integrated routing and appointment scheduling.",
+ "primary": "math.OC"
+}

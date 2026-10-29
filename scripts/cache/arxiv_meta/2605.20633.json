@@ -1,0 +1,20 @@
+{
+ "id": "2605.20633",
+ "title": "Application of Propensity Score Models and Causal Estimators in Observational Studies under Model Misspecification",
+ "authors": [
+  "Apu Chandra Das",
+  "Sakib Salam",
+  "Md Robiul Islam Talukder",
+  "Ashim Chandra Das",
+  "Antar Chandra Das",
+  "Rakhi Chowdhury"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 4 figures",
+ "abstract": "Propensity score (PS) methods are widely used in observational studies to reduce confounding and estimate causal treatment effects. However, the validity of PS-based causal estimators depends heavily on correct model specification, and model misspecification may lead to substantial bias and instability. In this study, we systematically evaluate the performance of commonly used causal estimators, including response surface modeling (RSM), inverse probability weighting (IPW), and augmented inverse probability weighting (AIPW), under varying levels of PS and outcome model misspecification. We compare classical logistic regression with several machine learning approaches for PS estimation, including random forests (RF), support vector machines (SVM), and linear discriminant analysis (LDA). Extensive simulation studies were conducted under multiple scenarios defined by combinations of correctly specified and misspecified PS and outcome models, varying sample sizes, and different covariate correlation structures. Estimator performance was assessed using bias, absolute bias, root mean squared error, empirical standard error, and confidence interval width. Results demonstrate that AIPW consistently provides robust and stable estimates across most scenarios due to its doubly robust property, whereas IPW is highly sensitive to PS misspecification and unstable PS estimates produced by flexible machine learning methods. RSM performs well only when the outcome model is correctly specified. Real-world applications using the ACTG175 clinical trial and the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset further illustrate the practical implications of estimator choice and PS modeling strategy. Overall, our findings highlight the importance of integrating flexible machine learning approaches within doubly robust frameworks to improve causal effect estimation in observational studies.",
+ "primary": "stat.ME"
+}

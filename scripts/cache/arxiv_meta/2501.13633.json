@@ -1,0 +1,16 @@
+{
+ "id": "2501.13633",
+ "title": "Representing Molecules with Algebraic Data Types: Beyond SMILES and SELFIES",
+ "authors": [
+  "Oliver Goldstein",
+  "Samuel March"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 5,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 Figures",
+ "abstract": "Benchmarks of molecular machine learning models often treat the molecular representation as a neutral input format, yet the representation defines the syntax of validity, edit operations, and invariances that models implicitly learn. We propose MolADT, a typed intermediate representation (IR) for molecules expressed as a family of algebraic data types that separates (i) constitution via Dietz-style bonding systems, (ii) 3D geometry and stereochemistry, and (iii) optional electronic annotations. By shifting from string edits to operations over structured values, MolADT makes representational assumptions explicit, supports deterministic validation and localized transformations, and provides hooks for symmetry-aware and Bayesian workflows. We provide a reference implementation in Haskell (open-source, archived with DOI) and worked examples demonstrating delocalised/multicentre bonding, validation invariants, reaction extensions, and group actions relevant to geometric learning.",
+ "primary": "cs.PL"
+}

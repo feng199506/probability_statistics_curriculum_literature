@@ -1,0 +1,17 @@
+{
+ "id": "2607.00188",
+ "title": "Quantile regression with measurement errors",
+ "authors": [
+  "Mushan Li",
+  "Yanyuan Ma",
+  "Liqun Wang"
+ ],
+ "v1_date": "2026-06-30",
+ "latest_version": 1,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We devise a novel estimator for a general quantile regression model with normal measurement errors in the covariates. The method is applicable to both linear and nonlinear quantile regressions and does not impose the quantile requirement on multiple quantile levels simultaneously. We circumvent the difficulties caused by discontinuity in quantile regression through kernel smoothing, and overcome the nonlinearity inherent in quantile regression via considering extension to the complex domain and moment generating functions. We show that the resulting estimator achieves the standard root-$n$ consistency and asymptotic normality under mild conditions. The performance of the proposed method is illustrated via numerical simulations and a real data example related to Cherry Blossom times in Japan in 2024. This is the first consistent estimator in a general quantile regression problem with normal measurement errors.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.09284",
+ "title": "A Deep BSDE approximation of nonlinear integro-PDEs with unbounded nonlocal operators",
+ "authors": [
+  "Espen Robstad Jakobsen",
+  "Sehail Mazid"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 1,
+ "latest_date": "2024-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Machine learning for partial differential equations (PDEs) is a hot topic. In this paper we introduce and analyse a Deep BSDE scheme for nonlinear integro-PDEs with unbounded nonlocal operators -problems arising in e.g. stochastic control and games involving infinite activity jump-processes. The scheme is based on a stochastic forward-backward SDE representation of the solution of the PDE and (i) approximation of small jumps by a Gaussian process, (ii) simulation of the forward part, and (iii) a neural net regression for the backward part. Unlike grid-based schemes, it does not suffer from the curse of dimensionality and is therefore suitable for high dimensional problems. The scheme is designed to be convergent even in the infinite activity/unbounded nonlocal operator case. A full convergence analysis is given and constitutes the main part of the paper.",
+ "primary": "math.AP"
+}

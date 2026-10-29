@@ -1,0 +1,16 @@
+{
+ "id": "2401.03693",
+ "title": "TAD-SIE: Sample Size Estimation for Clinical Randomized Controlled Trials using a Trend-Adaptive Design with a Synthetic-Intervention-Based Estimator",
+ "authors": [
+  "Sayeri Lala",
+  "Niraj K. Jha"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 1,
+ "latest_date": "2024-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 21 figures",
+ "abstract": "Phase-3 clinical trials provide the highest level of evidence on drug safety and effectiveness needed for market approval by implementing large randomized controlled trials (RCTs). However, 30-40% of these trials fail mainly because such studies have inadequate sample sizes, stemming from the inability to obtain accurate initial estimates of average treatment effect parameters. To remove this obstacle from the drug development cycle, we present a new algorithm called Trend-Adaptive Design with a Synthetic-Intervention-Based Estimator (TAD-SIE) that appropriately powers a parallel-group trial, a standard RCT design, by leveraging a state-of-the-art hypothesis testing strategy and a novel trend-adaptive design (TAD). Specifically, TAD-SIE uses SECRETS (Subject-Efficient Clinical Randomized Controlled Trials using Synthetic Intervention) for hypothesis testing, which simulates a cross-over trial in order to boost power; doing so, makes it easier for a trial to reach target power within trial constraints (e.g., sample size limits). To estimate sample sizes, TAD-SIE implements a new TAD tailored to SECRETS given that SECRETS violates assumptions under standard TADs. In addition, our TAD overcomes the ineffectiveness of standard TADs by allowing sample sizes to be increased across iterations without any condition while controlling significance level with futility stopping. On a real-world Phase-3 clinical RCT (i.e., a two-arm parallel-group superiority trial with an equal number of subjects per arm), TAD-SIE reaches typical target operating points of 80% or 90% power and 5% significance level in contrast to baseline algorithms that only get at best 59% power and 4% significance level.",
+ "primary": "stat.AP"
+}

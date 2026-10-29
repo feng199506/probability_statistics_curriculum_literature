@@ -1,0 +1,17 @@
+{
+ "id": "2412.18432",
+ "title": "Gaussian entropic optimal transport: Schrödinger bridges and the Sinkhorn algorithm",
+ "authors": [
+  "O. Deniz Akyildiz",
+  "Pierre Del Moral",
+  "Joaquín Miguez"
+ ],
+ "v1_date": "2024-12-24",
+ "latest_version": 5,
+ "latest_date": "2025-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Foundations of Data Science (FoDS)",
+ "abstract": "Entropic optimal transport problems are regularized versions of optimal transport problems. These models play an increasingly important role in machine learning and generative modelling. For finite spaces, these problems are commonly solved using Sinkhorn algorithm (a.k.a. iterative proportional fitting procedure). However, in more general settings the Sinkhorn iterations are based on nonlinear conditional/conjugate transformations and exact finite-dimensional solutions cannot be computed. This article presents a finite-dimensional recursive formulation of the iterative proportional fitting procedure for general Gaussian multivariate models. As expected, this recursive formulation is closely related to the celebrated Kalman filter and related Riccati matrix difference equations, and it yields algorithms that can be implemented in practical settings without further approximations. We extend this filtering methodology to develop a refined and self-contained convergence analysis of Gaussian Sinkhorn algorithms, including closed form expressions of entropic transport maps and Schrödinger bridges.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.18057",
+ "title": "Efficient Bayesian inference for non-linear association structures in joint models: A hierarchical approach via INLA",
+ "authors": [
+  "Denis Rustand",
+  "Håvard Rue",
+  "Lisa Le Gall",
+  "Karen Leffondre"
+ ],
+ "v1_date": "2026-04-20",
+ "latest_version": 1,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Joint models for longitudinal and time-to-event data are increasingly used in health research to characterize the association between biomarker trajectories and the risk of clinical events. However, these models usually assume a linear relationship between the longitudinal marker and the log-hazard of the event. This assumption is rarely verified and often fails to capture complex biological mechanisms, such as U-shaped risk profiles or plateau effects. In this paper, we propose a fast and stable hierarchical framework for non-linear association structures in joint models using Integrated Nested Laplace Approximations (INLA), implemented in the INLAjoint R package. Our approach builds upon a unified framework where the scaling effect of the marker is decomposed into a parametric baseline (constant and linear components) and a data-driven smooth deviation modeled via an orthogonal basis derived from a second-order random walk. This natural hierarchy allows researchers to adapt model flexibility directly and verify the linearity assumption using standard information criteria. Through simulation studies, we demonstrate that the proposed method accurately recovers complex non-linear trajectories. We illustrate the practical utility of our framework by analyzing the joint association of the current value and current slope of body mass index (BMI) with all-cause mortality in the Health and Retirement Study. This analysis reveals a U-shaped mortality risk for the BMI value, and a non-linear effect for the rate of weight change, where a declining weight trajectory is associated with higher mortality risk.",
+ "primary": "stat.ME"
+}

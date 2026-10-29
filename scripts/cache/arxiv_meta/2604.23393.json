@@ -1,0 +1,16 @@
+{
+ "id": "2604.23393",
+ "title": "Asymptotic theory of rerandomization for survival analysis",
+ "authors": [
+  "Xinyuan Chen",
+  "Fan Li"
+ ],
+ "v1_date": "2026-04-25",
+ "latest_version": 1,
+ "latest_date": "2026-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rerandomization systematically reduces chance imbalance and can improve the efficiency of the average treatment effect estimator in randomized experiments. While the asymptotic properties of finite-dimensional M-estimators under rerandomization have been established, existing theory does not directly address survival outcomes under censoring, where the target estimand involves infinite-dimensional functional parameters. This article establishes the uniform weak convergence of treatment-specific survival function estimators under rerandomization and stratified rerandomization. We prove that the Kaplan-Meier and inverse probability of censoring weighted Kaplan-Meier estimators converge to tight limiting processes with reduced pointwise asymptotic variances. Furthermore, we prove that the pointwise asymptotic variance of the debiased machine learning survival function estimator remains invariant under rerandomization, a consequence of the Neyman orthogonality. Simulations and a real data example are used to illustrate the theoretical results. Our results characterize the geometric interplay between restricted randomization designs and analysis-stage covariate adjustment for functional target estimands in survival analysis.",
+ "primary": "stat.ME"
+}

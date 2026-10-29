@@ -1,0 +1,18 @@
+{
+ "id": "2405.13799",
+ "title": "Extending Kernel Testing To General Designs",
+ "authors": [
+  "Anthony Ozier-Lafontaine",
+  "Polina Arsenteva",
+  "Franck Picard",
+  "Bertrand Michel"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 2,
+ "latest_date": "2024-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 3 figures",
+ "abstract": "Kernel-based testing has revolutionized the field of non-parametric tests through the embedding of distributions in an RKHS. This strategy has proven to be powerful and flexible, yet its applicability has been limited to the standard two-sample case, while practical situations often involve more complex experimental designs. To extend kernel testing to any design, we propose a linear model in the RKHS that allows for the decomposition of mean embeddings into additive functional effects. We then introduce a truncated kernel Hotelling-Lawley statistic to test the effects of the model, demonstrating that its asymptotic distribution is chi-square, which remains valid with its Nystrom approximation. We discuss a homoscedasticity assumption that, although absent in the standard two-sample case, is necessary for general designs. Finally, we illustrate our framework using a single-cell RNA sequencing dataset and provide kernel-based generalizations of classical diagnostic and exploration tools to broaden the scope of kernel testing in any experimental design.",
+ "primary": "stat.ME"
+}

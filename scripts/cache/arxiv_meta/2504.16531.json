@@ -1,0 +1,17 @@
+{
+ "id": "2504.16531",
+ "title": "Pure Error REML for Analyzing Data from Multi-Stratum Designs",
+ "authors": [
+  "Steven G Gilmour",
+  "Peter Goos",
+  "Heiko Grossmann"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Since the dawn of response surface methodology, it has been recommended that designs include replicate points, so that pure error estimates of variance can be obtained and used to provide unbiased estimated standard errors of the effects of factors. In designs with more than one stratum, such as split-plot and split-split-plot designs, it is less obvious how pure error estimates of the variance components should be obtained, and no pure error estimates are given by the popular residual maximum likelihood (REML) method of estimation. We propose a method of pure error REML estimation of the variance components, using the full treatment model, obtained by treating each combination of factor levels as a discrete treatment. Our method is easy to implement using standard software and improved estimated standard errors of the fixed effects estimates can be obtained by applying the Kenward-Roger correction based on the pure error REML estimates. We illustrate the new method using several data sets and compare the performance of pure error REML with the standard REML method. The results are comparable when the assumed response surface model is correct, but the new method is considerably more robust in the case of model misspecification.",
+ "primary": "stat.ME"
+}

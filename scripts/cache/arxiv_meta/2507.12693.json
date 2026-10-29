@@ -1,0 +1,16 @@
+{
+ "id": "2507.12693",
+ "title": "Placebo Discontinuity Design",
+ "authors": [
+  "Rahul Singh",
+  "Moses Stewart"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard regression discontinuity design (RDD) models rely on the continuity of expected potential outcomes at the cutoff. The standard continuity assumption can be violated by strategic manipulation of the running variable, which is realistic when the cutoff is widely known and when the treatment of interest is a social program or government benefit. In this work, we identify the treatment effect despite such a violation, by leveraging a placebo treatment and a placebo outcome. We introduce a local instrumental variable estimator. Our estimator decomposes into two terms: the standard RDD estimator of the target outcome's discontinuity, and a new adjustment term based on the placebo outcome's discontinuity. We show that our estimator is consistent, and we justify a robust bias-corrected inference procedure. Our method expands the applicability of RDD to settings with strategic behavior around the cutoff, which commonly arise in social science.",
+ "primary": "econ.EM"
+}

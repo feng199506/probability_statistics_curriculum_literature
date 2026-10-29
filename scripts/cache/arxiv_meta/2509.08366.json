@@ -1,0 +1,17 @@
+{
+ "id": "2509.08366",
+ "title": "kNNSampler: Stochastic Imputations for Recovering Missing Value Distributions",
+ "authors": [
+  "Parastoo Pashmchi",
+  "Jérôme Benoit",
+  "Motonobu Kanagawa"
+ ],
+ "v1_date": "2025-09-10",
+ "latest_version": 2,
+ "latest_date": "2025-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in Transactions on Machine Learning Research (TMLR). Reviewed on OpenReview: https://openreview.net/forum?id=4CDnIACCQG",
+ "abstract": "We study a missing-value imputation method, termed kNNSampler, that imputes a given unit's missing response by randomly sampling from the observed responses of the $k$ most similar units to the given unit in terms of the observed covariates. This method can sample unknown missing values from their distributions, quantify the uncertainties of missing values, and be readily used for multiple imputation. Unlike popular kNNImputer, which estimates the conditional mean of a missing response given an observed covariate, kNNSampler is theoretically shown to estimate the conditional distribution of a missing response given an observed covariate. Experiments illustrate the performance of kNNSampler. The code for kNNSampler is made publicly available (https://github.com/SAP/knn-sampler).",
+ "primary": "stat.ML"
+}

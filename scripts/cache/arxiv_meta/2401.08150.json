@@ -1,0 +1,17 @@
+{
+ "id": "2401.08150",
+ "title": "Differentially Private Sliced Inverse Regression: Minimax Optimality and Algorithm",
+ "authors": [
+  "Xintao Xia",
+  "Linjun Zhang",
+  "Zhanrui Cai"
+ ],
+ "v1_date": "2024-01-16",
+ "latest_version": 2,
+ "latest_date": "2025-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Privacy preservation has become a critical concern in high-dimensional data analysis due to the growing prevalence of data-driven applications. Since its proposal, sliced inverse regression has emerged as a widely utilized statistical technique to reduce the dimensionality of covariates while maintaining sufficient statistical information. In this paper, we propose optimally differentially private algorithms specifically designed to address privacy concerns in the context of sufficient dimension reduction. We establish lower bounds for differentially private sliced inverse regression in low and high dimensional settings. Moreover, we develop differentially private algorithms that achieve the minimax lower bounds up to logarithmic factors. Through a combination of simulations and real data analysis, we illustrate the efficacy of these differentially private algorithms in safeguarding privacy while preserving vital information within the reduced dimension space. As a natural extension, we can readily offer analogous lower and upper bounds for differentially private sparse principal component analysis, a topic that may also be of potential interest to the statistics and machine learning community.",
+ "primary": "stat.ML"
+}

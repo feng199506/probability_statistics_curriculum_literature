@@ -1,0 +1,15 @@
+{
+ "id": "2606.30866",
+ "title": "A data-dependent DKW inequality for regenerative Markov chains",
+ "authors": [
+  "Daniel Jerison"
+ ],
+ "v1_date": "2026-06-29",
+ "latest_version": 2,
+ "latest_date": "2026-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "We prove a version of the Dvoretzky-Kiefer-Wolfowitz inequality for Markov chains with a regenerative structure. Suppose we have a regenerative Markov chain with stationary distribution $π$. Given a functional $θ$ on the state space and a confidence level $1-δ$, our result provides a uniform $1-δ$ confidence band for the CDF of $θ$ under $π$ based on the empirical CDF. By inversion, we get a $1-δ$ confidence band for the quantile function of $θ$ under $π$. Our bounds are fully explicit and nearly optimal. In addition, they are data-dependent in the following sense: in the formula for the width of the confidence band, the leading term can be computed directly from the sample path without any a priori information about the convergence rate of the chain. A convergence bound is required, but it contributes to the width of the confidence band only through a lower-order term. For this reason, our result is attractive for Markov chains whose convergence rate is much quicker in practice than what can be proved in theory. Data-dependent bounds of this type are called empirical concentration inequalities in the literature. Thus, our result is an empirical concentration inequality for the empirical CDF of $θ$ given the sample path.",
+ "primary": "math.ST"
+}

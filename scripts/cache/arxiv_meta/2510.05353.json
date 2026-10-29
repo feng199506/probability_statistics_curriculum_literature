@@ -1,0 +1,16 @@
+{
+ "id": "2510.05353",
+ "title": "A new composite Mann-Whitney test for two-sample survival comparisons with right-censored data",
+ "authors": [
+  "Abid Hussain",
+  "Touqeer Ahmad"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 2,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures, 10 tables",
+ "abstract": "A fundamental challenge in comparing two survival distributions with right censored data is the selection of an appropriate nonparametric test, as the power of standard tests like the Log rank and Wilcoxon is highly dependent on the often unknown nature of the alternative hypothesis. This paper introduces a new, distribution free two sample test designed to overcome this limitation. The proposed method is based on a strategic decomposition of the data into uncensored and censored subsets, from which a composite test statistic is constructed as the sum of two independent Mann Whitney statistics. This design allows the test to automatically and inherently adapt to various patterns of difference including early, late, and crossing hazards without requiring pre specified parameters, pre testing, or complex weighting schemes. An extensive Monte Carlo simulation study demonstrates that the proposed test robustly maintains the nominal Type I error rate. Crucially, its power is highly competitive with the optimal traditional tests in standard scenarios and superior in complex settings with crossing survival curves, while also exhibiting remarkable robustness to high levels of censoring. The test power effectively approximates the maximum power achievable by either the Log rank or Wilcoxon tests across a wide range of alternatives, offering a powerful, versatile, and computationally simple tool for survival analysis.",
+ "primary": "stat.ME"
+}

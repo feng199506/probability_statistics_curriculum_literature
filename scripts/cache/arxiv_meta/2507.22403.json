@@ -1,0 +1,18 @@
+{
+ "id": "2507.22403",
+ "title": "Bayesian spatiotemporal modeling of passenger trip assignment in metro networks",
+ "authors": [
+  "Xiaoxu Chen",
+  "Alexandra M. Schmidt",
+  "Zhenliang Ma",
+  "Lijun Sun"
+ ],
+ "v1_date": "2025-07-30",
+ "latest_version": 1,
+ "latest_date": "2025-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Assigning passenger trips to specific network paths using automatic fare collection (AFC) data is a fundamental application in urban transit analysis. The task is a difficult inverse problem: the only available information consists of each passenger's total travel time and their origin and destination, while individual passenger path choices and dynamic network costs are unobservable, and behavior varies significantly across space and time. We propose a novel Bayesian hierarchical model to resolve this problem by jointly estimating dynamic network costs and passenger path choices while quantifying their uncertainty. Our model decomposes trip travel time into four components -- access, in-vehicle, transfer, and egress -- each modeled as a time-varying random walk. To capture heterogeneous passenger behavior, we introduce a multinomial logit model with spatiotemporally varying coefficients. We manage the high dimensionality of these coefficients using kernelized tensor factorization with Gaussian process priors to effectively model complex spatiotemporal correlations. We develop a tailored and efficient Markov chain Monte Carlo (MCMC) algorithm for model inference. A simulation study demonstrates the method's effectiveness in recovering the underlying model parameters. On a large-scale dataset from the Hong Kong Mass Transit Railway, our framework demonstrates superior estimation accuracy over established benchmarks. The results reveal significant spatiotemporal variations in passenger preferences and provide robust uncertainty quantification, offering transit operators a powerful tool for enhancing service planning and operational management.",
+ "primary": "stat.AP"
+}

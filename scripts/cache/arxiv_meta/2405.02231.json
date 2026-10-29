@@ -1,0 +1,19 @@
+{
+ "id": "2405.02231",
+ "title": "Efficient spline orthogonal basis for representation of density functions",
+ "authors": [
+  "Jana Burkotová",
+  "Ivana Pavlů",
+  "Hiba Nassar",
+  "Jitka Machalová",
+  "Karel Hron"
+ ],
+ "v1_date": "2024-05-03",
+ "latest_version": 1,
+ "latest_date": "2024-05-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probability density functions form a specific class of functional data objects with intrinsic properties of scale invariance and relative scale characterized by the unit integral constraint. The Bayes spaces methodology respects their specific nature, and the centred log-ratio transformation enables processing such functional data in the standard Lebesgue space of square-integrable functions. As the data representing densities are frequently observed in their discrete form, the focus has been on their spline representation. Therefore, the crucial step in the approximation is to construct a proper spline basis reflecting their specific properties. Since the centred log-ratio transformation forms a subspace of functions with a zero integral constraint, the standard $B$-spline basis is no longer suitable. Recently, a new spline basis incorporating this zero integral property, called $Z\\!B$-splines, was developed. However, this basis does not possess the orthogonal property which is beneficial from computational and application point of view. As a result of this paper, we describe an efficient method for constructing an orthogonal $Z\\!B$-splines basis, called $Z\\!B$-splinets. The advantages of the $Z\\!B$-splinet approach are foremost a computational efficiency and locality of basis supports that is desirable for data interpretability, e.g. in the context of functional principal component analysis. The proposed approach is demonstrated on an empirical demographic dataset.",
+ "primary": "stat.ME"
+}

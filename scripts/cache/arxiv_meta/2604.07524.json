@@ -1,0 +1,15 @@
+{
+ "id": "2604.07524",
+ "title": "Langevin-Gradient Rerandomization",
+ "authors": [
+  "Antônio Carlos Herling Ribeiro Junior"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 1,
+ "latest_date": "2026-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rerandomization is an experimental design technique that repeatedly randomizes treatment assignments until covariates are balanced between treatment groups. Rerandomization in the design stage of an experiment can lead to many asymptotic benefits in the analysis stage, such as increased precision, increased statistical power for hypothesis testing, reduced sensitivity to model specification, and mitigation of p-hacking. However, the standard implementation of rerandomization via rejection sampling faces a severe computational bottleneck in high-dimensional settings, where the probability of finding an acceptable randomization vanishes. Although alternatives based on Metropolis-Hastings and constrained optimization techniques have been proposed, these alternatives rely on discrete procedures that lack information from the gradient of the covariate balance metric, limiting their efficiency in high-dimensional spaces. We propose Langevin-Gradient Rerandomization (LGR), a new sampling method that mitigates this dimensionality challenge by navigating a continuous relaxation of the treatment assignment space using Stochastic Gradient Langevin Dynamics. We discuss the trade-offs of this approach, specifically that LGR samples from a non-uniform distribution over the set of balanced randomizations. We demonstrate how to retain valid inference under this design using randomization tests and empirically show that LGR generates acceptable randomizations orders of magnitude faster than current rerandomization methods in high dimensions.",
+ "primary": "stat.ME"
+}

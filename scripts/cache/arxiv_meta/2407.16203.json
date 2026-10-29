@@ -1,0 +1,16 @@
+{
+ "id": "2407.16203",
+ "title": "Cutoff for Contingency Table and Torus Random Walks with Low Incremental Correlations",
+ "authors": [
+  "Zihao Fang",
+  "Andrew Heeszel"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 2,
+ "latest_date": "2026-03-12",
+ "journal_ref": "J Theor Probab 39, 33 (2026)",
+ "doi": "10.1007/s10959-026-01492-7",
+ "comment": "49 pages, 3 figures, accepted draft at Journal of Theoretical Probability, previous version titled as \"Cutoff for Contingency Table Random Walks\"",
+ "abstract": "We use the correlation matrix of the generating distribution to determine the mixing time for random walks on the torus $(\\mathbb{Z}/q\\mathbb{Z})^n$. We present our method in the context of the Diaconis-Gangolli random walk on both the $1 \\times n$ and $m \\times n$ contingency tables over $\\mathbb{Z}/q\\mathbb{Z}$. In the $1 \\times n$ case, we prove that the random walk exhibits cutoff at time $\\dfrac{n q^2 \\log(n)}{8 π^2}$ when $q \\gg n$; in the $m \\times n$ case, where $m, n$ are of the same order, we establish cutoff for the random walk at time $\\dfrac{mn q^2 \\log(mn)}{16 π^2}$ when $q \\gg n^2$. Our method reveals that a general class of random walks on the torus $(\\mathbb{Z}/q\\mathbb{Z})^n$ has cutoff. If each coordinate of the lifted random walk onto $\\mathbb{Z}^n$ has variance $σ^2/n$ in each jump, and the between-coordinate correlations are sufficiently low, then cutoff occurs at time $\\dfrac{nq^2 \\log(n)}{4π^2 σ^2}$.",
+ "primary": "math.PR"
+}

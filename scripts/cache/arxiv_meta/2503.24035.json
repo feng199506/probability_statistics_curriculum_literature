@@ -1,0 +1,19 @@
+{
+ "id": "2503.24035",
+ "title": "Using directed acyclic graphs to determine whether multiple imputation or subsample multiple imputation estimates of an exposure-outcome association are unbiased",
+ "authors": [
+  "Paul Madley-Dowd",
+  "Rachael A. Hughes",
+  "Maya B. Mathur",
+  "Jon Heron",
+  "Kate Tilling"
+ ],
+ "v1_date": "2025-03-31",
+ "latest_version": 2,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Manuscript: 23 pages, 5 Figures; Supplement: 22 pages",
+ "abstract": "Missing data is a pervasive problem in epidemiology, with multiple imputation (MI) a commonly used analysis method. MI is valid when data are missing at random (MAR). However, definitions of MAR with multiple incomplete variables are not easily interpretable and graphical model-based conditions are not accessible to applied researchers. Previous literature shows that MI may be valid in subsamples, even if not in the full dataset. Practical guidance on applying MI with multiple incomplete variables is lacking. We present an algorithm using directed acyclic graphs to determine when MI will estimate an exposure-outcome coefficient without bias. We extend the algorithm to assess whether MI in a subsample of the data, in which some variables are complete, and the remaining are imputed, will be valid and unbiased for the same coefficient. We apply the algorithm to several simple exemplars, and in a more complex real-life example highlight that only subsample MI of the outcome would be valid. Our algorithm provides researchers with the tools to decide whether (and how) to use MI in practice when there are multiple incomplete variables. Further work could focus on the likely size and direction of biases, and the impact of different missing data patterns.",
+ "primary": "stat.ME"
+}

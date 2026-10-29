@@ -1,0 +1,17 @@
+{
+ "id": "2507.07349",
+ "title": "Stratification-based Instrumental Variable Analysis Framework for Nonlinear Effect Analysis",
+ "authors": [
+  "Haodong Tian",
+  "Ashish Patel",
+  "Stephen Burgess"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 2,
+ "latest_date": "2025-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nonlinear causal effects are prevalent in many research scenarios involving continuous exposures, and instrumental variables (IVs) can be employed to investigate such effects, particularly in the presence of unmeasured confounders. However, common IV methods for nonlinear effect analysis, such as IV regression or the control-function method, have inherent limitations, leading to either low statistical power or potentially misleading conclusions. In this work, we propose an alternative IV framework for nonlinear effect analysis, which has recently emerged in genetic epidemiology and addresses many of the drawbacks of existing IV methods. This framework enables study of the effect function while avoiding unnecessary model assumptions. In particular, it facilitates the identification of change points or threshold values in causal effects. Through a wide variety of simulations, we demonstrate that our framework outperforms other representative nonlinear IV methods in predicting the effect shape when the instrument is weak and can accurately estimate the effect function as well as identify the change point and predict its value under various structural model and effect shape scenarios. We further apply our framework to assess the nonlinear effect of alcohol consumption on systolic blood pressure using a genetic instrument (i.e. Mendelian randomization) with UK Biobank data. Our analysis detects a threshold beyond which alcohol intake exhibits a clear causal effect on the outcome. Our results are consistent with published medical guidelines.",
+ "primary": "stat.ME"
+}

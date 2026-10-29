@@ -1,0 +1,17 @@
+{
+ "id": "2412.10295",
+ "title": "The Stein-log-Sobolev inequality and the exponential rate of convergence for the continuous Stein variational gradient descent method",
+ "authors": [
+  "José A. Carrillo",
+  "Jakub Skrzeczkowski",
+  "Jethro Warnett"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 1,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "65 pages",
+ "abstract": "The Stein Variational Gradient Descent method is a variational inference method in statistics that has recently received a lot of attention. The method provides a deterministic approximation of the target distribution, by introducing a nonlocal interaction with a kernel. Despite the significant interest, the exponential rate of convergence for the continuous method has remained an open problem, due to the difficulty of establishing the related so-called Stein-log-Sobolev inequality. Here, we prove that the inequality is satisfied for each space dimension and every kernel whose Fourier transform has a quadratic decay at infinity and is locally bounded away from zero and infinity. Moreover, we construct weak solutions to the related PDE satisfying exponential rate of decay towards the equilibrium. The main novelty in our approach is to interpret the Stein-Fisher information, also called the squared Stein discrepancy, as a duality pairing between $H^{-1}(\\mathbb{R}^d)$ and $H^{1}(\\mathbb{R}^d)$, which allows us to employ the Fourier transform. We also provide several examples of kernels for which the Stein-log-Sobolev inequality fails, partially showing the necessity of our assumptions.",
+ "primary": "math.AP"
+}

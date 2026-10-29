@@ -1,0 +1,16 @@
+{
+ "id": "2402.04327",
+ "title": "On the estimation and interpretation of effect size metrics",
+ "authors": [
+  "Orestis Loukas",
+  "Ho Ryun Chung"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 1,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 1 Figure, 3 diagrams, 2 tables",
+ "abstract": "Effect size estimates are thought to capture the collective, two-way response to an intervention or exposure in a three-way problem among the intervention/exposure, various confounders and the outcome. For meaningful causal inference from the estimated effect size, the joint distribution of observed confounders must be identical across all intervention/exposure groups. However, real-world observational studies and even randomized clinical trials often lack such structural symmetry. To address this issue, various methods have been proposed and widely utilized. Recently, elementary combinatorics and information theory have motivated a consistent way to completely eliminate observed confounding in any given study. In this work, we leverage these new techniques to evaluate conventional methods based on their ability to (a) consistently differentiate between collective and individual responses to intervention/exposure and (b) establish the desired structural parity for sensible effect size estimation. Our findings reveal that a straightforward application of logistic regression homogenizes the three-way stratified analysis, but fails to restore structural symmetry leaving in particular the two-way effect size estimate unadjusted. Conversely, the Mantel-Haenszel estimator struggles to separate three-way effects from the two-way effect of intervention/exposure, leading to inconsistencies in interpreting pooled estimates as two-way risk metrics.",
+ "primary": "stat.ME"
+}

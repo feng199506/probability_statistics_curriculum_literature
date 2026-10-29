@@ -1,0 +1,15 @@
+{
+ "id": "2503.21334",
+ "title": "Safety of particle filters: Some results on the time evolution of particle filter estimates",
+ "authors": [
+  "Mathieu Gerber"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 5,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages (major revision of the paper)",
+ "abstract": "Particle filters (PFs) form a class of Monte Carlo algorithms that propagate over time a set of $N\\geq 1$ particles which can be used to estimate, in an online fashion, the sequence of filtering distributions $(\\hatη_t)_{t\\geq 1}$ defined by a state-space model. Despite the popularity of PFs, the study of the time evolution of their estimates has received barely any attention in the literature. Denoting by $(\\hatη_t^N)_{t\\geq 1}$ the PF estimate of $(\\hatη_t)_{t\\geq 1}$ and letting $κ\\in (0,1/2)$, in this work we first show that for any number of particles $N$ it holds that, with probability one, we have $\\|\\hatη_t^N- \\hatη_t\\|\\geq κ$ for infinitely many time instants $t\\geq 1$, with $\\|\\cdot\\|$ the Kolmogorov distance between probability distributions. Considering a simple filtering problem we then provide reassuring results concerning the ability of PFs to estimate jointly a finite set $\\{\\hatη_t\\}_{t=1}^T$ of filtering distributions by studying the probability $\\mathbb{P}(\\sup_{t\\in\\{1,\\dots,T\\}}\\|\\hatη_t^{N}-\\hatη_t\\|\\geq κ)$. Finally, on the same toy filtering problem, we prove that sequential quasi-Monte Carlo, a randomized quasi-Monte Carlo version of PF algorithms, offers greater safety guarantees than PFs in the sense that, for this algorithm, it holds that $\\lim_{N\\rightarrow\\infty}\\sup_{t\\geq 1}\\|\\hatη_t^N-\\hatη_t\\|=0$ with probability one.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2608.11130",
+ "title": "Posterior contraction rates in Sobolev norms and Bayesian derivative estimation for infinite-dimensional exponential families",
+ "authors": [
+  "Emanuele Dolera",
+  "Stefano Favaro",
+  "Matteo Giordano"
+ ],
+ "v1_date": "2026-08-11",
+ "latest_version": 2,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages",
+ "abstract": "We study posterior contraction in positive-order Sobolev norms and Bayesian derivative estimation for infinite-dimensional exponential families. We embed the natural parameter in a Hilbert scale and model it via a Gaussian series prior expanded in the eigenbasis generating the scale. Under a two-sided link condition on the Fisher information and suitable local regularity assumptions, we show that smoothness-matching priors achieve minimax-optimal posterior contraction rates in any Hilbert scale norm up to the regularity of the ground truth. Our analysis builds on the novel approach to posterior contraction based on the Wasserstein distance recently introduced by Dolera et al. (2024, Probab. Theory Relat. Fields). It combines Laplace-type approximations for infinite-dimensional integrals associated to the posterior kernels with a mixed-geometry estimate controlling their stability under fluctuations in the data, itself resting on a tailored Poincaré inequality for posterior distributions conditioned on neighbourhoods of the truth. We apply the general theory to density estimation under the logistic parametrisation, Poisson intensity estimation under the exponential link, and mildly ill-posed linear inverse problems observed in Gaussian white noise. The resulting minimax rates yield optimal recovery of density score functions, derivatives of Poisson intensities and, in a concrete elliptic inverse problem, the unknown source function.",
+ "primary": "math.ST"
+}

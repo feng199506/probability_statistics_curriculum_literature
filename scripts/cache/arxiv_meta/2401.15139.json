@@ -1,0 +1,17 @@
+{
+ "id": "2401.15139",
+ "title": "FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking",
+ "authors": [
+  "Jasin Machkour",
+  "Daniel P. Palomar",
+  "Michael Muma"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 2,
+ "latest_date": "2024-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In high-dimensional data analysis, such as financial index tracking or biomedical applications, it is crucial to select the few relevant variables while maintaining control over the false discovery rate (FDR). In these applications, strong dependencies often exist among the variables (e.g., stock returns), which can undermine the FDR control property of existing methods like the model-X knockoff method or the T-Rex selector. To address this issue, we have expanded the T-Rex framework to accommodate overlapping groups of highly correlated variables. This is achieved by integrating a nearest neighbors penalization mechanism into the framework, which provably controls the FDR at the user-defined target level. A real-world example of sparse index tracking demonstrates the proposed method's ability to accurately track the S&P 500 index over the past 20 years based on a small number of stocks. An open-source implementation is provided within the R package TRexSelector on CRAN.",
+ "primary": "q-fin.PM"
+}

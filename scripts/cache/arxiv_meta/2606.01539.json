@@ -1,0 +1,19 @@
+{
+ "id": "2606.01539",
+ "title": "Scalable Counterfactual Risk Estimation for Rare Events in Longitudinal Data",
+ "authors": [
+  "Xiaohui Yin",
+  "Avijit Mitra",
+  "Ying Zhou",
+  "Kun Chen",
+  "Hong Yu"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at KDD-2026, 12 pages",
+ "abstract": "Estimating the causal effect of time-varying treatments on survival outcomes in large observational studies is computationally demanding, particularly when outcomes are rare. While g-formula-based methods such as the iterative conditional expectation (ICE) estimator provide a principled framework for longitudinal causal inference, they become computationally expensive, especially when bootstrap-based variance estimation is required. In addition, outcome rarity at each time point induces severe class imbalance, leading to instability and convergence issues in logistic regression and related models. To address these challenges, we propose a principled subsampling and reweighting strategy for longitudinal survival data that can be applied to a range of existing causal effect estimators in this setting, including the ICE estimator. The proposed method substantially reduces computational burden while preserving consistency and improving estimation stability in rare-outcome settings. We evaluate the method through simulations and validate it using a large-scale EHR cohort study on social and behavioral determinants of health (SBDH) and suicide risk, demonstrating its effectiveness for modeling rare outcomes in longitudinal data.",
+ "primary": "stat.ME"
+}

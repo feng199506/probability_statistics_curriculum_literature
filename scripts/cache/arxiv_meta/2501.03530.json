@@ -1,0 +1,18 @@
+{
+ "id": "2501.03530",
+ "title": "The permuted score test for robust differential expression analysis",
+ "authors": [
+  "Timothy Barry",
+  "Ziang Niu",
+  "Eugene Katsevich",
+  "Xihong Lin"
+ ],
+ "v1_date": "2025-01-07",
+ "latest_version": 1,
+ "latest_date": "2025-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Negative binomial (NB) regression is a popular method for identifying differentially expressed genes in genomics data, such as bulk and single-cell RNA sequencing data. However, NB regression makes stringent parametric and asymptotic assumptions, which can fail to hold in practice, leading to excess false positive and false negative results. We propose the permuted score test, a new strategy for robust regression based on permuting score test statistics. The permuted score test provably controls type-I error across a much broader range of settings than standard NB regression while nevertheless approximately matching standard NB regression with respect to power (when the assumptions of standard NB regression obtain) and computational efficiency. We accelerate the permuted score test by leveraging emerging techniques for sequential Monte-Carlo testing and novel algorithms for efficiently computing GLM score tests. We apply the permuted score test to real and simulated RNA sequencing data, finding that it substantially improves upon the error control of existing NB regression implementations, including DESeq2. The permuted score test could enhance the reliability of differential expression analysis across diverse biological contexts.",
+ "primary": "stat.ME"
+}

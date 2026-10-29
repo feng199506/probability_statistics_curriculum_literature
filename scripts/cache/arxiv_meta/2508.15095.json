@@ -1,0 +1,18 @@
+{
+ "id": "2508.15095",
+ "title": "Generalized random forest for extreme quantile regression",
+ "authors": [
+  "Lucien M. Vidagbandji",
+  "Alexandre Berred",
+  "Cyrille Bertelle",
+  "Laurent Amanton"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 1,
+ "latest_date": "2025-08-20",
+ "journal_ref": "Communications in Statistics - Simulation and Computation, 1-24 (2025)",
+ "doi": "10.1080/03610918.2025.2543854",
+ "comment": "Published in Communications in Statistics - Simulation and Computation (2025)",
+ "abstract": "Quantile regression is a statistical method which, unlike classical regression, aims to predict the conditional quantiles. Classical quantile regression methods face difficulties, particularly when the quantile under consideration is extreme, due to the limited number of data available in the tail of the distribution, or when the quantile function is complex. We propose an extreme quantile regression method based on extreme value theory and statistical learning to overcome these difficulties. Following the Block Maxima approach of extreme value theory, we approximate the conditional distribution of block maxima by the generalized extreme value distribution, with covariate-dependent parameters. These parameters are estimated using a method based on generalized random forests. Applications on simulated data show that our proposed method effectively addresses the mentioned quantile regression issues and highlights its performance compared to other quantile regression approaches based on statistical learning methods. We apply our methodology to daily meteorological data from the Fort Collins station in Colorado (USA).",
+ "primary": "stat.ME"
+}

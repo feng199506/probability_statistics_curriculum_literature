@@ -1,0 +1,15 @@
+{
+ "id": "2408.13949",
+ "title": "Inference on Consensus Ranking of Distributions",
+ "authors": [
+  "David M. Kaplan"
+ ],
+ "v1_date": "2024-08-25",
+ "latest_version": 1,
+ "latest_date": "2024-08-25",
+ "journal_ref": "Journal of Business & Economic Statistics 42 (2024) 839-850",
+ "doi": "10.1080/07350015.2023.2252040",
+ "comment": "accepted manuscript",
+ "abstract": "Instead of testing for unanimous agreement, I propose learning how broad of a consensus favors one distribution over another (of earnings, productivity, asset returns, test scores, etc.). Specifically, given a sample from each of two distributions, I propose statistical inference methods to learn about the set of utility functions for which the first distribution has higher expected utility than the second distribution. With high probability, an \"inner\" confidence set is contained within this true set, while an \"outer\" confidence set contains the true set. Such confidence sets can be formed by inverting a proposed multiple testing procedure that controls the familywise error rate. Theoretical justification comes from empirical process results, given that very large classes of utility functions are generally Donsker (subject to finite moments). The theory additionally justifies a uniform (over utility functions) confidence band of expected utility differences, as well as tests with a utility-based \"restricted stochastic dominance\" as either the null or alternative hypothesis. Simulated and empirical examples illustrate the methodology.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2606.11456",
+ "title": "AI Coding Agents in Social Science: Methodologically Diverse, Empirically Consistent, Interpretively Vulnerable",
+ "authors": [
+  "Meysam Alizadeh",
+  "Fabrizio Gilardi",
+  "Mohsen Mosleh",
+  "Enkelejda Kasneci"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 1,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The deployment of LLM-based agents in scientific analysis raises opposing concerns: that agents may reduce methodological diversity, or that they may amplify the analytic flexibility through which researchers reach motivated conclusions. We argue these worries target two empirically separable layers: a design layer of methodological choices, and a verdict layer in which a decision rule maps estimates to a substantive claim. We test both by running 20 independent executions of Claude Code and Codex on a prominent immigration and social-policy against a many-analysts human baseline. At the design layer, Codex matches human methodological diversity and Claude Code produces nearly three times as many specifications; both agents' effect estimates remain broadly aligned with the human consensus, and no agent model exactly matches any human model. A prompt-induced anti-immigration researcher prior reorganizes each agent's methodological decisions but, unlike for biased human analysts in the same data, does not shift aggregate estimates or final verdicts; nor do agents reroute along the methodological axes humans use to bias their estimates. At the verdict layer, an explicit confirmatory prompt flips Claude Code's verdicts from 10% to 90% support while leaving its coefficient distribution essentially unchanged, operating through rule omission rather than rule softening. AI agents can rival or exceed human methodological diversity at the design layer while remaining vulnerable at the verdict layer. In our setting, the locus of AI bias is not estimation but interpretation.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.10924",
+ "title": "Calibrated Bayesian Nonparametric Tolerance Intervals",
+ "authors": [
+  "Tony Pourmohamad",
+  "Robert Richardson",
+  "Bruno Sansó"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tolerance intervals provide bounds that contain a specified proportion of a population with a given confidence level, yet their construction remains challenging when parametric assumptions fail or sample sizes are small. Traditional nonparametric methods, such as Wilks' intervals, lack flexibility and often require large samples to be valid. We propose a fully nonparametric approach for constructing one-sided and two-sided tolerance intervals using a calibrated Gibbs posterior. Leveraging the connection between tolerance limits and population quantiles, we employ a Gibbs posterior based on the asymmetric Laplace (check) loss function. A key feature of our method is the calibration of the learning rate, which ensures nominal frequentist coverage across diverse distributional shapes. Simulation studies show that the proposed approach often yields shorter intervals than classical nonparametric benchmarks while maintaining reliable coverage. The framework's practical utility is illustrated through applications in ecology, biopharmaceutical manufacturing, and environmental monitoring, demonstrating its flexibility and robustness across diverse applications.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2601.01116",
+ "title": "Beyond P-Values: Importing Quantitative Finance's Risk and Regret Metrics for AI in Learning Health Systems",
+ "authors": [
+  "Richik Chakraborty"
+ ],
+ "v1_date": "2026-01-03",
+ "latest_version": 1,
+ "latest_date": "2026-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Manuscript: 12 pages, 3 mathematical boxes, 1 figure, 1 table, 26 references",
+ "abstract": "The increasing deployment of artificial intelligence (AI) in clinical settings challenges foundational assumptions underlying traditional frameworks of medical evidence. Classical statistical approaches, centered on randomized controlled trials, frequentist hypothesis testing, and static confidence intervals, were designed for fixed interventions evaluated under stable conditions. In contrast, AI-driven clinical systems learn continuously, adapt their behavior over time, and operate in non-stationary environments shaped by evolving populations, practices, and feedback effects. In such systems, clinical harm arises less from average error rates than from calibration drift, rare but severe failures, and the accumulation of suboptimal decisions over time. In this perspective, we argue that prevailing notions of statistical significance are insufficient for characterizing evidence and safety in learning health systems. Drawing on risk-theoretic concepts from quantitative finance and online decision theory, we propose reframing medical evidence for adaptive AI systems in terms of time-indexed calibration stability, bounded downside risk, and controlled cumulative regret. We emphasize that this approach does not replace randomized trials or causal inference, but complements them by addressing dimensions of risk and uncertainty that emerge only after deployment. This framework provides a principled mathematical language for evaluating AI-driven clinical systems under continual learning and offers implications for clinical practice, research design, and regulatory oversight.",
+ "primary": "stat.ME"
+}

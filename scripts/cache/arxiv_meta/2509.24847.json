@@ -1,0 +1,16 @@
+{
+ "id": "2509.24847",
+ "title": "Covariance-Adaptive Bouncy Particle Samplers via Split Lagrangian Dynamics",
+ "authors": [
+  "Augustin Chevallier",
+  "Erik Raab"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 1,
+ "latest_date": "2025-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Piecewise Deterministic Markov Processes (PDMPs) provide a powerful framework for continuous-time Monte Carlo, with the Bouncy Particle Sampler (BPS) as a prominent example. Recent advances through the Metropolised PDMP framework allow local adaptivity in step size and effective path length, the latter acting as a refreshment rate. However, current PDMP samplers cannot adapt to local changes in the covariance structure of the target distribution. We extend BPS by introducing a position-dependent velocity distribution that varies with the local covariance structure of the target. Building on ideas from Riemannian Manifold Hamiltonian Monte Carlo and its velocity-based variant, Lagrangian Dynamical Monte Carlo, we construct a PDMP for which changes in the metric trigger additional velocity update events. Using a metric derived from the target Hessian, the resulting algorithm adapts to the local covariance structure. Through a series of controlled experiments, we provide practical guidance on when the proposed covariance-adaptive BPS should be preferred over standard PDMP algorithms.",
+ "primary": "stat.CO"
+}

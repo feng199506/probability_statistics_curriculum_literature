@@ -1,0 +1,15 @@
+{
+ "id": "2506.24007",
+ "title": "Minimax and Bayes Optimal Best-Arm Identification",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 6,
+ "latest_date": "2026-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study investigates minimax and Bayes optimal strategies for fixed-budget best-arm identification. We consider an adaptive procedure consisting of a sampling phase followed by a recommendation phase. Within this framework, we design an adaptive experiment to efficiently identify the best arm, defined as the one with the highest expected outcome. In our proposed strategy, the sampling phase consists of two stages. The first stage is a pilot phase, in which we allocate samples uniformly across arms to eliminate clearly suboptimal arms and to estimate outcome variances. Before entering the second stage, we solve a Gaussian minimax game, which yields a sampling policy and a decision rule. In the second stage, samples are allocated according to this policy. After the sampling phase, the procedure enters the recommendation phase, where we select an arm using the decision rule. We prove that this single strategy is simultaneously asymptotically minimax and Bayes optimal for the simple regret, and we establish upper bounds that coincide exactly with our lower bounds, including the constant terms. The lower bounds hold against every adaptive experiment and for every fixed number of arms, and the strategy attains them without knowing the outcome distributions or the prior.",
+ "primary": "econ.EM"
+}

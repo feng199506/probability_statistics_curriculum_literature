@@ -1,0 +1,17 @@
+{
+ "id": "1306.1868",
+ "title": "Smoothing splines with varying smoothing parameter",
+ "authors": [
+  "Xiao Wang",
+  "Pang Du",
+  "Jinglai Shen"
+ ],
+ "v1_date": "2013-06-08",
+ "latest_version": 1,
+ "latest_date": "2013-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers the development of spatially adaptive smoothing splines for the estimation of a regression function with non-homogeneous smoothness across the domain. Two challenging issues that arise in this context are the evaluation of the equivalent kernel and the determination of a local penalty. The roughness penalty is a function of the design points in order to accommodate local behavior of the regression function. It is shown that the spatially adaptive smoothing spline estimator is approximately a kernel estimator. The resulting equivalent kernel is spatially dependent. The equivalent kernels for traditional smoothing splines are a special case of this general solution. With the aid of the Green's function for a two-point boundary value problem, the explicit forms of the asymptotic mean and variance are obtained for any interior point. Thus, the optimal roughness penalty function is obtained by approximately minimizing the asymptotic integrated mean square error. Simulation results and an application illustrate the performance of the proposed estimator.",
+ "primary": "math.ST"
+}

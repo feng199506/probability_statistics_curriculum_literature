@@ -1,0 +1,19 @@
+{
+ "id": "2509.02090",
+ "title": "Biomarkers selection and combination based on the weighted Youden index",
+ "authors": [
+  "Ao Sun",
+  "Zhanwang Deng",
+  "Jiahui Zhao",
+  "Hang Li",
+  "Xiao-Hua Zhou"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 1,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In clinical practice, multiple biomarkers are used for disease diagnosis, but their individual accuracies are often suboptimal, with only a few proving directly relevant. Effectively selecting and combining biomarkers can significantly improve diagnostic accuracy. Existing methods often optimize metrics like the Area Under the ROC Curve (AUC) or the Youden index. However, optimizing AUC does not yield estimates for optimal cutoff values, and the Youden index assumes equal weighting of sensitivity and specificity, which may not reflect clinical priorities where these metrics are weighted differently. This highlights the need for methods that can flexibly accommodate such requirements. In this paper, we present a novel framework for selecting and combining biomarkers to maximize a weighted version of the Youden index. We introduce a smoothed estimator based on the weighted Youden index and propose a penalized version using the SCAD penalty to enhance variable selection. To handle the non-convexity of the objective function and the non-smoothness of the penalty, we develop an efficient algorithm, also applicable to other non-convex optimization problems. Simulation studies demonstrate the performance and efficiency of our method, and we apply it to construct a diagnostic scale for dermatitis.",
+ "primary": "stat.ME"
+}

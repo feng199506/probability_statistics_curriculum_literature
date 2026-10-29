@@ -1,0 +1,16 @@
+{
+ "id": "2510.15618",
+ "title": "Adaptive Influence Diagnostics in High-Dimensional Regression",
+ "authors": [
+  "Abdul-Nasah Soale",
+  "Adewale Lukman"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An adaptive Cook's distance (ACD) for diagnosing influential observations in high-dimensional single-index models with multicollinearity and outlier contamination is proposed. ACD is a model-free technique built on sparse local linear gradients to temper leverage effects. In simulations spanning low- and high-dimensional design settings with strong correlation, ACD based on LASSO (ACD-LASSO) and SCAD (ACD-SCAD) penalties reduced masking and swamping relative to classical Cook's distance and local influence as well as the DF-Model and Case-Weight adjusted solution for LASSO. Trimming points flagged by ACD stabilizes variable selection while preserving core signals. Applications to two datasets--the 1960 US cities pollution study and a high-dimensional riboflavin genomics experiment show consistent gains in selection stability and interpretability.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2503.03575",
+ "title": "Robust Sparse Precision Matrix Estimation and its Application",
+ "authors": [
+  "Zhengke Lu",
+  "Long Feng"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 1,
+ "latest_date": "2025-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the problem of robust sparse estimation of the precision matrix for heavy-tailed distributions in high-dimensional settings. In such high-dimensional contexts, we observe that the covariance matrix can be approximated by a spatial-sign covariance matrix, scaled by a constant. Based on this insight, we introduce two new procedures, the Spatial-Sign Constrained $l_1$ Inverse Matrix Estimation (SCLIME) and the Spatial-sign Graphic LASSO Estimation (SGLASSO), to estimate the precision matrix. Under mild regularity conditions, we establish that the consistency rate of these estimators matches that of existing estimators from the literature. To demonstrate its practical utility, we apply the proposed estimator to two classical problems: the elliptical graphical model and linear discriminant analysis. Through extensive simulation studies and real data applications, we show that our estimators outperforms existing methods, particularly in the presence of heavy-tailed distributions.",
+ "primary": "stat.ME"
+}

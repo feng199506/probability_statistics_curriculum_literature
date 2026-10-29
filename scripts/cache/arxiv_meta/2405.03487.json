@@ -1,0 +1,16 @@
+{
+ "id": "2405.03487",
+ "title": "Precision-based designs for sequential randomized experiments",
+ "authors": [
+  "Mattias Nordin",
+  "Mårten Schultzberg"
+ ],
+ "v1_date": "2024-05-06",
+ "latest_version": 1,
+ "latest_date": "2024-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we consider an experimental setting where units enter the experiment sequentially. Our goal is to form stopping rules which lead to estimators of treatment effects with a given precision. We propose a fixed-width confidence interval design (FWCID) where the experiment terminates once a pre-specified confidence interval width is achieved. We show that under this design, the difference-in-means estimator is a consistent estimator of the average treatment effect and standard confidence intervals have asymptotic guarantees of coverage and efficiency for several versions of the design. In addition, we propose a version of the design that we call fixed power design (FPD) where a given power is asymptotically guaranteed for a given treatment effect, without the need to specify the variances of the outcomes under treatment or control. In addition, this design also gives a consistent difference-in-means estimator with correct coverage of the corresponding standard confidence interval. We complement our theoretical findings with Monte Carlo simulations where we compare our proposed designs with standard designs in the sequential experiments literature, showing that our designs outperform these designs in several important aspects. We believe our results to be relevant for many experimental settings where units enter sequentially, such as in clinical trials, as well as in online A/B tests used by the tech and e-commerce industry.",
+ "primary": "math.ST"
+}

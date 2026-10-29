@@ -1,0 +1,17 @@
+{
+ "id": "2601.00377",
+ "title": "Sparse Tucker Decomposition and Graph Regularization for High-Dimensional Time Series Forecasting",
+ "authors": [
+  "Sijia Xia",
+  "Michael K. Ng",
+  "Xiongjun Zhang"
+ ],
+ "v1_date": "2026-01-01",
+ "latest_version": 1,
+ "latest_date": "2026-01-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Existing methods of vector autoregressive model for multivariate time series analysis make use of low-rank matrix approximation or Tucker decomposition to reduce the dimension of the over-parameterization issue. In this paper, we propose a sparse Tucker decomposition method with graph regularization for high-dimensional vector autoregressive time series. By stacking the time-series transition matrices into a third-order tensor, the sparse Tucker decomposition is employed to characterize important interactions within the transition third-order tensor and reduce the number of parameters. Moreover, the graph regularization is employed to measure the local consistency of the response, predictor and temporal factor matrices in the vector autoregressive model.The two proposed regularization techniques can be shown to more accurate parameters estimation. A non-asymptotic error bound of the estimator of the proposed method is established, which is lower than those of the existing matrix or tensor based methods. A proximal alternating linearized minimization algorithm is designed to solve the resulting model and its global convergence is established under very mild conditions. Extensive numerical experiments on synthetic data and real-world datasets are carried out to verify the superior performance of the proposed method over existing state-of-the-art methods.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2605.25173",
+ "title": "Nyström Kernel Stein Discrepancy Tests",
+ "authors": [
+  "Florian Kalinke",
+  "Zoltán Szabó",
+  "Bharath K. Sriperumbudur"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel Stein discrepancy (KSD) is among the most popular goodness-of-fit (GoF) measures on general domains with a large number of successful deployments. One of the main applications of KSD is in constructing powerful GoF tests. However, tests relying on the classical U-/V-statistic-based KSD estimators have two major drawbacks. (i) Their runtime scales quadratically in the number of samples. (ii) Their asymptotic null distribution is computationally intractable in most cases, typically handled by bootstrapping. While it is known that the Nyström method permits accelerating KSD estimation with no loss of statistical accuracy under mild conditions, to the best of our knowledge, the fundamental question of its impact on bootstrap-based GoF testing is open; resolving this question is the focus of the current paper. In particular, we prove that the key properties of the quadratic-time bootstrapped KSD-based GoF test (asymptotic level and local consistency) are preserved by its Nyström acceleration. We numerically demonstrate the efficiency of the accelerated KSD estimator and bootstrap in the context of GoF testing of spherical and functional data. Our numerical results show that the Nyström-accelerated method performs statistically on-par with the quadratic-time approach, while requiring substantially smaller runtime.",
+ "primary": "stat.ML"
+}

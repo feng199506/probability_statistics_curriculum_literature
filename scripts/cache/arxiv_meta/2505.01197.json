@@ -1,0 +1,16 @@
+{
+ "id": "2505.01197",
+ "title": "Gaussian Differential Private Bootstrap by Subsampling",
+ "authors": [
+  "Holger Dette",
+  "Carina Graw"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 1,
+ "latest_date": "2025-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bootstrap is a common tool for quantifying uncertainty in data analysis. However, besides additional computational costs in the application of the bootstrap on massive data, a challenging problem in bootstrap based inference under Differential Privacy consists in the fact that it requires repeated access to the data. As a consequence, bootstrap based differentially private inference requires a significant increase of the privacy budget, which on the other hand comes with a substantial loss in statistical accuracy. A potential solution to reconcile the conflicting goals of statistical accuracy and privacy is to analyze the data under parametric model assumptions and in the last decade, several parametric bootstrap methods for inference under privacy have been investigated. However, uncertainty quantification by parametric bootstrap is only valid if the the quantities of interest can be identified as the parameters of a statistical model and the imposed model assumptions are (at least approximately) satisfied. An alternative to parametric methods is the empirical bootstrap that is a widely used tool for non-parametric inference and well studied in the non-private regime. However, under privacy, less insight is available. In this paper, we propose a private empirical $m$ out of $n$ bootstrap and validate its consistency and privacy guarantees under Gaussian Differential Privacy. Compared to the the private $n$ out of $n$ bootstrap, our approach has several advantages. First, it comes with less computational costs, in particular for massive data. Second, the proposed procedure needs less additional noise in the bootstrap iterations, which leads to an improved statistical accuracy while asymptotically guaranteeing the same level of privacy. Third, we demonstrate much better finite sample properties compared to the currently available procedures.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.14625",
+ "title": "A Bayesian approach for fitting semi-Markov mixture models of cancer latency to individual-level data",
+ "authors": [
+  "Raphael Morsomme",
+  "Shannon Holloway",
+  "Marc Ryser",
+  "Jason Xu"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 2,
+ "latest_date": "2025-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Under revision",
+ "abstract": "Multi-state models of cancer natural history are widely used for designing and evaluating cancer early detection strategies. Calibrating such models against longitudinal data from screened cohorts is challenging, especially when fitting non-Markovian mixture models against individual-level data. Here, we consider a family of semi-Markov mixture models of cancer natural history and introduce an efficient data-augmented Markov chain Monte Carlo sampling algorithm for fitting these models to individual-level screening and cancer diagnosis histories. Our fully Bayesian approach supports rigorous uncertainty quantification and model selection through leave-one-out cross-validation, and it enables the estimation of screening-related overdiagnosis rates. We demonstrate the effectiveness of our approach using simulated data, showing that the sampling algorithm efficiently explores the joint posterior distribution of model parameters and latent variables. Finally, we apply our method to data from the US Breast Cancer Surveillance Consortium and estimate the extent of breast cancer overdiagnosis associated with mammography screening. The sampler and model comparison method are available in the R package baclava.",
+ "primary": "stat.CO"
+}

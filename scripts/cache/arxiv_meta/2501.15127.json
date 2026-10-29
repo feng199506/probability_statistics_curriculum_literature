@@ -1,0 +1,17 @@
+{
+ "id": "2501.15127",
+ "title": "Versatile Differentially Private Learning for General Loss Functions",
+ "authors": [
+  "Qilong Lu",
+  "Songxi Chen",
+  "Yumou Qiu"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 1,
+ "latest_date": "2025-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper aims to provide a versatile privacy-preserving release mechanism along with a unified approach for subsequent parameter estimation and statistical inference. We propose the ZIL privacy mechanism based on zero-inflated symmetric multivariate Laplace noise, which requires no prior specification of subsequent analysis tasks, allows for general loss functions under minimal conditions, imposes no limit on the number of analyses, and is adaptable to the increasing data volume in online scenarios. We derive the trade-off function for the proposed ZIL mechanism that characterizes its privacy protection level. Within the M-estimation framework, we propose a novel doubly random corrected loss (DRCL) for the ZIL mechanism, which provides consistent and asymptotic normal M-estimates for the parameters of the target population under differential privacy constraints. The proposed approach is easy to compute without numerical integration and differentiation for noisy data. It is applicable for a general class of loss functions, including non-smooth loss functions like check loss and hinge loss. Simulation studies, including logistic regression and quantile regression, are conducted to evaluate the performance of the proposed method.",
+ "primary": "stat.ME"
+}

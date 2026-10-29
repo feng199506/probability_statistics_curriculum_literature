@@ -1,0 +1,19 @@
+{
+ "id": "2509.15122",
+ "title": "Prestige over merit: An adapted audit of LLM bias in peer review",
+ "authors": [
+  "Anthony Howell",
+  "Jieshu Wang",
+  "Luyu Du",
+  "Julia Melkers",
+  "Varshil Shah"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 2,
+ "latest_date": "2026-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Large language models (LLMs) play a growing but largely informal role in scholarly peer review. Yet whether LLMs reproduce biases observed in human decision-making remains unclear. We adapt a resume-style audit to scientific publishing, developing a multi-role LLM simulation (editor/reviewer) that evaluates high-quality manuscripts across the physical, biological, and social sciences under randomized author identities (institutional prestige, gender, race). Revealing author identities lowers reviewer rejection recommendations by roughly 25% of the mean rejection rate despite identical content, indicating that status cues beyond paper quality shape outcomes. Institutional prestige is the dominant cue: papers attributed to low-prestige affiliations receive lower quality scores in every field, a penalty that survives family-wise multiple-testing correction at the editor stage. Effects at the rejection margin are smaller and mostly fragile to correction, with one robust intersectional exception. Relative to male authors, female authors at low-prestige institutions receive lower reviewer quality scores and more rejection recommendations than those at high-prestige institutions. To probe mechanisms, we generate synthetic CVs for the same author profiles; these encode large prestige-linked disparities and an inverted prestige-tenure gradient relative to national benchmarks. The results suggest that domain norms and prestige-linked priors embedded in training data shape outcomes once identity is visible.",
+ "primary": "cs.CY"
+}

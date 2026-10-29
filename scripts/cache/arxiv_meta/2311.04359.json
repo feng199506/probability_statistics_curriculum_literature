@@ -1,0 +1,19 @@
+{
+ "id": "2311.04359",
+ "title": "Flexibly Estimating and Interpreting Heterogeneous Treatment Effects of Laparoscopic Surgery for Cholecystitis Patients",
+ "authors": [
+  "Matteo Bonvini",
+  "Zhenghao Zeng",
+  "Miaoqing Yu",
+  "Edward H. Kennedy",
+  "Luke Keele"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 1,
+ "latest_date": "2023-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 7 figures",
+ "abstract": "Laparoscopic surgery has been shown through a number of randomized trials to be an effective form of treatment for cholecystitis. Given this evidence, one natural question for clinical practice is: does the effectiveness of laparoscopic surgery vary among patients? It might be the case that, while the overall effect is positive, some patients treated with laparoscopic surgery may respond positively to the intervention while others do not or may be harmed. In our study, we focus on conditional average treatment effects to understand whether treatment effects vary systematically with patient characteristics. Recent methodological work has developed a meta-learner framework for flexible estimation of conditional causal effects. In this framework, nonparametric estimation methods can be used to avoid bias from model misspecification while preserving statistical efficiency. In addition, researchers can flexibly and effectively explore whether treatment effects vary with a large number of possible effect modifiers. However, these methods have certain limitations. For example, conducting inference can be challenging if black-box models are used. Further, interpreting and visualizing the effect estimates can be difficult when there are multi-valued effect modifiers. In this paper, we develop new methods that allow for interpretable results and inference from the meta-learner framework for heterogeneous treatment effects estimation. We also demonstrate methods that allow for an exploratory analysis to identify possible effect modifiers. We apply our methods to a large database for the use of laparoscopic surgery in treating cholecystitis. We also conduct a series of simulation studies to understand the relative performance of the methods we develop. Our study provides key guidelines for the interpretation of conditional causal effects from the meta-learner framework.",
+ "primary": "stat.ME"
+}

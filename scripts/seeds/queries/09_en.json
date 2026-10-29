@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND abs:\"linear regression\" AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "线性回归综述与教程"},
+ {"q": "abs:\"least squares\" AND (abs:\"high-dimensional\" OR abs:overparameterized OR abs:\"minimum norm\") AND (cat:math.ST OR cat:stat.TH)", "subtopic": "最小二乘理论"},
+ {"q": "abs:\"analysis of variance\" AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "方差分析"},
+ {"q": "abs:\"generalized linear models\" AND (ti:review OR ti:tutorial OR ti:survey OR abs:inference) AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "广义线性模型"},
+ {"q": "abs:\"logistic regression\" AND abs:\"high-dimensional\" AND (cat:math.ST OR cat:stat.TH)", "subtopic": "广义线性模型"},
+ {"q": "(abs:\"mixed models\" OR abs:\"mixed-effects\" OR abs:\"linear mixed\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:primer OR abs:inference) AND (cat:stat.ME OR cat:stat.CO OR cat:stat.AP)", "subtopic": "混合效应模型"},
+ {"q": "(abs:\"generalized linear mixed\" OR abs:\"random effects\") AND (cat:stat.ME OR cat:stat.TH OR cat:stat.CO)", "subtopic": "混合效应模型"},
+ {"q": "(abs:\"regression diagnostics\" OR abs:\"residual diagnostics\" OR abs:\"influential observations\" OR abs:\"model checking\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.CO)", "subtopic": "模型诊断"},
+ {"q": "abs:heteroskedasticity AND (abs:\"robust standard errors\" OR abs:\"sandwich\") AND (cat:stat.ME OR cat:econ.EM OR cat:math.ST)", "subtopic": "模型诊断与稳健标准误"},
+ {"q": "(abs:\"model selection\" OR abs:\"variable selection\") AND abs:regression AND (ti:review OR ti:survey OR ti:tutorial OR ti:comparison) AND (cat:stat.ME OR cat:stat.ML)", "subtopic": "模型选择"},
+ {"q": "(abs:\"information criterion\" OR abs:AIC OR abs:\"cross-validation\") AND abs:regression AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "模型选择"},
+ {"q": "abs:\"quantile regression\" AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST OR cat:econ.EM)", "subtopic": "分位数回归"},
+ {"q": "abs:\"prediction intervals\" AND abs:regression AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "预测区间"},
+ {"q": "(abs:\"ridge regression\" OR abs:\"shrinkage\") AND abs:\"linear model\" AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "岭回归与收缩"},
+ {"q": "(abs:\"measurement error\" OR abs:\"errors-in-variables\") AND abs:regression AND (cat:stat.ME OR cat:stat.TH)", "subtopic": "测量误差与回归"},
+ {"q": "(abs:\"count data\" OR abs:\"Poisson regression\" OR abs:\"negative binomial\" OR abs:\"zero-inflated\") AND (ti:review OR ti:tutorial OR abs:regression) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "计数与离散响应回归"},
+ {"q": "(abs:\"generalized additive models\" OR abs:\"distributional regression\" OR abs:GAMLSS) AND (cat:stat.ME OR cat:stat.CO)", "subtopic": "广义可加与分布回归"},
+ {"q": "(abs:\"model misspecification\" OR abs:\"assumption-lean\" OR abs:\"misspecified linear\") AND abs:regression AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "模型误设与稳健推断"}
+]

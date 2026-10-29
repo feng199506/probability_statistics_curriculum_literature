@@ -1,0 +1,18 @@
+{
+ "id": "2412.16659",
+ "title": "Adaptive Elastic-Net estimation for sparse diffusion processes",
+ "authors": [
+  "Alessandro De Gregorio",
+  "Dario Frisardi",
+  "Francesco Iafrate",
+  "Stefano Iacus"
+ ],
+ "v1_date": "2024-12-21",
+ "latest_version": 1,
+ "latest_date": "2024-12-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Penalized estimation methods for diffusion processes and dependent data have recently gained significant attention due to their effectiveness in handling high-dimensional stochastic systems. In this work, we introduce an adaptive Elastic-Net estimator for ergodic diffusion processes observed under high-frequency sampling schemes. Our method combines the least squares approximation of the quasi-likelihood with adaptive $\\ell_1$ and $\\ell_2$ regularization. This approach allows to enhance prediction accuracy and interpretability while effectively recovering the sparse underlying structure of the model. In the spirit of analyzing high-dimensional scenarios, we provide finite-sample guarantees for the (block-diagonal) estimator's performance by deriving high-probability non-asymptotic bounds for the $\\ell_2$ estimation error. These results complement the established oracle properties in the high-frequency asymptotic regime with mixed convergence rates, ensuring consistent selection of the relevant interactions and achieving optimal rates of convergence. Furthermore, we utilize our results to analyze one-step-ahead predictions, offering non-asymptotic control over the $\\ell_1$ prediction error. The performance of our method is evaluated through simulations and real data applications, demonstrating its effectiveness, particularly in scenarios with strongly correlated variables.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.16027",
+ "title": "What is a good matching of probability measures? A counterfactual lens on transport maps",
+ "authors": [
+  "Lucas De Lara",
+  "Luca Ganassali"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages; comments most welcome",
+ "abstract": "Coupling probability measures lies at the core of many problems in statistics and machine learning, from domain adaptation to transfer learning and causal inference. Yet, even when restricted to deterministic transports, such couplings are not identifiable: two atomless marginals admit infinitely many transport maps. The common recourse to optimal transport, motivated by cost minimization and cyclical monotonicity, obscures the fact that several distinct notions of multivariate monotone matchings coexist. In this work, we first carry a comparative analysis of three constructions of transport maps: cyclically monotone, quantile-preserving and triangular monotone maps. We establish necessary and sufficient conditions for their equivalence, thereby clarifying their respective structural properties. In parallel, we formulate counterfactual reasoning within the framework of structural causal models as a problem of selecting transport maps between fixed marginals, which makes explicit the role of untestable assumptions in counterfactual reasoning. Then, we are able to connect these two perspectives by identifying conditions on causal graphs and structural equations under which counterfactual maps coincide with classical statistical transports. In this way, we delineate the circumstances in which causal assumptions support the use of a specific structure of transport map. Taken together, our results aim to enrich the theoretical understanding of families of transport maps and to clarify their possible causal interpretations. We hope this work contributes to establishing new bridges between statistical transport and causal inference.",
+ "primary": "stat.ML"
+}

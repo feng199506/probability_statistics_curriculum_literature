@@ -1,0 +1,16 @@
+{
+ "id": "2505.02653",
+ "title": "Hierarchical Random Measures without Tables",
+ "authors": [
+  "Marta Catalano",
+  "Claudio Del Sole"
+ ],
+ "v1_date": "2025-05-05",
+ "latest_version": 2,
+ "latest_date": "2026-06-09",
+ "journal_ref": "",
+ "doi": "10.1214/26-ba1609",
+ "comment": "",
+ "abstract": "The hierarchical Dirichlet process is the cornerstone of Bayesian nonparametric multilevel models. Its generative model can be described through a set of latent variables, commonly referred to as tables within the popular restaurant franchise metaphor. The latent tables simplify the expression of the posterior and allow for the implementation of Gibbs sampling algorithms to approximately draw posterior samples. However, managing their assignments can become computationally expensive, especially as the size of the dataset and the number of levels increase. In this work, we identify a prior for the concentration parameter of the hierarchical Dirichlet process that (i) induces a quasi-conjugate posterior distribution, and (ii) removes the need for tables, leading to more interpretable expressions for the posterior, with both a scalable and an exact algorithm to sample from it. Remarkably, this construction extends beyond the Dirichlet process, leading to a new framework for defining normalized hierarchical random measures and a new class of algorithms to sample from their posteriors. The key analytical tool is the independence of multivariate increments, that is, their representation as completely random vectors.",
+ "primary": "math.ST"
+}

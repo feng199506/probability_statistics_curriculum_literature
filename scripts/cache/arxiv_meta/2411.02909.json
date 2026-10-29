@@ -1,0 +1,19 @@
+{
+ "id": "2411.02909",
+ "title": "When is it worthwhile to jackknife? Breaking the quadratic barrier for Z-estimators",
+ "authors": [
+  "Licong Lin",
+  "Fangzhou Su",
+  "Wenlong Mou",
+  "Peng Ding",
+  "Martin Wainwright"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 1,
+ "latest_date": "2024-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Resampling methods are especially well-suited to inference with estimators that provide only \"black-box'' access. Jackknife is a form of resampling, widely used for bias correction and variance estimation, that is well-understood under classical scaling where the sample size $n$ grows for a fixed problem. We study its behavior in application to estimating functionals using high-dimensional $Z$-estimators, allowing both the sample size $n$ and problem dimension $d$ to diverge. We begin showing that the plug-in estimator based on the $Z$-estimate suffers from a quadratic breakdown: while it is $\\sqrt{n}$-consistent and asymptotically normal whenever $n \\gtrsim d^2$, it fails for a broad class of problems whenever $n \\lesssim d^2$. We then show that under suitable regularity conditions, applying a jackknife correction yields an estimate that is $\\sqrt{n}$-consistent and asymptotically normal whenever $n\\gtrsim d^{3/2}$. This provides strong motivation for the use of jackknife in high-dimensional problems where the dimension is moderate relative to sample size. We illustrate consequences of our general theory for various specific $Z$-estimators, including non-linear functionals in linear models; generalized linear models; and the inverse propensity score weighting (IPW) estimate for the average treatment effect, among others.",
+ "primary": "math.ST"
+}

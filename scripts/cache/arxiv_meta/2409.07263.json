@@ -1,0 +1,17 @@
+{
+ "id": "2409.07263",
+ "title": "Order selection in GARMA models for count time series: a Bayesian perspective",
+ "authors": [
+  "Katerine Zuniga Lastra",
+  "Guilherme Pumi",
+  "Taiane Schaedler Prass"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 2,
+ "latest_date": "2025-02-07",
+ "journal_ref": "",
+ "doi": "10.1080/02664763.2025.2483309",
+ "comment": "",
+ "abstract": "Estimation in GARMA models has traditionally been carried out under the frequentist approach. To date, Bayesian approaches for such estimation have been relatively limited. In the context of GARMA models for count time series, Bayesian estimation achieves satisfactory results in terms of point estimation. Model selection in this context often relies on the use of information criteria. Despite its prominence in the literature, the use of information criteria for model selection in GARMA models for count time series have been shown to present poor performance in simulations, especially in terms of their ability to correctly identify models, even under large sample sizes. In this study, we study the problem of order selection in GARMA models for count time series, adopting a Bayesian perspective through the application of the Reversible Jump Markov Chain Monte Carlo approach. Monte Carlo simulation studies are conducted to assess the finite sample performance of the developed ideas, including point and interval inference, sensitivity analysis, effects of burn-in and thinning, as well as the choice of related priors and hyperparameters. Two real-data applications are presented, one considering automobile production in Brazil and the other considering bus exportation in Brazil before and after the COVID-19 pandemic, showcasing the method's capabilities and further exploring its flexibility.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.05118",
+ "title": "BayesPPDSurv: An R Package for Bayesian Sample Size Determination Using the Power and Normalized Power Prior for Time-To-Event Data",
+ "authors": [
+  "Yueqi Shen",
+  "Matthew A. Psioda",
+  "Joseph G. Ibrahim"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The BayesPPDSurv (Bayesian Power Prior Design for Survival Data) R package supports Bayesian power and type I error calculations and model fitting using the power and normalized power priors incorporating historical data with for the analysis of time-to-event outcomes. The package implements the stratified proportional hazards regression model with piecewise constant hazard within each stratum. The package allows the historical data to inform the treatment effect parameter, parameter effects for other covariates in the regression model, as well as the baseline hazard parameters. The use of multiple historical datasets is supported. A novel algorithm is developed for computationally efficient use of the normalized power prior. In addition, the package supports the use of arbitrary sampling priors for computing Bayesian power and type I error rates, and has built-in features that semi-automatically generate sampling priors from the historical data. We demonstrate the use of BayesPPDSurv in a comprehensive case study for a melanoma clinical trial design.",
+ "primary": "stat.ME"
+}

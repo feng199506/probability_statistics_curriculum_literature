@@ -1,0 +1,20 @@
+{
+ "id": "2508.00216",
+ "title": "Predictiveness Curve Assessment under Competing Risks for Risk Prediction Models",
+ "authors": [
+  "Wei Tao",
+  "Jing Ning",
+  "Wen Li",
+  "Wenyaw Chan",
+  "Xi Luo",
+  "Ruosha Li"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The predictiveness curve is a valuable tool for predictive evaluation, risk stratification, and threshold selection in a target population, given a single biomarker or a prediction model. In the presence of competing risks, regression models are often used to generate predictive risk scores or probabilistic predictions targeting the cumulative incidence function--distinct from the cumulative distribution function used in conventional predictiveness curve analyses. We propose estimation and inference procedures for the predictiveness curve with a competing risks regression model, to display the relationship between the cumulative incidence probability and the quantiles of model-based predictions. The estimation procedure combines cross-validation with a flexible regression model for tau-year event risk given the model-based risk score, with corresponding inference procedures via perturbation resampling. The proposed methods perform satisfactorily in simulation studies and are implemented through an R package. We apply the proposed methods to a cirrhosis study to depict the predictiveness curve with model-based predictions for liver-related mortality.",
+ "primary": "stat.ME"
+}

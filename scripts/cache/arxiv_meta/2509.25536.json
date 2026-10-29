@@ -1,0 +1,18 @@
+{
+ "id": "2509.25536",
+ "title": "Optimal Nuisance Function Tuning for Estimating a Doubly Robust Functional under Proportional Asymptotics",
+ "authors": [
+  "Sean McGrath",
+  "Debarghya Mukherjee",
+  "Rajarshi Mukherjee",
+  "Zixiao Jolene Wang"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we explore the asymptotically optimal tuning parameter choice in ridge regression for estimating nuisance functions of a statistical functional that has recently gained prominence in conditional independence testing and causal inference. Given a sample of size $n$, we study estimators of the Expected Conditional Covariance (ECC) between variables $Y$ and $A$ given a high-dimensional covariate $X \\in \\mathbb{R}^p$. Under linear regression models for $Y$ and $A$ on $X$ and the proportional asymptotic regime $p/n \\to c \\in (0, \\infty)$, we evaluate three existing ECC estimators and two sample splitting strategies for estimating the required nuisance functions. Since no consistent estimator of the nuisance functions exists in the proportional asymptotic regime without imposing further structure on the problem, we first derive debiased versions of the ECC estimators that utilize the ridge regression nuisance function estimators. We show that our bias correction strategy yields $\\sqrt{n}$-consistent estimators of the ECC across different sample splitting strategies and estimator choices. We then derive the asymptotic variances of these debiased estimators to illustrate the nuanced interplay between the sample splitting strategy, estimator choice, and tuning parameters of the nuisance function estimators for optimally estimating the ECC. Our analysis reveals that prediction-optimal tuning parameters (i.e., those that optimally estimate the nuisance functions) may not lead to the lowest asymptotic variance of the ECC estimator -- thereby demonstrating the need to be careful in selecting tuning parameters based on the final goal of inference. Finally, we verify our theoretical results through extensive numerical experiments.",
+ "primary": "math.ST"
+}

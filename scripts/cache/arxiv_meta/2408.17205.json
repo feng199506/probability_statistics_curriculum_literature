@@ -1,0 +1,17 @@
+{
+ "id": "2408.17205",
+ "title": "Estimation and inference of average treatment effects under heterogeneous additive treatment effect model",
+ "authors": [
+  "Xin Lu",
+  "Hongzi Li",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized experiments are the gold standard for estimating treatment effects, yet network interference challenges the validity of traditional estimators by violating the stable unit treatment value assumption and introducing bias. While cluster randomized experiments mitigate this bias, they encounter limitations in handling network complexity and fail to distinguish between direct and indirect effects. To address these challenges, we develop a design-based asymptotic theory for the existing Horvitz--Thompson estimators of the direct, indirect, and global average treatment effects under Bernoulli trials. We assume the heterogeneous additive treatment effect model with a hidden network that drives interference. Observing that these estimators are inconsistent in dense networks, we introduce novel eigenvector-based regression adjustment estimators to ensure consistency. We establish the asymptotic normality of the proposed estimators and provide conservative variance estimators under the design-based inference framework, offering robust conclusions independent of the underlying stochastic processes of the network and model parameters. Our method's adaptability is demonstrated across various interference structures, including partial interference and local interference in a two-sided marketplace. Numerical studies further illustrate the efficacy of the proposed estimators, offering practical insights into handling network interference.",
+ "primary": "stat.ME"
+}

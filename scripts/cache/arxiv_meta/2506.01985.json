@@ -1,0 +1,17 @@
+{
+ "id": "2506.01985",
+ "title": "$whittlehurst$: A Python package implementing Whittle's likelihood estimation of the Hurst exponent",
+ "authors": [
+  "Bálint Csanády",
+  "Lóránt Nagy",
+  "András Lukács"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 15 figures",
+ "abstract": "This paper presents $whittlehurst$, a Python package implementing Whittle's likelihood method for estimating the Hurst exponent in fractional Brownian motion (fBm). While the theoretical foundations of Whittle's estimator are well-established, practical and computational considerations are critical for effective use. We focus explicitly on assessing our implementation's performance across several numerical approximations of the fractional Gaussian noise (fGn) spectral density, comparing their computational efficiency, accuracy, and consistency across varying input sequence lengths. Extensive empirical evaluations show that our implementation achieves state-of-the-art estimation accuracy and computational speed. Additionally, we benchmark our method against other popular Hurst exponent estimation techniques on synthetic and real-world data, emphasizing practical considerations that arise when applying these estimators to financial and biomedical data.",
+ "primary": "stat.CO"
+}

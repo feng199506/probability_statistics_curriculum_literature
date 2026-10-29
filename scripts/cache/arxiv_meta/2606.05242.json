@@ -1,0 +1,16 @@
+{
+ "id": "2606.05242",
+ "title": "Deterministic Envelopes for Tamed SGLD: Decoupling Stochastic Gradient Noise and Localizing Taming",
+ "authors": [
+  "Yiwei Zhou",
+  "Ziheng Chen"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 11 tables, 2 figures",
+ "abstract": "Stochastic gradient Langevin algorithms often use tamed denominators to stabilize superlinear drifts. This paper shows that when the denominator depends on the current stochastic gradient, the transformed update can have a biased conditional mean even if the original stochastic gradient is unbiased. This creates a stationary mean-shift channel that is absent for deterministic denominators.We propose a structure-preserving framework for designing tamed denominators. The construction keeps the denominator deterministic given the current state, and uses localized deterministic envelopes to avoid unnecessary taming in typical regions. These kernels retain the stabilizing effect of taming while avoiding the bias introduced by a gradient-dependent denominator. Our theory bounds the stationary bias through Euler, envelope, and stochastic-gradient residuals. The analysis also shows why purely local taming rules can lose control in the far tail and motivates a hybrid construction with additional tail protection. Experiments confirm the stationary distortions of random denominators, the bias reduction of deterministic-envelope designs, and the stabilizing effect of the hybrid construction.",
+ "primary": "stat.ML"
+}

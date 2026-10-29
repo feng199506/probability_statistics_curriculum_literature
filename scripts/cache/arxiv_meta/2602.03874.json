@@ -1,0 +1,16 @@
+{
+ "id": "2602.03874",
+ "title": "ASRI: An Aggregated Systemic Risk Index for Cryptocurrency Markets",
+ "authors": [
+  "Murad Farzulla",
+  "Andrew Maksakov"
+ ],
+ "v1_date": "2026-02-01",
+ "latest_version": 4,
+ "latest_date": "2026-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "109 pages, 7 figures, 39 tables. Code at https://github.com/studiofarzulla/asri ; live dashboard: https://asri.dissensus.ai",
+ "abstract": "Cryptocurrency markets exceed USD 3 trillion in capitalisation, yet practitioners lack an interpretable, channel-decomposed composite for characterising crypto-native systemic stress. We introduce the Aggregated Systemic Risk Index (ASRI), built from four weighted sub-indices -- Stablecoin Concentration Risk (30%), DeFi Liquidity Risk (25%), Contagion Risk (25%, implemented as a TradFi-stress proxy), and Regulatory Opacity Risk (20%) -- with a Diebold--Yilmaz connectedness series computed on the sub-indices as network benchmark. We evaluate ASRI retrospectively against four crises (Terra/Luna, Celsius/3AC, FTX, SVB) and give a methodological account of how autocorrelation- and block-structure-robust inference reshapes apparent crisis-detection strength. The event-study signal is inconclusive: heavily serially correlated (AR(1) $\\approx 0.8$--$0.9$), with placebo dates clearing the nominal threshold as often as crises. Fixed-threshold detection flags three of four events with $\\approx$19-day average lead ($\\approx$5 days under a responsive specification); walk-forward thresholds flag 4/4 but at high false-positive cost -- evidence against look-ahead bias, not a clean prediction record. ASRI's day-level discrimination (AUROC 0.866) beats only the circular D--Y comparator (0.670); it is statistically indistinguishable from its strongest sub-index (0.851), PC1 (0.858), and a standalone VIX series (0.875, $p=0.58$). We read aggregation's value as interpretive -- channel attribution, lead time, and regime structure in one auditable composite -- not as discriminative gain. With four crisis events the binding power limit, ASRI is a transparent, reproducible, retrospective monitoring framework targeting crypto-native vulnerabilities that SRISK and CoVaR are not built to capture, not a validated early-warning system. Out of sample it classifies the 2025 Bybit hack as non-systemic.",
+ "primary": "q-fin.RM"
+}

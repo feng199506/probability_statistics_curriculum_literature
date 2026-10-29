@@ -1,0 +1,18 @@
+{
+ "id": "2604.15217",
+ "title": "A Bayesian Approach to Unit-level Dependent Multi-type Survey Data",
+ "authors": [
+  "Zewei Kong",
+  "Paul A. Parker",
+  "Jonathan R. Bradley",
+  "Scott H. Holan"
+ ],
+ "v1_date": "2026-04-16",
+ "latest_version": 1,
+ "latest_date": "2026-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 2 figures. Submitted to Journal of Survey Statistics and Methodology",
+ "abstract": "The American Community Survey (ACS) Public Use Microdata Sample (PUMS) provides access to a wide range of unit-level survey data consisting of correlated Gaussian and binomial distributed survey responses along with associated survey weights. As such, we propose a Bayesian hierarchical framework for jointly modeling unit-level Gaussian and binomial survey data. The model introduces a shared area-level random effect to capture dependence across responses. Informative sampling is addressed using a pseudo-likelihood construction, and Polya-Gamma data augmentation provides an efficient conjugate Gibbs sampler, enabling scalable inference for large survey datasets. Through empirical simulations based on ACS PUMS data, we show that the joint model achieves notable reductions in mean squared error and improved interval scores compared to univariate and design-based estimators. Applying the method to the 2023 Illinois PUMS data, we find that the joint model yields small-area estimates similar to those from the univariate model and the Horvitz-Thompson estimator, but with smaller posterior variances. The computational cost associated with the joint model is also comparable to that of the univariate binomial model. Combined with the empirical simulation results, these findings demonstrate the practical advantages of the proposed approach.",
+ "primary": "stat.ME"
+}

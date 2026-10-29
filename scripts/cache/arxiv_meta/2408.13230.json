@@ -1,0 +1,20 @@
+{
+ "id": "2408.13230",
+ "title": "Amortized Bayesian Multilevel Models",
+ "authors": [
+  "Daniel Habermann",
+  "Marvin Schmitt",
+  "Lars Kühmichel",
+  "Andreas Bulling",
+  "Stefan T. Radev",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2024-08-23",
+ "latest_version": 3,
+ "latest_date": "2025-06-16",
+ "journal_ref": "Bayesian Anal. Advance Publication 1-30 (2025)",
+ "doi": "10.1214/25-ba1570",
+ "comment": "24 pages, 13 figures",
+ "abstract": "Multilevel models (MLMs) are a central building block of the Bayesian workflow. They enable joint, interpretable modeling of data across hierarchical levels and provide a fully probabilistic quantification of uncertainty. Despite their well-recognized advantages, MLMs pose significant computational challenges, often rendering their estimation and evaluation intractable within reasonable time constraints. Recent advances in simulation-based inference offer promising solutions for addressing complex probabilistic models using deep generative networks. However, the utility and reliability of deep learning methods for estimating Bayesian MLMs remains largely unexplored, especially when compared with gold-standard samplers. To this end, we explore a family of neural network architectures that leverage the probabilistic factorization of multilevel models to facilitate efficient neural network training and subsequent near-instant posterior inference on unseen datasets. We test our method on several real-world case studies and provide comprehensive comparisons to Stan's gold standard sampler, where possible. Finally, we provide an open-source implementation of our methods to stimulate further research in the nascent field of amortized Bayesian inference.",
+ "primary": "stat.ML"
+}

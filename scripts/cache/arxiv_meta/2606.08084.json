@@ -1,0 +1,15 @@
+{
+ "id": "2606.08084",
+ "title": "Assessing model calibration with boosting trees",
+ "authors": [
+  "Selim Gatti"
+ ],
+ "v1_date": "2026-06-06",
+ "latest_version": 1,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages",
+ "abstract": "The main goal in regression modelling consists in approximating the conditional mean of a response given a set of features. A regression function is said to be calibrated if the resulting mean estimates match the true conditional means for almost every set of features. Aiming for calibration seems not achievable in practice as one typically deals with finite samples of noisy observations. A weaker notion of calibration is auto-calibration, and it means that the expectation of responses being given the same mean estimate matches this estimate. This notion is important, e.g., in insurance pricing as it ensures no cross-subsidization between different price cohorts. In this paper, we show that boosting trees can be used to test necessary conditions for calibration and auto-calibration, respectively. The practical relevance of our approach is supported by a numerical example, in which the proposed tests prove to be very powerful on a large insurance dataset.",
+ "primary": "math.ST"
+}

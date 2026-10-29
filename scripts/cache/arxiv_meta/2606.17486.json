@@ -1,0 +1,16 @@
+{
+ "id": "2606.17486",
+ "title": "Improving Linear Regression on Small Datasets via Gaussian Process and Extreme Value Theory-Based Data Augmentation",
+ "authors": [
+  "Ibrahim Salay",
+  "Jagath Senarathne"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 1,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small sample sizes pose significant challenges in regression analysis, often leading to violations of classical assumptions such as normality, homoscedasticity, and independence of residuals. These violations compromise parameter estimation accuracy, reduce statistical power, and limit the generalizability of findings. This study introduces the Gaussian Process-based Modified Extreme Value Theorem (GP-MEVT) method, a novel hybrid data augmentation approach that combines Gaussian Process with Extreme Value Theory to address these limitations. The GP-MEVT method generates augmented observations that extend the predictor space beyond the observed range while preserving the underlying linear structure and introducing controlled variability based on residual variation, through comprehensive simulation studies across three variance scenarios (sigma = 2, 5, 8) and sample sizes (n = 10, 15, 20). Here, we demonstrate that GP-MEVT achieves a higher rate of assumption satisfaction, substantially outperforming standard bootstrap and bootstrap with noise methods. The proposed method also exhibits reasonable parameter estimation accuracy, with intercept and slope estimates consistently closer to true parameter values, and maintains competitive or superior model fitting performance as measured by root mean square error. Application to a real-world dataset confirms these advantages, with GP-MEVT achieving a 67.1% assumption satisfaction rate compared to 17.3% and 21.2% for bootstrap alternatives. These findings establish GP-MEVT as a robust and reliable framework for fitting linear regression models to small datasets, offering practitioners a principled approach to statistical inference when sample size limitations are unavoidable.",
+ "primary": "stat.ME"
+}

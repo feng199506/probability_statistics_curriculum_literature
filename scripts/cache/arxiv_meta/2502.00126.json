@@ -1,0 +1,17 @@
+{
+ "id": "2502.00126",
+ "title": "A Bayesian decision-theoretic approach to sparse estimation",
+ "authors": [
+  "Aihua Li",
+  "Surya T. Tokdar",
+  "Jason Xu"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 1,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Biometrika",
+ "abstract": "We extend the work of Hahn and Carvalho (2015) and develop a doubly-regularized sparse regression estimator by synthesizing Bayesian regularization with penalized least squares within a decision-theoretic framework. In contrast to existing Bayesian decision-theoretic formulation chiefly reliant upon the symmetric 0-1 loss, the new method -- which we call Bayesian Decoupling -- employs a family of penalized loss functions indexed by a sparsity-tuning parameter. We propose a class of reweighted l1 penalties, with two specific instances that achieve simultaneous bias reduction and convexity. The design of the penalties incorporates considerations of signal sizes, as enabled by the Bayesian paradigm. The tuning parameter is selected using a posterior benchmarking criterion, which quantifies the drop in predictive power relative to the posterior mean which is the optimal Bayes estimator under the squared error loss. Additionally, in contrast to the widely used median probability model technique which selects variables by thresholding posterior inclusion probabilities at the fixed threshold of 1/2, Bayesian Decoupling enables the use of a data-driven threshold which automatically adapts to estimated signal sizes and offers far better performance in high-dimensional settings with highly correlated predictors. Our numerical results in such settings show that certain combinations of priors and loss functions significantly improve the solution path compared to existing methods, prioritizing true signals early along the path before false signals are selected. Consequently, Bayesian Decoupling produces estimates with better prediction and selection performance. Finally, a real data application illustrates the practical advantages of our approaches which select sparser models with larger coefficient estimates.",
+ "primary": "stat.ME"
+}

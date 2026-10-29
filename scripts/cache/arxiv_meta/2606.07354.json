@@ -1,0 +1,16 @@
+{
+ "id": "2606.07354",
+ "title": "Dependence Measures via Adapted Optimal Transport: Stability and Rates of Convergence",
+ "authors": [
+  "Jonathan Ansari",
+  "Johannes Wiesel"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 1,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recently studied dependence measures, such as Chatterjee's rank correlation, that characterize both independence and perfect functional dependence, provide a powerful framework for detecting nonlinear dependencies. However, these measures cannot be weakly continuous, which limits the applicability of classical plug-in estimators based on empirical distributions. This obstruction is natural, as such measures are defined via conditional distributions and not through their joint law alone. In this paper, we introduce an optimal transport-based mode of convergence that captures weak convergence of conditional distributions and restores continuity for a broad class of dependence measures. We relate this mode of convergence to the adapted Wasserstein distance, the Knothe-Rosenblatt distance and the d1-metric on copulas. Building on this perspective, we propose a copula estimator based on the adapted empirical measure and compare it with the classical rank-based checkerboard estimator. For both estimators, we derive O(N^{-1/3})-rates of convergence with respect to metrics that capture conditional weak continuity. As a consequence, we obtain the same rates for plug-in estimators of several classes of dependence measures, including rank-based and rearranged dependence measures.",
+ "primary": "math.ST"
+}

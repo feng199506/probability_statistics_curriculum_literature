@@ -1,0 +1,16 @@
+{
+ "id": "2604.17236",
+ "title": "Learning Mixtures of Nonparametric and Convolutional Measures on Effectively Low-dimensional Affine Spaces",
+ "authors": [
+  "Sunrit Chakraborty",
+  "XuanLong Nguyen"
+ ],
+ "v1_date": "2026-04-19",
+ "latest_version": 1,
+ "latest_date": "2026-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we develop a finite mixture of convolutional distributions, a statistical model to analyze continuous data distributed approximately on a mixture of low-dimensional affine subspaces. The observations are assumed independent and identically distributed from the mixture of distributions, where each component arises from a convolution of a distribution supported on a low-dimensional subspace with a suitable noise kernel. We discuss theoretical properties of such class of models, including identifiability under very general conditions - in particular, showing that the minimal representation for such mixtures is uniquely identifiable in a semi-parametric setting. We further study the posterior contraction rates for the parameters for a parametrized class of such models where the supports of the component mixing measures are assumed to be convex polytopes under a suitable well-specified Bayesian regime. This still requires developing novel inverse bounds for problems involving a nested mixture structure, where the mixture kernel is itself another continuous mixture. Our approach for both the identifiability theory and posterior contraction rates is to exploit the geometric structure of the underlying support of the latent measures. Apart from applications in end-member analysis, spectral unmixing and topic models, this study provides a grounded framework for subspace clustering with the goal of exploring conditions for learning multiple latent low-dimensional structures. We illustrate our findings through careful simulation study, which also includes developing new algorithms for such class of models",
+ "primary": "math.ST"
+}

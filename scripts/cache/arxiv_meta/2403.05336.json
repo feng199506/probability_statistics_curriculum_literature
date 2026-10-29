@@ -1,0 +1,17 @@
+{
+ "id": "2403.05336",
+ "title": "Estimating time-varying exposure effects through continuous-time modelling in Mendelian randomization",
+ "authors": [
+  "Haodong Tian",
+  "Ashish Patel",
+  "Stephen Burgess"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 1,
+ "latest_date": "2024-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mendelian randomization is an instrumental variable method that utilizes genetic information to investigate the causal effect of a modifiable exposure on an outcome. In most cases, the exposure changes over time. Understanding the time-varying causal effect of the exposure can yield detailed insights into mechanistic effects and the potential impact of public health interventions. Recently, a growing number of Mendelian randomization studies have attempted to explore time-varying causal effects. However, the proposed approaches oversimplify temporal information and rely on overly restrictive structural assumptions, limiting their reliability in addressing time-varying causal problems. This paper considers a novel approach to estimate time-varying effects through continuous-time modelling by combining functional principal component analysis and weak-instrument-robust techniques. Our method effectively utilizes available data without making strong structural assumptions and can be applied in general settings where the exposure measurements occur at different timepoints for different individuals. We demonstrate through simulations that our proposed method performs well in estimating time-varying effects and provides reliable inference results when the time-varying effect form is correctly specified. The method could theoretically be used to estimate arbitrarily complex time-varying effects. However, there is a trade-off between model complexity and instrument strength. Estimating complex time-varying effects requires instruments that are unrealistically strong. We illustrate the application of this method in a case study examining the time-varying effects of systolic blood pressure on urea levels.",
+ "primary": "stat.ME"
+}

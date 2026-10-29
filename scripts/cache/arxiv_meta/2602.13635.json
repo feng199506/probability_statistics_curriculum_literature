@@ -1,0 +1,15 @@
+{
+ "id": "2602.13635",
+ "title": "Backward Smoothing versus Fixed-Lag Smoothing in Particle Filters",
+ "authors": [
+  "Genshiro Kitagawa"
+ ],
+ "v1_date": "2026-02-14",
+ "latest_version": 1,
+ "latest_date": "2026-02-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 5 tables, 7 figures",
+ "abstract": "Particle smoothing enables state estimation in nonlinear and non-Gaussian state-space models, but its practical use is often limited by high computational cost. Backward smoothing methods such as the Forward Filter Backward Smoother (FFBS) and its marginal form (FFBSm) can achieve high accuracy, yet typically require quadratic computational complexity in the number of particles. This paper examines the accuracy--computational cost trade-offs of particle smoothing methods through a trend-estimation example. Fixed-lag smoothing, FFBS, and FFBSm are compared under Gaussian and heavy-tailed (Cauchy-type) system noise, with particular attention to O(m) approximations of FFBSm based on subsampling and local neighborhood restrictions. The results show that FFBS and FFBSm outperform fixed-lag smoothing at a fixed particle number, while fixed-lag smoothing often achieves higher accuracy under equal computational time. Moreover, efficient FFBSm approximations are effective for Gaussian transitions but become less advantageous for heavy-tailed dynamics.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2503.02982",
+ "title": "Heavy-traffic Optimality of Skip-the-Longest-Queues in Heterogeneous Service Systems",
+ "authors": [
+  "Yishun Luo",
+  "Martin Zubeldia"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 2,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider a discrete-time parallel service system consisting of $n$ heterogeneous single server queues with infinite capacity. Jobs arrive to the system as an i.i.d. process with rate proportional to $n$, and must be immediately dispatched in the time slot that they arrive. The dispatcher is assumed to be able to exchange messages with the servers to obtain their queue lengths and make dispatching decisions, introducing an undesirable communication overhead. In this setting, we propose a ultra-low communication overhead load balancing policy dubbed $k$-Skip-the-$d$-Longest-Queues ($k$-SLQ-$d$), where queue lengths are only observed every $k(n-d)$ time slots and, between observations, incoming jobs are sent to a queue that is not one of the $d$ longest ones at the time that the queues were last observed. For this policy, we establish conditions on $d$ for it to be throughput optimal and we show that, under that condition, it is asymptotically delay-optimal in heavy-traffic for arbitrarily low communication overheads (i.e., for arbitrarily large $k$).",
+ "primary": "cs.PF"
+}

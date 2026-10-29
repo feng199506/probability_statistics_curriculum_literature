@@ -1,0 +1,16 @@
+{
+ "id": "2311.05794",
+ "title": "An Experimental Design for Anytime-Valid Causal Inference on Multi-Armed Bandits",
+ "authors": [
+  "Biyonka Liang",
+  "Iavor Bojinov"
+ ],
+ "v1_date": "2023-11-09",
+ "latest_version": 4,
+ "latest_date": "2024-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Experimentation is crucial for managers to rigorously quantify the value of a change and determine if it leads to a statistically significant improvement over the status quo. As companies increasingly mandate that all changes undergo experimentation before widespread release, two challenges arise: (1) minimizing the proportion of customers assigned to the inferior treatment and (2) increasing experimentation velocity by enabling data-dependent stopping. This paper addresses both challenges by introducing the Mixture Adaptive Design (MAD), a new experimental design for multi-armed bandit (MAB) algorithms that enables anytime-valid inference on the Average Treatment Effect (ATE) for \\emph{any} MAB algorithm. Intuitively, MAD \"mixes\" any bandit algorithm with a Bernoulli design, where at each time step, the probability of assigning a unit via the Bernoulli design is determined by a user-specified deterministic sequence that can converge to zero. This sequence lets managers directly control the trade-off between regret minimization and inferential precision. Under mild conditions on the rate the sequence converges to zero, we provide a confidence sequence that is asymptotically anytime-valid and guaranteed to shrink around the true ATE. Hence, when the true ATE converges to a non-zero value, the MAD confidence sequence is guaranteed to exclude zero in finite time. Therefore, the MAD enables managers to stop experiments early while ensuring valid inference, enhancing both the efficiency and reliability of adaptive experiments. Empirically, we demonstrate that the MAD achieves finite-sample anytime-validity while accurately and precisely estimating the ATE, all without incurring significant losses in reward compared to standard bandit designs.",
+ "primary": "stat.ME"
+}

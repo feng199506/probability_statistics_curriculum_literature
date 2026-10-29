@@ -1,0 +1,16 @@
+{
+ "id": "2409.18908",
+ "title": "Inference with Sequential Monte-Carlo Computation of $p$-values: Fast and Valid Approaches",
+ "authors": [
+  "Ivo V. Stoepker",
+  "Rui M. Castro"
+ ],
+ "v1_date": "2024-09-27",
+ "latest_version": 1,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hypothesis tests calibrated by (re)sampling methods (such as permutation, rank and bootstrap tests) are useful tools for statistical analysis, at the computational cost of requiring Monte-Carlo sampling for calibration. It is common and almost universal practice to execute such tests with predetermined and large number of Monte-Carlo samples, and disregard any randomness from this sampling at the time of drawing and reporting inference. At best, this approach leads to computational inefficiency, and at worst to invalid inference. That being said, a number of approaches in the literature have been proposed to adaptively guide analysts in choosing the number of Monte-Carlo samples, by sequentially deciding when to stop collecting samples and draw inference. These works introduce varying competing notions of what constitutes \"valid\" inference, complicating the landscape for analysts seeking suitable methodology. Furthermore, the majority of these approaches solely guarantee a meaningful estimate of the testing outcome, not the $p$-value itself $\\unicode{x2014}$ which is insufficient for many practical applications. In this paper, we survey the relevant literature, and build bridges between the scattered validity notions, highlighting some of their complementary roles. We also introduce a new practical methodology that provides an estimate of the $p$-value of the Monte-Carlo test, endowed with practically relevant validity guarantees. Moreover, our methodology is sequential, updating the $p$-value estimate after each new Monte-Carlo sample has been drawn, while retaining important validity guarantees regardless of the selected stopping time. We conclude this paper with a set of recommendations for the practitioner, both in terms of selection of methodology and manner of reporting results.",
+ "primary": "stat.ME"
+}

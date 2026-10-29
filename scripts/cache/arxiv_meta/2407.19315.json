@@ -1,0 +1,17 @@
+{
+ "id": "2407.19315",
+ "title": "Convergence of Random Batch Method with replacement for interacting particle systems",
+ "authors": [
+  "Zhenhao Cai",
+  "Jian-Guo Liu",
+  "Yuliang Wang"
+ ],
+ "v1_date": "2024-07-27",
+ "latest_version": 2,
+ "latest_date": "2025-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Random Batch Method (RBM) proposed in [Jin et al. J Comput Phys, 2020] is an efficient algorithm for simulating interacting particle systems (IPS). In this paper, we investigate the Random Batch Method with replacement (RBM-r), which is the same as the kinetic Monte Carlo (KMC) method for the pairwise interacting particle system of size $N$. In the RBM-r algorithm, one randomly picks a small batch of size $p \\ll N$, and only the particles in the picked batch interact among each other within the batch for a short time, where the weak interaction (of strength $\\frac{1}{N-1}$) in the original system is replaced by a strong interaction (of strength $\\frac{1}{p-1}$). Then one repeats this pick-interact process. This KMC algorithm dramatically reduces the computational cost from $O(N^2)$ to $O(pN)$ per time step, and provides an unbiased approximation of the original force/velocity field of the interacting particle system. We give a rigorous proof of this approximation with an explicit convergence rate. In detail, we show that the Wasserstein-2 distance between first marginal distributions of IPS and RBM-r has an $O(κ^{1/4})$ upper bound, where $κ$ is the time step for choosing the random batch and the bound is independent of $N$. An improved $O(κ^{1/2})$ rate is also obtained when there is no diffusion in the system. Notably, the techniques in our analysis can potentially be applied to study KMC for other systems, including the stochastic Ising spin system.",
+ "primary": "math.NA"
+}

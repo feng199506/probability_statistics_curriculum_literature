@@ -1,0 +1,15 @@
+{
+ "id": "2409.01444",
+ "title": "A causal viewpoint on prediction model performance under changes in case-mix: discrimination and calibration respond differently for prognosis and diagnosis predictions",
+ "authors": [
+  "Wouter A. C. van Amsterdam"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 3,
+ "latest_date": "2025-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Prediction models need reliable predictive performance as they inform clinical decisions, aiding in diagnosis, prognosis, and treatment planning. The predictive performance of these models is typically assessed through discrimination and calibration. Changes in the distribution of the data impact model performance and there may be important changes between a model's current application and when and where its performance was last evaluated. In health-care, a typical change is a shift in case-mix. For example, for cardiovascular risk management, a general practitioner sees a different mix of patients than a specialist in a tertiary hospital. This work introduces a novel framework that differentiates the effects of case-mix shifts on discrimination and calibration based on the causal direction of the prediction task. When prediction is in the causal direction (often the case for prognosis predictions), calibration remains stable under case-mix shifts, while discrimination does not. Conversely, when predicting in the anti-causal direction (often with diagnosis predictions), discrimination remains stable, but calibration does not. A simulation study and empirical validation using cardiovascular disease prediction models demonstrate the implications of this framework. The causal case-mix framework provides insights for developing, evaluating and deploying prediction models across different clinical settings, emphasizing the importance of understanding the causal structure of the prediction task.",
+ "primary": "stat.ME"
+}

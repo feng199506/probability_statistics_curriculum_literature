@@ -1,0 +1,19 @@
+{
+ "id": "2407.05537",
+ "title": "Optimal treatment strategies for prioritized outcomes",
+ "authors": [
+  "Kyle Duke",
+  "Eric B. Laber",
+  "Marie Davidian",
+  "Michael Newcomb",
+  "Brian Mustanksi"
+ ],
+ "v1_date": "2024-07-08",
+ "latest_version": 1,
+ "latest_date": "2024-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic treatment regimes formalize precision medicine as a sequence of decision rules, one for each stage of clinical intervention, that map current patient information to a recommended intervention. Optimal regimes are typically defined as maximizing some functional of a scalar outcome's distribution, e.g., the distribution's mean or median. However, in many clinical applications, there are multiple outcomes of interest. We consider the problem of estimating an optimal regime when there are multiple outcomes that are ordered by priority but which cannot be readily combined by domain experts into a meaningful single scalar outcome. We propose a definition of optimality in this setting and show that an optimal regime with respect to this definition leads to maximal mean utility under a large class of utility functions. Furthermore, we use inverse reinforcement learning to identify a composite outcome that most closely aligns with our definition within a pre-specified class. Simulation experiments and an application to data from a sequential multiple assignment randomized trial (SMART) on HIV/STI prevention illustrate the usefulness of the proposed approach.",
+ "primary": "stat.ME"
+}

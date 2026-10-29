@@ -1,0 +1,15 @@
+{
+ "id": "2610.09627",
+ "title": "The Lambert Penalty: Logarithmic Shrinkage for Sparse Regression",
+ "authors": [
+  "Bahadır Yüzbaşı"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages including a 8-page technical supplement; 2 figures, 7 tables",
+ "abstract": "Sparse regression must balance prediction accuracy with reproducible variable selection. We introduce the Lambert penalty by limiting how quickly the retained fraction of a scalar score increases after variable entry. Maximizing retention under this scale-equivariant constraint yields a logarithmic transition from exact zero to an identity tail. The bounded penalty has a fixed shape and a single penalty parameter selected by training-only five-fold cross-validation. We derive an explicit scalar update, a sharp weak-convexity bound, a sufficient condition for multivariate uniqueness, and conditional convergence of exact cyclic coordinate descent. For fixed dimension, global minimizers are uniformly equivalent to the oracle estimator over an asymptotic tuning band. Gaussian simulations compare Lambert with LASSO, ridge, elastic net, MCP, and SCAD. Lambert favors prediction for strong equal signals and usually improves support recovery over SCAD; MCP often gives better support recovery, and convex methods remain competitive with weak signals or strong correlation. In a QSAR toxicity application, repeated nested cross-validation gives competitive prediction with compact, stable models, although error differences from MCP and SCAD are small. The empirical design followed exploratory development; independent confirmation remains necessary.",
+ "primary": "stat.ME"
+}

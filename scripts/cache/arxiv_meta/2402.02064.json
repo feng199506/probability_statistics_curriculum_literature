@@ -1,0 +1,18 @@
+{
+ "id": "2402.02064",
+ "title": "Prediction modelling with many correlated and zero-inflated predictors: assessing a nonnegative garrote approach",
+ "authors": [
+  "Mariella Gregorich",
+  "Michael Kammer",
+  "Harald Mischak",
+  "Georg Heinze"
+ ],
+ "v1_date": "2024-02-03",
+ "latest_version": 1,
+ "latest_date": "2024-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Building prediction models from mass-spectrometry data is challenging due to the abundance of correlated features with varying degrees of zero-inflation, leading to a common interest in reducing the features to a concise predictor set with good predictive performance. In this study, we formally established and examined regularized regression approaches, designed to address zero-inflated and correlated predictors. In particular, we describe a novel two-stage regularized regression approach (ridge-garrote) explicitly modelling zero-inflated predictors using two component variables, comprising a ridge estimator in the first stage and subsequently applying a nonnegative garrote estimator in the second stage. We contrasted ridge-garrote with one-stage methods (ridge, lasso) and other two-stage regularized regression approaches (lasso-ridge, ridge-lasso) for zero-inflated predictors. We assessed the predictive performance and predictor selection properties of these methods in a comparative simulation study and a real-data case study to predict kidney function using peptidomic features derived from mass-spectrometry. In the simulation study, the predictive performance of all assessed approaches was comparable, yet the ridge-garrote approach consistently selected more parsimonious models compared to its competitors in most scenarios. While lasso-ridge achieved higher predictive accuracy than its competitors, it exhibited high variability in the number of selected predictors. Ridge-lasso exhibited slightly superior predictive accuracy than ridge-garrote but at the expense of selecting more noise predictors. Overall, ridge emerged as a favourable option when variable selection is not a primary concern, while ridge-garrote demonstrated notable practical utility in selecting a parsimonious set of predictors, with only minimal compromise in predictive accuracy.",
+ "primary": "stat.ME"
+}

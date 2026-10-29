@@ -1,0 +1,21 @@
+{
+ "id": "2603.07667",
+ "title": "FusionRegister: Every Infrared and Visible Image Fusion Deserves Registration",
+ "authors": [
+  "Congcong Bian",
+  "Haolong Ma",
+  "Hui Li",
+  "Zhongwei Shen",
+  "Xiaoqing Luo",
+  "Xiaoning Song",
+  "Xiao-Jun Wu"
+ ],
+ "v1_date": "2026-03-08",
+ "latest_version": 1,
+ "latest_date": "2026-03-08",
+ "journal_ref": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), 2026, pp. 41551-41561",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial registration across different visual modalities is a critical but formidable step in multi-modality image fusion for real-world perception. Although several methods are proposed to address this issue, the existing registration-based fusion methods typically require extensive pre-registration operations, limiting their efficiency. To overcome these limitations, a general cross-modality registration method guided by visual priors is proposed for infrared and visible image fusion task, termed FusionRegister. Firstly, FusionRegister achieves robustness by learning cross-modality misregistration representations rather than forcing alignment of all differences, ensuring stable outputs even under challenging input conditions. Moreover, FusionRegister demonstrates strong generality by operating directly on fused results, where misregistration is explicitly represented and effectively handled, enabling seamless integration with diverse fusion methods while preserving their intrinsic properties. In addition, its efficiency is further enhanced by serving the backbone fusion method as a natural visual prior provider, which guides the registration process to focus only on mismatch regions, thereby avoiding redundant operations. Extensive experiments on three datasets demonstrate that FusionRegister not only inherits the fusion quality of state-of-the-art methods, but also delivers superior detail alignment and robustness, making it highly suitable for infrared and visible image fusion method. The code will be available at https://github.com/bociic/FusionRegister.",
+ "primary": "cs.CV"
+}

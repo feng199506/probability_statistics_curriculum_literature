@@ -1,0 +1,17 @@
+{
+ "id": "2410.11771",
+ "title": "Stein's method for marginals on large graphical models",
+ "authors": [
+  "Tiangang Cui",
+  "Shuigen Liu",
+  "Xin T. Tong"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 4,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many spatial models exhibit locality structures that effectively reduce their intrinsic dimensionality, enabling efficient approximation and sampling of high-dimensional distributions. However, existing approximation techniques primarily focus on joint distributions and do not provide precise accuracy control for low-dimensional marginals, which are of primary interest in many practical scenarios. By leveraging the locality structures, we establish a dimension independent uniform error bound for the marginals of approximate distributions. Inspired by the Stein's method, we introduce a novel $δ$-locality condition that quantifies the locality in distributions, and link it to the structural assumptions such as the sparse graphical models. The theoretical guarantee motivates the localization of existing sampling methods, as we illustrate through the localized likelihood-informed subspace method and localized score matching. We show that by leveraging the locality structure, these methods greatly reduce the sample complexity and computational cost via localized and parallel implementations.",
+ "primary": "stat.ML"
+}

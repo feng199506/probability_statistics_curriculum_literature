@@ -1,0 +1,18 @@
+{
+ "id": "2505.15423",
+ "title": "SplitWise Regression: Stepwise Modeling with Adaptive Dummy Encoding",
+ "authors": [
+  "Marcell T. Kurbucz",
+  "Nikolaos Tzivanakis",
+  "Nilufer Sari Aslam",
+  "Adam M. Sykulski"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 1,
+ "latest_date": "2025-05-21",
+ "journal_ref": "Scientific Reports 15, 42454 (2025)",
+ "doi": "10.1038/s41598-025-26597-7",
+ "comment": "15 pages, 1 figure, 3 tables",
+ "abstract": "Capturing nonlinear relationships without sacrificing interpretability remains a persistent challenge in regression modeling. We introduce SplitWise, a novel framework that enhances stepwise regression. It adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, but only when such transformations improve model fit, as assessed by the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC). This approach preserves the transparency of linear models while flexibly capturing nonlinear effects. Implemented as a user-friendly R package, SplitWise is evaluated on both synthetic and real-world datasets. The results show that it consistently produces more parsimonious and generalizable models than traditional stepwise and penalized regression techniques.",
+ "primary": "cs.LG"
+}

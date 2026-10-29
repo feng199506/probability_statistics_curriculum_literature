@@ -1,0 +1,16 @@
+{
+ "id": "2501.06924",
+ "title": "Moment-assisted subsampling method for Cox proportional hazards model with large-scale data",
+ "authors": [
+  "Miaomiao Su",
+  "Ruoyu Wang"
+ ],
+ "v1_date": "2025-01-12",
+ "latest_version": 1,
+ "latest_date": "2025-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Cox proportional hazards model is widely used in survival analysis to model time-to-event data. However, it faces significant computational challenges in the era of large-scale data, particularly when dealing with time-dependent covariates. This paper proposes a moment-assisted subsampling method that is both statistically and computationally efficient for inference under the Cox model. This efficiency is achieved by integrating the computationally efficient uniform subsampling estimator and whole data sample moments that are easy to compute even for large datasets. The resulting estimator is asymptotically normal with a smaller variance than the uniform subsampling estimator. Additionally, we derive the optimal sample moment for the Cox model that minimizes the asymptotic variance in Loewner order. With the optimal moment, the proposed estimator can achieve the same estimation efficiency as the whole data-based partial likelihood estimator while maintaining the computational advantages of subsampling. Simulation studies and real data analyses demonstrate the promising finite sample performance of the proposed estimator in terms of both estimation and computational efficiency.",
+ "primary": "stat.ME"
+}

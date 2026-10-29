@@ -1,0 +1,16 @@
+{
+ "id": "2312.10607",
+ "title": "Bayesian Model Selection via Mean-Field Variational Approximation",
+ "authors": [
+  "Yangfan Zhang",
+  "Yun Yang"
+ ],
+ "v1_date": "2023-12-17",
+ "latest_version": 1,
+ "latest_date": "2023-12-17",
+ "journal_ref": "",
+ "doi": "10.1093/jrsssb/qkad164",
+ "comment": "",
+ "abstract": "This article considers Bayesian model selection via mean-field (MF) variational approximation. Towards this goal, we study the non-asymptotic properties of MF inference under the Bayesian framework that allows latent variables and model mis-specification. Concretely, we show a Bernstein von-Mises (BvM) theorem for the variational distribution from MF under possible model mis-specification, which implies the distributional convergence of MF variational approximation to a normal distribution centering at the maximal likelihood estimator (within the specified model). Motivated by the BvM theorem, we propose a model selection criterion using the evidence lower bound (ELBO), and demonstrate that the model selected by ELBO tends to asymptotically agree with the one selected by the commonly used Bayesian information criterion (BIC) as sample size tends to infinity. Comparing to BIC, ELBO tends to incur smaller approximation error to the log-marginal likelihood (a.k.a. model evidence) due to a better dimension dependence and full incorporation of the prior information. Moreover, we show the geometric convergence of the coordinate ascent variational inference (CAVI) algorithm under the parametric model framework, which provides a practical guidance on how many iterations one typically needs to run when approximating the ELBO. These findings demonstrate that variational inference is capable of providing a computationally efficient alternative to conventional approaches in tasks beyond obtaining point estimates, which is also empirically demonstrated by our extensive numerical experiments.",
+ "primary": "stat.ME"
+}

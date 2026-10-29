@@ -1,0 +1,17 @@
+{
+ "id": "2601.00603",
+ "title": "Difference-in-Differences using Double Negative Controls and Graph Neural Networks for Unmeasured Network Confounding",
+ "authors": [
+  "Zihan Zhang",
+  "Lianyan Fu",
+  "Dehui Wang"
+ ],
+ "v1_date": "2026-01-02",
+ "latest_version": 1,
+ "latest_date": "2026-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating causal effects from observational network data faces dual challenges of network interference and unmeasured confounding. To address this, we propose a general Difference-in-Differences framework that integrates double negative controls (DNC) and graph neural networks (GNNs). Based on the modified parallel trends assumption and DNC, semiparametric identification of direct and indirect causal effects is established. We then propose doubly robust estimators. Specifically, an approach combining GNNs with the generalized method of moments is developed to estimate the functions of high-dimensional covariates and network structure. Furthermore, we derive the estimator's asymptotic normality under the $ψ$-network dependence and approximate neighborhood interference. Simulations show the finite-sample performance of our estimators. Finally, we apply our method to analyze the impact of China's green credit policy on corporate green innovation.",
+ "primary": "econ.EM"
+}

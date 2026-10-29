@@ -1,0 +1,17 @@
+{
+ "id": "2503.23211",
+ "title": "Optimal Change Point Detection and Inference in the Spectral Density of General Time Series Models",
+ "authors": [
+  "Sepideh Mosaferi",
+  "Abolfazl Safikhani",
+  "Peiliang Bai"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 2,
+ "latest_date": "2025-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Fixed minor typos in V1",
+ "abstract": "This paper addresses the problem of detecting change points in the spectral density of time series, motivated by EEG analysis of seizure patients. Seizures disrupt coherence and functional connectivity, necessitating precise detection. Departing from traditional parametric approaches, we utilize the Wold decomposition, representing general time series as autoregressive processes with infinite lags, which are truncated and estimated around the change point. Our detection procedure employs an initial estimator that systematically searches across time points. We examine the localization error and its dependence on time series properties and sample size. To enhance accuracy, we introduce an optimal rate method with an asymptotic distribution, facilitating the construction of confidence intervals. The proposed method effectively identifies seizure onset in EEG data and extends to event detection in video data. Comprehensive numerical experiments demonstrate its superior performance compared to existing techniques.",
+ "primary": "stat.ME"
+}

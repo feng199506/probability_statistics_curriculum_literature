@@ -1,0 +1,18 @@
+{
+ "id": "2601.05128",
+ "title": "Revealing the Truth: Calculating True Values in Causal Inference Simulation Studies via Gaussian Quadrature",
+ "authors": [
+  "Alex Ocampo",
+  "Enrico Giudice",
+  "Zachary R. McCaw",
+  "Tim P. Morris"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 1,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation studies are used to understand the properties of statistical methods. A key luxury in many simulation studies is knowledge of the true value (i.e. the estimand) being targeted. With this oracle knowledge in-hand, the researcher conducting the simulation study can assess across repeated realizations of the data how well a given method recovers the truth. In causal inference simulation studies, the truth is rarely a simple parameter of the statistical model chosen to generate the data. Instead, the estimand is often an average treatment effect, marginalized over the distribution of confounders and/or mediators. Luckily, these variables are often generated from common distributions such as the normal, uniform, exponential, or gamma. For all these distributions, Gaussian quadratures provide efficient and accurate calculation for integrands with integral kernels that stem from known probability density functions. We demonstrate through four applications how to use Gaussian quadrature to accurately and efficiently compute the true causal estimand. We also compare the pros and cons of Gauss-Hermite quadrature to Monte Carlo integration approaches, which we use as benchmarks. Overall, we demonstrate that the Gaussian quadrature is an accurate tool with negligible computation time, yet is underused for calculating the true causal estimands in simulation studies.",
+ "primary": "stat.ME"
+}

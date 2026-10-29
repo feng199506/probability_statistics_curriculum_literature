@@ -1,0 +1,15 @@
+{
+ "id": "2604.14486",
+ "title": "Tweedie Calculus",
+ "authors": [
+  "Santiago Torres"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 3,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tweedie's formula, which under Gaussian noise expresses the posterior mean of a latent variable directly from the observed-data density, is a cornerstone of empirical Bayes and measurement-error analysis. No general theory, however, explains when analogous identities hold, how they are structured, or how to derive them for non-Gaussian noise and for posterior functionals other than the mean. This paper develops such a framework for additive-noise models. I characterize when conditional expectations of an unobserved latent variable, given the observed signal, admit direct expressions in terms of the observed density -- identities I call \\emph{Tweedie representations} -- and show that they are governed by a linear map, the \\emph{Tweedie functional}. Under general conditions, I prove that this functional exists, is unique, and is continuous. I provide a constructive method for its computation based on Fourier analysis: the functional is obtained by extending the inverse Fourier transform of an explicit tempered distribution. The theory yields posterior-mean formulas for non-Gaussian noise and provides new representations for nonlinear posterior functionals. Applications include Laplace mechanisms in differential privacy and heteroskedastic Gaussian sequence models in compound decision problems.",
+ "primary": "math.ST"
+}

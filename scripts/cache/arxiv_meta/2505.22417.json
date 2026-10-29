@@ -1,0 +1,17 @@
+{
+ "id": "2505.22417",
+ "title": "High-Dimensional Binary Variates: Maximum Likelihood Estimation with Nonstationary Covariates and Factors",
+ "authors": [
+  "Xinbing Kong",
+  "Bin Wu",
+  "Wuyi Ye"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a high-dimensional binary variate model that accommodates nonstationary covariates and factors, and studies their asymptotic theory. This framework encompasses scenarios where single indices are nonstationary or cointegrated. For nonstationary single indices, the maximum likelihood estimator (MLE) of the coefficients has dual convergence rates and is collectively consistent under the condition $T^{1/2}/N\\to0$, as both the cross-sectional dimension $N$ and the time horizon $T$ approach infinity. The MLE of all nonstationary factors is consistent when $T^δ/N\\to0$, where $δ$ depends on the link function. The limiting distributions of the factors depend on time $t$, governed by the convergence of the Hessian matrix to zero. In the case of cointegrated single indices, the MLEs of both factors and coefficients converge at a higher rate of $\\min(\\sqrt{N},\\sqrt{T})$. A distinct feature compared to nonstationary single indices is that the dual rate of convergence of the coefficients increases from $(T^{1/4},T^{3/4})$ to $(T^{1/2},T)$. Moreover, the limiting distributions of the factors do not depend on $t$ in the cointegrated case. Monte Carlo simulations verify the accuracy of the estimates. In an empirical application, we analyze jump arrivals in financial markets using this model, extract jump arrival factors, and demonstrate their efficacy in large-cross-section asset pricing.",
+ "primary": "math.ST"
+}

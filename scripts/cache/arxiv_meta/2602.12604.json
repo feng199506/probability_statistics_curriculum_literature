@@ -1,0 +1,16 @@
+{
+ "id": "2602.12604",
+ "title": "Differentially Private Two-Stage Empirical Risk Minimization with Applications to Individualized Treatment Rule",
+ "authors": [
+  "Joowon Lee",
+  "Guanhua Chen"
+ ],
+ "v1_date": "2026-02-13",
+ "latest_version": 2,
+ "latest_date": "2026-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 2 figures. Technical proofs are omitted for the initial version. It will be included in future versions",
+ "abstract": "Differential privacy provides a formal framework for releasing statistical estimators that limit how much any single observation can influence the output, by injecting calibrated random noise. We study differentially private estimation in two-stage procedures common in causal inference and individualized treatment rule (ITR) learning, in which data-dependent weights are first estimated to enforce covariate balance and a parameter of interest is then obtained by weighted empirical risk minimization. We propose Differentially Private Two-Stage Empirical Risk Minimization (DP-2ERM), which privatizes the final estimator directly through objective perturbation calibrated to the data-dependent sensitivity of the full pipeline. The analysis combines deterministic weight-perturbation bounds for several covariate-balancing methods (inverse propensity weighting, entropy balancing weighting, and maximum mean discrepancy weighting) with probabilistic sensitivity bounds for the second-stage solution. The resulting calibration is sharper than the natural stage-wise composition baseline, which the same sensitivity analysis supplies as a byproduct. Simulation studies and a benchmark application to ITR learning demonstrate the improved privacy--utility trade-off.",
+ "primary": "math.ST"
+}

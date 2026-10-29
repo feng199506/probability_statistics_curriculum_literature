@@ -1,0 +1,17 @@
+{
+ "id": "2504.08243",
+ "title": "Practical Implementation of an End-to-End Methodology for SPC of 3-D Part Geometry: A Case Study",
+ "authors": [
+  "Yulin An",
+  "Xueqi Zhao",
+  "Enrique del Castillo"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 2,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "10.1080/00224065.2025.2516568",
+ "comment": "21 pages, 18 figures, Journal of Quality Technology (Accepted, to appear)",
+ "abstract": "Del Castillo and Zhao (2020, 2021, 2022, 2024) have recently proposed a new methodology for the Statistical Process Control (SPC) of discrete parts whose 3-dimensional (3D) geometrical data are acquired with non-contact sensors. The approach is based on monitoring the spectrum of the Laplace-Beltrami (LB) operator of each scanned part estimated using finite element methods (FEM). The spectrum of the LB operator is an intrinsic summary of the geometry of a part, independent of the ambient space. Hence, registration of scanned parts is unnecessary when comparing them. The primary goal of this case study paper is to demonstrate the practical implementation of the spectral SPC methodology through multiple examples using real scanned parts acquired with an industrial-grade laser scanner, including 3D printed parts and commercial parts. We discuss the scanned mesh preprocessing needed in practice, including the type of remeshing found to be most beneficial for the FEM computations. For each part type, both the \"phase I\" and \"phase II\" stages of the spectral SPC methodology are showcased. In addition, we provide a new principled method to determine the number of eigenvalues of the LB operator to consider for efficient SPC of a given part geometry, and present an improved algorithm to automatically define a region of interest, particularly useful for large meshes. Computer codes that implement every method discussed in this paper, as well as all scanned part datasets used in the case studies, are made available and explained in the supplementary materials.",
+ "primary": "stat.AP"
+}

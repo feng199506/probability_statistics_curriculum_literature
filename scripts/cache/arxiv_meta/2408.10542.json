@@ -1,0 +1,16 @@
+{
+ "id": "2408.10542",
+ "title": "High-Dimensional Covariate-Augmented Overdispersed Multi-Study Poisson Factor Model",
+ "authors": [
+  "Wei Liu",
+  "Qingzhi Zhong"
+ ],
+ "v1_date": "2024-08-20",
+ "latest_version": 1,
+ "latest_date": "2024-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Factor analysis for high-dimensional data is a canonical problem in statistics and has a wide range of applications. However, there is currently no factor model tailored to effectively analyze high-dimensional count responses with corresponding covariates across multiple studies, such as the single-cell sequencing dataset from a case-control study. In this paper, we introduce factor models designed to jointly analyze multiple studies by extracting study-shared and specified factors. Our factor models account for heterogeneous noises and overdispersion among counts with augmented covariates. We propose an efficient and speedy variational estimation procedure for estimating model parameters, along with a novel criterion for selecting the optimal number of factors and the rank of regression coefficient matrix. The consistency and asymptotic normality of estimators are systematically investigated by connecting variational likelihood and profile M-estimation. Extensive simulations and an analysis of a single-cell sequencing dataset are conducted to demonstrate the effectiveness of the proposed multi-study Poisson factor model.",
+ "primary": "stat.ME"
+}

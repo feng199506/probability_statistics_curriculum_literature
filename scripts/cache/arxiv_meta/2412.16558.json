@@ -1,0 +1,17 @@
+{
+ "id": "2412.16558",
+ "title": "A Proximal Newton Adaptive Importance Sampler",
+ "authors": [
+  "Víctor Elvira",
+  "Émilie Chouzenoux",
+  "O. Deniz Akyildiz"
+ ],
+ "v1_date": "2024-12-21",
+ "latest_version": 2,
+ "latest_date": "2025-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Adaptive importance sampling (AIS) algorithms are a rising methodology in signal processing, statistics, and machine learning. An effective adaptation of the proposals is key for the success of AIS. Recent works have shown that gradient information about the involved target density can greatly boost performance, but its applicability is restricted to differentiable targets. In this paper, we propose a proximal Newton adaptive importance sampler for the estimation of expectations with respect to non-smooth target distributions. We implement a scaled Newton proximal gradient method to adapt the proposal distributions, enabling efficient and optimized moves even when the target distribution lacks differentiability. We show the good performance of the algorithm in two scenarios: one with convex constraints and another with non-smooth sparse priors.",
+ "primary": "stat.CO"
+}

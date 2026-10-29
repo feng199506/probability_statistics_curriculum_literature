@@ -1,0 +1,17 @@
+{
+ "id": "2410.21166",
+ "title": "A Componentwise Estimation Procedure for Multivariate Location and Scatter: Robustness, Efficiency and Scalability",
+ "authors": [
+  "Soumya Chakraborty",
+  "Ayanendranath Basu",
+  "Abhik Ghosh"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 2,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariance matrix estimation is an important problem in multivariate data analysis, both from theoretical as well as applied points of view. Many simple and popular covariance matrix estimators are known to be severely affected by model misspecification and the presence of outliers in the data; on the other hand robust estimators with reasonably high efficiency are often computationally challenging for modern large and complex datasets. In this work, we propose a new, simple, robust and highly efficient method for estimation of the location vector and the scatter matrix for elliptically symmetric distributions. The proposed estimation procedure is designed in the spirit of the minimum density power divergence (DPD) estimation approach with appropriate modifications which makes our proposal (sequential minimum DPD estimation) computationally very economical and scalable to large as well as higher dimensional datasets. Consistency and asymptotic normality of the proposed sequential estimators of the multivariate location and scatter are established along with asymptotic positive definiteness of the estimated scatter matrix. Robustness of our estimators are studied by means of influence functions. All theoretical results are illustrated further under multivariate normality. A large-scale simulation study is presented to assess finite sample performances and scalability of our method in comparison to the usual maximum likelihood estimator (MLE), the ordinary minimum DPD estimator (MDPDE) and other popular non-parametric methods. The applicability of our method is further illustrated with a real dataset on credit card transactions.",
+ "primary": "stat.ME"
+}

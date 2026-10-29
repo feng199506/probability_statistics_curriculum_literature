@@ -1,0 +1,17 @@
+{
+ "id": "2505.21730",
+ "title": "pared: Model selection using multi-objective optimization",
+ "authors": [
+  "Priyam Das",
+  "Sarah Robinson",
+  "Christine B. Peterson"
+ ],
+ "v1_date": "2025-05-27",
+ "latest_version": 1,
+ "latest_date": "2025-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivation: Model selection is a ubiquitous challenge in statistics. For penalized models, model selection typically entails tuning hyperparameters to maximize a measure of fit or minimize out-of-sample prediction error. However, these criteria fail to reflect other desirable characteristics, such as model sparsity, interpretability, or smoothness. Results: We present the R package pared to enable the use of multi-objective optimization for model selection. Our approach entails the use of Gaussian process-based optimization to efficiently identify solutions that represent desirable trade-offs. Our implementation includes popular models with multiple objectives including the elastic net, fused lasso, fused graphical lasso, and group graphical lasso. Our R package generates interactive graphics that allow the user to identify hyperparameter values that result in fitted models which lie on the Pareto frontier. Availability: We provide the R package pared and vignettes illustrating its application to both simulated and real data at https://github.com/priyamdas2/pared.",
+ "primary": "stat.ME"
+}

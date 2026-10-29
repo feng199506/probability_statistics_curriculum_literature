@@ -1,0 +1,16 @@
+{
+ "id": "2410.22248",
+ "title": "Model-free Estimation of Latent Structure via Multiscale Nonparametric Maximum Likelihood",
+ "authors": [
+  "Bryon Aragam",
+  "Ruiyi Yang"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate distributions often carry latent structures that are difficult to identify and estimate, and which better reflect the data generating mechanism than extrinsic structures exhibited simply by the raw data. In this paper, we propose a model-free approach for estimating such latent structures whenever they are present, without assuming they exist a priori. Given an arbitrary density $p_0$, we construct a multiscale representation of the density and propose data-driven methods for selecting representative models that capture meaningful discrete structure. Our approach uses a nonparametric maximum likelihood estimator to estimate the latent structure at different scales and we further characterize their asymptotic limits. By carrying out such a multiscale analysis, we obtain coarseto-fine structures inherent in the original distribution, which are integrated via a model selection procedure to yield an interpretable discrete representation of it. As an application, we design a clustering algorithm based on the proposed procedure and demonstrate its effectiveness in capturing a wide range of latent structures.",
+ "primary": "stat.ME"
+}

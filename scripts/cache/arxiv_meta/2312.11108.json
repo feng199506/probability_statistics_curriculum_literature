@@ -1,0 +1,17 @@
+{
+ "id": "2312.11108",
+ "title": "Multiple change point detection in functional data with applications to biomechanical fatigue data",
+ "authors": [
+  "Patrick Bastian",
+  "Rupsa Basu",
+  "Holger Dette"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 3,
+ "latest_date": "2024-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Injuries to the lower extremity joints are often debilitating, particularly for professional athletes. Understanding the onset of stressful conditions on these joints is therefore important in order to ensure prevention of injuries as well as individualised training for enhanced athletic performance. We study the biomechanical joint angles from the hip, knee and ankle for runners who are experiencing fatigue. The data is cyclic in nature and densely collected by body worn sensors, which makes it ideal to work with in the functional data analysis (FDA) framework. We develop a new method for multiple change point detection for functional data, which improves the state of the art with respect to at least two novel aspects. First, the curves are compared with respect to their maximum absolute deviation, which leads to a better interpretation of local changes in the functional data compared to classical $L^2$-approaches. Secondly, as slight aberrations are to be often expected in a human movement data, our method will not detect arbitrarily small changes but hunts for relevant changes, where maximum absolute deviation between the curves exceeds a specified threshold, say $Δ>0$. We recover multiple changes in a long functional time series of biomechanical knee angle data, which are larger than the desired threshold $Δ$, allowing us to identify changes purely due to fatigue. In this work, we analyse data from both controlled indoor as well as from an uncontrolled outdoor (marathon) setting.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2610.29399",
+ "title": "Learning Epidemic Threshold Equations from Simulation: REEBLRA, an Interpretable Bayesian Classification Framework for Reproduction Numbers",
+ "authors": [
+  "Jomar F. Rabajante",
+  "Norvin P. Bansilan",
+  "Maria Czarina T. Lagura-Arreza",
+  "Destiny SM. Lutero",
+  "Emerson R. Rico"
+ ],
+ "v1_date": "2026-10-21",
+ "latest_version": 1,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "106 pages including Supplementary Information, 8 figures, 55 tables",
+ "abstract": "The basic reproduction number, $R_0$, is central to infectious-disease modelling, yet analytic expressions can be difficult to derive for high-dimensional, nonlinear, or structurally complex models. We introduce REEBLRA ($R_0$ Equation Estimation using Bayesian Logistic Regression Algorithm), an interpretable framework that learns explicit surrogate equations for epidemic thresholds from parameter--response data. Rather than directly regressing $R_0$, REEBLRA estimates $\\Pr\\{R_0(\\boldsymbolθ)>c\\}$ for parameter vector $\\boldsymbolθ$ and threshold $c$. It provides a binary equation for classifying epidemic invasion ($R_0>1$) and successive threshold equations defining ordered brackets that approximate $R_0$, the expected number of secondary infections caused by a typical case in a fully susceptible population. The resulting equations support parameter screening, sensitivity interpretation, threshold classification, and exploratory analysis when analytic derivation is cumbersome. Bayesian logistic regression using standardized polynomial-like features and proper weakly informative priors yields regularized estimates, posterior uncertainty, and finite coefficients under complete or quasi-complete separation. We establish a mechanistic--surrogate concordance principle linking the full fitted-score gradient to the local gradient of $\\log R_0$ under explicit regularity and tangency assumptions, allowing conditional interpretation of threshold directions. Across seven analytic-label benchmarks associated with ODE models, including a 15-compartment five-group SIR system, five-fold binary AUC was 0.999--1.000 and ordered-bracket accuracy was 0.951--0.998. REEBLRA complements rather than replaces mechanistic derivations, bridging simulation, machine learning, and reproduction-number analysis. An accompanying Shiny app supports implementation.",
+ "primary": "q-bio.QM"
+}

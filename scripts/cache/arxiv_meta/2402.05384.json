@@ -1,0 +1,17 @@
+{
+ "id": "2402.05384",
+ "title": "Efficient Nonparametric Inference for Mediation Analysis with Nonignorable Missing Confounders",
+ "authors": [
+  "Jiawei Shan",
+  "Wei Li",
+  "Chunrong Ai"
+ ],
+ "v1_date": "2024-02-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "Journal of the American Statistical Association (2026)",
+ "doi": "10.1080/01621459.2026.2654218",
+ "comment": "",
+ "abstract": "Mediation analysis is widely used for exploring treatment mechanisms; however, it faces challenges when nonignorable missing confounders are present. Efficient inference of mediation effects and the efficiency loss due to nonignorable missingness have been rarely studied in the literature because of the difficulties arising from the ill-posed inverse problem. In this paper, we propose a general shadow variable framework for identifying mediation effects, allowing shadow variables to be selected from either observed covariates or externally collected auxiliary data. We then propose a Sieve-based Iterative Outward (SIO) approach for estimation. We establish large-sample theory, particularly asymptotic normality, for the proposed estimator despite the ill-posedness of the problem. We show that our estimator is locally efficient and attains the semiparametric efficiency bound under certain conditions. Building on the efficient influence function, we explicitly quantify the efficiency loss attributable to missingness and propose a debiased machine learning approach for estimation and inference. We examine the finite-sample performance of the proposed approach using extensive simulation studies and showcase its practical applicability through an empirical analysis of CFPS data.",
+ "primary": "stat.ME"
+}

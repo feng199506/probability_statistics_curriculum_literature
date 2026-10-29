@@ -1,0 +1,17 @@
+{
+ "id": "2403.18216",
+ "title": "Minimax Optimal Fair Classification with Bounded Demographic Disparity",
+ "authors": [
+  "Xianli Zeng",
+  "Guang Cheng",
+  "Edgar Dobriban"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 1,
+ "latest_date": "2024-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mitigating the disparate impact of statistical machine learning methods is crucial for ensuring fairness. While extensive research aims to reduce disparity, the effect of using a \\emph{finite dataset} -- as opposed to the entire population -- remains unclear. This paper explores the statistical foundations of fair binary classification with two protected groups, focusing on controlling demographic disparity, defined as the difference in acceptance rates between the groups. Although fairness may come at the cost of accuracy even with infinite data, we show that using a finite sample incurs additional costs due to the need to estimate group-specific acceptance thresholds. We study the minimax optimal classification error while constraining demographic disparity to a user-specified threshold. To quantify the impact of fairness constraints, we introduce a novel measure called \\emph{fairness-aware excess risk} and derive a minimax lower bound on this measure that all classifiers must satisfy. Furthermore, we propose FairBayes-DDP+, a group-wise thresholding method with an offset that we show attains the minimax lower bound. Our lower bound proofs involve several innovations. Experiments support that FairBayes-DDP+ controls disparity at the user-specified level, while being faster and having a more favorable fairness-accuracy tradeoff than several baselines.",
+ "primary": "stat.ML"
+}

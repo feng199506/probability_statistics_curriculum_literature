@@ -1,0 +1,18 @@
+{
+ "id": "2507.09809",
+ "title": "Exploring the effects of mechanical ventilator settings with modified vector-valued treatment policies",
+ "authors": [
+  "Ziren Jiang",
+  "Philip S. Crooke",
+  "John J. Marini",
+  "Jared D. Huling"
+ ],
+ "v1_date": "2025-07-13",
+ "latest_version": 1,
+ "latest_date": "2025-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mechanical ventilation is critical for managing respiratory failure, but inappropriate ventilator settings can lead to ventilator-induced lung injury (VILI), increasing patient morbidity and mortality. Evaluating the causal impact of ventilator settings is challenging due to the complex interplay of multiple treatment variables and strong confounding due to ventilator guidelines. In this paper, we propose a modified vector-valued treatment policy (MVTP) framework coupled with energy balancing weights to estimate causal effects involving multiple continuous ventilator parameters simultaneously in addition to sensitivity analysis to unmeasured confounding. Our approach mitigates common challenges in causal inference for vector-valued treatments, such as infeasible treatment combinations, stringent positivity assumptions, and interpretability concerns. Using the MIMIC-III database, our analyses suggest that equal reductions in the total power of ventilation (i.e., the mechanical power) through different ventilator parameters result in different expected patient outcomes. Specifically, lowering airway pressures may yield greater reductions in patient mortality compared to proportional adjustments of tidal volume alone. Moreover, controlling for respiratory-system compliance and minute ventilation, we found a significant benefit of reducing driving pressure in patients with acute respiratory distress syndrome (ARDS). Our analyses help shed light on the contributors to VILI.",
+ "primary": "stat.ME"
+}

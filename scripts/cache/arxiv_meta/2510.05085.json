@@ -1,0 +1,18 @@
+{
+ "id": "2510.05085",
+ "title": "WOW: WAIC-Optimized Gating of Mixture Priors for External Data Borrowing",
+ "authors": [
+  "Shouhao Zhou",
+  "Qiuxin Gao",
+  "Chenqi Fu",
+  "Yanxun Xu"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 2,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The integration of external data using Bayesian mixture priors has become a powerful approach in clinical trials, offering significant potential to improve trial efficiency. Despite their strengths in analytical tractability and practical flexibility, existing methods such as the robust meta-analytic-predictive (rMAP) and self-adapting mixture (SAM) often presume borrowing without rigorously assessing whether external information is appropriate to incorporate. When external and concurrent data are discordant, excessive borrowing can bias estimation and lead to misleading conclusions. To address this, we introduce WOW, a Kullback-Leibler-based gating strategy guided by the widely applicable information criterion (WAIC). Within the mixture-prior framework, WAIC-Optimized Weighting (WOW) conducts a preliminary compatibility assessment between external and concurrent trial data to determine eligibility for borrowing. Only if this gating criterion is satisfied does borrowing proceed; a downstream mixture prior procedure, using user-specified fixed or adaptive weights, can then be applied to determine the amount of borrowing. Simulation studies demonstrate that incorporating the WOW strategy before Bayesian mixture prior borrowing methods effectively mitigates excessive borrowing and improves estimation accuracy. A real-data illustration further highlights the feasibility and interpretability of the proposed gate-then-borrow strategy. By providing a practical safeguard against inappropriate borrowing, WOW strengthens the reliability of mixture-prior methods and supports better decision-making in clinical trials.",
+ "primary": "stat.ME"
+}

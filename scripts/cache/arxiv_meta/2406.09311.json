@@ -1,0 +1,17 @@
+{
+ "id": "2406.09311",
+ "title": "Boosting Stochastic Optimisation for High-dimensional Latent Variable Models",
+ "authors": [
+  "Motonori Oka",
+  "Yunxiao Chen",
+  "Irini Moustaki"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 3,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Latent variable models are widely used in social and behavioural sciences, including education, psychology, and political science. With the increasing availability of large and complex datasets, high-dimensional latent variable models have become more common. However, estimating such models via marginal maximum likelihood is computationally challenging because it requires evaluating a large number of high-dimensional integrals. Stochastic optimisation, which combines stochastic approximation and sampling techniques, has been shown to be effective. It iterates between sampling latent variables from their posterior distribution under current parameter estimates and updating the model parameters using an approximate stochastic gradient constructed from the latent variable samples. In this paper, we investigate strategies to improve the performance of stochastic optimisation for high-dimensional latent variable models. The improvement is achieved through two strategies: a Metropolis-adjusted Langevin sampler that uses the gradient of the negative complete-data log-likelihood to sample latent variables efficiently, and a minibatch gradient technique that uses only a subset of observations when sampling latent variables and constructing stochastic gradients. Our simulation studies show that combining these strategies yields the best overall performance among competitors. An application to a personality test with 30 latent dimensions further demonstrates that the proposed algorithm scales effectively to high-dimensional settings.",
+ "primary": "stat.CO"
+}

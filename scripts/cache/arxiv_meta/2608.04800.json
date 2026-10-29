@@ -1,0 +1,16 @@
+{
+ "id": "2608.04800",
+ "title": "Debiasing the Lasso under Weaker Tail Assumptions",
+ "authors": [
+  "Leonardo Voltarelli",
+  "Roberto Imbuzeiro Oliveira"
+ ],
+ "v1_date": "2026-08-05",
+ "latest_version": 2,
+ "latest_date": "2026-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of high-dimensional inference with the lasso estimator. Different methods including 'double selection' techniques and multiple versions of the 'debiased lasso' have been proposed for this task with noticeable success. However, most guarantees assume strong hypotheses on the underlying data process and the errors in the linear regression model, such as subgaussian designs and independence between errors and the data itself. We show that 'standardizing' one's dataset -- a natural procedure in practical penalized regression -- leads to the same results under much weaker hypotheses, paying only a small price for not assuming light tails. The key technical point allowed by this step is exploiting the concentration properties of self-normalized processes. Importantly, we prove our results for two different methods closely related to the 'debiased lasso'. The second method performs valid inference even for a misspecified linear model, under mild sparsity conditions similar to the 'double selection' literature.",
+ "primary": "math.ST"
+}

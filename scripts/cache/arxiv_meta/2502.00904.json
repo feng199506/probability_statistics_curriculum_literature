@@ -1,0 +1,17 @@
+{
+ "id": "2502.00904",
+ "title": "Parameter Estimation of State Space Models Using Particle Importance Sampling",
+ "authors": [
+  "Yuxiong Gao",
+  "Wentao Li",
+  "Rong Chen"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 1,
+ "latest_date": "2025-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted by AISTATS2025",
+ "abstract": "State-space models have been used in many applications, including econometrics, engineering, medical research, etc. The maximum likelihood estimation (MLE) of the static parameter of general state-space models is not straightforward because the likelihood function is intractable. It is popular to use the sequential Monte Carlo(SMC) method to perform gradient ascent optimisation in either offline or online fashion. One problem with existing online SMC methods for MLE is that the score estimators are inconsistent, i.e. the bias does not vanish with increasing particle size. In this paper, two SMC algorithms are proposed based on an importance sampling weight function to use each set of generated particles more efficiently. The first one is an offline algorithm that locally approximates the likelihood function using importance sampling, where the locality is adapted by the effective sample size (ESS). The second one is a semi-online algorithm that has a computational cost linear in the particle size and uses score estimators that are consistent. We study its consistency and asymptotic normality. Their computational superiority is illustrated in numerical studies for long time series.",
+ "primary": "stat.ME"
+}

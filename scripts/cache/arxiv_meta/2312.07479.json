@@ -1,0 +1,17 @@
+{
+ "id": "2312.07479",
+ "title": "Convex Parameter Estimation of Perturbed Multivariate Generalized Gaussian Distributions",
+ "authors": [
+  "Nora Ouzir",
+  "Frédéric Pascal",
+  "Jean-Christophe Pesquet"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 1,
+ "latest_date": "2023-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The multivariate generalized Gaussian distribution (MGGD), also known as the multivariate exponential power (MEP) distribution, is widely used in signal and image processing. However, estimating MGGD parameters, which is required in practical applications, still faces specific theoretical challenges. In particular, establishing convergence properties for the standard fixed-point approach when both the distribution mean and the scatter (or the precision) matrix are unknown is still an open problem. In robust estimation, imposing classical constraints on the precision matrix, such as sparsity, has been limited by the non-convexity of the resulting cost function. This paper tackles these issues from an optimization viewpoint by proposing a convex formulation with well-established convergence properties. We embed our analysis in a noisy scenario where robustness is induced by modelling multiplicative perturbations. The resulting framework is flexible as it combines a variety of regularizations for the precision matrix, the mean and model perturbations. This paper presents proof of the desired theoretical properties, specifies the conditions preserving these properties for different regularization choices and designs a general proximal primal-dual optimization strategy. The experiments show a more accurate precision and covariance matrix estimation with similar performance for the mean vector parameter compared to Tyler's M-estimator. In a high-dimensional setting, the proposed method outperforms the classical GLASSO, one of its robust extensions, and the regularized Tyler's estimator.",
+ "primary": "stat.ME"
+}

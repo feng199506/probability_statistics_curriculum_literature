@@ -1,0 +1,16 @@
+{
+ "id": "2410.01839",
+ "title": "A Divide-and-Conquer Approach to Persistent Homology",
+ "authors": [
+  "Chenghui Li",
+  "Jessi Cisewski-Kehe"
+ ],
+ "v1_date": "2024-09-25",
+ "latest_version": 1,
+ "latest_date": "2024-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Persistent homology is a tool of topological data analysis that has been used in a variety of settings to characterize different dimensional holes in data. However, persistent homology computations can be memory intensive with a computational complexity that does not scale well as the data size becomes large. In this work, we propose a divide-and-conquer (DaC) method to mitigate these issues. The proposed algorithm efficiently finds small, medium, and large-scale holes by partitioning data into sub-regions and uses a Vietoris-Rips filtration. Furthermore, we provide theoretical results that quantify the bottleneck distance between DaC and the true persistence diagram and the recovery probability of holes in the data. We empirically verify that the rate coincides with our theoretical rate, and find that the memory and computational complexity of DaC outperforms an alternative method that relies on a clustering preprocessing step to reduce the memory and computational complexity of the persistent homology computations. Finally, we test our algorithm using spatial data of the locations of lakes in Wisconsin, where the classical persistent homology is computationally infeasible.",
+ "primary": "math.AT"
+}

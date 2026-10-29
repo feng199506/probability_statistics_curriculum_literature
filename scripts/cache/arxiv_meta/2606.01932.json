@@ -1,0 +1,18 @@
+{
+ "id": "2606.01932",
+ "title": "Spatial Capture-Recapture With Penalized Regression Splines to Flexibly Model Wildlife Density and Distribution",
+ "authors": [
+  "Andrew E. Seaton",
+  "David L. Borchers",
+  "Milou Groenenberg",
+  "Ben Stevenson"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial capture-recapture models are routinely used to estimate the abundance and distribution of wild animal populations and involve a latent spatial point process of animal activity centres that describes the spatial distribution of individuals. While traditional spatial capture-recapture models use a Poisson process, the assumption of conditional independence between points is often violated in practice due to factors not included in the point process, such as social clustering, territoriality, or preferential selection of habitat due to unobserved covariates. Log-Gaussian Cox processes are commonly used in spatial statistics to overcome weaknesses of Poisson processes, but methods to fit them within spatial capture-recapture do not currently exist. Here, we present a spatial capture-recapture framework that allows for the use of penalized regression splines to describe the activity centre distribution, with model fitting via a Laplace-approximate penalized marginal maximum likelihood approach. Our method approximates using a log-Gaussian Cox process for activity centres, and allows flexible modelling of nonlinear effect of covariates on density. We illustrate the use of our method with a simulation study and two case-studies. We demonstrate that, while population size estimates of traditional approaches are robust to density model misspecification, our approach substantially improves the estimation of spatial animal distributions.",
+ "primary": "stat.ME"
+}

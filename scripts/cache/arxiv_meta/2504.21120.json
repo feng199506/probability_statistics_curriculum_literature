@@ -1,0 +1,16 @@
+{
+ "id": "2504.21120",
+ "title": "A Hybrid Mixture of $t$-Factor Analyzers for Clustering High-dimensional Data",
+ "authors": [
+  "Kazeem Kareem",
+  "Fan Dai"
+ ],
+ "v1_date": "2025-04-29",
+ "latest_version": 2,
+ "latest_date": "2025-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a novel hybrid approach for estimating the mixture model of $t$-factor analyzers (MtFA) that employs multivariate $t$-distribution and factor model to cluster and characterize grouped data. The traditional estimation method for MtFA faces computational challenges, particularly in high-dimensional settings, where the eigendecomposition of large covariance matrices and the iterative nature of Expectation-Maximization (EM) algorithms lead to scalability issues. We propose a computational scheme that integrates a profile likelihood method into the EM framework to efficiently obtain the model parameter estimates. The effectiveness of our approach is demonstrated through simulations showcasing its superior computational efficiency compared to the existing method, while preserving clustering accuracy and resilience against outliers. Our method is applied to cluster the Gamma-ray bursts, reinforcing several claims in the literature that Gamma-ray bursts have heterogeneous subpopulations and providing characterizations of the estimated groups.",
+ "primary": "stat.ME"
+}

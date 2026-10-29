@@ -1,0 +1,16 @@
+{
+ "id": "2311.18668",
+ "title": "Forecasting Mortality Rates: A Linear Mixed-Effects Model",
+ "authors": [
+  "Reza Dastranj",
+  "Martin Kolar"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 2,
+ "latest_date": "2025-11-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A linear mixed-effects (LME) model is proposed for modelling and forecasting single and multi-population age-specific death rates (ASDRs). The innovative approach that we take in this study treats age, the interaction between gender and age, their interactions with predictors, and cohort as fixed effects. Furthermore, we incorporate additional random effects to account for variations in the intercept, predictor coefficients, and cohort effects among different age groups of females and males across various countries. In the single-population case, we will see how the random effects of intercept and slope change over different age groups. We will show that the LME model is identifiable. Using simulating parameter uncertainty in the LME model, we will calculate 95% uncertainty intervals for death rate forecasts. We will use data from the Human Mortality Database (HMD) to illustrate the procedure. We assess the predictive performance of the LME model in comparison to the Lee-Carter (LC) models fitted to individual populations. Additionally, we evaluate the predictive accuracy of the LME model relative to the Li-Lee (LL) model. Our results indicate that the LME model provides a more precise representation of observed mortality rates within the HMD, demonstrates robustness in calibration rate selection, and exhibits superior performance when contrasted with the LC and LL models.",
+ "primary": "stat.AP"
+}

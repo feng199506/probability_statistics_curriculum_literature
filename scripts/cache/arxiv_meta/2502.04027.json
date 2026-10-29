@@ -1,0 +1,16 @@
+{
+ "id": "2502.04027",
+ "title": "High-Frequency Market Manipulation Detection with a Markov-modulated Hawkes process",
+ "authors": [
+  "Timothée Fabre",
+  "Ioane Muni Toke"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 1,
+ "latest_date": "2025-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 15 figures",
+ "abstract": "This work focuses on a self-exciting point process defined by a Hawkes-like intensity and a switching mechanism based on a hidden Markov chain. Previous works in such a setting assume constant intensities between consecutive events. We extend the model to general Hawkes excitation kernels that are piecewise constant between events. We develop an expectation-maximization algorithm for the statistical inference of the Hawkes intensities parameters as well as the state transition probabilities. The numerical convergence of the estimators is extensively tested on simulated data. Using high-frequency cryptocurrency data on a top centralized exchange, we apply the model to the detection of anomalous bursts of trades. We benchmark the goodness-of-fit of the model with the Markov-modulated Poisson process and demonstrate the relevance of the model in detecting suspicious activities.",
+ "primary": "stat.ME"
+}

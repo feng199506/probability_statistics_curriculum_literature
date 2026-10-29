@@ -1,0 +1,15 @@
+{
+ "id": "2508.01418",
+ "title": "Bayesian Conformal Prediction via the Bayesian Bootstrap",
+ "authors": [
+  "Graham Gibson"
+ ],
+ "v1_date": "2025-08-02",
+ "latest_version": 1,
+ "latest_date": "2025-08-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable uncertainty quantification remains a central challenge in predictive modeling. While Bayesian methods are theoretically appealing, their predictive intervals can exhibit poor frequentist calibration, particularly with small sample sizes or model misspecification. We introduce a practical and broadly applicable Bayesian conformal approach based on the influence-function Bayesian bootstrap (BB) with data-driven tuning of the Dirichlet concentration parameter, α. By efficiently approximating the Bayesian bootstrap predictive distribution via influence functions and calibrating α to optimize empirical coverage or average log-probability, our method constructs prediction intervals and distributions that are both well-calibrated and sharp. Across a range of regression models and data settings, this Bayesian conformal framework consistently yields improved empirical coverage and log-score compared to standard Bayesian posteriors. Our procedure is fast, easy to implement, and offers a flexible approach for distributional calibration in predictive modeling.",
+ "primary": "stat.ME"
+}

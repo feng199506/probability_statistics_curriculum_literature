@@ -1,0 +1,20 @@
+{
+ "id": "2408.11594",
+ "title": "Rethinking the handling of method failure in comparison studies",
+ "authors": [
+  "Milena Wünsch",
+  "Moritz Herrmann",
+  "Elisa Noltenius",
+  "Mattia Mohr",
+  "Tim P. Morris",
+  "Anne-Laure Boulesteix"
+ ],
+ "v1_date": "2024-08-21",
+ "latest_version": 3,
+ "latest_date": "2025-10-06",
+ "journal_ref": "Statistics in Medicine 44 (2025):e70257",
+ "doi": "10.1002/sim.70257",
+ "comment": "",
+ "abstract": "Comparison studies in methodological research are intended to compare methods in an evidence-based manner to help data analysts select a suitable method for their application. To provide trustworthy evidence, they must be carefully designed, implemented, and reported, especially given the many decisions made in planning and running. A common challenge in comparison studies is to handle the \"failure\" of one or more methods to produce a result for some (real or simulated) data sets, such that their performances cannot be measured in those instances. Despite an increasing emphasis on this topic in recent literature (focusing on non-convergence as a common manifestation), there is little guidance on proper handling and interpretation, and reporting of the chosen approach is often neglected. This paper aims to fill this gap and offers practical guidance on handling method failure in comparison studies. After exploring common handlings across various published comparison studies from classical statistics and predictive modeling, we show that the popular approaches of discarding data sets yielding failure (either for all or the failing methods only) and imputing are inappropriate in most cases. We then recommend a different perspective on method failure - viewing it as the result of a complex interplay of several factors rather than just its manifestation. Building on this, we provide recommendations on more adequate handlings of method failure derived from realistic considerations. In particular, we propose considering fallback strategies that directly reflect the behavior of real-world users. Finally, we illustrate our recommendations and the dangers of inadequate handling of method failure through two exemplary comparison studies.",
+ "primary": "stat.ME"
+}

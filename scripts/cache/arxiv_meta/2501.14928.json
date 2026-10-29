@@ -1,0 +1,16 @@
+{
+ "id": "2501.14928",
+ "title": "Decision Making in Changing Environments: Robustness, Query-Based Learning, and Differential Privacy",
+ "authors": [
+  "Fan Chen",
+  "Alexander Rakhlin"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 1,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of interactive decision making in which the underlying environment changes over time subject to given constraints. We propose a framework, which we call \\textit{hybrid Decision Making with Structured Observations} (hybrid DMSO), that provides an interpolation between the stochastic and adversarial settings of decision making. Within this framework, we can analyze local differentially private (LDP) decision making, query-based learning (in particular, SQ learning), and robust and smooth decision making under the same umbrella, deriving upper and lower bounds based on variants of the Decision-Estimation Coefficient (DEC). We further establish strong connections between the DEC's behavior, the SQ dimension, local minimax complexity, learnability, and joint differential privacy. To showcase the framework's power, we provide new results for contextual bandits under the LDP constraint.",
+ "primary": "cs.LG"
+}

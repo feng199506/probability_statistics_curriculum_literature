@@ -1,0 +1,16 @@
+{
+ "id": "2609.17746",
+ "title": "Subgroup Inconsistency and the Dilution Effect in Levene's Test for Homoscedasticity",
+ "authors": [
+  "Vladimir Gurvich",
+  "Mariya Naumova"
+ ],
+ "v1_date": "2026-09-15",
+ "latest_version": 1,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Levene's test for homoscedasticity is a standard procedure used to evaluate whether multiple groups of independent observations share a common variance. Because Levene's test relies on an Analysis of Variance (ANOVA) applied to transformed absolute or squared deviations, it structurally mirrors the statistical properties of ANOVA itself. Let $μ_j$ and $σ^2_j$ denote the expectation and variance of the observations in group $j$. It was previously established that for a given significance level $α$, ANOVA can result in a logical contradiction: failing to reject the global null hypothesis $H_0: μ_1 = μ_2 = μ_3$ while simultaneously rejecting the localized hypothesis $H_0': μ_1 = μ_2$ with the same or higher confidence. In this paper, we show that Levene's test directly inherits this same ``paradox'' regarding group variances $σ^2_j$. We provide theoretical reasoning and a numerical illustration of this inconsistency, demonstrating how the addition of a well-behaved third group can dilute the test statistic and mask a significant localized variance discrepancy.",
+ "primary": "stat.ME"
+}

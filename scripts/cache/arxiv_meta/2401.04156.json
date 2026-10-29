@@ -1,0 +1,19 @@
+{
+ "id": "2401.04156",
+ "title": "LASPATED: a Library for the Analysis of SPAtio-TEmporal Discrete data",
+ "authors": [
+  "Vincent Guigues",
+  "Anton Kleywegt",
+  "Giovanni Amorim",
+  "André Mazal Krauss",
+  "Victor Hugo Nascimento"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 3,
+ "latest_date": "2024-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We describe methods, tools, and a software library called LASPATED, available on GitHub (at https://github.com/vguigues/) to fit models using spatio-temporal data and space-time discretization. A video tutorial for this library is available on YouTube. We consider two types of methods to estimate a non-homogeneous Poisson process in space and time. The methods approximate the arrival intensity function of the Poisson process by discretizing space and time, and estimating arrival intensity as a function of subregion and time interval. With such methods, it is typical that the dimension of the estimator is large relative to the amount of data, and therefore the performance of the estimator can be improved by using additional data. The first method uses additional data to add a regularization term to the likelihood function for calibrating the intensity of the Poisson process. The second method uses additional data to estimate arrival intensity as a function of covariates. We describe a Python package to perform various types of space and time discretization. We also describe two packages for the calibration of the models, one in Matlab and one in C++. We demonstrate the advantages of our methods compared to basic maximum likelihood estimation with simulated and real data. The experiments with real data calibrate models of the arrival process of emergencies to be handled by the Rio de Janeiro emergency medical service.",
+ "primary": "stat.ME"
+}

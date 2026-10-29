@@ -1,0 +1,17 @@
+{
+ "id": "2407.02295",
+ "title": "A Stochastic Calculus Approach to Boltzmann Transport",
+ "authors": [
+  "J. Darby Smith",
+  "Rich Lehoucq",
+  "Brian Franke"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 1,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "10.1080/00295639.2024.2350086",
+ "comment": "Original submitted manuscript. Published manuscript differs in: new expanded related work section; generalized formulas for non-unit velocity; and text corrections for typos and clarity. Accepted manuscript will be posted on OSTI and this comment will be updated with that information once available. This submitted version contains 24 pages, 1 table, and 2 figures. SAND2024-08017J",
+ "abstract": "Traditional Monte Carlo methods for particle transport utilize source iteration to express the solution, the flux density, of the transport equation as a Neumann series. Our contribution is to show that the particle paths simulated within source iteration are associated with the adjoint flux density and the adjoint particle paths are associated with the flux density. We make our assertion rigorous through the use of stochastic calculus by representing the particle path used in source iteration as a solution to a stochastic differential equation (SDE). The solution to the adjoint Boltzmann equation is then expressed in terms of the same SDE and the solution to the Boltzmann equation is expressed in terms of the SDE associated with the adjoint particle process. An important consequence is that the particle paths used within source iteration simultaneously provide Monte Carlo approximations of the flux density and adjoint flux density. Monte Carlo simulations are presented to support the simultaneous use of the particle paths.",
+ "primary": "math.PR"
+}

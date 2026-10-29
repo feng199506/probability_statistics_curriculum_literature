@@ -1,0 +1,16 @@
+{
+ "id": "2605.11766",
+ "title": "Uncovering Local Heterogeneity: Local Summary Characteristics for Spatial Point Processes with Composition-Valued Marks",
+ "authors": [
+  "Clemens Baldzuhn",
+  "Matthias Eckardt"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "submitted for publication",
+ "abstract": "Traditional analysis of marked spatial point processes often relies on global summary statistics, which tend to obscure local spatial heterogeneity by averaging dependencies across the entire observation window. To overcome this limitation, this paper introduces a framework for Local Indicators of Mark Association (LIMA) specifically designed for composition-valued marks. Such marks, characterized by their non-negative components and sum-to-constant constraint, require a specialized treatment within the Aitchison geometry. By employing log-ratio transformations, we project these constrained marks into a Euclidean space, enabling the point-specific decomposition of global mark characteristics. The efficacy of the proposed clr-based LIMA functions is validated through extensive simulation studies. The results demonstrate a superior capacity to detect localized mark clusters, achieving detection accuracies consistently higher than their global counterparts. The practical utility of this framework is demonstrated using an empirical dataset of economic sector compositions in Castile-La Mancha, Spain. The analysis uncovers latent economic clustering patterns and localized \\textit{drainage} effects that are invisible to global metrics, providing granular insights into regional spatial dynamics. Our findings suggest that the extended LIMA framework serves as a vital diagnostic tool for high-dimensional, non-stationary marked point patterns.",
+ "primary": "stat.ME"
+}

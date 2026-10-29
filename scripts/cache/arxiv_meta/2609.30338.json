@@ -1,0 +1,17 @@
+{
+ "id": "2609.30338",
+ "title": "Double Descent for Random Fourier Series Models",
+ "authors": [
+  "Hang Xu",
+  "Yi Shen",
+  "Yuzhong Zhao"
+ ],
+ "v1_date": "2026-09-24",
+ "latest_version": 1,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the least squares linear regression problem with random partial Discrete Fourier Transform (DFT) matrices, providing a rigorous analysis of the model's generalization error. By leveraging tools from random matrix theory, we derive exact non-asymptotic bounds for the risk of the Moore-Penrose estimator, which hold for finite-dimensional problems and reveal the precise dependence on key parameters such as the sample size, dimension, and noise variance. Then we obtain a characterization of the double descent phenomenon in the linear regression context, demonstrating how the risk evolves when the number of parameters $p$ and the number of samples $n$ tend to infinity, with $p/n$ fixed. The analysis relies on applications of the Stieltjes transform for random Fourier matrices, enabling a precise description of the spectral properties of these matrices and their impact on regression performance. To validate our theoretical findings, we present several numerical examples that illustrate the double descent curves. These simulations align closely with our derived bounds, confirming their predictive power in both under-parameterized and over-parameterized regimes.",
+ "primary": "math.ST"
+}

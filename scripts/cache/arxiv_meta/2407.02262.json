@@ -1,0 +1,18 @@
+{
+ "id": "2407.02262",
+ "title": "Conditional Forecasts in Large Bayesian VARs with Multiple Equality and Inequality Constraints",
+ "authors": [
+  "Joshua C. C. Chan",
+  "Davide Pettenuzzo",
+  "Aubrey Poon",
+  "Dan Zhu"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 1,
+ "latest_date": "2024-07-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conditional forecasts, i.e. projections of a set of variables of interest on the future paths of some other variables, are used routinely by empirical macroeconomists in a number of applied settings. In spite of this, the existing algorithms used to generate conditional forecasts tend to be very computationally intensive, especially when working with large Vector Autoregressions or when multiple linear equality and inequality constraints are imposed at once. We introduce a novel precision-based sampler that is fast, scales well, and yields conditional forecasts from linear equality and inequality constraints. We show in a simulation study that the proposed method produces forecasts that are identical to those from the existing algorithms but in a fraction of the time. We then illustrate the performance of our method in a large Bayesian Vector Autoregression where we simultaneously impose a mix of linear equality and inequality constraints on the future trajectories of key US macroeconomic indicators over the 2020--2022 period.",
+ "primary": "econ.EM"
+}

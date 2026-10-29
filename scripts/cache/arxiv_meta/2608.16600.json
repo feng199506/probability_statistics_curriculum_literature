@@ -1,0 +1,18 @@
+{
+ "id": "2608.16600",
+ "title": "GeoPose: Patient-agnostic CTA-to-DSA registration through projection-space calibration",
+ "authors": [
+  "Rudolf L. M. van Herten",
+  "Robert Graf",
+  "Paula Feldman",
+  "Johannes C. Paetzold"
+ ],
+ "v1_date": "2026-08-17",
+ "latest_version": 1,
+ "latest_date": "2026-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Aligning intraoperative biplanar digital subtraction angiography (DSA) to pre-procedural computed tomography angiography (CTA) requires rapid and accurate 3D-to-2D registration. Optimization-based methods are sensitive to initialization and may require hundreds of iterations, whereas learning-based approaches commonly rely on patient-specific training. We propose GeoPose, a population-trained framework that estimates the C-arm pose in a learned canonical frame and transfers it to the native frame of an unseen CTA through projection-space calibration and transform composition. A population-trained residual network refines the pose, followed optionally by low-budget image-driven optimization. GeoPose requires neither patient-specific adaptation nor explicit inter-volume preregistration. On 80 DSA observations from 20 held-out patients, optimization-free GeoPose achieved a carotid mean projected centerline distance (mPCD) of 5.8 mm and a clDice of 0.45, compared with 14.5 mm and 0.28 for the best-performing baseline, while requiring only 0.15 s. After 25 optimization iterations, GeoPose reached an mPCD of 4.6 mm and a clDice of 0.58 in approximately two seconds. Under the same budget, native-initialized optimization achieved 14.6 mm and 0.15, respectively. GeoPose thus provides rapid native-frame registration with fixed population-level weights and the geometric correspondence required for downstream biplanar 3D vascular reconstruction.",
+ "primary": "cs.CV"
+}

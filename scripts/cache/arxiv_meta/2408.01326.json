@@ -1,0 +1,15 @@
+{
+ "id": "2408.01326",
+ "title": "Mean and Covariance Estimation for Discretely Observed High-Dimensional Functional Data: Rates of Convergence and Division of Observational Regimes",
+ "authors": [
+  "Alexander Petersen"
+ ],
+ "v1_date": "2024-08-02",
+ "latest_version": 2,
+ "latest_date": "2024-08-05",
+ "journal_ref": "",
+ "doi": "10.1016/j.jmva.2024.105355",
+ "comment": "27 pages, Journal of Multivariate Analysis (accepted)",
+ "abstract": "Estimation of the mean and covariance parameters for functional data is a critical task, with local linear smoothing being a popular choice. In recent years, many scientific domains are producing multivariate functional data for which $p$, the number of curves per subject, is often much larger than the sample size $n$. In this setting of high-dimensional functional data, much of developed methodology relies on preliminary estimates of the unknown mean functions and the auto- and cross-covariance functions. This paper investigates the convergence rates of local linear estimators in terms of the maximal error across components and pairs of components for mean and covariance functions, respectively, in both $L^2$ and uniform metrics. The local linear estimators utilize a generic weighting scheme that can adjust for differing numbers of discrete observations $N_{ij}$ across curves $j$ and subjects $i$, where the $N_{ij}$ vary with $n$. Particular attention is given to the equal weight per observation (OBS) and equal weight per subject (SUBJ) weighting schemes. The theoretical results utilize novel applications of concentration inequalities for functional data and demonstrate that, similar to univariate functional data, the order of the $N_{ij}$ relative to $p$ and $n$ divides high-dimensional functional data into three regimes (sparse, dense, and ultra-dense), with the high-dimensional parametric convergence rate of $\\left\\{\\log(p)/n\\right\\}^{1/2}$ being attainable in the latter two.",
+ "primary": "math.ST"
+}

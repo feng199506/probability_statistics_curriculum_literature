@@ -1,0 +1,17 @@
+{
+ "id": "2404.19496",
+ "title": "Online and Offline Robust Multivariate Linear Regression",
+ "authors": [
+  "Antoine Godichon-Baggioni",
+  "Stephane S. Robin",
+  "Laure Sansonnet"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 2,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the robust estimation of the parameters of multivariate Gaussian linear regression models. To this aim we consider robust version of the usual (Mahalanobis) least-square criterion, with or without Ridge regularization. We introduce two methods each considered contrast: (i) online stochastic gradient descent algorithms and their averaged versions and (ii) offline fix-point algorithms. Under weak assumptions, we prove the asymptotic normality of the resulting estimates. Because the variance matrix of the noise is usually unknown, we propose to plug a robust estimate of it in the Mahalanobis-based stochastic gradient descent algorithms. We show, on synthetic data, the dramatic gain in terms of robustness of the proposed estimates as compared to the classical least-square ones. Well also show the computational efficiency of the online versions of the proposed algorithms. All the proposed algorithms are implemented in the R package RobRegression available on CRAN.",
+ "primary": "math.ST"
+}

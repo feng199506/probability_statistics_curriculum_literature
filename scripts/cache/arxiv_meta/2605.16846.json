@@ -1,0 +1,15 @@
+{
+ "id": "2605.16846",
+ "title": "Efficient frequentist fractional polynomials for skewed dose-response and survival data: a variance-reducing alternative to OLS-FP",
+ "authors": [
+  "Serhii Zabolotnii"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 3,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised and retitled version prepared for journal submission; applied biostatistical framing strengthened, primary-biliary-cirrhosis confirmation added, and supplementary theory separated. 25 pages, 2 figures, 5 tables",
+ "abstract": "Fractional polynomials (FP) are a standard tool for modelling nonlinear dose-response and covariate effects, implemented in the widely used mfp package. The conventional FP fit estimates its coefficients by ordinary least squares (OLS-FP), which is statistically inefficient when the regression errors are skewed or heavy-tailed, a common situation for survival times, concentrations and biomarkers. We present a drop-in replacement that keeps the identical FP model and design but estimates the coefficients with a moment-based score tuned to the residual skewness and kurtosis, giving a closed-form efficiency factor g2 = 1 - gamma3^2/(2+gamma4) relative to OLS-FP. Across skewed error laws the method reduces slope-coefficient variance by 10-20% for mildly skewed errors and up to roughly 60% for heavy-tailed log-normal errors, at realistic sample sizes, while keeping confidence-interval coverage close to nominal, and it reverts exactly to OLS-FP under symmetry, so it is never harmful when no gain is available. On the German Breast Cancer Study Group cohort it narrows the tumour-size confidence interval by 26% (bootstrap variance ratio 0.53 against the predicted 0.56), and a primary-biliary-cirrhosis cohort reproduces the gain. The estimator is closed-form, runs in milliseconds, and is released as a reproducible R package (pmm_fp in EstemPMM) with a one-command replication bundle; its core variance identity is machine-checked in Lean 4.",
+ "primary": "stat.ME"
+}

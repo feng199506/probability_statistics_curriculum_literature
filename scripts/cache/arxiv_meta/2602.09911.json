@@ -1,0 +1,17 @@
+{
+ "id": "2602.09911",
+ "title": "Doubly Robust Machine Learning for Population Size Estimation with Missing Covariates: Application to Gaza Conflict Mortality",
+ "authors": [
+  "Mateo Dulce Rubio",
+  "Edward H. Kennedy",
+  "Nicholas P. Jewell"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Population size estimation from capture-recapture data is central for studying hard-to-reach populations, incorporating auxiliary covariates to account for heterogeneous capture probabilities and recapture dependencies. However, missing attributes pose a critical methodological challenge due to reluctance to share sensitive information, data collection limitations, and imperfect record linkage. Existing approaches either ignore missingness or rely on a priori imputation, potentially introducing substantial bias. In this work, we develop a novel nonparametric estimation framework using a Missing at Random assumption to identify capture probabilities under missing covariates. Using semiparametric efficiency theory, we construct one-step estimators that combine efficiency, robustness, and finite-sample validity: they approximately achieve the nonparametric efficiency bound, accommodate flexible machine learning methods through a doubly robust structure, and provide approximately valid inference for any sample size. Simulations demonstrate substantial improvements over naive imputation approaches, with our doubly robust ML estimators maintaining valid inference even at high missingness rates where competing methods fail. We apply our methodology to re-estimate mortality in the Gaza Strip from October 7, 2023, to June 30, 2024, using three-list capture-recapture data with missing demographic information. Our approach yields more conservative yet precise estimates compared to previous methods, indicating the true death toll exceeds official statistics by approximately 26%. Our framework provides practitioners with principled tools for handling incomplete data in conflict settings and other applications with hard-to-reach populations.",
+ "primary": "stat.ME"
+}

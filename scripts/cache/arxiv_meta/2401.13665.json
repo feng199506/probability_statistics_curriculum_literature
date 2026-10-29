@@ -1,0 +1,16 @@
+{
+ "id": "2401.13665",
+ "title": "Entrywise Inference for Missing Panel Data: A Simple and Instance-Optimal Approach",
+ "authors": [
+  "Yuling Yan",
+  "Martin J. Wainwright"
+ ],
+ "v1_date": "2024-01-24",
+ "latest_version": 2,
+ "latest_date": "2024-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Longitudinal or panel data can be represented as a matrix with rows indexed by units and columns indexed by time. We consider inferential questions associated with the missing data version of panel data induced by staggered adoption. We propose a computationally efficient procedure for estimation, involving only simple matrix algebra and singular value decomposition, and prove non-asymptotic and high-probability bounds on its error in estimating each missing entry. By controlling proximity to a suitably scaled Gaussian variable, we develop and analyze a data-driven procedure for constructing entrywise confidence intervals with pre-specified coverage. Despite its simplicity, our procedure turns out to be instance-optimal: we prove that the width of our confidence intervals match a non-asymptotic instance-wise lower bound derived via a Bayesian Cramér-Rao argument. We illustrate the sharpness of our theoretical characterization on a variety of numerical examples. Our analysis is based on a general inferential toolbox for SVD-based algorithm applied to the matrix denoising model, which might be of independent interest.",
+ "primary": "math.ST"
+}

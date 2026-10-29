@@ -1,0 +1,18 @@
+{
+ "id": "2401.12640",
+ "title": "Multilevel network meta-regression for general likelihoods: synthesis of individual and aggregate data with applications to survival analysis",
+ "authors": [
+  "David M. Phillippo",
+  "Sofia Dias",
+  "A. E. Ades",
+  "Nicky J. Welton"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 2,
+ "latest_date": "2024-01-24",
+ "journal_ref": "",
+ "doi": "10.1093/jrsssa/qnaf169",
+ "comment": "43 pages, 8 figures (corrected metadata)",
+ "abstract": "Network meta-analysis combines aggregate data (AgD) from multiple randomised controlled trials, assuming that any effect modifiers are balanced across populations. Individual patient data (IPD) meta-regression is the \"gold standard\" method to relax this assumption, however IPD are frequently only available in a subset of studies. Multilevel network meta-regression (ML-NMR) extends IPD meta-regression to incorporate AgD studies whilst avoiding aggregation bias, but currently requires the aggregate-level likelihood to have a known closed form. Notably, this prevents application to time-to-event outcomes. We extend ML-NMR to individual-level likelihoods of any form, by integrating the individual-level likelihood function over the AgD covariate distributions to obtain the respective marginal likelihood contributions. We illustrate with two examples of time-to-event outcomes, showing the performance of ML-NMR in a simulated comparison with little loss of precision from a full IPD analysis, and demonstrating flexible modelling of baseline hazards using cubic M-splines with synthetic data on newly diagnosed multiple myeloma. ML-NMR is a general method for synthesising individual and aggregate level data in networks of all sizes. Extension to general likelihoods, including for survival outcomes, greatly increases the applicability of the method. R and Stan code is provided, and the methods are implemented in the multinma R package.",
+ "primary": "stat.ME"
+}

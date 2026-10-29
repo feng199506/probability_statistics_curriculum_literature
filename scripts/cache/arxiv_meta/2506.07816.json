@@ -1,0 +1,18 @@
+{
+ "id": "2506.07816",
+ "title": "Accelerating Constrained Sampling: A Large Deviations Approach",
+ "authors": [
+  "Yingli Wang",
+  "Changwei Tu",
+  "Xiaoyu Wang",
+  "Lingjiong Zhu"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 3,
+ "latest_date": "2026-04-05",
+ "journal_ref": "Journal of Machine Learning Research 2026, Volume 27, Number 118, 1-61",
+ "doi": "",
+ "comment": "59 pages, 15 figures",
+ "abstract": "The problem of sampling a target probability distribution on a constrained domain arises in many applications including machine learning. For constrained sampling, various Langevin algorithms such as projected Langevin Monte Carlo (PLMC), based on the discretization of reflected Langevin dynamics (RLD) and more generally skew-reflected non-reversible Langevin Monte Carlo (SRNLMC), based on the discretization of skew-reflected non-reversible Langevin dynamics (SRNLD), have been proposed and studied in the literature. This work focuses on the long-time behavior of SRNLD, where a skew-symmetric matrix is added to RLD. Although acceleration for SRNLD has been studied, it is not clear how one should design the skew-symmetric matrix in the dynamics to achieve good performance in practice. We establish a large deviation principle (LDP) for the empirical measure of SRNLD when the skew-symmetric matrix is chosen such that its product with the outward unit normal vector field on the boundary is zero. By explicitly characterizing the rate functions, we show that this choice of the skew-symmetric matrix accelerates the convergence to the target distribution compared to RLD and reduces the asymptotic variance. Numerical experiments for SRNLMC based on the proposed skew-symmetric matrix show superior performance, which validate the theoretical findings from the large deviations theory.",
+ "primary": "stat.ML"
+}

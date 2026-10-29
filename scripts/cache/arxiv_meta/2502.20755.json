@@ -1,0 +1,16 @@
+{
+ "id": "2502.20755",
+ "title": "Minimax Optimal Kernel Two-Sample Tests with Random Features",
+ "authors": [
+  "Soumya Mukherjee",
+  "Bharath K. Sriperumbudur"
+ ],
+ "v1_date": "2025-02-28",
+ "latest_version": 2,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 10 figures, 5 tables",
+ "abstract": "Reproducing Kernel Hilbert Space (RKHS) embedding of probability distributions has proved to be an effective approach, via MMD (maximum mean discrepancy), for nonparametric hypothesis testing problems involving distributions defined over general (non-Euclidean) domains. While a substantial amount of work has been done on this topic, only recently have minimax optimal two-sample tests been constructed that incorporate, unlike MMD, both the mean element and a regularized version of the covariance operator. However, as with most kernel algorithms, the optimal test scales cubically in the sample size, limiting its applicability. In this paper, we propose a spectral-regularized two-sample test based on random Fourier feature (RFF) approximation and investigate the trade-offs between statistical optimality and computational efficiency. We show the proposed test to be minimax optimal if the approximation order of RFF (which depends on the smoothness of the likelihood ratio and the decay rate of the eigenvalues of the integral operator) is sufficiently large. We develop a practically implementable permutation-based version of the proposed test with a data-adaptive strategy for selecting the regularization parameter. Finally, through numerical experiments on simulated and benchmark datasets, we demonstrate that the proposed RFF-based test is computationally efficient and performs almost similarly (with a small drop in power) to the exact test.",
+ "primary": "math.ST"
+}

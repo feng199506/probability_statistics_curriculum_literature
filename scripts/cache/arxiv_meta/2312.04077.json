@@ -1,0 +1,21 @@
+{
+ "id": "2312.04077",
+ "title": "Simulation study to evaluate when Plasmode simulation is superior to parametric simulation in estimating the mean squared error of the least squares estimator in linear regression",
+ "authors": [
+  "Marieke Stolte",
+  "Nicholas Schreck",
+  "Alla Slynko",
+  "Maral Saadati",
+  "Axel Benner",
+  "Jörg Rahnenführer",
+  "Andrea Bommert"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 4,
+ "latest_date": "2025-06-17",
+ "journal_ref": "PLOS ONE (2024)",
+ "doi": "10.1371/journal.pone.0299989",
+ "comment": "",
+ "abstract": "Simulation is a crucial tool for the evaluation and comparison of statistical methods. How to design fair and neutral simulation studies is therefore of great interest for researchers developing new methods and practitioners confronted with the choice of the most suitable method. The term simulation usually refers to parametric simulation, that is, computer experiments using artificial data made up of pseudo-random numbers. Plasmode simulation, that is, computer experiments using the combination of resampling feature data from a real-life dataset and generating the target variable with a known user-selected outcome-generating model (OGM), is an alternative that is often claimed to produce more realistic data. We compare parametric and Plasmode simulation for the example of estimating the mean squared error (MSE) of the least squares estimator (LSE) in linear regression. If the true underlying data-generating process (DGP) and the OGM were known, parametric simulation would obviously be the best choice in terms of estimating the MSE well. However, in reality, both are usually unknown, so researchers have to make assumptions: in Plasmode simulation for the OGM, in parametric simulation for both DGP and OGM. Most likely, these assumptions do not exactly reflect the truth. Here, we aim to find out how assumptions deviating from the true DGP and the true OGM affect the performance of parametric and Plasmode simulations in the context of MSE estimation for the LSE and in which situations which simulation type is preferable. Our results suggest that the preferable simulation method depends on many factors, including the number of features, and on how and to what extent the assumptions of a parametric simulation differ from the true DGP. Also, the resampling strategy used for Plasmode influences the results. In particular, subsampling with a small sampling proportion can be recommended.",
+ "primary": "stat.ME"
+}

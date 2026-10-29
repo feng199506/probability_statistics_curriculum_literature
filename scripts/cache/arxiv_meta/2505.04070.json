@@ -1,0 +1,16 @@
+{
+ "id": "2505.04070",
+ "title": "Regularized Fingerprinting with Linearly Optimal Weight Matrix in Detection and Attribution of Climate Change",
+ "authors": [
+  "Haoran Li",
+  "Yan Li"
+ ],
+ "v1_date": "2025-05-07",
+ "latest_version": 2,
+ "latest_date": "2025-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Climate change detection and attribution play a central role in establishing the causal influence of human activities on global warming. The dominant framework, optimal fingerprinting, is a linear errors-in-variables model in which each covariate is subject to measurement error with covariance proportional to that of the regression error. The reliability of such analyses depends critically on accurate inference of the regression coefficients. The optimal weight matrix for estimating these coefficients is the precision matrix of the regression error, which is typically unknown and must be estimated from climate model simulations. However, existing regularized optimal fingerprinting approaches often yield underestimated uncertainties and overly narrow confidence intervals that fail to attain nominal coverage, thereby compromising the reliability of analysis. In this paper, we first propose consistent variance estimators for the regression coefficients within the class of linear shrinkage weight matrices, addressing undercoverage in conventional methods. Building on this, we derive a linearly optimal weight matrix that directly minimizes the asymptotic variances of the estimated scaling factors. Numerical studies confirm improved empirical coverage and shorter interval lengths. When applied to annual mean temperature data, the proposed method produces narrower, more reliable intervals and provides new insights into detection and attribution across different regions.",
+ "primary": "stat.ME"
+}

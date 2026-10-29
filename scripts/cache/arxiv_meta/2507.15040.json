@@ -1,0 +1,18 @@
+{
+ "id": "2507.15040",
+ "title": "Time-Dependent Pseudo $\\boldsymbol{R^2}$ for Assessing Predictive Performance in Competing Risks Data",
+ "authors": [
+  "Zian Zhuang",
+  "Wen Su",
+  "Eric Kawaguchi",
+  "Gang Li"
+ ],
+ "v1_date": "2025-07-20",
+ "latest_version": 1,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 8 figures, 1 table",
+ "abstract": "Evaluating and validating the performance of prediction models is a fundamental task in statistics, machine learning, and their diverse applications. However, developing robust performance metrics for competing risks time-to-event data poses unique challenges. We first highlight how certain conventional predictive performance metrics, such as the C-index, Brier score, and time-dependent AUC, can yield undesirable results when comparing predictive performance between different prediction models. To address this research gap, we introduce a novel time-dependent pseudo $R^2$ measure to evaluate the predictive performance of a predictive cumulative incidence function over a restricted time domain under right-censored competing risks time-to-event data. Specifically, we first propose a population-level time-dependent pseudo $R^2$ measures for the competing risk event of interest and then define their corresponding sample versions based on right-censored competing risks time-to-event data. We investigate the asymptotic properties of the proposed measure and demonstrate its advantages over conventional metrics through comprehensive simulation studies and real data applications.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.06769",
+ "title": "Joint model for interval-censored semi-competing events and longitudinal data with subject-specific within and between visits variabilities",
+ "authors": [
+  "Léonie Courcoul",
+  "Catherine Helmer",
+  "Antoine Barbieri",
+  "Hélène Jacqmin-Gadda"
+ ],
+ "v1_date": "2024-08-13",
+ "latest_version": 1,
+ "latest_date": "2024-08-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 2 figures, 4 tables",
+ "abstract": "Dementia currently affects about 50 million people worldwide, and this number is rising. Since there is still no cure, the primary focus remains on preventing modifiable risk factors such as cardiovascular factors. It is now recognized that high blood pressure is a risk factor for dementia. An increasing number of studies suggest that blood pressure variability may also be a risk factor for dementia. However, these studies have significant methodological weaknesses and fail to distinguish between long-term and short-term variability. The aim of this work was to propose a new joint model that combines a mixed-effects model, which handles the residual variance distinguishing inter-visit variability from intra-visit variability, and an illness-death model that allows for interval censoring and semi-competing risks. A subject-specific random effect is included in the model for both variances. Risks can simultaneously depend on the current value and slope of the marker, as well as on each of the two components of the residual variance. The model estimation is performed by maximizing the likelihood function using the Marquardt-Levenberg algorithm. A simulation study validates the estimation procedure, which is implemented in an R package. The model was estimated using data from the Three-City (3C) cohort to study the impact of intra- and inter-visits blood pressure variability on the risk of dementia and death.",
+ "primary": "stat.ME"
+}

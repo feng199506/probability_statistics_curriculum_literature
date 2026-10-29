@@ -1,0 +1,18 @@
+{
+ "id": "2506.06087",
+ "title": "Multilevel neural simulation-based inference",
+ "authors": [
+  "Yuga Hikida",
+  "Ayush Bharti",
+  "Niall Jeffrey",
+  "François-Xavier Briol"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 4,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural simulation-based inference (SBI) is a popular set of methods for Bayesian inference when models are only available in the form of a simulator. These methods are widely used in the sciences and engineering, where writing down a likelihood can be significantly more challenging than constructing a simulator. However, the performance of neural SBI can suffer when simulators are computationally expensive, thereby limiting the number of simulations that can be performed. In this paper, we propose a novel approach to neural SBI which leverages multilevel Monte Carlo techniques for settings where several simulators of varying cost and fidelity are available. We demonstrate through both theoretical analysis and extensive experiments that our method can significantly enhance the accuracy of SBI methods given a fixed computational budget.",
+ "primary": "stat.ML"
+}

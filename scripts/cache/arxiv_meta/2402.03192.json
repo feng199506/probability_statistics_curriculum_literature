@@ -1,0 +1,16 @@
+{
+ "id": "2402.03192",
+ "title": "Multiple testing using uniform filtering of ordered p-values",
+ "authors": [
+  "Zhiwen Jiang",
+  "Stephan Morgenthaler"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 1,
+ "latest_date": "2024-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 5 figures",
+ "abstract": "We investigate the multiplicity model with m values of some test statistic independently drawn from a mixture of no effect (null) and positive effect (alternative), where we seek to identify, the alternative test results with a controlled error rate. We are interested in the case where the alternatives are rare. A number of multiple testing procedures filter the set of ordered p-values in order to eliminate the nulls. Such an approach can only work if the p-values originating from the alternatives form one or several identifiable clusters. The Benjamini and Hochberg (BH) method, for example, assumes that this cluster occurs in a small interval $(0,Δ)$ and filters out all or most of the ordered p-values $p_{(r)}$ above a linear threshold $s \\times r$. In repeated applications this filter controls the false discovery rate via the slope s. We propose a new adaptive filter that deletes the p-values from regions of uniform distribution. In cases where a single cluster remains, the p-values in an interval are declared alternatives, with the mid-point and the length of the interval chosen by controlling the data-dependent FDR at a desired level.",
+ "primary": "stat.ME"
+}

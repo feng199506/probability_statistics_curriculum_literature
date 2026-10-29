@@ -1,0 +1,16 @@
+{
+ "id": "2507.11124",
+ "title": "Joint semi-parametric INAR bootstrap inference for model coefficients and innovation distribution",
+ "authors": [
+  "Maxime Faymonville",
+  "Carsten Jentsch"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "64 pages, 2 figures, 26 tables",
+ "abstract": "For modeling the serial dependence in time series of counts, various approaches have been proposed in the literature. In particular, models based on a recursive, autoregressive-type structure such as the well-known integer-valued autoregressive (INAR) models are very popular in practice. The distribution of such INAR models is fully determined by a vector of autoregressive binomial thinning coefficients and the discrete innovation distribution. While fully parametric estimation techniques for these models are mostly covered in the literature, a semi-parametric approach allows for consistent and efficient joint estimation of the model coefficients and the innovation distribution without imposing any parametric assumptions. Although the limiting distribution of this estimator is known, which, in principle, enables asymptotic inference and INAR model diagnostics on the innovations, it is cumbersome to apply in practice. In this paper, we consider a corresponding semi-parametric INAR bootstrap procedure and show its joint consistency for the estimation of the INAR coefficients and for the estimation of the innovation distribution. We discuss different application scenarios that include goodness-of-fit testing, predictive inference and joint dispersion index analysis for count time series. In simulations, we illustrate the finite sample performance of the semi-parametric INAR bootstrap using several innovation distributions and provide real-data applications.",
+ "primary": "stat.ME"
+}

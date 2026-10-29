@@ -1,0 +1,17 @@
+{
+ "id": "2406.14453",
+ "title": "The Effective Number of Parameters in Kernel Density Estimation",
+ "authors": [
+  "Sofia Guglielmini",
+  "Igor Volobouev",
+  "Alexandre Trindade"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 2,
+ "latest_date": "2025-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The quest for a formula that satisfactorily measures the effective degrees of freedom in kernel density estimation (KDE) is a long standing problem with few solutions. Starting from the orthogonal polynomial sequence (OPS) expansion for the ratio of the empirical to the oracle density, we show how convolution with the kernel leads to a new OPS with respect to which one may express the resulting KDE. The expansion coefficients of the two OPS systems can then be related via a kernel sensitivity matrix, and this then naturally leads to a definition of effective parameters by taking the trace of a symmetrized positive semi-definite normalized version. The resulting effective degrees of freedom (EDoF) formula is an oracle-based quantity; the first ever proposed in the literature. Asymptotic properties of the empirical EDoF are worked out through influence functions. Numerical investigations confirm the theoretical insights.",
+ "primary": "stat.ME"
+}

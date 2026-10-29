@@ -1,0 +1,21 @@
+{
+ "id": "2505.23393",
+ "title": "Ordinal regression for meta-analysis of test accuracy: a flexible approach for utilising all threshold data",
+ "authors": [
+  "Enzo Cerullo",
+  "Klaus Linde",
+  "Haley E. Jones",
+  "Efthymia Derezea",
+  "Tim Lucas",
+  "Nicola J. Cooper",
+  "Alex J. Sutton"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 3,
+ "latest_date": "2025-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard (network) meta-analysis methods for medical test accuracy evaluation analyse the data separately for each test threshold - wasting data - unless every study reports all thresholds. Previously proposed \"multiple threshold\" models either fail to provide threshold-specific summary estimates, or they assume that ordinal tests (e.g., questionnaires) are continuous. We propose two ordinal regression models - ordinal-bivariate and ordinal-HSROC - using an induced-Dirichlet framework for cutpoint parameters, enabling intuitive priors and both fixed-effects and random-effects cutpoints. We conducted a simulation study to evaluate the performance of our proposed models, with the simulated data being based on real anxiety screening data spanning 7, 22, and 64 ordinal categories, with 15%, 40% and 55% missing threshold data. Our proposed ordinal-bivariate model with fixed-effect cutpoints tended to obtain the best RMSE and bias, including when data was generated from a recently proposed continuous-assumption model. For instance - even with 64 categories - continuous models performed 10%-30% worse than our models, contradicting the common assumption that many categories justify treating ordinal tests as continuous. Furthermore, the standard stratified-bivariate approach showed worse performance, especially for tests with higher missingness. We implemented the models in the MetaOrdDTA R package (https://github.com/CerulloE1996/MetaOrdDTA), which provides features such as: Stan estimation, K-fold cross-validation for model selection, meta-regression, network meta-analysis extensions, and visualisation tools including sROC plots with credible/prediction regions. Overall, our simulation study suggests that our proposed models may obtain better accuracy estimates than previous approaches for ordinal tests, even when the number of ordinal categories is very high.",
+ "primary": "stat.ME"
+}

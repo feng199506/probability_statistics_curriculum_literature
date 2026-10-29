@@ -1,0 +1,16 @@
+{
+ "id": "2401.00840",
+ "title": "Bayesian Effect Selection in Additive Models with an Application to Time-to-Event Data",
+ "authors": [
+  "Paul Bach",
+  "Nadja Klein"
+ ],
+ "v1_date": "2024-01-01",
+ "latest_version": 1,
+ "latest_date": "2024-01-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurately selecting and estimating smooth functional effects in additive models with potentially many functions is a challenging task. We introduce a novel Demmler-Reinsch basis expansion to model the functional effects that allows us to orthogonally decompose an effect into its linear and nonlinear parts. We show that our representation allows to consistently estimate both parts as opposed to commonly employed mixed model representations. Equipping the reparameterized regression coefficients with normal beta prime spike and slab priors allows us to determine whether a continuous covariate has a linear, a nonlinear or no effect at all. We provide new theoretical results for the prior and a compelling explanation for its superior Markov chain Monte Carlo mixing performance compared to the spike-and-slab group lasso. We establish an efficient posterior estimation scheme and illustrate our approach along effect selection on the hazard rate of a time-to-event response in the geoadditive Cox regression model in simulations and data on survival with leukemia.",
+ "primary": "stat.ME"
+}

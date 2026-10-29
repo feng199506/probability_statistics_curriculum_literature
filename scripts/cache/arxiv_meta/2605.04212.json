@@ -1,0 +1,18 @@
+{
+ "id": "2605.04212",
+ "title": "BOIN Designs for Dose Escalation With Selected Dose Combinations in Oncology Phase I Trials",
+ "authors": [
+  "Yuxuan Chen",
+  "Haiming Zhou",
+  "Keiko Nakajima",
+  "Philip He"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In phase I dose escalation studies for dual-agent combinations, at least one drug often has an established monotherapy dose. Consequently, substantial prior clinical safety data often exist for one or more monotherapies, allowing the study to focus on a subset of selected dose combinations rather than exhaustively evaluating all possible dose combinations for two agents. The Bayesian Optimal Interval (BOIN) design framework is widely recognized for its robust performance and ease of implementation; however, the BOIN for combination design, abbreviated as BOIN-C in this paper, was originally developed to evaluate full combinations and may not be directly applicable for the subset of selected combinations. In this paper, we propose three extensions to the BOIN-C design to address scenarios involving selected dose combinations: (a) BOIN-CS: a generalized BOIN-C design to accommodate any subset of dose combinations. (b) BOIN-CE: Exploration of new off-diagonal dose combinations when de-escalating. This option provides additional opportunities to treat patients with dose combinations that have not been administered. (c) BOIN-CB: Bayesian logistic regression model (BLRM)-guided BOIN design, which uses the BLRM model to break the tie when two dose combinations have an equal posterior probability of being selected. This can be useful when the dose-toxicity relationship is expected to be reasonably aligned with a logistic relationship. These study design options are motivated by practical considerations, and their operating characteristics are evaluated through extensive simulations under various scenarios, demonstrating satisfactory performance.",
+ "primary": "stat.ME"
+}

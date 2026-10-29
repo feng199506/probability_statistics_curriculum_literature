@@ -1,0 +1,18 @@
+{
+ "id": "2410.10619",
+ "title": "Partially exchangeable stochastic block models for (node-colored) multilayer networks",
+ "authors": [
+  "Daniele Durante",
+  "Francesco Gaffi",
+  "Antonio Lijoi",
+  "Igor Prünster"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 2,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multilayer networks generalize single-layered connectivity data in several directions. These generalizations include, among others, settings where multiple types of edges are observed among the same set of nodes (edge-colored networks) or where a single notion of connectivity is measured between nodes belonging to different pre-specified layers (node-colored networks). While progress has been made in statistical modeling of edge-colored networks, principled approaches that flexibly account for both within and across layer block-connectivity structures while incorporating layer information through a rigorous probabilistic construction are still lacking for node-colored multilayer networks. We fill this gap by introducing a novel class of partially exchangeable stochastic block models specified in terms of a hierarchical random partition prior for the allocation of nodes to groups, whose number is learned by the model. This goal is achieved without jeopardizing probabilistic coherence, uncertainty quantification and derivation of closed-form predictive within- and across-layer co-clustering probabilities. Our approach facilitates prior elicitation, the understanding of theoretical properties and the development of yet-unexplored predictive strategies for both the connections and the allocations of future incoming nodes. Posterior inference proceeds via a tractable collapsed Gibbs sampler, while performance is illustrated in simulations and in a real-world criminal network application. The notable gains achieved over competitors clarify the importance of developing general stochastic block models based on suitable node-exchangeability structures coherent with the type of multilayer network being analyzed.",
+ "primary": "stat.ME"
+}

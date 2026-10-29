@@ -1,0 +1,22 @@
+{
+ "id": "2412.20418",
+ "title": "Diff4MMLiTS: Advanced Multimodal Liver Tumor Segmentation via Diffusion-Based Image Synthesis and Alignment",
+ "authors": [
+  "Shiyun Chen",
+  "Li Lin",
+  "Pujin Cheng",
+  "ZhiCheng Jin",
+  "JianJian Chen",
+  "HaiDong Zhu",
+  "Kenneth K. Y. Wong",
+  "Xiaoying Tang"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 2,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "International Workshop on Machine Learning in Medical Imaging, 668-678",
+ "abstract": "Multimodal learning has been demonstrated to enhance performance across various clinical tasks, owing to the diverse perspectives offered by different modalities of data. However, existing multimodal segmentation methods rely on well-registered multimodal data, which is unrealistic for real-world clinical images, particularly for indistinct and diffuse regions such as liver tumors. In this paper, we introduce Diff4MMLiTS, a four-stage multimodal liver tumor segmentation pipeline: pre-registration of the target organs in multimodal CTs; dilation of the annotated modality's mask and followed by its use in inpainting to obtain multimodal normal CTs without tumors; synthesis of strictly aligned multimodal CTs with tumors using the latent diffusion model based on multimodal CT features and randomly generated tumor masks; and finally, training the segmentation model, thus eliminating the need for strictly aligned multimodal data. Extensive experiments on public and internal datasets demonstrate the superiority of Diff4MMLiTS over other state-of-the-art multimodal segmentation methods.",
+ "primary": "eess.IV"
+}

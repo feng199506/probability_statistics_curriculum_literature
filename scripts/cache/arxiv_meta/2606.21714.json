@@ -1,0 +1,17 @@
+{
+ "id": "2606.21714",
+ "title": "A Tutorial on Bregman Projection in Statistics",
+ "authors": [
+  "Gunhee Cho",
+  "Jae Kwang Kim",
+  "Yumou Qiu"
+ ],
+ "v1_date": "2026-06-19",
+ "latest_version": 1,
+ "latest_date": "2026-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A single geometric operation -- projecting a reference onto a constrained family under a Bregman divergence -- underlies a striking range of statistical methods. This tutorial develops the operation first as pure convex geometry, with no statistics attached. A strictly convex generator $G$ and its conjugate $F$ furnish two coordinate systems, a projection theorem with existence and uniqueness, and a Pythagorean {theorem}; the Pythagorean theorem itself produces {two} dual projections -- the information (e-) projection onto moment-constrained families and the moment (m-) projection onto exponential families -- exchanged by the conjugacy $G\\leftrightarrow F$, so a single theorem governs both. Part~II reads off the statistics. The generalized linear model is treated in detail as the concrete carrier of the two projections: {under the canonical link,} the score equation is exactly the Pythagorean orthogonality, and the fit is simultaneously an e-projection in the natural coordinate and an m-projection in the mean coordinate. Maximum entropy, survey calibration, over-identified moment models, the EM algorithm, variational inference, autoencoders, and expectation propagation then fall into place as instances of the same construction -- exactly where the underlying families are flat, and as controlled approximations or neighboring-divergence analogies where they are not. The mathematics of Part~I is self-contained; the statistical sections presume only familiarity with the methods being unified.",
+ "primary": "math.ST"
+}

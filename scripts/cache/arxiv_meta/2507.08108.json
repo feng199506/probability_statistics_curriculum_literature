@@ -1,0 +1,16 @@
+{
+ "id": "2507.08108",
+ "title": "Mallows Model with Learned Distance Metrics: Sampling and Maximum Likelihood Estimation",
+ "authors": [
+  "Yeganeh Alimohammadi",
+  "Kiana Asgari"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "\\textit{Mallows model} is a widely-used probabilistic framework for learning from ranking data, with applications ranging from recommendation systems and voting to aligning language models with human preferences~\\cite{chen2024mallows, kleinberg2021algorithmic, rafailov2024direct}. Under this model, observed rankings are noisy perturbations of a central ranking $σ$, with likelihood decaying exponentially in distance from $σ$, i.e, $P (π) \\propto \\exp\\big(-β\\cdot d(π, σ)\\big),$ where $β> 0$ controls dispersion and $d$ is a distance function. Existing methods mainly focus on fixed distances (such as Kendall's $τ$ distance), with no principled approach to learning the distance metric directly from data. In practice, however, rankings naturally vary by context; for instance, in some sports we regularly see long-range swaps (a low-rank team beating a high-rank one), while in others such events are rare. Motivated by this, we propose a generalization of Mallows model that learns the distance metric directly from data. Specifically, we focus on $L_α$ distances: $d_α(π,σ):=\\sum_{i=1} |π(i)-σ(i)|^α$. For any $α\\geq 1$ and $β>0$, we develop a Fully Polynomial-Time Approximation Scheme (FPTAS) to efficiently generate samples that are $ε$- close (in total variation distance) to the true distribution. Even in the special cases of $L_1$ and $L_2$, this generalizes prior results that required vanishing dispersion ($β\\to0$). Using this sampling algorithm, we propose an efficient Maximum Likelihood Estimation (MLE) algorithm that jointly estimates the central ranking, the dispersion parameter, and the optimal distance metric. We prove strong consistency results for our estimators (for any values of $α$ and $β$), and we validate our approach empirically using datasets from sports rankings.",
+ "primary": "stat.ML"
+}

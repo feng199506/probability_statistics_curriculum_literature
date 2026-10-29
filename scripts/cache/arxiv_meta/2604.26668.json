@@ -1,0 +1,18 @@
+{
+ "id": "2604.26668",
+ "title": "Nonlinear Probabilistic Forecast Reconciliation",
+ "authors": [
+  "Anubhab Biswas",
+  "Lorenzo Zambon",
+  "Lorenzo Nespoli",
+  "Giorgio Corani"
+ ],
+ "v1_date": "2026-04-29",
+ "latest_version": 3,
+ "latest_date": "2026-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added supplementary material",
+ "abstract": "Forecast reconciliation adjusts independently generated forecasts across multiple time series so that they satisfy some known constraints. While probabilistic forecast reconciliation is well established for linear constraints, some practical forecasting problems involve nonlinear relationships among time series. In this paper, we address probabilistic forecast reconciliation with nonlinear constraints for the first time. We extend both reconciliation via projection and conditioning to the case of nonlinear constraints. The former approach reconciles forecast samples by mapping them onto the nonlinear coherent manifold. The latter approach conditions the joint forecast distribution on the constraints; the reconciled distribution is approximated with an algorithm based on the Unscented Kalman Filter (UKF). We evaluate both methods on synthetic and real datasets. Empirically, both reconciliation approaches generally improve forecast accuracy. The UKF-based approach achieves the best overall performance, is consistently retained in the Model Confidence Set -- either alone or alongside other reconciliation methods -- and is substantially faster than the projection-based approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2408.06504",
+ "title": "Primed Priors for Simulation-Based Validation of Bayesian Models",
+ "authors": [
+  "Luna Fazio",
+  "Maximilian Scholz",
+  "Javier Enrique Aguilar",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2024-08-12",
+ "latest_version": 2,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Major revision of initial version",
+ "abstract": "Simulation-based calibration (SBC) is a method for validating inference algorithms and model implementations through repeated inference on data simulated from a generative model. For a model to be generative, one must specify proper priors. However, in all but the simplest of cases, choosing priors for every model parameter is a nontrivial task. In particular, priors that are too broad can produce numerical issues due to extreme parameter values while overly narrow ones can exclude precisely those regions of the parameter space where legitimate problems in the implementation would have manifested. When the data to be analyzed is already available, the issue can be sidestepped by checking calibration on the corresponding posterior, but that is not always a viable option. In this paper, we adapt the framework of catalytic priors, which have been recently proposed for construction of data-based prior distributions, and propose primed priors, which do not require real data and can therefore facilitate prior specification in SBC. We discuss relevant connections of primed priors to the theory of catalytic priors and show their use for SBC in three simulation studies.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2610.09506",
+ "title": "Mixing Times of Switch Chains via High-Dimensional Expansion",
+ "authors": [
+  "Sawyer Jack Robertson"
+ ],
+ "v1_date": "2026-10-07",
+ "latest_version": 1,
+ "latest_date": "2026-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 3 figures",
+ "abstract": "The switch chain is a Markov chain defined on the set of labelled realizations of a given graphical degree sequence. At each step, a pair of vertex-disjoint edges is chosen at random and the process attempts to replace them with a uniformly chosen perfect matching of the same four vertices, rejecting any proposal that would create a multiple edge. The resulting process is reversible with respect to the uniform distribution on all realizations. We investigate the mixing time of this chain by viewing realizations as the facets of a simplicial complex and studying a variant of the original process called the simplicial switch chain, which we analyze using tools from the theory of high-dimensional expansion. Our technical contributions include a proof that links of faces of sufficiently high codimension are strong spectral expanders and a comparison between the Dirichlet energies of large block updates and two-edge updates. Our main result is an $O(Δ^{2}m\\log m)$ bound on the mixing time of both simplicial and classical switch chains whenever $m\\ge CΔ^{8}$, where $m$ is the number of edges, $Δ$ is the maximum prescribed degree, and $C>0$ is an absolute constant. For sequences on $n$ vertices with fixed maximum degree, this proves that the chain mixes in $O(n\\log n)$ steps, resolving a longstanding conjecture of Cooper, Dyer, and Greenhill and extending its conclusion to irregular degree sequences.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2511.21497",
+ "title": "Nested ensemble Kalman filter for static parameter inference in nonlinear state-space models",
+ "authors": [
+  "Andrew Golightly",
+  "Sarah E. Heaps",
+  "Chris Sherlock",
+  "Laura E. Wadkin",
+  "Darren J. Wilkinson"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 2,
+ "latest_date": "2026-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "The ensemble Kalman filter (EnKF) is a popular technique for performing inference in state-space models (SSMs), particularly when the dynamic process is high-dimensional. Unlike reweighting methods such as sequential Monte Carlo (SMC, i.e. particle filters), the EnKF leverages either the linear Gaussian structure of the SSM or an approximation thereof, to maintain diversity of the sampled latent states (the so-called ensemble members) via shifting-based updates. Joint parameter and state inference using an EnKF is typically achieved by augmenting the state vector with the static parameter. In this case, it is assumed that both parameters and states follow a linear Gaussian state-space model, which may be unreasonable in practice. In this paper, we combine the reweighting and shifting methods by replacing the particle filter used in the SMC^2 algorithm of Chopin et al. (2013), with the ensemble Kalman filter. Hence, parameter particles are weighted according to the estimated observed-data likelihood from the latest observation computed by the EnKF, and particle diversity is maintained via a resample-move step that targets the marginal parameter posterior under the EnKF. Extensions to the resulting algorithm are proposed, such as the use of a delayed acceptance kernel in the rejuvenation step and incorporation of nonlinear observation models. We illustrate the resulting methodology via several applications.",
+ "primary": "stat.CO"
+}

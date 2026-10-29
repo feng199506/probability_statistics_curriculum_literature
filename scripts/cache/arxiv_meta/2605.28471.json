@@ -1,0 +1,20 @@
+{
+ "id": "2605.28471",
+ "title": "The Modified Egger Intercept Tests for Detecting Horizontal Pleiotropy in Two-Sample Summary-Data Mendelian Randomization",
+ "authors": [
+  "Yilei Ma",
+  "Youpeng Su",
+  "Xin Liu",
+  "Xuanye Cui",
+  "Ping Yin",
+  "Peng Wang"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Egger intercept (EI) test is a widely used tool to detect horizontal pleiotropy in two-sample summary-data Mendelian randomization. A significant EI test suggests that either the average pleiotropic effect differs from zero (i.e., directional pleiotropy) or the InSIDE (Instrument Strength Independent of Direct Effect) assumption is violated (i.e., correlated pleiotropy) or both. As such, the EI test provides an assessment of the validity of the instrumental variable assumptions, with a non-zero EI indicating that the commonly used inverse-variance weighted (IVW) estimator will be biased. However, the EI test may exhibit inaccurate type one error rates due to biased estimation in Egger regression caused by the measurement error and winner's curse. In this article, we propose a modified EI (MEI) test based on a bias-corrected EI estimator under the null hypothesis of no directional or correlated pleiotropy, leveraging the recently developed rerandomized IVW estimator. We then prove the asymptotic properties of the MEI test under realistic conditions. Like the EI test, we find that the power of the MEI test is also affected by the orientation of SNPs. To enhance the robustness of power, we further combine the MEI test statistics obtained under two specific allele coding schemes. Both simulation and real data studies show that the combined test outperforms the EI test in terms of type one error control and power.",
+ "primary": "stat.ME"
+}

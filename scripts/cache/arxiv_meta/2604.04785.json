@@ -1,0 +1,15 @@
+{
+ "id": "2604.04785",
+ "title": "High Dimensional Bootstrap and Asymptotic Expansion for the $k$-th Largest Coordinate",
+ "authors": [
+  "Long Feng"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study bootstrap inference for the $k$th largest coordinate of a normalized sum of independent high-dimensional random vectors. Existing second-order theory for maxima does not directly extend to order statistics, because the event $\\{T_{n,[k]}\\le t\\}$ is not a rectangle and its local structure is governed by exceedance counts rather than by a single boundary. We develop an approach based on factorial moments and weighted inclusion--exclusion that reduces the problem to a collection of rare-orthant probabilities and allows high-dimensional Edgeworth and Cornish--Fisher expansions to be transferred to the order-statistic setting. Under moment, variance, and weak-dependence conditions, we derive a second-order coverage expansion for wild-bootstrap critical values of the $k$th order statistic. In particular, a third-moment matching wild bootstrap achieves coverage error of order $n^{-1}$ up to logarithmic factors, and the same second-order accuracy is obtained for a prepivoted double wild bootstrap. We also show that the maximal-correlation condition can be replaced by a stationary Gaussian exponential-mixing assumption at the price of an explicit dependence remainder $r_d$, and this remainder can itself be of order $n^{-1}$ when the dimension is sufficiently large relative to the sample size. These results extend recent second-order Gaussian and bootstrap approximation theory from maxima to the $k$th order statistic in high dimension.",
+ "primary": "math.ST"
+}

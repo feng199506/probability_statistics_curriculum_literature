@@ -1,0 +1,17 @@
+{
+ "id": "2601.14049",
+ "title": "Tail-Aware Density Forecasting of Locally Explosive Time Series: A Neural Network Approach",
+ "authors": [
+  "Elena Dumitrescu",
+  "Julien Peignon",
+  "Arthur Thomas"
+ ],
+ "v1_date": "2026-01-20",
+ "latest_version": 3,
+ "latest_date": "2026-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mixed causal--noncausal (anticipative) models capture locally explosive dynamics and provide economically meaningful probabilities of continuation and collapse, but forecasting with them remains computationally difficult. We develop a two-stage framework that estimates such an ARMA model and then learns its predictive density using a Mixture Density Network with skewed-t components, tail-aware training weights, and post-hoc calibration. The approach accommodates the heavy tails, asymmetry, and multimodality characteristic of non-causal forecasts while remaining computationally tractable. Monte Carlo experiments and a real-time natural-gas application show substantial improvements over existing density-forecasting methods.",
+ "primary": "stat.ME"
+}

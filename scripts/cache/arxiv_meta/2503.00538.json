@@ -1,0 +1,15 @@
+{
+ "id": "2503.00538",
+ "title": "Geometric Ergodicity of Gibbs Algorithms for a Normal Model With a Global-Local Shrinkage Prior",
+ "authors": [
+  "Yasuyuki Hamura"
+ ],
+ "v1_date": "2025-03-01",
+ "latest_version": 4,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 2 figures; there are many changes",
+ "abstract": "We consider Gibbs samplers for a normal linear regression model with a global-local shrinkage prior and show that they produce geometrically ergodic Markov chains. First, under the horseshoe local prior and a three-parameter beta global prior under some assumptions, we prove geometric ergodicity for a Gibbs algorithm in which it is relatively easy to update the global shrinkage parameter. Second, we consider a more general class of global-local shrinkage priors. Under milder conditions, geometric ergodicity is proved for two- and three-stage Gibbs samplers based on rejection sampling. We also construct a practical rejection sampling method in the horseshoe case. Finally, a simulation study is performed to compare proposed and existing methods.",
+ "primary": "math.ST"
+}

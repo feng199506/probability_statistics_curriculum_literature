@@ -1,0 +1,17 @@
+{
+ "id": "2610.24295",
+ "title": "PICKLES: Covariance-Preconditioned Kinetic Langevin Ensemble Sampler",
+ "authors": [
+  "Hong Ye Tan",
+  "Stanley Osher",
+  "Yifan Chen"
+ ],
+ "v1_date": "2026-10-16",
+ "latest_version": 1,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a covariance-preconditioned kinetic Langevin ensemble sampler named PICKLES. This is a kinetic analogue of the affine invariant interacting Langevin dynamics (ALDI). PICKLES uses a rectangular covariance square root as a preconditioner to avoid computing matrix inverses or square roots, leading to position and momentum variables of different dimensions. Theoretically, the continuous-time dynamics are ergodic under mild regularity and growth conditions on the potential, assuming $N>d+1$ particles and a full-rank initial ensemble. We discretize PICKLES using BAOAB or OBABO splitting, with the latter convenient for Metropolization. For Gaussian targets at stationarity, we demonstrate that Metropolized PICKLES achieves an integration step size scaling of $d^{-1/4}$ to achieve fixed acceptance probabilities, as the ensemble size and dimension increase at a fixed ratio. This matches the scaling of single particle Metropolized Hamiltonian and kinetic samplers. Numerical experiments compare sampling efficiency and estimation error with non-preconditioned, overdamped, and single-chain counterparts, demonstrating improved efficiency per gradient evaluation. On a Dark Energy Survey Year 1 3x2pt cosmology benchmark, we obtain competitive effective sample size per gradient evaluation compared to a densely preconditioned No-U-Turn Sampler.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "1601.06259",
+ "title": "Minimax Lower Bounds for Linear Independence Testing",
+ "authors": [
+  "Aaditya Ramdas",
+  "David Isenberg",
+  "Aarti Singh",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2016-01-23",
+ "latest_version": 1,
+ "latest_date": "2016-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "Linear independence testing is a fundamental information-theoretic and statistical problem that can be posed as follows: given $n$ points $\\{(X_i,Y_i)\\}^n_{i=1}$ from a $p+q$ dimensional multivariate distribution where $X_i \\in \\mathbb{R}^p$ and $Y_i \\in\\mathbb{R}^q$, determine whether $a^T X$ and $b^T Y$ are uncorrelated for every $a \\in \\mathbb{R}^p, b\\in \\mathbb{R}^q$ or not. We give minimax lower bound for this problem (when $p+q,n \\to \\infty$, $(p+q)/n \\leq κ< \\infty$, without sparsity assumptions). In summary, our results imply that $n$ must be at least as large as $\\sqrt {pq}/\\|Σ_{XY}\\|_F^2$ for any procedure (test) to have non-trivial power, where $Σ_{XY}$ is the cross-covariance matrix of $X,Y$. We also provide some evidence that the lower bound is tight, by connections to two-sample testing and regression in specific settings.",
+ "primary": "stat.ML"
+}

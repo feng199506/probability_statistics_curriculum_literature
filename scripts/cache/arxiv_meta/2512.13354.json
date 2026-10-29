@@ -1,0 +1,21 @@
+{
+ "id": "2512.13354",
+ "title": "Data-driven inverse uncertainty quantification: application to the Chemical Vapor Deposition Reactor Modeling",
+ "authors": [
+  "Geremy Loachamín",
+  "Eleni D. Koronaki",
+  "Dimitrios G. Giovanis",
+  "Martin Kathrein",
+  "Christoph Czettl",
+  "Andreas G. Boudouvis",
+  "Stéphane P. A. Bordas"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study presents a Bayesian framework for (inverse) uncertainty quantification and parameter estimation in a two-step Chemical Vapor Deposition coating process using production data. We develop an XGBoost surrogate model that maps reactor setup parameters to coating thickness measurements, enabling efficient Bayesian analysis while reducing sampling costs. The methodology handles a mixture of data including continuous, discrete integer, binary, and encoded categorical variables. We establish parameter prior distributions through Bayesian Model Selection and perform Inverse Uncertainty Quantification via weighted Approximate Bayesian Computation with summary statistics, providing robust parameter credible intervals while filtering measurement noise across multiple reactor locations. Furthermore, we employ clustering methods guided by geometry embeddings to focus analysis within homogeneous production groups. This integrated approach provides a validated tool for improving industrial process control under uncertainty.",
+ "primary": "stat.OT"
+}

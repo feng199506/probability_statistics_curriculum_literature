@@ -1,0 +1,17 @@
+{
+ "id": "2606.04673",
+ "title": "Improving Longitudinal Targeted Maximum Likelihood Estimation in Target Trial Emulation using Joint Calibrated Weights",
+ "authors": [
+  "Juliette M. Limozin",
+  "Shaun R. Seaman",
+  "Li Su"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main text: 34 pages, 3 figures, 8 tables. Supplementary Materials included",
+ "abstract": "In target trial emulation (TTE), marginal structural models (MSMs) can be used to characterise per-protocol treatment effects over time. The MSM parameters are often estimated by inverse probability weighting (IPW), with weights estimated by maximum likelihood. However, IPW-based estimators can be unstable in small samples and are sensitive to misspecification of the weight models. An alternative method for estimating the MSM parameters is longitudinal targeted maximum likelihood estimation (LTMLE). LTMLE is double robust and potentially more efficient than IPW. Nevertheless, LTMLE also relies on inverse probability weights and may therefore share the instability of IPW-based estimators. We propose joint calibrated LTMLE, which integrates LTMLE with joint calibrated weights tailored for per-protocol effect estimation in TTE. This calibration of weights improves finite-sample performance by enforcing covariate balance in both the treatment and censoring processes simultaneously. Simulations show that the proposed method has improved efficiency and robustness to weight model misspecification, compared to standard LTMLE. We illustrate the method using a case study to evaluate the effect of highly active antiretroviral therapy on CD4 cell count among HIV-positive women.",
+ "primary": "stat.ME"
+}

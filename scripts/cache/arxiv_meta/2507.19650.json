@@ -1,0 +1,17 @@
+{
+ "id": "2507.19650",
+ "title": "A direct approach to tree-guided feature aggregation for high-dimensional regression",
+ "authors": [
+  "Jinwen Fu",
+  "Aaron J. Molstad",
+  "Hui Zou"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 2,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In high-dimensional linear models, sparsity is often exploited to reduce variability and achieve parsimony. Equi-sparsity, where one assumes that predictors can be aggregated into groups sharing the same effects, is an alternative parsimonious structure that can be more suitable in certain applications. Previous work has clearly demonstrated the benefits of exploiting equi-sparsity in the presence of ``rare features'' (Yan and Bien 2021). In this work, we propose a new tree-guided regularization scheme for simultaneous estimation and feature aggregation. Unlike existing methods, our estimator avoids synthetic overparameterization and its detrimental effects. Even though our penalty is applied to hierarchically overlapped groups, we show that its proximal operator can be solved with a one-pass, non-iterative algorithm. Novel techniques are developed to study the finite-sample error bound of this seminorm-induced regularizer under least squares and binomial deviance losses. Theoretically, compared to existing methods, the proposed method offers a faster or equivalent rate depending on the true equi-sparisty structure. Extensive simulation studies verify these findings. Finally, we illustrate the usefulness of the proposed method with an application to a microbiome dataset, where we conduct post-selection inference on the aggregated features' effects.",
+ "primary": "stat.ME"
+}

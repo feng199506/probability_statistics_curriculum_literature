@@ -1,0 +1,16 @@
+{
+ "id": "2605.12461",
+ "title": "A proximal gradient algorithm for composite log-concave sampling",
+ "authors": [
+  "Linghai Liu",
+  "Sinho Chewi"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 3,
+ "latest_date": "2026-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an algorithm to sample from composite log-concave distributions over $\\mathbb{R}^d$, i.e., densities of the form $π\\propto e^{-f-g}$, assuming access to gradient evaluations of $α_f$-convex $f$ and a restricted Gaussian oracle (RGO) for $α_g$-convex $g$, where $α_g \\ge 0$. The latter requirement means that we can easily sample from the density $\\text{RGO}_{g,h,y}(x) \\propto \\exp(-g(x) -\\frac{1}{2h}||y-x||^2)$, which is the sampling analogue of the proximal operator for $g$. If $f + g$ is $α$-convex and $f$ is $β$-smooth, our sampler achieves $\\varepsilon$ error in total variation distance using $\\widetilde{\\mathcal O}(κ\\sqrt d \\log^4(1/\\varepsilon))$ oracle calls where $κ:= 1 \\vee β/α$, with $0\\le α_g \\le β$ and $α:= α_f + α_g > 0$, which matches prior state-of-the-art results for the case $g=0$. We further extend our results to cases where (1) $π$ is non-log-concave but satisfies a Poincaré or log-Sobolev inequality, and (2) $f$ is non-smooth but Lipschitz.",
+ "primary": "math.ST"
+}

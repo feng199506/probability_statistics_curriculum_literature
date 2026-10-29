@@ -1,0 +1,16 @@
+{
+ "id": "2402.04461",
+ "title": "On Data Analysis Pipelines and Modular Bayesian Modeling",
+ "authors": [
+  "Erin Lipman",
+  "Abel Rodriguez"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 2,
+ "latest_date": "2024-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The most common approach to implementing data analysis pipelines involves obtaining point estimates from the upstream modules and then treating these as known quantities when working with the downstream ones. This approach is straightforward, but it is likely to underestimate the overall uncertainty associated with any final estimates. An alternative approach involves estimating parameters from the modules jointly using a Bayesian hierarchical model, which has the advantage of propagating upstream uncertainty into the downstream estimates. However, when modules are misspecified, such a joint model can behave in unexpected ways. Furthermore, hierarchical models require the development of ad-hoc computational implementations that can be laborious and computationally expensive. Cut inference modifies the posterior distribution to prevent information flow between certain parameters and provides a third alternative for statistical inference in data analysis pipelines. This paper presents a unified framework that encompasses two-step, cut, and joint inference in the context of data analysis pipelines with two modules and uses two examples to illustrate the tradeoffs associated with these approaches. Our work shows that cut inference provides both some level of robustness and ease of implementation for data analysis pipelines at a lower cost in terms of statistical inference.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2407.15377",
+ "title": "Replicable Bandits for Digital Health Interventions",
+ "authors": [
+  "Kelly W. Zhang",
+  "Nowell Closser",
+  "Anna L. Trella",
+  "Susan A. Murphy"
+ ],
+ "v1_date": "2024-07-22",
+ "latest_version": 5,
+ "latest_date": "2025-10-28",
+ "journal_ref": "Statistical Science, 2025",
+ "doi": "",
+ "comment": "Updating acknowledgements",
+ "abstract": "Adaptive treatment assignment algorithms, such as bandit algorithms, are increasingly used in digital health intervention clinical trials. Frequently, the data collected from these trials is used to conduct causal inference and related data analyses to decide how to refine the intervention, and whether to roll-out the intervention more broadly. This work studies inference for estimands that depend on the adaptive algorithm itself; a simple example is the mean reward under the adaptive algorithm. Specifically, we investigate the replicability of statistical analyses concerning such estimands when using data from trials deploying adaptive treatment assignment algorithms. We demonstrate that many standard statistical estimators can be inconsistent and fail to be replicable across repetitions of the clinical trial, even as the sample size grows large. We show that this non-replicability is intimately related to properties of the adaptive algorithm itself. We introduce a formal definition of a \"replicable bandit algorithm\" and prove that under such algorithms, a wide variety of common statistical estimators are guaranteed to be consistent and asymptotically normal. We present both theoretical results and simulation studies based on a mobile health oral health self-care intervention. Our findings underscore the importance of designing adaptive algorithms with replicability in mind, especially for settings like digital health, where deployment decisions rely heavily on replicated evidence. We conclude by discussing open questions on the connections between algorithm design, statistical inference, and experimental replicability.",
+ "primary": "stat.ME"
+}

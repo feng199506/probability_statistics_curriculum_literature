@@ -1,0 +1,16 @@
+{
+ "id": "2511.12343",
+ "title": "Regression Analysis After Bipartite Bayesian Record Linkage",
+ "authors": [
+  "Xueyan Hu",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2025-11-15",
+ "latest_version": 1,
+ "latest_date": "2025-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many settings, a data curator links records from two files to produce datasets that are shared with secondary analysts. Analysts use the linked files to estimate models of interest, such as regressions. Such two-stage approaches do not necessarily account for uncertainty in model parameters that results from uncertainty in the linkages. Further, they do not leverage the relationships among the study variables in the two files to help determine the linkages. We propose a multiple imputation framework to address these shortcomings. First, we use a bipartite Bayesian record linkage model to generate multiple plausible linked datasets, disregarding the information in the study variables. Second, we presume each linked file has a mixture of true links and false links. We estimate the mixture model using information from the study variables. Through simulation studies under a regression setting, we demonstrate that estimates of the regression model parameters can be more accurate than those based on an analogous two-stage approach. We illustrate the integrated approach using data from the Survey on Household Income and Wealth, examining a regression involving the persistence of income.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2603.07099",
+ "title": "Parametric modal regression for right-censored positive responses",
+ "authors": [
+  "Christian E. Galarza",
+  "Víctor H. Lachos"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 1,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 7 figures, 4 tables. R package available at https://github.com/chedgala/ModalCens",
+ "abstract": "We present a unified parametric framework for modal regression applicable to continuous positive distributions, with explicit support for right-censored observations. The key contribution is a systematic analytical reparameterization of density parameters as direct functions of the conditional mode. This closed-form mapping is derived for the Gamma, Beta, Weibull, Lognormal, and Inverse Gaussian distributions, directly linking the mode to a linear predictor. Maximum likelihood estimation is performed using the censored log-likelihood, with asymptotic inference based on the observed Fisher information matrix. A Monte Carlo simulation study across multiple distributions, sample sizes, and censoring levels confirms consistent parameter recovery. Empirical bias and RMSE decrease as expected, and Wald confidence intervals achieve nominal coverage. Finally, the proposed methodology is illustrated through an application to real-world reliability data. All methodology is implemented in the open-source R package ModalCens.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2607.09547",
+ "title": "High-Dimensional Interpolators Can Be Fragile: Heavy Tails and High-Dimensional Large Deviations",
+ "authors": [
+  "Youheng Zhu",
+  "Yiping Lu"
+ ],
+ "v1_date": "2026-07-10",
+ "latest_version": 1,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional interpolation is common in modern machine learning, but its tail risk is less understood than its expected prediction risk. Existing theory shows that interpolating models can perform well in expectation, yet such guarantees do not determine the probability of rare, severe errors. In operations research and stochastic decision-making applications, rare estimation errors can have disproportionate downstream effects, so tail behavior matters alongside average performance. We study the fragility of high-dimensional linear interpolators using large-deviation methods. We focus on ridgeless regression and compare it with ridge-regularized estimators. We first show that the risk of ridgeless regression can exhibit heavy-tailed behavior: although its expected risk may remain well controlled, its upper tail can decay much more slowly than that of regularized alternatives. We then quantify this phenomenon at the level of large-deviation rates. In the regime we study, ridge regularization suppresses fixed right-tail deviations at the $n^2$ scale, whereas ridgeless regression has only $n\\log n$-scale decay, where $n$ is the sample size. This gap shows that interpolation can be statistically fragile even when it is accurate on average. Thus regularization affects the frequency of rare, high-impact risk events in addition to the usual bias-variance tradeoff.",
+ "primary": "math.ST"
+}

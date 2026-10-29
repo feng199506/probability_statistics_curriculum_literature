@@ -1,0 +1,18 @@
+{
+ "id": "2501.15297",
+ "title": "Stochastic Volatility under Informative Missingness",
+ "authors": [
+  "Gehui Zhang",
+  "Gong Tang",
+  "Lori Scott",
+  "Robert T Krafty"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 1,
+ "latest_date": "2025-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 total pages, 1 cover page, 27 pages main text, 4 pages references, 9 pages appendices, 7 figures, 8 tables",
+ "abstract": "Stochastic volatility models that treat the variance of a time series as a stochastic process have proven to be important tools for analyzing dynamic variability. Current methods for fitting and conducting inference on stochastic volatility models are limited by the assumption that any missing data are missing at random. With a recent explosion in technology to facilitate the collection of dynamic self-response data for which mechanisms underlying missing data are inherently scientifically informative, this limitation in statistical methodology also limits scientific advancement. The goal of this article is to develop the first statistical methodology for modeling, fitting, and conducting inference on stochastic volatility with data that are missing not at random. The approach is based upon a novel imputation method derived using Tukey's representation, which utilizes the Markovian nature of stochastic volatility models to overcome unidentifiable components often faced when modeling informative missingness in other settings. This imputation method is combined with a new conditional particle filtering with ancestor sampling procedure that accounts for variability in imputation to formulate a complete particle Gibbs sampling scheme. The use of the method is illustrated through the analysis of mobile phone self-reported mood from individuals being monitored after unsuccessful suicide attempts.",
+ "primary": "stat.ME"
+}

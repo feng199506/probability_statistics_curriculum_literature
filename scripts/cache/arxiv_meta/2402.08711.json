@@ -1,0 +1,16 @@
+{
+ "id": "2402.08711",
+ "title": "Correction to \"Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations\"",
+ "authors": [
+  "Daniel Paulin",
+  "Peter A. Whalley"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 3,
+ "latest_date": "2024-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages",
+ "abstract": "A method for analyzing non-asymptotic guarantees of numerical discretizations of ergodic SDEs in Wasserstein-2 distance is presented by Sanz-Serna and Zygalakis in ``Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations\". They analyze the UBU integrator which is strong order two and only requires one gradient evaluation per step, resulting in desirable non-asymptotic guarantees, in particular $\\mathcal{O}(d^{1/4}ε^{-1/2})$ steps to reach a distance of $ε> 0$ in Wasserstein-2 distance away from the target distribution. However, there is a mistake in the local error estimates in Sanz-Serna and Zygalakis (2021), in particular, a stronger assumption is needed to achieve these complexity estimates. This note reconciles the theory with the dimension dependence observed in practice in many applications of interest.",
+ "primary": "stat.ML"
+}

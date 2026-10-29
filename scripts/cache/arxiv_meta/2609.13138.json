@@ -1,0 +1,17 @@
+{
+ "id": "2609.13138",
+ "title": "Rank-1-perturbed trickledown theorems: Mixing time of Glauber dynamics for the Sherrington-Kirkpatrick model up to $β\\leq \\frac{1}{2}+\\varepsilon$",
+ "authors": [
+  "Mathews Boban",
+  "Anqi Li",
+  "Shayan Oveis Gharan"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 1,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "We introduce a new family of trickledown theorems, a.k.a., local to global technique to bound the spectral gap of the Glauber dynamics for multi-state spin systems. In this technique instead of upper-bounding the influence matrix of a link of co-dimension 2 by $λI$ (where $λ$ is the second eigenvalue of the link), we upper-bound the influence matrix after a carefully chosen rank-1 shift. The rank-1 shift allows for a significantly smaller upper-bound but it comes at the cost of bounding the average loss due to rank-1 perturbations. As an application we use this method to show that the natural Glauber dynamics mixes in polynomial time to generate samples from the Sherrington-Kirkpatrick model for $β\\leq \\tfrac{1}{2}+\\varepsilon$, for an absolute constant $\\varepsilon>0$. At the heart of the proof we manage to bound the loss due to rank-1 perturbations by averaging over all links of co-dimension 2.",
+ "primary": "cs.DS"
+}

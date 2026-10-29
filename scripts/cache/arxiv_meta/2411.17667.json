@@ -1,0 +1,16 @@
+{
+ "id": "2411.17667",
+ "title": "Rapid Bayesian Computation and Estimation for Neural Networks via Log-Concave Coupling",
+ "authors": [
+  "Curtis McDonald",
+  "Andrew R. Barron"
+ ],
+ "v1_date": "2024-11-26",
+ "latest_version": 4,
+ "latest_date": "2026-08-18",
+ "journal_ref": "Math. Stat. Learn. (2026), published online first",
+ "doi": "10.4171/msl/59",
+ "comment": "",
+ "abstract": "This paper presents the study of a Bayesian estimation procedure for single-hidden-layer neural networks using $\\ell_{1}$ controlled neuron weight vectors. We study the structure of the posterior density and provide a representation that makes it amenable to rapid sampling via Markov Chain Monte Carlo (MCMC). Let the neural network have $K$ neurons with internal weights of dimension $d$ and fix the outer weights. Thus there are $Kd$ parameters overall. With $N$ data observations, use a gain parameter or inverse temperature of $β$ in the posterior density for the internal weights. The posterior is intrinsically multi-modal and not naturally suited to rapid mixing of direct MCMC algorithms. For a continuous uniform prior on the $\\ell_{1}$ ball, we demonstrate that the posterior density can be written as a mixture density with suitably defined auxiliary random variables, where the mixture components are log-concave. Furthermore, when the total number of model parameters $Kd$ is large enough that $Kd \\geq C(βN)^{2}$, the mixing distribution of the auxiliary random variables is also log-concave. Thus, neuron parameters can be sampled from the posterior by only sampling log-concave densities. The authors refer to the pairing of weights with such auxiliary random variables as a log-concave coupling.",
+ "primary": "math.ST"
+}

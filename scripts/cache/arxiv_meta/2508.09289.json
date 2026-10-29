@@ -1,0 +1,17 @@
+{
+ "id": "2508.09289",
+ "title": "Weighted Estimation of the Tail Index under Right Censorship: A Unified Approach Based on Kaplan-Meier and Nelson-Aalen Integrals",
+ "authors": [
+  "Abdelhakim Necir",
+  "Nour Elhouda Guesmia",
+  "Djamel Meraghni"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 1,
+ "latest_date": "2025-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kaplan-Meier and Nelson-Aalen integral estimators to the tail index of right-censored Pareto-type data traditionally rely on the assumption that the proportion p of upper uncensored observations exceeds one-half, corresponding to weak censoring regime. However, this condition excludes many practical settings characterized by strong censorship, where p is less than or equal to one-half. To address this bothering limitation, we propose a modification that incorporates a tuning parameter. This parameter, greater than one, assigns appropriate weights to the estimators, thereby extending the applicability of the method to the entire censoring range, where p is between zero and one. Under suitable regularity conditions, we establish the consistency and asymptotic normality of the proposed estimators. Extensive simulation studies reveal a clear improvement over existing methods in terms of bias and mean squared error, particularly in the strong censoring situation. These results highlight the significant practical and theoretical impact of our approach, offering a more flexible and accurate framework for tail index estimation under censoring. The usefulness of the method is further illustrated through its application to two real datasets: one on insurance losses (weak censoring) and the other on AIDS cases (strong censoring).",
+ "primary": "math.ST"
+}

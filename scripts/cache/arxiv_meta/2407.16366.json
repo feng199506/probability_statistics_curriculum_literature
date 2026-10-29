@@ -1,0 +1,16 @@
+{
+ "id": "2407.16366",
+ "title": "Robust Bayesian Model Averaging for Linear Regression Models With Heavy-Tailed Errors",
+ "authors": [
+  "Shamriddha De",
+  "Joyee Ghosh"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 2,
+ "latest_date": "2024-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages and 12 figures",
+ "abstract": "Our goal is to develop a Bayesian model averaging technique in linear regression models that accommodates heavier tailed error densities than the normal distribution. Motivated by the use of the Huber loss function in the presence of outliers, the Bayesian Huberized lasso with hyperbolic errors has been proposed and recently implemented in the literature (Park and Casella (2008); Kawakami and Hashimoto (2023)). Since the Huberized lasso cannot enforce regression coefficients to be exactly zero, we propose a fully Bayesian variable selection approach with spike and slab priors to address sparsity more effectively. The shapes of the hyperbolic and the Student-t density functions are different. Furthermore, the tails of a hyperbolic distribution are less heavy compared to those of a Cauchy distribution. Thus, we propose a flexible regression model with an error distribution encompassing both the hyperbolic and the Student-t family of distributions, along with an unknown tail heaviness parameter, that is estimated based on the data. It is known that the limiting form of both the hyperbolic and the Student-t distributions is a normal distribution. We develop an efficient Gibbs sampler with Metropolis Hastings steps for posterior computation. Through simulation studies and analyses of real datasets, we show that our method is competitive with various state-of-the-art methods.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2606.24766",
+ "title": "A Concentration Inequality for the Covariance Matrix of an Arbitrary Subset of Random Vectors",
+ "authors": [
+  "Huikang Liu",
+  "Peng Wang",
+  "Laura Balzano"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 2 figures, 1 table",
+ "abstract": "Concentration inequalities for sample covariance matrices are fundamental tools in high-dimensional probability. Classical results typically assume that the selected random vectors are independent of the selection rule. In this paper, we study spectral concentration for sample covariance matrices formed from arbitrary, possibly data-dependent subsets of i.i.d. random vectors. Such data-dependent selection destroys the usual independence structure and makes standard covariance concentration bounds inapplicable. For i.i.d. Gaussian random vectors, we prove high-probability lower and upper bounds for the minimal and maximal eigenvalues of such selected covariance matrices. Compared with a direct union-bound argument, our results provide substantially sharper guarantees and allow much smaller subset proportions. We further discuss extensions from Gaussian to sub-Gaussian random vectors, and beyond independence to weakly dependent observations, with geometrically strong-mixing Gaussian sequences serving as a representative example of the latter. Finally, we apply the developed concentration inequalities to the K-subspace clustering problem under a low-rank Gaussian mixture model, where the optimal clusters are inherently data-dependent. Our results yield recovery guarantees showing that the clustering error of global minimizers decays polynomially with the signal-to-noise ratio.",
+ "primary": "math.ST"
+}

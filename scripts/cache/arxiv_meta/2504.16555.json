@@ -1,0 +1,18 @@
+{
+ "id": "2504.16555",
+ "title": "Confidence Sequences for Generalized Linear Models via Regret Analysis",
+ "authors": [
+  "Eugenio Clerico",
+  "Hamish Flynn",
+  "Wojciech Kotłowski",
+  "Gergely Neu"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a methodology for constructing confidence sets for parameters of statistical models via a reduction to sequential prediction. Our key observation is that for any generalized linear model (GLM), one can construct an associated game of sequential probability assignment such that achieving low regret in the game implies a high-probability upper bound on the excess likelihood of the true parameter of the GLM. This allows us to develop a scheme that we call online-to-confidence-set conversions, which effectively reduces the problem of proving the desired statistical claim to an algorithmic question. We study two varieties of this conversion scheme: 1) analytical conversions that only require proving the existence of algorithms with low regret and provide confidence sets centered at the maximum-likelihood estimator 2) algorithmic conversions that actively leverage the output of the online algorithm to construct confidence sets (and may be centered at other, adaptively constructed point estimators). The resulting methodology recovers all state-of-the-art confidence set constructions within a single framework, and also provides several new types of confidence sets that were previously unknown in the literature.",
+ "primary": "math.ST"
+}

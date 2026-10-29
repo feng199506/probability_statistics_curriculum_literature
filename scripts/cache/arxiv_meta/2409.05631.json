@@ -1,0 +1,17 @@
+{
+ "id": "2409.05631",
+ "title": "Empirical likelihood for generalized smoothly trimmed mean",
+ "authors": [
+  "Elina Kresse",
+  "Emils Silins",
+  "Janis Valeinis"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 1,
+ "latest_date": "2024-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a new version of the smoothly trimmed mean with a more general version of weights, which can be used as an alternative to the classical trimmed mean. We derive its asymptotic variance and to further investigate its properties we establish the empirical likelihood for the new estimator. As expected from previous theoretical investigations we show in our simulations a clear advantage of the proposed estimator over the classical trimmed mean estimator. Moreover, the empirical likelihood method gives an additional advantage for data generated from contaminated models. For the classical trimmed mean it is generally recommended in practice to use symmetrical 10\\% or 20\\% trimming. However, if the trimming is done close to data gaps, it can even lead to spurious results, as known from the literature and verified by our simulations. Instead, for practical data examples, we choose the smoothing parameters by an optimality criterion that minimises the variance of the proposed estimators.",
+ "primary": "math.ST"
+}

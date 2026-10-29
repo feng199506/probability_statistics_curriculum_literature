@@ -1,0 +1,16 @@
+{
+ "id": "2409.14032",
+ "title": "Refitted cross-validation estimation for high-dimensional subsamples from low-dimension full data",
+ "authors": [
+  "Haixiang Zhang",
+  "HaiYing Wang"
+ ],
+ "v1_date": "2024-09-21",
+ "latest_version": 1,
+ "latest_date": "2024-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The technique of subsampling has been extensively employed to address the challenges posed by limited computing resources and meet the needs for expedite data analysis. Various subsampling methods have been developed to meet the challenges characterized by a large sample size with a small number of parameters. However, direct applications of these subsampling methods may not be suitable when the dimension is also high and available computing facilities at hand are only able to analyze a subsample of size similar or even smaller than the dimension. In this case, although there is no high-dimensional problem in the full data, the subsample may have a sample size smaller or smaller than the number of parameters, making it a high-dimensional problem. We call this scenario the high-dimensional subsample from low-dimension full data problem. In this paper, we tackle this problem by proposing a novel subsampling-based approach that combines penalty-based dimension reduction and refitted cross-validation. The asymptotic normality of the refitted cross-validation subsample estimator is established, which plays a crucial role in statistical inference. The proposed method demonstrates appealing performance in numerical experiments on simulated data and a real data application.",
+ "primary": "stat.ME"
+}

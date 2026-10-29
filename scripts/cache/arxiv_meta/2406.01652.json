@@ -1,0 +1,17 @@
+{
+ "id": "2406.01652",
+ "title": "Distributional bias compromises leave-one-out cross-validation",
+ "authors": [
+  "George I. Austin",
+  "Itsik Pe'er",
+  "Tal Korem"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 2,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 6 figures, supplementary information",
+ "abstract": "Cross-validation is a common method for estimating the predictive performance of machine learning models. In a data-scarce regime, where one typically wishes to maximize the number of instances used for training the model, an approach called \"leave-one-out cross-validation\" is often used. In this design, a separate model is built for predicting each data instance after training on all other instances. Since this results in a single test instance available per model trained, predictions are aggregated across the entire dataset to calculate common performance metrics such as the area under the receiver operating characteristic or R2 scores. In this work, we demonstrate that this approach creates a negative correlation between the average label of each training fold and the label of its corresponding test instance, a phenomenon that we term distributional bias. As machine learning models tend to regress to the mean of their training data, this distributional bias tends to negatively impact performance evaluation and hyperparameter optimization. We show that this effect generalizes to leave-P-out cross-validation and persists across a wide range of modeling and evaluation approaches, and that it can lead to a bias against stronger regularization. To address this, we propose a generalizable rebalanced cross-validation approach that corrects for distributional bias for both classification and regression. We demonstrate that our approach improves cross-validation performance evaluation in synthetic simulations, across machine learning benchmarks, and in several published leave-one-out analyses.",
+ "primary": "stat.ME"
+}

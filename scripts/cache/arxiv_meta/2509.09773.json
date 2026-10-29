@@ -1,0 +1,16 @@
+{
+ "id": "2509.09773",
+ "title": "Optimal Inference of the Mean Outcome under Optimal Treatment Regime",
+ "authors": [
+  "Shuoxun Xu",
+  "Xinzhou Guo"
+ ],
+ "v1_date": "2025-09-11",
+ "latest_version": 3,
+ "latest_date": "2026-09-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When an optimal treatment regime (OTR) is considered, we need to evaluate the OTR in a valid and efficient way. The classical inference applied to the mean outcome under OTR, assuming the OTR is the same as the estimated OTR, might be biased when the regularity assumption that OTR is unique is violated. Although several methods have been proposed to allow nonregularity in such inference, its optimality is unclear due to challenges in deriving semiparametric efficiency bounds under potential nonregularity. In this paper, we address the bias issue via adaptive smoothing over the estimated OTR and develop a valid inference procedure on the mean outcome under OTR regardless of whether regularity is satisfied. We establish the optimality of the proposed method by deriving a lower bound of the asymptotic variance for the robust asymptotically linear unbiased estimator to the mean outcome under OTR and showing that our proposed estimator achieves the variance lower bound. The considered estimator class is general and the derived variance lower bound paves a novel way to establish efficiency optimality theories for OTR in a more general scenario allowing nonregularity. The merit of the proposed method is demonstrated by re-analyzing the ACTG 175 trial.",
+ "primary": "stat.ME"
+}

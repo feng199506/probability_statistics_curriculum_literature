@@ -1,0 +1,18 @@
+{
+ "id": "2601.20320",
+ "title": "Confidence intervals for maximum unseen probabilities, with application to sequential sampling design",
+ "authors": [
+  "Alessandro Colombi",
+  "Mario Beraha",
+  "Amichai Painsky",
+  "Stefano Favaro"
+ ],
+ "v1_date": "2026-01-28",
+ "latest_version": 1,
+ "latest_date": "2026-01-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Discovery problems often require deciding whether additional sampling is needed to detect all categories whose prevalence exceeds a prespecified threshold. We study this question under a Bernoulli product (incidence) model, where categories are observed only through presence--absence across sampling units. Our inferential target is the \\emph{maximum unseen probability}, the largest prevalence among categories not yet observed. We develop nonasymptotic, distribution-free upper confidence bounds for this quantity in two regimes: bounded alphabets (finite and known number of categories) and unbounded alphabets (countably infinite under a mild summability condition). We characterise the limits of data-independent worst-case bounds, showing that in the unbounded regime no nontrivial data-independent procedure can be uniformly valid. We then propose data-dependent bounds in both regimes and establish matching lower bounds demonstrating their near-optimality. We compare empirically the resulting procedures in both simulated and real datasets. Finally, we use these bounds to construct sequential stopping rules with finite-sample guarantees, and demonstrate robustness to contamination that introduces spurious low-prevalence categories.",
+ "primary": "stat.ME"
+}

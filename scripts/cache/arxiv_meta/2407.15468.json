@@ -1,0 +1,18 @@
+{
+ "id": "2407.15468",
+ "title": "Asymptotic efficiency for Sobol' and Cram{é}r-von Mises indices under two designs of experiments",
+ "authors": [
+  "Thierry Klein",
+  "Agnès Lagnoux",
+  "Paul Rochet",
+  "Thi Mong Ngoc Nguyen"
+ ],
+ "v1_date": "2024-07-22",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A variety of indices aim to quantify the impact of input variables on a response, typically the output from a complex computer code or black-box model. Most commonly used, the Sobol' index typically measures the influence of some inputs from an explained variance perspective. However, some situations may require a more targeted analysis of some inputs influence. With no prior information, distribution-based measures appear to be appealing. In this purpose, so-called Cram{é}r-von Mises indices (and their generalization) have been proposed in the literature, defined as an excess probability integrated over the output distribution that aim to reflect influence on the whole distribution of the output rather than on the variance solely. Inference of these various indices has remained a challenging topic especially in presence of many inputs. While several Sobol' indices estimators are known to be optimal under regularity conditions, the issue of asymptotic efficiency for Cram{é}r-von Mises indices has been unaddressed in the literature so far. For these indices, we derive in this paper the efficiency bounds and discuss the known methods to achieve such optimal bounds. Two estimation contexts are considered: the so-called Pick-Freeze scheme and the Given-Data setting, for which the estimation is produced from a unique input-output sample.",
+ "primary": "math.ST"
+}

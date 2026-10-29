@@ -1,0 +1,18 @@
+{
+ "id": "2512.14903",
+ "title": "Bayesian Latent Class Regression and Variable Selection with Applications to Sleep Patterns Data",
+ "authors": [
+  "Matthew Heaney",
+  "Olive Healy",
+  "Jason Wyse",
+  "Arthur White"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 4 figures",
+ "abstract": "Sleep difficulties in children are heterogeneous in presentation, yet conventional assessment tools like the Children's Sleep Habits Questionnaire (CSHQ) reduce this complexity to a single cumulative score, obscuring distinct patterns of sleep disturbance that require different interventions. Latent Class Regression (LCR) models offer a principled approach to identify subgroups with shared sleep behaviour profiles whilst incorporating predictors of group membership, but Bayesian inference for these models has been hindered by computational challenges and the absence of variable selection methods. We propose a fully Bayesian framework for LCR that uses Pólya-Gamma data augmentation, enabling efficient sampling of regression coefficients. We extend this framework to include variable selection for both predictors and item responses: predictor variable selection via latent inclusion indicators and item selection through a partially collapsed approach. Through simulation studies, we show that the proposed methods yield accurate parameter estimates, resolve identifiability issues arising in full models and successfully identify informative predictors and items while excluding noise variables. Applying this methodology to CSHQ data from 148 children reveals distinct latent subgroups with different sleep behaviour profiles, anxious nighttime sleepers, short/light sleepers and those with more pervasive sleep problems, with each carrying distinct implications for intervention. Results also highlight the predictive role of Autism Spectrum Disorder diagnosis in subgroup membership. These findings demonstrate the limitations of conventional CSHQ scoring and illustrate the benefits of a probabilistic subgroup-based approach as an alternative for understanding paediatric sleep difficulties.",
+ "primary": "stat.ME"
+}

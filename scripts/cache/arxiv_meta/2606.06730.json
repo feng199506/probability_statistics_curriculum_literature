@@ -1,0 +1,20 @@
+{
+ "id": "2606.06730",
+ "title": "Bayesian genome-wide clustering and variable selection of transcriptomic data via rank-based mixtures",
+ "authors": [
+  "Emilie Eliseussen",
+  "Haakon Muggerud",
+  "Luca Coraggio",
+  "Ida Scheel",
+  "Thomas Fleischer",
+  "Valeria Vitelli"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pages, 25 figures",
+ "abstract": "With the increasing availability of ranking data, there has been a growing demand for appropriate unsupervised rank-based inferential frameworks capable of handling high-dimensional datasets and providing uncertainty quantification for all estimates. Rank-based methods have also seen a growing popularity in -omics pipelines, as ranking continuous measurements provides a robust means of handling non-normally distributed data. The Bayesian Mallows model (BMM) has emerged as a promising choice because of its adaptability to various types of ranking data and its flexible framework, integrating cluster-wise rank aggregation with inference at the individual level. However, the scalability of BMM to ultra-high-dimensional settings, such as -omics analyses, has remained limited. The present paper addresses this issue by introducing the first rank-based model generalizing BMM to jointly handle clustering and variable selection, namely the lower-dimensional Bayesian Mallows Model Mixture (lowBM3). The proposed method provides a novel Bayesian framework that simultaneously handles heterogeneity in the sample, unsupervised parameter estimation, and model selection in a scalable manner for ultra-high-dimensional data. Additionally, a companion postprocessing framework is introduced to provide posterior summaries of the discrete posterior distributions of both the consensus ranking and the variable selector. Simulation studies are performed to assess the performance of the method. The usefulness of the method is also shown in an application to signature discovery for cancer genomics, where RNA-seq bulk gene expression data obtained from breast cancer patients are clustered genome-wide.",
+ "primary": "stat.ME"
+}

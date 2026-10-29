@@ -1,0 +1,19 @@
+{
+ "id": "2510.15058",
+ "title": "The Minimax Lower Bound of Kernel Stein Discrepancy Estimation",
+ "authors": [
+  "Jose Cribeiro-Ramallo",
+  "Agnideep Aich",
+  "Florian Kalinke",
+  "Ashit Baran Aich",
+  "Zoltán Szabó"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 3,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at AISTATS 2026",
+ "abstract": "Kernel Stein discrepancies (KSDs) have emerged as a powerful tool for quantifying goodness-of-fit over the last decade, featuring numerous successful applications. To the best of our knowledge, all existing KSD estimators with known rate achieve $\\sqrt n$-convergence. In this work, we present two complementary results (with different proof strategies), establishing that the minimax lower bound of KSD estimation is $n^{-1/2}$ and settling the optimality of these estimators. Our first result focuses on KSD estimation on $\\mathbb R^d$ with the Langevin-Stein operator; our explicit constant for the Gaussian kernel indicates that the difficulty of KSD estimation may increase exponentially with the dimensionality $d$. Our second result settles the minimax lower bound for KSD estimation on general domains.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2601.11717",
+ "title": "Detecting Mutual Excitations in Non-Stationary Hawkes Processes",
+ "authors": [
+  "Elchanan Mossel",
+  "Anirudh Sridhar"
+ ],
+ "v1_date": "2026-01-16",
+ "latest_version": 1,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "We consider the problem of learning the network of mutual excitations (i.e., the dependency graph) in a non-stationary, multivariate Hawkes process. We consider a general setting where baseline rates at each node are time-varying and delay kernels are not shift-invariant. Our main results show that if the dependency graph of an $n$-variate Hawkes process is sparse (i.e., it has a maximum degree that is bounded with respect to $n$), our algorithm accurately reconstructs it from data after observing the Hawkes process for $T = \\mathrm{polylog}(n)$ time, with high probability. Our algorithm is computationally efficient, and provably succeeds in learning dependencies even if only a subset of time series are observed and event times are not precisely known.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.01653",
+ "title": "Probabilistic forecasting of weather-driven faults in electricity networks: a flexible approach for extreme and non-extreme events",
+ "authors": [
+  "Mateus Maia",
+  "Daniela Castro-Camilo",
+  "Jethro Browell"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 1,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Electricity networks are vulnerable to weather damage, with severe events often leading to faults and power outages. Timely forecasts of fault occurrences, ranging from nowcasts to several days ahead, can enhance preparedness, support faster response, and reduce outage durations. To be operationally useful, such forecasts must quantify uncertainty, enabling risk-informed resource allocation. We present a novel probabilistic framework for forecasting fault counts that captures typical and extreme events. Non-extreme faults are modeled linearly interpolating estimates from multiple additive quantile regressions, while extreme events are described through a discrete generalized Pareto distribution. To incorporate the impact of weather fluctuations, we use ensemble numerical weather predictions, which helps to quantify uncertainty in the forecasts. This approach is designed to provide reliable fault predictions up to four days ahead. We evaluate the model through numerical experiments and apply it to historical fault data from two electricity distribution networks in Great Britain. The resulting forecasts demonstrate substantial improvements over business-as-usual and alternative modeling approaches. A practitioner trial conducted with Scottish Power Energy Networks from October 2024 to March 2025 further demonstrates the operational value of the forecasts. Engineers found them sufficiently reliable to inform decision-making, offering benefits to both network operators and electricity consumers.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.16497",
+ "title": "Factor-Adjusted Multiple Testing for High-Dimensional Individual Mediation Effects",
+ "authors": [
+  "Chen Shi",
+  "Zhao Chen",
+  "Christina Dan Wang"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 1,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying individual mediators is a central goal of high-dimensional mediation analysis, yet pervasive dependence among mediators can invalidate standard debiased inference and lead to substantial false discovery rate (FDR) inflation. We propose a Factor-Adjusted Debiased Mediation Testing (FADMT) framework that enables large-scale inference for individual mediation effects with FDR control under complex dependence structures. Our approach posits an approximate factor structure on the unobserved errors of the mediator model, extracts common latent factors, and constructs decorrelated pseudo-mediators for the subsequent inferential procedure. We establish the asymptotic normality of the debiased estimator and develop a multiple testing procedure with theoretical FDR control under mild high-dimensional conditions. By adjusting for latent factor induced dependence, FADMT also improves robustness to spurious associations driven by shared latent variation in observational studies. Extensive simulations demonstrate the superior finite-sample performance across a wide range of correlation structures. Applications to TCGA-BRCA multi-omics data and to China's stock connect study further illustrate the practical utility of the proposed method.",
+ "primary": "stat.ME"
+}

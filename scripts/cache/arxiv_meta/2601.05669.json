@@ -1,0 +1,18 @@
+{
+ "id": "2601.05669",
+ "title": "Two-Stage Robust Sparse Gradient Methods for Regression Under Heavy-Tailed Designs",
+ "authors": [
+  "Kaiyuan Zhou",
+  "Xiaoyu Zhang",
+  "Wenyang Zhang",
+  "Di Wang"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 2,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study high-dimensional sparse regression under simultaneous heavy-tailed covariates and noise. Heavy-tailed data affect sparse optimization in two different ways: extreme covariates can destabilize the gradient field during global localization, while heavy-tailed noise limits the final statistical accuracy during local refinement. Motivated by this two-phase structure, we propose two-stage RIGHT, a robust sparse first-order method based on coordinate-wise median-of-means (MoM) gradient estimation and delayed sample splitting. The MoM gradient estimator is computationally simple, compatible with hard-thresholded updates, and admits phase-adaptive concentration bounds whose rates depend on the current localization radius. Delayed splitting reuses data during global localization and reserves fresh batches for the shorter refinement stage, reducing the sample-splitting cost. The theoretical results reveal a decoupled rate structure: the design-tail index controls gradient stability and sample complexity, whereas the noise-tail index controls the final statistical rate. We also provide phase-wise lower-bound benchmarks showing that the design-driven localization barrier is intrinsic. Extensive simulation experiments and real data analysis showcase the efficacy of the proposed method over existing competitors.",
+ "primary": "stat.ME"
+}

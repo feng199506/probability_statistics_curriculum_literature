@@ -1,0 +1,18 @@
+{
+ "id": "2504.03560",
+ "title": "Stochastic Optimization with Optimal Importance Sampling",
+ "authors": [
+  "Liviu Aolaritei",
+  "Bart P. G. Van Parys",
+  "Henry Lam",
+  "Michael I. Jordan"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 3,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Importance Sampling (IS) is a widely used variance reduction technique for enhancing the efficiency of Monte Carlo methods, particularly in rare-event simulation and related applications. Despite its effectiveness, the performance of IS is highly sensitive to the choice of the proposal distribution and often requires stochastic calibration. While the design and analysis of IS have been extensively studied in estimation settings, applying IS within stochastic optimization introduces a lesser-known fundamental challenge: the decision variable and the importance sampling distribution are mutually dependent, creating a circular optimization structure. This interdependence complicates both convergence analysis and variance control. In this paper, we consider the generic setting of convex stochastic optimization with linear constraints. We propose a single-loop stochastic approximation algorithm, based on a variant of Nesterov's dual averaging, that jointly updates the decision variable and the importance sampling distribution, notably without time-scale separation or nested optimization. The method is globally convergent and achieves the minimal asymptotic variance among stochastic gradient schemes, which moreover matches the performance of an oracle sampler adapted to the optimal solution and thus effectively resolves the circular optimization challenge.",
+ "primary": "math.OC"
+}

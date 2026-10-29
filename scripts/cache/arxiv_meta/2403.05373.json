@@ -1,0 +1,18 @@
+{
+ "id": "2403.05373",
+ "title": "Regularized Principal Spline Functions to Mitigate Spatial Confounding",
+ "authors": [
+  "Carlo Zaccardi",
+  "Pasquale Valentini",
+  "Luigi Ippoliti",
+  "Alexandra M. Schmidt"
+ ],
+ "v1_date": "2024-03-08",
+ "latest_version": 2,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a new approach to address the problem of unmeasured confounding in spatial designs. Spatial confounding occurs when some confounding variables are unobserved and not included in the model, leading to distorted inferential results about the effect of an exposure on an outcome. We show the relationship existing between the confounding bias of a non-spatial model and that of a semi-parametric model that includes a basis matrix to represent the unmeasured confounder conditional on the exposure. This relationship holds for any basis expansion, however it is shown that using the semi-parametric approach guarantees a reduction in the confounding bias only under certain circumstances, which are related to the spatial structures of the exposure and the unmeasured confounder, the type of basis expansion utilized, and the regularization mechanism. To adjust for spatial confounding, and therefore try to recover the effect of interest, we propose a Bayesian semi-parametric regression model, where an expansion matrix of principal spline basis functions is used to approximate the unobserved factor, and spike-and-slab priors are imposed on the respective expansion coefficients in order to select the most important bases. From the results of an extensive simulation study, we conclude that our proposal is able to reduce the confounding bias more than competing approaches, and it also seems more robust to bias amplification.",
+ "primary": "stat.ME"
+}

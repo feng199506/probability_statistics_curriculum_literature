@@ -1,0 +1,16 @@
+{
+ "id": "2503.21968",
+ "title": "GLM Inference with AI-Generated Synthetic Data Using Misspecified Linear Regression",
+ "authors": [
+  "Nir Keret",
+  "Ali Shojaie"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 2,
+ "latest_date": "2025-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data privacy concerns have led to the growing interest in synthetic data, which strives to preserve the statistical properties of the original dataset while ensuring privacy by excluding real records. Recent advances in deep neural networks and generative artificial intelligence have facilitated the generation of synthetic data. However, although prediction with synthetic data has been the focus of recent research, statistical inference with synthetic data remains underdeveloped. In particular, in many settings, including generalized linear models (GLMs), the estimator obtained using synthetic data converges much more slowly than in standard settings. To address these limitations, we propose a method that leverages summary statistics from the original data. Using a misspecified linear regression estimator, we then develop inference that greatly improves the convergence rate and restores the standard root-$n$ behavior for GLMs.",
+ "primary": "stat.ME"
+}

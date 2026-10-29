@@ -1,0 +1,19 @@
+{
+ "id": "2503.16321",
+ "title": "Balancing the effective sample size in prior across different doses in the curve-free Bayesian decision-theoretic design for dose-finding trials",
+ "authors": [
+  "Jiapeng Xu",
+  "Dehua Bi",
+  "Shenghua Kelly Fan",
+  "Bee Leng Lee",
+  "Ying Lu"
+ ],
+ "v1_date": "2025-03-20",
+ "latest_version": 1,
+ "latest_date": "2025-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages",
+ "abstract": "The primary goal of dose allocation in phase I trials is to minimize patient exposure to subtherapeutic or excessively toxic doses, while accurately recommending a phase II dose that is as close as possible to the maximum tolerated dose (MTD). Fan et al. (2012) introduced a curve-free Bayesian decision-theoretic design (CFBD), which leverages the assumption of a monotonic dose-toxicity relationship without directly modeling dose-toxicity curves. This approach has also been extended to drug combinations for determining the MTD (Lee et al., 2017). Although CFBD has demonstrated improved trial efficiency by using fewer patients while maintaining high accuracy in identifying the MTD, it may artificially inflate the effective sample sizes for the updated prior distributions, particularly at the lowest and highest dose levels. This can lead to either overshooting or undershooting the target dose. In this paper, we propose a modification to CFBD's prior distribution updates that balances effective sample sizes across different doses. Simulation results show that with the modified prior specification, CFBD achieves a more focused dose allocation at the MTD and offers more precise dose recommendations with fewer patients on average. It also demonstrates robustness to other well-known dose finding designs in literature.",
+ "primary": "stat.ME"
+}

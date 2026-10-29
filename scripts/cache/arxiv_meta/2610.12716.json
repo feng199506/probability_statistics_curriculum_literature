@@ -1,0 +1,17 @@
+{
+ "id": "2610.12716",
+ "title": "Tandem Queues with Hybrid Abandonment in Heavy Traffic",
+ "authors": [
+  "Cameron Curtis",
+  "Izzy Grosof",
+  "Seyed Iravani"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Hybrid-abandonment systems, where jobs abandon from certain stages of service but not others, occur frequently in medical, service, and computing systems. Abandonment affects the heavy-traffic behavior of both the stages with and without abandonment. In contrast to existing heavy-traffic works that focus on cases where there is abandonment at either all stages or no stages, we focus on the heavy-traffic behavior for these hybrid-abandonment systems. We provide the first heavy-traffic characterization of the second queue length in a two-stage tandem queue with abandonment only in the first stage. We characterize the scaled mean of the second stage queue length and prove that the scaled second queue length is asymptotically exponentially distributed and asymptotically independent of the first stage queue length. We derive our results by analyzing Markovian arrival process queues with countably infinite phases. We do this by extending techniques used to analyze queues with Markov-modulated arrivals to the broader class of infinite Markovian arrival process queues. We prove asymptotic results for a more general infinite phase process condition, an infinite birth-death phase process, and the hybrid-abandonment tandem case. We also empirically demonstrate that our heavy-traffic approximations are good approximations across various system settings.",
+ "primary": "cs.PF"
+}

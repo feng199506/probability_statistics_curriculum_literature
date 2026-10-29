@@ -1,0 +1,17 @@
+{
+ "id": "2506.06550",
+ "title": "A New Two-Sample Test for Covariance Matrices in High Dimensions: U-Statistics Meet Leading Eigenvalues",
+ "authors": [
+  "Thomas Lam",
+  "Nina Dörnemann",
+  "Holger Dette"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 1,
+ "latest_date": "2025-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a two-sample test for covariance matrices in the high-dimensional regime, where the dimension diverges proportionally to the sample size. Our hybrid test combines a Frobenius-norm-based statistic as considered in Li and Chen (2012) with the leading eigenvalue approach proposed in Zhang et al. (2022), making it sensitive to both dense and sparse alternatives. The two statistics are combined via Fisher's method, leveraging our key theoretical result: a joint central limit theorem showing the asymptotic independence of the leading eigenvalues of the sample covariance matrix and an estimator of the Frobenius norm of the difference of the two population covariance matrices, under suitable signal conditions. The level of the test can be controlled asymptotically, and we show consistency against certain types of both sparse and dense alternatives. A comprehensive numerical study confirms the favorable performance of our method compared to existing approaches.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.27593",
+ "title": "Subspace Ordering for Maximum Response Preservation in Sufficient Dimension Reduction",
+ "authors": [
+  "Derik T. Boonstra",
+  "Rakheon Kim",
+  "Dean M. Young"
+ ],
+ "v1_date": "2025-10-31",
+ "latest_version": 2,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sufficient dimension reduction (SDR) methods aim to identify a dimension reduction subspace (DRS) that preserves all the information about the conditional distribution of a response given its predictor. Traditional SDR methods determine the DRS by solving a method-specific generalized eigenvalue problem and selecting the eigenvectors corresponding to the largest eigenvalues. In this article, we argue against the long-standing convention of using eigenvalues as the measure of subspace importance and propose alternative ordering criteria that directly assess the predictive relevance of each subspace. For a binary response, we introduce a subspace ordering criterion based on the absolute value of the independent Student's T-statistic. Theoretically, our criterion identifies subspaces that achieve the local minimum Bayes' error rate and yields consistent ordering of directions under mild regularity conditions. Additionally, we employ an F-statistic to provide a framework that unifies categorical and continuous responses under a single subspace criterion. We evaluate our proposed criteria within multiple SDR methods through extensive simulation studies and applications to real data. Our empirical results demonstrate the efficacy of reordering subspaces using our proposed criteria, which generally improves classification accuracy and subspace estimation compared to ordering by eigenvalues.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2505.15175",
+ "title": "A Linear Approach to Data Poisoning",
+ "authors": [
+  "Donald Flynn",
+  "Diego Granziol"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 3,
+ "latest_date": "2026-01-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 9 Figures",
+ "abstract": "Backdoor and data-poisoning attacks can flip predictions with tiny training corruptions, yet a sharp theory linking poisoning strength, overparameterization, and regularization is lacking. We analyze ridge least squares with an unpenalized intercept in the high-dimensional regime \\(p,n\\to\\infty\\), \\(p/n\\to c\\). Targeted poisoning is modelled by shifting a \\(θ\\)-fraction of one class by a direction \\(\\mathbf{v}\\) and relabelling. Using resolvent techniques and deterministic equivalents from random matrix theory, we derive closed-form limits for the poisoned score explicit in the model parameters. The formulas yield scaling laws, recover the interpolation threshold as \\(c\\to1\\) in the ridgeless limit, and show that the weights align with the poisoning direction. Synthetic experiments match theory across sweeps of the parameters and MNIST backdoor tests show qualitatively consistent trends. The results provide a tractable framework for quantifying poisoning in linear models.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2407.09640",
+ "title": "Bayesian inference of covariate-parameter relationships for population modelling",
+ "authors": [
+  "Han Cheng Lie"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 3,
+ "latest_date": "2024-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "We consider population modelling using parametrised ordinary differential equation initial value problems (ODE-IVPs). For each individual drawn randomly from the unknown population distribution, the corresponding parameters for the ODE-IVP cannot be measured directly, but a vector of covariates is given, and one component of the solution to the corresponding ODE-IVP is observed at a fixed finite time grid. The task is to identify a covariate-parameter relationship that maps covariate vectors to parameter vectors. Such settings and problems arise in pharmacokinetics, where the observations are blood drug concentrations, the covariates are clinically observable quantities, and the covariate-parameter relationship is used for personalised drug dosing. For linear homogeneous ODE-IVPs with vector fields defined by matrices that are diagonalisable over $\\mathbb{R}$, and for fixed time and random covariate design, we use recent results of Nickl et al. for Bayesian nonlinear statistical inverse problems, to prove posterior contraction and Bernstein--von Mises results for the unknown covariate-parameter relationship. We analytically demonstrate our results on an example from the pharmacokinetics literature.",
+ "primary": "math.ST"
+}

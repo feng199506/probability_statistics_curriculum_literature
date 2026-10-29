@@ -1,0 +1,17 @@
+{
+ "id": "2502.06381",
+ "title": "Revisiting Optimal Allocations for Binary Responses: Insights from Considering Type-I Error Rate Control",
+ "authors": [
+  "Lukas Pin",
+  "Sofía S. Villar",
+  "William F. Rosenberger"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 4,
+ "latest_date": "2025-06-01",
+ "journal_ref": "Biometrics, Volume 81, Issue 3, September 2025, ujaf114",
+ "doi": "10.1093/biomtc/ujaf114",
+ "comment": "14 pages, 2 figures, 5 tables",
+ "abstract": "This work revisits optimal response-adaptive designs from a type-I error rate perspective, highlighting when and how much these allocations exacerbate type-I error rate inflation - an issue previously undocumented. We explore a range of approaches from the literature that can be applied to reduce type-I error rate inflation. However, we found that all of these approaches fail to give a robust solution to the problem. To address this, we derive two optimal allocation proportions, incorporating the more robust score test (instead of the Wald test) with finite sample estimators (instead of the unknown true values) in the formulation of the optimization problem. One proportion optimizes statistical power and the other minimizes the total number failures in a trial while maintaining a fixed variance level. Through simulations based on an early-phase and a confirmatory trial we provide crucial practical insight into how these new optimal proportion designs can offer substantial patient outcomes advantages while controlling type-I error rate. While we focused on binary outcomes, the framework offers valuable insights that naturally extend to other outcome types, multi-armed trials and alternative measures of interest.",
+ "primary": "stat.ME"
+}

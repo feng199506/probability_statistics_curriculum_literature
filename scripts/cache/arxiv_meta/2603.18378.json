@@ -1,0 +1,16 @@
+{
+ "id": "2603.18378",
+ "title": "BiSSLB: Binary Spike-and-Slab Lasso Biclustering",
+ "authors": [
+  "Sijian Fan",
+  "Ray Bai"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Biclustering is a powerful unsupervised learning technique for simultaneously identifying coherent subsets of rows and columns in a data matrix, thus revealing local patterns that may not be apparent in global analyses. However, most biclustering methods are developed for continuous data and are not applicable for binary datasets such as single-nucleotide polymorphism (SNP) or protein-protein interaction (PPI) data. Existing biclustering algorithms for binary data often struggle to recover biclustering patterns under noise, face scalability issues, and/or bias the final results towards biclusters of a particular size or characteristic. We propose a Bayesian method for biclustering binary datasets called Binary Spike-and-Slab Lasso Biclustering (BiSSLB). Our method is robust to noise and allows for overlapping biclusters of various sizes without prior knowledge of the noise level or bicluster characteristics. BiSSLB is based on a logistic matrix factorization model with spike-and-slab priors on the latent spaces. We further incorporate an Indian Buffet Process (IBP) prior to automatically determine the number of biclusters from the data. We develop a novel coordinate ascent algorithm with proximal steps which allows for scalable computation. The performance of our proposed approach is assessed through simulations and two real applications on HapMap SNP and Homo Sapiens PPI data, where BiSSLB is shown to outperform other state-of-the-art binary biclustering methods when the data is very noisy.",
+ "primary": "stat.ME"
+}

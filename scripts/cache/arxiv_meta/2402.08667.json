@@ -1,0 +1,18 @@
+{
+ "id": "2402.08667",
+ "title": "Target Score Matching",
+ "authors": [
+  "Valentin De Bortoli",
+  "Michael Hutchinson",
+  "Peter Wirnsberger",
+  "Arnaud Doucet"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 1,
+ "latest_date": "2024-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Denoising Score Matching estimates the score of a noised version of a target distribution by minimizing a regression loss and is widely used to train the popular class of Denoising Diffusion Models. A well known limitation of Denoising Score Matching, however, is that it yields poor estimates of the score at low noise levels. This issue is particularly unfavourable for problems in the physical sciences and for Monte Carlo sampling tasks for which the score of the clean original target is known. Intuitively, estimating the score of a slightly noised version of the target should be a simple task in such cases. In this paper, we address this shortcoming and show that it is indeed possible to leverage knowledge of the target score. We present a Target Score Identity and corresponding Target Score Matching regression loss which allows us to obtain score estimates admitting favourable properties at low noise levels.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2405.05403",
+ "title": "An accurate percentile method for parametric inference based on asymptotically biased estimators",
+ "authors": [
+  "Samuel Orso",
+  "Mucyo Karemera",
+  "Maria-Pia Victoria-Feser",
+  "Stéphane Guerrier"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 2,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inference methods for computing confidence intervals in parametric settings usually rely on consistent estimators of the parameter of interest. However, it may be computationally and/or analytically burdensome to obtain such estimators in various parametric settings, for example when the data exhibit certain features such as censoring, misclassification errors or outliers. To address these challenges, we propose a simulation-based inferential method, called the implicit bootstrap, that remains valid regardless of the potential asymptotic bias of the estimator on which the method is based. We demonstrate that this method allows for the construction of asymptotically valid percentile confidence intervals of the parameter of interest. Additionally, we show that these confidence intervals can also achieve second-order accuracy. We also show that the method is exact in three instances where the standard bootstrap fails. Using simulation studies, we illustrate the coverage accuracy of the method in three examples where standard parametric bootstrap procedures are computationally intensive and less accurate in finite samples.",
+ "primary": "stat.ME"
+}

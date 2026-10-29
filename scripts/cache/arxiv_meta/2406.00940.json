@@ -1,0 +1,17 @@
+{
+ "id": "2406.00940",
+ "title": "Measurement Error-Robust Causal Inference via Constructed Instrumental Variables",
+ "authors": [
+  "Caleb H. Miles",
+  "Linda Valeri",
+  "Brent Coull"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-08-19",
+ "journal_ref": "Biometrics, Volume 82, Issue 2, June 2026, ujag057",
+ "doi": "",
+ "comment": "75 pages, 4 figures",
+ "abstract": "Measurement error can often be harmful when estimating causal effects. Two scenarios in which this is the case are in the estimation of (a) the average treatment effect when confounders are measured with error and (b) the natural indirect effect when the exposure and/or confounders are measured with error. Methods adjusting for measurement error typically require external data or knowledge about the measurement error distribution. Here, we propose methodology not requiring any such information. Instead, we show that when the outcome regression is linear in the error-prone variables, consistent estimation of these causal effects can be recovered using constructed instrumental variables under certain conditions. These variables, which are functions of only the observed data, behave like instrumental variables for the error-prone variables. Using data from a study of the effects of prenatal exposure to heavy metals on growth and neurodevelopment in Bangladeshi mother-infant pairs, we apply our methodology to estimate (a) the effect of lead exposure on birth length while controlling for maternal protein intake, and (b) lead exposure's role in mediating the effect of maternal protein intake on birth length. Protein intake is calculated from food journal entries, and is suspected to be highly prone to measurement error.",
+ "primary": "stat.ME"
+}

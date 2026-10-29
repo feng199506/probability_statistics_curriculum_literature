@@ -1,0 +1,17 @@
+{
+ "id": "2501.15284",
+ "title": "Beyond Fixed Restriction Time: Adaptive Restricted Mean Survival Time Methods in Clinical Trials",
+ "authors": [
+  "Jinghao Sun",
+  "Douglas E. Schaubel",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 1,
+ "latest_date": "2025-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Restricted mean survival time (RMST) offers a compelling nonparametric alternative to hazard ratios for right-censored time-to-event data, particularly when the proportional hazards assumption is violated. By capturing the total event-free time over a specified horizon, RMST provides an intuitive and clinically meaningful measure of absolute treatment benefit. Nonetheless, selecting the restriction time $L$ poses challenges: choosing a small $L$ can overlook late-emerging benefits, whereas a large $L$, often underestimated in its impact, may inflate variance and undermine power. We propose a novel data-driven, adaptive procedure that identifies the optimal restriction time $L^*$ from a continuous range by maximizing a criterion balancing effect size and estimation precision. Consequently, our procedure is particularly useful when the pattern of the treatment effect is unknown at the design stage. We provide a rigorous theoretical foundation that accounts for variability introduced by adaptively choosing $L^*$. To address nonregular estimation under the null, we develop two complementary strategies: a convex-hull-based estimator, and a penalized approach that further enhances power. Additionally, when restriction time candidates are defined on a discrete grid, we propose a procedure that surprisingly incurs no asymptotic penalty for selection, thus achieving oracle performance. Extensive simulations across realistic survival scenarios demonstrate that our method outperforms traditional RMST analyses and the log-rank test, achieving superior power while maintaining nominal Type I error rates. In a phase III pancreatic cancer trial with transient treatment effects, our procedure uncovers clinically meaningful benefits that standard methods overlook. Our methods are implemented in the R package AdaRMST.",
+ "primary": "stat.ME"
+}

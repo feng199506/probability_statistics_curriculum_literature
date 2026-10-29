@@ -1,0 +1,16 @@
+{
+ "id": "2602.19703",
+ "title": "Testing Effect Homogeneity and Confounding in High-Dimensional Experimental and Observational Studies",
+ "authors": [
+  "Ana Armendariz",
+  "Martin Huber"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a framework for testing the homogeneity of conditional average treatment effects (CATEs) across multiple experimental and observational studies. Our approach leverages multiple randomized trials to assess whether treatment effects vary with unobserved heterogeneity that differs across trials: if CATEs are homogeneous, this indicates the absence of interactions between treatment and unobservables in the mean effect. Comparing CATEs between experimental and observational data further allows evaluation of potential confounding: if the estimands coincide, there is no unobserved confounding; if they differ, deviations may arise from unobserved confounding, effect heterogeneity, or both. We extend the framework to settings with alternative identification strategies, namely instrumental variable settings and panel data with parallel trends assumptions based on differences in differences, where effects are identified only locally for subpopulations such as compliers or treated units. In these contexts, testing homogeneity is useful for assessing whether local effects can be extrapolated to the total population. We suggest a test based on double machine learning that accommodates high-dimensional covariates in a data-driven way and investigate its finite-sample performance through a simulation study. Finally, we apply the test to the International Stroke Trial (IST), a large multi-country randomized controlled trial in patients with acute ischaemic stroke that evaluated whether early treatment with aspirin altered subsequent clinical outcomes. Our methodology provides a flexible tool for both validating identification assumptions and understanding the generalizability of estimated treatment effects.",
+ "primary": "econ.EM"
+}

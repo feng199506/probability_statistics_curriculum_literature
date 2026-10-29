@@ -1,0 +1,16 @@
+{
+ "id": "2503.21358",
+ "title": "Inference in stochastic differential equations using the Laplace approximation: Demonstration and examples",
+ "authors": [
+  "Uffe Høgsbro Thygesen",
+  "Kasper Kristensen"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 3,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 7 figures, 1 table",
+ "abstract": "Stochastic differential equations are a natural framework for dynamic systems and time series in ecology, because they allow for non-linear first-principle knowledge and uncertainty in the dynamics, and can be combined with measurement errors. However, estimation methods are often technically and computationally challenging. Here, we demonstrate that the Laplace approximation is useful for estimating states and parameters in these models, when done correctly. We give special attention to non-linear dynamics, state-dependent noise intensities, and non-Gaussian measurement errors. Our technique adds states between times of observations, approximates transition densities using discretization methods - in the simplest case, the Euler-Maruyama method - and eliminates unobserved states using the Laplace approximation. We demonstrate that consistency requires a particular form of the approximation, and provide different approaches to implementation. Using simulated case studies, we demonstrate that transition probabilities are well approximated, that inference is computationally feasible, and that the framework leads to simple and flexible implementations.",
+ "primary": "stat.ME"
+}

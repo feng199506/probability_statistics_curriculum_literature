@@ -1,0 +1,17 @@
+{
+ "id": "2512.10446",
+ "title": "Long memory network time series",
+ "authors": [
+  "Chiara Boetti",
+  "Matthew A. Nunes",
+  "Marina I. Knight"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many scientific areas, from computer science to the environmental sciences and finance, give rise to multivariate time series which exhibit long memory, or loosely put, a slow decay in their autocorrelation structure. Efficient modelling and estimation in such settings is key for a number of analysis tasks, such as accurate prediction. However, traditional approaches for modelling such data, for example long memory vector autoregressive processes, are challenging even in modest dimensions, as the number of parameters grows quadratically with the number of modelled variables. Additionally, in many practical data settings, the observed series is accompanied by a (possibly inferred) network that provides information about the presence or absence of between-component associations via the graph edge topology. This article proposes two new models for capturing the dynamics of long memory time series where a network is accounted for. Our approach not only facilitates the analysis of graph-structured long memory time series, but also improves computational efficiency over traditional multivariate long memory models by leveraging the inherent low-dimensional parameter space by adapting likelihood-based estimation algorithms to the network setting. Simulation studies show that our proposed estimation is more stable than traditional models, and is able to tackle data scenarios where current models fail due to computational challenges. While widely applicable, here we demonstrate the efficacy of our proposed models on datasets arising in environmental science and finance.",
+ "primary": "stat.ME"
+}

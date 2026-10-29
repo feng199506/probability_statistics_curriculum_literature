@@ -1,0 +1,18 @@
+{
+ "id": "2511.18252",
+ "title": "The Mixed Birth-death/death-Birth Moran Process",
+ "authors": [
+  "David A. Brewster",
+  "Yichen Huang",
+  "Michael Mitzenmacher",
+  "Martin A. Nowak"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 3,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended Abstract at ITCS 2026",
+ "abstract": "We study evolutionary dynamics on graphs in which each step consists of one birth and one death, also known as the Moran processes. There are two types of individuals: residents with fitness $1$ and mutants with fitness $r$. Two standard update rules are used in the literature. In Birth-death (Bd), a vertex is chosen to reproduce proportional to fitness, and one of its neighbors is selected uniformly at random to be replaced by the offspring. In death-Birth (dB), a vertex is chosen uniformly to die, and then one of its neighbors is chosen, proportional to fitness, to place an offspring into the vacancy. We formalize and study a unified model, the $λ$-mixed Moran process, in which each step is independently a Bd step with probability $λ\\in [0,1]$ and a dB step otherwise. We analyze this mixed process for undirected, connected graphs. As an interesting special case, we show at $λ=1/2$, for any graph that the fixation probability when $r=1$ with a single mutant initially on the graph is exactly $1/n$, and also at $λ=1/2$ that the absorption time for any $r$ is $O_r(n^4)$. We also show results for graphs that are \"almost regular,\" in a manner defined in the paper. We use this to show that for suitable random graphs from $G \\sim G(n,p)$ and fixed $r>1$, with high probability over the choice of graph, the absorption time is $O_r(n^4)$, the fixation probability is $Ω_r(n^{-2})$, and we can approximate the fixation probability in polynomial time. Another special case is when the graph has only two distinct degree values $\\{d_1, d_2\\}$ with $d_1 \\leq d_2$. For those graphs, we give exact formulas for fixation probabilities when $r = 1$ and any $λ$, and establish an absorption time of $O_r(n^4 α^4)$ for all $λ$, where $α= d_2 / d_1$. We also provide explicit formulas for the star and cycle under any $r$ or $λ$.",
+ "primary": "math.PR"
+}

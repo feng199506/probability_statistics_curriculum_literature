@@ -1,0 +1,15 @@
+{
+ "id": "2605.17646",
+ "title": "Starshaped Mean Residual Life Models for Non-Monotonic Survival Data: A Bayesian PMRL Regression Framework with Applications to Teacher Retention",
+ "authors": [
+  "Mohammad Sepehrifar"
+ ],
+ "v1_date": "2026-05-17",
+ "latest_version": 1,
+ "latest_date": "2026-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a Starshaped Mean Residual Life (SMEL) framework for survival data with non-monotonic hazard patterns, where early-stage attrition is followed by mid-career stabilization. Unlike Cox proportional hazards models or standard mean residual life models requiring monotonicity, SMEL accommodates complex temporal dynamics by requiring only that $m(t)/t$ be nondecreasing, formalizing the transition from vulnerability to equilibrium. We extend SMEL to regression settings via proportional mean residual life (PMRL) models, $m(t\\mid Z)=m_0(t)\\exp(Z^\\topγ)$, with adaptive Bayesian estimation using three-parameter Weibull--resilience distributions and the No-U-Turn Sampler. Monte Carlo simulations across 48,000 datasets show SMEL-PMRL maintains bias $\\leq 0.02$ under 40\\% right-censoring, reduces integrated Brier score by 19\\% over Cox models ($2.34$ vs.\\ $2.88\\times10^{-2}$), and achieves 5.4\\% AIC improvement. Joint longitudinal-survival extensions via shared frailty enable simultaneous modeling of correlated time-to-event and continuous outcomes. Application to 169 rural STEM teachers (2018--2023, NSF Noyce) confirms starshaped equilibrium ($Λ=12.47$, $p=0.002$), with 38\\% early-career tenure decline (years 1--3). The joint model ($\\hatθ=0.41$, 95\\% CI: $[0.35,\\,0.47]$) shows persistence beyond year~3 yields 31-point cumulative achievement gains (0.56~SD) over four years. SMEL-PMRL offers a flexible, theoretically grounded alternative to proportional hazards for workforce dynamics and high-attrition settings where equilibrium processes govern long-term stability.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2401.10196",
+ "title": "Functional Gaussian Graphical Regression Models For Air Quality Data",
+ "authors": [
+  "Rita Fici",
+  "Gianluca Sottile",
+  "Luigi Augugliaro",
+  "Ernst-Jan Camiel Wit"
+ ],
+ "v1_date": "2024-01-18",
+ "latest_version": 3,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages",
+ "abstract": "Functional data describe a wide range of processes, such as growth curves and spectral absorption. In this study, we analyze air pollution data from the In-service Aircraft for a Global Observing System, focusing on the spatial interactions among chemicals in the atmosphere and their dependence on meteorological conditions. This requires functional regression, where both response and covariates are functional objects evolving over the troposphere. Evaluating both the functional relatedness between the response and covariates and the relatedness of a multivariate response function can be challenging. We propose a solution to these challenges by introducing a functional Gaussian graphical regression model, extending conditional Gaussian graphical models to partially separable functions. To estimate the model, we propose a doubly-penalized estimator. Additionally, we present a novel adaptation of Kullback-Leibler cross-validation tailored for graph estimators which accounts for precision and regression matrices when the population presents one or more sub-groups, named joint Kullback-Leibler cross-validation. Evaluation of model performance is done in terms of Kullback-Leibler divergence and graph recovery power.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.21110",
+ "title": "A goodness-of-fit test for the logistic propensity score model under nonignorable missing data",
+ "authors": [
+  "Manli Cheng",
+  "Yangjianchen Xu",
+  "Qinglong Tian",
+  "Pengfei Li"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages",
+ "abstract": "Logistic regression is widely used to model the propensity score in the analysis of nonignorable missing data. However, goodness-of-fit testing for this propensity score model has received limited attention in the literature. In this paper, we propose a new goodness-of-fit testing procedure for the logistic propensity score model under nonignorable missing data. The proposed test is based on an unweighted sum-of-squared residuals constructed from the marginal missingness mechanism and accommodates the partial observability of the outcome. We establish the asymptotic distribution of the test statistic under both the null hypothesis and general alternatives, and develop a bootstrap procedure with theoretical guarantees to approximate its null distribution. We show that the resulting bootstrap test attains asymptotically correct size and is consistent, with power converging to one under model misspecification. Simulation studies and a real data application demonstrate that the proposed method performs well in finite samples.",
+ "primary": "stat.ME"
+}

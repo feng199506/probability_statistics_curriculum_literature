@@ -1,0 +1,16 @@
+{
+ "id": "2504.15273",
+ "title": "Efficient Testing Using Surrogate Information",
+ "authors": [
+  "Rebecca Knowlton",
+  "Layla Parast"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 1,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In modern clinical trials, there is immense pressure to use surrogate markers in place of an expensive or long-term primary outcome to make more timely decisions about treatment effectiveness. However, using a surrogate marker to test for a treatment effect can be difficult and controversial. Existing methods tend to either rely on fully parametric methods where strict assumptions are made about the relationship between the surrogate and the outcome, or assume the surrogate marker is valid for the entire study population. In this paper, we develop a fully nonparametric method for efficient testing using surrogate information (ETSI). Our approach is specifically designed for settings where there is heterogeneity in the utility of the surrogate marker, i.e., the surrogate is valid for certain patient subgroups and not others. ETSI enables treatment effect estimation and hypothesis testing via kernel-based estimation for a setting where the surrogate is used in place of the primary outcome for individuals for whom the surrogate is valid, and the primary outcome is purposefully only measured in the remaining patients. In addition, we provide a framework for future study design with power and sample size estimates based on our proposed testing procedure. We demonstrate the performance of our methods via a simulation study and application to two distinct HIV clinical trials.",
+ "primary": "stat.ME"
+}

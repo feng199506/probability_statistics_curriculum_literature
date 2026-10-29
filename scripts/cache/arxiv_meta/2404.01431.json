@@ -1,0 +1,17 @@
+{
+ "id": "2404.01431",
+ "title": "When are Unbiased Monte Carlo Estimators More Preferable than Biased Ones?",
+ "authors": [
+  "Guanyang Wang",
+  "Jose Blanchet",
+  "Peter W. Glynn"
+ ],
+ "v1_date": "2024-04-01",
+ "latest_version": 1,
+ "latest_date": "2024-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages",
+ "abstract": "Due to the potential benefits of parallelization, designing unbiased Monte Carlo estimators, primarily in the setting of randomized multilevel Monte Carlo, has recently become very popular in operations research and computational statistics. However, existing work primarily substantiates the benefits of unbiased estimators at an intuitive level or using empirical evaluations. The intuition being that unbiased estimators can be replicated in parallel enabling fast estimation in terms of wall-clock time. This intuition ignores that, typically, bias will be introduced due to impatience because most unbiased estimators necesitate random completion times. This paper provides a mathematical framework for comparing these methods under various metrics, such as completion time and overall computational cost. Under practical assumptions, our findings reveal that unbiased methods typically have superior completion times - the degree of superiority being quantifiable through the tail behavior of their running time distribution - but they may not automatically provide substantial savings in overall computational costs. We apply our findings to Markov Chain Monte Carlo and Multilevel Monte Carlo methods to identify the conditions and scenarios where unbiased methods have an advantage, thus assisting practitioners in making informed choices between unbiased and biased methods.",
+ "primary": "stat.CO"
+}

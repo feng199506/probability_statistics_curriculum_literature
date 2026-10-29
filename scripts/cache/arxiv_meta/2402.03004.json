@@ -1,0 +1,17 @@
+{
+ "id": "2402.03004",
+ "title": "Transformation Discriminant Analysis for Constructing Optimal Biomarker Combinations",
+ "authors": [
+  "Ainesh Sewak",
+  "Sandra Siegfried",
+  "Torsten Hothorn"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 2,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate diagnostic tests are essential for effective screening and treatment. However, individual biomarkers often fail to provide sufficient diagnostic accuracy, as they typically capture only one aspect of the complex disease process. Combining multiple biomarkers, each capturing a distinct mechanism, can help constructing more informative diagnostic tests. In practice, logistic regression is used as the default to combine biomarkers, but it can perform poorly when biomarker distributions exhibit skewness or differ across disease groups. Nonparametric methods provide more flexibility but generally require large sample sizes that are infrequently available in biomedical research. We propose a novel framework called transformation discriminant analysis which combines biomarkers through the likelihood ratio function to construct theoretically optimal diagnostic scores. Transformation discriminant analysis balances between flexibility and efficiency. It can accommodate a wide range of distributional shapes and disease-specific dependence structures while remaining fully parametric. This allows for likelihood inference and strong performance even in small-sample settings. We evaluate TDA through simulations and benchmark its performance against commonly used methods. Finally, we illustrate its utility in constructing an optimal diagnostic test for hepatocellular carcinoma, a disease with no single ideal biomarker. An open-source R implementation is provided for reproducibility and broader application.",
+ "primary": "stat.ME"
+}

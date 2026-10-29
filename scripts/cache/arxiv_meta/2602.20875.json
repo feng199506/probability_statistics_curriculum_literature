@@ -1,0 +1,17 @@
+{
+ "id": "2602.20875",
+ "title": "Efficient Online Learning in Interacting Particle Systems",
+ "authors": [
+  "Louis Sharrock",
+  "Nikolas Kantas",
+  "Grigorios A. Pavliotis"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a new method for online parameter estimation in stochastic interacting particle systems, based on continuous observation of a small number of particles from the system. Our method recursively updates the model parameters using a stochastic approximation of the gradient of the asymptotic log likelihood, which is computed using the continuous stream of observations. Under suitable assumptions, we rigorously establish convergence of our method to the stationary points of the asymptotic log-likelihood of the interacting particle system. We consider asymptotics both in the limit as the time horizon $t\\rightarrow\\infty$, for a fixed and finite number of particles, and in the joint limit as the number of particles $N\\rightarrow\\infty$ and the time horizon $t\\rightarrow\\infty$. Under additional assumptions on the asymptotic log-likelihood, we also establish an $\\mathrm{L}^2$ convergence rate and a central limit theorem. Finally, we present several numerical examples of practical interest, including a model for systemic risk, a model of interacting FitzHugh--Nagumo neurons, and a Cucker--Smale flocking model. Our numerical results corroborate our theoretical results, and also suggest that our estimator is effective even in cases where the assumptions required for our theoretical analysis do not hold.",
+ "primary": "math.ST"
+}

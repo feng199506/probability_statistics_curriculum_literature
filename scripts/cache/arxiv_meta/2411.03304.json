@@ -1,0 +1,18 @@
+{
+ "id": "2411.03304",
+ "title": "Bayesian Controlled FDR Variable Selection via Parameter-Expanded Latent Knockoffs",
+ "authors": [
+  "Lorenzo Focardi-Olmi",
+  "Anna Gottard",
+  "Michele Guindani",
+  "Marina Vannucci"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 3,
+ "latest_date": "2026-04-21",
+ "journal_ref": "Bayesian Analysis, 2026+",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many research fields, researchers aim to identify significant associations between a set of explanatory variables and a response while controlling the FDR. The Knockoff filter has been recently proposed in the frequentist paradigm to introduce controlled noise in a model by cleverly constructing copies of the predictors as auxiliary variables. We develop a fully Bayesian generalization of the classical model-X knockoff filter for normally distributed covariates. In our approach, we consider a joint model for the covariates and the response, where the conditional independence structure of the covariates is captured through a Gaussian graphical model and used to define a latent knockoff layer through a parameter-expanded representation of the response model. Estimating the covariate graph informs the knockoff construction and improves inference on the covariate effects. We use a modified spike-and-slab prior on the regression coefficients, avoiding the increase of the model dimension typical of the classical knockoff filter. We also address extensions to non-Gaussian responses. Our model performs variable selection using an upper bound on the posterior probability of non-inclusion. We show that the induced latent knockoff layer defines valid Gaussian model-X knockoffs under the proposed construction and that the resulting procedure controls the Bayesian FDR at an arbitrary level, in finite samples, if the distribution of the covariates is fully known; under an estimated graphical structure, it satisfies an asymptotic FDR guarantee. We use simulated data to demonstrate that our proposal increases the stability of the selection with respect to classical knockoff methods. With respect to Bayesian variable selection methods, our selection procedure achieves comparable or better performances, while maintaining control over the FDR. We conclude with an application to real data.",
+ "primary": "stat.ME"
+}

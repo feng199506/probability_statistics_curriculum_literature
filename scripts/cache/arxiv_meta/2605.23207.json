@@ -1,0 +1,17 @@
+{
+ "id": "2605.23207",
+ "title": "Mixture-of-Finite-Mixtures Wishart Model for Clustering Covariance Matrices with an Application to Brain Functional Connectivity",
+ "authors": [
+  "Zongyu Li",
+  "Stefano Castruccio",
+  "Zhiyong Zhang"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data represented as covariance-type matrices arise in many fields, including brain functional connectivity and diffusion tensor imaging. We develop the MFM-Wishart, a Bayesian model-based clustering approach for such data that combines Wishart mixture components with a mixture-of-finite-mixtures (MFM) prior, allowing joint posterior inference on both the number of clusters and clustering assignments. Theoretically, we study the properties of Wishart kernels in the context of mixture models and then establish results for posterior consistency for the number of clusters and posterior contraction of the mixing measure under standard regularity conditions. Computationally, we develop an efficient Markov chain Monte Carlo (MCMC) algorithm for posterior inference. Simulation studies show competitive clustering performance and accurate recovery of the number of clusters, even under model misspecification. We apply MFM-Wishart to cluster infants based on functional connectivity during sleep, estimated from functional near-infrared spectroscopy (fNIRS) data, illustrating the practical utility of the model and revealing interpretable heterogeneity.",
+ "primary": "stat.ME"
+}

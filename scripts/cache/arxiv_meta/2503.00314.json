@@ -1,0 +1,17 @@
+{
+ "id": "2503.00314",
+ "title": "Error Bounds Revisited, and How to Use Bayesian Statistics While Remaining a Frequentist",
+ "authors": [
+  "Ning Xu",
+  "Christopher M. Foster",
+  "Jonathan H. Manton"
+ ],
+ "v1_date": "2025-03-01",
+ "latest_version": 1,
+ "latest_date": "2025-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation at IEEE Conference on Acoustics, Speech and Signal Processing (ICASSP) 2025",
+ "abstract": "Signal processing makes extensive use of point estimators and accompanying error bounds. These work well up until the likelihood function has two or more high peaks. When it is important for an estimator to remain reliable, it becomes necessary to consider alternatives, such as set estimators. An obvious first choice might be confidence intervals or confidence regions, but there can be difficulties in computing and interpreting them (and sometimes they might still be blind to multiple peaks in the likelihood). Bayesians seize on this to argue for replacing confidence regions with credible regions. Yet Bayesian statistics require a prior, which is not always a natural part of the problem formulation. This paper demonstrates how a re-interpretation of the prior as a weighting function makes an otherwise Bayesian estimator meaningful in the frequentist context. The weighting function interpretation also serves as a reminder that an estimator should always be designed in the context of its intended application; unlike a prior which ostensibly depends on prior knowledge, a weighting function depends on the intended application. This paper uses the time-of-arrival (TOA) problem to illustrate all these points. It also derives a basic theory of region-based estimators distinct from confidence regions.",
+ "primary": "stat.ME"
+}

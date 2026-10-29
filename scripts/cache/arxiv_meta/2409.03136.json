@@ -1,0 +1,16 @@
+{
+ "id": "2409.03136",
+ "title": "A New Forward Discriminant Analysis Framework Based On Pillai's Trace and ULDA",
+ "authors": [
+  "Siyu Wang",
+  "Kehui Yao"
+ ],
+ "v1_date": "2024-09-05",
+ "latest_version": 2,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Linear discriminant analysis (LDA), a traditional classification tool, suffers from limitations such as sensitivity to noise and computational challenges when dealing with non-invertible within-class scatter matrices. Traditional stepwise LDA frameworks, which iteratively select the most informative features, often exacerbate these issues by relying heavily on Wilks' $Λ$, potentially causing premature stopping of the selection process. This paper introduces a novel forward discriminant analysis framework that integrates Pillai's trace with Uncorrelated Linear Discriminant Analysis (ULDA) to address these challenges, and offers a unified and stand-alone classifier. Through simulations and real-world datasets, the new framework demonstrates effective control of Type I error rates and improved classification accuracy, particularly in cases involving perfect group separations. The results highlight the potential of this approach as a robust alternative to the traditional stepwise LDA framework.",
+ "primary": "stat.ME"
+}

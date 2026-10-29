@@ -1,0 +1,16 @@
+{
+ "id": "2203.15267",
+ "title": "Selective inference for k-means clustering",
+ "authors": [
+  "Yiqun T. Chen",
+  "Daniela M. Witten"
+ ],
+ "v1_date": "2022-03-29",
+ "latest_version": 1,
+ "latest_date": "2022-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of testing for a difference in means between clusters of observations identified via k-means clustering. In this setting, classical hypothesis tests lead to an inflated Type I error rate. To overcome this problem, we take a selective inference approach. We propose a finite-sample p-value that controls the selective Type I error for a test of the difference in means between a pair of clusters obtained using k-means clustering, and show that it can be efficiently computed. We apply our proposal in simulation, and on hand-written digits data and single-cell RNA-sequencing data.",
+ "primary": "stat.ME"
+}

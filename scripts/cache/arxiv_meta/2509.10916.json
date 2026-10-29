@@ -1,0 +1,21 @@
+{
+ "id": "2509.10916",
+ "title": "A Tutorial on Conducting Mediation Analysis with Exposure Mixtures",
+ "authors": [
+  "Yiran Wang",
+  "Yi-Ting Lin",
+  "Sean McGrath",
+  "John D. Meeker",
+  "Sung Kyun Park",
+  "Joshua L. Warren",
+  "Bhramar Mukherjee"
+ ],
+ "v1_date": "2025-09-13",
+ "latest_version": 1,
+ "latest_date": "2025-09-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 1 table and 5 figures in the main text; 5 tables and 13 figures in the supplementary material",
+ "abstract": "Causal mediation analysis is a powerful tool in environmental health research, allowing researchers to uncover the pathways through which exposures influence health outcomes. While traditional mediation methods have been widely applied to individual exposures, real-world scenarios often involve complex mixtures. Such mixtures introduce unique methodological challenges, including multicollinearity, sparsity of active exposures, and potential nonlinear and interactive effects. This paper provides an overview of several commonly used approaches for mediation analysis under exposure mixture settings with clear strategies and code for implementation. The methods include: single exposure mediation analysis (SE-MA), principal component-based mediation analysis, environmental risk score-based mediation analysis, and Bayesian kernel machine regression causal mediation analysis. While SE-MA serves as a baseline that analyzes each exposure individually, the other methods are designed to address the correlation and complexity inherent in exposure mixtures. For each method, we aim to clarify the target estimand and the assumptions that each method is making to render a causal interpretation of the estimates obtained. We conduct a simulation study to systematically evaluate the operating characteristics of these four methods to estimate global indirect effects and to identify individual exposures contributing to the global mediation under varying sample sizes, effect sizes, and exposure-mediator-outcome structures. We also illustrate their real-world applicability by examining data from the PROTECT birth cohort, specifically analyzing the relationship between prenatal exposure to phthalate mixtures and neonatal head circumference Z-score, with leukotriene E4 as a mediator. This example offers practical guidance for conducting mediation analysis in complex environmental contexts.",
+ "primary": "stat.ME"
+}

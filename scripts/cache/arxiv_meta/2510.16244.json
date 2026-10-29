@@ -1,0 +1,18 @@
+{
+ "id": "2510.16244",
+ "title": "A Compositional Approach to Modelling Cause-specific Mortality with Zero Counts",
+ "authors": [
+  "Zhe Michelle Dong",
+  "Han Lin Shang",
+  "Francis Hui",
+  "Aaron Bruhn"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 14 figures, 5 tables",
+ "abstract": "Understanding and forecasting mortality by cause is an essential branch of actuarial science, with wide-ranging implications for decision-makers in public policy and industry. To accurately capture trends in cause-specific mortality, it is critical to consider dependencies between causes of death and produce forecasts by age and cause coherent with aggregate mortality forecasts. One way to achieve these aims is to model cause-specific deaths using compositional data analysis (CODA), treating the density of deaths by age and cause as a set of dependent, non-negative values that sum to one. A major drawback of standard CODA methods is the challenge of zero values, which frequently occur in cause-of-death mortality modelling. Thus, we propose using a compositional power transformation, the $α$-transformation, to model cause-specific life-table death counts. The $α$-transformation offers a statistically rigorous approach to handling zero value subgroups in CODA compared to \\emph{ad-hoc} techniques: adding an arbitrarily small amount. We illustrate the $α$-transformation on England and Wales, and US death counts by cause from the Human Cause-of-Death database, for cardiovascular-related causes of death. Results demonstrate the $α$-transformation improves forecast accuracy of cause-specific life-table death counts compared with log-ratio-based CODA transformations. The forecasts suggest declines in proportions of deaths from major cardiovascular causes (myocardial infarction and other ischemic heart diseases (IHD)).",
+ "primary": "stat.AP"
+}

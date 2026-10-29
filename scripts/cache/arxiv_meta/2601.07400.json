@@ -1,0 +1,20 @@
+{
+ "id": "2601.07400",
+ "title": "Inference for Multiple Change-points in Piecewise Locally Stationary Time Series",
+ "authors": [
+  "Wai Leong Ng",
+  "Xinyi Tang",
+  "Mun Lau Cheung",
+  "Jiacheng Gao",
+  "Chun Yip Yau",
+  "Holger Dette"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 2,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Change-point detection and locally stationary time series modeling are two major approaches for the analysis of non-stationary data. The former aims to identify stationary phases by detecting abrupt changes in the dynamics of a time series model, while the latter employs (locally) time-varying models to describe smooth changes in dependence structure of a time series. However, in some applications, abrupt and smooth changes can co-exist, and neither of the two approaches alone can model the data adequately. In this paper, we propose a novel likelihood-based procedure for the inference of multiple change-points in locally stationary time series. In contrast to traditional change-point analysis where an abrupt change occurs in a real-valued parameter, a change in locally stationary time series occurs in a parameter curve, and can be classified as a jump or a kink depending on whether the curve is discontinuous or not. We show that the proposed method can consistently estimate the number, locations, and the types of change-points. Two different asymptotic distributions corresponding respectively to jump and kink estimators are also established. Extensive simulation studies and a real data application to financial time series are provided.",
+ "primary": "stat.ME"
+}

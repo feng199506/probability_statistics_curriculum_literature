@@ -1,0 +1,15 @@
+{
+ "id": "2401.11827",
+ "title": "Adaptively-structured mixed models for simple clustered data",
+ "authors": [
+  "Helen Ogden"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 3,
+ "latest_date": "2026-07-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Substantially revised version, reframing the method and adding new theoretical results and expanded simulation studies",
+ "abstract": "We propose adaptively-structured mixed models for simple clustered data. Like classical mixed-effects models, they share information between clusters through random effects, but they estimate the associated design functions from the data rather than requiring them to be specified in advance. This retains the mixed-effects mechanism for information sharing while allowing the structure to adapt flexibly to the data. We establish consistency and asymptotic normality for population-level estimation and show that cluster-specific predictions are asymptotically as accurate as predictions based on the true population structure. In simulations, adaptively-structured mixed models substantially improve the quality of inference relative to existing general-purpose methods while remaining computationally efficient. An application to body-fat data from adolescent girls illustrates how the method captures both the average pattern over time and variation between individuals.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2403.17285",
+ "title": "Unraveling the Interplay between Carryover Effects and Reward Autocorrelations in Switchback Experiments",
+ "authors": [
+  "Qianglin Wen",
+  "Chengchun Shi",
+  "Ying Yang",
+  "Niansheng Tang",
+  "Hongtu Zhu"
+ ],
+ "v1_date": "2024-03-26",
+ "latest_version": 7,
+ "latest_date": "2025-08-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A/B testing has become the gold standard for policy evaluation in modern technological industries. Motivated by the widespread use of switchback experiments in A/B testing, this paper conducts a comprehensive comparative analysis of various switchback designs in Markovian environments. Unlike many existing works which derive the optimal design based on specific and relatively simple estimators, our analysis covers a range of state-of-the-art estimators developed in the reinforcement learning (RL) literature. It reveals that the effectiveness of different switchback designs depends crucially on (i) the size of the carryover effect and (ii) the auto-correlations among reward errors over time. Meanwhile, these findings are estimator-agnostic, i.e., they apply to most RL estimators. Based on these insights, we provide a workflow to offer guidelines for practitioners on designing switchback experiments in A/B testing.",
+ "primary": "stat.ML"
+}

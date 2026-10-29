@@ -1,0 +1,19 @@
+{
+ "id": "2510.14494",
+ "title": "ROC Analysis with Covariate Adjustment Using Neural Network Models: Evaluating the Role of Age in the Physical Activity-Mortality Association",
+ "authors": [
+  "Ziad Akram Ali Hammouri",
+  "Yating Zou",
+  "Rahul Ghosal",
+  "Juan C. Vidal",
+  "Marcos Matabuena"
+ ],
+ "v1_date": "2025-10-16",
+ "latest_version": 1,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The receiver operating characteristic (ROC) curve and its summary measure, the Area Under the Curve (AUC), are well-established tools for evaluating the efficacy of biomarkers in biomedical studies. Compared to the traditional ROC curve, the covariate-adjusted ROC curve allows for individual evaluation of the biomarker. However, the use of machine learning models has rarely been explored in this context, despite their potential to develop more powerful and sophisticated approaches for biomarker evaluation. The goal of this paper is to propose a framework for neural network-based covariate-adjusted ROC modeling that allows flexible and nonlinear evaluation of the effectiveness of a biomarker to discriminate between two reference populations. The finite-sample performance of our method is investigated through extensive simulation tests under varying dependency structures between biomarkers, covariates, and referenced populations. The methodology is further illustrated in a clinically case study that assesses daily physical activity - measured as total activity time (TAC), a proxy for daily step count-as a biomarker to predict mortality at three, five and eight years. Analyzes stratified by sex and adjusted for age and BMI reveal distinct covariate effects on mortality outcomes. These results underscore the importance of covariate-adjusted modeling in biomarker evaluation and highlight TAC's potential as a functional capacity biomarker based on specific individual characteristics.",
+ "primary": "stat.ME"
+}

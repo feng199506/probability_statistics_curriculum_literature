@@ -1,0 +1,16 @@
+{
+ "id": "2312.12645",
+ "title": "Revisiting the effect of greediness on the efficacy of exchange algorithms for generating exact optimal experimental designs",
+ "authors": [
+  "William T. Gullion",
+  "Stephen J. Walsh"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Coordinate exchange (CEXCH) is a popular algorithm for generating exact optimal experimental designs. The authors of CEXCH advocated for a highly greedy implementation - one that exchanges and optimizes single element coordinates of the design matrix. We revisit the effect of greediness on CEXCHs efficacy for generating highly efficient designs. We implement the single-element CEXCH (most greedy), a design-row (medium greedy) optimization exchange, and particle swarm optimization (PSO; least greedy) on 21 exact response surface design scenarios, under the $D$- and $I-$criterion, which have well-known optimal designs that have been reproduced by several researchers. We found essentially no difference in performance of the most greedy CEXCH and the medium greedy CEXCH. PSO did exhibit better efficacy for generating $D$-optimal designs, and for most $I$-optimal designs than CEXCH, but not to a strong degree under our parametrization. This work suggests that further investigation of the greediness dimension and its effect on CEXCH efficacy on a wider suite of models and criterion is warranted.",
+ "primary": "stat.ME"
+}

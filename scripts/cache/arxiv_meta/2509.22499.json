@@ -1,0 +1,21 @@
+{
+ "id": "2509.22499",
+ "title": "A Multiplicative Instrumental Variable Model for Data Missing Not-at-Random",
+ "authors": [
+  "Yunshu Zhang",
+  "Chan Park",
+  "Jiewen Liu",
+  "Yonghoon Lee",
+  "Mengxin Yu",
+  "James M. Robins",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 3 figures",
+ "abstract": "Instrumental variable (IV) methods offer a valuable approach to account for outcome data missing not-at-random. A valid missing data instrument is a measured factor which (i) predicts the nonresponse process and (ii) is independent of the outcome in the underlying population. For point identification, all existing IV methods for missing data including the celebrated Heckman selection model, a priori restrict the extent of selection bias on the outcome scale, therefore potentially understating uncertainty due to missing data. In this work, we introduce an IV framework which allows the degree of selection bias on the outcome scale to remain completely unrestricted. The new approach instead relies for identification on (iii) a key multiplicative selection model, which posits that the instrument and any hidden common correlate of selection and the outcome, do not interact on the multiplicative scale. Interestingly, we establish that any regular statistical functional of the missing outcome is nonparametrically identified under (i)-(iii) via a single-arm Wald ratio estimand reminiscent of the standard Wald ratio estimand in causal inference. For estimation and inference, we characterize the influence function for any functional defined on a nonparametric model for the observed data, which we leverage to develop semiparametric multiply robust IV estimators. Several extensions of the methods are also considered, including the important practical setting of polytomous and continuous instruments. Simulation studies illustrate the favorable finite sample performance of proposed methods, which we further showcase in an HIV study nested within a household health survey study we conducted in Mochudi, Botswana, in which interviewer characteristics are used as instruments to correct for selection bias due to dependent nonresponse in the HIV component of the survey study.",
+ "primary": "stat.ME"
+}

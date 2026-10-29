@@ -1,0 +1,19 @@
+{
+ "id": "2403.02065",
+ "title": "Permutation-based multiple testing when fitting many generalized linear models",
+ "authors": [
+  "Riccardo De Santis",
+  "Jelle J. Goeman",
+  "Samuel Davenport",
+  "Jesse Hemerik",
+  "Livio Finos"
+ ],
+ "v1_date": "2024-03-04",
+ "latest_version": 2,
+ "latest_date": "2024-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many applied sciences a popular analysis strategy for high-dimensional data is to fit many multivariate generalized linear models in parallel. This paper presents a novel approach to address the resulting multiple testing problem by combining a recently developed sign-flip test with permutation-based multiple-testing procedures. Our method builds upon the univariate standardized flip-scores test which offers robustness against misspecified variances in generalized linear models, a crucial feature in high-dimensional settings where comprehensive model validation is particularly challenging. We extend this approach to the multivariate setting, enabling adaptation to unknown response correlation structures. This approach yields relevant power improvements over conventional multiple testing methods when correlation is present.",
+ "primary": "math.ST"
+}

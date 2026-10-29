@@ -1,0 +1,17 @@
+{
+ "id": "2404.16709",
+ "title": "Understanding Measurement Precision from a Regression Perspective",
+ "authors": [
+  "Yang Liu",
+  "Jolynn Pek",
+  "Alberto Maydeu-Olivares"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 3,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "10.1037/met0000763",
+ "comment": "",
+ "abstract": "We adopt and expand McDonald's (2011) regression framework for measurement precision, integrating two key perspectives: (a) reliability of observed scores and (b) optimal prediction of latent scores. Reliability arises from a measurement decomposition of an observed score into its true score and measurement error. In contrast, proportional reduction in mean squared error (PRMSE) arises from a prediction decomposition of a latent score into its optimal predictor (the observed expected a posteriori [EAP] score) and prediction error. Reliability is the coefficient of determination obtained by two isomorphic regressions: regressing the observed score on its true score or on all the latent variables. Similarly, PRMSE is the coefficient of determination obtained from two isomorphic regressions: regressing the latent score on its observed EAP score or all the manifest variables. A key implication of this regression framework is that both reliability and PRMSE can be estimated using a Monte Carlo (MC) method, which is particularly useful when no analytic formula is available or when the analytic calculation is involved. We illustrate these concepts with a factor analysis model and a two parameter logistic model, in which we compute reliability coefficients for different observed scores and PRMSE for different latent scores. Additionally, we provide a numerical example demonstrating how the MC method can be used to estimate reliability and PRMSE within a two-dimensional item response tree model.",
+ "primary": "stat.ME"
+}

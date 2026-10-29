@@ -1,0 +1,17 @@
+{
+ "id": "2602.06931",
+ "title": "On micromodes in Bayesian posterior distributions and their implications for MCMC",
+ "authors": [
+  "Sanket Agrawal",
+  "Sebastiano Grazzi",
+  "Gareth O. Roberts"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 4 figures",
+ "abstract": "We investigate the existence and severity of local modes in posterior distributions from Bayesian analyses. These are known to occur in posterior tails resulting from heavy-tailed error models such as those used in robust regression. To understand this phenomenon clearly, we consider in detail location models with Student-$t$ errors in dimension $d$ with sample size $n$. For sufficiently heavy-tailed data-generating distributions, extreme observations become increasingly isolated as $n \\to \\infty$. We show that each such observation induces a unique local posterior mode with probability tending to $1$. We refer to such a local mode as a micromode. These micromodes are typically small in height but their domains of attraction are large and grow polynomially with $n$. We then connect this posterior geometry to computation. We establish an Arrhenius law for the time taken by one-dimensional piecewise deterministic Monte Carlo algorithms to exit these micromodes. Our analysis identifies a phase transition where a misspecified and overly underdispersed model causes exit times to increase sharply, leading to a pronounced deterioration in sampling performance.",
+ "primary": "math.ST"
+}

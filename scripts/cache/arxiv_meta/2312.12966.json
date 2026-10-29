@@ -1,0 +1,17 @@
+{
+ "id": "2312.12966",
+ "title": "Rank-based Bayesian clustering via covariate-informed Mallows mixtures",
+ "authors": [
+  "Emilie Eliseussen",
+  "Arnoldo Frigessi",
+  "Valeria Vitelli"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2024-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data in the form of rankings, ratings, pair comparisons or clicks are frequently collected in diverse fields, from marketing to politics, to understand assessors' individual preferences. Combining such preference data with features associated with the assessors can lead to a better understanding of the assessors' behaviors and choices. The Mallows model is a popular model for rankings, as it flexibly adapts to different types of preference data, and the previously proposed Bayesian Mallows Model (BMM) offers a computationally efficient framework for Bayesian inference, also allowing capturing the users' heterogeneity via a finite mixture. We develop a Bayesian Mallows-based finite mixture model that performs clustering while also accounting for assessor-related features, called the Bayesian Mallows model with covariates (BMMx). BMMx is based on a similarity function that a priori favours the aggregation of assessors into a cluster when their covariates are similar, using the Product Partition models (PPMx) proposal. We present two approaches to measure the covariate similarity: one based on a novel deterministic function measuring the covariates' goodness-of-fit to the cluster, and one based on an augmented model as in PPMx. We investigate the performance of BMMx in both simulation experiments and real-data examples, showing the method's potential for advancing the understanding of assessor preferences and behaviors in different applications.",
+ "primary": "stat.ME"
+}

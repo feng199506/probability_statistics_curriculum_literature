@@ -1,0 +1,17 @@
+{
+ "id": "2502.20368",
+ "title": "Minimax rates for learning kernels in operators",
+ "authors": [
+  "Sichong Zhang",
+  "Xiong Wang",
+  "Fei Lu"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 2,
+ "latest_date": "2025-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 1 table",
+ "abstract": "Learning kernels in operators from data lies at the intersection of inverse problems and statistical learning, providing a powerful framework for capturing non-local dependencies in function spaces and high-dimensional settings. In contrast to classical nonparametric regression, where the inverse problem is well-posed, kernel estimation involves a compact normal operator and an ill-posed deconvolution. To address these challenges, we introduce adaptive spectral Sobolev spaces, which unify Sobolev spaces and reproducing kernel Hilbert spaces, automatically discarding non-identifiable components and controlling terms with small eigenvalues. Within this framework, we establish the minimax convergence rates for the mean squared error under both polynomial and exponential spectral decay regimes. Methodologically, we develop a tamed least squares estimator achieving the minimax upper rates via controlling the left-tail probability for eigenvalues of the random normal matrix; and for the minimax lower rates, we resolve challenges from infinite-dimensional measures through their projections.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.02826",
+ "title": "Scalable Ultra-High-Dimensional Quantile Regression with Genomic Applications",
+ "authors": [
+  "Hanqing Wu",
+  "Jonas Wallin",
+  "Iuliana Ionita-Laza"
+ ],
+ "v1_date": "2026-01-06",
+ "latest_version": 1,
+ "latest_date": "2026-01-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modern datasets arising from social media, genomics, and biomedical informatics are often heterogeneous and (ultra) high-dimensional, creating substantial challenges for conventional modeling techniques. Quantile regression (QR) not only offers a flexible way to capture heterogeneous effects across the conditional distribution of an outcome, but also naturally produces prediction intervals that help quantify uncertainty in future predictions. However, classical QR methods can face serious memory and computational constraints in large-scale settings. These limitations motivate the use of parallel computing to maintain tractability. While extensive work has examined sample-splitting strategies in settings where the number of observations $n$ greatly exceeds the number of features $p$, the equally important (ultra) high-dimensional regime ($p >> n$) has been comparatively underexplored. To address this gap, we introduce a feature-splitting proximal point algorithm, FS-QRPPA, for penalized QR in high-dimensional regime. Leveraging recent developments in variational analysis, we establish a Q-linear convergence rate for FS-QRPPA and demonstrate its superior scalability in large-scale genomic applications from the UK Biobank relative to existing methods. Moreover, FS-QRPPA yields more accurate coefficient estimates and better coverage for prediction intervals than current approaches. We provide a parallel implementation in the R package fsQRPPA, making penalized QR tractable on large-scale datasets.",
+ "primary": "stat.ME"
+}

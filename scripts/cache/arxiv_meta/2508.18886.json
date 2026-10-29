@@ -1,0 +1,20 @@
+{
+ "id": "2508.18886",
+ "title": "Toward Robust Medical Fairness: Debiased Dual-Modal Alignment via Text-Guided Attribute-Disentangled Prompt Learning for Vision-Language Models",
+ "authors": [
+  "Yuexuan Xia",
+  "Benteng Ma",
+  "Jiang He",
+  "Zhiyong Wang",
+  "Qi Dou",
+  "Yong Xia"
+ ],
+ "v1_date": "2025-08-26",
+ "latest_version": 1,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ensuring fairness across demographic groups in medical diagnosis is essential for equitable healthcare, particularly under distribution shifts caused by variations in imaging equipment and clinical practice. Vision-language models (VLMs) exhibit strong generalization, and text prompts encode identity attributes, enabling explicit identification and removal of sensitive directions. However, existing debiasing approaches typically address vision and text modalities independently, leaving residual cross-modal misalignment and fairness gaps. To address this challenge, we propose DualFairVL, a multimodal prompt-learning framework that jointly debiases and aligns cross-modal representations. DualFairVL employs a parallel dual-branch architecture that separates sensitive and target attributes, enabling disentangled yet aligned representations across modalities. Approximately orthogonal text anchors are constructed via linear projections, guiding cross-attention mechanisms to produce fused features. A hypernetwork further disentangles attribute-related information and generates instance-aware visual prompts, which encode dual-modal cues for fairness and robustness. Prototype-based regularization is applied in the visual branch to enforce separation of sensitive features and strengthen alignment with textual anchors. Extensive experiments on eight medical imaging datasets across four modalities show that DualFairVL achieves state-of-the-art fairness and accuracy under both in- and out-of-distribution settings, outperforming full fine-tuning and parameter-efficient baselines with only 3.6M trainable parameters. Code will be released upon publication.",
+ "primary": "cs.CV"
+}

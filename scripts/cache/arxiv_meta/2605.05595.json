@@ -1,0 +1,15 @@
+{
+ "id": "2605.05595",
+ "title": "Bayesian Multi-Topology Express Transportation Network Design under Posterior Predictive Demand, Sorting-Efficiency and Delivery-Time Uncertainty",
+ "authors": [
+  "Debashis Chatterjee"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Express transportation network design is uncertain because origin--destination demand, travel time, operating cost, hub congestion, and realized sorting productivity vary over time. Existing multi-topology express network models usually optimize cost and maximum arrival time under fixed input data, which may produce designs that are efficient nominally but fragile under demand surges, route disruptions, and hub productivity losses. This paper develops a Bayesian posterior-predictive framework for multi-topology express transportation network design. The model learns demand, travel-time, cost, and hub-reliability uncertainty from historical or benchmark-calibrated data and propagates them through posterior predictive scenarios. For fully connected, hub-and-spoke, restricted-allocation, and direct-link hybrid topologies, candidate designs are evaluated using posterior expected cost, conditional value-at-risk of maximum arrival time, service reliability, hub hold-time reliability, and emission-aware penalties. A Bayesian multi-structure design methodology is proposed using posterior simulation, sample-average approximation, topology-wise optimization, and Bayes-risk selection. Theoretical results establish existence of a Bayes-optimal design, convergence of posterior scenario risks, and stability of topology selection. Simulation and CAB benchmark experiments show that the Bayesian design can trade modest additional cost for substantial reductions in tail delivery risk and improved hub reliability.",
+ "primary": "stat.OT"
+}

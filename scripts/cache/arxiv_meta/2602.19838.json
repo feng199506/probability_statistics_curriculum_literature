@@ -1,0 +1,15 @@
+{
+ "id": "2602.19838",
+ "title": "Optimality of the Half-Order Exponent in the Turing-Good Identities for Bayes Factors",
+ "authors": [
+  "Kensuke Okada"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayes factors are widely computed by Monte Carlo, yet heavy-tailed sampling distributions can make numerical validation unreliable. The Turing--Good identities provide exact moment equalities for powers of a Bayes factor (a density ratio). When these identities are used as Good-check diagnostics, the power choice becomes a statistical design parameter. We develop a nonasymptotic variance theory for Monte Carlo evaluation of the identities and show that the half-order (square-root) power is uniquely minimax-stable: it equalizes variability across the two model orientations and is the only choice that guarantees finite second moments in a distribution-free worst-case sense over all mutually absolutely continuous model pairs. This yields a balanced two-sample half-order diagnostic that is symmetric in model labeling and has a uniform variance bound at fixed computational budget; in small-overlap regimes it is guaranteed to be no less efficient than the standard one-sided Turing check. Simulations for binomial Bayes factor workflows illustrate stable finite-sample behavior and sensitivity to simulator--evaluator mismatches. We further connect the half-order overlap viewpoint to stable primitives for normalizing-constant ratios and importance-sampling degeneracy summaries.",
+ "primary": "stat.ME"
+}

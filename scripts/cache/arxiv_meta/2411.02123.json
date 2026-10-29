@@ -1,0 +1,17 @@
+{
+ "id": "2411.02123",
+ "title": "Uncertainty quantification and multi-stage variable selection for personalized treatment regimes",
+ "authors": [
+  "Jiefeng Bi",
+  "Matteo Borrotti",
+  "Bernardo Nipoti"
+ ],
+ "v1_date": "2024-11-04",
+ "latest_version": 2,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A dynamic treatment regime is a sequence of medical decisions that adapts to the evolving clinical status of a patient over time. To facilitate personalized care, it is crucial to assess the probability of each available treatment option being optimal for a specific patient, while also identifying the key prognostic factors that determine the optimal sequence of treatments. This task has become increasingly challenging due to the growing number of individual prognostic factors typically available. In response to these challenges, we propose a Bayesian model for optimizing dynamic treatment regimes that addresses the uncertainty in identifying optimal decision sequences and incorporates dimensionality reduction to manage high-dimensional individual covariates. The first task is achieved through a suitable augmentation of the model to handle counterfactual variables. For the second, we introduce a novel class of spike-and-slab priors for the multi-stage selection of significant factors, to favor the sharing of information across stages. The effectiveness of the proposed approach is demonstrated through extensive simulation studies and illustrated using clinical trial data on severe acute arterial hypertension.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.06477",
+ "title": "Sparsified-Learning for High-Dimensional Heavy-Tailed Locally Stationary Time Series, Concentration and Oracle Inequalities",
+ "authors": [
+  "Yingjie Wang",
+  "Mokhtar Z. Alaya",
+  "Salim Bouzebda",
+  "Xinsheng Liu"
+ ],
+ "v1_date": "2025-04-08",
+ "latest_version": 2,
+ "latest_date": "2026-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse learning is ubiquitous in many machine learning tasks. It aims to regularize the goodness-of-fit objective by adding a penalty term to encode structural constraints on the model parameters. In this paper, we develop a flexible sparse learning framework tailored to high-dimensional heavy-tailed locally stationary time series (LSTS). The data-generating mechanism incorporates a regression function that changes smoothly over time and is observed under noise belonging to the class of sub-Weibull and regularly varying distributions. We introduce a sparsity-inducing penalized estimation procedure that combines additive modeling with kernel smoothing and define an additive kernel-smoothing hypothesis class. In the presence of locally stationary dynamics, we assume exponentially decaying $β$-mixing coefficients to derive concentration inequalities for kernel-weighted sums of locally stationary processes with heavy-tailed noise. We further establish nonasymptotic prediction-error bounds, yielding both slow and fast convergence rates under different sparsity structures, including Lasso and total variation penalization with the least-squares loss. To support our theoretical results, we conduct numerical experiments on simulated LSTS with sub-Weibull and Pareto noise, highlighting how tail behavior affects prediction error across different covariate-dimensions as the sample size increases.",
+ "primary": "stat.ML"
+}

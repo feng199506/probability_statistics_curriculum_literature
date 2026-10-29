@@ -1,0 +1,19 @@
+{
+ "id": "2412.03797",
+ "title": "A Two-Stage Bayesian Approach for Variable Selection in Joint Modeling of Multiple Longitudinal Markers with Competing Risks",
+ "authors": [
+  "Taban Baghfalaki",
+  "Reza Hashemi",
+  "Christophe Tzourio",
+  "Catherine Helmer",
+  "Helene Jacqmin-Gadda"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 2,
+ "latest_date": "2025-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many clinical and epidemiological studies, collecting longitudinal measurements together with time-to-event outcomes is essential. Accurately estimating the association between longitudinal markers and event risks, as well as identifying key markers for prediction, is especially important in the presence of competing risks. However, as the number of markers increases, fitting full joint models becomes computationally difficult and may lead to convergence issues. We propose a two-stage Bayesian approach for variable selection in joint models with multiple longitudinal markers and competing risks. The method efficiently identifies important longitudinal markers and covariates. In the first stage, a one-marker joint model is fitted for each marker with the competing risks outcome, and individual marker trajectories are predicted, reducing bias from informative dropout. In the second stage, a cause-specific hazards model is fitted, incorporating the predicted current values of all markers as time-dependent covariates. We consider both continuous and Dirac spike-and-slab priors for Bayesian variable selection, implemented through MCMC algorithms. Our approach enables risk prediction using a large number of longitudinal markers, which is often infeasible for standard joint models. We evaluate performance through simulation studies, examining both variable selection and predictive accuracy. Finally, we apply the method to predict dementia risk in the Three-City (3C) study, a French cohort with competing risks of death. To facilitate use, we provide an R package, VSJM, available at: https:/github.com/tbaghfalaki/VSJM.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.19154",
+ "title": "Cross Spline Net and a Unified World",
+ "authors": [
+  "Linwei Hu",
+  "Ye Jin Choi",
+  "Vijayan N. Nair"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 1,
+ "latest_date": "2024-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In today's machine learning world for tabular data, XGBoost and fully connected neural network (FCNN) are two most popular methods due to their good model performance and convenience to use. However, they are highly complicated, hard to interpret, and can be overfitted. In this paper, we propose a new modeling framework called cross spline net (CSN) that is based on a combination of spline transformation and cross-network (Wang et al. 2017, 2021). We will show CSN is as performant and convenient to use, and is less complicated, more interpretable and robust. Moreover, the CSN framework is flexible, as the spline layer can be configured differently to yield different models. With different choices of the spline layer, we can reproduce or approximate a set of non-neural network models, including linear and spline-based statistical models, tree, rule-fit, tree-ensembles (gradient boosting trees, random forest), oblique tree/forests, multi-variate adaptive regression spline (MARS), SVM with polynomial kernel, etc. Therefore, CSN provides a unified modeling framework that puts the above set of non-neural network models under the same neural network framework. By using scalable and powerful gradient descent algorithms available in neural network libraries, CSN avoids some pitfalls (such as being ad-hoc, greedy or non-scalable) in the case-specific optimization methods used in the above non-neural network models. We will use a special type of CSN, TreeNet, to illustrate our point. We will compare TreeNet with XGBoost and FCNN to show the benefits of TreeNet. We believe CSN will provide a flexible and convenient framework for practitioners to build performant, robust and more interpretable models.",
+ "primary": "stat.ME"
+}

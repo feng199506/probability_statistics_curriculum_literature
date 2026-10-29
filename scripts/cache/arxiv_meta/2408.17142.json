@@ -1,0 +1,21 @@
+{
+ "id": "2408.17142",
+ "title": "Recursive Attentive Pooling for Extracting Speaker Embeddings from Multi-Speaker Recordings",
+ "authors": [
+  "Shota Horiguchi",
+  "Atsushi Ando",
+  "Takafumi Moriya",
+  "Takanori Ashihara",
+  "Hiroshi Sato",
+  "Naohiro Tawara",
+  "Marc Delcroix"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE SLT 2024",
+ "abstract": "This paper proposes a method for extracting speaker embedding for each speaker from a variable-length recording containing multiple speakers. Speaker embeddings are crucial not only for speaker recognition but also for various multi-speaker speech applications such as speaker diarization and target-speaker speech processing. Despite the challenges of obtaining a single speaker's speech without pre-registration in multi-speaker scenarios, most studies on speaker embedding extraction focus on extracting embeddings only from single-speaker recordings. Some methods have been proposed for extracting speaker embeddings directly from multi-speaker recordings, but they typically require preparing a model for each possible number of speakers or involve complicated training procedures. The proposed method computes the embeddings of multiple speakers by focusing on different parts of the frame-wise embeddings extracted from the input multi-speaker audio. This is achieved by recursively computing attention weights for pooling the frame-wise embeddings. Additionally, we propose using the calculated attention weights to estimate the number of speakers in the recording, which allows the same model to be applied to various numbers of speakers. Experimental evaluations demonstrate the effectiveness of the proposed method in speaker verification and diarization tasks.",
+ "primary": "eess.AS"
+}

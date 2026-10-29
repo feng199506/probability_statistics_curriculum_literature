@@ -1,0 +1,17 @@
+{
+ "id": "2412.11136",
+ "title": "Minimax Regret Estimation for Generalizing Heterogeneous Treatment Effects with Multisite Data",
+ "authors": [
+  "Yi Zhang",
+  "Melody Huang",
+  "Kosuke Imai"
+ ],
+ "v1_date": "2024-12-15",
+ "latest_version": 2,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To test scientific theories and develop individualized treatment rules, researchers often wish to learn heterogeneous treatment effects that can be consistently found across diverse populations and contexts. We consider the problem of generalizing heterogeneous treatment effects (HTE) based on data from multiple sites. A key challenge is that a target population may differ from the source sites in unknown and unobservable ways. This means that the estimates from site-specific models lack external validity, and a simple pooled analysis risks bias. We develop a robust CATE (conditional average treatment effect) estimation methodology with multisite data from heterogeneous populations. We propose a minimax-regret framework that learns a generalizable CATE model by minimizing the worst-case regret over a class of target populations whose CATE can be represented as convex combinations of site-specific CATEs. Using robust optimization, the proposed methodology accounts for distribution shifts in both individual covariates and treatment effect heterogeneity across sites. We show that the resulting CATE model has an interpretable closed-form solution, expressed as a weighted average of site-specific CATE models. Thus, researchers can utilize a flexible CATE estimation method within each site and aggregate site-specific estimates to produce the final model. Through simulations and a real-world application, we show that the proposed methodology improves the robustness and generalizability of existing approaches.",
+ "primary": "stat.ME"
+}

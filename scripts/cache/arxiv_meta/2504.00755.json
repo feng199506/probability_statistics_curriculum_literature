@@ -1,0 +1,19 @@
+{
+ "id": "2504.00755",
+ "title": "Efficient computation of high-dimensional penalized piecewise constant hazard random effects models",
+ "authors": [
+  "Hillary M. Heiling",
+  "Naim U. Rashid",
+  "Quefeng Li",
+  "Xianlu L. Peng",
+  "Jen Jen Yeh"
+ ],
+ "v1_date": "2025-04-01",
+ "latest_version": 1,
+ "latest_date": "2025-04-01",
+ "journal_ref": "Statistics in Medicine 2025",
+ "doi": "10.1002/sim.10311",
+ "comment": "",
+ "abstract": "Identifying and characterizing relationships between treatments, exposures, or other covariates and time-to-event outcomes has great significance in a wide range of biomedical settings. In research areas such as multi-center clinical trials, recurrent events, and genetic studies, proportional hazard mixed effects models (PHMMs) are used to account for correlations observed in clusters within the data. In high dimensions, proper specification of the fixed and random effects within PHMMs is difficult and computationally complex. In this paper, we approximate the proportional hazards mixed effects model with a piecewise constant hazard mixed effects survival model. We estimate the model parameters using a modified Monte Carlo Expectation Conditional Minimization algorithm, allowing us to perform variable selection on both the fixed and random effects simultaneously. We also incorporate a factor model decomposition of the random effects in order to more easily scale the variable selection method to larger dimensions. We demonstrate the utility of our method using simulations, and we apply our method to a multi-study pancreatic ductal adenocarcinoma gene expression dataset to select features important for survival.",
+ "primary": "stat.ME"
+}

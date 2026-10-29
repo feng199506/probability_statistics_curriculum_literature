@@ -1,0 +1,16 @@
+{
+ "id": "2401.15281",
+ "title": "Improved confidence intervals for nonlinear mixed-effects and nonparametric regression models",
+ "authors": [
+  "Nan Zheng",
+  "Noel Cadigan"
+ ],
+ "v1_date": "2024-01-27",
+ "latest_version": 1,
+ "latest_date": "2024-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Statistical inference for high dimensional parameters (HDPs) can be based on their intrinsic correlation; that is, parameters that are close spatially or temporally tend to have more similar values. This is why nonlinear mixed-effects models (NMMs) are commonly (and appropriately) used for models with HDPs. Conversely, in many practical applications of NMM, the random effects (REs) are actually correlated HDPs that should remain constant during repeated sampling for frequentist inference. In both scenarios, the inference should be conditional on REs, instead of marginal inference by integrating out REs. In this paper, we first summarize recent theory of conditional inference for NMM, and then propose a bias-corrected RE predictor and confidence interval (CI). We also extend this methodology to accommodate the case where some REs are not associated with data. Simulation studies indicate that this new approach leads to substantial improvement in the conditional coverage rate of RE CIs, including CIs for smooth functions in generalized additive models, as compared to the existing method based on marginal inference.",
+ "primary": "stat.ME"
+}

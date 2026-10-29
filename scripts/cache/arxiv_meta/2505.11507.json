@@ -1,0 +1,16 @@
+{
+ "id": "2505.11507",
+ "title": "IntrinsicTimescales.jl: A Julia package to estimate intrinsic (neural) timescales (INTs) from time-series data",
+ "authors": [
+  "Yasir Catal",
+  "Georg Northoff"
+ ],
+ "v1_date": "2025-05-02",
+ "latest_version": 1,
+ "latest_date": "2025-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, 1 figure",
+ "abstract": "IntrinsicTimescales.jl is a Julia package to perform estimation of intrinsic neural timescales (INTs). INTs are defined as the time window in which prior information from an ongoing stimulus can affect the processing of newly arriving information. INTs are estimated either from the autocorrelation function (ACF) or the power spectral density (PSD) of time-series data. In addition to the model-free estimates of INTs, IntrinsicTimescales.jl offers implementations of novel techniques of timescale estimation via performing parameter estimation of an Ornstein-Uhlenbeck process with adaptive approximate Bayesian computation (aABC) and automatic differentiation variational inference (ADVI).",
+ "primary": "q-bio.NC"
+}

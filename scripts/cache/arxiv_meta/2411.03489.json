@@ -1,0 +1,16 @@
+{
+ "id": "2411.03489",
+ "title": "A Bayesian nonparametric approach to mediation and spillover effects with multiple mediators in cluster-randomized trials",
+ "authors": [
+  "Yuki Ohnishi",
+  "Fan Li"
+ ],
+ "v1_date": "2024-11-05",
+ "latest_version": 2,
+ "latest_date": "2025-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "94 pages",
+ "abstract": "Cluster randomized trials (CRTs) with multiple unstructured mediators present significant methodological challenges for causal inference due to within-cluster correlation, interference among units, and the complexity introduced by multiple mediators. Existing causal mediation methods often fall short in simultaneously addressing these complexities, particularly in disentangling mediator-specific effects under interference that are central to studying complex mechanisms. To address this gap, we propose new causal estimands for spillover mediation effects that differentiate the roles of each individual's own mediator and the spillover effects resulting from interactions among individuals within the same cluster. We establish identification results for each estimand and, to flexibly model the complex data structures inherent in CRTs, we develop a new Bayesian nonparametric prior -- the Nested Dependent Dirichlet Process Mixture -- designed for flexibly capture the outcome and mediator surfaces at different levels. We conduct extensive simulations across various scenarios to evaluate the frequentist performance of our methods, compare them with a Bayesian parametric counterpart and illustrate our new methods in an analysis of a completed CRT.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2606.22105",
+ "title": "A Generative Model for Extremely Sparse Edge-Exchangeable Networks",
+ "authors": [
+  "Valentin Kilian"
+ ],
+ "v1_date": "2026-06-20",
+ "latest_version": 1,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the Structured Probabilistic Inference & Generative Modeling workshop at ICML 2026",
+ "abstract": "We propose a graph generative model for sequences of extremely sparse, edge-exchangeable networks. Models for sparse graphs often face a trade-off between desirable properties like exchangeability and the ability to capture the sparsity observed in real-world networks. While models based on vertex or edge exchangeability have successfully generated sparse graphs, achieving the \"extremely sparse\" regime, where the number of edges scales near-linearly with the number of nodes, has remained a challenge. Recently, a novel Completely Random Measure (CRM) was introduced, demonstrating that this rate could be achieved within the vertex-exchangeable framework of Caron and Fox. This paper extends this work by demonstrating that this new CRM can be integrated into the alternative edge-exchangeable framework to achieve extreme sparsity.",
+ "primary": "math.ST"
+}

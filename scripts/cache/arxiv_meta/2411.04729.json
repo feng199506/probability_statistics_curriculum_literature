@@ -1,0 +1,17 @@
+{
+ "id": "2411.04729",
+ "title": "Conjugate gradient methods for high-dimensional GLMMs",
+ "authors": [
+  "Andrea Pandolfi",
+  "Omiros Papaspiliopoulos",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2024-11-07",
+ "latest_version": 2,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalized linear mixed models (GLMMs) are a widely used tool in statistical analysis. The main bottleneck of many computational approaches lies in the inversion of the high dimensional precision matrices associated with the random effects. Such matrices are typically sparse; however, the sparsity pattern resembles a multi partite random graph, which does not lend itself well to default sparse linear algebra techniques. Notably, we show that, for typical GLMMs, the Cholesky factor is dense even when the original precision is sparse. We thus turn to approximate iterative techniques, in particular to the conjugate gradient (CG) method. We combine a detailed analysis of the spectrum of said precision matrices with results from random graph theory to show that CG-based methods applied to high-dimensional GLMMs typically achieve a fixed approximation error with a total cost that scales linearly with the number of parameters and observations. Numerical illustrations with both real and simulated data confirm the theoretical findings, while at the same time illustrating situations, such as nested structures, where CG-based methods struggle.",
+ "primary": "stat.CO"
+}

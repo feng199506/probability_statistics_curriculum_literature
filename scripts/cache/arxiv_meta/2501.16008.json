@@ -1,0 +1,17 @@
+{
+ "id": "2501.16008",
+ "title": "Gaussian credible intervals in Bayesian nonparametric estimation of the unseen",
+ "authors": [
+  "Claudia Contardi",
+  "Emanuele Dolera",
+  "Stefano Favaro"
+ ],
+ "v1_date": "2025-01-27",
+ "latest_version": 1,
+ "latest_date": "2025-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "63 pages, 5 figures",
+ "abstract": "The unseen-species problem assumes $n\\geq1$ samples from a population of individuals belonging to different species, possibly infinite, and calls for estimating the number $K_{n,m}$ of hitherto unseen species that would be observed if $m\\geq1$ new samples were collected from the same population. This is a long-standing problem in statistics, which has gained renewed relevance in biological and physical sciences, particularly in settings with large values of $n$ and $m$. In this paper, we adopt a Bayesian nonparametric approach to the unseen-species problem under the Pitman-Yor prior, and propose a novel methodology to derive large $m$ asymptotic credible intervals for $K_{n,m}$, for any $n\\geq1$. By leveraging a Gaussian central limit theorem for the posterior distribution of $K_{n,m}$, our method improves upon competitors in two key aspects: firstly, it enables the full parameterization of the Pitman-Yor prior, including the Dirichlet prior; secondly, it avoids the need of Monte Carlo sampling, enhancing computational efficiency. We validate the proposed method on synthetic and real data, demonstrating that it improves the empirical performance of competitors by significantly narrowing the gap between asymptotic and exact credible intervals for any $m\\geq1$.",
+ "primary": "stat.ME"
+}

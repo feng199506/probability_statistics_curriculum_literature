@@ -1,0 +1,17 @@
+{
+ "id": "2606.00783",
+ "title": "Bayesian Inference of Nonlinear Malaria Dynamics in Ghana via an Ensemble Markov Chain Monte Carlo Sampler",
+ "authors": [
+  "T. Ansah-Narh",
+  "Y. Asare Afrane",
+  "J. Bremang Tandoh"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "Expert Systems with Applications, Volume 312, 131540 (2026)",
+ "doi": "10.1016/j.eswa.2026.131540",
+ "comment": "27 pages, 15 figures, published in Expert Systems with Applications",
+ "abstract": "Reliable quantification of malaria dynamics in sub-Saharan Africa is hindered by short, noisy, and spatially heterogeneous surveillance records. In Ghana, health-facility data from 2014 to 2023 reveal non-linear and age-specific fluctuations in hospital admissions, yet existing approaches struggle to capture stochastic variability or provide credible uncertainty bounds. This study develops a Bayesian nonlinear inference framework that integrates a cubic baseline with a damped oscillatory kernel, estimated via an affine-invariant ensemble Markov Chain Monte Carlo sampler. The framework accommodates limited data, models parameter uncertainty, and generates probabilistic forecasts for children under five years and individuals aged five years or more. Results show strong empirical adequacy ($R^2 = 0.9958$ for $<5$ years; $R^2 = 0.9956$ for $\\geq 5$ years) with residual errors below $2\\%$ and well-mixed posteriors confirming convergence. District-level analysis reveals pronounced spatial heterogeneity, with coefficients of variation ranging from $<0.07$ in urban centres such as Kumasi to $>3.3$ in peripheral districts such as Mpohor and Bia East. Forecasts for 2024-2026 indicate a gradual resurgence: from 137,000 to 149,000 cases among children under five years and from 348,000 to 375,000 cases among older individuals, with uncertainty widening over time. By producing probabilistic forecasts, this Bayesian framework provides a principled tool for anticipating malaria fluctuations and strengthening data-driven decision-making in Ghana's national malaria control strategy.",
+ "primary": "stat.AP"
+}

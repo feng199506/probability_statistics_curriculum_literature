@@ -1,0 +1,18 @@
+{
+ "id": "2403.00998",
+ "title": "Predictions from language models for multiple-choice tasks are not robust under variation of scoring methods",
+ "authors": [
+  "Polina Tsvilodub",
+  "Hening Wang",
+  "Sharon Grosch",
+  "Michael Franke"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 1,
+ "latest_date": "2024-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 3 figures",
+ "abstract": "This paper systematically compares different methods of deriving item-level predictions of language models for multiple-choice tasks. It compares scoring methods for answer options based on free generation of responses, various probability-based scores, a Likert-scale style rating method, and embedding similarity. In a case study on pragmatic language interpretation, we find that LLM predictions are not robust under variation of method choice, both within a single LLM and across different LLMs. As this variability entails pronounced researcher degrees of freedom in reporting results, knowledge of the variability is crucial to secure robustness of results and research integrity.",
+ "primary": "cs.CL"
+}

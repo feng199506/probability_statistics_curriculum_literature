@@ -1,0 +1,18 @@
+{
+ "id": "2402.12548",
+ "title": "Composite likelihood inference for space-time point processes",
+ "authors": [
+  "Abdollah Jalilian",
+  "Francisco Cuevas-Pacheco",
+  "Ganggang Xu",
+  "Rasmus Waagepetersen"
+ ],
+ "v1_date": "2024-02-19",
+ "latest_version": 2,
+ "latest_date": "2024-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is still under revision",
+ "abstract": "The dynamics of a rain forest is extremely complex involving births, deaths and growth of trees with complex interactions between trees, animals, climate, and environment. We consider the patterns of recruits (new trees) and dead trees between rain forest censuses. For a current census we specify regression models for the conditional intensity of recruits and the conditional probabilities of death given the current trees and spatial covariates. We estimate regression parameters using conditional composite likelihood functions that only involve the conditional first order properties of the data. When constructing assumption lean estimators of covariance matrices of parameter estimates we only need mild assumptions of decaying conditional correlations in space while assumptions regarding correlations over time are avoided by exploiting conditional centering of composite likelihood score functions. Time series of point patterns from rain forest censuses are quite short while each point pattern covers a fairly big spatial region. To obtain asymptotic results we therefore use a central limit theorem for the fixed timespan - increasing spatial domain asymptotic setting. This also allows us to handle the challenge of using stochastic covariates constructed from past point patterns. Conveniently, it suffices to impose weak dependence assumptions on the innovations of the space-time process. We investigate the proposed methodology by simulation studies and applications to rain forest data.",
+ "primary": "stat.ME"
+}

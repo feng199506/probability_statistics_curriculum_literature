@@ -1,0 +1,18 @@
+{
+ "id": "2503.05634",
+ "title": "Integration of aggregated data in causally interpretable meta-analysis by inverse weighting",
+ "authors": [
+  "Tat-Thang Vo",
+  "Tran Trong Khoi Le",
+  "Sivem Afach",
+  "Stijn Vansteelandt"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Obtaining causally interpretable meta-analysis results is challenging when there are differences in the distribution of effect modifiers between eligible trials. To overcome this, recent work on transportability methods has considered standardizing results of individual studies over the case-mix of a target population, prior to pooling them as in a classical random-effect meta-analysis. One practical challenge, however, is that case-mix standardization often requires individual participant data (IPD) on outcome, treatments and case-mix characteristics to be fully accessible in every eligible study, along with IPD case-mix characteristics for a random sample from the target population. In this paper, we aim to develop novel strategies to integrate aggregated-level data from eligible trials with non-accessible IPD into a causal meta-analysis, by extending moment-based methods frequently used for population-adjusted indirect comparison in health technology assessment. Since valid inference for these moment-based methods by M-estimation theory requires additional aggregated data that are often unavailable in practice, computational methods to address this concern are also developed. We assess the finite-sample performance of the proposed approaches by simulated data, and then apply these on real-world clinical data to investigate the effectiveness of risankizumab versus ustekinumab among patients with moderate to severe psoriasis.",
+ "primary": "stat.ME"
+}

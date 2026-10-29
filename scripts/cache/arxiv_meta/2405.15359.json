@@ -1,0 +1,18 @@
+{
+ "id": "2405.15359",
+ "title": "Adaptive probabilistic forecasting of French electricity spot prices",
+ "authors": [
+  "Grégoire Dutot",
+  "Margaux Zaffran",
+  "Olivier Féron",
+  "Yannig Goude"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 1,
+ "latest_date": "2024-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Electricity price forecasting (EPF) plays a major role for electricity companies as a fundamental entry for trading decisions or energy management operations. As electricity can not be stored, electricity prices are highly volatile which make EPF a particularly difficult task. This is all the more true when dramatic fortuitous events disrupt the markets. Trading and more generally energy management decisions require risk management tools which are based on probabilistic EPF (PEPF). In this challenging context, we argue in favor of the deployment of highly adaptive black-boxes strategies allowing to turn any forecasts into a robust adaptive predictive interval, such as conformal prediction and online aggregation, as a fundamental last layer of any operational pipeline. We propose to investigate a novel data set containing the French electricity spot prices during the turbulent 2020-2021 years, and build a new explanatory feature revealing high predictive power, namely the nuclear availability. Benchmarking state-of-the-art PEPF on this data set highlights the difficulty of choosing a given model, as they all behave very differently in practice, and none of them is reliable. However, we propose an adequate conformalisation, OSSCP-horizon, that improves the performances of PEPF methods, even in the most hazardous period of late 2021. Finally, we emphasize that combining it with online aggregation significantly outperforms any other approaches, and should be the preferred pipeline, as it provides trustworthy probabilistic forecasts.",
+ "primary": "stat.AP"
+}

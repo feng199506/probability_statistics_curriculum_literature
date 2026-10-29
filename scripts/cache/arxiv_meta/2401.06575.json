@@ -1,0 +1,17 @@
+{
+ "id": "2401.06575",
+ "title": "A Weibull Mixture Cure Frailty Model for High-dimensional Covariates",
+ "authors": [
+  "Fatih Kızılaslan",
+  "David Michael Swanson",
+  "Valeria Vitelli"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 2,
+ "latest_date": "2024-04-26",
+ "journal_ref": "2025",
+ "doi": "10.1177/09622802251327687",
+ "comment": "43 pages, 5 tables, 40 figures",
+ "abstract": "A novel mixture cure frailty model is introduced for handling censored survival data. Mixture cure models are preferable when the existence of a cured fraction among patients can be assumed. However, such models are heavily underexplored: frailty structures within cure models remain largely undeveloped, and furthermore, most existing methods do not work for high-dimensional datasets, when the number of predictors is significantly larger than the number of observations. In this study, we introduce a novel extension of the Weibull mixture cure model that incorporates a frailty component, employed to model an underlying latent population heterogeneity with respect to the outcome risk. Additionally, high-dimensional covariates are integrated into both the cure rate and survival part of the model, providing a comprehensive approach to employ the model in the context of high-dimensional omics data. We also perform variable selection via an adaptive elastic-net penalization, and propose a novel approach to inference using the expectation-maximization (EM) algorithm. Extensive simulation studies are conducted across various scenarios to demonstrate the performance of the model, and results indicate that our proposed method outperforms competitor models. We apply the novel approach to analyze RNAseq gene expression data from bulk breast cancer patients included in The Cancer Genome Atlas (TCGA) database. A set of prognostic biomarkers is then derived from selected genes, and subsequently validated via both functional enrichment analysis and comparison to the existing biological literature. Finally, a prognostic risk score index based on the identified biomarkers is proposed and validated by exploring the patients' survival.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2502.05730",
+ "title": "Attainability of Two-Point Testing Rates for Finite-Sample Location Estimation",
+ "authors": [
+  "Spencer Compton",
+  "Gregory Valiant"
+ ],
+ "v1_date": "2025-02-09",
+ "latest_version": 3,
+ "latest_date": "2026-01-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Le Cam's two-point testing method yields perhaps the simplest lower bound for estimating the mean of a distribution: roughly, if it is impossible to well-distinguish a distribution centered at $μ$ from the same distribution centered at $μ+Δ$, then it is impossible to estimate the mean by better than $Δ/2$. It is setting-dependent whether or not a nearly matching upper bound is attainable. We study the conditions under which the two-point testing lower bound can be attained for univariate mean estimation; both in the setting of location estimation (where the distribution is known up to translation) and adaptive location estimation (unknown distribution). Roughly, we will say an estimate nearly attains the two-point testing lower bound if it incurs error that is at most polylogarithmically larger than the Hellinger modulus of continuity for $\\tildeΩ(n)$ samples. Adaptive location estimation is particularly interesting as some distributions admit much better guarantees than sub-Gaussian rates (e.g. $\\operatorname{Unif}(μ-1,μ+1)$ permits error $Θ(\\frac{1}{n})$, while the sub-Gaussian rate is $Θ(\\frac{1}{\\sqrt{n}})$), yet it is not obvious whether these rates may be adaptively attained by one unified approach. Our main result designs an algorithm that nearly attains the two-point testing rate for mixtures of symmetric, log-concave distributions with a common mean. Moreover, this algorithm runs in near-linear time and is parameter-free. In contrast, we show the two-point testing rate is not nearly attainable even for symmetric, unimodal distributions. We complement this with results for location estimation, showing the two-point testing rate is nearly attainable for unimodal distributions, but unattainable for symmetric distributions.",
+ "primary": "math.ST"
+}

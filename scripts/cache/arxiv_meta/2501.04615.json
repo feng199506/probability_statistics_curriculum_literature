@@ -1,0 +1,17 @@
+{
+ "id": "2501.04615",
+ "title": "Doubly Robust and Efficient Calibration of Prediction Sets for Right-Censored Time-to-Event Outcomes",
+ "authors": [
+  "Rebecca Farina",
+  "Eric J. Tchetgen Tchetgen",
+  "Arun Kumar Kuchibhotla"
+ ],
+ "v1_date": "2025-01-08",
+ "latest_version": 4,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 11 figures",
+ "abstract": "Our objective is to construct well-calibrated prediction sets for a time-to-event outcome subject to right-censoring with guaranteed coverage. Inspired by modern conformal inference, our approach avoids the need for a well-specified parametric or semiparametric survival model. Unlike existing conformal methods for survival data, which assume Type-I censoring with fully observed censoring times, we consider the more common right-censoring setting in which only the censoring time or only the event time is observed, whichever comes first. Under a standard conditional independence censoring condition, we propose and analyze several lower prediction bounds for the survival time of a future observation, including inverse-probability-of-censoring weighting, and its augmented version based on the semiparametric efficient influence function for the relevant marginal quantile of the outcome accounting for dependent censoring. We formally establish asymptotic coverage guarantees of the proposed methods, and demonstrate both theoretically and through empirical experiments, that the augmented approach substantially improves efficiency over all other proposed methods. Specifically, its coverage error bound is doubly robust, and therefore of second order, thus ensuring that it is asymptotically negligible relative to the coverage error of the other methods.",
+ "primary": "stat.ME"
+}

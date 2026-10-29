@@ -1,0 +1,17 @@
+{
+ "id": "2509.13950",
+ "title": "Hierarchical Importance Sampling for Estimating Occupation Time for SDE Solutions",
+ "authors": [
+  "Eya Ben Amar",
+  "Nadhir Ben Rached",
+  "Raul Tempone"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study considers the estimation of the complementary cumulative distribution function of the occupation time (i.e., the time spent below a threshold) for a process governed by a stochastic differential equation. The focus is on the right tail, where the underlying event becomes rare, and using variance reduction techniques is essential to obtain computationally efficient estimates. Building on recent developments that relate importance sampling (IS) to stochastic optimal control, this work develops an optimal single level IS (SLIS) estimator based on the solution of an auxiliary Hamilton Jacobi Bellman (HJB) partial differential equation (PDE). The cost of solving the HJB-PDE is incorporated into the total computational work, and an optimized trade off between preprocessing and sampling is proposed to minimize the overall cost. The SLIS approach is extended to the multilevel setting to enhance efficiency, yielding a multilevel IS (MLIS) estimator. A necessary and sufficient condition under which the MLIS method outperforms the SLIS method is established, and a common likelihood MLIS formulation is introduced that satisfies this condition under appropriate regularity assumptions. The classical multilevel Monte Carlo complexity theory can be extended to accommodate settings where the single-level variance varies with the discretization level. As a special case, the variance-decay behavior observed in the IS framework stems from the zero variance property of the optimal control. Notably, the total work complexity of MLIS can be better than an order of two. Numerical experiments in the context of fade duration estimation demonstrate the benefits of the proposed approach and validate these theoretical results.",
+ "primary": "math.NA"
+}

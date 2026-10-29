@@ -1,0 +1,19 @@
+{
+ "id": "2501.06024",
+ "title": "Doubly-Robust Functional Average Treatment Effect Estimation",
+ "authors": [
+  "Lorenzo Testa",
+  "Tobia Boschi",
+  "Francesca Chiaromonte",
+  "Edward H. Kennedy",
+  "Matthew Reimherr"
+ ],
+ "v1_date": "2025-01-10",
+ "latest_version": 3,
+ "latest_date": "2026-03-07",
+ "journal_ref": "Journal of Causal Inference 2026; 14(1)",
+ "doi": "10.1515/jci-2025-0045",
+ "comment": "19 pages, 2 figures",
+ "abstract": "Understanding causal relationships in the presence of complex, structured data remains a central challenge in modern statistics and science in general. While traditional causal inference methods are well-suited for scalar outcomes, many scientific applications demand tools capable of handling functional data -- outcomes observed as functions over continuous domains such as time or space. Motivated by this need, we propose DR-FoS, a novel method for estimating the Functional Average Treatment Effect (FATE) in observational studies with functional outcomes. DR-FoS exhibits double robustness properties, ensuring consistent estimation of FATE even if either the outcome or the treatment assignment model is misspecified. By leveraging recent advances in functional data analysis and causal inference, we establish the asymptotic properties of the estimator, proving its convergence to a Gaussian process. This guarantees valid inference with simultaneous confidence bands across the entire functional domain. Through extensive simulations, we show that DR-FoS achieves robust performance under a wide range of model specifications. Finally, we illustrate the utility of DR-FoS in a real-world application, analyzing functional outcomes to uncover meaningful causal insights in the SHARE ({\\em Survey of Health, Aging and Retirement in Europe}) dataset.",
+ "primary": "stat.ME"
+}

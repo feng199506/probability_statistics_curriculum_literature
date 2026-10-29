@@ -1,0 +1,17 @@
+{
+ "id": "2506.17729",
+ "title": "Efficient Difference-in-Differences and Event Study Estimators",
+ "authors": [
+  "Xiaohong Chen",
+  "Pedro H. C. Sant'Anna",
+  "Haitian Xie"
+ ],
+ "v1_date": "2025-06-21",
+ "latest_version": 1,
+ "latest_date": "2025-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates efficient Difference-in-Differences (DiD) and Event Study (ES) estimation using short panel data sets within the heterogeneous treatment effect framework, free from parametric functional form assumptions and allowing for variation in treatment timing. We provide an equivalent characterization of the DiD potential outcome model using sequential conditional moment restrictions on observables, which shows that the DiD identification assumptions typically imply nonparametric overidentification restrictions. We derive the semiparametric efficient influence function (EIF) in closed form for DiD and ES causal parameters under commonly imposed parallel trends assumptions. The EIF is automatically Neyman orthogonal and yields the smallest variance among all asymptotically normal, regular estimators of the DiD and ES parameters. Leveraging the EIF, we propose simple-to-compute efficient estimators. Our results highlight how to optimally explore different pre-treatment periods and comparison groups to obtain the tightest (asymptotic) confidence intervals, offering practical tools for improving inference in modern DiD and ES applications even in small samples. Calibrated simulations and an empirical application demonstrate substantial precision gains of our efficient estimators in finite samples.",
+ "primary": "econ.EM"
+}

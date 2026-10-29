@@ -1,0 +1,18 @@
+{
+ "id": "2405.11681",
+ "title": "Distributed Tensor Principal Component Analysis with Data Heterogeneity",
+ "authors": [
+  "Elynn Chen",
+  "Xi Chen",
+  "Wenbo Jing",
+  "Yichen Zhang"
+ ],
+ "v1_date": "2024-05-19",
+ "latest_version": 3,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As tensors become widespread in modern data analysis, Tucker low-rank Principal Component Analysis (PCA) has become essential for dimensionality reduction and structural discovery in tensor datasets. Motivated by the common scenario where large-scale tensors are distributed across diverse geographic locations, this paper investigates tensor PCA within a distributed framework where direct data pooling is impractical. We offer a comprehensive analysis of three specific scenarios in distributed Tensor PCA: a homogeneous setting in which tensors at various locations are generated from a single noise-affected model; a heterogeneous setting where tensors at different locations come from distinct models but share some principal components, aiming to improve estimation across all locations; and a targeted heterogeneous setting, designed to boost estimation accuracy at a specific location with limited samples by utilizing transferred knowledge from other sites with ample data. We introduce novel estimation methods tailored to each scenario, establish statistical guarantees, and develop distributed inference techniques to construct confidence regions. Our theoretical findings demonstrate that these distributed methods achieve sharp rates of accuracy by efficiently aggregating shared information across different tensors, while maintaining reasonable communication costs. Empirical validation through simulations and real-world data applications highlights the advantages of our approaches, particularly in managing heterogeneous tensor data.",
+ "primary": "stat.ME"
+}

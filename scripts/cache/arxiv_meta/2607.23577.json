@@ -1,0 +1,18 @@
+{
+ "id": "2607.23577",
+ "title": "Estimation of multiple precision matrices under shared support with heterogeneous edge strengths",
+ "authors": [
+  "Sayan Ranjan Bhowal",
+  "Debashis Paul",
+  "Gopal K Basak",
+  "Samarjit Das"
+ ],
+ "v1_date": "2026-07-26",
+ "latest_version": 1,
+ "latest_date": "2026-07-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating multiple precision matrices in high-dimension presents significant challenges, particularly when distinct datasets share a common conditional dependency structure but exhibit population-specific interaction strengths. We address this problem by introducing the Multiplicative Graphical Lasso (Mglasso), a method for jointly estimating precision matrices across multiple Gaussian graphical models under a shared sparsity constraint. Each precision matrix is decomposed as a Schur-Hadamard product of a shared structural matrix $\\boldsymbolΘ$, which encodes the common conditional independence graph, and a population-specific matrix $\\boldsymbolΓ_{l}$, which captures variation in edge strengths across populations. We optimize a penalized log-likelihood that utilizes an $\\ell_1$-penalty to enforce common sparsity and a Frobenius norm penalty to regulate population-specific variations. The optimization is efficiently performed using the Alternating Direction Method of Multipliers (ADMM) algorithm integrated with gradient descent. Theoretically, we establish the local strict convexity of the objective function and provide rigorous high-dimensional consistency guarantees, including supremum norm error bounds and exact support recovery under sub-Gaussian tail conditions. Extensive simulations show superior model selection consistency at smaller sample sizes compared to the benchmark Group Graphical Lasso (GGL). Finally, the method's practical utility is further validated through real-world applications.",
+ "primary": "math.ST"
+}

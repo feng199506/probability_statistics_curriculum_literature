@@ -1,0 +1,16 @@
+{
+ "id": "2402.01895",
+ "title": "$L_q$ Lower Bounds on Distributed Estimation via Fisher Information",
+ "authors": [
+  "Wei-Ning Chen",
+  "Ayfer Özgür"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 2,
+ "latest_date": "2024-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Van Trees inequality, also known as the Bayesian Cramér-Rao lower bound, is a powerful tool for establishing lower bounds for minimax estimation through Fisher information. It easily adapts to different statistical models and often yields tight bounds. Recently, its application has been extended to distributed estimation with privacy and communication constraints where it yields order-wise optimal minimax lower bounds for various parametric tasks under squared $L_2$ loss. However, a widely perceived drawback of the van Trees inequality is that it is limited to squared $L_2$ loss. The goal of this paper is to dispel that perception by introducing a strengthened version of the van Trees inequality that applies to general $L_q$ loss functions by building on the Efroimovich's inequality -- a lesser-known entropic inequality dating back to the 1970s. We then apply the generalized van Trees inequality to lower bound $L_q$ loss in distributed minimax estimation under communication and local differential privacy constraints. This leads to lower bounds for $L_q$ loss that apply to sequentially interactive and blackboard communication protocols. Additionally, we show how the generalized van Trees inequality can be used to obtain \\emph{local} and \\emph{non-asymptotic} minimax results that capture the hardness of estimating each instance at finite sample sizes.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2603.18640",
+ "title": "A Theoretical Comparison of No-U-Turn Sampler Variants: Necessary and Sufficient Convergence Conditions and Mixing Time Analysis under Gaussian Targets",
+ "authors": [
+  "Samuel Gruffaz",
+  "Kyurae Kim",
+  "Fares Guehtar",
+  "Hadrien Duval-decaix",
+  "Pacôme Trautmann"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 3,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The No-U-Turn Sampler (NUTS) is the computational workhorse of modern Bayesian software libraries, yet its qualitative and quantitative convergence guarantees were established only recently. A significant gap remains in the theoretical comparison of its two main variants: NUTS-mul and NUTS-BPS, which use multinomial sampling and biased progressive sampling, respectively, for index selection. In this paper, we address this gap in three contributions. First, we derive the first necessary conditions for geometric ergodicity for both variants. Second, we establish the first sufficient conditions for geometric ergodicity and ergodicity for NUTS-mul. Third, we obtain the first mixing time result for NUTS-BPS on a standard Gaussian distribution. Our results show that NUTS-mul and NUTS-BPS exhibit nearly identical qualitative behavior, with geometric ergodicity depending on the tail properties of the target distribution. However, they differ quantitatively in their convergence rates. More precisely, when initialized in the typical set of the canonical Gaussian measure, the mixing times of both NUTS-mul and NUTS-BPS scale as $O(d^{1/4})$ up to logarithmic factors, where $d$ denotes the dimension. Nevertheless, the associated constants are strictly smaller for NUTS-BPS.",
+ "primary": "stat.ML"
+}

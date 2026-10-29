@@ -1,0 +1,17 @@
+{
+ "id": "2312.17566",
+ "title": "Doublethink: simultaneous Bayesian-frequentist model-averaged hypothesis testing",
+ "authors": [
+  "Helen R. Fryer",
+  "Nicolas Arning",
+  "Daniel J. Wilson"
+ ],
+ "v1_date": "2023-12-29",
+ "latest_version": 3,
+ "latest_date": "2025-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "First submitted version. 26 pages main text, 56 pages total. 9 figures, 2 tables",
+ "abstract": "Establishing the frequentist properties of Bayesian approaches widens their appeal and offers new understanding. In hypothesis testing, Bayesian model averaging addresses the problem that conclusions are sensitive to variable selection. But Bayesian false discovery rate (FDR) guarantees are sensitive to subjective prior assumptions. Here we show that Bayesian model-averaged hypothesis testing is a closed testing procedure that controls the frequentist familywise error rate (FWER) in the strong sense. To quantify the FWER, we use the theory of regular variation and likelihood asymptotics to derive a chi-squared tail approximation for the model-averaged posterior odds. Convergence is pointwise as the sample size grows and, in a simplified setting subject to a minimum effect size assumption, uniform. The 'Doublethink' method computes simultaneous posterior odds and asymptotic p-values for model-averaged hypothesis testing. We explore Doublethink through a Mendelian randomization study and simulations, comparing to approaches like LASSO, stepwise regression, the Benjamini-Hochberg procedure, the harmonic mean p-value and e-values. We consider the limitations of the approach, including finite-sample inflation, and mitigations, like testing groups of correlated variables. We discuss the benefits of Doublethink, including post-hoc variable selection, and its wider implications for the theory and practice of hypothesis testing.",
+ "primary": "stat.ME"
+}

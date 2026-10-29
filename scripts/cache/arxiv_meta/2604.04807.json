@@ -1,0 +1,17 @@
+{
+ "id": "2604.04807",
+ "title": "Rank-Based Sparse Regression in Principal Components Space under Measurement Error",
+ "authors": [
+  "Long Feng",
+  "Xiaoyi Wang",
+  "Le Zhou"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study high-dimensional regression in principal components space when the predictors are observed with additive measurement error and the response errors may be heavy-tailed. The starting point is the $\\ell_1$-penalized principal-components estimator of Song and Zou (2026), which enjoys a blessing-of-dimensionality phenomenon under predictor contamination but senstive for heavy-tailed data or outliers. We replace the squared loss by a Wilcoxon-type rank loss and then apply a one-step adaptive reweighting scheme to reduce the shrinkage bias of the initial $\\ell_1$ fit. The resulting procedure combines robustness to heavy-tailed response errors with the contamination geometry induced by the empirical principal-components basis. Our main theorem gives a prediction bound for the fixed-$λ$ second-stage fitted mean. Simulations show that the rank-based procedure is competitive under Gaussian noise and substantially more stable under heavy-tailed errors, especially when predictor contamination is present.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2404.08456",
+ "title": "A backward differential deep learning-based algorithm for solving high-dimensional nonlinear backward stochastic differential equations",
+ "authors": [
+  "Lorenc Kapllani",
+  "Long Teng"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 1,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 5 figures, 5 tables",
+ "abstract": "In this work, we propose a novel backward differential deep learning-based algorithm for solving high-dimensional nonlinear backward stochastic differential equations (BSDEs), where the deep neural network (DNN) models are trained not only on the inputs and labels but also the differentials of the corresponding labels. This is motivated by the fact that differential deep learning can provide an efficient approximation of the labels and their derivatives with respect to inputs. The BSDEs are reformulated as differential deep learning problems by using Malliavin calculus. The Malliavin derivatives of solution to a BSDE satisfy themselves another BSDE, resulting thus in a system of BSDEs. Such formulation requires the estimation of the solution, its gradient, and the Hessian matrix, represented by the triple of processes $\\left(Y, Z, Γ\\right).$ All the integrals within this system are discretized by using the Euler-Maruyama method. Subsequently, DNNs are employed to approximate the triple of these unknown processes. The DNN parameters are backwardly optimized at each time step by minimizing a differential learning type loss function, which is defined as a weighted sum of the dynamics of the discretized BSDE system, with the first term providing the dynamics of the process $Y$ and the other the process $Z$. An error analysis is carried out to show the convergence of the proposed algorithm. Various numerical experiments up to $50$ dimensions are provided to demonstrate the high efficiency. Both theoretically and numerically, it is demonstrated that our proposed scheme is more efficient compared to other contemporary deep learning-based methodologies, especially in the computation of the process $Γ$.",
+ "primary": "math.NA"
+}

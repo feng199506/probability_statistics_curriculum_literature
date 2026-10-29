@@ -1,0 +1,19 @@
+{
+ "id": "2503.18437",
+ "title": "Similarity-Informed Transfer Learning for Multivariate Functional Censored Quantile Regression",
+ "authors": [
+  "Hua Liu",
+  "Jiaqi Men",
+  "Shouxia Wang",
+  "Jinhong You",
+  "Jiguo Cao"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 1,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 3 figures",
+ "abstract": "To address the challenge of utilizing patient data from other organ transplant centers (source cohorts) to improve survival time estimation and inference for a target center (target cohort) with limited samples and strict data-sharing privacy constraints, we propose the Similarity-Informed Transfer Learning (SITL) method. This approach estimates multivariate functional censored quantile regression by flexibly leveraging information from each source cohort based on its similarity to the target cohort. Furthermore, the method is adaptable to continuously updated real-time data. We establish the asymptotic properties of the estimators obtained using the SITL method, demonstrating improved convergence rates. Additionally, we develop an enhanced approach that combines the SITL method with a resampling technique to construct more accurate confidence intervals for functional coefficients, backed by theoretical guarantees. Extensive simulation studies and an application to kidney transplant data illustrate the significant advantages of the SITL method. Compared to methods that rely solely on the target cohort or indiscriminately pool data across source and target cohorts, the SITL method substantially improves both estimation and inference performance.",
+ "primary": "stat.ME"
+}

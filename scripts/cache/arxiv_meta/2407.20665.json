@@ -1,0 +1,18 @@
+{
+ "id": "2407.20665",
+ "title": "Powerful A/B-Testing Metrics and Where to Find Them",
+ "authors": [
+  "Olivier Jeunen",
+  "Shubham Baweja",
+  "Neeti Pokharna",
+  "Aleksei Ustimenko"
+ ],
+ "v1_date": "2024-07-30",
+ "latest_version": 1,
+ "latest_date": "2024-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the Industry Track of the 2024 ACM Conference on Recommender Systems (RecSys '24)",
+ "abstract": "Online controlled experiments, colloquially known as A/B-tests, are the bread and butter of real-world recommender system evaluation. Typically, end-users are randomly assigned some system variant, and a plethora of metrics are then tracked, collected, and aggregated throughout the experiment. A North Star metric (e.g. long-term growth or revenue) is used to assess which system variant should be deemed superior. As a result, most collected metrics are supporting in nature, and serve to either (i) provide an understanding of how the experiment impacts user experience, or (ii) allow for confident decision-making when the North Star metric moves insignificantly (i.e. a false negative or type-II error). The latter is not straightforward: suppose a treatment variant leads to fewer but longer sessions, with more views but fewer engagements; should this be considered a positive or negative outcome? The question then becomes: how do we assess a supporting metric's utility when it comes to decision-making using A/B-testing? Online platforms typically run dozens of experiments at any given time. This provides a wealth of information about interventions and treatment effects that can be used to evaluate metrics' utility for online evaluation. We propose to collect this information and leverage it to quantify type-I, type-II, and type-III errors for the metrics of interest, alongside a distribution of measurements of their statistical power (e.g. $z$-scores and $p$-values). We present results and insights from building this pipeline at scale for two large-scale short-video platforms: ShareChat and Moj; leveraging hundreds of past experiments to find online metrics with high statistical power.",
+ "primary": "cs.IR"
+}

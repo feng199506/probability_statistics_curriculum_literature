@@ -1,0 +1,19 @@
+{
+ "id": "2601.07693",
+ "title": "Cluster-based name embeddings reduce ethnic disparities in record linkage quality under realistic name corruption: evidence from the North Carolina Voter Registry",
+ "authors": [
+  "Joseph Lam",
+  "Mario Cortina-Borja",
+  "Rob Aldridge",
+  "Ruth Blackburn",
+  "Katie Harron"
+ ],
+ "v1_date": "2026-01-12",
+ "latest_version": 1,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Differential ethnic-based record linkage errors can bias epidemiologic estimates. Prior evidence often conflates heterogeneity in error mechanisms with unequal exposure to error. Using snapshots of the North Carolina Voter Registry (Oct 2011-Oct 2022), we derived empirical name-discrepancy profiles to parameterise realistic corruptions. From an Oct 2022 extract (n=848,566), we generated five replicate corrupted datasets under three settings that separately varied mechanism heterogeneity and exposure inequality, and linked records back to originals using unadjusted Jaro-Winkler, Term Frequency (TF)-adjusted Jaro-Winkler, and a cluster-based forename-embedding comparator combined with TF-adjusted surname comparison. We evaluated false match rate (FMR), missed match rate (MMR) and white-centric disparities. At a fixed MMR near 0.20, overall error rates and ethnic disparities diverged substantially by model under disproportionate exposure to corruption. Term-frequency (TF)-adjusted Jaro-Winkler achieved very low overall FMR (0.55% (95% CI 0.54-0.57)) at overall MMR 20.34% (20.30-20.39), but large white-centric under-linkage disparities persisted: Hispanic voters had 36.3% (36.1-36.6) and Non-Hispanic Black voters 8.6% (8.6-8.7) higher FMRs compared to Non-Hispanic White groups. Relative to unadjusted string similarity, TF adjustment reduced these disparities (Hispanic: +60.4% (60.1-60.7) to +36.3%; Black: +13.1% (13.0-13.2) to +8.6%). The cluster-based forename-embedding model reduced missed-match disparities further (Hispanic: +10.2% (9.8-10.3); Black: +0.6% (0.4-0.7)), but at a cost of increasing overall FMR (4.28% (4.22-4.35)) at the same threshold. Unequal exposure to identifier error drove substantially larger disparities than mechanism heterogeneity alone; cluster-based embeddings markedly narrowed under-linkage disparities beyond TF adjustment.",
+ "primary": "stat.ME"
+}

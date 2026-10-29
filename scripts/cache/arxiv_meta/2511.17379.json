@@ -1,0 +1,17 @@
+{
+ "id": "2511.17379",
+ "title": "On treating right-censoring events like treatments",
+ "authors": [
+  "Lan Wen",
+  "Aaron L. Sarvet",
+  "Jessica G. Young"
+ ],
+ "v1_date": "2025-11-21",
+ "latest_version": 1,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In causal inference literature, potential outcomes are often indexed by the \"elimination of all right-censoring events,\" leading to the perception that such a restriction is necessary for defining well-posed causal estimands. In this paper, we clarify that this restriction is not required: a well-defined estimand can be formulated without indexing on the elimination of such events. Achieving this requires a more precise classification of right-censoring events than has historically been considered, as the nature of these events has direct implications for identification of the target estimand. We provide a framework that distinguishes different types of right-censoring events from a causal perspective, and demonstrate how this framework relates to censoring definitions and assumptions in classical survival analysis literature. By bridging these perspectives, we provide a clearer understanding of how to handle right-censoring events and provide guidance for identifying causal estimands when right-censored events are present.",
+ "primary": "stat.ME"
+}

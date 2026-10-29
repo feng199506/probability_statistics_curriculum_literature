@@ -1,0 +1,18 @@
+{
+ "id": "2403.00968",
+ "title": "Bridged Posterior: Optimization, Profile Likelihood and a New Approach to Generalized Bayes",
+ "authors": [
+  "Cheng Zeng",
+  "Eleni Dilma",
+  "Jason Xu",
+  "Leo L Duan"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 2,
+ "latest_date": "2025-07-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 12 figures",
+ "abstract": "Optimization is widely used in statistics, and often efficiently delivers point estimates on useful spaces involving structural constraints or combinatorial structure. To quantify uncertainty, Gibbs posterior exponentiates the negative loss function to form a posterior density. Nevertheless, Gibbs posteriors are supported in high-dimensional spaces, and do not inherit the computational efficiency or constraint formulations from optimization. In this article, we explore a new generalized Bayes approach, viewing the likelihood as a function of data, parameters, and latent variables conditionally determined by an optimization sub-problem. Marginally, the latent variable given the data remains stochastic, and is characterized by its posterior distribution. This framework, coined bridged posterior, conforms to the Bayesian paradigm. Besides providing a novel generative model, we obtain a positively surprising theoretical finding that under mild conditions, the $\\sqrt{n}$-adjusted posterior distribution of the parameters under our model converges to the same normal distribution as that of the canonical integrated posterior. Therefore, our result formally dispels a long-held belief that partial optimization of latent variables may lead to underestimation of parameter uncertainty. We demonstrate the practical advantages of our approach under several settings, including maximum-margin classification, latent normal models, and harmonization of multiple networks.",
+ "primary": "stat.ME"
+}

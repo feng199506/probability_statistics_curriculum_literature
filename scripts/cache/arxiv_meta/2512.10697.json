@@ -1,0 +1,16 @@
+{
+ "id": "2512.10697",
+ "title": "Revisiting the apparent discrepancy between the frequentist and Bayesian interpretation of an adaptive design",
+ "authors": [
+  "Simon Bang Kristensen",
+  "Erik Thorlund Parner"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is generally appreciated that a frequentist analysis of a group sequential trial must in order to avoid inflating type I error account for the fact that one or more interim analyses were performed. It is also to a lesser extent realised that it may be necessary to account for the ensuing estimation bias. A group sequential design is an instance of adaptive clinical trials where a study may change its design dynamically as a reaction to the observed data. There is a widespread perception that one may circumvent the statistical issues associated with the analysis of an adaptive clinical trial by performing the analysis under a Bayesian paradigm. The root of the argument is that the Bayesian posterior is perceived as unaltered by the data-driven adaptations. We examine this claim by analysing a simple trial with a single interim analysis. We approach the interpretation of the trial data under both a frequentist and Bayesian paradigm with a focus on estimation. The conventional result is that the interim analysis impacts the estimation procedure under the frequentist paradigm, but not under the Bayesian paradigm, which may be seen as expressing a \"paradox\" between the two paradigms. We argue that this result however relies heavily on what one would define as the universe of relevant trials defined by first samples of the parameters from a prior distribution and then the data from a sampling model given the parameters. In particular, in this set of trials, whether a connection exists between the parameter of interest and design parameters. We show how an alternative interpretation of the trial yields a Bayesian posterior mean that corrects for the interim analysis with a term that closely resembles the frequentist conditional bias. We conclude that the role of auxiliary trial parameters needs to be carefully considered when constructing a prior in an adaptive design.",
+ "primary": "stat.ME"
+}

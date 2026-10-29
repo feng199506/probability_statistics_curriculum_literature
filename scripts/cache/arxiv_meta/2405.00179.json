@@ -1,0 +1,21 @@
+{
+ "id": "2405.00179",
+ "title": "A Bayesian joint longitudinal-survival model with a latent stochastic process for intensive longitudinal data",
+ "authors": [
+  "Madeline R. Abbott",
+  "Walter H. Dempsey",
+  "Inbal Nahum-Shani",
+  "Lindsey N. Potter",
+  "David W. Wetter",
+  "Cho Y. Lam",
+  "Jeremy M. G. Taylor"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 1,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main text is 32 pages with 6 figures. Supplementary material is 21 pages",
+ "abstract": "The availability of mobile health (mHealth) technology has enabled increased collection of intensive longitudinal data (ILD). ILD have potential to capture rapid fluctuations in outcomes that may be associated with changes in the risk of an event. However, existing methods for jointly modeling longitudinal and event-time outcomes are not well-equipped to handle ILD due to the high computational cost. We propose a joint longitudinal and time-to-event model suitable for analyzing ILD. In this model, we summarize a multivariate longitudinal outcome as a smaller number of time-varying latent factors. These latent factors, which are modeled using an Ornstein-Uhlenbeck stochastic process, capture the risk of a time-to-event outcome in a parametric hazard model. We take a Bayesian approach to fit our joint model and conduct simulations to assess its performance. We use it to analyze data from an mHealth study of smoking cessation. We summarize the longitudinal self-reported intensity of nine emotions as the psychological states of positive and negative affect. These time-varying latent states capture the risk of the first smoking lapse after attempted quit. Understanding factors associated with smoking lapse is of keen interest to smoking cessation researchers.",
+ "primary": "stat.ME"
+}

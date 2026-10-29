@@ -1,0 +1,15 @@
+{
+ "id": "2603.11118",
+ "title": "A Learning-Based Superposition Operator for Non-Renewal Arrival Processes in Queueing Networks",
+ "authors": [
+  "Eliran Sherzer"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The superposition of arrival processes is a fundamental yet analytically intractable operation in queueing networks when inputs are general non-renewal streams. Classical methods either reduce merged flows to renewal surrogates, rely on computationally prohibitive Markovian representations, or focus solely on mean-value performance measures. We propose a scalable data-driven superposition operator that maps low-order moments and autocorrelation descriptors of multiple arrival streams to those of their merged process. The operator is a deep learning model trained on synthetically generated Markovian Arrival Processes (MAPs), for which exact superposition is available, and learns a compact representation that accurately reconstructs the first five moments and short-range dependence structure of the aggregate stream. Extensive computational experiments demonstrate uniformly low prediction errors across heterogeneous variability and correlation regimes, substantially outperforming classical renewal-based approximations. When integrated with learning-based modules for departure-process and steady-state analysis, the proposed operator enables decomposition-based evaluation of feed-forward queueing networks with merging flows. The framework provides a scalable alternative to traditional analytical approaches while preserving higher-order variability and dependence information required for accurate distributional performance analysis.",
+ "primary": "cs.LG"
+}

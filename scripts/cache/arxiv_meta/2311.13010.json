@@ -1,0 +1,17 @@
+{
+ "id": "2311.13010",
+ "title": "Beyond Catoni: Sharper Rates for Heavy-Tailed and Robust Mean Estimation",
+ "authors": [
+  "Shivam Gupta",
+  "Samuel B. Hopkins",
+  "Eric Price"
+ ],
+ "v1_date": "2023-11-21",
+ "latest_version": 3,
+ "latest_date": "2024-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the fundamental problem of estimating the mean of a $d$-dimensional distribution with covariance $Σ\\preccurlyeq σ^2 I_d$ given $n$ samples. When $d = 1$, \\cite{catoni} showed an estimator with error $(1+o(1)) \\cdot σ\\sqrt{\\frac{2 \\log \\frac{1}δ}{n}}$, with probability $1 - δ$, matching the Gaussian error rate. For $d>1$, a natural estimator outputs the center of the minimum enclosing ball of one-dimensional confidence intervals to achieve a $1-δ$ confidence radius of $\\sqrt{\\frac{2 d}{d+1}} \\cdot σ\\left(\\sqrt{\\frac{d}{n}} + \\sqrt{\\frac{2 \\log \\frac{1}δ}{n}}\\right)$, incurring a $\\sqrt{\\frac{2d}{d+1}}$-factor loss over the Gaussian rate. When the $\\sqrt{\\frac{d}{n}}$ term dominates by a $\\sqrt{\\log \\frac{1}δ}$ factor, \\cite{lee2022optimal-highdim} showed an improved estimator matching the Gaussian rate. This raises a natural question: Is the $\\sqrt{\\frac{2 d}{d+1}}$ loss \\emph{necessary} when the $\\sqrt{\\frac{2 \\log \\frac{1}δ}{n}}$ term dominates? We show that the answer is \\emph{no} -- we construct an estimator that improves over the above naive estimator by a constant factor. We also consider robust estimation, where an adversary is allowed to corrupt an $ε$-fraction of samples arbitrarily: in this case, we show that the above strategy of combining one-dimensional estimates and incurring the $\\sqrt{\\frac{2d}{d+1}}$-factor \\emph{is} optimal in the infinite-sample limit.",
+ "primary": "math.ST"
+}

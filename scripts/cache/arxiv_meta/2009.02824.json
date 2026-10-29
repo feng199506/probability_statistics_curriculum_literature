@@ -1,0 +1,16 @@
+{
+ "id": "2009.02824",
+ "title": "False discovery rate control with e-values",
+ "authors": [
+  "Ruodu Wang",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2020-09-06",
+ "latest_version": 5,
+ "latest_date": "2021-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "E-values have gained attention as potential alternatives to p-values as measures of uncertainty, significance and evidence. In brief, e-values are realized by random variables with expectation at most one under the null; examples include betting scores, (point null) Bayes factors, likelihood ratios and stopped supermartingales. We design a natural analog of the Benjamini-Hochberg (BH) procedure for false discovery rate (FDR) control that utilizes e-values, called the e-BH procedure, and compare it with the standard procedure for p-values. One of our central results is that, unlike the usual BH procedure, the e-BH procedure controls the FDR at the desired level -- with no correction -- for any dependence structure between the e-values. We illustrate that the new procedure is convenient in various settings of complicated dependence, structured and post-selection hypotheses, and multi-armed bandit problems. Moreover, the BH procedure is a special case of the e-BH procedure through calibration between p-values and e-values. Overall, the e-BH procedure is a novel, powerful and general tool for multiple testing under dependence, that is complementary to the BH procedure, each being an appropriate choice in different applications.",
+ "primary": "math.ST"
+}

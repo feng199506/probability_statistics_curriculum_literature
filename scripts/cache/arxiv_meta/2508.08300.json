@@ -1,0 +1,15 @@
+{
+ "id": "2508.08300",
+ "title": "LLM-BI: Towards Fully Automated Bayesian Inference with Large Language Models",
+ "authors": [
+  "Yongchao Huang"
+ ],
+ "v1_date": "2025-08-07",
+ "latest_version": 1,
+ "latest_date": "2025-08-07",
+ "journal_ref": "",
+ "doi": "10.5281/zenodo.16756724",
+ "comment": "6 pages",
+ "abstract": "A significant barrier to the widespread adoption of Bayesian inference is the specification of prior distributions and likelihoods, which often requires specialized statistical expertise. This paper investigates the feasibility of using a Large Language Model (LLM) to automate this process. We introduce LLM-BI (Large Language Model-driven Bayesian Inference), a conceptual pipeline for automating Bayesian workflows. As a proof-of-concept, we present two experiments focused on Bayesian linear regression. In Experiment I, we demonstrate that an LLM can successfully elicit prior distributions from natural language. In Experiment II, we show that an LLM can specify the entire model structure, including both priors and the likelihood, from a single high-level problem description. Our results validate the potential of LLMs to automate key steps in Bayesian modeling, enabling the possibility of an automated inference pipeline for probabilistic programming.",
+ "primary": "cs.AI"
+}

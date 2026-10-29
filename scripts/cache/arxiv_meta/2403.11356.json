@@ -1,0 +1,16 @@
+{
+ "id": "2403.11356",
+ "title": "Multiscale Quantile Regression with Local Error Control",
+ "authors": [
+  "Zhi Liu",
+  "Housen Li"
+ ],
+ "v1_date": "2024-03-17",
+ "latest_version": 3,
+ "latest_date": "2025-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The implementation is in R package muscle, available at \\url{https://github.com/liuzhi1993/muscle}",
+ "abstract": "For robust and efficient detection of change points, we introduce a novel methodology MUSCLE (Multiscale qUantile Segmentation Controlling Local Error) that partitions serial data into multiple segments, each sharing a common quantile. It leverages multiple tests for quantile changes over different scales and locations, and variational estimation. Unlike the often adopted global error control, MUSCLE focuses on local errors defined on individual segments, significantly improving detection power in finding change points. Meanwhile, due to the built-in model complexity penalty, it enjoys the finite sample guarantee that its false discovery rate (or the expected proportion of falsely detected change points) is upper bounded by its unique tuning parameter. Further, we obtain the consistency and the localization error rates in estimating change points, under mild signal-to-noise-ratio conditions. Both match (up to log factors) the minimax optimality results in the Gaussian setup. All theories hold under the only distributional assumption of serial independence. Incorporating the wavelet tree data structure, we develop an efficient dynamic programming algorithm for computing MUSCLE. Extensive simulations as well as real data applications in electrophysiology and geophysics demonstrate its competitiveness and effectiveness. An implementation via R package muscle is available on GitHub.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.11239",
+ "title": "Spline Interpolation on Compact Riemannian Manifolds",
+ "authors": [
+  "Charlie Sire",
+  "Mike Pereira",
+  "Thomas Romary"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spline interpolation is a widely used class of methods for solving interpolation problems by constructing smooth interpolants that minimize a regularized energy functional involving the Laplacian operator. While many existing approaches focus on Euclidean domains or the sphere, relying on the spectral properties of the Laplacian, this work introduces a method for spline interpolation on general manifolds by exploiting its equivalence with kriging. Specifically, the proposed approach uses finite element approximations of random fields defined over the manifold, based on Gaussian Markov Random Fields and a discretization of the Laplace-Beltrami operator on a triangulated mesh. This framework enables the modeling of spatial fields with smooth variations and local anisotropies via domain deformation. The method is first validated on the sphere using both analytical test cases and a pollution-related study, and is compared to the classical spherical harmonics-based method. Additional experiments on the surface of a cylinder further illustrate the generality of the approach.",
+ "primary": "stat.CO"
+}

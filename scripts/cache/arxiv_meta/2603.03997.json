@@ -1,0 +1,15 @@
+{
+ "id": "2603.03997",
+ "title": "Bandwidth Selection for Spatial HAC Standard Errors",
+ "authors": [
+  "Alexander Lehner"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 1,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial autocorrelation in regression models can lead to downward biased standard errors and thus incorrect inference. The most common correction in applied economics is the spatial heteroskedasticity and autocorrelation consistent (HAC) standard error estimator introduced by Conley (1999). A critical input is the kernel bandwidth: the distance within which residuals are allowed to be correlated. However, this is still an unresolved problem and there is no formal guidance in the literature. In this paper, I first document that the relationship between the bandwidth and the magnitude of spatial HAC standard errors is inverse-U shaped. This implies that both too narrow and too wide bandwidths lead to underestimated standard errors, contradicting the conventional wisdom that wider bandwidths yield more conservative inference. I then propose a simple, non-parametric, data-driven bandwidth selector based on the empirical covariogram of regression residuals. In extensive Monte Carlo experiments calibrated to empirically relevant spatial correlation structures across the contiguous United States, I show that the proposed method controls the false positive rate at or near the nominal 5% level across a wide range of spatial correlation intensities and sample configurations. I compare six kernel functions and find that the Bartlett and Epanechnikov kernels deliver the best size control. An empirical application using U.S. county-level data illustrates the practical relevance of the method. The R package SpatialInference implements the proposed bandwidth selection method.",
+ "primary": "econ.EM"
+}

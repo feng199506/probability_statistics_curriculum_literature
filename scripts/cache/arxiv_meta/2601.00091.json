@@ -1,0 +1,16 @@
+{
+ "id": "2601.00091",
+ "title": "Characterizing Finite-Dimensional Posterior Marginals in High-Dimensional GLMs via Leave-One-Out",
+ "authors": [
+  "Manuel Sáenz",
+  "Pragya Sur"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 1,
+ "latest_date": "2025-12-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate Bayes posterior distributions in high-dimensional generalized linear models (GLMs) under the proportional asymptotics regime, where the number of features and samples diverge at a comparable rate. Specifically, we characterize the limiting behavior of finite-dimensional marginals of the posterior. We establish that the posterior does not contract in this setting. Yet, the finite-dimensional posterior marginals converge to Gaussian tilts of the prior, where the mean of the Gaussian depends on the true signal coordinates of interest. Notably, the effect of the prior survives even in the limit of large samples and dimensions. We further characterize the behavior of the posterior mean and demonstrate that the posterior mean can strictly outperform the maximum likelihood estimate in mean-squared error in natural examples. Importantly, our results hold regardless of the sparsity level of the underlying signal. On the technical front, we introduce leave-one-out strategies for studying these marginals that may be of independent interest for analyzing low-dimensional functionals of high-dimensional signals in other Bayesian inference problems.",
+ "primary": "math.ST"
+}

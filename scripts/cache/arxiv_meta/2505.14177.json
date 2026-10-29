@@ -1,0 +1,18 @@
+{
+ "id": "2505.14177",
+ "title": "From stability of Langevin diffusion to convergence of proximal MCMC for non-log-concave sampling",
+ "authors": [
+  "Marien Renaud",
+  "Valentin De Bortoli",
+  "Arthur Leclaire",
+  "Nicolas Papadakis"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 2,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of sampling distributions stemming from non-convex potentials with Unadjusted Langevin Algorithm (ULA). We prove the stability of the discrete-time ULA to drift approximations under the assumption that the potential is strongly convex at infinity. In many context, e.g. imaging inverse problems, potentials are non-convex and non-smooth. Proximal Stochastic Gradient Langevin Algorithm (PSGLA) is a popular algorithm to handle such potentials. It combines the forward-backward optimization algorithm with a ULA step. Our main stability result combined with properties of the Moreau envelope allows us to derive the first proof of convergence of the PSGLA for non-convex potentials. We empirically validate our methodology on synthetic data and in the context of imaging inverse problems. In particular, we observe that PSGLA exhibits faster convergence rates than Stochastic Gradient Langevin Algorithm for posterior sampling while preserving its restoration properties.",
+ "primary": "stat.ML"
+}

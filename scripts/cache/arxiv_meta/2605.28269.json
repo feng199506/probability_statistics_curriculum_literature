@@ -1,0 +1,18 @@
+{
+ "id": "2605.28269",
+ "title": "Dynamic Topic Modeling with a Higher-Order Hypergraphical Representation",
+ "authors": [
+  "Hanjia Gao",
+  "Hanwen Ye",
+  "Qing Nie",
+  "Annie Qu"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 1,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 4 figures",
+ "abstract": "Dynamic topic modeling is widely used to analyze evolving trends in scientific literature, medical records, and social media. Traditional topic models represent each topic through a single probability vector on the multinomial simplex and implicitly couple word occurrence and repetition within one probabilistic mechanism. However, this formulation restricts the dependence structure among words and overlooks informative higher-order interactions, particularly in dynamic corpora with overlapping semantics. To address these limitations, we introduce a hypergraph representation of text where each document is modeled as a hyperedge connecting all co-occurring words, with repetition intensities encoded as node weights. This representation naturally separates word occurrence from repetition and induces a novel hypergraph-based multinomial distribution with a nonlinear normalization depending on the observed word set of each document. Building on this likelihood, we develop a dynamic topic modeling framework via structured low-rank factorizations with explicit temporal regularization on topic-word profiles. Moreover, we establish local convergence guarantees and derive non-asymptotic error bounds despite the intrinsic nonconvexity induced by bilinear factorization and document-specific nonlinear normalization. Numerical experiments on synthetic data and an application to the International Conference on Learning Representations (ICLR) corpus demonstrate consistent improvements over existing multinomial-based topic models.",
+ "primary": "cs.LG"
+}

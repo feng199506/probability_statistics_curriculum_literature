@@ -1,0 +1,15 @@
+{
+ "id": "2512.16634",
+ "title": "Wasserstein error bounds for aggregations of continuous-time Markov chains",
+ "authors": [
+  "Fabian Michel"
+ ],
+ "v1_date": "2025-12-18",
+ "latest_version": 1,
+ "latest_date": "2025-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 15 figures",
+ "abstract": "We study the approximation of a (finite) continuous-time Markov chain by a Markov chain on a reduced state space, and we provide formal error bounds for the approximated transient distributions in the Wasserstein distance. These bounds extend previous work on error bounds in the total variation distance, and are the first step towards a generalization to continuous-time Markov processes with continuous state spaces. A Wasserstein matrix norm is used to bound the error caused by the lower-dimensional approximation of the dynamics. In order to control the propagation of the accumulated error, we rely on the concept of coarse Ricci curvature of a Markov chain. The practical applicability of the presented bounds depends strongly on the curvature of the chain. Examples for CTMCs taken from the literature (where we added a metric on the state space) show that a negative curvature results in exponentially exploding bounds. On the other hand, certain CTMCs which we call translation-invariant always have non-negative curvature. When measuring the error in the total variation distance (a special case of the Wasserstein distance with the discrete metric), the curvature is also always non-negative. If it is strictly positive, the bounds presented in this paper are an improvement over previous work.",
+ "primary": "math.PR"
+}

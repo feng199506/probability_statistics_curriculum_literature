@@ -1,0 +1,18 @@
+{
+ "id": "2605.30471",
+ "title": "Multidimensional Item Response Theory under General Latent Distributions",
+ "authors": [
+  "Chengyu Cui",
+  "Taoyi Chen",
+  "Chun Wang",
+  "Gongjun Xu"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multidimensional item response theory (MIRT) provides an important psychometric framework for modeling how multiple latent traits jointly influence observed item responses. In most existing estimation procedures, the latent trait distribution is assumed to be Gaussian. Although computationally convenient, this assumption can be restrictive in many applications where the latent distribution exhibits skewness, heavy tails, or multimodality. More importantly, misspecifying the latent distribution may bias the estimation of item parameters and latent traits. To address this limitation, we propose a data-driven flow-based framework for MIRT models that can capture a broad class of non-Gaussian latent distributions. The proposed approach represents the latent distribution as an invertible transformation of a simple base distribution. For efficient estimation, we further introduce a conditional flow as a function of both the observed response and the noise to approximate the posterior distribution. Under this framework, the item parameters, latent distribution, and posterior approximation can be learned jointly. Comprehensive simulation studies show that the proposed method improves item-parameter and latent-trait recovery when the true latent distribution is non-normal. An application to a personality dataset further illustrates the practical utility of the proposed framework for modeling complex latent trait distributions in large-scale data.",
+ "primary": "stat.ME"
+}

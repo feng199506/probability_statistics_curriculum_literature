@@ -1,0 +1,17 @@
+{
+ "id": "2402.07084",
+ "title": "Reproducing kernel methods for machine learning, PDEs, and statistics",
+ "authors": [
+  "Philippe G. LeFloch",
+  "Jean-Marc Mercier",
+  "Shohruh Miryusupov"
+ ],
+ "v1_date": "2024-02-11",
+ "latest_version": 3,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "180 pages",
+ "abstract": "This monograph develops a unified, application-driven framework for kernel methods grounded in reproducing kernel Hilbert spaces (RKHS) and optimal transport (OT). Part I lays the theoretical and numerical foundations on positive-definite kernels; discrete and continuous RKHS; kernel engineering and scaling maps; error assessment via kernel discrepancy/maximum mean discrepancy (MMD); and a systematic operator view of kernels. In this viewpoint, projection, gradient, divergence, and Laplace-Beltrami operators are built directly from kernels, enabling discrete analogues of differential operators and variational tools that connect learning with PDE-style modeling. Part II turns to practice across four domains. In machine learning, we treat supervised and unsupervised tasks, then develop RKHS-based generative modeling, contrasting density and projection approaches and enhancing them with OT and scalable, combinatorial assignments. We introduce clustering strategies that reduce computational burden and support large-scale regression and transport. In physics-informed modeling, we present mesh-free kernel discretizations for elliptic and time-dependent PDEs, discuss automatic differentiation, and propose high-order discrete approximations. In reinforcement learning, we formulate kernel Q-learning and non-parametric HJB methods, and show how kernel operators yield sample-efficient baselines on continuous-state, discrete-action tasks. In mathematical finance, we build nonparametric time-series models and market generators, study benchmarking and extrapolation for pricing, and apply the framework to stress testing and portfolio methods.",
+ "primary": "math.NA"
+}

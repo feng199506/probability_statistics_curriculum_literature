@@ -1,0 +1,17 @@
+{
+ "id": "2405.15192",
+ "title": "Addressing Duplicated Data in Spatial Point Patterns",
+ "authors": [
+  "Lingling Chen",
+  "Mikyoung Jun",
+  "Scott J. Cook"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 4,
+ "latest_date": "2025-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial point process models are widely applied to point pattern data from various applications in the social and environmental sciences. However, a serious hurdle in fitting point process models is the presence of duplicated points, wherein multiple observations share identical spatial coordinates. This often occurs because of decisions made in the geo-coding process, such as assigning representative locations (e.g., aggregate-level centroids) to observations when data producers lack exact location information. Because spatial point process models like the Log-Gaussian Cox Process (LGCP) assume unique locations, researchers often employ ad hoc solutions (e.g., removing duplicates or jittering) to address duplicated data before analysis. As an alternative, this study proposes a Modified Minimum Contrast (MMC) method that adapts the inference procedure to account for the effect of duplicates in estimation, without needing to alter the data. The proposed MMC method is applied to LGCP models, focusing on the inference of second-order intensity parameters, which govern the clustering structure of point patterns. Under a variety of simulated conditions, our results demonstrate the advantages of the proposed MMC method compared to existing ad hoc solutions. We then apply the MMC methods to a real-data application of conflict events in Afghanistan (2008-2009).",
+ "primary": "stat.ME"
+}

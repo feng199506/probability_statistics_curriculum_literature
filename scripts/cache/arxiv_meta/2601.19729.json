@@ -1,0 +1,16 @@
+{
+ "id": "2601.19729",
+ "title": "Coarsened data in small area estimation: a Bayesian two-part model for mapping smoking behaviour",
+ "authors": [
+  "Aldo Gardini",
+  "Lorenzo Mori"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 7 Figures, 2 Tables",
+ "abstract": "Estimating health indicators for restricted sub-populations is a recurring challenge in epidemiology and public health. When survey data are used, Small Area Estimation (SAE) methods can improve precision by borrowing strength across domains. In many applications, however, outcomes are self-reported and affected by coarsening mechanisms, such as rounding and digit preference, that reduce data resolution and may bias inference. This paper addresses both issues by developing a Bayesian unit-level SAE framework for semi-continuous, coarsened responses. Motivated by the 2019 Italian European Health Interview Survey, we estimate smoking indicators for domains defined by the cross-classification of Italian regions and age groups, capturing both smoking prevalence and intensity. The model adopts a two-part structure: a logistic component for smoking prevalence and a flexible mixture of Lognormal distributions for average cigarette consumption, coupled with an explicit model for coarsening and topcoding. Simulation studies show that ignoring coarsening can yield biased and unstable domain estimates with poor interval coverage, whereas the proposed model improves accuracy and achieves near-nominal coverage. The empirical application provides a detailed picture of smoking patterns across region-age domains, helping to characterize the dynamics of the phenomenon and inform targeted public health policies.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2601.03994",
+ "title": "pintervals: an R package for model-agnostic prediction intervals",
+ "authors": [
+  "David Randahl",
+  "Anders Hjort",
+  "Jonathan P. Williams"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The \\pkg{pintervals} package aims to provide a unified framework for constructing prediction intervals and calibrating predictions in a model-agnostic setting using set-aside calibration data. It comprises routines to construct conformal as well as parametric and bootstrapped prediction intervals from any model that outputs point predictions. Several R packages and functions already exist for constructing prediction intervals, but they often focus on specific modeling frameworks or types of predictions, or require manual customization for different models or applications. By providing a consistent interface for a variety of prediction interval construction approaches (all model-agnostic), \\pkg{pintervals} allows researchers to apply and compare them across different modeling frameworks and applications.",
+ "primary": "stat.AP"
+}

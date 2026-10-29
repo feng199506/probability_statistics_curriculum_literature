@@ -1,0 +1,16 @@
+{
+ "id": "2501.11448",
+ "title": "An accuracy-runtime trade-off comparison of scalable Gaussian process approximations for spatial data",
+ "authors": [
+  "Filippo Rambelli",
+  "Fabio Sigrist"
+ ],
+ "v1_date": "2025-01-20",
+ "latest_version": 5,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian processes (GPs) are flexible, probabilistic, nonparametric models widely used in fields such as spatial statistics and machine learning. A drawback of Gaussian processes is their computational cost, with $O(N^3)$ time and $O(N^2)$ memory complexity, which makes them prohibitive for large data sets. Numerous approximation techniques have been proposed to address this limitation. In this work, we systematically compare the accuracy of different Gaussian process approximations with respect to likelihood evaluation, parameter estimation, and prediction, explicitly accounting for the computational time required. We analyze the trade-off between accuracy and runtime on multiple simulated and large-scale real-world data sets and find that Vecchia approximations consistently provide the best accuracy-runtime trade-off across most settings considered.",
+ "primary": "stat.CO"
+}

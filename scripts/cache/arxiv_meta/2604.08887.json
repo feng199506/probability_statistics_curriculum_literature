@@ -1,0 +1,17 @@
+{
+ "id": "2604.08887",
+ "title": "Heavy-traffic limit of stationary distributions of a state-dependent queue",
+ "authors": [
+  "Masahiro Kobayashi",
+  "Masakiyo Miyazawa",
+  "Yutaka Sakuma"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Inspired by the work of Atar and Miyazawa [1] (2026) as well as applications to energy-saving problems, we are interested in the heavy-traffic limit of the stationary queue length distribution, which is not addressed in [1]. In this paper, we consider this heavy-traffic limit for the single server queue which has the most general possible state-dependence. Namely, arrival and service speeds may take any values depending on the queue length. Here, the terminology, heavy-traffic limit, stands for a diffusion-scaled limit in heavy-traffic for processes, distributions and modeling primitives. This general model is referred to as a state-dependent queue. There are two motivations for this generalization. One is interest in the state-dependent queue itself because it allows finer control of service speed in application. Another is making it clear how the heavy-traffic limit is obtained under what conditions for the state-dependent queue. Thus, we start to study basic properties of this state-dependent queue, including its stability. We then take the sequence of the stationary distributions of its diffusion scaled queue-length processes. We have three main results for this sequence. We first show that it is tight if the heavy-traffic limit of their drifts exists and is negative as the queue length goes to infinity, where a drift is the arrival speed minus the service speed. We next assume the condition that the limit of every vaguely convergent subsequence has a density, which is referred to as a density condition, and show that the heavy-traffic limit of the stationary distributions is obtained in a closed form if and only if that negative drift condition holds. We then show that the density condition is always satisfied for the multi-level queue, so the problem is nicely solved for the multi-level queue.",
+ "primary": "math.PR"
+}

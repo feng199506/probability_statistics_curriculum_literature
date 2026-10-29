@@ -1,0 +1,16 @@
+{
+ "id": "2412.03832",
+ "title": "Information theoretic limits of robust sub-Gaussian mean estimation under star-shaped constraints",
+ "authors": [
+  "Akshay Prasadan",
+  "Matey Neykov"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 2,
+ "latest_date": "2025-06-12",
+ "journal_ref": "Ann. Statist. 54(1): 490-515 (February 2026)",
+ "doi": "10.1214/25-aos2576",
+ "comment": "",
+ "abstract": "We obtain the minimax rate for a mean location model with a bounded star-shaped set $K \\subseteq \\mathbb{R}^n$ constraint on the mean, in an adversarially corrupted data setting with Gaussian noise. We assume an unknown fraction $ε\\le 1/2-κ$ for some fixed $κ\\in(0,1/2]$ of $N$ observations are arbitrarily corrupted. We obtain a minimax risk up to proportionality constants under the squared $\\ell_2$ loss of $\\max(η^{*2},σ^2ε^2)\\wedge d^2$ with \\begin{align*} η^* = \\sup \\bigg\\{η\\ge 0 : \\frac{Nη^2}{σ^2} \\leq \\log \\mathcal{M}_K^{\\operatorname{loc}}(η,c)\\bigg\\}, \\end{align*} where $\\log \\mathcal{M}_K^{\\operatorname{loc}}(η,c)$ denotes the local entropy of the set $K$, $d$ is the diameter of $K$, $σ^2$ is the variance, and $c$ is some sufficiently large absolute constant. A variant of our algorithm achieves the same rate for settings with known or symmetric sub-Gaussian noise, with a smaller breakdown point, still of constant order. We further study the case of unknown sub-Gaussian noise and show that the rate is slightly slower: $\\max(η^{*2},σ^2ε^2\\log(1/ε))\\wedge d^2$. We generalize our results to the case when $K$ is star-shaped but unbounded.",
+ "primary": "math.ST"
+}

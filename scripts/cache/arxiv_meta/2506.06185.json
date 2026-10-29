@@ -1,0 +1,20 @@
+{
+ "id": "2506.06185",
+ "title": "Antithetic Noise in Diffusion Models",
+ "authors": [
+  "Jing Jia",
+  "Sifan Liu",
+  "Bowen Song",
+  "Wei Yuan",
+  "Liyue Shen",
+  "Guanyang Wang"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 2,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code: https://github.com/jjia131/Antithetic-Noise-in-Diffusion-Models-page, Project Page: https://jjia131.github.io/Antithetic-Noise-in-Diffusion-Models-page/, Blog: https://jjia131.github.io/Antithetic-Noise-in-Diffusion-Models-page/static/blog/blog.html",
+ "abstract": "We systematically study antithetic initial noise in diffusion models, discovering that pairing each noise sample with its negation consistently produces strong negative correlation. This universal phenomenon holds across datasets, model architectures, conditional and unconditional sampling, and even other generative models such as VAEs and Normalizing Flows. To explain it, we combine experiments and theory and propose a \\textit{symmetry conjecture} that the learned score function is approximately affine antisymmetric (odd symmetry up to a constant shift), supported by empirical evidence. This negative correlation leads to substantially more reliable uncertainty quantification with up to $90\\%$ narrower confidence intervals. We demonstrate these gains on tasks including estimating pixel-wise statistics and evaluating diffusion inverse solvers. We also provide extensions with randomized quasi-Monte Carlo noise designs for uncertainty quantification, and explore additional applications of the antithetic noise design to improve image editing and generation diversity. Our framework is training-free, model-agnostic, and adds no runtime overhead. Code is available at https://github.com/jjia131/Antithetic-Noise-in-Diffusion-Models-page.",
+ "primary": "cs.LG"
+}

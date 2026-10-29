@@ -1,0 +1,16 @@
+{
+ "id": "2405.10194",
+ "title": "Multivariate strong invariance principle and uncertainty assessment for time in-homogeneous cyclic MCMC samplers",
+ "authors": [
+  "Haoxiang Li",
+  "Qian Qin"
+ ],
+ "v1_date": "2024-05-16",
+ "latest_version": 1,
+ "latest_date": "2024-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time in-homogeneous cyclic Markov chain Monte Carlo (MCMC) samplers, including deterministic scan Gibbs samplers and Metropolis within Gibbs samplers, are extensively used for sampling from multi-dimensional distributions. We establish a multivariate strong invariance principle (SIP) for Markov chains associated with these samplers. The rate of this SIP essentially aligns with the tightest rate available for time homogeneous Markov chains. The SIP implies the strong law of large numbers (SLLN) and the central limit theorem (CLT), and plays an essential role in uncertainty assessments. Using the SIP, we give conditions under which the multivariate batch means estimator for estimating the covariance matrix in the multivariate CLT is strongly consistent. Additionally, we provide conditions for a multivariate fixed volume sequential termination rule, which is associated with the concept of effective sample size (ESS), to be asymptotically valid. Our uncertainty assessment tools are demonstrated through various numerical experiments.",
+ "primary": "stat.CO"
+}

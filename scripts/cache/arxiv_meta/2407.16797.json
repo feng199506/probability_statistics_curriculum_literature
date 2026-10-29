@@ -1,0 +1,17 @@
+{
+ "id": "2407.16797",
+ "title": "Estimating the hyperuniformity exponent of point processes",
+ "authors": [
+  "Gabriel Mastrilli",
+  "Bartłomiej Błaszczyszyn",
+  "Frédéric Lavancier"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 1,
+ "latest_date": "2024-07-23",
+ "journal_ref": "Bernoulli 32(4), 3300-3326 (November 2026)",
+ "doi": "10.3150/26-bej1989",
+ "comment": "",
+ "abstract": "We address the challenge of estimating the hyperuniformity exponent $α$ of a spatial point process, given only one realization of it. Assuming that the structure factor $S$ of the point process follows a vanishing power law at the origin (the typical case of a hyperuniform point process), this exponent is defined as the slope near the origin of $\\log S$. Our estimator is built upon the (expanding window) asymptotic variance of some wavelet transforms of the point process. By combining several scales and several wavelets, we develop a multi-scale, multi-taper estimator $\\widehatα$. We analyze its asymptotic behavior, proving its consistency under various settings, and enabling the construction of asymptotic confidence intervals for $α$ when $α< d$ and under Brillinger mixing. This construction is derived from a multivariate central limit theorem where the normalisations are non-standard and vary among the components. We also present a non-asymptotic deviation inequality providing insights into the influence of tapers on the bias-variance trade-off of $\\widehatα$. Finally, we investigate the performance of $\\widehatα$ through simulations, and we apply our method to the analysis of hyperuniformity in a real dataset of marine algae.",
+ "primary": "math.ST"
+}

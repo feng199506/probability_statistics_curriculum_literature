@@ -1,0 +1,19 @@
+{
+ "id": "2406.04874",
+ "title": "Approximate Bayesian Computation with Deep Learning and Conformal prediction",
+ "authors": [
+  "Meili Baragatti",
+  "Casenave Céline",
+  "Bertrand Cloez",
+  "David Métivier",
+  "Isabelle Sanchez"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 4,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages, 11 figures",
+ "abstract": "Approximate Bayesian Computation (ABC) methods are commonly used to approximate posterior distributions in models with unknown or computationally intractable likelihoods. Classical ABC methods are based on nearest neighbor type algorithms and rely on the choice of so-called summary statistics, distances between datasets and a tolerance threshold. Recently, methods combining ABC with more complex machine learning algorithms have been proposed to mitigate the impact of these ``user-choices''. In this paper, we propose the first, to our knowledge, ABC method completely free of summary statistics, distance, and tolerance threshold. Moreover, in contrast with usual generalizations of the ABC method, it associates a confidence interval (having a proper frequentist marginal coverage) with the posterior mean estimation (or other moment-type estimates). Our method, named ABCD-Conformal, uses a neural network with Monte Carlo Dropout to provide an estimation of the posterior mean (or other moment type functionals), and conformal theory to obtain associated confidence sets. Efficient for estimating multidimensional parameters and amortized, we test this new method on four different applications and compare it with other ABC methods in the literature.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.00351",
+ "title": "Efficiency-Reward Trade-Off in Queues with Dynamic Arrivals",
+ "authors": [
+  "Tianze Qu",
+  "Sushil Mahavir Varma"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 3,
+ "latest_date": "2026-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted and published as an extended abstract in SIGMETRICS 2026",
+ "abstract": "Motivated by applications in online marketplaces such as ride-hailing platforms and payment channel networks, we study a single server queue with service rate $μ$ and queue-length-dependent arrival rate $λ(q) \\in [0, λ_{\\max}]$. The system operator receives a reward $F(λ)$ by setting an arrival rate $λ$, where $F$ can represent objectives such as throughput, revenue, or social welfare. The goal is to characterize the Pareto frontier between long-run average reward and expected queue length ($\\mathbb{E}[q]$). We first establish a fluid upper bound on the reward achievable under any control policy $\\{λ(q)\\}$, and define regret as the gap from this upper bound. We then minimize $\\mathbb{E}[q]$ subject to the regret being at most $\\varepsilon$. In the small-market regime $(λ_{\\max} \\leq μ)$, we show that no control policy can improve over the classical heavy-traffic scaling of $\\mathbb{E}[q] = Ω(1/\\varepsilon)$. In contrast, in the large-market regime $(λ_{\\max} > μ)$, we substantially improve over the classical scaling by explicitly constructing control policies with expected queue lengths at most $O(1/\\sqrt{\\varepsilon})$ or $O(\\log (1/\\varepsilon))$, depending on the curvature structure of \\(F\\). Moreover, we establish universal lower bounds of $Ω(1/\\sqrt{\\varepsilon})$ or $Ω(\\log (1/\\varepsilon))$ respectively under any general control policy. These results can be viewed as (non asymptotic) heavy-traffic theory for queues with dynamic arrivals.",
+ "primary": "math.OC"
+}

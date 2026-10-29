@@ -1,0 +1,18 @@
+{
+ "id": "2405.09509",
+ "title": "Double Robustness of Local Projections and Some Unpleasant VARithmetic",
+ "authors": [
+  "José Luis Montiel Olea",
+  "Mikkel Plagborg-Møller",
+  "Eric Qian",
+  "Christian K. Wolf"
+ ],
+ "v1_date": "2024-05-15",
+ "latest_version": 4,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider impulse response inference in a locally misspecified vector autoregression (VAR) model. The conventional local projection (LP) confidence interval has correct coverage even when the misspecification is so large that it can be detected with probability approaching 1. This result follows from a \"double robustness\" property analogous to that of popular partially linear regression estimators. By contrast, the conventional VAR confidence interval with short-to-moderate lag length can severely undercover for misspecification that is small, difficult to detect statistically, and cannot be ruled out based on economic theory. The VAR confidence interval has robust coverage if, and only if, the lag length is so large that the interval is as wide as the LP interval.",
+ "primary": "econ.EM"
+}

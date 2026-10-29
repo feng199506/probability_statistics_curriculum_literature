@@ -1,0 +1,17 @@
+{
+ "id": "2603.04576",
+ "title": "Variable Selection for Linear Regression Imputation in Surveys",
+ "authors": [
+  "Ziming An",
+  "Mehdi Dagdoug",
+  "David Haziza"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 1,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Survey sampling is concerned with the estimation of finite population parameters. In practice, survey data suffer from item nonresponse, which is commonly handled through imputation, i.e., replacing missing values with predicted values. As a result, the properties of the resulting imputed estimator depend critically on the properties of the prediction method used. In turn, prediction methods themselves depend on the choice of variables and tuning parameters used to fit the imputation model. In this article, we study the problem of variable selection for linear regression imputation. Although variable selection has been widely studied across many fields, primarily for identification or prediction, its role in imputation for survey data has received comparatively little attention. We introduce the notion of an optimal imputation model defined through an oracle loss function and show that, with probability tending to one, the optimal model coincides with the true model. We also examine the consequences of using misspecified models -- either omitting relevant covariates or including irrelevant ones -- on consistency and asymptotic variance. We then develop a complete methodological framework for constructing confidence intervals after model selection. The proposed confidence intervals are shown to be asymptotically valid and optimal among all candidate models. Simulation studies indicate that the proposed methodology performs well in finite samples.",
+ "primary": "stat.ME"
+}

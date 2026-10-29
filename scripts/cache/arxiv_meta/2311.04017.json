@@ -1,0 +1,17 @@
+{
+ "id": "2311.04017",
+ "title": "Multivariate quantile-based permutation tests with application to functional data",
+ "authors": [
+  "Zdeněk Hlávka",
+  "Daniel Hlubinka",
+  "Šárka Hudecová"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 1,
+ "latest_date": "2023-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Permutation tests enable testing statistical hypotheses in situations when the distribution of the test statistic is complicated or not available. In some situations, the test statistic under investigation is multivariate, with the multiple testing problem being an important example. The corresponding multivariate permutation tests are then typically based on a suitableone-dimensional transformation of the vector of partial permutation p-values via so called combining functions. This paper proposes a new approach that utilizes the optimal measure transportation concept. The final single p-value is computed from the empirical center-outward distribution function of the permuted multivariate test statistics. This method avoids computation of the partial p-values and it is easy to be implemented. In addition, it allows to compute and interpret contributions of the components of the multivariate test statistic to the non-conformity score and to the rejection of the null hypothesis. Apart from this method, the measure transportation is applied also to the vector of partial p-values as an alternative to the classical combining functions. Both techniques are compared with the standard approaches using various practical examples in a Monte Carlo study. An application on a functional data set is provided as well.",
+ "primary": "stat.ME"
+}

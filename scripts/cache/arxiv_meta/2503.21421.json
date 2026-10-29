@@ -1,0 +1,16 @@
+{
+ "id": "2503.21421",
+ "title": "Robust Mean Estimation for Optimization: The Impact of Heavy Tails",
+ "authors": [
+  "Bart P. G. van Parys",
+  "Bert Zwart"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 2,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of constructing a least conservative estimator of the expected value $μ$ of a non-negative heavy-tailed random variable. We require that the probability of overestimating the expected value $μ$ is kept appropriately small; a natural requirement if its subsequent use in a decision process is anticipated. In this setting, we show it is optimal to estimate $μ$ by solving a distributionally robust optimization (DRO) problem using the Kullback-Leibler (KL) divergence. We further show that the statistical properties of KL-DRO compare favorably with other estimators based on truncation, variance regularization, or Wasserstein DRO.",
+ "primary": "math.OC"
+}

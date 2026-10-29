@@ -1,0 +1,15 @@
+{
+ "id": "2401.17963",
+ "title": "A non-asymptotic error analysis for parallel Monte Carlo estimation from many short Markov chains",
+ "authors": [
+  "Austin Brown"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 1,
+ "latest_date": "2024-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Single-chain Markov chain Monte Carlo simulates realizations from a Markov chain to estimate expectations with the empirical average. The single-chain simulation is generally of considerable length and restricts many advantages of modern parallel computation. This paper constructs a novel many-short-chains Monte Carlo (MSC) estimator by averaging over multiple independent sums from Markov chains of a guaranteed short length. The computational advantage is the independent Markov chain simulations can be fast and may be run in parallel. The MSC estimator requires an importance sampling proposal and a drift condition on the Markov chain without requiring convergence analysis on the Markov chain. A non-asymptotic error analysis is developed for the MSC estimator under both geometric and multiplicative drift conditions. Empirical performance is illustrated on an autoregressive process and the Pólya-Gamma Gibbs sampler for Bayesian logistic regression to predict cardiovascular disease.",
+ "primary": "math.ST"
+}

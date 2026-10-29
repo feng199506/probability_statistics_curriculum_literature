@@ -1,0 +1,16 @@
+{
+ "id": "2411.00621",
+ "title": "Nonparametric estimation of Hawkes processes with RKHSs",
+ "authors": [
+  "Anna Bonnet",
+  "Maxime Sangnier"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AISTATS 2025",
+ "abstract": "This paper addresses nonparametric estimation of nonlinear multivariate Hawkes processes, where the interaction functions are assumed to lie in a reproducing kernel Hilbert space (RKHS). Motivated by applications in neuroscience, the model allows complex interaction functions, in order to express exciting and inhibiting effects, but also a combination of both (which is particularly interesting to model the refractory period of neurons), and considers in return that conditional intensities are rectified by the ReLU function. The latter feature incurs several methodological challenges, for which workarounds are proposed in this paper. In particular, it is shown that a representer theorem can be obtained for approximated versions of the log-likelihood and the least-squares criteria. Based on it, we propose an estimation method, that relies on two common approximations (of the ReLU function and of the integral operator). We provide a bound that controls the impact of these approximations. Numerical results on synthetic data confirm this fact as well as the good asymptotic behavior of the proposed estimator. It also shows that our method achieves a better performance compared to related nonparametric estimation techniques and suits neuronal applications.",
+ "primary": "stat.ML"
+}

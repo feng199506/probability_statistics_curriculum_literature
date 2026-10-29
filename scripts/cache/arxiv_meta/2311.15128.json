@@ -1,0 +1,16 @@
+{
+ "id": "2311.15128",
+ "title": "Quickest Change Detection with Post-Change Density Estimation",
+ "authors": [
+  "Yuchen Liang",
+  "Venugopal V. Veeravalli"
+ ],
+ "v1_date": "2023-11-25",
+ "latest_version": 1,
+ "latest_date": "2023-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2211.00223",
+ "abstract": "The problem of quickest change detection in a sequence of independent observations is considered. The pre-change distribution is assumed to be known, while the post-change distribution is unknown. Two tests based on post-change density estimation are developed for this problem, the window-limited non-parametric generalized likelihood ratio (NGLR) CuSum test and the non-parametric window-limited adaptive (NWLA) CuSum test. Both tests do not assume any knowledge of the post-change distribution, except that the post-change density satisfies certain smoothness conditions that allows for efficient non-parametric estimation. Also, they do not require any pre-collected post-change training samples. Under certain convergence conditions on the density estimator, it is shown that both tests are first-order asymptotically optimal, as the false alarm rate goes to zero. The analysis is validated through numerical results, where both tests are compared with baseline tests that have distributional knowledge.",
+ "primary": "math.ST"
+}

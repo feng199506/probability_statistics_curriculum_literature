@@ -1,0 +1,19 @@
+{
+ "id": "2510.02174",
+ "title": "Flatness-Aware Stochastic Gradient Langevin Dynamics",
+ "authors": [
+  "Stefano Bruno",
+  "Youngsik Hwang",
+  "Jaehyeon An",
+  "Sotirios Sabanis",
+  "Dong-Young Lim"
+ ],
+ "v1_date": "2025-10-02",
+ "latest_version": 3,
+ "latest_date": "2026-05-27",
+ "journal_ref": "ICML 2026",
+ "doi": "",
+ "comment": "Accepted by ICML 2026",
+ "abstract": "Flatness of the loss landscape has been widely studied as an important perspective for understanding the behavior and generalization of deep learning algorithms. Motivated by this view, we propose Flatness-Aware Stochastic Gradient Langevin Dynamics (fSGLD), a first-order optimization method that biases learning its dynamics toward flat basins while retaining the computational and memory efficiency of SGD and SGLD. We provide a non-asymptotic theoretical analysis showing that fSGLD targets a flatness-biased Gibbs distribution under a theoretically prescribed coupling between the noise scale $σ$ and the inverse temperature $β$, together with explicit excess risk guarantees. We empirically evaluate fSGLD across standard optimizer benchmarks, Bayesian image classification, uncertainty quantification, and out-of-distribution detection, demonstrating consistently strong performance and reliable uncertainty estimates. Additional experiments confirm the effectiveness of the theoretically prescribed $β$-$σ$ coupling compared to decoupled choices.",
+ "primary": "cs.LG"
+}

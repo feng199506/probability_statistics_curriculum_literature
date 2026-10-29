@@ -1,0 +1,17 @@
+{
+ "id": "2401.11885",
+ "title": "Bootstrap prediction regions for daily curves of electricity demand and price using functional data",
+ "authors": [
+  "Rebeca Peláez",
+  "Germán Aneiros",
+  "Juan Vilar"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 1,
+ "latest_date": "2024-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The aim of this paper is to compute one-day-ahead prediction regions for daily curves of electricity demand and price. Three model-based procedures to construct general prediction regions are proposed, all of them using bootstrap algorithms. The first proposed method considers any $L_p$ norm for functional data to measure the distance between curves, the second one is designed to take different variabilities along the curve into account, and the third one takes advantage of the notion of depth of a functional data. The regression model with functional response on which our proposed prediction regions are based is rather general: it allows to include both endogenous and exogenous functional variables, as well as exogenous scalar variables; in addition, the effect of such variables on the response one is modeled in a parametric, nonparametric or semi-parametric way. A comparative study is carried out to analyse the performance of these prediction regions for the electricity market of mainland Spain, in year 2012. This work extends and complements the methods and results in Aneiros et al. (2016) (focused on curve prediction) and Vilar et al. (2018) (focused on prediction intervals), which use the same database as here.",
+ "primary": "stat.ME"
+}

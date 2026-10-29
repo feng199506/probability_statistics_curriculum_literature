@@ -1,0 +1,15 @@
+{
+ "id": "2312.08530",
+ "title": "Using Model-Assisted Calibration Methods to Improve Efficiency of Regression Analyses with Two-Phase Samples under Complex Survey Designs",
+ "authors": [
+  "Lingxiao Wang"
+ ],
+ "v1_date": "2023-12-13",
+ "latest_version": 2,
+ "latest_date": "2024-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two-phase sampling designs are frequently employed in epidemiological studies and large-scale health surveys. In such designs, certain variables are exclusively collected within a second-phase random subsample of the initial first-phase sample, often due to factors such as high costs, response burden, or constraints on data collection or measurement assessment. Consequently, second-phase sample estimators can be inefficient due to the diminished sample size. Model-assisted calibration methods have been used to improve the efficiency of second-phase estimators. However, no existing methods provide appropriate calibration auxiliary variables while simultaneously considering the complex sample designs present in both the first- and second-phase samples in regression analyses. This paper proposes to calibrate the sample weights for the second-phase subsample to the weighted entire first-phase sample based on score functions of regression coefficients by using predictions of the covariate of interest, which can be computed for the entire first-phase sample. We establish the consistency of the proposed calibration estimation and provide variance estimation. Empirical evidence underscores the robustness of the calibration on score functions compared to the imputation method, which can be sensitive to misspecified prediction models for the variable only collected in the second phase. Examples using data from the National Health and Nutrition Examination Survey are provided.",
+ "primary": "stat.ME"
+}

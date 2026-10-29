@@ -1,0 +1,18 @@
+{
+ "id": "2402.18921",
+ "title": "Semi-Supervised U-statistics",
+ "authors": [
+  "Ilmun Kim",
+  "Larry Wasserman",
+  "Sivaraman Balakrishnan",
+  "Matey Neykov"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 2,
+ "latest_date": "2024-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semi-supervised datasets are ubiquitous across diverse domains where obtaining fully labeled data is costly or time-consuming. The prevalence of such datasets has consistently driven the demand for new tools and methods that exploit the potential of unlabeled data. Responding to this demand, we introduce semi-supervised U-statistics enhanced by the abundance of unlabeled data, and investigate their statistical properties. We show that the proposed approach is asymptotically Normal and exhibits notable efficiency gains over classical U-statistics by effectively integrating various powerful prediction tools into the framework. To understand the fundamental difficulty of the problem, we derive minimax lower bounds in semi-supervised settings and showcase that our procedure is semi-parametrically efficient under regularity conditions. Moreover, tailored to bivariate kernels, we propose a refined approach that outperforms the classical U-statistic across all degeneracy regimes, and demonstrate its optimality properties. Simulation studies are conducted to corroborate our findings and to further demonstrate our framework.",
+ "primary": "math.ST"
+}

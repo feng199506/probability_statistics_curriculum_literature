@@ -1,0 +1,16 @@
+{
+ "id": "2408.13848",
+ "title": "Inference for Spiked Eigenstructure under Generalized Covariance and Correlation Models",
+ "authors": [
+  "Yanqing Yin",
+  "Wang Zhou"
+ ],
+ "v1_date": "2024-08-25",
+ "latest_version": 2,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This version is substantially revised from the original arXiv posting. The title has been changed, the manuscript has been reorganized, and a large portion of the technical material has been moved to the Supplementary Material",
+ "abstract": "In high-dimensional principal component analysis, important inferential targets include both leading spikes and the associated principal eigenspaces. Such problems arise naturally in high-dimensional factor models, where leading principal directions are interpreted as dominant loading directions and spike magnitudes reflect the strength of the corresponding common factors. We study inference based on the sample covariance matrix $\\bS$ and the sample correlation matrix $\\widehat{\\bR}$ under generalized spiked models with arbitrary bulk spectrum. We establish almost sure limits and central limit theorems for spiked sample eigenvalues, and derive asymptotic distributions for functionals of sample spiked eigenspaces. Building on this theory, we develop procedures for one-sample inference for benchmark principal directions and for two-sample comparison of leading spike strengths across populations. Even in the covariance setting, our results substantially extend the existing literature by allowing a non-identity bulk structure. A real-data analysis on stock returns further illustrates the practical relevance of the proposed procedures, showing that covariance-based and correlation-based PCA can lead to markedly different conclusions.",
+ "primary": "math.ST"
+}

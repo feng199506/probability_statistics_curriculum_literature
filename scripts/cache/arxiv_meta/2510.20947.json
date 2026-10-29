@@ -1,0 +1,16 @@
+{
+ "id": "2510.20947",
+ "title": "To MCMC or not to MCMC: Evaluating non-MCMC methods for Bayesian penalized regression",
+ "authors": [
+  "Florian D. van Leeuwen",
+  "Sara van Erp"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 1,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Markov Chain Monte Carlo (MCMC) sampling is computationally expensive, especially for complex models. Alternative methods make simplifying assumptions about the posterior to reduce computational burden, but their impact on predictive performance remains unclear. This paper compares MCMC and non-MCMC methods for high-dimensional penalized regression, examining when computational shortcuts are justified for prediction tasks. We conduct a comprehensive simulation study using high-dimensional tabular data, then validate findings with empirical datasets featuring both continuous and binary outcomes. An in-depth analysis of one dataset provides a step-by-step tutorial implementing various algorithms in R. Our results show that mean-field variational inference consistently performs comparably to MCMC methods. In simulations, mean-field VI exhibited 3-90\\% higher MSE across scenarios while reducing runtime by 7-30x compared to Hamiltonian Monte Carlo. Empirical datasets revealed dramatic speed-ups (100-400x) in some cases with similar or superior predictive performance. However, performance varied: some cases showed over 100x MSE increases with only 30x speed-ups, highlighting the context-dependent nature of these trade-offs.",
+ "primary": "stat.CO"
+}

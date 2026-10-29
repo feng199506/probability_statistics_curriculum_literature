@@ -1,0 +1,18 @@
+{
+ "id": "2503.02798",
+ "title": "Spike-and-Slab Posterior Sampling in High Dimensions",
+ "authors": [
+  "Syamantak Kumar",
+  "Purnamrita Sarkar",
+  "Kevin Tian",
+  "Yusong Zhu"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 1,
+ "latest_date": "2025-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "53 pages",
+ "abstract": "Posterior sampling with the spike-and-slab prior [MB88], a popular multimodal distribution used to model uncertainty in variable selection, is considered the theoretical gold standard method for Bayesian sparse linear regression [CPS09, Roc18]. However, designing provable algorithms for performing this sampling task is notoriously challenging. Existing posterior samplers for Bayesian sparse variable selection tasks either require strong assumptions about the signal-to-noise ratio (SNR) [YWJ16], only work when the measurement count grows at least linearly in the dimension [MW24], or rely on heuristic approximations to the posterior. We give the first provable algorithms for spike-and-slab posterior sampling that apply for any SNR, and use a measurement count sublinear in the problem dimension. Concretely, assume we are given a measurement matrix $\\mathbf{X} \\in \\mathbb{R}^{n\\times d}$ and noisy observations $\\mathbf{y} = \\mathbf{X}\\mathbfθ^\\star + \\mathbfξ$ of a signal $\\mathbfθ^\\star$ drawn from a spike-and-slab prior $π$ with a Gaussian diffuse density and expected sparsity k, where $\\mathbfξ \\sim \\mathcal{N}(\\mathbb{0}_n, σ^2\\mathbf{I}_n)$. We give a polynomial-time high-accuracy sampler for the posterior $π(\\cdot \\mid \\mathbf{X}, \\mathbf{y})$, for any SNR $σ^{-1}$ > 0, as long as $n \\geq k^3 \\cdot \\text{polylog}(d)$ and $X$ is drawn from a matrix ensemble satisfying the restricted isometry property. We further give a sampler that runs in near-linear time $\\approx nd$ in the same setting, as long as $n \\geq k^5 \\cdot \\text{polylog}(d)$. To demonstrate the flexibility of our framework, we extend our result to spike-and-slab posterior sampling with Laplace diffuse densities, achieving similar guarantees when $σ= O(\\frac{1}{k})$ is bounded.",
+ "primary": "stat.ML"
+}

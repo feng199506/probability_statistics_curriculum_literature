@@ -1,0 +1,16 @@
+{
+ "id": "2510.25712",
+ "title": "Existence and optimisation of the partial correlation graphical lasso",
+ "authors": [
+  "Jack Storror Carter",
+  "Cesare Molinari"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 11 figures",
+ "abstract": "The partial correlation graphical LASSO (PCGLASSO) is a penalised likelihood method for Gaussian graphical models which provides scale invariant sparse estimation of the precision matrix and improves upon the popular graphical LASSO method. However, the PCGLASSO suffers from computational challenges due to the non-convexity of its associated optimisation problem. This paper provides some important breakthroughs in the computation of the PCGLASSO. First, the existence of the PCGLASSO estimate is proven when the sample size is smaller than the dimension - a case in which the maximum likelihood estimate does not exist. This means that the PCGLASSO can be used with any Gaussian data. Second, a new alternating algorithm for computing the PCGLASSO is proposed and implemented in the R package PCGLASSO available at https://github.com/JackStorrorCarter/PCGLASSO. This was the first publicly available implementation of the PCGLASSO and provides competitive computation time for moderate dimension size.",
+ "primary": "stat.ME"
+}

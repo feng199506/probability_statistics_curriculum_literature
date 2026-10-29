@@ -1,0 +1,17 @@
+{
+ "id": "2604.03488",
+ "title": "Inference for Clustering: Conformal Sets for Cluster Labels",
+ "authors": [
+  "YoonHaeng Hur",
+  "Anirban Nath",
+  "Genevera Allen"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While clustering is ubiquitously used across science and industry, uncertainty in cluster assignments is rarely quantified with rigorous guarantees. We propose a novel conformal inference framework for clustering that returns confidence sets for cluster labels. The key challenge is that labels are unobserved and estimated from data, so naively using deterministic cluster labels can violate exchangeability and induce severe under-coverage. To address this, we propose split conformal clustering with stochastic labels, which samples labels from soft cluster labels, fits a soft classifier to predict these stochastic labels, and calibrates conformal scores to construct confidence sets for cluster labels at any query point. We establish a finite-sample lower bound on marginal coverage that reveals how under-coverage is controlled by two properties of the clustering algorithm: consistency of estimated soft labels and replace-one stability. Under mild conditions, we prove asymptotic coverage and verify these conditions for correctly specified parametric mixture models. Simulations for mixture models show that our method attains target coverage with informative set sizes, validating our theoretical results. Applications to clustering cell types in single-cell RNA-seq data demonstrate the practical utility and interpretability of our approach to quantifying cluster label uncertainty.",
+ "primary": "stat.ME"
+}

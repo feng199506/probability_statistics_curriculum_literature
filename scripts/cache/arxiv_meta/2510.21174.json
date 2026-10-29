@@ -1,0 +1,17 @@
+{
+ "id": "2510.21174",
+ "title": "Expectation-Propagation for Bayesian Empirical Likelihood Inference",
+ "authors": [
+  "Kenyon Ng",
+  "Weichang Yu",
+  "Howard D. Bondell"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 2,
+ "latest_date": "2026-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added post-processing steps for skewed posterior. Code in https://github.com/weiyaw/epel",
+ "abstract": "Bayesian inference typically relies on specifying a parametric model that approximates the data-generating process. However, misspecified models can yield poor convergence rates and unreliable posterior calibration. Bayesian empirical likelihood offers a semi-parametric alternative by replacing the parametric likelihood with a profile empirical likelihood defined through moment constraints, thereby avoiding explicit distributional assumptions. Despite these advantages, Bayesian empirical likelihood faces substantial computational challenges, including the need to solve a constrained optimization problem for each likelihood evaluation and difficulties with non-convex posterior support, particularly in small-sample settings. This paper introduces a variational approach based on expectation-propagation to approximate the Bayesian empirical-likelihood posterior, balancing computational cost and accuracy without altering the target posterior via adjustments such as pseudo-observations. Empirically, we show that our approach can achieve a superior cost-accuracy trade-off relative to existing methods, including Hamiltonian Monte Carlo and variational Bayes. Theoretically, we show that the approximation and the Bayesian empirical-likelihood posterior are asymptotically equivalent.",
+ "primary": "stat.ME"
+}

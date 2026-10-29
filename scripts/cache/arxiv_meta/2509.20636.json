@@ -1,0 +1,18 @@
+{
+ "id": "2509.20636",
+ "title": "A Hierarchical Variational Graph Fused Lasso for Recovering Relative Rates in Spatial Compositional Data",
+ "authors": [
+  "Joaquim Valerio Teixeira",
+  "Ed Reznik",
+  "Sudpito Banerjee",
+  "Wesley Tansey"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The analysis of spatial data from biological imaging technology, such as imaging mass spectrometry (IMS) or imaging mass cytometry (IMC), is challenging because of a competitive sampling process which convolves signals from molecules in a single pixel. To address this, we develop a scalable Bayesian framework that leverages natural sparsity in spatial signal patterns to recover relative rates for each molecule across the entire image. Our method relies on the use of a heavy-tailed variant of the graphical lasso prior and a novel hierarchical variational family, enabling efficient inference via automatic differentiation variational inference. Simulation results show that our approach outperforms state-of-the-practice point estimate methodologies in IMS, and has superior posterior coverage than mean-field variational inference techniques. Results on real IMS data demonstrate that our approach better recovers the true anatomical structure of known tissue, removes artifacts, and detects active regions missed by the standard analysis approach.",
+ "primary": "stat.ML"
+}

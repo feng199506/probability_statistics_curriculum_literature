@@ -1,0 +1,18 @@
+{
+ "id": "2507.04668",
+ "title": "Forward Regression via Gram-Schmidt Orthogonalization for Ultra-High Dimensional Linear Models",
+ "authors": [
+  "Jialuo Chen",
+  "Zhaoxing Gao",
+  "Yifan Jiang",
+  "Ruey S. Tsay"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 2,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Forward regression is a classical and effective tool for variable screening in ultra-high dimensional linear models, but its standard projection-based implementation can be computationally costly and numerically unstable when predictors are strongly collinear. Motivated by this limitation, we propose an orthogonalized forward regression procedure, implemented recursively through Gram-Schmidt updates, that ranks predictors according to their unique contributions after removing the effects of variables already selected. This approach preserves the interpretability of forward regression while substantially reducing the cost of repeated projections. We further develop a path-based model size selection rule using statistics computed directly from the forward sequence, thereby avoiding cross-validation and extensive tuning. The resulting method is particularly well suited to settings in which the number of predictors far exceeds the sample size and strong collinearity renders the conventional forward fitting ineffective. Theoretically, we derive the optimal convergence rate for the proposed Gram-Schmidt forward regression, thereby extending existing results for projection-based forward regression, and further show that it enjoys sure screening property and variable selection consistency under suitable conditions. Simulation studies and empirical examples demonstrate that it provides a favorable balance among computational efficiency, numerical stability, screening accuracy, and predictive performance, especially in highly correlated ultra-high dimensional settings.",
+ "primary": "stat.ME"
+}

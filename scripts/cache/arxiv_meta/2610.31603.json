@@ -1,0 +1,16 @@
+{
+ "id": "2610.31603",
+ "title": "Is Spectral Self-Supervised Learning a Minimax Optimal Method of Density Ratio Estimation?",
+ "authors": [
+  "Hiroki Waida",
+  "Takafumi Kanamori"
+ ],
+ "v1_date": "2026-10-22",
+ "latest_version": 1,
+ "latest_date": "2026-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spectral self-supervised learning is a method of density ratio estimation for the setting in which only samples drawn from the joint density of the numerator are available. The method has extensively been studied in terms of the computational properties, such as optimal solutions and connections to representation learning. However, theoretical understanding of its statistical property is still insufficient. In this work, we study three questions, namely, the minimax optimality, the applicability of the theory to regularized algorithms, and the statistical merits of density ratio estimation with data augmentation mechanisms that have recently been considered in the context of self-supervised representation learning. We first show that for general classes of Hölder continuous density ratios, there are regularized spectral self-supervised learning algorithms that yield estimators attaining the minimax optimality, up to logarithmic factors. We then prove that for subclasses endowed with a data augmentation mechanism, we obtain faster convergence rates that are also minimax optimal (up to logarithmic factors) in a weaker sense. We also present the key proof ideas tailored for self-supervised density ratio estimation.",
+ "primary": "math.ST"
+}

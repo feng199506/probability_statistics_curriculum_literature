@@ -1,0 +1,17 @@
+{
+ "id": "2412.01344",
+ "title": "Practical Performative Policy Learning with Strategic Agents",
+ "authors": [
+  "Qianyi Chen",
+  "Ying Chen",
+  "Bo Li"
+ ],
+ "v1_date": "2024-12-02",
+ "latest_version": 3,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the performative policy learning problem, where agents adjust their features in response to a released policy to improve their potential outcomes, inducing an endogenous distribution shift. There has been growing interest in training machine learning models in strategic environments, including strategic classification and performative prediction. However, existing approaches often rely on restrictive parametric assumptions: micro-level utility models in strategic classification and macro-level data distribution maps in performative prediction, severely limiting scalability and generalizability. We approach this problem as a complex causal inference task, relaxing parametric assumptions on both micro-level agent behavior and macro-level data distribution. Leveraging bounded rationality, we uncover a practical low-dimensional structure in distribution shifts and construct an effective mediator in the causal path from the deployed model to the shifted data. We then propose a gradient-based policy optimization algorithm with a differentiable classifier as a substitute for the high-dimensional distribution map. Our algorithm efficiently utilizes batch feedback and limited manipulation patterns. Our approach achieves high sample efficiency compared to methods reliant on bandit feedback or zero-order optimization. We also provide theoretical guarantees for algorithmic convergence. Extensive and challenging experiments on high-dimensional settings demonstrate our method's practical efficacy.",
+ "primary": "cs.LG"
+}

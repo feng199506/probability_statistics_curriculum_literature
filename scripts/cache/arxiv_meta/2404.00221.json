@@ -1,0 +1,15 @@
+{
+ "id": "2404.00221",
+ "title": "Policy Learning for Optimal Dynamic Treatment Regimes with Observational Data",
+ "authors": [
+  "Shosei Sakaguchi"
+ ],
+ "v1_date": "2024-03-30",
+ "latest_version": 7,
+ "latest_date": "2025-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Public policies and medical interventions often involve dynamic treatment assignments, in which individuals receive a sequence of interventions over multiple stages. We study the statistical learning of optimal dynamic treatment regimes (DTRs) that determine the optimal treatment assignment for each individual at each stage based on their evolving history. We propose a novel, doubly robust, classification-based method for learning the optimal DTR from observational data under the sequential ignorability assumption. The method proceeds via backward induction: at each stage, it constructs and maximizes an augmented inverse probability weighting (AIPW) estimator of the policy value function to learn the optimal stage-specific policy. We show that the resulting DTR achieves an optimal convergence rate of $n^{-1/2}$ for welfare regret under mild convergence conditions on estimators of the nuisance components.",
+ "primary": "stat.ME"
+}

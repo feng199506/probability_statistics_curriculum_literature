@@ -1,0 +1,18 @@
+{
+ "id": "2605.30674",
+ "title": "Spectral subsampling MCMC for Lévy-driven continuous-time ARMA models with expensive likelihood contributions",
+ "authors": [
+  "Thomas Goodwin",
+  "Matias Quiroz",
+  "Robert Kohn",
+  "Feng Li"
+ ],
+ "v1_date": "2026-05-29",
+ "latest_version": 1,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Subsampling-based Markov chain Monte Carlo (MCMC) algorithms aim to accelerate Bayesian inference by evaluating the likelihood using only a subset of the data at each iteration. However, in many standard tall-data applications, individual likelihood contributions are inexpensive to evaluate and the resulting reductions in actual computing time are often substantially smaller than the nominal reduction in data size due to computational overhead. We study a different computational regime arising in frequency-domain inference for continuous-time processes observed at equally spaced discrete time points. This gives rise to aliasing, whereby each contribution to the Whittle likelihood requires summation over shifted frequency components, unlike standard discrete-time spectral settings where spectral evaluations do not require such summation. We demonstrate that this structure makes subsampling MCMC, a subsampling-based MCMC approach that estimates the log-likelihood using data subsampling and efficient control variates, particularly effective for reducing computational cost. We illustrate the approach for Bayesian frequency-domain inference in discretely observed continuous-time autoregressive moving average models driven by finite second-moment Lévy processes.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2601.13419",
+ "title": "Pathway-based Bayesian factor models for 'omics data",
+ "authors": [
+  "Lorenzo Mauri",
+  "Federica Stolf",
+  "Amy H. Herring",
+  "Cameron Miller",
+  "David B. Dunson"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 2,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Interpreting RNA-sequencing data requires identifying coordinated gene expression patterns that correspond to biological pathways. Standard factor models provide useful dimension reduction but typically ignore existing pathway knowledge or incorporate it through restrictive assumptions, limiting interpretability, and reproducibility. Here, we develop Bayesian Analysis with gene-Sets Informed Latent space (BASIL), a scalable framework for analyzing transcriptomic data that integrates annotated gene sets into latent variable inference. BASIL places structured priors on factor loadings, shrinking them toward combinations of annotated gene sets, enhancing biological interpretability and stability, while simultaneously learning new unstructured components. BASIL provides accurate covariance estimates and uncertainty quantification, without resorting to computationally expensive Markov chain Monte Carlo sampling, by exploiting a pre-training approach that pre-estimates the latent factors. An automatic empirical Bayes procedure eliminates the need for manual hyperparameter tuning, promoting reproducibility and usability in practice. Applying BASIL to the global fever transcriptomic cohort uncovers interpretable host-response modules, with phosphoinositide signaling and interferon-driven inflammation emerging as key drivers of gene-expression variability.",
+ "primary": "stat.ME"
+}

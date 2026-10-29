@@ -1,0 +1,17 @@
+{
+ "id": "2610.26420",
+ "title": "A Deep Backward Scheme for Reflected BSDEs via Penalization : Approximation and Convergence Analysis",
+ "authors": [
+  "E. H. Essaky",
+  "M. A. Jalal",
+  "Y. Ouknine"
+ ],
+ "v1_date": "2026-10-19",
+ "latest_version": 1,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 13 figures",
+ "abstract": "We propose and analyze a deep backward numerical scheme for Markovian reflected backward stochastic differential equations with a generator independent of the control variable, based on the penalization method. The reflection constraint is replaced by penalized BSDEs, which are approximated backward in time by neural networks, with particular attention to the dependence of the errors on the penalization parameter \\(λ\\). We derive quantitative error estimates for both the value process \\(Y\\) and the control process \\(Z\\). A key ingredient is an \\(L^2\\)-regularity estimate for the control component with explicit dependence on \\(λ\\). Exploiting the monotonicity of the penalization term, we obtain stability estimates uniform in \\(λ\\) and prove uniform spatial Lipschitz bounds for both the penalized value functions and the discrete backward targets. Consequently, the GroupSort Lipschitz constraints and the associated neural-network approximation error can be controlled uniformly in \\(λ\\). The global analysis separates penalization, time-discretization, forward, and neural-network approximation errors. Balancing the dominant terms yields a mean-square error of order \\(O(|π|^{1/3})\\) for the value component, together with a corresponding estimate for a post-training reconstruction of \\(Z\\). Numerical experiments with an explicit reflected BSDE and American option problems illustrate the scheme on one-dimensional and structured high-dimensional benchmarks.",
+ "primary": "math.PR"
+}

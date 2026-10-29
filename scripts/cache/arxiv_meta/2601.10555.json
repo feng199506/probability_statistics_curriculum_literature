@@ -1,0 +1,15 @@
+{
+ "id": "2601.10555",
+ "title": "causalfe: Causal Forests with Fixed Effects in Python",
+ "authors": [
+  "Harry Aytug"
+ ],
+ "v1_date": "2026-01-15",
+ "latest_version": 1,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The causalfe package provides a Python implementation of Causal Forests with Fixed Effects (CFFE) for estimating heterogeneous treatment effects in panel data settings. Standard causal forest methods struggle with panel data because unit and time fixed effects induce spurious heterogeneity in treatment effect estimates. The CFFE approach addresses this by performing node-level residualization during tree construction, removing fixed effects within each candidate split rather than globally. This paper describes the methodology, documents the software interface, and demonstrates the package through simulation studies that validate the estimator's performance under various data generating processes.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2512.16231",
+ "title": "An Efficient Framework for Robust Sample Size Determination",
+ "authors": [
+  "Luke Hagar",
+  "Andrew J. Martin"
+ ],
+ "v1_date": "2025-12-18",
+ "latest_version": 1,
+ "latest_date": "2025-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many settings, robust data analysis involves computational methods for uncertainty quantification and statistical inference. To design frequentist studies that leverage robust analysis methods, suitable sample sizes to achieve desired power are often found by estimating sampling distributions of p-values via intensive simulation. Moreover, most sample size recommendations rely heavily on assumptions about a single data-generating process. Consequently, robustness in data analysis does not by itself imply robustness in study design, as examining sample size sensitivity to data-generating assumptions typically requires further simulations. We propose an economical alternative for determining sample sizes that are robust to multiple data-generating mechanisms. Applying our theoretical results that model p-values as a function of the sample size, we assess power across the sample size space using simulations conducted at only two sample sizes for each data-generating mechanism. We demonstrate the broad applicability of our methodology to study design based on M-estimators in both experimental and observational settings through a varied set of clinical examples.",
+ "primary": "stat.ME"
+}

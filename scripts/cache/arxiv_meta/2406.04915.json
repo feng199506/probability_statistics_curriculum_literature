@@ -1,0 +1,20 @@
+{
+ "id": "2406.04915",
+ "title": "Bayesian inference of Latent Spectral Shapes",
+ "authors": [
+  "Hiu Ching Yip",
+  "Daria Valente",
+  "Enrico Bibbona",
+  "Olivier Friard",
+  "Gianluca Mastrantonio",
+  "Marco Gamba"
+ ],
+ "v1_date": "2024-06-07",
+ "latest_version": 1,
+ "latest_date": "2024-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 11 figures",
+ "abstract": "This paper proposes a hierarchical spatial-temporal model for modelling the spectrograms of animal calls. The motivation stems from analyzing recordings of the so-called grunt calls emitted by various lemur species. Our goal is to identify a latent spectral shape that characterizes each species and facilitates measuring dissimilarities between them. The model addresses the synchronization of animal vocalizations, due to varying time-lengths and speeds, with non-stationary temporal patterns and accounts for periodic sampling artifacts produced by the time discretization of analog signals. The former is achieved through a synchronization function, and the latter is modeled using a circular representation of time. To overcome the curse of dimensionality inherent in the model's implementation, we employ the Nearest Neighbor Gaussian Process, and posterior samples are obtained using the Markov Chain Monte Carlo method. We apply the model to a real dataset comprising sounds from 8 different species. We define a representative sound for each species and compare them using a simple distance measure. Cross-validation is used to evaluate the predictive capability of our proposal and explore special cases. Additionally, a simulation example is provided to demonstrate that the algorithm is capable of retrieving the true parameters.",
+ "primary": "stat.AP"
+}

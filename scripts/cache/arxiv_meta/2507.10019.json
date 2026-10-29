@@ -1,0 +1,15 @@
+{
+ "id": "2507.10019",
+ "title": "Sampling-Based Estimation of Jaccard Containment and Similarity",
+ "authors": [
+  "Pranav Joshi"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 3,
+ "latest_date": "2025-07-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the problem of estimating the containment and similarity between two sets using only random samples from each set, without relying on sketches of full sets. The study introduces a binomial model for predicting the overlap between samples, demonstrating that it is both accurate and practical when sample sizes are small compared to the original sets. The paper compares this model to previous approaches and shows that it provides better estimates under the considered conditions. It also analyzes the statistical properties of the estimator, including error bounds and sample size requirements needed to achieve a desired level of accuracy and confidence. The framework is extended to estimate set similarity, and the paper provides guidance for applying these methods in large scale data systems where only partial or sampled data is available.",
+ "primary": "stat.CO"
+}

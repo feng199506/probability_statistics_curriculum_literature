@@ -1,0 +1,18 @@
+{
+ "id": "2409.15511",
+ "title": "Bayesian computation with generative diffusion models by Multilevel Monte Carlo",
+ "authors": [
+  "Abdul-Lateef Haji-Ali",
+  "Marcelo Pereyra",
+  "Luke Shaw",
+  "Konstantinos Zygalakis"
+ ],
+ "v1_date": "2024-09-23",
+ "latest_version": 4,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 images",
+ "abstract": "Generative diffusion models have recently emerged as a powerful strategy to perform stochastic sampling in Bayesian inverse problems, delivering remarkably accurate solutions for a wide range of challenging applications. However, diffusion models often require a large number of neural function evaluations per sample in order to deliver accurate posterior samples. As a result, using diffusion models as stochastic samplers for Monte Carlo integration in Bayesian computation can be highly computationally expensive, particularly in applications that require a substantial number of Monte Carlo samples for conducting uncertainty quantification analyses. This cost is especially high in large-scale inverse problems such as computational imaging, which rely on large neural networks that are expensive to evaluate. With quantitative imaging applications in mind, this paper presents a Multilevel Monte Carlo strategy that significantly reduces the cost of Bayesian computation with diffusion models. This is achieved by exploiting cost-accuracy trade-offs inherent to diffusion models to carefully couple models of different levels of accuracy in a manner that significantly reduces the overall cost of the calculation, without reducing the final accuracy. The proposed approach achieves a $4\\times$-to-$8\\times$ reduction in computational cost w.r.t. standard techniques across three benchmark imaging problems.",
+ "primary": "stat.CO"
+}

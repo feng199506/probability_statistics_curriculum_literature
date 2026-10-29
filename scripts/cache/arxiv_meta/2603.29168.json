@@ -1,0 +1,16 @@
+{
+ "id": "2603.29168",
+ "title": "Linear models for causal inference under network interference",
+ "authors": [
+  "Eric Tong",
+  "Salvador V. Balkus"
+ ],
+ "v1_date": "2026-03-31",
+ "latest_version": 1,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 4 figures",
+ "abstract": "In causal inference, interference occurs when the treatment of one unit may affect the outcomes of other units. The goal of this work is to serve as a guide to the use of linear outcome modeling for estimating causal effects in settings where interference may pose a challenge to identification and estimation, such as spatial and network data. We demonstrate that, under a linear model, causal effects of binary and continuous treatments can be identified in terms of regression coefficients under totally and partially known interference structures. Our work constructs unbiased and consistent point and variance estimators for these effects under one or more possible fixed or random interference networks. A chief advantage is that this approach can be implemented using standard linear regression software, and is easily augmented with random effects and heteroscedastic or autocorrelation consistent standard errors. Numerical experiments and an example data analysis demonstrate the efficacy of this approach in eliminating interference bias.",
+ "primary": "stat.ME"
+}

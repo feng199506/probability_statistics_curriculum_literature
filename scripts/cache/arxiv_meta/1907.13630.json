@@ -1,0 +1,17 @@
+{
+ "id": "1907.13630",
+ "title": "Kernel Density Estimation for Undirected Dyadic Data",
+ "authors": [
+  "Bryan S. Graham",
+  "Fengshi Niu",
+  "James L. Powell"
+ ],
+ "v1_date": "2019-07-31",
+ "latest_version": 1,
+ "latest_date": "2019-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "We study nonparametric estimation of density functions for undirected dyadic random variables (i.e., random variables defined for all n\\overset{def}{\\equiv}\\tbinom{N}{2} unordered pairs of agents/nodes in a weighted network of order N). These random variables satisfy a local dependence property: any random variables in the network that share one or two indices may be dependent, while those sharing no indices in common are independent. In this setting, we show that density functions may be estimated by an application of the kernel estimation method of Rosenblatt (1956) and Parzen (1962). We suggest an estimate of their asymptotic variances inspired by a combination of (i) Newey's (1994) method of variance estimation for kernel estimators in the \"monadic\" setting and (ii) a variance estimator for the (estimated) density of a simple network first suggested by Holland and Leinhardt (1976). More unusual are the rates of convergence and asymptotic (normal) distributions of our dyadic density estimates. Specifically, we show that they converge at the same rate as the (unconditional) dyadic sample mean: the square root of the number, N, of nodes. This differs from the results for nonparametric estimation of densities and regression functions for monadic data, which generally have a slower rate of convergence than their corresponding sample mean.",
+ "primary": "math.ST"
+}

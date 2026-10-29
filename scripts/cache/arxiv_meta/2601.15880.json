@@ -1,0 +1,17 @@
+{
+ "id": "2601.15880",
+ "title": "Estimating conditional Mann-Whitney effects using pseudo-observation-based regression",
+ "authors": [
+  "Dennis Dobler",
+  "Alina Schenk",
+  "Matthias Schmid"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 3,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 10 figures, 7 tables",
+ "abstract": "The Mann-Whitney effect is an effect measure for the order of two sample-specific outcome variables. It has the interpretation of a probability and also a connection to the area under the ROC curve. In the literature it has been considered for both ordinal and right-censored time-to-event outcomes. For both cases, the present paper introduces a distribution-free regression model that relates the Mann-Whitney effect to a linear combination of covariates. To fit the model, we develop a pseudo-observation-based procedure yielding consistent and asymptotically normal coefficient estimates. In addition, we propose bootstrap-based hypothesis tests to infer the effects of the covariates on the Mann-Whitney effect. A simulation study on the small-sample behavior of the proposed method demonstrates that the novel hypothesis tests keep up with the z-test of a Cox regression model. The new methods are used to analyze progression-free survival in breast cancer patients enrolled for the randomized phase III SUCCESS-A trial.",
+ "primary": "stat.ME"
+}

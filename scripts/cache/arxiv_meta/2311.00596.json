@@ -1,0 +1,16 @@
+{
+ "id": "2311.00596",
+ "title": "Evaluating Binary Outcome Classifiers Estimated from Survey Data",
+ "authors": [
+  "Adway S. Wadekar",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 4,
+ "latest_date": "2024-08-17",
+ "journal_ref": "Epidemiology (2024)",
+ "doi": "10.1097/ede.0000000000001776",
+ "comment": "The main document is 16 pages with a total of 2 figures",
+ "abstract": "Surveys are commonly used to facilitate research in epidemiology, health, and the social and behavioral sciences. Often, these surveys are not simple random samples, and respondents are given weights reflecting their probability of selection into the survey. It is well known that analysts can use these survey weights to produce unbiased estimates of population quantities like totals. In this article, we show that survey weights also can be beneficial for evaluating the quality of predictive models when splitting data into training and test sets. In particular, we characterize model assessment statistics, such as sensitivity and specificity, as finite population quantities, and compute survey-weighted estimates of these quantities with sample test data comprising a random subset of the original data.Using simulations with data from the National Survey on Drug Use and Health and the National Comorbidity Survey, we show that unweighted metrics estimated with sample test data can misrepresent population performance, but weighted metrics appropriately adjust for the complex sampling design. We also show that this conclusion holds for models trained using upsampling for mitigating class imbalance. The results suggest that weighted metrics should be used when evaluating performance on sample test data.",
+ "primary": "stat.ME"
+}

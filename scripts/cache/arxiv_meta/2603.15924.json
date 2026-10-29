@@ -1,0 +1,20 @@
+{
+ "id": "2603.15924",
+ "title": "Time Partitioning in Target Trial Emulation",
+ "authors": [
+  "Harold Tankpinou Zoumenou",
+  "Simon Ferreira",
+  "Charles Assaad",
+  "Nathanael Lapidus",
+  "Daria Bystrova",
+  "Benjamin Glemain"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 1,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In target trial emulation, time partitioning enables researchers to handle time-varying confounders and immortal time bias with appropriate methods. Based on two clinical scenarios, this study aimed to explore issues related to time partitioning and to provide guidance for trial emulation. After formalizing the research question within the framework of structural causal models, we show how a given time partitioning may be too fine or too coarse depending on the clinical context. When the partitioning is too fine, the dimensionality of the model is unnecessarily high. When the partitioning is too coarse, the resulting causal structure may hinder effect estimation. We also show that cloning-censoring-weighting may not be valid when treatment influences outcome within study periods, and we confirm this through simulations. In conclusion, we provide practical guidance for actively specifying an appropriate time partitioning in trial emulation, rather than using the available data resolution as a default.",
+ "primary": "stat.ME"
+}

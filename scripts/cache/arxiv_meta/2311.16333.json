@@ -1,0 +1,17 @@
+{
+ "id": "2311.16333",
+ "title": "From Reactive to Proactive Volatility Modeling with Hemisphere Neural Networks",
+ "authors": [
+  "Philippe Goulet Coulombe",
+  "Mikael Frenette",
+  "Karin Klieber"
+ ],
+ "v1_date": "2023-11-27",
+ "latest_version": 2,
+ "latest_date": "2024-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We reinvigorate maximum likelihood estimation (MLE) for macroeconomic density forecasting through a novel neural network architecture with dedicated mean and variance hemispheres. Our architecture features several key ingredients making MLE work in this context. First, the hemispheres share a common core at the entrance of the network which accommodates for various forms of time variation in the error variance. Second, we introduce a volatility emphasis constraint that breaks mean/variance indeterminacy in this class of overparametrized nonlinear models. Third, we conduct a blocked out-of-bag reality check to curb overfitting in both conditional moments. Fourth, the algorithm utilizes standard deep learning software and thus handles large data sets - both computationally and statistically. Ergo, our Hemisphere Neural Network (HNN) provides proactive volatility forecasts based on leading indicators when it can, and reactive volatility based on the magnitude of previous prediction errors when it must. We evaluate point and density forecasts with an extensive out-of-sample experiment and benchmark against a suite of models ranging from classics to more modern machine learning-based offerings. In all cases, HNN fares well by consistently providing accurate mean/variance forecasts for all targets and horizons. Studying the resulting volatility paths reveals its versatility, while probabilistic forecasting evaluation metrics showcase its enviable reliability. Finally, we also demonstrate how this machinery can be merged with other structured deep learning models by revisiting Goulet Coulombe (2022)'s Neural Phillips Curve.",
+ "primary": "econ.EM"
+}

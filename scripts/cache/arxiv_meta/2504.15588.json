@@ -1,0 +1,16 @@
+{
+ "id": "2504.15588",
+ "title": "Bayesian Parameter Estimation for Partially Observed McKean-Vlasov Diffusions Using Multilevel Markov chain Monte Carlo",
+ "authors": [
+  "Ajay Jasra",
+  "Amin Wu"
+ ],
+ "v1_date": "2025-04-22",
+ "latest_version": 1,
+ "latest_date": "2025-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this article we consider Bayesian estimation of static parameters for a class of partially observed McKean-Vlasov diffusion processes with discrete-time observations over a fixed time interval. This problem features several obstacles to its solution, which include that the posterior density is numerically intractable in continuous-time, even if the transition probabilities are available and even when one uses a time-discretization, the posterior still cannot be used by adopting well-known computational methods such as Markov chain Monte Carlo (MCMC). In this paper we provide a solution to this problem by using new MCMC algorithms which can solve the afore-mentioned issues. This MCMC algorithm is extended to use multilevel Monte Carlo (MLMC) methods. We prove convergence bounds on our parameter estimators and show that the MLMC-based MCMC algorithm reduces the computational cost to achieve a mean square error versus ordinary MCMC by an order of magnitude. We numerically illustrate our results on two models.",
+ "primary": "stat.CO"
+}

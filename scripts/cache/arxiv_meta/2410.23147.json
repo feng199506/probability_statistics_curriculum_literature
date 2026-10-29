@@ -1,0 +1,16 @@
+{
+ "id": "2410.23147",
+ "title": "FoLDTree: A ULDA-Based Decision Tree Framework for Efficient Oblique Splits and Feature Selection",
+ "authors": [
+  "Siyu Wang",
+  "Kehui Yao"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 2,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional decision trees are limited by axis-orthogonal splits, which can perform poorly when true decision boundaries are oblique. While oblique decision tree methods address this limitation, they often face high computational costs, difficulties with multi-class classification, and a lack of effective feature selection. In this paper, we introduce LDATree and FoLDTree, two novel frameworks that integrate Uncorrelated Linear Discriminant Analysis (ULDA) and Forward ULDA into a decision tree structure. These methods enable efficient oblique splits, handle missing values, support feature selection, and provide both class labels and probabilities as model outputs. Through evaluations on simulated and real-world datasets, LDATree and FoLDTree consistently outperform axis-orthogonal and other oblique decision tree methods, achieving accuracy levels comparable to the random forest. The results highlight the potential of these frameworks as robust alternatives to traditional single-tree methods.",
+ "primary": "cs.LG"
+}

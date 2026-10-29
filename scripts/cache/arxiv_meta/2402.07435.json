@@ -1,0 +1,15 @@
+{
+ "id": "2402.07435",
+ "title": "Analyzing Currency Fluctuations: A Comparative Study of GARCH, EWMA, and IV Models for GBP/USD and EUR/GBP Pairs",
+ "authors": [
+  "Narayan Tondapu"
+ ],
+ "v1_date": "2024-02-12",
+ "latest_version": 1,
+ "latest_date": "2024-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this study, we examine the fluctuation in the value of the Great Britain Pound (GBP). We focus particularly on its relationship with the United States Dollar (USD) and the Euro (EUR) currency pairs. Utilizing data from June 15, 2018, to June 15, 2023, we apply various mathematical models to assess their effectiveness in predicting the 20-day variation in the pairs' daily returns. Our analysis involves the implementation of Exponentially Weighted Moving Average (EWMA), Generalized Autoregressive Conditional Heteroskedasticity (GARCH) models, and Implied Volatility (IV) models. To evaluate their performance, we compare the accuracy of their predictions using Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) metrics. We delve into the intricacies of GARCH models, examining their statistical characteristics when applied to the provided dataset. Our findings suggest the existence of asymmetric returns in the EUR/GBP pair, while such evidence is inconclusive for the GBP/USD pair. Additionally, we observe that GARCH-type models better fit the data when assuming residuals follow a standard t-distribution rather than a standard normal distribution. Furthermore, we investigate the efficacy of different forecasting techniques within GARCH-type models. Comparing rolling window forecasts to expanding window forecasts, we find no definitive superiority in either approach across the tested scenarios. Our experiments reveal that for the GBP/USD pair, the most accurate volatility forecasts stem from the utilization of GARCH models employing a rolling window methodology. Conversely, for the EUR/GBP pair, optimal forecasts are derived from GARCH models and Ordinary Least Squares (OLS) models incorporating the annualized implied volatility of the exchange rate as an independent variable.",
+ "primary": "q-fin.ST"
+}

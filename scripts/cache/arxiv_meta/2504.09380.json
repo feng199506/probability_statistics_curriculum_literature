@@ -1,0 +1,17 @@
+{
+ "id": "2504.09380",
+ "title": "Unified GARCH-Recurrent Neural Network in Financial Volatility Forecasting",
+ "authors": [
+  "Jingyi Wei",
+  "Steve Yang",
+  "Zhenyu Cui"
+ ],
+ "v1_date": "2025-04-13",
+ "latest_version": 2,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this study, we develop a unified volatility modeling framework that embeds GARCH dynamics directly within recurrent neural networks. We propose two interpretable hybrid architectures, GARCH-GRU and GARCH-LSTM, that integrate the GARCH(1,1) volatility update into the multiplicative gating structure of GRU and LSTM cells. This unified design preserves economically meaningful GARCH parameters while enabling the networks to learn nonlinear temporal dependencies in financial time series. Comprehensive out-of-sample evaluations across major U.S. equity indices show that both models consistently outperform classical GARCH specifications, pipeline-style hybrids, and neural baselines such as the Transformer across multiple metrics (MSE, MAE, SMAPE, and out-of-sample R\\textsuperscript{2}). Within this family, the GARCH-GRU achieves the strongest accuracy-efficiency tradeoff, training nearly three times faster than GARCH-LSTM while maintaining comparable or superior forecasting accuracy under normal market conditions and delivering stable and economically plausible parameter estimates. The advantages persist during extreme market turbulence. In the COVID-19 stress period, both architectures retain superior forecasting accuracy and deliver well-calibrated 99 percent Value-at-Risk forecasts, achieving lower violation ratios and competitive Pinball losses relative to all benchmarks. Overall, the findings underscore the effectiveness of embedding GARCH dynamics within recurrent neural architectures, yielding models that are accurate, efficient, interpretable, and robust for real-world risk-aware volatility forecasting.",
+ "primary": "q-fin.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2512.18143",
+ "title": "Efficient Bayesian inference for two-stage models in environmental epidemiology",
+ "authors": [
+  "Konstantin Larin",
+  "Daniel R. Kowal"
+ ],
+ "v1_date": "2025-12-19",
+ "latest_version": 1,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages (main text only), 9 Figures",
+ "abstract": "Statistical models often require inputs that are not completely known. This can occur when inputs are measured with error, indirectly, or when they are predicted using another model. In environmental epidemiology, air pollution exposure is a key determinant of health, yet typically must be estimated for each observational unit by a complex model. Bayesian two-stage models combine this stage-one model with a stage-two model for the health outcome given the exposure. However, analysts usually only have access to the stage-one model output without all of its specifications or input data, making joint Bayesian inference apparently intractable. We show that two prominent workarounds-using a point estimate or using the posterior from the stage-one model without feedback from the stage-two model-lead to miscalibrated inference. Instead, we propose efficient algorithms to facilitate joint Bayesian inference and provide more accurate estimates and well-calibrated uncertainties. Comparing different approaches, we investigate the association between PM2.5 exposure and county-level mortality rates in the South-Central USA.",
+ "primary": "stat.ME"
+}

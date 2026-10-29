@@ -1,0 +1,15 @@
+{
+ "id": "1806.00690",
+ "title": "Fast Exact Univariate Kernel Density Estimation",
+ "authors": [
+  "David P. Hofmeyr"
+ ],
+ "v1_date": "2018-06-02",
+ "latest_version": 3,
+ "latest_date": "2019-11-09",
+ "journal_ref": "",
+ "doi": "10.1109/tpami.2019.2930501",
+ "comment": "A vastly extended paper has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence",
+ "abstract": "This paper presents new methodology for computationally efficient kernel density estimation. It is shown that a large class of kernels allows for exact evaluation of the density estimates using simple recursions. The same methodology can be used to compute density derivative estimates exactly. Given an ordered sample the computational complexity is linear in the sample size. Combining the proposed methodology with existing approximation methods results in extremely fast density estimation. Extensive experimentation documents the effectiveness and efficiency of this approach compared with the existing state-of-the-art.",
+ "primary": "stat.CO"
+}

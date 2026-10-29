@@ -1,0 +1,16 @@
+{
+ "id": "2511.06070",
+ "title": "Unifiedly Efficient Inference on All-Dimensional Targets for Large-Scale GLMs",
+ "authors": [
+  "Bo Fu",
+  "Dandan Jiang"
+ ],
+ "v1_date": "2025-11-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 1 figures",
+ "abstract": "The scalability of Generalized Linear Models (GLMs) for large-scale, high-dimensional data often forces a trade-off between computational feasibility and statistical accuracy, particularly for inference on pre-specified parameters. While subsampling methods mitigate computational costs, existing estimators are typically constrained by a suboptimal $r^{-1/2}$ convergence rate, where $r$ is the subsample size. This paper introduces a unified framework that systematically breaks this barrier, enabling efficient and precise inference regardless of the dimension of the target parameters. To overcome the accuracy loss and enhance computational efficiency, we propose three estimators tailored to different scenarios. For low-dimensional targets, we propose a de-variance subsampling (DVS) estimator that achieves a sharply improved convergence rate of $\\max\\{r^{-1}, n^{-1/2}\\}$, permitting valid inference even with very small subsamples. As $r$ grows, a multi-step refinement of our estimator is proven to be asymptotically normal and semiparametric efficient when $r/\\sqrt{n} \\to \\infty$, matching the performance of the full-sample estimator-a property confirmed by its Bahadur representation. Critically, we provide an improved principle to high-dimensional targets, developing a novel decorrelated score function that facilitates simultaneous inference for a diverging number of pre-specified parameters. Comprehensive numerical experiments demonstrate that our framework delivers a superior balance of computational efficiency and statistical accuracy across both low- and high-dimensional inferential tasks in large-scale GLM, thereby realizing the promise of unifiedly efficient inference for large-scale GLMs.",
+ "primary": "stat.ME"
+}

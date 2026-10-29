@@ -1,0 +1,16 @@
+{
+ "id": "2412.14942",
+ "title": "Robust modestly weighted log-rank tests",
+ "authors": [
+  "Dominic Magirr",
+  "Fredrik Öhrn"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 1,
+ "latest_date": "2024-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The introduction of checkpoint inhibitors in immuno-oncology has raised questions about the suitability of the log-rank test as the default primary analysis method in confirmatory studies, particularly when survival curves exhibit non-proportional hazards. The log-rank test, while effective in controlling false positive rates, may lose power in scenarios where survival curves remain similar for extended periods before diverging. To address this, various weighted versions of the log-rank test have been proposed, including the MaxCombo test, which combines multiple weighted log-rank statistics to enhance power across a range of alternative hypotheses. Despite its potential, the MaxCombo test has seen limited adoption, possibly owing to its proneness to produce counterintuitive results in situations where the hazard functions on the two arms cross. In response, the modestly weighted log-rank test was developed to provide a balanced approach, giving greater weight to later event times while avoiding undue influence from early detrimental effects. However, this test also faces limitations, particularly if the possibility of early separation of survival curves cannot be ruled out a priori. We propose a novel test statistic that integrates the strengths of the standard log-rank test, the modestly weighted log-rank test, and the MaxCombo test. By considering the maximum of the standard log-rank statistic and a modestly weighted log-rank statistic, the new test aims to maintain power under delayed effect scenarios while minimizing power loss, relative to the log-rank test, in worst-case scenarios. Simulation studies and a case study demonstrate the efficiency and robustness of this approach, highlighting its potential as a robust alternative for primary analysis in immuno-oncology trials.",
+ "primary": "stat.ME"
+}

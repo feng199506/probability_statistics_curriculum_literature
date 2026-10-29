@@ -1,0 +1,17 @@
+{
+ "id": "2510.22252",
+ "title": "Proximal Hamiltonian Monte Carlo",
+ "authors": [
+  "Apratim Shukla",
+  "Dootika Vats",
+  "Eric C. Chi"
+ ],
+ "v1_date": "2025-10-25",
+ "latest_version": 1,
+ "latest_date": "2025-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 5 figures",
+ "abstract": "Bayesian formulation of modern day signal processing problems has called for improved Markov chain Monte Carlo (MCMC) sampling algorithms for inference. The need for efficient sampling techniques has become indispensable for high dimensional distributions that often characterize many core signal processing problems, e.g., image denoising, sparse signal recovery, etc. A major issue in building effective sampling strategies, however, is the non-differentiability of the underlying posterior density. Such posteriors are popular in models designed to recover sparse signals. As a result, the use of efficient gradient-based MCMC sampling techniques becomes difficult. We circumvent this problem by proposing a Proximal Hamiltonian Monte Carlo (p-HMC) algorithm, which leverages elements from convex optimization like proximal mappings and Moreau-Yosida (MY) envelopes within Hamiltonian dynamics. Our method improves upon the current state of the art non-smooth Hamiltonian Monte Carlo as it achieves a relatively sharper approximation of the gradient of log posterior density and a computational burden of at most the current state-of-the-art. A chief contribution of this work is the theoretical analysis of p-HMC. We provide conditions for geometric ergodicity of the underlying HMC chain. On the practical front, we propose guidance on choosing the key p-HMC hyperparameter -- the regularization parameter in the MY-envelope. We demonstrate p-HMC's efficiency over other MCMC algorithms on benchmark problems of logistic regression and low-rank matrix estimation.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.14387",
+ "title": "Automatic Variance Adjustment for Small Area Estimation",
+ "authors": [
+  "Jon Wakefield",
+  "Jitong Jiang",
+  "Yunhan Wu"
+ ],
+ "v1_date": "2026-02-16",
+ "latest_version": 1,
+ "latest_date": "2026-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small area estimation (SAE) is a common endeavor and is used in a variety of disciplines. In low- and middle-income countries (LMICs), in which household surveys provide the most reliable and timely source of data, SAE is vital for highlighting disparities in health and demographic indicators. Weighted estimators are ideal for inference, but for fine geographical partitions in which there are insufficient data, SAE models are required. The most common approach is Fay-Herriot area-level modeling in which the data requirements are a weighted estimate and an associated variance estimate. The latter can be undefined or unstable when data are sparse and so we propose a principled modification which is based on augmenting the available data with a prior sample from a hypothetical survey. This adjustment is generally available, respects the design and is simple to implement. We examine the empirical properties of the adjustment through simulation and illustrate its use with wasting data from a 2018 Zambian Demographic and Health Survey. The modification is implemented as an automatic remedy in the R package surveyPrev, which provides a comprehensive suite of tools for conducing SAE in LMICs.",
+ "primary": "stat.ME"
+}

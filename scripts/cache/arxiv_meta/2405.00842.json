@@ -1,0 +1,18 @@
+{
+ "id": "2405.00842",
+ "title": "Quickest Change Detection with Confusing Change",
+ "authors": [
+  "Yu-Zhen Janice Chen",
+  "Jinhang Zuo",
+  "Venugopal V. Veeravalli",
+  "Don Towsley"
+ ],
+ "v1_date": "2024-05-01",
+ "latest_version": 1,
+ "latest_date": "2024-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the problem of quickest change detection (QCD), a change occurs at some unknown time in the distribution of a sequence of independent observations. This work studies a QCD problem where the change is either a bad change, which we aim to detect, or a confusing change, which is not of our interest. Our objective is to detect a bad change as quickly as possible while avoiding raising a false alarm for pre-change or a confusing change. We identify a specific set of pre-change, bad change, and confusing change distributions that pose challenges beyond the capabilities of standard Cumulative Sum (CuSum) procedures. Proposing novel CuSum-based detection procedures, S-CuSum and J-CuSum, leveraging two CuSum statistics, we offer solutions applicable across all kinds of pre-change, bad change, and confusing change distributions. For both S-CuSum and J-CuSum, we provide analytical performance guarantees and validate them by numerical results. Furthermore, both procedures are computationally efficient as they only require simple recursive updates.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2608.20286",
+ "title": "Fast high-dimensional mean testing via logistic regression",
+ "authors": [
+  "Sayan Das",
+  "Debraj Das",
+  "Subhajit Dutta"
+ ],
+ "v1_date": "2026-08-20",
+ "latest_version": 1,
+ "latest_date": "2026-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose computationally efficient tests for equality of mean vectors of two or more high-dimensional populations. Central to our approach is an equivalence between equality of means and a zero population logistic regression parameter. We establish this equivalence for independently distributed observations without imposing common distributional assumptions across populations. Our procedure uses logistic Lasso to screen informative variables and an unpenalized logistic refit for inference in the reduced dimension, yielding asymptotically correct size and consistency. For a specified two-sample Gaussian submodel and sparse discriminative class, the test also attains the minimax separation rate. The framework extends to multiple populations through multi-class logistic regression. Simulations demonstrate accurate size control, strong power, and favorable computational scaling compared with existing tests under unbalanced designs and variance heterogeneity. Applications to gene-expression data with more than twenty-two thousand variables illustrate the practical scalability of the proposed procedures.",
+ "primary": "stat.ME"
+}

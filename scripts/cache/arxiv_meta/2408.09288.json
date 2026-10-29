@@ -1,0 +1,17 @@
+{
+ "id": "2408.09288",
+ "title": "ARMAr-LASSO: Mitigating the Impact of Predictor Serial Correlation on the LASSO",
+ "authors": [
+  "Simone Tonini",
+  "Francesca Chiaromonte",
+  "Alessandro Giovannelli"
+ ],
+ "v1_date": "2024-08-17",
+ "latest_version": 3,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "58 pages, 4 Figures, 3 Tables. arXiv admin note: substantial text overlap with arXiv:2208.00727",
+ "abstract": "We explore estimation and forecast accuracy for sparse linear models, focusing on scenarios where both predictors and errors carry serial correlations. We establish a clear link between predictor serial correlation and the performance of the LASSO, showing that even orthogonal or weakly correlated stationary AR processes can lead to significant spurious correlations due to their serial correlations. To address this challenge, we propose a novel approach named ARMAr-LASSO ({\\em ARMA residuals LASSO}), which applies the LASSO to predictors that have been pre-whitened with ARMA filters and lags of dependent variable. We derive both asymptotic results and oracle inequalities for the ARMAr-LASSO, demonstrating that it effectively reduces estimation errors while also providing an effective forecasting and feature selection strategy. Our findings are supported by extensive simulations and an application to real-world macroeconomic data, which highlight the superior performance of the ARMAr-LASSO for handling sparse linear models in the context of time series.",
+ "primary": "math.ST"
+}

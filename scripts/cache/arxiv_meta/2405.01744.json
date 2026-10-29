@@ -1,0 +1,19 @@
+{
+ "id": "2405.01744",
+ "title": "ALCM: Autonomous LLM-Augmented Causal Discovery Framework",
+ "authors": [
+  "Elahe Khatibi",
+  "Mahyar Abbasian",
+  "Zhongqi Yang",
+  "Iman Azimi",
+  "Amir M. Rahmani"
+ ],
+ "v1_date": "2024-05-02",
+ "latest_version": 2,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To perform effective causal inference in high-dimensional datasets, initiating the process with causal discovery is imperative, wherein a causal graph is generated based on observational data. However, obtaining a complete and accurate causal graph poses a formidable challenge, recognized as an NP- hard problem. Recently, the advent of Large Language Models (LLMs) has ushered in a new era, indicating their emergent capabilities and widespread applicability in facilitating causal reasoning across diverse domains, such as medicine, finance, and science. The expansive knowledge base of LLMs holds the potential to elevate the field of causal reasoning by offering interpretability, making inferences, generalizability, and uncovering novel causal structures. In this paper, we introduce a new framework, named Autonomous LLM-Augmented Causal Discovery Framework (ALCM), to synergize data-driven causal discovery algorithms and LLMs, automating the generation of a more resilient, accurate, and explicable causal graph. The ALCM consists of three integral components: causal structure learning, causal wrapper, and LLM-driven causal refiner. These components autonomously collaborate within a dynamic environment to address causal discovery questions and deliver plausible causal graphs. We evaluate the ALCM framework by implementing two demonstrations on seven well-known datasets. Experimental results demonstrate that ALCM outperforms existing LLM methods and conventional data-driven causal reasoning mechanisms. This study not only shows the effectiveness of the ALCM but also underscores new research directions in leveraging the causal reasoning capabilities of LLMs.",
+ "primary": "cs.LG"
+}

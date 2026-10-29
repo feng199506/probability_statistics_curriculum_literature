@@ -1,0 +1,16 @@
+{
+ "id": "2601.16865",
+ "title": "Distributional Instruments: Identification and Estimation with Quantile Least Squares",
+ "authors": [
+  "Rowan Cherodian",
+  "Guy Tchuente"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study instrumental-variable designs where policy reforms strongly shift the distribution of an endogenous variable but only weakly move its mean. We formalize this by introducing distributional relevance: instruments may be purely distributional. Within a triangular model, distributional relevance suffices for nonparametric identification of average structural effects via a control function. We then propose Quantile Least Squares (Q-LS), which aggregates conditional quantiles of X given Z into an optimal mean-square predictor and uses this projection as an instrument in a linear IV estimator. We establish consistency, asymptotic normality, and the validity of standard 2SLS variance formulas, and we discuss regularization across quantiles. Monte Carlo designs show that Q-LS delivers well-centered estimates and near-correct size when mean-based 2SLS suffers from weak instruments. In Health and Retirement Study data, Q-LS exploits Medicare Part D-induced distributional shifts in out-of-pocket risk to sharpen estimates of its effects on depression.",
+ "primary": "econ.EM"
+}

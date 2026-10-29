@@ -1,0 +1,17 @@
+{
+ "id": "2412.05673",
+ "title": "A generalized Bayesian approach for high-dimensional robust regression with serially correlated errors and predictors",
+ "authors": [
+  "Saptarshi Chakraborty",
+  "Kshitij Khare",
+  "George Michailidis"
+ ],
+ "v1_date": "2024-12-07",
+ "latest_version": 3,
+ "latest_date": "2025-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a loss-based generalized Bayesian methodology for high-dimensional robust regression with serially correlated errors and predictors. The proposed framework employs a novel scaled pseudo-Huber (SPH) loss function, which smooths the well-known Huber loss, effectively balancing quadratic ($\\ell_2$) and absolute linear ($\\ell_1$) loss behaviors. This flexibility enables the framework to accommodate both thin-tailed and heavy-tailed data efficiently. The generalized Bayesian approach constructs a working likelihood based on the SPH loss, facilitating efficient and stable estimation while providing rigorous uncertainty quantification for all model parameters. Notably, this approach allows formal statistical inference without requiring ad hoc tuning parameter selection while adaptively addressing a wide range of tail behavior in the errors. By specifying appropriate prior distributions for the regression coefficients--such as ridge priors for small or moderate-dimensional settings and spike-and-slab priors for high-dimensional settings--the framework ensures principled inference. We establish rigorous theoretical guarantees for accurate parameter estimation and correct predictor selection under sparsity assumptions for a wide range of data generating setups. Extensive simulation studies demonstrate the superior performance of our approach compared to traditional Bayesian regression methods based on $\\ell_2$ and $\\ell_1$-loss functions. The results highlight its flexibility and robustness, particularly in challenging high-dimensional settings characterized by data contamination.",
+ "primary": "stat.ME"
+}

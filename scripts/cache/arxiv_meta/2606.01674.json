@@ -1,0 +1,16 @@
+{
+ "id": "2606.01674",
+ "title": "Higher-Order Efficient Estimators: A Review and Simulation-Based Benchmark Study",
+ "authors": [
+  "Zeyi Wang",
+  "Mark J. van der Laan"
+ ],
+ "v1_date": "2026-06-01",
+ "latest_version": 1,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Higher-order efficient estimators extend standard first-order semiparametric estimators by replacing second-order residuals with third- or higher-order terms, potentially enabling asymptotic efficiency under slower nuisance function convergence rates and improving finite-sample performance. Existing methods achieve higher-order expansions through structurally different approximation strategies, including basis truncation, kernel smoothing, and highly adaptive lasso (HAL) representations, making direct theoretical and practical comparison difficult. In this manuscript, we provide a focused review and a simulation-based empirical benchmark for second-order efficient estimators, using treatment-specific mean estimation as a canonical causal inference and missing data problem. We compare how higher-order influence function (HOIF) estimators, kernel-based higher-order targeted minimum loss-based estimator (HOTMLE), and HAL-based HOTMLE construct higher-order expansions and the approximation or regularization burdens they introduce. The asymptotic and numerical study evaluates first-order and empirical second-order estimators under controlled nuisance errors with constant or increasing sectional variation complexity. Results show that higher-order debiasing can substantially reduce first-order estimation bias; however, gains depend strongly on stability of the approximation or regularization required for higher-order correction. Empirical HAL-based HOTMLE shows relatively stable performance, while empirical HOIF remains sensitive to basis truncation and tuning choices. Overall, this manuscript clarifies when higher-order asymptotic improvements are attained in theory, when they may be practically visible, and when implementation instability may offset theoretical advantages.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2602.21478",
+ "title": "Efficient Inference after Directionally Stable Adaptive Experiments",
+ "authors": [
+  "Zikai Shen",
+  "Houssam Zenati",
+  "Nathan Kallus",
+  "Arthur Gretton",
+  "Koulik Khamaru",
+  "Aurélien Bibaut"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 1,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages",
+ "abstract": "We study inference on scalar-valued pathwise differentiable targets after adaptive data collection, such as a bandit algorithm. We introduce a novel target-specific condition, directional stability, which is strictly weaker than previously imposed target-agnostic stability conditions. Under directional stability, we show that estimators that would have been efficient under i.i.d. data remain asymptotically normal and semiparametrically efficient when computed from adaptively collected trajectories. The canonical gradient has a martingale form, and directional stability guarantees stabilization of its predictable quadratic variation, enabling high-dimensional asymptotic normality. We characterize efficiency using a convolution theorem for the adaptive-data setting, and give a condition under which the one-step estimator attains the efficiency bound. We verify directional stability for LinUCB, yielding the first semiparametric efficiency guarantee for a regular scalar target under LinUCB sampling.",
+ "primary": "stat.ML"
+}

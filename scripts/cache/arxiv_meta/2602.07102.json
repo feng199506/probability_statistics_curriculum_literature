@@ -1,0 +1,18 @@
+{
+ "id": "2602.07102",
+ "title": "Fast and Robust Likelihood-Guided Diffusion Posterior Sampling with Amortized Variational Inference",
+ "authors": [
+  "Léon Zheng",
+  "Thomas Hirtz",
+  "Yazid Janati",
+  "Eric Moulines"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Zero-shot diffusion posterior sampling offers a flexible framework for inverse problems by accommodating arbitrary degradation operators at test time, but incurs high computational cost due to repeated likelihood-guided updates. In contrast, previous amortized diffusion approaches enable fast inference by replacing likelihood-based sampling with implicit inference models, but at the expense of robustness to unseen degradations. We introduce an amortization strategy for diffusion posterior sampling that preserves explicit likelihood guidance by amortizing the inner optimization problems arising in variational diffusion posterior sampling. This accelerates inference for in-distribution degradations while maintaining robustness to previously unseen operators, thereby improving the trade-off between efficiency and flexibility in diffusion-based inverse problems.",
+ "primary": "stat.ML"
+}

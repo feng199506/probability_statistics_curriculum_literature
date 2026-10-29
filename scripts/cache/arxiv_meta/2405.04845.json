@@ -1,0 +1,15 @@
+{
+ "id": "2405.04845",
+ "title": "Weighted Particle-Based Optimization for Efficient Generalized Posterior Calibration",
+ "authors": [
+  "Masahiro Tanaka"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 4,
+ "latest_date": "2024-11-29",
+ "journal_ref": "Proceedings of the 7th International Conference on Data Science and Its Applications 2024 (ICoDSA), pp. 515-521",
+ "doi": "10.1109/icodsa62899.2024.10651910",
+ "comment": "",
+ "abstract": "In the realm of statistical learning, the increasing volume of accessible data and increasing model complexity necessitate robust methodologies. This paper explores two branches of robust Bayesian methods in response to this trend. The first is generalized Bayesian inference, which introduces a learning rate parameter to enhance robustness against model misspecifications. The second is Gibbs posterior inference, which formulates inferential problems using generic loss functions rather than probabilistic models. In such approaches, it is necessary to calibrate the spread of the posterior distribution by selecting a learning rate parameter. The study aims to enhance the generalized posterior calibration (GPC) algorithm proposed by [1]. Their algorithm chooses the learning rate to achieve the nominal frequentist coverage probability, but it is computationally intensive because it requires repeated posterior simulations for bootstrap samples. We propose a more efficient version of the GPC inspired by sequential Monte Carlo (SMC) samplers. A target distribution with a different learning rate is evaluated without posterior simulation as in the reweighting step in SMC sampling. Thus, the proposed algorithm can reach the desirable value within a few iterations. This improvement substantially reduces the computational cost of the GPC. Its efficacy is demonstrated through synthetic and real data applications.",
+ "primary": "stat.ME"
+}

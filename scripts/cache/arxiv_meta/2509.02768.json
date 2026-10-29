@@ -1,0 +1,16 @@
+{
+ "id": "2509.02768",
+ "title": "Sequential Change Detection with Differential Privacy",
+ "authors": [
+  "Liyan Xie",
+  "Ruizhi Zhang"
+ ],
+ "v1_date": "2025-09-02",
+ "latest_version": 2,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "10.1109/tit.2025.3644744",
+ "comment": "To be published in IEEE Transactions on Information Theory",
+ "abstract": "Sequential change detection is a fundamental problem in statistics and signal processing, with the CUSUM procedure widely used to achieve minimax detection delay under a prescribed false-alarm rate when pre- and post-change distributions are fully known. However, releasing CUSUM statistics and the corresponding stopping time directly can compromise individual data privacy. We therefore introduce a differentially private (DP) variant, called DP-CUSUM, that injects calibrated Laplace noise into both the vanilla CUSUM statistics and the detection threshold, preserving the recursive simplicity of the classical CUSUM statistics while ensuring per-sample differential privacy. We derive closed-form bounds on the average run length to false alarm and on the worst-case average detection delay, explicitly characterizing the trade-off among privacy level, false-alarm rate, and detection efficiency. Our theoretical results imply that under a weak privacy constraint, our proposed DP-CUSUM procedure achieves the same first-order asymptotic optimality as the classical, non-private CUSUM procedure. Numerical simulations are conducted to demonstrate the detection efficiency of our proposed DP-CUSUM under different privacy constraints, and the results are consistent with our theoretical findings.",
+ "primary": "math.ST"
+}

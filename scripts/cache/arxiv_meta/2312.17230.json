@@ -1,0 +1,18 @@
+{
+ "id": "2312.17230",
+ "title": "Fast Rerandomization via the BRAIN",
+ "authors": [
+  "Jiuyao Lu",
+  "Daogao Liu",
+  "Zhanran Lin",
+  "Xiaomeng Wang"
+ ],
+ "v1_date": "2023-12-28",
+ "latest_version": 2,
+ "latest_date": "2025-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized experiments are a crucial tool for causal inference in many different fields. Rerandomization addresses any covariate imbalance in such experiments by resampling treatment assignments until certain balance criteria are satisfied. However, rerandomization based on naïve acceptance-rejection sampling is computationally inefficient, especially when numerous independent assignments are required to perform randomization-based statistical inference. Existing acceleration methods are suboptimal and not applicable in structured experiments, including stratified and clustered experiments. Based on metaheuristics in integer programming, we propose BRAIN -- a novel computationally-lightweight methodology that ensures covariate balance in randomized experiments while significantly accelerating the computation. Our BRAIN method provides unbiased treatment effect estimators with reduced variance compared to complete randomization, preserving the desirable statistical properties of traditional rerandomization. Simulation studies and a real data example demonstrate the benefits of our method in fast sampling while retaining the appealing statistical guarantees.",
+ "primary": "stat.ME"
+}

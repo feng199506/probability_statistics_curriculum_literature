@@ -1,0 +1,23 @@
+{
+ "id": "2312.05757",
+ "title": "Towards Human-like Perception: Learning Structural Causal Model in Heterogeneous Graph",
+ "authors": [
+  "Tianqianjin Lin",
+  "Kaisong Song",
+  "Zhuoren Jiang",
+  "Yangyang Kang",
+  "Weikang Yuan",
+  "Xurui Li",
+  "Changlong Sun",
+  "Cui Huang",
+  "Xiaozhong Liu"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 1,
+ "latest_date": "2023-12-10",
+ "journal_ref": "Information Processing & Management, 60 (2024) 1-21",
+ "doi": "10.1016/j.ipm.2023.103600",
+ "comment": "28 pages, 10 figures, 6 tables, accepted by Information Processing & Management",
+ "abstract": "Heterogeneous graph neural networks have become popular in various domains. However, their generalizability and interpretability are limited due to the discrepancy between their inherent inference flows and human reasoning logic or underlying causal relationships for the learning problem. This study introduces a novel solution, HG-SCM (Heterogeneous Graph as Structural Causal Model). It can mimic the human perception and decision process through two key steps: constructing intelligible variables based on semantics derived from the graph schema and automatically learning task-level causal relationships among these variables by incorporating advanced causal discovery techniques. We compared HG-SCM to seven state-of-the-art baseline models on three real-world datasets, under three distinct and ubiquitous out-of-distribution settings. HG-SCM achieved the highest average performance rank with minimal standard deviation, substantiating its effectiveness and superiority in terms of both predictive power and generalizability. Additionally, the visualization and analysis of the auto-learned causal diagrams for the three tasks aligned well with domain knowledge and human cognition, demonstrating prominent interpretability. HG-SCM's human-like nature and its enhanced generalizability and interpretability make it a promising solution for special scenarios where transparency and trustworthiness are paramount.",
+ "primary": "cs.LG"
+}

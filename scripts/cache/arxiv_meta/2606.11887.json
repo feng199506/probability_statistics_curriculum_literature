@@ -1,0 +1,16 @@
+{
+ "id": "2606.11887",
+ "title": "Model-based sparse mixed-type PCA",
+ "authors": [
+  "Lauri Heinonen",
+  "Joni Virta"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 1,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work presents a new method for principal component analysis (PCA) of a mixed-type data consisting of continuous, binary, integer-valued and positive continuous variables. The data are assumed to come from a probability model, where the parameters of the exponential family distributions are determined by a set of shared Gaussian latent variables. The proposed method, MTPCA, is based on estimating the covariance matrix of these latent mixtures through the method of moments. A way to sparsify the component loadings is presented and aligns with the classical theory of sparse PCA. We propose a strategy for estimating the principal component scores and discuss the choice of the latent dimension. The method's performance is studied with a simulated mixed-type data and we illustrate the model on the Zoo data set consisting of binary animal characteristics.",
+ "primary": "stat.ME"
+}

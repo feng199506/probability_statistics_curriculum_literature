@@ -1,0 +1,19 @@
+{
+ "id": "2410.13949",
+ "title": "Modeling Zero-Inflated Correlated Dental Data through Gaussian Copulas and Approximate Bayesian Computation",
+ "authors": [
+  "Anish Mukherjee",
+  "Jeremy T. Gaskins",
+  "Shoumi Sarkar",
+  "Steven Levy",
+  "Somnath Datta"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 2,
+ "latest_date": "2024-12-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a new longitudinal count data regression model that accounts for zero-inflation and spatio-temporal correlation across responses. This project is motivated by an analysis of Iowa Fluoride Study (IFS) data, a longitudinal cohort study with data on caries (cavity) experience scores measured for each tooth across five time points. To that end, we use a hurdle model for zero-inflation with two parts: the presence model indicating whether a count is non-zero through logistic regression and the severity model that considers the non-zero counts through a shifted Negative Binomial distribution allowing overdispersion. To incorporate dependence across measurement occasion and teeth, these marginal models are embedded within a Gaussian copula that introduces spatio-temporal correlations. A distinct advantage of this formulation is that it allows us to determine covariate effects with population-level (marginal) interpretations in contrast to mixed model choices. Standard Bayesian sampling from such a model is infeasible, so we use approximate Bayesian computing for inference. This approach is applied to the IFS data to gain insight into the risk factors for dental caries and the correlation structure across teeth and time.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2412.12967",
+ "title": "Neural Posterior Estimation for Stochastic Epidemic Modeling",
+ "authors": [
+  "Prayag Chatha",
+  "Fan Bu",
+  "Jeffrey Regier",
+  "Evan Snitkin",
+  "Jon Zelner"
+ ],
+ "v1_date": "2024-12-17",
+ "latest_version": 2,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 22 figures, preprint. To be published in the Annals of Applied Statistics",
+ "abstract": "Stochastic infectious disease models capture uncertainty in public health outcomes and have become increasingly popular in epidemiological practice. However, calibrating these models to observed data is challenging with existing methods for parameter estimation. Stochastic epidemic models are nonlinear dynamical systems with potentially large latent state spaces, resulting in computationally intractable likelihood densities. We develop an approach to calibrating complex epidemiological models to high-dimensional data using Neural Posterior Estimation, a novel technique for simulation-based inference. In NPE, a neural conditional density estimator trained on simulated data learns to \"invert\" a stochastic simulator, returning a parametric approximation to the posterior distribution. We introduce a stochastic, discrete-time Susceptible Infected (SI) model with heterogeneous transmission for healthcare-associated infections (HAIs). HAIs are a major burden on healthcare systems. They exhibit high rates of asymptotic carriage, making it difficult to estimate infection rates. Through extensive simulation experiments, we show that NPE produces accurate posterior estimates of infection rates with greater sample efficiency compared to Approximate Bayesian Computation (ABC). We then use NPE to fit our SI model to an outbreak of carbapenem-resistant Klebsiella pneumoniae in a long-term acute care facility, finding evidence of location-based heterogeneity in patient-to-patient transmission risk. We argue that our methodology can be fruitfully applied to a wide range of mechanistic transmission models and problems in the epidemiology of infectious disease.",
+ "primary": "stat.ME"
+}

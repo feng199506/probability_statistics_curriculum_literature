@@ -1,0 +1,19 @@
+{
+ "id": "2410.04438",
+ "title": "A Reflection on the Impact of Misspecifying Unidentifiable Causal Inference Models in Surrogate Endpoint Evaluation",
+ "authors": [
+  "Gokce Deliorman",
+  "Florian Stijven",
+  "Wim Van der Elst",
+  "Maria del Carmen Pardo",
+  "Ariel Alonso"
+ ],
+ "v1_date": "2024-10-06",
+ "latest_version": 1,
+ "latest_date": "2024-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Surrogate endpoints are often used in place of expensive, delayed, or rare true endpoints in clinical trials. However, regulatory authorities require thorough evaluation to accept these surrogate endpoints as reliable substitutes. One evaluation approach is the information-theoretic causal inference framework, which quantifies surrogacy using the individual causal association (ICA). Like most causal inference methods, this approach relies on models that are only partially identifiable. For continuous outcomes, a normal model is often used. Based on theoretical elements and a Monte Carlo procedure we studied the impact of model misspecification across two scenarios: 1) the true model is based on a multivariate t-distribution, and 2) the true model is based on a multivariate log-normal distribution. In the first scenario, the misspecification has a negligible impact on the results, while in the second, it has a significant impact when the misspecification is detectable using the observed data. Finally, we analyzed two data sets using the normal model and several D-vine copula models that were indistinguishable from the normal model based on the data at hand. We observed that the results may vary when different models are used.",
+ "primary": "stat.ME"
+}

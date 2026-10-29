@@ -1,0 +1,18 @@
+{
+ "id": "2402.02859",
+ "title": "Importance sampling for online variational learning",
+ "authors": [
+  "Mathis Chagneux",
+  "Pierre Gloaguen",
+  "Sylvain Le Corff",
+  "Jimmy Olsson"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 1,
+ "latest_date": "2024-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article addresses online variational estimation in state-space models. We focus on learning the smoothing distribution, i.e. the joint distribution of the latent states given the observations, using a variational approach together with Monte Carlo importance sampling. We propose an efficient algorithm for computing the gradient of the evidence lower bound (ELBO) in the context of streaming data, where observations arrive sequentially. Our contributions include a computationally efficient online ELBO estimator, demonstrated performance in offline and true online settings, and adaptability for computing general expectations under joint smoothing distributions.",
+ "primary": "stat.AP"
+}

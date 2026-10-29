@@ -1,0 +1,17 @@
+{
+ "id": "2409.12328",
+ "title": "SplitVAEs: Decentralized scenario generation from siloed data for stochastic optimization problems",
+ "authors": [
+  "H M Mohaimanul Islam",
+  "Huynh Q. N. Vo",
+  "Paritosh Ramanan"
+ ],
+ "v1_date": "2024-09-18",
+ "latest_version": 2,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "10.1109/bigdata62323.2024.10826070",
+ "comment": "This work has been published to the 2024 IEEE International Conference on Big Data",
+ "abstract": "Stochastic optimization problems in large-scale multi-stakeholder networked systems (e.g., power grids and supply chains) rely on data-driven scenarios to encapsulate complex spatiotemporal interdependencies. However, centralized aggregation of stakeholder data is challenging due to the existence of data silos resulting from computational and logistical bottlenecks. In this paper, we present SplitVAEs, a decentralized scenario generation framework that leverages variational autoencoders to generate high-quality scenarios without moving stakeholder data. With the help of experiments on distributed memory systems, we demonstrate the broad applicability of SplitVAEs in a variety of domain areas that are dominated by a large number of stakeholders. Our experiments indicate that SplitVAEs can learn spatial and temporal interdependencies in large-scale networks to generate scenarios that match the joint historical distribution of stakeholder data in a decentralized manner. Our experiments show that SplitVAEs deliver robust performance compared to centralized, state-of-the-art benchmark methods while significantly reducing data transmission costs, leading to a scalable, privacy-enhancing alternative to scenario generation.",
+ "primary": "cs.LG"
+}

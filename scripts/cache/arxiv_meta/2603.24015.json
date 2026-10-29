@@ -1,0 +1,16 @@
+{
+ "id": "2603.24015",
+ "title": "STAMP: A shot-type-aware areal multilevel Poisson model for league-wide comparison of basketball shot charts",
+ "authors": [
+  "Kazuhiro Yamada",
+  "Keisuke Fujii"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages",
+ "abstract": "Shooting location is a core indicator of offensive style in invasion sports. Existing basketball shot-chart analyses often use spatial information for descriptive visualization, location-based efficiency modeling, or clustering players into shooting archetypes, yet few studies provide a unified framework for fair comparison of shot-type-specific tendencies. We propose the shot-type-aware areal multilevel Poisson (STAMP) model, which jointly models team-level field-goal attempts across predefined court regions, seasons, and shot types using a Poisson likelihood with a possession-based exposure offset. The hierarchical random-effects structure combines team, area, team-area, and team-side random effects with shot-type-specific random slopes for key shot categories. We fit the model using approximate Bayesian inference via the Integrated Nested Laplace Approximation (INLA), enabling efficient analysis of more than $3\\times 10^{5}$ shots from two seasons of B.LEAGUE (the men's professional basketball league in Japan). The STAMP model achieves better out-of-sample predictive performance than simpler baselines, yielding interpretable relative-rate maps and left-right bias summaries. Case studies illustrate how the model reveals team-specific spatial tendencies for comparative analysis, and we discuss its limitations and potential extensions.",
+ "primary": "stat.ME"
+}

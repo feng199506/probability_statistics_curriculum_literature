@@ -1,0 +1,18 @@
+{
+ "id": "2509.08647",
+ "title": "Assessing Bias in the Variable Bandpass Periodic Block Bootstrap Method",
+ "authors": [
+  "Yanan Sun",
+  "Eric Rose",
+  "Kai Zhang",
+  "Edward Valachovic"
+ ],
+ "v1_date": "2025-09-10",
+ "latest_version": 2,
+ "latest_date": "2025-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 8 figures, 1 table",
+ "abstract": "The Variable Bandpass Periodic Block Bootstrap(VBPBB) is an innovative method for time series with periodically correlated(PC) components. This method applies bandpass filters to extract specific PC components from datasets, effectively eliminating unwanted interference such as noise. It then bootstraps the PC components, maintaining their correlation structure while resampling and enabling a clearer analysis of the estimation of the statistical properties of periodic patterns in time series data. While its efficiency has been demonstrated in environmental and epidemiological research, the theoretical properties of VBPBB, particularly regarding its bias of the estimated sampling distributions, remain unexamined. This study investigates issues regarding biases in VBPBB, including overall mean bias and pointwise mean bias, across a range of time series models of varying complexity, all of which exhibit periodic components. Using the R programming language, we simulate various PC time series and apply VBPBB to assess its bias under different conditions. Our findings provide key insights into the validity of VBPBB for periodic time series analysis and offer practical recommendations for its implementation, as well as directions for future theoretical advancements.",
+ "primary": "stat.ME"
+}

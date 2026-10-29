@@ -1,0 +1,17 @@
+{
+ "id": "2411.13763",
+ "title": "Active Subsampling for Measurement-Constrained M-Estimation of Individualized Thresholds with High-Dimensional Data",
+ "authors": [
+  "Jingyi Duan",
+  "Lehao Fu",
+  "Yang Ning"
+ ],
+ "v1_date": "2024-11-21",
+ "latest_version": 2,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Annals of Statistics, 2026",
+ "abstract": "Measurement-constrained problems frequently arise in modern applications such as electronic health record studies. In such problems, despite the availability of large datasets, collecting labeled data can be highly costly or time-consuming, allowing only a small portion of the data to be labeled within a given budget. This raises a critical question: which data points are most beneficial to label given the budget constraint? We study this question in the context of estimating an optimal individualized threshold under a measurement-constrained M-estimation framework. In particular, our goal is to estimate a high-dimensional parameter $θ$ in a linear threshold $θ^TZ$ for a continuous variable $X$ such that the discrepancy between whether $X$ exceeds the threshold $θ^TZ$ and a binary outcome $Y$ is minimized. In the measurement-constrained setting, we propose a novel $K$-step active subsampling algorithm to estimate $θ$, which iteratively samples the most informative observations in the dataset and solves a regularized M-estimator. Our theoretical analysis reveals a sharp phase transition phenomenon with respect to $β$, the smoothness of the conditional density of $X$ given $Y$ and $Z$. Please see the paper for the full abstract.",
+ "primary": "math.ST"
+}

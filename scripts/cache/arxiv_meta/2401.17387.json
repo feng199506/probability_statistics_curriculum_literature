@@ -1,0 +1,18 @@
+{
+ "id": "2401.17387",
+ "title": "Conditional forecasting of bus travel time and passenger occupancy with Bayesian Markov regime-switching vector autoregression",
+ "authors": [
+  "Xiaoxu Chen",
+  "Zhanhong Cheng",
+  "Alexandra M. Schmidt",
+  "Lijun Sun"
+ ],
+ "v1_date": "2024-01-30",
+ "latest_version": 1,
+ "latest_date": "2024-01-30",
+ "journal_ref": "Transportation Research Part B: Methodological (2024)",
+ "doi": "10.1016/j.trb.2024.103147",
+ "comment": "",
+ "abstract": "Accurately forecasting bus travel time and passenger occupancy with uncertainty is essential for both travelers and transit agencies/operators. However, existing approaches to forecasting bus travel time and passenger occupancy mainly rely on deterministic models, providing only point estimates. In this paper, we develop a Bayesian Markov regime-switching vector autoregressive model to jointly forecast both bus travel time and passenger occupancy with uncertainty. The proposed approach naturally captures the intricate interactions among adjacent buses and adapts to the multimodality and skewness of real-world bus travel time and passenger occupancy observations. We develop an efficient Markov chain Monte Carlo (MCMC) sampling algorithm to approximate the resultant joint posterior distribution of the parameter vector. With this framework, the estimation of downstream bus travel time and passenger occupancy is transformed into a multivariate time series forecasting problem conditional on partially observed outcomes. Experimental validation using real-world data demonstrates the superiority of our proposed model in terms of both predictive means and uncertainty quantification compared to the Bayesian Gaussian mixture model.",
+ "primary": "stat.AP"
+}

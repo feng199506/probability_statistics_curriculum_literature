@@ -1,0 +1,18 @@
+{
+ "id": "2404.13204",
+ "title": "Scalable Bayesian Image-on-Scalar Regression for Population-Scale Neuroimaging Data Analysis",
+ "authors": [
+  "Yuliang Xu",
+  "Timothy D. Johnson",
+  "Thomas E. Nichols",
+  "Jian Kang"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 3,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian Image-on-Scalar Regression (ISR) provides flexible, uncertainty-aware neuroimaging analysis. However, applying ISR to large-scale datasets such as the UK Biobank is challenging due to intensive computational demands and the need to handle subject-specific brain masks rather than a common mask. We propose a novel Bayesian ISR model that scales efficiently while accommodating these inconsistent masks. Our method leverages Gaussian process priors with salience area indicators and introduces a scalable posterior computation algorithm using stochastic gradient Langevin dynamics combined with memory mapping. This approach achieves linear scaling with subsample size and constrains memory usage to the batch size, facilitating direct spatial posterior inferences on brain activation regions. Simulation studies and analysis of UK Biobank task fMRI data (38,639 subjects; over 120,000 voxels per image) demonstrate a 4- to 11-fold speed increase and an 8-18% enhancement in statistical power compared to traditional Gibbs sampling with zero-imputation. Our analysis reveals a subregion of the amygdala where emotion-related brain activation decreases by approximately 58% between ages 50 and 60.",
+ "primary": "stat.AP"
+}

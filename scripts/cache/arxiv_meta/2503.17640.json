@@ -1,0 +1,16 @@
+{
+ "id": "2503.17640",
+ "title": "On the Hopf-Cole Transform for Control-affine Schrödinger Bridge",
+ "authors": [
+  "Alexis Teter",
+  "Abhishek Halder"
+ ],
+ "v1_date": "2025-03-22",
+ "latest_version": 1,
+ "latest_date": "2025-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The purpose of this note is to clarify the importance of the relation $\\boldsymbol{gg}^{\\top}\\propto \\boldsymbol{σσ}^{\\top}$ in solving control-affine Schrödinger bridge problems via the Hopf-Cole transform, where $\\boldsymbol{g},\\boldsymbolσ$ are the control and noise coefficients, respectively. We show that the Hopf-Cole transform applied to the conditions of optimality for generic control-affine Schrödinger bridge problems, i.e., without the assumption $\\boldsymbol{gg}^{\\top}\\propto\\boldsymbol{σσ}^{\\top}$, gives a pair of forward-backward PDEs that are neither linear nor equation-level decoupled. We explain how the resulting PDEs can be interpreted as nonlinear forward-backward advection-diffusion-reaction equations, where the nonlinearity stem from additional drift and reaction terms involving the gradient of the log-likelihood a.k.a. the score. These additional drift and reaction vanish when $\\boldsymbol{gg}^{\\top}\\propto\\boldsymbol{σσ}^{\\top}$, and the resulting boundary-coupled system of linear PDEs can then be solved by dynamic Sinkhorn recursions. A key takeaway of our work is that the numerical solution of the generic control-affine Schrödinger bridge requires further algorithmic development, possibly generalizing the dynamic Sinkhorn recursion or otherwise.",
+ "primary": "math.OC"
+}

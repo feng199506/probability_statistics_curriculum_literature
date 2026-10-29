@@ -1,0 +1,16 @@
+{
+ "id": "2412.14447",
+ "title": "Good Controls Gone Bad: Difference-in-Differences with Covariates",
+ "authors": [
+  "Sunny Karim",
+  "Matthew D. Webb"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 3,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Introduces Integrated Parallel Trends and updates the theoretical results, Monte Carlo simulations, and empirical analysis",
+ "abstract": "This paper introduces the common causality of covariates (CCC) assumption in difference-in-differences with covariates. This assumption stipulates that covariates must have common effects on untreated potential outcomes across regions and periods. We also introduce Integrated Parallel Trends, a weaker alternative to conditional parallel trends that does not require point-wise equality of trends across covariate values, and can accommodate CCC violations. Pre-trend diagnostics for integrated parallel trends may reveal plausibly parallel trends that are obscured under conventional conditional parallel trends diagnostics, thereby broadening the set of empirical settings in which credible DID identification may be possible. Furthermore, we propose a new estimator called the Integrated Difference-in-Differences (DID-INT) estimator, which can identify the ATT when integrated parallel trends holds and the CCC assumption is violated. The DID-INT estimator can also accommodate treatment-effect heterogeneity with respect to covariates and compositional changes, while avoiding forbidden comparisons in staggered adoption settings.",
+ "primary": "econ.EM"
+}

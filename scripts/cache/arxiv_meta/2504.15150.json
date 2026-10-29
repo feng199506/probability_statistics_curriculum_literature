@@ -1,0 +1,18 @@
+{
+ "id": "2504.15150",
+ "title": "Prevalence estimation in infectious diseases with imperfect tests: A comparison of Frequentist and Bayesian Logistic Regression methods with misclassification correction",
+ "authors": [
+  "Jorge Mario Estrada Alvarez",
+  "Henan F. Garcia",
+  "Miguel Ángel Montero-Alonso",
+  "Juan de Dios Luna del Castillo"
+ ],
+ "v1_date": "2025-04-18",
+ "latest_version": 1,
+ "latest_date": "2025-04-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 7 tables",
+ "abstract": "Accurate estimation of disease prevalence is essential for guiding public health strategies. Imperfect diagnostic tests can cause misclassification errors-false positives (FP) and false negatives (FN)-that may skew estimates if unaddressed. This study compared four statistical methods for estimating the prevalence of sexually transmitted infections (STIs) and associated factors, while correcting for misclassification. The methods were: (1) Standard Logistic Regression with external correction using known sensitivity and specificity; (2) the Liu et al. model, which jointly estimates FP and FN rates; (3) Bayesian Logistic Regression with external correction; and (4) a Bayesian model with internal correction using informative priors on diagnostic accuracy. Data came from 11,452 participants in a voluntary screening campaign for HIV, syphilis, and hepatitis B (2020-2024). Prevalence estimates and regression coefficients were compared across models using relative changes from crude estimates, confidence interval (CI) width, and coefficient variability. The Liu model produced higher prevalence estimates but had wider CIs and convergence issues in low-prevalence settings. The Bayesian model with internal correction gave intermediate estimates with the narrowest CIs and more stable intercepts, suggesting improved baseline prevalence estimation. Informative or weakly informative priors helped regularize estimates, especially in small-sample or rare-event contexts. Accounting for misclassification influenced both prevalence and covariate associations. While the Liu model offers theoretical strengths, its practical limitations in sparse data settings reduce its utility. Bayesian models with misclassification correction emerge as robust and flexible tools, particularly valuable in low-prevalence contexts where diagnostic uncertainty is high.",
+ "primary": "stat.ME"
+}

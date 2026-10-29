@@ -1,0 +1,20 @@
+{
+ "id": "2312.06547",
+ "title": "KF-PLS: Optimizing Kernel Partial Least-Squares (K-PLS) with Kernel Flows",
+ "authors": [
+  "Zina-Sabrina Duma",
+  "Jouni Susiluoto",
+  "Otto Lamminpää",
+  "Tuomas Sihvonen",
+  "Satu-Pia Reinikainen",
+  "Heikki Haario"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 1,
+ "latest_date": "2023-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Partial Least-Squares (PLS) Regression is a widely used tool in chemometrics for performing multivariate regression. PLS is a bi-linear method that has a limited capacity of modelling non-linear relations between the predictor variables and the response. Kernel PLS (K-PLS) has been introduced for modelling non-linear predictor-response relations. In K-PLS, the input data is mapped via a kernel function to a Reproducing Kernel Hilbert space (RKH), where the dependencies between the response and the input matrix are assumed to be linear. K-PLS is performed in the RKH space between the kernel matrix and the dependent variable. Most available studies use fixed kernel parameters. Only a few studies have been conducted on optimizing the kernel parameters for K-PLS. In this article, we propose a methodology for the kernel function optimization based on Kernel Flows (KF), a technique developed for Gaussian process regression (GPR). The results are illustrated with four case studies. The case studies represent both numerical examples and real data used in classification and regression tasks. K-PLS optimized with KF, called KF-PLS in this study, is shown to yield good results in all illustrated scenarios. The paper presents cross-validation studies and hyperparameter analysis of the KF methodology when applied to K-PLS.",
+ "primary": "stat.ME"
+}

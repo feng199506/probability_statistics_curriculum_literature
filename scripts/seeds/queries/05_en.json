@@ -1,0 +1,139 @@
+[
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\" OR ti:tutorial) AND abs:\"Markov chains\" AND cat:math.PR",
+  "subtopic": "马尔可夫链"
+ },
+ {
+  "q": "(ti:\"mixing time\" OR ti:\"mixing times\" OR ti:cutoff) AND cat:math.PR",
+  "subtopic": "混合时间"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:introduction OR ti:\"lecture notes\") AND abs:\"mixing times\"",
+  "subtopic": "混合时间"
+ },
+ {
+  "q": "(ti:\"point process\" OR ti:\"point processes\" OR ti:\"Poisson process\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:\"lecture notes\")",
+  "subtopic": "泊松与点过程"
+ },
+ {
+  "q": "(ti:\"Hawkes process\" OR ti:\"Hawkes processes\" OR ti:\"Cox process\" OR ti:\"determinantal point\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction)",
+  "subtopic": "泊松与点过程"
+ },
+ {
+  "q": "(ti:renewal OR ti:\"regenerative\") AND cat:math.PR",
+  "subtopic": "更新过程"
+ },
+ {
+  "q": "(ti:martingale OR ti:martingales) AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:tutorial)",
+  "subtopic": "鞅"
+ },
+ {
+  "q": "ti:martingale AND cat:math.PR AND (abs:\"optional stopping\" OR abs:\"convergence theorem\" OR abs:\"maximal inequality\")",
+  "subtopic": "鞅"
+ },
+ {
+  "q": "(ti:\"Brownian motion\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\" OR ti:primer)",
+  "subtopic": "布朗运动"
+ },
+ {
+  "q": "ti:\"Brownian motion\" AND cat:math.PR",
+  "subtopic": "布朗运动"
+ },
+ {
+  "q": "(ti:\"stationary process\" OR ti:\"stationary processes\" OR ti:\"stationary sequences\" OR ti:\"Gaussian processes\") AND cat:math.PR",
+  "subtopic": "平稳过程"
+ },
+ {
+  "q": "(ti:ergodic OR ti:ergodicity) AND (abs:\"Markov\" OR abs:\"stationary\") AND (ti:survey OR ti:introduction OR ti:review OR ti:tutorial OR ti:notes)",
+  "subtopic": "遍历性"
+ },
+ {
+  "q": "(ti:ergodicity OR ti:\"convergence to equilibrium\" OR ti:\"Lyapunov\") AND abs:\"Markov process\" AND cat:math.PR",
+  "subtopic": "遍历性"
+ },
+ {
+  "q": "(ti:queue OR ti:queueing OR ti:queues) AND (ti:survey OR ti:review OR ti:tutorial OR ti:introduction)",
+  "subtopic": "排队论"
+ },
+ {
+  "q": "(ti:queue OR ti:queueing) AND cat:math.PR AND (abs:\"heavy traffic\" OR abs:\"fluid limit\" OR abs:\"diffusion approximation\")",
+  "subtopic": "排队论"
+ },
+ {
+  "q": "(ti:\"continuous-time Markov\" OR ti:\"birth-death\" OR ti:\"jump process\" OR ti:\"branching process\" OR ti:\"branching processes\") AND (ti:survey OR ti:review OR ti:introduction OR ti:tutorial)",
+  "subtopic": "连续时间马尔可夫过程与分支过程"
+ },
+ {
+  "q": "(ti:\"random walk\" OR ti:\"random walks\") AND (ti:survey OR ti:introduction OR ti:review OR ti:\"lecture notes\")",
+  "subtopic": "随机游走"
+ },
+ {
+  "q": "(ti:\"Markov chain\" OR ti:\"Markov chains\") AND (abs:\"spectral gap\" OR abs:\"hitting time\" OR abs:\"total variation\") AND cat:math.PR",
+  "subtopic": "混合时间"
+ },
+ {
+  "q": "(ti:\"mixing times\" OR ti:\"Markov chains\" OR ti:\"point processes\" OR ti:\"Brownian motion\") AND (ti:survey OR ti:introduction OR ti:\"lecture notes\")",
+  "subtopic": "经典综述",
+  "old": true
+ },
+ {
+  "q": "co:\"lecture notes\" AND (abs:\"Markov chain\" OR abs:\"Markov chains\" OR abs:\"Markov process\" OR abs:martingale OR abs:\"Brownian motion\" OR abs:\"point process\" OR abs:queue OR abs:\"random walk\")",
+  "subtopic": "讲义总览"
+ },
+ {
+  "q": "(abs:\"Markov chain\" OR abs:\"Markov chains\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository OR abs:tutorial) AND cat:math.PR",
+  "subtopic": "马尔可夫链"
+ },
+ {
+  "q": "(abs:\"mixing time\" OR abs:cutoff OR abs:\"spectral gap\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "混合时间"
+ },
+ {
+  "q": "(abs:\"point process\" OR abs:\"point processes\" OR abs:\"Poisson process\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository OR abs:tutorial) AND (cat:math.PR OR cat:stat.ME OR cat:stat.TH)",
+  "subtopic": "泊松与点过程"
+ },
+ {
+  "q": "(abs:martingale OR abs:martingales) AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository OR abs:tutorial) AND (cat:math.PR OR cat:math.ST)",
+  "subtopic": "鞅"
+ },
+ {
+  "q": "(abs:\"Brownian motion\") AND (abs:\"these notes\" OR abs:survey OR abs:\"we review\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "布朗运动"
+ },
+ {
+  "q": "(abs:queue OR abs:queueing OR abs:\"queueing network\") AND (abs:survey OR abs:\"we review\" OR abs:tutorial OR abs:\"these notes\") AND (cat:math.PR OR cat:math.OC OR cat:cs.PF)",
+  "subtopic": "排队论"
+ },
+ {
+  "q": "(abs:ergodic OR abs:ergodicity OR abs:\"Harris recurrence\" OR abs:\"Lyapunov function\") AND abs:\"Markov\" AND (abs:survey OR abs:\"these notes\" OR abs:\"we review\" OR abs:expository OR abs:tutorial)",
+  "subtopic": "遍历性"
+ },
+ {
+  "q": "(abs:\"stationary process\" OR abs:\"stationary processes\" OR abs:\"Gaussian process\" OR abs:\"long-range dependence\") AND (abs:survey OR abs:\"we review\" OR abs:\"these notes\" OR abs:expository) AND cat:math.PR",
+  "subtopic": "平稳过程"
+ },
+ {
+  "q": "(abs:\"branching process\" OR abs:\"branching processes\" OR abs:\"Galton-Watson\" OR abs:\"random walk in random environment\") AND (abs:survey OR abs:\"we review\" OR abs:\"these notes\" OR abs:expository)",
+  "subtopic": "连续时间马尔可夫过程与分支过程"
+ },
+ {
+  "q": "(jr:\"Probability Surveys\" OR jr:\"Probab. Surv\") AND (abs:Markov OR abs:martingale OR abs:process)",
+  "subtopic": "综述总览"
+ },
+ {
+  "q": "(ti:\"Markov chain\" OR ti:\"Markov chains\" OR ti:\"random walk\") AND (ti:\"mixing\" OR ti:\"cutoff\" OR ti:\"hitting\" OR ti:\"cover time\") AND cat:math.PR",
+  "subtopic": "混合时间"
+ },
+ {
+  "q": "(ti:\"Hawkes process\" OR ti:\"Hawkes processes\") AND (cat:math.PR OR cat:stat.ME OR cat:stat.TH)",
+  "subtopic": "泊松与点过程"
+ },
+ {
+  "q": "(ti:\"Poisson process\" OR ti:\"Poisson processes\" OR ti:\"Poisson point process\") AND cat:math.PR",
+  "subtopic": "泊松与点过程"
+ },
+ {
+  "q": "(ti:\"birth-death\" OR ti:\"birth and death\" OR ti:\"continuous-time Markov chain\" OR ti:\"continuous-time Markov chains\") AND cat:math.PR",
+  "subtopic": "连续时间马尔可夫过程与分支过程"
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "id": "2311.09137",
+ "title": "Causal prediction models for medication safety monitoring: The diagnosis of vancomycin-induced acute kidney injury",
+ "authors": [
+  "Izak Yasrebi-de Kom",
+  "Joanna Klopotowska",
+  "Dave Dongelmans",
+  "Nicolette De Keizer",
+  "Kitty Jager",
+  "Ameen Abu-Hanna",
+  "Giovanni Cinà"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 1,
+ "latest_date": "2023-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended Abstract presented at Machine Learning for Health (ML4H) symposium 2023, December 10th, 2023, New Orleans, United States, 14 pages",
+ "abstract": "The current best practice approach for the retrospective diagnosis of adverse drug events (ADEs) in hospitalized patients relies on a full patient chart review and a formal causality assessment by multiple medical experts. This evaluation serves to qualitatively estimate the probability of causation (PC); the probability that a drug was a necessary cause of an adverse event. This practice is manual, resource intensive and prone to human biases, and may thus benefit from data-driven decision support. Here, we pioneer a causal modeling approach using observational data to estimate a lower bound of the PC (PC$_{low}$). This method includes two key causal inference components: (1) the target trial emulation framework and (2) estimation of individualized treatment effects using machine learning. We apply our method to the clinically relevant use-case of vancomycin-induced acute kidney injury in intensive care patients, and compare our causal model-based PC$_{low}$ estimates to qualitative estimates of the PC provided by a medical expert. Important limitations and potential improvements are discussed, and we conclude that future improved causal models could provide essential data-driven support for medication safety monitoring in hospitalized patients.",
+ "primary": "cs.LG"
+}

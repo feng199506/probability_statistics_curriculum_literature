@@ -1,0 +1,16 @@
+{
+ "id": "2410.15596",
+ "title": "Assessing mediation in cross-sectional stepped wedge cluster randomized trials",
+ "authors": [
+  "Zhiqiang Cao",
+  "Fan Li"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 3,
+ "latest_date": "2025-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mediation analysis has been comprehensively studied for independent data but relatively little work has been done for correlated data, especially for the increasingly adopted stepped wedge cluster randomized trials (SW-CRTs). Motivated by challenges in underlying the effect mechanisms in pragmatic and implementation science clinical trials, we develop new methods for mediation analysis in SW-CRTs. Specifically, based on a linear and generalized linear mixed models, we demonstrate how to estimate the natural indirect effect and mediation proportion in typical SW-CRTs with four data types, including both continuous and binary mediators and outcomes. Furthermore, to address the emerging challenges in exposure-time treatment effect heterogeneity, we derive the mediation expressions in SW-CRTs when the total effect varies as a function of the exposure time. The cluster jackknife approach is considered for inference across all data types and treatment effect structures. We conduct extensive simulations to evaluate the finite-sample performances of proposed mediation estimators and demonstrate the proposed approach in a real data example. A user-friendly R package mediateSWCRT has been developed to facilitate the practical implementation of the estimators.",
+ "primary": "stat.ME"
+}

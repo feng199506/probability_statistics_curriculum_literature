@@ -1,0 +1,17 @@
+{
+ "id": "2312.06204",
+ "title": "Multilayer Network Regression with Eigenvector Centrality and Community Structure",
+ "authors": [
+  "Zhuoye Han",
+  "Tiandong Wang",
+  "Zhiliang Ying"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 4,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the analysis of complex networks, centrality measures and community structures play pivotal roles. For multilayer networks, a critical challenge lies in effectively integrating information across diverse layers while accounting for the dependence structures both within and between layers. We propose an innovative two-stage regression model for multilayer networks, combining eigenvector centrality and network community structure within fourth-order tensor-like multilayer networks. We develop new community-based centrality measures, integrated into a regression framework. To address the inherent noise in network data, we conduct separate analyses of centrality measures with and without measurement errors and establish consistency for the least squares estimates in the regression model. The proposed methodology is applied to the world input-output dataset, investigating how input-output network data among different countries and industries influence the gross output of each industry.",
+ "primary": "stat.ME"
+}

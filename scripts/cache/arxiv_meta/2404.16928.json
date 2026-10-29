@@ -1,0 +1,15 @@
+{
+ "id": "2404.16928",
+ "title": "Notes on the Practical Application of Nested Sampling: MultiNest, (Non)convergence, and Rectification",
+ "authors": [
+  "Alexander J. Dittmann"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 2,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "10.33232/001c.123872",
+ "comment": "12 pages, 10 figures. Accepted to the Open Journal of Astrophysics",
+ "abstract": "Nested sampling is a promising tool for Bayesian statistical analysis because it simultaneously performs parameter estimation and facilitates model comparison. MultiNest is one of the most popular nested sampling implementations, and has been applied to a wide variety of problems in the physical sciences. However, MultiNest results, like those of any sampling tool, can be unreliable, and accompanying convergence tests are a necessary component of any analysis. Using analytically tractable test problems, I illustrate how MultiNest, when applied without rigorously chosen hyperparameters, (1) can produce systematically erroneous estimates of the Bayesian evidence, which are more significantly biased for problems of higher dimensionality; (2) can derive posterior estimates with errors on the order of $\\sim100\\%$; (3) can, particularly when sampling noisy likelihood functions, systematically underestimate posterior widths. Furthermore, I show how MultiNest, thanks to the advantageous speed at which it explores parameter space, can also be used to jump-start Markov chain Monte Carlo sampling or more rigorous nested sampling techniques, potentially accelerating more robust measurements of posterior distributions and Bayesian evidences, and overcoming the challenge of Markov chain Monte Carlo initialization.",
+ "primary": "astro-ph.IM"
+}

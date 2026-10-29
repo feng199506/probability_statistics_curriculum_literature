@@ -1,0 +1,17 @@
+{
+ "id": "2502.00200",
+ "title": "Score-Preserving Targeted Maximum Likelihood Estimation",
+ "authors": [
+  "Noel Pimentel",
+  "Alejandro Schuler",
+  "Mark van der Laan"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 1,
+ "latest_date": "2025-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Targeted maximum likelihood estimators (TMLEs) are asymptotically optimal among regular, asymptotically linear estimators. In small samples, however, we may be far from \"asymptopia\" and not reap the benefits of optimality. Here we propose a variant (score-preserving TMLE; SP-TMLE) that leverages an initial estimator defined as the solution of a large number of possibly data-dependent score equations. Instead of targeting only the efficient influence function in the TMLE update to knock out the plug-in bias, we also target the already-solved scores. Solving additional scores reduces the remainder term in the von-Mises expansion of our estimator because these scores may come close to spanning higher-order influence functions. The result is an estimator with better finite-sample performance. We demonstrate our approach in simulation studies leveraging the (relaxed) highly adaptive lasso (HAL) as our initial estimator. These simulations show that in small samples SP-TMLE has reduced bias relative to plug-in HAL and reduced variance relative to vanilla TMLE, blending the advantages of the two approaches. We also observe improved estimation of standard errors in small samples.",
+ "primary": "stat.ME"
+}

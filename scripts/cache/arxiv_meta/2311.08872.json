@@ -1,0 +1,16 @@
+{
+ "id": "2311.08872",
+ "title": "Multilevel Monte Carlo methods for the Dean-Kawasaki equation from Fluctuating Hydrodynamics",
+ "authors": [
+  "Federico Cornalba",
+  "Julian Fischer"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 2,
+ "latest_date": "2024-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 6 figures",
+ "abstract": "Stochastic PDEs of Fluctuating Hydrodynamics are a powerful tool for the description of fluctuations in many-particle systems. In this paper, we develop and analyze a Multilevel Monte Carlo (MLMC) scheme for the Dean--Kawasaki equation, a pivotal representative of this class of SPDEs. We prove analytically and demonstrate numerically that our MLMC scheme provides a significant reduction in computational cost (with respect to a standard Monte Carlo method) in the simulation of the Dean--Kawasaki equation. Specifically, we link this reduction in cost to having a sufficiently large average particle density, and show that sizeable cost reductions can be obtained even when we have solutions with regions of low density. Numerical simulations are provided in the two-dimensional case, confirming our theoretical predictions. Our results are formulated entirely in terms of the law of distributions rather than in terms of strong spatial norms: this crucially allows for MLMC speed-ups altogether despite the Dean--Kawasaki equation being highly singular.",
+ "primary": "math.NA"
+}

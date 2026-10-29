@@ -1,0 +1,18 @@
+{
+ "id": "2511.12242",
+ "title": "SCoRES: An R Package for Simultaneous Confidence Region Estimates",
+ "authors": [
+  "Zhuoran Yu",
+  "Armin Schwartzman",
+  "Junting Ren",
+  "Julia Wrobel"
+ ],
+ "v1_date": "2025-11-15",
+ "latest_version": 1,
+ "latest_date": "2025-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 18 figures",
+ "abstract": "The identification of domain sets whose outcomes belong to predefined subsets can address fundamental risk assessment challenges in climatology and medicine. Existing approaches for inverse domain estimates require restrictive assumptions, including domain density and continuity of function near thresholds, and large-sample guarantees, which limit the applicability. Besides, the estimation and coverage depend on setting a fixed threshold level, which is difficult to determine. Recently, Ren et al. (2024) proved that confidence sets of multiple levels can be simultaneously constructed with the desired confidence non-asymptotically through inverting simultaneous confidence bands. Here, we present the SCoRES R package, which implements Ren's approach for both the estimation of the inverse region and the corresponding simultaneous outer and inner confidence regions, along with visualization tools. Besides, the package also provides functions that help construct SCBs for regression data, functional data and geographical data. To illustrate its broad applicability, we present three rigorous examples that demonstrate the SCoRES workflow.",
+ "primary": "stat.CO"
+}

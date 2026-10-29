@@ -1,0 +1,16 @@
+{
+ "id": "2509.21940",
+ "title": "Sequential 1-bit Mean Estimation with Near-Optimal Sample Complexity",
+ "authors": [
+  "Ivan Lau",
+  "Jonathan Scarlett"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "AISTATS 2026",
+ "abstract": "In this paper, we study the problem of distributed mean estimation with 1-bit communication constraints. We propose a mean estimator that is based on (randomized and sequentially-chosen) interval queries, whose 1-bit outcome indicates whether the given sample lies in the specified interval. Our estimator is $(ε, δ)$-PAC for all distributions with bounded mean ($-λ\\le \\mathbb{E}(X) \\le λ$) and variance ($\\mathrm{Var}(X) \\le σ^2$) for some known parameters $λ$ and $σ$. We derive a sample complexity bound $\\widetilde{O}\\big( \\frac{σ^2}{ε^2}\\log\\frac{1}δ + \\log\\fracλσ\\big)$, which matches the minimax lower bound for the unquantized setting up to logarithmic factors and the additional $\\log\\fracλσ$ term that we show to be unavoidable. We also establish an adaptivity gap for interval-query based estimators: the best non-adaptive mean estimator is considerably worse than our adaptive mean estimator for large $\\fracλσ$. Finally, we give tightened sample complexity bounds for distributions with stronger tail decay, and present additional variants that (i) handle an unknown sampling budget (ii) adapt to the unknown true variance given (possibly loose) upper and lower bounds on the variance, and (iii) use only two stages of adaptivity at the expense of more complicated (non-interval) queries.",
+ "primary": "stat.ML"
+}

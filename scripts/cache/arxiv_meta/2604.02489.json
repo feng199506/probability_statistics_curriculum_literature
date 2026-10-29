@@ -1,0 +1,22 @@
+{
+ "id": "2604.02489",
+ "title": "Sequentially-Rerandomized Switchback Experiments",
+ "authors": [
+  "Zhenghao Zeng",
+  "Christopher Adjaho",
+  "Alonso Bucarey",
+  "Chao Qin",
+  "Ruixuan Zhang",
+  "Paul Hoban",
+  "Ramesh Johari",
+  "Stefan Wager"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 10 figures",
+ "abstract": "Large-scale online platforms and marketplace systems often evaluate new policies through experiments that randomize treatment across operational units (e.g., geographies, regions, or clusters) over many time periods. In these settings, standard A/B testing can be inefficient or unreliable due to a limited number of units, substantial cross-unit heterogeneity, non-stationarity, and potential carryover across periods. We propose Sequentially-Rerandomized Switchback Experiments (SRSB), a new experimental design that helps mitigate these challenges. SRSB re-randomizes treatment at each time period such as to enforce balance on pre-specified prognostic variables constructed from past observations. In the absence of carryover, SRSB improves precision by leveraging temporal dependence through balancing lagged outcomes and covariates; we develop finite-sample randomization inference under a sharp null as well as asymptotic inference as the number of periods grows. We then extend SRSB to settings with first-order carryover and introduce a blocked SRSB variant that rerandomizes within strata defined by the previous treatment to form stable and comparable \"stay\" groups. Extensive simulations demonstrate the practical gains and robustness of SRSB relative to standard switchback designs.",
+ "primary": "stat.ME"
+}

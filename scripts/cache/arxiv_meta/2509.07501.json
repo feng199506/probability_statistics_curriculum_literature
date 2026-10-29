@@ -1,0 +1,15 @@
+{
+ "id": "2509.07501",
+ "title": "Bayesian Pliable Lasso with Horseshoe Prior for Interaction Effects in GLMs with Missing Responses",
+ "authors": [
+  "The Tien Mai"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 1,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparse regression problems, where the goal is to identify a small set of relevant predictors, often require modeling not only main effects but also meaningful interactions through other variables. While the pliable lasso has emerged as a powerful frequentist tool for modeling such interactions under strong heredity constraints, it lacks a natural framework for uncertainty quantification and incorporation of prior knowledge. In this paper, we propose a Bayesian pliable lasso that extends this approach by placing sparsity-inducing priors, such as the horseshoe, on both main and interaction effects. The hierarchical prior structure enforces heredity constraints while adaptively shrinking irrelevant coefficients and allowing important effects to persist. We extend this framework to Generalized Linear Models (GLMs) and develop a tailored approach to handle missing responses. To facilitate posterior inference, we develop an efficient Gibbs sampling algorithm based on a reparameterization of the horseshoe prior. Our Bayesian framework yields sparse, interpretable interaction structures, and principled measures of uncertainty. Through simulations and real-data studies, we demonstrate its advantages over existing methods in recovering complex interaction patterns under both complete and incomplete data. Our method is implemented in the package \\texttt{hspliable} available on Github.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.11353",
+ "title": "Sharp Generalization for Nonparametric Regression in Interpolation Space by Over-Parameterized Neural Networks Trained with Preconditioned Gradient Descent and Early Stopping",
+ "authors": [
+  "Yingzhen Yang",
+  "Ping Li"
+ ],
+ "v1_date": "2024-07-16",
+ "latest_version": 5,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in the Journal of Machine Learning Research (JMLR), 2026",
+ "abstract": "We study nonparametric regression using an over-parameterized two-layer neural network trained with algorithmic guarantees in this paper. We consider the setting where the training features are drawn uniformly from the unit sphere in $\\RR^d$, and the target function lies in an interpolation space commonly studied in statistical learning theory. We demonstrate that training the neural network with a novel Preconditioned Gradient Descent (PGD) algorithm, equipped with early stopping, achieves a sharp regression rate of $\\cO(n^{-\\frac{2αs'}{2αs'+1}})$, where $α$ parametrizes the polynomial eigenvalue decay of the regular Neural Tangent Kernel (NTK), $λ_j\\asymp j^{-2α}$, and $2α=d/(d-1)$ under the spherical uniform design considered here. The target function is assumed to belong to the interpolation space $\\bth{\\cH_K}^{s'}$ with $s'\\ge3$. This rate is even sharper than the currently known nearly-optimal rate of $\\cO(n^{-\\frac{2αs'}{2αs'+1}})\\log^2(1/δ)$~\\citep{Li2024-edr-general-domain}, where $n$ is the size of the training data and $δ\\in (0,1)$ is a small probability. Our analysis is based on two key technical contributions. First, we present a principled decomposition of the network output at each PGD step into a function in the reproducing kernel Hilbert space (RKHS) of a newly induced integral kernel, and a residual function with small $L^{\\infty}$-norm. Second, leveraging this decomposition, we apply local Rademacher complexity theory to tightly control the complexity of the function class comprising all the neural network functions obtained in the PGD iterates. Our results show how PGD changes the effective kernel in the reference training dynamics, inducing an integral kernel with lower complexity than the regular NTK arising from vanilla GD.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2608.09465",
+ "title": "Balancing fractional Brownian motion",
+ "authors": [
+  "Hengrui Luo",
+  "Yiming Xu"
+ ],
+ "v1_date": "2026-08-10",
+ "latest_version": 1,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages",
+ "abstract": "We study the discrepancy of balancing $n$ independent sample paths of fractional Brownian motion with Hurst exponent $H\\in(0,1)$ on $[0,1]$, an infinite-dimensional analogue of balancing Gaussian vectors. We establish a phase transition at $H=1/2$: with high probability, the discrepancy is $Ω(n^{1/2-H})$ and $\\mathcal O(n^{1/2-H}(\\log n)^{c(H)})$, where $c(H)=H+1/2$ if $H\\geq 1/2$ and $c(H)=1/2$ otherwise. At the critical exponent $H=1/2$, we show that the discrepancy is $Θ(1)$ with constant probability as $n\\to\\infty$. In this regime, we further characterize the geometry of the solution space by computing the expected number of local minima, establishing an overlap gap property near the existence threshold, and proving its absence at every diverging optimality threshold. We also give randomized polynomial-time algorithms that compute signings with discrepancy $\\mathcal O(n^{1/2-H}\\sqrt{\\log n})$ for $H<1/2$, $\\mathcal O((\\log n)^{3/2})$ for $H=1/2$, and $\\mathcal O(\\sqrt{\\log n})$ for $H>1/2$, with high probability. Our analysis combines a truncated balancing argument based on a wavelet representation of fractional Brownian motion with probabilistic methods.",
+ "primary": "math.PR"
+}

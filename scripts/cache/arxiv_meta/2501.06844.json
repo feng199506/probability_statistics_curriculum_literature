@@ -1,0 +1,19 @@
+{
+ "id": "2501.06844",
+ "title": "REML implementations of kernel-based genomic prediction models for genotype x environment x management interactions",
+ "authors": [
+  "Killian A. C. Melsen",
+  "Salvador Gezan",
+  "Daniel J. Tolhurst",
+  "Fred A. van Eeuwijk",
+  "Carel F. W. Peeters"
+ ],
+ "v1_date": "2025-01-12",
+ "latest_version": 3,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-throughput pheno-, geno-, and envirotyping allows characterization of plant genotypes and the trials they are evaluated in, producing different types of data. These different data modalities can be integrated into statistical or machine learning models for genomic prediction in several ways. One commonly used approach within the analysis of multi-environment trial data in plant breeding is to create linear or nonlinear kernels which are subsequently used in linear mixed models (LMMs) to model genotype by environment (G$\\times$E) interactions. Current implementations of these kernel-based LMMs present a number of opportunities in terms of methodological extensions. Here we show how these models can be implemented in standard software, allowing direct restricted maximum likelihood (REML) estimation of all parameters. We also further extend the models by combining the kernels with unstructured covariance matrices for three-way interactions in genotype by environment by management (G$\\times$E$\\times$M) datasets, while simultaneously allowing for environment-specific genetic variances. We show how the models incorporating nonlinear kernels and heterogeneous variances maximize the amount of genetic variance captured by environmental covariables and perform best in prediction settings. We discuss the opportunities regarding models with multiple kernels or kernels obtained after environmental feature selection, as well as the similarities to models regressing phenotypes on latent and observed environmental covariables. Finally, we discuss the flexibility provided by our implementation in terms of modeling complex plant breeding datasets, allowing for straightforward integration of phenomics, enviromics, and genomics.",
+ "primary": "stat.ME"
+}

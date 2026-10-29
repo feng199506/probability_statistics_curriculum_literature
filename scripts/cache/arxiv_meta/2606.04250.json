@@ -1,0 +1,19 @@
+{
+ "id": "2606.04250",
+ "title": "Locally Equivalent Weights for Multilevel Regression and Poststratification",
+ "authors": [
+  "Ryan Giordano",
+  "Alice Cima",
+  "Jared Murray",
+  "Erin Hartman",
+  "Avi Feller"
+ ],
+ "v1_date": "2026-06-02",
+ "latest_version": 1,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pages",
+ "abstract": "Multilevel regression and poststratification (MrP) has become a workhorse method for estimating population quantities from non-probability surveys, and is the primary model-based alternative to traditional survey calibration weighting methods, such as raking. For simple linear regression models, MrP methods admit ``equivalent weights'', allowing for direct comparisons between MrP and traditional calibration weighting. Such weights, however, have been unavailable for the most widely used MrP models, such as logistic regression. In this paper, we develop a natural generalization, ``MrP locally equivalent weights'' (MrPlew), which represent MrP as a weighting-style estimator that is locally equivalent to calibration weights near the observed responses. This enables a suite of standard weighting diagnostics, including frequentist sampling variability, covariate balance, and subgroup contribution. We formally justify the use of MrPlew in these cases: we prove the MrPlew-based variance estimator is asymptotically equivalent to the infinitesimal jackknife for common exponential family models, and we introduce a novel class of model checks based on invariance to data perturbations that generalize covariate balance and subgroup contribution to nonlinear models. We further show that MrPlew can be computed easily using existing MCMC samples and provide open-source software to compute MrPlew using the output of standard software. We illustrate our approach for several canonical studies that use MrP, including via a logistic regression outcome model, showing that implied covariate balance can sometimes be worse for MrP than for raking. Given the ease of computing, we recommend making MrPlew a standard part of the MrP model interrogation workflow.",
+ "primary": "stat.ME"
+}

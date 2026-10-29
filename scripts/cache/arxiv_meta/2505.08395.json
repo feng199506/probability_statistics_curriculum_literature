@@ -1,0 +1,16 @@
+{
+ "id": "2505.08395",
+ "title": "Bayesian Estimation of Causal Effects Using Proxies of a Latent Interference Network",
+ "authors": [
+  "Bar Weinstein",
+  "Daniel Nevo"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network interference occurs when treatments assigned to some units affect the outcomes of others. Traditional approaches often assume that the observed network correctly specifies the interference structure. However, in practice, researchers frequently only have access to proxy measurements of the interference network due to limitations in data collection or potential mismatches between measured networks and actual interference pathways. In this paper, we introduce a framework for estimating causal effects when only proxy networks are available. Our approach leverages a structural causal model that accommodates diverse proxy types, including noisy measurements, multiple data sources, and multilayer networks, and defines causal effects as interventions on population-level treatments. The latent nature of the true interference network poses significant challenges. To overcome them, we develop a Bayesian inference framework. We propose a Block Gibbs sampler with Locally Informed Proposals to update the latent network, thereby efficiently exploring the high-dimensional posterior space composed of both discrete and continuous parameters. The latent network updates are driven by information from the proxy networks, treatments, and outcomes. We illustrate the performance of our method through numerical experiments, demonstrating its accuracy in recovering causal effects even when only proxies of the interference network are available.",
+ "primary": "stat.ME"
+}

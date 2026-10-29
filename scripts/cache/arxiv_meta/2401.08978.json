@@ -1,0 +1,16 @@
+{
+ "id": "2401.08978",
+ "title": "Trade-off Between Dependence and Complexity for Nonparametric Learning -- an Empirical Process Approach",
+ "authors": [
+  "Nabarun Deb",
+  "Debarghya Mukherjee"
+ ],
+ "v1_date": "2024-01-17",
+ "latest_version": 1,
+ "latest_date": "2024-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "94 pages, 1 figure",
+ "abstract": "Empirical process theory for i.i.d. observations has emerged as a ubiquitous tool for understanding the generalization properties of various statistical problems. However, in many applications where the data exhibit temporal dependencies (e.g., in finance, medical imaging, weather forecasting etc.), the corresponding empirical processes are much less understood. Motivated by this observation, we present a general bound on the expected supremum of empirical processes under standard $β/ρ$-mixing assumptions. Unlike most prior work, our results cover both the long and the short-range regimes of dependence. Our main result shows that a non-trivial trade-off between the complexity of the underlying function class and the dependence among the observations characterizes the learning rate in a large class of nonparametric problems. This trade-off reveals a new phenomenon, namely that even under long-range dependence, it is possible to attain the same rates as in the i.i.d. setting, provided the underlying function class is complex enough. We demonstrate the practical implications of our findings by analyzing various statistical estimators in both fixed and growing dimensions. Our main examples include a comprehensive case study of generalization error bounds in nonparametric regression over smoothness classes in fixed as well as growing dimension using neural nets, shape-restricted multivariate convex regression, estimating the optimal transport (Wasserstein) distance between two probability distributions, and classification under the Mammen-Tsybakov margin condition -- all under appropriate mixing assumptions. In the process, we also develop bounds on $L_r$ ($1\\le r\\le 2$)-localized empirical processes with dependent observations, which we then leverage to get faster rates for (a) tuning-free adaptation, and (b) set-structured learning problems.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2507.05128",
+ "title": "Practical considerations for Gaussian Process modeling for causal inference quasi-experimental studies with panel data",
+ "authors": [
+  "Sofia L. Vega",
+  "Rachel C. Nethery"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 1,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating causal effects in quasi-experiments with spatio-temporal panel data often requires adjusting for unmeasured confounding that varies across space and time. Gaussian Processes (GPs) offer a flexible, nonparametric modeling approach that can account for such complex dependencies through carefully chosen covariance kernels. In this paper, we provide a practical and interpretable framework for applying GPs to causal inference in panel data settings. We demonstrate how GPs generalize popular methods such as synthetic control and vertical regression, and we show that the GP posterior mean can be represented as a weighted average of observed outcomes, where the weights reflect spatial and temporal similarity. To support applied use, we explore how different kernel choices impact both estimation performance and interpretability, offering guidance for selecting between separable and nonseparable kernels. Through simulations and application to Hurricane Katrina mortality data, we illustrate how GP models can be used to estimate counterfactual outcomes and quantify treatment effects. All code and materials are made publicly available to support reproducibility and encourage adoption. Our results suggest that GPs are a promising and interpretable tool for addressing unmeasured spatio-temporal confounding in quasi-experimental studies.",
+ "primary": "stat.ME"
+}

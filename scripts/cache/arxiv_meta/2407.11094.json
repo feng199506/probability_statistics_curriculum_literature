@@ -1,0 +1,20 @@
+{
+ "id": "2407.11094",
+ "title": "Robust Score-Based Quickest Change Detection",
+ "authors": [
+  "Sean Moushegian",
+  "Suya Wu",
+  "Enmao Diao",
+  "Jie Ding",
+  "Taposh Banerjee",
+  "Vahid Tarokh"
+ ],
+ "v1_date": "2024-07-15",
+ "latest_version": 4,
+ "latest_date": "2025-07-08",
+ "journal_ref": "IEEE Trans. on Information Theory, vol. 71, no. 7, pp. 5539-5555, July 2025",
+ "doi": "10.1109/tit.2025.3566677",
+ "comment": "Accepted manuscript. Published in IEEE Transactions on Information Theory. arXiv admin note: text overlap with arXiv:2306.05091",
+ "abstract": "Methods in the field of quickest change detection rapidly detect in real-time a change in the data-generating distribution of an online data stream. Existing methods have been able to detect this change point when the densities of the pre- and post-change distributions are known. Recent work has extended these results to the case where the pre- and post-change distributions are known only by their score functions. This work considers the case where the pre- and post-change score functions are known only to correspond to distributions in two disjoint sets. This work selects a pair of least-favorable distributions from these sets to robustify the existing score-based quickest change detection algorithm, the properties of which are studied. This paper calculates the least-favorable distributions for specific model classes and provides methods of estimating the least-favorable distributions for common constructions. Simulation results are provided demonstrating the performance of our robust change detection algorithm.",
+ "primary": "stat.ME"
+}

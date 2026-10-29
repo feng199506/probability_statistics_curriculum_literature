@@ -1,0 +1,17 @@
+{
+ "id": "2409.11040",
+ "title": "Estimation and imputation of missing data in longitudinal models with Zero-Inflated Poisson response variable",
+ "authors": [
+  "D. S. Martinez-Lobo",
+  "O. O. Melo",
+  "N. A. Cruz"
+ ],
+ "v1_date": "2024-09-17",
+ "latest_version": 1,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This research deals with the estimation and imputation of missing data in longitudinal models with a Poisson response variable inflated with zeros. A methodology is proposed that is based on the use of maximum likelihood, assuming that data is missing at random and that there is a correlation between the response variables. In each of the times, the expectation maximization (EM) algorithm is used: in step E, a weighted regression is carried out, conditioned on the previous times that are taken as covariates. In step M, the estimation and imputation of the missing data are performed. The good performance of the methodology in different loss scenarios is demonstrated in a simulation study comparing the model only with complete data, and estimating missing data using the mode of the data of each individual. Furthermore, in a study related to the growth of corn, it is tested on real data to develop the algorithm in a practical scenario.",
+ "primary": "stat.ME"
+}

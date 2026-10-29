@@ -1,0 +1,16 @@
+{
+ "id": "2506.10872",
+ "title": "The Gittins Index: A Design Principle for Decision-Making Under Uncertainty",
+ "authors": [
+  "Ziv Scully",
+  "Alexander Terenin"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 3,
+ "latest_date": "2025-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Gittins index is a tool that optimally solves a variety of decision-making problems involving uncertainty, including multi-armed bandit problems, minimizing mean latency in queues, and search problems like the Pandora's box model. However, despite the above examples and later extensions thereof, the space of problems that the Gittins index can solve perfectly optimally is limited, and its definition is rather subtle compared to those of other multi-armed bandit algorithms. As a result, the Gittins index is often regarded as being primarily a concept of theoretical importance, rather than a practical tool for solving decision-making problems. The aim of this tutorial is to demonstrate that the Gittins index can be fruitfully applied to practical problems. We start by giving an example-driven introduction to the Gittins index, then walk through several examples of problems it solves - some optimally, some suboptimally but still with excellent performance. Two practical highlights in the latter category are applying the Gittins index to Bayesian optimization, and applying the Gittins index to minimizing tail latency in queues.",
+ "primary": "math.OC"
+}

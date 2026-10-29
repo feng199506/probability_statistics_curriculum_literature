@@ -1,0 +1,17 @@
+{
+ "id": "2602.23629",
+ "title": "Multivariate Spatio-Temporal Neural Hawkes Processes",
+ "authors": [
+  "Christopher Chukwuemeka",
+  "Hojun You",
+  "Mikyoung Jun"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 2,
+ "latest_date": "2026-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 20 figures (including supplementary material)",
+ "abstract": "We propose a Multivariate Spatio-Temporal Neural Hawkes Process for modeling complex multivariate event data with spatio-temporal dynamics. The proposed model extends continuous-time neural Hawkes processes by integrating spatial information into latent state evolution through learned temporal and spatial decay dynamics, enabling flexible modeling of excitation and inhibition without predefined triggering kernels. By analyzing fitted intensity functions of deep learning-based temporal Hawkes process models, we identify a modeling gap in how fitted intensity behavior is captured beyond likelihood-based performance, which motivates the proposed spatio-temporal approach. Simulation studies show that the proposed method successfully recovers sensible temporal and spatial intensity structure in multivariate spatio-temporal point patterns, while existing temporal neural Hawkes process approach fails to do so. An application to terrorism data from Pakistan further demonstrates the proposed model's ability to capture complex spatio-temporal interaction across multiple event types.",
+ "primary": "stat.ML"
+}

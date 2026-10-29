@@ -1,0 +1,18 @@
+{
+ "id": "2506.01790",
+ "title": "IF-GUIDE: Influence Function-Guided Detoxification of LLMs",
+ "authors": [
+  "Zachary Coalson",
+  "Juhan Bae",
+  "Nicholas Carlini",
+  "Sanghyun Hong"
+ ],
+ "v1_date": "2025-06-02",
+ "latest_version": 3,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at NeurIPS 2025 [Poster]",
+ "abstract": "We study how training data contributes to the emergence of toxic behaviors in large language models. Most prior work on reducing model toxicity adopts reactive approaches, such as fine-tuning pre-trained (and potentially toxic) models to align them with human values. In contrast, we propose a proactive approach, IF-GUIDE, that leverages influence functions to identify and suppress harmful tokens in the training data. To this end, we first show that standard influence functions are ineffective at discovering harmful training records. We then present a novel adaptation that measures token-level attributions from training data to model toxicity, along with techniques for selecting toxic training documents and a learning objective that can be integrated into both pre-training and fine-tuning. Moreover, IF-GUIDE does not rely on human-preference data, which is typically required by existing alignment methods. In our evaluation, we demonstrate that IF-GUIDE substantially reduces both explicit and implicit toxicity-by up to 10$\\times$ compared to uncensored models, and up to 3$\\times$ compared to baseline alignment methods such as DPO and RAD-across both pre-training and fine-tuning scenarios. IF-GUIDE is computationally efficient: a billion-parameter model is not necessary for computing influence scores; a million-parameter model-with 7.5$\\times$ fewer parameters-can effectively serve as a proxy for identifying harmful data. Our code is publicly available at: https://github.com/ztcoalson/IF-Guide",
+ "primary": "cs.LG"
+}

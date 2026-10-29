@@ -1,0 +1,22 @@
+{
+ "id": "2410.08247",
+ "title": "Forecasting mortality associated emergency department crowding",
+ "authors": [
+  "Jalmari Nevanlinna",
+  "Anna Eidstø",
+  "Jari Ylä-Mattila",
+  "Teemu Koivistoinen",
+  "Niku Oksala",
+  "Juho Kanniainen",
+  "Ari Palomäki",
+  "Antti Roine"
+ ],
+ "v1_date": "2024-10-10",
+ "latest_version": 1,
+ "latest_date": "2024-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Emergency department (ED) crowding is a global public health issue that has been repeatedly associated with increased mortality. Predicting future service demand would enable preventative measures aiming to eliminate crowding along with it's detrimental effects. Recent findings in our ED indicate that occupancy ratios exceeding 90% are associated with increased 10-day mortality. In this paper, we aim to predict these crisis periods using retrospective data from a large Nordic ED with a LightGBM model. We provide predictions for the whole ED and individually for it's different operational sections. We demonstrate that afternoon crowding can be predicted at 11 a.m. with an AUC of 0.82 (95% CI 0.78-0.86) and at 8 a.m. with an AUC up to 0.79 (95% CI 0.75-0.83). Consequently we show that forecasting mortality-associated crowding using anonymous administrative data is feasible.",
+ "primary": "cs.LG"
+}

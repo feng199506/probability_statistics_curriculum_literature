@@ -1,0 +1,18 @@
+{
+ "id": "2402.14282",
+ "title": "Extention of Bagging MARS with Group LASSO for Heterogeneous Treatment Effect Estimation",
+ "authors": [
+  "Guanwenqing He",
+  "Ke Wan",
+  "Kazushi Maruo",
+  "Toshio Shimokawa"
+ ],
+ "v1_date": "2024-02-22",
+ "latest_version": 1,
+ "latest_date": "2024-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 9 figures",
+ "abstract": "Recent years, large scale clinical data like patient surveys and medical record data are playing an increasing role in medical data science. These large-scale clinical data, collectively referred to as \"real-world data (RWD)\". It is expected to be widely used in large-scale observational studies of specific diseases, personal medicine or precise medicine, finding the responder of drugs or treatments. Applying RWD for estimating heterogeneous treat ment effect (HTE) has already been a trending topic. HTE has the potential to considerably impact the development of precision medicine by helping doctors make more informed precise treatment decisions and provide more personalized medical care. The statistical models used to estimate HTE is called treatment effect models. Powers et al. proposed a some treatment effect models for observational study, where they pointed out that the bagging causal MARS (BCM) performs outstanding compared to other models. While BCM has excellent performance, it still has room for improvement. In this paper, we proposed a new treatment effect model called shrinkage causal bagging MARS method to improve their shared basis conditional mean regression framework based on the following points: first, we estimated basis functions using transformed outcome, then applied the group LASSO method to optimize the model and estimate parameters. Besides, we are focusing on pursing better interpretability of model to improve the ethical acceptance. We designed simulations to verify the performance of our proposed method and our proposed method superior in mean square error and bias in most simulation settings. Also we applied it to real data set ACTG 175 to verify its usability, where our results are supported by previous studies.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2406.14269",
+ "title": "Concentration of a sparse Bayesian model with Horseshoe prior in estimating high-dimensional precision matrix",
+ "authors": [
+  "The Tien Mai"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 2,
+ "latest_date": "2024-09-13",
+ "journal_ref": "Stat 2024",
+ "doi": "10.1002/sta4.70008",
+ "comment": "",
+ "abstract": "Precision matrices are crucial in many fields such as social networks, neuroscience, and economics, representing the edge structure of Gaussian graphical models (GGMs), where a zero in an off-diagonal position of the precision matrix indicates conditional independence between nodes. In high-dimensional settings where the dimension of the precision matrix \\( p \\) exceeds the sample size \\( n \\) and the matrix is sparse, methods like graphical Lasso, graphical SCAD, and CLIME are popular for estimating GGMs. While frequentist methods are well-studied, Bayesian approaches for (unstructured) sparse precision matrices are less explored. The graphical horseshoe estimate by \\cite{li2019graphical}, applying the global-local horseshoe prior, shows superior empirical performance, but theoretical work for sparse precision matrix estimations using shrinkage priors is limited. This paper addresses these gaps by providing concentration results for the tempered posterior with the fully specified horseshoe prior in high-dimensional settings. Moreover, we also provide novel theoretical results for model misspecification, offering a general oracle inequality for the posterior. A concise set of simulations is performed to validate our theoretical findings.",
+ "primary": "math.ST"
+}

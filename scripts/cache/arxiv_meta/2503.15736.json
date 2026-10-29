@@ -1,0 +1,16 @@
+{
+ "id": "2503.15736",
+ "title": "Convergence Rate of the Join-the-Shortest-Queue System",
+ "authors": [
+  "Yuanzhe Ma",
+  "Siva Theja Maguluri"
+ ],
+ "v1_date": "2025-03-19",
+ "latest_version": 5,
+ "latest_date": "2026-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Join-the-Shortest-Queue (JSQ) policy is among the most widely used load balancing algorithms and has been extensively studied. However, an exact characterization of the system behavior remains challenging. Most prior research has focused on analyzing its performance in the steady state in certain asymptotic regimes, such as the heavy-traffic regime. However, convergence to the steady state in these regimes is often slow, so steady-state and heavy-traffic characterizations may be less informative over practical time horizons. To address this limitation, we provide a finite-time convergence rate analysis of a JSQ system with two symmetric servers. In sharp contrast to the existing literature, we directly study the original system rather than an approximate limiting system such as a diffusion approximation. Our results demonstrate that for such a system, the convergence rate to its steady state, measured in the total variation distance, is $O \\left(\\frac{1}{(1-ρ)^3} \\frac{1}{t} \\right)$, where $ρ\\in (0,1)$ is the traffic intensity.",
+ "primary": "math.PR"
+}

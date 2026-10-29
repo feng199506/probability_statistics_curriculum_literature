@@ -1,0 +1,17 @@
+{
+ "id": "2510.08853",
+ "title": "Uncovering All Highly Credible Binary Treatment Hierarchy Questions in Network Meta-Analysis",
+ "authors": [
+  "Caitlin H. Daly",
+  "Chloe Tan",
+  "Audrey Béliveau"
+ ],
+ "v1_date": "2025-10-09",
+ "latest_version": 1,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 4 figures, 1 table",
+ "abstract": "In recent years, there has been growing research interest in addressing treatment hierarchy questions within network meta-analysis (NMA). In NMAs involving many treatments, the number of possible hierarchy questions becomes prohibitively large. To manage this complexity, previous work has recommended pre-selecting specific hierarchy questions of interest (e.g., ``among options A, B, C, D, E, do treatments A and B have the two best effects in terms of improving outcome X?\") and calculating the empirical probabilities of the answers being true given the data. In contrast, we propose an efficient and scalable algorithmic approach that eliminates the need for pre-specification by systematically generating a comprehensive catalog of highly credible treatment hierarchy questions, specifically, those with empirical probabilities exceeding a chosen threshold (e.g., 95%). This enables decision-makers to extract all meaningful insights supported by the data. An additional algorithm trims redundant insights from the output to facilitate interpretation. We define and address six broad types of binary hierarchy questions (i.e., those with true/false answers), covering standard hierarchy questions answered using existing ranking metrics - pairwise comparisons and (cumulative) ranking probabilities - as well as many other complex hierarchy questions. We have implemented our methods in an R package and illustrate their application using real NMA datasets on diabetes and depression interventions. Beyond NMA, our approach is relevant to any decision problem concerning three or more treatment options.",
+ "primary": "stat.ME"
+}

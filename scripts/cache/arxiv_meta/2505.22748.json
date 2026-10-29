@@ -1,0 +1,16 @@
+{
+ "id": "2505.22748",
+ "title": "Nonparametric Estimation of Conditional Survival Function with Time-Varying Covariates Using DeepONet",
+ "authors": [
+  "Bingqing Hu",
+  "Bin Nan"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional survival models often rely on restrictive assumptions such as proportional hazards or instantaneous effects of time-varying covariates on the hazard function, which limit their applicability in real-world settings. We consider the nonparametric estimation of the conditional survival function, which leverages the flexibility of neural networks to capture the complex, potentially long-term non-instantaneous effects of time-varying covariates. In this work, we use Deep Operator Networks (DeepONet), a deep learning architecture designed for operator learning, to model the arbitrary effects of both time-varying and time-invariant covariates. Specifically, our method relaxes commonly used assumptions in hazard regressions by modeling the conditional hazard function as an unknown nonlinear operator of entire histories of time-varying covariates. The estimation is based on a loss function constructed from the nonparametric full likelihood for censored survival data. Simulation studies demonstrate that our method performs well, whereas the Cox model yields biased results when the assumption of instantaneous time-varying covariate effects is violated. We further illustrate its utility with the ADNI data, for which it yields a lower integrated Brier score than the Cox model.",
+ "primary": "stat.ME"
+}

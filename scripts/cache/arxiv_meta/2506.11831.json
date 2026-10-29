@@ -1,0 +1,17 @@
+{
+ "id": "2506.11831",
+ "title": "Bayesian Optimization with Inexact Acquisition: Is Random Grid Search Sufficient?",
+ "authors": [
+  "Hwanwoo Kim",
+  "Chong Liu",
+  "Yuxin Chen"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper is accepted to UAI 2025",
+ "abstract": "Bayesian optimization (BO) is a widely used iterative algorithm for optimizing black-box functions. Each iteration requires maximizing an acquisition function, such as the upper confidence bound (UCB) or a sample path from the Gaussian process (GP) posterior, as in Thompson sampling (TS). However, finding an exact solution to these maximization problems is often intractable and computationally expensive. Reflecting such realistic situations, in this paper, we delve into the effect of inexact maximizers of the acquisition functions. Defining a measure of inaccuracy in acquisition solutions, we establish cumulative regret bounds for both GP-UCB and GP-TS without requiring exact solutions of acquisition function maximization. Our results show that under appropriate conditions on accumulated inaccuracy, inexact BO algorithms can still achieve sublinear cumulative regret. Motivated by such findings, we provide both theoretical justification and numerical validation for random grid search as an effective and computationally efficient acquisition function solver.",
+ "primary": "stat.ML"
+}

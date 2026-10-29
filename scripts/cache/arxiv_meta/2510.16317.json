@@ -1,0 +1,16 @@
+{
+ "id": "2510.16317",
+ "title": "Heterogeneity-Aware Federated Causal Inference Leveraging Effect-Measure Transportability",
+ "authors": [
+  "Siqi Cao",
+  "Shu Yang"
+ ],
+ "v1_date": "2025-10-18",
+ "latest_version": 2,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated learning of causal estimands offers a powerful strategy to improve estimation efficiency by leveraging data from multiple study sites while preserving privacy. Existing literature has primarily focused on the average treatment effect using single data source, whereas our work addresses a broader class of causal measures across multiple sources. We derive and compare semiparametrically efficient estimators under two transportability assumptions, which impose different restrictions on the data likelihood and illustrate the efficiency-robustness tradeoff. This estimator also permits the incorporation of flexible machine learning algorithms for nuisance functions while maintaining parametric convergence rates and nominal coverage. To further handle scenarios where some source sites violate transportability, we propose a Post-Federated Weighting Selection (PFWS) framework, which is a two-step procedure that adaptively identifies compatible sites and achieves the semiparametric efficiency bound asymptotically. This framework mitigates the efficiency loss of weighting methods and the instability and computational burden of direct site selection in finite samples. Through extensive simulations and real-data analysis, we demonstrate that our PFWS framework achieves superior variance efficiency compared with the target-only analyses across diverse transportability scenarios.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2610.11250",
+ "title": "Bayesian Estimation of Continuous Brain Connectivity with Log-Gaussian Cox Processes",
+ "authors": [
+  "Jaehoan Kim",
+  "William Consagra",
+  "Debdeep Pati",
+  "Zhengwu Zhang"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 2 figures",
+ "abstract": "Continuous structural connectivity describes the connection between any two points of the cortical surface by an intensity function. Based on the endpoints of tractography streamlines, existing methods estimate this function mostly by kernel smoothing, which only gives a point estimate. We propose a Bayesian framework that estimates continuous connectivity with uncertainty quantification. The endpoints of tractography streamlines, mapped to two spheres, are modeled by a log-Gaussian Cox process on the product of the spheres with a Matérn Gaussian process prior. With the finite element representation of the prior, the Laplace approximation of the posterior enables the computation on a fine mesh with over 400,000 latent variables per hemisphere pair. Numerical experiments show the accuracy of the point estimate of this approach and the coverage of its credible intervals. In the Adolescent Brain Cognitive Development Study, the proposed method predicts held-out streamlines better than kernel smoothing.",
+ "primary": "stat.ME"
+}

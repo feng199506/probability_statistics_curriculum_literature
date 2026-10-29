@@ -1,0 +1,22 @@
+{
+ "id": "2505.20168",
+ "title": "Causal Meta-Analysis: Rethinking the Foundations of Evidence-Based Medicine",
+ "authors": [
+  "Clément Berenfeld",
+  "Ahmed Boughdiri",
+  "Bénédicte Colnet",
+  "Wouter A. C. van Amsterdam",
+  "Aurélien Bellet",
+  "Rémi Khellaf",
+  "Erwan Scornet",
+  "Julie Josse"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 4,
+ "latest_date": "2026-04-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 figures, 2 tables. v2: Adding Sec 4.3 and correcting variance equations in Sec 3. v3: Refactoring of the manuscript and additional results (Thm 1 and 2). v4: additional appendix to Sec 3",
+ "abstract": "Meta-analysis, by synthesizing effect estimates from multiple studies conducted in diverse settings, stands at the top of the evidence hierarchy in clinical research. Yet, conventional approaches based on fixed- or random-effects models lack a causal framework, which may limit their interpretability and utility for public policy. Incorporating causal inference reframes meta-analysis as the estimation of well-defined causal effects on clearly specified populations, enabling a principled approach to handling study heterogeneity. We show that classical meta-analysis estimators have a clear causal interpretation when effects are measured as risk differences. However, this breaks down for nonlinear measures like the risk ratio and odds ratio. To address this, we introduce novel causal aggregation formulas that remain compatible with standard meta-analysis practices and do not require access to individual-level data. To evaluate real-world impact, we apply both classical and causal meta-analysis methods to 500 published meta-analyses. While the conclusions often align, notable discrepancies emerge, revealing cases where conventional methods may suggest a treatment is beneficial when, under a causal lens, it is in fact harmful.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2604.20016",
+ "title": "Weighted Holm Procedures: Theory, Properties, and Recommendations",
+ "authors": [
+  "Beibei Li",
+  "Wenge Guo"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 1,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 5 figures, 2 tables",
+ "abstract": "In many statistical applications, particularly in clinical studies, hypotheses may carry different levels of importance, motivating the use of weighted multiple testing procedures (wMTPs) to control the familywise error rate (FWER). Among these approaches, two weighted Holm procedures are commonly used: the weighted Holm procedure (WHP), which is based on ordered weighted $p$-values, and the weighted alternative Holm procedure (WAP), which relies on ordered raw $p$-values. This paper provides a systematic comparison of these two procedures, along with practical recommendations for their use. We first examine their corresponding closed testing procedures (CTPs) and show that WHP is uniformly more powerful than WAP. We further investigate their structural properties, demonstrating that WAP, while consonant, lacks monotonicity. To facilitate communication with non-statisticians, we introduce graphical representations of both procedures using a common initial graph and distinct updating strategies. In addition, we derive adjusted $p$-values and adjusted weighted $p$-values for both methods. Finally, we establish an optimality result: WHP cannot be improved by enlarging any of its critical values without violating FWER control, whereas WAP is optimal only under specific conditions. Simulation studies support these theoretical findings and highlight the superior FWER control and average power of WHP.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.02684",
+ "title": "A dimension reduction approach to edge weight estimation for use in spatial models",
+ "authors": [
+  "Michael F. Christensen",
+  "Jo Eidsvik"
+ ],
+ "v1_date": "2024-07-02",
+ "latest_version": 2,
+ "latest_date": "2025-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to JCGS. Main text: 30 pages, 8 figures. Supplement: 16 pages, 4 figures",
+ "abstract": "Models for areal data are traditionally defined using the neighborhood structure of the regions on which data are observed. The unweighted adjacency matrix of a graph is commonly used to characterize the relationships between locations, resulting in the implicit assumption that all pairs of neighboring regions interact similarly, an assumption which may not be true in practice. It has been shown that more complex spatial relationships between graph nodes may be represented when edge weights are allowed to vary. Christensen and Hoff (2023) introduced a covariance model for data observed on graphs which is more flexible than traditional alternatives, parameterizing covariance as a function of an unknown edge weights matrix. A potential issue with their approach is that each edge weight is treated as a unique parameter, resulting in increasingly challenging parameter estimation as graph size increases. Within this article we propose a framework for estimating edge weight matrices that reduces their effective dimension via a basis function representation of of the edge weights. We show that this method may be used to enhance the performance and flexibility of covariance models parameterized by such matrices in a series of illustrations, simulations and data examples.",
+ "primary": "stat.ME"
+}

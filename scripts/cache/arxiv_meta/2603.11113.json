@@ -1,0 +1,17 @@
+{
+ "id": "2603.11113",
+ "title": "Partition-Based Functional Ridge Regression for High-Dimensional Data",
+ "authors": [
+  "Shaista Ashraf",
+  "Ismail Shah",
+  "Farrukh Javed"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 5 figures",
+ "abstract": "This paper proposes a partition-based functional ridge regression framework to address multicollinearity, overfitting, and interpretability in high-dimensional functional linear models. The coefficient function vector \\( \\boldsymbolβ(s) \\) is decomposed into two components, \\( \\boldsymbolβ_1(s) \\) and \\( \\boldsymbolβ_2(s) \\), representing dominant and weaker functional effects. This partition enables differential ridge penalization across functional blocks, so that important signals are preserved while less informative components are more strongly shrunk. The resulting approach improves numerical stability and enhances interpretability without relying on explicit variable selection. We develop three estimators: the Functional Ridge Estimator (FRE), the Functional Ridge Full Model (FRFM), and the Functional Ridge Sub-Model (FRSM). Under standard regularity conditions, we establish consistency and asymptotic normality for all estimators. Simulation results reveal a clear bias--variance trade-off where FRSM performs best in small samples through strong variance reduction, whereas FRFM achieves superior accuracy in moderate to large samples by retaining informative functional structure through adaptive penalization. An empirical application to Canadian weather data further demonstrates improved predictive performance, reduced variance inflation, and clearer identification of influential functional effects. Overall, partition-based ridge regularization provides a practical and theoretically grounded method for high-dimensional functional regression.",
+ "primary": "stat.ME"
+}

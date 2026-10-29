@@ -1,0 +1,17 @@
+{
+ "id": "2412.16065",
+ "title": "A Bayesian prevalence-incidence mixture model for screening outcomes with misclassification",
+ "authors": [
+  "Thomas Klausch",
+  "Birgit I. Lissenberg-Witte",
+  "Veerle M. Coupé"
+ ],
+ "v1_date": "2024-12-20",
+ "latest_version": 3,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main document with Supplemental Material, for the R package see https://cran.r-project.org/web/packages/BayesPIM/vignettes/BayesPIM_intro.html",
+ "abstract": "We present BayesPIM, a Bayesian prevalence-incidence mixture model for estimating time- and covariate-dependent disease incidence from screening and surveillance data. The method is particularly suited to settings where some individuals may have the disease at baseline, baseline tests may be missing or incomplete, and the screening test has imperfect test sensitivity. This setting was present in data from high-risk colorectal cancer (CRC) surveillance through colonoscopy, where adenomas, precursors of CRC, were already present at baseline and remained undetected due to imperfect test sensitivity. By including covariates, the model can quantify heterogeneity in disease risk, thereby informing personalized screening strategies. Internally, BayesPIM uses a Metropolis-within-Gibbs sampler with data augmentation and weakly informative priors on the incidence and prevalence model parameters. In simulations based on the real-world CRC surveillance data, we show that BayesPIM estimates model parameters without bias while handling latent prevalence and imperfect test sensitivity. However, informative priors on the test sensitivity are needed to stabilize estimation and mitigate non-convergence issues. We also show how conditioning incidence and prevalence estimates on covariates explains heterogeneity in adenoma risk and how model fit is assessed using information criteria and a non-parametric estimator.",
+ "primary": "stat.ME"
+}

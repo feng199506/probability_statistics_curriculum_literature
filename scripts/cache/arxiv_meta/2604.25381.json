@@ -1,0 +1,15 @@
+{
+ "id": "2604.25381",
+ "title": "Post-Hoc Inference of Cross-Classified Statistics from Hierarchical Bayes Survey Weights",
+ "authors": [
+  "Siu-Ming Tam"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 8 tables",
+ "abstract": "Tam [2026] shows that combining Bethel multivariate allocation with Hierarchical Bayes (HB) small area models can substantially reduce survey sample sizes while maintaining domain-level precision and near-nominal coverage of posterior credible intervals (CrIs). This paper extends that framework to cross-classified statistics derived from HBcalibrated unit record data. Its central contribution is a Post-Hoc Inference Engine (PHIE) that propagates uncertainty from HB domain posterior draws to arbitrary cross-tabulations. PHIE transforms each MCMC draw via chi-square calibration to produce replicate survey weights, from which CrIs are obtained. Three tiers of statistics are identified. Tier 1-E cells reproduce calibration totals and yield exact posterior CrIs. Tier 2 cells involve filtered sums of calibration variables; PHIE alone undercovers, but a Calibrated Bayes interval (CBI), augmenting PHIE with design-based compositional variance, restores near-nominal coverage. Tier 3-NCV cells involve non-calibration variables; a ratio-based CBI linked to a correlated calibration variable achieves reliable coverage even under weak correlation. A key empirical finding is that uncertainty in cross-tabulations is driven primarily by compositional sampling variability rather than HB model uncertainty. Resulting CBI-based coefficients of variation remain within standard publication thresholds.",
+ "primary": "stat.ME"
+}

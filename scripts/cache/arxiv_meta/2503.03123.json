@@ -1,0 +1,17 @@
+{
+ "id": "2503.03123",
+ "title": "Few-Round Distributed Principal Component Analysis: Closing the Statistical Efficiency Gap by Consensus",
+ "authors": [
+  "ZeYu Li",
+  "Xinsheng Zhang",
+  "Wang Zhou"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 3,
+ "latest_date": "2025-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distributed algorithms and theories are called for in this era of big data. Under weaker local signal-to-noise ratios, we improve upon the celebrated one-round distributed principal component analysis (PCA) algorithm designed in the spirit of divide-and-conquer, by introducing a few additional communication rounds of consensus. The proposed shifted subspace iteration algorithm is able to close the local phase transition gap, reduce the asymptotic variance, and also alleviate the potential bias. Our estimation procedure is easy to implement and tuning-free. The resulting estimator is shown to be statistically efficient after an acceptable number of iterations. We also discuss extensions to distributed elliptical PCA for heavy-tailed data. Empirical experiments on synthetic and benchmark datasets demonstrate our method's statistical advantage over the divide-and-conquer approach.",
+ "primary": "stat.ME"
+}

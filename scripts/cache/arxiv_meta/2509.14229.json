@@ -1,0 +1,16 @@
+{
+ "id": "2509.14229",
+ "title": "Spacing Test for Fused Lasso",
+ "authors": [
+  "Rieko Tasaka",
+  "Joe Suzuki"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 4,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the spacing test for the one-dimensional fused lasso. In post-selection inference for generalized lasso problems, the selective law is typically described by complicated polyhedral constraints, and the truncation limits of the resulting pivot are not available in simple closed form. We show that the one-dimensional fused lasso admits a remarkable simplification: the lower truncation boundary in the selective law coincides exactly with the next knot on the solution path. Consequently, the conservative spacing test of Tibshirani et al.~(2016), which is generally conservative in nonorthogonal settings, becomes exact for the one-dimensional fused lasso. The resulting selective $p$-value depends only on adjacent knots and has the same simple closed form as the ordinary LARS/lasso spacing statistic, without requiring additional polyhedral computations. Our analysis also gives a geometric interpretation of the fused-lasso path through a CUSUM representation of the knot values, connecting the spacing statistic with classical changepoint methods. Simulation studies confirm exact null calibration. Thus, the one-dimensional fused lasso provides a rare nontrivial example in the generalized-lasso family where exact post-selection inference is both theoretically explicit and computationally simple.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2404.18003",
+ "title": "Estimation of uncertainties in the density driven flow in fractured porous media using MLMC",
+ "authors": [
+  "Dmitry Logashenko",
+  "Alexander Litvinenko",
+  "Raul Tempone",
+  "Gabriel Wittum"
+ ],
+ "v1_date": "2024-04-27",
+ "latest_version": 3,
+ "latest_date": "2024-10-30",
+ "journal_ref": "Engineering with Computers, 2024",
+ "doi": "10.1007/s00366-024-02089-6",
+ "comment": "19 pages, 4 tables, 7 figures. arXiv admin note: text overlap with arXiv:2403.17018",
+ "abstract": "We use the Multi Level Monte Carlo method to estimate uncertainties in a Henry-like salt water intrusion problem with a fracture. The flow is induced by the variation of the density of the fluid phase, which depends on the mass fraction of salt. We assume that the fracture has a known fixed location but an uncertain aperture. Other input uncertainties are the porosity and permeability fields and the recharge. In our setting, porosity and permeability vary spatially and recharge is time-dependent. For each realisation of these uncertain parameters, the evolution of the mass fraction and pressure fields is modelled by a system of non-linear and time-dependent PDEs with a jump of the solution at the fracture. The uncertainties propagate into the distribution of the salt concentration, which is an important characteristic of the quality of water resources. We show that the multilevel Monte Carlo (MLMC) method is able to reduce the overall computational cost compared to classical Monte Carlo methods. This is achieved by balancing discretisation and statistical errors. Multiple scenarios are evaluated at different spatial and temporal mesh levels. The deterministic solver ug4 is run in parallel to calculate all stochastic scenarios.",
+ "primary": "math.NA"
+}

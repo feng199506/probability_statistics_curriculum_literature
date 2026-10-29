@@ -1,0 +1,16 @@
+{
+ "id": "2311.02467",
+ "title": "Individualized Policy Evaluation and Learning under Clustered Network Interference",
+ "authors": [
+  "Yi Zhang",
+  "Kosuke Imai"
+ ],
+ "v1_date": "2023-11-04",
+ "latest_version": 3,
+ "latest_date": "2025-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although there is now a large literature on policy evaluation and learning, much of the prior work assumes that the treatment assignment of one unit does not affect the outcome of another unit. Unfortunately, ignoring interference can lead to biased policy evaluation and ineffective learned policies. For example, treating influential individuals who have many friends can generate positive spillover effects, thereby improving the overall performance of an individualized treatment rule (ITR). We consider the problem of evaluating and learning an optimal ITR under clustered network interference (also known as partial interference), where clusters of units are sampled from a population and units may influence one another within each cluster. Unlike previous methods that impose strong restrictions on spillover effects, such as anonymous interference, the proposed methodology only assumes a semiparametric structural model, where each unit's outcome is an additive function of individual treatments within the cluster. Under this model, we propose an estimator that can be used to evaluate the empirical performance of an ITR. We show that this estimator is substantially more efficient than the standard inverse probability weighting estimator, which does not impose any assumption about spillover effects. We derive the finite-sample regret bound for a learned ITR, showing that the use of our efficient evaluation estimator leads to the improved performance of learned policies. We consider both experimental and observational studies, and for the latter, we develop a doubly robust estimator that is semiparametrically efficient and yields an optimal regret bound. Finally, we conduct simulation and empirical studies to illustrate the advantages of the proposed methodology.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2510.22368",
+ "title": "Sequential monitoring for distributional changepoints using degenerate U-statistics",
+ "authors": [
+  "B. Cooper Boniece",
+  "Lajos Horváth",
+  "Lorenzo Trapani"
+ ],
+ "v1_date": "2025-10-25",
+ "latest_version": 2,
+ "latest_date": "2026-06-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the online detection of changepoints in the distribution of a sequence of observations using a class of degenerate \\textit{U}-statistic-type processes. We consider an ordinary (Chu--Stinchcombe--White-type) detector and a Page-type detector under open- and closed-ended monitoring, and introduce an expanding-baseline Page-type procedure that incorporates sufficiently old monitoring observations into the baseline sample. Under the null, we derive weak limits for all three procedures and justify a Monte Carlo approximation to their critical values. For the ordinary and Page-type detectors, we also establish consistency and limiting distributions for detection delays under both early and late changes. The theory requires only square summability of the eigenvalues associated with the degenerate kernel operator, rather than the stronger absolute-summability condition often imposed in related work. Simulations show competitive performance relative to recent mean-, covariance-, and empirical-CDF-based monitors, and an application to multivariate compressor-sensor data from a metro train illustrates the methodology.",
+ "primary": "math.ST"
+}

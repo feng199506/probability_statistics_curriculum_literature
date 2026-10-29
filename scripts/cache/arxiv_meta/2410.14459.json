@@ -1,0 +1,17 @@
+{
+ "id": "2410.14459",
+ "title": "To Vary or Not To Vary: A Simple Empirical Bayes Factor for Testing Variance Components",
+ "authors": [
+  "Fabio Vieira",
+  "Hongwei Zhao",
+  "Joris Mulder"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 1,
+ "latest_date": "2024-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Random effects are a flexible addition to statistical models to capture structural heterogeneity in the data, such as spatial dependencies, individual differences, temporal dependencies, or non-linear effects. Testing for the presence (or absence) of random effects is an important but challenging endeavor however, as testing a variance component, which must be non-negative, is a boundary problem. Various methods exist which have potential shortcomings or limitations. As a flexible alternative, we propose a flexible empirical Bayes factor (EBF) for testing for the presence of random effects. Rather than testing whether a variance component equals zero or not, the proposed EBF tests the equivalent assumption of whether all random effects are zero. The Bayes factor is `empirical' because the distribution of the random effects on the lower level, which serves as a prior, is estimated from the data as it is part of the model. Empirical Bayes factors can be computed using the output from classical (MLE) or Bayesian (MCMC) approaches. Analyses on synthetic data were carried out to assess the general behavior of the criterion. To illustrate the methodology, the EBF is used for testing random effects under various models including logistic crossed mixed effects models, spatial random effects models, dynamic structural equation models, random intercept cross-lagged panel models, and nonlinear regression models.",
+ "primary": "stat.ME"
+}

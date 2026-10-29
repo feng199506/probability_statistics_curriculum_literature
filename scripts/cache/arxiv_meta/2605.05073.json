@@ -1,0 +1,19 @@
+{
+ "id": "2605.05073",
+ "title": "Heterogeneous Judge-Aware Ranking with Sensitivity, Disagreement, and Confidence",
+ "authors": [
+  "Shibo Yu",
+  "Yingzhou Wang",
+  "Yan Chen",
+  "Guodong Li",
+  "Jin-Hong Du"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 2,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pairwise comparisons from multiple judges are central to large language model evaluation and preference modeling, yet standard ranking pipelines often pool judgments into a single score vector, treating systematic judge disagreement as noise. We propose Heterogeneous Judge-Aware (HJA) ranking, a structured multi-judge ranking framework that separates consensus ranking, judge-specific sensitivity to consensus, and residual preference disagreement. HJA thereby treats ranking, judge sensitivity, and structured disagreement as separate inferential targets. We establish conditions under which this decomposition is identifiable and develop an anchored alternating algorithm that preserves the identifying geometry. For confidence quantification, we study a fixed-panel repeated-comparison regime in which the judge panel may remain fixed or modest while information grows through repeated judgments. This yields uncertainty statements for consensus and judge-specific ranking contrasts, sensitivity parameters, pairwise probabilities, and summaries of residual disagreement.Experiments on synthetic and real multi-judge comparison data show that HJA improves recovery, robustness, uncertainty calibration, and near-tie performance relative to pooled and sensitivity-only baselines. The fitted model also provides diagnostics for judge disagreement and model-affinity patterns, giving a statistically grounded framework for ranking under heterogeneous comparative judgments.",
+ "primary": "stat.ME"
+}

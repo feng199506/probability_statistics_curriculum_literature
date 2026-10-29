@@ -1,0 +1,16 @@
+{
+ "id": "2609.19443",
+ "title": "Robust Error Bounds for Vector-Valued Kernel Ridge Regression",
+ "authors": [
+  "Wenbin Wang",
+  "Colin N. Jones"
+ ],
+ "v1_date": "2026-09-16",
+ "latest_version": 1,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While kernel-based learning methods for scalar-valued functions have been extensively studied, comparatively little work considers nonlinear vector-valued operators. Such operators with vector-valued outputs, e.g., state vectors and trajectories, commonly arise in system identification problems. In this paper, we study the problem of learning a vector-valued operator under the framework of vector-valued kernel ridge regression. We assume that the outputs take values in an arbitrary Hilbert space and are corrupted by additive noise with bounded norm. Under the assumption that the unknown operator belongs to a vector-valued reproducing kernel Hilbert space, we derive a pointwise deterministic bound on the discrepancy between the kernel ridge regression estimator and the ground truth in the corresponding Hilbert space norm. Numerical simulations under two different scenarios are presented to validate the theoretical results.",
+ "primary": "math.ST"
+}

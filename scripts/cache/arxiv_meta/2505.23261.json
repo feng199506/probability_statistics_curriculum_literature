@@ -1,0 +1,20 @@
+{
+ "id": "2505.23261",
+ "title": "A thermodynamic approach to Approximate Bayesian Computation with multiple summary statistics",
+ "authors": [
+  "Carlo Albert",
+  "Simone Ulzega",
+  "Simon Dirmeier",
+  "Andreas Scheidegger",
+  "Alberto Bassi",
+  "Antonietta Mira"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 3,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference with stochastic models is often difficult because their likelihood functions involve high-dimensional integrals. Approximate Bayesian Computation (ABC) avoids evaluating the likelihood function and instead infers model parameters by comparing model simulations with observations using a few carefully chosen summary statistics and a tolerance that can be decreased over time. Here, we present a new variant of simulated-annealing ABC algorithms, drawing intuition from non-equilibrium thermodynamics. We associate each summary statistic with a state variable (energy) quantifying its distance from the observed value, as well as a temperature that controls the extent to which the statistic contributes to the posterior. We derive an optimal annealing schedule on a Riemannian manifold of state variables based on a minimal-entropy-production principle. We validate our approach on standard benchmark tasks from the simulation-based inference literature as well as on challenging real-world inference problems, and show that it is highly competitive with the state of the art.",
+ "primary": "stat.CO"
+}

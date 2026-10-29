@@ -1,0 +1,15 @@
+{
+ "id": "2604.04588",
+ "title": "Noisy Nonreciprocal Pairwise Comparisons: Scale Variation, Noise Calibration, and Admissible Ranking Regions",
+ "authors": [
+  "Jean-Pierre Magnot"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pairwise comparisons are widely used in decision analysis, preference modeling, and evaluation problems. In many practical situations, the observed comparison matrix is not reciprocal. This lack of reciprocity is often treated as a defect to be corrected immediately. In this article, we adopt a different point of view: part of the nonreciprocity may reflect a genuine variation in the evaluation scale, while another part is due to random perturbations. We introduce an additive model in which the unknown underlying comparison matrix is consistent but not necessarily reciprocal. The reciprocal component carries the global ranking information, whereas the symmetric component describes possible scale variation. Around this structured matrix, we add a random perturbation and show how to estimate the noise level, assess whether the scale variation remains moderate, and assign probabilities to admissible ranking regions in the sense of strict ranking by pairwise comparisons. We also compare this approach with the brutal projection onto reciprocal matrices, which suppresses all symmetric information at once. The Gaussian perturbation model is used here not because human decisions are exactly Gaussian, but because observed judgment errors often result from the accumulation of many small effects. In such a context, the central limit principle provides a natural heuristic justification for Gaussian noise. This makes it possible to derive explicit estimators and probability assessments while keeping the model interpretable for decision problems.",
+ "primary": "stat.ML"
+}

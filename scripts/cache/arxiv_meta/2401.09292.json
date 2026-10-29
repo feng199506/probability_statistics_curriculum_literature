@@ -1,0 +1,15 @@
+{
+ "id": "2401.09292",
+ "title": "Hierarchical Analyses Applied to Computer System Performance: Review and Call for Further Studies",
+ "authors": [
+  "Alexander Thomasian"
+ ],
+ "v1_date": "2024-01-17",
+ "latest_version": 1,
+ "latest_date": "2024-01-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We review studies based on analytic and simulation methods for hierarchical performance analysis of Queueing Network - QN models, which result in an order of magnitude reduction in performance evaluation cost with respect to simulation. The computational cost at the lower level is reduced when the computer system is modeled as a product-form QN. A Continuous Time Markov Chain - CTMC or discrete-event simulation can then be used at the higher level. We first consider a multiprogrammed transaction - txn processing system with Poisson arrivals and predeclared locks requests. Txn throughputs obtained by the analysis of multiprogrammed computer systems serve as the transition rates in a higher level CTMC to determine txn response times. We next analyze a task system where task precedence relationships are specified by a directed acyclic graph to determine its makespan. Task service demands are specified on the devices of a computer system. The composition of tasks in execution determines txn throughputs, which serve as transition rates among the states of the higher level CTMC model. As a third example we consider the hierarchical simulation of a timesharing system with two user classes. Txn throughputs in processing various combinations of requests are obtained by analyzing a closed product-form QN model. A discrete event simulator is provided. More detailed QN modeling parameters, such as the distribution of the number of cycles in central server model - CSM affects the performance of a fork/join queueing system. This detail can be taken into account in Schwetman's hybrid simulation method, which counts remaining cycles in CSM. We propose an extension to hybrid simulation to adjust job service demands according to elapsed time, rather than counting cycles. An example where Equilibrium Point Analysis to reduce computaional cost is privided.",
+ "primary": "cs.PF"
+}

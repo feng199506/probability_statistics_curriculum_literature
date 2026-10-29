@@ -1,0 +1,19 @@
+{
+ "id": "2408.10340",
+ "title": "Can an unsupervised clustering algorithm reproduce a categorization system?",
+ "authors": [
+  "Nathalia Castellanos",
+  "Dhruv Desai",
+  "Sebastian Frank",
+  "Stefano Pasquali",
+  "Dhagash Mehta"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 1,
+ "latest_date": "2024-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 4 tables 28 figures",
+ "abstract": "Peer analysis is a critical component of investment management, often relying on expert-provided categorization systems. These systems' consistency is questioned when they do not align with cohorts from unsupervised clustering algorithms optimized for various metrics. We investigate whether unsupervised clustering can reproduce ground truth classes in a labeled dataset, showing that success depends on feature selection and the chosen distance metric. Using toy datasets and fund categorization as real-world examples we demonstrate that accurately reproducing ground truth classes is challenging. We also highlight the limitations of standard clustering evaluation metrics in identifying the optimal number of clusters relative to the ground truth classes. We then show that if appropriate features are available in the dataset, and a proper distance metric is known (e.g., using a supervised Random Forest-based distance metric learning method), then an unsupervised clustering can indeed reproduce the ground truth classes as distinct clusters.",
+ "primary": "stat.ML"
+}

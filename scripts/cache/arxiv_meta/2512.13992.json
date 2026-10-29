@@ -1,0 +1,17 @@
+{
+ "id": "2512.13992",
+ "title": "Bayesian Global-Local Regularization",
+ "authors": [
+  "Jyotishka Datta",
+  "Nick Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a unified framework for global-local regularization that bridges the gap between classical techniques -- such as ridge regression and the nonnegative garotte -- and modern Bayesian hierarchical modeling. By estimating local regularization strengths via marginal likelihood under order constraints, our approach generalizes Stein's positive-part estimator and provides a principled mechanism for adaptive shrinkage in high-dimensional settings. We establish that this isotonic empirical Bayes estimator achieves near-minimax risk (up to logarithmic factors) over sparse ordered model classes, constituting a significant advance in high-dimensional statistical inference. Applications to orthogonal polynomial regression demonstrate the methodology's flexibility, while our theoretical results clarify the connections between empirical Bayes, shape-constrained estimation, and degrees-of-freedom adjustments.",
+ "primary": "stat.ME"
+}

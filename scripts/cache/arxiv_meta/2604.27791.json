@@ -1,0 +1,18 @@
+{
+ "id": "2604.27791",
+ "title": "Reversible Jump MCMC With No Regrets: Bayesian Variable Selection Using Mixtures of Mutually Singular Distributions",
+ "authors": [
+  "Don van den Bergh",
+  "Merlise A. Clyde",
+  "Adrian E. Raftery",
+  "Maarten Marsman"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 1,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian variable selection requires sampling from a posterior distribution that combines discrete model indicators with continuously varying parameters, a challenge often addressed through reversible jump Markov chain Monte Carlo (RJMCMC). Despite its generality, RJMCMC is widely regarded as difficult to design and implement correctly. We present mixtures of mutually singular (MoMS) distributions as a transparent alternative in which competing models are represented within a single fixed-dimensional parameter space partitioned into mutually singular subspaces. We show that this formulation reproduces the exact spike-and-slab interpretation of Bayesian variable selection and that, under appropriate constructions, MoMS and RJMCMC share the same Metropolis--Hastings acceptance probability. On a benchmark dataset with ten predictors, both methods recover posterior inclusion probabilities that match full enumeration, while MoMS achieves comparable or superior effective sample size per second relative to a carefully engineered RJMCMC scheme. We further illustrate the approach in a mixed-effects logistic regression for a sleep-and-memory experiment and in factor-loading selection for a multidimensional generalized partial credit model. Together, these results show that Bayesian variable selection can be carried out within standard fixed-dimensional Markov chain Monte Carlo methodology -- without regret.",
+ "primary": "stat.ME"
+}

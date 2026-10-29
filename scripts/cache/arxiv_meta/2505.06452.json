@@ -1,0 +1,18 @@
+{
+ "id": "2505.06452",
+ "title": "Semiparametric semi-supervised learning for general targets under distribution shift and decaying overlap",
+ "authors": [
+  "Lorenzo Testa",
+  "Qi Xu",
+  "Jing Lei",
+  "Kathryn Roeder"
+ ],
+ "v1_date": "2025-05-09",
+ "latest_version": 3,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 4 figures",
+ "abstract": "In modern scientific applications, large volumes of covariate data are readily available, while outcome labels are costly, sparse, and often subject to distribution shift. This asymmetry has spurred interest in semi-supervised (SS) learning, but most existing approaches rely on strong assumptions -- such as missing completely at random (MCAR) labeling or strict positivity -- that put substantial limitations on their practical usefulness. In this work, we introduce a general semiparametric framework for estimation, inference, and efficiency benchmarking in SS settings where labels are missing at random (MAR) and the overlap may vanish as sample size increases. Our framework, that we label D2S3, accommodates a wide range of smooth statistical targets -- including means, linear regression coefficients, quantiles, and causal effects -- and remains valid under high-dimensional nuisance estimation and distributional shift between labeled and unlabeled samples. We extend the theoretical guarantees of augmented inverse probability weighting estimators to preserve double robustness, asymptotic normality, and semiparametric efficiency under this challenging D2S3 regime. A key insight is that classical root-n convergence fails under vanishing overlap; we instead provide corrected asymptotic rates that capture the impact of the decay in overlap. We validate our theory through simulations and demonstrate practical utility in real-world applications on the internet of things and public health where labeled data are scarce.",
+ "primary": "math.ST"
+}

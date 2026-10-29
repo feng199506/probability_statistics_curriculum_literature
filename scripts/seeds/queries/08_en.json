@@ -1,0 +1,119 @@
+[
+ {
+  "q": "(ti:\"empirical process\" OR ti:\"empirical processes\") AND (ti:introduction OR ti:notes OR ti:survey OR ti:review OR ti:tutorial OR ti:lectures)",
+  "subtopic": "经验过程"
+ },
+ {
+  "q": "abs:\"empirical process\" AND (abs:\"uniform\" OR abs:\"chaining\" OR abs:\"maximal inequality\") AND cat:math.ST",
+  "subtopic": "经验过程"
+ },
+ {
+  "q": "(abs:\"local asymptotic normality\" OR ti:LAN OR abs:\"Le Cam\") AND (cat:math.ST OR cat:math.PR)",
+  "subtopic": "LAN与Le Cam理论"
+ },
+ {
+  "q": "(abs:\"asymptotic efficiency\" OR abs:\"efficient estimator\" OR abs:\"Hajek\" OR abs:\"Hájek\") AND cat:math.ST",
+  "subtopic": "渐近效率"
+ },
+ {
+  "q": "(ti:minimax OR abs:\"minimax rate\" OR abs:\"minimax risk\") AND (ti:survey OR ti:tutorial OR ti:introduction OR ti:review OR ti:notes OR ti:lower)",
+  "subtopic": "极小极大理论"
+ },
+ {
+  "q": "(abs:\"Fano\" OR abs:\"Assouad\" OR abs:\"information-theoretic lower bound\") AND (cat:math.ST OR cat:cs.IT) AND abs:minimax",
+  "subtopic": "信息论下界"
+ },
+ {
+  "q": "(ti:\"nonparametric\" AND (ti:rate OR ti:rates OR ti:\"convergence\")) AND cat:math.ST",
+  "subtopic": "非参数收敛率"
+ },
+ {
+  "q": "(abs:\"semiparametric efficiency\" OR abs:\"efficiency bound\" OR abs:\"efficient influence function\") AND cat:math.ST",
+  "subtopic": "半参数效率理论"
+ },
+ {
+  "q": "(ti:semiparametric) AND (ti:review OR ti:tutorial OR ti:introduction OR ti:primer OR ti:\"lecture notes\" OR ti:theory)",
+  "subtopic": "半参数效率理论"
+ },
+ {
+  "q": "(ti:\"Bernstein-von Mises\" OR ti:\"Bernstein--von Mises\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:asymptotic OR ti:asymptotics) AND (ti:\"maximum likelihood\" OR ti:\"M-estimators\" OR ti:\"M-estimation\" OR ti:\"Z-estimators\") AND cat:math.ST",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"high-dimensional\" OR ti:\"proportional asymptotics\") AND (ti:\"maximum likelihood\" OR ti:\"likelihood ratio\" OR ti:\"M-estimation\") AND cat:math.ST",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"Berry-Esseen\" OR ti:\"Edgeworth\" OR ti:\"Gaussian approximation\") AND cat:math.ST",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"delta method\" OR ti:\"functional delta\" OR ti:\"Hadamard\" OR ti:\"von Mises\") AND cat:math.ST",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"lecture notes\" OR ti:lectures OR ti:\"course notes\") AND (abs:\"asymptotic statistics\" OR abs:\"statistical theory\" OR abs:minimax OR abs:\"high-dimensional statistics\")",
+  "subtopic": "讲义"
+ },
+ {
+  "q": "(abs:\"local differential privacy\" OR abs:\"communication constraints\" OR abs:\"privacy\") AND abs:\"minimax\" AND abs:\"lower bound\" AND cat:math.ST",
+  "subtopic": "信息论下界"
+ },
+ {
+  "q": "(ti:\"Le Cam\" OR ti:\"local asymptotic normality\" OR ti:\"empirical processes\" OR ti:\"minimax lower bounds\" OR ti:\"semiparametric efficiency\")",
+  "subtopic": "经典",
+  "old": true
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:\"lecture notes\" OR ti:primer OR ti:overview) AND cat:math.ST",
+  "subtopic": "讲义"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:\"lecture notes\" OR ti:introduction OR ti:overview) AND (abs:\"optimal transport\" OR abs:\"Wasserstein\") AND (cat:math.ST OR cat:stat.ML)",
+  "subtopic": "非参数收敛率"
+ },
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:overview OR ti:notes) AND (abs:\"approximate message passing\" OR abs:\"proportional asymptotics\" OR abs:\"high-dimensional asymptotics\" OR abs:\"statistical-computational\")",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"influence function\" OR abs:\"pathwise derivative\" OR abs:\"efficient influence function\") AND (ti:tutorial OR ti:introduction OR ti:primer OR ti:review OR ti:guide OR ti:calculus OR ti:\"lecture notes\")",
+  "subtopic": "半参数效率理论"
+ },
+ {
+  "q": "(ti:\"Stein's method\" OR ti:\"Stein method\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.ML)",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"minimax testing\" OR ti:\"goodness-of-fit testing\" OR abs:\"minimax separation\" OR ti:\"testing\") AND abs:\"minimax\" AND abs:\"separation rate\" AND cat:math.ST",
+  "subtopic": "极小极大理论"
+ },
+ {
+  "q": "(ti:\"U-statistics\" OR ti:\"U-statistic\" OR ti:\"V-statistics\") AND cat:math.ST",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"van Trees\" OR ti:\"Cramer-Rao\" OR ti:\"local minimax\" OR ti:\"instance-optimal\" OR ti:\"instance optimality\") AND cat:math.ST",
+  "subtopic": "渐近效率"
+ },
+ {
+  "q": "(ti:\"differential privacy\" OR ti:\"differentially private\") AND (ti:minimax OR ti:\"lower bounds\" OR ti:optimal) AND cat:math.ST",
+  "subtopic": "信息论下界"
+ },
+ {
+  "q": "(ti:\"empirical process\" OR ti:\"empirical processes\" OR ti:\"uniform central limit\" OR ti:\"Donsker\" OR ti:\"VC\" OR ti:\"metric entropy\") AND (cat:math.ST OR cat:math.PR)",
+  "subtopic": "经验过程"
+ },
+ {
+  "q": "(ti:\"Gaussian approximation\" OR ti:\"bootstrap\") AND ti:\"high-dimensional\" AND (cat:math.ST OR cat:math.PR)",
+  "subtopic": "渐近分布"
+ },
+ {
+  "q": "(ti:\"lecture notes\" OR ti:\"lectures on\" OR ti:\"Saint-Flour\" OR ti:\"St-Flour\") AND (cat:math.ST OR cat:stat.ML OR cat:math.PR)",
+  "subtopic": "讲义"
+ }
+]

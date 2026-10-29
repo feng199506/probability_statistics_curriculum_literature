@@ -1,0 +1,21 @@
+{
+ "id": "2408.09876",
+ "title": "Improving Genomic Prediction using High-dimensional Secondary Phenotypes: the Genetic Latent Factor Approach",
+ "authors": [
+  "Killian A. C. Melsen",
+  "Jonathan F. Kunst",
+  "José Crossa",
+  "Margaret R. Krause",
+  "Fred A. van Eeuwijk",
+  "Willem Kruijer",
+  "Carel F. W. Peeters"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 3,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "10.1002/bimj.70081",
+ "comment": "",
+ "abstract": "Decreasing costs and new technologies have led to an increase in the amount of data available to plant breeding programs. High-throughput phenotyping (HTP) platforms routinely generate high-dimensional datasets of secondary features that may be used to improve genomic prediction accuracy. However, integration of these data comes with challenges such as multicollinearity, parameter estimation in $p > n$ settings, and the computational complexity of many standard approaches. Several methods have emerged to analyze such data, but interpretation of model parameters often remains challenging. We propose genetic latent factor best linear unbiased prediction (glfBLUP), a prediction pipeline that reduces the dimensionality of the original secondary HTP data using generative factor analysis. In short, glfBLUP uses redundancy filtered and regularized genetic and residual correlation matrices to fit a maximum likelihood factor model and estimate genetic latent factor scores. These latent factors are subsequently used in multi-trait genomic prediction. Our approach performs better than alternatives in extensive simulations and a real-world application, while producing easily interpretable and biologically relevant parameters. We discuss several possible extensions and highlight glfBLUP as the basis for a flexible and modular multi-trait genomic prediction framework.",
+ "primary": "stat.ME"
+}

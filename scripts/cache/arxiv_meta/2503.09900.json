@@ -1,0 +1,15 @@
+{
+ "id": "2503.09900",
+ "title": "In-vitro measurements coupled with in-silico simulations for stochastic calibration and uncertainty quantification of the mechanical response of biological materials",
+ "authors": [
+  "Mahmut Pekedis"
+ ],
+ "v1_date": "2025-03-12",
+ "latest_version": 2,
+ "latest_date": "2025-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study proposes a simple and practical approach based on in-vitro measurements and in-silico simulation using the likelihood-free Bayesian inference with the finite element method simultaneously for stochastic calibration and uncertainty quantification of the mechanical response of biological materials. We implement the approach for distal, middle, and proximal human Achilles tendon specimens obtained from diabetic patients post-amputation. A wide range of in-vitro loading conditions are considered, including one-step and two-step relaxation, as well as incremental cyclic loading tests. In-silico simulations are performed for the tendons assuming a fiber-reinforced viscoelastic response, which is modeled for the ground matrix and fiber components. Initially, the calibration of the specimen-specific parameters is predicted using Bayesian optimization and the sensitivity of each parameter is evaluated using the Sobol index and random forest. Then, these parameters are used as priors, and coupled with in-vitro data in simulation-based approximate Bayesian computation to calibrate and quantify the uncertainty parameters for three loading cases. The results demonstrate that in-silico simulations using the posterior parameters of approximate Bayesian computation can capture the uncertainty bounds of in-vitro measurements. This approach provides a useful framework for stochastic calibration of constitutive material model parameters without the need to derive a likelihood function, regardless of the specimen's geometry or loading conditions.",
+ "primary": "physics.med-ph"
+}

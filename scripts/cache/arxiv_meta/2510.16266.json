@@ -1,0 +1,17 @@
+{
+ "id": "2510.16266",
+ "title": "Mortality Modeling and Forecasting with the Actuaries Climate Index",
+ "authors": [
+  "Karim Barigou",
+  "Melanie Patten",
+  "Kenneth Q. Zhou"
+ ],
+ "v1_date": "2025-10-17",
+ "latest_version": 1,
+ "latest_date": "2025-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Climate change poses increasing challenges for mortality modeling and underscores the need to integrate climate-related variables into mortality forecasting. This study introduces a two-step approach that incorporates climate information from the Actuaries Climate Index (ACI) into mortality models. In the first step, we model region-specific seasonal mortality dynamics using the Lee-Carter model with SARIMA processes, a cosine-sine decomposition, and a cyclic spline-based function. In the second step, residual deviations from the baseline model are explained by ACI components using Generalized Linear Models, Generalized Additive Models, and Extreme Gradient Boosting. To further capture the dependence between mortality and climate, we develop a SARIMA-Copula forecasting approach linking mortality period effects with temperature extremes. Our results show that incorporating ACI components systematically enhances out-of-sample accuracy, underscoring the value of integrating climate-related variables into stochastic mortality modeling. The proposed framework offers actuaries and policymakers a practical tool for anticipating and managing climate-related mortality risks.",
+ "primary": "stat.AP"
+}

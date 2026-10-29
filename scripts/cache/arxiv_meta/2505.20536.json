@@ -1,0 +1,17 @@
+{
+ "id": "2505.20536",
+ "title": "Covariate-Adjusted Deep Causal Learning for Heterogeneous Panel Data Models",
+ "authors": [
+  "Guanhao Zhou",
+  "Yuefeng Han",
+  "Xiufan Yu"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the task of estimating heterogeneous treatment effects in causal panel data models, in the presence of covariate effects. We propose a novel Covariate-Adjusted Deep Causal Learning (CoDEAL) for panel data models, that employs flexible model structures and powerful neural network architectures to cohesively deal with the underlying heterogeneity and nonlinearity of both panel units and covariate effects. The proposed CoDEAL integrates nonlinear covariate effect components (parameterized by a feed-forward neural network) with nonlinear factor structures (modeled by a multi-output autoencoder) to form a heterogeneous causal panel model. The nonlinear covariate component offers a flexible framework for capturing the complex influences of covariates on outcomes. The nonlinear factor analysis enables CoDEAL to effectively capture both cross-sectional and temporal dependencies inherent in the data panel. This latent structural information is subsequently integrated into a customized matrix completion algorithm, thereby facilitating more accurate imputation of missing counterfactual outcomes. Moreover, the use of a multi-output autoencoder explicitly accounts for heterogeneity across units and enhances the model interpretability of the latent factors. We establish theoretical guarantees on the convergence of the estimated counterfactuals, and demonstrate the compelling performance of the proposed method using extensive simulation studies and a real data application.",
+ "primary": "stat.ML"
+}

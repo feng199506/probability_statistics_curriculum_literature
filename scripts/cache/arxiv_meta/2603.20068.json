@@ -1,0 +1,18 @@
+{
+ "id": "2603.20068",
+ "title": "Approximate posterior recalibration",
+ "authors": [
+  "Tiffany Cai",
+  "Philip Greengard",
+  "Ben Goodrich",
+  "Andrew Gelman"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference is often implemented using approximations, which can yield interval estimates that are too narrow, not fully capturing the uncertainty in the posterior distribution. We address the question of how to adjust these approximate posteriors so that they appropriately capture uncertainty. vWe introduce two methods that extend simulation-based calibration checking (SBC) to widen approximate posterior uncertainty intervals to aim for marginal calibration. We demonstrate these methods in several experimental settings, and we discuss the challenge of calibration using posterior inferences and the potential for posterior recalibration of hierarchical models.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2402.01121",
+ "title": "Causal Estimation and Inference in Nonlinear Mendelian Randomization Studies",
+ "authors": [
+  "Xinpei Wang",
+  "Tao Huang",
+  "Jinzhu Jia"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 2,
+ "latest_date": "2025-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 7 figures",
+ "abstract": "Mendelian randomization (MR) is widely used to uncover causal relationships in the presence of unmeasured confounders. However, most existing MR methods presuppose linear causality, risking bias when the true relationships are nonlinear, which is a common empirical scenario. In this paper, we compared two prevalent instrumental variable techniques (the two-stage prediction method and the control function method) under both linear and nonlinear settings, and addressed key issues such as horizontal pleiotropy and violations of classical assumptions in control function method. Most notably, we proposed a flexible semiparametric approach that estimates the causal function without a priori specification, reducing the risk of model misspecification, and extended our methods to binary outcomes, broadening its applicability. For all approaches, we provided estimators, standard errors, and test statistics, to facilitate robust causal inference. Extensive numerical simulations demonstrated that our proposed methods exhibited both accuracy and robustness across diverse scenarios. Applying our methods to UK Biobank data uncovered significant nonlinear causal effects missed by linear MR approaches. We offer an R package implementation for broader and more convenient use.",
+ "primary": "stat.ME"
+}

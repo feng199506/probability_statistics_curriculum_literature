@@ -1,0 +1,22 @@
+{
+ "id": "1404.1578",
+ "title": "Models as Approximations I: Consequences Illustrated with Linear Regression",
+ "authors": [
+  "Andreas Buja",
+  "Richard Berk",
+  "Lawrence Brown",
+  "Edward George",
+  "Emil Pitkin",
+  "Mikhail Traskin",
+  "Linda Zhao",
+  "Kai Zhang"
+ ],
+ "v1_date": "2014-04-06",
+ "latest_version": 4,
+ "latest_date": "2019-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted",
+ "abstract": "In the early 1980s Halbert White inaugurated a \"model-robust'' form of statistical inference based on the \"sandwich estimator'' of standard error. This estimator is known to be \"heteroskedasticity-consistent\", but it is less well-known to be \"nonlinearity-consistent'' as well. Nonlinearity, however, raises fundamental issues because in its presence regressors are not ancillary, hence can't be treated as fixed. The consequences are deep: (1)~population slopes need to be re-interpreted as statistical functionals obtained from OLS fits to largely arbitrary joint $\\xy$~distributions; (2)~the meaning of slope parameters needs to be rethought; (3)~the regressor distribution affects the slope parameters; (4)~randomness of the regressors becomes a source of sampling variability in slope estimates; (5)~inference needs to be based on model-robust standard errors, including sandwich estimators or the $\\xy$~bootstrap. In theory, model-robust and model-trusting standard errors can deviate by arbitrary magnitudes either way. In practice, significant deviations between them can be detected with a diagnostic test.",
+ "primary": "stat.ME"
+}

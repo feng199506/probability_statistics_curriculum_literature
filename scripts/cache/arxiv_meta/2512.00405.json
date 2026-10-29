@@ -1,0 +1,18 @@
+{
+ "id": "2512.00405",
+ "title": "Evaluating Surrogates in Individualized Treatment Rules",
+ "authors": [
+  "Zeyu Xu",
+  "Xiaojie Mao",
+  "Hao Mei",
+  "Yue Liu"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 2,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, no figures",
+ "abstract": "In many decision-making problems, the primary outcome is expensive, time-consuming, or difficult to observe, so individualized treatment rules (ITRs) may be instead learned from surrogate endpoints. However, a surrogate that is highly associated with the primary outcome, or even satisfies existing surrogate criteria, may not necessarily induce a treatment rule that performs well on the primary outcome, especially under treatment resource budget constraints. In this paper, we develop a principled framework for evaluating the decision-making value of surrogate endpoints. We introduce three ITR-oriented performance measures: surrogate regret, which assesses the expected loss from using the surrogate-optimal ITR instead of outcome-optimal ITR; surrogate gain, which quantifies the benefit of surrogate-optimal ITRs relative to the no-treatment baseline; and surrogate efficiency, which evaluates improvement over random treatment assignment. We also extend them to budget-constrained settings. We propose augmented inverse probability weighted (AIPW) estimators for these measures and establish their large-sample properties. We demonstrate the proposed approach on both simulations and an application to the Criteo dataset.",
+ "primary": "stat.ME"
+}

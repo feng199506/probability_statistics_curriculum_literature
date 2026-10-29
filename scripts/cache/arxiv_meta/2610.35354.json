@@ -1,0 +1,18 @@
+{
+ "id": "2610.35354",
+ "title": "Sharp Fourth-Moment Wasserstein CLT Bounds",
+ "authors": [
+  "Xiao Fang",
+  "Zi-Yao Su",
+  "Jiaxue Wang",
+  "Xiaolin Wang"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages",
+ "abstract": "We prove that for the normalized sum $W=\\sum_{i=1}^n X_i/\\sqrt{n}$ of independent, mean-zero, $d$-dimensional random vectors with $\\operatorname{Cov}(W) =Σ=\\operatorname{diag}(σ_1^2,\\dots, σ_d^2)$ (the diagonal form of the covariance matrix is assumed without loss of generality), the 2-Wasserstein distance from $W$ to $N(0,Σ)$ is bounded by \\[\\sqrt{2\\sum_{j=1}^d \\min \\left\\{σ_j^2, \\frac{\\sum_{i=1}^n \\mathbb{E} [|X_i'-X_i|^2(X'_{ij}-X_{ij})^2 ] }{n^2 σ_j^2} \\right\\}},\\] where $|\\cdot|$ denotes the Euclidean norm, $X_i'$ is an independent copy of $X_i$, and $X_{ij}$ ($X_{ij}'$ resp.) denotes the $j$th coordinate of the vector $X_i$ ($X_i'$ resp.). On the one hand, it gives the optimal rate $O(β\\sqrt{d/n})$ if $|X_i|\\leq β$ for all $i$. On the other hand, in the isotropic case where $Σ=I_d$, it gives the optimal fourth-moment bound $O\\left(\\sqrt{\\sum_{i=1}^n \\mathbb{E}|X_i|^4/n^2}\\right)$. Moreover, the coordinatewise minima suggest a tradeoff between the naïve coupling and the normal coupling for each component. To prove the main result, we develop a new transportation inequality using a coupling via the Föllmer process with a general covariance matrix and the martingale property of its drift. The resulting bound is then controlled using a Bonis-type expansion together with Bessel's inequality. The method and the result extend to $p$-Wasserstein bounds. As a consequence, we obtain the Hilbert space 4-Wasserstein CLT bound $O(n^{-1/4}[\\operatorname{tr}(Q^{1/2})]^{1/2})$, where, in the i.i.d. case, $Q=\\mathbb{E}[|X_1'-X_1|^2(X_1'-X_1)^{\\otimes2}]$ and the $O(n^{-1/4})$ rate is optimal given the dimension-free form of $Q$. We further strengthen it to a dimension-free strong approximation result with a near-optimal error rate through the KMT embedding construction.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.12697",
+ "title": "A Computationally Efficient Approach to False Discovery Rate Control and Power Maximisation via Randomisation and Mirror Statistic",
+ "authors": [
+  "Marco Molinari",
+  "Magne Thoresen"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 2,
+ "latest_date": "2025-05-07",
+ "journal_ref": "Statistical Methods in Medical Research. 2025;0(0)",
+ "doi": "10.1177/09622802251329768",
+ "comment": "",
+ "abstract": "Simultaneously performing variable selection and inference in high-dimensional regression models is an open challenge in statistics and machine learning. The increasing availability of vast amounts of variables requires the adoption of specific statistical procedures to accurately select the most important predictors in a high-dimensional space, while controlling the false discovery rate (FDR) associated with the variable selection procedure. In this paper, we propose the joint adoption of the Mirror Statistic approach to FDR control, coupled with outcome randomisation to maximise the statistical power of the variable selection procedure, measured through the true positive rate. Through extensive simulations, we show how our proposed strategy allows us to combine the benefits of the two techniques. The Mirror Statistic is a flexible method to control FDR, which only requires mild model assumptions, but requires two sets of independent regression coefficient estimates, usually obtained after splitting the original dataset. Outcome randomisation is an alternative to data splitting that allows to generate two independent outcomes, which can then be used to estimate the coefficients that go into the construction of the Mirror Statistic. The combination of these two approaches provides increased testing power in a number of scenarios, such as highly correlated covariates and high percentages of active variables. Moreover, it is scalable to very high-dimensional problems, since the algorithm has a low memory footprint and only requires a single run on the full dataset, as opposed to iterative alternatives such as multiple data splitting.",
+ "primary": "stat.ME"
+}

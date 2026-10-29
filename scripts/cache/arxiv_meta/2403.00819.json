@@ -1,0 +1,17 @@
+{
+ "id": "2403.00819",
+ "title": "Jump detection in high-frequency order prices",
+ "authors": [
+  "Markus Bibinger",
+  "Nikolaus Hautsch",
+  "Alexander Ristig"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 2,
+ "latest_date": "2025-08-31",
+ "journal_ref": "",
+ "doi": "10.1016/j.jeconom.2025.106133",
+ "comment": "51 pages, 14 figures, 8 tables",
+ "abstract": "We propose methods to infer jumps of a semi-martingale, which describes long-term price dynamics, based on discrete, noisy, high-frequency observations. Different to the classical model of additive, centered market microstructure noise, we consider one-sided microstructure noise for order prices in a limit order book. We develop methods to estimate, locate and test for jumps using local minima of best ask quotes. We provide a local jump test and show that we can consistently estimate jump sizes and jump times. One main contribution is a global test for jumps. We establish the asymptotic properties and optimality of this test. We derive the asymptotic distribution of a maximum statistic under the null hypothesis of no jumps based on extreme value theory. We prove consistency under the alternative hypothesis. The rate of convergence for local alternatives is determined and shown to be much faster than optimal rates for the standard market microstructure noise model. This allows the identification of smaller jumps. In the process, we establish uniform consistency for spot volatility estimation under one-sided noise. Online jump detection based on the new approach is shown to achieve a speed advantage compared to standard methods applied to mid quotes. A simulation study sheds light on the finite-sample implementation and properties of the new approach and draws a comparison to a popular method for market microstructure noise. We showcase how our new approach helps to improve jump detection in an empirical analysis of intra-daily limit order book data.",
+ "primary": "q-fin.ST"
+}

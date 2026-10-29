@@ -1,0 +1,21 @@
+{
+ "id": "2506.04814",
+ "title": "Distributed lag non-linear models with Laplacian-P-splines for analysis of spatially structured time series",
+ "authors": [
+  "Sara Rutten",
+  "Bryan Sumalinab",
+  "Oswaldo Gressani",
+  "Thomas Neyens",
+  "Elisa Duarte",
+  "Niel Hens",
+  "Christel Faes"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "Statistics and Computing, Volume 36, Article 38 (2026)",
+ "doi": "10.1007/s11222-025-10790-9",
+ "comment": "",
+ "abstract": "Distributed lag non-linear models (DLNM) have gained popularity for modeling nonlinear lagged relationships between exposures and outcomes. When applied to spatially referenced data, these models must account for spatial dependence, a challenge that has yet to be thoroughly explored within the penalized DLNM framework. This gap is mainly due to the complex model structure and high computational demands, particularly when dealing with large spatio-temporal datasets. To address this, we propose a novel Bayesian DLNM-Laplacian-P-splines (DLNM-LPS) approach that incorporates spatial dependence using conditional autoregressive (CAR) priors, a method commonly applied in disease mapping. Our approach offers a flexible framework for capturing nonlinear associations while accounting for spatial dependence. It uses the Laplace approximation to approximate the conditional posterior distribution of the regression parameters, eliminating the need for Markov chain Monte Carlo (MCMC) sampling, often used in Bayesian inference, thus improving computational efficiency. The methodology is evaluated through simulation studies and applied to analyze the relationship between temperature and mortality in London.",
+ "primary": "stat.ME"
+}

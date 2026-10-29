@@ -1,0 +1,17 @@
+{
+ "id": "1912.11436",
+ "title": "Universal Inference",
+ "authors": [
+  "Larry Wasserman",
+  "Aaditya Ramdas",
+  "Sivaraman Balakrishnan"
+ ],
+ "v1_date": "2019-12-24",
+ "latest_version": 4,
+ "latest_date": "2022-10-19",
+ "journal_ref": "",
+ "doi": "10.1073/pnas.1922664117",
+ "comment": "To appear in the Proceedings of the National Academy of Sciences",
+ "abstract": "We propose a general method for constructing hypothesis tests and confidence sets that have finite sample guarantees without regularity conditions. We refer to such procedures as \"universal.\" The method is very simple and is based on a modified version of the usual likelihood ratio statistic, that we call \"the split likelihood ratio test\" (split LRT). The method is especially appealing for irregular statistical models. Canonical examples include mixture models and models that arise in shape-constrained inference. Constructing tests and confidence sets for such models is notoriously difficult. Typical inference methods, like the likelihood ratio test, are not useful in these cases because they have intractable limiting distributions. In contrast, the method we suggest works for any parametric model and also for some nonparametric models. The split LRT can also be used with profile likelihoods to deal with nuisance parameters, and it can also be run sequentially to yield anytime-valid $p$-values and confidence sequences.",
+ "primary": "math.ST"
+}

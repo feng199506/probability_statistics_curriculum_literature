@@ -1,0 +1,18 @@
+{
+ "id": "1610.02351",
+ "title": "Panning for Gold: Model-X Knockoffs for High-dimensional Controlled Variable Selection",
+ "authors": [
+  "Emmanuel Candes",
+  "Yingying Fan",
+  "Lucas Janson",
+  "Jinchi Lv"
+ ],
+ "v1_date": "2016-10-07",
+ "latest_version": 4,
+ "latest_date": "2017-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 10 figures, 2 tables",
+ "abstract": "Many contemporary large-scale applications involve building interpretable models linking a large set of potential covariates to a response in a nonlinear fashion, such as when the response is binary. Although this modeling problem has been extensively studied, it remains unclear how to effectively control the fraction of false discoveries even in high-dimensional logistic regression, not to mention general high-dimensional nonlinear models. To address such a practical problem, we propose a new framework of $model$-$X$ knockoffs, which reads from a different perspective the knockoff procedure (Barber and Candès, 2015) originally designed for controlling the false discovery rate in linear models. Whereas the knockoffs procedure is constrained to homoscedastic linear models with $n\\ge p$, the key innovation here is that model-X knockoffs provide valid inference from finite samples in settings in which the conditional distribution of the response is arbitrary and completely unknown. Furthermore, this holds no matter the number of covariates. Correct inference in such a broad setting is achieved by constructing knockoff variables probabilistically instead of geometrically. To do this, our approach requires the covariates be random (independent and identically distributed rows) with a distribution that is known, although we provide preliminary experimental evidence that our procedure is robust to unknown/estimated distributions. To our knowledge, no other procedure solves the $controlled$ variable selection problem in such generality, but in the restricted settings where competitors exist, we demonstrate the superior power of knockoffs through simulations. Finally, we apply our procedure to data from a case-control study of Crohn's disease in the United Kingdom, making twice as many discoveries as the original analysis of the same data.",
+ "primary": "stat.ME"
+}

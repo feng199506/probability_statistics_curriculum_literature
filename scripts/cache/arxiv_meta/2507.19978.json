@@ -1,0 +1,16 @@
+{
+ "id": "2507.19978",
+ "title": "Extreme value theory for singular subspace estimation in the matrix denoising model",
+ "authors": [
+  "Junhyung Chang",
+  "Joshua Cape"
+ ],
+ "v1_date": "2025-07-26",
+ "latest_version": 2,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "60 pages, 8 figures",
+ "abstract": "This paper studies fine-grained singular subspace estimation in the matrix denoising model where a deterministic low-rank signal matrix is additively perturbed by a stochastic matrix of Gaussian noise. We establish that the maximum Euclidean row norm (i.e., the two-to-infinity norm) of the aligned difference between the leading sample and population singular vectors approaches the Gumbel distribution in the large-matrix limit, under suitable signal-to-noise conditions and after appropriate centering and scaling. We apply our novel asymptotic distributional theory to test hypotheses of low-rank signal structure encoded in the leading singular vectors and their corresponding principal subspace. We provide de-biased estimators for the corresponding nuisance signal singular values and show that our proposed plug-in test statistic has desirable properties. Notably, compared to using the Frobenius norm subspace distance, our test statistic based on the two-to-infinity norm empirically has higher power to detect structured alternatives that differ from the null in only a few matrix entries or rows. Our main results are obtained by a novel synthesis of and technical analysis involving row-wise matrix perturbation analysis, extreme value theory, saddle point approximation methods, and random matrix theory. Our contributions complement the existing literature for matrix denoising focused on minimaxity, mean squared error analysis, unitarily invariant distances between subspaces, component-wise asymptotic distributional theory, and row-wise uniform error bounds. Numerical simulations illustrate our main results and demonstrate the robustness properties of our testing procedure to non-Gaussian noise distributions.",
+ "primary": "math.ST"
+}

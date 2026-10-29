@@ -1,0 +1,15 @@
+{
+ "id": "2403.03240",
+ "title": "Triple/Debiased Lasso for Statistical Inference of Conditional Average Treatment Effects",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2024-03-05",
+ "latest_version": 1,
+ "latest_date": "2024-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study investigates the estimation and the statistical inference about Conditional Average Treatment Effects (CATEs), which have garnered attention as a metric representing individualized causal effects. In our data-generating process, we assume linear models for the outcomes associated with binary treatments and define the CATE as a difference between the expected outcomes of these linear models. This study allows the linear models to be high-dimensional, and our interest lies in consistent estimation and statistical inference for the CATE. In high-dimensional linear regression, one typical approach is to assume sparsity. However, in our study, we do not assume sparsity directly. Instead, we consider sparsity only in the difference of the linear models. We first use a doubly robust estimator to approximate this difference and then regress the difference on covariates with Lasso regularization. Although this regression estimator is consistent for the CATE, we further reduce the bias using the techniques in double/debiased machine learning (DML) and debiased Lasso, leading to $\\sqrt{n}$-consistency and confidence intervals. We refer to the debiased estimator as the triple/debiased Lasso (TDL), applying both DML and debiased Lasso techniques. We confirm the soundness of our proposed method through simulation studies.",
+ "primary": "stat.ME"
+}

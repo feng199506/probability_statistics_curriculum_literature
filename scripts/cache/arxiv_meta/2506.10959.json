@@ -1,0 +1,18 @@
+{
+ "id": "2506.10959",
+ "title": "Understanding In-Context Learning on Structured Manifolds: Bridging Attention to Kernel Methods",
+ "authors": [
+  "Zhaiming Shen",
+  "Alexander Hsu",
+  "Rongjie Lai",
+  "Wenjing Liao"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While in-context learning (ICL) has achieved remarkable success in natural language and vision domains, its theoretical understanding-particularly in the context of structured geometric data-remains unexplored. This paper initiates a theoretical study of ICL for regression of Hölder functions on manifolds. We establish a novel connection between the attention mechanism and classical kernel methods, demonstrating that transformers effectively perform kernel-based prediction at a new query through its interaction with the prompt. This connection is validated by numerical experiments, revealing that the learned query-prompt scores for Hölder functions are highly correlated with the Gaussian kernel. Building on this insight, we derive generalization error bounds in terms of the prompt length and the number of training tasks. When a sufficient number of training tasks are observed, transformers give rise to the minimax regression rate of Hölder functions on manifolds, which scales exponentially with respect to the prompt length with the exponent depending on the intrinsic dimension of the manifold, rather than the ambient space dimension. Our result also characterizes how the generalization error scales with the number of training tasks, shedding light on the complexity of transformers as in-context kernel algorithm learners. Our findings provide foundational insights into the role of geometry in ICL and novels tools to study ICL of nonlinear models.",
+ "primary": "cs.LG"
+}

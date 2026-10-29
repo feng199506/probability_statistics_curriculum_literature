@@ -1,0 +1,16 @@
+{
+ "id": "2603.09089",
+ "title": "Sampling on Discrete Spaces with Temporal Point Processes",
+ "authors": [
+  "Cameron A. Stewart",
+  "Maneesh Sahani"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 2,
+ "latest_date": "2026-05-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 1 figure. Minor revisions to wording, notation, and formatting. No substantive changes",
+ "abstract": "Temporal point processes offer a powerful framework for sampling from discrete distributions, yet they remain underutilized in existing literature. We show how to construct, for any target multivariate count distribution with downward-closed support, a multivariate temporal point process whose event-count vector in a fixed-length sliding window converges in distribution to the target as time tends to infinity. Structured as a system of potentially coupled infinite-server queues with deterministic service times, the sampler exhibits a discrete form of momentum that suppresses random-walk behaviour. The admissible families of processes permit both reversible and non-reversible dynamics. As an application, we derive a recurrent stochastic neural network whose dynamics implement sampling-based computation and exhibit some biologically plausible features, including relative refractory periods and oscillations. The introduction of auxiliary randomness reduces the sampler to a birth-death process, establishing the latter as a degenerate case with the same limiting distribution. In simulations on 63 target distributions, our sampler always outperforms these birth-death processes and frequently outperforms Zanella processes in multivariate effective sample size, with further gains when normalized by CPU time.",
+ "primary": "stat.CO"
+}

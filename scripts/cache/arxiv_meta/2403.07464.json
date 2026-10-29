@@ -1,0 +1,16 @@
+{
+ "id": "2403.07464",
+ "title": "On Ranking-based Tests of Independence",
+ "authors": [
+  "Myrto Limnios",
+  "Stéphan Clémençon"
+ ],
+ "v1_date": "2024-03-12",
+ "latest_version": 1,
+ "latest_date": "2024-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we develop a novel nonparametric framework to test the independence of two random variables $\\mathbf{X}$ and $\\mathbf{Y}$ with unknown respective marginals $H(dx)$ and $G(dy)$ and joint distribution $F(dx dy)$, based on {\\it Receiver Operating Characteristic} (ROC) analysis and bipartite ranking. The rationale behind our approach relies on the fact that, the independence hypothesis $\\mathcal{H}_0$ is necessarily false as soon as the optimal scoring function related to the pair of distributions $(H\\otimes G,\\; F)$, obtained from a bipartite ranking algorithm, has a ROC curve that deviates from the main diagonal of the unit square.We consider a wide class of rank statistics encompassing many ways of deviating from the diagonal in the ROC space to build tests of independence. Beyond its great flexibility, this new method has theoretical properties that far surpass those of its competitors. Nonasymptotic bounds for the two types of testing errors are established. From an empirical perspective, the novel procedure we promote in this paper exhibits a remarkable ability to detect small departures, of various types, from the null assumption $\\mathcal{H}_0$, even in high dimension, as supported by the numerical experiments presented here.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2508.03310",
+ "title": "Robust fuzzy clustering with cellwise outliers",
+ "authors": [
+  "Giorgia Zaccaria",
+  "Lorenzo Benzakour",
+  "Luis A. García-Escudero",
+  "Francesca Greselin",
+  "Agustín Mayo-Íscar"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 3,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "10.1016/j.ijar.2026.109698",
+ "comment": "",
+ "abstract": "In a data matrix, we may distinguish between cases, each represented by a row vector for a statistical unit, and cells, which correspond to single entries of the data matrix. Recent developments in Robust Statistics have introduced the cellwise contamination paradigm, which assumes contamination on cells rather than on entire cases. This approach becomes particularly relevant as the number of variables increases. Indeed, discarding or downweighting entire cases because of a few anomalous cells in them, as done by traditional (casewise) robust methods, can result in substantial information loss, since the non-contaminated (or reliable) cells can still be highly informative. This philosophy can also be considered in fuzzy clustering, by assuming that reliable cells within a case may still provide useful information for determining fuzzy memberships. A robust fuzzy clustering proposal is thus introduced in this work, combining the advantages of dealing with outlying cells and simultaneously controlling the degree of fuzziness of unit assignments. The cluster-specific relationships among variables, detected by the fuzzy clustering approach, are also key to better identifying outlying cells and correct them. The strengths of the proposed methodology are illustrated through a simulation study and two real-world applications. The effects of the model's tuning parameters are explored, and some guidance for users on how to set them suitably is provided.",
+ "primary": "stat.ME"
+}

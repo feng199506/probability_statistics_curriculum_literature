@@ -1,0 +1,16 @@
+{
+ "id": "2605.11935",
+ "title": "Bayesian low-rank latent-cluster regression for mixed health outcomes",
+ "authors": [
+  "Hsin-Hsiung Huang",
+  "Suyeon Kang"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional health and surveillance studies often involve many collinear predictors, multiple correlated outcomes of different types, and latent heterogeneity across observational units. We propose a Bayesian latent-cluster reduced-rank regression model for multivariate mixed outcomes. The model is a finite mixture of regression surfaces: each latent cluster has a cluster-specific mean shift and a low-rank coefficient matrix, yielding simultaneous clustering, dimension reduction, and component-wise interpretability. Response coordinates may be Gaussian, Bernoulli, or negative binomial. Multiplicative gamma process shrinkage adapts the effective rank within each cluster, and a WAIC-based criterion is used to tune the number of clusters and the nominal maximal rank. We establish posterior contraction for the identifiable component-specific regression surfaces and mean shifts, up to label permutation, and derive corresponding contraction for predictor-side singular subspaces. We also analyze the default label-invariant reporting pipeline based on the posterior similarity matrix: an eigenspace embedding followed by mean shift is shown to consistently recover the latent partition under an additional strong separation margin. Simulation experiments spanning all-Gaussian, all-Bernoulli, all-negative-binomial, and mixed Gaussian--Bernoulli--negative-binomial regimes show accurate recovery of the number of clusters and competitive clustering performance against $K$-means, mclust, PCA-based clustering, and a Gaussian reduced-rank mixture benchmark. We illustrate the method in three applications that show how the model separates individual-level utilization groups and produces interpretable county- and state-level cluster maps together with response-specific posterior predictive maps.",
+ "primary": "stat.ME"
+}

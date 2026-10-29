@@ -1,0 +1,16 @@
+{
+ "id": "2507.12457",
+ "title": "Asymptotic Theory of $K$-fold Cross-validation in Lasso and the validity of Bootstrap",
+ "authors": [
+  "Mayukh Choudhury",
+  "Debraj Das"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 6,
+ "latest_date": "2026-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Least absolute shrinkage and selection operator or Lasso is one of the widely used regularization methods in regression. Statisticians usually implement Lasso in practice by choosing the penalty parameter in a data-dependent way, the most popular being the $K-$fold cross-validation (or $K-$fold CV). However, inferential properties, such as the variable selection consistency and $n^{1/2}-$consistency, of the $K-$fold CV based Lasso estimator and validity of the Bootstrap approximation are still unknown. In this paper, we consider the heteroscedastic linear regression model and show only under some moment type conditions that the Lasso estimator with $K$-fold CV based penalty is $n^{1/2}-$consistent, but not variable selection consistent. Additionally, we establish the validity of Bootstrap in approximating the distribution of the $K-$fold CV based Lasso estimator. Therefore, our results theoretically justify the use of $K-$fold CV based Lasso estimator to perform statistical inference in linear regression. We validate our Bootstrap method for the $K-$fold CV based Lasso estimator in finite samples based on simulations. We also implement our Bootstrap based inference on a real data set.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.15793",
+ "title": "Doubly regularized generalized linear models for spatial observations with high-dimensional covariates",
+ "authors": [
+  "Arjun Sondhi",
+  "Si Cheng",
+  "Ali Shojaie"
+ ],
+ "v1_date": "2024-01-28",
+ "latest_version": 2,
+ "latest_date": "2024-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A discrete spatial lattice can be cast as a network structure over which spatially-correlated outcomes are observed. A second network structure may also capture similarities among measured features, when such information is available. Incorporating the network structures when analyzing such doubly-structured data can improve predictive power, and lead to better identification of important features in the data-generating process. Motivated by applications in spatial disease mapping, we develop a new doubly regularized regression framework to incorporate these network structures for analyzing high-dimensional datasets. Our estimators can be easily implemented with standard convex optimization algorithms. In addition, we describe a procedure to obtain asymptotically valid confidence intervals and hypothesis tests for our model parameters. We show empirically that our framework provides improved predictive accuracy and inferential power compared to existing high-dimensional spatial methods. These advantages hold given fully accurate network information, and also with networks which are partially misspecified or uninformative. The application of the proposed method to modeling COVID-19 mortality data suggests that it can improve prediction of deaths beyond standard spatial models, and that it selects relevant covariates more often.",
+ "primary": "stat.ME"
+}

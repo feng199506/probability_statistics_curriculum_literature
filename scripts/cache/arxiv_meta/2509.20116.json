@@ -1,0 +1,16 @@
+{
+ "id": "2509.20116",
+ "title": "Configuration and Benchmarking of $\\mathrm{e}^+\\mathrm{e}^-$ Processes with K4GeneratorsConfig",
+ "authors": [
+  "Alan Price",
+  "Dirk Zerwas"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "Eur. Phys. J. C 86, 778 (2026)",
+ "doi": "10.1140/epjc/s10052-026-16049-5",
+ "comment": "Updated to published version",
+ "abstract": "The next generation of electron-positron colliders will require unprecedented precision in both theory and experiment. Sophisticated software frameworks are essential to evaluate detector concepts, optimize designs, and simulating physical processes. In this context, Monte Carlo (MC) event generators play a central role, enabling realistic simulations of Standard Model processes and providing the basis for physics studies. However, technical consistency across different generators remains critical, particularly in domains where agreement is expected. To address this need, we present K4GeneratorsConfig, a Python-based package that automates the benchmarking process for MC generators. The tool translates universal physics inputs into generator-specific configurations, ensuring consistency, reproducibility, and reduced human error. Its modular design allows for straightforward integration of additional generators, supports batch processing, and provides compatibility with the Key4hep software stack",
+ "primary": "hep-ph"
+}

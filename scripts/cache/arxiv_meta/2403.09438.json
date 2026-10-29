@@ -1,0 +1,15 @@
+{
+ "id": "2403.09438",
+ "title": "On some extensions of shape-constrained generalized additive modelling in R",
+ "authors": [
+  "Natalya Pya Arnqvist"
+ ],
+ "v1_date": "2024-03-14",
+ "latest_version": 2,
+ "latest_date": "2024-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Regression models that incorporate smooth functions of predictor variables to explain the relationships with a response variable have gained widespread usage and proved successful in various applications. By incorporating smooth functions of predictor variables, these models can capture complex relationships between the response and predictors while still allowing for interpretation of the results. In situations where the relationships between a response variable and predictors are explored, it is not uncommon to assume that these relationships adhere to certain shape constraints. Examples of such constraints include monotonicity and convexity. The scam package for R has become a popular package to carry out the full fitting of exponential family generalized additive modelling with shape restrictions on smooths. The paper aims to extend the existing framework of shape-constrained generalized additive models (SCAM) to accommodate smooth interactions of covariates, linear functionals of shape-constrained smooths and incorporation of residual autocorrelation. The methods described in this paper are implemented in the recent version of the package scam, available on the Comprehensive R Archive Network (CRAN).",
+ "primary": "stat.CO"
+}

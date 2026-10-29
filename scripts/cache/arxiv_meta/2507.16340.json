@@ -1,0 +1,16 @@
+{
+ "id": "2507.16340",
+ "title": "Structured linear factor models for tail dependence",
+ "authors": [
+  "Alexis Boulin",
+  "Axel Bücher"
+ ],
+ "v1_date": "2025-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages",
+ "abstract": "A common object to describe the extremal dependence of a $d$-variate random vector $X$ is the stable tail dependence function $L$. Various parametric models have emerged, with a popular subclass consisting of those stable tail dependence functions that arise for linear and max-linear factor models with heavy tailed factors. The stable tail dependence function is then parameterized by a $d \\times K$ matrix $A$, where $K$ is the number of factors and where $A$ can be interpreted as a factor loading matrix. We study estimation of $L$ under an additional assumption on $A$ called the `pure variable assumption'. Both $K \\in \\{1, \\dots, d\\}$ and $A \\in [0, \\infty)^{d \\times K}$ are treated as unknown, which constitutes an unconventional parameter space that does not fit into common estimation frameworks. We suggest two algorithms that allow to estimate $K$ and $A$, and provide finite sample guarantees for both algorithms. Remarkably, the guarantees allow for the case where the dimension $d$ is larger than the sample size $n$. The results are illustrated with numerical experiments and two case studies.",
+ "primary": "math.ST"
+}

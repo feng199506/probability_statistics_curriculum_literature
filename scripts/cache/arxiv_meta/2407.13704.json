@@ -1,0 +1,16 @@
+{
+ "id": "2407.13704",
+ "title": "Discovering governing equation in structural dynamics from acceleration-only measurements",
+ "authors": [
+  "Calvin Alvares",
+  "Souvik Chakraborty"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 1,
+ "latest_date": "2024-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Over the past few years, equation discovery has gained popularity in different fields of science and engineering. However, existing equation discovery algorithms rely on the availability of noisy measurements of the state variables (i.e., displacement {and velocity}). This is a major bottleneck in structural dynamics, where we often only have access to acceleration measurements. To that end, this paper introduces a novel equation discovery algorithm for discovering governing equations of dynamical systems from acceleration-only measurements. The proposed algorithm employs a library-based approach for equation discovery. To enable equation discovery from acceleration-only measurements, we propose a novel Approximate Bayesian Computation (ABC) model that prioritizes parsimonious models. The efficacy of the proposed algorithm is illustrated using {four} structural dynamics examples that include both linear and nonlinear dynamical systems. The case studies presented illustrate the possible application of the proposed approach for equation discovery of dynamical systems from acceleration-only measurements.",
+ "primary": "stat.ML"
+}

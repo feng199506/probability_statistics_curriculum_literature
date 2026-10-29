@@ -1,0 +1,17 @@
+{
+ "id": "2609.35206",
+ "title": "Tight Lower Bounds for Stochastic Nonconvex-Strongly-Concave Minimax Optimization",
+ "authors": [
+  "Siqi Zhang",
+  "Qilong Wu",
+  "Junchi Yang"
+ ],
+ "v1_date": "2026-09-28",
+ "latest_version": 1,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the stochastic first-order oracle complexity of finding $ε$-stationary points of the primal function in smooth nonconvex-strongly-concave minimax optimization. For sufficiently small $ε$, we establish lower bounds of $Ω(κLΔσ^2ε^{-4})$ under the bounded-variance assumption and $Ω(κ^{3/2}\\bar LΔσε^{-3})$ under the additional assumption of averaged smoothness. Here, $L$ and $\\bar L$ denote the smoothness and averaged-smoothness constants, respectively, $Δ$ is the initial primal gap, $σ^2$ bounds the oracle variance, and $κ=L/μ$ or $\\bar L/μ$ in the respective settings, where $μ$ is the strong-concavity parameter. Our bounded-variance lower bound improves the dependence on the condition number from $κ^{1/3}$ in previous lower bounds to $κ$, while our averaged-smoothness lower bound is the first of its kind. In both settings, the resulting lower bounds match existing upper bounds in their dependence on $κ$ and $ε$. Our proofs are based on a unified quadratic lifting construction that transfers a hardness instance for stochastic nonconvex minimization to unconstrained minimax optimization while preserving the required variance and smoothness properties.",
+ "primary": "math.OC"
+}

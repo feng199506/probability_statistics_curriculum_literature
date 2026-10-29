@@ -1,0 +1,16 @@
+{
+ "id": "2508.05469",
+ "title": "Let's Measure Information Step-by-Step: AI-Based Evaluation Beyond Vibes",
+ "authors": [
+  "Zachary Robertson",
+  "Sanmi Koyejo"
+ ],
+ "v1_date": "2025-08-07",
+ "latest_version": 4,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to TMLR (2026). Updated appendix to restore the proof of Theorem 3.3",
+ "abstract": "We evaluate artificial intelligence (AI) systems without ground truth by exploiting a link between strategic gaming and information loss. Building on established information theory, we analyze which mechanisms resist adversarial manipulation. This motivates mutual evaluation, where the overseer is treated as a strategic player estimating mutual information by prompting, making truthful agent reporting an optimal strategy. We show that certain f-divergences, such as total variation distance (TVD), maintain polynomial guarantees under attack, building on an established exponential barrier for estimating mutual information (MI) in worst-case certification settings. Under adversarial attacks, TVD-MI maintains effectiveness (area under the curve 0.70--0.77) while other approaches can decay toward chance, demonstrating that prompting the same system for information relationships rather than quality judgments can improve robustness. The mechanisms decompose pairwise evaluations into reliable item-level detection scores without ground truth, addressing a key limitation of standard peer prediction. Pre-registration: https://osf.io/c7pum .",
+ "primary": "cs.LG"
+}

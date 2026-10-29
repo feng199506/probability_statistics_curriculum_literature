@@ -1,0 +1,18 @@
+{
+ "id": "2603.13009",
+ "title": "TwoTimeScales: An R-package for Smoothing Hazards with Two Time Scales",
+ "authors": [
+  "Angela Carollo",
+  "Paul H. C. Eilers",
+  "Hein Putter",
+  "Jutta Gampe"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 1,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 6 figures",
+ "abstract": "Background: Time-to-event data with multiple time scales are observed in many epidemiological and clinical studies. While models that allow for simultaneous consideration of multiple time scales for the hazard of an event have been proposed, their use is still not wide-spread in applied research. One reason for this might be the lack of convenient statistical software to estimate such models. Here we introduce the R-package TwoTimeScales. The package provides tools to estimate models for hazards that vary smoothly over two time scales, including proportional hazards models with such a two-dimensional baseline hazard. Extensions to competing risks models are implemented as well. Methodology is based on two-dimensional smoothing with P-splines. Results: We demonstrate the features of the R-package by analysing a freely available dataset containing post-surgery follow-up data on patients with breast cancer. We present two examples, a proportional hazards regression and a competing risks problem. Besides estimation, we illustrate the plotting utilities of the package. Conclusion: The R-package TwoTimeScales can be easily used to fit flexible hazard models with two time scales, allowing new perspectives in the analysis of time-to-event data with multiple time scales.",
+ "primary": "stat.ME"
+}

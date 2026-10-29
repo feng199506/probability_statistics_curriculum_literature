@@ -1,0 +1,15 @@
+{
+ "id": "2604.25237",
+ "title": "Generalized Local Polynomial Regression with Decomposed Context-Aware Kernels",
+ "authors": [
+  "Yaniv Shulman"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Local Polynomial Regression (LPR) is a powerful tool for nonparametric smoothing, yet it traditionally suffers from a \"Euclidean tautology\": the variables used to define the local neighborhood are identical to those used in the polynomial fit. This restricts its ability to handle complex domains where the regression function varies across non-Euclidean structures, such as graphs, manifolds, or discrete categories, while remaining locally smooth in the primary feature space. We propose Generalized Context-Aware LPR (GC-LPR), a framework that decouples the fitting coordinates ($Z$) from the weighting context ($C$). By adopting a modeling convention where the conditional mean depends jointly on $Z$ and $C$ ($Y = m_C(Z) + \\varepsilon$), our estimator acts as a \"projected smoother\": it isolates a slice of the data on the manifold defined by $C$ via a compound product kernel, and performs polynomial fitting in the $Z$-coordinates within that slice. This enables practitioners to model responses that vary across graphs, networks, or categorical strata while retaining the interpretability and bias properties of LPR in a primary Euclidean feature space. Theoretical analysis clarifies the induced context-smoothed target of GC-LPR and shows that the method preserves the Euclidean bias-reduction properties of standard LPR while allowing arbitrary, non-Euclidean contexts to modulate the local estimation. We demonstrate the efficacy of this approach on geospatial and network-structured datasets.",
+ "primary": "stat.ME"
+}

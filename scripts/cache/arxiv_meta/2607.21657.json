@@ -1,0 +1,16 @@
+{
+ "id": "2607.21657",
+ "title": "Jointly estimating transmissibility and prior immunity from epidemic time series",
+ "authors": [
+  "David J. D. Earn",
+  "Todd L. Parsons"
+ ],
+ "v1_date": "2026-07-22",
+ "latest_version": 2,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 4 figures, 1 table. Generalized the method so estimates can be obtained before the epidemic reaches its peak; added a workflow figure and supporting appendices",
+ "abstract": "Infectious disease time series are often used to estimate a pathogen's basic reproduction number, $R_0$. However, fits of epidemic models to time series conflate pathogen transmissibility with pre-existing population immunity, so only the *effective* reproduction number, $R_{eff}$, can be inferred. This composite parameter is the product of the underlying $R_0$ and the pre-epidemic susceptible fraction, $x^-$. We show that a conservation law associated with epidemic momentum---prevalence weighted by potential to infect---makes it possible to disentangle transmissibility from prior immunity and to infer $R_0$ and $x^-$ separately from a single epidemic time series. We test the methodology using stochastic epidemic simulations, and illustrate the approach with a reappraisal of influenza transmissibility during the 1918 pandemic, estimating rather than assuming the degree of prior population immunity. For the autumn wave in Philadelphia, USA, we find $R_0\\approx2.7$ and $x^-\\approx0.8$, implying that about 20% of the population was already immune before that wave, plausibly as a result of infection during the spring 1918 herald wave.",
+ "primary": "q-bio.PE"
+}

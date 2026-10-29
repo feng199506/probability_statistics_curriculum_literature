@@ -1,0 +1,21 @@
+{
+ "id": "2511.11114",
+ "title": "Multivariate longitudinal modeling of cross-sectional and lagged associations between a continuous time-varying endogenous covariate and a non-Gaussian outcome",
+ "authors": [
+  "Chiara Degan",
+  "Bart J. A. Mertens",
+  "Jelle Goeman",
+  "Nadine A. Ikelaar",
+  "Erik H. Niks",
+  "Pietro Spitali",
+  "Roula Tsonaka"
+ ],
+ "v1_date": "2025-11-14",
+ "latest_version": 1,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In longitudinal studies, time-varying covariates are often endogenous, meaning their values depend on both their own history and that of the outcome variable. This violates key assumptions of Generalized Linear Mixed Effects Models (GLMMs), leading to biased and inconsistent estimates. Additionally, missing data and non-concurrent measurements between covariates and outcomes further complicate analysis, especially in rare or degenerative diseases where data is limited. To address these challenges, we propose an alternative use of two well-known multivariate models, each assuming a different form of the association. One induces the association by jointly modeling the random effects, called Joint Mixed Model (JMM); the other quantifies the association using a scaling factor, called Joint Scaled Model (JSM). We extend these models to accommodate continuous endogenous covariates and a wide range of longitudinal outcome types. A limitation in both cases is that the interpretation of the association is neither straightforward nor easy to communicate to scientists. Hence, we have numerically derived an association coefficient that measures the marginal relation between the outcome and the endogenous covariate. The proposed method provides interpretable, population-level estimates of cross-sectional associations (capturing relationships between covariates and outcomes measured at the same time point) and lagged associations (quantifying how past covariate values influence future outcomes), enabling clearer clinical insights. We fitted the JMM and JSM using a flexible Bayesian estimation approach, known as Integrated Nested Laplace Approximation (INLA), to overcome computation burden problems. These models will be presented along with the results of a simulation study and a natural history study on patients with Duchenne Muscular Dystrophy.",
+ "primary": "stat.ME"
+}

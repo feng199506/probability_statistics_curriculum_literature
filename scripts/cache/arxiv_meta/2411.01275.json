@@ -1,0 +1,15 @@
+{
+ "id": "2411.01275",
+ "title": "Optimal Private and Communication Constraint Distributed Goodness-of-Fit Testing for Discrete Distributions in the Large Sample Regime",
+ "authors": [
+  "Lasse Vuursteen"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in the Thirty-eight Conference on Neural Information Processing Systems -- 10 page article + 20 pages appendix and references",
+ "abstract": "We study distributed goodness-of-fit testing for discrete distribution under bandwidth and differential privacy constraints. Information constraint distributed goodness-of-fit testing is a problem that has received considerable attention recently. The important case of discrete distributions is theoretically well understood in the classical case where all data is available in one \"central\" location. In a federated setting, however, data is distributed across multiple \"locations\" (e.g. servers) and cannot readily be shared due to e.g. bandwidth or privacy constraints that each server needs to satisfy. We show how recently derived results for goodness-of-fit testing for the mean of a multivariate Gaussian model extend to the discrete distributions, by leveraging Le Cam's theory of statistical equivalence. In doing so, we derive matching minimax upper- and lower-bounds for the goodness-of-fit testing for discrete distributions under bandwidth or privacy constraints in the regime where the number of samples held locally is large.",
+ "primary": "math.ST"
+}

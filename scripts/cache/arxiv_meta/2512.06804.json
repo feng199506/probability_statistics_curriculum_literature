@@ -1,0 +1,16 @@
+{
+ "id": "2512.06804",
+ "title": "Making Event Study Plots Honest: A Functional Data Approach to Causal Inference",
+ "authors": [
+  "Chencheng Fang",
+  "Dominik Liebl"
+ ],
+ "v1_date": "2025-12-07",
+ "latest_version": 3,
+ "latest_date": "2026-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Event study plots are the centerpiece of Difference-in-Differences (DiD) analysis, but current plotting methods cannot provide honest causal inference when the parallel trends and/or no-anticipation assumptions fail. We introduce a novel functional data approach to DiD that directly enables honest causal inference via event study plots. Our DiD estimator converges to a Gaussian process in the Banach space of continuous functions, enabling powerful simultaneous confidence bands. This theoretical contribution allows us to turn an event study plot into a rigorous honest causal inference tool through equivalence and relevance testing: Honest reference bands can be validated using equivalence testing in the pre-treatment period, and honest causal effects can be tested using relevance testing in the post-treatment period. We demonstrate the performance of our method in simulations and two case studies.",
+ "primary": "econ.EM"
+}

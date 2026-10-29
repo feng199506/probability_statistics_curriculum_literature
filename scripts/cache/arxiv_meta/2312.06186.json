@@ -1,0 +1,17 @@
+{
+ "id": "2312.06186",
+ "title": "Stationary measures of continuous time Markov chains with applications to stochastic reaction networks",
+ "authors": [
+  "Mads Chr Hansen",
+  "Carsten Wiuf",
+  "Chuang Xu"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 2,
+ "latest_date": "2024-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study continuous-time Markov chains on the non-negative integers under mild regularity conditions (in particular, the set of jump vectors is finite and both forward and backward jumps are possible). Based on the so-called flux balance equation, we derive an iterative formula for calculating stationary measures. Specifically, a stationary measure $π(x)$ evaluated at $x\\in\\N_0$ is represented as a linear combination of a few generating terms, similarly to the characterization of a stationary measure of a birth-death process, where there is only one generating term, $π(0)$. The coefficients of the linear combination are recursively determined in terms of the transition rates of the Markov chain. For the class of Markov chains we consider, there is always at least one stationary measure (up to a scaling constant). We give various results pertaining to uniqueness and non-uniqueness of stationary measures, and show that the dimension of the linear space of signed invariant measures is at most the number of generating terms. A minimization problem is constructed in order to compute stationary measures numerically. Moreover, a heuristic linear approximation scheme is suggested for the same purpose by first approximating the generating terms. The correctness of the linear approximation scheme is justified in some special cases. Furthermore, a decomposition of the state space into different types of states (open and closed irreducible classes, and trapping, escaping and neutral states) is presented. Applications to stochastic reaction networks are well illustrated.",
+ "primary": "math.PR"
+}

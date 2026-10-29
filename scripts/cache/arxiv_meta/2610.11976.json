@@ -1,0 +1,15 @@
+{
+ "id": "2610.11976",
+ "title": "Efficient quadratic entropy with distance sketches",
+ "authors": [
+  "Steve Huntsman"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 2,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code for reproducing results in LaTeX comments; removed submission checklist from v1",
+ "abstract": "We detail scalable methods for approximating the quadratic entropy $p^T d p$ for arbitrary distributions $p$ and common distances $d$ of negative type. We focus on the Euclidean and spherical geodesic cases, which both use random feature embeddings and projections to dramatically improve computational complexity within a simple framework. Amortization of a single large matrix multiplication and control variates further enable computation at large scale with low memory and runtime in situations where $d$ is held constant while $p$ varies. We demonstrate this with a comparison against direct pair sampling and bibliometric/scientometric examples on Open Graph Benchmark datasets, revealing papers, fields, and institutions with both particularly narrow and broad interdisciplinary reach from their citations and text features alone.",
+ "primary": "stat.ML"
+}

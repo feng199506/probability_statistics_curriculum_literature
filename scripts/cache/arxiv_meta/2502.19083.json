@@ -1,0 +1,17 @@
+{
+ "id": "2502.19083",
+ "title": "Scalable skewed Bayesian inference for latent Gaussian models",
+ "authors": [
+  "Shourya Dutta",
+  "Janet van Niekerk",
+  "Haavard Rue"
+ ],
+ "v1_date": "2025-02-26",
+ "latest_version": 1,
+ "latest_date": "2025-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Bayesian inference for the class of latent Gaussian models can be achieved efficiently with integrated nested Laplace approximations (INLA). Based on recent reformulations in the INLA methodology, we propose a further extension that is necessary in some cases like heavy-tailed likelihoods or binary regression with imbalanced data. This extension formulates a skewed version of the Laplace method such that some marginals are skewed and some are kept Gaussian while the dependence is maintained with the Gaussian copula from the Laplace method. Our approach is formulated to be scalable in model and data size, using a variational inferential framework enveloped in INLA. We illustrate the necessity and performance using simulated cases, as well as a case study of a rare disease where class imbalance is naturally present.",
+ "primary": "stat.ME"
+}

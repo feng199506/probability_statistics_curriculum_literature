@@ -1,0 +1,18 @@
+{
+ "id": "2601.13458",
+ "title": "Labels or Preferences? Budget-Constrained Learning with Human Judgments over AI-Generated Outputs",
+ "authors": [
+  "Zihan Dong",
+  "Xiaotian Hou",
+  "Ruijia Wu",
+  "Linjun Zhang"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 2,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The increasing reliance on human preference feedback to judge AI-generated pseudo labels has created a pressing need for principled, budget-conscious data acquisition strategies. We address the crucial question of how to optimally allocate a fixed annotation budget between ground-truth labels and pairwise preferences in AI. Our solution, grounded in semi-parametric inference, casts the budget allocation problem as a monotone missing data framework. Building on this formulation, we introduce Preference-Calibrated Active Learning (PCAL), a novel method that learns the optimal data acquisition strategy and develops a statistically efficient estimator for functionals of the data distribution. Theoretically, we prove the asymptotic optimality of our PCAL estimator and establish a key robustness guarantee that ensures robust performance even with poorly estimated nuisance models. Our flexible framework applies to a general class of problems, by directly optimizing the estimator's variance instead of requiring a closed-form solution. This work provides a principled and statistically efficient approach for budget-constrained learning in modern AI. Simulations and real-data analysis demonstrate the practical benefits and superior performance of our proposed method.",
+ "primary": "stat.ML"
+}

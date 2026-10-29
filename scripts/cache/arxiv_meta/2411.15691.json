@@ -1,0 +1,17 @@
+{
+ "id": "2411.15691",
+ "title": "Semi-supervised inference using unlabeled summary statistics",
+ "authors": [
+  "Facheng Yu",
+  "Zhen Qi",
+  "Yuqian Zhang"
+ ],
+ "v1_date": "2024-11-24",
+ "latest_version": 4,
+ "latest_date": "2026-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semi-supervised inference assumes access to a labeled dataset together with a large unlabeled dataset in which the outcome variable is missing, and it is widely used to improve statistical efficiency and support generalizability across populations. In many modern applications, however, individual-level unlabeled data may not be directly accessible due to privacy restrictions, data-sharing limits, or storage constraints, while summary statistics such as sample means and covariances from the unlabeled population are often available. In this work, we study this constrained semi-supervised setting where, in addition to labeled data with individualized observations, auxiliary information from the unlabeled population is available only through summary statistics. We propose new semi-supervised inference methods for mean estimation under both covariate-independent and covariate-dependent labeling and show that unlabeled summaries can still improve efficiency and help correct selection bias. The proposed methods apply in high dimensions and are robust to model misspecification. Valid inference is obtained under sparsity conditions comparable to those required by semi-supervised methods that assume access to individual-level unlabeled samples. Our approach relies on a specialized cross-fitting procedure, where sample splitting is applied only to the labeled data, which removes the need for individualized unlabeled covariates. We further extend this framework to average treatment effect estimation, enabling generalizability and transportability of causal conclusions in this constrained semi-supervised setting.",
+ "primary": "stat.ME"
+}

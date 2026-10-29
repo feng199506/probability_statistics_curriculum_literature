@@ -1,0 +1,15 @@
+{
+ "id": "2412.02513",
+ "title": "Quantile-Crossing Spectrum and Spline Autoregression Estimation",
+ "authors": [
+  "Ta-Hsin Li"
+ ],
+ "v1_date": "2024-12-03",
+ "latest_version": 2,
+ "latest_date": "2025-11-25",
+ "journal_ref": "Statistical Inference for Stochastic Processes, 28:20, 2025",
+ "doi": "10.1007/s11203-025-09336-7",
+ "comment": "",
+ "abstract": "The quantile-crossing spectrum is the spectrum of quantile-crossing processes created from a time series by the indicator function that shows whether or not the time series lies above or below a given quantile at a given time. This bivariate function of frequency and quantile level provides a richer view of serial dependence than that offered by the ordinary spectrum. We propose a new method for estimating the quantile-crossing spectrum as a bivariate function of frequency and quantile level. The proposed method, called spline autoregression (SAR), jointly fits an AR model to the quantile-crossing series across multiple quantiles; the AR coefficients are represented as spline functions of the quantile level and penalized for their roughness. Numerical experiments show that when the underlying spectrum is smooth in quantile level the proposed method is able to produce more accurate estimates in comparison with the alternative that ignores the smoothness.",
+ "primary": "stat.ME"
+}

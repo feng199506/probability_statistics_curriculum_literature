@@ -1,0 +1,18 @@
+{
+ "id": "2412.07905",
+ "title": "Spectral Differential Network Analysis for High-Dimensional Time Series",
+ "authors": [
+  "Michael Hellstern",
+  "Byol Kim",
+  "Zaid Harchaoui",
+  "Ali Shojaie"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 13 figures, AISTATS 2025",
+ "abstract": "Spectral networks derived from multivariate time series data arise in many domains, from brain science to Earth science. Often, it is of interest to study how these networks change under different conditions. For instance, to better understand epilepsy, it would be interesting to capture the changes in the brain connectivity network as a patient experiences a seizure, using electroencephalography data. A common approach relies on estimating the networks in each condition and calculating their difference. Such estimates may behave poorly in high dimensions as the networks themselves may not be sparse in structure while their difference may be. We build upon this observation to develop an estimator of the difference in inverse spectral densities across two conditions. Using an L1 penalty on the difference, consistency is established by only requiring the difference to be sparse. We illustrate the method on synthetic data experiments and on experiments with electroencephalography data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2407.16399",
+ "title": "A new numerical scheme for Itô stochastic differential equations based on Wick-type Wong-Zakai arguments",
+ "authors": [
+  "Alberto Lanconelli",
+  "Berk Tan Perçin"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 1,
+ "latest_date": "2024-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 0 figures",
+ "abstract": "The aim of this note is to propose a novel numerical scheme for drift-less one dimensional stochastic differential equations of Itô's type driven by standard Brownian motion. Our approximation method is equivalent to the well known Milstein scheme as long as the rate of convergence is concerned, i.e. it is strongly convergent with order one, but has the additional desirable property of being exact for linear diffusion coefficients. Our approach is inspired by Wick-type Wong-Zakai arguments in the sense that we only smooth the white noise through polygonal approximation of the Brownian motion while keep the equation in differential form. A first order Taylor expansion of the diffusion coefficient allows us to solve the resulting equation explicitly and hence to provide an implementable approximation scheme.",
+ "primary": "math.PR"
+}

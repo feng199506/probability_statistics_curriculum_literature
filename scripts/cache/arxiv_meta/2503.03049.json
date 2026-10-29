@@ -1,0 +1,20 @@
+{
+ "id": "2503.03049",
+ "title": "Estimating treatment effects with competing intercurrent events in randomized controlled trials",
+ "authors": [
+  "Sizhu Lu",
+  "Yanyao Yi",
+  "Yongming Qu",
+  "Huayu Karen Liu",
+  "Ting Ye",
+  "Peng Ding"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 3,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The analysis of randomized controlled trials is often complicated by intercurrent events (IEs) -- events that occur after treatment initiation and affect either the interpretation or existence of outcome measurements. Examples include treatment discontinuation or the use of additional medications. In two recent clinical trials for systemic lupus erythematosus with complications of IEs, we classify the IEs into two broad categories: effect-informative (e.g., treatment discontinuation due to adverse events or lack of efficacy) and effect-uninformative (e.g., treatment discontinuation due to external factors such as pandemics or relocation). To define a clinically meaningful estimand, we adopt tailored strategies for each category of IEs. For effect-informative IEs, which are often informative about a patient's outcome, we use the composite variable strategy that assigns an outcome value indicative of treatment failure. For effect-uninformative IEs, we apply the hypothetical strategy, assuming their timing is conditionally independent of the outcome given treatment and baseline covariates, and hypothesizing a scenario in which such events do not occur. A central yet previously overlooked challenge is the presence of competing IEs, where the first IE censors all subsequent ones. Despite its ubiquity in practice, this issue has not been explicitly recognized or addressed in previous data analyses due to the lack of rigorous statistical methodology. In this paper, we propose a principled framework to formulate the estimand, establish its nonparametric identification and semiparametric estimation theory, and introduce weighting, outcome regression, and doubly robust estimators. We apply our methods to analyze the two systemic lupus erythematosus trials, demonstrating the robustness and practical utility of the proposed framework.",
+ "primary": "stat.ME"
+}

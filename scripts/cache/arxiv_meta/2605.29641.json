@@ -1,0 +1,18 @@
+{
+ "id": "2605.29641",
+ "title": "Experimentation for Different Scheduling Policies on Queues: Mixed Differences-in-Q Estimators Based on Little's Law",
+ "authors": [
+  "Nanshan Jia",
+  "Ramesh Johari",
+  "Nian Si",
+  "Zeyu Zheng"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 2,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In data centers, tasks are dispatched to various servers to evenly distribute the workload. When a data center considers implementing a new scheduling algorithm, it typically conducts an A/B test prior to deployment to assess the real-world impact of this new method. However, a straightforward A/B test might be interfered with so-called ``Markovian'' interference. We utilized the Differences-in-Q estimator, as developed by Farias et al. (2022), and introduced mixed Differences-in-Q estimators grounded in Little's Law. We show that our A/B testing methods significantly reduce bias and variance when testing various scheduling policies. Extensive simulations were conducted under scenarios like non-stationary arrival rates, heterogeneous service rates, and communication delays. These simulations highlight the robustness and efficacy of our A/B testing approach.",
+ "primary": "stat.ME"
+}

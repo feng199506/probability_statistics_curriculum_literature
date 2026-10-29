@@ -1,0 +1,19 @@
+{
+ "id": "2601.17773",
+ "title": "MarketGANs: Multivariate financial time-series data augmentation using generative adversarial networks",
+ "authors": [
+  "Jeonggyu Huh",
+  "Seungwon Jeong",
+  "Hyun-Gyoon Kim",
+  "Hyeng Keun Koo",
+  "Byung Hwa Lim"
+ ],
+ "v1_date": "2026-01-25",
+ "latest_version": 1,
+ "latest_date": "2026-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces MarketGAN, a factor-based generative framework for high-dimensional asset return generation under severe data scarcity. We embed an explicit asset-pricing factor structure as an economic inductive bias and generate returns as a single joint vector, thereby preserving cross-sectional dependence and tail co-movement alongside inter-temporal dynamics. MarketGAN employs generative adversarial learning with a temporal convolutional network (TCN) backbone, which models stochastic, time-varying factor loadings and volatilities and captures long-range temporal dependence. Using daily returns of large U.S. equities, we find that MarketGAN more closely matches empirical stylized facts of asset returns, including heavy-tailed marginal distributions, volatility clustering, leverage effects, and, most notably, high-dimensional cross-sectional correlation structures and tail co-movement across assets, than conventional factor-model-based bootstrap approaches. In portfolio applications, covariance estimates derived from MarketGAN-generated samples outperform those derived from other methods when factor information is at least weakly informative, demonstrating tangible economic value.",
+ "primary": "q-fin.ST"
+}

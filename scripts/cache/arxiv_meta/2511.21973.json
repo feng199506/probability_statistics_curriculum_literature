@@ -1,0 +1,17 @@
+{
+ "id": "2511.21973",
+ "title": "A Non-Bipartite Matching Framework for Difference-in-Differences with General Treatment Types",
+ "authors": [
+  "Siyu Heng",
+  "Yuan Huang",
+  "Hyunseung Kang"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This working manuscript reports preliminary results from our ongoing research on this topic. Additional simulation studies, data applications, methodological developments, and detailed results are still in progress and will be incorporated in future versions. This document is therefore not a final version of our work",
+ "abstract": "Difference-in-differences (DID) is one of the most widely used causal inference frameworks in observational studies. However, most existing DID methods are designed for binary treatments and cannot be readily applied to non-binary treatment settings. Although recent work has begun to extend DID to non-binary (e.g., continuous) treatments, these approaches typically require strong additional assumptions, including parametric outcome models or the presence of idealized comparison units with (nearly) static treatment levels over time (commonly called ``stayers'' or ``quasi-stayers''). In this technical note, we introduce a new non-bipartite matching framework for DID that naturally accommodates general treatment types (e.g., binary, ordinal, or continuous). Our framework makes three main contributions. First, we develop an optimal non-bipartite matching design for DID that jointly balances baseline covariates across comparable units (reducing bias) and maximizes contrasts in treatment trajectories over time (improving efficiency). Second, we establish a post-matching randomization condition, the design-based counterpart to the traditional parallel-trends assumption, which enables valid design-based inference. Third, we introduce the sample average DID ratio, a finite-population-valid and fully nonparametric causal estimand applicable to arbitrary treatment types. Our design-based approach that preserves the full treatment-dose information, avoids parametric assumptions, does not rely on the existence of stayers or quasi-stayers, and operates entirely within a finite-population framework, without appealing to hypothetical super-populations or outcome distributions.",
+ "primary": "stat.ME"
+}

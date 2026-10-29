@@ -1,0 +1,19 @@
+{
+ "id": "2109.11727",
+ "title": "Smoothing splines approximation using Hilbert curve basis selection",
+ "authors": [
+  "Cheng Meng",
+  "Jun Yu",
+  "Yongkai Chen",
+  "Wenxuan Zhong",
+  "Ping Ma"
+ ],
+ "v1_date": "2021-09-24",
+ "latest_version": 2,
+ "latest_date": "2022-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Smoothing splines have been used pervasively in nonparametric regressions. However, the computational burden of smoothing splines is significant when the sample size $n$ is large. When the number of predictors $d\\geq2$, the computational cost for smoothing splines is at the order of $O(n^3)$ using the standard approach. Many methods have been developed to approximate smoothing spline estimators by using $q$ basis functions instead of $n$ ones, resulting in a computational cost of the order $O(nq^2)$. These methods are called the basis selection methods. Despite algorithmic benefits, most of the basis selection methods require the assumption that the sample is uniformly-distributed on a hyper-cube. These methods may have deteriorating performance when such an assumption is not met. To overcome the obstacle, we develop an efficient algorithm that is adaptive to the unknown probability density function of the predictors. Theoretically, we show the proposed estimator has the same convergence rate as the full-basis estimator when $q$ is roughly at the order of $O[n^{2d/\\{(pr+1)(d+2)\\}}\\quad]$, where $p\\in[1,2]$ and $r\\approx 4$ are some constants depend on the type of the spline. Numerical studies on various synthetic datasets demonstrate the superior performance of the proposed estimator in comparison with mainstream competitors.",
+ "primary": "stat.ME"
+}

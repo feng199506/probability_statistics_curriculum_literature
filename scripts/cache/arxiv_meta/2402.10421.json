@@ -1,0 +1,17 @@
+{
+ "id": "2402.10421",
+ "title": "Recurrent Neural Networks for Multivariate Loss Reserving and Risk Capital Analysis",
+ "authors": [
+  "Pengfei Cai",
+  "Anas Abdallah",
+  "Pratheepa Jeganathan"
+ ],
+ "v1_date": "2024-02-16",
+ "latest_version": 3,
+ "latest_date": "2025-04-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the property and casualty (P&C) insurance industry, reserves comprise most of a company's liabilities. These reserves are the best estimates made by actuaries for future unpaid claims. Notably, reserves for different lines of business (LOBs) are related due to dependent events or claims. While the actuarial industry has developed both parametric and non-parametric methods for loss reserving, only a few tools have been developed to capture dependence between loss reserves. This paper introduces the use of the Deep Triangle (DT), a recurrent neural network, for multivariate loss reserving, incorporating an asymmetric loss function to combine incremental paid losses of multiple LOBs. The input and output to the DT are the vectors of sequences of incremental paid losses that account for the pairwise and time dependence between and within LOBs. In addition, we extend generative adversarial networks (GANs) by transforming the two loss triangles into a tabular format and generating synthetic loss triangles to obtain the predictive distribution for reserves. We call the combination of DT for multivariate loss reserving and GAN for risk capital analysis the extended Deep Triangle (EDT). To illustrate EDT, we apply and calibrate these methods using data from multiple companies from the National Association of Insurance Commissioners database. For validation, we compare EDT to the copula regression models and find that the EDT outperforms the copula regression models in predicting total loss reserve. Furthermore, with the obtained predictive distribution for reserves, we show that risk capitals calculated from EDT are smaller than that of the copula regression models, suggesting a more considerable diversification benefit. Finally, these findings are also confirmed in a simulation study.",
+ "primary": "stat.AP"
+}

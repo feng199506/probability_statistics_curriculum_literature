@@ -1,0 +1,18 @@
+{
+ "id": "2606.23435",
+ "title": "Bayesian Analysis Using a Constrained Mixture of Normal-Inverse-Gamma Models",
+ "authors": [
+  "Madelyn Clinch",
+  "Jonathan R. Bradley",
+  "Andrés F. Barrientos",
+  "Garritt L. Page"
+ ],
+ "v1_date": "2026-06-22",
+ "latest_version": 1,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian mixtures of regressions are commonly implemented via a Gibbs sampler. This Markov chain Monte Carlo (MCMC) algorithm can be computationally burdensome because of the need to update discrete-valued latent component allocation parameters whose dimension increases as the sample size increases. In this article, we propose applying the method of composition to a Gaussian finite mixture model with a Normal-Inverse-Gamma (NIG) prior which allows one to write the posterior distribution as the product of conditional distributions. Namely, the conditional distribution of parameters given the data and mixture labels, times the marginal posterior of the mixture labels. The conditional distribution of parameters given the data and mixture labels, can be sampled from directly, instead of using MCMC. The expression of the marginal posterior of the mixture labels is known up to a proportionality constant and we adapt existing approaches in Bayesian selective inference to constrain the space of component labels to those arising from preliminary estimators, which alleviates a commonly encountered bottleneck. In simulation studies, we consider several settings and compare several versions of our constrained mixture of NIG models to two different MCMC-based strategies and demonstrate their use on natality data from the CDC.",
+ "primary": "stat.ME"
+}

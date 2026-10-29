@@ -1,0 +1,18 @@
+{
+ "id": "2603.28643",
+ "title": "The Ultimate Tutorial for AI-driven Scale Development in Generative Psychometrics: Releasing AIGENIE from its Bottle",
+ "authors": [
+  "Lara Russell-Lasalandra",
+  "Hudson Golino",
+  "Luis Eduardo Garrido",
+  "Alexander P. Christensen"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 2,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 9 Figures, 2 tables",
+ "abstract": "Psychological scale development has traditionally required extensive expert involvement, iterative revision, and large-scale pilot testing before psychometric evaluation can begin. The \\texttt{AIGENIE} R package implements the AI-GENIE framework (Automatic Item Generation and Validation with Network-Integrated Evaluation), which integrates large language model (LLM) text generation with network psychometric methods to automate the early stages of this process. The package generates candidate item pools using LLMs, transforms them into high-dimensional embeddings, and applies a multi-step reduction pipeline --- Exploratory Graph Analysis (EGA), Unique Variable Analysis (UVA), and bootstrap EGA --- to produce structurally validated item pools entirely \\textit{in silico}. This tutorial introduces the package across eight parts: installation and setup, text generation, embeddings, item generation, the full AI-GENIE pipeline, the GENIE pipeline for researcher-supplied items, advanced prompt engineering, and fully local operation. Two running examples illustrate the package's use: the Big Five personality model (a well-established construct) and AI Anxiety (an emerging construct). The package supports multiple LLM providers (OpenAI, Anthropic, Groq, HuggingFace, and local models), offers a fully offline mode with no external API calls, and provides the \\texttt{GENIE()} function for researchers who wish to apply the psychometric reduction pipeline to existing item pools regardless of their origin. The \\texttt{AIGENIE} package is freely available on CRAN at \\url{https://CRAN.R-project.org/package=AIGENIE}.",
+ "primary": "cs.AI"
+}

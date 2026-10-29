@@ -1,0 +1,17 @@
+{
+ "id": "2410.12093",
+ "title": "A Unified Framework for Causal Estimand Selection",
+ "authors": [
+  "Martha Barnard",
+  "Jared D. Huling",
+  "Julian Wolfson"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 2,
+ "latest_date": "2025-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 6 main text figures, 8 supplementary figures",
+ "abstract": "Estimating the causal effect of a treatment or health policy with observational data can be challenging due to an imbalance of and a lack of overlap between treated and control covariate distributions. In the presence of limited overlap, researchers choose between 1) methods (e.g., inverse probability weighting) that imply traditional estimands but whose estimators are at risk of considerable bias and variance; and 2) methods (e.g., overlap weighting) which imply a different estimand, thereby modifying the target population to reduce variance. We propose a framework for navigating the tradeoffs between variance and bias due to imbalance and lack of overlap and the targeting of the estimand of scientific interest. We introduce a bias decomposition that encapsulates bias due to 1) the statistical bias of the estimator; and 2) estimand mismatch, i.e., deviation from the population of interest. We propose two design-based metrics and an estimand selection procedure that help illustrate the tradeoffs between these sources of bias and variance of the resulting estimators. Our procedure allows analysts to incorporate their domain-specific preference for preservation of the original research population versus reduction of statistical bias. We demonstrate how to select an estimand based on these preferences with an application to right heart catheterization data.",
+ "primary": "stat.ME"
+}

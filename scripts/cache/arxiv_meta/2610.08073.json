@@ -1,0 +1,15 @@
+{
+ "id": "2610.08073",
+ "title": "Collaborative representations for targeted causal inference under outcome selection",
+ "authors": [
+  "Johan de Aguas"
+ ],
+ "v1_date": "2026-10-06",
+ "latest_version": 1,
+ "latest_date": "2026-10-06",
+ "journal_ref": "Machine Learning and Knowledge Discovery in Databases. Research Track, ECML PKDD 2026, Lecture Notes in Computer Science, vol. 16941, pp. 623-640, Springer, 2027",
+ "doi": "10.1007/978-3-032-37654-1_36",
+ "comment": "Published in ECML PKDD 2026, LNCS 16941, pp. 623-640. Publisher version: https://link.springer.com/chapter/10.1007/978-3-032-37654-1_36",
+ "abstract": "Estimating causal effects with missing outcomes requires learning outcome, exposure, and selection models. Flexible propensity learners can predict treatment or missingness well while worsening target estimation by emphasizing instruments, weak-overlap regions, or variation unrelated to outcome-regression bias. We propose a collaborative representation-based targeted learning method for recovered average treatment effects under outcome selection. The method learns low-dimensional exposure and selection representations from cross-fitted pseudo-outcomes that encode outcome-regression drift. A finite candidate library alternates targeted outcome updates with representation updates, and inner cross-validation selects representation complexity, collaboration strength, and regularization using a target-aware risk. We give high-level sufficient conditions for collaborative robustness, consistency, and asymptotic linearity after outer validation-fold targeting. Simulations show finite-sample bias reduction, with explicit bias-variance trade-offs across configurations and relative to competing estimators",
+ "primary": "stat.ME"
+}

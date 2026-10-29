@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction) AND abs:\"principal component analysis\" AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST OR cat:stat.ML)", "subtopic": "主成分分析"},
+ {"q": "abs:\"principal component\" AND abs:\"high-dimensional\" AND (abs:spiked OR abs:eigenvector) AND (cat:math.ST OR cat:stat.TH)", "subtopic": "高维PCA与尖峰模型"},
+ {"q": "abs:\"factor model\" AND abs:\"high-dimensional\" AND (cat:stat.ME OR cat:math.ST OR cat:econ.EM)", "subtopic": "因子分析"},
+ {"q": "(abs:\"covariance matrix estimation\" OR abs:\"precision matrix\" OR abs:\"graphical lasso\") AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "协方差与精度矩阵估计"},
+ {"q": "(ti:survey OR ti:review OR ti:tutorial) AND (abs:sparsity OR abs:lasso OR abs:regularization) AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST OR cat:stat.ML)", "subtopic": "稀疏与正则化"},
+ {"q": "abs:lasso AND (abs:\"oracle inequality\" OR abs:\"support recovery\" OR abs:\"variable selection\") AND (cat:math.ST OR cat:stat.TH)", "subtopic": "稀疏与正则化"},
+ {"q": "(abs:\"debiased lasso\" OR abs:\"desparsified\" OR abs:\"high-dimensional inference\" OR abs:\"post-selection inference\") AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "高维推断"},
+ {"q": "(abs:knockoffs OR abs:\"false discovery rate\") AND abs:\"variable selection\" AND (cat:stat.ME OR cat:math.ST)", "subtopic": "高维推断"},
+ {"q": "(abs:\"proportional asymptotics\" OR abs:\"approximate message passing\" OR abs:\"random matrix theory\") AND abs:statistic AND (cat:math.ST OR cat:stat.TH)", "subtopic": "比例渐近与随机矩阵"},
+ {"q": "(ti:\"lecture notes\" OR ti:tutorial OR ti:survey OR ti:introduction) AND (abs:\"statistical learning theory\" OR abs:\"generalization bounds\" OR abs:\"Rademacher complexity\" OR abs:\"PAC-Bayes\")", "subtopic": "统计学习理论"},
+ {"q": "(abs:\"benign overfitting\" OR abs:\"double descent\" OR abs:interpolation) AND abs:regression AND (cat:math.ST OR cat:stat.TH)", "subtopic": "统计学习理论"},
+ {"q": "(abs:\"empirical risk minimization\" OR abs:\"excess risk\" OR abs:\"minimax rates\") AND abs:classification AND (cat:math.ST OR cat:stat.TH)", "subtopic": "统计学习理论"},
+ {"q": "abs:\"conformal prediction\" AND (ti:tutorial OR ti:survey OR ti:review OR ti:introduction OR ti:\"gentle\")", "subtopic": "共形预测"},
+ {"q": "abs:\"conformal\" AND (abs:\"coverage\" OR abs:\"distribution-free\") AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "共形预测"},
+ {"q": "(abs:\"canonical correlation\" OR abs:\"discriminant analysis\" OR abs:\"multivariate analysis\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "经典多元分析"},
+ {"q": "(abs:clustering OR abs:\"mixture model\") AND (abs:\"high-dimensional\" OR abs:\"minimax\" OR abs:consistency) AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "聚类与无监督学习"},
+ {"q": "(abs:\"matrix completion\" OR abs:\"low-rank matrix\" OR abs:\"tensor\") AND abs:estimation AND (ti:survey OR ti:review OR ti:overview OR cat:math.ST)", "subtopic": "低秩矩阵与张量"},
+ {"q": "(abs:\"kernel methods\" OR abs:\"reproducing kernel\" OR abs:\"random features\") AND abs:\"learning\" AND (cat:math.ST OR cat:stat.TH) AND (ti:survey OR ti:review OR ti:introduction OR abs:rates)", "subtopic": "核方法与学习理论"}
+]

@@ -1,0 +1,17 @@
+{
+ "id": "2503.23624",
+ "title": "Penalized function-on-function linear quantile regression",
+ "authors": [
+  "Ufuk Beyaztas",
+  "Han Lin Shang",
+  "Semanur Saricam"
+ ],
+ "v1_date": "2025-03-30",
+ "latest_version": 1,
+ "latest_date": "2025-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 5 tables, 2 figures",
+ "abstract": "We introduce a novel function-on-function linear quantile regression model to characterize the entire conditional distribution of a functional response for a given functional predictor. Tensor cubic $B$-splines expansion is used to represent the regression parameter functions, where a derivative-free optimization algorithm is used to obtain the estimates. Quadratic roughness penalties are applied to the coefficients to control the smoothness of the estimates. The optimal degree of smoothness depends on the quantile of interest. An automatic grid-search algorithm based on the Bayesian information criterion is used to estimate the optimum values of the smoothing parameters. Via a series of Monte-Carlo experiments and an empirical data analysis using Mary River flow data, we evaluate the estimation and predictive performance of the proposed method, and the results are compared favorably with several existing methods.",
+ "primary": "stat.ME"
+}

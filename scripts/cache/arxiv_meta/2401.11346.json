@@ -1,0 +1,15 @@
+{
+ "id": "2401.11346",
+ "title": "Estimating Default Probability and Correlation using Stan",
+ "authors": [
+  "Jesus A. Pinera-Esquivel"
+ ],
+ "v1_date": "2024-01-20",
+ "latest_version": 1,
+ "latest_date": "2024-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work has the objective of estimating default probabilities and correlations of credit portfolios given default rate information through a Bayesian framework using Stan. We use Vasicek's single factor credit model to establish the theoretical framework for the behavior of the default rates, and use NUTS Markov Chain Monte Carlo to estimate the parameters. We compare the Bayesian estimates with classical estimates such as moments estimators and maximum likelihood estimates. We apply the methodology both to simulated data and to corporate default rates, and perform inferences through Bayesian methods in order to exhibit the advantages of such a framework. We perform default forecasting and exhibit the importance of an adequate estimation of default correlations, and exhibit the advantage of using Stan to perform sampling regarding prior choice.",
+ "primary": "stat.AP"
+}

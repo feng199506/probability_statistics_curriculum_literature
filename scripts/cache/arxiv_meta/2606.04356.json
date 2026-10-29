@@ -1,0 +1,15 @@
+{
+ "id": "2606.04356",
+ "title": "Sequential algorithm for structural estimations with equilibrium constraints",
+ "authors": [
+  "Takeshi Fukasawa"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study examines sequential algorithms with the Zero Jacobian Property (ZJP) for estimating structural models subject to equilibrium constraints. For the Maximum Likelihood Estimation (MLE) and the Generalized Method of Moments (GMM), the current study shows that these algorithms attains fast (near-quadratic) local convergence in large samples to the solution of the constrained optimization problem. If consistent initial estimates of the parameters are available, the algorithms yield an asymptotically efficient estimator even after one iteration. It then proposes a novel algorithm called Sequential Linearly Constrained (SLC) algorithm, which is applicable to a broader class of structural models than existing methods. A key advantage of the SLC algorithm is that it can be implemented without explicitly computing the Jacobian of the equilibrium constraints and can be multiple times faster than the Nested Fixed Point (NFXP) approach. The current study illustrates its performance through two numerical experiments: a dynamic discrete game with time-varying unobserved heterogeneity and a dynamic demand model.",
+ "primary": "econ.EM"
+}

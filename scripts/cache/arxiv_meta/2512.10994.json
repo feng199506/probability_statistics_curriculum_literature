@@ -1,0 +1,21 @@
+{
+ "id": "2512.10994",
+ "title": "STARK denoises spatial transcriptomics images via adaptive regularization",
+ "authors": [
+  "Sharvaj Kubal",
+  "Naomi Graham",
+  "Matthieu Heitz",
+  "Andrew Warren",
+  "Michael P. Friedlander",
+  "Yaniv Plan",
+  "Geoffrey Schiebinger"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 1,
+ "latest_date": "2025-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 10 figures",
+ "abstract": "We present an approach to denoising spatial transcriptomics images that is particularly effective for uncovering cell identities in the regime of ultra-low sequencing depths, and also allows for interpolation of gene expression. The method -- Spatial Transcriptomics via Adaptive Regularization and Kernels (STARK) -- augments kernel ridge regression with an incrementally adaptive graph Laplacian regularizer. In each iteration, we (1) perform kernel ridge regression with a fixed graph to update the image, and (2) update the graph based on the new image. The kernel ridge regression step involves reducing the infinite dimensional problem on a space of images to finite dimensions via a modified representer theorem. Starting with a purely spatial graph, and updating it as we improve our image makes the graph more robust to noise in low sequencing depth regimes. We show that the aforementioned approach optimizes a block-convex objective through an alternating minimization scheme wherein the sub-problems have closed form expressions that are easily computed. This perspective allows us to prove convergence of the iterates to a stationary point of this non-convex objective. Statistically, such stationary points converge to the ground truth with rate $\\mathcal{O}(R^{-1/2})$ where $R$ is the number of reads. In numerical experiments on real spatial transcriptomics data, the denoising performance of STARK, evaluated in terms of label transfer accuracy, shows consistent improvement over the competing methods tested.",
+ "primary": "stat.ML"
+}

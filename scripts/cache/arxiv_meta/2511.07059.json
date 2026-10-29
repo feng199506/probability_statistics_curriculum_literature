@@ -1,0 +1,15 @@
+{
+ "id": "2511.07059",
+ "title": "Applying the Polynomial Maximization Method to Estimate ARIMA Models with Asymmetric Non-Gaussian Innovations",
+ "authors": [
+  "Serhii Zabolotnii"
+ ],
+ "v1_date": "2025-11-10",
+ "latest_version": 3,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 3 figures. v3: corrects the attribution of Poetscher (1991, Thm 2.1(b)) and the relative-efficiency expression (correct form (2+g4)/(2+g4-g3^2)); no numerical result changes. Adds a caveat that the moving-average figures use a one-step linearisation and are conservative, plus declarations including a statement on the use of artificial intelligence",
+ "abstract": "Classical estimators for ARIMA parameters (MLE, CSS, OLS) assume Gaussian innovations, an assumption frequently violated in financial and economic data exhibiting asymmetric distributions with heavy tails. We develop and validate the second-order polynomial maximization method (PMM2) for estimating ARIMA$(p,d,q)$ models with non-Gaussian innovations. PMM2 is a semiparametric technique that exploits higher-order moments and cumulants without requiring full distributional specification. Monte Carlo experiments (128,000 simulations) across sample sizes $N \\in \\{100, 200, 500, 1000\\}$ and four innovation distributions demonstrate that PMM2 substantially outperforms classical methods for asymmetric innovations. For ARIMA(1,1,0) with $N=500$, relative efficiency reaches 1.58--1.90 for Gamma, lognormal, and $χ^2(3)$ innovations (37--47\\% variance reduction). Under Gaussian innovations PMM2 matches OLS efficiency, avoiding the precision loss typical of robust estimators. The method delivers major gains for moderate asymmetry ($|γ_3| \\geq 0.5$) and $N \\geq 200$, with computational costs comparable to MLE. PMM2 provides an effective alternative for time series with asymmetric innovations typical of financial markets, macroeconomic indicators, and industrial measurements. Future extensions include seasonal SARIMA models, GARCH integration, and automatic order selection.",
+ "primary": "stat.ME"
+}

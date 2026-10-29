@@ -1,0 +1,16 @@
+{
+ "id": "2604.22555",
+ "title": "Using Embedding Models to Improve Probabilistic Race Prediction",
+ "authors": [
+  "Noah Dasanaike",
+  "Kosuke Imai"
+ ],
+ "v1_date": "2026-04-24",
+ "latest_version": 3,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating racial disparity requires individual-level race data, which are often unavailable due to the sensitivity of collecting such information. To address this problem, many researchers utilize Bayesian Improved Surname Geocoding (BISG), which have critically relied on Census surname data. Unfortunately, these data capture race-surname relationships only for common surnames, omitting approximately 10% of the US population. We show that predictive performance degrades substantially for individuals with such omitted, uncommon surnames because standard BISG implementation relies on a uninformative generic prior in these cases. To address this limitation, we propose embedding-powered BISG (eBISG), which uses pre-trained text embeddings to represent names as dense vectors and trains neural networks on 2020 Census surname and first-name data to estimate race probabilities for names not covered in the Census. We compare five approaches: standard BISG using only surnames, BIFSG incorporating first name probabilities, surname embedding for unlisted names, surname and first name embedding combining both, and a full-name embedding trained on voter file data from Southern states that captures interactions between name components. We show that each successive eBISG approach improves race prediction, with the full-name embedding yielding the largest gains, particularly for Hispanic and Asian voters whose surnames are absent from the Census list.",
+ "primary": "cs.CL"
+}

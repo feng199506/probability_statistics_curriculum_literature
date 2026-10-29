@@ -1,0 +1,17 @@
+{
+ "id": "2508.19572",
+ "title": "Understanding Spatial Regression Models from a Weighting Perspective in an Observational Study of Superfund Remediation",
+ "authors": [
+  "Sophie M. Woodward",
+  "Francesca Dominici",
+  "Jose R. Zubizarreta"
+ ],
+ "v1_date": "2025-08-27",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "72 pages, 12 figures, 7 tables (includes supplement)",
+ "abstract": "A key challenge in environmental health research is unmeasured spatial confounding, driven by unobserved spatially structured variables that influence both treatment and outcome. A common approach is to fit a spatial regression that models the outcome as a linear function of treatment and covariates, with a spatially structured error term to account for unmeasured spatial confounding. However, it remains unclear to what extent spatial regression actually accounts for such forms of confounding in finite samples, and whether this regression adjustment can be reformulated from a design-based perspective. Motivated by an observational study on the effect of Superfund site remediation on birth outcomes, we present a weighting framework for causal inference that unifies three canonical classes of spatial regression models$\\unicode{x2013}$random effects, conditional autoregressive, and Gaussian process models$\\unicode{x2013}$and reveals how they implicitly construct causal contrasts across space. Specifically, we show that: (i) the spatial error term induces approximate balance on a latent set of covariates and therefore adjusts for a specific form of unmeasured confounding; and (ii) the covariance structure of the spatial error can be equivalently represented as regressors in a linear model. Building on these insights, we introduce a new estimator that jointly addresses multiple forms of unmeasured spatial confounding and develop visual diagnostics. Using our new estimator, we find evidence of a small but beneficial effect of remediation on the percentage of small vulnerable newborns.",
+ "primary": "stat.ME"
+}

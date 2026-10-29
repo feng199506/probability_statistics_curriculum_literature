@@ -1,0 +1,16 @@
+{
+ "id": "2409.12890",
+ "title": "Stable and Robust Hyper-Parameter Selection Via Robust Information Sharing Cross-Validation",
+ "authors": [
+  "David Kepplinger",
+  "Siqi Wei"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 1,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "10.1080/00401706.2025.2540970",
+ "comment": "",
+ "abstract": "Robust estimators for linear regression require non-convex objective functions to shield against adverse affects of outliers. This non-convexity brings challenges, particularly when combined with penalization in high-dimensional settings. Selecting hyper-parameters for the penalty based on a finite sample is a critical task. In practice, cross-validation (CV) is the prevalent strategy with good performance for convex estimators. Applied with robust estimators, however, CV often gives sub-par results due to the interplay between multiple local minima and the penalty. The best local minimum attained on the full training data may not be the minimum with the desired statistical properties. Furthermore, there may be a mismatch between this minimum and the minima attained in the CV folds. This paper introduces a novel adaptive CV strategy that tracks multiple minima for each combination of hyper-parameters and subsets of the data. A matching scheme is presented for correctly evaluating minima computed on the full training data using the best-matching minima from the CV folds. It is shown that the proposed strategy reduces the variability of the estimated performance metric, leads to smoother CV curves, and therefore substantially increases the reliability and utility of robust penalized estimators.",
+ "primary": "stat.CO"
+}

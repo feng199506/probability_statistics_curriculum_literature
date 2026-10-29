@@ -1,0 +1,15 @@
+{
+ "id": "2606.08499",
+ "title": "A Transferability Criterion for Null-Optimized Variance Reduction in Cumulant-Based Error-Independence Testing",
+ "authors": [
+  "Serhii Zabolotnii"
+ ],
+ "v1_date": "2026-06-07",
+ "latest_version": 1,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages; no figures; submitted manuscript version",
+ "abstract": "Control-variate and polynomial-maximization (PMM) estimators are optimized at a single fixed distribution, yet they are increasingly proposed to strengthen hypothesis tests, which decide between two regions of a parameter family. We give a closed-form criterion for when this transfer succeeds. For an H0-centered augmentation of a target moment statistic with null-optimized weight vector K0, the alternative-side expectation equals the target plus K0^T mu_a,H1, where mu_a,H1 is the alternative-side mean of the augmenting basis. Null-variance reduction therefore transfers without bias only under the orthogonality condition K0^T mu_a,H1 = 0; requiring each augmenting function to remain mean-zero is sufficient but not necessary. We instantiate the criterion on the recently proposed Wiedermann-Shi third-order cumulant test for measurement-error independence. A second-order PMM correction is unbiased and lower-variance under the null (relative efficiency >= 1 in all 36 conditions; aggregated mean ARE values 1.23-5.16; Type-I 0.04-0.09), yet provably inconsistent under the alternative: the antisymmetric polynomial auxiliaries acquire nonzero means, attenuating the target by a closed-form factor and costing 7-52 percentage points of power, worst where the test is strongest and worsening under heavy tails. A fourth-order variant reduces variance (ratio 1.127) but fails a nuisance guard (rejection 0.295 versus 0.10). We derive a reusable alternative-consistency acceptance gate for variance-reduced test statistics.",
+ "primary": "stat.ME"
+}

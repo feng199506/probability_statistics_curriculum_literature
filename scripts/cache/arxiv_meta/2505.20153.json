@@ -1,0 +1,15 @@
+{
+ "id": "2505.20153",
+ "title": "The Harmonic Entropy Estimator: Minimax Optimality and Semiparametric Efficiency for Infinite Alphabets",
+ "authors": [
+  "Octavio César Mesner"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 5,
+ "latest_date": "2026-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Shannon entropy estimation for discrete distributions is a classical nonparametric problem whose statistical limits are well characterized under finite support. Whether minimax and efficiency guarantees extend to infinite-support distributions remains open, in part because the expectation and variance of logarithm-transformed multinomial counts lack closed forms, forcing analyses to rely on bounding arguments rather than exact moment expressions. We address this obstacle with an algebraic framework built on an exact identity relating harmonic-transformed counts to their log-probabilities, yielding the harmonic entropy estimator. With this framework, we obtain two main results characterizing the statistical limits of this problem for distributions with sufficiently fast-decaying tails. First, for the class of distributions with at least quadratically decaying tails ($p_j \\lesssim j^{-2}$), we establish that the $L_2$-minimax convergence rate is $1/n$, a rate anchored by estimator variance for both finite- and infinite-support distributions. Second, under the stronger condition $p_j = o(j^{-2})$, we demonstrate that the harmonic estimator is semiparametrically efficient: $\\sqrt{n}[\\hat{H}(\\mathbf{X}_n) - H(X)]$ converges weakly to a normal distribution with variance achieving the semiparametric efficiency bound, $\\mathrm{Var}[\\log p(X)]$. Furthermore, the harmonic estimator is universally less biased than the plug-in estimator by circumventing the approximation error inherent to expectations of logarithm-transformed counts. More broadly, the harmonic approach may provide a foundation for developing new theory in entropy-based estimation, such as inference for mutual information under similar nonparametric regimes.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2507.06496",
+ "title": "A powerful transformation of quantitative responses for biobank-scale association studies",
+ "authors": [
+  "Yaowu Liu",
+  "Tianying Wang"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 1,
+ "latest_date": "2025-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In linear regression models with non-Gaussian errors, transformations of the response variable are widely used in a broad range of applications. Motivated by various genetic association studies, transformation methods for hypothesis testing have received substantial interest. In recent years, the rise of biobank-scale genetic studies, which feature a vast number of participants that could be around half a million, spurred the need for new transformation methods that are both powerful for detecting weak genetic signals and computationally efficient for large-scale data. In this work, we propose a novel transformation method that leverages the information of the error density. This transformation leads to locally most powerful tests and therefore has strong power for detecting weak signals. To make the computation scalable to biobank-scale studies, we harnessed the nature of weak genetic signals and proposed a consistent and computationally efficient estimator of the transformation function. Through extensive simulations and a gene-based analysis of spirometry traits from the UK Biobank, we validate that our approach maintains stringent control over type I error rates and significantly enhances statistical power over existing methods.",
+ "primary": "stat.ME"
+}

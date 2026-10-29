@@ -1,0 +1,21 @@
+{
+ "id": "2610.29215",
+ "title": "Third and Fourth Moment Phenomena for Monochromatic Edges and Applications to Graph-Based Two-Sample Tests",
+ "authors": [
+  "Siva Athreya",
+  "Bhaswar B. Bhattacharya",
+  "Yogesh Dahiya",
+  "Karambir Das",
+  "Spandan Ghoshal",
+  "Sourish Maniyar",
+  "Elizabeth Sara Roy"
+ ],
+ "v1_date": "2026-10-21",
+ "latest_version": 1,
+ "latest_date": "2026-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Given a graph sequence $\\{G_n\\}_{n\\in\\mathbb{N}}$, denote by $T_n$ the number of monochromatic edges when the vertices of $G_n$ are independently colored red or blue with probabilities $p$ and $1-p$, respectively. We characterize the asymptotic normality of $T_n$, after centering and scaling to unit variance, in terms of subgraph (motif) counts and standardized moments. One of the highlights of our results is a {\\it third moment phenomenon}: for every fixed $p\\in(0,1)\\backslash\\{\\frac12\\}$, asymptotic normality holds if and only if the standardized third moment converges to zero. The more familiar {\\it fourth moment condition}, which requires the standardized fourth moment to converge to $3$, gives an equivalent characterization except at the two exceptional probabilities $p=\\frac{1\\pm1/\\sqrt3}{2}$. At these values, the standardized fourth moment converges to $3$ for every graph sequence with a diverging number of edges, even when Gaussian convergence fails. In contrast, in the balanced case $p=\\frac12$, the fourth moment condition characterizes asymptotic normality, while the third moment condition is insufficient. These results identify three distinct regimes for moment characterizations of Gaussian convergence, determined by the coloring probability. We further show that the third moment condition remains sufficient in the sparse regime, where $p=p_n \\to 0$. As an application, we derive the limiting null distribution of two-sample statistics based on undirected $K$-nearest-neighbor graphs in the Poissonized setting, identifying sharp growth conditions on $K$ for asymptotic normality.",
+ "primary": "math.ST"
+}

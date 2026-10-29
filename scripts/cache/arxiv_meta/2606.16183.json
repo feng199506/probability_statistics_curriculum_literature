@@ -1,0 +1,16 @@
+{
+ "id": "2606.16183",
+ "title": "LLM-Powered Virtual Population for Demand Simulation and Pricing",
+ "authors": [
+  "Chengpiao Huang",
+  "Kaizheng Wang"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 1,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 7 figures",
+ "abstract": "We develop an LLM-powered virtual population model that simulates demand for pricing decisions, in settings where products are described by rich unstructured information, such as text descriptions and images, and where decision makers need not only mean-demand predictions but also uncertainty estimates for counterfactual prices. Our model represents exposed customers as draws from a finite mixture of customer personas. For each persona, product, and candidate price, an LLM elicits a persona-level purchase probability using both structured persona information and unstructured product information. These probabilities are aggregated through calibrated mixture weights to form a predictive distribution of aggregate demand. The resulting simulator can evaluate counterfactual prices under various pricing objectives, including expected revenue and risk-aware criteria such as conditional value at risk. We test the framework on an online H&M fashion dataset with product descriptions and images. The calibrated LLM-based simulator achieves the best overall predictive performance among the models considered, and supports sample-efficient pricing decisions. Our framework provides a practical way to use LLMs as demand simulators for products with limited historical demand data but rich product information. By producing a full predictive demand distribution rather than only a point forecast, it enables managers to compare candidate prices, quantify demand uncertainty, and choose prices that target either average-case revenue or risk-aware objectives.",
+ "primary": "cs.LG"
+}

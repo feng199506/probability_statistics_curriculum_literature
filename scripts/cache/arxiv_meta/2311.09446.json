@@ -1,0 +1,15 @@
+{
+ "id": "2311.09446",
+ "title": "Scalable simulation-based inference for implicitly defined models using a metamodel for Monte Carlo log-likelihood estimator",
+ "authors": [
+  "Joonha Park"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 3,
+ "latest_date": "2025-04-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Models implicitly defined through a random simulator of a process have become widely used in scientific and industrial applications in recent years. However, simulation-based inference methods for such implicit models, like approximate Bayesian computation (ABC), often scale poorly as data size increases. We develop a scalable inference method for implicitly defined models using a metamodel for the Monte Carlo log-likelihood estimator derived from simulations. This metamodel characterizes both statistical and simulation-based randomness in the distribution of the log-likelihood estimator across different parameter values. Our metamodel-based method quantifies uncertainty in parameter estimation in a principled manner, leveraging the local asymptotic normality of the mean function of the log-likelihood estimator. We apply this method to construct accurate confidence intervals for parameters of partially observed Markov process models where the Monte Carlo log-likelihood estimator is obtained using the bootstrap particle filter. We numerically demonstrate that our method enables accurate and highly scalable parameter inference across several examples, including a mechanistic compartment model for infectious diseases.",
+ "primary": "stat.ME"
+}

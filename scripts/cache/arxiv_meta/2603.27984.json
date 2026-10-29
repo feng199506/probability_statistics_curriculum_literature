@@ -1,0 +1,17 @@
+{
+ "id": "2603.27984",
+ "title": "Empirical Bayes Predictive Density Estimation under Covariate Shift in Large Imbalanced Linear Mixed Models",
+ "authors": [
+  "Abir Sarkar",
+  "Gourab Mukherjee",
+  "Keisuke Yano"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 1,
+ "latest_date": "2026-03-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study empirical Bayes (EB) predictive density estimation in linear mixed models (LMMs) with large number of units, which induce a high dimensional random effects space. Focusing on Kullback Leibler (KL) risk minimization, we develop a calibration framework to optimally tune predictive densities derived from on a broad class of flexible priors. Our proposed method addresses two key challenges in predictive inference: (a) severe data scarcity leading to highly imbalanced designs, in which replicates are available for only a small subset of units; and (b) distributional shifts in future covariates. To estimate predictive KL risk in LMMs, we use a data-fission approach that leverages exchangeability in the covariate distribution. We establish convergence rates for our proposed risk estimators and show how their efficiency deteriorates as data scarcity increases. Our results imply the decision-theoretic optimality of the proposed EB predictive density estimator. The theoretical development relies on a novel probabilistic analysis of the interaction between data fission, sample reuse, and the predictive heat-equation representation of George et al. (2006), which expresses predictive KL risk through expected log-marginals. Extensive simulation studies demonstrate strong predictive performance and robustness of the proposed approach across diverse regimes with varying degrees of data scarcity and covariate shift.",
+ "primary": "stat.ME"
+}

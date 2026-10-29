@@ -1,0 +1,16 @@
+{
+ "id": "2607.18861",
+ "title": "Learning sufficient low-dimensional structures through conditional optimal transport",
+ "authors": [
+  "Kaiqiang Alan Zeng",
+  "Efstathia Bura"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 1,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sufficient dimension reduction seeks a low-dimensional covariate representation that preserves the conditional law of a response. We introduce SDR-COT, which represents that law by conditional optimal transport from an independent reference response. On separable Hilbert spaces, sufficiency forces the response component of the optimal triangular map to factor through the reduction. For quadratic cost, the induced interpolation has a Borel current-state velocity on every truncated time interval, without global injectivity of the terminal map, and this velocity has the same factorisation. These results motivate a conditional-flow-matching criterion. For linear reductions, we prove consistency using a suitably tuned relaxed empirical coupling. Euclidean responses are treated through slicewise Caffarelli bounds; Hilbert-valued responses are treated through Gaussian Sobolev regularity, interpolation compression and uniqueness of a Gaussian continuity equation. Numerical studies with Euclidean and functional data show competitive performance, especially when sufficient information is not solely contained in the conditional mean.",
+ "primary": "math.ST"
+}

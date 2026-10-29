@@ -1,0 +1,15 @@
+{
+ "id": "2507.21203",
+ "title": "An empirical comparison of some outlier detection methods with longitudinal data",
+ "authors": [
+  "Marcello D'Orazio"
+ ],
+ "v1_date": "2025-07-28",
+ "latest_version": 1,
+ "latest_date": "2025-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This note investigates the problem of detecting outliers in longitudinal data. It compares well-known methods used in official statistics with proposals from the fields of data mining and machine learning that are based on the distance between observations or binary partitioning trees. This is achieved by applying the methods to panel survey data related to different types of statistical units. Traditional methods are quite simple, enabling the direct identification of potential outliers, but they require specific assumptions. In contrast, recent methods provide only a score whose magnitude is directly related to the likelihood of an outlier being present. All the methods require the user to set a number of tuning parameters. However, the most recent methods are more flexible and sometimes more effective than traditional methods. In addition, these methods can be applied to multidimensional data.",
+ "primary": "stat.ME"
+}

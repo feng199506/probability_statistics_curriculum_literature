@@ -1,0 +1,18 @@
+{
+ "id": "2502.12279",
+ "title": "Bayesian inference from time series of allele frequency data using exact simulation techniques",
+ "authors": [
+  "Jaromir Sant",
+  "Paul A. Jenkins",
+  "Jere Koskela",
+  "Dario Spano"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A central statistical problem in population genetics is to infer evolutionary and biological parameters such as the strength of natural selection and allele age from DNA samples extracted from a contemporary population. That all samples come only from the present-day has long been known to limit statistical inference; there is potentially more information available if one also has access to ancient DNA so that inference is based on a time-series of historical changes in allele frequencies. We introduce a Markov Chain Monte Carlo (MCMC) method for Bayesian inference from allele frequency time-series data based on an underlying Wright--Fisher diffusion model of evolution, through which one can infer the parameters of essentially any selection model including those with frequency-dependent effects. The chief novelty is that we show this method to be exact in the sense that it is possible to augment the state space explored by MCMC with the unobserved diffusion trajectory, even though the transition function of this diffusion is intractable. Through careful design of a proposal distribution, we describe an efficient method in which updates to the trajectory and accept/reject decisions are calculated without error. We illustrate the method on data capturing changes in coat colour over the past 20,000 years, and find evidence to support previous findings that the mutant alleles ASIP and MC1R responsible for changes in coat color have experienced very strong, possibly overdominant, selection and further provide estimates for the ages of these genes.",
+ "primary": "q-bio.PE"
+}

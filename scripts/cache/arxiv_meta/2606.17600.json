@@ -1,0 +1,17 @@
+{
+ "id": "2606.17600",
+ "title": "Proximal Mediation Analysis with Hidden Recanting Witnesses",
+ "authors": [
+  "Sihan Wu",
+  "Yang Bai",
+  "Yifan Cui"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 1,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mediation analysis is essential for decomposing the causal effect of a treatment into direct and indirect pathways. However, many practical settings rely on the stringent assumption that recanting witnesses, defined as treatment-induced mediator-outcome confounders, are either absent or fully known a priori. Such a requirement is often untenable, especially when these variables remain unobservable due to measurement difficulties or privacy constraints. In this paper, we leverage proximal causal inference to develop three novel identification strategies to address the challenge of identifying path-specific effects in the presence of unknown recanting witnesses. Building on this, we develop a semiparametric inference framework that derives the efficient influence function and proposes a proximal multiply robust estimator, which remains consistent if at least one set of nuisance models is correctly specified. When all nuisance models are correctly specified and converge at appropriate rates, the estimator is asymptotically normal and achieves the semiparametric efficiency bound. We provide a minimax optimization-based debiased machine learning procedure for point estimation and constructing valid confidence intervals. The performance of the proposed methods is demonstrated by simulation studies and a real data application.",
+ "primary": "stat.ME"
+}

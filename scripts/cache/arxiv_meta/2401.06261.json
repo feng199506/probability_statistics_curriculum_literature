@@ -1,0 +1,19 @@
+{
+ "id": "2401.06261",
+ "title": "Prediction of causal genes at GWAS loci with pleiotropic gene regulatory effects using sets of correlated instrumental variables",
+ "authors": [
+  "Mariyam Khan",
+  "Adriaan-Alexander Ludl",
+  "Sean Bankier",
+  "Johan Bjorkegren",
+  "Tom Michoel"
+ ],
+ "v1_date": "2024-01-11",
+ "latest_version": 3,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised version, 31 pages, 5 figures. \"TeX Source\" contains file SI.pdf with Supplementary Information (26 pages, 9 figures). Code available at https://github.com/mariyam-khan/Causal_genes_GWAS_loci_CAD . Supporting data available at https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/VM0WKQ",
+ "abstract": "Multivariate Mendelian randomization (MVMR) is a statistical technique that uses sets of genetic instruments to estimate the direct causal effects of multiple exposures on an outcome of interest. At genomic loci with pleiotropic gene regulatory effects, that is, loci where the same genetic variants are associated to multiple nearby genes, MVMR can potentially be used to predict candidate causal genes. However, consensus in the field dictates that the genetic instruments in MVMR must be independent, which is usually not possible when considering a group of candidate genes from the same locus. We used causal inference theory to show that MVMR with correlated instruments satisfies the instrumental set condition. This is a classical result by Brito and Pearl (2002) for structural equation models that guarantees the identifiability of causal effects in situations where multiple exposures collectively, but not individually, separate a set of instrumental variables from an outcome variable. Extensive simulations confirmed the validity and usefulness of these theoretical results even at modest sample sizes. Importantly, the causal effect estimates remain unbiased and their variance small when instruments are highly correlated. We applied MVMR with correlated instrumental variable sets at risk loci from genome-wide association studies (GWAS) for coronary artery disease using eQTL data from the STARNET study. Our method predicts causal genes at twelve loci, each associated with multiple colocated genes in multiple tissues. However, the extensive degree of regulatory pleiotropy across tissues and the limited number of causal variants in each locus still require that MVMR is run on a tissue-by-tissue basis, and testing all gene-tissue pairs at a given locus in a single model to predict causal gene-tissue combinations remains infeasible.",
+ "primary": "stat.ME"
+}

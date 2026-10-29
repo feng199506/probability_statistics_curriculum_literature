@@ -1,0 +1,18 @@
+{
+ "id": "2407.17720",
+ "title": "Diffusion-Based Surrogate Modeling and Multi-Fidelity Calibration",
+ "authors": [
+  "Naichen Shi",
+  "Hao Yan",
+  "Shenghan Guo",
+  "Raed Al Kontar"
+ ],
+ "v1_date": "2024-07-25",
+ "latest_version": 2,
+ "latest_date": "2025-06-27",
+ "journal_ref": "IEEE Transactions on Automation Science and Engineering, 2025",
+ "doi": "10.1109/tase.2025.3582171",
+ "comment": "",
+ "abstract": "Physics simulations have become fundamental tools to study myriad engineering systems. As physics simulations often involve simplifications, their outputs should be calibrated using real-world data. In this paper, we present a diffusion-based surrogate (DBS) that calibrates multi-fidelity physics simulations with diffusion generative processes. DBS categorizes multi-fidelity physics simulations into inexpensive and expensive simulations, depending on the computational costs. The inexpensive simulations, which can be obtained with low latency, directly inject contextual information into diffusion models. Furthermore, when results from expensive simulations are available, \\name refines the quality of generated samples via a guided diffusion process. This design circumvents the need for large amounts of expensive physics simulations to train denoising diffusion models, thus lending flexibility to practitioners. DBS builds on Bayesian probabilistic models and is equipped with a theoretical guarantee that provides upper bounds on the Wasserstein distance between the sample and underlying true distribution. The probabilistic nature of DBS also provides a convenient approach for uncertainty quantification in prediction. Our models excel in cases where physics simulations are imperfect and sometimes inaccessible. We use a numerical simulation in fluid dynamics and a case study in laser-based metal powder deposition additive manufacturing to demonstrate how DBS calibrates multi-fidelity physics simulations with observations to obtain surrogates with superior predictive performance.",
+ "primary": "stat.CO"
+}

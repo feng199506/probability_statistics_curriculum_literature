@@ -1,0 +1,17 @@
+{
+ "id": "2603.20853",
+ "title": "Correcting for Missing Data When Evaluating Surrogate Markers in a Clinical Trial",
+ "authors": [
+  "Sarah C. Lotspeich",
+  "P. D. Anh. Nguyen",
+  "Layla Parast"
+ ],
+ "v1_date": "2026-03-21",
+ "latest_version": 1,
+ "latest_date": "2026-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 4 tables, 3 figures, R package and GitHub repository with simulation code",
+ "abstract": "Evaluating treatment effects is critical in clinical trials but sometimes involves lengthy, invasive, or costly follow-up procedures. In these cases, surrogate markers, which provide intermediate measures of the long-term treatment effect, allow clinicians to obtain results faster and more efficiently than would have otherwise been possible. Prior to adoption, it is vital that the utility of surrogate markers (i.e., their ability to capture the treatment effect on the primary outcome) is statistically validated. Many frameworks for evaluating surrogate markers have been proposed, but they do not account for missing data. Instead, they rely on complete cases (the subset of patients without missing data), which can be inefficient and biased. To improve on this, we propose methods to accommodate missing data in nonparametric and parametric surrogate evaluation via inverse probability weighting (IPW) and semiparametric maximum likelihood estimation (SMLE). Through simulation studies, we demonstrate that the proposed methods remain unbiased under a broader range of missing data mechanisms than complete case analysis and can help retain the statistical precision of the full trial. We illustrate their practical utility through an application to a diabetes clinical trial. Moreover, our missing data corrections have complementary strengths with respect to computational ease, robustness, and statistical efficiency. All methods are implemented in the MissSurrogate R package.",
+ "primary": "stat.ME"
+}

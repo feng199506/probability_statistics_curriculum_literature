@@ -1,0 +1,17 @@
+{
+ "id": "2503.11738",
+ "title": "Generalized Bayesian Ensemble Survival Tree (GBEST) model",
+ "authors": [
+  "Elena Ballante",
+  "Pietro Muliere",
+  "Silvia Figini"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 1,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a new class of predictive models for survival analysis called Generalized Bayesian Ensemble Survival Tree (GBEST). It is well known that survival analysis poses many different challenges, in particular when applied to small data or censorship mechanism. Our contribution is the proposal of an ensemble approach that uses Bayesian bootstrap and beta Stacy bootstrap methods to improve the outcome in survival application with a special focus on small datasets. More precisely, a novel approach to integrate Beta Stacy Bayesian bootstrap in bagging tree models for censored data is proposed in this paper. Empirical evidence achieved on simulated and real data underlines that our approach performs better in terms of predictive performances and stability of the results compared with classical survival models available in the literature. In terms of methodology our novel contribution considers the adaptation of recent Bayesian ensemble approaches to survival data, providing a new model called Generalized Bayesian Ensemble Survival Tree (GBEST). A further result in terms of computational novelty is the implementation in R of GBEST, available in a public GitHub repository.",
+ "primary": "stat.ME"
+}

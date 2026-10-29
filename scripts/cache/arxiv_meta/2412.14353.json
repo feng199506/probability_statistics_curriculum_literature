@@ -1,0 +1,17 @@
+{
+ "id": "2412.14353",
+ "title": "Multivariate Rough Volatility",
+ "authors": [
+  "Ranieri Dugo",
+  "Giacomo Giorgio",
+  "Paolo Pigato"
+ ],
+ "v1_date": "2024-12-18",
+ "latest_version": 4,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 16 figures",
+ "abstract": "Motivated by empirical evidence from the joint behavior of realized volatility time series, we propose to model the joint dynamics of log-volatilities using a multivariate fractional Ornstein-Uhlenbeck process. This model is a multivariate version of the Rough Fractional Stochastic Volatility model introduced in [Gatheral, Jaisson, and Rosenbaum, Quant. Finance, 2018]. It allows for different Hurst exponents in the different marginal components and non trivial interdependencies. We discuss the main features of the model and propose a Generalized Method of Moments estimator that jointly identifies its parameters. We derive the asymptotic theory of the estimator and perform a simulation study that confirms the asymptotic theory in finite sample. We conduct an extensive empirical investigation of all realized-volatility time series covering the entire span of about two decades in the Oxford-Man realized library, and of a small spot-volatility system. Our analysis shows that these time series are strongly correlated and can exhibit asymmetries in their empirical cross-covariance function, accurately captured by our model. These asymmetries lead to spillover effects, which we derive analytically within our model and compute based on empirical estimates of model parameters. Moreover, in accordance with the existing literature, we observe behaviors close to non-stationarity and rough trajectories.",
+ "primary": "q-fin.ST"
+}

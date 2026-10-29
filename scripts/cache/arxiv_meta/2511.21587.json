@@ -1,0 +1,15 @@
+{
+ "id": "2511.21587",
+ "title": "Approximate Bayesian Computation Made Easy: A Practical Guide to ABC-SMC for Dynamical Systems with \\texttt{pymc}",
+ "authors": [
+  "Mario Castro"
+ ],
+ "v1_date": "2025-11-26",
+ "latest_version": 1,
+ "latest_date": "2025-11-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 10 figures. Link to github respository",
+ "abstract": "Mechanistic models are essential tools across ecology, epidemiology, and the life sciences, but parameter inference remains challenging when likelihood functions are intractable. Approximate Bayesian Computation with Sequential Monte Carlo (ABC-SMC) offers a powerful likelihood-free alternative that requires only the ability to simulate data from mechanistic models. Despite its potential, many researchers remain hesitant to adopt these methods due to perceived complexity. This tutorial bridges that gap by providing a practical, example-driven introduction to ABC-SMC using Python. From predator-prey dynamics to hierarchical epidemic models, we illustrate by example how to implement, diagnose, and interpret ABC-SMC analyses. Each example builds intuition about when and why ABC-SMC works, how partial observability affects parameter identifiability, and how hierarchical structures naturally emerge in Bayesian frameworks. All code leverages PyMC's modern probabilistic programming interface, ensuring reproducibility and easy adaptation to new problems. The code its fully available for download at \\href{https://github.com/mariocastro73/ABCSMC_pymc_by_example}{mariocastro73/ABCSMC\\_pymc\\_by\\_example}",
+ "primary": "q-bio.PE"
+}

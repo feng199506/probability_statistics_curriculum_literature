@@ -1,0 +1,17 @@
+{
+ "id": "2504.16780",
+ "title": "Linear Regression Using Principal Components from General Hilbert-Space-Valued Covariates",
+ "authors": [
+  "Xinyi Li",
+  "Margaret Hoch",
+  "Michael R. Kosorok"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 4,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Adaptive Subspace PCA (AS-PCA), a framework for principal component analysis of random elements in a general separable Hilbert space. AS-PCA projects the covariance operator onto a data-adaptive finite-dimensional subspace prior to eigendecomposition, requiring no kernel specification and accommodating multi-dimensional functional objects including images and surfaces. Under the second-moment condition, we prove a Donsker theorem for Hilbert-space-valued empirical processes and use it to establish uniform consistency and joint Gaussian limits for the leading eigenpairs. A data-driven diagnostic verifies projection accuracy, and a consistent proportion-of-variance-explained rule selects the number of components. Building on AS-PCA, we construct Hilbert-Space Principal Component Regression (HS-PCR) for models combining Euclidean and Hilbert-space-valued covariates. The HS-PCR estimator is root-$n$ consistent and asymptotically normal, with an explicit influence function decomposition accounting for eigenfunction estimation uncertainty. Both nonparametric and wild bootstrap procedures are shown to be asymptotically valid. Simulations with two- and three-dimensional imaging predictors confirm accurate eigenstructure recovery and nominal bootstrap coverage. HS-PCR is applied to Alzheimer's Disease Neuroimaging Initiative data in regression and precision-medicine settings.",
+ "primary": "math.ST"
+}

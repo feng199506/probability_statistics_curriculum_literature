@@ -1,0 +1,19 @@
+{
+ "id": "2509.05852",
+ "title": "Fisher Random Walk: Automatic Debiasing Contextual Preference Inference for Large Language Model Evaluation",
+ "authors": [
+  "Yichi Zhang",
+  "Alexander Belloni",
+  "Ethan X. Fang",
+  "Junwei Lu",
+  "Xiaoan Xu"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 1,
+ "latest_date": "2025-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by the need for rigorous and scalable evaluation of large language models, we study contextual preference inference for pairwise comparison functionals of context-dependent preference score functions across domains. Focusing on the contextual Bradley-Terry-Luce model, we develop a semiparametric efficient estimator that automates the debiased estimation through aggregating weighted residual balancing terms across the comparison graph. We show that the efficiency is achieved when the weights are derived from a novel strategy called Fisher random walk. We also propose a computationally feasible method to compute the weights by a potential representation of nuisance weight functions. We show our inference procedure is valid for general score function estimators accommodating the practitioners' need to implement flexible deep learning methods. We extend the procedure to multiple hypothesis testing using a Gaussian multiplier bootstrap that controls familywise error and to distributional shift via a cross-fitted importance-sampling adjustment for target-domain inference. Numerical studies, including language model evaluations under diverse contexts, corroborate the accuracy, efficiency, and practical utility of our method.",
+ "primary": "stat.ML"
+}

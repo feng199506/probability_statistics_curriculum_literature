@@ -1,0 +1,18 @@
+{
+ "id": "2406.05633",
+ "title": "Heterogeneous Treatment Effects in Panel Data",
+ "authors": [
+  "Retsef Levi",
+  "Elisabeth Paulson",
+  "Georgia Perakis",
+  "Emily Zhang"
+ ],
+ "v1_date": "2024-06-09",
+ "latest_version": 1,
+ "latest_date": "2024-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address a core problem in causal inference: estimating heterogeneous treatment effects using panel data with general treatment patterns. Many existing methods either do not utilize the potential underlying structure in panel data or have limitations in the allowable treatment patterns. In this work, we propose and evaluate a new method that first partitions observations into disjoint clusters with similar treatment effects using a regression tree, and then leverages the (assumed) low-rank structure of the panel data to estimate the average treatment effect for each cluster. Our theoretical results establish the convergence of the resulting estimates to the true treatment effects. Computation experiments with semi-synthetic data show that our method achieves superior accuracy compared to alternative approaches, using a regression tree with no more than 40 leaves. Hence, our method provides more accurate and interpretable estimates than alternative methods.",
+ "primary": "stat.ML"
+}

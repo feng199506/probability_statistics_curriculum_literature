@@ -1,0 +1,15 @@
+{
+ "id": "2403.19504",
+ "title": "Overlap violations in external validity",
+ "authors": [
+  "Melody Huang"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 1,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating externally valid causal effects is a foundational problem in the social and biomedical sciences. Generalizing or transporting causal estimates from an experimental sample to a target population of interest relies on an overlap assumption between the experimental sample and the target population--i.e., all units in the target population must have a non-zero probability of being included in the experiment. In practice, having full overlap between an experimental sample and a target population can be implausible. In the following paper, we introduce a framework for considering external validity in the presence of overlap violations. We introduce a novel bias decomposition that parameterizes the bias from an overlap violation into two components: (1) the proportion of units omitted, and (2) the degree to which omitting the units moderates the treatment effect. The bias decomposition offers an intuitive and straightforward approach to conducting sensitivity analysis to assess robustness to overlap violations. Furthermore, we introduce a suite of sensitivity tools in the form of summary measures and benchmarking, which help researchers consider the plausibility of the overlap violations. We apply the proposed framework on an experiment evaluating the impact of a cash transfer program in Northern Uganda.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2512.08146",
+ "title": "Uncertainty quantification for mixed membership in multilayer networks with degree heterogeneity using Gaussian variational inference",
+ "authors": [
+  "Fangzheng Xie",
+  "Hsin-Hsiung Huang"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Analyzing multilayer networks is central to understanding complex relational measurements collected across multiple conditions or over time. A pivotal task in this setting is to quantify uncertainty in community structure while appropriately pooling information across layers and accommodating layer-specific heterogeneity. Building on the multilayer degree-corrected mixed-membership (ML-DCMM) model, which captures both stable community membership profiles and layer-specific vertex activity levels, we propose a Bayesian inference framework based on a spectral-assisted likelihood. We then develop a computationally efficient Gaussian variational inference algorithm implemented via stochastic gradient descent. Our theoretical analysis establishes a variational Bernstein--von Mises theorem, which provides a frequentist guarantee for using the variational posterior to construct confidence sets for mixed memberships. We demonstrate the utility of the method on a U.S. airport longitudinal network, where the procedure yields robust estimates, natural uncertainty quantification, and competitive performance relative to state-of-the-art methods.",
+ "primary": "stat.ME"
+}

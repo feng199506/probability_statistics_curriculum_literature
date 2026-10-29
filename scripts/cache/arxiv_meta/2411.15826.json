@@ -1,0 +1,17 @@
+{
+ "id": "2411.15826",
+ "title": "Expert-elicitation method for non-parametric joint priors using normalizing flows",
+ "authors": [
+  "Florence Bockting",
+  "Stefan T. Radev",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2024-11-24",
+ "latest_version": 2,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an expert-elicitation method for learning non-parametric joint prior distributions using normalizing flows. Normalizing flows are a class of generative models that enable exact, single-step density evaluation and can capture complex density functions through specialized deep neural networks. Building on our previously introduced simulation-based framework, we adapt and extend the methodology to accommodate non-parametric joint priors. Our framework thus supports the development of elicitation methods for learning both parametric and non-parametric priors, as well as independent or joint priors for model parameters. To evaluate the performance of the proposed method, we perform four simulation studies and present an evaluation pipeline that incorporates diagnostics and additional evaluation tools to support decision-making at each stage of the elicitation process.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "1510.00701",
+ "title": "Minimax Lower Bounds for Noisy Matrix Completion Under Sparse Factor Models",
+ "authors": [
+  "Abhinav V. Sambasivan",
+  "Jarvis D. Haupt"
+ ],
+ "v1_date": "2015-10-02",
+ "latest_version": 3,
+ "latest_date": "2017-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages",
+ "abstract": "This paper examines fundamental error characteristics for a general class of matrix completion problems, where the matrix of interest is a product of two a priori unknown matrices, one of which is sparse, and the observations are noisy. Our main contributions come in the form of minimax lower bounds for the expected per-element squared error for this problem under under several common noise models. Specifically, we analyze scenarios where the corruptions are characterized by additive Gaussian noise or additive heavier-tailed (Laplace) noise, Poisson-distributed observations, and highly-quantized (e.g., one-bit) observations, as instances of our general result. Our results establish that the error bounds derived in (Soni et al., 2016) for complexity-regularized maximum likelihood estimators achieve, up to multiplicative constants and logarithmic factors, the minimax error rates in each of these noise scenarios, provided that the nominal number of observations is large enough, and the sparse factor has (on an average) at least one non-zero per column.",
+ "primary": "cs.IT"
+}

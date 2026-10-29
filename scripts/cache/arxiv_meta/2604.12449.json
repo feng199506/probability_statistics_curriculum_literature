@@ -1,0 +1,16 @@
+{
+ "id": "2604.12449",
+ "title": "Multi-Object Posterior Computation via Gibbs Sampling",
+ "authors": [
+  "Ba Tuong Vo",
+  "Ba-Ngu Vo"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 1,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work presents a tractable approach to multi-object posterior computation under a generic measurement likelihood function. While filtering is a popular solution, valuable historical information is discarded. Posterior inference, which captures the full history of the multi-object states, provides a more comprehensive solution but is notoriously difficult and has received limited attention. Our proposed approach uses Gibbs Sampling (GS) to generate samples from the multi-object posterior. In particular, we establish that the conditional distributions of the multi-object posterior are Bernoulli random finite sets with explicit existence probabilities and attribute densities. These conditionals are straightforward to evaluate and sample from, enabling the construction of an efficient Gibbs sampler with standard convergence guarantees. To demonstrate its versatility, we develop the first multi-scan multi-object smoothing algorithm for superpositional measurements. Numerical experiments show that the proposed method delivers robust performance in challenging low-SNR scenarios where detection based smoothing deteriorates. Moreover, posterior samples obtained from our approach provide statistical characterizations of key variables and parameters, highlighting the advantages of posterior inference. This approach enriches multi-object estimation techniques, which historically lacked smoothing capabilities for non-standard measurements.",
+ "primary": "stat.CO"
+}

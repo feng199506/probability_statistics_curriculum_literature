@@ -1,0 +1,19 @@
+{
+ "id": "2401.05244",
+ "title": "Reliability Analysis of Complex Systems using Subset Simulations with Hamiltonian Neural Networks",
+ "authors": [
+  "Denny Thaler",
+  "Somayajulu L. N. Dhulipala",
+  "Franz Bamer",
+  "Bernd Markert",
+  "Michael D. Shields"
+ ],
+ "v1_date": "2024-01-10",
+ "latest_version": 1,
+ "latest_date": "2024-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a new Subset Simulation approach using Hamiltonian neural network-based Monte Carlo sampling for reliability analysis. The proposed strategy combines the superior sampling of the Hamiltonian Monte Carlo method with computationally efficient gradient evaluations using Hamiltonian neural networks. This combination is especially advantageous because the neural network architecture conserves the Hamiltonian, which defines the acceptance criteria of the Hamiltonian Monte Carlo sampler. Hence, this strategy achieves high acceptance rates at low computational cost. Our approach estimates small failure probabilities using Subset Simulations. However, in low-probability sample regions, the gradient evaluation is particularly challenging. The remarkable accuracy of the proposed strategy is demonstrated on different reliability problems, and its efficiency is compared to the traditional Hamiltonian Monte Carlo method. We note that this approach can reach its limitations for gradient estimations in low-probability regions of complex and high-dimensional distributions. Thus, we propose techniques to improve gradient prediction in these particular situations and enable accurate estimations of the probability of failure. The highlight of this study is the reliability analysis of a system whose parameter distributions must be inferred with Bayesian inference problems. In such a case, the Hamiltonian Monte Carlo method requires a full model evaluation for each gradient evaluation and, therefore, comes at a very high cost. However, using Hamiltonian neural networks in this framework replaces the expensive model evaluation, resulting in tremendous improvements in computational efficiency.",
+ "primary": "stat.ML"
+}

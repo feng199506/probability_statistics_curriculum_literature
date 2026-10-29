@@ -1,0 +1,17 @@
+{
+ "id": "2401.02917",
+ "title": "Bayesian changepoint detection via logistic regression and the topological analysis of image series",
+ "authors": [
+  "Andrew M. Thomas",
+  "Michael Jauch",
+  "David S. Matteson"
+ ],
+ "v1_date": "2024-01-05",
+ "latest_version": 3,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages (main), 24 pages (supplementary), 13 figures, and 11 tables",
+ "abstract": "We present a Bayesian method for multivariate changepoint detection that allows for simultaneous inference on the location of a changepoint and the coefficients of a logistic regression model for distinguishing pre-changepoint data from post-changepoint data. In contrast to many methods for multivariate changepoint detection, the proposed method is applicable to data of mixed type and avoids strict assumptions regarding the distribution of the data and the nature of the change. The regression coefficients provide an interpretable description of a potentially complex change. For posterior inference, the model admits a simple Gibbs sampling algorithm based on Pólya-gamma data augmentation. We establish conditions under which the proposed method is guaranteed to recover the true underlying changepoint. As a testing ground for our method, we consider the problem of detecting topological changes in time series of images. We demonstrate that our proposed method BCLR, combined with a topological feature embedding, performs well on both simulated and real image data. The method also successfully recovers the location and nature of changes in more traditional changepoint tasks.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2506.03062",
+ "title": "Multi-Metric Adaptive Experimental Design Under a Fixed Budget with Validation",
+ "authors": [
+  "Qining Zhang",
+  "Tanner Fiez",
+  "Yi Liu",
+  "Wenyang Liu"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in AISTATS 2026",
+ "abstract": "A/B tests in online experiments face statistical power challenges when testing multiple candidates simultaneously, while adaptive experimental designs (AED) alone fall short in inferring experiment statistics such as the average treatment effect, especially with many metrics (e.g., revenue, safety) and heterogeneous variances. This paper proposes a fixed-budget multi-metric AED framework with a two-phase structure: an adaptive exploration phase to identify the best treatment, and a validation phase with an A/B test to verify the treatment's quality and infer statistics. We propose SHRVar, which generalizes sequential halving (SH) with a novel relative-variance-based sampling and an elimination strategy built on reward z values. It achieves a provable error probability that decreases exponentially, where the exponent H3 generalizes the complexity measure for SH and SHVar with homogeneous and heterogeneous variances, respectively. Numerical experiments demonstrate its performance and robustness.",
+ "primary": "cs.LG"
+}

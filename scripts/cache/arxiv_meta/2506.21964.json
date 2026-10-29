@@ -1,0 +1,18 @@
+{
+ "id": "2506.21964",
+ "title": "Using Large Language Models to Suggest Informative Prior Distributions in Bayesian Statistics",
+ "authors": [
+  "Michael A. Riegler",
+  "Kristoffer Herland Hellton",
+  "Vajira Thambawita",
+  "Hugo L. Hammer"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 1,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Selecting prior distributions in Bayesian statistics is challenging, resource-intensive, and subjective. We analyze using large-language models (LLMs) to suggest suitable, knowledge-based informative priors. We developed an extensive prompt asking LLMs not only to suggest priors but also to verify and reflect on their choices. We evaluated Claude Opus, Gemini 2.5 Pro, and ChatGPT-4o-mini on two real datasets: heart disease risk and concrete strength. All LLMs correctly identified the direction for all associations (e.g., that heart disease risk is higher for males). The quality of suggested priors was measured by their Kullback-Leibler divergence from the maximum likelihood estimator's distribution. The LLMs suggested both moderately and weakly informative priors. The moderate priors were often overconfident, resulting in distributions misaligned with the data. In our experiments, Claude and Gemini provided better priors than ChatGPT. For weakly informative priors, a key performance difference emerged: ChatGPT and Gemini defaulted to an \"unnecessarily vague\" mean of 0, while Claude did not, demonstrating a significant advantage. The ability of LLMs to identify correct associations shows their great potential as an efficient, objective method for developing informative priors. However, the primary challenge remains in calibrating the width of these priors to avoid over- and under-confidence.",
+ "primary": "stat.ME"
+}

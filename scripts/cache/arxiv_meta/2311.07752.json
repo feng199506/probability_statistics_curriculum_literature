@@ -1,0 +1,18 @@
+{
+ "id": "2311.07752",
+ "title": "Doubly Robust Estimation under Possibly Misspecified Marginal Structural Cox Model",
+ "authors": [
+  "Jiyu Luo",
+  "Denise Rava",
+  "Jelena Bradic",
+  "Ronghui Xu"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 1,
+ "latest_date": "2023-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we address the challenges posed by non-proportional hazards and informative censoring, offering a path toward more meaningful causal inference conclusions. We start from the marginal structural Cox model, which has been widely used for analyzing observational studies with survival outcomes, and typically relies on the inverse probability weighting method. The latter hinges upon a propensity score model for the treatment assignment, and a censoring model which incorporates both the treatment and the covariates. In such settings, model misspecification can occur quite effortlessly, and the Cox regression model's non-collapsibility has historically posed challenges when striving to guard against model misspecification through augmentation. We introduce an augmented inverse probability weighted estimator which, enriched with doubly robust properties, paves the way for integrating machine learning and a plethora of nonparametric methods, effectively overcoming the challenges of non-collapsibility. The estimator extends naturally to estimating a time-average treatment effect when the proportional hazards assumption fails. We closely examine its theoretical and practical performance, showing that it satisfies both the assumption-lean and the well-specification criteria discussed in the recent literature. Finally, its application to a dataset reveals insights into the impact of mid-life alcohol consumption on mortality in later life.",
+ "primary": "stat.ME"
+}

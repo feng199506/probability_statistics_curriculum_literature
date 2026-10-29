@@ -1,0 +1,17 @@
+{
+ "id": "2601.12221",
+ "title": "A warping function-based control chart for detecting distributional changes in damage-sensitive features for structural condition assessment",
+ "authors": [
+  "Zhicheng Chen",
+  "Wenyu Chen",
+  "Xinyi Lei"
+ ],
+ "v1_date": "2026-01-18",
+ "latest_version": 1,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data-driven damage detection methods achieve damage identification by analyzing changes in damage-sensitive features (DSFs) derived from structural health monitoring (SHM) data. The core reason for their effectiveness lies in the fact that damage or structural state transition can be manifested as changes in the distribution of DSF data. This enables us to reframe the problem of damage detection as one of identifying these distributional changes. Hence, developing automated tools for detecting such changes is pivotal for automated structural health diagnosis. Control charts are extensively utilized in SHM for DSF change detection, owing to their excellent online detection and early warning capabilities. However, conventional methods are primarily designed to detect mean or variance shifts, making it challenging to identify complex shape changes in distributions. This limitation results in insufficient damage detection sensitivity. Moreover, they typically exhibit poor robustness against data contamination. This paper proposes a novel control chart to address these limitations. It employs the probability density functions (PDFs) of subgrouped DSF data as monitoring objects, with shape deformations characterized by warping functions. Furthermore, a nonparametric control chart is specifically constructed for warping function monitoring in the functional data analysis framework. Key advantages of the new method include the ability to detect both shifts and complex shape deformations in distributions, excellent online detection performance, and robustness against data contamination. Extensive simulation studies demonstrate its superiority over competing approaches. Finally, the method is applied to detecting distributional changes in DSF data for cable condition assessment in a long-span cable-stayed bridge, demonstrating its practical utility in engineering.",
+ "primary": "stat.AP"
+}

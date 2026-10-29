@@ -1,0 +1,15 @@
+{
+ "id": "2605.11677",
+ "title": "Bayesian and Empirical Bayesian Bootstrapping",
+ "authors": [
+  "Nils Lid Hjort"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, no figures. Statistical Research Report, Department of Mathematics, University of Oslo, May 1991; this version arXiv'd May 2026, for broader visibility. Biometrika expressed positive interest, and invited a revision, but somehow the author did not use that opportunity",
+ "abstract": "Let $X_1,\\ldots,X_n$ be a random sample from an unknown probability distribution $P$ on the sample space ${\\cal X}$, and let $θ=θ(P)$ be a parameter of interest. The present paper proposes a nonparametric `Bayesian bootstrap' method of obtaining Bayes estimates and Bayesian confidence limits for $θ$. It uses a simple simulation technique to numerically approximate the exact posterior distribution of $θ$ using a (non-degenerate) Dirichlet process prior for $P$. Asymptotic arguments are given which justify the use of the Bayesian bootstrap for any smooth functional $θ(P)$. When the prior is fixed and the sample size grows five approaches become first-order equivalent: the exact Bayesian, the Bayesian bootstrap, Rubin's degenerate-prior bootstrap, Efron's bootstrap, and the classical one using delta methods. The Bayesian bootstrap method is also extended to the semiparametric regression case. A separate section treats similar ideas for censored data and for more general hazard rate models, where a connection is made to a `weird bootstrap' proposed by Gill. Finally empirical Bayesian versions of the procedure are discussed, where suitable parameters of the Dirichlet process prior are inferred from data. Our results lend Bayesian support to the classic Efron bootstrap. It is the Bayesian bootstrap under a noninformative reference prior; it is a limit of natural approximations to good Bayes solutions; it is an approximation to a natural empirical Bayesian strategy; and the formally incorrect reading of a bootstrap histogram as a posterior distribution for the parameter isn't so incorrect after all.",
+ "primary": "math.ST"
+}

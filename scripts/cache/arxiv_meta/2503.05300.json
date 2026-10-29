@@ -1,0 +1,17 @@
+{
+ "id": "2503.05300",
+ "title": "Subbagging Variable Selection for Big Data",
+ "authors": [
+  "Xian Li",
+  "Xuan Liang",
+  "Tao Zou"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 page, 4 tables",
+ "abstract": "This article introduces a subbagging (subsample aggregating) approach for variable selection in regression within the context of big data. The proposed subbagging approach not only ensures that variable selection is scalable given the constraints of available computational resources, but also preserves the statistical efficiency of the resulting estimator. In particular, we propose a subbagging loss function that aggregates the least-squares approximations of the loss function for each subsample. Subsequently, we penalize the subbagging loss function via an adaptive LASSO-type regularizer, and obtain a regularized estimator to achieve variable selection. We then demonstrate that the regularized estimator exhibits $\\sqrt{N}$-consistency and possesses the oracle properties, where $N$ represents the size of the full sample in the big data. In addition, we propose a subbagging Bayesian information criterion to select the regularization parameter, ensuring that the regularized estimator achieves selection consistency. Simulation experiments are conducted to demonstrate the numerical performance. A U.S. census dataset is analyzed to illustrate the usefulness and computational scalability of the subbagging variable selection method.",
+ "primary": "stat.ME"
+}

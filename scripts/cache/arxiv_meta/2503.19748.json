@@ -1,0 +1,15 @@
+{
+ "id": "2503.19748",
+ "title": "No-prior Bayes reIMagined: probabilistic approximations of inferential models",
+ "authors": [
+  "Ryan Martin"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 4,
+ "latest_date": "2026-06-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When prior information is lacking, the go-to strategy for probabilistic inference is to combine a \"default prior\" and the likelihood via Bayes's theorem. Objective Bayes, (generalized) fiducial inference, etc. fall under this umbrella. This construction is natural, but the corresponding posterior distributions generally only offer limited, approximately valid uncertainty quantification. The present paper takes a reimagined approach that yields posterior distributions with stronger reliability properties. The proposed construction starts with an inferential model (IM), one that takes the mathematical form of a data-driven possibility measure and features exactly valid uncertainty quantification, and then returns a so-called inner probabilistic approximation thereof. This inner probabilistic approximation inherits many of the original IM's desirable properties, including credible sets with exact coverage and asymptotic efficiency. The approximation also agrees with the familiar Bayes/fiducial solution in applications where the model has a group invariance structure. A Monte Carlo method for evaluating the probabilistic approximation is presented, along with numerical illustrations.",
+ "primary": "stat.ME"
+}

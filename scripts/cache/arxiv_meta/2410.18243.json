@@ -1,0 +1,18 @@
+{
+ "id": "2410.18243",
+ "title": "Saddlepoint Monte Carlo and its Application to Exact Ecological Inference",
+ "authors": [
+  "Théo Voldoire",
+  "Nicolas Chopin",
+  "Guillaume Rateau",
+  "Robin J. Ryder"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 1,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 9 figures, 3 tables",
+ "abstract": "Assuming X is a random vector and A a non-invertible matrix, one sometimes need to perform inference while only having access to samples of Y = AX. The corresponding likelihood is typically intractable. One may still be able to perform exact Bayesian inference using a pseudo-marginal sampler, but this requires an unbiased estimator of the intractable likelihood. We propose saddlepoint Monte Carlo, a method for obtaining an unbiased estimate of the density of Y with very low variance, for any model belonging to an exponential family. Our method relies on importance sampling of the characteristic function, with insights brought by the standard saddlepoint approximation scheme with exponential tilting. We show that saddlepoint Monte Carlo makes it possible to perform exact inference on particularly challenging problems and datasets. We focus on the ecological inference problem, where one observes only aggregates at a fine level. We present in particular a study of the carryover of votes between the two rounds of various French elections, using the finest available data (number of votes for each candidate in about 60,000 polling stations over most of the French territory). We show that existing, popular approximate methods for ecological inference can lead to substantial bias, which saddlepoint Monte Carlo is immune from. We also present original results for the 2024 legislative elections on political centre-to-left and left-to-centre conversion rates when the far-right is present in the second round. Finally, we discuss other exciting applications for saddlepoint Monte Carlo, such as dealing with aggregate data in privacy or inverse problems.",
+ "primary": "stat.CO"
+}

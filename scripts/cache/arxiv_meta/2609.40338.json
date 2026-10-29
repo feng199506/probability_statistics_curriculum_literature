@@ -1,0 +1,17 @@
+{
+ "id": "2609.40338",
+ "title": "Weak Convergence Rates for Partial-Sum Processes of Nonlinear Stochastic Approximation",
+ "authors": [
+  "Xiang Li",
+  "Jiadong Liang",
+  "Zhihua Zhang"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 1,
+ "latest_date": "2026-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic approximation provides a general framework for online estimation and optimization. Statistical inference based on the resulting estimates requires understanding their fluctuations around the target. For Polyak--Ruppert averaging, functional central limit theorems describe the normalized cumulative estimation errors through a Brownian limit. However, weak convergence alone does not determine how quickly the distribution of this process approaches that limit. We establish a quantitative functional central limit theorem for nonlinear stochastic approximation with polynomially decreasing step sizes and martingale-difference noise. Under suitable regularity and moment conditions, we derive an explicit finite-sample bound on the Prokhorov distance between each fixed scalar projection of the normalized partial-sum process and its Brownian limit. The bound reveals a step-size tradeoff: faster step-size decay reduces the contribution of the nonlinear remainder but increases that of the smoothing induced by the recursion. To assess the sharpness of the upper bound, we develop four lower-bound constructions, each designed to isolate one source of error. They show that covariance stabilization, finite-moment noise, algorithmic smoothing, and nonlinearity can each separately limit the Brownian approximation rate of the SA path.",
+ "primary": "math.ST"
+}

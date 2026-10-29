@@ -1,0 +1,18 @@
+{
+ "id": "2405.19637",
+ "title": "Inference in semiparametric formation models for directed networks",
+ "authors": [
+  "Lianqiang Qu",
+  "Lu Chen",
+  "Ting Yan",
+  "Yuguo Chen"
+ ],
+ "v1_date": "2024-05-30",
+ "latest_version": 2,
+ "latest_date": "2025-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 9 figures",
+ "abstract": "We propose a semiparametric model for dyadic link formations in directed networks. The model contains a set of degree parameters that measure different effects of popularity or outgoingness across nodes, a regression parameter vector that reflects the homophily effect resulting from the nodal attributes or pairwise covariates associated with edges, and a set of latent random noises with unknown distributions. Our interest lies in inferring the unknown degree parameters and homophily parameters. The dimension of the degree parameters increases with the number of nodes. Under the high-dimensional regime, we develop a kernel-based least squares approach to estimate the unknown parameters. The major advantage of our estimator is that it does not encounter the incidental parameter problem for the homophily parameters. We prove consistency of all the resulting estimators of the degree parameters and homophily parameters. We establish high-dimensional central limit theorems for the proposed estimators and provide several applications of our general theory, including testing the existence of degree heterogeneity, testing sparse signals and recovering the support. Simulation studies and a real data application are conducted to illustrate the finite sample performance of the proposed methods.",
+ "primary": "stat.ME"
+}

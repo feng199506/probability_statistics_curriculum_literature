@@ -1,0 +1,21 @@
+{
+ "id": "2411.10312",
+ "title": "Generalized Conditional Functional Principal Component Analysis",
+ "authors": [
+  "Yu Lu",
+  "Xinkai Zhou",
+  "Erjia Cui",
+  "Dustin Rogers",
+  "Ciprian M. Crainiceanu",
+  "Julia Wrobel",
+  "Andrew Leroux"
+ ],
+ "v1_date": "2024-11-15",
+ "latest_version": 1,
+ "latest_date": "2024-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages with supplementary material, 5 figures for the main article and 4 supplementary figures, 3 tables for the main article and 10 supplementary tables, submitted to Journal of Computational and Graphical Statistics (JCGS)",
+ "abstract": "We propose generalized conditional functional principal components analysis (GC-FPCA) for the joint modeling of the fixed and random effects of non-Gaussian functional outcomes. The method scales up to very large functional data sets by estimating the principal components of the covariance matrix on the linear predictor scale conditional on the fixed effects. This is achieved by combining three modeling innovations: (1) fit local generalized linear mixed models (GLMMs) conditional on covariates in windows along the functional domain; (2) conduct a functional principal component analysis (FPCA) on the person-specific functional effects obtained by assembling the estimated random effects from the local GLMMs; and (3) fit a joint functional mixed effects model conditional on covariates and the estimated principal components from the previous step. GC-FPCA was motivated by modeling the minute-level active/inactive profiles over the day ($1{,}440$ 0/1 measurements per person) for $8{,}700$ study participants in the National Health and Nutrition Examination Survey (NHANES) 2011-2014. We show that state-of-the-art approaches cannot handle data of this size and complexity, while GC-FPCA can.",
+ "primary": "stat.ME"
+}

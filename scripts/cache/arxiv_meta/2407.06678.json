@@ -1,0 +1,16 @@
+{
+ "id": "2407.06678",
+ "title": "Multilevel quadrature formulae for the optimal control of random PDEs",
+ "authors": [
+  "Fabio Nobile",
+  "Tommaso Vanzan"
+ ],
+ "v1_date": "2024-07-09",
+ "latest_version": 2,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This manuscript presents a framework for using multilevel quadrature formulae to compute the solution of optimal control problems constrained by random partial differential equations. Our approach consists in solving a sequence of optimal control problems discretized with different levels of accuracy of the physical and probability discretizations. The final approximation of the control is then obtained in a postprocessing step, by suitably combining the adjoint variables computed on the different levels. We present a general convergence and complexity analysis for an unconstrained linear quadratic problem under abstract assumptions on the spatial discretization and on the quadrature formulae. We detail our framework for the specific case of a MultiLevel Monte Carlo (MLMC) quadrature formula, and numerical experiments confirm the better computational complexity of our MLMC approach compared to a standard Monte Carlo sample average approximation, even beyond the theoretical assumptions.",
+ "primary": "math.NA"
+}

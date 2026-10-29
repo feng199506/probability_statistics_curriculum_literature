@@ -1,0 +1,16 @@
+{
+ "id": "2505.06939",
+ "title": "Semiparametric Weighted Spline Regression (SWSR) in Confirmatory Clinical Trials with Time-Varying Placebo Effects",
+ "authors": [
+  "Tianyu Zhan",
+  "Yihua Gu"
+ ],
+ "v1_date": "2025-05-11",
+ "latest_version": 2,
+ "latest_date": "2025-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In confirmatory Phase 3 clinical trials with recruitment over the years, the underlying placebo effect may follow an unknown temporal trend. Taking a clinical trial on Hidradenitis Suppurativa (HS) as an example, fluctuations or variabilities are common in HS-related endpoints, mainly due to the natural disease characteristics, variations of evaluation from different physicians, and standard of care evolvement. The adjustment of time-varying placebo effects receives some attention in adaptive clinical trials and platform trials, but is usually ignored in traditional non-adaptive designs. However, under the impact of such a time drift, some existing methods may not simultaneously control the type I error rate and achieve satisfactory power. In this article, we propose SWSR (Semiparametric Weighted Spline Regression) to estimate the treatment effect with B-splines to accommodate the time-varying placebo effects nonparametrically. Our method aims to achieve the following three objectives: a proper type I error rate control under varying settings, an overall high power to detect a potential treatment effect, and robustness to unknown time-varying placebo effects. Simulation studies and a case study provide supporting evidence. Those three key features make SWSR an appealing option to be pre-specified for practical confirmatory clinical trials. Supplemental materials, including the R code, additional simulation results and theoretical discussion, are available online.",
+ "primary": "stat.ME"
+}

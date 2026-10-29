@@ -1,0 +1,16 @@
+{
+ "id": "2609.25965",
+ "title": "Modeling interest rate swap volatility with GARCH processes",
+ "authors": [
+  "Michał Balcerek",
+  "Michał Wronka"
+ ],
+ "v1_date": "2026-09-22",
+ "latest_version": 1,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We examine the conditional volatility dynamics of the USD 1Yx10Y forward swap rate using GARCH(1,1), GJR-GARCH(1,1), and a two-regime Markov-switching GARCH (MSGARCH) model. The analysis uses daily data from 2007 to 2023 and incorporates market-implied measures (ATM swaption volatility and the SRVIX in- dex) together with a broad set of diagnostic tests. Standard GARCH and GJR- GARCH models show stable short-run parameters, but the intercept ω varies markedly across rolling windows, causing instability in the implied long-run vari- ance. This pattern, confirmed by the Nyblom test, motivates adopting a regime- switching specification. MSGARCH mitigates this issue by keeping regime-specific parameters stable and capturing time variation through filtered regime probabili- ties. It delivers the highest log-likelihood and lowest AIC, whereas BIC favours the more parsimonious GJR-GARCH. One-step-ahead backtesting indicates comparable short-horizon accuracy across models, but MSGARCH offers a clearer structural in- terpretation by isolating high- and low-volatility regimes aligned with major market events.",
+ "primary": "q-fin.MF"
+}

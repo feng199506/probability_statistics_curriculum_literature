@@ -1,0 +1,16 @@
+{
+ "id": "2412.17779",
+ "title": "Ergodic Network Stochastic Differential Equations",
+ "authors": [
+  "Francesco Iafrate",
+  "Stefano Iacus"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 3,
+ "latest_date": "2025-06-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel framework for Network Stochastic Differential Equations (N-SDE), where each node in a network is governed by an SDE influenced by interactions with its neighbors. The evolution of each node is driven by the interplay of three key components: the node's intrinsic dynamics (\\emph{momentum effect}), feedback from neighboring nodes (\\emph{network effect}), and a \\emph{stochastic volatility} term modeled by Brownian motion. Our primary objective is to estimate the parameters of the N-SDE system from high-frequency discrete-time observations. The motivation behind this model lies in its ability to analyze very high-dimensional time series by leveraging the inherent sparsity of the underlying network graph. We consider two distinct scenarios: \\textit{i) known network structure}: the graph is fully specified, and we establish conditions under which the parameters can be identified, considering the linear growth of the parameter space with the number of edges. \\textit{ii) unknown network structure}: the graph must be inferred from the data. For this, we develop an iterative procedure using adaptive Lasso, tailored to a specific subclass of N-SDE models. In this work, we assume the network graph is oriented, paving the way for novel applications of SDEs in causal inference, enabling the study of cause-effect relationships in dynamic systems. Through extensive simulation studies, we demonstrate the performance of our estimators across various graph topologies in high-dimensional settings. We also showcase the framework's applicability to real-world datasets, highlighting its potential for advancing the analysis of complex networked systems.",
+ "primary": "stat.ME"
+}

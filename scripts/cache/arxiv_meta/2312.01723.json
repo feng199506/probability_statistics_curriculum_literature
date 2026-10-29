@@ -1,0 +1,18 @@
+{
+ "id": "2312.01723",
+ "title": "Group Sequential Design for Non-Proportional Hazards: Logrank, Weighted Logrank, and MaxCombo Methods",
+ "authors": [
+  "Yujie Zhao",
+  "Yilong Zhang",
+  "Larry Leon",
+  "Keaven M. Anderson"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 2,
+ "latest_date": "2025-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Non-proportional hazards (NPH) are often observed in clinical trials with time-to-event endpoints. A common example is a long-term clinical trial with a delayed treatment effect in immunotherapy for cancer. When designing clinical trials with time-to-event endpoints, it is crucial to consider NPH scenarios to gain a complete understanding of design operating characteristics. In this paper, we focus on group sequential design for three NPH methods: the average hazard ratio, the weighted logrank test, and the MaxCombo combination test. For each of these approaches, we provide analytic forms of design characteristics that facilitate sample size calculation and bound derivation for group sequential designs. Examples are provided to illustrate the proposed methods. To facilitate statisticians in designing and comparing group sequential designs under NPH, we have implemented the group sequential design methodology in the gsDesign2 R package at https://cran.r-project.org/web/packages/gsDesign2/.",
+ "primary": "stat.ME"
+}

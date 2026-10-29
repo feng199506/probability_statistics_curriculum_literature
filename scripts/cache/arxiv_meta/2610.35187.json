@@ -1,0 +1,15 @@
+{
+ "id": "2610.35187",
+ "title": "Fast Calibration of Generalized Posteriors via Dirichlet Reweighting",
+ "authors": [
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2026-10-26",
+ "latest_version": 1,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages",
+ "abstract": "While generalized Bayesian inference offers a principled approach to uncertainty quantification under general loss functions, its practical performance depends critically on the choice of the learning rate. Generalized posterior calibration, which selects the learning rate so that the resulting credible sets attain nominal frequentist coverage, is computationally intensive because it relies on repeated posterior sampling across bootstrap datasets and candidate learning rates. To overcome this practical difficulty, we propose a fast calibration method that combines Dirichlet-weighted bootstrap perturbations with importance sampling to estimate coverage while reducing the need for repeated posterior sampling. We further extend the framework to hierarchical models, where group-specific learning rates are calibrated and stabilized via shrinkage. Illustrative examples using quantile regression, support vector machines, and hierarchical Huber regression demonstrate that the proposed method substantially reduces computational cost while maintaining accurate calibration.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.27276",
+ "title": "PyINLA: Fast Bayesian Inference for Latent Gaussian Models in Python",
+ "authors": [
+  "Esmail Abdul Fattah",
+  "Elias Krainski",
+  "Havard Rue"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 9 figures",
+ "abstract": "Bayesian inference often relies on Markov chain Monte Carlo (MCMC) methods, particularly required for non-Gaussian data families. When dealing with complex hierarchical models, the MCMC approach can be computationally demanding in workflows that require repeated model fitting or when working with models of large dimensions with limited hardware resources. The Integrated Nested Laplace Approximations (INLA) is a deterministic alternative for models with non-Gaussian data that belong to the class of latent Gaussian models (LGMs), yielding accurate approximations to posterior marginals in many applied settings. The INLA method was implemented in C as a standalone program, inla, that is widely used in R through the INLA package. This paper introduces PyINLA, a dedicated Python package that provides a Pythonic interface directly to the inla program. Therefore, PyINLA enables specifying LGMs, running INLA-based inference, and accessing posterior summaries directly from Python while leveraging the established INLA implementation. We describe the package design and illustrate its use on representative models, including generalized linear mixed models, time series forecasting, disease mapping, and geostatistical prediction, demonstrating how deterministic Bayesian inference can be performed in Python using INLA in a way that integrates naturally with common scientific computing workflows.",
+ "primary": "stat.AP"
+}

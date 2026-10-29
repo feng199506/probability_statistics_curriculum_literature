@@ -1,0 +1,17 @@
+{
+ "id": "2507.07941",
+ "title": "Late Fusion Multi-task Learning for Semiparametric Inference with Nuisance Parameters",
+ "authors": [
+  "Sohom Bhattacharya",
+  "Yongzhuo Chen",
+  "Muxuan Liang"
+ ],
+ "v1_date": "2025-07-10",
+ "latest_version": 1,
+ "latest_date": "2025-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 3 figures",
+ "abstract": "In the age of large and heterogeneous datasets, the integration of information from diverse sources is essential to improve parameter estimation. Multi-task learning offers a powerful approach by enabling simultaneous learning across related tasks. In this work, we introduce a late fusion framework for multi-task learning with semiparametric models that involve infinite-dimensional nuisance parameters, focusing on applications such as heterogeneous treatment effect estimation across multiple data sources, including electronic health records from different hospitals or clinical trial data. Our framework is two-step: first, initial double machine-learning estimators are obtained through individual task learning; second, these estimators are adaptively aggregated to exploit task similarities while remaining robust to task-specific differences. In particular, the framework avoids individual level data sharing, preserving privacy. Additionally, we propose a novel multi-task learning method for nuisance parameter estimation, which further enhances parameter estimation when nuisance parameters exhibit similarity across tasks. We establish theoretical guarantees for the method, demonstrating faster convergence rates compared to individual task learning when tasks share similar parametric components. Extensive simulations and real data applications complement the theoretical findings of our work while highlight the effectiveness of our framework even in moderate sample sizes.",
+ "primary": "stat.ME"
+}

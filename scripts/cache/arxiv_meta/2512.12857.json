@@ -1,0 +1,16 @@
+{
+ "id": "2512.12857",
+ "title": "Variational Inference for Fully Bayesian Hierarchical Linear Models",
+ "authors": [
+  "Cristian Parra-Aldana",
+  "Juan Sosa"
+ ],
+ "v1_date": "2025-12-14",
+ "latest_version": 1,
+ "latest_date": "2025-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, 10 figures, 6 tables",
+ "abstract": "Bayesian hierarchical linear models provide a natural framework to analyze nested and clustered data. Classical estimation with Markov chain Monte Carlo produces well calibrated posterior distributions but becomes computationally expensive in high dimensional or large sample settings. Variational Inference and Stochastic Variational Inference offer faster optimization based alternatives, but their accuracy in hierarchical structures is uncertain when group separation is weak. This paper compares these two paradigms across three model classes, the Linear Regression Model, the Hierarchical Linear Regression Model, and a Clustered Hierarchical Linear Regression Model. Through simulation studies and an application to real data, the results show that variational methods recover global regression effects and clustering structure with a fraction of the computing time, but distort posterior dependence and yield unstable values of information criteria such as WAIC and DIC. The findings clarify when variational methods can serve as practical surrogates for Markov chain Monte Carlo and when their limitations make full Bayesian sampling necessary, and they provide guidance for extending the same variational framework to generalized linear models and other members of the exponential family.",
+ "primary": "stat.ME"
+}

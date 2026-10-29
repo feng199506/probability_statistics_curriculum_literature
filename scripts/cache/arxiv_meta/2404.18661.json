@@ -1,0 +1,18 @@
+{
+ "id": "2404.18661",
+ "title": "Restricted Path Characteristic Function Determines the Law of Stochastic Processes",
+ "authors": [
+  "Siran Li",
+  "Zijiu Lyu",
+  "Hao Ni",
+  "Jiajie Tao"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 3,
+ "latest_date": "2025-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 8 figures, 3 tables",
+ "abstract": "A central question in rough path theory is characterising the law of stochastic processes on path spaces. It is established in [I. Chevyrev & T. Lyons, Characteristic functions of measures on geometric rough paths, Ann. Probab. 44 (2016), 4049--4082] that the characteristic function of a probability measure on group-like elements, which is a subspace of the extended tensor algebra $\\mathcal{T}\\left(\\mathbb{R}^d\\right) = \\prod_{n=0}^\\infty\\left(\\mathbb{R}^d\\right)^{\\otimes n}$, uniquely determines the measure. In this work, we show that the characteristic function restricted to special orthogonal Lie algebra $\\mathfrak{so}(n)$ is sufficient to achieve this goal. The key to our arguments is an explicit algorithm -- as opposed to the non-constructive approach in [I. Chevyrev & T. Lyons, op. cit.] -- for determining a generic element $X \\in \\mathcal{T}\\left(\\mathbb{R}^d\\right)$ from its generating function when restricting its domain to a sparse subspace of real tridiagonal skew-symmetric matrices. Our only assumption is that $X$ has a non-zero ROC, which relaxes the condition of having an infinite ROC in the literature. As an application, we propose the restricted path characteristic function distance (RPCFD), a novel distance function for probability measures on the path space that serves as the sparse counterpart of path characteristic function distance. It has enormous advantages in dimension reduction and potential in generative modeling for synthetic time series generation, validated in this paper via hypothesis testing on fractional Brownian motions.",
+ "primary": "math.PR"
+}

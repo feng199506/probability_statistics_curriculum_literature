@@ -1,0 +1,16 @@
+{
+ "id": "2605.23691",
+ "title": "Joint Estimation of Marginal and Heterogeneous Treatment Effects",
+ "authors": [
+  "Leticia Wuethrich",
+  "Torsten Hothorn"
+ ],
+ "v1_date": "2026-05-22",
+ "latest_version": 1,
+ "latest_date": "2026-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized clinical trials typically aim to estimate a marginal treatment effect. While covariate adjustment can improve precision, it may change the estimand in nonlinear models due to noncollapsibility, leading to conditional rather than marginal treatment effects. At the same time, identifying prognostic and predictive covariates is important for understanding treatment effect heterogeneity and informing clinical decision-making. Keeping marginal interpretability while allowing efficiency gains and assessment of heterogeneity remains a methodological challenge. In this work, we extend nonparanormal adjusted marginal inference to allow for heterogeneous treatment effects. The proposed framework embeds the marginal treatment effect directly in a joint model for the outcome and baseline covariates. This construction preserves marginal interpretability while adjusting for potentially prognostic and/or predictive covariates. The method applies to continuous, binary, ordinal, and time-to-event outcomes and allows explicit estimation and ranking of prognostic and predictive covariates on a common scale. For continuous outcomes, we show that the asymptotic variance of the marginal treatment effect measured as Cohen's $d$ is never worse and often better under covariate adjustment than without adjustment. Efficiency gains are primarily driven by prognostic effects, with realistic predictive effects contributing little additional improvement. Simulation studies confirm these findings across outcome types and demonstrate unbiased and more efficient estimation of marginal effects for Cohen's d, log-odds ratios, and log-hazard ratios. Application to an acupuncture trial demonstrates that the method reproduces the original trial findings while improving efficiency and allowing ranking of prognostic and predictive covariates.",
+ "primary": "stat.ME"
+}

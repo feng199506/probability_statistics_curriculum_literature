@@ -1,0 +1,16 @@
+{
+ "id": "2507.21465",
+ "title": "False discovery rate control with compound p-values",
+ "authors": [
+  "Rina Foygel Barber",
+  "Richard J Samworth"
+ ],
+ "v1_date": "2025-07-29",
+ "latest_version": 2,
+ "latest_date": "2026-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the setting of multiple testing, compound p-values generalize p-values by asking for superuniformity to hold only \\emph{on average} across all true nulls. We study the properties of the Benjamini--Hochberg procedure applied to compound p-values. Under independence, we show that the false discovery rate (FDR) is at most $1.93α$, where $α$ is the nominal level, and exhibit a distribution for which the FDR is $\\frac{7}{6}α$. If additionally all nulls are true, then the upper bound can be improved to $α+ 2α^2$, with a corresponding worst-case lower bound of $α+ α^2/4$. Under positive dependence, on the other hand, we demonstrate that FDR can be inflated by a factor of $O(\\log m)$, where~$m$ is the number of hypotheses. We provide numerous examples of settings where compound p-values arise in practice, either because we lack sufficient information to compute non-trivial p-values, or to facilitate a more powerful analysis.",
+ "primary": "math.ST"
+}

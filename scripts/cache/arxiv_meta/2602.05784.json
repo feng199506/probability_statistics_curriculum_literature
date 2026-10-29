@@ -1,0 +1,21 @@
+{
+ "id": "2602.05784",
+ "title": "Correcting Measurement Error and Zero Inflation in Functional Covariates for Scalar-on-Function Quantile Regression",
+ "authors": [
+  "Caihong Qin",
+  "Lan Xue",
+  "Ufuk Beyaztas",
+  "Roger S. Zoh",
+  "Mark Benden",
+  "Jeff Goldsmith",
+  "Carmen D. Tekwe"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wearable devices collect time-varying biobehavioral data, offering opportunities to investigate how behaviors influence health outcomes. However, these data often contain measurement error and excess zeros (due to nonwear, sedentary behavior, or connectivity issues), each characterized by subject-specific distributions. Current statistical methods fail to address these issues simultaneously. We introduce a novel modeling framework for zero-inflated and error-prone functional data by incorporating a subject-specific time-varying validity indicator that explicitly distinguishes structural zeros from intrinsic values. We iteratively estimate the latent functional covariates and zero-inflation probabilities via maximum likelihood, using basis expansions and linear mixed models to adjust for measurement error. To assess the effects of the recovered latent covariates, we apply joint quantile regression across multiple quantile levels. Through extensive simulations, we demonstrate that our approach significantly improves estimation accuracy over methods that only address measurement error, and joint estimation yields substantial improvements compared with fitting separate quantile regressions. Applied to a childhood obesity study, our approach effectively corrects for zero inflation and measurement error in step counts, yielding results that closely align with energy expenditure and supporting their use as a proxy for physical activity.",
+ "primary": "stat.ME"
+}

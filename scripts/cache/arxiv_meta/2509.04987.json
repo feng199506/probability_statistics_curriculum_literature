@@ -1,0 +1,17 @@
+{
+ "id": "2509.04987",
+ "title": "Optimal Estimation for General Gaussian Processes",
+ "authors": [
+  "Tetsuya Takabatake",
+  "Jun Yu",
+  "Chen Zhang"
+ ],
+ "v1_date": "2025-09-05",
+ "latest_version": 1,
+ "latest_date": "2025-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a novel exact maximum likelihood (ML) estimation method for general Gaussian processes, where all parameters are estimated jointly. The exact ML estimator (MLE) is consistent and asymptotically normally distributed. We prove the local asymptotic normality (LAN) property of the sequence of statistical experiments for general Gaussian processes in the sense of Le Cam, thereby enabling optimal estimation and facilitating statistical inference. The results rely solely on the asymptotic behavior of the spectral density near zero, allowing them to be widely applied. The established optimality not only addresses the gap left by Adenstedt(1974), who proposed an efficient but infeasible estimator for the long-run mean $μ$, but also enables us to evaluate the finite-sample performance of the existing method -- the commonly used plug-in MLE, in which the sample mean is substituted into the likelihood. Our simulation results show that the plug-in MLE performs nearly as well as the exact MLE, alleviating concerns that inefficient estimation of $μ$ would compromise the efficiency of the remaining parameter estimates.",
+ "primary": "math.ST"
+}

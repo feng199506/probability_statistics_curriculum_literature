@@ -1,0 +1,16 @@
+{
+ "id": "2406.13876",
+ "title": "An Empirical Bayes Jackknife Regression Framework for Covariance Matrix Estimation",
+ "authors": [
+  "Huqin Xin",
+  "Sihai Dave Zhao"
+ ],
+ "v1_date": "2024-06-19",
+ "latest_version": 3,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 3 figures",
+ "abstract": "Covariance matrix estimation, a classical statistical topic, poses significant challenges when the sample size is comparable to or smaller than the number of features. In this paper, we frame covariance matrix estimation as a compound decision problem and apply an optimal decision rule to estimate covariance parameters. To approximate this rule, we introduce an algorithm that integrates jackknife techniques with machine learning regression methods. This algorithm exhibits adaptability across diverse scenarios without relying on assumptions about data distribution. Simulation results and gene network inference from an RNA-seq experiment in mice demonstrate that our approach either matches or surpasses several state-of-the-art methods",
+ "primary": "stat.ME"
+}

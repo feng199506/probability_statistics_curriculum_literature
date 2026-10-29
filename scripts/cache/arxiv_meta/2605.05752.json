@@ -1,0 +1,17 @@
+{
+ "id": "2605.05752",
+ "title": "Generative AI-Based Monte Carlo Simulation for Method Evaluation Using Synthetic Multilevel Data",
+ "authors": [
+  "Youmi Suk",
+  "Chenguang Pan",
+  "Weixuan Xiao"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages for the main text",
+ "abstract": "The role of AI-generated synthetic data has recently been expanded to support realistic Monte Carlo simulations. However, guidance is limited on generating data with multilevel structures and designing simulations based on such data. This study proposes a general framework for AI-based simulation studies to evaluate the predictive performance and parameter recovery of quantitative methods, specifically using multilevel data commonly observed in the social sciences. Our proposed six-stage workflow consists of (i) specifying a method and real data, (ii) training Generative AI with real data, (iii) assessing synthetic data quality, (iv) designing and conducting simulations, (v) evaluating method performance, and (vi) checking robustness. To enhance fidelity in multilevel data generation, we also introduce targeted modifications to diffusion models and Generative Adversarial Networks (GANs). Furthermore, we develop a systematic quality evaluation framework that assesses both within-table and between-table fidelity, and discuss how AI-based simulation designs should differ depending on whether the simulation's objective is predictive performance or parameter recovery. Finally, using empirical multilevel data and multilevel modeling methods, we demonstrate the utility of the proposed AI-based simulation framework. This approach leads to more accurate and honest evaluations of quantitative methods in the real world, unlike traditional simulation studies based on arbitrary simulated scenarios.",
+ "primary": "stat.ME"
+}

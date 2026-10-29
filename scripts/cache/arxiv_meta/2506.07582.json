@@ -1,0 +1,19 @@
+{
+ "id": "2506.07582",
+ "title": "Scalable Spatiotemporal Modeling for Bicycle Count Prediction",
+ "authors": [
+  "Rishikesh Yadav",
+  "Alexandra M. Schmidt",
+  "Aurelie Labbe",
+  "Pratheepa Jeganathan",
+  "Luis F. Miranda-Moreno"
+ ],
+ "v1_date": "2025-06-09",
+ "latest_version": 1,
+ "latest_date": "2025-06-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages; 5 figures; 4 tables",
+ "abstract": "We propose a novel sparse spatiotemporal dynamic generalized linear model for efficient inference and prediction of bicycle count data. Assuming Poisson distributed counts with spacetime-varying rates, we model the log-rate using spatiotemporal intercepts, dynamic temporal covariates, and site-specific effects additively. Spatiotemporal dependence is modeled using a spacetime-varying intercept that evolves smoothly over time with spatially correlated errors, and coefficients of some temporal covariates including seasonal harmonics also evolve dynamically over time. Inference is performed following the Bayesian paradigm, and uncertainty quantification is naturally accounted for when predicting bicycle counts for unobserved locations and future times of interest. To address the challenges of high-dimensional inference of spatiotemporal data in a Bayesian setting, we develop a customized hybrid Markov Chain Monte Carlo (MCMC) algorithm. To address the computational burden of dense covariance matrices, we extend our framework to high-dimensional spatial settings using the sparse SPDE approach of Lindgren et al. (2011), demonstrating its accuracy and scalability on both synthetic data and Montreal Island bicycle datasets. The proposed approach naturally provides missing value imputations, kriging, future forecasting, spatiotemporal predictions, and inference of model components. Moreover, it provides ways to predict average annual daily bicycles (AADB), a key metric often sought when designing bicycle networks.",
+ "primary": "stat.ME"
+}

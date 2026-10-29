@@ -1,0 +1,15 @@
+{
+ "id": "2512.08513",
+ "title": "Minimax and Bayes Optimal Adaptive Experimental Design for Treatment Choice",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider an adaptive experiment for treatment choice and design a minimax and Bayes optimal adaptive experiment with respect to regret. Given binary treatments, the experimenter's goal is to choose the treatment with the highest expected outcome through an adaptive experiment, in order to maximize welfare. We consider adaptive experiments that consist of two phases, the treatment allocation phase and the treatment choice phase. The experiment starts with the treatment allocation phase, where the experimenter allocates treatments to experimental subjects to gather observations. During this phase, the experimenter can adaptively update the allocation probabilities using the observations obtained in the experiment. After the allocation phase, the experimenter proceeds to the treatment choice phase, where one of the treatments is selected as the best. For this adaptive experimental procedure, we propose an adaptive experiment that splits the treatment allocation phase into two stages, where we first estimate the standard deviations and then allocate each treatment proportionally to its standard deviation. We show that this experiment, often referred to as Neyman allocation, is minimax and Bayes optimal in the sense that its regret upper bounds exactly match the lower bounds that we derive. To show this optimality, we derive minimax and Bayes lower bounds for the regret using change-of-measure arguments. Then, we evaluate the corresponding upper bounds using the central limit theorem and large deviation bounds.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2406.06481",
+ "title": "Nodewise Loreg: Nodewise $L_0$-penalized Regression for High-dimensional Sparse Precision Matrix Estimation",
+ "authors": [
+  "Hai Shu",
+  "Ziqi Chen",
+  "Yingjie Zhang",
+  "Hongtu Zhu"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 1,
+ "latest_date": "2024-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose Nodewise Loreg, a nodewise $L_0$-penalized regression method for estimating high-dimensional sparse precision matrices. We establish its asymptotic properties, including convergence rates, support recovery, and asymptotic normality under high-dimensional sub-Gaussian settings. Notably, the Nodewise Loreg estimator is asymptotically unbiased and normally distributed, eliminating the need for debiasing required by Nodewise Lasso. We also develop a desparsified version of Nodewise Loreg, similar to the desparsified Nodewise Lasso estimator. The asymptotic variances of the undesparsified Nodewise Loreg estimator are upper bounded by those of both desparsified Nodewise Loreg and Lasso estimators for Gaussian data, potentially offering more powerful statistical inference. Extensive simulations show that the undesparsified Nodewise Loreg estimator generally outperforms the two desparsified estimators in asymptotic normal behavior. Moreover, Nodewise Loreg surpasses Nodewise Lasso, CLIME, and GLasso in most simulations in terms of matrix norm losses, support recovery, and timing performance. Application to a breast cancer gene expression dataset further demonstrates Nodewise Loreg's superiority over the three $L_1$-norm based methods.",
+ "primary": "math.ST"
+}

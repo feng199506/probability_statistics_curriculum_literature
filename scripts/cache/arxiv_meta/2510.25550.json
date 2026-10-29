@@ -1,0 +1,16 @@
+{
+ "id": "2510.25550",
+ "title": "Robust variable selection for spatial point processes observed with noise",
+ "authors": [
+  "Dominik Sturm",
+  "Ivo F. Sbalzarini"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a method for variable selection in the intensity function of spatial point processes that combines sparsity-promoting estimation with noise-robust model selection. As high-resolution spatial data becomes increasingly available through remote sensing and automated image analysis, identifying spatial covariates that influence the localization of events is crucial to understand the underlying mechanism. However, results from automated acquisition techniques are often noisy, for example due to measurement uncertainties or detection errors, which leads to spurious displacements and missed events. We study the impact of such noise on sparse point-process estimation across different models, including Poisson and Thomas processes. To improve noise robustness, we propose to use stability selection based on point-process subsampling and to incorporate a non-convex best-subset penalty to enhance model-selection performance. In extensive simulations, we demonstrate that such an approach reliably recovers true covariates under diverse noise scenarios and improves both selection accuracy and stability. We then apply the proposed method to a forestry data set, analyzing the distribution of trees in relation to elevation and soil nutrients in a tropical rain forest. This shows the practical utility of the method, which provides a systematic framework for robust variable selection in spatial point-process models under noise, without requiring additional knowledge of the process.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.02206",
+ "title": "Target-aware Bayesian inference via generalized thermodynamic integration",
+ "authors": [
+  "F. Llorente",
+  "L. Martino",
+  "D. Delgado"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 1,
+ "latest_date": "2025-02-04",
+ "journal_ref": "Computational Statistics, Volume 38, Pages 2097-2119, year 2023",
+ "doi": "10.1007/s00180-023-01358-0",
+ "comment": "",
+ "abstract": "In Bayesian inference, we are usually interested in the numerical approximation of integrals that are posterior expectations or marginal likelihoods (a.k.a., Bayesian evidence). In this paper, we focus on the computation of the posterior expectation of a function $f(\\x)$. We consider a \\emph{target-aware} scenario where $f(\\x)$ is known in advance and can be exploited in order to improve the estimation of the posterior expectation. In this scenario, this task can be reduced to perform several independent marginal likelihood estimation tasks. The idea of using a path of tempered posterior distributions has been widely applied in the literature for the computation of marginal likelihoods. Thermodynamic integration, path sampling and annealing importance sampling are well-known examples of algorithms belonging to this family of methods. In this work, we introduce a generalized thermodynamic integration (GTI) scheme which is able to perform a target-aware Bayesian inference, i.e., GTI can approximate the posterior expectation of a given function. Several scenarios of application of GTI are discussed and different numerical simulations are provided.",
+ "primary": "stat.CO"
+}

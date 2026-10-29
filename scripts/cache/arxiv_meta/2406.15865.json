@@ -1,0 +1,19 @@
+{
+ "id": "2406.15865",
+ "title": "Approximate Bayesian Computation sequential Monte Carlo via random forests",
+ "authors": [
+  "Khanh N. Dinh",
+  "Cécile Liu",
+  "Zijin Xiang",
+  "Zhihan Liu",
+  "Simon Tavaré"
+ ],
+ "v1_date": "2024-06-22",
+ "latest_version": 2,
+ "latest_date": "2025-08-18",
+ "journal_ref": "",
+ "doi": "10.1007/s11222-025-10748-x",
+ "comment": "",
+ "abstract": "Approximate Bayesian Computation (ABC) is a popular inference method when likelihoods are hard to come by. Practical bottlenecks of ABC applications include selecting statistics that summarize the data without losing too much information or introducing uncertainty, and choosing distance functions and tolerance thresholds that balance accuracy and computational efficiency. Recent studies have shown that ABC methods using random forest (RF) methodology perform well while circumventing many of ABC's drawbacks. However, RF construction is computationally expensive for large numbers of trees and model simulations, and there can be high uncertainty in the posterior if the prior distribution is uninformative. Here we further adapt random forests to the ABC setting in two ways. The first exploits distributional random forests to provide a direct method for inferring the joint posterior distribution of parameters of interest, while the second describes a sequential Monte Carlo approach which updates the prior distribution iteratively to focus on the most likely regions in the parameter space. We show that the new methods can accurately infer posterior distributions for a wide range of deterministic and stochastic models in different scientific areas.",
+ "primary": "stat.CO"
+}

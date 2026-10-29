@@ -1,0 +1,16 @@
+{
+ "id": "2512.24356",
+ "title": "Bayesian inference for functional extreme events defined via partially unobserved processes",
+ "authors": [
+  "Max Thannheimer",
+  "Marco Oesting"
+ ],
+ "v1_date": "2025-12-30",
+ "latest_version": 1,
+ "latest_date": "2025-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 1 figure, 1 table",
+ "abstract": "In order to describe the extremal behaviour of some stochastic process $X$, approaches from univariate extreme value theory are typically generalized to the spatial domain. In particular, generalized peaks-over-threshold approaches allow for the consideration of single extreme events. These can be flexibly defined as exceedances of a risk functional $r$, such as a spatial average, applied to $X$. Inference for the resulting limit process, the so-called $r$-Pareto process, requires the evaluation of $r(X)$ and thus the knowledge of the whole process $X$. In many practical applications, however, observations of $X$ are only available at scattered sites. To overcome this issue, we propose a two-step MCMC-algorithm in a Bayesian framework. In a first step, we sample from $X$ conditionally on the observations in order to evaluate which observations lead to $r$-exceedances. In a second step, we use these exceedances to sample from the posterior distribution of the parameters of the limiting $r$-Pareto process. Alternating these steps results in a full Bayesian model for the extremes of $X$. We show that, under appropriate assumptions, the probability of classifying an observation as $r$-exceedance in the first step converges to the desired probability. Furthermore, given the first step, the distribution of the Markov chain constructed in the second step converges to the posterior distribution of interest. The procedure is compared to the Bayesian version of the standard procedure in a simulation study.",
+ "primary": "stat.ME"
+}

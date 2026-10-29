@@ -1,0 +1,16 @@
+{
+ "id": "2404.17019",
+ "title": "Neyman Meets Causal Machine Learning: Experimental Evaluation of Individualized Treatment Rules",
+ "authors": [
+  "Michael Lingzhi Li",
+  "Kosuke Imai"
+ ],
+ "v1_date": "2024-04-25",
+ "latest_version": 1,
+ "latest_date": "2024-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A century ago, Neyman showed how to evaluate the efficacy of treatment using a randomized experiment under a minimal set of assumptions. This classical repeated sampling framework serves as a basis of routine experimental analyses conducted by today's scientists across disciplines. In this paper, we demonstrate that Neyman's methodology can also be used to experimentally evaluate the efficacy of individualized treatment rules (ITRs), which are derived by modern causal machine learning algorithms. In particular, we show how to account for additional uncertainty resulting from a training process based on cross-fitting. The primary advantage of Neyman's approach is that it can be applied to any ITR regardless of the properties of machine learning algorithms that are used to derive the ITR. We also show, somewhat surprisingly, that for certain metrics, it is more efficient to conduct this ex-post experimental evaluation of an ITR than to conduct an ex-ante experimental evaluation that randomly assigns some units to the ITR. Our analysis demonstrates that Neyman's repeated sampling framework is as relevant for causal inference today as it has been since its inception.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.12848",
+ "title": "Bridging the Gap Between Design and Analysis: Randomization Inference and Sensitivity Analysis for Matched Observational Studies with Treatment Doses",
+ "authors": [
+  "Jeffrey Zhang",
+  "Siyu Heng"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 1,
+ "latest_date": "2024-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matching is a commonly used causal inference study design in observational studies. Through matching on measured confounders between different treatment groups, valid randomization inferences can be conducted under the no unmeasured confounding assumption, and sensitivity analysis can be further performed to assess sensitivity of randomization inference results to potential unmeasured confounding. However, for many common matching designs, there is still a lack of valid downstream randomization inference and sensitivity analysis approaches. Specifically, in matched observational studies with treatment doses (e.g., continuous or ordinal treatments), with the exception of some special cases such as pair matching, there is no existing randomization inference or sensitivity analysis approach for studying analogs of the sample average treatment effect (Neyman-type weak nulls), and no existing valid sensitivity analysis approach for testing the sharp null of no effect for any subject (Fisher's sharp null) when the outcome is non-binary. To fill these gaps, we propose new methods for randomization inference and sensitivity analysis that can work for general matching designs with treatment doses, applicable to general types of outcome variables (e.g., binary, ordinal, or continuous), and cover both Fisher's sharp null and Neyman-type weak nulls. We illustrate our approaches via comprehensive simulation studies and a real-data application.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2403.09416",
+ "title": "Scalability of Metropolis-within-Gibbs schemes for high-dimensional Bayesian models",
+ "authors": [
+  "Filippo Ascolani",
+  "Gareth O. Roberts",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2024-03-14",
+ "latest_version": 2,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study general coordinate-wise MCMC schemes (such as Metropolis-within-Gibbs samplers), which are commonly used to fit Bayesian non-conjugate hierarchical models. We relate their convergence properties to the ones of the corresponding (potentially not implementable) Gibbs sampler through the notion of conditional conductance. This allows us to study the performances of popular Metropolis-within-Gibbs schemes for non-conjugate hierarchical models, in high-dimensional regimes where both number of datapoints and parameters increase. Given random data-generating assumptions, we establish dimension-free convergence results, which are in close accordance with numerical evidences. Applications to Bayesian models for binary regression with unknown hyperparameters and discretely observed diffusions are also discussed. Motivated by such statistical applications, auxiliary results of independent interest on approximate conductances and perturbation of Markov operators are provided.",
+ "primary": "stat.CO"
+}

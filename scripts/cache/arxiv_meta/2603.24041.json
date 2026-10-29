@@ -1,0 +1,17 @@
+{
+ "id": "2603.24041",
+ "title": "Minimal Sufficient Representations for Self-interpretable Deep Neural Networks",
+ "authors": [
+  "Zhiyao Tan",
+  "Liu Li",
+  "Huazhen Lin"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 1,
+ "latest_date": "2026-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Deep neural networks (DNNs) achieve remarkable predictive performance but remain difficult to interpret, largely due to overparameterization that obscures the minimal structure required for interpretation. Here we introduce DeepIn, a self-interpretable neural network framework that adaptively identifies and learns the minimal representation necessary for preserving the full expressive capacity of standard DNNs. We show that DeepIn can correctly identify the minimal representation dimension, select relevant variables, and recover the minimal sufficient network architecture for prediction. The resulting estimator achieves optimal non-asymptotic error rates that adapt to the learned minimal dimension, demonstrating that recovering minimal sufficient structure fundamentally improves generalization error. Building on these guarantees, we further develop hypothesis testing procedures for both selected variables and learned representations, bridging deep representation learning with formal statistical inference. Across biomedical and vision benchmarks, DeepIn improves both predictive accuracy and interpretability, reducing error by up to 30% on real-world datasets while automatically uncovering human-interpretable discriminative patterns. Our results suggest that interpretability and statistical rigor can be embedded directly into deep architectures without sacrificing performance.",
+ "primary": "stat.ME"
+}

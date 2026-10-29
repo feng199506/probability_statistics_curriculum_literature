@@ -1,0 +1,17 @@
+{
+ "id": "2603.08345",
+ "title": "Amortized Phylodynamic Inference with Neural Bayes Estimators and Recursive Neural Networks",
+ "authors": [
+  "Alexander E. Zarebski",
+  "Thomas Williams",
+  "Louis du Plessis"
+ ],
+ "v1_date": "2026-03-09",
+ "latest_version": 1,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Phylodynamics is used to estimate epidemic dynamics from phylogenetic trees or genomic sequences of pathogens, but the likelihood calculations needed can be challenging for complex models. We present a neural Bayes estimator (NBE) for key epidemic quantities: the reproduction number, prevalence, and cumulative infections through time. By performing quantile regression over tree space, the NBE allows us to estimate posterior medians and credible intervals directly from a reconstructed tree. Our approach uses a recursive neural network as a tree embedding network with a prediction network conditioned on time and quantile level to generate the estimates. In simulation studies, the NBE achieves good predictive performance, with conservative uncertainty estimates. Compared with a BEAST2 fixed-tree analysis, the NBE gives less biased estimates of time-varying reproduction numbers in our test setting. Under a misspecified sampling model, the NBE performance degrades (as expected) but remains reasonable, and fine-tuning a pre-trained model yields estimates comparable to those from a model trained from scratch, at substantially lower computational cost.",
+ "primary": "stat.ME"
+}

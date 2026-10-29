@@ -1,0 +1,18 @@
+{
+ "id": "2510.25924",
+ "title": "Transferring Causal Effects using Proxies",
+ "authors": [
+  "Manuel Iglesias-Alonso",
+  "Felix Schur",
+  "Julius von Kügelgen",
+  "Jonas Peters"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-12-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Advances in Neural Information Processing Systems (NeurIPS 2025) final camera-ready version",
+ "abstract": "We consider the problem of estimating a causal effect in a multi-domain setting. The causal effect of interest is confounded by an unobserved confounder and can change between the different domains. We assume that we have access to a proxy of the hidden confounder and that all variables are discrete or categorical. We propose methodology to estimate the causal effect in the target domain, where we assume to observe only the proxy variable. Under these conditions, we prove identifiability (even when treatment and response variables are continuous). We introduce two estimation techniques, prove consistency, and derive confidence intervals. The theoretical results are supported by simulation studies and a real-world example studying the causal effect of website rankings on consumer choices.",
+ "primary": "cs.LG"
+}

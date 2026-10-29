@@ -1,0 +1,16 @@
+{
+ "id": "2405.14051",
+ "title": "A Uniform Concentration Inequality for Kernel-Based Two-Sample Statistics",
+ "authors": [
+  "Yijin Ni",
+  "Xiaoming Huo"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 3,
+ "latest_date": "2025-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages",
+ "abstract": "In many contemporary statistical and machine learning methods, one needs to optimize an objective function that depends on the discrepancy between two probability distributions. The discrepancy can be referred to as a metric for distributions. Widely adopted examples of such a metric include Energy Distance (ED), distance Covariance (dCov), Maximum Mean Discrepancy (MMD), and the Hilbert-Schmidt Independence Criterion (HSIC). We show that these metrics can be unified under a general framework of kernel-based two-sample statistics. This paper establishes a novel uniform concentration inequality for the aforementioned kernel-based statistics. Our results provide upper bounds for estimation errors in the associated optimization problems, thereby offering both finite-sample and asymptotic performance guarantees. As illustrative applications, we demonstrate how these bounds facilitate the derivation of error bounds for procedures such as distance covariance-based dimension reduction, distance covariance-based independent component analysis, MMD-based fairness-constrained inference, MMD-based generative model search, and MMD-based generative adversarial networks.",
+ "primary": "cs.LG"
+}

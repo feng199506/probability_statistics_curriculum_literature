@@ -1,0 +1,18 @@
+{
+ "id": "2512.23395",
+ "title": "Intrinsic Whittle--Matérn fields and sparse spatial extremes",
+ "authors": [
+  "David Bolin",
+  "Peter Braunsteins",
+  "Sebastian Engelke",
+  "Raphaël Huser"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 1,
+ "latest_date": "2025-12-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Intrinsic Gaussian fields are used in many areas of statistics as models for spatial or spatio-temporal dependence, or as priors for latent variables. However, there are two major gaps in the literature: first, the number and flexibility of existing intrinsic models are very limited; second, theory, fast inference, and software are currently underdeveloped for intrinsic fields. We tackle these challenges by introducing the new flexible class of intrinsic Whittle--Matérn Gaussian random fields obtained as the solution to a stochastic partial differential equation (SPDE). Exploiting sparsity resulting from finite-element approximations, we develop fast estimation and simulation methods for these models. We demonstrate the benefits of this intrinsic SPDE approach for the important task of kriging under extrapolation settings. Leveraging the connection of intrinsic fields to spatial extreme value processes, we translate our theory to an SPDE approach for Brown--Resnick processes for sparse modeling of spatial extreme events. This new paradigm paves the way for efficient inference in unprecedented dimensions. To demonstrate the wide applicability of our new methodology, we apply it in two very different areas: a longitudinal study of renal function data, and the modeling of marine heat waves using high-resolution sea surface temperature data.",
+ "primary": "stat.ME"
+}

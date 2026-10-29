@@ -1,0 +1,17 @@
+{
+ "id": "2203.14504",
+ "title": "Black-box Selective Inference via Bootstrapping",
+ "authors": [
+  "Sifan Liu",
+  "Jelena Markovic-Voronov",
+  "Jonathan Taylor"
+ ],
+ "v1_date": "2022-03-28",
+ "latest_version": 2,
+ "latest_date": "2023-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conditional selective inference requires an exact characterization of the selection event, which is often unavailable except for a few examples like the lasso. This work addresses this challenge by introducing a generic approach to estimate the selection event, facilitating feasible inference conditioned on the selection event. The method proceeds by repeatedly generating bootstrap data and running the selection algorithm on the new datasets. Using the outputs of the selection algorithm, we can estimate the selection probability as a function of certain summary statistics. This leads to an estimate of the distribution of the data conditioned on the selection event, which forms the basis for conditional selective inference. We provide a theoretical guarantee assuming both asymptotic normality of relevant statistics and accurate estimation of the selection probability. The applicability of the proposed method is demonstrated through a variety of problems that lack exact characterizations of selection, where conditional selective inference was previously infeasible.",
+ "primary": "stat.ME"
+}

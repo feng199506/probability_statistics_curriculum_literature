@@ -1,0 +1,16 @@
+{
+ "id": "2405.00158",
+ "title": "BayesBlend: Easy Model Blending using Pseudo-Bayesian Model Averaging, Stacking and Hierarchical Stacking in Python",
+ "authors": [
+  "Nathaniel Haines",
+  "Conor Goold"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 1,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Averaging predictions from multiple competing inferential models frequently outperforms predictions from any single model, providing that models are optimally weighted to maximize predictive performance. This is particularly the case in so-called $\\mathcal{M}$-open settings where the true model is not in the set of candidate models, and may be neither mathematically reifiable nor known precisely. This practice of model averaging has a rich history in statistics and machine learning, and there are currently a number of methods to estimate the weights for constructing model-averaged predictive distributions. Nonetheless, there are few existing software packages that can estimate model weights from the full variety of methods available, and none that blend model predictions into a coherent predictive distribution according to the estimated weights. In this paper, we introduce the BayesBlend Python package, which provides a user-friendly programming interface to estimate weights and blend multiple (Bayesian) models' predictive distributions. BayesBlend implements pseudo-Bayesian model averaging, stacking and, uniquely, hierarchical Bayesian stacking to estimate model weights. We demonstrate the usage of BayesBlend with examples of insurance loss modeling.",
+ "primary": "stat.ME"
+}

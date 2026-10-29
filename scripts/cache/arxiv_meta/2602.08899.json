@@ -1,0 +1,15 @@
+{
+ "id": "2602.08899",
+ "title": "Fixed Effects as Generated Regressors",
+ "authors": [
+  "Jiaqi Huang"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many economic models feature moment conditions that involve latent variables. When the latent variables are individual fixed effects in an auxiliary panel data regression, we construct orthogonal moments that eliminate first-order bias induced by estimating the fixed effects. Machine Learning methods and Empirical Bayes methods can be used to improve the estimate of the nuisance parameters in the orthogonal moments. We establish a central limit theorem based on the orthogonal moments without relying on exogeneity assumptions between panel data residuals and the cross-sectional moment functions. In a simulation study where the exogeneity assumption is violated, the estimator based on orthogonal moments has smaller bias compared with other estimators relying on that assumption. An empirical application on experimental site selection demonstrates how the method can be used for nonlinear moment conditions.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2506.20768",
+ "title": "Proof of The TAP Free Energy for High-Dimensional Linear Regression with Spherical Priors at All Temperatures",
+ "authors": [
+  "Zhiyuan Yu",
+  "Jingbo Liu"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate inference is central to Bayesian learning, with variational inference (VI) providing a scalable framework for posterior approximation. While mean-field VI often fails in high dimensions, the more refined Bethe approximation, equivalent to the Thouless-Anderson-Palmer (TAP) free energy in statistical physics, has long been conjectured to capture Bayes-optimal behavior. We prove that the TAP formula holds for Bayesian linear regression with a uniform spherical prior at all noise levels ($Δ>0$), extending the result of Qiu and Sen (2023) in the high-noise regime. Our argument constructs a ridge regression functional that dominates the TAP free energy, yielding the first rigorous analysis of the global optimizer of the non-concave TAP functional for a planted inference model at an arbitrary noise level. This verifies that TAP, rather than mean-field, is the correct variational description in this setting.",
+ "primary": "math.ST"
+}

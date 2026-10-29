@@ -1,0 +1,16 @@
+{
+ "id": "2407.15256",
+ "title": "Weak-instrument-robust subvector inference in instrumental variables regression: A subvector Lagrange multiplier test and properties of subvector Anderson-Rubin confidence sets",
+ "authors": [
+  "Malte Londschien",
+  "Peter Bühlmann"
+ ],
+ "v1_date": "2024-07-21",
+ "latest_version": 4,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a weak-instrument-robust subvector Lagrange multiplier test for instrumental variables regression. We show that it is asymptotically size-correct under a technical condition or as the number of instruments grows to infinity. This is the first weak-instrument-robust subvector test for instrumental variables regression to recover the degrees of freedom of the commonly used non-weak-instrument-robust Wald test. Additionally, we provide a closed-form solution for subvector confidence sets obtained by inverting the subvector Anderson-Rubin test. We show that they are centered around a k-class estimator. We show that the subvector confidence sets for single coefficients of the causal parameter are jointly bounded if and only if Anderson's likelihood-ratio test rejects the null hypothesis that the first-stage regression parameter is of reduced rank, that is, that the causal parameter is not identified. Finally, we show that if a confidence set obtained by inverting the Anderson-Rubin test is bounded and nonempty, it is equal to a Wald-based confidence set with a data-dependent confidence level. We explicitly compute this Wald-based confidence set and its confidence level.",
+ "primary": "math.ST"
+}

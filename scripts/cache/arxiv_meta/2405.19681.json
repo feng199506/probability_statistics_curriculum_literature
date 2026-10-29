@@ -1,0 +1,17 @@
+{
+ "id": "2405.19681",
+ "title": "Bayesian Online Natural Gradient (BONG)",
+ "authors": [
+  "Matt Jones",
+  "Peter Chang",
+  "Kevin Murphy"
+ ],
+ "v1_date": "2024-05-30",
+ "latest_version": 2,
+ "latest_date": "2024-10-31",
+ "journal_ref": "NeurIPS 2024",
+ "doi": "",
+ "comment": "Final NeurIPS version, updated in response to reviews. 43 pages, 13 figures",
+ "abstract": "We propose a novel approach to sequential Bayesian inference based on variational Bayes (VB). The key insight is that, in the online setting, we do not need to add the KL term to regularize to the prior (which comes from the posterior at the previous timestep); instead we can optimize just the expected log-likelihood, performing a single step of natural gradient descent starting at the prior predictive. We prove this method recovers exact Bayesian inference if the model is conjugate. We also show how to compute an efficient deterministic approximation to the VB objective, as well as our simplified objective, when the variational distribution is Gaussian or a sub-family, including the case of a diagonal plus low-rank precision matrix. We show empirically that our method outperforms other online VB methods in the non-conjugate setting, such as online learning for neural networks, especially when controlling for computational costs.",
+ "primary": "stat.ML"
+}

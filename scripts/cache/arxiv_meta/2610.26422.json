@@ -1,0 +1,16 @@
+{
+ "id": "2610.26422",
+ "title": "Inconsistency between Frequentist and Bayesian inference, approximation of improper priors and permissible priors",
+ "authors": [
+  "Pierre Druilhet",
+  "Erwan Saint Loubert Bié"
+ ],
+ "v1_date": "2026-10-19",
+ "latest_version": 1,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Improper priors are widely used in objective Bayesian inference, although posterior propriety does not by itself guarantee coherence between Bayesian and frequentist assessments. We investigate this issue by approximating improper priors with proper priors and examining the convergence of the resulting posterior distributions. We introduce monotone $q$-vague convergence, which ensures pointwise Kullback-Leibler (KL) convergence of the posteriors, and study expected KL (EKL) convergence together with its total variation counterpart (ETV). Through continuous and discrete examples, we show that EKL convergence can depend on the sequence of compact sets used for approximation. In particular, convergence along one compact exhaustion need not extend to others. Our main result connects posterior approximation to inconsistency: strong inconsistency prevents both ETV and EKL convergence for any proper-prior approximation. Consequently, KL-permissible and TV permissible priors cannot be strongly inconsistent. We also introduce weak inconsistency and show that it may persist despite EKL convergence. Finally, a unified discrete framework covering the Flatland and Fraser-Monette-Ng paradoxes illustrates the distinction between these notions. In particular, ETV convergence need not imply EKL convergence, while the absence of weak inconsistency does not guarantee an EKL convergent compact approximation.",
+ "primary": "math.ST"
+}

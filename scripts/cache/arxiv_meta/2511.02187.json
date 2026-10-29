@@ -1,0 +1,18 @@
+{
+ "id": "2511.02187",
+ "title": "Super doubly robust and efficient estimator for informative covariate censoring",
+ "authors": [
+  "Zhewei Zhang",
+  "Yanyuan Ma",
+  "Karen Marder",
+  "Tanya P. Garcia"
+ ],
+ "v1_date": "2025-11-04",
+ "latest_version": 1,
+ "latest_date": "2025-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Early intervention in neurodegenerative diseases requires identifying periods before diagnosis when decline is rapid enough to detect whether a therapy is slowing progression. Since rapid decline typically occurs close to diagnosis, identifying these periods requires knowing each patient's time of diagnosis. Yet many patients exit studies before diagnosis, making time of diagnosis right-censored by time of study exit -- creating a right-censored covariate problem when estimating decline. Existing estimators either assume noninformative covariate censoring, where time of study exit is independent of time of diagnosis, or allow informative covariate censoring, but require correctly specifying how these times are related. We developed SPIRE (Semi-Parametric Informative Right-censored covariate Estimator), a super doubly robust estimator that remains consistent without correctly specifying densities governing time of diagnosis or time of study exit. Typical double robustness requires at least one density to be correct; SPIRE requires neither. When both densities are correctly specified, SPIRE achieves semiparametric efficiency. We also developed a test for detecting informative covariate censoring. Simulations with 85% right-censoring demonstrated SPIRE's robustness, efficiency and reliable detection of informative covariate censoring. Applied to Huntington disease data, SPIRE handled informative covariate censoring appropriately and remained consistent regardless of density specification, providing a reliable tool for early intervention.",
+ "primary": "math.ST"
+}

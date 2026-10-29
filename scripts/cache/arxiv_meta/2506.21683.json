@@ -1,0 +1,19 @@
+{
+ "id": "2506.21683",
+ "title": "Risk-Averse Total-Reward Reinforcement Learning",
+ "authors": [
+  "Xihong Su",
+  "Jia Lin Hau",
+  "Gersi Doko",
+  "Kishan Panaganti",
+  "Marek Petrik"
+ ],
+ "v1_date": "2025-06-26",
+ "latest_version": 2,
+ "latest_date": "2025-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The paper has been accepted by the Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)",
+ "abstract": "Risk-averse total-reward Markov Decision Processes (MDPs) offer a promising framework for modeling and solving undiscounted infinite-horizon objectives. Existing model-based algorithms for risk measures like the entropic risk measure (ERM) and entropic value-at-risk (EVaR) are effective in small problems, but require full access to transition probabilities. We propose a Q-learning algorithm to compute the optimal stationary policy for total-reward ERM and EVaR objectives with strong convergence and performance guarantees. The algorithm and its optimality are made possible by ERM's dynamic consistency and elicitability. Our numerical results on tabular domains demonstrate quick and reliable convergence of the proposed Q-learning algorithm to the optimal risk-averse value function.",
+ "primary": "cs.LG"
+}

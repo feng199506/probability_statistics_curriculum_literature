@@ -1,0 +1,17 @@
+{
+ "id": "2603.07527",
+ "title": "An efficient method of posterior sampling for Poisson INGARCH models",
+ "authors": [
+  "Yixuan Fan",
+  "Zhengwei Liu",
+  "Fukang Zhu"
+ ],
+ "v1_date": "2026-03-08",
+ "latest_version": 1,
+ "latest_date": "2026-03-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop an efficient posterior sampling scheme for the Poisson INGARCH models. The proposed method is based on the approximation of the posterior density that exploits the Poisson limit of the negative binomial distribution. It allows us to rewrite the model in a form amenable to Pólya-Gamma data augmentation scheme, which yields simple conditionally Gaussian updates for the autoregressive coefficients. Sampling from the approximate posterior is straightforward via Gibbs-type iterations and remains numerically stable even under strong temporal dependence. Using this sampler as a proposal distribution will enhance the efficiency in Metropolis-Hastings algorithm and adaptive importance sampling. Numerical simulations indicate accurate posterior estimates, high effective sample sizes, and rapidly mixing chains.",
+ "primary": "stat.ME"
+}

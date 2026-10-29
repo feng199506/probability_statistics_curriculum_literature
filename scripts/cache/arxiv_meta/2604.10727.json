@@ -1,0 +1,18 @@
+{
+ "id": "2604.10727",
+ "title": "Tail-Aware Information-Theoretic Bounds for LLM Alignment under Heavy-Tailed Rewards",
+ "authors": [
+  "Huiming Zhang",
+  "Binghan Li",
+  "Wan Tian",
+  "Qiang Sun"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 2,
+ "latest_date": "2026-08-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 6 figures",
+ "abstract": "Classical information-theoretic learning bounds typically rely on KL mutual information and moment-generating-function (MGF) arguments, which are well matched to bounded or sub-Gaussian losses but can be ineffective when losses or rewards are heavy-tailed. We develop a tail-aware information-theoretic framework for sub-Weibull data, where the tail parameter $θ$ controls the tail heaviness: $θ=2$ corresponds to sub-Gaussian, $θ=1$ to sub-exponential, and $0<θ<1$ to genuinely heavy tails. Our key technical ingredient is a decorrelation lemma that bounds change-of-measure expectations using a shifted-log $f_θ$-divergence, which admits explicit comparisons to Rényi divergence without MGF arguments. On the empirical-process side, we establish sharp maximal inequalities and a Dudley-type chaining bound for sub-Weibull processes, with logarithmic and entropy terms raised to the power $1/θ$. These tools yield tail-adaptive selection bounds and a multiscale information-theoretic Dudley inequality based on shifted-log and Rényi mutual information. We apply our theory to large language models (LLMs) in the context of reward hacking within reinforcement learning from human feedback (RLHF). We show that Rényi-regularized alignment provides finite reward guarantees and ensures that best-of-N policies remain well-controlled, thereby mitigating the catastrophic Goodhart effects where standard KL-regularization fails. We illustrate Rényi-regularized RLHF by experiments, including controlled heavy-tailed rewards and token-space reward attacks.",
+ "primary": "stat.ML"
+}

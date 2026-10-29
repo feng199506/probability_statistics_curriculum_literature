@@ -1,0 +1,17 @@
+{
+ "id": "2602.08413",
+ "title": "A Bayesian regression framework for circular models with INLA",
+ "authors": [
+  "Xiang Ye",
+  "Janet Van Niekerk",
+  "Haavard Rue"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "Journal of the Royal Statistical Society Series C: Applied Statistics (2026)",
+ "doi": "10.1093/jrsssc/qlag056",
+ "comment": "19 pages, 12 figures",
+ "abstract": "Regression models for circular variables are less developed, since the concept of building a linear predictor from linear combinations of covariates and various random effects, breaks the circular nature of the variable. In this paper, we introduce a new approach to rectify this issue, leading to well-defined regression models for circular responses when the data are concentrated. Our approach extends naturally to joint regression models where we can have several circular and non-circular responses, and allow us to handle a mix of linear covariates, circular covariates and various random effects. Our formulation aligns naturally with the integrated nested Laplace approximation (INLA), which provides fast and accurate Bayesian inference. We illustrate our approach through several simulated and real examples.",
+ "primary": "stat.ME"
+}

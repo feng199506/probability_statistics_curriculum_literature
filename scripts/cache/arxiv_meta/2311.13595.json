@@ -1,0 +1,17 @@
+{
+ "id": "2311.13595",
+ "title": "Covariance alignment: from maximum likelihood estimation to Gromov-Wasserstein",
+ "authors": [
+  "Yanjun Han",
+  "Philippe Rigollet",
+  "George Stepaniants"
+ ],
+ "v1_date": "2023-11-22",
+ "latest_version": 1,
+ "latest_date": "2023-11-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 2 figures",
+ "abstract": "Feature alignment methods are used in many scientific disciplines for data pooling, annotation, and comparison. As an instance of a permutation learning problem, feature alignment presents significant statistical and computational challenges. In this work, we propose the covariance alignment model to study and compare various alignment methods and establish a minimax lower bound for covariance alignment that has a non-standard dimension scaling because of the presence of a nuisance parameter. This lower bound is in fact minimax optimal and is achieved by a natural quasi MLE. However, this estimator involves a search over all permutations which is computationally infeasible even when the problem has moderate size. To overcome this limitation, we show that the celebrated Gromov-Wasserstein algorithm from optimal transport which is more amenable to fast implementation even on large-scale problems is also minimax optimal. These results give the first statistical justification for the deployment of the Gromov-Wasserstein algorithm in practice.",
+ "primary": "math.ST"
+}

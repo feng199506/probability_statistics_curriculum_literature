@@ -1,0 +1,16 @@
+{
+ "id": "2407.13446",
+ "title": "Subsampled One-Step Estimation for Fast Statistical Inference",
+ "authors": [
+  "Miaomiao Su",
+  "Ruoyu Wang"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2025-09-24",
+ "journal_ref": "",
+ "doi": "10.1111/sjos.70022",
+ "comment": "",
+ "abstract": "Subsampling is an effective approach to alleviate the computational burden associated with large-scale datasets. Nevertheless, existing subsampling estimators incur a substantial loss in estimation efficiency compared to estimators based on the full dataset. Specifically, the convergence rate of existing subsampling estimators is typically $n^{-1/2}$ rather than $N^{-1/2}$, where $n$ and $N$ denote the subsample and full data sizes, respectively. This paper proposes a subsampled one-step (SOS) method to mitigate the estimation efficiency loss utilizing the asymptotic expansions of the subsampling and full-data estimators. The resulting SOS estimator is computationally efficient and achieves a fast convergence rate of $\\max\\{n^{-1}, N^{-1/2}\\}$ rather than $n^{-1/2}$. We establish the asymptotic distribution of the SOS estimator, which can be non-normal in general, and construct confidence intervals on top of the asymptotic distribution. Furthermore, we prove that the SOS estimator is asymptotically normal and equivalent to the full data-based estimator when $n / \\sqrt{N} \\to \\infty$.Simulation studies and real data analyses were conducted to demonstrate the finite sample performance of the SOS estimator. Numerical results suggest that the SOS estimator is almost as computationally efficient as the uniform subsampling estimator while achieving similar estimation efficiency to the full data-based estimator.",
+ "primary": "stat.ME"
+}

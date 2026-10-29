@@ -1,0 +1,16 @@
+{
+ "id": "2505.07975",
+ "title": "Time-varying Parameter Tensor Vector Autoregression",
+ "authors": [
+  "Yiyong Luo",
+  "Jim E. Griffin"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 1,
+ "latest_date": "2025-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Time-varying parameter vector autoregression provides a flexible framework to capture structural changes within time series. However, when applied to high-dimensional data, this model encounters challenges of over-parametrization and computational burden. We address these challenges by building on recently proposed Tensor VAR models to represent the time-varying coefficient matrix as a third-order tensor with CANDECOMP/PARAFAC (CP) decomposition, yielding three model configurations where different sets of components are specified as time-varying, each offering distinct interpretations. To select the model configuration and the decomposition rank, we evaluate multiple variants of Deviance Information Criterion (DIC) corresponding to the conditional and marginal DICs. Our simulation demonstrates that a specific conditional DIC variant provides more reliable results and accurately identifies true model configurations. We improve the accuracy of rank selection by applying knee point detection to the DICs, rather than defaulting to the minimum DIC value. Upon analyzing functional magnetic resonance imaging data from story reading tasks, our selected model configurations suggest time-varying dynamics while reducing the number of parameters by over 90% relative to standard VARs. Granger causality analysis reveals directional brain connectivity patterns that align with narrative progression, with various regions functioning as signal emitters or receivers at different time points.",
+ "primary": "stat.ME"
+}

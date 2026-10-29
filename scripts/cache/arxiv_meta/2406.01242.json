@@ -1,0 +1,18 @@
+{
+ "id": "2406.01242",
+ "title": "Multiple Comparison Procedures for Simultaneous Inference in Functional MANOVA",
+ "authors": [
+  "Merle Munko",
+  "Marc Ditzhaus",
+  "Markus Pauly",
+  "Łukasz Smaga"
+ ],
+ "v1_date": "2024-06-03",
+ "latest_version": 1,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Functional data analysis is becoming increasingly popular to study data from real-valued random functions. Nevertheless, there is a lack of multiple testing procedures for such data. These are particularly important in factorial designs to compare different groups or to infer factor effects. We propose a new class of testing procedures for arbitrary linear hypotheses in general factorial designs with functional data. Our methods allow global as well as multiple inference of both, univariate and multivariate mean functions without assuming particular error distributions nor homoscedasticity. That is, we allow for different structures of the covariance functions between groups. To this end, we use point-wise quadratic-form-type test functions that take potential heteroscedasticity into account. Taking the supremum over each test function, we define a class of local test statistics. We analyse their (joint) asymptotic behaviour and propose a resampling approach to approximate the limit distributions. The resulting global and multiple testing procedures are asymptotic valid under weak conditions and applicable in general functional MANOVA settings. We evaluate their small-sample performance in extensive simulations and finally illustrate their applicability by analysing a multivariate functional air pollution data set.",
+ "primary": "stat.ME"
+}

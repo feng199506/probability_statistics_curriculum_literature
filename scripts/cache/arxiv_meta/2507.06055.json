@@ -1,0 +1,18 @@
+{
+ "id": "2507.06055",
+ "title": "Kernel Trace Distance: Quantum Statistical Metric between Measures through RKHS Density Operators",
+ "authors": [
+  "Arturo Castellanos",
+  "Anna Korba",
+  "Pavlo Mozharovskyi",
+  "Hicham Janati"
+ ],
+ "v1_date": "2025-07-08",
+ "latest_version": 1,
+ "latest_date": "2025-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distances between probability distributions are a key component of many statistical machine learning tasks, from two-sample testing to generative modeling, among others. We introduce a novel distance between measures that compares them through a Schatten norm of their kernel covariance operators. We show that this new distance is an integral probability metric that can be framed between a Maximum Mean Discrepancy (MMD) and a Wasserstein distance. In particular, we show that it avoids some pitfalls of MMD, by being more discriminative and robust to the choice of hyperparameters. Moreover, it benefits from some compelling properties of kernel methods, that can avoid the curse of dimensionality for their sample complexity. We provide an algorithm to compute the distance in practice by introducing an extension of kernel matrix for difference of distributions that could be of independent interest. Those advantages are illustrated by robust approximate Bayesian computation under contamination as well as particle flow simulations.",
+ "primary": "stat.ML"
+}

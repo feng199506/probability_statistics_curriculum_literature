@@ -1,0 +1,16 @@
+{
+ "id": "2608.26450",
+ "title": "Kernelized Stein Discrepancy for Goodness-of-Fit Tests and Stein Sampling in R",
+ "authors": [
+  "Junhao Gao",
+  "Ery Arias-Castro"
+ ],
+ "v1_date": "2026-08-26",
+ "latest_version": 2,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stein's method constructs computable discrepancies between a target distribution and a candidate distribution without requiring the target distribution's normalizing constant. These discrepancies support goodness-of-fit tests for model assessment as well as sampling tools for empirical approximation. The R package steinsampling provides the first unified R workflow for applying score-based Stein methods to kernel goodness-of-fit testing of independent or serially dependent observations, point transport, greedy point construction, and sample compression. High-level functions carry out each task in a single call, while the kernel, calibration, optimization, and transition components are provided separately so that users can replace any one of them. A single score and kernel setup can therefore be reused across sampling and testing, making these methods easier to reproduce, compare, and extend.",
+ "primary": "stat.CO"
+}

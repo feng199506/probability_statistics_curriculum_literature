@@ -1,0 +1,16 @@
+{
+ "id": "2411.01528",
+ "title": "Enhancing Forecasts Using Real-Time Data Flow and Hierarchical Forecast Reconciliation, with Applications to the Energy Sector",
+ "authors": [
+  "Lukas Neubauer",
+  "Peter Filzmoser"
+ ],
+ "v1_date": "2024-11-03",
+ "latest_version": 1,
+ "latest_date": "2024-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A novel framework for hierarchical forecast updating is presented, addressing a critical gap in the forecasting literature. By assuming a temporal hierarchy structure, the innovative approach extends hierarchical forecast reconciliation to effectively manage the challenge posed by partially observed data. This crucial extension allows, in conjunction with real-time data, to obtain updated and coherent forecasts across the entire temporal hierarchy, thereby enhancing decision-making accuracy. The framework involves updating base models in response to new data, which produces revised base forecasts. A subsequent pruning step integrates the newly available data, allowing for the application of any forecast reconciliation method to obtain fully updated reconciled forecasts. Additionally, the framework not only ensures coherence among forecasts but also improves overall accuracy throughout the hierarchy. Its inherent flexibility and interpretability enable users to perform hierarchical forecast updating concisely. The methodology is extensively demonstrated in a simulation study with various settings and comparing different data-generating processes, hierarchies, and reconciliation methods. Practical applicability is illustrated through two case studies in the energy sector, energy generation and solar power data, where the framework yields superior results compared to base models that do not incorporate new data, leading to more precise decision-making outcomes.",
+ "primary": "stat.ME"
+}

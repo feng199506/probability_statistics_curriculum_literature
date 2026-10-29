@@ -1,0 +1,18 @@
+{
+ "id": "2602.16259",
+ "title": "HAL-MLE Log-Splines Density Estimation (Part I: Univariate)",
+ "authors": [
+  "Yilong Hou",
+  "Zhengpu Zhao",
+  "Yi Li",
+  "Mark van der Laan"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 1,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "75 pages",
+ "abstract": "We study nonparametric maximum likelihood estimation of probability densities under a total variation (TV) type penalty, sectional variation norm (also named as Hardy-Krause variation). TV regularization has a long history in regression and density estimation, including results on $L^2$ and KL divergence convergence rates. Here, we revisit this task using the Highly Adaptive Lasso (HAL) framework. We formulate a HAL-based maximum likelihood estimator (HAL-MLE) using the log-spline link function from \\citet{kooperberg1992logspline}, and show that in the univariate setting the bounded sectional variation norm assumption underlying HAL coincides with the classical bounded TV assumption. This equivalence directly connects HAL-MLE to existing TV-penalized approaches such as local adaptive splines \\citep{mammen1997locally}. We establish three new theoretical results: (i) the univariate HAL-MLE is asymptotically linear, (ii) it admits pointwise asymptotic normality, and (iii) it achieves uniform convergence at rate $n^{-(k+1)/(2k+3)}$ up to logarithmic factors for the smoothness order $k \\geq 1$. These results extend existing results from \\citet{van2017uniform}, which previously guaranteed only uniform consistency without rates when $k=0$. We will include the uniform convergence for general dimension $d$ in the follow-up work of this paper. The intention of this paper is to provide a unified framework for the TV-penalized density estimation methods, and to connect the HAL-MLE to the existing TV-penalized methods in the univariate case, despite that the general HAL-MLE is defined for multivariate cases.",
+ "primary": "math.ST"
+}

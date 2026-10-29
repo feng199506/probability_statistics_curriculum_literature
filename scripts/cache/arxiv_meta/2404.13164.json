@@ -1,0 +1,16 @@
+{
+ "id": "2404.13164",
+ "title": "Least Squares Estimation For Hierarchical Data",
+ "authors": [
+  "Ryan Cumings-Menon",
+  "Pavel Zhuravlev"
+ ],
+ "v1_date": "2024-04-19",
+ "latest_version": 3,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The U.S. Census Bureau's 2020 Disclosure Avoidance System (DAS) bases its output on noisy measurements, which are population tabulations added to realizations of mean-zero random variables. These noisy measurements are observed for a set of hierarchical geographic levels, e.g., the U.S. as a whole, states, counties, census tracts, and census blocks. The Census Bureau released the noisy measurements generated in the DAS executions for the two primary 2020 Census data products, in part to allow data users to assess uncertainty in 2020 Census tabulations introduced by disclosure avoidance. This paper describes an algorithm that can leverage the hierarchical structure of the input data in order to compute very high dimensional least squares estimates in a computationally efficient manner. Afterward, we show that this algorithm's output is equal to the generalized least squares estimator, describe how to find the variance of linear functions of this estimator, and provide a numerical experiment in which we compute confidence intervals of tabulations based on this estimator. We also describe an accompanying Census Bureau experimental data product that applies this estimator to the publicly available noisy measurements to provide data users with the inputs required to derive confidence intervals for all tabulations that were included in the 2020 Redistricting Data File, for the U.S., state, county, and census tract geographic levels.",
+ "primary": "stat.CO"
+}

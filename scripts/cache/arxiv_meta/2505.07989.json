@@ -1,0 +1,17 @@
+{
+ "id": "2505.07989",
+ "title": "rd2d: Causal Inference in Boundary Discontinuity Designs",
+ "authors": [
+  "Matias D. Cattaneo",
+  "Rocio Titiunik",
+  "Ruiqi Rae Yu"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 3,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Boundary Discontinuity (BD) designs are used in empirical research to learn about causal treatment effects along a continuous assignment boundary defined by a bivariate score. These designs are also known as multi-score regression discontinuity (RD) designs, and include geographic RD designs as a prominent example. This article introduces \\pkg{rd2d}, a statistical software package for \\proglang{R}, \\proglang{Python}, and \\proglang{Stata} that implements local polynomial estimation and inference for BD designs using either the bivariate score or a univariate signed distance-to-boundary score. The software covers sharp and fuzzy BD designs, providing automatic bandwidth selection, robust bias-corrected pointwise inference, uniform confidence bands, cluster-robust inference with joint or separate fitting conventions, covariate-adjusted efficiency improvements, mass-point checks, and covariance regularization, among other features. We illustrate the package with an empirical application to Opportunity Zones, where eligibility has a strong first-stage effect on designation but no significant effects on early workplace-job growth.",
+ "primary": "stat.ME"
+}

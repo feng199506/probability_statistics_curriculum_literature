@@ -1,0 +1,18 @@
+{
+ "id": "2605.08799",
+ "title": "ElasticFlow: One-Step Physics-Consistent Policy with Elastic Time Horizons for Language-Guided Manipulation",
+ "authors": [
+  "Kewei Chen",
+  "Yayu Long",
+  "Shuai Li",
+  "Mingsheng Shang"
+ ],
+ "v1_date": "2026-05-09",
+ "latest_version": 1,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to Findings of ACL 2026",
+ "abstract": "Diffusion policies have demonstrated exceptional performance in embodied AI. However, their iterative denoising process results in high latency, and existing acceleration methods often sacrifice physical consistency. To address this, we propose ElasticFlow, a distillation-free, physics-consistent one-step policy framework. We reconstruct the Mean Field Theory by directly modeling the average velocity field, enabling a direct single-step mapping from noise to action. Addressing the Temporal Heterogeneity of robotic tasks, we introduce the Elastic Time Horizons mechanism. This mechanism effectively overcomes Spectral Bias by explicitly encoding control granularity, achieving efficient alignment between semantic instructions and physical execution horizons. Experiments on benchmarks such as LIBERO, CALVIN, and RoboTwin demonstrate that ElasticFlow achieves efficient 1-NFE inference (approximately 71Hz). Furthermore, it outperforms state-of-the-art methods, including OpenVLA and $π_0$, on long-horizon tasks, highlighting its potential for efficient, robust, and semantically aligned control.",
+ "primary": "cs.RO"
+}

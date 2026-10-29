@@ -1,0 +1,17 @@
+{
+ "id": "2410.09296",
+ "title": "The 2020 US Decennial Census is more private than you (might) think",
+ "authors": [
+  "Buxin Su",
+  "Weijie J. Su",
+  "Chendi Wang"
+ ],
+ "v1_date": "2024-10-11",
+ "latest_version": 4,
+ "latest_date": "2026-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The U.S. Decennial Census serves as the foundation for many high-profile policy decision-making processes, including federal funding allocation and redistricting. In 2020, the Census Bureau adopted differential privacy to protect the confidentiality of individual responses through a disclosure avoidance system that injects noise into census data tabulations. The Bureau subsequently posed an open question: Could stronger privacy guarantees be obtained for the 2020 U.S. Census compared to their published guarantees, or equivalently, had the privacy budgets been fully utilized? In this paper, we address this question affirmatively by demonstrating that the 2020 U.S. Census provides significantly stronger privacy protections than its nominal guarantees suggest at each of the eight geographical levels, from the national level down to the block level. This finding is enabled by our precise tracking of privacy losses using $f$-differential privacy, applied to the composition of private queries across these geographical levels. Our analysis reveals that the Census Bureau introduced unnecessarily high levels of noise to meet the specified privacy guarantees for the 2020 Census. Consequently, we show that noise variances could be reduced by $15.08\\%$ to $24.82\\%$ while maintaining nearly the same level of privacy protection for each geographical level, thereby improving the accuracy of privatized census statistics. We empirically demonstrate that reducing noise injection into census statistics mitigates distortion caused by privacy constraints in downstream applications of private census data, illustrated through a study examining the relationship between earnings and education.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2504.03030",
+ "title": "Characterizing and computing solutions to regularized semi-discrete optimal transport via an ordinary differential equation",
+ "authors": [
+  "Luca Nenna",
+  "Daniyar Omarov",
+  "Brendan Pass"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper investigates the semi-discrete optimal transport (OT) problem with entropic regularization. We characterize the solution using a governing, well-posed ordinary differential equation (ODE). This naturally yields an algorithm to solve the problem numerically, which we prove has desirable properties, notably including global strong convexity of a value function whose Hessian must be inverted in the numerical scheme. Extensive numerical experiments are conducted to validate our approach. We compare the solutions obtained using the ODE method with those derived from Newton's method. Our results demonstrate that the proposed algorithm is competitive for problems involving the squared Euclidean distance and exhibits superior performance when applied to various powers of the Euclidean distance. Finally, we note that the ODE approach yields an estimate on the rate of convergence of the solution as the regularization parameter vanishes, for a generic cost function.",
+ "primary": "math.NA"
+}

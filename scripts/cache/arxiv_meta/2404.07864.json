@@ -1,0 +1,18 @@
+{
+ "id": "2404.07864",
+ "title": "Inferring Change Points in High-Dimensional Regression via Approximate Message Passing",
+ "authors": [
+  "Gabriel Arpino",
+  "Xiaoqi Liu",
+  "Julia Gontarek",
+  "Ramji Venkataramanan"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 3,
+ "latest_date": "2025-09-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 9 figures. To appear in the Journal of Machine Learning Research",
+ "abstract": "We consider the problem of localizing change points in a generalized linear model (GLM), a model that covers many widely studied problems in statistical learning including linear, logistic, and rectified linear regression. We propose a novel and computationally efficient Approximate Message Passing (AMP) algorithm for estimating both the signals and the change point locations, and rigorously characterize its performance in the high-dimensional limit where the number of parameters $p$ is proportional to the number of samples $n$. This characterization is in terms of a state evolution recursion, which allows us to precisely compute performance measures such as the asymptotic Hausdorff error of our change point estimates, and allows us to tailor the algorithm to take advantage of any prior structural information on the signals and change points. Moreover, we show how our AMP iterates can be used to efficiently compute a Bayesian posterior distribution over the change point locations in the high-dimensional limit. We validate our theory via numerical experiments, and demonstrate the favorable performance of our estimators on both synthetic and real data in the settings of linear, logistic, and rectified linear regression.",
+ "primary": "stat.ML"
+}

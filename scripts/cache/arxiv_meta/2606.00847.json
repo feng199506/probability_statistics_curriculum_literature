@@ -1,0 +1,17 @@
+{
+ "id": "2606.00847",
+ "title": "Partial Identification under High-Dimensional Potential Outcomes and Confounders via Optimal Transport",
+ "authors": [
+  "Yunfeng Wang",
+  "Zhiheng Zhang",
+  "Zijun Gao"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 3 figures",
+ "abstract": "Partial identification provides informative causal guarantees when point identification is impossible, but existing approaches based on optimal transport (OT) become computationally and statistically intractable in high-dimensional settings. This limitation is particularly severe when both potential outcomes and confounders are high-dimensional, where classical OT-based bounds suffer from the curse of dimensionality and unfavorable convergence rates. To address this challenge, we propose a novel estimator that decomposes the transport problem into a low-dimensional signal subspace and a high-dimensional residual subspace. Unlike existing projection-based methods that discard residual information, we recover the residual transport energy using the Sliced Wasserstein distance, which is computationally efficient and robust to high dimensions. We establish interpretable conditions controlling the approximation gap based on residual structure and provide a data-driven rule for signal dimension selection. Empirical results show that our estimator consistently outperforms projection-only baselines by recovering lost transport energy, yielding more informative causal bounds while remaining computationally tractable in high dimensions.",
+ "primary": "stat.ME"
+}

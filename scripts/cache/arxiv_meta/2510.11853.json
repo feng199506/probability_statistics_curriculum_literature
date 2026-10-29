@@ -1,0 +1,16 @@
+{
+ "id": "2510.11853",
+ "title": "A Martingale Kernel Two-Sample Test",
+ "authors": [
+  "Anirban Chatterjee",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 2,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication in the proceedings of The 37th International Conference on Algorithmic Learning Theory",
+ "abstract": "The Maximum Mean Discrepancy (MMD) is a widely used multivariate distance metric for two-sample testing. The standard MMD test statistic has an intractable null distribution typically requiring costly resampling or permutation approaches for calibration. In this work we leverage a martingale interpretation of the estimated squared MMD to propose martingale MMD (mMMD), a quadratic-time statistic which has a limiting standard Gaussian distribution under the null. Moreover we show that the test is consistent against any fixed alternative and for large sample sizes, mMMD offers substantial computational savings over the standard MMD test, with only a minor loss in power.",
+ "primary": "stat.ME"
+}

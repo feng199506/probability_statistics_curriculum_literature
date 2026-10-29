@@ -1,0 +1,16 @@
+{
+ "id": "2407.12716",
+ "title": "Diffusion approximation error for queueing systems with general primitives",
+ "authors": [
+  "Anton Braverman",
+  "Ziv Scully"
+ ],
+ "v1_date": "2024-07-17",
+ "latest_version": 4,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the steady-state diffusion-approximation error for continuous-time queueing systems with generally distributed primitives. A common picture emerges after analyzing a number of canonical systems: the error decomposes into interior and boundary terms. The former are simpler to handle and can be bounded using only low-order moments of the system's primitives -- when the approximation error is measured using the Wasserstein distance, three moments suffice. The boundary terms are inherently more delicate: while crude bounds are easy to obtain, sharper (e.g., order optimal) bounds require deeper, model specific, insights. Methodologically, we extend the generator comparison approach of Stein's method to piecewise-deterministic Markov processes (PDMPs). The discontinuous nature of the PDMP at jump times necessitates using the basic adjoint relationship (BAR), instead of the infinitesimal generator, to characterize the stationary distribution. A second-order Taylor expansion of the BAR jump terms, coupled with a Palm-inversion step that converts event-averaged quantities into time averages, yields the candidate diffusion generator and a transparent interior/boundary error decomposition. In parallel, we show how the prelimit generator approach -- working with the Poisson equation of the queueing system instead of the diffusion process -- offers a promising avenue for bounding the challenging boundary terms.",
+ "primary": "math.PR"
+}

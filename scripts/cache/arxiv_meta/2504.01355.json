@@ -1,0 +1,17 @@
+{
+ "id": "2504.01355",
+ "title": "A Practical Guide to Estimating Conditional Marginal Effects: Modern Approaches",
+ "authors": [
+  "Jiehan Liu",
+  "Ziyi Liu",
+  "Yiqing Xu"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 3,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This Element offers a practical guide to estimating conditional marginal effects-how treatment effects vary with a moderating variable-using modern statistical methods. Commonly used approaches, such as linear interaction models, often suffer from unclarified estimands, limited overlap, and restrictive functional forms. This guide begins by clearly defining the estimand and presenting the main identification results. It then reviews and improves upon existing solutions, such as the semiparametric kernel estimator, and introduces robust estimation strategies, including augmented inverse propensity score weighting with Lasso selection (AIPW-Lasso) and double machine learning (DML) with modern algorithms. Each method is evaluated through simulations and empirical examples, with practical recommendations tailored to sample size and research context. All tools are implemented in the accompanying \\texttt{interflex} package for \\texttt{R}.",
+ "primary": "stat.ME"
+}

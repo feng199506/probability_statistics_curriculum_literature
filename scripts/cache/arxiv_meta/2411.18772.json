@@ -1,0 +1,15 @@
+{
+ "id": "2411.18772",
+ "title": "Difference-in-differences Design with Outcomes Missing Not at Random",
+ "authors": [
+  "Sooahn Shin"
+ ],
+ "v1_date": "2024-11-27",
+ "latest_version": 1,
+ "latest_date": "2024-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "49 pages, 4 figures",
+ "abstract": "This paper addresses one of the most prevalent problems encountered by political scientists working with difference-in-differences (DID) design: missingness in panel data. A common practice for handling missing data, known as complete case analysis, is to drop cases with any missing values over time. A more principled approach involves using nonparametric bounds on causal effects or applying inverse probability weighting based on baseline covariates. Yet, these methods are general remedies that often under-utilize the assumptions already imposed on panel structure for causal identification. In this paper, I outline the pitfalls of complete case analysis and propose an alternative identification strategy based on principal strata. To be specific, I impose parallel trends assumption within each latent group that shares the same missingness pattern (e.g., always-respondents, if-treated-respondents) and leverage missingness rates over time to estimate the proportions of these groups. Building on this, I tailor Lee bounds, a well-known nonparametric bounds under selection bias, to partially identify the causal effect within the DID design. Unlike complete case analysis, the proposed method does not require independence between treatment selection and missingness patterns, nor does it assume homogeneous effects across these patterns.",
+ "primary": "stat.ME"
+}

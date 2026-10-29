@@ -1,0 +1,17 @@
+{
+ "id": "2405.18518",
+ "title": "Modeling Long Sequences in Bladder Cancer Recurrence: A Comparative Evaluation of LSTM,Transformer,and Mamba",
+ "authors": [
+  "Runquan Zhang",
+  "Jiawen Jiang",
+  "Xiaoping Shi"
+ ],
+ "v1_date": "2024-05-28",
+ "latest_version": 2,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional survival analysis methods often struggle with complex time-dependent data,failing to capture and interpret dynamic characteristics adequately.This study aims to evaluate the performance of three long-sequence models,LSTM,Transformer,and Mamba,in analyzing recurrence event data and integrating them with the Cox proportional hazards model.This study integrates the advantages of deep learning models for handling long-sequence data with the Cox proportional hazards model to enhance the performance in analyzing recurrent events with dynamic time information.Additionally,this study compares the ability of different models to extract and utilize features from time-dependent clinical recurrence data.The LSTM-Cox model outperformed both the Transformer-Cox and Mamba-Cox models in prediction accuracy and model fit,achieving a Concordance index of up to 0.90 on the test set.Significant predictors of bladder cancer recurrence,such as treatment stop time,maximum tumor size at recurrence and recurrence frequency,were identified.The LSTM-Cox model aligned well with clinical outcomes,effectively distinguishing between high-risk and low-risk patient groups.This study demonstrates that the LSTM-Cox model is a robust and efficient method for recurrent data analysis and feature extraction,surpassing newer models like Transformer and Mamba.It offers a practical approach for integrating deep learning technologies into clinical risk prediction systems,thereby improving patient management and treatment outcomes.",
+ "primary": "cs.LG"
+}

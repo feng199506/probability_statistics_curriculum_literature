@@ -1,0 +1,16 @@
+{
+ "id": "2604.25410",
+ "title": "Laplace and skew-Laplace approximations for Dirichlet process mixture posterior density",
+ "authors": [
+  "Beatrice Franzolini",
+  "Francesco Pozza"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 1,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 3 Figures",
+ "abstract": "Posterior inference for Dirichlet process mixture models is analytically intractable and typically relies on Markov chain Monte Carlo methods, which can become computationally prohibitive at moderate to large sample sizes. In this work, we investigate the performance of Laplace and skew-Laplace posterior approximations for density estimation in this setting. Through an extensive numerical study covering four simulation scenarios with sample sizes ranging from n = 20 to n = 2,000 and four standard real datasets, we compare the standard Laplace approximation, its skew-corrected extension, and a slice sampling benchmark, assessing accuracy through total variation distance and computational efficiency through runtime. Our results show that the Gaussian Laplace approximation is more effective in this setting than might be anticipated, and that the skew-Laplace approximation consistently improves posterior recovery while remaining substantially faster than state-of-the-art Markov chain Monte Carlo samplers across all settings considered. In particular, the use of skew-Laplace in place of the standard Laplace approximation is especially beneficial in more complex density structures, where we observe error reductions typically on the order of 30%.",
+ "primary": "stat.CO"
+}

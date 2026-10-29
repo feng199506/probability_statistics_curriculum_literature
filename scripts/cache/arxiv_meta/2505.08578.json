@@ -1,0 +1,17 @@
+{
+ "id": "2505.08578",
+ "title": "Extreme Conformal Prediction: Reliable Intervals for High-Impact Events",
+ "authors": [
+  "Olivier C. Pasche",
+  "Henry Lam",
+  "Sebastian Engelke"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 3,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction is a popular method to construct prediction intervals with marginal coverage guarantees from black-box machine learning models. In applications with potentially high-impact events, such as flooding or financial crises, regulators often require very high confidence for such intervals. However, if the desired level of confidence is too large relative to the amount of data used for calibration, then classical conformal methods provide infinitely wide, thus, uninformative prediction intervals. In this paper, we propose a new method to overcome this limitation. We bridge extreme value statistics and conformal prediction to provide reliable and informative prediction intervals with high-confidence coverage, which can be constructed using any black-box extreme quantile regression method. A weighted version of our approach can account for nonstationary data. The advantages of our extreme conformal prediction method are illustrated in a simulation study and in an application to flood risk forecasting.",
+ "primary": "stat.ME"
+}

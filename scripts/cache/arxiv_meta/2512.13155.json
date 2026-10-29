@@ -1,0 +1,18 @@
+{
+ "id": "2512.13155",
+ "title": "Clinical transfusion-outcomes research: A practical guide",
+ "authors": [
+  "Sarah J Valk",
+  "Camila Caram-Deelder",
+  "Rolf. H. H. Groenwold",
+  "Johanna G van der Bom"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical transfusion-outcomes research faces unique methodological challenges compared with other areas of clinical research. These challenges arise because patients frequently receive multiple transfusions, each unit originates from a different donor, and the probability of receiving specific blood product characteristics is influenced by external, often uncontrollable, factors. These complexities complicate causal inference in observational studies of transfusion effectiveness and safety. This guide addresses key challenges in observational transfusion research, with a focus on time-varying exposure, time-varying confounding, and treatment-confounder feedback. Using the example of donor sex and pregnancy history in relation to recipient mortality, we illustrate the strengths and limitations of commonly used analytical approaches. We compare restriction-based analyses, time-varying Cox regression, and inverse probability weighted marginal structural models using a large observational dataset of male transfusion recipients. In the applied example, restriction and conventional time-varying approaches suggested an increased mortality risk associated with transfusion of red blood cells from ever-pregnant female donors compared with male-only donors (hazard ratio [HR] 1.22; 95% CI 1.05-1.42 and HR 1.21; 95% CI 1.04-1.41, respectively). In contrast, inverse probability of treatment and censoring weighted analyses, which account for treatment-confounder feedback, showed no evidence of an association (HR 1.01; 95% CI 0.85-1.20). These findings demonstrate how conventional methods can yield biased estimates when complex longitudinal structures are not adequately handled. We provide practical guidance on study design, target trial emulation, and the use of g-methods, including a reproducible tutorial and example dataset, to support valid causal inference in clinical transfusion research.",
+ "primary": "stat.ME"
+}

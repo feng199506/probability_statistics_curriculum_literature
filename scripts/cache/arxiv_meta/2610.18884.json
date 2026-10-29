@@ -1,0 +1,15 @@
+{
+ "id": "2610.18884",
+ "title": "A subquadratic upper bound for the mixing time of the Thorp shuffle",
+ "authors": [
+  "Yunjiang Jiang"
+ ],
+ "v1_date": "2026-10-03",
+ "latest_version": 1,
+ "latest_date": "2026-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "Let $n=2^d$. We prove that the worst-start total-variation mixing time of the full labelled Thorp shuffle satisfies, for every fixed $0<\\varepsilon<1$, \\[ t_{\\mathrm{mix}}(\\varepsilon) \\le C_* d^{5/3}+O_\\varepsilon\\!\\left(d^{4/3}\\log(d+2)\\right), \\qquad C_*=5.1536951454\\ldots . \\] Time is measured in ordinary Thorp shuffles. This improves the previously published full-deck upper bound $O(d^3)$ of Morris. The geometric starting point is elementary: label the $n=2^d$ positions by binary strings. One physical Thorp shuffle is a random swap layer on one coordinate matching of the $d$-dimensional cube, followed by a deterministic cyclic rotation of the coordinates. In a rotating frame that deterministic rotation disappears, so $d$ successive physical shuffles become one \\emph{sweep}: one independent random swap layer in each coordinate direction. The proof then combines five ingredients. First, a collision-graph representation and negative dependence give pointwise smoothing for ordered marked cards. Second, an entropy argument is sharpened by moving an endpoint moment up to the critical exponent $β_c=\\log_2(3/2)$, yielding an entropy-preparation clock $s^2/(2\\log(3/2))+O(s\\log s)$. Third, exact multiplicities in the ordered $h$-tuple permutation representation amplify marked-card bounds into Fourier operator and energy estimates on low representation levels. Fourth, entropy truncation produces a positive mixture whose regular component retains the marked-card budget. Finally, only two long blocks need this entropy regularization: a shorter third block is used solely for additional low-level smoothing. Optimizing the three block lengths gives the constant above.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2412.04956",
+ "title": "Fast Estimation of the Composite Link Model for Multidimensional Grouped Counts",
+ "authors": [
+  "Carlo G. Camarda",
+  "María Durbán"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 4 figures",
+ "abstract": "This paper presents a significant advancement in the estimation of the Composite Link Model within a penalized likelihood framework, specifically designed to address indirect observations of grouped count data. While the model is effective in these contexts, its application becomes computationally challenging in large, high-dimensional settings. To overcome this, we propose a reformulated iterative estimation procedure that leverages Generalized Linear Array Models, enabling the disaggregation and smooth estimation of latent distributions in multidimensional data. Through simulation studies and applications to high-dimensional mortality datasets, we demonstrate the model's capability to capture fine-grained patterns while comparing its computational performance to the conventional algorithm. The proposed methodology offers notable improvements in computational speed, storage efficiency, and practical applicability, making it suitable for a wide range of fields in which high-dimensional data are provided in grouped formats.",
+ "primary": "stat.ME"
+}

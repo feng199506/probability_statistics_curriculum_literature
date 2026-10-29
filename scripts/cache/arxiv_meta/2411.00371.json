@@ -1,0 +1,15 @@
+{
+ "id": "2411.00371",
+ "title": "Blocked Gibbs Sampling for Improved Convergence in Finite Mixture Models",
+ "authors": [
+  "David Michael Swanson"
+ ],
+ "v1_date": "2024-11-01",
+ "latest_version": 1,
+ "latest_date": "2024-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gibbs sampling is a common procedure used to fit finite mixture models. However, it is known to be slow to converge when exploring correlated regions of a parameter space and so blocking correlated parameters is sometimes implemented in practice. This is straightforward to visualize in contexts like low-dimensional multivariate Gaussian distributions, but more difficult for mixture models because of the way latent variable assignment and cluster-specific parameters influence one another. Here we analyze correlation in the space of latent variables and show that latent variables of outlier observations equidistant between component distributions can exhibit significant correlation that is not bounded away from one, suggesting they can converge very slowly to their stationary distribution. We provide bounds on convergence rates to a modification of the stationary distribution and propose a blocked sampling procedure that significantly reduces autocorrelation in the latent variable Markov chain, which we demonstrate in simulation.",
+ "primary": "math.ST"
+}

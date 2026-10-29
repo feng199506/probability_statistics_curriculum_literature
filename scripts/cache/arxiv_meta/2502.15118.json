@@ -1,0 +1,16 @@
+{
+ "id": "2502.15118",
+ "title": "Do we really need the Rademacher complexities?",
+ "authors": [
+  "Daniel Bartl",
+  "Shahar Mendelson"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 1,
+ "latest_date": "2025-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the fundamental problem of learning with respect to the squared loss in a convex class. The state-of-the-art sample complexity estimates in this setting rely on Rademacher complexities, which are generally difficult to control. We prove that, contrary to prevailing belief and under minimal assumptions, the sample complexity is not governed by the Rademacher complexities but rather by the behaviour of the limiting gaussian process. In particular, all such learning problems that have the same $L_2$-structure -- even those with heavy-tailed distributions -- share the same sample complexity. This constitutes the first universality result for general convex learning problems. The proof is based on a novel learning procedure, and its performance is studied by combining optimal mean estimation techniques for real-valued random variables with Talagrand's generic chaining method.",
+ "primary": "math.ST"
+}

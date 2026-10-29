@@ -1,0 +1,18 @@
+{
+ "id": "2608.26127",
+ "title": "Graph-Based Modeling of Financial Volatility Dynamics",
+ "authors": [
+  "Chuanzhen Wang",
+  "Alice Zhang",
+  "Wei Chen",
+  "Michael Brown"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages",
+ "abstract": "Accurate forecasting of realized volatility ($RV$) is crucial for risk management and derivatives pricing. Although the implied volatility ($IV$) surface offers rich informational content, prevailing methods that treat it as a static image fail to capture its inherent dynamics. To overcome this limitation, we propose the Finance-Aware Graph Spatio-Temporal Network (FA-GSTN), a novel architecture that reframes $RV$ forecasting as modeling the evolution of a structured financial object. FA-GSTN builds a spatio-temporal graph sequence from the $IV$ surface, where nodes correspond to grid points and edges encode adaptive spatial (intra-day) and explicit temporal (inter-day) dependencies. The model incorporates domain knowledge through finance-aware node features (e.g., option Greeks) and tackles high-frequency noise via a multi-scale temporal smoothing gate coupled with an adaptive robust loss function. Comprehensive evaluations on a large-scale equity options dataset show that FA-GSTN sets a new state of the art, delivering superior predictive accuracy ($R^2$ up to 0.473). It also demonstrates remarkable data efficiency, substantially outperforming strong Vision Transformer baselines when trained on only one year of data ($R^2$: 0.372 vs. 0.315). Furthermore, the model exhibits enhanced robustness during periods of market stress, such as 2020--2021. Ablation studies confirm the vital roles of the spatio-temporal graph structure, finance-aware components, and integrated noise-handling modules. Our work underscores the substantial benefits of explicitly modeling temporal dynamics and infusing financial inductive biases for accurate and robust volatility forecasting.",
+ "primary": "q-fin.ST"
+}

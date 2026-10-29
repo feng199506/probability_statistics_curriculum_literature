@@ -1,0 +1,17 @@
+{
+ "id": "2506.13916",
+ "title": "Branching Stein Variational Gradient Descent for sampling multimodal distributions",
+ "authors": [
+  "Isaías Bañales",
+  "Arturo Jaramillo",
+  "Joshué Helí Ricalde-Guerrero"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2025-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel particle-based variational inference method designed to work with multimodal distributions. Our approach, referred to as Branched Stein Variational Gradient Descent (BSVGD), extends the classical Stein Variational Gradient Descent (SVGD) algorithm by incorporating a random branching mechanism that encourages the exploration of the state space. In this work, a theoretical guarantee for the convergence in distribution is presented, as well as numerical experiments to validate the suitability of our algorithm. Performance comparisons between the BSVGD and the SVGD are presented using the Wasserstein distance between samples and the corresponding computational times.",
+ "primary": "cs.LG"
+}

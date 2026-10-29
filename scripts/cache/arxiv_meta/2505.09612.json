@@ -1,0 +1,17 @@
+{
+ "id": "2505.09612",
+ "title": "Adaptively-weighted Nearest Neighbors for Matrix Completion",
+ "authors": [
+  "Tathagata Sadhukhan",
+  "Manit Paul",
+  "Raaz Dwivedi"
+ ],
+ "v1_date": "2025-05-14",
+ "latest_version": 1,
+ "latest_date": "2025-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 6 figures",
+ "abstract": "In this technical note, we introduce and analyze AWNN: an adaptively weighted nearest neighbor method for performing matrix completion. Nearest neighbor (NN) methods are widely used in missing data problems across multiple disciplines such as in recommender systems and for performing counterfactual inference in panel data settings. Prior works have shown that in addition to being very intuitive and easy to implement, NN methods enjoy nice theoretical guarantees. However, the performance of majority of the NN methods rely on the appropriate choice of the radii and the weights assigned to each member in the nearest neighbor set and despite several works on nearest neighbor methods in the past two decades, there does not exist a systematic approach of choosing the radii and the weights without relying on methods like cross-validation. AWNN addresses this challenge by judiciously balancing the bias variance trade off inherent in weighted nearest-neighbor regression. We provide theoretical guarantees for the proposed method under minimal assumptions and support the theory via synthetic experiments.",
+ "primary": "stat.ML"
+}

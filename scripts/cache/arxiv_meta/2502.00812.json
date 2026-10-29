@@ -1,0 +1,15 @@
+{
+ "id": "2502.00812",
+ "title": "Direct sampling from conditional distributions by sequential maximum likelihood estimations",
+ "authors": [
+  "Shuhei Mano"
+ ],
+ "v1_date": "2025-02-02",
+ "latest_version": 3,
+ "latest_date": "2025-11-19",
+ "journal_ref": "Alg. Stat. 16 (2025) 175-199",
+ "doi": "10.2140/astat.2025.16.175",
+ "comment": "33 pages, 1 figure",
+ "abstract": "We can directly sample from the conditional distribution of any log-affine model. The algorithm is a Markov chain on a bounded integer lattice, and its transition probability is the ratio of the UMVUE (uniformly minimum variance unbiased estimator) of the expected counts to the total number of counts. The computation of the UMVUE accounts for most of the computational cost, which makes the implementation challenging. Here, we investigated an approximate algorithm that replaces the UMVUE with the MLE (maximum likelihood estimator). Although it is generally not exact, it is efficient and easy to implement; no prior study is required, such as about the connection matrices of the holonomic ideal in the original algorithm.",
+ "primary": "math.ST"
+}

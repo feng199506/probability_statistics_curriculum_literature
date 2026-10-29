@@ -1,0 +1,16 @@
+{
+ "id": "2610.09105",
+ "title": "Local asymptotic normality for spectral-tail likelihoods under fixed-domain sampling",
+ "authors": [
+  "Alexandre B. Simas",
+  "Jonas Wallin"
+ ],
+ "v1_date": "2026-10-06",
+ "latest_version": 1,
+ "latest_date": "2026-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We establish local asymptotic normality (LAN) for joint inference on scale and roughness in stationary Gaussian random fields observed on increasingly dense regular grids in a fixed domain. Scale and roughness are represented by the coefficient and decay exponent of the leading spectral tail. Under spectral regularity conditions, we identify the joint normalization governing the LAN expansion and prove consistency and asymptotic normality of the maximum likelihood estimators. For \\(N\\) observations, the estimation errors are of order \\(N^{-1/2}\\) for roughness and \\((\\log N)/\\sqrt N\\) for scale. After componentwise normalization, the errors converge to a perfectly correlated Gaussian pair. Knowing either parameter improves the convergence rate for estimating the other by a logarithmic factor. The analysis uses generalized locally Toeplitz (GLT) theory, for which we develop a truncation principle accommodating nonintegrable limiting symbols and quantitative bounds on the contribution from low frequencies. We verify the assumptions for Matérn and generalized Wendland covariance families, establishing uniform spectral bounds for the latter. We also show that consistency and the limiting distributions persist under covariance misspecification when the true and fitted spectra share the same leading tail and their difference decays sufficiently rapidly. This includes misspecification between Matérn and generalized Wendland models under explicit parameter restrictions.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2609.11032",
+ "title": "Bayesian Variable Selection for High-Dimensional Predictors with Missing Psychometric Outcomes",
+ "authors": [
+  "Zongyue Teng",
+  "Shujie Ma",
+  "Timothy J. Hohman",
+  "Angela L. Jefferson",
+  "Panpan Zhang"
+ ],
+ "v1_date": "2026-09-10",
+ "latest_version": 1,
+ "latest_date": "2026-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional, multimodal predictors and partially observed multivariate outcomes are common in psychometric research. However, existing regularization methods often do not accommodate hierarchical predictor structures and are primarily designed for univariate outcomes. We propose SHIM, a Bayesian framework for structured variable selection that combines hierarchical horseshoe shrinkage with a Bayesian treatment of missing outcomes. The framework jointly accommodates predictor hierarchies, dependence among outcomes, and incomplete multivariate responses. We establish theoretical properties of the proposed prior specification and evaluate SHIM through simulation studies. The results demonstrate that SHIM balances sensitivity with false-positive control while yielding accurate coefficient estimates and well-calibrated uncertainty quantification. We further apply SHIM to data from an Alzheimer's disease cohort to characterize associations between multimodal neuroimaging measures and multivariate neuropsychological outcomes and to generate posterior-based multiple imputations for downstream analyses of the relationships between fluid biomarkers and cognition. An R package, shim, is publicly available to facilitate implementation.",
+ "primary": "stat.ME"
+}

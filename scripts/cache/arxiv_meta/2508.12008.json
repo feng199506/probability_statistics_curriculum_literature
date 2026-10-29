@@ -1,0 +1,16 @@
+{
+ "id": "2508.12008",
+ "title": "Homogeneity Test of Proportions for Combined Unilateral and Bilateral Data via GEE and MLE Approaches",
+ "authors": [
+  "Jia Zhou",
+  "Chang-Xing Ma"
+ ],
+ "v1_date": "2025-08-16",
+ "latest_version": 1,
+ "latest_date": "2025-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages, 11 tables",
+ "abstract": "In clinical trials involving paired organs such as eyes, ears, and kidneys, binary outcomes may be collected bilaterally or unilaterally. In such combined datasets, bilateral outcomes exhibit intra-subject correlation, while unilateral outcomes are assumed independent. We investigate the generalized Estimating Equations (GEE) approach for testing homogeneity of proportions across multiple groups for the combined unilateral and bilateral data, and compare it with three likelihood-based statistics (likelihood ratio, Wald-type, and score) under Rosner's constant $R$ model and Donner's equal correlation $ρ$ model. Monte Carlo simulations evaluate empirical type I error and power under varied sample sizes and parameter settings. The GEE and score tests show superior type I error control, outperforming likelihood ratio and Wald-type tests. Applications to two real datasets in otolaryngologic and ophthalmologic studies illustrate the methods. We recommend the GEE and score tests for homogeneity testing, and suggest GEE for more complex models with covariates, while favoring the score statistic for small sample exact tests due to its computational efficiency.",
+ "primary": "stat.ME"
+}

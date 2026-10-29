@@ -1,0 +1,17 @@
+{
+ "id": "2410.12386",
+ "title": "Bias correction of quadratic spectral estimators",
+ "authors": [
+  "Lachlan Astfalck",
+  "Adam Sykulski",
+  "Edward Cripps"
+ ],
+ "v1_date": "2024-10-16",
+ "latest_version": 2,
+ "latest_date": "2024-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Biometrika, Miscelanea",
+ "abstract": "The three cardinal, statistically consistent, families of non-parametric estimators to the power spectral density of a time series are lag-window, multitaper and Welch estimators. However, when estimating power spectral densities from a finite sample each can be subject to non-ignorable bias. Astfalck et al. (2024) developed a method that offers significant bias reduction for finite samples for Welch's estimator, which this article extends to the larger family of quadratic estimators, thus offering similar theory for bias correction of lag-window and multitaper estimators as well as combinations thereof. Importantly, this theory may be used in conjunction with any and all tapers and lag-sequences designed for bias reduction, and so should be seen as an extension to valuable work in these fields, rather than a supplanting methodology. The order of computation is larger than O(n log n) typical in spectral analyses, but not insurmountable in practice. Simulation studies support the theory with comparisons across variations of quadratic estimators.",
+ "primary": "stat.ME"
+}

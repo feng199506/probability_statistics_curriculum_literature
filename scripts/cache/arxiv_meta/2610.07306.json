@@ -1,0 +1,16 @@
+{
+ "id": "2610.07306",
+ "title": "Kurate: Scalable Scientific Quality Analysis",
+ "authors": [
+  "Matthew J. Vowels",
+  "Jamie Cummins"
+ ],
+ "v1_date": "2026-10-05",
+ "latest_version": 1,
+ "latest_date": "2026-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Scientific search systems can find papers that are relevant to a question, but they generally do not assess the quality of the evidence that those papers provide. We present Kurate, a system that uses large language models (LLMs) to assess the quality of published studies. Kurate uses both the paper and its related documents (e.g., the study's trial registration and protocol), and links each of its judgments to the passage of text on which that judgment is based. We applied Kurate to a corpus of 4,347 papers (3,913 of which report randomized trials) and scored each paper on 8 dimensions of study design and reporting: specifically, statistical power, causal identification, preregistration, selective reporting, measurement validity, analysis prespecification, reporting transparency, and conflict of interest and funding. Across the corpus, we found that papers most often exhibited issues with statistical power, selective reporting, and analysis prespecification, although average quality differed between clinical areas. When compared against expert annotations of 60 held-out clinical-trial documents, the information Kurate extracted matched the expert label in 221/242 protocol scorepoints and 294/370 results-publication scorepoints, with AC1 0.94 and 0.81, respectively. Using a well-reputed, high quality clinical trial as a worked example, we show how a single paper's overall grade breaks down into separate judgments, with each linked to specific evidence from the trial's registration, protocol, and published report. Together, these results show that large-scale quality assessment of this kind is feasible, and that it can be used to address meta-scientific research questions.",
+ "primary": "cs.CL"
+}

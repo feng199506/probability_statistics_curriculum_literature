@@ -1,0 +1,17 @@
+{
+ "id": "2411.08778",
+ "title": "Causal-DRF: Conditional Kernel Treatment Effect Estimation using Distributional Random Forest",
+ "authors": [
+  "Jeffrey Näf",
+  "Junhyung Park",
+  "Herbert Susmann"
+ ],
+ "v1_date": "2024-11-13",
+ "latest_version": 2,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The conditional average treatment effect (CATE) is a commonly targeted statistical parameter for measuring the effect of a treatment conditional on covariates. However, the CATE will fail to capture effects of treatments beyond differences in conditional expectations. Inspired by causal forests for CATE estimation, we develop a forest-based method to estimate the conditional kernel treatment effect (CKTE), based on the recently introduced Distributional Random Forest (DRF) algorithm. Adapting the splitting criterion of DRF, we show how one forest fit can be used to obtain a consistent and asymptotically normal estimator of the CKTE, as well as an approximation of its sampling distribution. This allows to study the difference in distribution between control and treatment group and thus yields a more comprehensive understanding of the treatment effect.",
+ "primary": "stat.ME"
+}

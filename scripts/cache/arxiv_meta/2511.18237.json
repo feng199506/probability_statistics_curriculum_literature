@@ -1,0 +1,17 @@
+{
+ "id": "2511.18237",
+ "title": "Efficient Covariance Estimation for Sparsified Functional Data",
+ "authors": [
+  "Sijie Zheng",
+  "Fandong Meng",
+  "Jie Zhou"
+ ],
+ "v1_date": "2025-11-23",
+ "latest_version": 1,
+ "latest_date": "2025-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by recent work involving the analysis of leveraging spatial correlations in sparsified mean estimation, we present a novel procedure for constructing covariance estimator. The proposed Random-knots (Random-knots-Spatial) and B-spline (Bspline-Spatial) estimators of the covariance function are computationally efficient. Asymptotic pointwise of the covariance are obtained for sparsified individual trajectories under some regularity conditions. Our proposed nonparametric method well perform the functional principal components analysis for the case of sparsified data, where the number of repeated measurements available per subject is small. In contrast, classical functional data analysis requires a large number of regularly spaced measurements per subject. Model selection techniques, such as the Akaike information criterion, are used to choose the model dimension corresponding to the number of eigenfunctions in the model. Theoretical results are illustrated with Monte Carlo simulation experiments. Finally, we cluster multi-domain data by replacing the covariance function with our proposed covariance estimator during PCA.",
+ "primary": "stat.ME"
+}

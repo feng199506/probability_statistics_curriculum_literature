@@ -1,0 +1,17 @@
+{
+ "id": "2410.14783",
+ "title": "High-Dimensional Tensor Discriminant Analysis with Incomplete Tensors",
+ "authors": [
+  "Elynn Chen",
+  "Yuefeng Han",
+  "Jiayu Li"
+ ],
+ "v1_date": "2024-10-18",
+ "latest_version": 2,
+ "latest_date": "2024-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tensor classification is gaining importance across fields, yet handling partially observed data remains challenging. In this paper, we introduce a novel approach to tensor classification with incomplete data, framed within high-dimensional tensor linear discriminant analysis. Specifically, we consider a high-dimensional tensor predictor with missing observations under the Missing Completely at Random (MCR) assumption and employ the Tensor Gaussian Mixture Model (TGMM) to capture the relationship between the tensor predictor and class label. We propose a Tensor Linear Discriminant Analysis with Missing Data (Tensor LDA-MD) algorithm, which manages high-dimensional tensor predictors with missing entries by leveraging the decomposable low-rank structure of the discriminant tensor. Our work establishes convergence rates for the estimation error of the discriminant tensor with incomplete data and minimax optimal bounds for the misclassification rate, addressing key gaps in the literature. Additionally, we derive large deviation bounds for the generalized mode-wise sample covariance matrix and its inverse, which are crucial tools in our analysis and hold independent interest. Our method demonstrates excellent performance in simulations and real data analysis, even with significant proportions of missing data.",
+ "primary": "stat.ML"
+}

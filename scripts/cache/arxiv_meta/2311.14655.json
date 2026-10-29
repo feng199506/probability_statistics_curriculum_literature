@@ -1,0 +1,16 @@
+{
+ "id": "2311.14655",
+ "title": "A Sparse Factor Model for Clustering High-Dimensional Longitudinal Data",
+ "authors": [
+  "Zihang Lu",
+  "Noirrit Kiran Chandra"
+ ],
+ "v1_date": "2023-11-24",
+ "latest_version": 1,
+ "latest_date": "2023-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advances in engineering technologies have enabled the collection of a large number of longitudinal features. This wealth of information presents unique opportunities for researchers to investigate the complex nature of diseases and uncover underlying disease mechanisms. However, analyzing such kind of data can be difficult due to its high dimensionality, heterogeneity and computational challenges. In this paper, we propose a Bayesian nonparametric mixture model for clustering high-dimensional mixed-type (e.g., continuous, discrete and categorical) longitudinal features. We employ a sparse factor model on the joint distribution of random effects and the key idea is to induce clustering at the latent factor level instead of the original data to escape the curse of dimensionality. The number of clusters is estimated through a Dirichlet process prior. An efficient Gibbs sampler is developed to estimate the posterior distribution of the model parameters. Analysis of real and simulated data is presented and discussed. Our study demonstrates that the proposed model serves as a useful analytical tool for clustering high-dimensional longitudinal data.",
+ "primary": "stat.ME"
+}

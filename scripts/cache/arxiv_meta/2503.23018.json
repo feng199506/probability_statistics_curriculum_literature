@@ -1,0 +1,19 @@
+{
+ "id": "2503.23018",
+ "title": "Likelihood Level Adapted Estimation of Marginal Likelihood for Bayesian Model Selection",
+ "authors": [
+  "Subhayan De",
+  "Reza Farzad",
+  "Patrick T. Brewick",
+  "Erik A. Johnson",
+  "Steven F. Wojtkiewicz"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 2,
+ "latest_date": "2025-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 11 figures",
+ "abstract": "In computational mechanics, multiple models are often present to describe a physical system. While Bayesian model selection is a helpful tool to compare these models using measurement data, it requires the computationally expensive estimation of a multidimensional integral -- known as the marginal likelihood or as the model evidence (\\textit{i.e.}, the probability of observing the measured data given the model). This study presents efficient approaches for estimating this marginal likelihood by transforming it into a one-dimensional integral that is subsequently evaluated using a quadrature rule at multiple adaptively-chosen iso-likelihood contour levels. Three different algorithms are proposed to estimate the probability mass at each adapted likelihood level using samples from importance sampling, stratified sampling, and Markov chain Monte Carlo sampling, respectively. The proposed approach is illustrated through four numerical examples. The first example validates the algorithms against a known exact marginal likelihood. The second example uses an 11-story building subjected to an earthquake excitation with an uncertain hysteretic base isolation layer with two models to describe the isolation layer behavior. The third example considers flow past a cylinder when the inlet velocity is uncertain. Based on these examples, the method with stratified sampling is by far the most accurate and efficient method for complex model behavior in low dimension. In the fourth example, the proposed approach is applied to heat conduction in an inhomogeneous plate with uncertain thermal conductivity modeled through a 100 degree-of-freedom Karhunen-Loève expansion. The results indicate that MultiNest cannot efficiently handle the high-dimensional parameter space, whereas the proposed MCMC-based method more accurately and efficiently explores the parameter space.",
+ "primary": "stat.CO"
+}

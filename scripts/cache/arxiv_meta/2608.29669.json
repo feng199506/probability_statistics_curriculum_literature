@@ -1,0 +1,16 @@
+{
+ "id": "2608.29669",
+ "title": "Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations",
+ "authors": [
+  "Marcus Gawronsky",
+  "Chun-Sung Huang"
+ ],
+ "v1_date": "2026-08-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial asset-pricing models take the structure of inter-firm interaction as given. We infer that structure from firms' information environments using language-model representations. Each firm is represented as a distribution of news-article embeddings, and a target-anchored Wasserstein barycentric reconstruction selects, for every firm, the weighted combination of other firms whose information footprints jointly reconstruct its own. The resulting directed peer field enters a quadratic exposure-adjustment model in which the spatial coefficient indexes alignment with information peers relative to stand-alone exposure. Using fields built from 2018-2022 news and frozen before 2023-2026 returns, we find that the constructed field organizes cross-sectional return dependence beyond the Fama-French five factors and momentum and raises the held-out mean Gaussian quasi-log score relative to a matched factor-only model. Because factor betas are unchanged, the gain lies in residual covariance. The field outperforms pairwise distance weighting and equal weighting of the same peers, and remains incrementally informative beside persistent news co-mentions under the primary factor-conditioned specification. Linear and quadratic transport generate nearly identical peer-return signals and equivalent held-out predictive performance. The barycentric-proximity ordering persists across alternative embedding models, and a pre-period encoder preserves the held-out advantage under the primary specification. Language-model representations thus serve as a measurement instrument for latent inter-firm information structure in capital markets.",
+ "primary": "q-fin.ST"
+}

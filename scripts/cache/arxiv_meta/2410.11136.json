@@ -1,0 +1,16 @@
+{
+ "id": "2410.11136",
+ "title": "Comparison Theorems for the Mixing Times of Systematic and Random Scan Dynamics",
+ "authors": [
+  "Jason Gaitonde",
+  "Elchanan Mossel"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 2,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages",
+ "abstract": "A popular method for sampling from high-dimensional distributions is the \\emph{Gibbs sampler}, which iteratively resamples sites from the conditional distribution of the desired measure given the values of the other coordinates. It is natural to ask to what extent does the order of site updates matter in the mixing time? Two natural choices are (i) standard, or \\emph{random scan}, Glauber dynamics where the updated variable is chosen uniformly at random, and (ii) the \\emph{systematic scan} dynamics where variables are updated in a fixed, cyclic order. We first show that for systems of dimension $n$, one round of the systematic scan dynamics has spectral gap at most a factor of order $n$ worse than the corresponding spectral gap of a single step of Glauber dynamics, tightening existing bounds in the literature by He, et al. [NeurIPS '16] and Chlebicka, Łatuszyński, and Miasodejow [Ann. Appl. Probab. '25]. The corresponding bound on mixing times is sharp even for simple spin systems by an explicit example of Roberts and Rosenthal [Int. J. Statist. Prob. '15]. We complement this with a converse statement: if all, or even just one scan order rapidly mixes, the Glauber dynamics has a polynomially related mixing time, resolving a question of Chlebicka, Łatuszyński, and Miasodejow.",
+ "primary": "math.PR"
+}

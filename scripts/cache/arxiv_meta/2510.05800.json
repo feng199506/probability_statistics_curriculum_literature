@@ -1,0 +1,19 @@
+{
+ "id": "2510.05800",
+ "title": "Bridging the Gap Between Methodological Research and Statistical Practice: Toward \"Translational Simulation Research",
+ "authors": [
+  "Anne-Laure Boulesteix",
+  "Patrick Callahan",
+  "Luzia Hanssum",
+  "Vincent Gaertner",
+  "Eva Hoster"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulations are valuable tools for empirically evaluating the properties of statistical methods and are primarily employed in methodological research to draw general conclusions about methods. In addition, they can often be useful to applied statisticians, who may rely on published simulation results to select an appropriate statistical method for their application. However, on the one hand, applying published simulation results directly to practical settings is frequently challenging, as the scenarios considered in methodological studies rarely align closely enough with the characteristics of specific real-world applications to be truly informative. Applied statisticians, on the other hand, may struggle to construct their own simulations or to adapt methodological research to better reflect their specific data due to time constraints and limited programming expertise. We propose bridging this gap between methodological research and statistical practice through a translational approach by developing dedicated software along with simulation studies, which should abstract away the coding-intensive aspects of running simulations while still offering sufficient flexibility in parameter selection to meet the needs of applied statisticians. We demonstrate this approach using two practical examples, illustrating that the concept of translational simulation can be implemented in practice in different ways. In the first example - simulation-based evaluation of power in two-arm randomized clinical trials with an ordinal endpoint - the solution we discuss is a Shiny web application providing a graphical user interface for running informative simulations in this context. For the second example - assessing the impact of measurement error in multivariable regression - a less labor-intensive approach is suggested, involving the provision of user-friendly, well-structured, and modular analysis code.",
+ "primary": "stat.OT"
+}

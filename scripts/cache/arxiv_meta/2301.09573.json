@@ -1,0 +1,16 @@
+{
+ "id": "2301.09573",
+ "title": "Huber-Robust Confidence Sequences",
+ "authors": [
+  "Hongjian Wang",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2023-01-23",
+ "latest_version": 2,
+ "latest_date": "2023-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at the 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)",
+ "abstract": "Confidence sequences are confidence intervals that can be sequentially tracked, and are valid at arbitrary data-dependent stopping times. This paper presents confidence sequences for a univariate mean of an unknown distribution with a known upper bound on the $p$-th central moment ($p$ > 1), but allowing for (at most) $ε$ fraction of arbitrary distribution corruption, as in Huber's contamination model. We do this by designing new robust exponential supermartingales, and show that the resulting confidence sequences attain the optimal width achieved in the nonsequential setting. Perhaps surprisingly, the constant margin between our sequential result and the lower bound is smaller than even fixed-time robust confidence intervals based on the trimmed mean, for example. Since confidence sequences are a common tool used within A/B/n testing and bandits, these results open the door to sequential experimentation that is robust to outliers and adversarial corruptions.",
+ "primary": "math.ST"
+}

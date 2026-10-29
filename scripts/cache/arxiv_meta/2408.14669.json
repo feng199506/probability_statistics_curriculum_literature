@@ -1,0 +1,17 @@
+{
+ "id": "2408.14669",
+ "title": "Inspection-Guided Randomization: A Flexible and Transparent Restricted Randomization Framework for Better Experimental Design",
+ "authors": [
+  "Maggie Wang",
+  "René F. Kizilcec",
+  "Michael Baiocchi"
+ ],
+ "v1_date": "2024-08-26",
+ "latest_version": 2,
+ "latest_date": "2025-08-26",
+ "journal_ref": "",
+ "doi": "10.3102/10769986251342292",
+ "comment": "Updates to prior version: removed multi-arm trial vignette and moved group formation vignette to appendix, added effect estimates from linear regression estimator, added theoretical results on IGR bias and type I error rate inflation in re-randomization. Journal of Educational and Behavioral Statistics (2025)",
+ "abstract": "Randomized experiments are considered the gold standard for estimating causal effects. However, out of the set of possible randomized assignments, some may be likely to produce poor effect estimates and misleading conclusions. Restricted randomization is an experimental design strategy that filters out undesirable treatment assignments, but its application has primarily been limited to ensuring covariate balance in two-arm studies where the target estimand is the average treatment effect. Other experimental settings with different design desiderata and target effect estimands could also stand to benefit from a restricted randomization approach. We introduce Inspection-Guided Randomization (IGR), a transparent and flexible framework for restricted randomization that filters out undesirable treatment assignments by inspecting assignments against analyst-specified, domain-informed design desiderata. In IGR, the acceptable treatment assignments are locked in ex ante and pre-registered in the trial protocol, thus safeguarding against $p$-hacking and promoting reproducibility. Through illustrative simulation studies motivated by education and behavioral health interventions, we demonstrate how IGR can be used to improve effect estimates compared to benchmark designs in group formation experiments and experiments with interference.",
+ "primary": "stat.ME"
+}

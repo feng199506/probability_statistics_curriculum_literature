@@ -1,0 +1,16 @@
+{
+ "id": "2602.02753",
+ "title": "Effect-Wise Inference for Smoothing Spline ANOVA on Tensor-Product Sobolev Space",
+ "authors": [
+  "Youngjin Cho",
+  "Meimei Liu"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 2,
+ "latest_date": "2026-06-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Functional ANOVA provides a nonparametric modeling framework for multivariate covariates, enabling flexible estimation and interpretation of effect functions such as main effects and interaction effects. However, effect-wise inference in such models remains challenging. Existing methods focus primarily on inference for entire functions rather than individual effects. Methods addressing effect-wise inference face substantial limitations: the inability to accommodate interactions, a lack of rigorous theoretical foundations, or restriction to pointwise inference. To address these limitations, we develop a unified framework for effect-wise inference in smoothing spline ANOVA on a subspace of tensor product Sobolev space. For each effect function, we establish rates of convergence, pointwise confidence intervals, and a Wald-type test for whether the effect is zero, with power achieving the minimax distinguishable rate up to a logarithmic factor. Main effects achieve the optimal univariate rates, and interactions achieve optimal rates up to logarithmic factors. The theoretical foundation relies on an orthogonality decomposition of effect subspaces, which enables the extension of the functional Bahadur representation framework to effect-wise inference in smoothing spline ANOVA with interactions. Simulation studies and real-data application to the Colorado temperature dataset demonstrate superior performance compared to existing methods.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2604.24056",
+ "title": "Bi-Gaussian Mirrors for False Discovery Rate Control",
+ "authors": [
+  "Yujia Wu",
+  "Panxu Yuan",
+  "Binyan Jiang"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Effectively controlling the false discovery rate (FDR) in high-dimensional variable selection is a fundamental statistical problem that has garnered significant research interest. In this paper, we propose a novel, user-friendly, and computationally efficient method called Bi-Gaussian Mirrors (BGM), which offers a conceptually simple yet powerful approach for FDR control. Our method makes the first attempt to achieve FDR control in high-dimensional data with complex dependencies, while overcoming key limitations of existing approaches, such as prior knowledge of the joint distribution of data, significant power loss, the need for full symmetry in test statistics, and the theoretical restriction to linear regression models. Additionally, we present a self-guiding procedure designed to enhance the practicality and applicability of the BGM method. Theoretical guarantees for FDR control and asymptotic power are rigorously established under regularity conditions. Moreover, extensive numerical simulations and two real-data examples demonstrate that the BGM method outperforms existing approaches in terms of finite-sample performance, achieving a superior balance between FDR control and testing power.",
+ "primary": "stat.ME"
+}

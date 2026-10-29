@@ -1,0 +1,16 @@
+{
+ "id": "2605.10495",
+ "title": "Robust Bayes Acts under Prior Perturbations: Contamination, Stability, and Selection Paths",
+ "authors": [
+  "Christoph Jansen",
+  "Georg Schollmeyer"
+ ],
+ "v1_date": "2026-05-11",
+ "latest_version": 1,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a quantitative framework to assess the robustness of Bayes-optimal decisions in finite decision problems under model uncertainty. We introduce two complementary stability notions for acts: the robustness radius, measuring the largest perturbation of a reference prior under which an act remains Bayes-optimal, and the contamination need, quantifying the minimal perturbation required for an act to become Bayes-optimal under some nearby prior. Both concepts are characterized via linear programming formulations and computed efficiently using bisection methods exploiting monotonicity properties. Building on these stability measures, we propose a cost-adjusted stability criterion that integrates robustness considerations with act-specific selection costs, yielding a parametric family of decision rules indexed by a regularization parameter. We analyze how optimal act selection evolves along this parameter and derive selection paths that reveal structural transitions between stability-driven and cost-driven regimes. The framework is applied to a portfolio choice problem under uncertainty between different economic regimes. Concretely, using data on historical ETF returns, we compute robustness and contamination profiles for six portfolio strategies and analyze their behavior under heterogeneous belief specifications. The results illustrate that robustness-based selection refines classical expected utility by accounting for prior misspecification.",
+ "primary": "stat.ME"
+}

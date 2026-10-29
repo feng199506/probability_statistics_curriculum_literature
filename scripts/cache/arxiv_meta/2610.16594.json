@@ -1,0 +1,19 @@
+{
+ "id": "2610.16594",
+ "title": "Software Testing Meets Bayesian Workflow: A Literature-Driven Artifact Study of Probabilistic Programs",
+ "authors": [
+  "Oleg Jarma",
+  "Maja Dall",
+  "Raúl Pardo",
+  "Mahsa Varshosaz",
+  "Andrzej Wąsowski"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Automated testing is an effective software quality assurance method, but it is rarely used for probabilistic models. This is despite the heavy use of probabilistic programming for data analytics in research and engineering, where the consequences of errors are dire. A key obstacle is the specification of testable correctness properties for probabilistic models, known as the oracle problem. Like machine learning, probabilistic programming is used precisely where no analytical specification exists: had we been able to write one, we would have written an algorithm instead of fitting a model. An alternative is partial, proxy correctness specifications. The statistics literature already offers many, but as quality guidelines that require human judgment: comparing plots, visually analyzing shapes of distributions, assessing whether parameter values are ''far'' or ''close enough''. These guidelines are not systematically automated. In this work, we elicit, implement, and study testable correctness properties of probabilistic models. We extract 17 broadly applicable properties for probabilistic models from one of the most widely used textbooks in Bayesian data analysis, Statistical Rethinking by McElreath. For each property, we select and implement a test oracle, and study its utility for automatic testing, using a population of 59 probabilistic models from academic and industrial sources. We find realistic use cases (models under test) for all the properties. We observe that the vast majority of tests are not flaky in practice, despite the theoretical potential for flakiness. To the best of our knowledge, we are the first to investigate the effectiveness of mutation testing for probabilistic models, showing that standard mutation operators do not capture faults tracked by the probabilistic properties.",
+ "primary": "cs.SE"
+}

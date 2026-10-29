@@ -1,0 +1,16 @@
+{
+ "id": "2504.04602",
+ "title": "Statistical Prediction of Peaks Over a Threshold",
+ "authors": [
+  "Simone A. Padoan",
+  "Stefano Rizzelli"
+ ],
+ "v1_date": "2025-04-06",
+ "latest_version": 1,
+ "latest_date": "2025-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many applied fields, the prediction of more severe events than those already recorded is crucial for safeguarding against potential future calamities. What-if analyses, which evaluate hypothetical scenarios up to the worst-case event, play a key role in assessing the potential impacts of extreme events and guiding the development of effective safety policies. This problem can be analyzed using extreme value theory. We employ the well-established peaks-over-threshold method and describe a comprehensive toolkit to address forecasting needs. We examine an \\lq\\lq out-of-sample\" variable and focus on its conditional probability of exceeding a high threshold, representing the predictive distribution of future extreme peaks. We demonstrate that the generalized Pareto approximation of the corresponding predictive density can be remarkably accurate. We then introduce frequentist methods and a Bayesian approach for estimating this predictive density, enabling the derivation of informative predictive intervals. By leveraging threshold stability, we illustrate how predictions can be reliably extended deep into the tail of the unknown data distribution. We establish the asymptotic accuracy of the proposed estimators and, more importantly, prove that the resulting predictive inference is asymptotically valid. Forecasters satisfying the tail-equivalence property allow to recover widely used risk measures for risk assessment through point forecasts. This insight lays the groundwork for a new perspective that integrates risk assessment into the statistical predictive toolbox. Finally, we extend the prediction framework to the case of linear time series. We apply the proposed predictive tools to two real-world datasets: summer peak temperatures recorded in Milan, Italy, over the past 30 years, and daily negative log-returns of the Dow Jones Industrial Average observed over 30 years.",
+ "primary": "stat.ME"
+}

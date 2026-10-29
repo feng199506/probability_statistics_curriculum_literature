@@ -1,0 +1,16 @@
+{
+ "id": "2409.05529",
+ "title": "Bootstrapping Estimators based on the Block Maxima Method",
+ "authors": [
+  "Axel Bücher",
+  "Torben Staud"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 2,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main article: 27 pages, supplement: 30 pages, 24 figures",
+ "abstract": "The block maxima method is a standard approach for analyzing the extremal behavior of a potentially multivariate time series. It has recently been found that the classical approach based on disjoint block maxima may be universally improved by considering sliding block maxima instead. However, the asymptotic variance formula for estimators based on sliding block maxima involves an integral over the covariance of a certain family of multivariate extreme value distributions, which makes its estimation, and inference in general, an intricate problem. As an alternative, one may rely on bootstrap approximations: we show that naive block-bootstrap approaches from time series analysis are inconsistent even in i.i.d.\\ situations, and provide a consistent alternative based on resampling circular block maxima. As a by-product, we show consistency of the classical resampling bootstrap for disjoint block maxima, and that estimators based on circular block maxima have the same asymptotic variance as their sliding block maxima counterparts. The finite sample properties are illustrated by Monte Carlo experiments, and the methods are demonstrated by a case study of precipitation extremes.",
+ "primary": "math.ST"
+}

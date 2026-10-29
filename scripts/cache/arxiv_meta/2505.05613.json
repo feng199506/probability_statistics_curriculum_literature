@@ -1,0 +1,20 @@
+{
+ "id": "2505.05613",
+ "title": "Optimal Regret of Bernoulli Bandits under Global Differential Privacy",
+ "authors": [
+  "Achraf Azize",
+  "Yulian Wu",
+  "Junya Honda",
+  "Francesco Orabona",
+  "Shinji Ito",
+  "Debabrota Basu"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As sequential learning algorithms are increasingly applied to real life, ensuring data privacy while maintaining their utilities emerges as a timely question. In this context, regret minimisation in stochastic bandits under $ε$-global Differential Privacy (DP) has been widely studied. Unlike bandits without DP, there is a significant gap between the best-known regret lower and upper bound in this setting, though they \"match\" in order. Thus, we revisit the regret lower and upper bounds of $ε$-global DP algorithms for Bernoulli bandits and improve both. First, we prove a tighter regret lower bound involving a novel information-theoretic quantity characterising the hardness of $ε$-global DP in stochastic bandits. Our lower bound strictly improves on the existing ones across all $ε$ values. Then, we choose two asymptotically optimal bandit algorithms, i.e. DP-KLUCB and DP-IMED, and propose their DP versions using a unified blueprint, i.e., (a) running in arm-dependent phases, and (b) adding Laplace noise to achieve privacy. For Bernoulli bandits, we analyse the regrets of these algorithms and show that their regrets asymptotically match our lower bound up to a constant arbitrary close to 1. This refutes the conjecture that forgetting past rewards is necessary to design optimal bandit algorithms under global DP. At the core of our algorithms lies a new concentration inequality for sums of Bernoulli variables under Laplace mechanism, which is a new DP version of the Chernoff bound. This result is universally useful as the DP literature commonly treats the concentrations of Laplace noise and random variables separately, while we couple them to yield a tighter bound.",
+ "primary": "stat.ML"
+}

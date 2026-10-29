@@ -1,0 +1,15 @@
+{
+ "id": "2602.21792",
+ "title": "p-Hacking Inflates Type I Error Rates in the Error Statistical Approach but not in the Formal Inference Approach",
+ "authors": [
+  "Mark Rubin"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 3,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "p-hacking occurs when researchers conduct multiple significance tests (e.g., p1;H0,1 and p2;H0,2) and then selectively report tests that yield desirable (usually significant) results (e.g., p2 < 0.05;H0,2) without correcting for multiple testing (e.g., 0.05/2 = 0.025). In the present article, I consider p-hacking in the context of two philosophies of significance testing - the error statistical approach and the formal inference approach. I argue that although p-hacking inflates Type I error rates in the error statistical approach, it does not inflate them in the formal inference approach. Specifically, in the error statistical approach, the \"actual\" familywise error rate (e.g., 1 - [1 - 0.05]2 = 0.098 for two independent tests) is relevant because it covers both the reported and unreported tests in the \"actual\" test procedure (i.e., p1;H0,1 and p2;H0,2). In this approach, Type I error rate inflation occurs because the \"actual\" error rate (0.098) is higher than the nominal error rate (0.05). In contrast, in the formal inference approach, the \"actual\" familywise error rate is irrelevant because (a) the researcher does not report a statistical inference about the corresponding intersection null hypothesis (i.e., H0,1 & H0,2), and (b) the \"actual\" familywise error rate does not license inferences about the reported individual hypotheses (i.e., H0,2). Instead, in the formal inference approach, only the nominal error rate is relevant, and a comparison with the \"actual\" error rate is inappropriate. Implications for conceptualizing, demonstrating, and reducing p-hacking are discussed.",
+ "primary": "stat.OT"
+}

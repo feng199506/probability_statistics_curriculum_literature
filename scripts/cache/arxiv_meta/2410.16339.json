@@ -1,0 +1,16 @@
+{
+ "id": "2410.16339",
+ "title": "Information-Based Martingale Optimal Transport",
+ "authors": [
+  "Georges Kassis",
+  "Andrea Macrina"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 3,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages",
+ "abstract": "Randomised arcade processes are a class of continuous stochastic processes that interpolate in a strong sense, i.e., omega by omega, between any given ordered set of random variables, at fixed pre-specified times. Utilising these processes as generators of partial information, a class of continuous-time martingale -- the filtered arcade martingales (FAMs) -- are constructed. FAMs interpolate through a sequence of target random variables, which form a discrete-time martingale. The research presented in this paper relaxes the FAM setting to the interpolation between probability measures instead and treats the problem of selecting the worst martingale coupling for given, convexly ordered, probability measures contingent on the paths of FAMs that are constructed using the martingale coupling. This optimisation problem, that we term the information-based martingale optimal transport problem (IB-MOT), can be viewed from different perspectives. It can be understood as a model-free construction of FAMs, in the case where the coupling is not determined a priori. It can also be considered from the vantage point of optimal transport (OT), where the problem is concerned with introducing a noise factor in martingale optimal transport, similarly to how the entropic regularisation of optimal transport introduces noise in OT. The IB-MOT problem is static in its nature, since its aim is to find a coupling. However, a corresponding dynamical solution can be found by considering the FAM constructed with the identified optimal coupling. The existence and uniqueness of its solution are shown and an algorithm for empirical measures is proposed.",
+ "primary": "math.PR"
+}

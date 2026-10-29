@@ -1,0 +1,20 @@
+{
+ "id": "2602.19732",
+ "title": "VOLatility Archive for Realized Estimates (VOLARE)",
+ "authors": [
+  "Fabrizio Cipollini",
+  "Giulia Cruciani",
+  "Giampiero M. Gallo",
+  "Alessandra Insana",
+  "Edoardo Otranto",
+  "Fabio Spagnolo"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "VOLARE (VOLatility Archive for Realized Estimates - https://volare.unime.it) is an open research infrastructure providing standardized realized volatility and covariance measures constructed from ultra-high-frequency financial data. The platform processes tick-level observations across equities, exchange rates, and futures using an asset-specific pipeline that addresses heterogeneous trading calendars, microstructure noise, and timestamp precision. For equities, price series are cleaned using a documented outlier detection procedure and sampled at regular intervals. VOLARE delivers a comprehensive set of realized estimators, including realized variance, range-based measures, bipower variation, semivariances, realized quarticity, realized kernels, and multivariate covariance measures, ensuring methodological consistency and cross-asset comparability. In addition to bulk dataset download, the platform supports interactive visualization and real-time estimation of established volatility models such as HAR and MEM specifications.",
+ "primary": "q-fin.ST"
+}

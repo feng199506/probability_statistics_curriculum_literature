@@ -1,0 +1,554 @@
+[
+ {
+  "arxiv": "2501.00140",
+  "subtopic": "随机积分与 SDE",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "系统整理半鞅随机积分的定义与结论并简介 Lévy 过程，适合作为随机积分课程的速查讲义。",
+  "summary": "作者称这些笔记（多不含证明）汇集半鞅理论与随机积分的基本定义和结果，作为研究 Lévy 过程驱动的随机（泛函）微分方程的基础指南。摘要称材料改编自作者硕士论文的预备章节，面向初学者。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2407.04834",
+  "subtopic": "随机积分与 SDE",
+  "type": "综述",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "综述 SDE 解爆破的分类方法（Feller 检验与 Khasminskii Lyapunov 方法），是 SDE 适定性专题的好读物。",
+  "summary": "SDE 的解可能几乎必然不爆破、以正概率爆破或几乎必然爆破。摘要称作者综述用于分类这些爆破行为的 Khasminskii Lyapunov 方法：先考察 Feller 爆破检验及其不足，再介绍 Lyapunov 方法并讨论其与 Osgood 准则的一致性。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2607.27237",
+  "subtopic": "随机积分与 SDE",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "面向应用数学读者的随机动力系统几何方法简明教材，衔接 SDE 与动力系统。",
+  "summary": "作者称本书主要面向不具备直接阅读高级参考书背景的应用数学家与科学家，目标是介绍理解 SDE 解的若干几何方法，并在书中补充必要的背景知识。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2403.12613",
+  "subtopic": "随机积分与 SDE",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "指出并修正 Protter 随机积分教材中的一个定理错误，适合精读标准教材时对照。",
+  "summary": "摘要称 Protter 的随机积分与 SDE 教材是标准文献，但其第五章定理 12（关于依概率紧一致收敛的等价刻画）不正确；鉴于许多重要结果依赖该定理，作者给出修正版本。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2507.17363",
+  "subtopic": "随机积分与 SDE",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "把 Föllmer 路径式随机积分推广到 Itô、Stratonovich 与后向 Itô 积分，连接随机积分与粗糙路径。",
+  "summary": "摘要称作者建立路径式随机积分的一般框架：对沿固定划分列具有二次变差与 Lévy 面积的连续路径，用一般 Riemann 和的极限定义路径式积分，给出 Itô、Stratonovich 与后向 Itô 积分的路径版本，并证明其与粗糙路径积分一致。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2502.07941",
+  "subtopic": "高斯分析与 Malliavin 微积分",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "Malliavin 微积分简明讲义，比较文献中不同的 Malliavin 导数定义。",
+  "summary": "这份讲义简要介绍 Malliavin 微积分，摘要称其特别考虑并比较了文献中出现的不同 Malliavin 导数概念。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2607.01693",
+  "subtopic": "扩散过程",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论+计算",
+  "difficulty": "中级",
+  "reason": "以证明为导向的扩散模型数学讲义，从经典采样动力学讲到扩散采样器误差分析。",
+  "summary": "这份暑期研究生学校讲义从采样视角给出扩散模型的证明导向介绍。摘要称内容从经典采样动力学到现代扩散采样器、误差分析与推断时控制，分层给出完整证明、简化假设下的代表性估计和带证明路线图的研究级定理，面向具概率背景的低年级研究生。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "18"
+  ]
+ },
+ {
+  "arxiv": "2402.07487",
+  "subtopic": "扩散过程",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论+计算",
+  "difficulty": "中级",
+  "reason": "以 SDE 表述讲解基于分数的扩散模型，展示时间反演 SDE 等随机分析工具的现代应用。",
+  "summary": "这是一篇关于基于分数的扩散模型的说明性文章，重点是 SDE 表述。摘要称作者讨论采样与分数匹配两大支柱，包括 SDE/ODE 采样、分数匹配效率、一致性模型与强化学习，并给出简短证明说明主要思想。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2608.30493",
+  "subtopic": "随机控制与平均场",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "McKean–Vlasov SDE 暑校讲义，连接非线性 Fokker–Planck 方程与平均场粒子系统。",
+  "summary": "这份讲义源自 2025 年芬兰概率统计暑校，介绍 McKean–Vlasov SDE 及其与非线性 Fokker–Planck 方程和平均场交互粒子系统的联系。摘要称特别关注密度依赖方程和带退化噪声的动理学模型。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2507.23553",
+  "subtopic": "随机控制与平均场",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述奇异系数 McKean–Vlasov SDE 的近期结果，是平均场方向的前沿入口。",
+  "summary": "作者综述系数奇异的 McKean–Vlasov SDE 的近期工作。摘要称在回顾经典框架后，按系数奇异性类型（仅满足可积可测条件，或漂移为广义函数）组织文献，并考虑对未知律的不同依赖方式和不同噪声。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2502.20091",
+  "subtopic": "随机控制与平均场",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "平均场博弈单调性方法的入门书章，涵盖唯一性、弱解与数值方法。",
+  "summary": "这一章考察平均场博弈理论中的单调性技术。摘要称单调性最初用于证明解的唯一性，后来用于构造数值方法与在温和假设下构造弱解；作者在简述 MFG 表述后介绍 Minty 方法与 PDE 正则化策略，并用于典型的定常问题。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2511.04929",
+  "subtopic": "随机控制与平均场",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "综述放松同质性与匿名性假设的平均场博弈扩展。",
+  "summary": "摘要称平均场博弈理论通常依赖同质性与匿名性两个关键假设，这些笔记以教学方式介绍放松这些假设的扩展模型，包括多群体 MFG、graphon MFG、主-从（major-minor）MFG、Stackelberg MFG 以及含合作玩家的变体。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2502.06356",
+  "subtopic": "随机控制与平均场",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述随机最优控制的随机化方法，以 BSDE 表示值函数与 HJB 方程。",
+  "summary": "作者综述研究随机最优化问题的随机化方法。摘要称该方法借助与原问题值相同的辅助优化问题，用适当的倒向随机微分方程表示最优控制问题的值函数，适用于大类控制问题并为许多 HJB 型 PDE 提供 BSDE 表示。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2505.17032",
+  "subtopic": "随机控制与平均场",
+  "type": "综述",
+  "level": "博士",
+  "track": "计算",
+  "difficulty": "中级",
+  "reason": "Deep BSDE 方法的简要综述，连接 BSDE、非线性抛物 PDE 与深度学习数值方法。",
+  "summary": "摘要称高维 PDE 受维数灾难困扰，Deep BSDE 方法自 2017 年起用深度学习高效求解超高维非线性 PDE；作者在这篇短综述中回顾该方法及其引发的高维 PDE 神经网络研究。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "18"
+  ]
+ },
+ {
+  "arxiv": "2402.10331",
+  "subtopic": "粗糙路径",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "百科全书式的粗糙路径理论综述，是进入该方向的最短路径。",
+  "summary": "作者介绍粗糙路径理论的主要思想。摘要称该理论源于为低正则性 ODE 建立连续性，主要动机和应用在随机分析，为 Itô 演算提供新视角，并赋予半鞅框架外不规则路径驱动的微分方程以意义。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2404.06583",
+  "subtopic": "粗糙路径",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "从第一性原理讲授路径签名与粗糙路径，并综述其在机器学习中的应用。",
+  "summary": "这份基于帝国理工课程的讲义阐述签名变换与粗糙路径理论在数据科学和机器学习中的近期应用。摘要称作者从第一性原理建立签名的核心理论，再综述签名核方法与神经粗糙微分方程等应用。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "13"
+  ]
+ },
+ {
+  "arxiv": "2605.10150",
+  "subtopic": "粗糙路径",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "介绍粗糙路径理论及粗糙偏微分方程，并给出在 SPDE 上的应用。",
+  "summary": "作者称这些笔记旨在介绍粗糙偏微分方程，为此在所需范围内讲述粗糙路径理论，并给出在随机偏微分方程上的应用。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2510.12165",
+  "subtopic": "粗糙路径",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "随机缝合（stochastic sewing）方法讲义，覆盖噪声正则化与不规则漂移 SPDE。",
+  "summary": "这份短期课程讲义介绍随机缝合技术。摘要称作者展示其在随机分析多类问题中的应用，包括布朗运动或分数布朗运动驱动 SDE 的噪声正则化，以及漂移不规则的随机偏微分方程适定性等。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2512.14264",
+  "subtopic": "SPDE",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "五讲正则结构理论及其在奇异 SPDE 中的应用。",
+  "summary": "这组五次讲座介绍正则结构理论及其在奇异随机偏微分方程研究中的使用。摘要称两个附录补充正文用到的技术结果和更深的背景。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "0907.4178",
+  "subtopic": "SPDE",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "Hairer 的 SPDE 入门讲义，是学习半线性抛物型 SPDE 的标准起点。",
+  "summary": "这些讲义基于作者在 Warwick、Courant 等处的课程，试图给出 SPDE 基本理论的较自足的介绍。摘要称讲义只假定基础测度论、泛函分析与概率论，侧重加性噪声驱动的半线性抛物问题。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Hairer 的 SPDE 讲义是开放获取中最常用的 SPDE 入门教材，近三年的专题讲义多以其为前置读物。"
+ },
+ {
+  "arxiv": "2402.02119",
+  "subtopic": "SPDE",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "Walsh 随机场方法的 SPDE 教材全文，系统覆盖时空白噪声积分与 SPDE 解理论。",
+  "summary": "这是一本用 Walsh 随机场方法介绍 SPDE 理论的书。摘要称第 1 章介绍等距高斯过程、时空白噪声与动机性例子，第 2 章建立关于时空白噪声的随机积分理论，第 3–6 章讨论加性与乘性噪声 SPDE、随机热方程的渐近性质（不变测度、混合等）与弱解存在唯一性，附录汇总所需的随机过程与随机分析结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2501.18561",
+  "subtopic": "SPDE",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "以最大正则性与临界空间方法综述非线性 SPDE 的适定性理论。",
+  "summary": "作者深入介绍他们用最大正则性技术研究随机发展方程适定性的近期结果。摘要称核心是抽象的临界空间概念（对非线性 SPDE 即尺度不变空间），由此得到若干精确爆破准则与瞬时正则化结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2403.15006",
+  "subtopic": "SPDE",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "临界与超临界 SPDE 大尺度行为的讲义，补充正则结构之外的前沿。",
+  "summary": "讲义介绍落在正则结构理论之外的临界与超临界非线性 SPDE 的大尺度行为近期结果，包括二维各向异性 KPZ 方程、d≥2 随机 Burgers 方程和二维随机 Navier–Stokes 方程。摘要称讲义着重主要思想而非完整证明。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "1106.1596",
+  "subtopic": "交互粒子系统",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "KPZ 方程与普适类的经典综述，连接交互粒子系统、随机增长与随机矩阵。",
+  "summary": "作者综述 KPZ 方程与 KPZ 普适类，该普适类描述一维界面生长、交互粒子系统与随机环境中的聚合物等模型。摘要称文章重点讨论三方面：用弱非对称简单排斥过程逼近 KPZ 方程、窄楔初值下 KPZ 方程解的精确单点分布，以及与随机介质中有向聚合物的联系。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Corwin 的 KPZ 综述是该领域公认的入门综述，近三年的 KPZ 与交互粒子系统论文普遍以其为背景读物。"
+ },
+ {
+  "arxiv": "2408.14174",
+  "subtopic": "交互粒子系统",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述周期 KPZ 方程的近期进展，同时展示均匀化与 Malliavin 方法。",
+  "summary": "作者回顾周期环境中 KPZ 方程（描述柱面几何中界面随机增长）的近期进展。摘要称主要结果包括界面高度与周期随机环境中有向聚合物绕数的中心极限定理，每个结果都给出基于均匀化和基于 Malliavin 微积分的两种方法。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2608.20252",
+  "subtopic": "交互粒子系统",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "交互粒子系统流体力学极限的入门讲义，作为 Kipnis–Landim 等专著的补充。",
+  "summary": "这份讲义讨论随机交互粒子系统中的各类“流体力学”大数定律与 CLT 标度极限，把微观行为与连续介质定律联系起来。摘要称讲义以若干“短故事”介绍基础，面向学生与入门者，限定于离散空间上质量守恒的系统。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2410.17766",
+  "subtopic": "交互粒子系统",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "随机图上交互粒子系统的暑校讲义，连接概率、组合与网络科学。",
+  "summary": "这份概述汇集了作者在 2024 年巴西概率学校的短期课程讲义，介绍随机图上的交互粒子系统。摘要称内容是概率论、组合、统计物理与网络科学交叉领域的一个个人视角快照。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2401.00082",
+  "subtopic": "交互粒子系统",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述稀疏随机图上交互随机过程的局部极限理论。",
+  "summary": "摘要称完全图上的交互粒子系统已由平均场极限很好刻画，而交互图稀疏（平均度一致有界）时此前所知甚少；本文简要综述经典工作，再介绍结合随机图理论、马尔可夫随机场与随机分析的稀疏情形新进展，并提出若干开放问题。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "04"
+  ]
+ },
+ {
+  "arxiv": "1011.3027",
+  "subtopic": "随机矩阵",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "随机矩阵非渐近分析的经典教程，高维统计与随机矩阵课程的共同基础。",
+  "summary": "这是关于随机矩阵理论基本非渐近方法与概念的教程。摘要称读者将学习分析独立行或列随机矩阵极端奇异值的若干工具，这些方法源自几何泛函分析，在理论计算机、统计与信号处理中有应用。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Vershynin 的随机矩阵非渐近分析教程是高维概率与统计的标准入门材料，近三年文献普遍沿用其工具与记号。",
+  "related": [
+   "10"
+  ]
+ },
+ {
+  "arxiv": "2607.07868",
+  "subtopic": "随机矩阵",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "227 页随机矩阵讲义：用空腔法推导经典结果并展示在物理、金融、生态中的应用。",
+  "summary": "作者称随机矩阵理论已成为数学科学的基石。摘要称讲义一方面用较初等透明的空腔方法以教学方式推导最著名的经典结果，另一方面在应用情境中展示每个结果的意义，并介绍相关分析工具。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2507.03400",
+  "subtopic": "随机矩阵",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "面向非专业读者的随机矩阵导引，聚焦特征值律与交互粒子系统、Dyson 布朗运动的联系。",
+  "summary": "这份说明性笔记面向非专业读者介绍随机矩阵，重点是随机矩阵与交互粒子系统的联系。摘要称作者先回顾通过特征值律建立这种联系的一般结果，再介绍随机矩阵的连续时间方法 Dyson 布朗运动。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2507.00346",
+  "subtopic": "随机矩阵",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述随机矩阵“强收敛”现象及其在随机图、几何与算子代数中的应用。",
+  "summary": "Haagerup 与 Thorbjørnsen 在 2005 年发现独立复高斯随机矩阵非交换多项式的范数收敛到自由概率极限算子的范数。摘要称近年新方法在更一般情形建立了强收敛并给出更强的定量形式，作者综述这些进展及其应用。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "1712.04651",
+  "subtopic": "渗流",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "渗流理论六十年发展的权威综述，是渗流专题的入门首选。",
+  "summary": "作者综述渗流模型（描述多孔材料内部）的发展。摘要称该理论在二十世纪中叶出现，八十年代是 Bernoulli 渗流主要结果的黄金时代，此后二十年使渗流理论成为多个数学领域的交汇点。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Duminil-Copin 的 ICM 综述是渗流理论最常用的开放获取全景介绍，近三年渗流讲义多以其为背景，暂无同等覆盖的替代。"
+ },
+ {
+  "arxiv": "2412.19752",
+  "subtopic": "随机图",
+  "type": "学术教程",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "Orsay 硕士课程讲义：随机游走、Galton–Watson 树与 Erdős–Rényi 巨分支。",
+  "summary": "这份讲义来自 2019–2024 年 Orsay 硕士课程。摘要称内容包括：一维随机游走、循环引理与 Bienaymé–Galton–Watson 随机树；Erdős–Rényi 随机图与巨分支出现的三种证明；随机递归树、随机置换与连续时间嵌入技巧。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2609.28552",
+  "subtopic": "随机图",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "特拉维夫大学研究生课程讲义：有限图上的渗流与 G(n,p) 相变。",
+  "summary": "这是 2026 年春季特拉维夫大学研究生课程的讲义。摘要称主题包括 G(n,p) 的相变与巨分支、超临界与稀疏随机图中的长路与长圈、连通性与完美匹配的阈值、有限图随机子图的一般模型以及随机超立方体中的相变等。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2512.15673",
+  "subtopic": "渗流",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "ICM 报告：随机图上渗流相变的位置与性质。",
+  "summary": "渗流是网络随机损伤的模型，是最简单的呈现相变的模型之一。摘要称作者研究随机图上相变的位置与性质，重点关注临界附近或以下连通分支呈现的复杂标度行为。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2502.08394",
+  "subtopic": "渗流",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "平面 FK 渗流相变的暑校讲义，涵盖相变连续性与临界相旋转不变性。",
+  "summary": "这份 CIME 暑校讲义快速介绍 FK 渗流，重点是二维模型相变的近期结果：依赖簇权 q 的连续或不连续性，以及连续相变时临界相的渐近旋转不变性。摘要称主要讨论 Z² 上 q≥1 的情形，也提及一般维数的重要结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2412.18432",
+  "subtopic": "最优传输与概率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论+计算",
+  "difficulty": "中级",
+  "reason": "高斯情形下熵最优传输、Schrödinger 桥与 Sinkhorn 算法的显式分析。",
+  "summary": "熵最优传输是最优传输的正则化版本，在机器学习与生成模型中日益重要。摘要称作者对一般高斯多元模型给出迭代比例拟合（Sinkhorn）的有限维递推表述，它与 Kalman 滤波和 Riccati 差分方程密切相关，并据此给出高斯 Sinkhorn 算法的收敛分析以及熵传输映射与 Schrödinger 桥的闭式表达。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "18"
+  ]
+ },
+ {
+  "arxiv": "2510.16431",
+  "subtopic": "随机几何与 SLE",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "ICM 综述：Liouville 量子引力、随机平面图与 SLE 的联系。",
+  "summary": "作者综述 Liouville 量子引力的两个方面。摘要称第一，LQG 描述随机平面图标度极限的随机共形几何，其中 LQG 与 Schramm–Loewner 演化的耦合起关键作用；第二，LQG 与共形场论的联系，包括 Liouville CFT 与 SLE/LQG 耦合的相互作用及其在 SLE 与二维统计物理中的应用；文末提出若干开放问题。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2601.15966",
+  "subtopic": "统计物理中的概率",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "ICM 综述：球面自旋玻璃的几何结构，代表高维随机函数研究前沿。",
+  "summary": "球面自旋玻璃是高维光滑随机函数的典型模型。摘要称作者综述其几何结构的几条相关研究线，先讨论临界点及其与 Gibbs 测度的关系，再介绍对一般混合模型得到类似图景的另一种方法。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2510.26960",
+  "subtopic": "统计物理中的概率",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "SK 等自旋玻璃模型自由能涨落的文献综述。",
+  "summary": "作者指出相较于极限自由能，自由能涨落了解较少。摘要称本文综述在涨落方面取得重要进展的一族模型，即 Sherrington–Kirkpatrick 模型与球面模型等。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2504.00733",
+  "subtopic": "随机积分与 SDE",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "给出随机积分弱收敛到布朗运动积分的充分条件。",
+  "summary": "摘要称作者给出形如 ∫f_n(u)θ_n(u)du 的过程列在连续函数空间中弱收敛到 ∫f(u)W(du) 的充分条件，其中 θ_n 的积分依律收敛到布朗运动。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true,
+  "related": [
+   "04"
+  ]
+ },
+ {
+  "arxiv": "2605.18040",
+  "subtopic": "扩散过程",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论+计算",
+  "difficulty": "高级",
+  "reason": "Föllmer 过程与 DDPM 采样器的联系，展示条件布朗运动在生成模型中的作用。",
+  "summary": "Föllmer 过程是在时刻 1 具有指定分布的条件布朗运动。摘要称它可解释为 DDPM 反向 SDE 的“增广”时间压缩版本，作者研究直接离散 Föllmer 过程与 DDPM 采样器之间的联系。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2401.05935",
+  "subtopic": "高斯分析与 Malliavin 微积分",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "正则结构中 Malliavin 微积分的讲义，连接两大随机分析工具。",
+  "summary": "摘要称 Malliavin 微积分对去掉小尺度截断后稳定的中心化模型给出刻画，结合谱隙不等式可得模型的随机估计；讲义在以多重指标而非树为索引的模型框架下展开，给出更几何的视角。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2511.07120",
+  "subtopic": "SPDE",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "奇异 SPDE 的流方程方法讲义。",
+  "summary": "摘要称流方程方法受 Wilson 重整化群启发，研究粗粒化过程以刻画解在不同空间尺度上的行为，适用于整个次临界区域内包括分数 Laplace 在内的一大类奇异 SPDE。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2508.08150",
+  "subtopic": "渗流",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "分形（Mandelbrot）渗流的近期进展综述。",
+  "summary": "作者综述分形渗流（Mandelbrot 渗流）过程的近期研究，也包括连通性等经典结果。摘要称重点是极限集的维数理论以及超临界区域非平凡连通分支的几何。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2510.03951",
+  "subtopic": "渗流",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "ICM 报告：长程渗流临界现象的维数依赖性。",
+  "summary": "摘要称统计力学系统在相变点附近的行为与小尺度细节无关但强烈依赖维数，并有上临界维数；作者讨论长程相互作用模型（长程渗流）临界现象如何依赖维数。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ }
+]

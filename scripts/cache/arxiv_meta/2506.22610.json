@@ -1,0 +1,18 @@
+{
+ "id": "2506.22610",
+ "title": "When do composite estimands answer non-causal questions?",
+ "authors": [
+  "Brennan C Kahan",
+  "Tra My Pham",
+  "Conor Tweed",
+  "Tim P Morris"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 1,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Under a composite estimand strategy, the occurrence of the intercurrent event is incorporated into the endpoint definition, for instance by assigning a poor outcome value to patients who experience the event. Composite strategies are sometimes used for intercurrent events that result in changes to assigned treatment, such as treatment discontinuation or use of rescue medication. Here, we show that a composite strategy for these types of intercurrent events can lead to the outcome being defined differently between treatment arms, resulting in estimands that are not based on causal comparisons. This occurs when the intercurrent event can be categorised, such as based on its timing, and at least one category applies to one treatment arm only. For example, in a trial comparing a 6 vs. 12-month treatment regimen on an \"unfavourable\" outcome, treatment discontinuation can be categorised as occurring between 0-6 or 6-12 months. A composite strategy then results in treatment discontinuations between 6-12 months being part of the outcome definition in the 12-month arm, but not the 6-month arm. Using a simulation study, we show that this can dramatically affect conclusions; for instance, in a scenario where the intervention had no direct effect on either a clinical outcome or occurrence of the intercurrent event, a composite strategy led to an average risk difference of -10% and rejected the null hypothesis almost 90% of the time. We conclude that a composite strategy should not be used if it results in different outcome definitions being used across treatment arms.",
+ "primary": "stat.ME"
+}

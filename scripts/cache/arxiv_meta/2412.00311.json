@@ -1,0 +1,19 @@
+{
+ "id": "2412.00311",
+ "title": "Characterizing the Effects of Environmental Exposures on Social Mobility: Bayesian Semi-parametrics for Principal Stratification",
+ "authors": [
+  "Dafne Zorzetto",
+  "Paolo Dalla Torre",
+  "Sonia Petrone",
+  "Francesca Dominici",
+  "Falco J. Bargagli-Stoffi"
+ ],
+ "v1_date": "2024-11-30",
+ "latest_version": 3,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding the causal effects of air pollution exposures on social mobility is attracting increasing attention. At the same time, education is widely recognized as a key driver of social mobility. However, the causal pathways linking fine particulate matter (PM2.5) exposure, educational attainment, and social mobility remain largely unexplored. To address this, we adopt the principal stratification approach, which rigorously defines causal effects when a post-treatment variable--educational attainment--is affected by exposure--PM2.5--and may, in turn, affect the primary outcome--social mobility. To estimate the causal effects, we propose a Bayesian semi-parametric method leveraging infinite mixtures for modeling the primary outcome. The proposed method (i) allows flexible modeling of the distribution of the primary potential outcomes, (ii) improves the accuracy of counterfactual imputation--a fundamental problem in causal inference framework--, and (iii) enables the characterization of treatment effects across different values of the post-treatment variable. We evaluate the performance of the proposed methodology through a Monte Carlo simulation study, demonstrating its advantages over existing approaches. Finally, we apply our method to a national dataset of 3,009 counties in the United States to estimate the causal effect of PM2.5 on social mobility, taking into account educational attainment as a post-treatment variable. Our findings indicate that in counties where higher PM2.5 exposure significantly reduces educational attainment social mobility decreases by approximately 5% compared to counties with lower PM2.5 exposure. We also find that in counties where exposure to PM2.5 does not affect educational attainment, social mobility is reduced by approximately 2% hinting at the possibility of further, yet unexplored, pathways connecting air pollution and social mobility.",
+ "primary": "stat.ME"
+}

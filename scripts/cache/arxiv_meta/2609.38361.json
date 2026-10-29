@@ -1,0 +1,16 @@
+{
+ "id": "2609.38361",
+ "title": "Inference for Standard Trial Estimands after Data-Driven Subgroup Discovery",
+ "authors": [
+  "Larry F. Leon",
+  "Keaven M. Anderson"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages (main) + 56 (supplemental)",
+ "abstract": "Data-driven subgroup identification is increasingly used in clinical trials, yet the effect reported for a discovered subgroup is typically the standard analysis: a Cox or generalized-linear-model treatment coefficient fitted within that subgroup. Selection by an effect-driven rule --- rewarding large estimated effects subject to screening and size criteria --- inflates the reported coefficient: a winner's curse invalidating naive intervals whether or not the identifier's internal estimand was de-biased by cross-fitting. We develop a procedure-agnostic framework for post-selection inference that separates discovery from reporting: forest search, difference-in-natural-parameters estimators, and causal forests generate interpretable candidate subgroups; selection is aligned with the coefficient to be reported; and the target is the standard-analysis effect of the selected subgroup, the candidate family held fixed --- a conditional, data-adaptive estimand. Resampling the search then reduces to jointly perturbing all candidate effects, yielding refit-free multiplier resampling with an infinitesimal-jackknife interval whose coverage we characterize under standard regularity and an explicit condition on the limiting competition. It matches the full bootstrap on a fixed family; on model-generated families it remains valid for the same conditional target, which the bootstrap reproduces only under further conditions. Two trial applications and matched simulations show mitigated selection bias and improved coverage.",
+ "primary": "stat.ME"
+}

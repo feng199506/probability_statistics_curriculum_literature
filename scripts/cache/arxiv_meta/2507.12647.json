@@ -1,0 +1,18 @@
+{
+ "id": "2507.12647",
+ "title": "An Efficient Approach to Design Bayesian Platform Trials",
+ "authors": [
+  "Luke Hagar",
+  "Lara Maleyeff",
+  "Shirin Golchi",
+  "Dick Menzies"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 1,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 3 figures",
+ "abstract": "Platform trials evaluate multiple experimental treatments against a common control group (and/or against each other), which often reduces the trial duration and sample size. Bayesian platform designs offer several practical advantages, including the flexible addition or removal of experimental arms using posterior probabilities and the incorporation of prior/external information. Regulatory agencies require that the operating characteristics of Bayesian designs are assessed by estimating the sampling distribution of posterior probabilities via Monte Carlo simulation. It is computationally intensive to repeat this simulation process for all design configurations considered, particularly for platform trials with complex interim decision procedures. In this paper, we propose an efficient method to assess operating characteristics and determine sample sizes as well as other design parameters for Bayesian platform trials. We prove theoretical results that allow us to model the joint sampling distribution of posterior probabilities across multiple endpoints and trial stages using simulations conducted at only two sample sizes. This work is motivated by design complexities in the SSTARLET trial, an ongoing Bayesian adaptive platform trial for tuberculosis preventive therapies (ClinicalTrials.gov ID: NCT06498414). Our proposed design method is not only computationally efficient but also capable of accommodating intricate, real-world trial constraints like those encountered in SSTARLET.",
+ "primary": "stat.ME"
+}

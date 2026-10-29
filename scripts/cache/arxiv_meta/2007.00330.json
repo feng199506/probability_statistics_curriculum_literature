@@ -1,0 +1,17 @@
+{
+ "id": "2007.00330",
+ "title": "Formalizing Traffic Rules for Machine Interpretability",
+ "authors": [
+  "Klemens Esterle",
+  "Luis Gressenbuch",
+  "Alois Knoll"
+ ],
+ "v1_date": "2020-07-01",
+ "latest_version": 2,
+ "latest_date": "2020-09-29",
+ "journal_ref": "",
+ "doi": "10.1109/cavs51000.2020.9334599",
+ "comment": "Published at IEEE Connected and Automated Vehicles Symposium (CAVS), 2020",
+ "abstract": "Autonomous vehicles need to be designed to abide by the same rules that humans follow. This is challenging, because traffic rules are fuzzy and not well defined, making them incomprehensible to machines. Satisfaction cannot be incorporated in a planning component without proper formalization, nor can it be monitored and verified during simulation or testing. However, no research work has provided a consistent set of machine-interpretable traffic rules for a given operational driving domain. In this paper, we propose a methodology for the legal study and formalization of traffic rules in a formal language. We use Linear Temporal Logic as a formal specification language to describe temporal behaviors, capable of capturing a wide range of traffic rules. We contribute a formalized set of traffic rules for dual carriageways and evaluate the effectiveness of our formalized rules on a public dataset.",
+ "primary": "cs.RO"
+}

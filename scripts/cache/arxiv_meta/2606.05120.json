@@ -1,0 +1,17 @@
+{
+ "id": "2606.05120",
+ "title": "Stochastic Sensitivity Analysis for Matched Observational Studies",
+ "authors": [
+  "Mengqi Lin",
+  "Colin B. Fogarty",
+  "Gongjun Xu"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 2,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sensitivity analysis asks how strong unmeasured confounding needs to be to explain away an observational study's conclusion. The conventional approach in matched studies conducts inference conditional upon the potential outcomes as well as both observed and unobserved confounders, and then finds the worst-case distribution for the conditional treatment assignments across all possible realizations of the unobserved confounder. The resulting worst-case allocation imagines strong, near perfect, correlations between the potential outcomes and hidden bias. We propose a stochastic sensitivity analysis that instead targets inference conditional upon potential outcomes and observed confounders while treating the hidden confounders as random with unknown conditional laws. Rather than finding the worst-case realizations for the hidden confounders, we instead determine the worst-case conditional law over a broad class of distributions. This preserves the adversarial spirit of sensitivity analysis while allowing for imperfect alignment between hidden bias and potential outcomes to a degree controlled by a scalar sensitivity parameter. We consider restrictions to both an interpretable class with no parametric assumptions and a Bernoulli class of conditional laws. Design sensitivity calculations and real-data demonstrations illustrate that allowing for even a small degree of stochasticity can materially increase reported robustness to hidden bias relative to the conventional approach.",
+ "primary": "stat.ME"
+}

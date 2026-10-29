@@ -1,0 +1,17 @@
+{
+ "id": "2601.16196",
+ "title": "Inference on the Significance of Modalities in Multimodal Generalized Linear Models",
+ "authors": [
+  "Wanting Jin",
+  "Guorong Wu",
+  "Quefeng Li"
+ ],
+ "v1_date": "2026-01-22",
+ "latest_version": 2,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This research was supported by the National Institutes of Health under grant R01-AG073259",
+ "abstract": "Despite the popular of multimodal statistical models, there lacks rigorous statistical inference tools for inferring the significance of a single modality within a multimodal model, especially in high-dimensional models. For high-dimensional multimodal generalized linear models, we propose a novel entropy-based metric, called the expected relative entropy, to quantify the information gain of one modality in addition to all other modalities in the model. We propose a deviance-based statistic to estimate the expected relative entropy, prove that it is consistent and its asymptotic distribution can be approximated by a non-central chi-squared distribution. That enables the calculation of confidence intervals and p-values to assess the significance of the expected relative entropy for a given modality. We numerically evaluate the empirical performance of our proposed inference tool by simulations and apply it to a multimodal neuroimaging dataset to demonstrate its good performance on various high-dimensional multimodal generalized linear models.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.06937",
+ "title": "A deep primal-dual BSDE method for optimal stopping problems",
+ "authors": [
+  "Jiefei Yang",
+  "Guanglian Li"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a new deep primal-dual backward stochastic differential equation framework based on stopping time iteration to solve optimal stopping problems. A novel loss function is proposed to learn the conditional expectation, which consists of subnetwork parameterization of a continuation value and spatial gradients from present up to the stopping time. Notable features of the method include: (i) The martingale part in the loss function reduces the variance of stochastic gradients, which facilitates the training of the neural networks as well as alleviates the error propagation of value function approximation; (ii) this martingale approximates the martingale in the Doob-Meyer decomposition, and thus leads to a true upper bound for the optimal value in a non-nested Monte Carlo way. We test the proposed method in American option pricing problems, where the spatial gradient network yields the hedging ratio directly.",
+ "primary": "q-fin.CP"
+}

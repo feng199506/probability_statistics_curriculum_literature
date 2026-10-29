@@ -1,0 +1,17 @@
+{
+ "id": "2502.11778",
+ "title": "Private Synthetic Graph Generation and Fused Gromov-Wasserstein Distance",
+ "authors": [
+  "Leoni Carla Wirth",
+  "Gholamali Aminian",
+  "Gesine Reinert"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Networks are popular for representing complex data. In particular, differentially private synthetic networks are much in demand for method and algorithm development. The network generator should be easy to implement and should come with theoretical guarantees. Here we start with complex data as input and jointly provide a network representation as well as a synthetic network generator. Using a random connection model, we devise an effective algorithmic approach for generating attributed synthetic graphs which is $ε$-differentially private at the vertex level, while preserving utility under an appropriate notion of distance which we develop. We provide theoretical guarantees for the accuracy of the private synthetic graphs using the fused Gromov-Wasserstein distance, which extends the Wasserstein metric to structured data. Our method draws inspiration from the PSMM method of \\citet{he2023}.",
+ "primary": "stat.ML"
+}

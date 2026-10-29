@@ -1,0 +1,17 @@
+{
+ "id": "2510.19734",
+ "title": "Statistical Inference for Linear Functionals of Online Least-squares SGD when $t \\gtrsim d^{1+δ}$",
+ "authors": [
+  "Bhavya Agrawalla",
+  "Krishnakumar Balasubramanian",
+  "Promit Ghosal"
+ ],
+ "v1_date": "2025-10-22",
+ "latest_version": 1,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Improved version of arXiv:2302.09727 with new results",
+ "abstract": "Stochastic Gradient Descent (SGD) has become a cornerstone method in modern data science. However, deploying SGD in high-stakes applications necessitates rigorous quantification of its inherent uncertainty. In this work, we establish \\emph{non-asymptotic Berry--Esseen bounds} for linear functionals of online least-squares SGD, thereby providing a Gaussian Central Limit Theorem (CLT) in a \\emph{growing-dimensional regime}. Existing approaches to high-dimensional inference for projection parameters, such as~\\cite{chang2023inference}, rely on inverting empirical covariance matrices and require at least $t \\gtrsim d^{3/2}$ iterations to achieve finite-sample Berry--Esseen guarantees, rendering them computationally expensive and restrictive in the allowable dimensional scaling. In contrast, we show that a CLT holds for SGD iterates when the number of iterations grows as $t \\gtrsim d^{1+δ}$ for any $δ> 0$, significantly extending the dimensional regime permitted by prior works while improving computational efficiency. The proposed online SGD-based procedure operates in $\\mathcal{O}(td)$ time and requires only $\\mathcal{O}(d)$ memory, in contrast to the $\\mathcal{O}(td^2 + d^3)$ runtime of covariance-inversion methods. To render the theory practically applicable, we further develop an \\emph{online variance estimator} for the asymptotic variance appearing in the CLT and establish \\emph{high-probability deviation bounds} for this estimator. Collectively, these results yield the first fully online and data-driven framework for constructing confidence intervals for SGD iterates in the near-optimal scaling regime $t \\gtrsim d^{1+δ}$.",
+ "primary": "cs.LG"
+}

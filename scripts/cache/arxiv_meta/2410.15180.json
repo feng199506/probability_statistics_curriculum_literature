@@ -1,0 +1,17 @@
+{
+ "id": "2410.15180",
+ "title": "HACSurv: A Hierarchical Copula-Based Approach for Survival Analysis with Dependent Competing Risks",
+ "authors": [
+  "Xin Liu",
+  "Weijia Zhang",
+  "Min-Ling Zhang"
+ ],
+ "v1_date": "2024-10-19",
+ "latest_version": 2,
+ "latest_date": "2025-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at AISTATS 2025",
+ "abstract": "In survival analysis, subjects often face competing risks; for example, individuals with cancer may also suffer from heart disease or other illnesses, which can jointly influence the prognosis of risks and censoring. Traditional survival analysis methods often treat competing risks as independent and fail to accommodate the dependencies between different conditions. In this paper, we introduce HACSurv, a survival analysis method that learns Hierarchical Archimedean Copulas structures and cause-specific survival functions from data with competing risks. HACSurv employs a flexible dependency structure using hierarchical Archimedean copulas to represent the relationships between competing risks and censoring. By capturing the dependencies between risks and censoring, HACSurv improves the accuracy of survival predictions and offers insights into risk interactions. Experiments on synthetic dataset demonstrate that our method can accurately identify the complex dependency structure and precisely predict survival distributions, whereas the compared methods exhibit significant deviations between their predictions and the true distributions. Experiments on multiple real-world datasets also demonstrate that our method achieves better survival prediction compared to previous state-of-the-art methods.",
+ "primary": "stat.ML"
+}

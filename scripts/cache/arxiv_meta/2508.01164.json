@@ -1,0 +1,15 @@
+{
+ "id": "2508.01164",
+ "title": "M-estimation for Gaussian processes with time-inhomogeneous drifts from high-frequency data",
+ "authors": [
+  "Yasutaka Shimizu"
+ ],
+ "v1_date": "2025-08-02",
+ "latest_version": 4,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a contrast-based estimation method for Gaussian processes with time-inhomogeneous drifts, observed under high-frequency sampling. The process is modeled as the sum of a deterministic drift function and a stationary Gaussian component with a parametric kernel. Our method constructs a local contrast function from adjacent increments, which avoids inversion of large covariance matrices and allows for efficient computation. We prove consistency and asymptotic normality of the resulting estimators under general ergodicity conditions. A distinctive feature of our approach is that the drift estimator attains a nonstandard convergence rate, stemming from the direct Riemann integrability of the drift density. This highlights a fundamental difference from standard estimation regimes. Furthermore, when the local contrast fails to identify all parameters in the covariance kernel, moment-based corrections can be incorporated to recover identifiability. The proposed framework is simple, flexible, and particularly well suited for high-frequency inference with time-inhomogeneous structure.",
+ "primary": "math.ST"
+}

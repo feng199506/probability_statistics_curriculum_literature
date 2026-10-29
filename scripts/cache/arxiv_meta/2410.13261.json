@@ -1,0 +1,16 @@
+{
+ "id": "2410.13261",
+ "title": "Novel Bayesian algorithms for ARFIMA long-memory processes: a comparison between MCMC and ABC approaches",
+ "authors": [
+  "James Cohen Gabor",
+  "Clara Grazian"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 1,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a comparative study of two Bayesian approaches - Markov Chain Monte Carlo (MCMC) and Approximate Bayesian Computation (ABC) - for estimating the parameters of autoregressive fractionally-integrated moving average (ARFIMA) models, which are widely used to capture long-memory in time series data. We propose a novel MCMC algorithm that filters the time series into distinct long-memory and ARMA components, and benchmarked it against standard approaches. Additionally, a new ABC method is proposed, using three different summary statistics used for posterior estimation. The methods are implemented and evaluated through an extensive simulation study, as well as applied to a real-world financial dataset, specifically the quarterly U.S. Gross National Product (GNP) series. The results demonstrate the effectiveness of the Bayesian methods in estimating long-memory and short-memory parameters, with the filtered MCMC showing superior performance in various metrics. This study enhances our understanding of Bayesian techniques in ARFIMA modeling, providing insights into their advantages and limitations when applied to complex time series data.",
+ "primary": "stat.ME"
+}

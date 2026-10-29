@@ -1,0 +1,17 @@
+{
+ "id": "2403.19720",
+ "title": "Meta-Learning with Generalized Ridge Regression: High-dimensional Asymptotics, Optimality and Hyper-covariance Estimation",
+ "authors": [
+  "Yanhao Jin",
+  "Krishnakumar Balasubramanian",
+  "Debashis Paul"
+ ],
+ "v1_date": "2024-03-27",
+ "latest_version": 1,
+ "latest_date": "2024-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Meta-learning involves training models on a variety of training tasks in a way that enables them to generalize well on new, unseen test tasks. In this work, we consider meta-learning within the framework of high-dimensional multivariate random-effects linear models and study generalized ridge-regression based predictions. The statistical intuition of using generalized ridge regression in this setting is that the covariance structure of the random regression coefficients could be leveraged to make better predictions on new tasks. Accordingly, we first characterize the precise asymptotic behavior of the predictive risk for a new test task when the data dimension grows proportionally to the number of samples per task. We next show that this predictive risk is optimal when the weight matrix in generalized ridge regression is chosen to be the inverse of the covariance matrix of random coefficients. Finally, we propose and analyze an estimator of the inverse covariance matrix of random regression coefficients based on data from the training tasks. As opposed to intractable MLE-type estimators, the proposed estimators could be computed efficiently as they could be obtained by solving (global) geodesically-convex optimization problems. Our analysis and methodology use tools from random matrix theory and Riemannian optimization. Simulation results demonstrate the improved generalization performance of the proposed method on new unseen test tasks within the considered framework.",
+ "primary": "math.ST"
+}

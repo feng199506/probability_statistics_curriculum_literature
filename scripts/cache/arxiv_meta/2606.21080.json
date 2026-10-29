@@ -1,0 +1,17 @@
+{
+ "id": "2606.21080",
+ "title": "Regional summaries of Bayesian model uncertainty",
+ "authors": [
+  "Hanqing Li",
+  "Robert Nguyen",
+  "Xuewen Lu"
+ ],
+ "v1_date": "2026-06-19",
+ "latest_version": 2,
+ "latest_date": "2026-10-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 5 figures. Substantially revised manuscript with a new title, an adaptive regional selection framework, and expanded theoretical and empirical results. Code, data, and saved results: https://github.com/lihanqing1997/regional-summaries-of-bayesian-model-uncertainty",
+ "abstract": "Bayesian posterior uncertainty can be spread across many models that share the same substantive pattern. Lists of individual models can obscure this structure, while marginal summaries do not describe which configurations are jointly supported. We study how to represent joint model uncertainty through a compact collection of interpretable regions, each grouping models that share a specified pattern. We formulate this task as minimizing representation complexity subject to retaining a prescribed posterior mass within an analyst-supplied family. To address unknown regional probabilities, we develop Adaptive Regional Selection (ARS), which combines adaptive exploration and regional weight estimation with conservative and optimistic selection. These complementary problems identify a summary meeting the mass target and bound how much further its complexity could improve. Under valid regional bounds, we establish guarantees for retained mass, total-variation error, and suboptimality, together with conditions for certifying optimality. We also show that, under bounded within-region weight variation, sufficient sample counts for regional estimation need not grow with the number of represented models, and construct bounds that remain valid under adaptive sampling and stopping. Empirical studies illustrate regional summaries in Bayesian model averaging and Bayesian networks, examining retained mass, representation complexity, and certification.",
+ "primary": "stat.ML"
+}

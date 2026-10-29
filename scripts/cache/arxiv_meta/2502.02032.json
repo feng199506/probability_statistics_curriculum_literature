@@ -1,0 +1,15 @@
+{
+ "id": "2502.02032",
+ "title": "Heteroscedastic Double Bayesian Elastic Net",
+ "authors": [
+  "Masanari Kimura"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 1,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In many practical applications, regression models are employed to uncover relationships between predictors and a response variable, yet the common assumption of constant error variance is frequently violated. This issue is further compounded in high-dimensional settings where the number of predictors exceeds the sample size, necessitating regularization for effective estimation and variable selection. To address this problem, we propose the Heteroscedastic Double Bayesian Elastic Net (HDBEN), a novel framework that jointly models the mean and log-variance using hierarchical Bayesian priors incorporating both $\\ell_1$ and $\\ell_2$ penalties. Our approach simultaneously induces sparsity and grouping in the regression coefficients and variance parameters, capturing complex variance structures in the data. Theoretical results demonstrate that proposed HDBEN achieves posterior concentration, variable selection consistency, and asymptotic normality under mild conditions which justifying its behavior. Simulation studies further illustrate that HDBEN outperforms existing methods, particularly in scenarios characterized by heteroscedasticity and high dimensionality.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2602.18656",
+ "title": "Minimally Discrete and Minimally Randomized p-Values",
+ "authors": [
+  "Joshua Habiger",
+  "Pratyaydipta Rudra"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 1,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In meta analysis, multiple hypothesis testing and many other methods, p-values are utilized as inputs and assumed to be uniformly distributed over the unit interval under the null hypotheses. If data used to generate p-values have discrete distributions then either natural, mid- or randomized p-values are typically utilized. Natural and mid-p-values can allow for valid, albeit conservative, downstream methods since under the null hypothesis they are dominated by uniform distributions in the stochastic and convex order, respectively. Randomized p-values need not lead to conservative procedures since they permit a uniform distributions under the null hypotheses through the generation of independent auxiliary variates. However, the auxiliary variates necessarily add variation to procedures. This manuscript introduces and studies ``minimally discrete'' (MD) natural p-values, MD mid-p-values and ``minimally randomized'' (MR) p-values. It is shown that MD p-values dominate their non-MD counterparts in the stochastic and convex order, and hence lead to less conservative, yet still valid, downstream methods. Likewise, MR p-values dominate their non-MR counterparts in that they are still uniformly distributed under the null hypotheses, but the added variation attributable to the independently generated auxiliary variate is smaller. It is anticipated that results here will facilitate the construction of new meta-analysis and multiple testing methods via more efficient p-value construction, and facilitate theoretical study of existing and new methods by establishing gold standards for addressing the unavoidable detrimental ``discreteness effect''.",
+ "primary": "stat.ME"
+}

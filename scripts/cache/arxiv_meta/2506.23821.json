@@ -1,0 +1,17 @@
+{
+ "id": "2506.23821",
+ "title": "Testing parametric additive time-varying GARCH models",
+ "authors": [
+  "Niklas Ahlgren",
+  "Alexander Back",
+  "Timo Teräsvirta"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 1,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Frontmatter, 21 pages, 6 figures",
+ "abstract": "We develop misspecification tests for building additive time-varying (ATV-)GARCH models. In the model, the volatility equation of the GARCH model is augmented by a deterministic time-varying intercept modeled as a linear combination of logistic transition functions. The intercept is specified by a sequence of tests, moving from specific to general. The first test is the test of the standard stationary GARCH model against an ATV-GARCH model with one transition. The alternative model is unidentified under the null hypothesis, which makes the usual LM test invalid. To overcome this problem, we use the standard method of approximating the transition function by a Taylor expansion around the null hypothesis. Testing proceeds until the first non-rejection. We investigate the small-sample properties of the tests in a comprehensive simulation study. An application to the VIX index indicates that the volatility of the index is not constant over time but begins a slow increase around the 2007-2008 financial crisis.",
+ "primary": "econ.EM"
+}

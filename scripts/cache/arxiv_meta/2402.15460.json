@@ -1,0 +1,18 @@
+{
+ "id": "2402.15460",
+ "title": "Potential outcome simulation for efficient head-to-head comparison of adaptive dose-finding designs",
+ "authors": [
+  "Michael Sweeting",
+  "Daniel Slade",
+  "Dan Jackson",
+  "Kristian Brock"
+ ],
+ "v1_date": "2024-02-23",
+ "latest_version": 1,
+ "latest_date": "2024-02-23",
+ "journal_ref": "",
+ "doi": "10.1093/biomtc/ujaf012",
+ "comment": "27 pages, 4 figures, 1 table",
+ "abstract": "Dose-finding trials are a key component of the drug development process and rely on a statistical design to help inform dosing decisions. Triallists wishing to choose a design require knowledge of operating characteristics of competing methods. This is often assessed using a large-scale simulation study with multiple designs and configurations investigated, which can be time-consuming and therefore limits the scope of the simulation. We introduce a new approach to the design of simulation studies of dose-finding trials. The approach simulates all potential outcomes that individuals could experience at each dose level in the trial. Datasets are simulated in advance and then the same datasets are applied to each of the competing methods to enable a more efficient head-to-head comparison. In two case-studies we show sizeable reductions in Monte Carlo error for comparing a performance metric between two competing designs. Efficiency gains depend on the similarity of the designs. Comparing two Phase I/II design variants, with high correlation of recommending the same optimal biologic dose, we show that the new approach requires a simulation study that is approximately 30 times smaller than the conventional approach. Furthermore, advance-simulated trial datasets can be reused to assess the performance of designs across multiple configurations. We recommend researchers consider this more efficient simulation approach in their dose-finding studies and we have updated the R package escalation to help facilitate implementation.",
+ "primary": "stat.CO"
+}

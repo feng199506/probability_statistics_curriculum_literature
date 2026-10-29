@@ -1,0 +1,17 @@
+{
+ "id": "2407.04142",
+ "title": "Bayesian Structured Mediation Analysis With Unobserved Confounders",
+ "authors": [
+  "Yuliang Xu",
+  "Shu Yang",
+  "Jian Kang"
+ ],
+ "v1_date": "2024-07-04",
+ "latest_version": 2,
+ "latest_date": "2026-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We explore methods to reduce the impact of unobserved confounders on the causal mediation analysis of high-dimensional mediators with spatially smooth structures, such as brain imaging data. The key approach is to incorporate the latent individual effects, which influence the structured mediators, as unobserved confounders in the outcome model, thereby potentially debiasing the mediation effects. We develop BAyesian Structured Mediation analysis with Unobserved confounders (BASMU) framework, and establish its model identifiability conditions. Theoretical analysis is conducted on the asymptotic bias of the Natural Indirect Effect (NIE) and the Natural Direct Effect (NDE) when the unobserved confounders are omitted in mediation analysis. For BASMU, we propose a two-stage estimation algorithm to mitigate the impact of these unobserved confounders on estimating the mediation effect. Extensive simulations demonstrate that BASMU substantially reduces the bias in various scenarios. We apply BASMU to the analysis of fMRI data in the Adolescent Brain Cognitive Development (ABCD) study, focusing on four brain regions previously reported to exhibit meaningful mediation effects. Compared with the existing image mediation analysis method, BASMU identifies two to four times more voxels that have significant mediation effects, with the NIE increased by 41%, and the NDE decreased by 26%.",
+ "primary": "stat.ME"
+}

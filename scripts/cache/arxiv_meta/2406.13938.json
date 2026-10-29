@@ -1,0 +1,16 @@
+{
+ "id": "2406.13938",
+ "title": "Coverage of Credible Sets for Regression under Variable Selection",
+ "authors": [
+  "Samhita Pal",
+  "Subhashis Ghosal"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 1,
+ "latest_date": "2024-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the asymptotic frequentist coverage of credible sets based on a novel Bayesian approach for a multiple linear regression model under variable selection. We initially ignore the issue of variable selection, which allows us to put a conjugate normal prior on the coefficient vector. The variable selection step is incorporated directly in the posterior through a sparsity-inducing map and uses the induced prior for making an inference instead of the natural conjugate posterior. The sparsity-inducing map minimizes the sum of the squared l2-distance weighted by the data matrix and a suitably scaled l1-penalty term. We obtain the limiting coverage of various credible regions and demonstrate that a modified credible interval for a component has the exact asymptotic frequentist coverage if the corresponding predictor is asymptotically uncorrelated with other predictors. Through extensive simulation, we provide a guideline for choosing the penalty parameter as a function of the credibility level appropriate for the corresponding coverage. We also show finite-sample numerical results that support the conclusions from the asymptotic theory. We also provide the credInt package that implements the method in R to obtain the credible intervals along with the posterior samples.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2604.10710",
+ "title": "Causal mediation in cluster-randomized trials with multiple mediators: spillover-aware decomposition, identification, and semiparametric efficient inference",
+ "authors": [
+  "Jiaqi Tong",
+  "Chao Cheng",
+  "Fan Li"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 1,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal mediation analysis in cluster-randomized trials (CRTs) is complicated by the presence of multiple mediators, intracluster correlation, and within-cluster interference. Existing mediation methods often fall short in accommodating these features simultaneously, and semiparametric efficient estimators that fully address them remain unavailable. We develop a unified framework that defines a class of mediation effect estimands, including exit indirect effects, exit spillover mediation effects, and their interaction effects, to investigate causal mechanisms in CRTs with an arbitrary number of mediators under an unknown causal structure. We introduce a set of interpretable causal assumptions for point identification of each estimand. For optimal inference, we first derive the efficient influence functions for the proposed estimands and construct corresponding one-step and debiased machine learning estimators. In particular, to flexibly model the joint mediator density, we employ an elliptical copula marginal regression model that combines a nonparametric marginal regression with an interpretable association structure. We assess the finite-sample performance of the proposed estimators through simulation studies and illustrate the methodology by reanalyzing the PPACT CRT data with three causally unordered mediators.",
+ "primary": "stat.ME"
+}

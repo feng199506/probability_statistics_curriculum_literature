@@ -1,0 +1,18 @@
+{
+ "id": "2601.16668",
+ "title": "Inference from high-frequency data: A subsampling approach",
+ "authors": [
+  "Kim Christensen",
+  "Mark Podolskij",
+  "Nopporn Thamrongrat",
+  "Bezirgen Veliyev"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "10.1016/j.jeconom.2016.07.010",
+ "comment": "",
+ "abstract": "In this paper, we show how to estimate the asymptotic (conditional) covariance matrix, which appears in central limit theorems in high-frequency estimation of asset return volatility. We provide a recipe for the estimation of this matrix by subsampling; an approach that computes rescaled copies of the original statistic based on local stretches of high-frequency data, and then it studies the sampling variation of these. We show that our estimator is consistent both in frictionless markets and models with additive microstructure noise. We derive a rate of convergence for it and are also able to determine an optimal rate for its tuning parameters (e.g., the number of subsamples). Subsampling does not require an extra set of estimators to do inference, which renders it trivial to implement. As a variance-covariance matrix estimator, it has the attractive feature that it is positive semi-definite by construction. Moreover, the subsampler is to some extent automatic, as it does not exploit explicit knowledge about the structure of the asymptotic covariance. It therefore tends to adapt to the problem at hand and be robust against misspecification of the noise process. As such, this paper facilitates assessment of the sampling errors inherent in high-frequency estimation of volatility. We highlight the finite sample properties of the subsampler in a Monte Carlo study, while some initial empirical work demonstrates its use to draw feasible inference about volatility in financial markets.",
+ "primary": "econ.EM"
+}

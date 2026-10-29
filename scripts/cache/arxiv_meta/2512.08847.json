@@ -1,0 +1,16 @@
+{
+ "id": "2512.08847",
+ "title": "Partially Bayes p-values for large scale inference",
+ "authors": [
+  "Nikolaos Ignatiadis",
+  "Li Ma"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We seek to conduct statistical inference for a large collection of primary parameters, each with its own nuisance parameters. Our approach is partially Bayesian, in that we treat the primary parameters as fixed while we model the nuisance parameters as random and drawn from an unknown distribution which we endow with a nonparametric prior. We compute partially Bayes p-values by conditioning on nuisance parameter statistics, that is, statistics that are ancillary for the primary parameters and informative about the nuisance parameters. The proposed p-values have a Bayesian interpretation as tail areas computed with respect to the posterior distribution of the nuisance parameters. Similarly to the conditional predictive p-values of Bayarri and Berger, the partially Bayes p-values avoid double use of the data (unlike posterior predictive p-values). A key ingredient of our approach is that we model nuisance parameters hierarchically across problems; the sharing of information across problems leads to improved calibration. We illustrate the proposed partially Bayes p-values in two applications: the normal means problem with unknown variances and a location-scale model with unknown distribution shape. We model the scales via Dirichlet processes in both examples and the distribution shape via Pólya trees in the second. Our proposed partially Bayes p-values increase power and calibration compared to purely frequentist alternatives.",
+ "primary": "stat.ME"
+}

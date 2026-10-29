@@ -1,0 +1,18 @@
+{
+ "id": "2508.02337",
+ "title": "Posterior Sampling of Probabilistic Word Embeddings",
+ "authors": [
+  "Väinö Yrjänäinen",
+  "Isac Boström",
+  "Måns Magnusson",
+  "Johan Jonasson"
+ ],
+ "v1_date": "2025-08-04",
+ "latest_version": 1,
+ "latest_date": "2025-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantifying uncertainty in word embeddings is crucial for reliable inference from textual data. However, existing Bayesian methods such as Hamiltonian Monte Carlo (HMC) and mean-field variational inference (MFVI) are either computationally infeasible for large data or rely on restrictive assumptions. We propose a scalable Gibbs sampler using Polya-Gamma augmentation as well as Laplace approximation and compare them with MFVI and HMC for word embeddings. In addition, we address non-identifiability in word embeddings. Our Gibbs sampler and HMC correctly estimate uncertainties, while MFVI does not, and Laplace approximation only does so on large sample sizes, as expected. Applying the Gibbs sampler to the US Congress and the Movielens datasets, we demonstrate the feasibility on larger real data. Finally, as a result of having draws from the full posterior, we show that the posterior mean of word embeddings improves over maximum a posteriori (MAP) estimates in terms of hold-out likelihood, especially for smaller sampling sizes, further strengthening the need for posterior sampling of word embeddings.",
+ "primary": "cs.LG"
+}

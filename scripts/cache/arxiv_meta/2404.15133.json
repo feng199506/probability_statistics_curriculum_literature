@@ -1,0 +1,16 @@
+{
+ "id": "2404.15133",
+ "title": "Bayesian Strategies for Repulsive Spatial Point Processes",
+ "authors": [
+  "Chaoyi Lu",
+  "Nial Friel"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 3,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 5 figures, 5 tables",
+ "abstract": "There is increasing interest to develop Bayesian inferential algorithms for point process models with intractable likelihoods. A purpose of this paper is to illustrate the utility of using simulation based strategies, including Approximate Bayesian Computation (ABC) and Markov Chain Monte Carlo (MCMC) methods for this task. Shirota and Gelfand (2017) proposed an extended version of an ABC approach for Repulsive Spatial Point Processes (RSPP), but their algorithm was not correctly detailed. In this paper, we correct their method and, based on this, we propose a new ABC-MCMC algorithm to which Markov property is introduced compared to a typical ABC method. Though it is generally impractical to use, Monte Carlo approximations can be leveraged for intractable terms. Another aspect of this paper is to explore the use of the exchange algorithm and the noisy Metropolis-Hastings algorithm (Alquier et al., 2016) on RSPP. Comparisons to ABC-MCMC methods are also provided. We find that the inferential approaches outlined above yield good performance for RSPP in both simulated and real data applications and should be considered as viable approaches for the analysis of these models.",
+ "primary": "stat.CO"
+}

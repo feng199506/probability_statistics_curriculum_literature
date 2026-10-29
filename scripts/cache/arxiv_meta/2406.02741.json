@@ -1,0 +1,17 @@
+{
+ "id": "2406.02741",
+ "title": "Sampling From Multiscale Densities With Delayed Rejection Generalized Hamiltonian Monte Carlo",
+ "authors": [
+  "Gilad Turok",
+  "Chirag Modi",
+  "Bob Carpenter"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 5 figures",
+ "abstract": "Hamiltonian Monte Carlo (HMC) is the mainstay of applied Bayesian inference for differentiable models. However, HMC still struggles to sample from hierarchical models that induce densities with multiscale geometry: a large step size is needed to efficiently explore low curvature regions while a small step size is needed to accurately explore high curvature regions. We introduce the delayed rejection generalized HMC (DR-G-HMC) sampler that overcomes this challenge by employing dynamic step size selection, inspired by differential equation solvers. In generalized HMC, each iteration does a single leapfrog step. DR-G-HMC sequentially makes proposals with geometrically decreasing step sizes upon rejection of earlier proposals. This simulates Hamiltonian dynamics that can adjust its step size along a (stochastic) Hamiltonian trajectory to deal with regions of high curvature. DR-G-HMC makes generalized HMC competitive by decreasing the number of rejections which otherwise cause inefficient backtracking and prevents directed movement. We present experiments to demonstrate that DR-G-HMC (1) correctly samples from multiscale densities, (2) makes generalized HMC methods competitive with the state of the art No-U-Turn sampler, and (3) is robust to tuning parameters.",
+ "primary": "stat.CO"
+}

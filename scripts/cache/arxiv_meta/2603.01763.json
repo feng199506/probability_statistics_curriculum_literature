@@ -1,0 +1,16 @@
+{
+ "id": "2603.01763",
+ "title": "Importance sampling and active subspace in quasi-Monte Carlo",
+ "authors": [
+  "Jiaxin Yu",
+  "Xiaoqun Wang"
+ ],
+ "v1_date": "2026-03-02",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The quasi-Monte Carlo method is widely used in computational finance, whose efficiency strongly depends on the smoothness and effective dimension of the integrand. In this work, we investigate the combination of importance sampling and the active subspace method under the quasi-Monte Carlo framework and propose a three-step approach, referred to as the IS-AS-preintegration method, which sequentially applies importance sampling, active subspace, and preintegration. The proposed method is applied to the option pricing and sensitivity analysis problems in finance, and its performance is evaluated through extensive numerical experiments. The results demonstrate that the proposed method is highly competitive compared with existing popular methods. In particular, for out-of-the-money and deep out-of-the-money options, the proposed approach overcomes the limitations of the preintegration via active subspace method and achieves superior variance reduction, while maintaining comparable performance for other moneyness cases.",
+ "primary": "math.NA"
+}

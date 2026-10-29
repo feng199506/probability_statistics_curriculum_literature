@@ -1,0 +1,16 @@
+{
+ "id": "2410.09402",
+ "title": "Minimax rates of convergence for nonparametric regression under adversarial attacks",
+ "authors": [
+  "Jingfu Peng",
+  "Yuhong Yang"
+ ],
+ "v1_date": "2024-10-12",
+ "latest_version": 2,
+ "latest_date": "2025-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent research shows the susceptibility of machine learning models to adversarial attacks, wherein minor but maliciously chosen perturbations of the input can significantly degrade model performance. In this paper, we theoretically analyse the limits of robustness against such adversarial attacks in a nonparametric regression setting, by examining the minimax rates of convergence in an adversarial sup-norm. Our work reveals that the minimax rate under adversarial attacks in the input is the same as sum of two terms: one represents the minimax rate in the standard setting without adversarial attacks, and the other reflects the maximum deviation of the true regression function value within the target function class when subjected to the input perturbations. The optimal rates under the adversarial setup can be achieved by an adversarial plug-in procedure constructed from a minimax optimal estimator in the corresponding standard setting. Two specific examples are given to illustrate the established minimax results.",
+ "primary": "math.ST"
+}

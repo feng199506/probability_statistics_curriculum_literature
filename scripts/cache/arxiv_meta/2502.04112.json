@@ -1,0 +1,16 @@
+{
+ "id": "2502.04112",
+ "title": "Estimation of large approximate dynamic matrix factor models based on the EM algorithm and Kalman filtering",
+ "authors": [
+  "Matteo Barigozzi",
+  "Luca Trapin"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 3,
+ "latest_date": "2026-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper considers an approximate dynamic matrix factor model that accounts for the time series nature of the data by explicitly modelling the time evolution of the factors. We study estimation of the model parameters based on the Expectation Maximization (EM) algorithm, implemented jointly with the Kalman smoother which gives estimates of the factors. We establish the consistency of the estimated loadings and factor matrices as the sample size $T$ and the matrix dimensions $p_1$ and $p_2$ diverge to infinity. We then extend this approach to: (a) the case of arbitrary patterns of missing data and (b) the presence of common stochastic trends. The finite sample properties of the estimators are assessed through a large simulation study and two applications on: (i) a financial dataset of volatility proxies and (ii) a macroeconomic dataset covering the main euro area countries.",
+ "primary": "stat.ME"
+}

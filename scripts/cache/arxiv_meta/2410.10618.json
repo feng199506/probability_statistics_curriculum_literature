@@ -1,0 +1,15 @@
+{
+ "id": "2410.10618",
+ "title": "An Approximate Identity Link Function for Bayesian Generalized Linear Models",
+ "authors": [
+  "Yasuyuki Hamura"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 1,
+ "latest_date": "2024-10-14",
+ "journal_ref": "",
+ "doi": "10.1007/s00362-025-01741-7",
+ "comment": "19 pages, 2 figures",
+ "abstract": "In this note, we consider using a link function that has heavier tails than the usual exponential link function. We construct efficient Gibbs algorithms for Poisson and Multinomial models based on this link function by introducing gamma and inverse Gaussian latent variables and show that the algorithms generate geometrically ergodic Markov chains in simple settings. Our algorithms can be used for more complicated models with many parameters. We fit our simple Poisson model to a real dataset and confirm that the posterior distribution has similar implications to those under the usual Poisson regression model based on the exponential link function. Although less interpretable, our models are potentially more tractable or flexible from a computational point of view in some cases.",
+ "primary": "stat.ME"
+}

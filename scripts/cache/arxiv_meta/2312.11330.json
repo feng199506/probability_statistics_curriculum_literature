@@ -1,0 +1,15 @@
+{
+ "id": "2312.11330",
+ "title": "Phantom-Powered Nested Sampling",
+ "authors": [
+  "Joshua G. Albert"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 1,
+ "latest_date": "2023-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel technique within the Nested Sampling framework to enhance efficiency of the computation of Bayesian evidence, a critical component in scientific data analysis. In higher dimensions, Nested Sampling relies on Markov Chain-based likelihood-constrained prior samplers, which generate numerous 'phantom points' during parameter space exploration. These points are too auto-correlated to be used in the standard Nested Sampling scheme and so are conventionally discarded, leading to waste. Our approach discovers a way to integrate these phantom points into the evidence calculation, thereby improving the efficiency of Nested Sampling without sacrificing accuracy. This is achieved by ensuring the points within the live set remain asymptotically i.i.d. uniformly distributed, allowing these points to contribute meaningfully to the final evidence estimation. We apply our method on several models, demonstrating substantial enhancements in sampling efficiency, that scales well in high-dimension. Our findings suggest that this approach can reduce the number of required likelihood evaluations by at least a factor of 5. This advancement holds considerable promise for improving the robustness and speed of statistical analyses over a wide range of fields, from astrophysics and cosmology to climate modelling.",
+ "primary": "astro-ph.IM"
+}

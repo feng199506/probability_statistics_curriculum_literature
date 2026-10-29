@@ -1,0 +1,17 @@
+{
+ "id": "2403.15384",
+ "title": "Unifying small area estimators based on area-level and unit-level models through calibration",
+ "authors": [
+  "William Acero",
+  "Isabel Molina",
+  "J. Miguel Marín"
+ ],
+ "v1_date": "2024-03-22",
+ "latest_version": 3,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 9 figures, 2 tables",
+ "abstract": "When estimating area means, direct estimators based on area-specific data, are usually consistent under the sampling design without model assumptions. However, they are inefficient if the area sample size is small. In small area estimation, model assumptions linking the areas are used to \"borrow strength\" from other areas. The basic area-level model provides design-consistent estimators but error variances are assumed to be known. In practice, they are estimated with the (scarce) area-specific data. These estimators are inefficient, and their error is not accounted for in the associated mean squared error estimators. Unit-level models do not require to know the error variances but do not account for the survey design. Here we describe a unified estimator of an area mean that may be obtained both from an area-level model or a unit-level model and based on consistent estimators of the model error variances as the number of areas increases. We propose bootstrap mean squared error estimators that account for the uncertainty due to the estimation of the error variances. We show a better performance of the new small area estimators and our bootstrap estimators of the mean squared error. We apply the results to education data from Colombia.",
+ "primary": "stat.ME"
+}

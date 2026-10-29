@@ -1,0 +1,19 @@
+{
+ "id": "2604.10706",
+ "title": "Multiple Imputation Diagnostics when using Electronic Health Record Data in Observational Studies: A Case Study",
+ "authors": [
+  "Nrupen A. Bhavsar",
+  "Lingyu Zhou",
+  "Samuel I. Berchuck",
+  "Matthew L. Maciejewski",
+  "Jerome P. Reiter"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 1,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages with title page and references, 4 figures",
+ "abstract": "Missing values in electronic health record (EHR) data pose a significant challenge for epidemiologic research. Traditional methods for handling missing data, like mean imputation, may introduce bias. Multiple imputation (MI) offers a principled solution by generating multiple plausible values based on statistical models. However, MI requires careful model specification and validation of imputations, ideally using multivariate graphical tools. We demonstrate the application of such tools to validate MI in a study of chronic kidney disease, assessing cardiovascular outcomes linked to neighborhood socioeconomic status (nSES). This study used data from Duke University Health System (DUHS) and Lincoln Community Health Center (LCHC). Eligible patients had at least one encounter within DUHS or LCHC and had two estimated glomerular filtration rate (eGFR) values <60 mL/min per 1.73 m2 more than 90 days apart between January 1, 2007 and July 1, 2008. Socioeconomic status was assessed using the Agency for Healthcare Research and Quality (AHRQ) index based on census data. The main outcome was a cardiovascular disease-related hospitalization. Participants were mostly older (mean age 73 years), female (64%), and Black (43%). Participants living in lower nSES neighborhoods had higher mean systolic blood pressure (SBP: 140 mmHg) and hemoglobin A1c (HbA1c) levels (7.1%) as compared to participants living in higher nSES neighborhoods. A machine learning based approach, Classification and Regression Trees (CART), was the preferred approach to impute missing data. The distributions of imputed values of SBP and HbA1c were impacted by whether marginal or conditional values of SBP and HbA1c were imputed. The choice of MI had minimal impact on inference and prediction. Future research may want to extend our results and consider how results may differ when using EHR data from multiple health systems.",
+ "primary": "stat.ME"
+}

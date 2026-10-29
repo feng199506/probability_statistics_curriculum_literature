@@ -1,0 +1,17 @@
+{
+ "id": "2506.19192",
+ "title": "Precision Matrix Regularization in Sufficient Dimension Reduction for Improved Quadratic Discriminant Classification",
+ "authors": [
+  "Derik T. Boonstra",
+  "Rakheon Kim",
+  "Dean M. Young"
+ ],
+ "v1_date": "2025-06-23",
+ "latest_version": 1,
+ "latest_date": "2025-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sufficient dimension reduction (SDR) methods, which often rely on class precision matrices, are widely used in supervised statistical classification problems. However, when class-specific sample sizes are small relative to the original feature-space dimension, precision matrix estimation becomes unstable and, as a result, increases the variability of the linear dimension reduction (LDR) matrix. Ultimately, this fact causes suboptimal supervised classification. To address this problem, we develop a multiclass and distribution-free SDR method, stabilized SDR (SSDR), that employs user-specified precision matrix shrinkage estimators to stabilize the LDR projection matrix and supervised classifier. We establish this technique with the theoretical guarantee of preserving all classification information under the quadratic discriminant analysis (QDA) decision rule. We evaluate multiple precision matrix shrinkage estimators within our proposed SSDR framework through Monte Carlo simulations and applications to real datasets. Our empirical results demonstrate the efficacy of the SSDR method, which generally improves classification accuracy and frequently outperforms several well-established competing SDR methods.",
+ "primary": "stat.ME"
+}

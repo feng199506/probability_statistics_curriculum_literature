@@ -1,0 +1,16 @@
+{
+ "id": "2404.06932",
+ "title": "Improving prediction accuracy by choosing resampling distribution via cross-validation",
+ "authors": [
+  "Wataru Yoshida",
+  "Kei Hirose"
+ ],
+ "v1_date": "2024-04-10",
+ "latest_version": 1,
+ "latest_date": "2024-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages, 7 figures",
+ "abstract": "In a regression model, prediction is typically performed after model selection. The large variability in the model selection makes the prediction unstable. Thus, it is essential to reduce the variability in model selection and improve prediction accuracy. To achieve this goal, a parametric bootstrap smoothing can be applied. In this method, model selection is performed for each resampling from a parametric distribution, and these models are then averaged such that the distribution of the selected models is considered. Here, the prediction accuracy is highly dependent on the choice of a distribution for resampling. In particular, an experimental study shows that the choice of error variance significantly changes the distribution of the selected model and thus plays a key role in improving the prediction accuracy. We also observed that the true error variance does not always provide optimal prediction accuracy. Therefore, it would not always be appropriate to use unbiased estimators of the true parameters or standard estimators of the parameters for the resampling distribution. In this study, we propose employing cross validation to choose a suitable resampling distribution rather than unbiased estimators of parameters. Our proposed method was applied to electricity demand data. The results indicate that the proposed method provides a better prediction accuracy than the existing method.",
+ "primary": "stat.CO"
+}

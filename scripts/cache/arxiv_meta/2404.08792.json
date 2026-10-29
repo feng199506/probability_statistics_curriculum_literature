@@ -1,0 +1,16 @@
+{
+ "id": "2404.08792",
+ "title": "Convergence of coordinate ascent variational inference for log-concave measures via optimal transport",
+ "authors": [
+  "Manuel Arnese",
+  "Daniel Lacker"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 1,
+ "latest_date": "2024-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mean field variational inference (VI) is the problem of finding the closest product (factorized) measure, in the sense of relative entropy, to a given high-dimensional probability measure $ρ$. The well known Coordinate Ascent Variational Inference (CAVI) algorithm aims to approximate this product measure by iteratively optimizing over one coordinate (factor) at a time, which can be done explicitly. Despite its popularity, the convergence of CAVI remains poorly understood. In this paper, we prove the convergence of CAVI for log-concave densities $ρ$. If additionally $\\log ρ$ has Lipschitz gradient, we find a linear rate of convergence, and if also $ρ$ is strongly log-concave, we find an exponential rate. Our analysis starts from the observation that mean field VI, while notoriously non-convex in the usual sense, is in fact displacement convex in the sense of optimal transport when $ρ$ is log-concave. This allows us to adapt techniques from the optimization literature on coordinate descent algorithms in Euclidean space.",
+ "primary": "stat.ML"
+}

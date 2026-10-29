@@ -1,0 +1,16 @@
+{
+ "id": "2504.13336",
+ "title": "On the minimax optimality of Flow Matching through the connection to kernel density estimation",
+ "authors": [
+  "Lea Kunkel",
+  "Mathias Trabs"
+ ],
+ "v1_date": "2025-04-17",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Flow Matching has recently gained attention in generative modeling as a simple and flexible alternative to diffusion models. While existing statistical guarantees adapt tools from the analysis of diffusion models, we take a different perspective by connecting Flow Matching to kernel density estimation. We first verify that the kernel density estimator matches the optimal rate of convergence in Wasserstein distance up to logarithmic factors, improving existing bounds for the Gaussian kernel. Based on this result, we prove that for sufficiently large networks, Flow Matching achieves the optimal rate up to logarithmic factors. If the target distribution lies on a lower-dimensional manifold, we show that the kernel density estimator profits from the smaller intrinsic dimension on a small tube around the manifold. The faster rate also applies to Flow Matching, providing a theoretical foundation for its empirical success in high-dimensional settings.",
+ "primary": "stat.ML"
+}

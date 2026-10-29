@@ -1,0 +1,17 @@
+{
+ "id": "2507.19028",
+ "title": "Nonparametric Linear Discriminant Analysis for High Dimensional Matrix-Valued Data",
+ "authors": [
+  "Seungyeon Oh",
+  "Seongoh Park",
+  "Hoyoung Park"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 3,
+ "latest_date": "2025-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 11 figures, 5 tables and Supplementary Material (7 pages, 13 figures and 1 table )",
+ "abstract": "This paper addresses classification problems with matrix-valued data, which commonly arise in applications such as neuroimaging and signal processing. Building on the assumption that the data from each class follows a matrix normal distribution, we propose a novel extension of Fisher's Linear Discriminant Analysis (LDA) tailored for matrix-valued observations. To effectively capture structural information while maintaining estimation flexibility, we adopt a nonparametric empirical Bayes framework based on Nonparametric Maximum Likelihood Estimation (NPMLE), applied to vectorized and scaled matrices. The NPMLE method has been shown to provide robust, flexible, and accurate estimates for vector-valued data with various structures in the mean vector or covariance matrix. By leveraging its strengths, our method is effectively generalized to the matrix setting, thereby improving classification performance. Through extensive simulation studies and real data applications, including electroencephalography (EEG) and magnetic resonance imaging (MRI) analysis, we demonstrate that the proposed method tends to outperform existing approaches across a variety of data structures.",
+ "primary": "stat.ME"
+}

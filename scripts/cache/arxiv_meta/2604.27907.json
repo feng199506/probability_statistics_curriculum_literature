@@ -1,0 +1,16 @@
+{
+ "id": "2604.27907",
+ "title": "Sign-Flipping Score Tests for Fixed Effects in Multivariate Clustered Data",
+ "authors": [
+  "Angela Andreella",
+  "Livio Finos"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 2,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard parametric inference on fixed effects in multivariate linear mixed models can be sensitive to covariance misspecification, particularly with multivariate responses. We propose clip, a clusterwise conditional resampling procedure based on effective scores and transformation-specific standardization. The procedure may use a working covariance to improve efficiency, but its validity does not require correct specification. When covariance parameters are estimated, they are estimated only once and held fixed across transformations. Together with synchronous transformations that avoid modeling between-response covariance, this facilitates joint inference for high-dimensional multivariate responses. Under a correctly specified marginal mean and suitable regularity conditions, we establish asymptotic validity for independent, heterogeneous clusters and derive a quantitative bound relating approximation accuracy to the magnitude and heterogeneity of clusterwise score contributions. Simulations show reliable type I error control and competitive power. An electroencephalography application illustrates simultaneous inference across correlated outcomes.",
+ "primary": "stat.ME"
+}

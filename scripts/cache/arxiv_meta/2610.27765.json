@@ -1,0 +1,15 @@
+{
+ "id": "2610.27765",
+ "title": "Control variates for dry friction under colored noise: variance rates for non-smooth observables",
+ "authors": [
+  "Lihong Guo"
+ ],
+ "v1_date": "2026-10-20",
+ "latest_version": 1,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 1 figure, 3 tables",
+ "abstract": "A control variate method was introduced by Garnier and Mertz (2022) for multivalued stochastic differential equations driven by colored noise. For smooth observables, the asymptotic variance is $O(\\varepsilon^{2})$, where $\\varepsilon^{2}$ is the correlation time of the noise. However, for non-smooth reliability observables, such as threshold indicators and overshoot severities, rate estimates have not been established in general. In this paper, rate estimates are derived for the inertial dry-friction inclusion driven by colored noise in the three regimes whose white-noise propagators are known. The asymptotic variance of the resulting control variate estimators is $O(\\varepsilon^{2α})$ for $α$-Hölder observables with $α\\in(0,1]$, $O(\\varepsilon)$ for observables of bounded variation satisfying a one-sided continuity condition, $O(\\varepsilon^{1+α})$ for observables that are both $α$-Hölder and of bounded variation, and $O(\\varepsilon^{\\min\\{2,1+2α\\}})$ for observables with finitely many $α$-cusps, where $α\\in (0, 1]$ is the cusp exponent. The last three bounds hold up to logarithmic factors. Bounds on the bias of the white-noise approximation and non-asymptotic sample-size estimates are also derived, and the comparison principle is shown to be preserved under coupled time discretization. Numerical experiments in the three regimes support the predicted rates.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2507.11236",
+ "title": "Improved sampling algorithms and functional inequalities for non-log-concave distributions",
+ "authors": [
+  "Yuchen He",
+  "Zhehan Lei",
+  "Jianan Shao",
+  "Chihao Zhang"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 4,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of sampling from a distribution $μ$ with density $\\propto e^{-V}$ for some potential function $V:\\mathbb R^d\\to \\mathbb R$ with query access to $V$ and $\\nabla V$. We start with the following standard assumptions: (1) $V$ is $L$-smooth. (2) The second moment $\\mathbf{E}_{X\\sim μ}[\\|X\\|^2]\\leq M$. Recently, He and Zhang (COLT'25) showed that the query complexity of this problem is at least $\\left(\\frac{LM}{dε}\\right)^{Ω(d)}$ where $ε$ is the desired accuracy in total variation distance, and the Poincaré constant can be unbounded. Meanwhile, another common assumption in the study of diffusion based samplers (see e.g., the work of Chen, Chewi, Li, Li, Salim and Zhang (ICLR'23)) strengthens (1) to the following: (1*) The potential function of *every* distribution along the Ornstein-Uhlenbeck process starting from $μ$ is $L$-smooth. We show that under the assumptions (1*) and (2), the query complexity of sampling from $μ$ can be $\\mathrm{poly}(L,d)\\cdot \\left(\\frac{Ld+M}{ε^2}\\right)^{\\mathcal{O}(L+1)}$, which is polynomial in $d$ and $\\frac{1}ε$ when $L=\\mathcal{O}(1)$ and $M=\\mathrm{poly}(d)$. This improves the algorithm with quasi-polynomial query complexity developed by Huang et al. (COLT'24). Our results imply that the seemingly moderate strengthening from (1) to (1*) yields an exponential gap in the query complexity. Furthermore, we show that together with the assumption (1*) and the stronger moment assumption that $\\|X\\|$ is $λ$-sub-Gaussian for $X\\simμ$, the Poincaré constant of $μ$ is at most $\\mathcal{O}(λ)^{2(L+1)}$. We also establish a modified log-Sobolev inequality for $μ$ under these conditions. As an application of our technique, we obtain a new estimate of the modified log-Sobolev constant for a specific class of mixtures of strongly log-concave distributions.",
+ "primary": "cs.DS"
+}

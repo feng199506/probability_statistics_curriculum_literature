@@ -1,0 +1,16 @@
+{
+ "id": "2601.05415",
+ "title": "Multi-Group Quadratic Discriminant Analysis via Projection",
+ "authors": [
+  "Yuchao Wang",
+  "Tianying Wang"
+ ],
+ "v1_date": "2026-01-08",
+ "latest_version": 1,
+ "latest_date": "2026-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multi-group classification arises in many prediction and decision-making problems, including applications in epidemiology, genomics, finance, and image recognition. Although classification methods have advanced considerably, much of the literature focuses on binary problems, and available extensions often provide limited flexibility for multi-group settings. Recent work has extended linear discriminant analysis to multiple groups, but more general methods are still needed to handle complex structures such as nonlinear decision boundaries and group-specific covariance patterns. We develop Multi-Group Quadratic Discriminant Analysis (MGQDA), a method for multi-group classification built on quadratic discriminant analysis. MGQDA projects high-dimensional predictors onto a lower-dimensional subspace, which enables accurate classification while capturing nonlinearity and heterogeneity in group-specific covariance structures. We derive theoretical guarantees, including variable selection consistency, to support the reliability of the procedure. In simulations and a gene-expression application, MGQDA achieves competitive or improved predictive performance compared with existing methods while selecting group-specific informative variables, indicating its practical value for high-dimensional multi-group classification problems. Supplementary materials for this article are available online.",
+ "primary": "stat.ME"
+}

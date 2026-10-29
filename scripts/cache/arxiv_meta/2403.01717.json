@@ -1,0 +1,17 @@
+{
+ "id": "2403.01717",
+ "title": "Soft-constrained Schrodinger Bridge: a Stochastic Control Approach",
+ "authors": [
+  "Jhanvi Garg",
+  "Xianyang Zhang",
+  "Quan Zhou"
+ ],
+ "v1_date": "2024-03-04",
+ "latest_version": 2,
+ "latest_date": "2024-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Made minor changes about the references. 38 pages, 7 figures. Accepted by AISTATS 2024",
+ "abstract": "Schrödinger bridge can be viewed as a continuous-time stochastic control problem where the goal is to find an optimally controlled diffusion process whose terminal distribution coincides with a pre-specified target distribution. We propose to generalize this problem by allowing the terminal distribution to differ from the target but penalizing the Kullback-Leibler divergence between the two distributions. We call this new control problem soft-constrained Schrödinger bridge (SSB). The main contribution of this work is a theoretical derivation of the solution to SSB, which shows that the terminal distribution of the optimally controlled process is a geometric mixture of the target and some other distribution. This result is further extended to a time series setting. One application is the development of robust generative diffusion models. We propose a score matching-based algorithm for sampling from geometric mixtures and showcase its use via a numerical example for the MNIST data set.",
+ "primary": "stat.ML"
+}

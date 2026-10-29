@@ -1,0 +1,22 @@
+{
+ "id": "2407.14311",
+ "title": "A Bayesian joint model of multiple longitudinal and categorical outcomes with application to multiple myeloma using permutation-based variable importance",
+ "authors": [
+  "Danilo Alvares",
+  "Jessica K. Barrett",
+  "François Mercier",
+  "Jochen Schulze",
+  "Sean Yiu",
+  "Felipe Castro",
+  "Spyros Roumpanis",
+  "Yajing Zhu"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 3,
+ "latest_date": "2025-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 5 figures",
+ "abstract": "Joint models have proven to be an effective approach for uncovering potentially hidden connections between various types of outcomes, mainly continuous, time-to-event, and binary. Typically, longitudinal continuous outcomes are characterized by linear mixed-effects models, survival outcomes are described by proportional hazards models, and the link between outcomes are captured by shared random effects. Other modeling variations include generalized linear mixed-effects models for longitudinal data and logistic regression when a binary outcome is present, rather than time until an event of interest. However, in a clinical research setting, one might be interested in modeling the physician's chosen treatment based on the patient's medical history to identify prognostic factors. In this situation, there are often multiple treatment options, requiring the use of a multiclass classification approach. Inspired by this context, we develop a Bayesian joint model for longitudinal and categorical data. In particular, our motivation comes from a multiple myeloma study, in which biomarkers display nonlinear trajectories that are well captured through bi-exponential submodels, where patient-level information is shared with the categorical submodel. We also present a variable importance strategy to rank prognostic factors. We apply our proposal and a competing model to the multiple myeloma data, compare the variable importance and inferential results for both models, and illustrate patient-level interpretations using our joint model.",
+ "primary": "stat.ME"
+}

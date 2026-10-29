@@ -1,0 +1,18 @@
+{
+ "id": "2507.00763",
+ "title": "Comparing Misspecified Models with Big Data: A Variational Bayesian Perspective",
+ "authors": [
+  "Yong Li",
+  "Sushanta K. Mallick",
+  "Tao Zeng",
+  "Junxing Zhang"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 1,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimal data detection in massive multiple-input multiple-output (MIMO) systems often requires prohibitively high computational complexity. A variety of detection algorithms have been proposed in the literature, offering different trade-offs between complexity and detection performance. In recent years, Variational Bayes (VB) has emerged as a widely used method for addressing statistical inference in the context of massive data. This study focuses on misspecified models and examines the risk functions associated with predictive distributions derived from variational posterior distributions. These risk functions, defined as the expectation of the Kullback-Leibler (KL) divergence between the true data-generating density and the variational predictive distributions, provide a framework for assessing predictive performance. We propose two novel information criteria for predictive model comparison based on these risk functions. Under certain regularity conditions, we demonstrate that the proposed information criteria are asymptotically unbiased estimators of their respective risk functions. Through comprehensive numerical simulations and empirical applications in economics and finance, we demonstrate the effectiveness of these information criteria in comparing misspecified models in the context of massive data.",
+ "primary": "econ.EM"
+}

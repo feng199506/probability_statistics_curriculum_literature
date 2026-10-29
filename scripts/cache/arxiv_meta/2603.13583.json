@@ -1,0 +1,19 @@
+{
+ "id": "2603.13583",
+ "title": "Confidence intervals for two-stage adaptive designs with subpopulation selection",
+ "authors": [
+  "Enyu Li",
+  "Nigel Stallard",
+  "Ekkehard Glimm",
+  "Dominic Magirr",
+  "Peter K. Kimani"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 1,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider clinical trials in which an experimental treatment is compared with a control in pre-specified patient subpopulations. In such settings, adaptive enrichment designs allow the enrolled population to be modified at an interim analysis, with subpopulations selected according to preplanned rules. Since these interim decisions are data-dependent, valid statistical inference must account for them. We focus on constructing confidence intervals for the treatment effect in the selected population. Confidence interval methods that ignore the possibility of population modification may fail to achieve the desired coverage probability. We propose a new approach that constructs confidence intervals with exact nominal coverage conditional on the interim decision. Importantly, our method applies to a broad class of adaptive enrichment designs, rather than a single specific design. Our method involves deriving the distribution of the naive estimator of the treatment effect in the selected population conditional on the interim decision and inverting uniformly most accurate unbiased tests to obtain the confidence interval. We provide an efficient computational procedure and show through extensive simulations that the resulting confidence intervals satisfy the theoretical coverage guarantees.",
+ "primary": "stat.ME"
+}

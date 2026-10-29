@@ -1,0 +1,17 @@
+{
+ "id": "2510.20404",
+ "title": "Identification and Debiased Learning of Causal Effects with General Instrumental Variables",
+ "authors": [
+  "Shuyuan Chen",
+  "Peng Zhang",
+  "Yifan Cui"
+ ],
+ "v1_date": "2025-10-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Instrumental variable methods are fundamental to causal inference when treatment assignment is confounded by unobserved variables. In this article, we develop a general nonparametric causal framework for identification and learning with multi-categorical or continuous instrumental variables. Specifically, the mean potential outcomes and the average treatment effect can be identified via a regular weighting function derived from the proposed framework. Leveraging semiparametric theory, we derive efficient influence functions and construct two consistent, asymptotically normal estimators via debiased machine learning. The first estimator uses a prespecified weighting function, while the second estimator selects the optimal weighting function adaptively. Extensions to longitudinal data, dynamic treatment regimes, and multiplicative instrumental variables are further developed. We demonstrate the proposed method by employing simulation studies and analyzing real data from the Job Training Partnership Act program.",
+ "primary": "stat.ME"
+}

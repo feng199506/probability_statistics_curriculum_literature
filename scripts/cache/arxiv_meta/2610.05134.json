@@ -1,0 +1,15 @@
+{
+ "id": "2610.05134",
+ "title": "What does two-sample Mendelian randomization estimate when the exposure-outcome relationship is nonlinear?",
+ "authors": [
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2026-10-04",
+ "latest_version": 1,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Two-sample Mendelian randomization with summary statistics has become a popular MR design in Epidemiology. Its ratio estimate has an average causal effect interpretation only under strong untestable assumptions including linearity. We derive what the per-variant ratio, and the pooled and robust estimators built from it, estimate when a continuous exposure has a nonlinear effect, under two conditions on how genetic variation and unmeasured factors shape exposure: no unmeasured common effect modifier, and an exposure control function. Under either condition, each variant's ratio is a weighted average of the slope of the dose-response curve, with weights that depend on how that variant moves the distribution of exposure and that are nonnegative when the exposure distributions at different genotypes do not cross. Variants that shift everyone's exposure equally target nearly the same quantity; variants acting at particular doses or on the spread of exposure target different ones, some outside the range of any individual effect. Pooled estimates therefore have no fixed interpretation, heterogeneity tests and MR-Egger misread nonlinearity as pleiotropy, and summary statistics cannot reveal the problem, even when the dose-response curve is identifiable from individual-level data. For continuous exposures, two-sample estimates rest on a linearity assumption that should be stated and defended; individual-level exposure data resolve the problem and should be prioritized.",
+ "primary": "stat.ME"
+}

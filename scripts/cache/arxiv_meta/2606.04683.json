@@ -1,0 +1,18 @@
+{
+ "id": "2606.04683",
+ "title": "Minimax Private Estimation of Smooth Optimal-Transport Maps",
+ "authors": [
+  "Clément Lalanne",
+  "David Rodríguez-Vítores",
+  "Franck Iutzeler",
+  "Jean-Michel Loubes"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of estimating smooth optimal transport (OT) maps between two probability distributions under differential privacy (DP) constraints. Leveraging wavelet-based density estimators and recent stability bounds for smooth OT maps, we propose differentially private estimators that apply to both central and local DP models. Our main estimator achieves near-minimax optimal rates in dimension $d \\geq 2$, and we complement it with a quantile-based estimator that attains minimax optimal rates in dimension $d = 1$ under central DP. We further establish matching minimax lower bounds, confirming the near-optimality of our approach. To the best of our knowledge, this constitutes the first differentially private procedure for OT map estimation with minimax optimality guarantees.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.08602",
+ "title": "Globally-Optimal Greedy Experiment Selection for Active Sequential Estimation",
+ "authors": [
+  "Xiaoou Li",
+  "Hongru Zhao"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 1,
+ "latest_date": "2024-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by modern applications such as computerized adaptive testing, sequential rank aggregation, and heterogeneous data source selection, we study the problem of active sequential estimation, which involves adaptively selecting experiments for sequentially collected data. The goal is to design experiment selection rules for more accurate model estimation. Greedy information-based experiment selection methods, optimizing the information gain for one-step ahead, have been employed in practice thanks to their computational convenience, flexibility to context or task changes, and broad applicability. However, statistical analysis is restricted to one-dimensional cases due to the problem's combinatorial nature and the seemingly limited capacity of greedy algorithms, leaving the multidimensional problem open. In this study, we close the gap for multidimensional problems. In particular, we propose adopting a class of greedy experiment selection methods and provide statistical analysis for the maximum likelihood estimator following these selection rules. This class encompasses both existing methods and introduces new methods with improved numerical efficiency. We prove that these methods produce consistent and asymptotically normal estimators. Additionally, within a decision theory framework, we establish that the proposed methods achieve asymptotic optimality when the risk measure aligns with the selection rule. We also conduct extensive numerical studies on both simulated and real data to illustrate the efficacy of the proposed methods. From a technical perspective, we devise new analytical tools to address theoretical challenges. These analytical tools are of independent theoretical interest and may be reused in related problems involving stochastic approximation and sequential designs.",
+ "primary": "math.ST"
+}

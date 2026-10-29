@@ -1,0 +1,15 @@
+{
+ "id": "2512.06107",
+ "title": "From Tail Universality to Bernstein-von Mises: A Unified Statistical Theory of Semi-Implicit Variational Inference",
+ "authors": [
+  "Sean Plummer"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 1,
+ "latest_date": "2025-12-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "59 pages. Includes all proofs and numerical illustrations. A shorter journal-focused version is in preparation with significant structural streamlining and additional discussion. Feedback is welcome",
+ "abstract": "Semi-implicit variational inference (SIVI) constructs approximate posteriors of the form $q(θ) = \\int k(θ| z) r(dz)$, where the conditional kernel is parameterized and the mixing base is fixed and tractable. This paper develops a unified \"approximation-optimization-statistics'' theory for such families. On the approximation side, we show that under compact L1-universality and a mild tail-dominance condition, semi-implicit families are dense in L1 and can achieve arbitrarily small forward Kullback-Leibler (KL) error. We also identify two sharp obstructions to global approximation: (i) an Orlicz tail-mismatch condition that induces a strictly positive forward-KL gap, and (ii) structural restrictions, such as non-autoregressive Gaussian kernels, that force \"branch collapse'' in conditional distributions. For each obstruction we give a minimal structural modification that restores approximability. On the optimization side, we establish finite-sample oracle inequalities and prove that the empirical SIVI objectives L(K,n) $Γ$-converge to their population limit as n and K tend to infinity. These results give consistency of empirical maximizers, quantitative control of finite-K surrogate bias, and stability of the resulting variational posteriors. Combining the approximation and optimization analyses yields the first general end-to-end statistical theory for SIVI: we characterize precisely when SIVI can recover the target distribution, when it cannot, and how architectural and algorithmic choices govern the attainable asymptotic behavior.",
+ "primary": "math.ST"
+}

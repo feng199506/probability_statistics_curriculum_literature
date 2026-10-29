@@ -1,0 +1,15 @@
+{
+ "id": "2412.20316",
+ "title": "A Rank-Based Test for Comparing Multiple Fields' Yield Quality Distributions Under Spatial Dependence",
+ "authors": [
+  "Marco Mandap"
+ ],
+ "v1_date": "2024-12-29",
+ "latest_version": 3,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "An error was identified in the underlying distribution proof used for the empirical copula test. The authors are withdrawing this version while finalizing a formally verified proof of the distribution in Lean 4",
+ "abstract": "Comparing yield quality distributions across multiple agricultural fields is fundamental for evaluating management practices, yet it is complicated by two pervasive data characteristics: non-normality and spatial autocorrelation. Traditional parametric tests, such as ANOVA, frequently suffer from severe Type I error inflation when the independence assumption is violated by spatial dependence. This paper introduces a novel rank-based test framework that utilizes spatial kernel smoothing to construct robust empirical distribution functions (EDFs). We establish the asymptotic properties of the test statistic under $α$-mixing conditions, proving its convergence to a weighted sum of chi-squared random variables. To facilitate practical inference, we employ a Satterthwaite approximation to derive effective degrees of freedom that account for the spatial 'inflation' of variance. The theoretical framework is developed in detail, providing a rigorous foundation for the proposed method. Simulation studies and applications to real yield quality data are left to future work.",
+ "primary": "stat.ME"
+}

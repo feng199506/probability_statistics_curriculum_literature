@@ -1,0 +1,17 @@
+{
+ "id": "2602.17086",
+ "title": "Dynamic Decision-Making under Model Misspecification: A Stochastic Stability Approach",
+ "authors": [
+  "Xinyu Dai",
+  "Daniel Chen",
+  "Yian Qian"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 2,
+ "latest_date": "2026-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added funding acknowledgement",
+ "abstract": "Dynamic decision-making under model uncertainty is central to many economic environments, yet existing bandit and reinforcement learning algorithms rely on the assumption of correct model specification. This paper studies the behavior and performance of one of the most commonly used Bayesian reinforcement learning algorithms, Thompson Sampling (TS), when the model class is misspecified. We first provide a complete dynamic classification of posterior evolution in a misspecified two-armed Gaussian bandit, identifying distinct regimes: correct model concentration, incorrect model concentration, and persistent belief mixing, characterized by the direction of statistical evidence and the model-action mapping. These regimes yield sharp predictions for limiting beliefs, action frequencies, and asymptotic regret. We then extend the analysis to a general finite model class and develop a unified stochastic stability framework that represents posterior evolution as a Markov process on the belief simplex. This approach characterizes two sufficient conditions to classify the ergodic and transient behaviors and provides inductive dimensional reductions of the posterior dynamics. Our results offer the first qualitative and geometric classification of TS under misspecification, bridging Bayesian learning with evolutionary dynamics, and also build the foundations of robust decision-making in structured bandits.",
+ "primary": "econ.TH"
+}

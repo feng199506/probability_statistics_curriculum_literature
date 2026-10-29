@@ -1,0 +1,17 @@
+{
+ "id": "2604.04141",
+ "title": "On Data Thinning for Model Validation in Small Area Estimation",
+ "authors": [
+  "Sho Kawano",
+  "Paul A. Parker",
+  "Zehang Richard Li"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 3,
+ "latest_date": "2026-06-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Small area estimation produces estimates of population parameters for geographic and demographic subgroups with limited sample sizes. Such estimates are critical for policy decisions, yet principled validation of these models remains a challenge. Unlike conventional predictive settings, validation data are rarely available. Data thinning splits a single observation into independent training and test components. It enables out-of-sample validation using only the area-level summary statistics routinely available, requiring only their Gaussianity and known sampling variances. However, the properties of thinning-based model comparison have not been formally studied. In this paper, we develop these properties. We construct an unbiased estimator of thinned-data mean squared error and show that it differs systematically from its full-data counterpart; for the standard Fay-Herriot model, the gap admits a closed-form expression that depends on the candidate model's shrinkage behavior. We further show that the estimator variance increases sharply as the training fraction approaches one, producing a bias-variance tradeoff with no universally optimal thinning parameter. Practical recommendations balancing these forces are informed by theory and verified empirically. Design-based simulations using American Community Survey microdata show that the recommended data thinning approach is competitive with information-criterion and simulation-based methods, and substantially more stable across heterogeneous sampling designs.",
+ "primary": "stat.ME"
+}

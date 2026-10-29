@@ -1,0 +1,17 @@
+{
+ "id": "2502.11332",
+ "title": "Stochastic Block Covariance Matrix Estimation",
+ "authors": [
+  "Yunran Chen",
+  "Surya T Tokdar",
+  "Jennifer M Groh"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 2,
+ "latest_date": "2025-02-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by a neuroscience application we study the problem of statistical estimation of a high-dimensional covariance matrix with a block structure. The block model embeds a structural assumption: the population of items (neurons) can be divided into latent sub-populations with shared associative covariation within blocks and shared associative or dis-associative covariation across blocks. Unlike the block diagonal assumption, our block structure incorporates positive or negative pairwise correlation between blocks. In addition to offering reasonable modeling choices in neuroscience and economics, the block covariance matrix assumption is interesting purely from the perspective of statistical estimation theory: (a) it offers in-built dimension reduction and (b) it resembles a regularized factor model without the need of choosing the number of factors. We discuss a hierarchical Bayesian estimation method to simultaneously recover the latent blocks and estimate the overall covariance matrix. We show with numerical experiments that a hierarchical structure and a shrinkage prior are essential to accurate recovery when several blocks are present.",
+ "primary": "stat.ME"
+}

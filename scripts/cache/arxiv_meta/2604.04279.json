@@ -1,0 +1,16 @@
+{
+ "id": "2604.04279",
+ "title": "Confidence Sets under Weak Identification: Theory and Practice",
+ "authors": [
+  "Gustavo Schlemper",
+  "Marcelo J. Moreira"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 1,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop new methods for constructing confidence sets and intervals in linear instrumental variables (IV) models based on tests that remain valid under weak identification and under heteroskedastic, autocorrelated, or clustered errors. In practice, researchers typically recover such sets by grid search, a procedure that can miss parts of the confidence region, truncate unbounded sets, and deliver misleading inference. We replace grid inversion with exact and approximation-based methods that are both reliable and computationally efficient. Our approach exploits the polynomial and rational structure of the Anderson-Rubin and Lagrange multiplier statistics to obtain exact confidence sets via polynomial root finding. For the conditional quasi-likelihood ratio test, we derive an exact inversion algorithm based on the geometry of the statistic and its critical value function. For more general conditional tests, we construct polynomial approximations whose coverage error vanishes with approximation degree, allowing numerical accuracy to be made arbitrarily high. In many empirical applications with weak instruments, standard grid methods produce incorrect confidence regions, while our procedures reliably recover sets with correct nominal coverage. The framework extends beyond linear IV to models with piecewise polynomial or rational moment conditions, offering a general tool for reliable weak-identification robust inference.",
+ "primary": "econ.EM"
+}

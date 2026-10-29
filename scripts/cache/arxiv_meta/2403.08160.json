@@ -1,0 +1,17 @@
+{
+ "id": "2403.08160",
+ "title": "Asymptotics of Random Feature Regression Beyond the Linear Scaling Regime",
+ "authors": [
+  "Hong Hu",
+  "Yue M. Lu",
+  "Theodor Misiakiewicz"
+ ],
+ "v1_date": "2024-03-13",
+ "latest_version": 1,
+ "latest_date": "2024-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "106 pages, 8 figures",
+ "abstract": "Recent advances in machine learning have been achieved by using overparametrized models trained until near interpolation of the training data. It was shown, e.g., through the double descent phenomenon, that the number of parameters is a poor proxy for the model complexity and generalization capabilities. This leaves open the question of understanding the impact of parametrization on the performance of these models. How does model complexity and generalization depend on the number of parameters $p$? How should we choose $p$ relative to the sample size $n$ to achieve optimal test error? In this paper, we investigate the example of random feature ridge regression (RFRR). This model can be seen either as a finite-rank approximation to kernel ridge regression (KRR), or as a simplified model for neural networks trained in the so-called lazy regime. We consider covariates uniformly distributed on the $d$-dimensional sphere and compute sharp asymptotics for the RFRR test error in the high-dimensional polynomial scaling, where $p,n,d \\to \\infty$ while $p/ d^{κ_1}$ and $n / d^{κ_2}$ stay constant, for all $κ_1 , κ_2 \\in \\mathbb{R}_{>0}$. These asymptotics precisely characterize the impact of the number of random features and regularization parameter on the test performance. In particular, RFRR exhibits an intuitive trade-off between approximation and generalization power. For $n = o(p)$, the sample size $n$ is the bottleneck and RFRR achieves the same performance as KRR (which is equivalent to taking $p = \\infty$). On the other hand, if $p = o(n)$, the number of random features $p$ is the limiting factor and RFRR test error matches the approximation error of the random feature model class (akin to taking $n = \\infty$). Finally, a double descent appears at $n= p$, a phenomenon that was previously only characterized in the linear scaling $κ_1 = κ_2 = 1$.",
+ "primary": "stat.ML"
+}

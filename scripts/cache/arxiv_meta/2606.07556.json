@@ -1,0 +1,17 @@
+{
+ "id": "2606.07556",
+ "title": "Selecting New Measurement Locations to Diversify Traffic-Pattern Coverage: A Real-World Evaluation for Total Traffic Volume Estimation",
+ "authors": [
+  "Masaaki Inoue",
+  "Akifumi Okuno",
+  "Shintaro Fukushima"
+ ],
+ "v1_date": "2026-05-25",
+ "latest_version": 1,
+ "latest_date": "2026-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 7 figures",
+ "abstract": "Accurate measurement of traffic volumes and flows is vital for modern intelligent transportation. However, despite recent technological advances in sensor devices, it is still expensive to install and maintain fixed traffic counters. Therefore, it is restricted to a small portion of location points where the counters can be installed, which severely limits the possibility of grasping and predicting the total traffic volume at a city-wide level. By contrast, devices with location history such as smartphones and connected vehicles are now widely used and provide much wider spatial coverage. However, the data from these devices are usually partial and noisy, so they are not enough to directly estimate total traffic volumes and flows. In this paper, we use the information from these widely available devices to help decide where to place additional traffic counters, and we study how selecting new measurement locations can improve city-wide traffic estimation performance. To achieve this, we propose an algorithm that chooses additional counter locations to increase the diversity of observed traffic signal patterns, rather than simply spreading counters evenly over space. The goal is to capture traffic-pattern types that are rare in the current counter set and to make the collected observations more representative for later estimation and forecasting. We also present a real-world evaluation; in a target city, we select new locations expected to improve traffic prediction, and we then commissioned new field measurements at those locations at our expense. The resulting data led to an improvement in traffic volume estimation accuracy across different fidelities.",
+ "primary": "cs.NI"
+}

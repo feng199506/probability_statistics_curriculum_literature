@@ -1,0 +1,16 @@
+{
+ "id": "2508.11619",
+ "title": "Approximate Factor Model with S-vine Copula Structure",
+ "authors": [
+  "Jialing Han",
+  "Yu-Ning Li"
+ ],
+ "v1_date": "2025-08-15",
+ "latest_version": 1,
+ "latest_date": "2025-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages",
+ "abstract": "We propose a novel framework for approximate factor models that integrates an S-vine copula structure to capture complex dependencies among common factors. Our estimation procedure proceeds in two steps: first, we apply principal component analysis (PCA) to extract the factors; second, we employ maximum likelihood estimation that combines kernel density estimation for the margins with an S-vine copula to model the dependence structure. Jointly fitting the S-vine copula with the margins yields an oblique factor rotation without resorting to ad hoc restrictions or traditional projection pursuit methods. Our theoretical contributions include establishing the consistency of the rotation and copula parameter estimators, developing asymptotic theory for the factor-projected empirical process under dependent data, and proving the uniform consistency of the projected entropy estimators. Simulation studies demonstrate convergence with respect to both the dimensionality and the sample size. We further assess model performance through Value-at-Risk (VaR) estimation via Monte Carlo methods and apply our methodology to the daily returns of S&P 500 Index constituents to forecast the VaR of S&P 500 index.",
+ "primary": "stat.ME"
+}

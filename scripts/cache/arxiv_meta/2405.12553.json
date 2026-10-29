@@ -1,0 +1,16 @@
+{
+ "id": "2405.12553",
+ "title": "Uncertainty quantification by block bootstrap for differentially private stochastic gradient descent",
+ "authors": [
+  "Holger Dette",
+  "Carina Graw"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic Gradient Descent (SGD) is a widely used tool in machine learning. In the context of Differential Privacy (DP), SGD has been well studied in the last years in which the focus is mainly on convergence rates and privacy guarantees. While in the non private case, uncertainty quantification (UQ) for SGD by bootstrap has been addressed by several authors, these procedures cannot be transferred to differential privacy due to multiple queries to the private data. In this paper, we propose a novel block bootstrap for SGD under local differential privacy that is computationally tractable and does not require an adjustment of the privacy budget. The method can be easily implemented and is applicable to a broad class of estimation problems. We prove the validity of our approach and illustrate its finite sample properties by means of a simulation study. As a by-product, the new method also provides a simple alternative numerical tool for UQ for non-private SGD.",
+ "primary": "stat.ML"
+}

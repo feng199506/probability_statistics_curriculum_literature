@@ -1,0 +1,16 @@
+{
+ "id": "2604.27485",
+ "title": "On large deviation principles for general random processes",
+ "authors": [
+  "A. A. Borovkov",
+  "K. A. Borovkov"
+ ],
+ "v1_date": "2026-04-30",
+ "latest_version": 1,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "Let $Z=\\{Z(t): t\\in \\mathbb R\\}$ be a stochastic process with trajectories in space $\\mathbb D (\\mathbb R)$. It is assumed that there exists an essentially smooth function $A:\\mathbb R\\to (-\\infty, \\infty] $ such that, for all $α\\in \\mathbb R, $ $ μ\\in \\mbox{dom}\\, A$, one has \\begin{equation*} \\frac1{T} \\ln {\\mathbf E} \\big( e^{μ(Z(T)-αT)} \\big|Z(s), \\ s\\le 0 \\big) = A(μ) +o(1) \\end{equation*} uniformly on the event $C(T):=\\{|Z(0)/T - α|< η_T \\} $, where $ η_T \\to 0$ as $T\\to\\infty.$ Under this condition, a uniform conditional local large deviation principle (l.l.d.p.) is established: for any fixed $α, β\\in \\mathbb R$ and a positive function $η_T=o(1)$, for $\\varepsilon_T \\to 0$ sufficiently slowly as $T\\to\\infty,$ one has \\begin{equation*} \\lim_{T\\to\\infty}\\frac1T \\ln {\\mathbf P} \\big( {Z(T)}/T-α \\in (β-\\varepsilon_T, β+\\varepsilon_T) \\big| Z(s), \\ s\\le 0\\big) = - D(β) \\end{equation*} uniformly on $C(T)$, where $D$ is the Legendre transform of the function $A$. This result is used to establish a conditional l.l.d.p. for the finite-dimen\\-sional distributions of the process $ \\{ z_T(s) = Z(sT)/T: s\\in [0,1]\\}$. Under additional conditions on the magnitude of oscillations of the trajectories $z_T$, a functional l.l.d.p. is obtained for the asymptotics of $\\ln {\\mathbf P} (z_T\\in (f)_{\\varepsilon_T})$ as $T\\to\\infty$, where $f\\in \\mathbb D(0,1),$ $(f)_\\varepsilon$ is the $\\varepsilon$-neighborhood of $f$ in the space $ \\mathbb D(0,1)$ with respect to the uniform metric, and $\\varepsilon_T \\to 0$ sufficiently slowly. The obtained results can be extended to a more general triangular array scheme where the process itself $Z=Z^{(T)}$ also depends on the parameter $T$.",
+ "primary": "math.PR"
+}

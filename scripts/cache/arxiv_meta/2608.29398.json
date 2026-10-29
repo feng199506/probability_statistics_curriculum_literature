@@ -1,0 +1,16 @@
+{
+ "id": "2608.29398",
+ "title": "Review-Period Sensitivity in Multiclass Queue Scheduling",
+ "authors": [
+  "Mir Mikdad Talpur",
+  "Vahid Sarhangian"
+ ],
+ "v1_date": "2026-08-29",
+ "latest_version": 2,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimal control of queueing networks is typically studied under continuous-time control. In many service settings, however, managers can adjust decisions only at discrete and potentially infrequent review epochs. We study a multiclass queue scheduling problem in which server assignments can be changed only at the beginning of discrete review periods, and examine how performance depends on the review-period length. We analyze a family of associated fluid control problems parameterized by the review-period length and characterize the first- and second-order sensitivity of the value function. For the two-class case, we derive explicit expressions for these derivatives and characterize their signs. We find that for short review periods, the value function need not be monotone. Once the review period is sufficiently large, the value function becomes monotone nondecreasing and may exhibit a convex or linear region before eventually becoming concave. These results provide insights on when the value of more frequent control, or \\emph{flexibility} with respect to server assignments, is higher. We further numerically examine the robustness of these observations for the original stochastic scheduling problem and show that stochasticity smooths the nonmonotonicity at smaller scales, while the qualitative sensitivity patterns remain visible and become more pronounced as the scale of the system increases.",
+ "primary": "eess.SY"
+}

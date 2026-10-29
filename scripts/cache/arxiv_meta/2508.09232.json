@@ -1,0 +1,19 @@
+{
+ "id": "2508.09232",
+ "title": "PETLP: A Privacy-by-Design Pipeline for Social Media Data in AI Research",
+ "authors": [
+  "Nick Oh",
+  "Giorgos D. Vrakas",
+  "Siân J. M. Brooke",
+  "Sasha Morinière",
+  "Toju Duke"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 2,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Extended version of paper to appear in the 8th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2025)",
+ "abstract": "Social media data presents AI researchers with overlapping obligations under the GDPR, copyright law, and platform terms -- yet existing frameworks fail to integrate these regulatory domains, leaving researchers without unified guidance. We introduce PETLP (Privacy-by-design Extract, Transform, Load, and Present), a compliance framework that embeds legal safeguards directly into extended ETL pipelines. Central to PETLP is treating Data Protection Impact Assessments as living documents that evolve from pre-registration through dissemination. Through systematic Reddit analysis, we demonstrate how extraction rights fundamentally differ between qualifying research organisations (who can invoke DSM Article 3 to override platform restrictions) and commercial entities (bound by terms of service), whilst GDPR obligations apply universally. We demonstrate why true anonymisation remains unachievable for social media data and expose the legal gap between permitted dataset creation and uncertain model distribution. By structuring compliance decisions into practical workflows and simplifying institutional data management plans, PETLP enables researchers to navigate regulatory complexity with confidence, bridging the gap between legal requirements and research practice.",
+ "primary": "cs.MM"
+}

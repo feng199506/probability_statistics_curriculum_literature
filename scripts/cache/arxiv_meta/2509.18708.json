@@ -1,0 +1,17 @@
+{
+ "id": "2509.18708",
+ "title": "Optimization-centric cutting feedback for semiparametric models",
+ "authors": [
+  "Linda S. L. Tan",
+  "David J. Nott",
+  "David T. Frazier"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 3,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Complex statistical models are often built by combining multiple submodels, called modules. Here we consider modular inference where the modules contain both parametric and nonparametric components. In such cases, standard Bayesian inference can be highly sensitive to misspecification in any module, and influential prior specifications for the nonparametric components can compromise inference for the parametric components, and vice versa. We propose a novel \"optimization-centric\" approach to cutting feedback for semiparametric modular inference, which can address misspecification and prior-data conflicts. The proposed cut posteriors are defined via a variational optimization problem like other generalized posteriors, but regularization is based on Rényi divergence, instead of Kullback-Leibler divergence (KLD). We show empirically that defining the cut posterior using Rényi divergence delivers more robust inference than KLD, and Rényi divergence reduces the tendency to underestimate uncertainty when the variational approximations impose strong parametric or independence assumptions. Novel posterior concentration results that accommodate the Rényi divergence and allow for semiparametric components are derived, extending existing results for cut posteriors that only apply to KLD and parametric models. These new methods are demonstrated in a benchmark example and two real examples: Gaussian process adjustments for confounding in causal inference and misspecified copula models with nonparametric marginals.",
+ "primary": "stat.ME"
+}

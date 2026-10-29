@@ -1,0 +1,17 @@
+{
+ "id": "2605.29611",
+ "title": "Hierarchical forecasting: The role of information",
+ "authors": [
+  "Minh Nguyen",
+  "Farshid Vahid",
+  "Shanika L Wickramasuriya"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In hierarchical forecasting, the process of forecast reconciliation transforms a set of \"base\" or \"raw\" forecasts, which do not satisfy the hierarchical aggregation constraints in the real data, into a set of \"coherent\" forecasts, which do satisfy those constraints. The academic literature provides ample simulation evidence and real-world examples demonstrating the value of forecast reconciliation in improving forecasts of hierarchical time series. This improvement is attributed to the imposition of aggregation constraints. However, this evidence is derived from base forecasts, each generated using a distinct information set, usually the univariate information set corresponding to each time series. Since reconciliation algorithms combine forecasts, it is difficult to determine the extent to which the improvement is due to the imposition of constraints versus the combination of information carried by different forecasts. In this paper, we demonstrate that when base forecasts are based on different information sets and historical data are available, there is scope for improving these forecasts by combining the information that each one carries, even when they are already coherent. We propose a new method, called the information combination (IComb) method, which combines the information content of forecasts during the reconciliation process. The method is regression-based and can be implemented using existing penalised regression packages. We provide simulation evidence to illustrate the role of information sets, as distinct from the role of aggregation constraints, in forecasting hierarchical time series. Finally, we apply our method to datasets previously used in the literature and demonstrate that it achieves superior results compared to traditional approaches.",
+ "primary": "stat.ME"
+}

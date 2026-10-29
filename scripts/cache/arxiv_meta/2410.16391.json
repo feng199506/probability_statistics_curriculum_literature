@@ -1,0 +1,18 @@
+{
+ "id": "2410.16391",
+ "title": "Causal Data Fusion for Panel Data without a Pre-Intervention Period",
+ "authors": [
+  "Zou Yang",
+  "Seung Hee Lee",
+  "Julia R. Köhler",
+  "AmirEmad Ghassami"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 4,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traditional panel-data causal inference frameworks, such as difference-in-differences and synthetic control methods, rely on pre-intervention data to estimate counterfactual means. However, such data may be unavailable in real-world settings when interventions are implemented in response to sudden events, such as public health crises or epidemiological shocks. In this paper, we introduce two data-fusion methods for causal inference from panel data in scenarios where pre-intervention data are unavailable. These methods leverage auxiliary reference domains with related panel data to estimate causal effects in the target domain, thereby overcoming the limitations imposed by the absence of pre-intervention data. We demonstrate the efficacy of these methods by deriving bounds on the absolute bias that converge to zero under suitable conditions, as well as through simulations across a variety of panel-data settings. Our proposed methodology renders causal inference feasible in urgent and data-constrained environments where the assumptions of existing causal inference frameworks are not met. As an application of our methodology, we evaluate the effect of a community organization vaccination intervention in Chelsea, Massachusetts on COVID-19 vaccination rates.",
+ "primary": "stat.ME"
+}

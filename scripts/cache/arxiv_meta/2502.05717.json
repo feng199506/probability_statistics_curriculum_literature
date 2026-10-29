@@ -1,0 +1,19 @@
+{
+ "id": "2502.05717",
+ "title": "A Response to Recent Critiques of Hainmueller, Mummolo and Xu (2019) on Estimating Conditional Relationships",
+ "authors": [
+  "Jens Hainmueller",
+  "Jiehan Liu",
+  "Ziyi Liu",
+  "Jonathan Mummolo",
+  "Yiqing Xu"
+ ],
+ "v1_date": "2025-02-08",
+ "latest_version": 1,
+ "latest_date": "2025-02-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simonsohn (2024a) and Simonsohn (2024b) critique Hainmueller, Mummolo and Xu (2019, HMX), arguing that failing to model nonlinear relationships between the treatment and moderator leads to biased marginal effect estimates and uncontrolled Type-I error rates. While these critiques highlight the issue of under-modeling nonlinearity in applied research, they are fundamentally flawed in several key ways. First, the causal estimand for interaction effects and the necessary identifying assumptions are not clearly defined in these critiques. Once properly stated, the critiques no longer hold. Second, the kernel estimator HMX proposes recovers the true causal effects in the scenarios presented in these recent critiques, which compared effects to the wrong benchmark, producing misleading conclusions. Third, while Generalized Additive Models (GAM) can be a useful exploratory tool (as acknowledged in HMX), they are not designed to estimate marginal effects, and better alternatives exist, particularly in the presence of additional covariates. Our response aims to clarify these misconceptions and provide updated recommendations for researchers studying interaction effects through the estimation of conditional marginal effects.",
+ "primary": "stat.ME"
+}

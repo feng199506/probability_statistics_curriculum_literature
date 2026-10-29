@@ -1,0 +1,17 @@
+{
+ "id": "2608.07432",
+ "title": "Spectral Dependence of Convex Regularization: Fundamental Limits under Right-Rotationally Invariant Designs",
+ "authors": [
+  "Baichen Tan",
+  "Audrey Yang",
+  "Cynthia Rush"
+ ],
+ "v1_date": "2026-08-07",
+ "latest_version": 2,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the fundamental limits of convex-regularized estimation in high-dimensional linear regression with right-rotationally invariant design matrices. We show that the asymptotic risks of convex-penalized least squares estimators are lower bounded by the risk of an approximate message passing algorithm known as Bayes VAMP, and we further characterize when the lower bound is attainable. As a technical ingredient in the proof of our lower bound theorem, we characterize the asymptotic performance of the $\\ell_2$-perturbed convex estimator for every fixed perturbation strength $λ>0$. This closes a gap in the literature, in which $λ$ was required to be sufficiently large or restrictions were imposed on the class of convex estimators. The benefit of our approach is that we can conduct a direct analysis of the spectrum's impact on the lower bound in the high-dimensional limit. In particular, we can show that the lower bound is monotone in an ordering on the limiting spectral distributions of the design matrix. These results isolate how the full singular-value distribution of the design---not merely the aspect ratio or average measurement strength---governs the limitations of convex regularization.",
+ "primary": "math.ST"
+}

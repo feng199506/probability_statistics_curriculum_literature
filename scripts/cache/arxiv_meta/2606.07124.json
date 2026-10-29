@@ -1,0 +1,16 @@
+{
+ "id": "2606.07124",
+ "title": "Information-Theoretic Bounds for Sparse Covariance Estimation in the Vertical-Split Distributed Model",
+ "authors": [
+  "Jing Yee Tan",
+  "Guangyue Han"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 3,
+ "latest_date": "2026-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the minimax estimation error for distributed covariance matrix estimation in the vertical-split (feature-split) setting, where two agents each observe different coordinates of~$m$ i.i.d.\\ sub-Gaussian samples and communicate a limited number of bits to a central server. While \\cite{rahmani2025fundamental} established nearly tight bounds for dense (unstructured) cross-covariance matrices, we investigate whether imposing elementwise $s$-sparsity on the cross-covariance $C_{21}$ can reduce the required communication and sample complexity. We show that sparsity can reduce the communication required for cross-covariance estimation in the vertical split at a fixed target distortion. Specifically, for sufficiently large $d_1d_2/s'$ and $0<\\varepsilon<σ^2\\sqrt{s'}/32$, any scheme achieving expected Frobenius distortion at most $\\varepsilon$ must satisfy $B_k = Ω(σ^4 d_k\\, s' \\log(d_1 d_2/s')/\\varepsilon^2)$ and $m = Ω(σ^4\\, s' \\log(d_1 d_2/s')/\\varepsilon^2)$ for cross-covariance estimation, where $s' = s \\wedge d_{\\min}$. For the $1$-sparse case, our achievable scheme reduces the $d_1d_2$ factor in the dense communication rate to $\\log(d_1d_2)$, up to polylogarithmic factors, for the cross-covariance communication component in the matching regime. Our lower bounds are established via Fano's method with an explicit sparse packing using a Varshamov--Gilbert-type argument for signed partial permutation matrices combined with the Conditional Strong Data Processing Inequality of \\cite{rahmani2025fundamental}. We show that the communication lower bound is tight up to polylogarithmic factors under the conditions of Remark 4.9, using an achievable scheme based on covering-net quantization and entry-wise hard thresholding.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2510.09991",
+ "title": "Multivariable Bidirectional Mendelian Randomization via Bayesian Directed Cyclic Graphical Models with Correlated Errors",
+ "authors": [
+  "Bitan Sarkar",
+  "Yuchao Jiang",
+  "Tian Ge",
+  "Yang Ni"
+ ],
+ "v1_date": "2025-10-11",
+ "latest_version": 2,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 12 figures, and 6 tables in the main paper; 23 pages, 10 figures, and 14 tables in the supplementary material",
+ "abstract": "Mendelian randomization (MR) is a pivotal tool in genetics, genomics, and epidemiology, leveraging genetic variants as instrumental variables to infer causal relationships between exposures and outcomes. Traditional MR methods, while powerful, often rely on stringent assumptions such as the absence of feedback loops, which are frequently violated in complex biological networks. In addition, many popular MR approaches focus on only two variables (i.e., one exposure and one outcome), whereas our motivating applications of gene regulatory networks have many variables. In this article, we introduce a novel Bayesian framework for multivariable MR that concurrently addresses unmeasured confounding and feedback loops. Central to our approach is a sparse conditional cyclic graphical model with a sparse error variance-covariance matrix. Two structural priors are employed to enable the modeling and inference of causal relationships as well as latent confounding structures. Our method is designed to operate effectively with summary-level data, facilitating its application in contexts where individual-level data are inaccessible, e.g., due to privacy concerns. It can also account for horizontal pleiotropy, under which we establish the sufficient identifiability conditions. Through extensive simulations and applications to the GTEx and OneK1K data, we demonstrate the superior performance of our approach in recovering biologically plausible causal relationships in the presence of possible feedback loops and unmeasured confounding. Using posterior samples, we further quantify uncertainty in inferred network motifs by computing their posterior probabilities. The R package MR.RGM that implements the proposed method is available on CRAN (https://cran.r-project.org/package=MR.RGM).",
+ "primary": "stat.ME"
+}

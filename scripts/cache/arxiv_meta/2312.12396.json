@@ -1,0 +1,19 @@
+{
+ "id": "2312.12396",
+ "title": "A Bayesian time-varying random partition model for large spatio-temporal datasets",
+ "authors": [
+  "Giulio Beltramin",
+  "Andrea Cremaschi",
+  "Annalisa Cadonna",
+  "Alessandra Guglielmi",
+  "Fernando Andrés Quintana"
+ ],
+ "v1_date": "2023-12-09",
+ "latest_version": 2,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatio-temporal areal data can be seen as a collection of time series which are spatially correlated, according to a specific neighbouring structure. Motivated by a dataset on mobile phone usage in the Metropolitan area of Milan, Italy, we propose a semi-parametric hierarchical Bayesian model allowing for time-varying as well as spatial model-based clustering. Our approach incorporates the notion of regimes that describe changing patterns over work and night hours as well as weekdays/weekends. Changes across regimes are considered by means of temporal changepoint components that allow for different hierarchical structures specified across time points. The changepoints might occur within fixed time windows over the day. The model features a novel random partition prior that incorporates the desired spatial features and encourages co-clustering based on areal proximity. We explore properties of the model by way of extensive simulation studies from which we collect valuable information. Finally, we discuss the application to the motivating data, where the main goal is to spatially cluster population patterns of mobile phone usage.",
+ "primary": "stat.ME"
+}

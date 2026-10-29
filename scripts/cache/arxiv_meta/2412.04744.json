@@ -1,0 +1,16 @@
+{
+ "id": "2412.04744",
+ "title": "Marginally interpretable spatial logistic regression with bridge processes",
+ "authors": [
+  "Changwoo J. Lee",
+  "David B. Dunson"
+ ],
+ "v1_date": "2024-12-06",
+ "latest_version": 3,
+ "latest_date": "2025-12-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Corresponding R package spbridge is available at https://github.com/changwoo-lee/spbridge",
+ "abstract": "In including random effects to account for dependent observations, the odds ratio interpretation of logistic regression coefficients is changed from population-averaged to subject-specific. This is unappealing in many applications, motivating a rich literature on methods that maintain the marginal logistic regression structure without random effects, such as generalized estimating equations. However, for spatial data, random effect approaches are appealing in providing a full probabilistic characterization of the data that can be used for prediction. We propose a new class of spatial logistic regression models that maintain both population-averaged and subject-specific interpretations through a novel class of bridge processes for spatial random effects. These processes are shown to have appealing computational and theoretical properties, including a scale mixture of normal representation. The new methodology is illustrated with simulations and an analysis of childhood malaria prevalence data in the Gambia.",
+ "primary": "stat.ME"
+}

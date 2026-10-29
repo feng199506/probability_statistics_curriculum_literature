@@ -1,0 +1,16 @@
+{
+ "id": "2509.00312",
+ "title": "Multiply Robust Inference of Average Treatment Effects by High-dimensional Empirical Likelihood",
+ "authors": [
+  "Xintao Xia",
+  "Yumou Qiu"
+ ],
+ "v1_date": "2025-08-30",
+ "latest_version": 1,
+ "latest_date": "2025-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we develop a multiply robust inference procedure of the average treatment effect (ATE) for data with high-dimensional covariates. We consider the case where it is difficult to correctly specify a single parametric model for the propensity scores (PS). For example, the target population is formed from heterogeneous sources with different treatment assignment mechanisms. We propose a novel high-dimensional empirical likelihood weighting method under soft covariate balancing constraints to combine multiple working PS models. An extended set of calibration functions is used, and a regularized augmented outcome regression is developed to correct the bias due to non-exact covariate balancing. Those two approaches provide a new way to construct the Neyman orthogonal score of the ATE. The proposed confidence interval for the ATE achieves asymptotically valid nominal coverage under high-dimensional covariates if any of the PS models, their linear combination, or the outcome regression model is correctly specified. The proposed method is extended to generalized linear models for the outcome variable. Specifically, we consider estimating the ATE for data with unknown clusters, where multiple working PS models can be fitted based on the estimated clusters. Our proposed approach enables robust inference of the ATE for clustered data. We demonstrate the advantages of the proposed approach over the existing doubly robust inference methods under high-dimensional covariates via simulation studies. We analyzed the right heart catheterization dataset, initially collected from five medical centers and two different phases of studies, to demonstrate the effectiveness of the proposed method in practice.",
+ "primary": "stat.ME"
+}

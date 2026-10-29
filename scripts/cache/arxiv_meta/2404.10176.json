@@ -1,0 +1,19 @@
+{
+ "id": "2404.10176",
+ "title": "Multi-objective evolutionary GAN for tabular data synthesis",
+ "authors": [
+  "Nian Ran",
+  "Bahrul Ilmi Nasution",
+  "Claire Little",
+  "Richard Allmendinger",
+  "Mark Elliot"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 1,
+ "latest_date": "2024-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Synthetic data has a key role to play in data sharing by statistical agencies and other generators of statistical data products. Generative Adversarial Networks (GANs), typically applied to image synthesis, are also a promising method for tabular data synthesis. However, there are unique challenges in tabular data compared to images, eg tabular data may contain both continuous and discrete variables and conditional sampling, and, critically, the data should possess high utility and low disclosure risk (the risk of re-identifying a population unit or learning something new about them), providing an opportunity for multi-objective (MO) optimization. Inspired by MO GANs for images, this paper proposes a smart MO evolutionary conditional tabular GAN (SMOE-CTGAN). This approach models conditional synthetic data by applying conditional vectors in training, and uses concepts from MO optimisation to balance disclosure risk against utility. Our results indicate that SMOE-CTGAN is able to discover synthetic datasets with different risk and utility levels for multiple national census datasets. We also find a sweet spot in the early stage of training where a competitive utility and extremely low risk are achieved, by using an Improvement Score. The full code can be downloaded from https://github.com/HuskyNian/SMO\\_EGAN\\_pytorch.",
+ "primary": "cs.LG"
+}

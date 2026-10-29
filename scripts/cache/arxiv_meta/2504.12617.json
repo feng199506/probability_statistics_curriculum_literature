@@ -1,0 +1,17 @@
+{
+ "id": "2504.12617",
+ "title": "Bayesian Multivariate Density-Density Regression",
+ "authors": [
+  "Khai Nguyen",
+  "Yang Ni",
+  "Peter Mueller"
+ ],
+ "v1_date": "2025-04-17",
+ "latest_version": 2,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages, 25 figures, 1 table",
+ "abstract": "We introduce a novel and scalable Bayesian framework for multivariate-density-density regression (DDR), designed to model relationships between multivariate distributions. Our approach addresses the critical issue of distributions residing in spaces of differing dimensions. We utilize a generalized Bayes framework, circumventing the need for a fully specified likelihood by employing the sliced Wasserstein distance to measure the discrepancy between fitted and observed distributions. This choice not only handles high-dimensional data and varying sample sizes efficiently but also facilitates a Metropolis-adjusted Langevin algorithm (MALA) for posterior inference. Furthermore, we establish the posterior consistency of our generalized Bayesian approach, ensuring that the posterior distribution concentrates around the true parameters as the sample size increases. Through simulations and application to a population-scale single-cell dataset, we show that Bayesian DDR provides robust fits, superior predictive performance compared to traditional methods, and valuable insights into complex biological interactions.",
+ "primary": "stat.ME"
+}

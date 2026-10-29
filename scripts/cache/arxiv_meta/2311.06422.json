@@ -1,0 +1,15 @@
+{
+ "id": "2311.06422",
+ "title": "Statistical disclosure control for numeric microdata via sequential joint probability preserving data shuffling",
+ "authors": [
+  "Elias Chaibub Neto"
+ ],
+ "v1_date": "2023-11-10",
+ "latest_version": 1,
+ "latest_date": "2023-11-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 page, 12 figures",
+ "abstract": "Traditional perturbative statistical disclosure control (SDC) approaches such as microaggregation, noise addition, rank swapping, etc, perturb the data in an ``ad-hoc\" way in the sense that while they manage to preserve some particular aspects of the data, they end up modifying others. Synthetic data approaches based on the fully conditional specification data synthesis paradigm, on the other hand, aim to generate new datasets that follow the same joint probability distribution as the original data. These synthetic data approaches, however, rely either on parametric statistical models, or non-parametric machine learning models, which need to fit well the original data in order to generate credible and useful synthetic data. Another important drawback is that they tend to perform better when the variables are synthesized in the correct causal order (i.e., in the same order as the true data generating process), which is often unknown in practice. To circumvent these issues, we propose a fully non-parametric and model free perturbative SDC approach that approximates the joint distribution of the original data via sequential applications of restricted permutations to the numerical microdata (where the restricted permutations are guided by the joint distribution of a discretized version of the data). Empirical comparisons against popular SDC approaches, using both real and simulated datasets, suggest that the proposed approach is competitive in terms of the trade-off between confidentiality and data utility.",
+ "primary": "stat.AP"
+}

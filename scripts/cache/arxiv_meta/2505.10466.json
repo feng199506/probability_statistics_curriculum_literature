@@ -1,0 +1,17 @@
+{
+ "id": "2505.10466",
+ "title": "FlowVAT: Normalizing Flow Variational Inference with Affine-Invariant Tempering",
+ "authors": [
+  "Juehang Qin",
+  "Shixiao Liang",
+  "Christopher Tunnell"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 5 figures, and 2 tables in main text, two appendices",
+ "abstract": "Multi-modal and high-dimensional posteriors present significant challenges for variational inference, causing mode-seeking behavior and collapse despite the theoretical expressiveness of normalizing flows. Traditional annealing methods require temperature schedules and hyperparameter tuning, falling short of the goal of truly black-box variational inference. We introduce FlowVAT, a conditional tempering approach for normalizing flow variational inference that addresses these limitations. Our method tempers both the base and target distributions simultaneously, maintaining affine-invariance under tempering. By conditioning the normalizing flow on temperature, we leverage overparameterized neural networks' generalization capabilities to train a single flow representing the posterior across a range of temperatures. This preserves modes identified at higher temperatures when sampling from the variational posterior at $T = 1$, mitigating standard variational methods' mode-seeking behavior. In experiments with 2, 10, and 20 dimensional multi-modal distributions, FlowVAT outperforms traditional and adaptive annealing methods, finding more modes and achieving better ELBO values, particularly in higher dimensions where existing approaches fail. Our method requires minimal hyperparameter tuning and does not require an annealing schedule, advancing toward fully-automatic black-box variational inference for complicated posteriors.",
+ "primary": "stat.ML"
+}

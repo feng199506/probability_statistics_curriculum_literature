@@ -1,0 +1,20 @@
+{
+ "id": "2609.07610",
+ "title": "Translation of Black-Box Clinical Prediction Models into Standalone Transparent Nomograms: Temporal External Validation in Heart Transplantation",
+ "authors": [
+  "Henry Pigot",
+  "Paulo J. G. Lisboa",
+  "Sandra Ortega-Martorell",
+  "Ivan Olier",
+  "Joseph Mahon",
+  "Johan Nilsson"
+ ],
+ "v1_date": "2026-09-07",
+ "latest_version": 1,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages of main text with 4 figures and 3 tables; supplemental information (supplementary methods, Figures S1-S4, Tables S1-S26) appended, 86 pages total",
+ "abstract": "We convert black-box clinical prediction models for tabular data into standalone nomograms that can be audited term by term. PRiSM (Partial Responses in Structured Models) takes the shape of each effect and interaction from the source model, not merely which variables mattered, and lets the outcome select and weight them. We tested this in 50,356 heart transplant recipients, with validation in a later era than training. Nomograms from all 5 source models - a public clinical risk score, logistic regression, neural networks, random forests and extreme gradient boosting - met a prespecified noninferiority criterion for discrimination before any further simplification, and generally preserved calibration and clinical net benefit. Those from the 3 machine-learning models showed no detectable difference in discrimination from de novo generalized additive and explainable boosting models, exceeded neural additive models, and carried fewer terms than the explainable boosting model. PRiSM is released as an open-source Python package.",
+ "primary": "cs.LG"
+}

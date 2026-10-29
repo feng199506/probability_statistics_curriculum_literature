@@ -1,0 +1,17 @@
+{
+ "id": "2505.24811",
+ "title": "Locally Differentially Private Two-Sample Testing",
+ "authors": [
+  "Alexander Kent",
+  "Thomas B. Berrett",
+  "Yi Yu"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "76 pages, 7 figures, 1 table",
+ "abstract": "We consider the problem of two-sample testing under a local differential privacy constraint where a permutation procedure is used to calibrate the tests. We develop testing procedures which are optimal up to logarithmic factors, for general discrete distributions and continuous distributions subject to a smoothness constraint. Both non-interactive and interactive tests are considered, and we show allowing interactivity results in an improvement in the minimax separation rates. Our results show that permutation procedures remain feasible in practice under local privacy constraints, despite the inability to permute the non-private data directly and only the private views. Further, through a refined theoretical analysis of the permutation procedure, we are able to avoid an equal sample size assumption which has been made in the permutation testing literature regardless of the presence of the privacy constraint. Lastly, we conduct numerical experiments which demonstrate the performance of our proposed test and verify the theoretical findings, especially the improved performance enabled by allowing interactivity.",
+ "primary": "math.ST"
+}

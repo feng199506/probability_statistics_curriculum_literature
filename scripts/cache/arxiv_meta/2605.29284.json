@@ -1,0 +1,17 @@
+{
+ "id": "2605.29284",
+ "title": "Rapid Approximation Prediction for Kriging",
+ "authors": [
+  "Ziyu Li",
+  "Gregory Fasshauer",
+  "Douglas Nychka"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 figures, 38 pages",
+ "abstract": "Exact Kriging and conditional simulation (CS) for uncertainty quantification are computationally infeasible for modern spatial analyses with large numbers of observations and dense prediction grids. We present a rapid approximation to the Kriging prediction step for stationary Gaussian processes for a regular prediction grid by approximating each off-grid covariance vector by a sparse linear combination of on-grid covariances within a local $L$-order neighborhood of $M = (2L)^2$ neighboring grid points. This reformulation reduces complexity from $O(N n^3)$ to $O(N \\log N + nM + M^3)$ while preserving accuracy. A factorial study shows that approximation error decreases systematically with increased Matérn smoothness, neighbor order $L$, and grid resolution, aligning with bounds from kernel approximation theory. In a North American summer-rainfall application ($n=1368$), our method produces predictions visually indistinguishable from exact Kriging with point-wise errors on the order of $10^{-5}$ inches and achieves more than $150$ times speedups at a $350\\times350$ grid, also outperforming Vecchia and LatticeKrig predictions. Embedded in a fast CS scheme, the approach reproduces Kriging standard errors and scales favorably with both $n$ and $N$. We recommend a practical workflow that uses a fast method for parameter estimation followed by our rapid predictor for fine-grid mapping and uncertainty quantification.",
+ "primary": "stat.ME"
+}

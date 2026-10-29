@@ -1,0 +1,16 @@
+{
+ "id": "2609.39614",
+ "title": "Improving the James-Stein estimator via q-number shrinkage",
+ "authors": [
+  "Yuzo Maruyama",
+  "Akimichi Takemura"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 2,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Major revision with q-number formulation; title updated",
+ "abstract": "For estimating the mean vector of a $p$-variate normal distribution ($p \\ge 3$) under quadratic loss, the positive-part James-Stein estimator dominates the original Jame-Stein estimator though it suffers from a non-smooth thresholding boundary. In this paper, we first express the shrinkage factor of the positive-part estimator using an infinite series. Truncating this series at a finite degree $m$ allows us to interpret the factor as a special case of $q$-numbers. Leveraging these $q$-numbers parameterized by a positive real index $m$, we propose a novel smooth estimator. We prove that the proposed estimator dominates the original James-Stein estimator for any dimension $p \\ge 3$, provided the truncation parameter satisfies $m \\ge 0.95\\sqrt{p-2}$.",
+ "primary": "math.ST"
+}

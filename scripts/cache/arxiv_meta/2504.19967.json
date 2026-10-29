@@ -1,0 +1,17 @@
+{
+ "id": "2504.19967",
+ "title": "Enhancing short-term traffic prediction by integrating trends and fluctuations with attention mechanism",
+ "authors": [
+  "Adway Das",
+  "Agnimitra Sengupta",
+  "S. Ilgin Guler"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traffic flow prediction is a critical component of intelligent transportation systems, yet accurately forecasting traffic remains challenging due to the interaction between long-term trends and short-term fluctuations. Standard deep learning models often struggle with these challenges because their architectures inherently smooth over fine-grained fluctuations while focusing on general trends. This limitation arises from low-pass filtering effects, gate biases favoring stability, and memory update mechanisms that prioritize long-term information retention. To address these shortcomings, this study introduces a hybrid deep learning framework that integrates both long-term trend and short-term fluctuation information using two input features processed in parallel, designed to capture complementary aspects of traffic flow dynamics. Further, our approach leverages attention mechanisms, specifically Bahdanau attention, to selectively focus on critical time steps within traffic data, enhancing the model's ability to predict congestion and other transient phenomena. Experimental results demonstrate that features learned from both branches are complementary, significantly improving the goodness-of-fit statistics across multiple prediction horizons compared to a baseline model. Notably, the attention mechanism enhances short-term forecast accuracy by directly targeting immediate fluctuations, though challenges remain in fully integrating long-term trends. This framework can contribute to more effective congestion mitigation and urban mobility planning by advancing the robustness and precision of traffic prediction models.",
+ "primary": "cs.ET"
+}

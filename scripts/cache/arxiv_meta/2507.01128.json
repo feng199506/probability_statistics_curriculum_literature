@@ -1,0 +1,19 @@
+{
+ "id": "2507.01128",
+ "title": "rdhte: Conditional Average Treatment Effects in RD Designs",
+ "authors": [
+  "Sebastian Calonico",
+  "Matias D. Cattaneo",
+  "Max H. Farrell",
+  "Filippo Palomba",
+  "Rocio Titiunik"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 1,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding causal heterogeneous treatment effects based on pretreatment covariates is a crucial aspect of empirical work. Building on Calonico, Cattaneo, Farrell, Palomba, and Titiunik (2025), this article discusses the software package rdhte for estimation and inference of heterogeneous treatment effects in sharp regression discontinuity (RD) designs. The package includes three main commands: rdhte conducts estimation and robust bias-corrected inference for heterogeneous RD treatment effects, for a given choice of the bandwidth parameter; rdbwhte implements automatic bandwidth selection methods; and rdhte lincom computes point estimates and robust bias-corrected confidence intervals for linear combinations, a post-estimation command specifically tailored to rdhte. We also provide an overview of heterogeneous effects for sharp RD designs, give basic details on the methodology, and illustrate using an empirical application. Finally, we discuss how the package rdhte complements, and in specific cases recovers, the canonical RD package rdrobust (Calonico, Cattaneo, Farrell, and Titiunik 2017).",
+ "primary": "econ.EM"
+}

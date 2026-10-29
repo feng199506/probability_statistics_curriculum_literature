@@ -1,0 +1,19 @@
+{
+ "id": "2603.09058",
+ "title": "Adaptive Active Learning for Online Reliability Prediction of Satellite Electronics",
+ "authors": [
+  "Shixiang Li",
+  "Yubin Tian",
+  "Dianpeng Wang",
+  "Piao Chen",
+  "Mengying Ren"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 1,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate on-orbit reliability prediction for satellite electronics is often hindered by limited data availability, varying operational conditions, and considerable unit-to-unit variability. To overcome these obstacles, this paper proposes a novel integrated online reliability prediction framework. The main contributions are twofold. First, a Wiener process-based degradation model is developed, incorporating a generalized Arrhenius link function, individual random effects, and spatial correlations among adjacent units. A customized maximum likelihood estimation method is further devised to facilitate efficient and accurate parameter inference. Second, a two-stage active learning sampling scheme is designed to adaptively enhance prediction accuracy. This strategy initially selects representative units based on spatial configuration, and subsequently determines optimal sampling times using a comprehensive criterion that balances unit-specific information, model uncertainty, and degradation dynamics. Numerical experiments and a practical case study from the Tiangong space station demonstrate that the proposed method markedly improves reliability prediction accuracy while significantly reducing data requirements, offering an efficient solution for the prognostic and health management of complex satellite electronic systems.",
+ "primary": "stat.ME"
+}

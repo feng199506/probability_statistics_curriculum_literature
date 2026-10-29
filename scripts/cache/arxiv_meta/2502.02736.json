@@ -1,0 +1,18 @@
+{
+ "id": "2502.02736",
+ "title": "Estimating Optimal Dynamic Treatment Regimes Using Irregularly Observed Data: A Target Trial Emulation and Bayesian Joint Modeling Approach",
+ "authors": [
+  "Larry Dong",
+  "Eleanor Pullenayegum",
+  "Rodolphe Thiébaut",
+  "Olli Saarela"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 1,
+ "latest_date": "2025-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An optimal dynamic treatment regime (DTR) is a sequence of decision rules aimed at providing the best course of treatments individualized to patients. While conventional DTR estimation uses longitudinal data, such data can also be irregular, where patient-level variables can affect visit times, treatment assignments and outcomes. In this work, we first extend the target trial framework - a paradigm to estimate statistical estimands specified under hypothetical randomized trials using observational data - to the DTR context; this extension allows treatment regimes to be defined with intervenable visit times. We propose an adapted version of G-computation marginalizing over random effects for rewards that encapsulate a treatment strategy's value. To estimate components of the G-computation formula, we then articulate a Bayesian joint model to handle correlated random effects between the outcome, visit and treatment processes. We show via simulation studies that, in the estimation of regime rewards, failure to account for the observational treatment and visit processes produces bias which can be removed through joint modeling. We also apply our proposed method on data from INSPIRE 2 and 3 studies to estimate optimal injection cycles of Interleukin 7 to treat HIV-infected individuals.",
+ "primary": "stat.ME"
+}

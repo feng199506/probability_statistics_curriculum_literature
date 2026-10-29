@@ -1,0 +1,17 @@
+{
+ "id": "2411.01237",
+ "title": "Sparse Linear Regression: Sequential Convex Relaxation, Robust Restricted Null Space Property, and Variable Selection",
+ "authors": [
+  "Shujun Bi",
+  "Yonghua Yang",
+  "Shaohua Pan"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 4 figures",
+ "abstract": "For high dimensional sparse linear regression problems, we propose a sequential convex relaxation algorithm (iSCRA-TL1) by solving inexactly a sequence of truncated $\\ell_1$-norm regularized minimization problems, in which the working index sets are constructed iteratively with an adaptive strategy. We employ the robust restricted null space property and sequential restricted null space property (rRNSP and rSRNSP) to provide the theoretical certificates of iSCRA-TL1. Specifically, under a mild rRNSP or rSRNSP, iSCRA-TL1 is shown to identify the support of the true $r$-sparse vector by solving at most $r$ truncated $\\ell_1$-norm regularized problems, and the $\\ell_1$-norm error bound of its iterates from the oracle solution is also established. As a consequence, an oracle estimator of high-dimensional linear regression problems can be achieved by solving at most $r\\!+\\!1$ truncated $\\ell_1$-norm regularized problems. To the best of our knowledge, this is the first sequential convex relaxation algorithm to produce an oracle estimator under a weaker NSP condition within a specific number of steps, provided that the Lasso estimator lacks high quality, say, the supports of its first $r$ largest (in modulus) entries do not coincide with those of the true vector.",
+ "primary": "math.ST"
+}

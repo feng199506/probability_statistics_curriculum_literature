@@ -1,0 +1,18 @@
+{
+ "id": "2502.03809",
+ "title": "Bayesian Time-Varying Meta-Analysis via Hierarchical Mean-Variance Random-effects Models",
+ "authors": [
+  "Kohsuke Kubota",
+  "Shonosuke Sugasawa",
+  "Keiichi Ochiai",
+  "Takahiro Hoshino"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 2,
+ "latest_date": "2026-01-16",
+ "journal_ref": "Japanese Journal of Statistics and Data Science, 2025",
+ "doi": "10.1007/s42081-025-00311-3",
+ "comment": "27 pages (Main document)",
+ "abstract": "Meta-analysis is widely used to integrate results from multiple experiments to obtain generalized insights. Since meta-analysis datasets are often heteroscedastic due to varying subgroups and temporal heterogeneity arising from experiments conducted at different time points, the typical meta-analysis approach, which assumes homoscedasticity, fails to adequately address this heteroscedasticity among experiments. This paper proposes a new Bayesian estimation method that simultaneously shrinks estimates of the means and variances of experiments using a hierarchical Bayesian approach while accounting for time effects through a Gaussian process. This method connects experiments via the hierarchical framework, enabling \"borrowing strength\" between experiments to achieve high-precision estimates of each experiment's mean. The method can flexibly capture potential time trends in datasets by modeling time effects with the Gaussian process. We demonstrate the effectiveness of the proposed method through simulation studies and illustrate its practical utility using a real marketing promotions dataset.",
+ "primary": "stat.ME"
+}

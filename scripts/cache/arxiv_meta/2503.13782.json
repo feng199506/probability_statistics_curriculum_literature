@@ -1,0 +1,16 @@
+{
+ "id": "2503.13782",
+ "title": "Regularized Parameter Estimation in Mixed Model Trace Regression",
+ "authors": [
+  "Ian Hultman",
+  "Sanvesh Srivastava"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 1,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 3 figures, and 7 tables",
+ "abstract": "We introduce mixed model trace regression (MMTR), a mixed model linear regression extension for scalar responses and high-dimensional matrix-valued covariates. MMTR's fixed effects component is equivalent to trace regression, with an element-wise lasso penalty imposed on the regression coefficients matrix to facilitate the estimation of a sparse mean parameter. MMTR's key innovation lies in modeling the covariance structure of matrix-variate random effects as a Kronecker product of low-rank row and column covariance matrices, enabling sparse estimation of the covariance parameter through low-rank constraints. We establish identifiability conditions for the estimation of row and column covariance matrices and use them for rank selection by applying group lasso regularization on the columns of their respective Cholesky factors. We develop an Expectation-Maximization (EM) algorithm extension for numerically stable parameter estimation in high-dimensional applications. MMTR achieves estimation accuracy comparable to leading regularized quasi-likelihood competitors across diverse simulation studies and attains the lowest mean square prediction error compared to its competitors on a publicly available image dataset.",
+ "primary": "stat.ME"
+}

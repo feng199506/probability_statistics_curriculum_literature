@@ -1,0 +1,15 @@
+{
+ "id": "2504.11834",
+ "title": "Estimation and inference in error-in-operator model",
+ "authors": [
+  "Vladimir Spokoiny"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 2,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many statistical problems can be reduced to a linear inverse problem in which only a noisy version of the operator is available. Particular examples include random design regression, deconvolution problem, instrumental variable regression, functional data analysis, error-in-variable regression, drift estimation in stochastic diffusion, and many others. The pragmatic plug-in approach can be well justified in the classical asymptotic setup with a growing sample size. However, recent developments in high dimensional inference reveal some new features of this problem. In high dimensional linear regression with a random design, the plug-in approach is questionable but the use of a simple ridge penalization yields a benign overfitting phenomenon; see \\cite{baLoLu2020}, \\cite{ChMo2022}, \\cite{NoPuSp2024}. This paper revisits the general Error-in-Operator problem for finite samples and high dimension of the source and image spaces. A particular focus is on the choice of a proper regularization. We show that a simple ridge penalty (Tikhonov regularization) works properly in the case when the operator is more regular than the signal. In the opposite case, some model reduction technique like spectral truncation should be applied.",
+ "primary": "math.ST"
+}

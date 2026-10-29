@@ -1,0 +1,16 @@
+{
+ "id": "2411.18481",
+ "title": "Bhirkuti's Test of Bias Acceptance (BTBA): Examining Its Performance in Psychometric Simulations",
+ "authors": [
+  "Aneel Bhusal",
+  "Todd D. Little"
+ ],
+ "v1_date": "2024-11-27",
+ "latest_version": 3,
+ "latest_date": "2025-05-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Bhirkuti's Test of Bias Acceptance (BTBA), a standardized framework for evaluating estimator bias in Monte Carlo simulation studies. BTBA uses a simulation-specific standardized score (Z*) and a decision matrix to assess bias acceptability based on the mean and variance of Z* distributions. Under ideal conditions, Z* values should approximate a standard normal distribution (Z-distribution) with a mean near zero and variance near one in the context of simulation research. Systematic deviations from these patterns such as shifted means or inflated variances indicate bias or estimator instability in simulation-based research. BTBA visualizes these patterns using ridgeline density plots, which reveal distributional features such as central tendency, spread, skewness, and outliers. Demonstrated in a latent growth modeling context, BTBA offers a reproducible and interpretable method for diagnosing bias across varying simulation conditions. By addressing key limitations of traditional relative bias (RB) metrics, BTBA provides a theoretically grounded, distribution-aware, transparent, and replicable alternative for evaluating estimator quality, particularly in psychometric modeling, structural equation modeling, and missing data research. Through this framework, we aim to enhance methodological decision-making by integrating statistical reasoning with comprehensive visualization techniques.",
+ "primary": "stat.ME"
+}

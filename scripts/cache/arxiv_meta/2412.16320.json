@@ -1,0 +1,17 @@
+{
+ "id": "2412.16320",
+ "title": "Combining BART and Principal Stratification to estimate the effect of intermediate variables on primary outcomes with application to estimating the effect of family planning on employment in Nigeria and Senegal",
+ "authors": [
+  "Lucas Godoy Garraza",
+  "Ilene Speizer",
+  "Leontine Alkema"
+ ],
+ "v1_date": "2024-12-20",
+ "latest_version": 4,
+ "latest_date": "2026-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2408.03777",
+ "abstract": "There is interest in learning about the causal effects of modern contraceptive use on empowerment outcomes. Data on this question often come from family planning (FP) programs that increase access to FP and facilitate contraceptive use among some women, rather than directly assigning use. Women whose contraceptive behavior changes because of these programs (\"compliers\") may differ from target populations in ways that alter the consequences of contraceptive use for empowerment outcomes. We propose a two-step approach. First, we use principal stratification and Bayesian Additive Regression Trees (BART) to estimate the effect of modern contraceptive use among compliers in the study population, treating the FP program as an instrument rather than as the treatment of interest. Second, we generalize these complier-specific effects to a broader population by averaging conditional effects over the covariate distribution in the target population, with uncertainty in that distribution quantified via a Bayesian bootstrap applied to external complex survey data. We examine performance in simulation designs previously used to evaluate IV estimators. We then apply the approach to employment among urban women in Nigeria and Senegal, finding strong and heterogeneous effects of contraceptive use. Sensitivity analyses suggest robustness to violations of assumptions for internal and external validity.",
+ "primary": "stat.ME"
+}

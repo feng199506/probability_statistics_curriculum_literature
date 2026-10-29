@@ -1,0 +1,16 @@
+{
+ "id": "2407.16374",
+ "title": "A unified framework for multivariate two-sample and k-sample kernel-based quadratic distance goodness-of-fit tests",
+ "authors": [
+  "Marianthi Markatou",
+  "Giovanni Saraceno"
+ ],
+ "v1_date": "2024-07-23",
+ "latest_version": 2,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 16 figures",
+ "abstract": "In the statistical literature, as well as in artificial intelligence and machine learning, measures of discrepancy between two probability distributions are largely used to develop measures of goodness-of-fit. We concentrate on quadratic distances, which depend on a non-negative definite kernel. We propose a unified framework for the study of two-sample and k-sample goodness of fit tests based on the concept of matrix distance. We provide a succinct review of the goodness of fit literature related to the use of distance measures, and specifically to quadratic distances. We show that the quadratic distance kernel-based two-sample test has the same functional form with the maximum mean discrepancy test. We develop tests for the $k$-sample scenario, where the two-sample problem is a special case. We derive their asymptotic distribution under the null hypothesis and discuss computational aspects of the test procedures. We assess their performance, in terms of level and power, via extensive simulations and a real data example. The proposed framework is implemented in the QuadratiK package, available in both R and Python environments.",
+ "primary": "stat.ME"
+}

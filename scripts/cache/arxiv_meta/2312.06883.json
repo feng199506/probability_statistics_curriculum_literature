@@ -1,0 +1,17 @@
+{
+ "id": "2312.06883",
+ "title": "Adaptive Experiments Toward Learning Treatment Effect Heterogeneity",
+ "authors": [
+  "Waverly Wei",
+  "Xinwei Ma",
+  "Jingshen Wang"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 3,
+ "latest_date": "2024-07-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding treatment effect heterogeneity has become an increasingly popular task in various fields, as it helps design personalized advertisements in e-commerce or targeted treatment in biomedical studies. However, most of the existing work in this research area focused on either analyzing observational data based on strong causal assumptions or conducting post hoc analyses of randomized controlled trial data, and there has been limited effort dedicated to the design of randomized experiments specifically for uncovering treatment effect heterogeneity. In the manuscript, we develop a framework for designing and analyzing response adaptive experiments toward better learning treatment effect heterogeneity. Concretely, we provide response adaptive experimental design frameworks that sequentially revise the data collection mechanism according to the accrued evidence during the experiment. Such design strategies allow for the identification of subgroups with the largest treatment effects with enhanced statistical efficiency. The proposed frameworks not only unify adaptive enrichment designs and response-adaptive randomization designs but also complement A/B test designs in e-commerce and randomized trial designs in clinical settings. We demonstrate the merit of our design with theoretical justifications and in simulation studies with synthetic e-commerce and clinical trial data.",
+ "primary": "stat.ME"
+}

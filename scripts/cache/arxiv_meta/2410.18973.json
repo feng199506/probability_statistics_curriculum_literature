@@ -1,0 +1,17 @@
+{
+ "id": "2410.18973",
+ "title": "Tuning-Free Coreset Markov Chain Monte Carlo via Hot DoG",
+ "authors": [
+  "Naitong Chen",
+  "Jonathan H. Huggins",
+  "Trevor Campbell"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 2,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the 41st Conference on Uncertainty in Artificial Intelligence (UAI 2025)",
+ "abstract": "A Bayesian coreset is a small, weighted subset of a data set that replaces the full data during inference to reduce computational cost. The state-of-the-art coreset construction algorithm, Coreset Markov chain Monte Carlo (Coreset MCMC), uses draws from an adaptive Markov chain targeting the coreset posterior to train the coreset weights via stochastic gradient optimization. However, the quality of the constructed coreset, and thus the quality of its posterior approximation, is sensitive to the stochastic optimization learning rate. In this work, we propose a learning-rate-free stochastic gradient optimization procedure, Hot-start Distance over Gradient (Hot DoG), for training coreset weights in Coreset MCMC without user tuning effort. We provide a theoretical analysis of the convergence of the coreset weights produced by Hot DoG. We also provide empirical results demonstrate that Hot DoG provides higher quality posterior approximations than other learning-rate-free stochastic gradient methods, and performs competitively to optimally-tuned ADAM.",
+ "primary": "stat.CO"
+}

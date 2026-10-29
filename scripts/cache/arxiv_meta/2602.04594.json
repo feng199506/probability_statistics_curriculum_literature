@@ -1,0 +1,17 @@
+{
+ "id": "2602.04594",
+ "title": "Distributed Convoluted Rank Regression for Non-Shareable Data under Non-Additive Losses",
+ "authors": [
+  "Wen Zhang",
+  "Liping Zhu",
+  "Songshan Yang"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study high-dimensional rank regression when data are distributed across multiple machines and the loss is a non-additive U-statistic, as in convoluted rank regression (CRR). Classical communication-efficient surrogate likelihood (CSL) methods crucially rely on the additivity of the empirical loss and therefore break down for CRR, whose global loss couples all sample pairs across machines. We propose a distributed convoluted rank regression (DCRR) framework that constructs a similar surrogate loss and demonstrate its validity under the non-additive losses. We show that this surrogate shares the same population minimizer as the full-data CRR loss and yields estimators that are statistically equivalent to centralized CRR. Building on this, we develop a two-stage sparse DCRR procedure -- an iterative $\\ell_1$-penalized stage followed by a folded-concave refinement -- and establish non-asymptotic error bounds, a distributed strong oracle property, and a DHBIC-type criterion for consistent model selection. A scaling result shows that the number of machines may diverge as $M = o({N/(s^2\\log p)})$ while achieving centralized oracle rates with only $O(\\log N)$ communication rounds. Simulations and a large-scale real data example demonstrate substantial gains over naive divide-and-conquer, particularly under heavy-tailed errors.",
+ "primary": "stat.ME"
+}

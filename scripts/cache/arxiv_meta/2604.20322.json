@@ -1,0 +1,17 @@
+{
+ "id": "2604.20322",
+ "title": "Zero-Inflated Logistic Regression Models with Shared Design: Identifiability, Existence of Estimates, and a Relabeling Rule",
+ "authors": [
+  "Yui Tomo",
+  "Shinto Eguchi",
+  "Daisuke Yoneoka"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The zero-inflated logistic regression model accommodates binary responses with excess zeros, which often arise from a latent mixture of susceptible and insusceptible subpopulations or asymmetric misclassification of the response. The model has two components: regression for the binary response and a latent binary indicator for the zero-inflation state. In applied settings, it is common to use the same design matrix for both components if there is no prior knowledge. However, this shared-design specification lacks guaranteed identifiability of the regression parameters, as established in prior works. This paper investigates the theoretical properties of the zero-inflated logistic regression model under the shared-design setting and computational methods for applications. First, to motivate the use of the zero-inflated model, we prove that ignoring the zero-inflation mechanism can lead to a sign flip in the pseudo-true coefficient value relative to the true value. We then establish sufficient conditions for the existence of the maximum likelihood estimate. As a main result, we establish that the model under the shared-design setting is identifiable up to exchange symmetry of the parameters for two components and that the expected log-likelihood has a unique maximizer on the resulting quotient space. The posterior bimodality is examined using a Pólya-Gamma Gibbs sampler with replica exchange. Finally, we propose a simple relabeling rule to select a single ordered parameter pair, and evaluate its performance through simulation studies and an application to self-reported diabetes data.",
+ "primary": "stat.ME"
+}

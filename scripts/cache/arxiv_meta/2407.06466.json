@@ -1,0 +1,18 @@
+{
+ "id": "2407.06466",
+ "title": "Increased risk of type I errors for detecting heterogeneity of treatment effects in cluster-randomized trials using mixed-effect models",
+ "authors": [
+  "Noorie Hyun",
+  "Abisola E. Idu",
+  "Andrea J. Cook",
+  "Jennifer F. Bobb"
+ ],
+ "v1_date": "2024-07-09",
+ "latest_version": 1,
+ "latest_date": "2024-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evaluating heterogeneity of treatment effects (HTE) across subgroups is common in both randomized trials and observational studies. Although several statistical challenges of HTE analyses including low statistical power and multiple comparisons are widely acknowledged, issues arising for clustered data, including cluster randomized trials (CRTs), have received less attention. Notably, the potential for model misspecification is increased given the complex clustering structure (e.g., due to correlation among individuals within a subgroup and cluster), which could impact inference and type 1 errors. To illicit this issue, we conducted a simulation study to evaluate the performance of common analytic approaches for testing the presence of HTE for continuous, binary, and count outcomes: generalized linear mixed models (GLMM) and generalized estimating equations (GEE) including interaction terms between treatment group and subgroup. We found that standard GLMM analyses that assume a common correlation of participants within clusters can lead to severely elevated type 1 error rates of up to 47.2% compared to the 5% nominal level if the within-cluster correlation varies across subgroups. A flexible GLMM, which allows subgroup-specific within-cluster correlations, achieved the nominal type 1 error rate, as did GEE (though rates were slightly elevated even with as many as 50 clusters). Applying the methods to a real-world CRT using the count outcome utilization of healthcare, we found a large impact of the model specification on inference: the standard GLMM yielded highly significant interaction by sex (P=0.01), whereas the interaction was non-statistically significant under the flexible GLMM and GEE (P=0.64 and 0.93, respectively). We recommend that HTE analyses using GLMM account for within-subgroup correlation to avoid anti-conservative inference.",
+ "primary": "stat.ME"
+}

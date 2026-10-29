@@ -1,0 +1,15 @@
+{
+ "id": "2505.22211",
+ "title": "Handling bounded response in high dimensions: a Horseshoe prior Bayesian Beta regression approach",
+ "authors": [
+  "The Tien Mai"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 1,
+ "latest_date": "2025-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bounded continuous responses -- such as proportions -- arise frequently in diverse scientific fields including climatology, biostatistics, and finance. Beta regression is a widely adopted framework for modeling such data, due to the flexibility of the Beta distribution over the unit interval. While Bayesian extensions of Beta regression have shown promise, existing methods are limited to low-dimensional settings and lack theoretical guarantees. In this work, we propose a novel Bayesian approach for high-dimensional sparse Beta regression framework that employs a tempered posterior. Our method incorporates the Horseshoe prior for effective shrinkage and variable selection. Most notable, we propose a novel Gibbs sampling algorithm using Pólya-Gamma augmentation for efficient inference in Beta regression model. We also provide the first theoretical results establishing posterior consistency and convergence rates for Bayesian Beta regression. Through extensive simulation studies in both low- and high-dimensional scenarios, we demonstrate that our approach outperforms existing alternatives, offering improved estimation accuracy and model interpretability. Our method is implemented in the R package ``betaregbayes\" available on Github.",
+ "primary": "stat.ME"
+}

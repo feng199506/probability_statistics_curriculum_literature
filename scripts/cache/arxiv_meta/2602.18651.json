@@ -1,0 +1,17 @@
+{
+ "id": "2602.18651",
+ "title": "Hybrid combinations of parametric and empirical likelihoods",
+ "authors": [
+  "Nils Lid Hjort",
+  "Ian W. McKeague",
+  "Ingrid Van Keilegom"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 1,
+ "latest_date": "2026-02-20",
+ "journal_ref": "Statistica Sinica, 2018, vol. 28, pages 2389-2407",
+ "doi": "",
+ "comment": "24 pages, 4 figures. This is the July 2017 authors' manuscript, with Supplementary Material, with final paper published in Statistica Sinica, 2018, their Peter Hall issue, vol. 28, pages 2389-2407, see pmc.ncbi.nlm.nih.gov/articles/PMC6602551/",
+ "abstract": "This paper develops a hybrid likelihood (HL) method based on a compromise between parametric and nonparametric likelihoods. Consider the setting of a parametric model for the distribution of an observation $Y$ with parameter $θ$. Suppose there is also an estimating function $m(\\cdot,μ)$ identifying another parameter $μ$ via $E\\,m(Y,μ)=0$, at the outset defined independently of the parametric model. To borrow strength from the parametric model while obtaining a degree of robustness from the empirical likelihood method, we formulate inference about $θ$ in terms of the hybrid likelihood function $H_n(θ)=L_n(θ)^{1-a}R_n(μ(θ))^a$. Here $a\\in[0,1)$ represents the extent of the compromise, $L_n$ is the ordinary parametric likelihood for $θ$, $R_n$ is the empirical likelihood function, and $μ$ is considered through the lens of the parametric model. We establish asymptotic normality of the corresponding HL estimator and a version of the Wilks theorem. We also examine extensions of these results under misspecification of the parametric model, and propose methods for selecting the balance parameter $a$.",
+ "primary": "stat.ME"
+}

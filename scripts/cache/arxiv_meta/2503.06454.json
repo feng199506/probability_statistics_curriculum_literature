@@ -1,0 +1,16 @@
+{
+ "id": "2503.06454",
+ "title": "Bayesian Synthetic Control with a Soft Simplex Constraint",
+ "authors": [
+  "Yihong Xu",
+  "Quan Zhou"
+ ],
+ "v1_date": "2025-03-09",
+ "latest_version": 2,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The challenges posed by high-dimensional data and use of the simplex constraint are two major concerns in the empirical application of the synthetic control method (SCM) in econometric studies. To address both issues simultaneously, we propose a Bayesian SCM that integrates a soft simplex constraint within spike-and-slab variable selection. The hierarchical prior structure captures the extent to which the data supports the simplex constraint, allowing for more efficient and data-adaptive counterfactual estimation. The intractable marginal likelihood induced by the soft simplex constraint presents a major computational challenge, which we resolve by developing a novel Metropolis-within-Gibbs algorithm that updates the regression coefficients of two predictors simultaneously. Our main theoretical contribution is a high-dimensional selection consistency result for the spike-and-slab variable selection under the simplex constraint, which significantly extends the current theory for high-dimensional Bayesian variable selection. Simulation studies demonstrate that our method performs well across diverse settings. To illustrate its practical values, we apply it to two empirical examples for estimating the effect of economic policies.",
+ "primary": "stat.ME"
+}

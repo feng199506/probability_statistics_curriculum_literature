@@ -1,0 +1,17 @@
+{
+ "id": "2603.20134",
+ "title": "Triple/Double-Debiased Lasso",
+ "authors": [
+  "Denis Chetverikov",
+  "Jesper R. -V. Sørensen",
+  "Aleh Tsyvinski"
+ ],
+ "v1_date": "2026-03-20",
+ "latest_version": 1,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 10 figures",
+ "abstract": "In this paper, we propose a triple (or double-debiased) Lasso estimator for inference on a low-dimensional parameter in high-dimensional linear regression models. The estimator is based on a moment function that satisfies not only first- but also second-order Neyman orthogonality conditions, thereby eliminating both the leading bias and the second-order bias induced by regularization. We derive an asymptotic linear representation for the proposed estimator and show that its remainder terms are never larger and are often smaller in order than those in the corresponding asymptotic linear representation for the standard double Lasso estimator. Because of this improvement, the triple Lasso estimator often yields more accurate finite-sample inference and confidence intervals with better coverage. Monte Carlo simulations confirm these gains. In addition, we provide a general recursive formula for constructing higher-order Neyman orthogonal moment functions in Z-estimation problems, which underlies the proposed estimator as a special case.",
+ "primary": "econ.EM"
+}

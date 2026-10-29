@@ -1,0 +1,19 @@
+{
+ "id": "2410.21213",
+ "title": "Spatial causal inference in the presence of preferential sampling to study the impacts of marine protected areas",
+ "authors": [
+  "Dongjae Son",
+  "Brian J. Reich",
+  "Erin M. Schliep",
+  "Shu Yang",
+  "David A. Gill"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Marine Protected Areas (MPAs) have been established globally to conserve marine resources. Given their maintenance costs and impact on commercial fishing, it is critical to evaluate their effectiveness to support future conservation. In this paper, we use data collected from the Australian coast to estimate the effect of MPAs on biodiversity. Environmental studies such as these are often observational, and processes of interest exhibit spatial dependence, which presents challenges in estimating the causal effects. Spatial data can also be subject to preferential sampling, where the sampling locations are related to the policy and the response variable, further complicating inference and prediction. To address these challenges, we propose a spatial causal inference method that simultaneously accounts for unmeasured spatial confounders in both the sampling process and the treatment allocation. We prove the identifiability of key parameters in the model and the consistency of the posterior distributions of those parameters. We show via simulation studies that the causal effect of interest can be reliably estimated under the proposed model. The proposed method is applied to assess the effect of MPAs on fish biomass. We find evidence of preferential sampling and that properly accounting for this source of bias impacts the estimate of the causal effect.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2512.18785",
+ "title": "Consistent Bayesian meta-analysis on subgroup specific effects and interactions",
+ "authors": [
+  "Renato Panaro",
+  "Christian Röver",
+  "Tim Friede"
+ ],
+ "v1_date": "2025-12-21",
+ "latest_version": 1,
+ "latest_date": "2025-12-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Commonly, clinical trials report effects not only for the full study population but also for patient subgroups. Meta-analyses of subgroup-specific effects and treatment-by-subgroup interactions may be inconsistent, especially when trials apply different subgroup weightings. We show that meta-regression can, in principle, with a contribution adjustment, recover the same interaction inference regardless of whether interaction data or subgroup data are used. Our Bayesian framework for subgroup-data interaction meta-analysis inherently (i) adjusts for varying relative subgroup contribution, quantified by the information fraction (IF) within a trial; (ii) is robust to prevalence imbalance and variation; (iii) provides a self-contained, model-based approach; and (iv) can be used to incorporate prior information into interaction meta-analyses with few studies.The method is demonstrated using an example with as few as seven trials of disease-modifying therapies in relapsing-remitting multiple sclerosis. The Bayesian Contribution-adjusted Meta-analysis by Subgroup (CAMS) indicates a stronger treatment-by-disability interaction (relapse rate reduction) in patients with lower disability (EDSS <= 3.5) compared with the unadjusted model, while results for younger patients (age < 40 years) are unchanged.By controlling subgroup contribution while retaining subgroup interpretability, this approach enables reliable interaction decision-making when published subgroup data are available.Although the proposed CAMS approach is presented in a Bayesian context, it can also be implemented in frequentist or likelihood frameworks.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2404.05486",
+ "title": "Quickest Change Detection for Multiple Data Streams Using the James-Stein Estimator",
+ "authors": [
+  "Topi Halme",
+  "Venugopal V. Veeravalli",
+  "Visa Koivunen"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 2,
+ "latest_date": "2025-04-04",
+ "journal_ref": "IEEE Transactions on Information Theory (Volume: 71, Issue: 10, October 2025)",
+ "doi": "10.1109/tit.2025.3588661",
+ "comment": "",
+ "abstract": "The problem of quickest change detection is studied in the context of detecting an arbitrary unknown mean-shift in multiple independent Gaussian data streams. The James-Stein estimator is used in constructing detection schemes that exhibit strong detection performance both asymptotically and non-asymptotically. Our results indicate that utilizing the James-Stein estimator in the recently developed window-limited CuSum test constitutes a uniform improvement over its typical maximum likelihood variant. That is, the proposed James-Stein version achieves a smaller detection delay simultaneously for all possible post-change parameter values and every false alarm rate constraint, as long as the number of parallel data streams is greater than three. Additionally, an alternative detection procedure that utilizes the James-Stein estimator is shown to have asymptotic detection delay properties that compare favorably to existing tests. The second-order asymptotic detection delay term is reduced in a predefined low-dimensional subspace of the parameter space, while second-order asymptotic minimaxity is preserved. The results are verified in simulations, where the proposed schemes are shown to achieve smaller detection delays compared to existing alternatives, especially when the number of data streams is large.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2412.02945",
+ "title": "Detection of Multiple Influential Observations on Model Selection",
+ "authors": [
+  "Dongliang Zhang",
+  "Masoud Asgharian",
+  "Martin A. Lindquist"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 2,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "3 figures",
+ "abstract": "Outlying observations are frequently encountered across a wide spectrum of scientific domains, posing notable challenges to the generalizability of statistical models and the reproducibility of downstream analysis. They are identified through influential diagnostics, which aim to capture observations that unduly bias model estimation. To date, methods for identifying observations that influence the selection of a stochastically chosen submodel have been underdeveloped, especially in the high-dimensional setting where the number of predictors $p$ exceeds the sample size $n$. Recently we proposed an improved diagnostic measure to handle this setting. However, its distributional properties and approximations have not yet been explored. To address this shortcoming, we revisit the notion of exchangeability to determine the exact asymptotic distribution of our assessment measure. This foundation enables the introduction of theoretically supported parametric and nonparametric approaches for distributional approximation and derivation of thresholds for outlier identification. The resulting framework is further extended to logistic regression models and evaluated by comprehensive simulation studies comparing the performance of various detection methods. Finally, the framework is applied to data from a task-based fMRI study of thermal pain, with the goal of identifying outliers that distort the formulation of the statistical model using functional brain activity to predict physical pain ratings. Both linear and logistic models are used to demonstrate the benefits of detection and compare the performance of different detection procedures. In particular, we identify two influential observations that were not detected in prior studies",
+ "primary": "stat.ME"
+}

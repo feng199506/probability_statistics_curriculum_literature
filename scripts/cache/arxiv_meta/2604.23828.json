@@ -1,0 +1,16 @@
+{
+ "id": "2604.23828",
+ "title": "Kac's walk on rotation matrices mixes in $n^2 \\log n$ steps",
+ "authors": [
+  "Natesh S. Pillai",
+  "Aaron Smith"
+ ],
+ "v1_date": "2026-04-26",
+ "latest_version": 1,
+ "latest_date": "2026-04-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kac's walk on the rotation group, introduced by Hastings in 1970, is an important high-dimensional Markov chain with applications in statistical physics, statistics, cryptography, and computational science. Despite its simple transition rules, determining its total-variation mixing time has remained a challenging problem for decades. A key obstacle is that the walk is not conjugation-invariant, placing it beyond the reach of classical Fourier-analytic techniques that apply to many related random walks on compact groups. We prove that Kac's walk mixes in total variation in \\(O(n^2 \\log n)\\) steps, matching the conjectured mixing time up to constants. The proof is based on a refined two-stage coupling. Building on earlier work, the first stage contracts two copies of the chain to a small neighborhood via a Wasserstein coupling. Our main contribution is a new framework for analyzing the second-stage coupling. It can be viewed as a discrete analogue of Malliavin calculus for Markov chains. We represent the law of the chain as the pushforward of high-dimensional noise and prove quantitative non-degeneracy of the associated linearization using matrix martingale methods. This yields an approximately Gaussian distribution in the Lie algebra with well-conditioned covariance, allowing small group translations to be absorbed at negligible cost in total variation. Our approach provides a general framework for studying mixing in high-dimensional Markov chains in continuous state spaces with singular transition kernels.",
+ "primary": "math.PR"
+}

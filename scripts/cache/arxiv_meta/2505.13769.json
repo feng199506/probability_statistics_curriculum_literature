@@ -1,0 +1,17 @@
+{
+ "id": "2505.13769",
+ "title": "Finding Distributions that Differ, with False Discovery Rate Control",
+ "authors": [
+  "Yonghoon Lee",
+  "Edgar Dobriban",
+  "Eric Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 3,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of comparing a reference distribution with several other distributions. Given a sample from both the reference and the comparison groups, we aim to identify the comparison groups whose distributions differ from that of the reference group. Viewing this as a multiple testing problem, we introduce a methodology that provides exact, distribution-free control of the false discovery rate. To do so, we introduce the concept of batch conformal p-values and demonstrate that they satisfy positive regression dependence across the groups [Benjamini and Yekutieli, 2001], thereby enabling control of the false discovery rate through the Benjamini-Hochberg procedure. The proof of positive regression dependence introduces a novel technique for the inductive construction of rank vectors with almost sure dominance under exchangeability. We evaluate the performance of the proposed procedure through simulations, where, despite being distribution-free, in some cases they show performance comparable to methods with knowledge of the data-generating normal distribution; and further have more power than direct approaches based on conformal out-of-distribution detection. Further, we illustrate our methods on a Hepatitis C treatment dataset, where they can identify patient groups with large treatment effects; and on the Current Population Survey dataset, where they can identify sub-population with long work hours.",
+ "primary": "stat.ME"
+}

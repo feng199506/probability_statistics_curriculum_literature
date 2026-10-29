@@ -1,0 +1,16 @@
+{
+ "id": "2409.19208",
+ "title": "Learning non-Gaussian spatial distributions via Bayesian transport maps with parametric shrinkage",
+ "authors": [
+  "Anirban Chakraborty",
+  "Matthias Katzfuss"
+ ],
+ "v1_date": "2024-09-28",
+ "latest_version": 2,
+ "latest_date": "2025-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many applications, including climate-model analysis and stochastic weather generators, require learning or emulating the distribution of a high-dimensional and non-Gaussian spatial field based on relatively few training samples. To address this challenge, a recently proposed Bayesian transport map (BTM) approach consists of a triangular transport map with nonparametric Gaussian-process (GP) components, which is trained to transform the distribution of interest distribution to a Gaussian reference distribution. To improve the performance of this existing BTM, we propose to shrink the map components toward a ``base'' parametric Gaussian family combined with a Vecchia approximation for scalability. The resulting ShrinkTM approach is more accurate than the existing BTM, especially for small numbers of training samples. It can even outperform the ``base'' family when trained on a single sample of the spatial field. We demonstrate the advantage of ShrinkTM though numerical experiments on simulated data and on climate-model output.",
+ "primary": "stat.CO"
+}

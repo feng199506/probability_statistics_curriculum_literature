@@ -1,0 +1,19 @@
+{
+ "id": "2504.19914",
+ "title": "Demographic Parity-aware Individualized Treatment Rules",
+ "authors": [
+  "Wenhai Cui",
+  "Wen Su",
+  "Xiaodong Yan",
+  "Donglin Zeng",
+  "Xingqiu Zhao"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There has been growing interest in developing optimal individualized treatment rules (ITRs) in various fields, such as precision medicine, business decision-making, and social welfare distribution. The application of ITRs within a societal context raises substantial concerns regarding potential discrimination over sensitive attributes such as age, gender, or race. To address this concern directly, we introduce the concept of demographic parity in ITRs. However, estimating an optimal ITR that satisfies the demographic parity requires solving a non-convex constrained optimization problem. To overcome these computational challenges, we employ tailored fairness proxies inspired by demographic parity and transform it into a convex quadratic programming problem. Additionally, we establish the consistency of the proposed estimator and the risk bound. The performance of the proposed method is demonstrated through extensive simulation studies and real data analysis.",
+ "primary": "stat.ME"
+}

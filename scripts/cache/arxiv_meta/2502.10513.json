@@ -1,0 +1,20 @@
+{
+ "id": "2502.10513",
+ "title": "A Bayesian Multivariate Spatial Point Pattern Model: Application to Oral Microbiome FISH Image Data",
+ "authors": [
+  "Kyu Ha Lee",
+  "Brent A. Coull",
+  "Suman Majumder",
+  "Patrick J. La Riviere",
+  "Jessica L. Mark Welch",
+  "Jacqueline R. Starr"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 2,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Advances in cellular imaging technologies, especially those based on fluorescence in situ hybridization (FISH) now allow detailed visualization of the spatial organization of human or bacterial cells. Quantifying this spatial organization is crucial for understanding the function of multicellular tissues or biofilms, with implications for human health and disease. To address the need for better methods to achieve such quantification, we propose a flexible multivariate point process model that characterizes and estimates complex spatial interactions among multiple cell types. The proposed Bayesian framework is appealing due to its unified estimation process and the ability to directly quantify uncertainty in key estimates of interest, such as those of inter-type correlation and the proportion of variance due to inter-type relationships. To ensure stable and interpretable estimation, we consider shrinkage priors for coefficients associated with latent processes. Model selection and comparison are conducted by using a deviance information criterion designed for models with latent variables, effectively balancing the risk of overfitting with that of oversimplifying key quantities. Furthermore, we develop a hierarchical modeling approach to integrate multiple image-specific estimates from a given subject, allowing inference at both the global and subject-specific levels. We apply the proposed method to microbial biofilm image data from the human tongue dorsum and find that specific taxon pairs, such as Streptococcus mitis-Streptococcus salivarius and Streptococcus mitis-Veillonella, exhibit strong positive spatial correlations, while others, such as Actinomyces-Rothia, show slight negative correlations. For most of the taxa, a substantial portion of spatial variance can be attributed to inter-taxon relationships.",
+ "primary": "stat.ME"
+}

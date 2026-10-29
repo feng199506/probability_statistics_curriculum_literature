@@ -1,0 +1,15 @@
+{
+ "id": "2501.06349",
+ "title": "Simple proof of robustness for Bayesian heavy-tailed linear regression models",
+ "authors": [
+  "Philippe Gagnon"
+ ],
+ "v1_date": "2025-01-10",
+ "latest_version": 3,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the Bayesian literature, a line of research called resolution of conflict is about the characterization of robustness against outliers of statistical models. The robustness characterization of a model is achieved by establishing the limiting behaviour of the posterior distribution under an asymptotic framework in which the outliers move away from the bulk of the data. The proofs of the robustness characterization results, especially the recent ones for regression models, are technical and not intuitive, limiting the accessibility and preventing the development of theory in that line of research. In this paper, we highlight that the proof complexity is due to the generality of the assumptions on the prior distribution. To address the issue of accessibility, we present a significantly simpler proof for a linear regression model with a specific class of prior distributions, among which we find typically used prior distributions. The class of prior distributions is such that each regression coefficient has a sub-exponential distribution, which allows to exploit a tail bound, contrarily to previous approaches. The proof is intuitive and uses classical results of probability theory. The generality of the assumption on the error distribution is also appealing; essentially, it can be any distribution with regularly varying or log-regularly varying tails. So far, there does not exist a result in such generality for models with regularly varying distributions. We also investigate the necessity of the assumptions. To promote the development of theory in resolution of conflict, we highlight how the key steps of the proof can be adapted for other models and present an application of the proof technique in the context of generalized linear models.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "1804.06788",
+ "title": "Validating Bayesian Inference Algorithms with Simulation-Based Calibration",
+ "authors": [
+  "Sean Talts",
+  "Michael Betancourt",
+  "Daniel Simpson",
+  "Aki Vehtari",
+  "Andrew Gelman"
+ ],
+ "v1_date": "2018-04-18",
+ "latest_version": 2,
+ "latest_date": "2020-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 13 figures",
+ "abstract": "Verifying the correctness of Bayesian computation is challenging. This is especially true for complex models that are common in practice, as these require sophisticated model implementations and algorithms. In this paper we introduce \\emph{simulation-based calibration} (SBC), a general procedure for validating inferences from Bayesian algorithms capable of generating posterior samples. This procedure not only identifies inaccurate computation and inconsistencies in model implementations but also provides graphical summaries that can indicate the nature of the problems that arise. We argue that SBC is a critical part of a robust Bayesian workflow, as well as being a useful tool for those developing computational algorithms and statistical software.",
+ "primary": "stat.ME"
+}

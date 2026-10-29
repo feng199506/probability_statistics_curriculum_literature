@@ -1,0 +1,18 @@
+{
+ "id": "2405.04531",
+ "title": "Stochastic Gradient MCMC for Massive Geostatistical Data",
+ "authors": [
+  "Mohamed A. Abba",
+  "Brian J. Reich",
+  "Reetam Majumder",
+  "Brandon Feng"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 2,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian processes (GPs) are commonly used for prediction and inference for spatial data analyses. However, since estimation and prediction tasks have cubic time and quadratic memory complexity in number of locations, GPs are difficult to scale to large spatial datasets. The Vecchia approximation induces sparsity in the dependence structure and is one of several methods proposed to scale GP inference. Our work adds to the substantial research in this area by developing a stochastic gradient Markov chain Monte Carlo (SGMCMC) framework for efficient computation in GPs. At each step, the algorithm subsamples a minibatch of locations and subsequently updates process parameters through a Vecchia-approximated GP likelihood. Since the Vecchia-approximated GP has a time complexity that is linear in the number of locations, this results in scalable estimation in GPs. Through simulation studies, we demonstrate that SGMCMC is competitive with state-of-the-art scalable GP algorithms in terms of computational time and parameter estimation. An application of our method is also provided using the Argo dataset of ocean temperature measurements.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2508.08564",
+ "title": "Kernel Two-Sample Testing via Directional Components Analysis",
+ "authors": [
+  "Rui Cui",
+  "Yuhao Li",
+  "Xiaojun Song"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 3,
+ "latest_date": "2026-06-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Major Revision",
+ "abstract": "Standard kernel two-sample tests, such as those based on the Maximum Mean Discrepancy (MMD), aggregate squared differences across all directions in a Reproducing Kernel Hilbert Space (RKHS). However, in finite samples, trailing directional components are noisy, which degrades test power. We propose a novel kernel-based test that resolves this by truncating the spectral decomposition of the MMD, retaining only the well-estimated leading eigen-directions. By aggregating these robust components, our method achieves superior power and robustness, particularly in high-dimensional and unbalanced settings. Furthermore, we introduce a computationally efficient parametric bootstrap procedure for approximating critical values, which is theoretically justified and significantly faster than permutation-based alternatives. Extensive simulations and empirical studies demonstrate that our method maintains strict Type I error control while delivering higher power than existing MMD-based tests.",
+ "primary": "stat.ME"
+}

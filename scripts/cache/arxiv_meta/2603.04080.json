@@ -1,0 +1,16 @@
+{
+ "id": "2603.04080",
+ "title": "Doubly Robust Estimation of Treatment Effects in Staggered Difference-in-Differences with Time-Varying Covariates",
+ "authors": [
+  "Yuhao Deng",
+  "Le Kang"
+ ],
+ "v1_date": "2026-03-04",
+ "latest_version": 3,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With staggered adoption, difference-in-differences (DiD) analyses define the average treatment effect on the treated (ATT) at the group-period level and aggregate it into groupwise, periodwise, dynamic, and overall effects. We study a period-by-period version of conditional parallel trends, with covariates unaffected by treatment while allowing covariates to shift the trends in untreated potential outcomes. We propose an augmented inverse probability weighting (AIPW) estimator and an augmented inverse variance weighting (AIVW) generalization. Both are doubly robust and asymptotically normal, with closed-form influence-function-based inference for all group-period and aggregated ATTs. AIVW is statistically efficient in some special cases, while AIPW is computationally more efficient. We illustrate the methods with the staggered provincial adoption of a parallel college admission mechanism in China and its effect on justified envy.",
+ "primary": "stat.ME"
+}

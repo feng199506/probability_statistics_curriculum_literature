@@ -1,0 +1,19 @@
+{
+ "id": "2604.04228",
+ "title": "Robust Regression with Adaptive Contamination in Response: Optimal Rates and Computational Barriers",
+ "authors": [
+  "Ilias Diakonikolas",
+  "Chao Gao",
+  "Daniel M. Kane",
+  "Ankit Pensia",
+  "Dong Xie"
+ ],
+ "v1_date": "2026-04-05",
+ "latest_version": 1,
+ "latest_date": "2026-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study robust regression under a contamination model in which covariates are clean while the responses may be corrupted in an adaptive manner. Unlike the classical Huber's contamination model, where both covariates and responses may be contaminated and consistent estimation is impossible when the contamination proportion is a non-vanishing constant, it turns out that the clean-covariate setting admits strictly improved statistical guarantees. Specifically, we show that the additional information in the clean covariates can be carefully exploited to construct an estimator that achieves a better estimation rate than that attainable under Huber contamination. In contrast to the Huber model, this improved rate implies consistency even when the contamination is a constant. A matching minimax lower bound is established using Fano's inequality together with the construction of contamination processes that match $m> 2$ distributions simultaneously, extending the previous two-point lower bound argument in Huber's setting. Despite the improvement over the Huber model from an information-theoretic perspective, we provide formal evidence -- in the form of Statistical Query and Low-Degree Polynomial lower bounds -- that the problem exhibits strong information-computation gaps. Our results strongly suggest that the information-theoretic improvements cannot be achieved by polynomial-time algorithms, revealing a fundamental gap between information-theoretic and computational limits in robust regression with clean covariates.",
+ "primary": "math.ST"
+}

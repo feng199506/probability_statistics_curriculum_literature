@@ -1,0 +1,15 @@
+{
+ "id": "2606.12317",
+ "title": "ShrinkageTrees: An R Package for Bayesian Tree Ensembles for Survival Analysis and Causal Inference",
+ "authors": [
+  "Tijn Jacobs"
+ ],
+ "v1_date": "2026-06-10",
+ "latest_version": 1,
+ "latest_date": "2026-06-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "ShrinkageTrees is an R package for Bayesian tree ensembles in survival analysis and causal inference. The package implements Bayesian additive regression tree models for right- and interval-censored survival outcomes within an accelerated failure time (AFT) framework, with optional decomposition into prognostic and treatment-effect components for causal inference. Two complementary forms of regularisation are available: regularisation of the tree structure, via depth-penalising priors and Dirichlet splitting priors, and regularisation of the step heights, via global-local shrinkage priors. ShrinkageTrees provides the first implementation of the Horseshoe Forest, which places a horseshoe prior on the step heights. These regularisation strategies extend Bayesian tree ensembles to high-dimensional settings. An efficient Rcpp backend, multi-chain MCMC, and S3 methods support the full workflow: fitting, prediction, causal effect estimation, and convergence diagnostics.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2604.03863",
+ "title": "Estimation of treatment effect in clinical trials of continuous endpoints with retrieved dropouts",
+ "authors": [
+  "Myeongjong Kang",
+  "Sangyoon Yi"
+ ],
+ "v1_date": "2026-04-04",
+ "latest_version": 1,
+ "latest_date": "2026-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 3 figures, 8 tables",
+ "abstract": "The estimand framework provides guidance on handling intercurrent events, such as treatment discontinuation, in the analysis of clinical trial responses. Under ICH E9(R1), the treatment policy (TP) strategy incorporates post-discontinuation data to reflect treatment effects in real-world practice. However, many existing approaches focus primarily on imputing missing endpoint values for lost-to-follow-up subjects and do not explicitly model completers, retrieved dropouts (RDs), and lost-to-follow-up subjects within a unified framework. This may obscure the relationship between modeling assumptions and the estimand of interest when RD data are present. We propose a likelihood-based model for continuous endpoints that integrates data from all subject categories, including RDs. The approach combines an analysis of covariance formulation with a probit model for treatment discontinuation, enabling explicit formulation of treatment effects for estimands defined using the hypothetical and TP strategies. Estimation is carried out via a computationally efficient maximum likelihood procedure. Numerical studies demonstrate that the proposed method achieves improved bias and variability properties compared with commonly used imputation-based approaches.",
+ "primary": "stat.ME"
+}

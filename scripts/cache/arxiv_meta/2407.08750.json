@@ -1,0 +1,17 @@
+{
+ "id": "2407.08750",
+ "title": "Online Distributional Regression",
+ "authors": [
+  "Simon Hirsch",
+  "Jonathan Berrisch",
+  "Florian Ziel"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 4,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Revised version January 2026. 34 pages, 9 figures, 4 tables including appendix",
+ "abstract": "Large-scale streaming data are common in modern machine learning applications and have led to the development of online learning algorithms. Many fields, such as supply chain management, weather and meteorology, energy markets, and finance, have pivoted toward probabilistic forecasting. This results in the need not only for accurate learning of the expected value but also for learning the conditional heteroskedasticity and conditional moments. Against this backdrop, we present a methodology for online estimation of regularized, linear distributional models. The proposed algorithm combines recent developments in online estimation of LASSO models with the well-known GAMLSS framework. We provide a case study on day-ahead electricity price forecasting, in which we show the competitive performance of the incremental estimation combined with strongly reduced computational effort. Our algorithms are implemented in a computationally efficient Python package ondil.",
+ "primary": "stat.ML"
+}

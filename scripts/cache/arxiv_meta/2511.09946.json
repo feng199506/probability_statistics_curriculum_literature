@@ -1,0 +1,17 @@
+{
+ "id": "2511.09946",
+ "title": "Leader-Follower Identification Methodology for Non-Lane Disciplined Heterogeneous Traffic Using Steady State Features",
+ "authors": [
+  "Susan Eldhose",
+  "Bhargava Rama Chilukuri",
+  "Chandrasekharan Rajendran"
+ ],
+ "v1_date": "2025-11-13",
+ "latest_version": 1,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Road traffic in developing countries, such as India, features a heterogeneous mix of vehicles operating under weak lane discipline (HWLD), encompassing both motorised and non-motorised modes with diverse sizes and manoeuvrability. These conditions lead to complex driver interactions, complicating the reliable identification of vehicle-following (VF) behaviour and leader-follower (LF) pairs. Traditional identification methods based on fixed thresholds for longitudinal and lateral proximity often misclassify non-following instances as valid LF pairs, degrading model performance. This study presents a refined and adaptive method for LF identification in HWLD traffic. It employs vehicle-type- and speed-specific desirable gap thresholds derived from the fundamental density-speed diagram to eliminate false-positive pairs. Additionally, Mexican Hat Wavelet Transform (MWT) is employed to analyse LV and SV speed profiles, verifying LV-SV interaction for LF pair identification. The three-stage filtering includes: (i) speed-gap consistency, (ii) approach/diverge detection via relative velocity sign changes and gap range, and (iii) wavelet-based speed correlation using MWT to confirm LV influence on SV. The framework effectively filters out LF pairs associated with overtaking, tailgating, and inconsistent gap dynamics, retaining only those with consistent VF behaviour and improving model accuracy. Analysis across thirteen LF combinations shows that VF dynamics depend on both SV and LV types. Symmetric pairs (e.g., CAR-CAR, AUTO-CAR) exhibit higher predictability and lower errors, while asymmetric pairs with heavy vehicles or two-wheelers show greater variability. The framework offers a robust foundation for traffic modelling and behaviour analysis.",
+ "primary": "stat.ME"
+}

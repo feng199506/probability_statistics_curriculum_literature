@@ -1,0 +1,16 @@
+{
+ "id": "2311.17445",
+ "title": "Interaction tests with covariate-adaptive randomization",
+ "authors": [
+  "Likun Zhang",
+  "Wei Ma"
+ ],
+ "v1_date": "2023-11-29",
+ "latest_version": 2,
+ "latest_date": "2024-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Treatment-covariate interaction tests are commonly applied by researchers to examine whether the treatment effect varies across patient subgroups defined by baseline characteristics. The objective of this study is to explore treatment-covariate interaction tests involving covariate-adaptive randomization. Without assuming a parametric data generating model, we investigate usual interaction tests and observe that they tend to be conservative: specifically, their limiting rejection probabilities under the null hypothesis do not exceed the nominal level and are typically strictly lower than it. To address this problem, we propose modifications to the usual tests to obtain corresponding valid tests. Moreover, we introduce a novel class of stratified-adjusted interaction tests that are simple, more powerful than the usual and modified tests, and broadly applicable to most covariate-adaptive randomization methods. The results are general to encompass two types of interaction tests: one involving stratification covariates and the other involving additional covariates that are not used for randomization. Our study clarifies the application of interaction tests in clinical trials and offers valuable tools for revealing treatment heterogeneity, crucial for advancing personalized medicine.",
+ "primary": "stat.ME"
+}

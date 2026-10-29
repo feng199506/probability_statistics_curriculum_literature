@@ -1,0 +1,17 @@
+{
+ "id": "2512.02178",
+ "title": "Tolerance Intervals Using Dirichlet Processes",
+ "authors": [
+  "Seokjun Choi",
+  "Tony Pourmohamad",
+  "Bruno Sansó"
+ ],
+ "v1_date": "2025-12-01",
+ "latest_version": 1,
+ "latest_date": "2025-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 11 Tables",
+ "abstract": "In nonclinical pharmaceutical development, tolerance intervals are critical in ensuring product and process quality. They are statistical intervals designed to contain a specified proportion of the population with a given confidence level. Parametric and non-parametric methods have been developed to obtain tolerance intervals. The former work with small samples but can be affected by distribution misspecification. The latter offer larger flexibility but require large sample sizes. As an alternative, we propose Dirichlet process-based Bayesian nonparametric tolerance intervals to overcome the limitations. We develop a computationally efficient tolerance interval construction algorithm based on the analytically tractable quantile process of the Dirichlet process. Simulation studies show that our new approach is very robust to distributional assumptions and performs as efficiently as existing tolerance interval methods. To illustrate how the model works in practice, we apply our method to the tolerance interval estimation for potency data.",
+ "primary": "stat.ME"
+}

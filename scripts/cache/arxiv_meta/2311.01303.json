@@ -1,0 +1,16 @@
+{
+ "id": "2311.01303",
+ "title": "Local differential privacy in survival analysis using private failure indicators",
+ "authors": [
+  "Egea Maxime",
+  "Escobar-Bach Mikael"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 3,
+ "latest_date": "2024-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the estimation of the cumulative hazard function, and equivalently the distribution function, with censored data under a setup that preserves the privacy of the survival database. This is done through a $α$-locally differentially private mechanism for the failure indicators and by proposing a non-parametric kernel estimator for the cumulative hazard function that remains consistent under the privatization. Under mild conditions, we also prove lowers bounds for the minimax rates of convergence and show that estimator is minimax optimal under a well-chosen bandwidth.",
+ "primary": "math.ST"
+}

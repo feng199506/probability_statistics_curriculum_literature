@@ -1,0 +1,17 @@
+{
+ "id": "2504.01796",
+ "title": "A New Approach to the Nonparametric Behrens-Fisher Problem with Compatible Confidence Intervals",
+ "authors": [
+  "Stephen Schüürhuis",
+  "Frank Konietschke",
+  "Edgar Brunner"
+ ],
+ "v1_date": "2025-04-02",
+ "latest_version": 2,
+ "latest_date": "2025-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new test to address the nonparametric Behrens-Fisher problem involving different distribution functions in the two samples. Our procedure tests the null hypothesis $\\mathcal{H}_0: θ= \\frac{1}{2}$, where $θ= P(X<Y) + \\frac{1}{2}P(X=Y)$ denotes the Mann-Whitney effect. No restrictions on the underlying distributions of the data are imposed with the trivial exception of one-point distributions. The method is based on evaluating the ratio of the variance $σ_N^2$ of the Mann-Whitney effect estimator $\\widehatθ$ to its theoretical maximum, as derived from the Birnbaum-Klose inequality. Through simulations, we demonstrate that the proposed test effectively controls the type-I error rate under various conditions, including small sample sizes, unbalanced designs, and different data-generating mechanisms. Notably, it provides better control of the type-1 error rate compared to the widely used Brunner-Munzel test, particularly at small significance levels such as $α\\in \\{0.01, 0.005\\}$. Additionally, we derive range-preserving compatible confidence intervals, showing that they offer improved coverage over those compatible to the Brunner-Munzel test. Finally, we illustrate the application of our method in a clinical trial example.",
+ "primary": "stat.ME"
+}

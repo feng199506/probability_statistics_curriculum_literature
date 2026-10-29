@@ -1,0 +1,17 @@
+{
+ "id": "2511.14091",
+ "title": "State-Space Representation of INGARCH Models and Their Application in Insurance",
+ "authors": [
+  "Jae Youn Ahn",
+  "Hong Beng Lim",
+  "Mario V. Wüthrich"
+ ],
+ "v1_date": "2025-11-18",
+ "latest_version": 2,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Integer-valued generalized autoregressive conditional heteroskedastic (INGARCH) models are a popular framework for modeling serial dependence in count time-series. While convenient for modeling, prediction, and estimation, INGARCH models lack a clear theoretical justification for the evolution step. This limitation not only makes interpretation difficult and complicates the inclusion of covariates, but can also make the handling of missing data computationally burdensome. Consequently, applying such models in an insurance context, where covariates and missing observations are common, can be challenging. In this paper, we first introduce the marginalized state-space model (M-SSM), defined solely through the marginal distribution of the observations, and show that INGARCH models arise as special cases of this framework. The M-SSM formulation facilitates the natural incorporation of covariates and missing data mechanisms, and this representation in turn provides a coherent way to incorporate these elements within the INGARCH model as well. We then demonstrate that an M-SSM can admit an observation-driven state-space model (O-SSM) representation when suitable assumptions are imposed on the evolution of its conditional mean. This lifting from an M-SSM to an O-SSM provides a natural setting for establishing weak stationarity, even in the presence of heterogeneity and missing observations. The proposed ideas are illustrated through the Poisson and the Negative-Binomial INGARCH(1,1) models, highlighting their applicability in predictive analysis for insurance data.",
+ "primary": "stat.ME"
+}

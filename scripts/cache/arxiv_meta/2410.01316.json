@@ -1,0 +1,17 @@
+{
+ "id": "2410.01316",
+ "title": "Fast Summation of Radial Kernels via QMC Slicing",
+ "authors": [
+  "Johannes Hertrich",
+  "Tim Jahn",
+  "Michael Quellmalz"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published as a conference paper at ICLR 2025",
+ "abstract": "The fast computation of large kernel sums is a challenging task, which arises as a subproblem in any kernel method. We approach the problem by slicing, which relies on random projections to one-dimensional subspaces and fast Fourier summation. We prove bounds for the slicing error and propose a quasi-Monte Carlo (QMC) approach for selecting the projections based on spherical quadrature rules. Numerical examples demonstrate that our QMC-slicing approach significantly outperforms existing methods like (QMC-)random Fourier features, orthogonal Fourier features or non-QMC slicing on standard test datasets.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2311.00905",
+ "title": "Data-driven fixed-point tuning for truncated realized variations",
+ "authors": [
+  "B. Cooper Boniece",
+  "José E. Figueroa-López",
+  "Yuchen Han"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 3,
+ "latest_date": "2024-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many methods for estimating integrated volatility and related functionals of semimartingales in the presence of jumps require specification of tuning parameters for their use in practice. In much of the available theory, tuning parameters are assumed to be deterministic and their values are specified only up to asymptotic constraints. However, in empirical work and in simulation studies, they are typically chosen to be random and data-dependent, with explicit choices often relying entirely on heuristics. In this paper, we consider novel data-driven tuning procedures for the truncated realized variations of a semimartingale with jumps based on a type of random fixed-point iteration. Being effectively automated, our approach alleviates the need for delicate decision-making regarding tuning parameters in practice and can be implemented using information regarding sampling frequency alone. We demonstrate our methods can lead to asymptotically efficient estimation of integrated volatility and exhibit superior finite-sample performance compared to popular alternatives in the literature.",
+ "primary": "math.ST"
+}

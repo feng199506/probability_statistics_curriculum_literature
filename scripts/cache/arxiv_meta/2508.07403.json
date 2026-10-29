@@ -1,0 +1,19 @@
+{
+ "id": "2508.07403",
+ "title": "Is Repeated Bayesian Interim Analysis Consequence-Free?",
+ "authors": [
+  "Suyu Liu",
+  "Beibei Guo",
+  "Laura Thompson",
+  "Lei Nie",
+  "Ying Yuan"
+ ],
+ "v1_date": "2025-08-10",
+ "latest_version": 2,
+ "latest_date": "2025-12-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Interim analyses are vital in clinical trials for early decision-making. While frequentist implications are well-established, the consequences of repeated Bayesian interim monitoring for efficacy, specifically regarding multiplicity, remain contentious. This article provides theoretical justification and numerical evidence evaluating the impact of such designs on bias, mean squared error (MSE), credible interval coverage, false discovery rate (FDR), and average Type I error (ATIE). Our findings show that when the inferential prior matches the data-generating prior, sequential efficacy stopping does not bias the posterior mean or degrade credible interval coverage. However, even under this ``matched\" condition, the FDR, ATIE, and MSE are significantly altered. In the more practically relevant scenario where the inferential and data-generating priors differ, all aforementioned operating characteristics, including estimation bias and coverage, are substantially impacted. These results reconcile long-standing conflicting arguments regarding Bayesian multiplicity. We demonstrate that while some Bayesian properties are invariant to sequential looks, others are not. Our work underscores the necessity of thoughtful prior specification and comprehensive evaluation of frequentist-Bayesian operating characteristics to ensure reliable inference in adaptive trial designs.",
+ "primary": "stat.ME"
+}

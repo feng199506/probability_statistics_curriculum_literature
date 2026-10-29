@@ -1,0 +1,18 @@
+{
+ "id": "2510.13159",
+ "title": "The $φ$-PCA Framework: A Unified and Efficiency-Preserving Approach with Robust Variants",
+ "authors": [
+  "Hung Hung",
+  "Zhi-Yu Jou",
+  "Su-Yun Huang",
+  "Shinto Eguchi"
+ ],
+ "v1_date": "2025-10-15",
+ "latest_version": 1,
+ "latest_date": "2025-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 4 figures",
+ "abstract": "Principal component analysis (PCA) is a fundamental tool in multivariate statistics, yet its sensitivity to outliers and limitations in distributed environments restrict its effectiveness in modern large-scale applications. To address these challenges, we introduce the $φ$-PCA framework which provides a unified formulation of robust and distributed PCA. The class of $φ$-PCA methods retains the asymptotic efficiency of standard PCA, while aggregating multiple local estimates using a proper $φ$ function enhances ordering-robustness, leading to more accurate eigensubspace estimation under contamination. Notably, the harmonic mean PCA (HM-PCA), corresponding to the choice $φ(u)=u^{-1}$, achieves optimal ordering-robustness and is recommended for practical use. Theoretical results further show that robustness increases with the number of partitions, a phenomenon seldom explored in the literature on robust or distributed PCA. Altogether, the partition-aggregation principle underlying $φ$-PCA offers a general strategy for developing robust and efficiency-preserving methodologies applicable to both robust and distributed data analysis.",
+ "primary": "stat.ME"
+}

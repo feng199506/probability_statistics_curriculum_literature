@@ -1,0 +1,18 @@
+{
+ "id": "2401.06904",
+ "title": "Non-collapsibility and Built-in Selection Bias of Hazard Ratio in Randomized Controlled Trials",
+ "authors": [
+  "Helen Bian",
+  "Menglan Pang",
+  "Guanbo Wang",
+  "Zihang Lu"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 1,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures",
+ "abstract": "Background: The hazard ratio of the Cox proportional hazards model is widely used in randomized controlled trials to assess treatment effects. However, two properties of the hazard ratio including the non-collapsibility and built-in selection bias need to be further investigated. Methods: We conduct simulations to differentiate the non-collapsibility effect and built-in selection bias from the difference between the marginal and the conditional hazard ratio. Meanwhile, we explore the performance of the Cox model with inverse probability of treatment weighting for covariate adjustment when estimating the marginal hazard ratio. The built-in selection bias is further assessed in the period-specific hazard ratio. Results: The conditional hazard ratio is a biased estimate of the marginal effect due to the non-collapsibility property. In contrast, the hazard ratio estimated from the inverse probability of treatment weighting Cox model provides an unbiased estimate of the true marginal hazard ratio. The built-in selection bias only manifests in the period-specific hazard ratios even when the proportional hazards assumption is satisfied. The Cox model with inverse probability of treatment weighting can be used to account for confounding bias and provide an unbiased effect under the randomized controlled trials setting when the parameter of interest is the marginal effect. Conclusions: We propose that the period-specific hazard ratios should always be avoided due to the profound effects of built-in selection bias.",
+ "primary": "stat.ME"
+}

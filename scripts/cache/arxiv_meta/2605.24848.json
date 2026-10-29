@@ -1,0 +1,17 @@
+{
+ "id": "2605.24848",
+ "title": "Distributional Conformal Prediction for Markov Processes",
+ "authors": [
+  "Dehao Dai",
+  "Kejin Wu",
+  "Dimitris N. Politis"
+ ],
+ "v1_date": "2026-05-24",
+ "latest_version": 1,
+ "latest_date": "2026-05-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages, 5 figures",
+ "abstract": "We introduce the Markov Distributional Conformal Prediction (MDCP) method that extends the distributional conformal prediction (previously developed for regression) to the setting of a strictly stationary Markov process. Instead of relying on a specific model structure to do prediction, the idea of distributional conformal prediction interval aligns with the Model-Free (MF) Prediction Principle. In analogy to MF prediction of Markov processes, our method exploits the probability integral transform based on estimated transition distribution functions to transform the Markov data to an i.i.d.~dataset. We show a non-asymptotic error bound of MDCPs unconditional coverage rate under a $β$-mixing condition and other standard assumptions on the kernel estimators. The asymptotic validity of the conditional prediction interval is also verified. In addition, we show that our conditional prediction interval is still asymptotically valid with Markov processes being $L^p$-$m$-approximable instead of satisfying the mixing property. Numerical simulations and real data experiments are deployed to empirically illustrate the finite-sample performance of MDCP, and compare it with the MF bootstrap prediction method.",
+ "primary": "stat.ME"
+}

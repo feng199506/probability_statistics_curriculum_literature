@@ -1,0 +1,18 @@
+{
+ "id": "2409.07637",
+ "title": "Weather-Informed Probabilistic Forecasting and Scenario Generation in Power Systems",
+ "authors": [
+  "Hanyu Zhang",
+  "Reza Zandehshahvar",
+  "Mathieu Tanneau",
+  "Pascal Van Hentenryck"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "10.1016/j.apenergy.2025.125369",
+ "comment": "",
+ "abstract": "The integration of renewable energy sources (RES) into power grids presents significant challenges due to their intrinsic stochasticity and uncertainty, necessitating the development of new techniques for reliable and efficient forecasting. This paper proposes a method combining probabilistic forecasting and Gaussian copula for day-ahead prediction and scenario generation of load, wind, and solar power in high-dimensional contexts. By incorporating weather covariates and restoring spatio-temporal correlations, the proposed method enhances the reliability of probabilistic forecasts in RES. Extensive numerical experiments compare the effectiveness of different time series models, with performance evaluated using comprehensive metrics on a real-world and high-dimensional dataset from Midcontinent Independent System Operator (MISO). The results highlight the importance of weather information and demonstrate the efficacy of the Gaussian copula in generating realistic scenarios, with the proposed weather-informed Temporal Fusion Transformer (WI-TFT) model showing superior performance.",
+ "primary": "stat.ML"
+}

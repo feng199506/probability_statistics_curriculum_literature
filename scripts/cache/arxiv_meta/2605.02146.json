@@ -1,0 +1,16 @@
+{
+ "id": "2605.02146",
+ "title": "Fast Semiparametric Density Regression with Weight-localized Predictive Recursion",
+ "authors": [
+  "Jonathan Lin",
+  "Surya Tokdar"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Predictive recursion (PR) is a fast algorithm for nonparametric estimation of a mixing density, with connections to sequential Bayesian updating under a Dirichlet process prior and rigorous frequentist consistency guarantees. Extending PR to the regression setting, where one seeks to estimate how a mixing density varies with covariate, is nontrivial: dependent Dirichlet process priors, the natural Bayesian generalization, gives no simple recursive updating formula. We introduce PRx, which overcomes this challenge through combining kernel-based weight localization with the recursive scheme of the original PR algorithm. The algorithm scales linearly in sample size and covariate dimension, completing in seconds to minutes where MCMC-based competitors require hours. Exactly as with ordinary PR, the algorithm produces as a byproduct a likelihood score, the PRMLx, whose maximizer is shown to be a consistent estimator for unmixed parameters. In simulations and case studies PRx produces conditional density estimates competitive with established Bayesian procedures at a fraction of the computational cost, and can also be adapted for a wide range of statistical applications including Bayesian model comparison and covariate-dependent multiple testing.",
+ "primary": "stat.ME"
+}

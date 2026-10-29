@@ -1,0 +1,17 @@
+{
+ "id": "2409.16276",
+ "title": "Bayesian Variable Selection and Sparse Estimation for High-Dimensional Graphical Models",
+ "authors": [
+  "Anwesha Chakravarti",
+  "Naveen N. Narishetty",
+  "Feng Liang"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages in main paper, 33 pages in Supplementary, 4 figures",
+ "abstract": "We introduce a novel Bayesian approach for both covariate selection and sparse precision matrix estimation in the context of high-dimensional Gaussian graphical models involving multiple responses. Our approach provides a sparse estimation of the three distinct sparsity structures: the regression coefficient matrix, the conditional dependency structure among responses, and between responses and covariates. This contrasts with existing methods, which typically focus on any two of these structures but seldom achieve simultaneous sparse estimation for all three. A key aspect of our method is that it leverages the structural sparsity information gained from the presence of irrelevant covariates in the dataset to introduce covariate-level sparsity in the precision and regression coefficient matrices. This is achieved through a Bayesian conditional random field model using a hierarchical spike and slab prior setup. Despite the non-convex nature of the problem, we establish statistical accuracy for points in the high posterior density region, including the maximum-a-posteriori (MAP) estimator. We also present an efficient Expectation-Maximization (EM) algorithm for computing the estimators. Through simulation experiments, we demonstrate the competitive performance of our method, particularly in scenarios with weak signal strength in the precision matrices. Finally, we apply our method to a bike-share dataset, showcasing its predictive performance.",
+ "primary": "stat.ME"
+}

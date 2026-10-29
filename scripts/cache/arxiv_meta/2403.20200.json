@@ -1,0 +1,17 @@
+{
+ "id": "2403.20200",
+ "title": "High-dimensional analysis of ridge regression for non-identically distributed data with a variance profile",
+ "authors": [
+  "Jérémie Bigot",
+  "Issa-Mbenard Dabo",
+  "Camille Male"
+ ],
+ "v1_date": "2024-03-29",
+ "latest_version": 5,
+ "latest_date": "2026-05-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional linear regression has been thoroughly studied in the context of independent and identically distributed data. We propose to investigate high-dimensional regression models for independent but non-identically distributed data. To this end, we suppose that the set of observed predictors (or features) is a random matrix with a variance profile and with dimensions growing at a proportional rate. Assuming a random effect model, we study the predictive risk of the ridge estimator for linear regression with such a variance profile. In this setting, we provide deterministic equivalents of this risk and of the degree of freedom of the ridge estimator. For certain class of variance profile, our work highlights the emergence of the well-known double descent phenomenon in high-dimensional regression for the minimum norm least-squares estimator when the ridge regularization parameter goes to zero. We also exhibit variance profiles for which the shape of this predictive risk differs from double descent. The proofs of our results are based on tools from random matrix theory in the presence of a variance profile that have not been considered so far to study regression models. Numerical experiments are provided to show the accuracy of the aforementioned deterministic equivalents on the computation of the predictive risk of ridge regression. We also investigate the similarities and differences that exist with the standard setting of independent and identically distributed data.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2405.01908",
+ "title": "A Full Adagrad algorithm with O(Nd) operations",
+ "authors": [
+  "Antoine Godichon-Baggioni",
+  "Wei Lu",
+  "Bruno Portier"
+ ],
+ "v1_date": "2024-05-03",
+ "latest_version": 2,
+ "latest_date": "2025-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A novel approach is given to overcome the computational challenges of the full-matrix Adaptive Gradient algorithm (Full AdaGrad) in stochastic optimization. By developing a recursive method that estimates the inverse of the square root of the covariance of the gradient, alongside a streaming variant for parameter updates, the study offers efficient and practical algorithms for large-scale applications. This innovative strategy significantly reduces the complexity and resource demands typically associated with full-matrix methods, enabling more effective optimization processes. Moreover, the convergence rates of the proposed estimators and their asymptotic efficiency are given. Their effectiveness is demonstrated through numerical studies.",
+ "primary": "math.ST"
+}

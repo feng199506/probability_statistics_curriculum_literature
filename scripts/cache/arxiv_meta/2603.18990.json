@@ -1,0 +1,19 @@
+{
+ "id": "2603.18990",
+ "title": "Distributed lag non-linear models with spatial effect modification using Laplacian P-splines",
+ "authors": [
+  "Sara Rutten",
+  "Thomas Neyens",
+  "Elisa Duarte",
+  "Antonio Gasparrini",
+  "Christel Faes"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 1,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "10.1007/s10651-026-00739-0",
+ "comment": "",
+ "abstract": "Distributed lag non-linear models (DLNMs) are a popular approach to flexibly model the effect of time-delayed exposures. Classical DLNMs specify a common exposure-lag-response relationship across geographical areas. However, this relationship might be altered by an effect modifier that differs between spatial units. Although some methods have been proposed to account for effect modification, their applicability is context-dependent. For example, a meta-analysis can account for heterogeneity between groups, but this technique requires sufficiently large study groups. This limitation is particularly relevant when working with count data, where small numbers of events are often encountered. In this paper, we review existing methods that allow for spatial effect modification for count-based outcomes and propose a Bayesian DLNM alternative method that accounts for the modifier through flexible interaction effects. Through the use of Laplacian P-splines, we provide a computationally fast estimation procedure by avoiding the use of classical Markov Chain Monte Carlo (MCMC) approaches. The performance of the different methods is evaluated through simulation studies. Moreover, the practical applicability of our proposed method is showcased through a data application, containing daily temperature and mortality count data in 87 Italian cities.",
+ "primary": "stat.ME"
+}

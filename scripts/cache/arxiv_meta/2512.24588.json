@@ -1,0 +1,18 @@
+{
+ "id": "2512.24588",
+ "title": "Multiple Testing of One-Sided Hypotheses with Conservative $p$-values",
+ "authors": [
+  "Kwangok Seo",
+  "Johan Lim",
+  "Hyungwon Choi",
+  "Jaesik Jeong"
+ ],
+ "v1_date": "2025-12-31",
+ "latest_version": 2,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a large-scale one-sided multiple testing problem in which test statistics follow normal distributions with unit variance, and the goal is to identify signals with positive mean effects. A conventional approach is to compute $p$-values under the assumption that all null means are exactly zero and then apply standard multiple testing procedures such as the Benjamini-Hochberg (BH) or Storey-BH method. However, because the null hypothesis is composite, some null means may be strictly negative. In this case, the resulting $p$-values are conservative, leading to a substantial loss of power. Existing methods address this issue by modifying the multiple testing procedure itself, for example through conditioning strategies or discarding rules. In contrast, we focus on correcting the $p$-values so that they are exact under the null. Specifically, we estimate the marginal null distribution of the test statistics within an empirical Bayes framework and construct refined $p$-values based on this estimated distribution. These refined $p$-values can then be directly used in standard multiple testing procedures without modification. Extensive simulation studies show that the proposed method substantially improves power when conventional $p$-values are conservative, while achieving comparable performance to existing methods when conventional $p$-values are exact. An application to phosphorylation data further demonstrates the practical effectiveness of our approach.",
+ "primary": "stat.ME"
+}

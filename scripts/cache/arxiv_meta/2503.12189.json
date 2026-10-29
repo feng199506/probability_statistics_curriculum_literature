@@ -1,0 +1,16 @@
+{
+ "id": "2503.12189",
+ "title": "Stein's method for models with general clocks: A tutorial",
+ "authors": [
+  "Anton Braverman",
+  "Ziv Scully"
+ ],
+ "v1_date": "2025-03-15",
+ "latest_version": 2,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The content of this paper was merged into submission arXiv:2407.12716",
+ "abstract": "Diffusion approximations are widely used in the analysis of service systems, providing tractable insights into complex models. While heavy-traffic limit theorems justify these approximations asymptotically, they do not quantify the error when the system is not in the limit regime. This paper presents a tutorial on the generator comparison approach of Stein's method for analyzing diffusion approximations in Markovian models where state transitions are governed by general clocks, which extends the well-established theory for continuous-time Markov chains and enables non-asymptotic error bounds for these approximations. Building on recent work that applies this method to single-clock systems, we develop a framework for handling models with multiple general clocks. Our approach is illustrated through canonical queueing systems, including the G/G/1 queue, the join-the-shortest-queue system, and the tandem queue. We highlight the role of the Palm inversion formula and the compensated queue-length process in extracting the diffusion generator. Most of our error terms depend only on the first three moments of the general clock distribution. The rest require deeper, model-specific, insight to bound, but could in theory also depend on only the first three moments.",
+ "primary": "math.PR"
+}

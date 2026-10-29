@@ -1,0 +1,18 @@
+{
+ "id": "2409.01248",
+ "title": "Nonparametric Estimation of Path-specific Effects in Presence of Nonignorable Missing Covariates",
+ "authors": [
+  "Jiawei Shan",
+  "Ting Wang",
+  "Wei Li",
+  "Chunrong Ai"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 1,
+ "latest_date": "2024-09-02",
+ "journal_ref": "Scandinavian Journal of Statistics (2025)",
+ "doi": "10.1111/sjos.70002",
+ "comment": "37 pages, 6 figures",
+ "abstract": "The path-specific effect (PSE) is of primary interest in mediation analysis when multiple intermediate variables between treatment and outcome are observed, as it can isolate the specific effect through each mediator, thus mitigating potential bias arising from other intermediate variables serving as mediator-outcome confounders. However, estimation and inference of PSE become challenging in the presence of nonignorable missing covariates, a situation particularly common in epidemiological research involving sensitive patient information. In this paper, we propose a fully nonparametric methodology to address this challenge. We establish identification for PSE by expressing it as a functional of observed data and demonstrate that the associated nuisance functions can be uniquely determined through sequential optimization problems by leveraging a shadow variable. Then we propose a sieve-based regression imputation approach for estimation. We establish the large-sample theory for the proposed estimator, and introduce a robust and efficient approach to make inference for PSE. The proposed method is applied to the NHANES dataset to investigate the mediation roles of dyslipidemia and obesity in the pathway from Type 2 diabetes mellitus to cardiovascular disease.",
+ "primary": "stat.ME"
+}

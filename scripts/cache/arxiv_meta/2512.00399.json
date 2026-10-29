@@ -1,0 +1,15 @@
+{
+ "id": "2512.00399",
+ "title": "Explainable Machine Learning for Macroeconomic and Financial Nowcasting: A Decision-Grade Framework for Business and Policy",
+ "authors": [
+  "Luca Attolico"
+ ],
+ "v1_date": "2025-11-29",
+ "latest_version": 1,
+ "latest_date": "2025-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 2 tables, 1 figure. Submitted to the special issue \"Emerging Trends in FinTech and AI: Theory and Applications in Business, Economics, and Law\" (EUM Series \"Economics and Law\")",
+ "abstract": "Macroeconomic nowcasting sits at the intersection of traditional econometrics, data-rich information systems, and AI applications in business, economics, and policy. Machine learning (ML) methods are increasingly used to nowcast quarterly GDP growth, but adoption in high-stakes settings requires that predictive accuracy be matched by interpretability and robust uncertainty quantification. This article reviews recent developments in macroeconomic nowcasting and compares econometric benchmarks with ML approaches in data-rich and shock-prone environments, emphasizing the use of nowcasts as decision inputs rather than as mere error-minimization exercises. The discussion is organized along three axes. First, we contrast penalized regressions, dimension-reduction techniques, tree ensembles, and neural networks with autoregressive models, Dynamic Factor Models, and Random Walks, emphasizing how each family handles small samples, collinearity, mixed frequencies, and regime shifts. Second, we examine explainability tools (intrinsic measures and model-agnostic XAI methods), focusing on temporal stability, sign coherence, and their ability to sustain credible economic narratives and nowcast revisions. Third, we analyze non-parametric uncertainty quantification via block bootstrapping for predictive intervals and confidence bands on feature importance under serial dependence and ragged edge. We translate these elements into a reference workflow for \"decision-grade\" nowcasting systems, including vintage management, time-aware validation, and automated reliability audits, and we outline a research agenda on regime-dependent model comparison, bootstrap design for latent components, and temporal stability of explanations. Explainable ML and uncertainty quantification emerge as structural components of a responsible forecasting pipeline, not optional refinements.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2409.17441",
+ "title": "Factor pre-training in Bayesian multivariate logistic models",
+ "authors": [
+  "Lorenzo Mauri",
+  "David B. Dunson"
+ ],
+ "v1_date": "2024-09-26",
+ "latest_version": 2,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article focuses on inference in logistic regression for high-dimensional binary outcomes. A popular approach induces dependence across the outcomes by including latent factors in the linear predictor. Bayesian approaches are useful for characterizing uncertainty in inferring the regression coefficients, factors and loadings, while also incorporating hierarchical and shrinkage structure. However, Markov chain Monte Carlo algorithms for posterior computation face challenges in scaling to high-dimensional outcomes. Motivated by applications in ecology, we exploit a blessing of dimensionality to motivate pre-estimation of the latent factors. Conditionally on the factors, the outcomes are modeled via independent logistic regressions. We implement Gaussian approximations in parallel in inferring the posterior on the regression coefficients and loadings, including a simple adjustment to obtain credible intervals with valid frequentist coverage. We show posterior concentration properties and excellent empirical performance in simulations. The methods are applied to insect biodiversity data in Madagascar.",
+ "primary": "stat.ME"
+}

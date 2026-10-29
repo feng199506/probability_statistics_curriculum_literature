@@ -1,0 +1,16 @@
+{
+ "id": "2606.10559",
+ "title": "Deterministic Denominator Design for Localized Tamed Stochastic Gradient Langevin Dynamics",
+ "authors": [
+  "Yiwei Zhou",
+  "Ziheng Chen"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 2,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 10 tables",
+ "abstract": "If the denominator in a tamed stochastic gradient Langevin update uses the current stochastic-gradient draw, the conditional mean can be biased even when the stochastic-gradient oracle is unbiased. A state-dependent denominator fixed before that draw removes this coupling. We build practical deterministic denominators from a short pilot run. A log-scale proxy is fitted to the growth score $G_\\star(x)=\\|b(x)\\|/(1+\\|x\\|)$, and empirical pilot quantiles set the activation thresholds of a local proxy-quantile envelope. The reported proxy-quantile experiments use this local denominator. Separately, we describe a final denominator with a norm-polynomial tail-floor correction that can be used when one wants to certify the global effective-linearity input required by the companion deterministic-envelope Lyapunov theory. We show how proxy and threshold errors enter denominator errors and the resulting stationary observable errors. In the reported experiments, the local proxy-quantile denominator improves over random-denominator tamed SGLD at comparable production cost. It also gives observable behavior close to the $G_\\star$-envelope benchmark, without the full-gradient growth-score evaluations required by that benchmark.",
+ "primary": "stat.ME"
+}

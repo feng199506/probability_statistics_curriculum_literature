@@ -1,0 +1,17 @@
+{
+ "id": "2403.11374",
+ "title": "Quasi-Monte Carlo and importance sampling methods for Bayesian inverse problems",
+ "authors": [
+  "Zhijian He",
+  "Hejin Wang",
+  "Xiaoqun Wang"
+ ],
+ "v1_date": "2024-03-17",
+ "latest_version": 1,
+ "latest_date": "2024-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Importance Sampling (IS), an effective variance reduction strategy in Monte Carlo (MC) simulation, is frequently utilized for Bayesian inference and other statistical challenges. Quasi-Monte Carlo (QMC) replaces the random samples in MC with low discrepancy points and has the potential to substantially enhance error rates. In this paper, we integrate IS with a randomly shifted rank-1 lattice rule, a widely used QMC method, to approximate posterior expectations arising from Bayesian Inverse Problems (BIPs) where the posterior density tends to concentrate as the intensity of noise diminishes. Within the framework of weighted Hilbert spaces, we first establish the convergence rate of the lattice rule for a large class of unbounded integrands. This method extends to the analysis of QMC combined with IS in BIPs. Furthermore, we explore the robustness of the IS-based randomly shifted rank-1 lattice rule by determining the quadrature error rate with respect to the noise level. The effects of using Gaussian distributions and $t$-distributions as the proposal distributions on the error rate of QMC are comprehensively investigated. We find that the error rate may deteriorate at low intensity of noise when using improper proposals, such as the prior distribution. To reclaim the effectiveness of QMC, we propose a new IS method such that the lattice rule with $N$ quadrature points achieves an optimal error rate close to $O(N^{-1})$, which is insensitive to the noise level. Numerical experiments are conducted to support the theoretical results.",
+ "primary": "math.NA"
+}

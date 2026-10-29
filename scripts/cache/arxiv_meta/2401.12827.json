@@ -1,0 +1,17 @@
+{
+ "id": "2401.12827",
+ "title": "Distributed Empirical Likelihood Inference With or Without Byzantine Failures",
+ "authors": [
+  "Qihua Wang",
+  "Jinye Du",
+  "Ying Sheng"
+ ],
+ "v1_date": "2024-01-23",
+ "latest_version": 1,
+ "latest_date": "2024-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Empirical likelihood is a very important nonparametric approach which is of wide application. However, it is hard and even infeasible to calculate the empirical log-likelihood ratio statistic with massive data. The main challenge is the calculation of the Lagrange multiplier. This motivates us to develop a distributed empirical likelihood method by calculating the Lagrange multiplier in a multi-round distributed manner. It is shown that the distributed empirical log-likelihood ratio statistic is asymptotically standard chi-squared under some mild conditions. The proposed algorithm is communication-efficient and achieves the desired accuracy in a few rounds. Further, the distributed empirical likelihood method is extended to the case of Byzantine failures. A machine selection algorithm is developed to identify the worker machines without Byzantine failures such that the distributed empirical likelihood method can be applied. The proposed methods are evaluated by numerical simulations and illustrated with an analysis of airline on-time performance study and a surface climate analysis of Yangtze River Economic Belt.",
+ "primary": "stat.ME"
+}

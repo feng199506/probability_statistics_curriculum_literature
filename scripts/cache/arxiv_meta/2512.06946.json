@@ -1,0 +1,16 @@
+{
+ "id": "2512.06946",
+ "title": "Testing the Significance of the Difference-in-Differences Coefficient via Doubly Randomised Inference",
+ "authors": [
+  "Stanisław Marek Sergiusz Halkiewicz",
+  "Andrzej Kałuża"
+ ],
+ "v1_date": "2025-12-07",
+ "latest_version": 2,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article develops a significance test for the Difference-in-Differences (DiD) estimator based on dual-margin randomization, in which both the treatment and time indicators are independently permuted to generate an empirical null distribution of the DiD estimator. We situate the proposal explicitly within the landscape of existing inference methods for the DiD estimator, including OLS-based $t$-tests, heteroskedasticity-robust standard errors, cluster-robust variance estimators (CRVE), and the recently proposed jackknife standard errors of Hansen (2025). We show that CRVE-based procedures can be severely anti-conservative in small samples, motivating a nonparametric alternative. We formally characterise the permutation space induced by dual randomization, showing that it expands by a factor of $\\binom{n}{n_T}$ relative to single-margin permutation tests, and provide an information-theoretic justification for balanced Bernoulli reshuffling. A controlled simulation study, augmented with robustness experiments under non-Gaussian and heteroskedastic errors, demonstrates that the doubly randomised test maintains accurate empirical size at all sample sizes considered, while HC0 and CRVE1 $t$-tests are substantially anti-conservative at small $n$. Crucially, this parametric inflation is driven by the leverage structure of the regressor matrix rather than by the error variance: heteroskedasticity-robust standard errors do not directly address the leverage-driven finite-sample distortion documented here, whereas randomization-based inference is insulated from both error-distributional and variance-structural departures by construction. Power costs relative to the Hansen jackknife test are real but bounded, and become negligible as $n$ grows. The proposed procedure is implemented in the sigDD R package and validated on four empirical datasets from the applied economics literature.",
+ "primary": "econ.EM"
+}

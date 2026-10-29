@@ -1,0 +1,18 @@
+{
+ "id": "2408.08580",
+ "title": "Revisiting the Many Instruments Problem using Random Matrix Theory",
+ "authors": [
+  "Helmut Farbmacher",
+  "Rebecca Groh",
+  "Michael Mühlegger",
+  "Gabriel Vollert"
+ ],
+ "v1_date": "2024-08-16",
+ "latest_version": 2,
+ "latest_date": "2025-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Instrumental variables estimation with many instruments is biased. Traditional bias-adjustments are closely connected to the Silverstein equation. Based on the theory of random matrices, we show that Ridge estimation of the first-stage parameters reduces the implicit price of bias-adjustments. This leads to a trade-off, allowing for less costly estimation of the causal effect, which comes along with improved asymptotic properties. Our theoretical results nest existing ones on bias approximation and adjustment with ordinary least-squares in the first-stage regression and, moreover, generalize them to settings with more instruments than observations. Finally, we derive the optimal tuning parameter of Ridge regressions in simultaneous equations models, which comprises the well-known result for single equation models as a special case with uncorrelated error terms.",
+ "primary": "econ.EM"
+}

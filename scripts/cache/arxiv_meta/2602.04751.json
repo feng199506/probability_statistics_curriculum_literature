@@ -1,0 +1,15 @@
+{
+ "id": "2602.04751",
+ "title": "Multiple Imputation Methods under Extreme Values",
+ "authors": [
+  "Enzo Porto Brasil"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 1,
+ "latest_date": "2026-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages main text, 20 pages appendix, 12 figures, 28 tables. Submitted to the Austrian Journal of Statistics (under review)",
+ "abstract": "Missing data are ubiquitous in empirical databases, yet statistical analyses typically require complete data matrices. Multiple imputation offers a principled solution for filling these gaps. This study evaluates the performance of several multiple imputation methods, both in the presence and absence of extreme values, using the MICE package in R. Through Monte Carlo simulations, we generated incomplete data sets with three variables and assessed each imputation method within regression models. The results indicate that the linear regression based imputation method showed the best overall predictive performance (CV-MSE), whereas the sparse model approach was generally less efficient. Our findings underscore the relevance of extreme values when selecting an imputation strategy and highlight sample size, proportion of missingness, presence of extremes, and the type of fitted model as key determinants of performance. Despite its limitations, the study offers practical recommendations for researchers, stressing the need to examine the missingness mechanism and the occurrence of extreme values before choosing an imputation method.",
+ "primary": "stat.CO"
+}

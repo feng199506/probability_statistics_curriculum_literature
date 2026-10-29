@@ -1,0 +1,17 @@
+{
+ "id": "2607.00722",
+ "title": "How does academic performance affect self-efficacy? Interpretable modelling through latent academic achievement",
+ "authors": [
+  "Sarah Lee",
+  "Matias Quiroz",
+  "Sally Cripps"
+ ],
+ "v1_date": "2026-07-01",
+ "latest_version": 1,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main manuscript: 25 pages (including references). Supplementary material: 19 pages",
+ "abstract": "There is increasing evidence of a directional relationship from academic performance to self-efficacy. We develop a Bayesian model for investigating this relationship when academic performance is measured on an ordinal scale and self-efficacy on a continuous scale. The model allows latent academic achievement to enter the self-efficacy regression as a predictor, while Bayesian variable selection identifies factors associated with either response. The resulting conditional formulation yields an interpretable regression characterisation of how latent academic achievement relates to self-efficacy. Furthermore, it enables a tailored partially collapsed Gibbs sampler that analytically integrates out the regression coefficients when updating the variable inclusion indicators. Simulation studies demonstrate that the proposed conditional formulation and tailored sampler improve sampling efficiency and variable-selection performance relative to a recent, more general joint Gaussian copula regression formulation. We apply the methodology to data from the longitudinal study of Australian children, a landmark national cohort study covering children's education, social and emotional wellbeing, health and family circumstances. The model and analysis shed light on how latent academic achievement relates to self-efficacy in Australian children, and reveal that the two outcomes differ markedly in the range of covariates associated with each outcome.",
+ "primary": "stat.ME"
+}

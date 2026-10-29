@@ -1,0 +1,16 @@
+{
+ "id": "2605.02613",
+ "title": "The Ancestor Hawkes Process with an Application to Group Chat Data",
+ "authors": [
+  "Gordon J Ross",
+  "Isabella Deutsch"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Hawkes process is used to model point process data where events occur in clusters and bursts. In a standard multivariate Hawkes process, every event that occurs in a dimension has an equal impact on the process intensity. However, this assumption is unrealistic in applications such as the modelling of message cascades where the effect of an event depends on whether it was the initiator or a member of a particular cluster. To alleviate this, we introduce a new Hawkes process model, the Ancestor Hawkes process, which allows the impact of each event to vary based on its origin. The relevance of the Ancestor Hawkes process is showcased on real data from a 9-person group chat, where our proposed approach reveals individual response preferences. Crucially, this is achieved in a privacy-conscious manner, as only the sender and the time at which a message was sent -- but not its content -- are utilised. These nuances of messaging cascades are missed by the standard Hawkes process, but are relevant for studying latent interaction structure and for personalised notification management.",
+ "primary": "stat.ME"
+}

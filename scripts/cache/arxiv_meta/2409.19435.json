@@ -1,0 +1,17 @@
+{
+ "id": "2409.19435",
+ "title": "Simulation-based Inference with the Python Package sbijax",
+ "authors": [
+  "Simon Dirmeier",
+  "Antonietta Mira",
+  "Carlo Albert"
+ ],
+ "v1_date": "2024-09-28",
+ "latest_version": 2,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Neural simulation-based inference (SBI) describes an emerging family of methods for Bayesian inference with intractable likelihood functions that use neural networks as surrogate models. Here we introduce sbijax, a Python package that implements a wide variety of state-of-the-art methods in neural simulation-based inference using a user-friendly programming interface. sbijax offers high-level functionality to quickly construct SBI estimators, and compute and visualize posterior distributions with only a few lines of code. In addition, the package provides functionality for conventional approximate Bayesian computation, to compute model diagnostics, and to automatically estimate summary statistics. By virtue of being entirely written in JAX, sbijax is extremely computationally efficient, allowing rapid training of neural networks and executing code automatically in parallel on both CPU and GPU.",
+ "primary": "cs.LG"
+}

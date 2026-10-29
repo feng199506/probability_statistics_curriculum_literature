@@ -1,0 +1,16 @@
+{
+ "id": "2311.10001",
+ "title": "Fast return-level estimates for flood insurance via an improved Bennett inequality for random variables with differing upper bounds",
+ "authors": [
+  "Anna Maria Barlow",
+  "Chris Sherlock"
+ ],
+ "v1_date": "2023-11-16",
+ "latest_version": 3,
+ "latest_date": "2025-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "To appear in The Annals of Applied Statistics",
+ "abstract": "Insurance losses due to flooding can be estimated by simulating and then summing losses over a large number of locations and a large set of hypothetical years of flood events. Replicated realisations lead to Monte Carlo return-level estimates and associated uncertainty. The procedure, however, is highly computationally intensive. We develop and use a new, Bennett-like concentration inequality to provide conservative but relatively accurate estimates of return levels. Bennett's inequality accounts for the different variances of each of the variables in a sum but uses a uniform upper bound on their support. Motivated by the variability in the total insured value of risks within a portfolio, we incorporate both individual upper bounds and variances and obtain tractable concentration bounds. Simulation studies and application to a representative portfolio demonstrate a substantial tightening compared with Bennett's bound. We then develop an importance-sampling procedure that repeatedly samples annual losses from the distributions implied by each year's concentration inequality, leading to conservative estimates of the return levels and their uncertainty using orders of magnitude less computation. This enables a simulation study of the sensitivity of the predictions to perturbations in quantities that are usually assumed fixed and known but, in truth, are not.",
+ "primary": "stat.AP"
+}

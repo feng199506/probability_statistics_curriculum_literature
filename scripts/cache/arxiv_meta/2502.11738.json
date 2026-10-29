@@ -1,0 +1,17 @@
+{
+ "id": "2502.11738",
+ "title": "Surrogate-based ABC matches generalized Bayesian inference under specific discrepancy and kernel choices",
+ "authors": [
+  "Marko Järvenpää",
+  "Jukka Corander",
+  "Henri Pesonen"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 2 figures",
+ "abstract": "Generalized Bayesian inference (GBI) is an alternative inference framework motivated by robustness to modeling errors, where a specific loss function is used to link the model parameters with observed data, instead of the log-likelihood used in standard Bayesian inference. Approximate Bayesian Computation (ABC) refers in turn to a family of methods approximating the posterior distribution via a discrepancy function between the observed and simulated data instead of using the likelihood. In this paper we discuss the connection between ABC and GBI, when the loss function is defined as an expected discrepancy between the observed and simulated data from the model under consideration. We show that the resulting generalized posterior corresponds to an ABC-posterior when the latter is obtained under a Gaussian process -based surrogate model. We illustrate the behavior of the approximations as a function of specific discrepancy and kernel choices to provide insights of the relationships between these different approximate inference paradigms.",
+ "primary": "stat.ME"
+}

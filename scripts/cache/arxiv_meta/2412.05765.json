@@ -1,0 +1,18 @@
+{
+ "id": "2412.05765",
+ "title": "A Two-stage Joint Modeling Approach for Multiple Longitudinal Markers and Time-to-event Data",
+ "authors": [
+  "Taban Baghfalaki",
+  "Reza Hashemi",
+  "Catherine Helmer",
+  "Helene Jacqmin-Gadda"
+ ],
+ "v1_date": "2024-12-07",
+ "latest_version": 1,
+ "latest_date": "2024-12-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2412.03797",
+ "abstract": "Collecting multiple longitudinal measurements and time-to-event outcomes is a common practice in clinical and epidemiological studies, often focusing on exploring associations between them. Joint modeling is the standard analytical tool for such data, with several R packages available. However, as the number of longitudinal markers increases, the computational burden and convergence challenges make joint modeling increasingly impractical. This paper introduces a novel two-stage Bayesian approach to estimate joint models for multiple longitudinal measurements and time-to-event outcomes. The method builds on the standard two-stage framework but improves the initial stage by estimating a separate one-marker joint model for the event and each longitudinal marker, rather than relying on mixed models. These estimates are used to derive predictions of individual marker trajectories, avoiding biases from informative dropouts. In the second stage, a proportional hazards model is fitted, incorporating the predicted current values and slopes of the markers as time-dependent covariates. To address uncertainty in the first-stage predictions, a multiple imputation technique is employed when estimating the Cox model in the second stage. This two-stage method allows for the analysis of numerous longitudinal markers, which is often infeasible with traditional multi-marker joint modeling. The paper evaluates the approach through simulation studies and applies it to the PBC2 dataset and a real-world dementia dataset containing 17 longitudinal markers. An R package, TSJM, implementing the method is freely available on GitHub: https://github.com/tbaghfalaki/TSJM.",
+ "primary": "stat.ME"
+}

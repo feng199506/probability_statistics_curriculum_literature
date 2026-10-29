@@ -1,0 +1,17 @@
+{
+ "id": "2404.05155",
+ "title": "On the price of exact truthfulness in incentive-compatible online learning with bandit feedback: A regret lower bound for WSU-UX",
+ "authors": [
+  "Ali Mortazavi",
+  "Junhao Lin",
+  "Nishant A. Mehta"
+ ],
+ "v1_date": "2024-04-08",
+ "latest_version": 1,
+ "latest_date": "2024-04-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to AISTATS 2024",
+ "abstract": "In one view of the classical game of prediction with expert advice with binary outcomes, in each round, each expert maintains an adversarially chosen belief and honestly reports this belief. We consider a recently introduced, strategic variant of this problem with selfish (reputation-seeking) experts, where each expert strategically reports in order to maximize their expected future reputation based on their belief. In this work, our goal is to design an algorithm for the selfish experts problem that is incentive-compatible (IC, or \\emph{truthful}), meaning each expert's best strategy is to report truthfully, while also ensuring the algorithm enjoys sublinear regret with respect to the expert with the best belief. Freeman et al. (2020) recently studied this problem in the full information and bandit settings and obtained truthful, no-regret algorithms by leveraging prior work on wagering mechanisms. While their results under full information match the minimax rate for the classical (\"honest experts\") problem, the best-known regret for their bandit algorithm WSU-UX is $O(T^{2/3})$, which does not match the minimax rate for the classical (\"honest bandits\") setting. It was unclear whether the higher regret was an artifact of their analysis or a limitation of WSU-UX. We show, via explicit construction of loss sequences, that the algorithm suffers a worst-case $Ω(T^{2/3})$ lower bound. Left open is the possibility that a different IC algorithm obtains $O(\\sqrt{T})$ regret. Yet, WSU-UX was a natural choice for such an algorithm owing to the limited design room for IC algorithms in this setting.",
+ "primary": "cs.LG"
+}

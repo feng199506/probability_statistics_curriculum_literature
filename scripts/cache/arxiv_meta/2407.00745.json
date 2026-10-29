@@ -1,0 +1,16 @@
+{
+ "id": "2407.00745",
+ "title": "Posterior Sampling with Denoising Oracles via Tilted Transport",
+ "authors": [
+  "Joan Bruna",
+  "Jiequn Han"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 1,
+ "latest_date": "2024-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Score-based diffusion models have significantly advanced high-dimensional data generation across various domains, by learning a denoising oracle (or score) from datasets. From a Bayesian perspective, they offer a realistic modeling of data priors and facilitate solving inverse problems through posterior sampling. Although many heuristic methods have been developed recently for this purpose, they lack the quantitative guarantees needed in many scientific applications. In this work, we introduce the \\textit{tilted transport} technique, which leverages the quadratic structure of the log-likelihood in linear inverse problems in combination with the prior denoising oracle to transform the original posterior sampling problem into a new `boosted' posterior that is provably easier to sample from. We quantify the conditions under which this boosted posterior is strongly log-concave, highlighting the dependencies on the condition number of the measurement matrix and the signal-to-noise ratio. The resulting posterior sampling scheme is shown to reach the computational threshold predicted for sampling Ising models [Kunisky'23] with a direct analysis, and is further validated on high-dimensional Gaussian mixture models and scalar field $\\varphi^4$ models.",
+ "primary": "cs.LG"
+}

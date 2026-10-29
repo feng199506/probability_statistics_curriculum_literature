@@ -1,0 +1,17 @@
+{
+ "id": "2405.08738",
+ "title": "Calibrated sensitivity models",
+ "authors": [
+  "Alec McClean",
+  "Zach Branson",
+  "Edward H. Kennedy"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 4,
+ "latest_date": "2025-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In causal inference, sensitivity models assess how unmeasured confounders could alter causal analyses, but the sensitivity parameter -- which quantifies the degree of unmeasured confounding -- is often difficult to interpret. For this reason, researchers sometimes compare the sensitivity parameter to an estimate of measured confounding. This is known as calibration, or benchmarking. However, calibrated estimates are not always interpreted correctly, and uncertainty in the estimate of measured confounding is rarely accounted for. To address these limitations, we propose calibrated sensitivity models, which directly bound the degree of unmeasured confounding by a multiple of measured confounding. We develop a clear framework for interpreting calibrated sensitivity models and derive statistical methods for accounting for uncertainty due to estimating measured confounding. Incorporating this uncertainty shows causal analyses may be either less or more robust to unmeasured confounding than suggested by standard approaches. We develop efficient estimators and inferential methods for bounds on the average treatment effect with three calibrated sensitivity models, establishing parametric efficiency and asymptotic normality under doubly robust style nonparametric conditions. We illustrate our methods with an analysis of the effect of mothers' smoking on infant birthweight.",
+ "primary": "stat.ME"
+}

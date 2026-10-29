@@ -1,0 +1,17 @@
+{
+ "id": "2402.04341",
+ "title": "CausalMetaR: An R package for performing causally interpretable meta-analyses",
+ "authors": [
+  "Guanbo Wang",
+  "Sean McGrath",
+  "Yi Lian"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 2,
+ "latest_date": "2024-07-02",
+ "journal_ref": "Res. Synth. Methods 16 (2025) 425-440",
+ "doi": "10.1017/rsm.2025.5",
+ "comment": "",
+ "abstract": "Researchers would often like to leverage data from a collection of sources (e.g., primary studies in a meta-analysis) to estimate causal effects in a target population of interest. However, traditional meta-analytic methods do not produce causally interpretable estimates for a well-defined target population. In this paper, we present the CausalMetaR R package, which implements efficient and robust methods to estimate causal effects in a given internal or external target population using multi-source data. The package includes estimators of average and subgroup treatment effects for the entire target population. To produce efficient and robust estimates of causal effects, the package implements doubly robust and non-parametric efficient estimators and supports using flexible data-adaptive (e.g., machine learning techniques) methods and cross-fitting techniques to estimate the nuisance models (e.g., the treatment model, the outcome model). We describe the key features of the package and demonstrate how to use the package through an example.",
+ "primary": "stat.ME"
+}

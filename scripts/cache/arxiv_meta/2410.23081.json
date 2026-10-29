@@ -1,0 +1,17 @@
+{
+ "id": "2410.23081",
+ "title": "General Bayesian quantile regression for counts via generative modeling",
+ "authors": [
+  "Yuta Yamauchi",
+  "Genya Kobayashi",
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2024-10-30",
+ "latest_version": 2,
+ "latest_date": "2025-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Count data frequently arises in biomedical applications, such as the length of hospital stay. However, their discrete nature poses significant challenges for appropriately modeling conditional quantiles, which are crucial for understanding heterogeneous effects and variability in outcomes. To solve the practical difficulty, we propose a novel general Bayesian framework for quantile regression tailored to count data. We seek the regression parameter on the conditional quantile by minimizing the expected loss with respect to the distribution of the conditional quantile of the latent continuous variable associated with the observed count response variable. By modeling the unknown conditional distribution through a Bayesian nonparametric kernel mixture for the joint distribution of the count response and covariates, we obtain the posterior distribution of the regression parameter via a simple optimization. We numerically demonstrate that the proposed method improves bias and estimation accuracy of the existing crude approaches to count quantile regression. Furthermore, we analyze the length of hospital stay for acute myocardial infarction and demonstrate that the proposed method gives more interpretable and flexible results than the existing ones.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2602.20029",
+ "title": "Covariance estimation for derivatives of functional data using an additive penalty in P-splines",
+ "authors": [
+  "Yueyun Zhu",
+  "Steven Golovkine",
+  "Norma Bargary",
+  "Andrew J. Simpkin"
+ ],
+ "v1_date": "2026-02-23",
+ "latest_version": 1,
+ "latest_date": "2026-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "P-splines provide a flexible and computationally efficient smoothing framework and are commonly used for derivative estimation in functional data. Including an additive penalty term in P-splines has been shown to improve estimates of derivatives. We propose a method which incorporates the fast covariance estimation (FACE) algorithm with an additive penalty in P-splines. The proposed method is used to estimate derivatives of covariance for functional data, which play an important role in derivative-based functional principal component analysis (FPCA). Following this, we provide an algorithm for estimating the eigenfunctions and their corresponding scores in derivative-based FPCA. For comparison, we evaluate our algorithm against an existing function \\texttt{FPCAder()} in simulation. In addition, we extend the algorithm to multivariate cases, referred to as derivative multivariate functional principal component analysis (DMFPCA). DMFPCA is applied to joint angles in human movement data, where the derivative-based scores demonstrate strong performance in distinguishing locomotion tasks.",
+ "primary": "stat.ME"
+}

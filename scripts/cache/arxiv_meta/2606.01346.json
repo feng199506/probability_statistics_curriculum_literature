@@ -1,0 +1,18 @@
+{
+ "id": "2606.01346",
+ "title": "FlowSDR: Sufficient Dimension Reduction via Conditional Normalizing Flows",
+ "authors": [
+  "Yuexiao Dong",
+  "Kenichiro Mcalinn",
+  "Edoardo Airoldi",
+  "Lei Li"
+ ],
+ "v1_date": "2026-05-31",
+ "latest_version": 1,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 8 tables",
+ "abstract": "Sufficient dimension reduction (SDR) seeks a low-dimensional linear projection of predictors that preserves the conditional distribution of the response. Existing methods target this conditional distribution indirectly, via inverse moments, local forward regression, or neural ensemble regression. We propose FlowSDR, a likelihood-based framework that jointly learns the projection and the conditional density by maximizing a conditional log-likelihood, with the density parameterized by monotone rational-quadratic spline flows. The estimator is Fisher consistent under the SDR model, and its sample objective admits a population interpretation in terms of mutual information. As a complementary model within the same likelihood framework, we introduce the neural Gaussian SDR, a heteroscedastic conditional Gaussian model whose mean and variance are parameterized by shared neural-network functions of the projected predictors. In simulations spanning Gaussian errors, heavy-tailed distributions, two-component mixtures, and settings with tail behavior not captured by mean-variance structure, FlowSDR recovers the central subspace more accurately than existing SDR methods and the neural Gaussian SDR baseline. We further validate these advantages on a face-age prediction task using the UTKFace dataset.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.08159",
+ "title": "Reluctant Interaction Modeling in Generalized Linear Models",
+ "authors": [
+  "Hai Lu",
+  "Guo Yu"
+ ],
+ "v1_date": "2024-01-16",
+ "latest_version": 1,
+ "latest_date": "2024-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages",
+ "abstract": "While including pairwise interactions in a regression model can better approximate response surface, fitting such an interaction model is a well-known difficult problem. In particular, analyzing contemporary high-dimensional datasets often leads to extremely large-scale interaction modeling problem, where the challenge is posed to identify important interactions among millions or even billions of candidate interactions. While several methods have recently been proposed to tackle this challenge, they are mostly designed by (1) assuming the hierarchy assumption among the important interactions and (or) (2) focusing on the case in linear models with interactions and (sub)Gaussian errors. In practice, however, neither of these two building blocks has to hold. In this paper, we propose an interaction modeling framework in generalized linear models (GLMs) which is free of any assumptions on hierarchy. We develop a non-trivial extension of the reluctance interaction selection principle to the GLMs setting, where a main effect is preferred over an interaction if all else is equal. Our proposed method is easy to implement, and is highly scalable to large-scale datasets. Theoretically, we demonstrate that it possesses screening consistency under high-dimensional setting. Numerical studies on simulated datasets and a real dataset show that the proposed method does not sacrifice statistical performance in the presence of significant computational gain.",
+ "primary": "stat.ME"
+}

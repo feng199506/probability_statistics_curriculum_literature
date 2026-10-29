@@ -1,0 +1,18 @@
+{
+ "id": "2512.10212",
+ "title": "Semiparametric rank-based regression models as robust alternatives to parametric mean-based counterparts for censored responses under detection-limit",
+ "authors": [
+  "Y. Xu",
+  "S. Tu L. Shao",
+  "T. Lin",
+  "X. M. Tu"
+ ],
+ "v1_date": "2025-12-11",
+ "latest_version": 1,
+ "latest_date": "2025-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Detection limits are common in biomedical and environmental studies, where key covariates or outcomes are censored below an assay-specific threshold. Standard approaches such as complete-case analysis, single-value substitution, and parametric Tobit-type models are either inefficient or sensitive to distributional misspecification. We study semiparametric rank-based regression models as robust alternatives to parametric mean-based counterparts for censored responses under detection limits. Our focus is on accelerated failure time (AFT) type formulations, where rank-based estimating equations yield consistent slope estimates without specifying the error distribution. We develop a unifying simulation framework that generates left- and right-censored data under several data-generating mechanisms, including normal, Weibull, and log-normal error structures, with detection limits or administrative censoring calibrated to target censoring rates between 10\\% and 60\\%. Across scenarios, we compare semiparametric AFT estimators with parametric Weibull AFT, Tobit, and Cox proportional hazards models in terms of bias, empirical variability, and relative efficiency. Numerical results show that parametric models perform well only under correct specification, whereas rank-based semiparametric AFT estimators maintain near-unbiased covariate effects and stable precision even under heavy censoring and distributional misspecification. These findings support semiparametric rank-based regression as a practical default for censored regression with detection limits when the error distribution is uncertain. Keywords: Semiparametric models, Estimating equations, Left censoring, Right censoring, Tobit regression, Efficiency",
+ "primary": "stat.ME"
+}

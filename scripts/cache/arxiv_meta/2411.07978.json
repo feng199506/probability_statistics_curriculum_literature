@@ -1,0 +1,15 @@
+{
+ "id": "2411.07978",
+ "title": "A Note on Doubly Robust Estimator in Regression Discontinuity Designs",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2024-11-12",
+ "latest_version": 4,
+ "latest_date": "2025-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This note introduces a doubly robust (DR) estimator for regression discontinuity (RD) designs. RD designs provide a quasi-experimental framework for estimating treatment effects, where treatment assignment depends on whether a running variable surpasses a predefined cutoff. A common approach in RD estimation is the use of nonparametric regression methods, such as local linear regression. However, the validity of these methods still relies on the consistency of the nonparametric estimators. In this study, we propose the DR-RD estimator, which combines two distinct estimators for the conditional expected outcomes. The primary advantage of the DR-RD estimator lies in its ability to ensure the consistency of the treatment effect estimation as long as at least one of the two estimators is consistent. Consequently, our DR-RD estimator enhances robustness of treatment effect estimators in RD designs.",
+ "primary": "econ.EM"
+}

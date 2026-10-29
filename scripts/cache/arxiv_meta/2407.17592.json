@@ -1,0 +1,17 @@
+{
+ "id": "2407.17592",
+ "title": "Robust Maximum $L_q$-Likelihood Covariance Estimation for Replicated Spatial Data",
+ "authors": [
+  "Sihan Chen",
+  "Joydeep Chowdhury",
+  "Marc G. Genton"
+ ],
+ "v1_date": "2024-07-24",
+ "latest_version": 2,
+ "latest_date": "2025-06-19",
+ "journal_ref": "Journal of Data Science, Statistics, and Visualisation, 5(4) (2025)",
+ "doi": "10.52933/jdssv.v5i4.126",
+ "comment": "",
+ "abstract": "Parameter estimation with the maximum $L_q$-likelihood estimator (ML$q$E) is an alternative to the maximum likelihood estimator (MLE) that considers the $q$-th power of the likelihood values for some $q<1$. In this method, extreme values are down-weighted because of their lower likelihood values, which yields robust estimates. In this work, we study the properties of the ML$q$E for spatial data with replicates. We investigate the asymptotic properties of the ML$q$E for Gaussian random fields with a Matérn covariance function, and carry out simulation studies to investigate the numerical performance of the ML$q$E. We show that it can provide more robust and stable estimation results when some of the replicates in the spatial data contain outliers. In addition, we develop a mechanism to find the optimal choice of the hyper-parameter $q$ for the ML$q$E. The robustness of our approach is further verified on a United States precipitation dataset. Compared with other robust methods for spatial data, our proposal is more intuitive and easier to understand, yet it performs well when dealing with datasets containing outliers.",
+ "primary": "stat.ME"
+}

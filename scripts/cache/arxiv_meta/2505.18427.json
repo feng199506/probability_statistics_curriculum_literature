@@ -1,0 +1,17 @@
+{
+ "id": "2505.18427",
+ "title": "Learning Latent Variable Models via Jarzynski-adjusted Langevin Algorithm",
+ "authors": [
+  "James Cuin",
+  "Davide Carbone",
+  "O. Deniz Akyildiz"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 2,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We utilise a sampler originating from nonequilibrium statistical mechanics, termed here Jarzynski-adjusted Langevin algorithm (JALA), to build statistical estimation methods in latent variable models. We achieve this by leveraging Jarzynski's equality and developing algorithms based on a weighted version of the unadjusted Langevin algorithm (ULA) with recursively updated weights. Adapting this for latent variable models, we develop a sequential Monte Carlo (SMC) method that provides the maximum marginal likelihood estimate of the parameters, termed JALA-EM. Under suitable regularity assumptions on the marginal likelihood, we provide a nonasymptotic analysis of the JALA-EM scheme implemented with stochastic gradient descent and show that it provably converges to the maximum marginal likelihood estimate. We demonstrate the performance of JALA-EM on a variety of latent variable models and show that it performs comparably to existing methods in terms of accuracy and computational efficiency. Importantly, the ability to recursively estimate marginal likelihoods - an uncommon feature among scalable methods - makes our approach particularly suited for model selection, which we validate through dedicated experiments.",
+ "primary": "stat.CO"
+}

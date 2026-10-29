@@ -1,0 +1,19 @@
+{
+ "id": "2604.04431",
+ "title": "iLBA: An R package for confidentially disseminating aggregated frequency tables",
+ "authors": [
+  "Jeehyun Hwang",
+  "Dongsun Yoon",
+  "Sungkyu Jung",
+  "Min-Jeong Park",
+  "Inkwon Yeo"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 1,
+ "latest_date": "2026-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Statistical agencies frequently release frequency tables derived from microdata, but small frequency cells may lead to disclosure risks. We present \\texttt{iLBA}, an open-source \\textsf{R} package for confidential dissemination of aggregated frequency tables. The package implements the Information-Loss-Bounded Aggregation (iLBA) algorithm, which combines Small Cell Adjustment (SCA) at the finest level table with an aggregation procedure that introduces controlled ambiguity while bounding information loss. The software enables users to construct masked finest level tables, generate confidential aggregated tables for selected variables, and obtain masked frequencies for single-cell queries. By providing an accessible implementation of the iLBA method, the package facilitates reproducible and efficient disclosure control for tabular data derived from microdata.",
+ "primary": "stat.CO"
+}

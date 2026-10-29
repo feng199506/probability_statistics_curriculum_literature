@@ -1,0 +1,17 @@
+{
+ "id": "2603.12352",
+ "title": "Bayesian Covariate-Varying Interaction Analysis for Multivariate Count Data: Application to Microbiome Studies",
+ "authors": [
+  "Shuangjie Zhang",
+  "Michael L. Patnode",
+  "Juhee Lee"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 1,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages, 1o Figures",
+ "abstract": "Understanding covariate-varying interdependencies among features is of great interest in various applications. Motivated by microbiome studies where microbial abundances and interactions vary with environmental factors, we develop a Bayesian covariate-varying factor model. This model flexibly estimates heteroscedasticity in the covariance matrix as a function of covariates. Specifically, our approach employs covariance regression through linear regression on a lower-dimensional factor loading matrix. This formulation, combined with joint sparsity induced by the Dirichlet--Horseshoe prior for the factor loadings, provides robust estimation of covariate-varying covariance in high-dimensional settings. The model simultaneously incorporates a regression structure for the mean abundance and jointly addresses the covariate-varying mean and covariance structure. Furthermore, the model tackles key statistical challenges such as discreteness, over-dispersion, compositionality, and high dimensionality, common in microbiome data analysis, using a flexible nonparametric Bayesian framework. We thoroughly investigate the properties of the model and conduct extensive simulation studies to examine its performance. Real microbiome data examples are provided for illustration.",
+ "primary": "stat.ME"
+}

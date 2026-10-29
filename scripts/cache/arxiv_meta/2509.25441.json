@@ -1,0 +1,18 @@
+{
+ "id": "2509.25441",
+ "title": "Dirichlet moment tensors and the correspondence between admixture and mixture of product models",
+ "authors": [
+  "Dat Do",
+  "Sunrit Chakraborty",
+  "Jonathan Terhorst",
+  "XuanLong Nguyen"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 3,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding posterior contraction behavior in Bayesian hierarchical models is of fundamental importance, but progress in this question is relatively sparse in comparison to the theory of density estimation. In this paper, we study two classes of hierarchical models for grouped data, where observations within groups are exchangeable. Using moment tensor decomposition of the distribution of the latent variables, we establish a precise equivalence between the class of Admixture models (such as Latent Dirichlet Allocation) and the class of Mixture of products of multinomial distributions. This correspondence enables us to leverage the result from the latter class of models, which are more well-understood, so as to arrive at the identifiability and posterior contraction rates in both classes under conditions much weaker than in existing literature. For instance, our results shed light on cases where the topics are not linearly independent or the number of topics is misspecified in the admixture setting. Finally, we analyze individual documents' latent allocation performance via the borrowing of strength properties of hierarchical Bayesian modeling. Many illustrations and simulations are provided to support the theory.",
+ "primary": "math.ST"
+}

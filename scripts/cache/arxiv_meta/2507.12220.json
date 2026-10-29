@@ -1,0 +1,17 @@
+{
+ "id": "2507.12220",
+ "title": "Data Synchronization at High Frequencies",
+ "authors": [
+  "Xinbing Kong",
+  "Cheng Liu",
+  "Bin Wu"
+ ],
+ "v1_date": "2025-07-16",
+ "latest_version": 1,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Asynchronous trading in high-frequency financial markets introduces significant biases into econometric analysis, distorting risk estimates and leading to suboptimal portfolio decisions. Existing synchronization methods, such as the previous-tick approach, suffer from information loss and create artificial price staleness. We introduce a novel framework that recasts the data synchronization challenge as a constrained matrix completion problem. Our approach recovers the potential matrix of high-frequency price increments by minimizing its nuclear norm -- capturing the underlying low-rank factor structure -- subject to a large-scale linear system derived from observed, asynchronous price changes. Theoretically, we prove the existence and uniqueness of our estimator and establish its convergence rate. A key theoretical insight is that our method accurately and robustly leverages information from both frequently and infrequently traded assets, overcoming a critical difficulty of efficiency loss in traditional methods. Empirically, using extensive simulations and a large panel of S&P 500 stocks, we demonstrate that our method substantially outperforms established benchmarks. It not only achieves significantly lower synchronization errors, but also corrects the bias in systematic risk estimates (i.e., eigenvalues) and the estimate of betas caused by stale prices. Crucially, portfolios constructed using our synchronized data yield consistently and economically significant higher out-of-sample Sharpe ratios. Our framework provides a powerful tool for uncovering the true dynamics of asset prices, with direct implications for high-frequency risk management, algorithmic trading, and econometric inference.",
+ "primary": "econ.EM"
+}

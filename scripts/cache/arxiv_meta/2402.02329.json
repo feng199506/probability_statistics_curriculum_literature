@@ -1,0 +1,16 @@
+{
+ "id": "2402.02329",
+ "title": "Leveraging Local Distributions in Mendelian Randomization: Uncertain Opinions are Invalid",
+ "authors": [
+  "Ziya Xu",
+  "Sai Li"
+ ],
+ "v1_date": "2024-02-04",
+ "latest_version": 1,
+ "latest_date": "2024-02-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mendelian randomization (MR) considers using genetic variants as instrumental variables (IVs) to infer causal effects in observational studies. However, the validity of causal inference in MR can be compromised when the IVs are potentially invalid. In this work, we propose a new method, MR-Local, to infer the causal effect in the existence of possibly invalid IVs. By leveraging the distribution of ratio estimates around the true causal effect, MR-Local selects the cluster of ratio estimates with the least uncertainty and performs causal inference within it. We establish the asymptotic normality of our estimator in the two-sample summary-data setting under either the plurality rule or the balanced pleiotropy assumption. Extensive simulations and analyses of real datasets demonstrate the reliability of our approach.",
+ "primary": "stat.ME"
+}

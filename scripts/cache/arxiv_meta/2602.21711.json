@@ -1,0 +1,18 @@
+{
+ "id": "2602.21711",
+ "title": "Adaptive Penalized Doubly Robust Regression for Longitudinal Data",
+ "authors": [
+  "Yuyao Wang",
+  "Yu Lu",
+  "Tianni Zhang",
+  "Mengfei Ran"
+ ],
+ "v1_date": "2026-02-25",
+ "latest_version": 1,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Longitudinal data often involve heterogeneity, sparse signals, and contamination from response outliers or high-leverage observations especially in biomedical science. Existing methods usually address only part of this problem, either emphasizing penalized mixed effects modeling without robustness or robust mixed effects estimation without high-dimensional variable selection. We propose a doubly adaptive robust regression (DAR-R) framework for longitudinal linear mixed effects models. It combines a robust pilot fit, doubly adaptive observation weights for residual outliers and leverage points, and folded concave penalization for fixed effect selection, together with weighted updates of random effects and variance components. We develop an iterative reweighting algorithm and establish estimation and prediction error bounds, support recovery consistency, and oracle-type asymptotic normality. Simulations show that DAR-R improves estimation accuracy, false-positive control, and covariance estimation under both vertical outliers and bad leverage contamination. In the TADPOLE/ADNI Alzheimer's disease application, DAR-R achieves accurate and stable prediction of ADAS13 while selecting clinically meaningful predictors with strong resampling stability.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2605.12103",
+ "title": "Informative Simultaneous Confidence Intervals for Graphical Group Sequential Test Procedures",
+ "authors": [
+  "Liane Kluge",
+  "Werner Brannath"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Test procedures for multiple hypotheses in a group sequential clinical trial that control the family-wise error rate are considered. Several graphical group sequential tests suggested in the literature, which are special cases of Bonferroni-closure tests, are discussed. The focus is on the question of whether to consider at the current stage only the evidence of the current repeated p-value or the evidence over all repeated p-values from the previous stages. A new test strategy controlling the family-wise error rate is introduced that consistently works across all hypotheses, with the evidence (i.e., repeated p-value) from the current stage. The strategy is more powerful than similar previously suggested test procedures. This is achieved by using the evidence from previous stages to increase the significance levels. For the test procedures, corresponding compatible simultaneous confidence intervals are presented, having the disadvantage of often not providing additional information on the treatment effects. For this reason, we extend previous work about informative simultaneous confidence intervals for one-stage graphical tests to graphical group sequential trials. Iterative algorithms are introduced that calculate these informative bounds that have a small power loss compared to the original graphical group sequential test. The boundaries can be calculated after each stage. In addition, previous work is extended by a criterion to estimate the accuracy of the numerically calculated boundaries. The suggested informative bounds can be used to provide median-conservative, i.e., reliable estimators, for estimating the treatment effects in a group sequential test with multiple hypotheses.",
+ "primary": "stat.ME"
+}

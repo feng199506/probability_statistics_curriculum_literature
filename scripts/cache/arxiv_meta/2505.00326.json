@@ -1,0 +1,16 @@
+{
+ "id": "2505.00326",
+ "title": "Optimal Vector Compressed Sensing Using James Stein Shrinkage",
+ "authors": [
+  "Apratim Dey",
+  "David Donoho"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 1,
+ "latest_date": "2025-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages",
+ "abstract": "The trend in modern science and technology is to take vector measurements rather than scalars, ruthlessly scaling to ever higher dimensional vectors. For about two decades now, traditional scalar Compressed Sensing has been synonymous with a Convex Optimization based procedure called Basis Pursuit. In the vector recovery case, the natural tendency is to return to a straightforward vector extension of Basis Pursuit, also based on Convex Optimization. However, Convex Optimization is provably suboptimal, particularly when $B$ is large. In this paper, we propose SteinSense, a lightweight iterative algorithm, which is provably optimal when $B$ is large. It does not have any tuning parameter, does not need any training data, requires zero knowledge of sparsity, is embarrassingly simple to implement, and all of this makes it easily scalable to high vector dimensions. We conduct a massive volume of both real and synthetic experiments that confirm the efficacy of SteinSense, and also provide theoretical justification based on ideas from Approximate Message Passing. Fascinatingly, we discover that SteinSense is quite robust, delivering the same quality of performance on real data, and even under substantial departures from conditions under which existing theory holds.",
+ "primary": "cs.LG"
+}

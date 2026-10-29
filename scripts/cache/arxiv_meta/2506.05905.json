@@ -1,0 +1,16 @@
+{
+ "id": "2506.05905",
+ "title": "Sequential Monte Carlo approximations of Wasserstein--Fisher--Rao gradient flows",
+ "authors": [
+  "Francesca R. Crucinio",
+  "Sahani Pathiraja"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 2,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Changes from v1: the study of tempered dynamics was removed in favour of a larger experimental section",
+ "abstract": "We consider the problem of sampling from a probability distribution $π$. It is well known that this can be written as an optimisation problem over the space of probability distribution in which we aim to minimise the Kullback--Leibler divergence from $π$. We consider several partial differential equations (PDEs) whose solution is a minimiser of the Kullback--Leibler divergence from $π$ and connect them to well-known Monte Carlo algorithms. We focus in particular on PDEs obtained by considering the Wasserstein--Fisher--Rao geometry over the space of probabilities and show that these lead to a natural implementation using importance sampling and sequential Monte Carlo. We propose a novel algorithm to approximate the Wasserstein--Fisher--Rao flow of the Kullback--Leibler divergence and conduct an extensive empirical study to identify when these algorithms outperforms other popular Monte Carlo algorithms.",
+ "primary": "stat.ME"
+}

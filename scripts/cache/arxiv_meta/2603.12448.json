@@ -1,0 +1,17 @@
+{
+ "id": "2603.12448",
+ "title": "Sampling through iterated approximation: Gradient-free and multi-fidelity Bayesian inference via transport",
+ "authors": [
+  "Daniel Sharp",
+  "Bart van Bloemen Waanders",
+  "Youssef Marzouk"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 1,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop an iterative framework for Bayesian inference problems where the posterior distribution may involve computationally intensive models, intractable gradients, significant posterior concentration, and pronounced non-Gaussianity. Our approach integrates: (i) a generalized annealing scheme that combines geometric tempering with multi-fidelity modeling; (ii) expressive measure transport surrogates for the intermediate annealed and final target distributions, learned variationally without evaluating gradients of the target density; and, (iii) an importance-weighting scheme to combine multiple quadrature rules, which recycles and reweighs expensive model evaluations as successive posterior approximations are built. Our scheme produces both a quadrature rule for computing posterior expectations and a transport-based approximation of the posterior from which we can easily generate independent Monte Carlo samples. We demonstrate the efficiency and accuracy of our approach on low-dimensional but strongly non-Gaussian Bayesian inverse problems involving partial differential equations.",
+ "primary": "stat.CO"
+}

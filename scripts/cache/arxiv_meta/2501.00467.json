@@ -1,0 +1,19 @@
+{
+ "id": "2501.00467",
+ "title": "Score-Based Metropolis-Hastings Algorithms",
+ "authors": [
+  "Ahmed Aloui",
+  "Ali Hasan",
+  "Juncheng Dong",
+  "Zihao Wu",
+  "Vahid Tarokh"
+ ],
+ "v1_date": "2024-12-31",
+ "latest_version": 2,
+ "latest_date": "2025-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we introduce a new approach for integrating score-based models with the Metropolis-Hastings algorithm. While traditional score-based diffusion models excel in accurately learning the score function from data points, they lack an energy function, making the Metropolis-Hastings adjustment step inaccessible. Consequently, the unadjusted Langevin algorithm is often used for sampling using estimated score functions. The lack of an energy function then prevents the application of the Metropolis-adjusted Langevin algorithm and other Metropolis-Hastings methods, limiting the wealth of other algorithms developed that use acceptance functions. We address this limitation by introducing a new loss function based on the \\emph{detailed balance condition}, allowing the estimation of the Metropolis-Hastings acceptance probabilities given a learned score function. We demonstrate the effectiveness of the proposed method for various scenarios, including sampling from heavy-tail distributions.",
+ "primary": "cs.LG"
+}

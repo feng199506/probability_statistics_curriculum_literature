@@ -20,6 +20,8 @@ def main():
     out = []
     for lib, idc, tc, tic, auc, pc, keep in LIBS:
         base = Path("/root") / lib
+        if not (base / "catalog_cn.csv").exists():
+            continue
         for r in csv.DictReader(open(base / "catalog_cn.csv", encoding="utf-8-sig")):
             if not any(k in r[tc] for k in keep):
                 continue

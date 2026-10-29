@@ -1,0 +1,18 @@
+{
+ "id": "2512.08948",
+ "title": "Online Inference of Constrained Optimization: Primal-Dual Optimality and Sequential Quadratic Programming",
+ "authors": [
+  "Yihang Gao",
+  "Michael K. Ng",
+  "Michael W. Mahoney",
+  "Sen Na"
+ ],
+ "v1_date": "2025-11-27",
+ "latest_version": 1,
+ "latest_date": "2025-11-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "80 pages, 5 figures, 5 tables",
+ "abstract": "We study online statistical inference for the solutions of stochastic optimization problems with equality and inequality constraints. Such problems are prevalent in statistics and machine learning, encompassing constrained $M$-estimation, physics-informed models, safe reinforcement learning, and algorithmic fairness. We develop a stochastic sequential quadratic programming (SSQP) method to solve these problems, where the step direction is computed by sequentially performing a quadratic approximation of the objective and a linear approximation of the constraints. Despite having access to unbiased estimates of population gradients, a key challenge in constrained stochastic problems lies in dealing with the bias in the step direction. As such, we apply a momentum-style gradient moving-average technique within SSQP to debias the step. We show that our method achieves global almost-sure convergence and exhibits local asymptotic normality with an optimal primal-dual limiting covariance matrix in the sense of Hájek and Le Cam. In addition, we provide a plug-in covariance matrix estimator for practical inference. To our knowledge, the proposed SSQP method is the first fully online method that attains primal-dual asymptotic minimax optimality without relying on projection operators onto the constraint set, which are generally intractable for nonlinear problems. Through extensive experiments on benchmark nonlinear problems, as well as on constrained generalized linear models and portfolio allocation problems using both synthetic and real data, we demonstrate superior performance of our method, showing that the method and its asymptotic behavior not only solve constrained stochastic problems efficiently but also provide valid and practical online inference in real-world applications.",
+ "primary": "stat.ML"
+}

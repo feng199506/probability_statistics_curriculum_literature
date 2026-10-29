@@ -1,0 +1,15 @@
+{
+ "id": "2605.26723",
+ "title": "Marginal likelihoods for finite-support Huber contamination",
+ "authors": [
+  "Jaehoan Kim"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, 3 figures",
+ "abstract": "For Huber contamination on a known finite sample space, the unrestricted contaminating law is a probability vector on the support atoms, and domination over all measurable subsets reduces to atomwise inequalities. Placing a Dirichlet prior on this probability vector and a Beta prior on the contamination proportion gives an exact marginal likelihood for the structural parameter after analytic integration of both nuisance quantities. The likelihood is a finite weighted sum over allocations of the observed counts between the structural and contaminating components. For fixed support size, this sum and its score can be evaluated by a dynamic program with quadratic cost in the sample size, enabling gradient-based posterior sampling.",
+ "primary": "stat.ME"
+}

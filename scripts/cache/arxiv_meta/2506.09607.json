@@ -1,0 +1,17 @@
+{
+ "id": "2506.09607",
+ "title": "A new hierarchical distribution on arbitrary sparse precision matrices",
+ "authors": [
+  "Gianluca Mastrantonio",
+  "Pierfrancesco Alaimo Di Loro",
+  "Marco Mingione"
+ ],
+ "v1_date": "2025-06-11",
+ "latest_version": 1,
+ "latest_date": "2025-06-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a general strategy for defining distributions over the space of sparse symmetric positive definite matrices. Our method utilizes the Cholesky factorization of the precision matrix, imposing sparsity through constraints on its elements while preserving their independence and avoiding the numerical evaluation of normalization constants. In particular, we develop the S-Bartlett as a modified Bartlett decomposition, recovering the standard Wishart as a particular case. By incorporating a Spike-and-Slab prior to model graph sparsity, our approach facilitates Bayesian estimation through a tailored MCMC routine based on a Dual Averaging Hamiltonian Monte Carlo update. This framework extends naturally to the Generalized Linear Model setting, enabling applications to non-Gaussian outcomes via latent Gaussian variables. We test and compare the proposed S-Bartelett prior with the G-Wishart both on simulated and real data. Results highlight that the S-Bartlett prior offers a flexible alternative for estimating sparse precision matrices, with potential applications across diverse fields.",
+ "primary": "stat.ME"
+}

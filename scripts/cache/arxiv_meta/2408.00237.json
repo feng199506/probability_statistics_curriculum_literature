@@ -1,0 +1,15 @@
+{
+ "id": "2408.00237",
+ "title": "Empirical Bayes Linked Matrix Decomposition",
+ "authors": [
+  "Eric F. Lock"
+ ],
+ "v1_date": "2024-08-01",
+ "latest_version": 1,
+ "latest_date": "2024-08-01",
+ "journal_ref": "Machine Learning, 2024",
+ "doi": "10.1007/s10994-024-06599-8",
+ "comment": "29 pages, 8 figures",
+ "abstract": "Data for several applications in diverse fields can be represented as multiple matrices that are linked across rows or columns. This is particularly common in molecular biomedical research, in which multiple molecular \"omics\" technologies may capture different feature sets (e.g., corresponding to rows in a matrix) and/or different sample populations (corresponding to columns). This has motivated a large body of work on integrative matrix factorization approaches that identify and decompose low-dimensional signal that is shared across multiple matrices or specific to a given matrix. We propose an empirical variational Bayesian approach to this problem that has several advantages over existing techniques, including the flexibility to accommodate shared signal over any number of row or column sets (i.e., bidimensional integration), an intuitive model-based objective function that yields appropriate shrinkage for the inferred signals, and a relatively efficient estimation algorithm with no tuning parameters. A general result establishes conditions for the uniqueness of the underlying decomposition for a broad family of methods that includes the proposed approach. For scenarios with missing data, we describe an associated iterative imputation approach that is novel for the single-matrix context and a powerful approach for \"blockwise\" imputation (in which an entire row or column is missing) in various linked matrix contexts. Extensive simulations show that the method performs very well under different scenarios with respect to recovering underlying low-rank signal, accurately decomposing shared and specific signals, and accurately imputing missing data. The approach is applied to gene expression and miRNA data from breast cancer tissue and normal breast tissue, for which it gives an informative decomposition of variation and outperforms alternative strategies for missing data imputation.",
+ "primary": "stat.ML"
+}

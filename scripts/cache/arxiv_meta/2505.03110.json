@@ -1,0 +1,15 @@
+{
+ "id": "2505.03110",
+ "title": "Enhancing Seasonal Adjustment Space Models: Constraints and Regularization for Improved Trend and AR Decomposition",
+ "authors": [
+  "Genshiro Kitagawa"
+ ],
+ "v1_date": "2025-05-06",
+ "latest_version": 1,
+ "latest_date": "2025-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "19 pages, 4 tables, 11 figures",
+ "abstract": "This paper investigates enhancements to model-based methods for seasonal adjustment, with a particular focus on the state space modeling framework. It addresses limitations of the standard Decomp model; specifically, the tendency to produce overly smooth trend components and the misattribution of long-term variation to the AR component when the eigenvalues of the AR model are close to unity. To mitigate these issues, the paper proposes imposing constraints on the modulus and argument of the AR eigenvalues, as well as applying regularization techniques ($L_1$ and $L_2$). These approaches are evaluated using real-world datasets. The paper is structured as follows: an overview of the Decomp model, a comparison with its noise-free variant, empirical assessment of constrained AR models, an exploration of regularization methods, and a concluding discussion of key insights.",
+ "primary": "stat.ME"
+}

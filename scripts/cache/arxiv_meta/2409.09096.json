@@ -1,0 +1,19 @@
+{
+ "id": "2409.09096",
+ "title": "Structural causal influence (SCI) captures the forces of social inequality in models of disease dynamics",
+ "authors": [
+  "Sudam Surasinghe",
+  "Swathi Nachiar Manivannan",
+  "Samuel V. Scarpino",
+  "Lorin Crawford",
+  "C. Brandon Ogbunugafor"
+ ],
+ "v1_date": "2024-09-13",
+ "latest_version": 2,
+ "latest_date": "2025-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 figures, 8 tables",
+ "abstract": "Mathematical modeling has played a central role in understanding how infectious disease transmission manifests in populations. These models have demonstrated the importance of key community-level factors in structuring epidemic risk, and are now routinely used in public health for decision support. One barrier to their broader utility is that the existing canon does not often accommodate social inequalities as distinct formal drivers of variability in transmission dynamics. Given decades of evidence supporting the organizational effects of inequalities in structuring society more generally, and infectious disease risk more specifically, addressing this modeling gap is of critical importance. In this study, we build on previous efforts to integrate social forces into computational epidemiology by introducing a metric, the structural causal influence (SCI). The SCI uses causal analysis to provide a measure of the relative vulnerability of sub-communities within a susceptible population, shaped by differences in characteristics such as access to therapy, exposure to disease, and other determinants driven by social forces. We develop our metric in a simple case and apply it to a context of public health importance: Hepatitis C virus in a population of persons who inject drugs. In addition, we demonstrate the flexibility of the SCI using an agent-based model of an infectious disease. Our use of the SCI reveals that, under specific parameters in a multi-community model, the \"less vulnerable\" community may achieve a basic reproduction number below one, ensuring disease extinction. However, even minimal transmission between communities can increase this number, leading to sustained epidemics within both communities.",
+ "primary": "q-bio.QM"
+}

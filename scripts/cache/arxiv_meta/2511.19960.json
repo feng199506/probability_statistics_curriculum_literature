@@ -1,0 +1,16 @@
+{
+ "id": "2511.19960",
+ "title": "Dependence-Aware False Discovery Rate Control in Two-Sided Gaussian Mean Testing",
+ "authors": [
+  "Deepra Ghosh",
+  "Sanat K. Sarkar"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a general framework for controlling the false discovery rate (FDR) in multiple testing of Gaussian means against two-sided alternatives. The widely used Benjamini-Hochberg (BH) procedure provides exact FDR control under independence or conservative control under specific one-sided dependence structures, but its validity for correlated two-sided tests has remained an open question. We introduce the notion of positive left-tail dependence under the null (PLTDN), extending classical dependence assumptions to two-sided settings, and show that it ensures valid FDR control for BH-type procedures. Building on this framework, we propose a family of generalized shifted BH (GSBH) methods that incorporate correlation information through simple p-value adjustments. Simulation results demonstrate reliable FDR control and improved power across a range of dependence structures, while an application to an HIV gene expression dataset illustrates the practical effectiveness of the proposed approach.",
+ "primary": "stat.ME"
+}

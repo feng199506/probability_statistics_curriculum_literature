@@ -1,0 +1,17 @@
+{
+ "id": "2409.19129",
+ "title": "Consistency of Graphical Model-based Clustering: Robust Clustering using Bayesian Spanning Forest",
+ "authors": [
+  "Yu Zheng",
+  "Leo L. Duan",
+  "Arkaprava Roy"
+ ],
+ "v1_date": "2024-09-27",
+ "latest_version": 4,
+ "latest_date": "2026-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 3 figures, 4 tables",
+ "abstract": "Mixture model-based frameworks are very popular for statistical inference in clustering. While convenient for producing probabilistic estimates of cluster assignments and uncertainty, they are prone to misspecification, which can lead to inconsistent clustering results. Graphical model-based clustering adopts a different strategy, specifying the likelihood by treating data as dependently generated from a disjoint union of component graphs. Recent work on Bayesian spanning forests addresses graph uncertainty by using the integrated posterior of the node partition, marginalized over the latent edge distribution, to produce probabilistic clustering estimates. Despite strong empirical performance, theoretical guarantees such as consistency remain unclear, particularly when the true data-generating process deviates from the assumed graphical model. This article establishes a positive asymptotic result: when data are generated from an unknown collection of component distributions and a mild asymptotic separation condition holds with probability tending to one (without requiring complete support separation), the posterior concentrates on the true partition, thereby yielding consistent clustering estimates, including the number of clusters. Our results hold whether the number of clusters is fixed or increases with sample size. Additionally, we derive an upper bound on the expected misclassification rate. These results highlight graphical models as a robust alternative to mixture models in clustering.",
+ "primary": "math.ST"
+}

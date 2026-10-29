@@ -1,0 +1,17 @@
+{
+ "id": "2412.01302",
+ "title": "The Deep Latent Position Block Model For The Block Clustering And Latent Representation Of Networks",
+ "authors": [
+  "Rémi Boutin",
+  "Pierre Latouche",
+  "Charles Bouveyron"
+ ],
+ "v1_date": "2024-12-02",
+ "latest_version": 1,
+ "latest_date": "2024-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The increased quantity of data has led to a soaring use of networks to model relationships between different objects, represented as nodes. Since the number of nodes can be particularly large, the network information must be summarised through node clustering methods. In order to make the results interpretable, a relevant visualisation of the network is also required. To tackle both issues, we propose a new methodology called deep latent position block model (Deep LPBM) which simultaneously provides a network visualisation coherent with block modelling, allowing a clustering more general than community detection methods, as well as a continuous representation of nodes in a latent space given by partial membership vectors. Our methodology is based on a variational autoencoder strategy, relying on a graph convolutional network, with a specifically designed decoder. The inference is done using both variational and stochastic approximations. In order to efficiently select the number of clusters, we provide a comparison of three model selection criteria. An extensive benchmark as well as an evaluation of the partial memberships are provided. We conclude with an analysis of a French political blogosphere network and a comparison with another methodology to illustrate the insights provided by Deep LPBM results.",
+ "primary": "stat.ME"
+}

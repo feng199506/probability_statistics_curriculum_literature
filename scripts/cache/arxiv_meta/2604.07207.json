@@ -1,0 +1,16 @@
+{
+ "id": "2604.07207",
+ "title": "Mixing times of step-reinforced random walks",
+ "authors": [
+  "Yuval Peres",
+  "Shuo Qin"
+ ],
+ "v1_date": "2026-04-08",
+ "latest_version": 3,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the mixing time of a non-Markovian process, the step-reinforced random walk (SRRW) on a finite group. This process differs from a classical random walk in that at each integer time, with probability $α$ the next step is chosen uniformly from the previous steps of the walk. We prove that the distribution of the SRRW converges to the uniform distribution exponentially fast if the walk is irreducible and aperiodic. When the step distribution is either symmetric, a class function, or has an atom at the identity, we relate the mixing time of the SRRW to the spectral gap and the mixing time of the underlying walk. For the reinforced (lazy) simple random walk on $L$-cycles, we show that the mixing time undergoes a phase transition at $α=1/2$ and the reinforcement reduces the mixing time to order $L^{1/α}$ for $α>1/2$. On the $d$-dimensional hypercube, the reinforcement slows down mixing, and the SRRW exhibits cutoff as $d\\to\\infty$ at time $d\\log(d)/[F(α)(1-α)]$, with an $O(d)$ window for each fixed $α\\in(0,1)$, where $F(\\cdot)$ is a hypergeometric function.",
+ "primary": "math.PR"
+}

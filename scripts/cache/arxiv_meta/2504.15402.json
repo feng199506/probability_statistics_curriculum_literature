@@ -1,0 +1,16 @@
+{
+ "id": "2504.15402",
+ "title": "ORKM: An R Package for Online Multi-View Data",
+ "authors": [
+  "Miao Yu",
+  "Guangbao Guo"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 1,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a software package, denoted as ORKM, that incorporates the Online Regu larized K-Means Clustering (ORKMC) algorithm for processing online multi/single-view data. The function ORKMeans of the ORKMC utilizes a regularization term to address multi-view clustering problems with online updates. The package ORKM is capable of computing the classification results, cluster center matrices, and weights for each view of the multi-view data sets. Furthermore, it can handle branch multi/single-view data by transforming the online RKMC algorithm into an offline version, referred to as Regularized K-Means Clustering (RKMC). We demonstrate the effectiveness of the package through simulations and real data analysis, comparing it with several methods and related R packages. Our results indicate that the package is stable and produces good clustering outcomes",
+ "primary": "stat.AP"
+}

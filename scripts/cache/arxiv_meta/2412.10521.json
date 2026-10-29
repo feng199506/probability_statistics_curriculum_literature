@@ -1,0 +1,19 @@
+{
+ "id": "2412.10521",
+ "title": "KenCoh: A Ranked-Based Canonical Coherence",
+ "authors": [
+  "Mara Sherlin D. Talento",
+  "Sarbojit Roy",
+  "Tania Reyes Vallejo",
+  "Leena A Ibrahim",
+  "Hernando C. Ombao"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 2,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work is inspired by the problem of characterizing a dependence measure between two cortical regions of the brain where each region contains multiple signal recordings from several neurons or channels (e.g., inhibitory and excitatory neurons). The goal is to identify differences in the structure of brain functional connectivity between known brain states. An exploratory tool for studying the dependence between two random vectors is via canonical correlation analysis. However, these are limited to only capturing linear associations and are sensitive to outlier observations. Mitigating these limitations is crucial because brain functional connectivity is likely to be more complex than linear, and brain signals may exhibit heavy-tailed properties. To overcome these limitations, we develop a robust method, Kendall's tau-based canonical coherence (KenCoh), to learn connectivity structure among neuronal signals filtered at given frequency bands. Our simulation study demonstrates that KenCoh is competitive with the moment-based estimator and outperforms the latter when the underlying distributions are heavy-tailed. We apply our method to EEG recordings from a virtual-reality driving experiment and to calcium imaging recordings in inhibitory and excitatory neurons of the auditory cortex in mice subjected to sound stimuli. Our findings reveal distinct regional dependencies across frequency bands and brain states.",
+ "primary": "stat.ME"
+}

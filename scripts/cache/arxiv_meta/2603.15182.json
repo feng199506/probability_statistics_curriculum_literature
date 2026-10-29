@@ -1,0 +1,18 @@
+{
+ "id": "2603.15182",
+ "title": "Sequential Transport for Causal Mediation Analysis",
+ "authors": [
+  "Agathe Fernandes Machado",
+  "Iryna Voitsitska",
+  "Arthur Charpentier",
+  "Ewen Gallic"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose sequential transport (ST), a distributional framework for mediation analysis that combines optimal transport (OT) with a mediator directed acyclic graph (DAG). Instead of relying on cross-world counterfactual assumptions, ST constructs unit-level mediator counterfactuals by minimally transporting each mediator, either marginally or conditionally, toward its distribution under an alternative treatment while preserving the causal dependencies encoded by the DAG. For numerical mediators, ST uses monotone (conditional) OT maps based on conditional CDF/quantile estimators; for categorical mediators, it extends naturally via simplex-based transport. We establish consistency of the estimated transport maps and of the induced unit-level decompositions into mutatis mutandis direct and indirect effects under standard regularity and support conditions. When the treatment is randomized or ignorable (possibly conditional on covariates), these decompositions admit a causal interpretation; otherwise, they provide a principled distributional attribution of differences between groups aligned with the mediator structure. Gaussian examples show that ST recovers classical mediation formulas, while additional simulations confirm good performance in nonlinear and mixed-type settings. An application to the COMPAS dataset illustrates how ST yields deterministic, DAG-consistent counterfactual mediators and a fine-grained mediator-level attribution of disparities.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2403.02696",
+ "title": "Low-rank matrix estimation via nonconvex spectral regularized methods in errors-in-variables matrix regression",
+ "authors": [
+  "Xin Li",
+  "Dongya Wu"
+ ],
+ "v1_date": "2024-03-05",
+ "latest_version": 1,
+ "latest_date": "2024-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional matrix regression has been studied in various aspects, such as statistical properties, computational efficiency and application to specific instances including multivariate regression, system identification and matrix compressed sensing. Current studies mainly consider the idealized case that the covariate matrix is obtained without noise, while the more realistic scenario that the covariates may always be corrupted with noise or missing data has received little attention. We consider the general errors-in-variables matrix regression model and proposed a unified framework for low-rank estimation based on nonconvex spectral regularization. Then in the statistical aspect, recovery bounds for any stationary points are provided to achieve statistical consistency. In the computational aspect, the proximal gradient method is applied to solve the nonconvex optimization problem and is proved to converge in polynomial time. Consequences for specific matrix compressed sensing models with additive noise and missing data are obtained via verifying corresponding regularity conditions. Finally, the performance of the proposed nonconvex estimation method is illustrated by numerical experiments.",
+ "primary": "math.ST"
+}

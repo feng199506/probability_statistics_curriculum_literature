@@ -1,0 +1,16 @@
+{
+ "id": "2401.01806",
+ "title": "A complex meta-regression model to identify effective features of interventions from multi-arm, multi-follow-up trials",
+ "authors": [
+  "Annabel L Davies",
+  "Julian P T Higgins"
+ ],
+ "v1_date": "2024-01-03",
+ "latest_version": 1,
+ "latest_date": "2024-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 4 figures, 1 table",
+ "abstract": "Network meta-analysis (NMA) combines evidence from multiple trials to compare the effectiveness of a set of interventions. In public health research, interventions are often complex, made up of multiple components or features. This makes it difficult to define a common set of interventions on which to perform the analysis. One approach to this problem is component network meta-analysis (CNMA) which uses a meta-regression framework to define each intervention as a subset of components whose individual effects combine additively. In this paper, we are motivated by a systematic review of complex interventions to prevent obesity in children. Due to considerable heterogeneity across the trials, these interventions cannot be expressed as a subset of components but instead are coded against a framework of characteristic features. To analyse these data, we develop a bespoke CNMA-inspired model that allows us to identify the most important features of interventions. We define a meta-regression model with covariates on three levels: intervention, study, and follow-up time, as well as flexible interaction terms. By specifying different regression structures for trials with and without a control arm, we relax the assumption from previous CNMA models that a control arm is the absence of intervention components. Furthermore, we derive a correlation structure that accounts for trials with multiple intervention arms and multiple follow-up times. Although our model was developed for the specifics of the obesity data set, it has wider applicability to any set of complex interventions that can be coded according to a set of shared features.",
+ "primary": "stat.ME"
+}

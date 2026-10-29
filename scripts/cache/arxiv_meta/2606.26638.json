@@ -1,0 +1,17 @@
+{
+ "id": "2606.26638",
+ "title": "Multivariable Mendelian randomization with weak instruments: a comparison of Bayesian and frequentist methods",
+ "authors": [
+  "Andrew J. Grant",
+  "Ashish Patel",
+  "Stephen Burgess"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 10 Figures",
+ "abstract": "Weak instruments are a well known limitation for valid causal inference in Mendelian randomization studies. In the single exposure setting, weak instrument bias can be mitigated by selecting genetic instruments which are strongly associated with the exposure according to p-value and/or F-statistic thresholds. However, in the multi-exposure setting, genetic instruments may be strongly associated with an exposure but weakly associated with it conditional on all other exposures in the analysis. It is therefore more difficult to guarantee conditionally strong instruments in multivariable Mendelian randomization. Weak instrument bias can be mitigated using modelling approaches, however there are fewer methods for doing this in the multivariable case compared with the single exposure case. In this paper, we consider a method for mitigating weak instrument bias in multivariable Mendelian randomization using a Bayesian framework: MVMR-Pony. We compare this method with existing frequentist methods. We show using simulation studies that the MVMR-Pony method outperforms the frequentist approaches with respect to bias, coverage, type I error rates, and power, across settings where weak instrument bias arises due to correlated genetic effects, measurement error, and mediation.",
+ "primary": "stat.ME"
+}

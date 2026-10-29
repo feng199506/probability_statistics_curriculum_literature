@@ -1,0 +1,19 @@
+{
+ "id": "2402.13103",
+ "title": "Multivariate Functional Linear Discriminant Analysis for the Classification of Short Time Series with Missing Data",
+ "authors": [
+  "Rahul Bordoloi",
+  "Clémence Réda",
+  "Orell Trautmann",
+  "Saptarshi Bej",
+  "Olaf Wolkenhauer"
+ ],
+ "v1_date": "2024-02-20",
+ "latest_version": 1,
+ "latest_date": "2024-02-20",
+ "journal_ref": "",
+ "doi": "10.1007/s10994-025-06741-0",
+ "comment": "",
+ "abstract": "Functional linear discriminant analysis (FLDA) is a powerful tool that extends LDA-mediated multiclass classification and dimension reduction to univariate time-series functions. However, in the age of large multivariate and incomplete data, statistical dependencies between features must be estimated in a computationally tractable way, while also dealing with missing data. There is a need for a computationally tractable approach that considers the statistical dependencies between features and can handle missing values. We here develop a multivariate version of FLDA (MUDRA) to tackle this issue and describe an efficient expectation/conditional-maximization (ECM) algorithm to infer its parameters. We assess its predictive power on the \"Articulary Word Recognition\" data set and show its improvement over the state-of-the-art, especially in the case of missing data. MUDRA allows interpretable classification of data sets with large proportions of missing data, which will be particularly useful for medical or psychological data sets.",
+ "primary": "cs.LG"
+}

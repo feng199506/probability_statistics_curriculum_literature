@@ -1,0 +1,16 @@
+{
+ "id": "2503.20082",
+ "title": "Optimizing Forecast Combination Weights Using Exponentially Weighted Hit and Win Rate Losses",
+ "authors": [
+  "Henry D. van Eijk",
+  "Sujit K. Ghosh"
+ ],
+ "v1_date": "2025-03-25",
+ "latest_version": 1,
+ "latest_date": "2025-03-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted for publication",
+ "abstract": "Forecasting revenues by aggregating analyst forecasts is a fundamental problem in financial research and practice. A key objective in this context is to improve the accuracy of the forecast by optimizing two performance metrics: the hit rate, which measures the proportion of correctly classified revenue surprise signs, and the win rate, which quantifies the proportion of individual forecasts that outperform an equally weighted consensus benchmark. While researchers have extensively studied forecast combination techniques, two critical gaps remain: (i) the estimation of optimal combination weights tailored to these specific performance metrics and (ii) the development of Bayesian methods for handling missing or incomplete analyst forecasts. This paper proposes novel approaches to address these challenges. First, we introduce a method for estimating optimal forecast combination weights using exponentially weighted hit and win rate loss functions via nonlinear programming. Second, we develop a Bayesian imputation framework that leverages exponentially weighted likelihood methods to account for missing forecasts while preserving key distributional properties. Through extensive empirical evaluations using real-world analyst forecast data, we demonstrate that our proposed methodologies yield superior predictive performance compared to traditional equally weighted and linear combination benchmarks. These findings highlight the advantages of incorporating tailored loss functions and Bayesian inference in forecast combination models, offering valuable insights for financial analysts and practitioners seeking to improve revenue prediction accuracy.",
+ "primary": "stat.ME"
+}

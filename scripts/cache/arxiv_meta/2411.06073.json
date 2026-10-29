@@ -1,0 +1,22 @@
+{
+ "id": "2411.06073",
+ "title": "CQUESST: A dynamical stochastic framework for predicting soil-carbon sequestration",
+ "authors": [
+  "Dan Pagendam",
+  "Jeff Baldock",
+  "David Clifford",
+  "Ryan Farquharson",
+  "Lawrence Murray",
+  "Mike Beare",
+  "Denis Curtin",
+  "Noel Cressie"
+ ],
+ "v1_date": "2024-11-09",
+ "latest_version": 1,
+ "latest_date": "2024-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A statistical framework we call CQUESST (Carbon Quantification and Uncertainty from Evolutionary Soil STochastics), which models carbon sequestration and cycling in soils, is applied to a long-running agricultural experiment that controls for crop type, tillage, and season. The experiment, known as the Millenium Tillage Trial (MTT), ran on 42 field-plots for ten years from 2000-2010; here CQUESST is used to model soil carbon dynamically in six pools, in each of the 42 agricultural plots, and on a monthly time step for a decade. We show how CQUESST can be used to estimate soil-carbon cycling rates under different treatments. Our methods provide much-needed statistical tools for quantitatively inferring the effectiveness of different experimental treatments on soil-carbon sequestration. The decade-long data are of multiple observation types, and these interacting time series are ingested into a fully Bayesian model that has a dynamic stochastic model of multiple pools of soil carbon at its core. CQUESST's stochastic model is motivated by the deterministic RothC soil-carbon model based on nonlinear difference equations. We demonstrate how CQUESST can estimate soil-carbon fluxes for different experimental treatments while acknowledging uncertainties in soil-carbon dynamics, in physical parameters, and in observations. CQUESST is implemented efficiently in the probabilistic programming language Stan using its MapReduce parallelization, and it scales well for large numbers of field-plots, using software libraries that allow for computation to be shared over multiple nodes of high-performance computing clusters.",
+ "primary": "stat.AP"
+}

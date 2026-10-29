@@ -1,0 +1,15 @@
+{
+ "id": "2404.14683",
+ "title": "Some Remarks on Controllability of the Liouville Equation",
+ "authors": [
+  "Maxim Raginsky"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 3,
+ "latest_date": "2024-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages; some corrections in Section 2; final version to appear in M.A. Belabbas, editor, Geometry and Topology in Control System Design, American Institute of Mathematical Sciences, 2024",
+ "abstract": "We revisit the work of Roger Brockett on controllability of the Liouville equation, with a particular focus on the following problem: Given a smooth controlled dynamical system of the form $\\dot{x} = f(x,u)$ and a state-space diffeomorphism $ψ$, design a feedback control $u(t,x)$ to steer an arbitrary initial state $x_0$ to $ψ(x_0)$ in finite time. This formulation of the problem makes contact with the theory of optimal transportation and with nonlinear controllability. For controllable linear systems, Brockett showed that this is possible under a fairly restrictive condition on $ψ$. We prove that controllability suffices for a much larger class of diffeomorphisms. For nonlinear systems defined on smooth manifolds, we review a recent result of Agrachev and Caponigro regarding controllability on the group of diffeomorphisms. A corollary of this result states that, for control-affine systems satisfying a bracket generating condition, any $ψ$ in a neighborhood of the identity can be implemented using a time-varying feedback control law that switches between finitely many time-invariant flows. We prove a quantitative version which allows us to describe the implementation complexity of the Agrachev-Caponigro construction in terms of a lower bound on the number of switchings.",
+ "primary": "math.OC"
+}

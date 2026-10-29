@@ -1,0 +1,15 @@
+{
+ "id": "2607.23914",
+ "title": "The Phase Transition in Online PCA Depends on $n/d\\log(d)$, not $n/d$",
+ "authors": [
+  "Apratim Dey"
+ ],
+ "v1_date": "2026-07-27",
+ "latest_version": 2,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High dimensional statistical theory has established the importance of constant aspect ratio, when the number of dimensions ($d$) and samples ($n$) satisfy $n,d\\to\\infty$ with $n/d\\to γ\\in(0,\\infty)$, in understanding the limits of canonical estimation problems. In particular, for estimating the top eigenvector of a $d\\times d$ population covariance matrix from $n$ iid samples, the BBP phase transition gives a precise threshold -- a simple functional of the aspect ratio -- such that the top sample principal component attains nonzero asymptotic correlation with the truth only when the leading population eigenvalue exceeds it. In this paper, we show that for online / streaming algorithms the story is very different, and constant aspect ratio is insufficient for nonzero overlap. We study Oja's algorithm, the most popular method for online PCA. Let $Σ=θ^2 v_0v_0^\\top+I\\in\\mathbb{R}^{d\\times d}$, and run Oja's algorithm with step size $δ/d$ on $n$ iid samples $X_k\\sim\\mathcal{N}(0,Σ)$, with output $\\hat v_n$. Then, as $n,d\\to\\infty$ with $n/d\\log d\\toγ\\in(0,\\infty)$, we establish a phase transition: $|\\langle\\hat v_n,v_0\\rangle|\\to 0$ when $γ<γ_*$, and $\\toρ_*$ when $γ>γ_*$. Here $ρ_*=ρ_*(θ,δ)=\\sqrt{(θ^2-δ/2)_+/θ^2(1+δ/2)}$ and $γ_*=γ_*(θ,δ)=1/2δ(θ^2-δ/2)_+$. Further, at criticality, when $n=[γ_*d\\log d+ηd]$ and $d\\to\\infty$, $η\\in\\mathbb{R}$, the correlation is random: $|\\langle\\hat v_n,v_0\\rangle|\\stackrel{w}{\\to}ρ_*|G|\\exp(η/2γ_*)/\\sqrt{ρ_*^4+G^2\\exp(η/γ_*)}$ where $G\\sim\\mathcal{N}(0,1)$. This is in stark contrast to ordinary high dimensional PCA, where nonzero overlap is possible at constant $n/d$ and improves as $n/d$ increases.",
+ "primary": "math.ST"
+}

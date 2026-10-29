@@ -1,0 +1,19 @@
+{
+ "id": "2410.07483",
+ "title": "Doubly robust estimation and sensitivity analysis with outcomes truncated by death in multi-arm clinical trials",
+ "authors": [
+  "Jiaqi Tong",
+  "Chao Cheng",
+  "Guangyu Tong",
+  "Michael O. Harhay",
+  "Fan Li"
+ ],
+ "v1_date": "2024-10-09",
+ "latest_version": 2,
+ "latest_date": "2025-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main manuscript in main.tex and supplementary material in Supp.tex",
+ "abstract": "In clinical trials, the observation of participant outcomes may frequently be hindered by death, leading to ambiguity in defining a scientifically meaningful final outcome for those who die. Principal stratification methods are valuable tools for addressing the average causal effect among always-survivors, i.e., the average treatment effect among a subpopulation defined as those who would survive regardless of treatment assignment. Although robust methods for the truncation-by-death problem in two-arm clinical trials have been previously studied, its expansion to multi-arm clinical trials remains elusive. In this article, we study the identification of a class of survivor average causal effect estimands with multiple treatments under monotonicity and principal ignorability, and first propose simple weighting and regression approaches for point estimation. As a further improvement, we derive the efficient influence function to motivate doubly robust estimators for the survivor average causal effects in multi-arm clinical trials. We also propose sensitivity methods under violations of key causal assumptions. Extensive simulations are conducted to investigate the finite-sample performance of the proposed methods against the existing methods, and a real data example is used to illustrate how to operationalize the proposed estimators and the sensitivity methods in practice.",
+ "primary": "stat.ME"
+}

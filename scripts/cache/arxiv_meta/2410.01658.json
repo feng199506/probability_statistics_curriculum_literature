@@ -1,0 +1,17 @@
+{
+ "id": "2410.01658",
+ "title": "Smaller Confidence Intervals From IPW Estimators via Data-Dependent Coarsening",
+ "authors": [
+  "Alkis Kalavasis",
+  "Anay Mehrotra",
+  "Manolis Zampetakis"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 1,
+ "latest_date": "2024-10-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation at the 37th Conference on Learning Theory (COLT) 2024",
+ "abstract": "Inverse propensity-score weighted (IPW) estimators are prevalent in causal inference for estimating average treatment effects in observational studies. Under unconfoundedness, given accurate propensity scores and $n$ samples, the size of confidence intervals of IPW estimators scales down with $n$, and, several of their variants improve the rate of scaling. However, neither IPW estimators nor their variants are robust to inaccuracies: even if a single covariate has an $\\varepsilon>0$ additive error in the propensity score, the size of confidence intervals of these estimators can increase arbitrarily. Moreover, even without errors, the rate with which the confidence intervals of these estimators go to zero with $n$ can be arbitrarily slow in the presence of extreme propensity scores (those close to 0 or 1). We introduce a family of Coarse IPW (CIPW) estimators that captures existing IPW estimators and their variants. Each CIPW estimator is an IPW estimator on a coarsened covariate space, where certain covariates are merged. Under mild assumptions, e.g., Lipschitzness in expected outcomes and sparsity of extreme propensity scores, we give an efficient algorithm to find a robust estimator: given $\\varepsilon$-inaccurate propensity scores and $n$ samples, its confidence interval size scales with $\\varepsilon+1/\\sqrt{n}$. In contrast, under the same assumptions, existing estimators' confidence interval sizes are $Ω(1)$ irrespective of $\\varepsilon$ and $n$. Crucially, our estimator is data-dependent and we show that no data-independent CIPW estimator can be robust to inaccuracies.",
+ "primary": "stat.ME"
+}

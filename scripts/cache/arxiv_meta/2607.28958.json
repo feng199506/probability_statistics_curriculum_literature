@@ -1,0 +1,15 @@
+{
+ "id": "2607.28958",
+ "title": "A Simple Example of Bayesian Nonparametric Inconsistency",
+ "authors": [
+  "Antonio R. Linero"
+ ],
+ "v1_date": "2026-07-31",
+ "latest_version": 1,
+ "latest_date": "2026-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "I present a very simple example in which a full-support prior over distribution functions has an inconsistent posterior, which I believe has instructive value. The example is $Y_i \\stackrel{\\text{iid}}{\\sim} P_0$ under the Bayesian hierarchical model $[Y_i \\mid P] \\stackrel{\\text{iid}}{\\sim} P$ and $P \\sim \\int \\mbox{DP}(α, H) \\, π_α(α) \\ dα$ when $π_α(\\cdot)$ has exponential (or heavier) tails, where $\\mbox{DP}(α, H)$ denotes a Dirichlet process with concentration parameter $α$ and mean $H(\\cdot)$; on the other hand, consistency is obtained under a light-tailed prior. This unifies and generalizes a consistency result of Freedman and Diaconis (1983) with an inconsistency result described by Ferguson et al. (1992).",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2609.29440",
+ "title": "Kernel Balancing in Tree-based Methods",
+ "authors": [
+  "Karolina Gliszczyńska-Schroeder"
+ ],
+ "v1_date": "2026-09-24",
+ "latest_version": 1,
+ "latest_date": "2026-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Studying heterogeneous treatment effects has become essential in experimental and observational studies. A critical assumption for obtaining reliable treatment effect estimates is overlap, which requires that treated and control units have sufficiently similar covariate distributions. Poor overlap may limit the effectiveness of estimators, especially those based on propensity scores, potentially leading to unreliable results. We investigate the effectiveness of kernel balancing (KBal) (Hazlett, 2020) as an alternative to propensity score methods for conditional average treatment effect (CATE) estimation, particularly in settings with overlap violations. Building on optimization-based balancing approaches, we integrate KBal weights into tree-based methods, specifically, causal forests (Athey et al., 2019) and the X-Learner (XRF) (Künzel et al., 2019), to assess their impact on bias reduction and estimation precision. Monte Carlo evidence shows that KBal achieves near-exact balance in a transformed feature space, thereby improving treatment effect estimation in cases where traditional reweighting methods struggle due to extreme weights, finite-sample bias, or insufficient removal of pre-existing confounding bias. We apply the proposed methods to the semi-synthetic IHDP benchmark dataset. Overall, the results indicate that KBal leads to performance improvements, especially in settings with nonlinear treatment effects and limited overlap, making it a useful alternative to propensity score methods.",
+ "primary": "econ.EM"
+}

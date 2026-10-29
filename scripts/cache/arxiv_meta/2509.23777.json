@@ -1,0 +1,18 @@
+{
+ "id": "2509.23777",
+ "title": "A Bayesian model-free dose-finding approach in Phase II clinical trials with the flexibility of historical borrowing",
+ "authors": [
+  "Linxi Han",
+  "Qiqi Deng",
+  "Feng Yu",
+  "Zhangyi He"
+ ],
+ "v1_date": "2025-09-28",
+ "latest_version": 1,
+ "latest_date": "2025-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accurate dose selection in Phase II trials is critical to the success of subsequent Phase III trials, but suboptimal choices remain a leading cause of trial failure and regulatory rejection. Although MCP-Mod is widely adopted and endorsed by regulatory agencies, it requires prespecification of candidate models and is highly sensitive to model misspecification. To address these challenges, we introduce MAP-curvature, a general model-free framework for dose-response modelling that penalises the total curvature of the dose-response curve through a prior. Within this framework, LiMAP-curvature arises as the linear special case, whereas SEMAP-curvature, the focus of this work, employs the sigmoid Emax model, providing greater flexibility to capture nonlinear pharmacological patterns. Through extensive simulations, we show that SEMAP-curvature generally outperforms LiMAP-curvature and MCP-Mod in detecting the dose-response signal, estimating the dose-response curve and identifying the minimum effective dose, with particularly significant improvements under concave downward shapes resembling the sigmoid Emax model. Although SEMAP-curvature exhibits slightly greater variability, it remains robust in accuracy and reliability. We further extend MAP-curvature by integrating it with the Bayesian hierarchical model to enable flexible borrowing of historical data, which improves power and precision, particularly when dose levels overlap across studies. These results highlight MAP-curvature, and in particular SEMAP-curvature with historical borrowing, as a robust and efficient framework for dose selection in early-phase clinical trials.",
+ "primary": "stat.ME"
+}

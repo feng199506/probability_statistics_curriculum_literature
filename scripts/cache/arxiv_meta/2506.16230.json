@@ -1,0 +1,15 @@
+{
+ "id": "2506.16230",
+ "title": "EVT-Based Rate-Preserving Distributional Robustness for Tail Risk Functionals",
+ "authors": [
+  "Anand Deo"
+ ],
+ "v1_date": "2025-06-19",
+ "latest_version": 2,
+ "latest_date": "2026-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Risk measures such as Conditional Value-at-Risk (CVaR) focus on extreme losses, where scarce tail data makes model error unavoidable. To hedge misspecification, one evaluates worst-case tail risk over an ambiguity set. Using Extreme Value Theory (EVT), we derive first-order asymptotics for worst-case tail risk for a broad class of tail-risk measures under standard ambiguity sets, including Wasserstein balls and $φ$-divergence neighborhoods. We show that robustification can alter the nominal tail asymptotic scaling as the tail level $β\\to0$, leading to excess risk inflation. Motivated by this diagnostic, we propose a tail-calibrated ambiguity design that preserves the nominal tail asymptotic scaling while still guarding against misspecification. Under standard domain of attraction assumptions, we prove that the resulting worst-case risk preserves the baseline first-order scaling as $β\\to0$, uniformly over key tuning parameters, and that a plug-in implementation based on consistent tail-index estimation inherits these guarantees. Synthetic and real-data experiments show that the proposed design avoids the severe inflation often induced by standard ambiguity sets.",
+ "primary": "q-fin.RM"
+}

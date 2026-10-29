@@ -1,0 +1,15 @@
+{
+ "id": "1603.01512",
+ "title": "Rapidly Mixing Markov Chains: A Comparison of Techniques (A Survey)",
+ "authors": [
+  "Venkatesan Guruswami"
+ ],
+ "v1_date": "2016-03-04",
+ "latest_version": 1,
+ "latest_date": "2016-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Unpublished and written in 2000; posted in original, unedited form to provide a permanent URL for citations; Disclaimer: This unpublished survey was written in 2000, and is being posted unedited in its original form, in response to requests for a permanent URL that can be cited. It is thus outdated and does not reflect the state of the art in 2016",
+ "abstract": "We survey existing techniques to bound the mixing time of Markov chains. The mixing time is related to a geometric parameter called conductance which is a measure of edge-expansion. Bounds on conductance are typically obtained by a technique called \"canonical paths\" where the idea is to find a set of paths, one between every source-destination pair, such that no edge is heavily congested. However, the canonical paths approach cannot always show rapid mixing of a rapidly mixing chain. This drawback disappears if we allow the flow between a pair of states to be spread along multiple paths. We prove that for a large class of Markov chains canonical paths does capture rapid mixing. Allowing multiple paths to route the flow still does help a great deal in proofs, as illustrated by a result of Morris & Sinclair (FOCS'99) on the rapid mixing of a Markov chain for sampling 0/1 knapsack solutions. A different approach to prove rapid mixing is \"Coupling\". Path Coupling is a variant discovered by Bubley & Dyer (FOCS'97) that often tremendously reduces the complexity of designing good Couplings. We present several applications of Path Coupling in proofs of rapid mixing. These invariably lead to much better bounds on mixing time than known using conductance, and moreover Coupling based proofs are typically simpler. This motivates the question of whether Coupling can be made to work whenever the chain is rapidly mixing. This question was answered in the negative by Kumar & Ramesh (FOCS'99), who showed that no Coupling strategy can prove the rapid mixing of the Jerrum-Sinclair chain for sampling perfect and near-perfect matchings.",
+ "primary": "cs.DS"
+}

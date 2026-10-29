@@ -1,0 +1,17 @@
+{
+ "id": "2408.16763",
+ "title": "Finite Sample Valid Inference via Calibrated Bootstrap",
+ "authors": [
+  "Yiran Jiang",
+  "Chuanhai Liu",
+  "Heping Zhang"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 1,
+ "latest_date": "2024-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While widely used as a general method for uncertainty quantification, the bootstrap method encounters difficulties that raise concerns about its validity in practical applications. This paper introduces a new resampling-based method, termed $\\textit{calibrated bootstrap}$, designed to generate finite sample-valid parametric inference from a sample of size $n$. The central idea is to calibrate an $m$-out-of-$n$ resampling scheme, where the calibration parameter $m$ is determined against inferential pivotal quantities derived from the cumulative distribution functions of loss functions in parameter estimation. The method comprises two algorithms. The first, named $\\textit{resampling approximation}$ (RA), employs a $\\textit{stochastic approximation}$ algorithm to find the value of the calibration parameter $m=m_α$ for a given $α$ in a manner that ensures the resulting $m$-out-of-$n$ bootstrapped $1-α$ confidence set is valid. The second algorithm, termed $\\textit{distributional resampling}$ (DR), is developed to further select samples of bootstrapped estimates from the RA step when constructing $1-α$ confidence sets for a range of $α$ values is of interest. The proposed method is illustrated and compared to existing methods using linear regression with and without $L_1$ penalty, within the context of a high-dimensional setting and a real-world data application. The paper concludes with remarks on a few open problems worthy of consideration.",
+ "primary": "stat.ME"
+}

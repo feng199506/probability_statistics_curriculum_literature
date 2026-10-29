@@ -1,0 +1,17 @@
+{
+ "id": "2412.00304",
+ "title": "Sparse Bayesian Factor Models with Mass-Nonlocal Factor Scores",
+ "authors": [
+  "Yingjie Huang",
+  "Dafne Zorzetto",
+  "Roberta De Vito"
+ ],
+ "v1_date": "2024-11-30",
+ "latest_version": 2,
+ "latest_date": "2025-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian factor models are widely used for dimensionality reduction and pattern discovery in high-dimensional datasets across diverse fields. These models typically focus on imposing priors on factor loading to induce sparsity and improve interpretability. However, factor scores, which play a critical role in individual-level associations with factors, have received less attention and are assumed to follow a standard normal distribution. This assumption oversimplifies the heterogeneity often observed in real-world applications. We propose the sparse Bayesian Factor model with MAss-Nonlocal factor scores (BFMAN), a novel framework that addresses these limitations by introducing a mass-nonlocal prior on factor scores. This prior allows for both exact zeros and flexible, nonlocal behavior, capturing individual-level sparsity and heterogeneity. The sparsity in the score matrix enables a robust and novel approach to determine the optimal number of factors. Model parameters are estimated via a fast and efficient Gibbs sampler. Extensive simulations demonstrate that BFMAN outperforms standard Bayesian factor models in factor recovery, sparsity detection, score estimation, and selection of the optimal number of factors. We apply BFMAN to the Hispanic Community Health Study/Study of Latinos, identifying meaningful dietary patterns and their associations with cardiovascular disease, showcasing the model's ability to uncover insights into complex nutritional data.",
+ "primary": "stat.ME"
+}

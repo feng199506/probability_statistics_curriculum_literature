@@ -1,0 +1,17 @@
+{
+ "id": "2311.13767",
+ "title": "Hierarchical False Discovery Rate Control for High-dimensional Survival Analysis with Interactions",
+ "authors": [
+  "Weijuan Liang",
+  "Qingzhao Zhang",
+  "Shuangge Ma"
+ ],
+ "v1_date": "2023-11-23",
+ "latest_version": 1,
+ "latest_date": "2023-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With the development of data collection techniques, analysis with a survival response and high-dimensional covariates has become routine. Here we consider an interaction model, which includes a set of low-dimensional covariates, a set of high-dimensional covariates, and their interactions. This model has been motivated by gene-environment (G-E) interaction analysis, where the E variables have a low dimension, and the G variables have a high dimension. For such a model, there has been extensive research on estimation and variable selection. Comparatively, inference studies with a valid false discovery rate (FDR) control have been very limited. The existing high-dimensional inference tools cannot be directly applied to interaction models, as interactions and main effects are not ``equal\". In this article, for high-dimensional survival analysis with interactions, we model survival using the Accelerated Failure Time (AFT) model and adopt a ``weighted least squares + debiased Lasso'' approach for estimation and selection. A hierarchical FDR control approach is developed for inference and respect of the ``main effects, interactions'' hierarchy. { The asymptotic distribution properties of the debiased Lasso estimators} are rigorously established. Simulation demonstrates the satisfactory performance of the proposed approach, and the analysis of a breast cancer dataset further establishes its practical utility.",
+ "primary": "stat.ME"
+}

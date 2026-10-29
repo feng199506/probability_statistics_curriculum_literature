@@ -1,0 +1,18 @@
+{
+ "id": "2603.11019",
+ "title": "Don't Disregard the Data for Lack of a Likelihood: Bayesian Synthetic Likelihood for Enhanced Multilevel Network Meta-Regression",
+ "authors": [
+  "Harlan Campbell",
+  "Charles C. Margossian",
+  "Jeroen P. Jansen",
+  "Paul Gustafson"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multilevel network meta-regression (ML-NMR) enables population-adjusted indirect treatment comparisons by combining individual patient data (IPD) with aggregate data. When individual-level covariates are unavailable, ML-NMR marginalizes over the covariate distribution, but this strategy cannot exploit subgroup-level summary results that are often available and potentially highly informative. We propose using Bayesian Synthetic Likelihood (BSL) to leverage this ancillary summary information and present an implementation strategy for Hamiltonian Monte Carlo (HMC), a gradient-based Markov chain Monte Carlo (MCMC) algorithm. At each MCMC iteration, the BSL method imputes missing covariates by sampling from the model-implied conditional distribution, computes synthetic subgroup summaries from the imputed data, and matches these synthetic summaries to observed summaries via a multivariate normal synthetic likelihood. Fitting this model with HMC presents multiple challenges: first, gradients cannot be computed exactly but must be estimated stochastically; and second, the model's likelihood may be non-differentiable at certain points, a pathology that can deeply frustrate the performance of HMC. We address these challenges with pre-drawn random numbers, continuous relaxation of the likelihood, and Pareto-smoothed importance sampling. This work (1) introduces a novel application of BSL to missing data problems where summary statistics from the complete dataset are available despite substantial missingness in the individual-level data, (2) demonstrates how BSL strategies can be implemented within Stan's HMC framework, and (3) shows, using a network of plaque psoriasis trials, that BSL-enhanced ML-NMR can substantially improve upon standard ML-NMR by leveraging informative ancillary information.",
+ "primary": "stat.ME"
+}

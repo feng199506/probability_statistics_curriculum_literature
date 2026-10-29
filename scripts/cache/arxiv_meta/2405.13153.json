@@ -1,0 +1,17 @@
+{
+ "id": "2405.13153",
+ "title": "Max-sliced Wasserstein concentration and uniform ratio bounds of empirical measures on RKHS",
+ "authors": [
+  "Ruiyu Han",
+  "Cynthia Rush",
+  "Johannes Wiesel"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimal transport and the Wasserstein distance $\\mathcal{W}_p$ have recently seen a number of applications in the fields of statistics, machine learning, data science, and the physical sciences. These applications are however severely restricted by the curse of dimensionality, meaning that the number of data points needed to estimate these problems accurately increases exponentially in the dimension. To alleviate this problem, a number of variants of $\\mathcal{W}_p$ have been introduced. We focus here on one of these variants, namely the max-sliced Wasserstein metric $\\overline{\\mathcal{W}}_p$. This metric reduces the high-dimensional minimization problem given by $\\mathcal{W}_p$ to a maximum of one-dimensional measurements in an effort to overcome the curse of dimensionality. In this note we derive concentration results and upper bounds on the expectation of $\\overline{\\mathcal{W}}_p$ between the true and empirical measure on unbounded reproducing kernel Hilbert spaces. We show that, under quite generic assumptions, probability measures concentrate uniformly fast in one-dimensional subspaces, at (nearly) parametric rates. Our results rely on an improvement of currently known bounds for $\\overline{\\mathcal{W}}_p$ in the finite-dimensional case.",
+ "primary": "math.ST"
+}

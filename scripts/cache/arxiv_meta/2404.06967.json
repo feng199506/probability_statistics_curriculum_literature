@@ -1,0 +1,20 @@
+{
+ "id": "2404.06967",
+ "title": "Multiple imputation for longitudinal data: A tutorial",
+ "authors": [
+  "Rushani Wijesuriya",
+  "Margarita Moreno-Betancur",
+  "John B Carlin",
+  "Ian R White",
+  "Matteo Quartagno",
+  "Katherine J Lee"
+ ],
+ "v1_date": "2024-04-10",
+ "latest_version": 1,
+ "latest_date": "2024-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 3 figures",
+ "abstract": "Longitudinal studies are frequently used in medical research and involve collecting repeated measures on individuals over time. Observations from the same individual are invariably correlated and thus an analytic approach that accounts for this clustering by individual is required. While almost all research suffers from missing data, this can be particularly problematic in longitudinal studies as participation often becomes harder to maintain over time. Multiple imputation (MI) is widely used to handle missing data in such studies. When using MI, it is important that the imputation model is compatible with the proposed analysis model. In a longitudinal analysis, this implies that the clustering considered in the analysis model should be reflected in the imputation process. Several MI approaches have been proposed to impute incomplete longitudinal data, such as treating repeated measurements of the same variable as distinct variables or using generalized linear mixed imputation models. However, the uptake of these methods has been limited, as they require additional data manipulation and use of advanced imputation procedures. In this tutorial, we review the available MI approaches that can be used for handling incomplete longitudinal data, including where individuals are clustered within higher-level clusters. We illustrate implementation with replicable R and Stata code using a case study from the Childhood to Adolescence Transition Study.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2410.00858",
+ "title": "Entropy contraction of the Gibbs sampler under log-concavity",
+ "authors": [
+  "Filippo Ascolani",
+  "Hugo Lavenant",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 2,
+ "latest_date": "2026-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Gibbs sampler (a.k.a. Glauber dynamics and heat-bath algorithm) is a popular Markov Chain Monte Carlo algorithm which iteratively samples from the conditional distributions of a probability measure $π$ of interest. Under the assumption that $π$ is strongly log-concave, we show that the random scan Gibbs sampler contracts in relative entropy and provide a sharp characterization of the associated contraction rate. Assuming that evaluating conditionals is cheap compared to evaluating the joint density, our results imply that the number of full evaluations of $π$ needed for the Gibbs sampler to mix grows linearly with the condition number and is independent of the dimension. If $π$ is non-strongly log-concave, the convergence rate in entropy degrades from exponential to polynomial. Our techniques are versatile and extend to Metropolis-within-Gibbs schemes and the Hit-and-Run algorithm. A comparison with gradient-based schemes and the connection with the optimization literature are also discussed.",
+ "primary": "math.PR"
+}

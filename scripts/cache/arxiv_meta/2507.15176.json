@@ -1,0 +1,16 @@
+{
+ "id": "2507.15176",
+ "title": "On Algorithmic Robustness of Corrupted Markov Chains",
+ "authors": [
+  "Jason Gaitonde",
+  "Elchanan Mossel"
+ ],
+ "v1_date": "2025-07-21",
+ "latest_version": 1,
+ "latest_date": "2025-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "We study the algorithmic robustness of general finite Markov chains in terms of their stationary distributions to general, adversarial corruptions of the transition matrix. We show that for Markov chains admitting a spectral gap, variants of the \\emph{PageRank} chain are robust in the sense that, given an \\emph{arbitrary} corruption of the edges emanating from an $ε$-measure of the nodes, the PageRank distribution of the corrupted chain will be $\\mathsf{poly}(\\varepsilon)$ close in total variation to the original distribution under mild conditions on the restart distribution. Our work thus shows that PageRank serves as a simple regularizer against broad, realistic corruptions with algorithmic guarantees that are dimension-free and scale gracefully in terms of necessary and natural parameters.",
+ "primary": "math.PR"
+}

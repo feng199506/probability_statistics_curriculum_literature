@@ -1,0 +1,20 @@
+{
+ "id": "2409.13873",
+ "title": "Jointly modeling time-to-event and longitudinal data with individual-specific change points: a case study in modeling tumor burden",
+ "authors": [
+  "Ethan M. Alt",
+  "Yixiang Qu",
+  "Emily Damone",
+  "Jing-ou Liu",
+  "Chenguang Wang",
+  "Joseph G. Ibrahim"
+ ],
+ "v1_date": "2024-09-20",
+ "latest_version": 1,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In oncology clinical trials, tumor burden (TB) stands as a crucial longitudinal biomarker, reflecting the toll a tumor takes on a patient's prognosis. With certain treatments, the disease's natural progression shows the tumor burden initially receding before rising once more. Biologically, the point of change may be different between individuals and must have occurred between the baseline measurement and progression time of the patient, implying a random effects model obeying a bound constraint. However, in practice, patients may drop out of the study due to progression or death, presenting a non-ignorable missing data problem. In this paper, we introduce a novel joint model that combines time-to-event data and longitudinal data, where the latter is parameterized by a random change point augmented by random pre-slope and post-slope dynamics. Importantly, the model is equipped to incorporate covariates across for the longitudinal and survival models, adding significant flexibility. Adopting a Bayesian approach, we propose an efficient Hamiltonian Monte Carlo algorithm for parameter inference. We demonstrate the superiority of our approach compared to a longitudinal-only model via simulations and apply our method to a data set in oncology.",
+ "primary": "stat.ME"
+}

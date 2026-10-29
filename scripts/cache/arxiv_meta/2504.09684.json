@@ -1,0 +1,17 @@
+{
+ "id": "2504.09684",
+ "title": "An Adaptive Multivariate Functional Control Chart",
+ "authors": [
+  "Fabio Centofanti",
+  "Antonio Lepore",
+  "Biagio Palumbo"
+ ],
+ "v1_date": "2025-04-13",
+ "latest_version": 1,
+ "latest_date": "2025-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "New data acquisition technologies allow one to gather huge amounts of data that are best represented as functional data. In this setting, profile monitoring assesses the stability over time of both univariate and multivariate functional quality characteristics. The detection power of profile monitoring methods could heavily depend on parameter selection criteria, which usually do not take into account any information from the out-of-control (OC) state. This work proposes a new framework, referred to as adaptive multivariate functional control chart (AMFCC), capable of adapting the monitoring of a multivariate functional quality characteristic to the unknown OC distribution, by combining $p$-values of the partial tests corresponding to Hotelling $T^2$-type statistics calculated at different parameter combinations. Through an extensive Monte Carlo simulation study, the performance of AMFCC is compared with methods that have already appeared in the literature. Finally, a case study is presented in which the proposed framework is used to monitor a resistance spot welding process in the automotive industry. AMFCC is implemented in the R package funcharts, available on CRAN.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2608.23756",
+ "title": "Measure-valued fluid limits for partial service queues with correlated patience and service times",
+ "authors": [
+  "Diego Goldsztajn",
+  "Fernando Paganini",
+  "Andres Ferragut"
+ ],
+ "v1_date": "2026-08-24",
+ "latest_version": 1,
+ "latest_date": "2026-08-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "95 pages",
+ "abstract": "We consider a many-server queue where tasks with general patience and service times arrive as a renewal process. Contrary to the standard assumptions, we allow for preemption and abandonment during service, relevant in applications such as electric vehicle charging and anytime algorithms in cloud computing. Moreover, we do not assume independence of patience and service times, which has been a critical assumption in the literature. We describe the state of the system using a discrete measure on a two-dimensional orthant, such that the coordinates of its atoms represent the attained service and time in the system of tasks. Under mild assumptions, we derive the fluid limit as the number of servers approaches infinity and the arrival rate of tasks grows proportionally. The limit is given by a measure-valued integral transport equation that we solve explicitly when the initial condition is the null measure. We also prove that all solutions, regardless of the initial condition, converge to the same fixed point, which admits a closed-form expression. Our results focus on the preemptive Last-Come-First-Served (LCFS) policy, which has been identified as practically appealing in recent work.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.07121",
+ "title": "Posterior Summarization for Variable Selection in Bayesian Tree Ensembles",
+ "authors": [
+  "Shengbin Ye",
+  "Meng Li"
+ ],
+ "v1_date": "2025-09-08",
+ "latest_version": 2,
+ "latest_date": "2026-08-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variable selection remains a fundamental challenge in statistics, especially in nonparametric settings where model complexity can obscure interpretability. Bayesian tree ensembles, particularly the popular Bayesian additive regression trees (BART) and their rich variants, offer strong predictive performance with interpretable variable importance measures. We modularize variable selection with Bayesian tree ensembles into two components, the tree prior and the posterior summary, and show that, although typically framed as a modeling task, it often hinges on posterior summarization, which remains underexplored. To this end, we introduce the VC-measure (Variable Count and its rank variant) with a clustering-based threshold. This posterior summary is a simple, tuning-free plug-in that requires no sampling beyond the standard model fits used by existing methods, integrates with any BART variant, and avoids the instability of the median probability model and the computational cost of permutations. In a large-scale benchmark of 3,600 settings built on 100 nonlinear physics equations, it yields uniform $F_1$ gains for both general-purpose and sparsity-inducing priors; when paired with the Dirichlet Additive Regression Tree (DART), it overcomes pitfalls of the original summary and attains the best overall balance of recall, precision, and efficiency. Practical guidance on aligning summaries and downstream goals is discussed.",
+ "primary": "stat.ME"
+}

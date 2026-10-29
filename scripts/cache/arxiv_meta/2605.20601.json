@@ -1,0 +1,15 @@
+{
+ "id": "2605.20601",
+ "title": "Endogenous Quantile Regression with Measurement Error in Dependent Variable",
+ "authors": [
+  "Xuanjing Su"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies quantile regression with an endogenous regressor and measurement error in the dependent variable. Standard quantile regression estimators ignoring these two elements can induce substantial bias. We adopt a control-function approach in a triangular system and show that the conditional quantile coefficient functions, together with all other distributional parameters, are nonparametrically identifiable. Building on this constructive identification result, we propose a two-step sieve ML estimator. The first step estimates the control function. The second step performs a sieve likelihood maximization that incorporates the generated control variable through copula weights. When the number of quantile grid knots grows at an appropriate speed, the estimator is consistent and asymptotically normal, permitting inference via bootstrap. Monte Carlo simulations demonstrate that the estimator markedly reduces bias relative to existing methods, confirming its effectiveness in settings with endogeneity and additive measurement error in the outcome.",
+ "primary": "econ.EM"
+}

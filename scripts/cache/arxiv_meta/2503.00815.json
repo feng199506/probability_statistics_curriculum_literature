@@ -1,0 +1,18 @@
+{
+ "id": "2503.00815",
+ "title": "Evaluation of adaptive sampling methods in scenario generation for virtual safety impact assessment of pre-crash safety systems",
+ "authors": [
+  "Xiaomi Yang",
+  "Henrik Imberg",
+  "Carol Flannagan",
+  "Jonas Bärgman"
+ ],
+ "v1_date": "2025-03-02",
+ "latest_version": 1,
+ "latest_date": "2025-03-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Virtual safety assessment plays a vital role in evaluating the safety impact of pre-crash safety systems such as advanced driver assistance systems (ADAS) and automated driving systems (ADS). However, as the number of parameters in simulation-based scenario generation increases, the number of crash scenarios to simulate grows exponentially, making complete enumeration computationally infeasible. Efficient sampling methods, such as importance sampling and active sampling, have been proposed to address this challenge. However, a comprehensive evaluation of how domain knowledge, stratification, and batch sampling affect their efficiency remains limited. This study evaluates the performance of importance sampling and active sampling in scenario generation, incorporating two domain-knowledge-driven features: adaptive sample space reduction (ASSR) and stratification. Additionally, we assess the effects of a third feature, batch sampling, on computational efficiency in terms of both CPU and wall-clock time. Based on our findings, we provide practical recommendations for applying ASSR, stratification, and batch sampling to optimize sampling performance. Our results demonstrate that ASSR substantially improves sampling efficiency for both importance sampling and active sampling. When integrated into active sampling, ASSR reduces the root mean squared estimation error (RMSE) of the estimates by up to 90\\%. Stratification further improves sampling performance for both methods, regardless of ASSR implementation. When ASSR and/or stratification are applied, importance sampling performs on par with active sampling, whereas when neither feature is used, active sampling is more efficient. Larger batch sizes reduce wall-clock time but increase the number of simulations required to achieve the same estimation accuracy.",
+ "primary": "stat.AP"
+}

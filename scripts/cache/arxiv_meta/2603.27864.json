@@ -1,0 +1,17 @@
+{
+ "id": "2603.27864",
+ "title": "Vertical Consensus Inference for High-Dimensional Random Partition",
+ "authors": [
+  "Khai Nguyen",
+  "Yang Ni",
+  "Peter Mueller"
+ ],
+ "v1_date": "2026-03-29",
+ "latest_version": 1,
+ "latest_date": "2026-03-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 1 figure",
+ "abstract": "We review recently proposed Bayesian approaches for clustering high-dimensional data. After identifying the main limitations of available approaches, we introduce an alternative framework based on vertical consensus inference (VCI) to mitigate the curse of dimensionality in high-dimensional Bayesian clustering. VCI builds on the idea of consensus Monte Carlo by dividing the data into multiple shards (smaller subsets of variables), performing posterior inference on each shard, and then combining the shard-level posteriors to obtain a consensus posterior. The key distinction is that VCI splits the data vertically, producing vertical shards that retain the same number of observations but have lower dimensionality. We use an entropic regularized Wasserstein barycenter to define a consensus posterior. The shard-specific barycenter weights are constructed to favor shards that provide meaningful partitions, distinct from a trivial single cluster or all singleton clusters, favoring balanced cluster sizes and precise shard-specific posterior random partitions. We show that VCI can be interpreted as a variational approximation to the posterior under a hierarchical model with a generalized Bayes prior. For relatively low-dimensional problems, experiments suggest that VCI closely approximates inference based on clustering the entire multivariate data. For high-dimensional data and in the presence of many noninformative dimensions, VCI introduces a new framework for model-based and principled inference on random partitions. Although our focus here is on random partitions, VCI can be applied to any dimension-independent parameters and serves as a bridge to emerging areas in statistics such as consensus Monte Carlo, optimal transport, variational inference, and generalized Bayes.",
+ "primary": "stat.ME"
+}

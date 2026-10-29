@@ -1,0 +1,584 @@
+[
+ {
+  "arxiv": "2608.17793",
+  "subtopic": "测度论概率与条件期望",
+  "type": "立场与方法论",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "配合测度论公理化学习，理解 Kolmogorov 体系与经验世界之间的桥梁问题。",
+  "summary": "作者讨论 Kolmogorov《概率论基础》中仅两页的非数学章节。摘要称重点分析其中两处有争议的特点：数学理论与经验世界之间有两座而非一座“桥”，以及在试验序列中观察到预先指定的零概率事件的可能性。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2312.16349",
+  "subtopic": "测度论概率与条件期望",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "把正则条件分布、可交换性与 de Finetti 定理联系起来，适合条件期望与正则条件概率专题的延伸阅读。",
+  "summary": "摘要称作者推广了 de Finetti–Hewitt–Savage 定理：可交换序列条件独立同分布，当且仅当每个元素给定可交换 σ-代数时存在正则条件分布。作者据此说明公共分布为 Radon 测度的可交换序列都是条件独立同分布的。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2508.00617",
+  "subtopic": "测度论概率与条件期望",
+  "type": "原始研究论文",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "用具体工具讲清“分解（disintegration）”如何严格定义条件分布，纠正把条件密度当作限制密度的常见误解。",
+  "summary": "摘要称条件化在测度论中由测度的分解形式化，但分解的定义是隐式的、构造困难。作者给出一套构造分解的数学工具，并用于求不同情形下分解的密度，指出机器学习中把分解与密度限制混同的民间结论存在问题。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2508.02416",
+  "subtopic": "测度论概率与条件期望",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "以条件期望算子的满射性为例，训练对条件期望结构性质的严格推理。",
+  "summary": "作者研究实值 X 与 Y 的联合分布，问何时任意非负可积 f(X) 都能写成 E[g(Y)|X]。摘要称这一表示性质与给定 Y 时 X 条件分布支撑的“小”有关，若该条件分布几乎处处含非零绝对连续分量则表示失败，并给出充分条件。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2401.06177",
+  "subtopic": "测度论概率与条件期望",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "短小的条件独立性与全变差收敛结论，适合作为测度论概率课程的习题型阅读。",
+  "summary": "摘要称：若概率测度序列在全变差意义下收敛，且两个 σ-代数在每个 P_n 下给定第三个 σ-代数条件独立，则在极限测度下仍条件独立；作为推论该结论可推广到密度逐点收敛的情形。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2609.09689",
+  "subtopic": "弱收敛与概率距离",
+  "type": "学术教程",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "弱收敛核心定理（Portmanteau）的自足证明，适合作为测度论概率课程的讲义补充。",
+  "summary": "作者给出 Portmanteau 定理七种等价表述的统一证明。摘要称论证强调从有界连续函数期望到开集、闭集概率界的蕴含环结构，并说明有界 Lipschitz 函数等中间函数类的作用。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "math/0209021",
+  "subtopic": "弱收敛与概率距离",
+  "type": "综述",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "概率距离之间关系的标准参考图，学习弱收敛、全变差、Wasserstein 等度量时必备。",
+  "summary": "作者综述统计与概率中十种重要概率度量之间的界，并给出一些新结果。摘要称文中用一张参考图总结这些关系，并举例说明收敛速度会依赖所选度量。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "系统比较十种概率距离及其相互界的经典综述，至今仍是选择概率度量的标准参考，近三年没有同等覆盖面的替代综述。"
+ },
+ {
+  "arxiv": "2510.02537",
+  "subtopic": "弱收敛与概率距离",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "讲解 Hellinger 距离与 Fisher-Rao 距离的历史与性质，补充概率距离专题。",
+  "summary": "这是一份说明性讲义，介绍所有测度上的 Hellinger 距离及其诱导的 Fisher-Rao 距离（如概率测度或高斯测度子集上）。摘要称作者讨论两者的关系与区别，并用增长方程给出 Hellinger 空间中绝对连续曲线的动态刻画。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2403.01544",
+  "subtopic": "弱收敛与概率距离",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "局部弱收敛的概念性导引，连接弱收敛理论与随机图渐近分析。",
+  "summary": "作者概述局部弱收敛这一理解大规模网络渐近行为的主要技术。摘要称本文目标不是全面综述，而是解释其主要概念与思想，并展示在多种随机图模型与泛函上的应用。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "06"
+  ]
+ },
+ {
+  "arxiv": "2407.12921",
+  "subtopic": "弱收敛与概率距离",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "有限 de Finetti 定理把可交换性、条件独立与全变差/相对熵界结合，是测度论概率的高阶专题。",
+  "summary": "作者回顾全变差与相对熵意义下的新旧有限 de Finetti 定理，并强调它们与有放回/无放回抽样差异界的联系。摘要称作者还对取值于任意空间的可交换随机向量建立了两个新的紧界，且与空间大小和维数无关。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2602.06234",
+  "subtopic": "极限定理与收敛速率",
+  "type": "学术教程",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "Berry–Esseen 定理的友好讲解，同时展示 Fourier（特征函数）方法与 Stein 方法两条证明路线。",
+  "summary": "作者为非同分布独立随机变量的 Berry–Esseen 定理给出两种自足证明：经典的 Fourier 分析证明与沿 Bolthausen 思路的 Stein 方法证明。摘要称该讲解适合研究生基础概率课程。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "08"
+  ]
+ },
+ {
+  "arxiv": "2512.13148",
+  "subtopic": "极限定理与收敛速率",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "以 Wiener 混沌分解和四阶矩定理证明 Breuer–Major 型 CLT，衔接 Malliavin–Stein 方法。",
+  "summary": "作者回顾格点离散高斯场非线性泛函的已知结果，主要结果是 Breuer–Major 风格的中心极限定理及其对高斯自由场幂次的应用。摘要称偶数次幂收敛到高斯白噪声，奇数次幂收敛到连续高斯自由场，证明基于 Wiener 混沌分解与四阶矩定理。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2407.20744",
+  "subtopic": "极限定理与收敛速率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "多维局部极限定理的 Berry–Esseen 型误差界，是极限定理收敛速率的代表性近作。",
+  "summary": "摘要称作者用 Lyapunov 系数与相关密度的最大值，给出多维局部极限定理中的 Berry–Esseen 型界。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2609.06358",
+  "subtopic": "极限定理与收敛速率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "关于 Berry–Esseen 常数猜想的最新进展，适合了解经典极限定理中仍在推进的精确常数问题。",
+  "summary": "摘要称作者证明只要样本量 n 不小于一个普适阈值 N，Esseen 常数 0.4097... 在独立同分布 Berry–Esseen 不等式中即成立；该阈值对所有方差为正、三阶绝对矩有限的实值分布一致。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2407.16980",
+  "subtopic": "极限定理与收敛速率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "鞅中心极限定理在 Wasserstein 距离下的收敛速率，连接极限定理与概率距离两部分内容。",
+  "summary": "摘要称作者对广泛可积性条件下的鞅，用 r 阶（1≤r≤3）Wasserstein 距离量化中心极限定理的收敛速率，界由 Lyapunov 系数与条件方差总和的波动给出，并证明 Wasserstein-1 界在常数倍意义下最优。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2609.11557",
+  "subtopic": "极限定理与收敛速率",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "多元鞅 CLT 的 p-Wasserstein 版本及其在 SGD 上的应用，展示 Lindeberg 替换法的现代用法。",
+  "summary": "摘要称作者得到 ℓ_r 范数下 p-Wasserstein 距离的多元鞅中心极限定理，推论包括 Yurinskii 耦合与 Cramér 型中偏差结果，并给出随机梯度下降的示例；证明结合了 Lindeberg 替换论证与新的高斯卷积不等式。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2402.00713",
+  "subtopic": "大数定律",
+  "type": "原始研究论文",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "把强大数定律推广到对一族分布一致成立，联系测度论极限定理与统计中的一致推断。",
+  "summary": "作者重新考察强大数定律在丰富分布族上一致成立的问题，得到 Marcinkiewicz–Zygmund 强大数定律的分布一致推广。摘要称 q 阶中心矩一致可积对强大数定律以 n^{1/q-1} 速率一致成立既充分又必要。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "08"
+  ]
+ },
+ {
+  "arxiv": "2404.18661",
+  "subtopic": "特征函数",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "把特征函数唯一决定分布的思想推广到路径空间，是特征函数理论的前沿延伸。",
+  "summary": "摘要称已知几何粗糙路径上测度的特征函数唯一决定该测度；作者证明将特征函数限制到特殊正交群等更小的矩阵群上仍足以决定随机过程的律。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "06"
+  ]
+ },
+ {
+  "arxiv": "1212.4663",
+  "subtopic": "集中不等式",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "高级",
+  "reason": "集中不等式的系统长篇专著式综述，覆盖鞅方法、熵方法与信息论应用。",
+  "summary": "作者称该专著聚焦推导集中不等式的若干关键现代数学工具及其与信息论的联系和在通信与编码中的应用。摘要称第一部分介绍鞅的经典集中不等式及其改进，并含作者的新结果。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "集中不等式鞅方法与熵方法的系统长篇综述，覆盖面与讲解深度在开放获取资料中少有替代，是本群集中不等式部分的基础读物。"
+ },
+ {
+  "arxiv": "2407.07348",
+  "subtopic": "集中不等式",
+  "type": "学术教程",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "系统整理次高斯随机变量的基本性质，适合作为集中不等式学习的入门讲义。",
+  "summary": "这份笔记通过引入参数 ρ 定义 (σ,ρ)-次高斯随机变量并描述其基本性质。摘要称引入 ρ 有助于在随机过程与集中不等式分析中细化界或统一不同文献的结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2512.18588",
+  "subtopic": "集中不等式",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "次高斯比较定理的说明性证明，衔接 Talagrand 比较定理与凸序。",
+  "summary": "作者在这篇说明性笔记中证明任何 1-次高斯随机向量在凸序下被普适常数乘标准高斯向量所控制，摘要称这加强了 Talagrand 的次高斯比较定理；证明结合 J. Liu 的张量化论证与 Fernique 的思想。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2507.08692",
+  "subtopic": "集中不等式",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "高阶集中（非 Lipschitz 函数的集中）的统一框架综述，是函数不等式与集中专题的进阶读物。",
+  "summary": "作者称本文为综述性质，为高阶集中结果（具有有界高阶导数的非 Lipschitz 函数的集中）提供统一框架。摘要称情形包括满足 log-Sobolev、Poincaré 等函数不等式的测度、球面与锥测度、Stiefel 与 Grassmann 流形以及离散情形，并提出开放问题。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2512.10848",
+  "subtopic": "集中不等式",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述高维不等式的局部化方法，联系等周不等式、集中与马尔可夫链混合。",
+  "summary": "作者综述由 Lovász–Simonovits 开创、Eldan 推广为随机版本的局部化方法。摘要称该方法应用于等周不等式、优化、测度集中和马尔可夫链混合速率等，核心是把高维不等式实例化归为高度结构化（常为一维）的实例。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2510.04460",
+  "subtopic": "集中不等式",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "Eldan 随机局部化的多视角综述，是现代高维概率的重要工具。",
+  "summary": "作者综述 Eldan 随机局部化过程的不同视角。摘要称与以往综述不同，本文给出所有已知替代构造的自足介绍并强调其相互联系，希望提升其在概率论、理论计算机、信息论与机器学习中的可及性。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2412.20542",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "补回 Freedman 型鞅不等式中“缺失因子”，是鞅集中不等式的精细化代表作。",
+  "summary": "摘要称作者改进了有界增量鞅的若干集中不等式，恢复了 Freedman 型不等式中缺失的因子并接近最优，还对独立随机变量函数的集中不等式作了细化，证明使用 Bentkus 与 Pinelis 的技巧。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2603.25934",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "刻画次 Weibull 变量和的尾部在次高斯与 Orlicz 尾之间的相变，深化对 Bernstein 型不等式的理解。",
+  "summary": "作者研究次 Weibull（含次高斯、次指数）随机变量的精确集中不等式。摘要称在原点附近尾概率表现为次高斯，其他区域按 Orlicz Ψ_α 尾衰减，并揭示 α=2 处存在相变。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2509.00881",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "Hanson–Wright 不等式的初等证明，适合在学习次高斯与二次型集中时精读。",
+  "summary": "Hanson–Wright 不等式给出独立次高斯向量二次型的指数集中。摘要称作者绕开 Rudelson–Vershynin 证明中的解耦论证，仅用次高斯变量的初等性质与高斯旋转不变性给出更简单的证明。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2607.04387",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "DKW–Massart 不等式的简化证明，连接经验分布函数的集中与统计置信带。",
+  "summary": "DKW–Massart 不等式控制经验分布函数偏离理论分布函数的概率。摘要称 Massart 原证明冗长技术化，Reeve 曾用连续时间鞅给出较短证明，作者在此基础上给出更简单、技术性更低的证明。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "08"
+  ]
+ },
+ {
+  "arxiv": "0804.2330",
+  "subtopic": "大偏差",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "大偏差奠基人之一对整个理论的综述，是学习大偏差的权威入口。",
+  "summary": "摘要称该文基于作者 2005 年 IMS 年会 Wald 讲座，是对大偏差理论的综述。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "由大偏差理论奠基人 Varadhan 撰写的 Wald 讲座综述，从 Cramér、Sanov 到 Donsker–Varadhan 给出权威全景，近三年讲义均以其为基础。"
+ },
+ {
+  "arxiv": "2503.16015",
+  "subtopic": "大偏差",
+  "type": "学术教程",
+  "level": "硕士/博士",
+  "track": "理论+应用",
+  "difficulty": "入门",
+  "reason": "Les Houches 大偏差暑校讲义，从定义、基本定理到统计物理例子，适合作为大偏差第一读物。",
+  "summary": "讲义基于 2024 年 Les Houches“大偏差理论与应用”暑校课程。摘要称其介绍大偏差理论的基本定义与数学结果，并给出统计物理中的许多简单动机性例子，作为暑校其他专题课程的基础。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2610.27179",
+  "subtopic": "大偏差",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "以 WKB/Hamilton 结构统一讲授随机动力系统的大偏差，衔接 SDE 与马尔可夫跳过程。",
+  "summary": "讲义改编自 2024 年 Les Houches 暑校课程，介绍随机动力系统的大偏差。摘要称作者以后向 Kolmogorov 方程的 WKB 分析揭示各类大偏差原理背后的 Hamilton 结构，并系统处理 SDE 小噪声极限与马尔可夫跳过程大体积极限等三种渐近区域。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "06"
+  ]
+ },
+ {
+  "arxiv": "2403.03940",
+  "subtopic": "大偏差",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "综述高维几何中的大偏差与中偏差方法，展示 CLT、中偏差与大偏差三个尺度的互补。",
+  "summary": "作者综述由 Gantert–Kim–Ramanan 开启的几何泛函分析中的大偏差方向，以及后来加入的中偏差视角。摘要称这些方法与经典中心极限现象和非渐近集中界互为补充，并介绍由此产生的其他思想。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2407.00216",
+  "subtopic": "大偏差",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "用马尔可夫桥重新表述 Donsker–Varadhan 等经典遍历大偏差，适合大偏差课程的深化阅读。",
+  "summary": "作者重新考察占有测度（Donsker–Varadhan）与经验通量的经典遍历大偏差原理。摘要称这些问题可嵌入更一般的离散时间框架，利用条件化与混合论证给出以马尔可夫桥表示的速率泛函新表达式。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2403.01562",
+  "subtopic": "大偏差",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "汇总 Boué–Dupuis 变分公式的多种推广，是弱收敛法证明大偏差的核心工具。",
+  "summary": "Boué–Dupuis 变分公式把布朗运动有界泛函的对数 Laplace 变换表示为非预见控制的代价下确界。摘要称作者汇集该公式散见于文献中的若干推广，包括同时含 Lévy 噪声等其他噪声源的情形，用于各类大偏差问题。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "06"
+  ]
+ },
+ {
+  "arxiv": "1109.1880",
+  "subtopic": "Stein 方法",
+  "type": "综述",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "Stein 方法最常用的入门综述，覆盖正态、Poisson、指数、几何逼近。",
+  "summary": "作者综述 Stein 方法用于正态、Poisson、指数与几何分布逼近的主要概念与技术，并讨论其与集中不等式的关系。摘要称材料面向刚入门的概率方向研究生。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Probability Surveys 上被广泛用作 Stein 方法教材的综述，至今是该方法最标准的入门读物，近三年没有替代性的同类综述。"
+ },
+ {
+  "arxiv": "2606.03442",
+  "subtopic": "Stein 方法",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "中级",
+  "reason": "简要综述 Stein 方法在网络分析中的应用，展示正态/Poisson 逼近的实际用法。",
+  "summary": "作者简要综述 Stein 方法在网络分析中的应用。摘要称内容包括图统计量的正态与 Poisson 逼近、用 Bernoulli 模型逼近指数随机图，以及不同随机几何图模型的比较。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "06"
+  ]
+ },
+ {
+  "arxiv": "2603.07467",
+  "subtopic": "Stein 方法",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论+计算",
+  "difficulty": "高级",
+  "reason": "Stein 差异与 Stein 变分梯度下降的系统专著，连接 Stein 方法与统计计算。",
+  "summary": "作者称这部专著严格概述基于 Stein 方法的概率推断与学习的理论与方法。摘要称书中给出由 Stein 算子与 Stein 集构造 Stein 差异的方法，讨论其可计算性、分离性与收敛检测/控制，并详述其与 Stein 变分梯度下降的联系。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "18"
+  ]
+ },
+ {
+  "arxiv": "2405.06881",
+  "subtopic": "Stein 方法",
+  "type": "原始研究论文",
+  "level": "硕士/博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "用 Stein 方法重证 Kac 关于弱相依序列的 CLT，是 Stein 方法处理相依性的范例。",
+  "summary": "1946 年 Kac 对由倍角映射生成、非独立的随机变量序列证明了中心极限型定理。摘要称作者用 Stein 方法重新证明这一结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2411.04322",
+  "subtopic": "Stein 方法",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "用 Stein 方法给出 Hellinger 距离下的定量 CLT，扩展 Stein 方法可处理的距离。",
+  "summary": "摘要称作者给出连续随机变量与同均值同方差高斯之间 Hellinger 距离的新显式界，并作为应用导出定量 Hellinger 中心极限定理与 U 统计量的集中不等式。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2610.35354",
+  "subtopic": "Stein 方法",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "多元 CLT 在 2-Wasserstein 距离下的精确四阶矩型界，是 Stein/交换对方法的前沿成果。",
+  "summary": "摘要称作者对独立均值零 d 维随机向量的标准化和，给出到 N(0,Σ) 的 2-Wasserstein 距离的显式上界，该界由各坐标方差与独立拷贝差的四阶量的最小值构成。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "2511.14489",
+  "subtopic": "耦合",
+  "type": "综述",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "耦合方法的入门综述：全变差、最大耦合与马尔可夫链收敛。",
+  "summary": "作者在这篇综述中介绍耦合在若干数学问题中的使用，包括全变差范数、最大耦合与 d̄ 距离。摘要称文中还详细证明 Ruelle 算子的对偶在 1-Wasserstein 距离下压缩，并证明转移矩阵各元素为正的有限状态马尔可夫链指数收敛到平衡。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2605.01894",
+  "subtopic": "耦合",
+  "type": "学术教程",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "用耦合证明二项分布的 Poisson 逼近，是耦合方法的经典教学示例。",
+  "summary": "摘要称本科教材通常通过 n→∞ 时的分布收敛说明二项分布可用 Poisson 分布逼近，作者改用耦合技巧证明更一般的结果，且只使用初等概率结果。",
+  "summary_basis": "arXiv 摘要；未读全文"
+ },
+ {
+  "arxiv": "1404.1392",
+  "subtopic": "Stein 方法",
+  "type": "综述",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "Stein 方法历史与广义扰动法的简要综述，补充 Ross 综述。",
+  "summary": "作者先综述 Stein 方法的历史发展与新进展，再介绍可称为广义扰动法的通用变体及其在最小生成树上的应用，最后列出可能用此方法解决的开放问题。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "classic_reason": "Chatterjee 对 Stein 方法历史与广义扰动法的权威短综述（ICM 报告），作为后备补充 Ross 综述。",
+  "reserve": true
+ },
+ {
+  "arxiv": "2505.15618",
+  "subtopic": "大偏差",
+  "type": "学术教程",
+  "level": "博士",
+  "track": "理论+应用",
+  "difficulty": "高级",
+  "reason": "非平衡扩散系统中的大偏差讲义，供对统计物理应用感兴趣者延伸阅读。",
+  "summary": "讲义基于 2024 年 Les Houches 暑校课程，总结作者等人 25 年来关于与多个热库或粒子库接触的非平衡系统稳态性质的工作。摘要称内容包括倾斜矩阵、涨落定理、输运系数与涨落流体力学等经典工具。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2412.20949",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "中级",
+  "reason": "向量值自正规化鞅的 Bernstein 不等式，适合集中不等式与序贯推断交叉阅读。",
+  "summary": "摘要称作者用带高斯先验的 PAC-Bayes 论证重新理解 Abbasi-Yadkori 等的自正规化鞅次高斯界，再取椭球上的均匀先验得到向量值自正规化鞅的 Bernstein 型界。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2503.02793",
+  "subtopic": "集中不等式",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "离散 log-Sobolev 不等式极值函数的正则性，联系函数不等式与马尔可夫链混合。",
+  "summary": "摘要称作者研究有限状态马尔可夫链离散 log-Sobolev 不等式极值函数的正则性，证明其 log-Lipschitz 常数被 log d 的普适倍数控制（d 为最小非零转移概率的倒数），并据此给出 log-Sobolev 常数的下界。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true,
+  "related": [
+   "05"
+  ]
+ },
+ {
+  "arxiv": "2409.01550",
+  "subtopic": "Stein 方法",
+  "type": "原始研究论文",
+  "level": "博士",
+  "track": "理论",
+  "difficulty": "高级",
+  "reason": "Malliavin–Stein 方法下的非一致 Berry–Esseen 界，作为 Stein 方法前沿的补充。",
+  "summary": "摘要称作者用 Malliavin–Stein 方法建立非一致 Berry–Esseen 界，并以多重 Wiener–Itô 积分和布朗运动指数泛函为例说明。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ },
+ {
+  "arxiv": "2410.05228",
+  "subtopic": "测度论概率与条件期望",
+  "type": "立场与方法论",
+  "level": "硕士",
+  "track": "理论",
+  "difficulty": "入门",
+  "reason": "讨论 Cournot 原则与测度论概率的关系，补充概率论基础的哲学讨论。",
+  "summary": "摘要称 Cournot 原则主张概率接近 1 的事件在单次试验中几乎必然发生；作者讨论该原则在古典概率中依赖乘法规则的表述，以及在测度论概率框架下应如何表述。",
+  "summary_basis": "arXiv 摘要；未读全文",
+  "reserve": true
+ }
+]

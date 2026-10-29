@@ -1,0 +1,17 @@
+{
+ "id": "2507.09248",
+ "title": "AGCD-Net: Attention Guided Context Debiasing Network for Emotion Recognition",
+ "authors": [
+  "Varsha Devi",
+  "Amine Bohi",
+  "Pardeep Kumar"
+ ],
+ "v1_date": "2025-07-12",
+ "latest_version": 1,
+ "latest_date": "2025-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 Pages, 4 figures, 2 tables ICIAP 2025",
+ "abstract": "Context-aware emotion recognition (CAER) enhances affective computing in real-world scenarios, but traditional methods often suffer from context bias-spurious correlation between background context and emotion labels (e.g. associating ``garden'' with ``happy''). In this paper, we propose \\textbf{AGCD-Net}, an Attention Guided Context Debiasing model that introduces \\textit{Hybrid ConvNeXt}, a novel convolutional encoder that extends the ConvNeXt backbone by integrating Spatial Transformer Network and Squeeze-and-Excitation layers for enhanced feature recalibration. At the core of AGCD-Net is the Attention Guided - Causal Intervention Module (AG-CIM), which applies causal theory, perturbs context features, isolates spurious correlations, and performs an attention-driven correction guided by face features to mitigate context bias. Experimental results on the CAER-S dataset demonstrate the effectiveness of AGCD-Net, achieving state-of-the-art performance and highlighting the importance of causal debiasing for robust emotion recognition in complex settings.",
+ "primary": "cs.CV"
+}

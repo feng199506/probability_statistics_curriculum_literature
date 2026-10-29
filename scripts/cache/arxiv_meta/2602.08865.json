@@ -1,0 +1,16 @@
+{
+ "id": "2602.08865",
+ "title": "Regression modeling of multivariate precipitation extremes under regular variation",
+ "authors": [
+  "Rishikesh Yadav",
+  "Arnab Hazra"
+ ],
+ "v1_date": "2026-02-09",
+ "latest_version": 1,
+ "latest_date": "2026-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 Pages, 3 figures, 1 table",
+ "abstract": "Motivated by the EVA2025 data challenge, where we participated as the team DesiBoys, we propose a regression strategy within the framework of regular variation to estimate the occurrences and intensities of high precipitation extremes derived from different climate runs of the CESM2 Large Ensemble Community Project (LENS2). Our approach first empirically estimates the target quantities at sub-asymptotic (lower threshold) levels and sets them as response variables within a simple regression framework arising from the theoretical expressions of joint regular variation. Although a seasonal pattern is evident in the data, the precipitation intensities do not exhibit any significant long-term trends across years. Besides, we can safely assume the data to be independent across different climate model runs, thereby simplifying the modeling framework. Once the regression parameters are estimated, we employ a standard prediction approach to infer precipitation levels at very high quantiles. We calculate the confidence intervals using a nonparametric block bootstrap procedure. While a likelihood-based inference grounded in multivariate extreme value theory may provide more accurate estimates and confidence intervals, it would involve a significantly higher computational burden. Our proposed simple and computationally straightforward two-stage approach provides reasonable estimates for the desired quantities, securing us a joint second position in the final rankings of the EVA2025 conference data challenge competition.",
+ "primary": "stat.ME"
+}

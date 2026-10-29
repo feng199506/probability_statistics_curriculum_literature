@@ -1,0 +1,15 @@
+{
+ "id": "2609.29515",
+ "title": "Network Realized GARCH--Itô Models: Volatility Spillovers with High-Frequency Identification",
+ "authors": [
+  "Xinyu Song"
+ ],
+ "v1_date": "2026-08-25",
+ "latest_version": 1,
+ "latest_date": "2026-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main paper: 46 pages, 7 tables, 1 figure. Online appendix: 10 pages, 12 tables, 1 figure",
+ "abstract": "We introduce a network realized GARCH-Itô model in which volatility transmission is a dynamic relation among the latent daily integrated volatilities of multiple assets. An unknown directed and signed network is embedded in a continuous-time variance process and appears in the resulting exponential daily recursion. Intraday returns identify integrated volatility and hence the network that governs its propagation. For a fixed network template, feasible estimation based on realized volatility is first-order equivalent to estimation based on latent integrated volatility. For an unknown network, regularization selects the relevant structure, and, under oracle conditions, a fixed-rank local refit provides conditional inference for model-implied response-based connectedness. In an application to nine U.S. sector ETFs from 2007 to 2025, the model attains the lowest average out-of-sample QLIKE among the reported recursive forecasts, although its advantage over HAR is not statistically significant. In the full sample the weighted LASSO selects an empty sparse support, so inference concerns the rank-one projected factor component; this conditional analysis identifies Energy as a net volatility transmitter. Aggregate connectedness is more stable across volatility measures than individual sparse channels.",
+ "primary": "econ.EM"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2509.24544",
+ "title": "Quantitative convergence of trained single layer neural networks to Gaussian processes",
+ "authors": [
+  "Eloy Mosig",
+  "Andrea Agazzi",
+  "Dario Trevisan"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 3,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted and accepted at NeurIPS 2025, main body of 10 pages, 3 figures, 28 pages of supplementary material. Corrected an issue in the proof of Proposition 3.7",
+ "abstract": "In this paper, we study the quantitative convergence of shallow neural networks trained via gradient descent to their associated Gaussian processes in the infinite-width limit. While previous work has established qualitative convergence under broad settings, precise, finite-width estimates remain limited, particularly during training. We provide explicit upper bounds on the quadratic Wasserstein distance between the network output and its Gaussian approximation at any training time $t \\ge 0$, demonstrating polynomial decay with network width. Our results quantify how architectural parameters, such as width and input dimension, influence convergence, and how training dynamics affect the approximation error.",
+ "primary": "stat.ML"
+}

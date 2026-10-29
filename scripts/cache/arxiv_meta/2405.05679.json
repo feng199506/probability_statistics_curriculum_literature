@@ -1,0 +1,16 @@
+{
+ "id": "2405.05679",
+ "title": "Non-asymptotic estimates for accelerated high order Langevin Monte Carlo algorithms",
+ "authors": [
+  "Ariel Neufeld",
+  "Ying Zhang"
+ ],
+ "v1_date": "2024-05-09",
+ "latest_version": 2,
+ "latest_date": "2025-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we propose two new algorithms, namely, aHOLA and aHOLLA, to sample from high-dimensional target distributions with possibly super-linearly growing potentials. We establish non-asymptotic convergence bounds for aHOLA in Wasserstein-1 and Wasserstein-2 distances with rates of convergence equal to $1+q/2$ and $1/2+q/4$, respectively, under a local Hölder condition with exponent $q\\in(0,1]$ and a convexity at infinity condition on the potential of the target distribution. Similar results are obtained for aHOLLA under certain global continuity conditions and a dissipativity condition. Crucially, we achieve state-of-the-art rates of convergence of the proposed algorithms in the non-convex setting which are higher than those of the existing algorithms. Examples from high-dimensional sampling and logistic regression are presented, and numerical results support our main findings.",
+ "primary": "math.ST"
+}

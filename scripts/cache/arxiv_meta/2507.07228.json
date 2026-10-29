@@ -1,0 +1,16 @@
+{
+ "id": "2507.07228",
+ "title": "On a Debiased and Semiparametric Efficient Changes-in-Changes Estimator",
+ "authors": [
+  "Jinghao Sun",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-07-09",
+ "latest_version": 2,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a novel extension of the influential changes-in-changes (CiC) framework of Athey and Imbens (2006) for estimating the average treatment effect on the treated (ATT) and distributional causal effects in panel data with unmeasured confounding. While CiC relaxes the parallel trends assumption in difference-in-differences (DiD), existing methods typically assume a scalar unobserved confounder and monotonic outcome relationships, and lack inference tools that accommodate continuous covariates flexibly. Motivated by empirical settings with complex confounding and rich covariate information, we make two main contributions. First, we establish nonparametric identification under relaxed assumptions that allow high-dimensional, non-monotonic unmeasured confounding. Second, we derive semiparametrically efficient estimators that are Neyman orthogonal to infinite-dimensional nuisance parameters, enabling valid inference even with machine learning-based estimation of nuisance components. We illustrate the utility of our approach in an empirical analysis of mass shootings and U.S. electoral outcomes, where key confounders, such as political mobilization or local gun culture, are typically unobserved and challenging to quantify.",
+ "primary": "stat.ME"
+}

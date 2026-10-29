@@ -1,0 +1,17 @@
+{
+ "id": "2203.12572",
+ "title": "Post-selection inference for e-value based confidence intervals",
+ "authors": [
+  "Ziyu Xu",
+  "Ruodu Wang",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2022-03-23",
+ "latest_version": 4,
+ "latest_date": "2024-02-27",
+ "journal_ref": "Electronic Journal of Statistics 18(1): 2292-2338 (2024)",
+ "doi": "10.1214/24-ejs2253",
+ "comment": "46 pages, 6 figures",
+ "abstract": "Suppose that one can construct a valid $(1-δ)$-confidence interval (CI) for each of $K$ parameters of potential interest. If a data analyst uses an arbitrary data-dependent criterion to select some subset $S$ of parameters, then the aforementioned CIs for the selected parameters are no longer valid due to selection bias. We design a new method to adjust the intervals in order to control the false coverage rate (FCR). The main established method is the \"BY procedure\" by Benjamini and Yekutieli (JASA, 2005). The BY guarantees require certain restrictions on the selection criterion and on the dependence between the CIs. We propose a new simple method which, in contrast, is valid under any dependence structure between the original CIs, and any (unknown) selection criterion, but which only applies to a special, yet broad, class of CIs that we call e-CIs. To elaborate, our procedure simply reports $(1-δ|S|/K)$-CIs for the selected parameters, and we prove that it controls the FCR at $δ$ for confidence intervals that implicitly invert e-values; examples include those constructed via supermartingale methods, via universal inference, or via Chernoff-style bounds, among others. The e-BY procedure is admissible, and recovers the BY procedure as a special case via a particular calibrator. Our work also has implications for post-selection inference in sequential settings, since it applies at stopping times, to continuously-monitored confidence sequences, and under bandit sampling. We demonstrate the efficacy of our procedure using numerical simulations and real A/B testing data from Twitter.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2510.04438",
+ "title": "spd-metrics-id: A Python Package for SPD-Aware Distance Metrics in Connectome Fingerprinting and Beyond",
+ "authors": [
+  "Kaosar Uddin"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present spd-metrics-id, a Python package for computing distances and divergences between symmetric positive-definite (SPD) matrices. Unlike traditional toolkits that focus on specific applications, spd-metrics-id provides a unified, extensible, and reproducible framework for SPD distance computation. The package supports a wide variety of geometry-aware metrics, including Alpha-z Bures-Wasserstein, Alpha-Procrustes, affine-invariant Riemannian, log-Euclidean, and others, and is accessible both via a command-line interface and a Python API. Reproducibility is ensured through Docker images and Zenodo archiving. We illustrate usage through a connectome fingerprinting example, but the package is broadly applicable to covariance analysis, diffusion tensor imaging, and other domains requiring SPD matrix comparison. The package is openly available at https://pypi.org/project/spd-metrics-id/.",
+ "primary": "stat.CO"
+}

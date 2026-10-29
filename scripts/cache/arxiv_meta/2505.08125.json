@@ -1,0 +1,17 @@
+{
+ "id": "2505.08125",
+ "title": "Sharp Gaussian approximations for Decentralized Federated Learning",
+ "authors": [
+  "Soham Bonnerjee",
+  "Sayar Karmakar",
+  "Wei Biao Wu"
+ ],
+ "v1_date": "2025-05-12",
+ "latest_version": 4,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted as Spotlight, NeurIPS'25, Main Conference Track",
+ "abstract": "Federated Learning has gained traction in privacy-sensitive collaborative environments, with local SGD emerging as a key optimization method in decentralized settings. While its convergence properties are well-studied, asymptotic statistical guarantees beyond convergence remain limited. In this paper, we present two generalized Gaussian approximation results for local SGD and explore their implications. First, we prove a Berry-Esseen theorem for the final local SGD iterates, enabling valid multiplier bootstrap procedures. Second, motivated by robustness considerations, we introduce two distinct time-uniform Gaussian approximations for the entire trajectory of local SGD. The time-uniform approximations support Gaussian bootstrap-based tests for detecting adversarial attacks. Extensive simulations are provided to support our theoretical results.",
+ "primary": "stat.ML"
+}

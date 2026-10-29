@@ -1,0 +1,17 @@
+{
+ "id": "2402.00202",
+ "title": "Generalized Universal Inference on Risk Minimizers",
+ "authors": [
+  "Neil Dey",
+  "Ryan Martin",
+  "Jonathan P. Williams"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 3,
+ "latest_date": "2025-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 15 figures",
+ "abstract": "A common goal in statistics and machine learning is estimation of unknowns. Point estimates alone are of little value without an accompanying measure of uncertainty, but traditional uncertainty quantification methods, such as confidence sets and p-values, often require distributional or structural assumptions that may not be justified in modern applications. The present paper considers a very common case in machine learning, where the quantity of interest is the minimizer of a given risk (expected loss) function. We propose a generalization of universal inference specifically designed for inference on risk minimizers. Notably, our generalized universal inference attains finite-sample frequentist validity guarantees under a condition common in the statistical learning literature. One version of our procedure is also anytime-valid, i.e., it maintains the finite-sample validity properties regardless of the stopping rule used for the data collection process. Practical use of our proposal requires tuning, and we offer a data-driven procedure with strong empirical performance across a broad range of challenging statistical and machine learning examples.",
+ "primary": "stat.ME"
+}

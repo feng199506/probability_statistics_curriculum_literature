@@ -1,0 +1,16 @@
+{
+ "id": "2605.09116",
+ "title": "Fit CATE Once: Model-Assisted Randomization Tests Without Sample Splitting",
+ "authors": [
+  "Fangnan Zheng",
+  "Yao Zhang"
+ ],
+ "v1_date": "2026-05-09",
+ "latest_version": 1,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 7 figures",
+ "abstract": "Randomization tests and flexible treatment-effect models offer complementary strengths for analyzing data from randomized panel experiments: the former provide valid inference under the known assignment mechanism, while the latter can capture complex patterns of effect heterogeneity. We develop model-assisted randomization tests that combine these strengths without sample splitting. The key idea is to estimate an unsigned version of the conditional average treatment effect (CATE) from the covariance structure of residualized outcomes, while leaving the realized assignments for randomization inference. The remaining sign can be chosen to best fit the observed outcomes. We establish identification and consistency for the proposed unsigned CATE estimators, as well as validity for the CATE-assisted randomization tests. Across synthetic and semi-synthetic experiments, the CATE-assisted randomization tests control Type I error and achieve higher power than covariate-adjusted and sample-split alternatives. Finally, we show that the assignment-free CATE estimates can be used to discover heterogeneous subgroups and test subgroup-specific treatment effects.",
+ "primary": "stat.ME"
+}

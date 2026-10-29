@@ -1,0 +1,19 @@
+{
+ "id": "2609.36986",
+ "title": "CF-LoRA: Decoupled Factor Aggregation and Adaptation-Aware Client Clustering for Federated LoRA Fine-Tuning",
+ "authors": [
+  "Mengjun Yi",
+  "Langxing Yang",
+  "Suhan Guo",
+  "Furao Shen",
+  "Jian Zhao"
+ ],
+ "v1_date": "2026-09-29",
+ "latest_version": 1,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated LoRA fine-tuning enables parameter-efficient adaptation of pre-trained models without sharing private data, but suffers from two fundamental mismatches under heterogeneous client data: a structural aggregation mismatch caused by independently averaging LoRA factors, and a statistical collaboration mismatch caused by enforcing a single global adapter across divergent clients. To address these issues, we propose CF-LoRA, a clustered federated LoRA fine-tuning framework that combines decoupled factor aggregation with adaptation-aware client clustering. CF-LoRA first learns a globally shared $A$ factor while retaining personalized $B_i$ factors, then identifies clients with similar adaptation patterns based on the cosine similarity of their learned $B_i$ factors, and finally performs intra-cluster $B$-factor aggregation with a frozen $A$ factor. By decoupling LoRA factor aggregation, CF-LoRA preserves the low-rank structure and mitigates the structural aggregation mismatch, while adaptation-aware clustering promotes collaboration among clients with similar adaptation patterns and reduces negative transfer caused by statistical heterogeneity. Experiments on four language tasks and four vision datasets with RoBERTa and ViT show that CF-LoRA achieves the highest average accuracy in both modalities while communicating only one LoRA factor per optimization round.",
+ "primary": "cs.AI"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.21707",
+ "title": "Quasi-Bayes empirical Bayes estimation of sums of random variables",
+ "authors": [
+  "Stefano Favaro",
+  "Sandra Fortini"
+ ],
+ "v1_date": "2026-06-19",
+ "latest_version": 1,
+ "latest_date": "2026-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The estimation of sums of functions of observable and unobservable variables is a long-standing problem in statistics with applications across many domains. Empirical Bayes methods provide a natural framework for this task under mixture models, but existing approaches often rely on restrictive parametric assumptions or apply only to limited classes of functionals in nonparametric settings. We propose a nonparametric methodology, referred to as quasi-Bayes empirical Bayes, that addresses these limitations through a recursive estimation of the mixing distribution based on Newton's algorithm. The resulting plug-in estimate of the target sum is computationally efficient, scalable, and applicable to a broad class of utility functions, while enabling uncertainty quantification via asymptotic credible intervals derived from a Gaussian central limit theorem. We establish large sample asymptotic theoretical guarantees by proving a merging between the quasi-Bayes and Bayes estimates and by showing consistency under a correctly specified frequentist model. Synthetic-data and real-data analyses demonstrate the practical accuracy and stability of the method, with performance comparable to, and in some cases better than, existing empirical Bayes procedures.",
+ "primary": "stat.ME"
+}

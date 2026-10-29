@@ -1,0 +1,16 @@
+{
+ "id": "2509.03050",
+ "title": "Covariate Adjustment Cannot Hurt: Treatment Effect Estimation under Interference with Low-Order Outcome Interactions",
+ "authors": [
+  "Xinyi Wang",
+  "Shuangning Li"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 2,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In randomized experiments, covariates are often used to reduce variance and improve the precision of treatment effect estimates. However, in many real-world settings, interference between units, where one unit's treatment affects another's outcome, complicates causal inference. This raises a key question: how can covariates be effectively used in the presence of interference? Addressing this challenge is nontrivial, as direct covariate adjustment, such as through regression, can increase variance due to dependencies across units. In this paper, we study covariate adjustment for estimating the total treatment effect under interference. We work under a neighborhood interference model with low-order interactions and build on the estimator of Cortez-Rodriguez et al. (2023). We propose a class of covariate-adjusted estimators and show that, under sparsity conditions on the interference network, they are asymptotically unbiased and achieve a no-harm guarantee: their asymptotic variance is no larger than that of the unadjusted estimator. This parallels the classical result of Lin (2013) under no interference, while allowing for arbitrary dependence in the covariates. We further develop a variance estimator for the proposed procedures and show that it is asymptotically conservative, enabling valid inference in the presence of interference. Compared with existing approaches, the proposed variance estimator is less conservative, leading to tighter confidence intervals in finite samples.",
+ "primary": "stat.ME"
+}

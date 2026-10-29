@@ -1,0 +1,18 @@
+{
+ "id": "2507.09358",
+ "title": "An Integrated and Coherent Framework for Point Estimation and Hypothesis Testing with Concurrent Controls in Platform Trials",
+ "authors": [
+  "Tianyu Zhan",
+  "Jane Zhang",
+  "Lei Shu",
+  "Yihua Gu"
+ ],
+ "v1_date": "2025-07-12",
+ "latest_version": 1,
+ "latest_date": "2025-07-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A platform trial with a master protocol provides an infrastructure to ethically and efficiently evaluate multiple treatment options in multiple diseases. Given that certain study drugs can enter or exit a platform trial, the randomization ratio is possible to change over time, and this potential modification is not necessarily dependent on accumulating outcomes data. It is recommended that the analysis should account for time periods with different randomization ratios, with possible approaches such as Inverse Probability of Treatment Weighting (IPTW) or a weighted approach by the time period. To guide practical implementation, we specifically investigate the relationship between these two estimators, and further derive an optimal estimator within this class to gain efficacy. Practical guidance is provided on how to construct estimators based on observed data to approximate this unknown weight. The connection between the proposed method and the weighted least squares is also studied. We conduct simulation studies to demonstrate that the proposed method can control type I error rate with a reduced estimation bias, and can also achieve satisfactory power and mean squared error (MSE) with computational efficiency. Another appealing feature of our framework is the ability to provide consistent conclusions for both point estimation and hypothesis testing. This is critical to the interpretation of clinical trial results. The proposed method is further applied to the Accelerating COVID-19 Therapeutic Interventions and Vaccines (ACTIV) platform trial.",
+ "primary": "stat.ME"
+}

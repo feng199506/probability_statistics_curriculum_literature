@@ -1,0 +1,26 @@
+{
+ "id": "2407.04214",
+ "title": "Investigating symptom duration using current status data: a case study of post-acute COVID-19 syndrome",
+ "authors": [
+  "Charles J. Wolock",
+  "Susan Jacob",
+  "Julia C. Bennett",
+  "Anna Elias-Warren",
+  "Jessica O'Hanlon",
+  "Avi Kenny",
+  "Nicholas P. Jewell",
+  "Andrea Rotnitzky",
+  "Stephen R. Cole",
+  "Ana A. Weil",
+  "Helen Y. Chu",
+  "Marco Carone"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 4,
+ "latest_date": "2026-01-28",
+ "journal_ref": "Epidemiology 36(5) (2025)",
+ "doi": "10.1097/ede.0000000000001882",
+ "comment": "The first two authors contributed equally to this work. Main text: 22 pages, 2 figure, 4 tables. Supplement: 23 pages, 14 figures, 0 tables. This update (v4) fixes a typo in the displayed equation on page 7. This typo did not impact the implementation of the method in the accompanying software package",
+ "abstract": "For infectious diseases, characterizing symptom duration is of clinical and public health importance. Symptom duration may be assessed by surveying infected individuals and querying symptom status at the time of survey response. For example, in a SARS-CoV-2 testing program at the University of Washington, participants were surveyed at least $28$ days after testing positive and asked to report current symptom status. This study design yielded current status data: outcome measurements for each respondent consisted only of the time of survey response and a binary indicator of whether symptoms had resolved by that time. Such study design benefits from limited risk of recall bias, but analyzing the resulting data necessitates tailored statistical tools. Here, we review methods for current status data and describe a novel application of modern nonparametric techniques to this setting. The proposed approach is valid under weaker assumptions compared to existing methods, allows use of flexible machine learning tools, and handles potential survey nonresponse. From the university study, under an assumption that the survey response time is conditionally independent of symptom resolution time within strata of measured covariates, we estimate that 19% of participants experienced ongoing symptoms 30 days after testing positive, decreasing to 7% at 90 days. We assess the sensitivity of these results to deviations from conditional independence, finding the estimates to be more sensitive to assumption violations at 30 days compared to 90 days. Female sex, fatigue during acute infection, and higher viral load were associated with slower symptom resolution.",
+ "primary": "stat.AP"
+}

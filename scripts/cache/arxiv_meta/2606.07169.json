@@ -1,0 +1,15 @@
+{
+ "id": "2606.07169",
+ "title": "When can a posterior predictive check identify the learning rate? Exact degeneracy in Gaussian models and implications for Generalised Bayesian Inerence",
+ "authors": [
+  "Nam Anh Le"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 1,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 4 figures",
+ "abstract": "Generalised Bayesian inference tempers the likelihood by a learning rate $η$ to mitigate model misspecification, and the choice of $η$ is consequential. Zafar and Nicholls (2024) proposed selecting $η$ by a posterior predictive check (PPC): one chooses the smallest $η$ at which a log-likelihood PPC $p$-value is not rejected. An exact, finite-sample analysis of this selector on the Gaussian linear model is given. With known variance and a flat prior, the PPC $p$-value equals $P(χ^2_n > \\mathrm{RSS}/σ_0^2)$ for every $η$, so the selector is $η$-invariant; under variance misspecification it is two-sided non-identifying. With unknown variance and the reference prior, the $p$-value depends only on $(n,d,η)$ and not on the realised data or the data-generating process. Consequently the selector's output is fixed before any data are seen, typically collapsing to the smallest grid value, which over-tempers and inflates predictive intervals relative to held-out selection. The phenomenon is a pivotality property specific to the Gaussian scale--location family and the reference prior; it disappears under informative priors. These results delineate the selector's scope, identify a canonical class on which it cannot identify the learning rate, and motivate a cheap, data-free pre-screening diagnostic.",
+ "primary": "stat.ME"
+}

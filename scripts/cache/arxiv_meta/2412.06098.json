@@ -1,0 +1,16 @@
+{
+ "id": "2412.06098",
+ "title": "Bayesian Clustering Prior with Overlapping Indices for Effective Use of Multisource External Data",
+ "authors": [
+  "Xuetao Lu",
+  "J. Jack Lee"
+ ],
+ "v1_date": "2024-12-08",
+ "latest_version": 1,
+ "latest_date": "2024-12-08",
+ "journal_ref": "",
+ "doi": "10.1177/09622802251367439",
+ "comment": "",
+ "abstract": "The use of external data in clinical trials offers numerous advantages, such as reducing the number of patients, increasing study power, and shortening trial durations. In Bayesian inference, information in external data can be transferred into an informative prior for future borrowing (i.e., prior synthesis). However, multisource external data often exhibits heterogeneity, which can lead to information distortion during the prior synthesis. Clustering helps identifying the heterogeneity, enhancing the congruence between synthesized prior and external data, thereby preventing information distortion. Obtaining optimal clustering is challenging due to the trade-off between congruence with external data and robustness to future data. We introduce two overlapping indices: the overlapping clustering index (OCI) and the overlapping evidence index (OEI). Using these indices alongside a K-Means algorithm, the optimal clustering of external data can be identified by balancing the trade-off. Based on the clustering result, we propose a prior synthesis framework to effectively borrow information from multisource external data. By incorporating the (robust) meta-analytic predictive prior into this framework, we develop (robust) Bayesian clustering MAP priors. Simulation studies and real-data analysis demonstrate their superiority over commonly used priors in the presence of heterogeneity. Since the Bayesian clustering priors are constructed without needing data from the prospective study to be conducted, they can be applied to both study design and data analysis in clinical trials or experiments.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2502.06605",
+ "title": "Quantile Forecast Matching with a Bayesian Quantile Gaussian Process Model",
+ "authors": [
+  "Spencer Wadsworth",
+  "Jarad Niemi"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 2,
+ "latest_date": "2025-10-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A set of probabilities along with corresponding quantiles are often used to define predictive distributions or probabilistic forecasts. These quantile predictions offer easily interpreted uncertainty of an event, and quantiles are generally straightforward to estimate using standard statistical and machine learning methods. However, compared to a distribution defined by a probability density or cumulative distribution function, a set of quantiles has less distributional information. When given estimated quantiles, it may be desirable to estimate a fully defined continuous distribution function. Many researchers do so to make evaluation or ensemble modeling simpler. Most existing methods for fitting a distribution to quantiles lack accurate representation of the inherent uncertainty from quantile estimation or are limited in their applications. In this manuscript, we present a Gaussian process model, the quantile Gaussian process, which is based on established theory of quantile functions and sample quantiles, to construct a probability distribution given estimated quantiles. A Bayesian application of the quantile Gaussian process is evaluated for parameter inference and distribution approximation in simulation studies. The quantile Gaussian process is used to approximate the distributions of quantile forecasts from the 2023-24 US Centers for Disease Control collaborative flu forecasting initiative. The simulation studies and data analysis show that the quantile Gaussian process leads to accurate inference on model parameters, estimation of a continuous distribution, and uncertainty quantification of sample quantiles.",
+ "primary": "stat.ME"
+}

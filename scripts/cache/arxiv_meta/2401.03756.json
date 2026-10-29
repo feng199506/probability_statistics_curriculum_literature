@@ -1,0 +1,18 @@
+{
+ "id": "2401.03756",
+ "title": "Adaptive Experimental Design for Policy Learning",
+ "authors": [
+  "Masahiro Kato",
+  "Kyohei Okumura",
+  "Takuya Ishihara",
+  "Toru Kitagawa"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 4,
+ "latest_date": "2025-06-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: text overlap with arXiv:2302.02988",
+ "abstract": "This study investigates the contextual best arm identification (BAI) problem, aiming to design an adaptive experiment to identify the best treatment arm conditioned on contextual information (covariates). We consider a decision-maker who assigns treatment arms to experimental units during an experiment and recommends the estimated best treatment arm based on the contexts at the end of the experiment. The decision-maker uses a policy for recommendations, which is a function that provides the estimated best treatment arm given the contexts. In our evaluation, we focus on the worst-case expected regret, a relative measure between the expected outcomes of an optimal policy and our proposed policy. We derive a lower bound for the expected simple regret and then propose a strategy called Adaptive Sampling-Policy Learning (PLAS). We prove that this strategy is minimax rate-optimal in the sense that its leading factor in the regret upper bound matches the lower bound as the number of experimental units increases.",
+ "primary": "cs.LG"
+}

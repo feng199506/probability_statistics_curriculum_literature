@@ -1,0 +1,16 @@
+{
+ "id": "2404.04696",
+ "title": "Dynamic Treatment Regimes with Replicated Observations Available for Error-prone Covariates: a Q-learning Approach",
+ "authors": [
+  "Dan Liu",
+  "Wenqing He"
+ ],
+ "v1_date": "2024-04-06",
+ "latest_version": 1,
+ "latest_date": "2024-04-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic treatment regimes (DTRs) have received an increasing interest in recent years. DTRs are sequences of treatment decision rules tailored to patient-level information. The main goal of the DTR study is to identify an optimal DTR, a sequence of treatment decision rules that yields the best expected clinical outcome. Q-learning has been considered as one of the most popular regression-based methods to estimate the optimal DTR. However, it is rarely studied in an error-prone setting, where the patient information is contaminated with measurement error. In this paper, we study the effect of covariate measurement error on Q-learning and propose a correction method to correct the measurement error in Q-learning. Simulation studies are conducted to assess the performance of the proposed method in Q-learning. We illustrate the use of the proposed method in an application to the sequenced treatment alternatives to relieve depression data.",
+ "primary": "stat.ME"
+}

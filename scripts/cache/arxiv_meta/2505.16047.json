@@ -1,0 +1,21 @@
+{
+ "id": "2505.16047",
+ "title": "Bayesian adaptive randomization in the I-SPY2 sequential multiple assignment randomized trial",
+ "authors": [
+  "Peter Norwood",
+  "Christina Yau",
+  "Denise Wolf",
+  "Philip Beineke",
+  "Andrew Chapple",
+  "Anastasios Tsiatis",
+  "Marie Davidian"
+ ],
+ "v1_date": "2025-05-21",
+ "latest_version": 2,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages, 3 figures",
+ "abstract": "The I-SPY2 phase 2 clinical trial is a long-running platform trial that evaluates neoadjuvant treatments for locally advanced breast cancer, assigning subjects to novel agents using response-adaptive randomization. Recently, I-SPY2 was reconfigured as a sequential multiple assignment randomized trial (SMART), with up to three stages of therapy. At the first stage, a subject is assigned to a tumor-subtype-specific therapy. If the subject fails to show a satisfactory response to the initial therapy, the subject is assigned to a second subtype-specific therapy, and receives a third, rescue therapy if response is still not achieved. The I-SPY2 SMART thus evaluates entire treatment regimes that recommend therapies at every stage if needed. The transition of I-SPY2 to a SMART required development of a response-adaptive randomization scheme that updates randomization probabilities at each stage, aligned with the goal of maximizing the number of subjects who achieve a pathological complete response (pCR). We present the details of our novel approach, which uses Thompson sampling to update randomization probabilities based on the posterior probability that treatments are part of the optimal regime. Empirical studies that demonstrate that it improves within-trial regime-specific pCR rates and recommends optimal regimes at rates similar to uniform, nonadaptive randomization.",
+ "primary": "stat.ME"
+}

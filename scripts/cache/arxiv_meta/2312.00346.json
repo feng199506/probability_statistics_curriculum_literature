@@ -1,0 +1,17 @@
+{
+ "id": "2312.00346",
+ "title": "Supervised Factor Modeling for High-Dimensional Linear Time Series",
+ "authors": [
+  "Feiqing Huang",
+  "Kexin Lu",
+  "Guodong Li"
+ ],
+ "v1_date": "2023-12-01",
+ "latest_version": 1,
+ "latest_date": "2023-12-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by Tucker tensor decomposition, this paper imposes low-rank structures to the column and row spaces of coefficient matrices in a multivariate infinite-order vector autoregression (VAR), which leads to a supervised factor model with two factor modelings being conducted to responses and predictors simultaneously. Interestingly, the stationarity condition implies an intrinsic weak group sparsity mechanism of infinite-order VAR, and hence a rank-constrained group Lasso estimation is considered for high-dimensional linear time series. Its non-asymptotic properties are discussed thoughtfully by balancing the estimation, approximation and truncation errors. Moreover, an alternating gradient descent algorithm with thresholding is designed to search for high-dimensional estimates, and its theoretical justifications, including statistical and convergence analysis, are also provided. Theoretical and computational properties of the proposed methodology are verified by simulation experiments, and the advantages over existing methods are demonstrated by two real examples.",
+ "primary": "stat.ME"
+}

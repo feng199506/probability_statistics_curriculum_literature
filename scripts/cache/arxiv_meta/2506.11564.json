@@ -1,0 +1,17 @@
+{
+ "id": "2506.11564",
+ "title": "Inference post region selection",
+ "authors": [
+  "Dominique Bontemps",
+  "François Bachoc",
+  "Pierre Neuvial"
+ ],
+ "v1_date": "2025-06-13",
+ "latest_version": 1,
+ "latest_date": "2025-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Post-selection inference consists in providing statistical guarantees, based on a data set, that are robust to a prior model selection step on the same data set. In this paper, we address an instance of the post-selection-inference problem, where the model selection step consists in selecting a rectangular region in a spatial domain. The inference step then consists in constructing confidence intervals on the average signal of this region. This is motivated by applications such as genetics or brain imaging. Our confidence intervals are constructed in dimension one, and then extended to higher dimension. They are based on the process mapping all possible selected regions to their corresponding estimation errors on the average signal. We prove the functional convergence of this process to a limiting Gaussian process with explicit covariance. This enables us to provide confidence intervals with asymptotic guarantees. In numerical experiments with simulated data, we show that our coverage proportions are fairly close to the nominal level already for small to moderate data-set size. We also highlight the impact of various possible noise distributions and the robustness of our intervals. Finally, we illustrate the relevance of our method to a segmentation problem inspired by the analysis of DNA copy number data in cancerology.",
+ "primary": "math.ST"
+}

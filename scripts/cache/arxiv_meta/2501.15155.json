@@ -1,0 +1,16 @@
+{
+ "id": "2501.15155",
+ "title": "Sampling with time-changed Markov processes",
+ "authors": [
+  "Andrea Bertazzi",
+  "Giorgos Vasdekis"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 2,
+ "latest_date": "2025-04-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study time-changed Markov processes to speed up the convergence of Markov chain Monte Carlo (MCMC) algorithms. The time-changed process is defined by adjusting the speed of time of a base process via a user-chosen, state-dependent function. We explore the properties of such transformations and apply this idea to several Markov processes from the MCMC literature, such as Langevin diffusions and piecewise deterministic Markov processes, obtaining novel modifications of classical algorithms and also re-discovering known MCMC algorithms. We prove theoretical properties of the time-changed process under suitable conditions on the base process, focusing on connecting the stationary distributions and qualitative convergence properties such as geometric and uniform ergodicity, as well as a functional central limit theorem. We also provide a comparison with the framework of space transformations, clarifying the similarities between the approaches. Throughout the paper we give various visualisations and numerical simulations on simple tasks to gain intuition on the method and its performance. Finally, we provide numerical simulations to gain intuition on the method and its performance on benchmark problems. Our results indicate a performance improvement in the context of multimodal distributions and rare event simulation.",
+ "primary": "stat.CO"
+}

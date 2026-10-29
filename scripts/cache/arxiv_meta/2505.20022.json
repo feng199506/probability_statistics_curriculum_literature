@@ -1,0 +1,17 @@
+{
+ "id": "2505.20022",
+ "title": "Kernel Ridge Regression with Predicted Feature Inputs and Applications to Factor-Based Nonparametric Regression",
+ "authors": [
+  "Xin Bing",
+  "Xin He",
+  "Chao Wang"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 2,
+ "latest_date": "2025-09-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Kernel methods, particularly kernel ridge regression (KRR), are time-proven, powerful nonparametric regression techniques known for their rich capacity, analytical simplicity, and computational tractability. The analysis of their predictive performance has received continuous attention for more than two decades. However, in many modern regression problems where the feature inputs used in KRR cannot be directly observed and must instead be inferred from other measurements, the theoretical foundations of KRR remain largely unexplored. In this paper, we introduce a novel approach for analyzing KRR with predicted feature inputs. Our framework is not only essential for handling predicted feature inputs -- enabling us to derive risk bounds without imposing any assumptions on the error of the predicted feature -- but also strengthens existing analyses in the classical setting by allowing arbitrary model misspecification, requiring weaker conditions under the squared loss, particularly allowing both an unbounded response and an unbounded function class, and being flexible enough to accommodate other convex loss functions. We apply our general theory to factor-based nonparametric regression models and establish the minimax optimality of KRR when the feature inputs are predicted using principal component analysis. Our theoretical findings are further corroborated by simulation studies and real-data analyses using pretrained LLM embeddings for the downstream prediction task.",
+ "primary": "math.ST"
+}

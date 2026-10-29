@@ -1,0 +1,16 @@
+{
+ "id": "2410.01475",
+ "title": "Exploring Learning Rate Selection in Generalised Bayesian Inference using Posterior Predictive Checks",
+ "authors": [
+  "Schyan Zafar",
+  "Geoff K. Nicholls"
+ ],
+ "v1_date": "2024-10-02",
+ "latest_version": 2,
+ "latest_date": "2025-01-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Generalised Bayesian Inference (GBI) attempts to address model misspecification in a standard Bayesian setup by tempering the likelihood. The likelihood is raised to a fractional power, called the learning rate, which reduces its importance in the posterior and has been established as a method to address certain kinds of model misspecification. Posterior Predictive Checks (PPC) attempt to detect model misspecification by locating a diagnostic, computed on the observed data, within the posterior predictive distribution of the diagnostic. This can be used to construct a hypothesis test where a small $p$-value indicates potential misfit. The recent Embedded Diachronic Sense Change (EDiSC) model suffers from misspecification and benefits from likelihood tempering. Using EDiSC as a case study, this exploratory work examines whether PPC could be used in a novel way to set the learning rate in a GBI setup. Specifically, the learning rate selected is the lowest value for which a hypothesis test using the log likelihood diagnostic is not rejected at the 10% level. The experimental results are promising, though not definitive, and indicate the need for further research along the lines suggested here.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2509.15846",
+ "title": "Doubly Robust Estimation of Continuous Outcomes under Multiple Treatment Levels via GPS, CBPS, and Penalized Empirical Likelihood",
+ "authors": [
+  "Byeonghee Lee",
+  "Joonsung Kang"
+ ],
+ "v1_date": "2025-09-19",
+ "latest_version": 1,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a unified framework for estimating continuous outcomes under multiple treatment levels in observational studies. We integrate the Generalized Propensity Score (GPS), Covariate Balancing Propensity Score (CBPS), and outcome regression into a Penalized Empirical Likelihood (PEL) formulation. The GPS is parameterized by $\\boldsymbolβ$ and denoted $π_{\\boldsymbolβ}(\\mathbf{X})$, while CBPS imposes moment conditions to ensure covariate balance. Outcome regression flexibly models the continuous response $Y$, and doubly robust estimation ensures consistency under either correct model specification. PEL allows simultaneous estimation and variable selection using general estimating equations. Simulation results and comparisons with state-of-the-art meta-learners confirm the effectiveness of our method.",
+ "primary": "stat.ME"
+}

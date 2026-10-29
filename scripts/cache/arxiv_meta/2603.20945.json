@@ -1,0 +1,16 @@
+{
+ "id": "2603.20945",
+ "title": "Functional Estimation of Manifold-Valued Diffusion Processes",
+ "authors": [
+  "Jacob McErlean",
+  "Hau-Tieng Wu"
+ ],
+ "v1_date": "2026-03-21",
+ "latest_version": 1,
+ "latest_date": "2026-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Nonstationary high-dimensional time series are increasingly encountered in biomedical research as measurement technologies advance. Owing to the homeostatic nature of physiological systems, such datasets are often located on, or can be well approximated by, a low-dimensional manifold. Modeling such datasets by manifold-valued Itô diffusion processes has been shown to provide valuable insights and to guide the design of algorithms for clinical applications. In this paper, we propose Nadaraya-Watson type nonparametric estimators for the drift vector field and diffusion matrix of the process from one trajectory. Assuming a time-homogeneous stochastic differential equation on a smooth complete manifold without boundary, we show that as the sampling interval and kernel bandwidth vanish with increasing trajectory length, recurrence of the process yields asymptotic consistency and normality of the drift and diffusion estimators, as well as the associated occupation density. Analysis of the diffusion estimator further produces a tangent space estimator for dependent data, which has its own interest and is essential for drift estimation. Numerical experiments across a range of manifold configurations support the theoretical results.",
+ "primary": "stat.ME"
+}

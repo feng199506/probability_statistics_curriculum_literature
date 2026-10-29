@@ -1,0 +1,15 @@
+{
+ "id": "2505.05646",
+ "title": "Comparative Evaluation of VaR Models: Historical Simulation, GARCH-Based Monte Carlo, and Filtered Historical Simulation",
+ "authors": [
+  "Xin Tian"
+ ],
+ "v1_date": "2025-05-08",
+ "latest_version": 1,
+ "latest_date": "2025-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, includes 8 figures; prepared as part of a financial risk management course project",
+ "abstract": "This report presents a comprehensive evaluation of three Value-at-Risk (VaR) modeling approaches: Historical Simulation (HS), GARCH with Normal approximation (GARCH-N), and GARCH with Filtered Historical Simulation (FHS), using both in-sample and multi-day forecasting frameworks. We compute daily 5 percent VaR estimates using each method and assess their accuracy via empirical breach frequencies and visual breach indicators. Our findings reveal severe miscalibration in the HS and GARCH-N models, with empirical breach rates far exceeding theoretical levels. In contrast, the FHS method consistently aligns with theoretical expectations and exhibits desirable statistical and visual behavior. We further simulate 5-day cumulative returns under both GARCH-N and GARCH-FHS frameworks to compute multi-period VaR and Expected Shortfall. Results show that GARCH-N underestimates tail risk due to its reliance on the Gaussian assumption, whereas GARCH-FHS provides more robust and conservative tail estimates. Overall, the study demonstrates that the GARCH-FHS model offers superior performance in capturing fat-tailed risks and provides more reliable short-term risk forecasts.",
+ "primary": "q-fin.RM"
+}

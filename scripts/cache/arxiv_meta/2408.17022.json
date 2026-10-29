@@ -1,0 +1,18 @@
+{
+ "id": "2408.17022",
+ "title": "Nonparametric Monitoring of Spatial Dependence",
+ "authors": [
+  "Philipp Adämmer",
+  "Philipp Wittenberg",
+  "Christian H. Weiß",
+  "Murat Caner Testik"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 2,
+ "latest_date": "2025-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 9 figures, 19 tables",
+ "abstract": "In process monitoring, it is common for measurements to be taken regularly or randomly from different spatial locations in two or three dimensions. While there are nonparametric methods for process monitoring with such spatial data to detect changes in the mean, there is a gap in the literature for nonparametric control charting methods developed to monitor spatial dependence. This study considers streams of regular, rectangular data sets using spatial ordinal patterns (SOPs) as a nonparametric method to detect spatial dependencies. We propose novel SOP control charts, which are distribution-free and do not require prior Phase-I analysis. To uncover higher-order dependencies, we develop a new class of statistics that combines SOPs with the Box-Pierce approach. An extensive simulation study demonstrates the superiority and effectiveness of our proposed charts over traditional parametric approaches, particularly when the spatial dependence is nonlinear or bilateral or when the spatial data contains outliers. The proposed SOP control charts are illustrated using real-world datasets to detect (i) heavy rainfall in Germany, (ii) war-related fires in (eastern) Ukraine, and (iii) manufacturing defects in textile production. This wide range of applications and findings demonstrates the broad utility of the proposed nonparametric control charts. In addition, all methods in this study are provided as a publicly available \\texttt{Julia} package on \\href{https://github.com/AdaemmerP/OrdinalPatterns.jl}{GitHub} for further implementations.",
+ "primary": "stat.ME"
+}

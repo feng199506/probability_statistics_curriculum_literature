@@ -1,0 +1,16 @@
+{
+ "id": "2508.08758",
+ "title": "Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies",
+ "authors": [
+  "Keisuke Hanada",
+  "Tomoyuki Sugimoto"
+ ],
+ "v1_date": "2025-08-12",
+ "latest_version": 2,
+ "latest_date": "2025-11-15",
+ "journal_ref": "Biometrics, 2026, 82(3), ujag148",
+ "doi": "10.1093/biomtc/ujag148",
+ "comment": "22 pages, 6 figures",
+ "abstract": "Random-effects models are central to meta-analysis, yet the between-study variance is often underestimated when the number of studies is small. In such settings, confidence intervals become unduly narrow and fail to attain the nominal coverage probability. Although several small-sample corrections, including the Bartlett correction, have been developed under the normal-normal model, corresponding methodology for generalized linear mixed models (GLMMs) remains limited. This study proposes a unified framework for random-effects meta-analysis within the GLMM that relies exclusively on aggregate data and accommodates outcomes that follow any distribution in the exponential family, including the binomial, Poisson, and gamma distributions. To improve interval estimation with few studies, we develop a profile likelihood method with a simplified Bartlett correction (PLSBC), which refines the chi-squared approximation of the profile likelihood ratio statistic without requiring higher-order derivatives. We show theoretically that the proposed estimators preserve the consistency and asymptotic normality of the maximum likelihood estimators. Simulation studies demonstrate that the PLSBC yields nearly unbiased estimates and maintains nominal coverage across a variety of outcome types. Applications to three published meta-analyses with binomial, Poisson, and gamma outcomes indicate that the proposed approach provides robust and interpretable inference with few studies. The PLSBC therefore offers a practical and broadly applicable framework for random-effects meta-analysis when the number of studies is limited.",
+ "primary": "stat.ME"
+}

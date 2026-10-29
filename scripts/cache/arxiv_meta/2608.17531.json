@@ -1,0 +1,17 @@
+{
+ "id": "2608.17531",
+ "title": "The Snake Algorithm: A Rejection-Free Sampler for Binary Matrices with Fixed Margins",
+ "authors": [
+  "Zipei Nie",
+  "Guanyang Wang",
+  "Peng Zhang"
+ ],
+ "v1_date": "2026-08-18",
+ "latest_version": 1,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study uniform sampling of binary matrices with fixed row and column sums, a recurring problem in ecological null models, Rasch-model testing, network analysis, and combinatorics. We propose the Snake algorithm, a rejection-free Markov chain Monte Carlo sampler that grows an alternating path until its first self-intersection and flips the resulting loop. The chain is reversible and irreducible on the fixed-margin state space, hence has the uniform stationary distribution. We prove that one step flips on the order of $\\sqrt{n}$ entries in sparse and balanced square regimes, give upper bounds on the per-step path length, and show that the resulting work per flipped entry is rate optimal in sparse and balanced regimes and near-optimal up to a polylogarithmic factor under a one-sided half-balanced condition. A Markov-chain comparison, combined with the recently established universal spectral-gap bound for the swap chain, proves that the lazy Snake chain is rapidly mixing for every feasible pair of margins; in the permutation-matrix case, the raw chain has the sharp total-variation mixing time $Θ(n \\log n)$. We also describe a directed-graph extension and an equal-margin label-shuffling variant. Numerical experiments against Swap, Rectangle Loop, Curveball, sequential importance sampling, and a directed edge-swap algorithm show consistent gains in move size, wall-clock convergence, and sampling efficiency.",
+ "primary": "stat.CO"
+}

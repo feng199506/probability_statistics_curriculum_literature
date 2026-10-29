@@ -1,0 +1,17 @@
+{
+ "id": "2510.18639",
+ "title": "Distributional regression for seasonal data: an application to river flows",
+ "authors": [
+  "Samuel Perreault",
+  "Silvana M. Pesenti",
+  "Daniyal Shahzad"
+ ],
+ "v1_date": "2025-10-21",
+ "latest_version": 1,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Risk assessment in casualty insurance, such as flood risk, traditionally relies on extreme-value methods that emphasizes rare events. These approaches are well-suited for characterizing tail risk, but do not capture the broader dynamics of environmental variables such as moderate or frequent loss events. To complement these methods, we propose a modelling framework for estimating the full (daily) distribution of environmental variables as a function of time, that is a distributional version of typical climatological summary statistics, thereby incorporating both seasonal variation and gradual long-term changes. Aside from the time trend, to capture seasonal variation our approach simultaneously estimates the distribution for each instant of the seasonal cycle, without explicitly modelling the temporal dependence present in the data. To do so, we adopt a framework inspired by GAMLSS (Generalized Additive Models for Location, Scale, and Shape), where the parameters of the distribution vary over the seasonal cycle as a function of explanatory variables depending only on the time of year, and not on the past values of the process under study. Ignoring the temporal dependence in the seasonal variation greatly simplifies the modelling but poses inference challenges that we clarify and overcome. We apply our framework to daily river flow data from three hydrometric stations along the Fraser River in British Columbia, Canada, and analyse the flood of the Fraser River in early winter of 2021.",
+ "primary": "stat.AP"
+}

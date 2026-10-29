@@ -1,0 +1,17 @@
+{
+ "id": "2509.05568",
+ "title": "Robust Confidence Intervals for a Binomial Proportion: Local Optimality and Adaptivity",
+ "authors": [
+  "Minjun Cho",
+  "Yuetian Luo",
+  "Chao Gao"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 2,
+ "latest_date": "2026-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper revisits the classical problem of interval estimation of a binomial proportion under Huber contamination. Our main result derives the rate of optimal interval length when the contamination proportion is unknown under a local minimax framework, where the performance of an interval is evaluated at each point in the parameter space. By comparing the rate with the optimal length of a confidence interval that is allowed to use the knowledge of contamination proportion, we characterize the exact adaptation cost due to the ignorance of data quality. Our construction of the confidence interval to achieve local length optimality builds on robust hypothesis testing with a new monotonization step, which guarantees valid coverage, boundary-respecting intervals, and an efficient algorithm for computing the endpoints. The general strategy of interval construction can be applied beyond the binomial setting, and leads to optimal interval estimation for Poisson data with contamination as well. We also investigate a closely related Erdős--Rényi model with node contamination. Though its optimal rate of parameter estimation agrees with that of the binomial setting, we show that adaptation to unknown contamination proportion is provably impossible for interval estimation in that setting.",
+ "primary": "math.ST"
+}

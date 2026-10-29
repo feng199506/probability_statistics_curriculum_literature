@@ -1,0 +1,17 @@
+{
+ "id": "2405.00619",
+ "title": "One-Bit Total Variation Denoising over Networks with Applications to Partially Observed Epidemics",
+ "authors": [
+  "Claire Donnat",
+  "Olga Klopp",
+  "Nicolas Verzelen"
+ ],
+ "v1_date": "2024-05-01",
+ "latest_version": 2,
+ "latest_date": "2024-09-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a novel approach for epidemic nowcasting and forecasting over networks using total variation (TV) denoising, a method inspired by classical signal processing techniques. Considering a network that models a population as a set of $n$ nodes characterized by their infection statuses $Y_i$ and that represents contacts as edges, we prove the consistency of graph-TV denoising for estimating the underlying infection probabilities $\\{p_i\\}_{ i \\in \\{1,\\cdots, n\\}}$ in the presence of Bernoulli noise. Our results provide an important extension of existing bounds derived in the Gaussian case to the study of binary variables -- an approach hereafter referred to as one-bit total variation denoising. The methodology is further extended to handle incomplete observations, thereby expanding its relevance to various real-world situations where observations over the full graph may not be accessible. Focusing on the context of epidemics, we establish that one-bit total variation denoising enhances both nowcasting and forecasting accuracy in networks, as further evidenced by comprehensive numerical experiments and two real-world examples. The contributions of this paper lie in its theoretical developments, particularly in addressing the incomplete data case, thereby paving the way for more precise epidemic modelling and enhanced surveillance strategies in practical settings.",
+ "primary": "stat.ME"
+}

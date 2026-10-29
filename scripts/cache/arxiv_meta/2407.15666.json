@@ -1,0 +1,16 @@
+{
+ "id": "2407.15666",
+ "title": "Particle Based Inference for Continuous-Discrete State Space Models",
+ "authors": [
+  "Christopher Stanton",
+  "Alexandros Beskos"
+ ],
+ "v1_date": "2024-07-22",
+ "latest_version": 2,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages, 7 figures",
+ "abstract": "This article develops a methodology allowing application of the complete machinery of particle-based inference methods upon the class of continuous-discrete State Space Models (CD-SSMs). Such models correspond to a latent continuous-time Itô diffusion process which is observed with noise at discrete time instances. Due to the continuous-time nature of the hidden signal, standard Feynman-Kac formulations and their accompanying particle-based approximations have to overcome several challenges, arising mainly due to the following considerations: (i) finite-time transition densities of the signal are typically intractable; (ii) ancestors of sampled signals are determined w.p.~1, thus cannot be resampled; (iii) diffusivity parameters given a sampled signal yield Dirac distributions. We overcome all above issues by introducing a framework based on carefully designed path proposals and reparameterisations thereof. That is, we obtain new expressions for the Feynman-Kac model that accommodate the effects of a continuous-time signal and overcome induced degeneracies. The constructed formulations enable use of the full range of particle-based algorithms for CD-SSMs: for filtering/smoothing and parameter inference, whether online or offline. Our framework is compatible with guided proposals in the filtering steps that are essential for efficient algorithmic performance in the presence of informative observations or in higher dimensions, and is applicable for a very general class of CD-SSMs, including the case when the signal is modelled as a hypo-elliptic diffusion. We incorporate our methods into an established probabilistic programming package and present several numerical examples.",
+ "primary": "stat.ME"
+}

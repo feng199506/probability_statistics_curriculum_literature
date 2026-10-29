@@ -1,0 +1,16 @@
+{
+ "id": "2504.06603",
+ "title": "Asymptotic Variance in the Central Limit Theorem for Multilevel Markovian Stochastic Approximation",
+ "authors": [
+  "Ajay Jasra",
+  "Abylay Zhumekenov"
+ ],
+ "v1_date": "2025-04-09",
+ "latest_version": 1,
+ "latest_date": "2025-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this note we consider the finite-dimensional parameter estimation problem associated to inverse problems. In such scenarios, one seeks to maximize the marginal likelihood associated to a Bayesian model. This latter model is connected to the solution of partial or ordinary differential equation. As such, there are two primary difficulties in maximizing the marginal likelihood (i) that the solution of differential equation is not always analytically tractable and (ii) neither is the marginal likelihood. Typically (i) is dealt with using a numerical solution of the differential equation, leading to a numerical bias and (ii) has been well studied in the literature using, for instance, Markovian stochastic approximation. It is well-known that to reduce the computational effort to obtain the maximal value of the parameter, one can use a hierarchy of solutions of the differential equation and combine with stochastic gradient methods. Several approaches do exactly this. In this paper we consider the asymptotic variance in the central limit theorem, associated to known estimates and find bounds on the asymptotic variance in terms of the precision of the solution of the differential equation. The significance of these bounds are the that they provide missing theoretical guidelines on how to set simulation parameters; that is, these appear to be the first mathematical results which help to run the methods efficiently in practice.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.22692",
+ "title": "A Unified Framework for Multiple Exposure Distributed Lag Non-Linear Models for Air Pollution Epidemiology",
+ "authors": [
+  "Tianyi Pan",
+  "Hwashin Hyun Shin",
+  "Alex Stringer",
+  "Glen McGee"
+ ],
+ "v1_date": "2026-04-24",
+ "latest_version": 1,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study quantifies the association between air pollution and mortality in Ontario, Canada. Exposure-response relationships in air pollution epidemiology are complex due to three features: time-lagged associations, non-linear associations, and multiple pollutants. To address the first two features, two distinct classes of distributed lag non-linear model (DLNM) have been proposed, but extending them to multiple exposures and selecting an appropriate model remain challenging. We propose a unified framework for multiple exposure DLNMs, integrating model specification, estimation, selection and stacking. The framework applies to four different model structures: two additive and two proposed single-index DLNMs, all applicable to general outcome types, including the mortality counts in the motivating application. We develop an estimation approach that applies to all four models. Choosing among the candidate DLNMs is challenging a priori, and we derive an AIC to select among them. As an alternative to selecting a single model, we also extend a model stacking approach to combine inferences across the four DLNMs and propose an implementation scalable to our dataset with 106,346 observations. In the motivating analysis, the four DLNMs yield different estimates, and the proposed stacking approach identifies significant associations between respiratory mortality and a mixture of PM2.5, O3 and NO2.",
+ "primary": "stat.ME"
+}

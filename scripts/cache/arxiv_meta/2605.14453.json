@@ -1,0 +1,18 @@
+{
+ "id": "2605.14453",
+ "title": "Estimating Precision Matrices for High-Dimensional Interval-Valued Data",
+ "authors": [
+  "Zhongfeng Qin",
+  "Hao Xu",
+  "Wenhao Cui",
+  "Wan Tian"
+ ],
+ "v1_date": "2026-05-14",
+ "latest_version": 1,
+ "latest_date": "2026-05-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the field of statistical learning and data analysis, estimating precision matrices (i.e., the inverse of covariance matrices) is a critical task, particularly for understanding dependency structures among variables. However, traditional methods often fall short when dealing with high-dimensional interval-valued data, where each observation is represented as an interval rather than a single point. This paper proposes a novel framework for estimating precision matrices in such contexts, addressing the unique challenges posed by the interval nature of the data. Specifically, we assume that the upper and lower bounds of the intervals share the same conditional dependency structure, and then formulate the interval graphical lasso optimization objective to estimate the precision matrix. At the optimization level, we provide an efficient computational approach, while at the theoretical level, we prove the sparsity and consistency of the estimator. Experimental results on simulated studies and real data applications demonstrate the superiority of the proposed method in terms of estimation precision and interpretability.",
+ "primary": "stat.ME"
+}

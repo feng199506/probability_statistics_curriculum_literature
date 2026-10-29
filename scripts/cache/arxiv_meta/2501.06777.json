@@ -1,0 +1,15 @@
+{
+ "id": "2501.06777",
+ "title": "Identification and Estimation of Simultaneous Equation Models Using Higher-Order Cumulant Restrictions",
+ "authors": [
+  "Ziyu Jiang"
+ ],
+ "v1_date": "2025-01-12",
+ "latest_version": 2,
+ "latest_date": "2025-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying structural parameters in linear simultaneous-equation models is a longstanding challenge. Recent work exploits information in higher-order moments of non-Gaussian data. In this literature, the structural errors are typically assumed to be uncorrelated so that, after standardizing the covariance matrix of the observables (whitening), the structural parameter matrix becomes orthogonal -- a device that underpins many identification proofs but can be restrictive in econometric applications. We show that neither zero covariance nor whitening is necessary. For any order $h>2$, a simple diagonality condition on the $h$th-order cumulants alone identifies the structural parameter matrix -- up to unknown scaling and permutation -- as the solution to an eigenvector problem; no restrictions on cumulants of other orders are required. This general, single-order result enlarges the class of models covered by our framework and yields a sample-analogue estimator that is $\\sqrt{n}$-consistent, asymptotically normal, and easy to compute. Furthermore, when uncorrelatedness is intrinsic -- as in vector autoregressive (VAR) models -- our framework provides a transparent overidentification test. Monte Carlo experiments show favorable finite-sample performance, and two applications -- \"Returns to Schooling\" and \"Uncertainty and the Business Cycle\" -- demonstrate its practical value.",
+ "primary": "econ.EM"
+}

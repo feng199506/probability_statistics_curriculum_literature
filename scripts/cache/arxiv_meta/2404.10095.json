@@ -1,0 +1,17 @@
+{
+ "id": "2404.10095",
+ "title": "Synthetic Census Data Generation via Multidimensional Multiset Sum",
+ "authors": [
+  "Cynthia Dwork",
+  "Kristjan Greenewald",
+  "Manish Raghavan"
+ ],
+ "v1_date": "2024-04-15",
+ "latest_version": 2,
+ "latest_date": "2025-10-01",
+ "journal_ref": "",
+ "doi": "10.29012/jpc.932",
+ "comment": "",
+ "abstract": "The US Decennial Census provides valuable data for both research and policy purposes. Census data are subject to a variety of disclosure avoidance techniques prior to release in order to preserve respondent confidentiality. While many are interested in studying the impacts of disclosure avoidance methods on downstream analyses, particularly with the introduction of differential privacy in the 2020 Decennial Census, these efforts are limited by a critical lack of data: The underlying \"microdata,\" which serve as necessary input to disclosure avoidance methods, are kept confidential. In this work, we aim to address this limitation by providing tools to generate synthetic microdata solely from published Census statistics, which can then be used as input to any number of disclosure avoidance algorithms for the sake of evaluation and carrying out comparisons. We define a principled distribution over microdata given published Census statistics and design algorithms to sample from this distribution. We formulate synthetic data generation in this context as a knapsack-style combinatorial optimization problem and develop novel algorithms for this setting. While the problem we study is provably hard, we show empirically that our methods work well in practice, and we offer theoretical arguments to explain our performance. Finally, we verify that the data we produce are \"close\" to the desired ground truth.",
+ "primary": "cs.CY"
+}

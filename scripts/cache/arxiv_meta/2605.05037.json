@@ -1,0 +1,18 @@
+{
+ "id": "2605.05037",
+ "title": "Approximate Operator Inversion for Average Effects in Nonlinear Panel Models",
+ "authors": [
+  "Jad Beyhum",
+  "Geert Dhaene",
+  "Cavit Pakel",
+  "Martin Weidner"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the estimation of average effects in nonlinear panel data models with fixed effects when the time dimension $T$ is only moderately large. Our approach, called approximate operator inversion (AOI), offers a new perspective on bias correction. Instead of first estimating unit-specific fixed effects and then correcting the resulting plug-in bias, AOI approximately inverts the likelihood-induced mapping from the fixed-effect distribution to the outcome distribution. AOI can be interpreted as the limit of an infinitely iterated bias correction scheme, and this limit is available in closed form. We show that the bias of the AOI estimator has a rate double robustness property and converges to zero at an exponential rate in $T$ under regularity conditions. Our asymptotic theory requires $T \\to \\infty$, but the exponential convergence rate of the bias means that finite-sample performance is very good even for moderately large $T$. We establish asymptotic normality and provide feasible inference.",
+ "primary": "econ.EM"
+}

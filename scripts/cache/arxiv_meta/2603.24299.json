@@ -1,0 +1,15 @@
+{
+ "id": "2603.24299",
+ "title": "Mortality Forecasting as a Flow Field in Tucker Decomposition Space",
+ "authors": [
+  "Samuel J. Clark"
+ ],
+ "v1_date": "2026-03-25",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mortality forecasting methods in the Lee-Carter tradition extrapolate temporal components via time-series models, often producing forecasts that systematically underpredict life expectancy at long horizons. This bias is consequential for planning pension funding, healthcare capacity, and social security solvency. The dominant alternative - the Bayesian double-logistic model underlying the UN World Population Prospects - forecasts scalar life expectancy and requires a separate model life table system to recover age-specific rates. We reframe forecasting as integrating a flow field through the low-dimensional score space of a Tucker tensor decomposition of the Human Mortality Database. PCA reduction reveals that the mortality transition is essentially a one-dimensional flow: a scalar speed function advances the level, trajectory functions supply the structural scores, and the Tucker reconstruction produces complete sex-specific, single-year-of-age mortality schedules at each horizon. In leave-country-out cross-validation (9,507 test points, 50-year horizon), the flow-field achieves bias of +1.058 years - substantially smaller than Lee-Carter (-3.2), Hyndman-Ullah (-3.5), and pyBayesLife (+3.3) - because it navigates a score space parameterised by mortality level rather than extrapolating temporal trends into unobserved territory. On 1.66 million sex-age-specific test points, it achieves 2.7x lower error than our de novo Python reimplementation of the UN pipeline trained on the same data - with lower error at every age, every forecast horizon, and for both sexes.",
+ "primary": "stat.ME"
+}

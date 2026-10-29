@@ -1,0 +1,16 @@
+{
+ "id": "2405.09523",
+ "title": "On Semi-supervised Estimation of Discrete Distributions under f-divergences",
+ "authors": [
+  "Hasan Sabri Melihcan Erol",
+  "Lizhong Zheng"
+ ],
+ "v1_date": "2024-05-15",
+ "latest_version": 1,
+ "latest_date": "2024-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Full version. Presented in ISIT-24. arXiv admin note: text overlap with arXiv:2305.07955",
+ "abstract": "We study the problem of estimating the joint probability mass function (pmf) over two random variables. In particular, the estimation is based on the observation of $m$ samples containing both variables and $n$ samples missing one fixed variable. We adopt the minimax framework with $l^p_p$ loss functions. Recent work established that univariate minimax estimator combinations achieve minimax risk with the optimal first-order constant for $p \\ge 2$ in the regime $m = o(n)$, questions remained for $p \\le 2$ and various $f$-divergences. In our study, we affirm that these composite estimators are indeed minimax optimal for $l^p_p$ loss functions, specifically for the range $1 \\le p \\le 2$, including the critical $l_1$ loss. Additionally, we ascertain their optimality for a suite of $f$-divergences, such as KL, $χ^2$, Squared Hellinger, and Le Cam divergences.",
+ "primary": "math.ST"
+}

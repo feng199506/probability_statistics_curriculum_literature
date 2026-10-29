@@ -1,0 +1,16 @@
+{
+ "id": "2405.05081",
+ "title": "Robust deep learning from weakly dependent data",
+ "authors": [
+  "William Kengne",
+  "Modou Wade"
+ ],
+ "v1_date": "2024-05-08",
+ "latest_version": 1,
+ "latest_date": "2024-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent developments on deep learning established some theoretical properties of deep neural networks estimators. However, most of the existing works on this topic are restricted to bounded loss functions or (sub)-Gaussian or bounded input. This paper considers robust deep learning from weakly dependent observations, with unbounded loss function and unbounded input/output. It is only assumed that the output variable has a finite $r$ order moment, with $r >1$. Non asymptotic bounds for the expected excess risk of the deep neural network estimator are established under strong mixing, and $ψ$-weak dependence assumptions on the observations. We derive a relationship between these bounds and $r$, and when the data have moments of any order (that is $r=\\infty$), the convergence rate is close to some well-known results. When the target predictor belongs to the class of Hölder smooth functions with sufficiently large smoothness index, the rate of the expected excess risk for exponentially strongly mixing data is close to or as same as those for obtained with i.i.d. samples. Application to robust nonparametric regression and robust nonparametric autoregression are considered. The simulation study for models with heavy-tailed errors shows that, robust estimators with absolute loss and Huber loss function outperform the least squares method.",
+ "primary": "stat.ML"
+}

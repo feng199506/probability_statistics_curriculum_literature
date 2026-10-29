@@ -1,0 +1,17 @@
+{
+ "id": "2606.06699",
+ "title": "Robust inference for cyclic-stress accelerated life tests under interval monitoring with lognormal lifetimes",
+ "authors": [
+  "María Jaenada",
+  "Leandro Pardo",
+  "Kiran Prajapat"
+ ],
+ "v1_date": "2026-06-04",
+ "latest_version": 1,
+ "latest_date": "2026-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 7 figures, 6 tables",
+ "abstract": "Highly reliable products are often tested under accelerated conditions to provoke failures within a feasible timeframe. For products whose service life involves repeated alternation between two stress levels, such as automotive air-conditioners, batteries, and aerospace components, cyclic-stress accelerated life testing (CyALT) provides a more realistic loading profile than conventional accelerated tests. In practice, failures are often recorded only at scheduled inspection times, leading to interval-censored counts rather than exact lifetimes. Moreover, traditional maximum likelihood estimation is sensitive to data contamination, which is a genuine concern in small-sample industrial experiments. This paper develops robust inferential procedures for CyALT models with lognormal lifetimes under interval monitoring. Robust estimators are obtained by minimizing a weighted density power divergence (WDPD), leading to the weighted minimum density power divergence estimator (WMDPDE). We establish the asymptotic distribution of the WMDPDE, derive influence function expressions to characterize the robustness, and present asymptotic and bootstrap confidence intervals for important lifetime characteristics. A simulation study confirms that the WMDPDE provides substantial protection against outliers while retaining high efficiency under clean data. The methodology is illustrated through the analysis of an air-conditioner reliability dataset, demonstrating the practical advantages of robust inference in the CyALT framework.",
+ "primary": "stat.ME"
+}

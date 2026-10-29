@@ -1,0 +1,17 @@
+{
+ "id": "2312.11136",
+ "title": "Identification of complier and noncomplier average causal effects in the presence of latent missing-at-random (LMAR) outcomes: a unifying view and choices of assumptions",
+ "authors": [
+  "Trang Quynh Nguyen",
+  "Michelle C. Carlson",
+  "Elizabeth A. Stuart"
+ ],
+ "v1_date": "2023-12-18",
+ "latest_version": 1,
+ "latest_date": "2023-12-18",
+ "journal_ref": "Biostatistics, 2024",
+ "doi": "10.1093/biostatistics/kxae011",
+ "comment": "",
+ "abstract": "The study of treatment effects is often complicated by noncompliance and missing data. In the one-sided noncompliance setting where of interest are the complier and noncomplier average causal effects (CACE and NACE), we address outcome missingness of the \\textit{latent missing at random} type (LMAR, also known as \\textit{latent ignorability}). That is, conditional on covariates and treatment assigned, the missingness may depend on compliance type. Within the instrumental variable (IV) approach to noncompliance, methods have been proposed for handling LMAR outcome that additionally invoke an exclusion restriction type assumption on missingness, but no solution has been proposed for when a non-IV approach is used. This paper focuses on effect identification in the presence of LMAR outcome, with a view to flexibly accommodate different principal identification approaches. We show that under treatment assignment ignorability and LMAR only, effect nonidentifiability boils down to a set of two connected mixture equations involving unidentified stratum-specific response probabilities and outcome means. This clarifies that (except for a special case) effect identification generally requires two additional assumptions: a \\textit{specific missingness mechanism} assumption and a \\textit{principal identification} assumption. This provides a template for identifying effects based on separate choices of these assumptions. We consider a range of specific missingness assumptions, including those that have appeared in the literature and some new ones. Incidentally, we find an issue in the existing assumptions, and propose a modification of the assumptions to avoid the issue. Results under different assumptions are illustrated using data from the Baltimore Experience Corps Trial.",
+ "primary": "stat.ME"
+}

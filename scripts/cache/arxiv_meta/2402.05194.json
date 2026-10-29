@@ -1,0 +1,16 @@
+{
+ "id": "2402.05194",
+ "title": "Multi-class classification of biomechanical data: A functional LDA approach based on multi-class penalized functional PLS",
+ "authors": [
+  "M Carmen Aguilera-Morillo",
+  "Ana M Aguilera"
+ ],
+ "v1_date": "2024-02-07",
+ "latest_version": 1,
+ "latest_date": "2024-02-07",
+ "journal_ref": "Statistical Modelling. 20 (6), 592-616, 2020",
+ "doi": "10.1177/1471082x19871157",
+ "comment": "",
+ "abstract": "A functional linear discriminant analysis approach to classify a set of kinematic data (human movement curves of individuals performing different physical activities) is performed. Kinematic data, usually collected in linear acceleration or angular rotation format, can be identified with functions in a continuous domain (time, percentage of gait cycle, etc.). Since kinematic curves are measured in the same sample of individuals performing different activities, they are a clear example of functional data with repeated measures. On the other hand, the sample curves are observed with noise. Then, a roughness penalty might be necessary in order to provide a smooth estimation of the discriminant functions, which would make them more interpretable. Moreover, because of the infinite dimension of functional data, a reduction dimension technique should be considered. To solve these problems, we propose a multi-class approach for penalized functional partial least squares (FPLS) regression. Then linear discriminant analysis (LDA) will be performed on the estimated FPLS components. This methodology is motivated by two case studies. The first study considers the linear acceleration recorded every two seconds in 30 subjects, related to three different activities (walking, climbing stairs and down stairs). The second study works with the triaxial angular rotation, for each joint, in 51 children when they completed a cycle walking under three conditions (walking, carrying a backpack and pulling a trolley). A simulation study is also developed for comparing the performance of the proposed functional LDA with respect to the corresponding multivariate and non-penalized approaches.",
+ "primary": "stat.ME"
+}

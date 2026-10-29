@@ -1,0 +1,16 @@
+{
+ "id": "2404.18421",
+ "title": "Semiparametric mean and variance joint models with Laplace link functions for count time series",
+ "authors": [
+  "Tianqing Liu",
+  "Xiaohui Yuan"
+ ],
+ "v1_date": "2024-04-29",
+ "latest_version": 1,
+ "latest_date": "2024-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Count time series data are frequently analyzed by modeling their conditional means and the conditional variance is often considered to be a deterministic function of the corresponding conditional mean and is not typically modeled independently. We propose a semiparametric mean and variance joint model, called random rounded count-valued generalized autoregressive conditional heteroskedastic (RRC-GARCH) model, to address this limitation. The RRC-GARCH model and its variations allow for the joint modeling of both the conditional mean and variance and offer a flexible framework for capturing various mean-variance structures (MVSs). One main feature of this model is its ability to accommodate negative values for regression coefficients and autocorrelation functions. The autocorrelation structure of the RRC-GARCH model using the proposed Laplace link functions with nonnegative regression coefficients is the same as that of an autoregressive moving-average (ARMA) process. For the new model, the stationarity and ergodicity are established and the consistency and asymptotic normality of the conditional least squares estimator are proved. Model selection criteria are proposed to evaluate the RRC-GARCH models. The performance of the RRC-GARCH model is assessed through analyses of both simulated and real data sets. The results indicate that the model can effectively capture the MVS of count time series data and generate accurate forecast means and variances.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2605.24377",
+ "title": "Trustworthy AI/ML Regression and Unbiased Causal Inference for Real-World Data",
+ "authors": [
+  "Yifei Xu",
+  "Hwiyoung Lee",
+  "Zhenyao Ye",
+  "Yezhi Pan",
+  "Jingsong Zhou",
+  "Yun Yang",
+  "Chixiang Chen",
+  "Shuo Chen"
+ ],
+ "v1_date": "2026-05-23",
+ "latest_version": 2,
+ "latest_date": "2026-05-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 4 figures, 4 tables; includes supplementary material",
+ "abstract": "Real-World Data (RWD), with its large sample sizes and rich clinical detail, offers a compelling alternative to randomized controlled trials (RCTs) for studying treatment effects in diverse and complex patient populations. However, its observational nature introduces confounding that prevents straightforward comparative effectiveness research. Target trial emulation leverages RWD to estimate average treatment effects (ATE) at the population scale and diversity that RCTs cannot achieve, yet its validity depends critically on unbiased ATE estimation under high-dimensional confounding. Many causal inference pipelines address high-dimensional confounding through machine learning and artificial intelligence (ML/AI) outcome regression. However, commonly used ML/AI regression models exhibit systematic prediction bias, with predicted outcomes shrinking toward the marginal outcome mean. This structural bias propagates into ATE estimation and cannot be corrected by cross-fitting, ensemble methods, or any standard ML practice. In this work, we first quantitatively characterize how systematic prediction bias in ML/AI outcome regression leads to biased ATE estimates in causal inference models. We further propose an unbiased ML/AI regression-based causal inference framework to ensure unbiased ATE estimation for observational studies. We demonstrate our approach by studying the effects of opioids on cardiovascular health in patients with chronic pain using UK Biobank data.",
+ "primary": "stat.AP"
+}

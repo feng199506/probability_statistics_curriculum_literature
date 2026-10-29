@@ -1,0 +1,16 @@
+{
+ "id": "2501.16057",
+ "title": "A Standardization Procedure to Incorporate Variance Partitioning Based Priors in Latent Gaussian Models",
+ "authors": [
+  "Luisa Ferrari",
+  "Massimo Ventrucci"
+ ],
+ "v1_date": "2025-01-27",
+ "latest_version": 1,
+ "latest_date": "2025-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 9 figures",
+ "abstract": "Latent Gaussian Models (LGMs) are a subset of Bayesian Hierarchical models where Gaussian priors, conditional on variance parameters, are assigned to all effects in the model. LGMs are employed in many fields for their flexibility and computational efficiency. However, practitioners find prior elicitation on the variance parameters challenging because of a lack of intuitive interpretation for them. Recently, several papers have tackled this issue by rethinking the model in terms of variance partitioning (VP) and assigning priors to parameters reflecting the relative contribution of each effect to the total variance. So far, the class of priors based on VP has been mainly deployed for random effects and fixed effects separately. This work presents a novel standardization procedure that expands the applicability of VP priors to a broader class of LGMs, including both fixed and random effects. We describe the steps required for standardization through various examples, with a particular focus on the popular class of intrinsic Gaussian Markov random fields (IGMRFs). The practical advantages of standardization are demonstrated with simulated data and a real dataset on survival analysis.",
+ "primary": "stat.ME"
+}

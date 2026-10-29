@@ -1,0 +1,16 @@
+{
+ "id": "2506.15801",
+ "title": "Network Modeling of Asynchronous Change-Points in Multivariate Time Series",
+ "authors": [
+  "Carson McKee",
+  "Maria Kalli"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 2,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article introduces a novel Bayesian method for asynchronous change-point detection in multivariate time series. This method allows for change-points to occur earlier in some (leading) series followed, after a short delay, by change-points in some other (lagging) series. Such dynamic dependence structure is common in fields such as seismology and neurology where a latent event such as an earthquake or seizure causes certain sensors to register change-points before others. We model these lead-lag dependencies via a latent directed graph and provide a hierarchical prior for learning the graph's structure and parameters. Posterior inference is made tractable by modifying particle MCMC methods designed for univariate change-point problems. We apply our method to both simulated and real datasets from the fields of seismology and neurology. In the simulated data, we find that our method outperforms competing methods in settings where the change-point locations are dependent across series. In the real data applications we show that our model can also uncover interpretable network structure.",
+ "primary": "stat.ME"
+}

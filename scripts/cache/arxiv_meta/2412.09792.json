@@ -1,0 +1,16 @@
+{
+ "id": "2412.09792",
+ "title": "Flexible Bayesian Nonparametric Product Mixtures for Multi-scale Functional Clustering",
+ "authors": [
+  "Tsung-Hung Yao",
+  "Suprateek Kundu"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 1,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There is a rich literature on clustering functional data with applications to time-series modeling, trajectory data, and even spatio-temporal applications. However, existing methods routinely perform global clustering that enforces identical atom values within the same cluster. Such grouping may be inadequate for high-dimensional functions, where the clustering patterns may change between the more dominant high-level features and the finer resolution local features. While there is some limited literature on local clustering approaches to deal with the above problems, these methods are typically not scalable to high-dimensional functions, and their theoretical properties are not well-investigated. Focusing on basis expansions for high-dimensional functions, we propose a flexible non-parametric Bayesian approach for multi-resolution clustering. The proposed method imposes independent Dirichlet process (DP) priors on different subsets of basis coefficients that ultimately results in a product of DP mixture priors inducing local clustering. We generalize the approach to incorporate spatially correlated error terms when modeling random spatial functions to provide improved model fitting. An efficient Markov chain Monte Carlo (MCMC) algorithm is developed for implementation. We show posterior consistency properties under the local clustering approach that asymptotically recovers the true density of random functions. Extensive simulations illustrate the improved clustering and function estimation under the proposed method compared to classical approaches. We apply the proposed approach to a spatial transcriptomics application where the goal is to infer clusters of genes with distinct spatial patterns of expressions. Our method makes an important contribution by expanding the limited literature on local clustering methods for high-dimensional functions with theoretical guarantees.",
+ "primary": "stat.ME"
+}

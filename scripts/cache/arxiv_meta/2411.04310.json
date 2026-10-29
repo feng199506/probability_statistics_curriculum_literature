@@ -1,0 +1,20 @@
+{
+ "id": "2411.04310",
+ "title": "Mediation analysis of community context effects on heart failure using the survival R2D2 prior",
+ "authors": [
+  "Brandon R. Feng",
+  "Eric Yanchenko",
+  "K. Lloyd Hill",
+  "Lindsey A. Rosman",
+  "Brian J. Reich",
+  "Ana G. Rappold"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 2,
+ "latest_date": "2024-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Congestive heart failure (CHF) is a leading cause of morbidity, mortality and healthcare costs, impacting $>$23 million individuals worldwide. Large electronic health records data provide an opportunity to improve clinical management of diseases, but statistical inference on large amounts of relevant personal data is still challenging. Thus, accurately identifying influential risk factors is pivotal to reducing information dimensionality. Bayesian variable selection in survival regression is a common approach towards solving this problem. Here, we propose placing a beta prior directly on the model coefficient of determination (Bayesian $R^2$), which induces a prior on the global variance of the predictors and provides shrinkage. Through reparameterization using an auxiliary variable, we are able to update a majority of the parameters with Gibbs sampling, simplifying computation and quickening convergence. Performance gains over competing variable selection methods are showcased through an extensive simulation study. Finally, the method is applied in a mediation analysis to identify community context attributes impacting time to first congestive heart failure diagnosis of patients enrolled in University of North Carolina Cardiovascular Device Surveillance Registry. The model has high predictive performance and we find that factors associated with higher socioeconomic inequality increase risk of heart failure.",
+ "primary": "stat.ME"
+}

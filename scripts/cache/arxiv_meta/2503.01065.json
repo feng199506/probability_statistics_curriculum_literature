@@ -1,0 +1,15 @@
+{
+ "id": "2503.01065",
+ "title": "Powerful rank verification for multivariate Gaussian data with any covariance structure",
+ "authors": [
+  "Anav Sood"
+ ],
+ "v1_date": "2025-03-03",
+ "latest_version": 1,
+ "latest_date": "2025-03-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Upon observing $n$-dimensional multivariate Gaussian data, when can we infer that the largest $K$ observations came from the largest $K$ means? When $K=1$ and the covariance is isotropic, \\cite{Gutmann} argue that this inference is justified when the two-sided difference-of-means test comparing the largest and second largest observation rejects. Leveraging tools from selective inference, we provide a generalization of their procedure that applies for both any $K$ and any covariance structure. We show that our procedure draws the desired inference whenever the two-sided difference-of-means test comparing the pair of observations inside and outside the top $K$ with the smallest standardized difference rejects, and sometimes even when this test fails to reject. Using this insight, we argue that our procedure renders existing simultaneous inference approaches inadmissible when $n > 2$. When the observations are independent (with possibly unequal variances) or equicorrelated, our procedure corresponds exactly to running the two-sided difference-of-means test comparing the pair of observations inside and outside the top $K$ with the smallest standardized difference.",
+ "primary": "stat.ME"
+}

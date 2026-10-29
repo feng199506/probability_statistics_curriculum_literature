@@ -1,0 +1,18 @@
+{
+ "id": "2602.00194",
+ "title": "On the calibration of survival models with competing risks",
+ "authors": [
+  "Julie Alberge",
+  "Tristan Haugomat",
+  "Gaël Varoquaux",
+  "Judith Abécassis"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "International Conference on Artificial Intelligence and Statistics (AISTATS) 2026, May 2026, Tanger, Morocco",
+ "doi": "",
+ "comment": "",
+ "abstract": "Survival analysis deals with modeling the time until an event occurs, and accurate probability estimates are crucial for decision-making, particularly in the competing-risks setting where multiple events are possible. While recent work has addressed calibration in standard survival analysis, the competing-risks setting remains under-explored as it is harder (the calibration applies to both probabilities across classes and time horizon). We show that existing calibration measures are not suited to the competing-risk setting and that recent models do not give well-behaved probabilities. To address this, we introduce a dedicated framework with two novel calibration measures that are minimized for oracle estimators (i.e., both measures are proper). We also introduce some methods to estimate, test, and correct the calibration. Our recalibration methods yield good probabilities while preserving discrimination.",
+ "primary": "stat.ME"
+}

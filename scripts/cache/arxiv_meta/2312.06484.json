@@ -1,0 +1,15 @@
+{
+ "id": "2312.06484",
+ "title": "Augmented Island Resampling Particle Filters for Particle Markov Chain Monte Carlo",
+ "authors": [
+  "Kari Heine"
+ ],
+ "v1_date": "2023-12-11",
+ "latest_version": 1,
+ "latest_date": "2023-12-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In modern days, the ability to carry out computations in parallel is key to efficient implementations of computationally intensive algorithms. This paper investigates the applicability of the previously proposed Augmented Island Resampling Particle Filter (AIRPF) -- an algorithm designed for parallel implementations -- to particle Markov Chain Monte Carlo (PMCMC). We show that AIRPF produces a non-negative unbiased estimator of the marginal likelihood and hence is suitable for PMCMC. We also prove stability properties, similar to those of the $α$SMC algorithm, for AIRPF. This implies that the error of AIRPF can be bounded uniformly in time by controlling the effective number of filters, which in turn can be done by adaptively constraining the interactions between filters. We demonstrate the superiority of AIRPF over independent Bootstrap Particle Filters, not only numerically, but also theoretically. To this end, we extend the previously proposed collision analysis approach to derive an explicit expression for the variance of the marginal likelihood estimate. This expression admits exact evaluation of the variance in some simple scenarios as we shall also demonstrate.",
+ "primary": "stat.CO"
+}

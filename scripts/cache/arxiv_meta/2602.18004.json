@@ -1,0 +1,18 @@
+{
+ "id": "2602.18004",
+ "title": "Preconditioned Robust Neural Posterior Estimation for Misspecified Simulators",
+ "authors": [
+  "Ryan P. Kelly",
+  "David T. Frazier",
+  "David J. Warne",
+  "Christopher C. Drovandi"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 1,
+ "latest_date": "2026-02-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simulation-based inference (SBI) enables parameter estimation for complex stochastic models with intractable likelihoods when model simulation is feasible. Neural posterior estimation (NPE) is a popular SBI approach that often achieves accurate inference with far fewer simulations than classical approaches. But in practice, neural approaches can be unreliable for two reasons: incompatible data summaries arising from model misspecification yield unreliable posteriors due to extrapolation, and prior-predictive draws can produce extreme summaries that lead to difficulties in obtaining an accurate posterior for the observed data of interest. Existing preconditioning schemes target well-specified settings, and their behaviour under misspecification remains unexplored. We study preconditioning under misspecification and propose preconditioned robust neural posterior estimation, which computes data-dependent weights that focus training near the observed summaries and fits a robust neural posterior approximation. We also introduce a forest-proximity preconditioning approach that uses tree-based proximity scores to down-weight outlying simulations and concentrate computation around the observed dataset. Across two synthetic examples and one real example with incompatible summaries and extreme prior-predictive behaviour, we demonstrate that preconditioning combined with robust NPE increases stability and improves accuracy, calibration, and posterior-predictive fit over standard baseline methods.",
+ "primary": "stat.ME"
+}

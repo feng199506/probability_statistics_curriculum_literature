@@ -1,0 +1,19 @@
+{
+ "id": "2311.08743",
+ "title": "Kernel-based independence tests for causal structure learning on functional data",
+ "authors": [
+  "Felix Laumann",
+  "Julius von Kügelgen",
+  "Junhyung Park",
+  "Bernhard Schölkopf",
+  "Mauricio Barahona"
+ ],
+ "v1_date": "2023-11-15",
+ "latest_version": 1,
+ "latest_date": "2023-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Measurements of systems taken along a continuous functional dimension, such as time or space, are ubiquitous in many fields, from the physical and biological sciences to economics and engineering.Such measurements can be viewed as realisations of an underlying smooth process sampled over the continuum. However, traditional methods for independence testing and causal learning are not directly applicable to such data, as they do not take into account the dependence along the functional dimension. By using specifically designed kernels, we introduce statistical tests for bivariate, joint, and conditional independence for functional variables. Our method not only extends the applicability to functional data of the HSIC and its d-variate version (d-HSIC), but also allows us to introduce a test for conditional independence by defining a novel statistic for the CPT based on the HSCIC, with optimised regularisation strength estimated through an evaluation rejection rate. Our empirical results of the size and power of these tests on synthetic functional data show good performance, and we then exemplify their application to several constraint- and regression-based causal structure learning problems, including both synthetic examples and real socio-economic data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2601.17153",
+ "title": "Evaluating Aggregated Relational Data Models with Simple Diagnostics",
+ "authors": [
+  "Ian Laga",
+  "Benjamin Vogel",
+  "Jieyun Wang",
+  "Anna Smith",
+  "Owen Ward"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 1,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Aggregated Relational Data (ARD) contain summary information about individual social networks and are widely used to estimate social network characteristics and the size of populations of interest. Although a variety of ARD estimators exist, practitioners currently lack guidance on how to evaluate whether a selected model adequately fits the data. We introduce a diagnostic framework for ARD models that provides a systematic, reproducible process for assessing covariate structure, distributional assumptions, and correlation. The diagnostics are based on point estimates, using either maximum likelihood or maximum a posteriori optimization, which allows quick evaluation without requiring repeated Bayesian model fitting. Through simulation studies and applications to large ARD datasets, we show that the proposed workflow identifies common sources of model misfit and helps researchers select an appropriate model that adequately explains the data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.03035",
+ "title": "High-dimensional ridge regression with random features for non-identically distributed data with a variance profile",
+ "authors": [
+  "Issa-Mbenard Dabo",
+  "Jérémie Bigot"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 2,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Random feature ridge regression is often analyzed in the high-dimensional regime under the homogeneous sampling model $x_i=Σ^{1/2}x_i'$, where the vectors $x_i'$ have iid entries and the same covariance matrix $Σ$ is shared by all samples. In this paper, we move beyond this setting and study non-identically distributed data through a variance-profile model in which the training and test covariates have row-dependent diagonal covariance matrices $Σ_i=\\diag(γ_{i1}^2,\\ldots,γ_{ip}^2)$ and $\\widetildeΣ_i=\\diag(\\tildeγ_{i1}^2,\\ldots,\\tildeγ_{ip}^2)$. Our main contribution is the derivation of asymptotic equivalents for the training and test risks of ridge regression with random features when $n$, $p$, and $m$ grow proportionally. The first set of equivalents is obtained by combining the linear-plus-chaos approximation with traffic-probability arguments, whereas the second set is deterministic and follows from operator-valued free probability through an amalgamation-over-the-diagonal argument. These equivalents are sharp in numerical experiments. They also reveal how heterogeneous variance profiles, including mixture-type profiles inspired by MNIST, can modify generalization and exhibit double-descent behavior when the ridge parameter is small.",
+ "primary": "stat.ML"
+}

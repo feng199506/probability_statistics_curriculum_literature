@@ -1,0 +1,18 @@
+{
+ "id": "2501.05618",
+ "title": "Introducing the generalized gamma distribution: a flexible distribution for index standardization",
+ "authors": [
+  "Jillian C. Dunic",
+  "Jason Conner",
+  "Sean C. Anderson",
+  "James T. Thorson"
+ ],
+ "v1_date": "2025-01-09",
+ "latest_version": 1,
+ "latest_date": "2025-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fisheries scientists use regression models to estimate population quantities, such as biomass or abundance, for use in climate, habitat, stock, and ecosystem assessments. However, these models are sensitive to the chosen probability distribution used to characterize observation error. Here, we introduce the generalized gamma distribution (GGD), which has not been widely used in fisheries science. The GGD has useful properties: (1) it reduces to the lognormal distribution when the shape parameter approaches zero; (2) it reduces to the gamma distribution when the shape and scale parameters are equal; and (3) the coefficient of variation is independent of the mean. We assess the relative performance and robustness of the GGD to estimate biomass density across different observation error types in a simulation experiment. When fit to data generated from the GGD, lognormal, gamma, and Tweedie families, the GGD had low bias and high predictive accuracy. Finally, we fit spatiotemporal index standardization models using the R package sdmTMB to 15 species from three trawl surveys from the Gulf of Alaska and coast of British Columbia, Canada. When the Akaike information criterion (AIC) weight was compared among fits using the lognormal, gamma, and Tweedie families the GGD was the most commonly selected model.",
+ "primary": "stat.ME"
+}

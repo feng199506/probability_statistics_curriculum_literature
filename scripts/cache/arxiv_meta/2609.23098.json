@@ -1,0 +1,15 @@
+{
+ "id": "2609.23098",
+ "title": "A short operator proof of Hoeffding inequalities for Markov chains",
+ "authors": [
+  "Oleksii Kachaiev"
+ ],
+ "v1_date": "2026-09-19",
+ "latest_version": 1,
+ "latest_date": "2026-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages, no figures",
+ "abstract": "We give a short operator-theoretic proof of the sharp Hoeffding inequality for additive functionals of a Markov chain on a general state space with an $L^2(π)$ spectral gap, recovering the bound of Fan et al. (2021). We further show that the same argument yields the Hoeffding inequality of Neeman et al. (2024) for Markov-dependent random matrices. The proof rests on two key observations. First, the transition operator factors as $P=Q_λ^{1/2} K Q_λ^{1/2}$ through the León-Perron operator $Q_λ$, with $\\|K\\|=1$. This bounds the moment generating function by a product of one-step operator norms. Second, each one-step operator is a rank-one perturbation of a multiplication operator, so bounding its norm reduces to verifying a scalar resolvent condition. Scalar convexity and the classical Hoeffding lemma then give the desired estimate. This bypasses the asymptotic cumulant generating function, essential-spectrum analysis, and extremal two-state comparison used in existing proofs. In the matrix setting, the multi-matrix Golden-Thompson inequality first reduces the moment generating function to an operator problem on a lifted Hilbert space. The same two steps then apply: the projection onto constants becomes finite-rank, and a Schur-complement argument yields the same scalar estimate. The matrix Hoeffding inequality of Neeman et al. (2024) follows. For complex Hermitian summands, working directly on the complex Hilbert space improves the bound by a factor of $2$.",
+ "primary": "math.PR"
+}

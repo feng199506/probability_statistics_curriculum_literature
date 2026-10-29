@@ -1,0 +1,15 @@
+{
+ "id": "2603.11258",
+ "title": "Continuous-time modeling and bootstrap for Schnieper's reserving",
+ "authors": [
+  "Nicolas Baradel"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 1,
+ "latest_date": "2026-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We revisit Schnieper's model, which decomposes incurred but not reported (IBNR) reserves into two components: reserves for newly reported claims (true IBNR) and reserves for changes over time in the estimated cost of already reported claims (IBNER). We propose a continuous-time stochastic model for the aggregate claims process, driven by a random Poisson measure for the arrival of newly reported claims and by Brownian motion for the cost fluctuations of reported claims. This framework is consistent with the key assumptions of Schnieper's original approach. Within this setting, we develop a bootstrap method to estimate the full predictive distribution of claims reserves. Our approach naturally accounts for asymmetry, ensures non-negativity, and respects intrinsic bounds on reserves, without requiring additional assumptions. We illustrate the method through a case study and compare it with alternative stochastic techniques based on Schnieper's model.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.14780",
+ "title": "Faster Computation of Entropic Optimal Transport via Stable Low Frequency Modes",
+ "authors": [
+  "Reda Chhaibi",
+  "Serge Gratton",
+  "Samuel Vaiter"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 1,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 5 figures",
+ "abstract": "In this paper, we propose an accelerated version for the Sinkhorn algorithm, which is the reference method for computing the solution to Entropic Optimal Transport. Its main draw-back is the exponential slow-down of convergence as the regularization weakens $\\varepsilon \\rightarrow 0$. Thanks to spectral insights on the behavior of the Hessian, we propose to mitigate the problem via an original spectral warm-start strategy. This leads to faster convergence compared to the reference method, as also demonstrated in our numerical experiments.",
+ "primary": "math.NA"
+}

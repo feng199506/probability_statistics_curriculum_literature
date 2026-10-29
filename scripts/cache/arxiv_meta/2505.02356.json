@@ -1,0 +1,17 @@
+{
+ "id": "2505.02356",
+ "title": "Sampling-based federated inference for M-estimators with non-smooth objective functions",
+ "authors": [
+  "Xiudi Li",
+  "Lu Tian",
+  "Tianxi Cai"
+ ],
+ "v1_date": "2025-05-05",
+ "latest_version": 1,
+ "latest_date": "2025-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a novel sampling-based federated learning framework for statistical inference on M-estimators with non-smooth objective functions, which frequently arise in modern statistical applications such as quantile regression and AUC maximization. Classical inference methods for such estimators are often computationally intensive or require nonparametric estimation of nuisance quantities. Our approach circumvents these challenges by leveraging Markov Chain Monte Carlo (MCMC) sampling and a second-stage perturbation scheme to efficiently estimate both the parameter of interest and its variance. In the presence of multiple sites with data-sharing constraints, we introduce an adaptive strategy to borrow information from potentially heterogeneous source sites without transferring individual-level data. This strategy selects source sites based on a dissimilarity measure and constructs an optimally weighted estimator using a lasso regularization. The resulting estimator has an oracle property, i.e., it achieves the optimal asymptotical efficiency by borrowing information from eligible sites while guarding against negative transfer. We establish consistency and asymptotic normality of our proposed estimators and validate the method through extensive simulations and a real-data application on type 2 diabetes. Our results demonstrate substantial gains in inference precision and underscore the importance of inclusive, data-adaptive analysis frameworks in federated learning settings.",
+ "primary": "stat.ME"
+}

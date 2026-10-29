@@ -1,0 +1,16 @@
+{
+ "id": "2506.23069",
+ "title": "Simultaneous Sieve Estimation and Inference for Time-Varying Nonlinear Time Series Regression",
+ "authors": [
+  "Xiucai Ding",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 1,
+ "latest_date": "2025-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "67 pages, 10 figures. This manuscript presents a significant generalization of our previous submission, arXiv:2112.08545, which can be viewed as a special case of the current framework",
+ "abstract": "In this paper, we investigate time-varying nonlinear time series regression for a broad class of locally stationary time series. First, we propose sieve nonparametric estimators for the time-varying regression functions that achieve uniform consistency. Second, we develop a unified simultaneous inferential theory to conduct both structural and exact form tests on these functions. Additionally, we introduce a multiplier bootstrap procedure for practical implementation. Our methodology and theory require only mild assumptions on the regression functions, allow for unbounded domain support, and effectively address the issue of identifiability for practical interpretation. Technically, we establish sieve approximation theory for 2-D functions in unbounded domains, prove two Gaussian approximation results for affine forms of high-dimensional locally stationary time series, and calculate critical values for the maxima of the Gaussian random field arising from locally stationary time series, which may be of independent interest. Numerical simulations and two data analyses support our results, and we have developed an $\\mathtt{R}$ package, $\\mathtt{SIMle}$, to facilitate implementation.",
+ "primary": "stat.ME"
+}

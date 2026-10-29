@@ -1,0 +1,16 @@
+{
+ "id": "2512.02878",
+ "title": "Correcting for sampling variability in maximum likelihood-based one-sample log-rank tests",
+ "authors": [
+  "Moritz Fabian Danzer",
+  "Rene Schmidt"
+ ],
+ "v1_date": "2025-12-02",
+ "latest_version": 2,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main manuscript: 12 pages, 4 figures, 2 tables Supplementary Material: 13 pages, 7 figures with multiple subfigures",
+ "abstract": "Single-arm studies in the early development phases of new treatments are not uncommon in the context of rare diseases or in paediatrics. If an assessment of efficacy is to be made at the end of such a study, the observed endpoints can be compared with reference values that can be derived from historical data. For a time-to-event endpoint, a statistical comparison with a reference curve can be made using the one-sample log-rank test. In order to ensure the interpretability of the results of this test, the role of the reference curve is crucial. This quantity is often estimated from a historical control group using a parametric procedure. Hence, it should be noted that it is subject to estimation uncertainty. However, this aspect is not taken into account in the one-sample log-rank test statistic. We analyse this estimation uncertainty for the common situation that the reference curve is estimated parametrically using the maximum likelihood method, and indicate how the variance estimation of the one-sample log-rank test can be adapted in order to take this variability into account. The resulting test procedures are illustrated using a data example and analysed in more detail using simulations, particularly in comparison with established two-sample methods.",
+ "primary": "stat.ME"
+}

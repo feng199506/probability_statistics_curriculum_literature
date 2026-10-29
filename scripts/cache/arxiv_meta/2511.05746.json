@@ -1,0 +1,17 @@
+{
+ "id": "2511.05746",
+ "title": "Conformalized Bayesian Inference, with Applications to Random Partition Models",
+ "authors": [
+  "Nicola Bariletto",
+  "Nhat Ho",
+  "Alessandro Rinaldo"
+ ],
+ "v1_date": "2025-11-07",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian posterior distributions naturally represent parameter uncertainty informed by data. However, when the parameter space is complex, as in many nonparametric settings where it is infinite-dimensional or combinatorially large, standard summaries such as posterior means, credible intervals, or simple notions of multimodality are often unavailable, hindering interpretable posterior uncertainty quantification. We introduce Conformalized Bayesian Inference (CBI), a broadly applicable and computationally efficient framework for posterior inference on nonstandard parameter spaces. CBI yields a point estimate, a credible region with assumption-free posterior coverage guarantees, and a principled analysis of posterior multimodality, requiring only Monte Carlo samples from the posterior and a notion of discrepancy between parameters. The method builds a pseudo-density score for each parameter value, yielding a MAP-like point estimate and a credible region derived from conformal prediction principles. The key conceptual step underlying this construction is the reinterpretation of posterior inference as prediction on the parameter space. A final density-based clustering step identifies representative posterior modes. We investigate a number of theoretical and methodological properties of CBI and demonstrate its practicality, scalability, and versatility in simulated and real data clustering applications with random partition models. An accompanying Python library, cbi_partitions, is available at github.com/nbariletto/cbi_partitions_repo.",
+ "primary": "stat.ME"
+}

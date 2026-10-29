@@ -1,0 +1,16 @@
+{
+ "id": "2509.20015",
+ "title": "Randomized Kolmogorov-Smirnov Analysis of Volatility Roughness",
+ "authors": [
+  "Sergio Bianchi",
+  "Daniele Angelini"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 4,
+ "latest_date": "2026-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages",
+ "abstract": "We introduce a novel distribution-based estimator for the Hurst parameter of log-volatility, leveraging the Kolmogorov-Smirnov statistic to assess the scaling behavior of entire distributions rather than individual moments. To address the temporal dependence of financial volatility, we propose a random permutation procedure that effectively removes serial correlation while preserving marginal distributions, enabling the rigorous application of the KS framework to dependent data. We establish the asymptotic variance of the estimator, useful for inference and confidence interval construction. From a computational standpoint, we show that derivative-free optimization methods, particularly Brent's method and the Nelder-Mead simplex, achieve substantial efficiency gains relative to grid search while maintaining estimation accuracy. Empirical analysis of the CBOE VIX index and the 5-minute realized volatility of the S&P 500 reveals a statistically significant hierarchy of roughness, with implied volatility smoother than realized volatility. Both measures, however, exhibit Hurst exponents well below one-half, reinforcing the rough volatility paradigm and highlighting the open challenge of disentangling local roughness from long-memory effects in fractional modeling.",
+ "primary": "q-fin.MF"
+}

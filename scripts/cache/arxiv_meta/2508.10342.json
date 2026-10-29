@@ -1,0 +1,15 @@
+{
+ "id": "2508.10342",
+ "title": "Identifying Unmeasured Confounders in Panel Causal Models: A Two-Stage LM-Wald Approach",
+ "authors": [
+  "Bang Quan Zheng"
+ ],
+ "v1_date": "2025-08-14",
+ "latest_version": 3,
+ "latest_date": "2026-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Panel data are widely used in political science to draw causal inferences. However, these models often rely on the strong and untested assumption of sequential ignorability--that no unmeasured variables influence both the independent and outcome variables across time. Grounded in psychometric literature on latent variable modeling, this paper introduces the Two-Stage LM-Wald (2SLW) approach, a diagnostic tool that extends the Lagrange Multiplier (LM) and Wald tests to detect violations of this assumption in panel causal models. Using Monte Carlo simulations within the Random Intercept Cross-Lagged Panel Model (RI-CLPM), which separates within and between person effects, I demonstrate the 2SLW's ability to detect unmeasured confounding across three key scenarios: biased corrections, distorted direct effects, and altered mediation pathways. I also illustrate the approach with an empirical application to real-world panel data. By providing a practical and theoretically grounded diagnostic, the 2SLW approach enhances the robustness of causal inferences in the presence of potential time-varying confounders. Moreover, it can be readily implemented using the R package lavaan.",
+ "primary": "stat.ME"
+}

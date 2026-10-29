@@ -1,0 +1,16 @@
+{
+ "id": "2312.05802",
+ "title": "Enhancing Scalability in Bayesian Nonparametric Factor Analysis of Spatiotemporal Data",
+ "authors": [
+  "Yifan Cheng",
+  "Cheng Li"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 7,
+ "latest_date": "2025-02-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article introduces novel and practicable Bayesian factor analysis frameworks that are computationally feasible for moderate to large spatiotemporal data. Previous Bayesian analysis of spatiotemporal data has utilized a Bayesian factor model with separable temporal latent factors and spatial factor loadings, along with stick-breaking process priors on the loadings to enable clustering of spatial locations. Such a flexible Bayesian model, however, faces a prohibitively high computational cost in posterior sampling when the spatial and temporal dimensions increase to a couple hundred. We address this computational challenge with several speed-up proposals. We integrate a new slice sampling algorithm that permits varying numbers of spatial mixture components across all latent factors and guarantees them to be non-increasing through the posterior sampling iterations, thus effectively reducing the number of mixture parameters. Additionally, we introduce a spatial latent nearest-neighbor Gaussian process prior and new sequential updating algorithms for the spatially varying latent variables in the stick-breaking process prior. Our new models and sampling algorithms exhibit significantly enhanced computational scalability and storage efficiency and possess powerful inferential capabilities for both spatiotemporal prediction and clustering of spatial locations with similar temporal trajectories. The improvement in computational efficiency and inferential performance is substantiated by extensive simulation experiments.",
+ "primary": "stat.ME"
+}

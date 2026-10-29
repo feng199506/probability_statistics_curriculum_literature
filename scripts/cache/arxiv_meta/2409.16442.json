@@ -1,0 +1,17 @@
+{
+ "id": "2409.16442",
+ "title": "Aggregating multiple test results to improve medical decision-making",
+ "authors": [
+  "Lucas Böttcher",
+  "Maria R. D'Orsogna",
+  "Tom Chou"
+ ],
+ "v1_date": "2024-09-24",
+ "latest_version": 1,
+ "latest_date": "2024-09-24",
+ "journal_ref": "PLoS Comput. Biol. 21(1): e1012749 (2025)",
+ "doi": "10.1371/journal.pcbi.1012749",
+ "comment": "24 pages, 6 figures, 2 tables",
+ "abstract": "Gathering observational data for medical decision-making often involves uncertainties arising from both type I (false positive)and type II (false negative) errors. In this work, we develop a statistical model to study how medical decision-making can be improved by repeating diagnostic and screening tests, and aggregating their results. This approach is relevant not only in clinical settings, such as medical imaging, but also in public health, as highlighted by the need for rapid, cost-effective testing methods during the SARS-CoV-2pandemic. Our model enables the development of testing protocols with an arbitrary number of tests, which can be customized to meet requirements for type I and type II errors. This allows us to adjust sensitivity and specificity according to application-specific needs. Additionally, we derive generalized Rogan--Gladen estimates for estimating disease prevalence, accounting for an arbitrary number of tests with potentially different type I and type II errors. We also provide the corresponding uncertainty quantification.",
+ "primary": "stat.AP"
+}

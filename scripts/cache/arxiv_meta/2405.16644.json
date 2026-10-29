@@ -1,0 +1,19 @@
+{
+ "id": "2405.16644",
+ "title": "Gaussian Approximation and Multiplier Bootstrap for Polyak-Ruppert Averaged Linear Stochastic Approximation with Applications to TD Learning",
+ "authors": [
+  "Sergey Samsonov",
+  "Eric Moulines",
+  "Qi-Man Shao",
+  "Zhuo-Song Zhang",
+  "Alexey Naumov"
+ ],
+ "v1_date": "2024-05-26",
+ "latest_version": 2,
+ "latest_date": "2025-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "NeurIPS-2024, camera-ready version. Some typos fixed compared to the previous version",
+ "abstract": "In this paper, we obtain the Berry-Esseen bound for multivariate normal approximation for the Polyak-Ruppert averaged iterates of the linear stochastic approximation (LSA) algorithm with decreasing step size. Moreover, we prove the non-asymptotic validity of the confidence intervals for parameter estimation with LSA based on multiplier bootstrap. This procedure updates the LSA estimate together with a set of randomly perturbed LSA estimates upon the arrival of subsequent observations. We illustrate our findings in the setting of temporal difference learning with linear function approximation.",
+ "primary": "stat.ML"
+}

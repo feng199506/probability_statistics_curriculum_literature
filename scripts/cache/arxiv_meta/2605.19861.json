@@ -1,0 +1,18 @@
+{
+ "id": "2605.19861",
+ "title": "Stationary subspace analysis for spatial data",
+ "authors": [
+  "Perttu Saarela",
+  "Klaus Nordhausen",
+  "Jaakko Pere",
+  "Anne M. Ruiz"
+ ],
+ "v1_date": "2026-05-19",
+ "latest_version": 1,
+ "latest_date": "2026-05-19",
+ "journal_ref": "Environmetrics 37(6), 2026",
+ "doi": "10.1002/env.70146",
+ "comment": "",
+ "abstract": "Stationary subspace analysis (SSA) is a blind source separation framework that decomposes linearly mixed multivariate data into stationary and nonstationary components. We extend SSA to spatially indexed data by introducing spatial stationary subspace analysis (spSSA), which explicitly accounts for spatial dependence. We propose three estimation procedures for the unmixing matrix based on first- and second-order spatial statistics. Each procedure targets a different type of nonstationarity and can be formulated as the solution to a generalized eigenvalue problem. To address situations where multiple forms of nonstationarity are present simultaneously, we combine the three procedures using approximate joint diagonalization. Simulation studies demonstrate that this combined approach yields superior separation performance. When the dimension of the nonstationary subspace is known, the proposed methods reliably recover the latent stationary and nonstationary components. However, determining this dimension remains a fundamental challenge in SSA, for which no generally accepted solution currently exists. Building on our estimation procedures, we propose a novel data augmentation approach to estimate the dimension of the nonstationary subspace and demonstrate its effectiveness through simulation studies. The proposed methodology is easily transferable to time series settings, making it of broader methodological interest.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2508.15978",
+ "title": "A nonstationary spatial model of PM2.5 with localized transfer learning from numerical model output",
+ "authors": [
+  "Wenlong Gong",
+  "Brian J. Reich",
+  "Joseph Guinness"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 2,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "10.1007/s10651-026-00710-z",
+ "comment": "Environ Ecol Stat (2026)",
+ "abstract": "Ambient air pollution measurements from regulatory monitoring networks are routinely used to support epidemiologic studies and environmental policy decision making. However, regulatory monitors are spatially sparse and preferentially located in areas with large populations. Numerical air pollution model output can be leveraged into the inference and prediction of air pollution data combining with measurements from monitors. Nonstationary covariance functions allow the model to adapt to spatial surfaces whose variability changes with location like air pollution data. In the paper, we employ localized covariance parameters learned from the numerical output model to knit together into a global nonstationary covariance, to incorporate in a fully Bayesian model. We model the nonstationary structure in a computationally efficient way to make the Bayesian model scalable.",
+ "primary": "stat.AP"
+}

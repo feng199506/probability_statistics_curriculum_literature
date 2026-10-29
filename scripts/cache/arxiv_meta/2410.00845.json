@@ -1,0 +1,16 @@
+{
+ "id": "2410.00845",
+ "title": "Control Variate-based Stochastic Sampling from the Probability Simplex",
+ "authors": [
+  "Francesco Barile",
+  "Christopher Nemeth"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 1,
+ "latest_date": "2024-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents a control variate-based Markov chain Monte Carlo algorithm for efficient sampling from the probability simplex, with a focus on applications in large-scale Bayesian models such as latent Dirichlet allocation. Standard Markov chain Monte Carlo methods, particularly those based on Langevin diffusions, suffer from significant discretization errors near the boundaries of the simplex, which are exacerbated in sparse data settings. To address this issue, we propose an improved approach based on the stochastic Cox--Ingersoll--Ross process, which eliminates discretization errors and enables exact transition densities. Our key contribution is the integration of control variates, which significantly reduces the variance of the stochastic gradient estimator in the Cox--Ingersoll--Ross process, thereby enhancing the accuracy and computational efficiency of the algorithm. We provide a theoretical analysis showing the variance reduction achieved by the control variates approach and demonstrate the practical advantages of our method in data subsampling settings. Empirical results on large datasets show that the proposed method outperforms existing approaches in both accuracy and scalability.",
+ "primary": "stat.ME"
+}

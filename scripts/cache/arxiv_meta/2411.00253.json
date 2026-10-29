@@ -1,0 +1,17 @@
+{
+ "id": "2411.00253",
+ "title": "Adaptive minimax estimation for discretely observed Lévy processes",
+ "authors": [
+  "Céline Duval",
+  "Taher Jalal",
+  "Ester Mariucci"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 1,
+ "latest_date": "2024-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "In this paper, we study the nonparametric estimation of the density $f_Δ$ of an increment of a Lévy process $X$ based on $n$ observations with a sampling rate $Δ$. The class of Lévy processes considered is broad, including both processes with a Gaussian component and pure jump processes. A key focus is on processes where $f_Δ$ is smooth for all $Δ$. We introduce a spectral estimator of $f_Δ$ and derive both upper and lower bounds, showing that the estimator is minimax optimal in both low- and high-frequency regimes. Our results differ from existing work by offering weaker, easily verifiable assumptions and providing non-asymptotic results that explicitly depend on $Δ$. In low-frequency settings, we recover parametric convergence rates, while in high-frequency settings, we identify two regimes based on whether the Gaussian or jump components dominate. The rates of convergence are closely tied to the jump activity, with continuity between the Gaussian case and more general jump processes. Additionally, we propose a fully data-driven estimator with proven simplicity and rapid implementation, supported by numerical experiments.",
+ "primary": "math.ST"
+}

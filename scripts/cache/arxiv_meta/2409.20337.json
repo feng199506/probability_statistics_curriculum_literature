@@ -1,0 +1,15 @@
+{
+ "id": "2409.20337",
+ "title": "Large deviation-based tuning schemes for Metropolis-Hastings algorithms",
+ "authors": [
+  "Federica Milinanni"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 2,
+ "latest_date": "2025-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 4 figures",
+ "abstract": "Markov chain Monte Carlo (MCMC) methods are one of the most popular classes of algorithms for sampling from a target probability distribution. A rising trend in recent years consists in analyzing the convergence of MCMC algorithms using tools from the theory of large deviations. In (Milinanni & Nyquist, 2024), a new framework based on this approach has been developed to study the convergence of empirical measures associated with algorithms of Metropolis-Hastings type, a broad and popular sub-class of MCMC methods. The goal of this paper is to leverage these large deviation results to improve the efficiency of Metropolis-Hastings algorithms. Specifically, we use the large deviations rate function (a central object in large deviation theory) to quantify and characterize the algorithms' speed of convergence. We begin by extending the analysis from (Milinanni & Nyquist, 2024), deriving alternative representations of the rate function. Building on this, we establish explicit upper and lower bounds, which we then use to design schemes to tune Metropolis-Hastings algorithms.",
+ "primary": "math.PR"
+}

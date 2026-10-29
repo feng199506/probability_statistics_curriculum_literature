@@ -1,0 +1,16 @@
+{
+ "id": "2506.01150",
+ "title": "Flexible Selective Inference with Flow-based Transport Maps",
+ "authors": [
+  "Sifan Liu",
+  "Snigdha Panigrahi"
+ ],
+ "v1_date": "2025-06-01",
+ "latest_version": 1,
+ "latest_date": "2025-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Data-carving methods perform selective inference by conditioning the distribution of data on the observed selection event. However, existing data-carving approaches typically require an analytically tractable characterization of the selection event. This paper introduces a new method that leverages tools from flow-based generative modeling to approximate a potentially complex conditional distribution, even when the underlying selection event lacks an analytical description -- take, for example, the data-adaptive tuning of model parameters. The key idea is to learn a transport map that pushes forward a simple reference distribution to the conditional distribution given selection. This map is efficiently learned via a normalizing flow, without imposing any further restrictions on the nature of the selection event. Through extensive numerical experiments on both simulated and real data, we demonstrate that this method enables flexible selective inference by providing: (i) valid p-values and confidence sets for adaptively selected hypotheses and parameters, (ii) a closed-form expression for the conditional density function, enabling likelihood-based and quantile-based inference, and (iii) adjustments for intractable selection steps that can be easily integrated with existing methods designed to account for the tractable steps in a selection procedure involving multiple steps.",
+ "primary": "stat.ME"
+}

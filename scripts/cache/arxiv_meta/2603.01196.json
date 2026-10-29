@@ -1,0 +1,15 @@
+{
+ "id": "2603.01196",
+ "title": "A Percentile-Focused Regression Method for Applied Data with Irregular Error Structures",
+ "authors": [
+  "Elsayed Elamir"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 2,
+ "latest_date": "2026-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages, 2 figures",
+ "abstract": "Irregular errors such as heteroscedasticity and nonnormality remain major challenges in linear modeling. These issues often lead to biased inference and unreliable measures of uncertainty. Classical remedies, such as robust standard errors and weighted least squares, only partially address the problem and may fail when heteroscedasticity interacts with skewness or nonlinear mean structures. To address this, we propose a two-stage cumulative distribution function-based (CDF-based) beta regression framework that models the full conditional distribution of the response. The approach first transforms the outcome using a smoothed empirical CDF and then fits a flexible beta regression, allowing heteroscedasticity and nonnormality to be handled naturally through the mean-precision structure of the beta distribution. Predictions are mapped back to the original scale via the empirical quantile function, which preserves interpretability. A comprehensive Monte Carlo study shows that the proposed method consistently achieves good distributional accuracy and well-calibrated prediction intervals compared with OLS, WLS, and GLS. Application to the concrete compressive strength dataset demonstrates its stability and practical advantages.",
+ "primary": "stat.ME"
+}

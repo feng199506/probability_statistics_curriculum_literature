@@ -1,0 +1,19 @@
+{
+ "id": "2501.07770",
+ "title": "Maximum likelihood estimation in the sparse Rasch model",
+ "authors": [
+  "Pai Peng",
+  "Lianqiang Qu",
+  "Qiuping Wang",
+  "Shufang Wang",
+  "Ting Yan"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 1,
+ "latest_date": "2025-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 3 figures",
+ "abstract": "The Rasch model has been widely used to analyse item response data in psychometrics and educational assessments. When the number of individuals and items are large, it may be impractical to provide all possible responses. It is desirable to study sparse item response experiments. Here, we propose to use the Erdős\\textendash Rényi random sampling design, where an individual responds to an item with low probability $p$. We prove the uniform consistency of the maximum likelihood estimator %by developing a leave-one-out method for the Rasch model when both the number of individuals, $r$, and the number of items, $t$, approach infinity. Sampling probability $p$ can be as small as $\\max\\{\\log r/r, \\log t/t\\}$ up to a constant factor, which is a fundamental requirement to guarantee the connection of the sampling graph by the theory of the Erdős\\textendash Rényi graph. The key technique behind this significant advancement is a powerful leave-one-out method for the Rasch model. We further establish the asymptotical normality of the MLE by using a simple matrix to approximate the inverse of the Fisher information matrix. The theoretical results are corroborated by simulation studies and an analysis of a large item-response dataset.",
+ "primary": "math.ST"
+}

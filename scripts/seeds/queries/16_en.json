@@ -1,0 +1,21 @@
+[
+ {"q": "(ti:survey OR ti:review OR ti:introduction OR ti:tutorial OR ti:primer OR ti:overview) AND cat:econ.EM", "subtopic": "计量经济学综述"},
+ {"q": "abs:\"panel data\" AND (ti:review OR ti:survey OR ti:introduction OR ti:guide OR ti:overview)", "subtopic": "面板数据"},
+ {"q": "abs:\"panel data\" AND (abs:\"fixed effects\" OR abs:\"interactive effects\" OR abs:\"factor structure\") AND cat:econ.EM", "subtopic": "面板数据"},
+ {"q": "(abs:\"weak instruments\" OR abs:\"generalized method of moments\" OR abs:\"many instruments\") AND cat:econ.EM", "subtopic": "计量经济学（IV/GMM）"},
+ {"q": "(abs:GARCH OR abs:\"stochastic volatility\" OR abs:\"realized volatility\") AND (cat:q-fin.ST OR cat:econ.EM OR cat:stat.ME)", "subtopic": "金融时间序列与波动率"},
+ {"q": "(ti:survey OR ti:review OR ti:introduction) AND abs:volatility AND (cat:q-fin.ST OR cat:q-fin.RM OR cat:econ.EM OR cat:q-fin.CP)", "subtopic": "金融时间序列与波动率"},
+ {"q": "abs:\"high-frequency\" AND (abs:\"realized\" OR abs:\"microstructure noise\") AND (cat:econ.EM OR cat:math.ST OR cat:q-fin.ST)", "subtopic": "高频金融计量"},
+ {"q": "(abs:\"expected shortfall\" OR abs:\"value-at-risk\" OR abs:\"value at risk\") AND (abs:backtesting OR abs:elicitability OR abs:elicitable)", "subtopic": "风险度量"},
+ {"q": "abs:\"risk measures\" AND (ti:review OR ti:survey OR ti:introduction OR ti:tutorial OR ti:overview)", "subtopic": "风险度量"},
+ {"q": "(abs:\"claims reserving\" OR abs:\"loss reserving\" OR abs:\"insurance pricing\" OR abs:\"ratemaking\" OR abs:credibility) AND (cat:q-fin.RM OR cat:stat.AP OR cat:stat.ME)", "subtopic": "精算统计"},
+ {"q": "(ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview) AND abs:actuarial", "subtopic": "精算统计"},
+ {"q": "abs:mortality AND (abs:\"Lee-Carter\" OR abs:\"mortality forecasting\" OR abs:\"stochastic mortality\")", "subtopic": "精算统计（死亡率建模）"},
+ {"q": "abs:\"extreme value\" AND (ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview)", "subtopic": "极值统计"},
+ {"q": "(abs:\"extreme value theory\" OR abs:\"peaks over threshold\" OR abs:\"tail index\" OR abs:\"generalized Pareto\") AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "极值统计"},
+ {"q": "abs:copula AND (ti:review OR ti:survey OR ti:introduction OR ti:overview OR ti:tutorial)", "subtopic": "依赖建模与 copula"},
+ {"q": "abs:\"systemic risk\" AND (abs:CoVaR OR abs:\"tail dependence\" OR abs:\"extreme quantile\") AND (cat:q-fin.RM OR cat:econ.EM OR cat:stat.ME)", "subtopic": "系统性风险"},
+ {"q": "(abs:\"asset pricing\" AND abs:\"factor\") AND (abs:\"inference\" OR abs:\"test\") AND (cat:econ.EM OR cat:q-fin.ST)", "subtopic": "资产定价计量"},
+ {"q": "(abs:\"local projections\" OR abs:\"vector autoregression\" OR abs:\"structural VAR\") AND cat:econ.EM", "subtopic": "宏观计量（VAR/局部投影）"},
+ {"q": "(abs:\"forecast evaluation\" OR abs:\"density forecasts\" OR abs:\"quantile forecasts\") AND (cat:econ.EM OR cat:q-fin.RM OR cat:stat.ME)", "subtopic": "预测评估"}
+]

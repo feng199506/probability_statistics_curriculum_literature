@@ -1,0 +1,15 @@
+{
+ "id": "2510.25824",
+ "title": "The Ray Tracing Sampler: Bayesian Sampling of Neural Networks for Everyone",
+ "authors": [
+  "Peter Behroozi"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 2,
+ "latest_date": "2026-07-27",
+ "journal_ref": "",
+ "doi": "10.33232/001c.165932",
+ "comment": "34 pages, published in the Open Journal of Astrophysics",
+ "abstract": "We derive a family of Markov Chain Monte Carlo (MCMC) sampling methods based on following ray paths in a medium where the refractive index $n(x)$ is a function of the desired likelihood $\\mathcal{L}(x)$, extending past work on isokinetic sampling. The simplest ray tracing method propagates rays at constant speed through parameter space, leading to orders of magnitude higher resilience to heating for stochastic gradients as compared to both Hamiltonian Monte Carlo (HMC) and Stochastic Gradient HMC, as well as the ability to cross any likelihood barrier, including holes in parameter space. Using the simplest ray tracing method, we sample the posterior distributions of neural network outputs for a variety of different architectures, including a preliminary exploration of the 1.5 billion-parameter GPT-2 (Generative Pre-trained Transformer 2) architecture, all on a single consumer-level GPU. We also show that prior samplers including traditional HMC, the original microcanonical HMC, Metropolis, Gibbs, and even Monte Carlo integration are special cases within a generalized ray tracing framework, which can sample according to an arbitrary weighting function. Public code and documentation for C, JAX, and PyTorch are available at https://bitbucket.org/pbehroozi/ray-tracing-sampler/src",
+ "primary": "astro-ph.IM"
+}

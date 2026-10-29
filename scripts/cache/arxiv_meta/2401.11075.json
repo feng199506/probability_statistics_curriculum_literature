@@ -1,0 +1,17 @@
+{
+ "id": "2401.11075",
+ "title": "Estimating the Hawkes process from a discretely observed sample path",
+ "authors": [
+  "Feng Chen",
+  "Jeffrey Kwan",
+  "Tom Stindl"
+ ],
+ "v1_date": "2024-01-20",
+ "latest_version": 1,
+ "latest_date": "2024-01-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 page, 5 figures",
+ "abstract": "The Hawkes process is a widely used model in many areas, such as finance, seismology, neuroscience, epidemiology, and social sciences. Estimation of the Hawkes process from continuous observations of a sample path is relatively straightforward using either the maximum likelihood or other methods. However, estimating the parameters of a Hawkes process from observations of a sample path at discrete time points only is challenging due to the intractability of the likelihood with such data. In this work, we introduce a method to estimate the Hawkes process from a discretely observed sample path. The method takes advantage of a state-space representation of the incomplete data problem and use the sequential Monte Carlo (aka particle filtering) to approximate the likelihood function. As an estimator of the likelihood function the SMC approximation is unbiased, and therefore it can be used together with the Metropolis-Hastings algorithm to construct Markov Chains to approximate the likelihood distribution, or more generally, the posterior distribution of model parameters. The performance of the methodology is assessed using simulation experiments and compared with other recently published methods. The proposed estimator is found to have a smaller mean square error than the two benchmark estimators. The proposed method has the additional advantage that confidence intervals for the parameters are easily available. We apply the proposed estimator to the analysis of weekly count data on measles cases in Tokyo Japan and compare the results to those by one of the benchmark methods.",
+ "primary": "stat.ME"
+}

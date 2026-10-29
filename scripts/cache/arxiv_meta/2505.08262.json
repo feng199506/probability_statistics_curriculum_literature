@@ -1,0 +1,17 @@
+{
+ "id": "2505.08262",
+ "title": "Super-fast Rates of Convergence for Neural Network Classifiers under the Hard Margin Condition",
+ "authors": [
+  "Nathanael Tepakbong",
+  "Xiang Zhou",
+  "Ding-Xuan Zhou"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: Substantial revision of v1 with stronger results and improved exposition. Accepted for publication in Transactions on Machine Learning Research (TMLR)",
+ "abstract": "We study the classical binary classification problem for hypothesis spaces of Deep Neural Networks (DNNs) under Tsybakov's low-noise condition with exponent $q>0$, as well as its limit case $q=\\infty$, which we refer to as the \\emph{hard margin condition}. We demonstrate that, for a wide range of commonly used activation functions (including but not limited to ReLU, LeakyReLU, ELU, CELU, SELU, Softplus, GELU, SiLU, Swish, Mish, and Softmax), DNN solutions to the empirical risk minimization (ERM) problem with square loss surrogate and $\\ell_p$ penalty on the weights $(0<p<\\infty)$ can achieve excess risk bounds of order $\\mathcal{O}\\left(n^{-α}\\right)$ for $α$ close to $1$ under the low-noise condition, and for arbitrarily large $α>1$ under the hard-margin condition, provided that the Bayes regression function $η$ satisfies a \\emph{distribution-adapted smoothness} condition relative to the marginal data distribution $ρ_{X}$. Furthermore, when the activation function is chosen as $\\tanh$ or sigmoid, we show that the same rates follow from the standard assumption that $η\\in \\mathcal{C}^s$. Finally, we establish minimax lower bounds, showing that these rates cannot be improved upon whenever $q\\ge2$. Our proof relies on a novel decomposition of the excess risk for general ERM-based classifiers which might be of independent interest.",
+ "primary": "cs.LG"
+}

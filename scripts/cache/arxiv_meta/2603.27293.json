@@ -1,0 +1,18 @@
+{
+ "id": "2603.27293",
+ "title": "Bayesian factorization via $L_{1/2}$ shrinkage",
+ "authors": [
+  "Shicheng Liu",
+  "Qingping Zhou",
+  "Yanan Fan",
+  "Xiongwen Ke"
+ ],
+ "v1_date": "2026-03-28",
+ "latest_version": 1,
+ "latest_date": "2026-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Factor models are widely used for dimension reduction. Bayesian approaches to these models often place a prior on the factor loadings that allows for infinitely many factors, with loadings increasingly shrunk toward zero as the column index increases. However, existing increasing shrinkage priors often possess complex hierarchical structures that complicate posterior inference. To address this issue, we propose using an $L_{1/2}$ shrinkage prior. We demonstrate that by carefully setting the parameters in the hyper prior of its global shrinkage parameters, the increasing shrinkage property is preserved. Our prior specification is simple, facilitating the construction of an efficient Gibbs sampler for exact posterior inference. For faster computation, we also propose a variational approximation algorithm. Through numerical studies, we compare our approaches with current popular Bayesian methods for factor models, demonstrating their merits in terms of accuracy and computational efficiency.",
+ "primary": "stat.ME"
+}

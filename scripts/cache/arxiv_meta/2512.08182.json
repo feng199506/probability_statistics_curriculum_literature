@@ -1,0 +1,16 @@
+{
+ "id": "2512.08182",
+ "title": "Nonparametric inference with massive data via grouped empirical likelihood",
+ "authors": [
+  "Yongda Wang",
+  "Shifeng Xiong"
+ ],
+ "v1_date": "2025-12-09",
+ "latest_version": 1,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To address the computational issue in empirical likelihood methods with massive data, this paper proposes a grouped empirical likelihood (GEL) method. It divides $N$ observations into $n$ groups, and assigns the same probability weight to all observations within the same group. GEL estimates the $n\\ (\\ll N)$ weights by maximizing the empirical likelihood ratio. The dimensionality of the optimization problem is thus reduced from $N$ to $n$, thereby lowering the computational complexity. We prove that GEL possesses the same first order asymptotic properties as the conventional empirical likelihood method under the estimating equation settings and the classical two-sample mean problem. A distributed GEL method is also proposed with several servers. Numerical simulations and real data analysis demonstrate that GEL can keep the same inferential accuracy as the conventional empirical likelihood method, and achieves substantial computational acceleration compared to the divide-and-conquer empirical likelihood method. We can analyze a billion data with GEL in tens of seconds on only one PC.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "1703.06176",
+ "title": "Scalable methods for Bayesian selective inference",
+ "authors": [
+  "Snigdha Panigrahi",
+  "Jonathan Taylor"
+ ],
+ "v1_date": "2017-03-17",
+ "latest_version": 3,
+ "latest_date": "2017-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "48 pages, 6 figures",
+ "abstract": "Modeled along the truncated approach in Panigrahi (2016), selection-adjusted inference in a Bayesian regime is based on a selective posterior. Such a posterior is determined together by a generative model imposed on data and the selection event that enforces a truncation on the assumed law. The effective difference between the selective posterior and the usual Bayesian framework is reflected in the use of a truncated likelihood. The normalizer of the truncated law in the adjusted framework is the probability of the selection event; this is typically intractable and it leads to the computational bottleneck in sampling from such a posterior. The current work lays out a primal-dual approach of solving an approximating optimization problem to provide valid post-selective Bayesian inference. The selection procedures are posed as data-queries that solve a randomized version of a convex learning program which have the advantage of preserving more left-over information for inference. We propose a randomization scheme under which the optimization has separable constraints that result in a partially separable objective in lower dimensions for many commonly used selective queries to approximate the otherwise intractable selective posterior. We show that the approximating optimization under a Gaussian randomization gives a valid exponential rate of decay for the selection probability on a large deviation scale. We offer a primal-dual method to solve the optimization problem leading to an approximate posterior; this allows us to exploit the usual merits of a Bayesian machinery in both low and high dimensional regimes where the underlying signal is effectively sparse. We show that the adjusted estimates empirically demonstrate better frequentist properties in comparison to the unadjusted estimates based on the usual posterior, when applied to a wide range of constrained, convex data queries.",
+ "primary": "stat.ME"
+}

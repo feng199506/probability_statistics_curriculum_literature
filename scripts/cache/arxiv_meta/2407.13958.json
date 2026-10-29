@@ -1,0 +1,17 @@
+{
+ "id": "2407.13958",
+ "title": "Fast and flexible inference for spatial extremes",
+ "authors": [
+  "Peng Zhong",
+  "Scott A. Sisson",
+  "Boris Beranger"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 5,
+ "latest_date": "2025-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Statistical modelling of spatial extreme events has gained increasing attention over the last few decades with max-stable processes, and more recently $r$-Pareto processes, becoming the reference tools for the statistical analysis of asymptotically dependent data. Although inference for r-Pareto processes is easier than for max-stable processes, there remain major hurdles for their application to high dimensional datasets within a reasonable timeframe. In addition, both approaches have almost exclusively focused on the Brown-Resnick model, for its Gaussian foundations, and for the continuity of its exponent measure. In this paper, we derive a class of models for which this continuity property holds and present the skewed Brown-Resnick model, an extension of the Brown-Resnick that allows for non-stationarity in the dependence structure, and the truncated extremal-t model, a refinement of the well-known extremal-$t$ model. We use an inference methodology based on the intensity function of the process which is derived from the exponent measure, and demonstrate the statistical and computational efficiency of this approach. Applications to two real-world problems illustrate valuable gains in modelling flexibility as well as appealing computational gains over reference methodologies.",
+ "primary": "stat.ME"
+}

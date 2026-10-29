@@ -1,0 +1,16 @@
+{
+ "id": "2410.08488",
+ "title": "Fractional binomial regression model for count data with excess zeros",
+ "authors": [
+  "Jeonghwa Lee",
+  "Chloe Breece"
+ ],
+ "v1_date": "2024-10-11",
+ "latest_version": 3,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a new generalized linear model with the fractional binomial distribution. Zero-inflated Poisson/negative binomial distributions are used for count data with many zeros. To analyze the association of such a count variable with covariates, zero-inflated Poisson/negative binomial regression models are widely used. In this work, we develop a regression model with the fractional binomial distribution that can serve as an additional tool for modeling the count response variable with covariates. The consistency of maximum likelihood estimators of the proposed model is investigated theoretically and empirically with simulations. The practicality of the proposed model is examined through data analysis. The results show that our model is as versatile as or more versatile than the existing zero-inflated models, and especially, it has a better fit with left-skewed discrete data than other models. However, the proposed model faces computational obstacles and will require more work in the future to implement this model on various count data with excess zeros.",
+ "primary": "stat.ME"
+}

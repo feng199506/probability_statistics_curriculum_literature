@@ -1,0 +1,15 @@
+{
+ "id": "2504.09573",
+ "title": "A grid-based methodology for fast online changepoint detection",
+ "authors": [
+  "Per August Jarval Moen"
+ ],
+ "v1_date": "2025-04-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a grid-based methodology for online changepoint detection that allows offline changepoint tests to be applied to sequentially observed data. The methodology achieves low update and storage costs by testing for changepoints over a dynamically updating grid of candidate changepoint locations. For a broad class of test statistics, including those based on empirical averages and certain likelihood ratios, we show that the resulting online procedure has update and storage costs that grow at most logarithmically with the sample size. We further show that finite-sample power guarantees for the offline test translate directly into non-asymptotic upper bounds on the detection delay, under a mild robustness assumption. Building upon the methodology, we construct methods for detecting changes in the mean and in the covariance matrix of multivariate data, and prove near-optimal non-asymptotic upper bounds on their detection delays. The effectiveness of the methodology is supported by a simulation study, where we compare its performance for detecting mean changes with that of state-of-the-art online methods. To illustrate its practical applicability, we use the methodology to detect structural changes in currency exchange rates in real time.",
+ "primary": "stat.ME"
+}

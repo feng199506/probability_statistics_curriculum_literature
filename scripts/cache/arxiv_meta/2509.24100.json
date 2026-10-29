@@ -1,0 +1,19 @@
+{
+ "id": "2509.24100",
+ "title": "SpeedCP: Fast Kernel-based Conditional Conformal Prediction",
+ "authors": [
+  "Yating Liu",
+  "Yeo Jin Jung",
+  "Zixuan Wu",
+  "So Won Jeong",
+  "Claire Donnat"
+ ],
+ "v1_date": "2025-09-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal prediction provides distribution-free prediction sets with finite-sample conditional guarantees. We build upon the RKHS-based framework of Gibbs et al. (2023), which leverages families of covariate shifts to provide approximate conditional conformal prediction intervals, an approach with strong theoretical promise, but with prohibitive computational cost. To bridge this gap, we develop a stable and efficient algorithm that computes the full solution path of the regularized RKHS conformal optimization problem, at essentially the same cost as a single kernel quantile fit. Our path-tracing framework simultaneously tunes hyperparameters, providing smoothness control and data-adaptive calibration. To extend the method to high-dimensional settings, we further integrate our approach with low-rank latent embeddings that capture conditional validity in a data-driven latent space. Empirically, our method provides reliable conditional coverage across a variety of modern black-box predictors, improving the interval length of Gibbs et al. (2023) by 30%, while achieving a 40-fold speedup.",
+ "primary": "stat.ME"
+}

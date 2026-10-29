@@ -1,0 +1,16 @@
+{
+ "id": "2408.03682",
+ "title": "Automated Techniques for Efficient Sampling of Piecewise-Deterministic Markov Processes",
+ "authors": [
+  "Charly Andral",
+  "Kengo Kamatani"
+ ],
+ "v1_date": "2024-08-07",
+ "latest_version": 1,
+ "latest_date": "2024-08-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Piecewise deterministic Markov processes (PDMPs) are a class of continuous-time Markov processes that were recently used to develop a new class of Markov chain Monte Carlo algorithms. However, the implementation of the processes is challenging due to the continuous-time aspect and the necessity of integrating the rate function. Recently, Corbella, Spencer, and Roberts (2022) proposed a new algorithm to automate the implementation of the Zig-Zag sampler. However, the efficiency of the algorithm highly depends on a hyperparameter ($t_{\\text{max}}$) that is fixed all along the run of the algorithm and needs preliminary runs to tune. In this work, we relax this assumption and propose a new variant of their algorithm that let this parameter change over time and automatically adapt to the target distribution. We also replace the Brent optimization algorithm by a grid-based method to compute the upper bound of the rate function. This method is more robust to the regularity of the function and gives a tighter upper bound while being quicker to compute. We also extend the algorithm to other PDMPs and provide a Python implementation of the algorithm based on JAX.",
+ "primary": "stat.CO"
+}

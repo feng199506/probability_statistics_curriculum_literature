@@ -1,0 +1,17 @@
+{
+ "id": "2508.18034",
+ "title": "Assessing the conditional calibration of interval forecasts using decompositions of the interval score",
+ "authors": [
+  "Sam Allen",
+  "Julia Burnello",
+  "Johanna Ziegel"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 1,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Forecasts for uncertain future events should be probabilistic. Probabilistic forecasts are commonly issued as prediction intervals, which provide a measure of uncertainty in the unknown outcome whilst being easier to understand and communicate than full predictive distributions. The calibration of a $(1 - α)$-level prediction interval can be assessed by checking whether the probability that the outcome falls within the interval is equal to $1 - α$. However, such coverage checks are typically unconditional and therefore relatively weak. Although this is well known, there is a lack of methods to assess the conditional calibration of interval forecasts. In this work, we demonstrate how this can be achieved via decompositions of the well-known interval (or Winkler) score. We study notions of calibration for interval forecasts and then introduce a decomposition of the interval score based on isotonic distributional regression. This decomposition exhibits many desirable properties, both in theory and in practice, which allows users to accurately assess the conditional calibration of interval forecasts. This is illustrated on simulated data and in three applications to benchmark regression datasets.",
+ "primary": "stat.ME"
+}

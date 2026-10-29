@@ -1,0 +1,16 @@
+{
+ "id": "2412.02014",
+ "title": "Dynamic Prediction of High-density Generalized Functional Data with Fast Generalized Functional Principal Component Analysis",
+ "authors": [
+  "Ying Jin",
+  "Andrew Leroux"
+ ],
+ "v1_date": "2024-12-02",
+ "latest_version": 1,
+ "latest_date": "2024-12-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dynamic prediction, which typically refers to the prediction of future outcomes using historical records, is often of interest in biomedical research. For datasets with large sample sizes, high measurement density, and complex correlation structures, traditional methods are often infeasible because of the computational burden associated with both data scale and model complexity. Moreover, many models do not directly facilitate out-of-sample predictions for generalized outcomes. To address these issues, we develop a novel approach for dynamic predictions based on a recently developed method estimating complex patterns of variation for exponential family data: fast Generalized Functional Principal Components Analysis (fGFPCA). Our method is able to handle large-scale, high-density repeated measures much more efficiently with its implementation feasible even on personal computational resources (e.g., a standard desktop or laptop computer). The proposed method makes highly flexible and accurate predictions of future trajectories for data that exhibit high degrees of nonlinearity, and allows for out-of-sample predictions to be obtained without reestimating any parameters. A simulation study is designed and implemented to illustrate the advantages of this method. To demonstrate its practical utility, we also conducted a case study to predict diurnal active/inactive patterns using accelerometry data from the National Health and Nutrition Examination Survey (NHANES) 2011-2014. Both the simulation study and the data application demonstrate the better predictive performance and high computational efficiency of the proposed method compared to existing methods. The proposed method also obtains more personalized prediction that improves as more information becomes available, which is an essential goal of dynamic prediction that other methods fail to achieve.",
+ "primary": "stat.ME"
+}

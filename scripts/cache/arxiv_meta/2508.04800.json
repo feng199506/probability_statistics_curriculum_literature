@@ -1,0 +1,16 @@
+{
+ "id": "2508.04800",
+ "title": "Differentially Private Model-X Knockoffs via Johnson-Lindenstrauss Transform",
+ "authors": [
+  "Yuxuan Tao",
+  "Adel Javanmard"
+ ],
+ "v1_date": "2025-08-06",
+ "latest_version": 2,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "69 pages, 9 figures, Accepted at the Electronic Journal of Statistics (EJS)",
+ "abstract": "We introduce a novel privatization framework for high-dimensional controlled variable selection. Our framework enables rigorous False Discovery Rate (FDR) control under differential privacy constraints. While the Model-X knockoff procedure provides FDR guarantees by constructing provably exchangeable ``negative control\" features, existing privacy mechanisms like Gaussian noise injection disrupt its core exchangeability conditions. In this work we consider privatizing the data knockoff matrix through Johnson--Lindenstrauss Transform (JLT), a dimension reduction technique that simultaneously preserves covariate relationships through approximate isometry for $(ε,δ)$-differential privacy. We theoretically characterize both FDR and the power of the proposed private variable selection procedure asymptotically. Our theoretical analysis characterizes the role of different factors, such as the privacy parameters, sample size, and feature dimension, in shaping the privacy-power trade-off. Our analysis is based on a novel `debiasing technique' for high-dimensional private knockoff procedure. We further establish sufficient conditions under which the power of the proposed procedure converges to one. This work bridges two critical paradigms---knockoff-based FDR control and private data release. Our analysis demonstrates that structural privacy preservation through random projections outperforms the classical noise addition mechanism, maintaining statistical power even under strict privacy budgets.",
+ "primary": "stat.ML"
+}

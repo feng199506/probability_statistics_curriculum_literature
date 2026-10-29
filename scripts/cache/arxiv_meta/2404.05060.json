@@ -1,0 +1,17 @@
+{
+ "id": "2404.05060",
+ "title": "Dir-SPGLM: A Bayesian semiparametric GLM with data-driven reference distribution",
+ "authors": [
+  "Entejar Alam",
+  "Peter Müller",
+  "Paul J. Rathouz"
+ ],
+ "v1_date": "2024-04-07",
+ "latest_version": 1,
+ "latest_date": "2024-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The recently developed semi-parametric generalized linear model (SPGLM) offers more flexibility as compared to the classical GLM by including the baseline or reference distribution of the response as an additional parameter in the model. However, some inference summaries are not easily generated under existing maximum-likelihood based inference (ML-SPGLM). This includes uncertainty in estimation for model-derived functionals such as exceedance probabilities. The latter are critical in a clinical diagnostic or decision-making setting. In this article, by placing a Dirichlet prior on the baseline distribution, we propose a Bayesian model-based approach for inference to address these important gaps. We establish consistency and asymptotic normality results for the implied canonical parameter. Simulation studies and an illustration with data from an aging research study confirm that the proposed method performs comparably or better in comparison with ML-SPGLM. The proposed Bayesian framework is most attractive for inference with small sample training data or in sparse-data scenarios.",
+ "primary": "stat.ME"
+}

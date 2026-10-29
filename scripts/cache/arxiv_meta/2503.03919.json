@@ -1,0 +1,17 @@
+{
+ "id": "2503.03919",
+ "title": "Joint modeling of longitudinal HRQoL data accounting for the risk of competing dropouts",
+ "authors": [
+  "Hortense Doms",
+  "Philippe Lambert",
+  "Catherine Legrand"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 1,
+ "latest_date": "2025-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 4 figures (including 2 grouped in the .tex)",
+ "abstract": "In cancer clinical trials, health-related quality of life (HRQoL) is an important endpoint, providing information about patients' well-being and daily functioning. However, missing data due to premature dropout can lead to biased estimates, especially when dropouts are informative. This paper introduces the extJMIRT approach, a novel tool that efficiently analyzes multiple longitudinal ordinal categorical data while addressing informative dropout. Within a joint modeling framework, this approach connects a latent variable, derived from HRQoL data, to cause-specific hazards of dropout. Unlike traditional joint models, which treat longitudinal data as a covariate in the survival submodel, our approach prioritizes the longitudinal data and incorporates the log baseline dropout risks as covariates in the latent process. This leads to a more accurate analysis of longitudinal data, accounting for potential effects of dropout risks. Through extensive simulation studies, we demonstrate that extJMIRT provides robust and unbiased parameter estimates and highlight the importance of accounting for informative dropout. We also apply this methodology to HRQoL data from patients with progressive glioblastoma, showcasing its practical utility.",
+ "primary": "stat.AP"
+}

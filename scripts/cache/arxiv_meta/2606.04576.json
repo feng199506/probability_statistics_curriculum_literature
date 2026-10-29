@@ -1,0 +1,17 @@
+{
+ "id": "2606.04576",
+ "title": "ReSGA: A Large Tail Risk Model for Learning Value-at-Risk and Expected Shortfall",
+ "authors": [
+  "Yichi Zhang",
+  "Ke Zhu",
+  "Zhoufan Zhu"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Learning Value-at-Risk (VaR) and Expected Shortfall (ES) is important for managing financial risks effectively. Existing approaches with limited parameters are vulnerable to model misspecification in the era of big data. To address this limitation, we propose a large tail risk model, the retrieval-enhanced self-grouping autoencoder (ReSGA), which is designed with millions of parameters to exploit the rich cross-sectional dependence and long-term temporal dynamics of assets using their characteristics. Applied to monthly US equity returns from 1926 to 2023 with 153 firm characteristics, ReSGA outperforms twelve econometric and machine learning competitors in terms of out-of-sample loss and statistical backtesting. In addition, its forecast advantages can translate into significant economic gains from long-short decile portfolios that are constructed by a new size-enhanced left-side momentum strategy. To clarify the role of complexity, we further conduct a systematic scaling analysis and demonstrate that improvements in joint VaR-ES forecasting are primarily driven by data complexity rather than model complexity. Finally, our analyses of group-importance and transfer-learning exhibit the interpretability and cross-market generalizability of ReSGA.",
+ "primary": "stat.ML"
+}

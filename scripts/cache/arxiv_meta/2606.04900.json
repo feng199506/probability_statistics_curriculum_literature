@@ -1,0 +1,18 @@
+{
+ "id": "2606.04900",
+ "title": "Multi-objective probabilistic forecast combination for inventory demand",
+ "authors": [
+  "Shengjie Wang",
+  "Yanfei Kang",
+  "Evangelos Spiliotis",
+  "Fotios Petropoulos"
+ ],
+ "v1_date": "2026-06-03",
+ "latest_version": 1,
+ "latest_date": "2026-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Probabilistic forecasts are essential for inventory management, where decisions depend on the full distribution of future demand. While probabilistic forecast combination is widely used to improve statistical accuracy, most existing approaches optimize statistical loss alone and overlook operational objectives. However, in inventory settings, higher forecast accuracy does not necessarily translate into better decision performance, especially under nonlinear cost structures and multiple, potentially conflicting, decision targets. To address this gap, we propose a multi-objective probabilistic forecast combination framework that simultaneously considers forecast accuracy and inventory decision performance. The framework formulates forecast combination as a multi-objective optimization problem and derives a set of Pareto-optimal combinations, enabling explicit trade-offs between forecasting and operational goals. Empirical studies using Walmart retail data and Royal Air Force spare parts data demonstrate that the proposed approach achieves more balanced and robust performance than individual models, simple averaging, and single-objective optimization. Our results provide a practical and flexible framework for aligning probabilistic forecasting with inventory decision-making.",
+ "primary": "stat.AP"
+}

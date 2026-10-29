@@ -1,0 +1,18 @@
+{
+ "id": "2505.09949",
+ "title": "Advanced Crash Causation Analysis for Freeway Safety: A Large Language Model Approach to Identifying Key Contributing Factors",
+ "authors": [
+  "Ahmed S. Abdelrahman",
+  "Mohamed Abdel-Aty",
+  "Samgyu Yang",
+  "Abdulrahman Faden"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 1,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Understanding the factors contributing to traffic crashes and developing strategies to mitigate their severity is essential. Traditional statistical methods and machine learning models often struggle to capture the complex interactions between various factors and the unique characteristics of each crash. This research leverages large language model (LLM) to analyze freeway crash data and provide crash causation analysis accordingly. By compiling 226 traffic safety studies related to freeway crashes, a training dataset encompassing environmental, driver, traffic, and geometric design factors was created. The Llama3 8B model was fine-tuned using QLoRA to enhance its understanding of freeway crashes and their contributing factors, as covered in these studies. The fine-tuned Llama3 8B model was then used to identify crash causation without pre-labeled data through zero-shot classification, providing comprehensive explanations to ensure that the identified causes were reasonable and aligned with existing research. Results demonstrate that LLMs effectively identify primary crash causes such as alcohol-impaired driving, speeding, aggressive driving, and driver inattention. Incorporating event data, such as road maintenance, offers more profound insights. The model's practical applicability and potential to improve traffic safety measures were validated by a high level of agreement among researchers in the field of traffic safety, as reflected in questionnaire results with 88.89%. This research highlights the complex nature of traffic crashes and how LLMs can be used for comprehensive analysis of crash causation and other contributing factors. Moreover, it provides valuable insights and potential countermeasures to aid planners and policymakers in developing more effective and efficient traffic safety practices.",
+ "primary": "cs.LG"
+}

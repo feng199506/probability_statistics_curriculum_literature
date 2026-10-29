@@ -1,0 +1,16 @@
+{
+ "id": "2501.14570",
+ "title": "coverforest: Conformal Predictions with Random Forest in Python",
+ "authors": [
+  "Panisara Meehinkong",
+  "Donlapark Ponnoprat"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 3,
+ "latest_date": "2025-12-31",
+ "journal_ref": "Neurocomputing. 668, (Mar. 2026), 132362",
+ "doi": "10.1016/j.neucom.2025.132362",
+ "comment": "Published in Neurocomputing. Code available at https://github.com/donlap/coverforest",
+ "abstract": "Conformal prediction provides a framework for uncertainty quantification, specifically in the forms of prediction intervals and sets with distribution-free guaranteed coverage. While recent cross-conformal techniques such as CV+ and Jackknife+-after-bootstrap achieve better data efficiency than traditional split conformal methods, they incur substantial computational costs due to required pairwise comparisons between training and test samples' out-of-bag scores. Observing that these methods naturally extend from ensemble models, particularly random forests, we leverage existing optimized random forest implementations to enable efficient cross-conformal predictions. We present coverforest, a Python package that implements efficient conformal prediction methods specifically optimized for random forests. coverforest supports both regression and classification tasks through various conformal prediction methods, including split conformal, CV+, Jackknife+-after-bootstrap, and adaptive prediction sets. Our package leverages parallel computing and Cython optimizations to speed up out-of-bag calculations. Our experiments demonstrate that coverforest's predictions achieve the desired level of coverage. In addition, its training and prediction times can be faster than an existing implementation by 2--9 times. The source code for the coverforest is hosted on GitHub at https://github.com/donlap/coverforest.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2511.06153",
+ "title": "Topologically Invariant Permutation Test",
+ "authors": [
+  "Sixtus Dakurah"
+ ],
+ "v1_date": "2025-11-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 8 figures, 3 tables",
+ "abstract": "Functional brain networks exhibit topological structures that reflect neural organization; however, statistical comparison of these networks is challenging for several reasons. This paper introduces a topologically invariant permutation test for detecting topological inequivalence. Under topological equivalence, topological features can be permuted separately between groups without distorting individual network structures. The test statistic uses $2$-Wasserstein distances on persistent diagrams, computed in closed form. To reduce variability in brain connectivities while preserving topology, heat kernel expansion on the Hodge Laplacian is applied with bandwidth $t$ controlling diffusion intensity. Theoretical results guarantee variance reduction through optimal Hilbert space projection. Simulations across diverse network topologies show superior performance compared to conventional two-sample tests and alternative metrics. Applied to resting-state fMRI data from the Multimodal Treatment of ADHD study, the method detects significant topological differences between cannabis users and non-users.",
+ "primary": "q-bio.NC"
+}

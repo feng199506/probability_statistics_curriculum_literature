@@ -1,0 +1,16 @@
+{
+ "id": "2502.16574",
+ "title": "Regularized zero-inflated Bernoulli regression model",
+ "authors": [
+  "Mouhamed Ndoye",
+  "Aba Diop"
+ ],
+ "v1_date": "2025-02-23",
+ "latest_version": 1,
+ "latest_date": "2025-02-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Logistic regression model is widely used in many studies to investigate the relationship between a binary response variable Y and a set of potential predictors $X_1,\\ldots, X_p$ (for example: $Y = 1$ if the outcome occurred and $Y = 0$ otherwise). One problem arising then is that, a proportion of the study subjects cannot experience the outcome of interest. This leads to an excessive presence of zeros in the study sample. This article is interested in estimating parameters of the zero-inflated Bernouilli regression model in a high-dimensional setting, i.e. with a large number of regressors. We use particulary Ridge regression and the Lasso which are typically achieved by constraining the weights of the model. and are useful when the number of predictors is much bigger than the number of observations. We establish the existency, consistency and asymptotic normality of the proposed regularized estimator. Then, we conduct a simulation study to investigate its finite-sample behavior, and application to real data.",
+ "primary": "stat.ME"
+}

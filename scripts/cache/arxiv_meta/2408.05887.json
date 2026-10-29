@@ -1,0 +1,16 @@
+{
+ "id": "2408.05887",
+ "title": "Statistically Optimal Uncertainty Quantification for Expensive Black-Box Models",
+ "authors": [
+  "Shengyi He",
+  "Henry Lam"
+ ],
+ "v1_date": "2024-08-12",
+ "latest_version": 1,
+ "latest_date": "2024-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Uncertainty quantification, by means of confidence interval (CI) construction, has been a fundamental problem in statistics and also important in risk-aware decision-making. In this paper, we revisit the basic problem of CI construction, but in the setting of expensive black-box models. This means we are confined to using a low number of model runs, and without the ability to obtain auxiliary model information such as gradients. In this case, there exist classical methods based on data splitting, and newer methods based on suitable resampling. However, while all these resulting CIs have similarly accurate coverage in large sample, their efficiencies in terms of interval length differ, and a systematic understanding of which method and configuration attains the shortest interval appears open. Motivated by this, we create a theoretical framework to study the statistical optimality on CI tightness under computation constraint. Our theory shows that standard batching, but also carefully constructed new formulas using uneven-size or overlapping batches, batched jackknife, and the so-called cheap bootstrap and its weighted generalizations, are statistically optimal. Our developments build on a new bridge of the classical notion of uniformly most accurate unbiasedness with batching and resampling, by viewing model runs as asymptotically Gaussian \"data\", as well as a suitable notion of homogeneity for CIs.",
+ "primary": "stat.ME"
+}

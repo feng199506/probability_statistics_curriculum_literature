@@ -1,0 +1,19 @@
+{
+ "id": "2501.14837",
+ "title": "A Semiparametric Bayesian Method for Instrumental Variable Analysis with Partly Interval-Censored Time-to-Event Outcome",
+ "authors": [
+  "Elvis Han Cui",
+  "Xuyang Lu",
+  "Jin Zhou",
+  "Hua Zhou",
+  "Gang Li"
+ ],
+ "v1_date": "2025-01-23",
+ "latest_version": 1,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a semiparametric Bayesian instrumental variable analysis method for estimating the causal effect of an endogenous variable when dealing with unobserved confounders and measurement errors with partly interval-censored time-to-event data, where event times are observed exactly for some subjects but left-censored, right-censored, or interval-censored for others. Our method is based on a two-stage Dirichlet process mixture instrumental variable (DPMIV) model which simultaneously models the first-stage random error term for the exposure variable and the second-stage random error term for the time-to-event outcome using a bivariate Gaussian mixture of the Dirichlet process (DPM) model. The DPM model can be broadly understood as a mixture model with an unspecified number of Gaussian components, which relaxes the normal error assumptions and allows the number of mixture components to be determined by the data. We develop an MCMC algorithm for the DPMIV model tailored for partly interval-censored data and conduct extensive simulations to assess the performance of our DPMIV method in comparison with some competing methods. Our simulations revealed that our proposed method is robust under different error distributions and can have superior performance over its parametric counterpart under various scenarios. We further demonstrate the effectiveness of our approach on an UK Biobank data to investigate the causal effect of systolic blood pressure on time-to-development of cardiovascular disease from the onset of diabetes mellitus.",
+ "primary": "stat.ME"
+}

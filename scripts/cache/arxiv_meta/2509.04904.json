@@ -1,0 +1,18 @@
+{
+ "id": "2509.04904",
+ "title": "An information metric for comparing and assessing informative interim decisions in sequential clinical trials",
+ "authors": [
+  "G. Caruso",
+  "W. F. Rosenberger",
+  "P. Mozgunov",
+  "N. Flournoy"
+ ],
+ "v1_date": "2025-09-05",
+ "latest_version": 3,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Group sequential designs enable interim analyses and potential early stopping for efficacy or futility. While these adaptations improve trial efficiency and ethical considerations, they also introduce bias into the adapted analyses. We demonstrate how failing to account for informative interim decisions in the analysis can substantially affect posterior estimates of the treatment effect, often resulting in overly optimistic credible intervals aligned with the stopping decision. Drawing on information theory, we use the Kullback-Leibler divergence to quantify this distortion and highlight its use for post-hoc evaluation of informative interim decisions, with a focus on end-of-study inference. Unlike pointwise comparisons, this measure provides an integrated summary of this distortion on the whole parameter space. By comparing alternative decision boundaries and prior specifications, we illustrate how this measure can improve the understanding of trial results and inform the planning of future adaptive studies. We also introduce an expected version of this metric to support clinicians in choosing decision boundaries. This guidance complements traditional strategies based on type-I error rate control by offering insights into the distortion introduced to the treatment effect at each interim phase. The use of this pre-experimental measure is finally illustrated in a group sequential trial for evaluating a treatment for central nervous system disorders.",
+ "primary": "stat.ME"
+}

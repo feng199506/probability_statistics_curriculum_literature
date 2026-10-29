@@ -1,0 +1,15 @@
+{
+ "id": "2508.15016",
+ "title": "Untangling Sample and Population Level Estimands in Bayesian Causal Computation",
+ "authors": [
+  "Arman Oganisian"
+ ],
+ "v1_date": "2025-08-20",
+ "latest_version": 3,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model-based Bayesian inference for sample and population-level causal estimands has been growing in popularity. This literature routinely emphasizes clear specification of the target estimand, however blind implementation of standard computational procedures may implicitly target estimands that differ from the one specified at the outset. This sometimes leads to unwitting conflation of sample and population-level inference. In this paper, we elucidate the differences between sample and population-level inference with respect to identification, modeling, computation, and interpretation. For example, common sample-level estimands require cross-world Bayesian modeling, whereas many (but not all) population-level estimands do not. Similarly, the former requires explicit MCMC sampling of counterfactuals from their joint posterior, whereas the latter typically only requires a posterior distribution over parameters and, perhaps, post-hoc Monte Carlo approximations. We explore these issues across four examples, including with Bayesian nonparametric models, in which ostensibly similar Bayesian computational procedures yield posterior draws of fundamentally different estimands, leading to incorrect inferences. We end with a discussion of common mistakes and factors to consider when choosing an estimand.",
+ "primary": "stat.ME"
+}

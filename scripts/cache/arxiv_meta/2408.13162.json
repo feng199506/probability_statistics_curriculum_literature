@@ -1,0 +1,16 @@
+{
+ "id": "2408.13162",
+ "title": "A latent space model for multivariate count data time series analysis",
+ "authors": [
+  "Hardeep Kaur",
+  "Riccardo Rastelli"
+ ],
+ "v1_date": "2024-08-23",
+ "latest_version": 1,
+ "latest_date": "2024-08-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 21 figures, 6 tables",
+ "abstract": "Motivated by a dataset of burglaries in Chicago, USA, we introduce a novel framework to analyze time series of count data combining common multivariate time series models with latent position network models. This novel methodology allows us to gain a new latent variable perspective on the crime dataset that we consider, allowing us to disentangle and explain the complex patterns exhibited by the data, while providing a natural time series framework that can be used to make future predictions. Our model is underpinned by two well known statistical approaches: a log-linear vector autoregressive model, which is prominent in the literature on multivariate count time series, and a latent projection model, which is a popular latent variable model for networks. The role of the projection model is to characterize the interaction parameters of the vector autoregressive model, thus uncovering the underlying network that is associated with the pairwise relationships between the time series. Estimation and inferential procedures are performed using an optimization algorithm and a Hamiltonian Monte Carlo procedure for efficient Bayesian inference. We also include a simulation study to illustrate the merits of our methodology in recovering consistent parameter estimates, and in making accurate future predictions for the time series. As we demonstrate in our application to the crime dataset, this new methodology can provide very meaningful model-based interpretations of the data, and it can be generalized to other time series contexts and applications.",
+ "primary": "stat.ME"
+}

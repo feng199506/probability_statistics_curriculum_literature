@@ -1,0 +1,16 @@
+{
+ "id": "2605.02253",
+ "title": "Simultaneous Inference for Nonlinear Time Series, a Sieve M-regression Approach",
+ "authors": [
+  "Tianpai Luo",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2026-05-04",
+ "latest_version": 1,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies simultaneous inference of conditional distributions in nonlinear time series from a sieve M-regression perspective. Existing literature on sieve M-regression has primarily focused on pointwise asymptotics, leaving the development of uncertainty quantification over the entire predictor space unexplored. We address this gap by establishing a uniform Bahadur representation for the sieve M-estimator, accommodating dependent data and a growing number of sieve basis functions. A novel high-dimensional empirical process theory is developed for temporally dependent data, and a specifically designed M-decomposition method is utilized to control high-dimensional complexities. Building on this representation, we develop a convex Gaussian approximation to characterize the asymptotic behavior of the estimator and construct valid simultaneous confidence regions (SCRs). To facilitate practical implementation, we introduce a self-convolved bootstrap algorithm that accurately approximates the distribution of the maximal deviation. Our inferential framework is supported by rigorous error bounds and validated through numerical simulations and real data applications.",
+ "primary": "math.ST"
+}

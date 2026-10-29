@@ -1,0 +1,23 @@
+{
+ "id": "2402.04298",
+ "title": "Multi-View Symbolic Regression",
+ "authors": [
+  "Etienne Russeil",
+  "Fabrício Olivetti de França",
+  "Konstantin Malanchev",
+  "Bogdan Burlacu",
+  "Emille E. O. Ishida",
+  "Marion Leroux",
+  "Clément Michelin",
+  "Guillaume Moinard",
+  "Emmanuel Gangler"
+ ],
+ "v1_date": "2024-02-06",
+ "latest_version": 4,
+ "latest_date": "2024-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Published in GECCO-2024. 11 pages, 5 figures",
+ "abstract": "Symbolic regression (SR) searches for analytical expressions representing the relationship between a set of explanatory and response variables. Current SR methods assume a single dataset extracted from a single experiment. Nevertheless, frequently, the researcher is confronted with multiple sets of results obtained from experiments conducted with different setups. Traditional SR methods may fail to find the underlying expression since the parameters of each experiment can be different. In this work we present Multi-View Symbolic Regression (MvSR), which takes into account multiple datasets simultaneously, mimicking experimental environments, and outputs a general parametric solution. This approach fits the evaluated expression to each independent dataset and returns a parametric family of functions f(x; theta) simultaneously capable of accurately fitting all datasets. We demonstrate the effectiveness of MvSR using data generated from known expressions, as well as real-world data from astronomy, chemistry and economy, for which an a priori analytical expression is not available. Results show that MvSR obtains the correct expression more frequently and is robust to hyperparameters change. In real-world data, it is able to grasp the group behavior, recovering known expressions from the literature as well as promising alternatives, thus enabling the use of SR to a large range of experimental scenarios.",
+ "primary": "cs.LG"
+}

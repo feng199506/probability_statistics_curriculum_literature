@@ -1,0 +1,17 @@
+{
+ "id": "2412.09804",
+ "title": "Unified optimal model averaging with a general loss function based on cross-validation",
+ "authors": [
+  "Dalei Yu",
+  "Xinyu Zhang",
+  "Hua Liang"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 1,
+ "latest_date": "2024-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Studying unified model averaging estimation for situations with complicated data structures, we propose a novel model averaging method based on cross-validation (MACV). MACV unifies a large class of new and existing model averaging estimators and covers a very general class of loss functions. Furthermore, to reduce the computational burden caused by the conventional leave-subject/one-out cross validation, we propose a SEcond-order-Approximated Leave-one/subject-out (SEAL) cross validation, which largely improves the computation efficiency. In the context of non-independent and non-identically distributed random variables, we establish the unified theory for analyzing the asymptotic behaviors of the proposed MACV and SEAL methods, where the number of candidate models is allowed to diverge with sample size. To demonstrate the breadth of the proposed methodology, we exemplify four optimal model averaging estimators under four important situations, i.e., longitudinal data with discrete responses, within-cluster correlation structure modeling, conditional prediction in spatial data, and quantile regression with a potential correlation structure. We conduct extensive simulation studies and analyze real-data examples to illustrate the advantages of the proposed methods.",
+ "primary": "stat.ME"
+}

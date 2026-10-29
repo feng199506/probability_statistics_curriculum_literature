@@ -1,0 +1,17 @@
+{
+ "id": "2404.19700",
+ "title": "Comparing Multivariate Distributions: A Novel Approach Using Optimal Transport-based Plots",
+ "authors": [
+  "Sibsankar Singha",
+  "Marie Kratz",
+  "Sreekar Vadlamani"
+ ],
+ "v1_date": "2024-04-30",
+ "latest_version": 1,
+ "latest_date": "2024-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "45 pages, 21 figures",
+ "abstract": "Quantile-Quantile (Q-Q) plots are widely used for assessing the distributional similarity between two datasets. Traditionally, Q-Q plots are constructed for univariate distributions, making them less effective in capturing complex dependencies present in multivariate data. In this paper, we propose a novel approach for constructing multivariate Q-Q plots, which extend the traditional Q-Q plot methodology to handle high-dimensional data. Our approach utilizes optimal transport (OT) and entropy-regularized optimal transport (EOT) to align the empirical quantiles of the two datasets. Additionally, we introduce another technique based on OT and EOT potentials which can effectively compare two multivariate datasets. Through extensive simulations and real data examples, we demonstrate the effectiveness of our proposed approach in capturing multivariate dependencies and identifying distributional differences such as tail behaviour. We also propose two test statistics based on the Q-Q and potential plots to compare two distributions rigorously.",
+ "primary": "stat.ME"
+}

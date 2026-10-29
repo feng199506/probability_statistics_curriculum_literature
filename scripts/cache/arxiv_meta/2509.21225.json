@@ -1,0 +1,17 @@
+{
+ "id": "2509.21225",
+ "title": "A Latent Variable Framework for Multiple Imputation with Non-ignorable Missingness: Analyzing Perceptions of Social Justice in Europe",
+ "authors": [
+  "Siliang Zhang",
+  "Yunxiao Chen",
+  "Jouni Kuha"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a general multiple imputation approach for analyzing large-scale data with missing values. An imputation model is derived from a joint distribution induced by a latent variable model, which can flexibly capture associations among variables of mixed types. The model also allows for missingness which depends on the latent variables and is thus non-ignorable with respect to the observed data. We develop a frequentist multiple imputation method for this framework and provide asymptotic theory that establishes valid inference for a broad class of analysis models. Simulation studies confirm the method's theoretical properties and robust practical performance. The procedure is applied to a cross-national analysis of individuals' perceptions of justice and fairness of income distributions in their societies, using data from the European Social Survey which has substantial nonresponse. The analysis demonstrates that failing to account for non-ignorable missingness can yield biased conclusions; for instance, complete-case analysis is shown to exaggerate the correlation between personal income and perceived fairness of income distributions in society. Code implementing the proposed methodology is publicly available at https://anonymous.4open.science/r/non-ignorable-missing-data-imputation-E885.",
+ "primary": "stat.ME"
+}

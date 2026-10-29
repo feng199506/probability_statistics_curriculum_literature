@@ -1,0 +1,17 @@
+{
+ "id": "2610.33137",
+ "title": "Smoothing splines with some discontinuities",
+ "authors": [
+  "Matteo Pelagatti",
+  "Paolo Maranzano",
+  "Giulio Cesare Gatto Ronchieri"
+ ],
+ "v1_date": "2026-10-23",
+ "latest_version": 1,
+ "latest_date": "2026-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 5 figures, 4 tables; 77 pages of supplementary material. R package jumps available on CRAN",
+ "abstract": "We generalize cubic smoothing splines to signals with a finite number of discontinuities at unknown positions. Rather than changing the roughness penalty, we deform the domain over which it is computed: every interval between consecutive observations can be stretched by a non-negative warp, subject to a total budget, and the optimizer spends the budget only where a jump makes stretching cheaper than bending. The estimator inherits the state-space form of smoothing splines, so it can be fitted by maximum likelihood with the Kalman filter, and it also admits a fast alternating algorithm that solves a banded linear system and takes a projected-gradient step on the warps. The budget is selected by an extended Bayesian information criterion whose constant is calibrated by simulation. In a Monte Carlo comparison the new estimators reconstruct a piecewise-smooth signal more accurately than the cubic smoothing spline with discontinuities of Storath and Weinmann, at the cost of more false alarms. Two energy applications illustrate the method: the temperature response of electricity demand in Northern Italy, and retail fuel prices, whose discontinuities, changes in excise duties, are dated by public record. The three supplements follow the references.",
+ "primary": "stat.ME"
+}

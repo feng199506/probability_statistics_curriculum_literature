@@ -1,0 +1,16 @@
+{
+ "id": "2605.29403",
+ "title": "Power Estimation for Longitudinal Studies with Time Dependent Covariates Using Generalized Method of Moments",
+ "authors": [
+  "Niloofar Ramezani",
+  "Oliver Hurst"
+ ],
+ "v1_date": "2026-05-28",
+ "latest_version": 1,
+ "latest_date": "2026-05-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages with appendix, 16 pages main manuscript, 3 figures in main manuscript, 7 figures including figures in appendix",
+ "abstract": "Longitudinal studies frequently incorporate covariates that evolve over time, creating complex dependence structures between outcomes and predictors. When covariates are time dependent, standard power analysis tools--largely developed for generalized estimating equations (GEE)--can yield misleading results because they do not account for the moment based structure required for valid marginal inference. Generalized Method of Moments (GMM) provides a flexible and efficient framework for estimating marginal effects in the presence of time dependent covariates, yet no practical tools exist for conducting power analysis under GMM. This paper introduces a modern, implementable framework for power estimation in longitudinal studies with time dependent covariates using GMM. Two complementary approaches are developed: a Wald based method that leverages the asymptotic normality of GMM estimators, and a distance metric method based on quadratic forms of sample and population moment conditions. Both approaches require only limited distributional assumptions and rely on valid moment conditions rather than full likelihood specification. We outline the theoretical foundations, provide step by step implementation guidance, and illustrate the methods using data from the Osteoarthritis Initiative. A simulation framework is presented for evaluating empirical performance. These methods fill a critical gap in the longitudinal modeling literature by offering applied researchers a practical, distribution light approach to power estimation when time dependent covariates are present and GMM is the preferred estimation technique.",
+ "primary": "stat.ME"
+}

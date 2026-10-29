@@ -1,0 +1,16 @@
+{
+ "id": "2312.04898",
+ "title": "Quantifying the effectiveness of linear preconditioning in Markov chain Monte Carlo",
+ "authors": [
+  "Max Hird",
+  "Samuel Livingstone"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 2,
+ "latest_date": "2024-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study linear preconditioning in Markov chain Monte Carlo. We consider the class of well-conditioned distributions, for which several mixing time bounds depend on the condition number $κ$. First we show that well-conditioned distributions exist for which $κ$ can be arbitrarily large and yet no linear preconditioner can reduce it. We then impose two sets of extra assumptions under which a linear preconditioner can significantly reduce $κ$. For the random walk Metropolis we further provide upper and lower bounds on the spectral gap with tight $1/κ$ dependence. This allows us to give conditions under which linear preconditioning can provably increase the gap. We then study popular preconditioners such as the covariance, its diagonal approximation, the hessian at the mode, and the QR decomposition. We show conditions under which each of these reduce $κ$ to near its minimum. We also show that the diagonal approach can in fact \\textit{increase} the condition number. This is of interest as diagonal preconditioning is the default choice in well-known software packages. We conclude with a numerical study comparing preconditioners in different models, and showing how proper preconditioning can greatly reduce compute time in Hamiltonian Monte Carlo.",
+ "primary": "stat.CO"
+}

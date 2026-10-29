@@ -1,0 +1,17 @@
+{
+ "id": "2410.11773",
+ "title": "Time-Series Foundation AI Model for Value-at-Risk Forecasting",
+ "authors": [
+  "Anubha Goel",
+  "Puneet Pasricha",
+  "Juho Kanniainen"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 7,
+ "latest_date": "2025-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study is the first to analyze the performance of a time-series foundation AI model for Value-at-Risk (VaR), which essentially forecasts the left-tail quantiles of returns. Foundation models, pre-trained on diverse datasets, can be applied in a zero-shot setting with minimal data or further improved through finetuning. We compare Google's TimesFM model to conventional parametric and non-parametric models, including GARCH and Generalized Autoregressive Score (GAS), using 19 years of daily returns from the SP 100 index and its constituents. Backtesting with over 8.5 years of out-of-sample data shows that the fine-tuned foundation model consistently outperforms traditional methods in actual-over-expected ratios. For the quantile score loss function, it performs comparably to the best econometric model, GAS. Overall, the foundation model ranks as the best or among the top performers across the 0.01, 0.025, 0.05, and 0.1 quantile forecasting. Fine-tuning significantly improves accuracy, showing that zero-shot use is not optimal for VaR.",
+ "primary": "q-fin.RM"
+}

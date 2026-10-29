@@ -1,0 +1,17 @@
+{
+ "id": "2609.33866",
+ "title": "Valid and Efficient Split Conformal Regression for Time Series",
+ "authors": [
+  "Percy S. Zhai",
+  "Maggie Cheng",
+  "Wei Biao Wu"
+ ],
+ "v1_date": "2026-09-27",
+ "latest_version": 1,
+ "latest_date": "2026-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study conformalized quantile regression and conformalized median regression that fit a model on one block of a time series and calibrate the conformal interval on the adjacent block. The existing theory of conformal prediction for time series rests largely on mixing conditions, which are hard to verify from a time-series model and fail for many standard processes, including simple ones with short memory. We replace this theoretical toolbox with the functional dependence measure, which in principle accommodates long-memory observations. The accuracy of the conformal interval length for time series has been understudied. To the best of our knowledge, this paper is the first work that establishes non-asymptotic coverage guarantees and accuracy of interval length simultaneously for split conformal regression on time series. Furthermore, for Gaussian linear processes with long memory, where both the estimation of the center and its calibration converge slowly, we establish a sharper rate for the length error. We show that the calibrated length converges faster than the estimated center itself, and provide a matching lower bound for the usual centers when the calibration block is sufficiently large relative to the training block. To our knowledge, this is the first theoretical analysis of conformal interval length dedicated to long memory.",
+ "primary": "math.ST"
+}

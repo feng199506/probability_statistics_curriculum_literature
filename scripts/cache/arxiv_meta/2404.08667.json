@@ -1,0 +1,18 @@
+{
+ "id": "2404.08667",
+ "title": "Traffic State Estimation and Uncertainty Quantification at Signalized Intersections with Low Penetration Rate Vehicle Trajectory Data",
+ "authors": [
+  "Xingmin Wang",
+  "Zihao Wang",
+  "Zachary Jerome",
+  "Henry X. Liu"
+ ],
+ "v1_date": "2024-04-02",
+ "latest_version": 1,
+ "latest_date": "2024-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies the traffic state estimation problem at signalized intersections with low penetration rate vehicle trajectory data. While many existing studies have proposed different methods to estimate unknown traffic states and parameters (e.g., penetration rate, queue length) with this data, most of them only provide a point estimation without knowing the uncertainty of these estimated values. It is important to quantify the estimation uncertainty caused by limited available data since it can explicitly inform us whether the available data is sufficient to satisfy the desired estimation accuracy. To fill this gap, we formulate the partially observable system as a hidden Markov model (HMM) based on the recently developed probabilistic time-space (PTS) model. The PTS model is a stochastic traffic flow model that is designed for modeling traffic flow dynamics near signalized intersections. Based on the HMM formulation, a single recursive program is developed for the Bayesian estimation of both traffic states and parameters. As a Bayesian approach, the proposed method provides the distributional estimation outcomes and directly quantifies the estimation uncertainty. We validate the proposed method with simulation studies and showcase its applicability to real-world vehicle trajectory data.",
+ "primary": "eess.SY"
+}

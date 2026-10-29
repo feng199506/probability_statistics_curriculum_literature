@@ -1,0 +1,15 @@
+{
+ "id": "2608.13748",
+ "title": "Multi-period Value-at-Risk Constrained Portfolio Optimization via DC Programming",
+ "authors": [
+  "Thi Thu Van Nguyen"
+ ],
+ "v1_date": "2026-08-13",
+ "latest_version": 2,
+ "latest_date": "2026-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study a multi-period portfolio optimization problem with finite-scenario Value-at-Risk (VaR) constraints, transaction costs, and diversification regularization. Using a finite-scenario VaR--CVaR identity, we derive a penalized difference-of-convex (DC) formulation over the underlying convex portfolio set. To solve the resulting nonsmooth and nonconvex problem, we propose a projected inertial Boosted Difference-of-Convex Functions Algorithm (iBDCA) that combines inertial extrapolation, an objective safeguard, and a boosted line search. We prove that the method is well defined, generates a monotonically decreasing objective sequence, and has only critical accumulation points for the penalized DC problem. Under a local no-ties condition at an accumulation point, we further establish whole sequence convergence with a local \\(R\\)-linear rate. Numerical experiments compare iBDCA with DCA and standard BDCA on matched problem instances. Out-of-sample backtests additionally include equal-weight and buy-and-hold benchmarks to illustrate the trade-offs among realized return, risk, transaction costs, and empirical VaR control.",
+ "primary": "math.OC"
+}

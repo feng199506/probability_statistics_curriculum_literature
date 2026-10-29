@@ -1,0 +1,15 @@
+{
+ "id": "2510.25742",
+ "title": "Statistical Process Monitoring based on Functional Data Analysis",
+ "authors": [
+  "Fabio Centofanti"
+ ],
+ "v1_date": "2025-10-29",
+ "latest_version": 1,
+ "latest_date": "2025-10-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In modern industrial settings, advanced acquisition systems allow for the collection of data in the form of profiles, that is, as functional relationships linking responses to explanatory variables. In this context, statistical process monitoring (SPM) aims to assess the stability of profiles over time in order to detect unexpected behavior. This review focuses on SPM methods that model profiles as functional data, i.e., smooth functions defined over a continuous domain, and apply functional data analysis (FDA) tools to address limitations of traditional monitoring techniques. A reference framework for monitoring multivariate functional data is first presented. This review then offers a focused survey of several recent FDA-based profile monitoring methods that extend this framework to address common challenges encountered in real-world applications. These include approaches that integrate additional functional covariates to enhance detection power, a robust method designed to accommodate outlying observations, a real-time monitoring technique for partially observed profiles, and two adaptive strategies that target the characteristics of the out-of-control distribution. These methods are all implemented in the R package funcharts, available on CRAN. Finally, a review of additional existing FDA-based profile monitoring methods is also presented, along with suggestions for future research.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2506.02363",
+ "title": "Function-on-function Differential Regression",
+ "authors": [
+  "Tongyu Li",
+  "Fang Yao"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 1,
+ "latest_date": "2025-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Function-on-function regression has been a topic of substantial interest due to its broad applicability, where the relation between functional predictor and response is concerned. In this article, we propose a new framework for modeling the regression mapping that extends beyond integral type, motivated by the prevalence of physical phenomena governed by differential relations, which is referred to as function-on-function differential regression. However, a key challenge lies in representing the differential regression operator, unlike functions that can be expressed by expansions. As a main contribution, we introduce a new notion of model identification involving differential operators, defined through their action on functions. Based on this action-aware identification, we are able to develop a regularization method for estimation using operator reproducing kernel Hilbert spaces. Then a goodness-of-fit test is constructed, which facilitates model checking for differential regression relations. We establish a Bahadur representation for the regression estimator with various theoretical implications, such as the minimax optimality of the proposed estimator, and the validity and consistency of the proposed test. To illustrate the effectiveness of our method, we conduct simulation studies and an application to a real data example on the thermodynamic energy equation.",
+ "primary": "stat.ME"
+}

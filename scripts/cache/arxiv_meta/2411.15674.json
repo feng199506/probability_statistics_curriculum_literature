@@ -1,0 +1,19 @@
+{
+ "id": "2411.15674",
+ "title": "Quantile deep learning models for multi-step ahead time series prediction",
+ "authors": [
+  "Jimmy Cheung",
+  "Smruthi Rangarajan",
+  "Amelia Maddocks",
+  "Xizhe Chen",
+  "Rohitash Chandra"
+ ],
+ "v1_date": "2024-11-24",
+ "latest_version": 1,
+ "latest_date": "2024-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Uncertainty quantification is crucial in time series prediction, and quantile regression offers a valuable mechanism for uncertainty quantification which is useful for extreme value forecasting. Although deep learning models have been prominent in multi-step ahead prediction, the development and evaluation of quantile deep learning models have been limited. We present a novel quantile regression deep learning framework for multi-step time series prediction. In this way, we elevate the capabilities of deep learning models by incorporating quantile regression, thus providing a more nuanced understanding of predictive values. We provide an implementation of prominent deep learning models for multi-step ahead time series prediction and evaluate their performance under high volatility and extreme conditions. We include multivariate and univariate modelling, strategies and provide a comparison with conventional deep learning models from the literature. Our models are tested on two cryptocurrencies: Bitcoin and Ethereum, using daily close-price data and selected benchmark time series datasets. The results show that integrating a quantile loss function with deep learning provides additional predictions for selected quantiles without a loss in the prediction accuracy when compared to the literature. Our quantile model has the ability to handle volatility more effectively and provides additional information for decision-making and uncertainty quantification through the use of quantiles when compared to conventional deep learning models.",
+ "primary": "cs.LG"
+}

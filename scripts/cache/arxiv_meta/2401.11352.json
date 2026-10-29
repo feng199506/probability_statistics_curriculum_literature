@@ -1,0 +1,15 @@
+{
+ "id": "2401.11352",
+ "title": "A Connection Between Covariate Adjustment and Stratified Randomization in Randomized Clinical Trials",
+ "authors": [
+  "Zhiwei Zhang"
+ ],
+ "v1_date": "2024-01-21",
+ "latest_version": 3,
+ "latest_date": "2025-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The statistical efficiency of randomized clinical trials can be improved by incorporating information from baseline covariates (i.e., pre-treatment patient characteristics). This can be done in the design stage using stratified (permutated block) randomization or in the analysis stage through covariate adjustment. This article makes a connection between covariate adjustment and stratified randomization in a general framework where all regular, asymptotically linear estimators are identified as augmented estimators. From a geometric perspective, covariate adjustment can be viewed as an attempt to approximate the optimal augmentation function, and stratified randomization improves a given approximation by moving it closer to the optimal augmentation function. The efficiency benefit of stratified randomization is asymptotically equivalent to attaching an optimal augmentation term based on the stratification factor. In designing a trial with stratified randomization, it is not essential to include all important covariates in the stratification, because their prognostic information can be incorporated through covariate adjustment. Under stratified randomization, adjusting for the stratification factor only in data analysis is not expected to improve efficiency, and the key to efficient estimation is incorporating prognostic information from all important covariates. These observations are confirmed in a simulation study and illustrated using real clinical trial data.",
+ "primary": "stat.ME"
+}

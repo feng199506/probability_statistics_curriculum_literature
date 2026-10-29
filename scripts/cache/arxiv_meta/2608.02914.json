@@ -1,0 +1,18 @@
+{
+ "id": "2608.02914",
+ "title": "Survival Isotonic Distributional Regression",
+ "authors": [
+  "Martin Bladt",
+  "Alexander Henzi",
+  "Bram van den Heuvel",
+  "Johanna Ziegel"
+ ],
+ "v1_date": "2026-08-03",
+ "latest_version": 1,
+ "latest_date": "2026-08-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "65 pages, 16 figures, 3 tables. Main text 35 pages; appendices contain all proofs",
+ "abstract": "We introduce Survival-IDR (S-IDR), a nonparametric estimator of conditional survival distributions under order restrictions, extending Isotonic Distributional Regression (IDR; Henzi et al., 2021) to right-censored outcomes. S-IDR has no tuning parameters and accommodates continuous, discrete, and partially ordered covariates. We first study the direct Kaplan-Meier adaptation of IDR: it is uniformly consistent at the minimax rate, but only when the conditional outcomes are hazard-rate ordered. We trace this restriction to the Kaplan-Meier estimator's failure to satisfy the Cauchy mean value property on non-i.i.d. samples, and use the diagnosis to construct S-IDR. The S-IDR estimator is uniformly consistent under only stochastic dominance of the conditional outcomes, attains the minimax rate when the smoothness of the conditional CDFs is known, and admits a known cross-threshold PAVA acceleration. We further embed S-IDR in a distributional single-index framework on a benchmark suite, and apply it in a case study that validates the MELD score used for liver-transplant wait list management. Accompanying R, Python and Rust packages are available at https://github.com/AlexanderHenzi/isodistrreg.",
+ "primary": "math.ST"
+}

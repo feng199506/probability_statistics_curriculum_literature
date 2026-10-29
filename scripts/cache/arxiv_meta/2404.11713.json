@@ -1,0 +1,17 @@
+{
+ "id": "2404.11713",
+ "title": "Propensity Score Analysis with Guaranteed Subgroup Balance",
+ "authors": [
+  "Yan Li",
+  "Yong-Fang Kuo",
+  "Liang Li"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 1,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating the causal treatment effects by subgroups is important in observational studies when the treatment effect heterogeneity may be present. Existing propensity score methods rely on a correctly specified propensity score model. Model misspecification results in biased treatment effect estimation and covariate imbalance. We proposed a new algorithm, the propensity score analysis with guaranteed subgroup balance (G-SBPS), to achieve covariate mean balance in all subgroups. We further incorporated nonparametric kernel regression for the propensity scores and developed a kernelized G-SBPS (kG-SBPS) to improve the subgroup mean balance of covariate transformations in a rich functional class. This extension is more robust to propensity score model misspecification. Extensive numerical studies showed that G-SBPS and kG-SBPS improve both subgroup covariate balance and subgroup treatment effect estimation, compared to existing approaches. We applied G-SBPS and kG-SBPS to a dataset on right heart catheterization to estimate the subgroup average treatment effects on the hospital length of stay and a dataset on diabetes self-management training to estimate the subgroup average treatment effects for the treated on the hospitalization rate.",
+ "primary": "stat.ME"
+}

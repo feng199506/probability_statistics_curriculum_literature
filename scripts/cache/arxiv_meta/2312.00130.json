@@ -1,0 +1,17 @@
+{
+ "id": "2312.00130",
+ "title": "Sparse Data-Driven Random Projection in Regression for High-Dimensional Data",
+ "authors": [
+  "Roman Parzer",
+  "Peter Filzmoser",
+  "Laura Vana-Gür"
+ ],
+ "v1_date": "2023-11-30",
+ "latest_version": 2,
+ "latest_date": "2024-03-08",
+ "journal_ref": "",
+ "doi": "10.52933/jdssv.v5i5.138",
+ "comment": "31 pages, 14 figures",
+ "abstract": "We examine the linear regression problem in a challenging high-dimensional setting with correlated predictors where the vector of coefficients can vary from sparse to dense. In this setting, we propose a combination of probabilistic variable screening with random projection tools as a viable approach. More specifically, we introduce a new data-driven random projection tailored to the problem at hand and derive a theoretical bound on the gain in expected prediction error over conventional random projections. The variables to enter the projection are screened by accounting for predictor correlation. To reduce the dependence on fine-tuning choices, we aggregate over an ensemble of linear models. A thresholding parameter is introduced to obtain a higher degree of sparsity. Both this parameter and the number of models in the ensemble can be chosen by cross-validation. In extensive simulations, we compare the proposed method with other random projection tools and with classical sparse and dense methods and show that it is competitive in terms of prediction across a variety of scenarios with different sparsity and predictor covariance settings. We also show that the method with cross-validation is able to rank the variables satisfactorily. Finally, we showcase the method on two real data applications.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2401.17472",
+ "title": "Convergence of the deep BSDE method for stochastic control problems formulated through the stochastic maximum principle",
+ "authors": [
+  "Zhipeng Huang",
+  "Balint Negyesi",
+  "Cornelis W. Oosterlee"
+ ],
+ "v1_date": "2024-01-30",
+ "latest_version": 3,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is well-known that decision-making problems from stochastic control can be formulated by means of a forward-backward stochastic differential equation (FBSDE). Recently, the authors of Ji et al. 2022 proposed an efficient deep learning algorithm based on the stochastic maximum principle (SMP). In this paper, we provide a convergence result for this deep SMP-BSDE algorithm and compare its performance with other existing methods. In particular, by adopting a strategy as in Han and Long 2020, we derive a-posteriori estimate, and show that the total approximation error can be bounded by the value of the loss functional and the discretization error. We present numerical examples for high-dimensional stochastic control problems, both in case of drift- and diffusion control, which showcase superior performance compared to existing algorithms.",
+ "primary": "math.OC"
+}

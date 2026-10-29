@@ -1,0 +1,18 @@
+{
+ "id": "2604.00662",
+ "title": "Feature Reconstruction and Monitoring of Load Test Data under Varying Environmental Conditions",
+ "authors": [
+  "Lizzie Neumann",
+  "Philipp Wittenberg",
+  "Alexander Mendler",
+  "Jan Gertheiss"
+ ],
+ "v1_date": "2026-04-01",
+ "latest_version": 1,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "System outputs in Structural Health Monitoring (SHM), such as sensor measurements or extracted features like eigenfrequencies, are influenced not only by (potential) damage but also by environmental and operational variables (EOV). Identifying these factors and removing their effects from the data is essential before proceeding with further analysis. Most existing methods for this task focus on the expected values of system outputs, e.g., using different types of response surface modeling. However, it has been shown that confounding variables can also affect the (co-)variance of and between system outputs. This is particularly important because the covariance matrix is an essential building block in many damage detection methods in SHM. Beyond standard response surface modeling, a nonparametric kernel approach can be used to estimate a conditional covariance matrix that can change depending on the identified confounding factor. This improves our understanding of how, e.g., temperature affects the system outputs. In this work, we present a new confounder-adjusted version of feature reconstruction. It uses the conditional covariance matrix as the basis for (conditional) principal component analysis. The resulting (conditional) principal component scores are then used to reconstruct system outputs with the confounding influences removed. In particular, the new approach eliminates the confounders effect on both the mean and the covariance. As will be shown on load test data from the Vahrendorfer Stadtweg bridge in Hamburg, Germany, the reconstructed features can then be employed for monitoring, e.g., using an appropriate control chart, resulting in fewer false alarms and a higher probability of detecting damage.",
+ "primary": "stat.AP"
+}

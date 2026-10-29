@@ -1,0 +1,18 @@
+{
+ "id": "2511.20819",
+ "title": "A statistical framework for comparing epidemic forests",
+ "authors": [
+  "Cyril Geismar",
+  "Peter J. White",
+  "Anne Cori",
+  "Thibaut Jombar"
+ ],
+ "v1_date": "2025-11-25",
+ "latest_version": 1,
+ "latest_date": "2025-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages (19 pages main text only), 3 figures 1 Table (main text only)",
+ "abstract": "Inferring who infected whom in an outbreak is essential for characterising transmission dynamics and guiding public health interventions. However, this task is challenging due to limited surveillance data and the complexity of immunological and social interactions. Instead of a single definitive transmission tree, epidemiologists often consider multiple plausible trees forming \\textit{epidemic forests}. Various inference methods and assumptions can yield different epidemic forests, yet no formal test exists to assess whether these differences are statistically significant. We propose such a framework using a chi-square test and permutational multivariate analysis of variance (PERMANOVA). We assessed each method's ability to distinguish simulated epidemic forests generated under different offspring distributions. While both methods achieved perfect specificity for forests with 100+ trees, PERMANOVA consistently outperformed the chi-square test in sensitivity across all epidemic and forest sizes. Implemented in the R package \\textit{mixtree}, we provide the first statistical framework to robustly compare epidemic forests.",
+ "primary": "q-bio.QM"
+}

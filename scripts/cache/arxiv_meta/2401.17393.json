@@ -1,0 +1,17 @@
+{
+ "id": "2401.17393",
+ "title": "Estimating the EVSI with Gaussian Approximations and Spline-Based Series Methods",
+ "authors": [
+  "Linke Li",
+  "Hawre Jalal",
+  "Anna Heath"
+ ],
+ "v1_date": "2024-01-30",
+ "latest_version": 1,
+ "latest_date": "2024-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "11 pages, 2 figures, presented at 44th Medical Decision Making Annual North American Meeting",
+ "abstract": "Background. The Expected Value of Sample Information (EVSI) measures the expected benefits that could be obtained by collecting additional data. Estimating EVSI using the traditional nested Monte Carlo method is computationally expensive but the recently developed Gaussian approximation (GA) approach can efficiently estimate EVSI across different sample sizes. However, the conventional GA may result in biased EVSI estimates if the decision models are highly nonlinear. This bias may lead to suboptimal study designs when GA is used to optimize the value of different studies. Therefore, we extend the conventional GA approach to improve its performance for nonlinear decision models. Methods. Our method provides accurate EVSI estimates by approximating the conditional benefit based on two steps. First, a Taylor series approximation is applied to estimate the conditional benefit as a function of the conditional moments of the parameters of interest using a spline, which is fitted to the samples of the parameters and the corresponding benefits. Next, the conditional moments of parameters are approximated by the conventional GA and Fisher information. The proposed approach is applied to several data collection exercises involving non-Gaussian parameters and nonlinear decision models. Its performance is compared with the nested Monte Carlo method, the conventional GA approach, and the nonparametric regression-based method for EVSI calculation. Results. The proposed approach provides accurate EVSI estimates across different sample sizes when the parameters of interest are non-Gaussian and the decision models are nonlinear. The computational cost of the proposed method is similar to other novel methods. Conclusions. The proposed approach can estimate EVSI across sample sizes accurately and efficiently, which may support researchers in determining an economically optimal study design using EVSI.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2501.14805",
+ "title": "Sequential Methods for Error Correction of Probabilistic Wind Power Forecasts",
+ "authors": [
+  "Bastian Schmidt Jørgensen",
+  "Jan Kloppenborg Møller",
+  "Peter Nystrup",
+  "Henrik Madsen"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 3,
+ "latest_date": "2025-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Reliable probabilistic production forecasts are required to better manage the uncertainty that the rapid build-out of wind power capacity adds to future energy systems. In this article, we consider sequential methods to correct errors in wind power production forecast ensembles derived from numerical weather predictions. We propose combining neural networks with time-adaptive quantile regression to enhance the accuracy of wind power forecasts. We refer to this approach as Neural Adaptive Basis for (time-adaptive) Quantile Regression or NABQR. First, we use NABQR to correct power production ensembles with neural networks. We find that Long Short-Term Memory networks are the most effective architecture for this purpose. Second, we apply time-adaptive quantile regression to the corrected ensembles to obtain optimal median predictions along with quantiles of the forecast distribution. With the suggested method, we beat state-of-the-art methods and achieve accuracy improvements up to 40% in mean absolute terms in an application to day-ahead forecasting of on- and offshore wind power production in Denmark. In addition, we explore the value of our method for applications in energy trading. We have implemented the NABQR method as an open-source Python package to support applications in renewable energy forecasting and future research.",
+ "primary": "stat.ME"
+}

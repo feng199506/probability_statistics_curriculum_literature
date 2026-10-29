@@ -1,0 +1,18 @@
+{
+ "id": "2312.06018",
+ "title": "A Multivariate Polya Tree Model for Meta-Analysis with Event Time Distributions",
+ "authors": [
+  "Giovanni Poli",
+  "Elena Fountzilas",
+  "Apostolia-Maria Tsimeridou",
+  "Peter Müller"
+ ],
+ "v1_date": "2023-12-10",
+ "latest_version": 2,
+ "latest_date": "2024-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a non-parametric Bayesian prior for a family of random probability measures by extending the Polya tree ($PT$) prior to a joint prior for a set of probability measures $G_1,\\dots,G_n$, suitable for meta-analysis with event time outcomes. In the application to meta-analysis $G_i$ is the event time distribution specific to study $i$. The proposed model defines a regression on study-specific covariates by introducing increased correlation for any pair of studies with similar characteristics. The desired multivariate $PT$ model is constructed by introducing a hierarchical prior on the conditional splitting probabilities in the $PT$ construction for each of the $G_i$. The hierarchical prior replaces the independent beta priors for the splitting probability in the $PT$ construction with a Gaussian process prior for corresponding (logit) splitting probabilities across all studies. The Gaussian process is indexed by study-specific covariates, introducing the desired dependence with increased correlation for similar studies. The main feature of the proposed construction is (conditionally) conjugate posterior updating with commonly reported inference summaries for event time data. The construction is motivated by a meta-analysis over cancer immunotherapy studies.",
+ "primary": "stat.ME"
+}

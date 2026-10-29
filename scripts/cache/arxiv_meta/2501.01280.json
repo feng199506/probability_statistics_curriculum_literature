@@ -1,0 +1,18 @@
+{
+ "id": "2501.01280",
+ "title": "Time-dependent Predictive Accuracy Metrics in the Context of Interval Censoring and Competing Risks",
+ "authors": [
+  "Zhenwei Yang",
+  "Dimitris Rizopoulos",
+  "Lisa F. Newcomb",
+  "Nicole S. Erler"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 2,
+ "latest_date": "2025-07-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evaluating the performance of a prediction model is a common task in medical statistics. Standard accuracy metrics require the observation of the true outcomes. This is typically not possible in the setting with time-to-event outcomes due to censoring. Interval censoring, the presence of time-varying covariates, and competing risks present additional challenges in obtaining those accuracy metrics. In this study, we propose two methods to deal with interval censoring in a time-varying competing risk setting: a model-based approach and the inverse probability of censoring weighting (IPCW) approach, focusing on three key time-dependent metrics: area under the receiver-operating characteristic curve (AUC), Brier score, and expected predictive cross-entropy (EPCE). The evaluation is conducted over a medically relevant time interval of interest, $[t, Δt)$. The model-based approach includes all subjects in the risk set, using their predicted risks to contribute to the accuracy metrics. In contrast, the IPCW approach only considers the subset of subjects who are known to be event-free or experience the event within the interval of interest. we performed a simulation study to compare the performance of the two approaches with regard to the three metrics.",
+ "primary": "stat.ME"
+}

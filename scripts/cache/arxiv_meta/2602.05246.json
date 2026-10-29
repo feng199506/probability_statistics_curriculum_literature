@@ -1,0 +1,17 @@
+{
+ "id": "2602.05246",
+ "title": "Active Simulation-Based Inference for Scalable Car-Following Model Calibration",
+ "authors": [
+  "Menglin Kong",
+  "Chengyuan Zhang",
+  "Lijun Sun"
+ ],
+ "v1_date": "2026-02-05",
+ "latest_version": 1,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Credible microscopic traffic simulation requires car-following models that capture both the average response and the substantial variability observed across drivers and situations. However, most data-driven calibrations remain deterministic, producing a single best-fit parameter vector and offering limited guidance for uncertainty-aware prediction, risk-sensitive evaluation, and population-level simulation. Bayesian calibration addresses this gap by inferring a posterior distribution over parameters, but per-trajectory sampling methods such as Markov chain Monte Carlo (MCMC) are computationally infeasible for modern large-scale naturalistic driving datasets. This paper proposes an active simulation-based inference framework for scalable car-following model calibration. The approach combines (i) a residual-augmented car-following simulator with two alternatives for the residual process and (ii) an amortized conditional density estimator that maps an observed leader--follower trajectory directly to a driver-specific posterior over model parameters with a single forward pass at test time. To reduce simulation cost during training, we introduce a joint active design strategy that selects informative parameter proposals together with representative driving contexts, focusing simulations where the current inference model is most uncertain while maintaining realism. Experiments on the HighD dataset show improved predictive accuracy and closer agreement between simulated and observed trajectory distributions relative to Bayesian calibration baselines, with convergence and ablation studies supporting the robustness of the proposed design choices. The framework enables scalable, uncertainty-aware driver population modeling for traffic flow simulation and risk-sensitive transportation analysis.",
+ "primary": "stat.AP"
+}

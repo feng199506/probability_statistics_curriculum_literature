@@ -1,0 +1,17 @@
+{
+ "id": "2402.13870",
+ "title": "Generative Probabilistic Time Series Forecasting and Applications in Grid Operations",
+ "authors": [
+  "Xinyi Wang",
+  "Lang Tong",
+  "Qing Zhao"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 1,
+ "latest_date": "2024-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at CISS 2024. arXiv admin note: text overlap with arXiv:2306.03782",
+ "abstract": "Generative probabilistic forecasting produces future time series samples according to the conditional probability distribution given past time series observations. Such techniques are essential in risk-based decision-making and planning under uncertainty with broad applications in grid operations, including electricity price forecasting, risk-based economic dispatch, and stochastic optimizations. Inspired by Wiener and Kallianpur's innovation representation, we propose a weak innovation autoencoder architecture and a learning algorithm to extract independent and identically distributed innovation sequences from nonparametric stationary time series. We show that the weak innovation sequence is Bayesian sufficient, which makes the proposed weak innovation autoencoder a canonical architecture for generative probabilistic forecasting. The proposed technique is applied to forecasting highly volatile real-time electricity prices, demonstrating superior performance across multiple forecasting measures over leading probabilistic and point forecasting techniques.",
+ "primary": "cs.LG"
+}

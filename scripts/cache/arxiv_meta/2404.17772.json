@@ -1,0 +1,17 @@
+{
+ "id": "2404.17772",
+ "title": "PWEXP: An R Package Using Piecewise Exponential Model for Study Design and Event/Timeline Prediction",
+ "authors": [
+  "Tianchen Xu",
+  "Rachael Wen",
+  "Wen Zhang"
+ ],
+ "v1_date": "2024-04-27",
+ "latest_version": 3,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 15 figures",
+ "abstract": "Parametric assumptions such as exponential distribution are commonly used in clinical trial design and analysis. However, violation of distribution assumptions can introduce biases in sample size and power calculations. Piecewise exponential (PWE) hazard model partitions the hazard function into segments each with constant hazards and is easy for interpretation and computation. Due to its piecewise property, PWE can fit a wide range of survival curves and accurately predict the future number of events and analysis time in event-driven clinical trials, thus enabling more flexible and reliable study designs. Compared with other existing approaches, the PWE model provides a superior balance of flexibility and robustness in model fitting and prediction. The proposed PWEXP package is designed for estimating and predicting PWE hazard models for right-censored data. By utilizing well-established criteria such as AIC, BIC, and cross-validation log-likelihood, the PWEXP package chooses the optimal number of change-points and determines the optimal position of change-points. With its particular goodness-of-fit, the PWEXP provides accurate and robust hazard estimation, which can be used for reliable power calculation at study design and timeline prediction at study conduct. The package also offers visualization functions to facilitate the interpretation of survival curve fitting results.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2506.03336",
+ "title": "Causal Inference with Missing Exposures and Missing Outcomes",
+ "authors": [
+  "Kirsten E. Landsiedel",
+  "Rachel Abbott",
+  "Atukunda Mucunguzi",
+  "Florence Mwangwa",
+  "Elijah Kakande",
+  "Edwin D. Charlebois",
+  "Carina Marquez",
+  "Moses R. Kamya",
+  "Laura B. Balzer"
+ ],
+ "v1_date": "2025-06-03",
+ "latest_version": 4,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages of main text (double-spaced; including 4 figures) + 20 pages of supplementary material (double-spaced; 1 figure; 2 tables) + 83 references",
+ "abstract": "Missing data are ubiquitous in public health research. When estimating causal effects, there are well-established methods to address bias to due missing outcomes. Commonly, causal estimands are defined under hypothetical interventions to \"set\" the exposure and to prevent missingness. We demonstrate how this framework can be extended to missing exposures. We further extend this framework to incorporate missingness on the baseline outcome, which induces missingness on the population of interest (e.g., persons at-risk). To do so, we highlight Counterfactual Strata Effects, a general class of causal estimands where the focus population is subject to missingness and/or impacted by the exposure. They are termed such because the estimand involves conditioning on a counterfactual variable.For each setting, we present the causal model, relevant counterfactuals, causal estimand, and identification result. We demonstrate with a real-data example to investigate the effect of alcohol consumption on the risk of incident tuberculosis (TB) infection in rural Uganda. We highlight the use of TMLE with Super Learner for estimation and inference and discuss the practical consequences of our approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2503.22807",
+ "title": "Probabilistic Crop Yields Forecasts With Spatio-Temporal Conditional Copula Using Extreme Weather Covariates",
+ "authors": [
+  "Marie Michaelides",
+  "Mélina Mailhot",
+  "Yongkun Li"
+ ],
+ "v1_date": "2025-03-28",
+ "latest_version": 1,
+ "latest_date": "2025-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel forecasting model for crop yields that explicitly accounts for spatio-temporal dependence and the influence of extreme weather and climatic events. Our approach combines Bayesian Structural Time Series for modeling marginal crop yields, ensuring a more robust quantification of uncertainty given the typically short historical records. To capture dynamic dependencies between regions, we develop a time-varying conditional copula model, where the copula parameter evolves over time as a function of its previous lag and extreme weather covariates. Unlike traditional approaches that treat climatic factors as fixed inputs, we incorporate dynamic Generalized Extreme Value models to characterize extreme weather events, enabling a more accurate reflection of their impact on crop yields. Furthermore, to ensure scalability for large-scale applications, we build on the existing Partitioning Around Medoids clustering algorithm and introduce a novel dissimilarity measure that integrates both spatial and copula-based dependence, enabling an effective reduction of the dimensionality in the dependence structure.",
+ "primary": "stat.ME"
+}

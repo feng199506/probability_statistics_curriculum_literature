@@ -1,0 +1,18 @@
+{
+ "id": "2502.08569",
+ "title": "Likelihood-based Nonparametric Receiver Operating Characteristic Curve Analysis in the Presence of Imperfect Reference Standard",
+ "authors": [
+  "Yifan Sun",
+  "Peijun Sang",
+  "Qinglong Tian",
+  "Pengfei Li"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 1,
+ "latest_date": "2025-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In diagnostic studies, researchers frequently encounter imperfect reference standards with some misclassified labels. Treating these as gold standards can bias receiver operating characteristic (ROC) curve analysis. To address this issue, we propose a novel likelihood-based method under a nonparametric density ratio model. This approach enables the reliable estimation of the ROC curve, area under the curve (AUC), partial AUC, and Youden's index with favorable statistical properties. To implement the method, we develop an efficient expectation-maximization algorithm algorithm. Extensive simulations evaluate its finite-sample performance, showing smaller mean squared errors in estimating the ROC curve, partial AUC, and Youden's index compared to existing methods. We apply the proposed approach to a malaria study.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2404.06238",
+ "title": "Least Squares-Based Permutation Tests in Time Series",
+ "authors": [
+  "Joseph P. Romano",
+  "Marius A. Tirlea"
+ ],
+ "v1_date": "2024-04-09",
+ "latest_version": 3,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "33 pages",
+ "abstract": "This paper studies permutation tests for regression parameters in a time series setting, where the time series is assumed stationary but may exhibit an arbitrary (but weak) dependence structure. In such a setting, it is perhaps surprising that permutation tests can offer any type of inference guarantees, since permuting of covariates can destroy their relationship with the response. Indeed, the fundamental assumption of exchangeability of errors required for the finite-sample exactness of permutation tests can easily fail. However, we show that permutation tests may be constructed which are asymptotically valid for a wide class of stationary processes, but remain exact when exchangeability holds. We also consider the problem of testing for no monotone trend and we construct asymptotically valid permutation tests in this setting as well. In addition, in order to use the methods, the R package permixOLS is publicly available.",
+ "primary": "math.ST"
+}

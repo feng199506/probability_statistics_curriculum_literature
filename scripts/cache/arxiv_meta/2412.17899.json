@@ -1,0 +1,15 @@
+{
+ "id": "2412.17899",
+ "title": "A mixing time bound for Gibbs sampling from log-smooth log-concave distributions",
+ "authors": [
+  "Neha S. Wadia"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 1,
+ "latest_date": "2024-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 4 figures",
+ "abstract": "The Gibbs sampler, also known as the coordinate hit-and-run algorithm, is a Markov chain that is widely used to draw samples from probability distributions in arbitrary dimensions. At each iteration of the algorithm, a randomly selected coordinate is resampled from the distribution that results from conditioning on all the other coordinates. We study the behavior of the Gibbs sampler on the class of log-smooth and strongly log-concave target distributions supported on $\\mathbb{R}^n$. Assuming the initial distribution is $M$-warm with respect to the target, we show that the Gibbs sampler requires at most $O^{\\star}\\left(κ^2 n^{7.5}\\left(\\max\\left\\{1,\\sqrt{\\frac{1}{n}\\log \\frac{2M}γ}\\right\\}\\right)^2\\right)$ steps to produce a sample with error no more than $γ$ in total variation distance from a distribution with condition number $κ$.",
+ "primary": "math.ST"
+}

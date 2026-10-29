@@ -1,0 +1,18 @@
+{
+ "id": "2604.24430",
+ "title": "Combined shrinkage of fixed and random effects in linear mixed models using empirical Bayes",
+ "authors": [
+  "Matteo Amestoy",
+  "R. Vermeulen",
+  "Mark A. van de Wiel",
+  "Wessel N. van Wieringen"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A novel data-driven methodology is presented for the joint selection of prior parameters for both fixed and random effects in Linear Mixed Models (LMMs). This approach facilitates the estimation of complex random-effects structures, as well as potentially high-dimensional data. Although Bayesian frameworks require the specification of informative prior parameters, such values are often unavailable a priori - especially for random-effect covariances. The proposed method automates this selection through an Empirical Bayes framework, which maximizes the marginal likelihood using an efficient Laplace approximation. Numerical simulations demonstrate that this methodology significantly enhances parameter estimation accuracy and predictive performance. Finally, an application to a real-world air pollution and health dataset illustrates how the method enables the use of more sophisticated and statistically appropriate models to improve predictive outcomes.",
+ "primary": "stat.ME"
+}

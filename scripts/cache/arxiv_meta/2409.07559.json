@@ -1,0 +1,17 @@
+{
+ "id": "2409.07559",
+ "title": "Spatial Deep Convolutional Neural Networks",
+ "authors": [
+  "Qi Wang",
+  "Paul A. Parker",
+  "Robert B. Lund"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 1,
+ "latest_date": "2024-09-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial prediction problems often use Gaussian process models, which can be computationally burdensome in high dimensions. Specification of an appropriate covariance function for the model can be challenging when complex non-stationarities exist. Recent work has shown that pre-computed spatial basis functions and a feed-forward neural network can capture complex spatial dependence structures while remaining computationally efficient. This paper builds on this literature by tailoring spatial basis functions for use in convolutional neural networks. Through both simulated and real data, we demonstrate that this approach yields more accurate spatial predictions than existing methods. Uncertainty quantification is also considered.",
+ "primary": "stat.ME"
+}

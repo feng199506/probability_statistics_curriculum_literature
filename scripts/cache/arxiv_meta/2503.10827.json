@@ -1,0 +1,17 @@
+{
+ "id": "2503.10827",
+ "title": "The fast rate of convergence of the smooth adapted Wasserstein distance",
+ "authors": [
+  "Martin Larsson",
+  "Jonghwa Park",
+  "Johannes Wiesel"
+ ],
+ "v1_date": "2025-03-13",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating a $d$-dimensional distribution $μ$ by the empirical measure $\\hatμ_n$ of its samples is an important task in probability theory, statistics and machine learning. It is well known that $\\mathbb{E}[\\mathcal{W}_p(\\hatμ_n, μ)]\\lesssim n^{-1/d}$ for $d>2p$, where $\\mathcal{W}_p$ denotes the $p$-Wasserstein metric. An effective tool to combat this curse of dimensionality is the smooth Wasserstein distance $\\mathcal{W}^{(σ)}_p$, which measures the distance between two probability measures after having convolved them with isotropic Gaussian noise $\\mathcal{N}(0,σ^2\\text{I})$. In this paper we apply this smoothing technique to the adapted Wasserstein distance. We show that the smooth adapted Wasserstein distance $\\mathcal{A}\\mathcal{W}_p^{(σ)}$ achieves the fast rate of convergence $\\mathbb{E}[\\mathcal{A}\\mathcal{W}_p^{(σ)}(\\hatμ_n, μ)]\\lesssim n^{-1/2}$, if $μ$ is subgaussian. This result follows from the surprising fact, that any subgaussian measure $μ$ convolved with a Gaussian distribution has locally Lipschitz kernels.",
+ "primary": "math.PR"
+}

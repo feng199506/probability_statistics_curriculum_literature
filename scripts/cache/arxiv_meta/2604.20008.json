@@ -1,0 +1,17 @@
+{
+ "id": "2604.20008",
+ "title": "Mixing times of Langevin dynamics for spiked matrix models",
+ "authors": [
+  "Reza Gheissari",
+  "Curtis Grant",
+  "Tianmin Yu"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages",
+ "abstract": "We investigate the Langevin dynamics for Wigner matrices with a spherical spike, in the regime where the signal-to-noise ratio $θ$ is large, but order one. For large, order-$1$, signal-to-noise, the (worst-case) mixing time undergoes a sharp transition around the critical inverse temperature $β_c(θ) = \\frac{1}θ$. Namely, if $β= α/θ$, and $α<1$ then at large $θ$ the mixing time is $O(\\log N)$, and if $α>1$ it is exponential in $N$. We show that initialized from the uniform-at-random spherical prior, however, the mixing time in the low-temperature $α>1$ regime circumvents the exponential bottleneck and the mixing time is $O(\\log N)$. In fact, this fast mixing holds for any initialization that is symmetric with respect to the top eigenvector of the spiked matrix. Using this, we are able to show a low-temperature metastability picture, pinning down the exact exponential rate of the (worst-case initialization) mixing time for low temperatures, showing it is given by the difference of the free energies of the spiked and null models.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2311.04073",
+ "title": "Debiased Fixed Effects Estimation of Binary Logit Models with Three-Dimensional Panel Data",
+ "authors": [
+  "Amrei Stammann"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 1,
+ "latest_date": "2023-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Naive maximum likelihood estimation of binary logit models with fixed effects leads to unreliable inference due to the incidental parameter problem. We study the case of three-dimensional panel data, where the model includes three sets of additive and overlapping unobserved effects. This encompasses models for network panel data, where senders and receivers maintain bilateral relationships over time, and fixed effects account for unobserved heterogeneity at the sender-time, receiver-time, and sender-receiver levels. In an asymptotic framework, where all three panel dimensions grow large at constant relative rates, we characterize the leading bias of the naive estimator. The inference problem we identify is particularly severe, as it is not possible to balance the order of the bias and the standard deviation. As a consequence, the naive estimator has a degenerating asymptotic distribution, which exacerbates the inference problem relative to other fixed effects estimators studied in the literature. To resolve the inference problem, we derive explicit expressions to debias the fixed effects estimator.",
+ "primary": "econ.EM"
+}

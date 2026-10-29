@@ -1,0 +1,16 @@
+{
+ "id": "2608.04284",
+ "title": "Diffeomorphic Markov Chain Monte Carlo: fast mixing for heavy-tailed distributions",
+ "authors": [
+  "Miha Brešar",
+  "Aleksandar Mijatović"
+ ],
+ "v1_date": "2026-08-04",
+ "latest_version": 1,
+ "latest_date": "2026-08-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 5 figures; for a short YouTube video describing the main algorithm and its properties see https://youtu.be/cOlmRLxeQM0",
+ "abstract": "We introduce a new class of uniformly ergodic MCMC algorithms, termed Diffeomorphic Contraction Sampler (DCS), and provide fast non-asymptotic mixing guarantees for DCS targeting distributions on $\\R^d$ with arbitrarily heavy polynomial tails. DCS provides a solution to a well-known problem for MCMC samplers, which typically struggle with the combination of unbounded high-dimensional state space and vanishing gradients. The DCS pulls back a target on $\\R^d$ onto a Euclidean ball $B(R)\\subset\\R^d$ and then samples from the transformed density on the convex set $B(R)$ via algorithms such as the Ball Walk, Hit-and-Run and others. A radial diffeomorphic contraction is chosen so that the pull-back density on $B(R)$ is bounded, implying uniform ergodicity for \\textit{all} targets with a finite polynomial moment. Non-asymptotic bounds for DCS require stronger assumptions such as log-concavity of the pull-back density. In practice, this is achieved approximately by a preconditioned automorphism of the ball $B(R)$, tuned via Variational Inference. Numerical simulation tests demonstrate that the DCS outperforms significantly the No-U-Turns sampler on multi-dimensional heavy-tailed targets arising as real-world posteriors in PosteriorDB benchmark. DCS also numerically outperforms in high-dimensional examples recently developed spherical projection samplers for heavy-tailed target distributions.",
+ "primary": "stat.CO"
+}

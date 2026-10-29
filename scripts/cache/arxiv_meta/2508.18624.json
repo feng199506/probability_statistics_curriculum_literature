@@ -1,0 +1,16 @@
+{
+ "id": "2508.18624",
+ "title": "Unified theory of testing relevant hypotheses in functional time series",
+ "authors": [
+  "Leheng Cai",
+  "Qirui Hu"
+ ],
+ "v1_date": "2025-08-26",
+ "latest_version": 2,
+ "latest_date": "2026-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we develop a {\\em unified} framework for testing relevant hypotheses in functional time series. The proposed approach accommodates one-sample, two-sample, and change point problems for contaminated observations under arbitrary sampling schemes. Combining B-spline estimation with self-normalization, we construct nuisance-parameter-free tests that bypass auxiliary estimation of long-run covariance functions and measurement-error variance functions. We establish asymptotic validity by exploiting a sequential Gaussian approximation for dependent random vectors of moderately high dimension, which leads to a pivotal limiting distribution. We also provide sufficient conditions for the non-degeneracy of the self-normalizer and establish consistent decision rules. A key theoretical finding is that the proposed tests detect \\(n^{-1/2}\\)-local alternatives under arbitrary sampling frequencies. This uncovers a sparse-to-dense phase transition distinct from those typically observed in functional data analysis: while the sampling frequency affects the asymptotic variance, the detection rate remains \\(n^{-1/2}\\), even in sparsely sampled regimes. We further study multiple change point alternatives and extend the theory to settings where consistent change point estimates are available. We also discuss the choice of self-normalizers, including the recently developed range-adjusted self-normalizer. Extensive simulations support the theoretical results, and applications to the AU.SHF implied volatility and traffic volume datasets demonstrate the practical utility of the proposed methods.",
+ "primary": "stat.ME"
+}

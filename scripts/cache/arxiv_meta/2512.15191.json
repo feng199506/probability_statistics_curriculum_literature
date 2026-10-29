@@ -1,0 +1,17 @@
+{
+ "id": "2512.15191",
+ "title": "Sparse Principal Component Analysis with Energy Profile Dependent Sample Complexity",
+ "authors": [
+  "Mengchu Xu",
+  "Jian Wang",
+  "Yonina C. Eldar"
+ ],
+ "v1_date": "2025-12-17",
+ "latest_version": 2,
+ "latest_date": "2026-08-23",
+ "journal_ref": "",
+ "doi": "10.1109/tit.2026.3727436",
+ "comment": "Accepted by IEEE Transactions on Information Theory (TIT). 17 pages, 3 figures",
+ "abstract": "We study sparse principal component analysis in the high-dimensional, sample-limited regime, aiming to recover a leading component supported on a few coordinates. Despite extensive progress, most methods and analyses are tailored to the flat-spike case, offering little guidance when spike energy is unevenly distributed across the support. Motivated by this, we propose Spectral Energy Pursuit (SEP), an effective iterative scheme that repeatedly screens and reselects coordinates, with a sample complexity that adapts to the energy profile. We develop our framework around a structure function \\(s(p)\\) that quantifies how spike energy accumulates over its top \\(p\\) entries. To our knowledge, SEP is the first polynomial-time SPCA method with a sample-complexity guarantee governed by the full energy profile: it succeeds with \\(m\\gtrsim \\max_{1\\le p\\le k} p\\,s^2(p)\\,\\log n\\) samples, recovering the classical \\(k^2\\log n\\) rate for flat spikes and improving to \\(k\\log n\\) for sufficiently concentrated profiles. As a lightweight post-processing, a single truncated power iteration is proven to enable the final estimator to attain a uniform statistical error bound. Empirical simulations using a flat profile and offset-regularized decaying profiles validate that SEP adapts to profile structure without profile-specific tuning and outperforms existing algorithms.",
+ "primary": "cs.IT"
+}

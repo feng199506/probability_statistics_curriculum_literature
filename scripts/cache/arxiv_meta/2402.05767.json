@@ -1,0 +1,16 @@
+{
+ "id": "2402.05767",
+ "title": "Covariance matrix completion via auxiliary information",
+ "authors": [
+  "Joseph Steneman",
+  "Giuseppe Vinci"
+ ],
+ "v1_date": "2024-02-08",
+ "latest_version": 2,
+ "latest_date": "2025-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 9 figures",
+ "abstract": "Covariance matrix estimation is an important task in the analysis of multivariate data in disparate scientific fields. However, modern scientific data are often incomplete due to factors beyond the control of researchers, and traditional methods may only yield incomplete covariance matrix estimates. For example, it is impossible to obtain a complete sample covariance matrix if some variable pairs have no joint observations. We propose a novel approach, AuxCov, which exploits auxiliary variables to produce complete covariance matrix estimates from structurally incomplete data. In neuroscience, an example of an auxiliary variable is the distance between neurons, which is typically inversely related to the strength of the neuronal correlation. AuxCov estimates the relationship between the observed correlations and the auxiliary variables via regression, and uses it to predict the missing correlation estimates and to regularize the observed ones. We implement AuxCov using parametric and nonparametric regression methods, and propose procedures for tuning parameter selection and uncertainty quantification. We evaluate the performance of AuxCov through simulations and in the analysis of large-scale neuroscience data.",
+ "primary": "stat.ME"
+}

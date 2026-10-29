@@ -1,0 +1,18 @@
+{
+ "id": "2402.01148",
+ "title": "The Optimality of Kernel Classifiers in Sobolev Space",
+ "authors": [
+  "Jianfa Lai",
+  "Zhifan Li",
+  "Dongming Huang",
+  "Qian Lin"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 1,
+ "latest_date": "2024-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 2 figures",
+ "abstract": "Kernel methods are widely used in machine learning, especially for classification problems. However, the theoretical analysis of kernel classification is still limited. This paper investigates the statistical performances of kernel classifiers. With some mild assumptions on the conditional probability $η(x)=\\mathbb{P}(Y=1\\mid X=x)$, we derive an upper bound on the classification excess risk of a kernel classifier using recent advances in the theory of kernel regression. We also obtain a minimax lower bound for Sobolev spaces, which shows the optimality of the proposed classifier. Our theoretical results can be extended to the generalization error of overparameterized neural network classifiers. To make our theoretical results more applicable in realistic settings, we also propose a simple method to estimate the interpolation smoothness of $2η(x)-1$ and apply the method to real datasets.",
+ "primary": "math.ST"
+}

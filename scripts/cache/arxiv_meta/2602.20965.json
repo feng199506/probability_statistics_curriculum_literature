@@ -1,0 +1,17 @@
+{
+ "id": "2602.20965",
+ "title": "Estimating the Partially Linear Zero-Inflated Poisson Regression Model: a Robust Approach Using a EM-like Algorithm",
+ "authors": [
+  "María José Llop",
+  "Andrea Bergesio",
+  "Anne-Françoise Yao"
+ ],
+ "v1_date": "2026-02-24",
+ "latest_version": 1,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Count data with an excessive number of zeros frequently arise in fields such as economics, medicine, and public health. Traditional count models often fail to adequately handle such data, especially when the relationship between the response and some predictors is nonlinear. To overcome these limitations, the partially linear zero-inflated Poisson (PLZIP) model has been proposed as a flexible alternative. However, all existing estimation approaches for this model are based on likelihood, which is known to be highly sensitive to outliers and slight deviations from the model assumptions. This article presents the first robust estimation method specifically developed for the PLZIP model. An Expectation-Maximization-like algorithm is used to take advantage of the mixture nature of the model and to address extreme observations in both the response and the covariates. Results of the algorithm convergence and the consistency of the estimators are proved. A simulation study under various contamination schemes showed the robustness and efficiency of the proposed estimators in finite samples, compared to classical estimators. Finally, the application of the methodology is illustrated through an example using real data.",
+ "primary": "stat.ME"
+}

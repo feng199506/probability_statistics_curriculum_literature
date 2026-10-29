@@ -1,0 +1,17 @@
+{
+ "id": "2411.01317",
+ "title": "Distributed Pseudo-Likelihood Method for Community Detection in Large-Scale Networks",
+ "authors": [
+  "Jiayi Deng",
+  "Danyang Huang",
+  "Bo Zhang"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "10.1145/3657300",
+ "comment": "",
+ "abstract": "This paper proposes a distributed pseudo-likelihood method (DPL) to conveniently identify the community structure of large-scale networks. Specifically, we first propose a block-wise splitting method to divide large-scale network data into several subnetworks and distribute them among multiple workers. For simplicity, we assume the classical stochastic block model. Then, the DPL algorithm is iteratively implemented for the distributed optimization of the sum of the local pseudo-likelihood functions. At each iteration, the worker updates its local community labels and communicates with the master. The master then broadcasts the combined estimator to each worker for the new iterative steps. Based on the distributed system, DPL significantly reduces the computational complexity of the traditional pseudo-likelihood method using a single machine. Furthermore, to ensure statistical accuracy, we theoretically discuss the requirements of the worker sample size. Moreover, we extend the DPL method to estimate degree-corrected stochastic block models. The superior performance of the proposed distributed algorithm is demonstrated through extensive numerical studies and real data analysis.",
+ "primary": "stat.ME"
+}

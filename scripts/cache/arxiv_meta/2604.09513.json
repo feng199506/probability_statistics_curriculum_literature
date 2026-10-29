@@ -1,0 +1,15 @@
+{
+ "id": "2604.09513",
+ "title": "Harmonic Map Regression: Rate-Optimal Nonparametric Estimation on Manifolds with Topological Recovery",
+ "authors": [
+  "Xiaoyu Chen"
+ ],
+ "v1_date": "2026-04-10",
+ "latest_version": 1,
+ "latest_date": "2026-04-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study harmonic map regression, a nonparametric estimator for manifold-valued responses, that penalizes the empirical Fréchet risk by the Dirichlet energy. By connecting penalized regression to the theory of harmonic maps, the estimator acquires a structural theory that parallels the classical Euclidean smoothing spline. The Euler-Lagrange equation characterizes the solution as a piecewise-geodesic spline, an equivalent kernel controls pointwise risk at the rate $n^{-2/3}$, and the infinite-dimensional variational problem reduces exactly to a finite-dimensional optimization. Such newly established connection reveals a topological phenomenon that has no analogue in Euclidean nonparametric regression and, to our knowledge, has not been studied in the manifold regression literature. On manifolds whose regression curves can wrap around in topologically distinct ways, maps in distinct homotopy classes are separated by energy barriers intrinsic to the geometry of the target, and the Dirichlet penalty makes the estimator sensitive to this structure, recovering the correct topological class with probability tending to one, a phase transition we call topological recovery. A curvature-dependent oracle inequality yields the minimax rate $n^{-2s/(2s+1)}$ for Sobolev order $s$, matching the Euclidean constant on non-positively curved targets, while five geometric obstructions show that the full structural theory is unique to the Dirichlet energy ($s=1$). Simulations on $S^2$, $\\mathbb{H}^2$, $SO(3)$, $\\mathrm{Sym}^+(2)$, and $T^2$ corroborate the theory, and an application to wind-direction data on $S^1$ illustrates practical advantages.",
+ "primary": "math.ST"
+}

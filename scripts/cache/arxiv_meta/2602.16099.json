@@ -1,0 +1,17 @@
+{
+ "id": "2602.16099",
+ "title": "Quantifying and Attributing Submodel Uncertainty in Stochastic Simulation Models and Digital Twins",
+ "authors": [
+  "Mohammadmahdi Ghasemloo",
+  "David J. Eckman",
+  "Yaxian Li"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 1,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic simulation is widely used to study complex systems composed of various interconnected subprocesses, such as input processes, routing and control logic, optimization routines, and data-driven decision modules. In practice, these subprocesses may be inherently unknown or too computationally intensive to directly embed in the simulation model. Replacing these elements with estimated or learned approximations introduces a form of epistemic uncertainty that we refer to as submodel uncertainty. This paper investigates how submodel uncertainty affects the estimation of system performance metrics. We develop a framework for quantifying submodel uncertainty in stochastic simulation models and extend the framework to digital-twin settings, where simulation experiments are repeatedly conducted with the model initialized from observed system states. Building on approaches from input uncertainty analysis, we leverage bootstrapping and Bayesian model averaging to construct quantile-based confidence or credible intervals for key performance indicators. We propose a tree-based method that decomposes total output variability and attributes uncertainty to individual submodels in the form of importance scores. The proposed framework is model-agnostic and accommodates both parametric and nonparametric submodels under frequentist and Bayesian modeling paradigms. A synthetic numerical experiment and a more realistic digital-twin simulation of a contact center illustrate the importance of understanding how and how much individual submodels contribute to overall uncertainty.",
+ "primary": "stat.CO"
+}

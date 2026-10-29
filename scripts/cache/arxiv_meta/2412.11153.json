@@ -1,0 +1,17 @@
+{
+ "id": "2412.11153",
+ "title": "Balancing Accuracy and Costs in Cross-Temporal Hierarchies: Investigating Decision-Based and Validation-Based Reconciliation",
+ "authors": [
+  "Mahdi Abolghasemi",
+  "Daniele Girolimetto",
+  "Tommaso Di Fonzo"
+ ],
+ "v1_date": "2024-12-15",
+ "latest_version": 1,
+ "latest_date": "2024-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Wind power forecasting is essential for managing daily operations at wind farms and enabling market operators to manage power uncertainty effectively in demand planning. This paper explores advanced cross-temporal forecasting models and their potential to enhance forecasting accuracy. First, we propose a novel approach that leverages validation errors, rather than traditional in-sample errors, for covariance matrix estimation and forecast reconciliation. Second, we introduce decision-based aggregation levels for forecasting and reconciliation where certain horizons are based on the required decisions in practice. Third, we evaluate the forecasting performance of the models not only on their ability to minimize errors but also on their effectiveness in reducing decision costs, such as penalties in ancillary services. Our results show that statistical-based hierarchies tend to adopt less conservative forecasts and reduce revenue losses. On the other hand, decision-based reconciliation offers a more balanced compromise between accuracy and decision cost, making them attractive for practical use.",
+ "primary": "stat.ME"
+}

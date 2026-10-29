@@ -1,0 +1,18 @@
+{
+ "id": "2507.10511",
+ "title": "Constructing Confidence Intervals for Infinite-Dimensional Functional Parameters by Highly Adaptive Lasso",
+ "authors": [
+  "Wenxin Zhang",
+  "Junming Shi",
+  "Alan Hubbard",
+  "Mark van der Laan"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 3,
+ "latest_date": "2025-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating the conditional mean function is a central task in statistical learning. In this paper, we consider estimation and inference for a nonparametric class of real-valued cadlag functions with bounded sectional variation (Gill et al., 1995), using the Highly Adaptive Lasso (HAL) (van der Laan, 2015; Benkeser and van der Laan, 2016; van der Laan, 2023), a flexible empirical risk minimizer over linear combinations of tensor products of zero- or higher-order spline basis functions under an L1 norm constraint. Building on recent theoretical advances in asymptotic normality and uniform convergence rates for higher-order spline HAL estimators, this work focuses on constructing robust confidence intervals for HAL-based estimators of conditional means. First, we propose a targeted HAL with a debiasing step to remove the regularization bias of the targeted conditional mean and also consider a relaxed HAL estimator to reduce such bias within the working model. Second, we propose both global and local undersmoothing strategies to adaptively enlarge the working model and further reduce bias relative to variance. Third, we combine these estimation strategies with delta-method-based variance estimators to construct confidence intervals for the conditional mean. Through extensive simulation studies, we evaluate different combinations of our estimation procedures, model selection strategies, and confidence-interval constructions. The results show that our proposed approaches substantially reduce bias relative to variance and yield confidence intervals with coverage rates close to nominal levels across different scenarios. Finally, we demonstrate the general applicability of our framework by estimating conditional average treatment effect (CATE) functions, highlighting how HAL-based inference methods extend to other infinite-dimensional, non-pathwise-differentiable parameters.",
+ "primary": "stat.ME"
+}

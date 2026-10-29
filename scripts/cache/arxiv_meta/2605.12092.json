@@ -1,0 +1,18 @@
+{
+ "id": "2605.12092",
+ "title": "Laplacian-P-splines for shared Gamma frailty models applied to clustered right-censored time-to-event data",
+ "authors": [
+  "Piotr Lewczuk",
+  "Oswaldo Gressani",
+  "Steven Abrams",
+  "Christel Faes"
+ ],
+ "v1_date": "2026-05-12",
+ "latest_version": 1,
+ "latest_date": "2026-05-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 1 figure, 5 tables",
+ "abstract": "Shared frailty models have been proposed to accommodate unmeasured cluster-specific risk factors through the inclusion of a common latent frailty term. Among possible frailty distributions, the Gamma distribution is appealing due to its non-negativity, flexibility, and algebraic tractability leading to closed-form marginal survival or hazard function expressions. Under the Bayesian paradigm, the posterior distributions of model parameters are usually explored with computationally intensive procedures relying on Markov chain Monte Carlo sampling. As an alternative, Laplacian-P-splines (LPS) provide a flexible and sampling-free alternative by relying on Gaussian approximations of the posterior target distributions. In this model class, analytical formulas are obtained for the gradient and Hessian, yielding a computationally efficient inference scheme for estimation of model parameters with a natural way of quantifying uncertainty. This article extends the LPS toolbox to the inclusion of shared Gamma frailty models for clustered time-to-event data. We assess the finite-sample performance of the LPS estimation procedure through an extensive simulation study and compare estimates with those obtained using penalized partial likelihood estimation, without specification of the baseline hazard, and with the variance of the frailty term being estimated using profile likelihood. Finally, the proposed LPS estimation method is exemplified using three publicly available biomedical datasets on: (i) recurrent infections in children, (ii) cancer prevention, and (iii) kidney transplantation.",
+ "primary": "stat.ME"
+}

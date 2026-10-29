@@ -1,0 +1,17 @@
+{
+ "id": "2506.17153",
+ "title": "Profile monitoring of random functions with Gaussian process basis expansions",
+ "authors": [
+  "Takayuki Iguchi",
+  "Jonathan R. Stewart",
+  "Eric Chicken"
+ ],
+ "v1_date": "2025-06-20",
+ "latest_version": 1,
+ "latest_date": "2025-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Main: 34 pages, 10 figures. Supplemental: 11 pages, 1 figure",
+ "abstract": "We consider the problem of online profile monitoring of random functions that admit basis expansions possessing random coefficients for the purpose of out-of-control state detection. Our approach is applicable to a broad class of random functions which feature two sources of variation: additive error and random fluctuations through random coefficients in the basis representation of functions. We focus on a two-phase monitoring problem with a first stage consisting of learning the in-control process and the second stage leveraging the learned process for out-of-control state detection. The foundations of our method are derived under the assumption that the coefficients in the basis expansion are Gaussian random variables, which facilitates the development of scalable and effective monitoring methodology for the observed processes that makes weak functional assumptions on the underlying process. We demonstrate the potential of our method through simulation studies that highlight some of the nuances that emerge in profile monitoring problems with random functions, and through an application.",
+ "primary": "stat.ME"
+}

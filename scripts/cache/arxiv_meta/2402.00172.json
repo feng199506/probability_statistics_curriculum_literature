@@ -1,0 +1,16 @@
+{
+ "id": "2402.00172",
+ "title": "The Fourier-Malliavin Volatility (FMVol) MATLAB library",
+ "authors": [
+  "Simona Sanfelici",
+  "Giacomo Toscano"
+ ],
+ "v1_date": "2024-01-31",
+ "latest_version": 1,
+ "latest_date": "2024-01-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper presents the Fourier-Malliavin Volatility (FMVol) estimation library for MATLAB. This library includes functions that implement Fourier- Malliavin estimators (see Malliavin and Mancino (2002, 2009)) of the volatility and co-volatility of continuous stochastic volatility processes and second-order quantities, like the quarticity (the squared volatility), the volatility of volatility and the leverage (the covariance between changes in the process and changes in its volatility). The Fourier-Malliavin method is fully non-parametric, does not require equally-spaced observations and is robust to measurement errors, or noise, without any preliminary bias correction or pre-treatment of the observations. Further, in its multivariate version, it is intrinsically robust to irregular and asynchronous sampling. Although originally introduced for a specific application in financial econometrics, namely the estimation of asset volatilities, the Fourier-Malliavin method is a general method that can be applied whenever one is interested in reconstructing the latent volatility and second-order quantities of a continuous stochastic volatility process from discrete observations.",
+ "primary": "stat.CO"
+}

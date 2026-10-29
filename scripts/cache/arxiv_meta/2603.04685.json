@@ -1,0 +1,16 @@
+{
+ "id": "2603.04685",
+ "title": "Sequential Multiple Testing: A Second-Order Asymptotic Analysis",
+ "authors": [
+  "Jingyu Liu",
+  "Yanglei Song"
+ ],
+ "v1_date": "2026-03-05",
+ "latest_version": 1,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study sequential multiple testing with independent data streams, where the goal is to identify an unknown subset of signals while controlling commonly used error metrics, including generalized familywise rates and false discovery and non-discovery rates. For these problems, procedures that are first-order optimal are known, in the sense that the ratio of their expected sample size (ESS) to the minimal achievable ESS converges to one as the error tolerance levels vanish. In this work, we develop a unified theory of second-order asymptotic optimality. We establish general sufficient conditions under which second-order Bayesian optimality implies second-order frequentist optimality for broad classes of sequential testing procedures. As a consequence, several procedures previously known to be first-order optimal are shown to be second-order optimal: for every signal configuration, the difference between their ESS and the minimal achievable ESS remains uniformly bounded as the error tolerance levels tend to zero. In addition, we derive a second-order asymptotic expansion of the minimal achievable ESS, which refines the classical first-order approximation by identifying the second-order correction term arising from a boundary-crossing problem for a multidimensional random walk. We apply this result to several commonly used error metrics.",
+ "primary": "math.ST"
+}

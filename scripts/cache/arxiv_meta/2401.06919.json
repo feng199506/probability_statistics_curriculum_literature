@@ -1,0 +1,17 @@
+{
+ "id": "2401.06919",
+ "title": "Pseudo-Empirical Likelihood Methods for Causal Inference",
+ "authors": [
+  "Jingyue Huang",
+  "Changbao Wu",
+  "Leilei Zeng"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 1,
+ "latest_date": "2024-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference problems have remained an important research topic over the past several decades due to their general applicability in assessing a treatment effect in many different real-world settings. In this paper, we propose two inferential procedures on the average treatment effect (ATE) through a two-sample pseudo-empirical likelihood (PEL) approach. The first procedure uses the estimated propensity scores for the formulation of the PEL function, and the resulting maximum PEL estimator of the ATE is equivalent to the inverse probability weighted estimator discussed in the literature. Our focus in this scenario is on the PEL ratio statistic and establishing its theoretical properties. The second procedure incorporates outcome regression models for PEL inference through model-calibration constraints, and the resulting maximum PEL estimator of the ATE is doubly robust. Our main theoretical result in this case is the establishment of the asymptotic distribution of the PEL ratio statistic. We also propose a bootstrap method for constructing PEL ratio confidence intervals for the ATE to bypass the scaling constant which is involved in the asymptotic distribution of the PEL ratio statistic but is very difficult to calculate. Finite sample performances of our proposed methods with comparisons to existing ones are investigated through simulation studies.",
+ "primary": "stat.ME"
+}

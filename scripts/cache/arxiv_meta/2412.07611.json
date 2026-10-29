@@ -1,0 +1,17 @@
+{
+ "id": "2412.07611",
+ "title": "Deep Partially Linear Transformation Model for Right-Censored Survival Data",
+ "authors": [
+  "Junkai Yin",
+  "Yue Zhang",
+  "Zhangsheng Yu"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 3,
+ "latest_date": "2025-10-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although the Cox proportional hazards model is well established and extensively used in the analysis of survival data, the proportional hazards (PH) assumption may not always hold in practical scenarios. The class of semiparametric transformation models extends the Cox model and also includes many other survival models as special cases. This paper introduces a deep partially linear transformation model (DPLTM) as a general and flexible regression framework for right-censored data. The proposed method is capable of avoiding the curse of dimensionality while still retaining the interpretability of some covariates of interest. We derive the overall convergence rate of the maximum likelihood estimators, the minimax lower bound of the nonparametric deep neural network (DNN) estimator, and the asymptotic normality and the semiparametric efficiency of the parametric estimator. Comprehensive simulation studies demonstrate the impressive performance of the proposed estimation procedure in terms of both the estimation accuracy and the predictive power, which is further validated by an application to a real-world dataset.",
+ "primary": "stat.ME"
+}

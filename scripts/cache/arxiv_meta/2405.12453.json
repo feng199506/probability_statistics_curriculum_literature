@@ -1,0 +1,15 @@
+{
+ "id": "2405.12453",
+ "title": "One-step data-driven generative model via Schrödinger Bridge",
+ "authors": [
+  "Hanwen Huang"
+ ],
+ "v1_date": "2024-05-21",
+ "latest_version": 1,
+ "latest_date": "2024-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 5 figures",
+ "abstract": "Generating samples from a probability distribution is a fundamental task in machine learning and statistics. This article proposes a novel scheme for sampling from a distribution for which the probability density $μ({\\bf x})$ for ${\\bf x}\\in{\\mathbb{R}}^d$ is unknown, but finite independent samples are given. We focus on constructing a Schrödinger Bridge (SB) diffusion process on finite horizon $t\\in[0,1]$ which induces a probability evolution starting from a fixed point at $t=0$ and ending with the desired target distribution $μ({\\bf x})$ at $t=1$. The diffusion process is characterized by a stochastic differential equation whose drift function can be solely estimated from data samples through a simple one-step procedure. Compared to the classical iterative schemes developed for the SB problem, the methodology of this article is quite simple, efficient, and computationally inexpensive as it does not require the training of neural network and thus circumvents many of the challenges in building the network architecture. The performance of our new generative model is evaluated through a series of numerical experiments on multi-modal low-dimensional simulated data and high-dimensional benchmark image data. Experimental results indicate that the synthetic samples generated from our SB Bridge based algorithm are comparable with the samples generated from the state-of-the-art methods in the field. Our formulation opens up new opportunities for developing efficient diffusion models that can be directly applied to large scale real-world data.",
+ "primary": "stat.CO"
+}

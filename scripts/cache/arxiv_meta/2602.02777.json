@@ -1,0 +1,16 @@
+{
+ "id": "2602.02777",
+ "title": "Disentangling spatial interference and spatial confounding biases in causal inference",
+ "authors": [
+  "Isqeel Ogunsola",
+  "Olatunji Johnson"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 1,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatial interference and spatial confounding are two major issues inhibiting precise causal estimates when dealing with observational spatial data. Moreover, the definition and interpretation of spatial confounding remain arguable in the literature. In this paper, our goal is to provide clarity in a novel way on misconception and issues around spatial confounding from Directed Acyclic Graph (DAG) perspective and to disentangle both direct, indirect spatial confounding and spatial interference based on bias induced on causal estimates. Also, existing analyses of spatial confounding bias typically rely on Normality assumptions for treatments and confounders, assumptions that are often violated in practice. Relaxing these assumptions, we derive analytical expressions for spatial confounding bias under more general distributional settings using Poisson as example . We showed that the choice of spatial weights, the distribution of the treatment, and the magnitude of interference critically determine the extent of bias due to spatial interference. We further demonstrate that direct and indirect spatial confounding can be disentangled, with both the weight matrix and the nature of exposure playing central roles in determining the magnitude of indirect bias. Theoretical results are supported by simulation studies and an application to real-world spatial data. In future, parametric frameworks for concomitantly adjusting for spatial interference, direct and indirect spatial confounding for both direct and mediated effects estimation will be developed.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2507.11297",
+ "title": "How to rank imputation methods?",
+ "authors": [
+  "Jeffrey Näf",
+  "Krystyna Grzesiak",
+  "Erwan Scornet"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Imputation is an attractive tool for dealing with the widespread issue of missing values. Consequently, studying and developing imputation methods has been an active field of research over the last decade. Faced with an imputation task and a large number of methods, how does one find the most suitable imputation? Although model selection in different contexts, such as prediction, has been well studied, this question appears not to have received much attention. In this paper, we follow the concept of Imputation Scores (I-Scores) and develop a new, reliable, and easy-to-implement score to rank missing value imputations for a given data set without access to the complete data. In practice, this is usually done by artificially masking observations to compare imputed to observed values using measures such as the Root Mean Squared Error (RMSE). We discuss how this approach of additionally masking observations can be misleading if not done carefully and that it is generally not valid under MAR. We then identify a new missingness assumption and develop a score that combines a sensible masking of observations with proper scoring rules. As such the ranking is geared towards the imputation that best replicates the distribution of the data, allowing to find imputations that are suitable for a range of downstream tasks. We show the propriety of the score and discuss an estimation algorithm involving energy scores. Finally, we show the efficacy of the new score in simulated data examples, as well as a downstream task.",
+ "primary": "stat.ME"
+}

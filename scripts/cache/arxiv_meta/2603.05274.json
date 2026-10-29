@@ -1,0 +1,18 @@
+{
+ "id": "2603.05274",
+ "title": "Monitoring Covariance in Multichannel Profiles via Functional Graphical Models",
+ "authors": [
+  "Christian Capezza",
+  "Davide Forcina",
+  "Antonio Lepore",
+  "Biagio Palumbo"
+ ],
+ "v1_date": "2026-03-05",
+ "latest_version": 1,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Most statistical process monitoring methods for multichannel profiles focus solely on the mean and are almost ineffective when changes involve the covariance structure. Although it is known to be crucial, covariance monitoring requires estimating a much larger number of parameters, which may shift in a subtle and sparse fashion. That is, an out-of-control (OC) state may manifest with small deviations and affect only a very limited subset of these parameters. To address these difficulties, we propose a multichannel profile covariance (MPC) control chart based on functional graphical models that provide an interpretable representation of conditional dependencies between profiles. A nonparametric combination of the likelihood-ratio tests corresponding to different sparsity levels is then used to draw an overall inference and signal whether an OC state may have occurred. Between-profile relationships that are likely to have shifted are naturally identified at no additional computational cost. An extensive Monte Carlo simulation study compares the MPC control chart with state-of-the-art competitors, and a case study on monitoring multichannel temperature profiles in a roasting machine illustrates its practical applicability.",
+ "primary": "stat.ME"
+}

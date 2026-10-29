@@ -1,0 +1,18 @@
+{
+ "id": "2606.29798",
+ "title": "Scalable coarse-to-fine spatial downscaling",
+ "authors": [
+  "Daisuke Murakami",
+  "Yongwan Chun",
+  "Takahiro Yoshida",
+  "Hajime Seya"
+ ],
+ "v1_date": "2026-06-29",
+ "latest_version": 1,
+ "latest_date": "2026-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study proposes coarse-to-fine downscaling (CF-DS), a scalable spatial downscaling method extending coarse-to-fine spatial modeling. Unlike conventional spatial-statistical downscaling methods such as area-to-point kriging, CF-DS does not require covariance matrix inversion or likelihood evaluation. Instead, it represents latent spatial processes through the synthesis of multi-scale local models, substantially reducing computational cost while approximately satisfying the aggregation constraint. Monte Carlo experiments show that CF-DS achieves predictive accuracy comparable to area-to-point kriging with dramatically shorter computation times, particularly for large datasets. An application to downscaling electricity consumption in the Tokyo metropolitan area further demonstrates its practical usefulness. The results suggest that CF-DS provides an efficient alternative for large-scale spatial downscaling problems. CF-DS is implemented in an R package spCF (https://cran.r-project.org/web/packages/spCF/index.html).",
+ "primary": "stat.ME"
+}

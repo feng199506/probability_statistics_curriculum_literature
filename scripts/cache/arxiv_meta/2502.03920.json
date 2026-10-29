@@ -1,0 +1,18 @@
+{
+ "id": "2502.03920",
+ "title": "Unbiased Parameter Estimation for Bayesian Inverse Problems",
+ "authors": [
+  "Neil K. Chada",
+  "Ajay Jasra",
+  "Mohamed Maama",
+  "Raul Tempone"
+ ],
+ "v1_date": "2025-02-06",
+ "latest_version": 1,
+ "latest_date": "2025-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we consider the estimation of unknown parameters in Bayesian inverse problems. In most cases of practical interest, there are several barriers to performing such estimation, This includes a numerical approximation of a solution of a differential equation and, even if exact solutions are available, an analytical intractability of the marginal likelihood and its associated gradient, which is used for parameter estimation. The focus of this article is to deliver unbiased estimates of the unknown parameters, that is, stochastic estimators that, in expectation, are equal to the maximize of the marginal likelihood, and possess no numerical approximation error. Based upon the ideas of [4] we develop a new approach for unbiased parameter estimation for Bayesian inverse problems. We prove unbiasedness and establish numerically that the associated estimation procedure is faster than the current state-of-the-art methodology for this problem. We demonstrate the performance of our methodology on a range of problems which include a PDE and ODE.",
+ "primary": "stat.ME"
+}

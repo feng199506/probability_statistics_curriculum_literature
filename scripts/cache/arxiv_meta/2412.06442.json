@@ -1,0 +1,19 @@
+{
+ "id": "2412.06442",
+ "title": "Efficiency of nonparametric superiority tests based on restricted mean survival time versus the log-rank test under proportional hazards",
+ "authors": [
+  "Dominic Magirr",
+  "Craig Wang",
+  "Xinlei Deng",
+  "Tim Morris",
+  "Mark Baillie"
+ ],
+ "v1_date": "2024-12-09",
+ "latest_version": 1,
+ "latest_date": "2024-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: For RCTs with time-to-event endpoints, proportional hazard (PH) models are typically used to estimate treatment effects and logrank tests are commonly used for hypothesis testing. There is growing support for replacing this approach with a model-free estimand and assumption-lean analysis method. One alternative is to base the analysis on the difference in restricted mean survival time (RMST) at a specific time, a single-number summary measure that can be defined without any restrictive assumptions on the outcome model. In a simple setting without covariates, an assumption-lean analysis can be achieved using nonparametric methods such as Kaplan Meier estimation. The main advantage of moving to a model-free summary measure and assumption-lean analysis is that the validity and interpretation of conclusions do not depend on the PH assumption. The potential disadvantage is that the nonparametric analysis may lose efficiency under PH. There is disagreement in recent literature on this issue. Methods: Asymptotic results and simulations are used to compare the efficiency of a log-rank test against a nonparametric analysis of the difference in RMST in a superiority trial under PH. Previous studies have separately examined the effect of event rates and the censoring distribution on relative efficiency. This investigation clarifies conflicting results from earlier research by exploring the joint effect of event rate and censoring distribution together. Several illustrative examples are provided. Results: In scenarios with high event rates and/or substantial censoring across a large proportion of the study window, and when both methods make use of the same amount of data, relative efficiency is close to unity. However, in cases with low event rates but when censoring is concentrated at the end of the study window, the PH analysis has a considerable efficiency advantage.",
+ "primary": "stat.ME"
+}

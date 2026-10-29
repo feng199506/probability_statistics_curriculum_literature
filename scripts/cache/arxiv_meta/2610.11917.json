@@ -1,0 +1,16 @@
+{
+ "id": "2610.11917",
+ "title": "Multi-period Mean-Expectile Portfolio Optimization under Wasserstein Ambiguity: Reformulation, Degeneracy and the Role of the Ground Metric",
+ "authors": [
+  "Rupendra Yadav",
+  "Aparna Mehra"
+ ],
+ "v1_date": "2026-10-08",
+ "latest_version": 1,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Expectiles are the only law-invariant risk measures that are both coherent and elicitable. Unlike Conditional Value-at-Risk (CVaR), however, they do not admit a Rockafellar--Uryasev representation that admits tractable Wasserstein reformulations. We address this difficulty by developing an envelope theorem for worst-case expectiles that characterizes the worst-case expectile over a Wasserstein ambiguity set as the unique root of a worst-case expectation with a two-piece affine integrand. This representation permits direct application of standard Wasserstein duality. Using this result, we reformulate a multi-period tri-level mean--expectile portfolio problem as four parametric linear programs with constraints. We establish four structural properties of the proposed model: an endogenously damped price of robustness, a decision-dependent critical radius beyond which the expectile tail component becomes inactive, exact recovery of the nominal model at zero ambiguity, and a characterization of how the Wasserstein ground metric determines whether the limiting portfolio becomes more concentrated or more diversified. Numerical experiments on 90 FTSE constituents over 3,341 out-of-sample trading days show that the expectile model outperforms a CVaR model matched on ambiguity set, radius, ground metric, and trade-off weight in all nine parameter cells---significantly so whenever the radius is non-trivial. The experiments further confirm the predicted degeneracy under the ground metric.",
+ "primary": "q-fin.CP"
+}

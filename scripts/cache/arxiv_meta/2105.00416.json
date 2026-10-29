@@ -1,0 +1,17 @@
+{
+ "id": "2105.00416",
+ "title": "Selective Inference in Propensity Score Analysis",
+ "authors": [
+  "Yoshiyuki Ninomiya",
+  "Yuta Umezu",
+  "Ichiro Takeuchi"
+ ],
+ "v1_date": "2021-05-02",
+ "latest_version": 2,
+ "latest_date": "2021-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 2 figures, 5 tables",
+ "abstract": "Selective inference (post-selection inference) is a methodology that has attracted much attention in recent years in the fields of statistics and machine learning. Naive inference based on data that are also used for model selection tends to show an overestimation, and so the selective inference conditions the event that the model was selected. In this paper, we develop selective inference in propensity score analysis with a semiparametric approach, which has become a standard tool in causal inference. Specifically, for the most basic causal inference model in which the causal effect can be written as a linear sum of confounding variables, we conduct Lasso-type variable selection by adding an $\\ell_1$ penalty term to the loss function that gives a semiparametric estimator. Confidence intervals are then given for the coefficients of the selected confounding variables, conditional on the event of variable selection, with asymptotic guarantees. An important property of this method is that it does not require modeling of nonparametric regression functions for the outcome variables, as is usually the case with semiparametric propensity score analysis.",
+ "primary": "stat.ME"
+}

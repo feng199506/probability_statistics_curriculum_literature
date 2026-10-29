@@ -1,0 +1,16 @@
+{
+ "id": "2606.20420",
+ "title": "Advanced Calibration Analysis and Tools: Identifying Influential Observations in Stochastic Interest Rate Model Calibration",
+ "authors": [
+  "Philipp Mahler",
+  "Peter Ruckdeschel"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 1,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "47 pages, 9 figures, 1 table",
+ "abstract": "The accurate calibration of interest rate models is central to market-consistent valuation and Economic Scenario Generators (ESGs). Traditional calibration methods for multi-factor models such as the G2++ model often rely on point estimates, neglecting the influence of specific market data and the quantification of estimation uncertainty. This paper develops a diagnostic framework embedding the calibration problem into non-linear regression theory. It shows that the common industry practice of minimizing the Root Mean Squared Relative Error (RMSRE) is equivalent to a Weighted Least Squares (WLS) problem. This equivalence yields the corresponding formulations for diagnostic tools, including the Weighted Hat Matrix for leverage analysis, Influence Functions for local sensitivity diagnostics, and the Functional Delta Method for local, boundary-respecting confidence intervals. The implementation uses an efficient Jacobian factorization that exploits the analytical tractability of At-The-Money (ATM) caps. The framework is applied to a dataset of Euro ATM caps covering the period 2016--2025. Our empirical analysis reveals a boundary-dominated leverage profile, repeated losses of effective dimensionality due to active parameter constraints, and a diagnostic regime shift in local parameter stability around the post-2022 market transition. The resulting message for actuarial model governance is that low RMSRE is not sufficient for calibration validation. We conclude by discussing the framework's applicability to general least-squares problems while highlighting the computational challenges for instruments lacking closed-form gradients, such as swaptions.",
+ "primary": "q-fin.CP"
+}

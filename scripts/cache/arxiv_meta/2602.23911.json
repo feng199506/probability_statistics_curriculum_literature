@@ -1,0 +1,17 @@
+{
+ "id": "2602.23911",
+ "title": "Online Bootstrap Inference for the Trend of Nonstationary Time Series",
+ "authors": [
+  "Thomas Nagler",
+  "Tobias Brock",
+  "Nicolai Palm"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 2,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article proposes an online bootstrap scheme for nonparametric level estimation in nonstationary time series. Our approach applies to a broad class of level estimators expressible as weighted sample averages over time windows, including exponential smoothing methods and moving averages. The bootstrap procedure is motivated by asymptotic arguments and provides well-calibrated uniform-in-time coverage, enabling scalable uncertainty quantification in streaming or large-scale time-series settings. This makes the method suitable for tasks such as adaptive anomaly detection, online monitoring, or streaming A/B testing. Simulation studies demonstrate good finite-sample performance of our method across a range of nonstationary scenarios. In summary, this offers a practical resampling framework that complements online trend estimation with reliable statistical inference.",
+ "primary": "stat.ME"
+}

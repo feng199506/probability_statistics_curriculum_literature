@@ -1,0 +1,16 @@
+{
+ "id": "2405.16379",
+ "title": "Selective inference for multiple pairs of clusters after K-means clustering",
+ "authors": [
+  "Youngjoo Yun",
+  "Yinqiu He"
+ ],
+ "v1_date": "2024-05-25",
+ "latest_version": 1,
+ "latest_date": "2024-05-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "If the same data is used for both clustering and for testing a null hypothesis that is formulated in terms of the estimated clusters, then the traditional hypothesis testing framework often fails to control the Type I error. Gao et al. [2022] and Chen and Witten [2023] provide selective inference frameworks for testing if a pair of estimated clusters indeed stem from underlying differences, for the case where hierarchical clustering and K-means clustering, respectively, are used to define the clusters. In applications, however, it is often of interest to test for multiple pairs of clusters. In our work, we extend the pairwise test of Chen and Witten [2023] to a test for multiple pairs of clusters, where the cluster assignments are produced by K-means clustering. We further develop an analogous test for the setting where the variance is unknown, building on the work of Yun and Barber [2023] that extends Gao et al. [2022]'s pairwise test to the case of unknown variance. For both known and unknown variance settings, we present methods that address certain forms of data-dependence in the choice of pairs of clusters to test for. We show that our proposed tests control the Type I error, both theoretically and empirically, and provide a numerical study of their empirical powers under various settings.",
+ "primary": "stat.ME"
+}

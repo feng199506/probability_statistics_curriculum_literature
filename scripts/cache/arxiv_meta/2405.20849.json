@@ -1,0 +1,19 @@
+{
+ "id": "2405.20849",
+ "title": "Locally Stationary Distributions: A Framework for Analyzing Slow-Mixing Markov Chains",
+ "authors": [
+  "Kuikui Liu",
+  "Sidhanth Mohanty",
+  "Prasad Raghavendra",
+  "Amit Rajaraman",
+  "David X. Wu"
+ ],
+ "v1_date": "2024-05-31",
+ "latest_version": 4,
+ "latest_date": "2025-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages",
+ "abstract": "Many natural Markov chains fail to mix to their stationary distribution in polynomially many steps. Often, this slow mixing is inevitable since it is computationally intractable to sample from their stationary measure. Nevertheless, Markov chains can be shown to always converge quickly to measures that are locally stationary, i.e., measures that don't change over a small number of steps. These locally stationary measures are analogous to local minima in continuous optimization, while stationary measures correspond to global minima. While locally stationary measures can be statistically far from stationary measures, do they enjoy provable theoretical guarantees that have algorithmic implications? We study this question in this work and demonstrate three algorithmic applications of locally stationary measures: 1. We show that Glauber dynamics on the hardcore model can be used to find independent sets of size $Ω\\left(\\frac{\\log d}{d} \\cdot n\\right)$ in triangle-free graphs of degree at most $d$. 2. Let $W$ be a symmetric real matrix with bounded spectral diameter and $v$ be a unit vector. Given the matrix $M = λvv^\\top + W$ with a planted rank-one spike along vector $v$, for sufficiently large constant $λ$, Glauber dynamics on the Ising model defined by $M$ samples vectors $x \\in \\{\\pm 1\\}^n$ that have constant correlation with the vector $v$. 3. Let $M = A_{\\mathbf{G}} - \\frac{d}{n}\\mathbf{1}\\mathbf{1}^\\top$ be a centered version of the adjacency matrix where the graph $\\mathbf{G}$ is drawn from a sparse 2-community stochastic block model. We show that for sufficiently large constant signal-to-noise ratio, Glauber dynamics on the Ising model defined by $M$ samples vectors $x \\in \\{\\pm 1\\}^n$ that have constant correlation with the hidden community vector $\\mathbfσ$.",
+ "primary": "cs.DS"
+}

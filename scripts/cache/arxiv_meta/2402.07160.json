@@ -1,0 +1,18 @@
+{
+ "id": "2402.07160",
+ "title": "PASOA- PArticle baSed Bayesian Optimal Adaptive design",
+ "authors": [
+  "Jacopo Iollo",
+  "Christophe Heinkelé",
+  "Pierre Alliez",
+  "Florence Forbes"
+ ],
+ "v1_date": "2024-02-11",
+ "latest_version": 2,
+ "latest_date": "2024-06-04",
+ "journal_ref": "Proceedings of the 41st International Conference on Machine Learning, 2024",
+ "doi": "",
+ "comment": "ICML 2024",
+ "abstract": "We propose a new procedure named PASOA, for Bayesian experimental design, that performs sequential design optimization by simultaneously providing accurate estimates of successive posterior distributions for parameter inference. The sequential design process is carried out via a contrastive estimation principle, using stochastic optimization and Sequential Monte Carlo (SMC) samplers to maximise the Expected Information Gain (EIG). As larger information gains are obtained for larger distances between successive posterior distributions, this EIG objective may worsen classical SMC performance. To handle this issue, tempering is proposed to have both a large information gain and an accurate SMC sampling, that we show is crucial for performance. This novel combination of stochastic optimization and tempered SMC allows to jointly handle design optimization and parameter inference. We provide a proof that the obtained optimal design estimators benefit from some consistency property. Numerical experiments confirm the potential of the approach, which outperforms other recent existing procedures.",
+ "primary": "stat.ML"
+}

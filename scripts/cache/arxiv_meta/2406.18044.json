@@ -1,0 +1,20 @@
+{
+ "id": "2406.18044",
+ "title": "Torchtree: flexible phylogenetic model development and inference using PyTorch",
+ "authors": [
+  "Mathieu Fourment",
+  "Matthew Macaulay",
+  "Christiaan J Swanepoel",
+  "Xiang Ji",
+  "Marc A Suchard",
+  "Frederick A Matsen"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 1,
+ "latest_date": "2024-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 3 tables, and 4 figures in main text, plus supplementary materials",
+ "abstract": "Bayesian inference has predominantly relied on the Markov chain Monte Carlo (MCMC) algorithm for many years. However, MCMC is computationally laborious, especially for complex phylogenetic models of time trees. This bottleneck has led to the search for alternatives, such as variational Bayes, which can scale better to large datasets. In this paper, we introduce torchtree, a framework written in Python that allows developers to easily implement rich phylogenetic models and algorithms using a fixed tree topology. One can either use automatic differentiation, or leverage torchtree's plug-in system to compute gradients analytically for model components for which automatic differentiation is slow. We demonstrate that the torchtree variational inference framework performs similarly to BEAST in terms of speed and approximation accuracy. Furthermore, we explore the use of the forward KL divergence as an optimizing criterion for variational inference, which can handle discontinuous and non-differentiable models. Our experiments show that inference using the forward KL divergence tends to be faster per iteration compared to the evidence lower bound (ELBO) criterion, although the ELBO-based inference may converge faster in some cases. Overall, torchtree provides a flexible and efficient framework for phylogenetic model development and inference using PyTorch.",
+ "primary": "q-bio.PE"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2406.14184",
+ "title": "On integral priors for multiple comparison in Bayesian model selection",
+ "authors": [
+  "Diego Salmerón",
+  "Juan Antonio Cano",
+  "Christian P. Robert"
+ ],
+ "v1_date": "2024-06-20",
+ "latest_version": 6,
+ "latest_date": "2026-02-17",
+ "journal_ref": "International Statistical Review (2026),",
+ "doi": "10.1111/insr.70028",
+ "comment": "Accepted for publication in International Statistical Review. DOI: 10.1111/insr.70028",
+ "abstract": "Noninformative priors constructed for estimation purposes are usually not appropriate for model selection and testing. The methodology of integral priors was developed to get prior distributions for Bayesian model selection when comparing two models, modifying initial improper reference priors. We propose a generalization of this methodology to more than two models. Our approach adds an artificial copy of each model under comparison by compactifying the parametric space and creating an ergodic Markov chain across all models that returns the integral priors as marginals of the stationary distribution. Besides the guarantee of their existence and the lack of paradoxes attached to estimation reference priors, an additional advantage of this methodology is that the simulation of this Markov chain is straightforward as it only requires simulations of imaginary training samples for all models and from the corresponding posterior distributions. We present some examples, including situations where other methodologies need specific adjustments or do not produce a satisfactory answer.",
+ "primary": "stat.ME"
+}

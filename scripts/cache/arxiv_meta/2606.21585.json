@@ -1,0 +1,15 @@
+{
+ "id": "2606.21585",
+ "title": "A Transport-Based Geometry of Belief-Cost",
+ "authors": [
+  "Laurent Caraffa"
+ ],
+ "v1_date": "2026-06-19",
+ "latest_version": 5,
+ "latest_date": "2026-07-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages",
+ "abstract": "A finite agent, a machine's digital twin or any bounded reasoner, infers a fixed and noisy world through finite sensors, so its coherent output is a belief: a probability density over states (the Bayes posterior). Such an agent stops short of certainty, and revising a belief carries a cost. We propose a framework for belief costs based on optimal transport, motivated by these facts. We pose two postulates. P0 (the arena): a revision cost is a scalar price on optimal transport, so beliefs live in Wasserstein space. P1 (uniform pricing): one nat of knowledge costs the same metric length everywhere, the eikonal condition. Among conceivable pricing rules we study this one. Under P0 and P1 the cost metric is optimal transport conformally reweighted by Fisher information, $\\tilde g_{e,U}=2(e+U)\\,g_{W_2}$, and the Fisher family is a characterization: among continuous reliefs, uniform pricing is equivalent to $U=cJ$. Two consequences follow on the conformal class. Certainty sits at infinite cost-distance once the relief dominates the Fisher information, so a well-posed inference has a cost floor diverging at certainty (necessity conjectural beyond power laws). On location-scale leaves the geometry is hyperbolic, and the Stam bound places the Gaussian as the most curved one (at $e=0$). The results are geometric, in nats, and hold up to units: a change of cost unit rescales all distances and preserves every conclusion (boundary, eikonal family, hyperbolicity, Gaussian extremum), a gauge theorem; a global change of state units at $e=0$ is an isometry; the content lies in signs, rankings and ratios. Via Landauer (one nat worth $k_BT$) the cost floor becomes an energy floor: revising toward certainty would demand unbounded energy. Physics anchors the unit and enters no theorem. Removing either postulate leaves the selection open.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2604.13264",
+ "title": "Estimating effect thresholds and beyond: A flexible framework for multivariate alert detection",
+ "authors": [
+  "Lucia Ameis",
+  "Niklas Hagemann",
+  "Kathrin Möllenhoff"
+ ],
+ "v1_date": "2026-04-14",
+ "latest_version": 1,
+ "latest_date": "2026-04-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Evaluating the influence of continuous covariates, like exposure time or dose, on a response variable is a pivotal objective in the assessment of a compound's effect, particularly when determining toxicity in pre-clinical research or pharmacokinetics in clinical trials. The determination of an alert, such as the ED50 value, at which a pre-specified threshold of the response variable is crossed, is an important tool for the evaluation process. In practice, response data might be available for combinations of different covariates and the alert depending on both is of interest. In this case, it is crucial to use all available information and extrapolate between cases to ensure the optimal utilization of the data. In this paper, we introduce a parametric approach that allows alerts to be estimated in a multidimensional setting. For time-dose-response data, for instance, alert doses at a given time can be determined, even when there are no measurements available at that exact time. Likewise, it allows estimation of alert times for a given dose. More generally, the method makes it possible to characterize the complete alert relationship between covariates by leveraging all available data. This is achieved by fitting a parametric model and constructing either a confidence band for the two-dimensional curve given for example a fixed time or dose or by constructing a confidence plane for the three-dimensional model fit. The initial model fit is achieved by the flexible framework of Generalized Additive Models for Location, Scale and Shape (GAMLSS), which offers the possibility to account for a plethora of complex three-dimensional data structures. We demonstrate the validity of our approach through a simulation study and present an application to data from a study investigating the relevance of the exposure duration on cytotoxicity in primary human hepatocytes.",
+ "primary": "stat.ME"
+}

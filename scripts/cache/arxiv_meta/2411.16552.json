@@ -1,0 +1,15 @@
+{
+ "id": "2411.16552",
+ "title": "When Is Heterogeneity Actionable for Personalization?",
+ "authors": [
+  "Anya Shchetkina"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 1,
+ "latest_date": "2024-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin comment: This version has been removed by arXiv administrators as the submitter did not have the rights to agree to the license at the time of submission",
+ "abstract": "Targeting and personalization policies can be used to improve outcomes beyond the uniform policy that assigns the best performing treatment in an A/B test to everyone. Personalization relies on the presence of heterogeneity of treatment effects, yet, as we show in this paper, heterogeneity alone is not sufficient for personalization to be successful. We develop a statistical model to quantify \"actionable heterogeneity,\" or the conditions when personalization is likely to outperform the best uniform policy. We show that actionable heterogeneity can be visualized as crossover interactions in outcomes across treatments and depends on three population-level parameters: within-treatment heterogeneity, cross-treatment correlation, and the variation in average responses. Our model can be used to predict the expected gain from personalization prior to running an experiment and also allows for sensitivity analysis, providing guidance on how changing treatments can affect the personalization gain. To validate our model, we apply five common personalization approaches to two large-scale field experiments with many interventions that encouraged flu vaccination. We find an 18% gain from personalization in one and a more modest 4% gain in the other, which is consistent with our model. Counterfactual analysis shows that this difference in the gains from personalization is driven by a drastic difference in within-treatment heterogeneity. However, reducing cross-treatment correlation holds a larger potential to further increase personalization gains. Our findings provide a framework for assessing the potential from personalization and offer practical recommendations for improving gains from targeting in multi-intervention settings.",
+ "primary": "stat.AP"
+}

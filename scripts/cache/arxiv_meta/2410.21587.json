@@ -1,0 +1,15 @@
+{
+ "id": "2410.21587",
+ "title": "ATLAS: Adapting Trajectory Lengths and Step-Size for Hamiltonian Monte Carlo",
+ "authors": [
+  "Chirag Modi"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 1,
+ "latest_date": "2024-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code available at https://github.com/modichirag/AtlasSampler",
+ "abstract": "Hamiltonian Monte-Carlo (HMC) and its auto-tuned variant, the No U-Turn Sampler (NUTS) can struggle to accurately sample distributions with complex geometries, e.g., varying curvature, due to their constant step size for leapfrog integration and fixed mass matrix. In this work, we develop a strategy to locally adapt the step size parameter of HMC at every iteration by evaluating a low-rank approximation of the local Hessian and estimating its largest eigenvalue. We combine it with a strategy to similarly adapt the trajectory length by monitoring the no U-turn condition, resulting in an adaptive sampler, ATLAS: adapting trajectory length and step-size. We further use a delayed rejection framework for making multiple proposals that improves the computational efficiency of ATLAS, and develop an approach for automatically tuning its hyperparameters during warmup. We compare ATLAS with state-of-the-art samplers like NUTS on a suite of synthetic and real world examples, and show that i) unlike NUTS, ATLAS is able to accurately sample difficult distributions with complex geometries, ii) it is computationally competitive to NUTS for simpler distributions, and iii) it is more robust to the tuning of hyperparamters.",
+ "primary": "stat.CO"
+}

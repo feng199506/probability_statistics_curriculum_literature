@@ -1,0 +1,17 @@
+{
+ "id": "2504.06372",
+ "title": "A Metropolis-Adjusted Langevin Algorithm for Sampling Jeffreys Prior",
+ "authors": [
+  "Yibo Shi",
+  "Braghadeesh Lakshminarayanan",
+  "Cristian R. Rojas"
+ ],
+ "v1_date": "2025-04-08",
+ "latest_version": 3,
+ "latest_date": "2025-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, accepted by CDC 2025",
+ "abstract": "Inference and estimation are fundamental in statistics, system identification, and machine learning. When prior knowledge about the system is available, Bayesian analysis provides a natural framework for encoding it through a prior distribution. In practice, such knowledge is often too vague to specify a full prior distribution, motivating the use of default 'uninformative' priors that minimize subjective bias. Jeffreys prior is an appealing uninformative prior because: (i) it is invariant under any re-parameterization of the model, (ii) it encodes the intrinsic geometric structure of the parameter space through the Fisher information matrix, which in turn enhances the diversity of parameter samples. Despite these benefits, drawing samples from Jeffreys prior is challenging. In this paper, we develop a general sampling scheme using the Metropolis-Adjusted Langevin Algorithm that enables sampling of parameter values from Jeffreys prior; the method extends naturally to nonlinear state-space models. The resulting samples can be directly used in sampling-based system identification methods and Bayesian experiment design, providing an objective, information-geometric description of parameter uncertainty. Several numerical examples demonstrate the efficiency and accuracy of the proposed scheme.",
+ "primary": "eess.SY"
+}

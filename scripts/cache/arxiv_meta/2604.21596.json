@@ -1,0 +1,18 @@
+{
+ "id": "2604.21596",
+ "title": "Efficient Bayes Factor Sensitivity Analysis via Posterior Density Ratios",
+ "authors": [
+  "František Bartoš",
+  "Eric-Jan Wagenmakers",
+  "Maarten Marsman",
+  "Don van den Bergh"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayes factor sensitivity analysis examines how the evidence for one hypothesis over another depends on the prior distribution. In complex models, the standard approach refits the model at each hyper-parameter value, and the total computational cost scales linearly in the grid size. We propose a method that recovers the entire sensitivity curve from a single additional model fit. The key identity decomposes the Bayes factor at any hyper-parameter value $γ_x$ into an ``anchor'' Bayes factor at a fixed reference $γ_0$ and a Savage--Dickey density ratio in an extended model that places a hyper-prior on $γ$. Once this extended model is fit, the Bayes factor at any $γ_x$ follows from the anchor value and a ratio of two posterior density ordinates. To approximate this ratio, we employ the importance-weighted marginal density estimator (IWMDE). Because the sensitivity parameter enters the model only through the prior distribution on the model parameters, the data likelihood cancels in the IWMDE, reducing it to a simple ratio of prior density evaluations on the MCMC draws, without any additional likelihood computation. The resulting estimator is fast, remains accurate even with small MCMC samples, and substantially outperforms kernel density estimation across the full sensitivity range. The method extends naturally to simultaneous sensitivity over multiple hyper-parameters and to Bayesian model averaging. We illustrate it on a univariate Bayesian $t$-test with exact Bayes factors for validation, a bivariate informed $t$-test, and a Bayesian model-averaged meta-analysis, obtaining accurate sensitivity curves at a fraction of the brute-force cost.",
+ "primary": "stat.ME"
+}

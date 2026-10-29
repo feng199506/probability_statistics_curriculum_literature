@@ -1,0 +1,16 @@
+{
+ "id": "2509.23527",
+ "title": "Learning single index model with gradient descent: spectral initialization and precise asymptotics",
+ "authors": [
+  "Yuchen Chen",
+  "Yandi Shen"
+ ],
+ "v1_date": "2025-09-27",
+ "latest_version": 1,
+ "latest_date": "2025-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Non-convex optimization plays a central role in many statistics and machine learning problems. Despite the landscape irregularities for general non-convex functions, some recent work showed that for many learning problems with random data and large enough sample size, there exists a region around the true signal with benign landscape. Motivated by this observation, a widely used strategy is a two-stage algorithm, where we first apply a spectral initialization to plunge into the region, and then run gradient descent for further refinement. While this two-stage algorithm has been extensively analyzed for many non-convex problems, the precise distributional property of both its transient and long-time behavior remains to be understood. In this work, we study this two-stage algorithm in the context of single index models under the proportional asymptotics regime. We derive a set of dynamical mean field equations, which describe the precise behavior of the trajectory of spectral initialized gradient descent in the large system limit. We further show that when the spectral initialization successfully lands in a region of benign landscape, the above equation system is asymptotically time translation invariant and exponential converging, and thus admits a set of long-time fixed points that represents the mean field characterization of the limiting point of the gradient descent dynamic. As a proof of concept, we demonstrate our general theory in the example of regularized Wirtinger flow for phase retrieval.",
+ "primary": "math.ST"
+}

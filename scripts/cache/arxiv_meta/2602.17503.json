@@ -1,0 +1,18 @@
+{
+ "id": "2602.17503",
+ "title": "An extension to reversible jump Markov chain Monte Carlo for change point problems with heterogeneous temporal dynamics",
+ "authors": [
+  "Emily Gribbin",
+  "Benjamin Davis",
+  "Daniel Rolfe",
+  "Hannah Mitchell"
+ ],
+ "v1_date": "2026-02-19",
+ "latest_version": 2,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Detecting brief changes in time-series data remains a major challenge in fields where short-lived states carry meaning. In single-molecule localisation microscopy, this problem is particularly acute as fluorescent molecules used to tag protein oligomers display heterogenous photophysical behaviour that can complicate photobleach step analysis; a key step in resolving nanoscale protein organisation. Existing methods often require extensive filtering or prior calibration, and can fail to accurately account for blinking or reversible dark states that may contaminate downstream analysis. In this paper, an extension to RJMCMC is proposed for change point detection with heterogeneous temporal dynamics. This approach is applied to the problem of estimating per-frame active fluorophore counts from one-dimensional integrated intensity traces derived from Fluorescence Localisation Imaging with Photobleaching (FLImP), where compound change point pair moves are introduced to better account for short-lived events known as blinking and dark states. The approach is validated using simulated and experimental data, demonstrating improved accuracy and robustness when compared with current photobleach step analysis methods and with the existing analysis approach for FLImP data. This Compound RJMCMC (CRJMCMC) algorithm performs reliably across a wide range of fluorophore counts and signal-to-noise conditions, with signal-to-noise ratio (SNR) down to 0.001 and counts as high as nineteen fluorophores, while also effectively estimating low counts observed when studying EGFR oligomerisation. Beyond single molecule imaging, this work has applications for a variety of time series change point detection problems with heterogeneous state persistence. For example, electrocorticography brain-state segmentation, fault detection in industrial process monitoring and realised volatility in financial time series.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2406.19082",
+ "title": "Gratia: An R package for exploring generalized additive models",
+ "authors": [
+  "Gavin L. Simpson"
+ ],
+ "v1_date": "2024-06-27",
+ "latest_version": 1,
+ "latest_date": "2024-06-27",
+ "journal_ref": "Journal of Open Source Software, 9(104), 2024, 6962",
+ "doi": "10.21105/joss.06962",
+ "comment": "9 pages, 4 figures, submitted to Journal of Open Source Software",
+ "abstract": "Generalized additive models (GAMs, Hastie & Tibshirani, 1990; Wood, 2017) are an extension of the generalized linear model that allows the effects of covariates to be modelled as smooth functions. GAMs are increasingly used in many areas of science (e.g. Pedersen, Miller, Simpson, & Ross, 2019; Simpson, 2018) because the smooth functions allow nonlinear relationships between covariates and the response to be learned from the data through the use of penalized splines. Within the R (R Core Team, 2024) ecosystem, Simon Wood's mgcv package (Wood, 2017) is widely used to fit GAMs and is a Recommended package that ships with R as part of the default install. A growing number of other R packages build upon mgcv, for example as an engine to fit specialised models not handled by mgcv itself (e.g. GJMR, Marra & Radice, 2023), or to make use of the wide range of splines available in mgcv (e.g. brms, Bürkner, 2017). The gratia package builds upon mgcv by providing functions that make working with GAMs easier. gratia takes a tidy approach (Wickham, 2014) providing ggplot2 (Wickham, 2016) replacements for mgcv's base graphics-based plots, functions for model diagnostics and exploration of fitted models, and a family of functions for drawing samples from the posterior distribution of a fitted GAM. Additional functionality is provided to facilitate the teaching and understanding of GAMs.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2406.09010",
+ "title": "A geometric approach to informed MCMC sampling",
+ "authors": [
+  "Vivekananda Roy"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 2,
+ "latest_date": "2024-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A Riemannian geometric framework for Markov chain Monte Carlo (MCMC) is developed where using the Fisher-Rao metric on the manifold of probability density functions (pdfs), informed proposal densities for Metropolis-Hastings (MH) algorithms are constructed. We exploit the square-root representation of pdfs under which the Fisher-Rao metric boils down to the standard $L^2$ metric on the positive orthant of the unit hypersphere. The square-root representation allows us to easily compute the geodesic distance between densities, resulting in a straightforward implementation of the proposed geometric MCMC methodology. Unlike the random walk MH that blindly proposes a candidate state using no information about the target, the geometric MH algorithms move an uninformed base density (e.g., a random walk proposal density) towards different global/local approximations of the target density, allowing effective exploration of the distribution simultaneously at different granular levels of the state space. We compare the proposed geometric MH algorithm with other MCMC algorithms for various Markov chain orderings, namely the covariance, efficiency, Peskun, and spectral gap orderings. The superior performance of the geometric algorithms over other MH algorithms like the random walk Metropolis, independent MH, and variants of Metropolis adjusted Langevin algorithms is demonstrated in the context of various multimodal, nonlinear, and high dimensional examples. In particular, we use extensive simulation and real data applications to compare these algorithms for analyzing mixture models, logistic regression models, spatial generalized linear mixed models and ultra-high dimensional Bayesian variable selection models. A publicly available R package accompanies the article.",
+ "primary": "stat.ME"
+}

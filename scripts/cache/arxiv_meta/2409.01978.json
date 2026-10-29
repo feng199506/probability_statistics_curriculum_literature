@@ -1,0 +1,21 @@
+{
+ "id": "2409.01978",
+ "title": "Application of Langevin Dynamics to Advance the Quantum Natural Gradient Optimization Algorithm",
+ "authors": [
+  "Oleksandr Borysenko",
+  "Mykhailo Bratchenko",
+  "Ilya Lukin",
+  "Mykola Luhanko",
+  "Ihor Omelchenko",
+  "Andrii Sotnikov",
+  "Alessandro Lomi"
+ ],
+ "v1_date": "2024-09-03",
+ "latest_version": 4,
+ "latest_date": "2025-11-01",
+ "journal_ref": "Physica A 682 (2026) 131158",
+ "doi": "10.1016/j.physa.2025.131158",
+ "comment": "11 pages, 3 figures",
+ "abstract": "A Quantum Natural Gradient (QNG) algorithm for optimization of variational quantum circuits has been proposed recently. In this study, we employ the Langevin equation with a QNG stochastic force to demonstrate that its discrete-time solution gives a generalized form of the above-specified algorithm, which we call Momentum-QNG. Similar to other optimization algorithms with the momentum term, such as the Stochastic Gradient Descent with momentum, RMSProp with momentum and Adam, Momentum-QNG is more effective to escape local minima and plateaus in the variational parameter space and, therefore, demonstrates an improved performance compared to the basic QNG. In this paper we benchmark Momentum-QNG together with the basic QNG, Adam and Momentum optimizers and explore its convergence behaviour. Among the benchmarking problems studied, the best result is obtained for the quantum Sherrington-Kirkpatrick model in the strong spin glass regime. Our open-source code is available at https://github.com/borbysh/Momentum-QNG",
+ "primary": "quant-ph"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2504.08435",
+ "title": "High-dimensional Gaussian and bootstrap approximations for robust means",
+ "authors": [
+  "Anders Bredahl Kock",
+  "David Preinerstorfer"
+ ],
+ "v1_date": "2025-04-11",
+ "latest_version": 5,
+ "latest_date": "2026-06-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent years have witnessed much progress on Gaussian and bootstrap approximations to the distribution of sums of independent random vectors with dimension $d$ large relative to the sample size $n$. However, for any number of moments $m>2$ that the summands may possess, there exist distributions such that these approximations break down if $d$ grows faster than the polynomial barrier $n^{\\frac{m}{2}-1}$. In this paper, we establish Gaussian and bootstrap approximations to the distributions of winsorized and trimmed means that allow $d$ to grow at an exponential rate in $n$ as long as $m>2$ moments exist. The approximations remain valid under some amount of adversarial contamination. Our implementations of the winsorized and trimmed means do not require knowledge of $m$. As a consequence, the approximation guarantees ``adapt'' to $m$.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2405.02779",
+ "title": "Estimating Complier Average Causal Effects with Mixtures of Experts",
+ "authors": [
+  "François Grolleau",
+  "Céline Béji",
+  "Raphaël Porcher",
+  "François Petit"
+ ],
+ "v1_date": "2024-05-05",
+ "latest_version": 2,
+ "latest_date": "2025-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Treatment non-compliance, where individuals deviate from their assigned experimental conditions, frequently complicates the estimation of causal effects. To address this, we introduce a novel learning framework based on a mixture of experts architecture to estimate the Complier Average Causal Effect (CACE). Our framework provides a flexible alternative to classical instrumental variable methods by relaxing their strict monotonicity and exclusion restriction assumptions. We develop a principled, two-step procedure where each step is optimized with a dedicated Expectation-Maximization (EM) algorithm. Crucially, we provide formal proofs that the model's components are identifiable, ensuring the learning procedure is well-posed. The resulting CACE estimators are proven to be consistent and asymptotically normal. Extensive simulations demonstrate that our method achieves a substantially lower root mean squared error than traditional instrumental variable approaches when their assumptions fail, an advantage that persists even when our own mixture of experts are misspecified. We illustrate the framework's practical utility on data from a large-scale randomized trial.",
+ "primary": "stat.ME"
+}

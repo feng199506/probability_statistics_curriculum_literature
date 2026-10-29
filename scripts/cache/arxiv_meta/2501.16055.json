@@ -1,0 +1,16 @@
+{
+ "id": "2501.16055",
+ "title": "Random Reshuffling for Stochastic Gradient Langevin Dynamics",
+ "authors": [
+  "Luke Shaw",
+  "Peter A. Whalley"
+ ],
+ "v1_date": "2025-01-27",
+ "latest_version": 2,
+ "latest_date": "2025-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 11 figures",
+ "abstract": "We examine the use of different randomisation policies for stochastic gradient algorithms used in sampling, based on first-order (or overdamped) Langevin dynamics, the most popular of which is known as Stochastic Gradient Langevin Dynamics. Conventionally, this algorithm is combined with a specific stochastic gradient strategy, called Robbins-Monro. In this work, we study an alternative strategy, Random Reshuffling, and show convincingly that it leads to improved performance via: a) a proof of reduced bias in the Wasserstein metric for strongly convex, gradient Lipschitz potentials; b) an analytical demonstration of reduced bias for a Gaussian model problem; and c) an empirical demonstration of reduced bias in numerical experiments for some logistic regression problems. This is especially important since Random Reshuffling is typically more efficient due to memory access and cache reasons. Such acceleration for the Random Reshuffling policy is familiar from the optimisation literature on stochastic gradient descent.",
+ "primary": "math.NA"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2509.22011",
+ "title": "A Random Matrix Perspective of Echo State Networks: From Precise Bias--Variance Characterization to Optimal Regularization",
+ "authors": [
+  "Yessin Moakher",
+  "Malik Tiomoko",
+  "Cosme Louart",
+  "Zhenyu Liao"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2026 IEEE International Conference on Acoustics, Speech, and Signal Processing",
+ "abstract": "We present a rigorous asymptotic analysis of Echo State Networks (ESNs) in a teacher student setting with a linear teacher with oracle weights. Leveraging random matrix theory, we derive closed form expressions for the asymptotic bias, variance, and mean-squared error (MSE) as functions of the input statistics, the oracle vector, and the ridge regularization parameter. The analysis reveals two key departures from classical ridge regression: (i) ESNs do not exhibit double descent, and (ii) ESNs attain lower MSE when both the number of training samples and the teacher memory length are limited. We further provide an explicit formula for the optimal regularization in the identity input covariance case, and propose an efficient numerical scheme to compute the optimum in the general case. Together, these results offer interpretable theory and practical guidelines for tuning ESNs, helping reconcile recent empirical observations with provable performance guarantees",
+ "primary": "stat.ML"
+}

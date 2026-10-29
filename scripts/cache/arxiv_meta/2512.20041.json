@@ -1,0 +1,16 @@
+{
+ "id": "2512.20041",
+ "title": "Convergence analysis of data augmentation algorithms in Bayesian lasso models with log-concave likelihoods",
+ "authors": [
+  "Jingkai Cui",
+  "Qian Qin"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the convergence properties of a class of data augmentation algorithms targeting posterior distributions of Bayesian lasso models with log-concave likelihoods. Leveraging isoperimetric inequalities, we derive a generic convergence bound for this class of algorithms and apply it to Bayesian probit, logistic, and heteroskedastic Gaussian linear lasso models. Under feasible initializations, the mixing times for the probit and logistic models are of order $O[(p+n)^3 (pn^{1-c} + n)]$, up to logarithmic factors, where $n$ is the sample size, $p$ is the dimension of the regression coefficients, and $c \\in [0,1]$ is determined by the lasso penalty parameter. The mixing time for the heteroskedastic Gaussian model is $O[n(n+p)^3 (p n^{1-c} + n)]$, up to logarithmic factors.",
+ "primary": "math.ST"
+}

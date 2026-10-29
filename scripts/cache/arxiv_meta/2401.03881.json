@@ -1,0 +1,17 @@
+{
+ "id": "2401.03881",
+ "title": "Density regression via Dirichlet process mixtures of normal structured additive regression models",
+ "authors": [
+  "María Xosé Rodríguez-Álvarez",
+  "Vanda Inácio",
+  "Nadja Klein"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 2,
+ "latest_date": "2024-05-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Within Bayesian nonparametrics, dependent Dirichlet process mixture models provide a highly flexible approach for conducting inference about the conditional density function. However, several formulations of this class make either rather restrictive modelling assumptions or involve intricate algorithms for posterior inference, thus preventing their widespread use. In response to these challenges, we present a flexible, versatile, and computationally tractable model for density regression based on a single-weights dependent Dirichlet process mixture of normal distributions model for univariate continuous responses. We assume an additive structure for the mean of each mixture component and incorporate the effects of continuous covariates through smooth nonlinear functions. The key components of our modelling approach are penalised B-splines and their bivariate tensor product extension. Our proposed method also seamlessly accommodates parametric effects of categorical covariates, linear effects of continuous covariates, interactions between categorical and/or continuous covariates, varying coefficient terms, and random effects, which is why we refer our model as a Dirichlet process mixture of normal structured additive regression models. A noteworthy feature of our method is its efficiency in posterior simulation through Gibbs sampling, as closed-form full conditional distributions for all model parameters are available. Results from a simulation study demonstrate that our approach successfully recovers true conditional densities and other regression functionals in various challenging scenarios. Applications to a toxicology, disease diagnosis, and agricultural study are provided and further underpin the broad applicability of our modelling framework. An R package, DDPstar, implementing the proposed method is publicly available at https://bitbucket.org/mxrodriguez/ddpstar.",
+ "primary": "stat.ME"
+}

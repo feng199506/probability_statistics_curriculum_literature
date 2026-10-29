@@ -1,0 +1,20 @@
+{
+ "id": "2510.09919",
+ "title": "How much can we learn from quantum random circuit sampling?",
+ "authors": [
+  "Tudor Manole",
+  "Daniel K. Mark",
+  "Wenjie Gong",
+  "Bingtian Ye",
+  "Yury Polyanskiy",
+  "Soonwon Choi"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 1,
+ "latest_date": "2025-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The first two authors contributed equally",
+ "abstract": "Benchmarking quantum devices is a foundational task for the sustained development of quantum technologies. However, accurate in situ characterization of large-scale quantum devices remains a formidable challenge: such systems experience many different sources of errors, and cannot be simulated on classical computers. Here, we introduce new benchmarking methods based on random circuit sampling (RCS), that substantially extend the scope of conventional approaches. Unlike existing benchmarks that report only a single quantity--the circuit fidelity--our framework extracts rich diagnostic information, including spatiotemporal error profiles, correlated and contextual errors, and biased readout errors, without requiring any modifications of the experiment. Furthermore, we develop techniques that achieve this task without classically intractable simulations of the quantum circuit, by leveraging side information, in the form of bitstring samples obtained from reference quantum devices. Our approach is based on advanced high-dimensional statistical modeling of RCS data. We sharply characterize the information-theoretic limits of error estimation, deriving matching upper and lower bounds on the sample complexity across all regimes of side information. We identify surprising phase transitions in learnability as the amount of side information varies. We demonstrate our methods using publicly available RCS data from a state-of-the-art superconducting processor, obtaining in situ characterizations that are qualitatively consistent yet quantitatively distinct from component-level calibrations. Our results establish both practical benchmarking protocols for current and future quantum computers and fundamental information-theoretic limits on how much can be learned from RCS data.",
+ "primary": "quant-ph"
+}

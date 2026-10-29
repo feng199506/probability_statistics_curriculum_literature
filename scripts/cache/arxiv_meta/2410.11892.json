@@ -1,0 +1,16 @@
+{
+ "id": "2410.11892",
+ "title": "A comparison between copula-based, mixed model, and estimating equation methods for regression of bivariate correlated data",
+ "authors": [
+  "Aydin Sareff-Hibbert",
+  "Gillian Z. Heller"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 3,
+ "latest_date": "2025-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Scope of paper expanded to include covariates for all simulations and applications, as well as expanded evaluation approach to include additional methods",
+ "abstract": "This paper presents a simulation study comparing the performance of generalized joint regression models (GJRM) with generalized linear mixed models (GLMM) and generalized estimating equations (GEE) for regression of longitudinal data with two measurements per observational unit. We compare models on the basis of overall fit, coefficient accuracy and computational complexity. We find that for the normal model with identity link, all models provide accurate estimates of regression coefficients with comparable fit. However, for non-normal marginal distributions and when a non-identity link function is used, we highlight a major pitfall in the use of GLMMs: without significant adjustment they provide highly biased estimates of marginal coefficients and often provide extreme fits. GLMM coefficient bias and relative lack of fit is more pronounced when the marginal distributions are more skewed or highly correlated. In addition, we find major discrepancies between the estimates from different GLMM software implementations. In contrast, we find that GJRM provides unbiased estimates across all distributions with accurate standard errors when the copula is correctly specified; and the GJRM provides a model fit favourable or comparable to GLMMs and GEEs in almost all cases. We also compare the approaches for a real-world longitudinal study of doctor visits. We conclude that for non-normal bivariate data, the GJRM provides a superior model with more consistently accurate and interpretable coefficients than the GLMM, and better or comparable fit than both the GLMM and GEE, while providing more flexibility in choice of marginal distributions, and control over correlation structure.",
+ "primary": "stat.ME"
+}

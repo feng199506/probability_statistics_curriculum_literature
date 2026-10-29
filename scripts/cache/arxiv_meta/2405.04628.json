@@ -1,0 +1,17 @@
+{
+ "id": "2405.04628",
+ "title": "Wasserstein Proximal Coordinate Gradient Algorithms",
+ "authors": [
+  "Rentian Yao",
+  "Xiaohui Chen",
+  "Yun Yang"
+ ],
+ "v1_date": "2024-05-07",
+ "latest_version": 2,
+ "latest_date": "2024-09-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Motivated by approximation Bayesian computation using mean-field variational approximation and the computation of equilibrium in multi-species systems with cross-interaction, this paper investigates the composite geodesically convex optimization problem over multiple distributions. The objective functional under consideration is composed of a convex potential energy on a product of Wasserstein spaces and a sum of convex self-interaction and internal energies associated with each distribution. To efficiently solve this problem, we introduce the Wasserstein Proximal Coordinate Gradient (WPCG) algorithms with parallel, sequential, and random update schemes. Under a quadratic growth (QG) condition that is weaker than the usual strong convexity requirement on the objective functional, we show that WPCG converges exponentially fast to the unique global optimum. In the absence of the QG condition, WPCG is still demonstrated to converge to the global optimal solution, albeit at a slower polynomial rate. Numerical results for both motivating examples are consistent with our theoretical findings.",
+ "primary": "math.OC"
+}

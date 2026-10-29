@@ -1,0 +1,16 @@
+{
+ "id": "2503.23158",
+ "title": "Active Learning with Adaptive Non-Stationary Kernel for Continuous-Fidelity Surrogate Models",
+ "authors": [
+  "Romain Boutelet",
+  "Chih-Li Sung"
+ ],
+ "v1_date": "2025-03-29",
+ "latest_version": 2,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "10.1080/00401706.2026.2702433",
+ "comment": "",
+ "abstract": "Simulating complex physical processes across a domain of input parameters can be very computationally expensive. Multi-fidelity surrogate modeling can resolve this issue by integrating cheaper simulations with the expensive ones in order to obtain better predictions at a reasonable cost. We are specifically interested in computer experiments where real-valued fidelity parameters determine the fidelity of the numerical output, such as finite element methods. In these cases, integrating this fidelity parameter in the analysis enables us to make inference on fidelity levels that have not been observed yet. Such models have been developed, and we propose a new adaptive non-stationary kernel function which more accurately reflects the behavior of computer simulation outputs. In addition, we develop an active learning strategy based on the integrated mean squared prediction error (IMSPE) to identify the best design points across input parameters and fidelity parameters, while taking into account the computational cost associated with the fidelity parameters. We illustrate this methodology through numerical examples and applications to finite element methods. An $\\textsf{R}$ package for the proposed methodology is provided in an open repository.",
+ "primary": "stat.ME"
+}

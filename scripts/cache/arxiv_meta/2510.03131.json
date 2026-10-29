@@ -1,0 +1,18 @@
+{
+ "id": "2510.03131",
+ "title": "Total robustness in Bayesian Nonlinear Regression",
+ "authors": [
+  "Mengqi Chen",
+  "Charita Dellaporta",
+  "Thomas B. Berrett",
+  "Theodoros Damoulas"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 3,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "76 pages, 13 figures",
+ "abstract": "Modern regression analyses are often undermined by covariate measurement error, misspecification of the regression model, and misspecification of the measurement error distribution. We present, to the best of our knowledge, the first Bayesian nonparametric learning framework targeting total robustness to all three challenges in general nonlinear regression. Our framework places a joint Dirichlet process prior on the latent covariate--response distribution and updates it with posterior pseudo-samples of the latent covariates, so that inference is calibrated to the joint law. This yields estimators defined by minimizing the discrepancy between posterior realizations of the joint Dirichlet process and the model-implied joint distribution. We establish generalization bounds and provide a first proof of convergence and consistency of the resulting estimators under non-degenerate measurement error. A gradient-based implementation enables efficient computation; simulations and two real-data studies show improved stability to misspecification under increasing measurement error relative to recent Bayesian and frequentist alternatives.",
+ "primary": "stat.ME"
+}

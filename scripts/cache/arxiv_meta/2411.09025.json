@@ -1,0 +1,17 @@
+{
+ "id": "2411.09025",
+ "title": "Modeling Joint Health Effects of Environmental Exposure Mixtures with Bayesian Additive Regression Trees",
+ "authors": [
+  "Jacob Englert",
+  "Stefanie Ebelt",
+  "Howard Chang"
+ ],
+ "v1_date": "2024-11-13",
+ "latest_version": 1,
+ "latest_date": "2024-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 5 figures",
+ "abstract": "Studying the association between mixtures of environmental exposures and health outcomes can be challenging due to issues such as correlation among the exposures and non-linearities or interactions in the exposure-response function. For this reason, one common strategy is to fit flexible nonparametric models to capture the true exposure-response surface. However, once such a model is fit, further decisions are required when it comes to summarizing the marginal and joint effects of the mixture on the outcome. In this work, we describe the use of soft Bayesian additive regression trees (BART) to estimate the exposure-risk surface describing the effect of mixtures of chemical air pollutants and temperature on asthma-related emergency department (ED) visits during the warm season in Atlanta, Georgia from 2011-2018. BART is chosen for its ability to handle large datasets and for its flexibility to be incorporated as a single component of a larger model. We then summarize the results using a strategy known as accumulated local effects to extract meaningful insights into the mixture effects on asthma-related morbidity. Notably, we observe negative associations between nitrogen dioxide and asthma ED visits and harmful associations between ozone and asthma ED visits, both of which are particularly strong on lower temperature days.",
+ "primary": "stat.AP"
+}

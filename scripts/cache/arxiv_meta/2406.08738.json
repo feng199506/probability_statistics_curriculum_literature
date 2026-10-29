@@ -1,0 +1,16 @@
+{
+ "id": "2406.08738",
+ "title": "Volatility Forecasting Using Similarity-based Parameter Correction and Aggregated Shock Information",
+ "authors": [
+  "David P. Lundquist",
+  "Daniel J. Eck"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 3,
+ "latest_date": "2024-08-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 7 figures, 2 tables",
+ "abstract": "We develop a procedure for forecasting the volatility of a time series immediately following a news shock. Adapting the similarity-based framework of Lin and Eck (2020), we exploit series that have experienced similar shocks. We aggregate their shock-induced excess volatilities by positing the shocks to be affine functions of exogenous covariates. The volatility shocks are modeled as random effects and estimated as fixed effects. The aggregation of these estimates is done in service of adjusting the $h$-step-ahead GARCH forecast of the time series under study by an additive term. The adjusted and unadjusted forecasts are evaluated using the unobservable but easily-estimated realized volatility (RV). A real-world application is provided, as are simulation results suggesting the conditions and hyperparameters under which our method thrives.",
+ "primary": "stat.ME"
+}

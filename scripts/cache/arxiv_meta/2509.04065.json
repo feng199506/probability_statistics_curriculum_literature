@@ -1,0 +1,20 @@
+{
+ "id": "2509.04065",
+ "title": "Spatial disaggregation of time series",
+ "authors": [
+  "A. Tobar",
+  "A. Mir",
+  "R. Alberich",
+  "I. Garcia Mosquera",
+  "M. Miró",
+  "NA. Cruz"
+ ],
+ "v1_date": "2025-09-04",
+ "latest_version": 2,
+ "latest_date": "2025-11-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Spatiotemporal modeling of economic aggregates is increasingly relevant in regional science due to the presence of both spatial spillovers and temporal dynamics. Traditional temporal disaggregation methods, such as Chow-Lin, often ignore spatial dependence, potentially losing important regional information. We propose a novel methodology for spatiotemporal disaggregation, integrating spatial autoregressive models, benchmarking restrictions, and auxiliary covariates. The approach accommodates partially observed regional data through an anchoring mechanism, ensuring consistency with known aggregates while reducing prediction variance. We establish identifiability and asymptotic normality of the estimator under general conditions, including non-Gaussian and heteroskedastic residuals. Extensive simulations confirm the method's robustness across a wide range of spatial autocorrelations and covariate informativeness. The methodology is illustrated by disaggregating Spanish GDP into 17 autonomous communities from 2002 to 2023, using auxiliary indicators and principal component analysis for dimensionality reduction. This framework extends classical temporal disaggregation to the spatial domain, providing accurate regional estimates while accounting for spatial spillovers and irregular data availability.",
+ "primary": "stat.ME"
+}

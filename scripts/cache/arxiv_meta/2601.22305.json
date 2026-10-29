@@ -1,0 +1,20 @@
+{
+ "id": "2601.22305",
+ "title": "BayesFlow: A Probability Inference Framework for Meta-Agent Assisted Workflow Generation",
+ "authors": [
+  "Bo Yuan",
+  "Yun Zhou",
+  "Zhichao Xu",
+  "Kiran Ramnath",
+  "Aosong Feng",
+  "Balasubramaniam Srinivasan"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 1,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "EACL 2026 Finding",
+ "abstract": "Automatic workflow generation is the process of automatically synthesizing sequences of LLM calls, tool invocations, and post-processing steps for complex end-to-end tasks. Most prior methods cast this task as an optimization problem with limited theoretical grounding. We propose to cast workflow generation as Bayesian inference over a posterior distribution on workflows, and introduce \\textbf{Bayesian Workflow Generation (BWG)}, a sampling framework that builds workflows step-by-step using parallel look-ahead rollouts for importance weighting and a sequential in-loop refiner for pool-wide improvements. We prove that, without the refiner, the weighted empirical distribution converges to the target posterior. We instantiate BWG as \\textbf{BayesFlow}, a training-free algorithm for workflow construction. Across six benchmark datasets, BayesFlow improves accuracy by up to 9 percentage points over SOTA workflow generation baselines and by up to 65 percentage points over zero-shot prompting, establishing BWG as a principled upgrade to search-based workflow design. Code will be available on https://github.com/BoYuanVisionary/BayesFlow.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2603.20959",
+ "title": "Surrogate-Guided Adaptive Importance Sampling for Failure Probability Estimation",
+ "authors": [
+  "Ashwin Renganathan",
+  "Annie S. Booth"
+ ],
+ "v1_date": "2026-03-21",
+ "latest_version": 2,
+ "latest_date": "2026-04-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 6 figures",
+ "abstract": "We consider the sample efficient estimation of failure probabilities from expensive oracle evaluations of a limit state function via importance sampling (IS). In contrast to conventional ``two stage'' approaches, which first train a surrogate model for the limit state and then construct an IS proposal to estimate failure probability using separate oracle evaluations, we propose a \\emph{single stage} approach where a Gaussian process surrogate and a surrogate for the optimal (zero-variance) IS density are trained from shared evaluations of the oracle, making better use of a limited budget. With such an approach, small failure probabilities can be learned with relatively few oracle evaluations. We propose \\emph{kernel density estimation adaptive importance sampling} (\\texttt{KDE-AIS}), which combines Gaussian process surrogates with kernel density estimation to adaptively construct the IS proposal density, leading to sample efficient estimation of failure probabilities. We show that \\texttt{KDE-AIS} density asymptotically converges to the optimal zero-variance IS density in total variation. Empirically, \\texttt{KDE-AIS} enables accurate and sample efficient estimation of failure probabilities compared to the state of the art, including previous work on Gaussian process based adaptive importance sampling.",
+ "primary": "stat.CO"
+}

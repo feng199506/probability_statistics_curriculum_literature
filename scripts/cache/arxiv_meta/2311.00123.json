@@ -1,0 +1,16 @@
+{
+ "id": "2311.00123",
+ "title": "Q-Learning for Stochastic Control under General Information Structures and Non-Markovian Environments",
+ "authors": [
+  "Ali Devran Kara",
+  "Serdar Yuksel"
+ ],
+ "v1_date": "2023-10-31",
+ "latest_version": 2,
+ "latest_date": "2024-03-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 figures",
+ "abstract": "As a primary contribution, we present a convergence theorem for stochastic iterations, and in particular, Q-learning iterates, under a general, possibly non-Markovian, stochastic environment. Our conditions for convergence involve an ergodicity and a positivity criterion. We provide a precise characterization on the limit of the iterates and conditions on the environment and initializations for convergence. As our second contribution, we discuss the implications and applications of this theorem to a variety of stochastic control problems with non-Markovian environments involving (i) quantized approximations of fully observed Markov Decision Processes (MDPs) with continuous spaces (where quantization break down the Markovian structure), (ii) quantized approximations of belief-MDP reduced partially observable MDPS (POMDPs) with weak Feller continuity and a mild version of filter stability (which requires the knowledge of the model by the controller), (iii) finite window approximations of POMDPs under a uniform controlled filter stability (which does not require the knowledge of the model), and (iv) for multi-agent models where convergence of learning dynamics to a new class of equilibria, subjective Q-learning equilibria, will be studied. In addition to the convergence theorem, some implications of the theorem above are new to the literature and others are interpreted as applications of the convergence theorem. Some open problems are noted.",
+ "primary": "math.OC"
+}

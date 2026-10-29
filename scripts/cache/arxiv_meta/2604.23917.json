@@ -1,0 +1,16 @@
+{
+ "id": "2604.23917",
+ "title": "MR-CCC: Bayesian Mendelian Randomization for Causal Cell--Cell Communication",
+ "authors": [
+  "Bitan Sarkar",
+  "Yang Ni"
+ ],
+ "v1_date": "2026-04-27",
+ "latest_version": 1,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cell--cell communication (CCC) is commonly inferred from ligand--receptor co-expression, an associational paradigm that cannot distinguish causal signaling from shared regulation or confounding. We propose MR-CCC, a Bayesian Mendelian randomization framework that uses cis-eQTLs as instruments for ligand and receptor expression and explicitly models receptor-modulated ligand effects through an interaction term, so the causal effect of a ligand can vary with receptor abundance. A spike--and--slab prior yields posterior inclusion probabilities quantifying evidence for causal signaling, and an efficient Gibbs sampler provides scalable inference. Benchmarked against naive regression, MVMR, and MR-BMA, MR-CCC controls false discoveries under confounding while retaining high power, and uniquely estimates both the ligand main and receptor-modulated interaction effects. Applied to the OneK1K NK cells $\\to$ monocytes axis, MR-CCC identifies eight discoveries across GABA, interferon, interleukin, and prostaglandin signaling, including a stoichiometry-dependent dissociation of the two IL-18 receptor chains and co-discovery of both obligate IFN-$γ$ receptor subunits.",
+ "primary": "stat.ME"
+}

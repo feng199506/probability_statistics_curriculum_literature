@@ -1,0 +1,15 @@
+{
+ "id": "2601.00188",
+ "title": "An exact unbiased semi-parametric L2 quasi-likelihood framework, complete in the presence of ties",
+ "authors": [
+  "Landon Hurley"
+ ],
+ "v1_date": "2026-01-01",
+ "latest_version": 1,
+ "latest_date": "2026-01-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Maximum likelihood style estimators possesses a number of ideal characteristics, but require prior identification of the distribution of errors to ensure exact unbiasedness. Independent of the focus of the primary statistical analysis, the estimation of a covariance matrix \\(S^{P \\times P}\\approx Σ^{P \\times P}\\) must possess a specific structure and regularity constraints. The need to estimate a linear Gaussian covariance models appear in various applications as a formal precondition for scientific investigation and predictive analytics. In this work, we construct an \\(\\ell_{2}\\)-norm based quasi-likelihood framework, identified by binomial comparisons between all pairs \\(X_{n},Y_{n}, \\forall {n}\\). Our work here focuses upon the quasi-likelihood basis for estimation of an exactly unbiased linear regression Hájek projection, within which the Kemeny metric space is operationalised via Whitney embedding to obtain exact unbiased minimum variance multivariate covariance estimators upon both discrete and continuous random variables (i.e., exact unbiased identification in the presence of ties upon finite samples). While the covariance estimator is inherently useful, expansion of the Wilcoxon rank-sum testing framework to handle multiple covariates with exact unbiasedness upon finite samples is a currently unresolved research problem, as it maintains identification in the presence of linear surjective mappings onto common points: this model space, by definition, expands our likelihood framework into a consistent non-parametric form of the standard general linear model, which we extend to address both unknown heterogeneity and the problem of weak inferential instruments.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.13565",
+ "title": "Constructive Instrumental Variable Identification and Inference with Many Weak Interaction Moments",
+ "authors": [
+  "Di Zhang",
+  "Minhao Yao",
+  "Zhonghua Liu",
+  "Baoluo Sun"
+ ],
+ "v1_date": "2025-04-18",
+ "latest_version": 2,
+ "latest_date": "2026-03-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 1 figure, 3 tables",
+ "abstract": "Instrumental variable methods are widely used for causal inference, but identification becomes especially challenging when instruments are weak and potentially invalid. These challenges are particularly pronounced in Mendelian randomization, where genetic variants serve as instruments and violations of exclusion restriction or independence assumptions are common. We propose MAGIC, a constructive and assumption-lean framework that achieves identification even when all candidate instruments may be invalid. The method exploits pairwise and higher-order interactions among mutually independent instruments to construct moment conditions orthogonal to both unmeasured confounding and direct effects under a linear structural model. The resulting estimation problem involves many potentially weak interaction moments with unknown nuisance parameters. We develop a semiparametric generalized method of moments estimator and introduce a global Neyman orthogonality condition to ensure robustness of both the moment function and its derivative to nuisance estimation under many weak moment asymptotics. We establish consistency and asymptotic normality when the number of moments diverges with sample size and characterize the semiparametric efficiency bound under fixed dimension. Simulations and an application to UK Biobank data illustrate the method.",
+ "primary": "stat.ME"
+}

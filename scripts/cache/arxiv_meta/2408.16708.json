@@ -1,0 +1,16 @@
+{
+ "id": "2408.16708",
+ "title": "Effect Aliasing in Observational Studies",
+ "authors": [
+  "Paul R. Rosenbaum",
+  "Jose R. Zubizarreta"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 1,
+ "latest_date": "2024-08-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In experimental design, aliasing of effects occurs in fractional factorial experiments, where certain low order factorial effects are indistinguishable from certain high order interactions: low order contrasts may be orthogonal to one another, while their higher order interactions are aliased and not identified. In observational studies, aliasing occurs when certain combinations of covariates -- e.g., time period and various eligibility criteria for treatment -- perfectly predict the treatment that an individual will receive, so a covariate combination is aliased with a particular treatment. In this situation, when a contrast among several groups is used to estimate a treatment effect, collections of individuals defined by contrast weights may be balanced with respect to summaries of low-order interactions between covariates and treatments, but necessarily not balanced with respect to summaries of high-order interactions between covariates and treatments. We develop a theory of aliasing in observational studies, illustrate that theory in an observational study whose aliasing is more robust than conventional difference-in-differences, and develop a new form of matching to construct balanced confounded factorial designs from observational data.",
+ "primary": "stat.ME"
+}

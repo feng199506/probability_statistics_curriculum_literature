@@ -1,0 +1,17 @@
+{
+ "id": "2402.13719",
+ "title": "Informative Simultaneous Confidence Intervals for Graphical Test Procedures",
+ "authors": [
+  "Werner Brannath",
+  "Liane Kluge",
+  "Martin Scharpenberg"
+ ],
+ "v1_date": "2024-02-21",
+ "latest_version": 3,
+ "latest_date": "2024-06-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Simultaneous confidence intervals (SCIs) that are compatible with a given closed test procedure are often non-informative. More precisely, for a one-sided null hypothesis, the bound of the SCI can stick to the border of the null hypothesis, irrespective of how far the point estimate deviates from the null hypothesis. This has been illustrated for the Bonferroni-Holm and fall-back procedures, for which alternative SCIs have been suggested, that are free of this deficiency. These informative SCIs are not fully compatible with the initial multiple test, but are close to it and hence provide similar power advantages. They provide a multiple hypothesis test with strong family-wise error rate control that can be used in replacement of the initial multiple test. The current paper extends previous work for informative SCIs to graphical test procedures. The information gained from the newly suggested SCIs is shown to be always increasing with increasing evidence against a null hypothesis. The new SCIs provide a compromise between information gain and the goal to reject as many hypotheses as possible. The SCIs are defined via a family of dual graphs and the projection method. A simple iterative algorithm for the computation of the intervals is provided. A simulation study illustrates the results for a complex graphical test procedure.",
+ "primary": "stat.ME"
+}

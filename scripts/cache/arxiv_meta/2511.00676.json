@@ -1,0 +1,17 @@
+{
+ "id": "2511.00676",
+ "title": "Robust Bayesian Inference of Causal Effects via Randomization Distributions",
+ "authors": [
+  "Easton Huch",
+  "Fred Feinberg",
+  "Walter Dempsey"
+ ],
+ "v1_date": "2025-11-01",
+ "latest_version": 1,
+ "latest_date": "2025-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a general framework for Bayesian inference of causal effects that delivers provably robust inferences founded on design-based randomization of treatments. The framework involves fixing the observed potential outcomes and forming a likelihood based on the randomization distribution of a statistic. The method requires specification of a treatment effect model; in many cases, however, it does not require specification of marginal outcome distributions, resulting in weaker assumptions compared to Bayesian superpopulation-based methods. We show that the framework is compatible with posterior model checking in the form of posterior-averaged randomization tests. We prove several theoretical properties for the method, including a Bernstein-von Mises theorem and large-sample properties of posterior expectations. In particular, we show that the posterior mean is asymptotically equivalent to Hodges-Lehmann estimators, which provides a bridge to many classical estimators in causal inference, including inverse-probability-weighted estimators and Hájek estimators. We evaluate the theory and utility of the framework in simulation and a case study involving a nutrition experiment. In the latter, our framework uncovers strong evidence of effect heterogeneity despite a lack of evidence for moderation effects. The basic framework allows numerous extensions, including the use of covariates, sensitivity analysis, estimation of assignment mechanisms, and generalization to nonbinary treatments.",
+ "primary": "stat.ME"
+}

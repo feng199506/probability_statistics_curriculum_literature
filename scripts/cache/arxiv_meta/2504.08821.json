@@ -1,0 +1,18 @@
+{
+ "id": "2504.08821",
+ "title": "Probabilistic QoS Metric Forecasting in Delay-Tolerant Networks Using Conditional Diffusion Models on Latent Dynamics",
+ "authors": [
+  "Enming Zhang",
+  "Zheng Liu",
+  "Yu Xiang",
+  "Yanwen Qu"
+ ],
+ "v1_date": "2025-04-09",
+ "latest_version": 3,
+ "latest_date": "2025-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Active QoS metric prediction, commonly employed in the maintenance and operation of DTN, could enhance network performance regarding latency, throughput, energy consumption, and dependability. Naturally formulated as a multivariate time series forecasting problem, it attracts substantial research efforts. Traditional mean regression methods for time series forecasting cannot capture the data complexity adequately, resulting in deteriorated performance in operational tasks in DTNs such as routing. This paper formulates the prediction of QoS metrics in DTN as a probabilistic forecasting problem on multivariate time series, where one could quantify the uncertainty of forecasts by characterizing the distribution of these samples. The proposed approach hires diffusion models and incorporates the latent temporal dynamics of non-stationary and multi-mode data into them. Extensive experiments demonstrate the efficacy of the proposed approach by showing that it outperforms the popular probabilistic time series forecasting methods.",
+ "primary": "cs.LG"
+}

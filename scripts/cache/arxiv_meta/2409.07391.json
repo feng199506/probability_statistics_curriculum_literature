@@ -1,0 +1,19 @@
+{
+ "id": "2409.07391",
+ "title": "Improve Sensitivity Analysis Synthesizing Randomized Clinical Trials With Limited Overlap",
+ "authors": [
+  "Kuan Jiang",
+  "Wenjie Hu",
+  "Shu Yang",
+  "Xinxing Lai",
+  "Xiaohua Zhou"
+ ],
+ "v1_date": "2024-09-11",
+ "latest_version": 3,
+ "latest_date": "2024-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized clinical trials are the gold standard when estimating the average treatment effect. However, they are usually not a random sample from the real-world population because of the inclusion/exclusion rules. Meanwhile, observational studies typically consist of representative samples from the real-world population. However, due to unmeasured confounding, sensitivity analysis is often used to estimate bounds for the average treatment effect without relying on stringent assumptions of other existing methods. This article introduces a synthesis estimator that improves sensitivity analysis in observational studies by incorporating randomized clinical trial data, even when overlap in covariate distribution is limited due to inclusion/exclusion criteria. We show that the proposed estimator will give a tighter bound when a \"separability\" condition holds for the sensitivity parameter. Theoretical proofs and simulations show that this method provides a tighter bound than the sensitivity analysis using only observational study. We apply this method to combine an observational study on drug effectiveness with a partially overlapping RCT dataset, yielding improved average treatment effect bounds.",
+ "primary": "stat.ME"
+}

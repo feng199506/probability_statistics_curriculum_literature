@@ -1,0 +1,19 @@
+{
+ "id": "2401.14338",
+ "title": "Case-crossover designs and overdispersion with application in air pollution epidemiology",
+ "authors": [
+  "Samuel Perreault",
+  "Gracia Y. Dong",
+  "Alex Stringer",
+  "Hwashin Shin",
+  "Patrick Brown"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 1,
+ "latest_date": "2024-01-25",
+ "journal_ref": "Biometrics 80:4 (2024) ujae117",
+ "doi": "10.1093/biomtc/ujae117",
+ "comment": "",
+ "abstract": "Over the last three decades, case-crossover designs have found many applications in health sciences, especially in air pollution epidemiology. They are typically used, in combination with partial likelihood techniques, to define a conditional logistic model for the responses, usually health outcomes, conditional on the exposures. Despite the fact that conditional logistic models have been shown equivalent, in typical air pollution epidemiology setups, to specific instances of the well-known Poisson time series model, it is often claimed that they cannot allow for overdispersion. This paper clarifies the relationship between case-crossover designs, the models that ensue from their use, and overdispersion. In particular, we propose to relax the assumption of independence between individuals traditionally made in case-crossover analyses, in order to explicitly introduce overdispersion in the conditional logistic model. As we show, the resulting overdispersed conditional logistic model coincides with the overdispersed, conditional Poisson model, in the sense that their likelihoods are simple re-expressions of one another. We further provide the technical details of a Bayesian implementation of the proposed case-crossover model, which we use to demonstrate, by means of a large simulation study, that standard case-crossover models can lead to dramatically underestimated coverage probabilities, while the proposed models do not. We also perform an illustrative analysis of the association between air pollution and morbidity in Toronto, Canada, which shows that the proposed models are more robust than standard ones to outliers such as those associated with public holidays.",
+ "primary": "stat.ME"
+}

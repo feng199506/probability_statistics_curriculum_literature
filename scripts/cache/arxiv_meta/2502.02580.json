@@ -1,0 +1,16 @@
+{
+ "id": "2502.02580",
+ "title": "Minimax-Optimal Spectral Clustering with Covariance Projection for High-Dimensional Anisotropic Mixtures",
+ "authors": [
+  "Chengzhu Huang",
+  "Yuqi Gu"
+ ],
+ "v1_date": "2025-02-04",
+ "latest_version": 3,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In mixture models, anisotropic noise within each cluster is widely present in real-world data. This work investigates both computationally efficient procedures and fundamental statistical limits for clustering in high-dimensional anisotropic mixtures. We propose a new clustering method, Covariance Projected Spectral Clustering (COPO), which adapts to a wide range of dependent noise structures. We first project the data onto a low-dimensional space via eigen-decomposition of a diagonal-deleted Gram matrix. Our central methodological idea is to sharpen clustering in this embedding space by a covariance-aware reassignment step, using quadratic distances induced by estimated projected covariances. Through a novel row-wise analysis of the subspace estimation step in weak-signal regimes, which is of independent interest, we establish tight performance guarantees and algorithmic upper bounds for COPO, covering both Gaussian noise with flexible covariance and general noise with local dependence. To characterize the fundamental difficulty of clustering high-dimensional anisotropic Gaussian mixtures, we further establish two distinct and complementary minimax lower bounds, each highlighting different covariance-driven barriers. Our results show that COPO attains minimax-optimal misclustering rates in Gaussian settings. Extensive simulation studies across diverse noise structures, along with a real data application, demonstrate the superior empirical performance of our method.",
+ "primary": "math.ST"
+}

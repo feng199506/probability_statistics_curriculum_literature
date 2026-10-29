@@ -1,0 +1,15 @@
+{
+ "id": "2511.03424",
+ "title": "The moment is here: a generalized class of estimators for fuzzy regression discontinuity designs",
+ "authors": [
+  "Stuart Lane"
+ ],
+ "v1_date": "2025-11-05",
+ "latest_version": 2,
+ "latest_date": "2026-04-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "61 pages. This version improves the technical rigour of the proofs of several theorems and lemmas, and refines the statements where necessary. The main conclusions remain unchanged. AR confidence intervals in the simulations were previously computed incorrectly and have been corrected in this version. These corrections do not affect the qualitative conclusions of the results",
+ "abstract": "The standard fuzzy regression discontinuity (FRD) estimator is a ratio of differences of local polynomial estimators. I show that this estimator does not possess any finite integer moments, regardless of local polynomial degree, kernel function, or bandwidth. The estimator is heavy-tailed in small samples or when the treatment probability discontinuity at the cutoff is small. I present a generalized class of FRD estimators which preserves all finite moments from the data, indexed by a single tuning parameter, and nesting both standard FRD and sharp (SRD) estimators. Simple deterministic values of the tuning parameter lead to substantial improvements in median bias, median absolute deviation, and root mean squared error. Confidence intervals typically give reliable small-sample coverage in simulations. Estimator stability and performance are demonstrated using data on class size effects on educational attainment.",
+ "primary": "econ.EM"
+}

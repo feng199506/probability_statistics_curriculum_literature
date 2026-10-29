@@ -1,0 +1,16 @@
+{
+ "id": "2509.00514",
+ "title": "Adaptive CUSUM Chart for Simultaneous Monitoring of Mean and Variance",
+ "authors": [
+  "Gokul Parakulum",
+  "Jun Li"
+ ],
+ "v1_date": "2025-08-30",
+ "latest_version": 1,
+ "latest_date": "2025-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Quality and Reliability Engineering International, under review",
+ "abstract": "Simultaneously monitoring changes in both the mean and variance is a fundamental problem in Statistical Process Control, and numerous methods have been developed to address it. However, many existing approaches face notable limitations: some rely on tuning parameters that can significantly affect performance; others are biased toward detecting increases in variance while performing poorly for decreases; and some are computationally burdensome. To address these limitations, we propose a novel adaptive CUSUM chart for jointly monitoring the mean and variance of a Gaussian process. The proposed method is free of tuning parameters, efficient in detecting a broad range of shifts in both mean and variance, and well-suited for real-time monitoring due to its recursive structure. It also has a built-in post-signal diagnostics function that can identify what kind of distributional changes have occurred after an alarm. Simulation results show that, compared to existing methods, the proposed chart achieves the most favorable balance between detection power and computational efficiency, delivering the best overall performance.",
+ "primary": "stat.ME"
+}

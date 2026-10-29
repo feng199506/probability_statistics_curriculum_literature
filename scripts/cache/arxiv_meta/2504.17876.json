@@ -1,0 +1,17 @@
+{
+ "id": "2504.17876",
+ "title": "Bernstein Polynomial Processes for Continuous Time Change Detection",
+ "authors": [
+  "Dan Cunha",
+  "Mark Friedl",
+  "Luis Carvalho"
+ ],
+ "v1_date": "2025-04-24",
+ "latest_version": 1,
+ "latest_date": "2025-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "There is a lack of methodological results for continuous time change detection due to the challenges of noninformative prior specification and efficient posterior inference in this setting. Most methodologies to date assume data are collected according to uniformly spaced time intervals. This assumption incurs bias in the continuous time setting where, a priori, two consecutive observations measured closely in time are less likely to change than two consecutive observations that are far apart in time. Models proposed in this setting have required MCMC sampling which is not ideal. To address these issues, we derive the heterogeneous continuous time Markov chain that models change point transition probabilities noninformatively. By construction, change points under this model can be inferred efficiently using the forward backward algorithm and do not require MCMC sampling. We then develop a novel loss function for the continuous time setting, derive its Bayes estimator, and demonstrate its performance on synthetic data. A case study using time series of remotely sensed observations is then carried out on three change detection applications. To reduce falsely detected changes in this setting, we develop a semiparametric mean function that captures interannual variability due to weather in addition to trend and seasonal components.",
+ "primary": "stat.ME"
+}

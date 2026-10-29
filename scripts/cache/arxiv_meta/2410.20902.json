@@ -1,0 +1,17 @@
+{
+ "id": "2410.20902",
+ "title": "K-step Vector Approximate Survey Propagation",
+ "authors": [
+  "Qun Chen",
+  "Haochuan Zhang",
+  "Huimin Zhu"
+ ],
+ "v1_date": "2024-10-28",
+ "latest_version": 1,
+ "latest_date": "2024-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "arXiv admin note: substantial text overlap with arXiv:2311.05111",
+ "abstract": "Approximate Message Passing (AMP), originally developed to address high-dimensional linear inverse problems, has found widespread applications in signal processing and statistical inference. Among its notable variants, Vector Approximate Message Passing (VAMP), Generalized Approximate Survey Propagation (GASP), and Vector Approximate Survey Propagation (VASP) have demonstrated effectiveness even when the assumed generative models differ from the true models. However, many fundamental questions regarding model mismatch remain unanswered. For instance, it is still unclear what level of model mismatch is required for the postulated posterior estimate (PPE) to exhibit a replica symmetry breaking (RSB) structure in the extremum conditions of its free energy, and what order of RSB is necessary. In this paper, we introduce a novel approximate message passing algorithm that incorporates K-step RSB (KRSB) and naturally reduces to VAMP and VASP with specific parameter selections. We refer to this as the K-step VASP (KVASP) algorithm. Simulations show that KVASP significantly outperforms VAMP and GASP in estimation accuracy, particularly when the assumed prior has discrete support and the measurement matrix is non-i.i.d.. Additionally, the state evolution (SE) of KVASP, derived heuristically, accurately tracks the per-iteration mean squared error (MSE). A comparison between the SE and the free energy under the KRSB ansatz reveals that the fixed-point equations of SE align with the saddle-point equations of the free energy. This suggests that, once the KRSB ansatz holds and the SE fixed point is reached, KVASP can accurately compute the PPE in the large system limit (LSL).",
+ "primary": "cs.IT"
+}

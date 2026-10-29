@@ -1,0 +1,16 @@
+{
+ "id": "2411.01112",
+ "title": "Optimal low-rank posterior covariance approximation in linear Gaussian inverse problems on Hilbert spaces",
+ "authors": [
+  "Giuseppe Carere",
+  "Han Cheng Lie"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 6,
+ "latest_date": "2026-10-20",
+ "journal_ref": "SIAM/ASA Journal of Uncertainty Quantification (2026), Vol. 14, No. 4, pp. 1366-1395",
+ "doi": "10.1137/25m1784491",
+ "comment": "Published in SIAM/ASA Journal on Uncertainty Quantification. 43 pages. Previously this version appeared as arXiv:2503.24020 which was submitted as a new work by accident",
+ "abstract": "For linear inverse problems with Gaussian priors and Gaussian observation noise, the posterior is Gaussian, with mean and covariance determined by the conditioning formula. The covariance is the central object for uncertainty quantification, as it encodes the variability of the posterior distribution and thus the uncertainty in the posterior mean estimate. Using the Feldman-Hajek theorem, we analyse the prior-to-posterior update and its low-rank approximation for infinite-dimensional Hilbert parameter spaces and finite-dimensional observations. We show that the posterior distribution differs from the prior on a finite-dimensional subspace, and construct low-rank approximations to the posterior covariance, while keeping the mean fixed. Since in infinite dimensions, not all low-rank covariance approximations yield approximate posterior distributions which are equivalent to the posterior and prior distribution, we characterise the low-rank covariance approximations which do yield this equivalence, and their respective inverses, or `precisions'. For such approximations, a family of measure approximation problems is solved by identifying the low-rank approximations which are optimal for various losses simultaneously. These loss functions include the family of Rényi divergences, the Amari $α$-divergences for $α\\in(0,1)$, the Hellinger metric and the Kullback-Leibler divergence. Our results extend those of Spantini et al. (SIAM J. Sci. Comput. 2015) to Hilbertian parameter spaces, and provide theoretical underpinning for the construction of low-rank approximations of discretised versions of the infinite-dimensional inverse problem, by formulating discretisation independent results.",
+ "primary": "math.ST"
+}

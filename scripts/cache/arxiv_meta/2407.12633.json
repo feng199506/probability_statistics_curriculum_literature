@@ -1,0 +1,17 @@
+{
+ "id": "2407.12633",
+ "title": "Bayesian spatial functional data clustering: applications in disease surveillance",
+ "authors": [
+  "Ruiman Zhong",
+  "Erick A. Chacón-Montalván",
+  "Paula Moraga"
+ ],
+ "v1_date": "2024-07-17",
+ "latest_version": 1,
+ "latest_date": "2024-07-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Our method extends the application of random spanning trees to cases where the response variable belongs to the exponential family, making it suitable for a wide range of real-world scenarios, including non-Gaussian likelihoods. The proposed model addresses the limitations of previous spatial clustering methods by allowing all within-cluster model parameters to be cluster-specific, thus offering greater flexibility. Additionally, we propose a Bayesian inference algorithm that overcomes the computational challenges associated with the reversible jump Markov chain Monte Carlo (RJ-MCMC) algorithm by employing composition sampling and the integrated nested Laplace approximation (INLA) to compute the marginal distribution necessary for the acceptance probability. This enhancement improves the mixing and feasibility of Bayesian inference for complex models. We demonstrate the effectiveness of our approach through simulation studies and apply it to real-world disease mapping applications: COVID-19 in the United States of America, and dengue fever in the states of Minas Gerais and São Paulo, Brazil. Our results highlight the model's capability to uncover meaningful spatial patterns and temporal dynamics in disease outbreaks, providing valuable insights for public health decision-making and resource allocation.",
+ "primary": "stat.ME"
+}

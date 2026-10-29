@@ -1,0 +1,17 @@
+{
+ "id": "2411.04236",
+ "title": "Differentially Private Finite Population Estimation via Survey Weight Regularization",
+ "authors": [
+  "Jeremy Seeman",
+  "Yajuan Si",
+  "Jerome P Reiter"
+ ],
+ "v1_date": "2024-11-06",
+ "latest_version": 1,
+ "latest_date": "2024-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 10 figures, Submitted to HDSR",
+ "abstract": "In general, it is challenging to release differentially private versions of survey-weighted statistics with low error for acceptable privacy loss. This is because weighted statistics from complex sample survey data can be more sensitive to individual survey response and weight values than unweighted statistics, resulting in differentially private mechanisms that can add substantial noise to the unbiased estimate of the finite population quantity. On the other hand, simply disregarding the survey weights adds noise to a biased estimator, which also can result in an inaccurate estimate. Thus, the problem of releasing an accurate survey-weighted estimate essentially involves a trade-off among bias, precision, and privacy. We leverage this trade-off to develop a differentially private method for estimating finite population quantities. The key step is to privately estimate a hyperparameter that determines how much to regularize or shrink survey weights as a function of privacy loss. We illustrate the differentially private finite population estimation using the Panel Study of Income Dynamics. We show that optimal strategies for releasing DP survey-weighted mean income estimates require orders-of-magnitude less noise than naively using the original survey weights without modification.",
+ "primary": "cs.CR"
+}

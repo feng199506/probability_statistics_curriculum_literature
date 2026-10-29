@@ -1,0 +1,18 @@
+{
+ "id": "2501.04330",
+ "title": "Neural Parameter Estimation with Incomplete Data",
+ "authors": [
+  "Matthew Sainsbury-Dale",
+  "Andrew Zammit-Mangion",
+  "Noel Cressie",
+  "Raphaël Huser"
+ ],
+ "v1_date": "2025-01-08",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Advances in artificial intelligence (AI) and deep learning have led to neural networks being used to generate lightning-speed answers to complex science questions, paintings in the style of Monet, or stories like those of Twain. Leveraging their computational speed and flexibility, neural networks are also being used to facilitate fast, likelihood-free statistical inference. However, it is not straightforward to use neural networks with data that for various reasons are incomplete, which precludes their use in many applications. A recently proposed approach to remedy this issue uses an appropriately padded data vector and a vector that encodes the missingness pattern as input to a neural network. While computationally efficient, this \"masking\" approach is not robust to the missingness mechanism and can result in statistically inefficient inferences. Here, we propose an alternative approach that is based on the Monte Carlo expectation-maximization (EM) algorithm. Our EM approach is likelihood-free, substantially faster than the conventional EM algorithm as it does not require numerical optimization at each iteration, and more statistically efficient than the masking approach. This research addresses a prototypical problem that asks how improvements could be made in AI by introducing Bayesian statistical thinking. We compare the two approaches to missingness using simulated incomplete data from a variety of spatial models. The utility of the methodology is shown on Arctic sea-ice data, analyzed using a novel hidden Potts model with an intractable likelihood.",
+ "primary": "stat.ME"
+}

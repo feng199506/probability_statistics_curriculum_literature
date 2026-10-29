@@ -1,0 +1,17 @@
+{
+ "id": "2312.12106",
+ "title": "Conditional autoregressive models fused with random forests to improve small-area spatial prediction",
+ "authors": [
+  "Cara MacBride",
+  "Vinny Davies",
+  "Duncan Lee"
+ ],
+ "v1_date": "2023-12-19",
+ "latest_version": 1,
+ "latest_date": "2023-12-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In areal unit data with missing or suppressed data, it desirable to create models that are able to predict observations that are not available. Traditional statistical methods achieve this through Bayesian hierarchical models that can capture the unexplained residual spatial autocorrelation through conditional autoregressive (CAR) priors, such that they can make predictions at geographically related spatial locations. In contrast, typical machine learning approaches such as random forests ignore this residual autocorrelation, and instead base predictions on complex non-linear feature-target relationships. In this paper, we propose CAR-Forest, a novel spatial prediction algorithm that combines the best features of both approaches by fusing them together. By iteratively refitting a random forest combined with a Bayesian CAR model in one algorithm, CAR-Forest can incorporate flexible feature-target relationships while still accounting for the residual spatial autocorrelation. Our results, based on a Scottish housing price data set, show that CAR-Forest outperforms Bayesian CAR models, random forests, and the state-of-the-art hybrid approach, geographically weighted random forest, providing a state-of-the-art framework for small-area spatial prediction.",
+ "primary": "stat.ME"
+}

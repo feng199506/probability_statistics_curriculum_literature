@@ -1,0 +1,19 @@
+{
+ "id": "2506.04194",
+ "title": "What Makes Treatment Effects Identifiable? Characterizations and Estimators Beyond Unconfoundedness",
+ "authors": [
+  "Yang Cai",
+  "Alkis Kalavasis",
+  "Katerina Mamali",
+  "Anay Mehrotra",
+  "Manolis Zampetakis"
+ ],
+ "v1_date": "2025-06-04",
+ "latest_version": 2,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for presentation at the 38th Conference on Learning Theory (COLT) 2025. v2 strengthens results to give a tight characterization for ATE identification",
+ "abstract": "Most of the widely used estimators of the average treatment effect (ATE) in causal inference rely on the assumptions of unconfoundedness and overlap. Unconfoundedness requires that the observed covariates account for all correlations between the outcome and treatment. Overlap requires the existence of randomness in treatment decisions for all individuals. Nevertheless, many types of studies frequently violate unconfoundedness or overlap, for instance, observational studies with deterministic treatment decisions - popularly known as Regression Discontinuity designs - violate overlap. In this paper, we initiate the study of general conditions that enable the identification of the average treatment effect, extending beyond unconfoundedness and overlap. In particular, following the paradigm of statistical learning theory, we provide an interpretable condition that is sufficient and necessary for the identification of ATE. Moreover, this condition also characterizes the identification of the average treatment effect on the treated (ATT) and can be used to characterize other treatment effects as well. To illustrate the utility of our condition, we present several well-studied scenarios where our condition is satisfied and, hence, we prove that ATE can be identified in regimes that prior works could not capture. For example, under mild assumptions on the data distributions, this holds for the models proposed by Tan (2006) and Rosenbaum (2002), and the Regression Discontinuity design model introduced by Thistlethwaite and Campbell (1960). For each of these scenarios, we also show that, under natural additional assumptions, ATE can be estimated from finite samples. We believe these findings open new avenues for bridging learning-theoretic insights and causal inference methodologies, particularly in observational studies with complex treatment mechanisms.",
+ "primary": "math.ST"
+}

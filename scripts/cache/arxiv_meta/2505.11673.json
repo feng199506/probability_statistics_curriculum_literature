@@ -1,0 +1,18 @@
+{
+ "id": "2505.11673",
+ "title": "BLOG: Bayesian Longitudinal Omics with Group Constraints",
+ "authors": [
+  "Livia Popa",
+  "Sumanta Basu",
+  "Myung Hee Lee",
+  "Martin T. Wells"
+ ],
+ "v1_date": "2025-05-16",
+ "latest_version": 1,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 6 figures, 5 tables",
+ "abstract": "Clinical investigators are increasingly interested in discovering computational biomarkers from short-term longitudinal omics data sets. This work focuses on Bayesian regression and variable selection for longitudinal omics datasets, which can quantify uncertainty and control false discovery. In our univariate approach, Zellner's $g$ prior is used with two different options of the tuning parameter $g$: $g=\\sqrt{n}$ and a $g$ that minimizes Stein's unbiased risk estimate (SURE). Bayes Factors were used to quantify uncertainty and control for false discovery. In the multivariate approach, we use Bayesian Group LASSO with a spike and slab prior for group variable selection. In both approaches, we use the first difference ($Δ$) scale of longitudinal predictor and the response. These methods work together to enhance our understanding of biomarker identification, improving inference and prediction. We compare our method against commonly used linear mixed effect models on simulated data and real data from a Tuberculosis (TB) study on metabolite biomarker selection. With an automated selection of hyperparameters, the Zellner's $g$ prior approach correctly identifies target metabolites with high specificity and sensitivity across various simulation and real data scenarios. The Multivariate Bayesian Group Lasso spike and slab approach also correctly selects target metabolites across various simulation scenarios.",
+ "primary": "stat.ME"
+}

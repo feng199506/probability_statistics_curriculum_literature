@@ -1,0 +1,16 @@
+{
+ "id": "2604.21865",
+ "title": "Nonparametric f-Modeling for Empirical Bayes Inference with Unequal and Unknown Variances",
+ "authors": [
+  "Zhigen Zhao",
+  "Shonosuke Sugaasawa"
+ ],
+ "v1_date": "2026-04-23",
+ "latest_version": 1,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 3 figures",
+ "abstract": "Empirical Bayes methods are widely used for large-scale inference, yet most classical approaches assume homoscedastic observations and focus primarily on posterior mean estimation. We develop a nonparametric empirical Bayes framework for the heteroscedastic normal means problem with unequal and unknown variances. Our first contribution is a generalized Tweedie-type identity that expresses the Bayes estimator entirely in terms of the joint marginal density of the observed statistics and its partial derivatives, extending the classical Tweedie's formula to settings with heterogeneous and unknown variances. Our second contribution is to introduce a moment-generating-function representation that enables recovery of the full posterior distribution within the f-modeling paradigm without specifying or estimating the prior distribution. The resulting method provides a unified framework for point estimation, uncertainty quantification, and hypothesis testing while accommodating arbitrary dependence between means and variances. Simulation studies and real-data analysis demonstrate that the proposed approach achieves accurate shrinkage estimation and reliable posterior inference in heterogeneous data environments.",
+ "primary": "stat.ME"
+}

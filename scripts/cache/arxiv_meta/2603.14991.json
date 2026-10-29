@@ -1,0 +1,17 @@
+{
+ "id": "2603.14991",
+ "title": "Wasserstein Distributionally Robust Quantile Regression",
+ "authors": [
+  "Chunxu Zhang",
+  "Tiantian Mao",
+  "Ruodu Wang"
+ ],
+ "v1_date": "2026-03-16",
+ "latest_version": 1,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study distributionally robust quantile regression using type-$p$ Wasserstein ambiguity sets. We derive a closed-form expression for the worst-case quantile regression loss under general $p$-Wasserstein uncertainty. We further give a uniqueness result showing that for $p>1$, the check loss yields the only class of convex loss functions for which such an additive Wasserstein regularization holds. Our analysis also uncovers qualitative differences between the regimes $p=1$ and $p>1$. When $p>1$, the slope coefficients coincide with those of the regularized formulation, while the intercept undergoes a radius-dependent adjustment; the value $p$ affects only this intercept correction, whereas the choice of transport norm influences both. Finally, we establish finite-sample out-of-sample risk guarantees of order $O(N^{-1/2})$ under mild moment conditions. Numerical experiments illustrate the theoretical findings and the practical implications of the proposed formulation.",
+ "primary": "math.ST"
+}

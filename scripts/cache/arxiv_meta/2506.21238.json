@@ -1,0 +1,17 @@
+{
+ "id": "2506.21238",
+ "title": "Optimizing Gaussian Process Kernels Using Nested Sampling and ABC Rejection for H(z) Reconstruction",
+ "authors": [
+  "Jia-yan Jiang",
+  "Kang Jiao",
+  "Tong-Jie Zhang"
+ ],
+ "v1_date": "2025-06-26",
+ "latest_version": 3,
+ "latest_date": "2025-11-20",
+ "journal_ref": "Jia-yan Jiang et al JCAP11(2025)065",
+ "doi": "10.1088/1475-7516/2025/11/065",
+ "comment": "25 pages,11 figures, 5 tables, v3 matches the published JCAP version. Comments welcome! Journal-ref: JCAP11 (2025) 065",
+ "abstract": "Recent cosmological observations have achieved high-precision measurements of the Universe's expansion history, prompting the use of nonparametric methods such as Gaussian processes (GP) regression. We apply GP regression for reconstructing the Hubble parameter using CC data, with improved covariance modeling and latest study in CC data. By comparing reconstructions in redshift space $z$ and transformed space $\\log(z+1)$ , we evaluate six kernel functions using nested sampling (NS) and approximate Bayesian computation rejection (ABC rejection) methods and analyze the construction of Hubble constant $H_0$ in different models. Our analysis demonstrates that reconstructions in $\\log(z+1)$ space remain physically reasonable, offering a viable alternative to conventional $z$ space approaches, while the introduction of nondiagonal covariance matrices leads to degraded reconstruction quality, suggesting that simplified diagonal forms may be preferable for reconstruction. These findings underscore the importance of task-specific kernel selection in GP-based cosmological inference. In particular, our findings suggest that careful preliminary screening of kernel functions, based on the physical quantities of interest, is essential for reliable inference in cosmological research using GP.",
+ "primary": "astro-ph.CO"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.18130",
+ "title": "Sequential Change-point Detection for Compositional Time Series with Exogenous Variables",
+ "authors": [
+  "Yajun Liu",
+  "Beth Andrews"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 2,
+ "latest_date": "2025-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential change-point detection for time series enables us to sequentially check the hypothesis that the model still holds as more and more data are observed. It is widely used in data monitoring in practice. In this work, we consider sequential change-point detection for compositional time series, time series in which the observations are proportions. For fitting compositional time series, we propose a generalized Beta AR(1) model, which can incorporate exogenous variables upon which the time series observations are dependent. We show the compositional time series are strictly stationary and geometrically ergodic and consider maximum likelihood estimation for model parameters. We show the partial MLEs are consistent and asymptotically normal and propose a parametric sequential change-point detection method for the compositional time series model. The change-point detection method is illustrated using a time series of Covid-19 positivity rates.",
+ "primary": "stat.ME"
+}

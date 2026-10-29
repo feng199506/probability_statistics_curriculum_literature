@@ -1,0 +1,17 @@
+{
+ "id": "2604.26992",
+ "title": "Adaptive Confidence Intervals in Efron's Gaussian Two-Groups Model",
+ "authors": [
+  "Qiaosen Wang",
+  "Shuwen Chai",
+  "Chao Gao"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 2,
+ "latest_date": "2026-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "corrected several typos; no change to main results",
+ "abstract": "Robust uncertainty quantification is increasingly important in modern data analysis and is often formalized under Huber's model, which allows an $\\varepsilon$-fraction of arbitrary corruptions. In many experimental sciences, however, the measurement protocol is well controlled, and contamination is more plausibly introduced upstream. Motivated by this noise-oblivious nature of adversaries, we study confidence intervals for the null location parameter $θ$ in Efron's Gaussian two-groups model, where an unknown fraction $\\varepsilon$ of observations have arbitrarily shifted means, but all samples share the same law of additive Gaussian measurement noise with variance $σ^2$. We characterize the minimax-optimal length among confidence intervals with a prescribed coverage level uniformly over the unknown contamination proportion and all noise-oblivious adversaries. Although prior work has shown that the minimax point estimation rate of theta does not deteriorate when $\\varepsilon$ becomes unknown, our results reveal that, with a given $σ^2$, the minimax-optimal length of confidence intervals that are adaptive to unknown $\\varepsilon$ is of order $σ(n^{-1/4}+\\varepsilon^{1/2}/\\max\\{1, \\log(en \\varepsilon^2)\\}^{1/2})$, which is polynomially worse than the optimal length when $\\varepsilon$ is known. When the variance $σ^2$ is also unknown, we show a further degradation: no adaptive confidence interval can be shorter than $Ω(σn^{-1/8})$. Algorithmically, we introduce a Fourier-based certification procedure built on Carathéodory's positive-semidefiniteness constraints. By scanning candidate points and accepting those whose residual characteristic function is certifiably consistent with a Gaussian location mixture, our algorithm attains the minimax lower bound in the known-variance setting and is computable in polynomial time.",
+ "primary": "math.ST"
+}

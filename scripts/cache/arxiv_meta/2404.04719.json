@@ -1,0 +1,19 @@
+{
+ "id": "2404.04719",
+ "title": "Change Point Detection in Dynamic Graphs with Decoder-only Latent Space Model",
+ "authors": [
+  "Yik Lun Kei",
+  "Jialiang Li",
+  "Hangjian Li",
+  "Yanzhen Chen",
+  "Oscar Hernan Madrid Padilla"
+ ],
+ "v1_date": "2024-04-06",
+ "latest_version": 4,
+ "latest_date": "2025-04-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This manuscript studies the unsupervised change point detection problem in time series of graphs using a decoder-only latent space model. The proposed framework consists of learnable prior distributions for low-dimensional graph representations and of a decoder that bridges the observed graphs and latent representations. The prior distributions of the latent spaces are learned from the observed data as empirical Bayes to assist change point detection. Specifically, the model parameters are estimated via maximum approximate likelihood, with a Group Fused Lasso regularization imposed on the prior parameters. The augmented Lagrangian is solved via Alternating Direction Method of Multipliers, and Langevin Dynamics are recruited for posterior inference. Simulation studies show good performance of the latent space model in supporting change point detection and real data experiments yield change points that align with significant events.",
+ "primary": "stat.ME"
+}

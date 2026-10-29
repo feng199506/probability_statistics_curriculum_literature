@@ -1,0 +1,16 @@
+{
+ "id": "2510.06157",
+ "title": "Frequency-Domain Analysis of Time Series with Network-Structured Dependence: Application to Global Bank Connectedness",
+ "authors": [
+  "Cristian F. Jiménez-Varón",
+  "Marina I. Knight"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 2,
+ "latest_date": "2026-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Financial spillovers in interconnected systems, such as global banking networks, require tools that capture temporal and frequency dynamics, while incorporating the underlying network topology. While current network time series models are developed in the time-domain, frequency-domain approaches, which reveal how cross-nodal dependencies vary across different cycles, remain under-explored. This paper develops a spectral analysis framework that accommodates flexible forms of network dependence, including interactions mediated through intermediate nodes. This ensures that inter-nodal relationships are not restricted to direct connections, a feature crucial for capturing indirect financial spillovers. We define the network time series spectral density, alongside coherence and partial coherence, and propose both parametric and network-constrained nonparametric methods for their estimation. Simulations and theoretical results demonstrate the strong performance of the parametric approach when the data-generating process aligns with the model structure, whereas the nonparametric alternative provides robustness against model misspecification. An application to global bank connectedness shows that the proposed spectral measures capture inter-bank frequency-specific spillover effects, yielding results consistent with existing measures while additionally uncovering richer patterns of volatility transmission that are intimately connected to the network topology.",
+ "primary": "stat.ME"
+}

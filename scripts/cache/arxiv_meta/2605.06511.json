@@ -1,0 +1,17 @@
+{
+ "id": "2605.06511",
+ "title": "Logarithmic Mixing of Random Walks on Dynamical Random Cluster Models",
+ "authors": [
+  "Andreas Galanis",
+  "Leslie Ann Goldberg",
+  "Xandru Mifsud"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 1 figure",
+ "abstract": "We study random walks on dynamically evolving graphs, where the environment is given by a time-dependent subset of the edges of an underlying graph. Concretely, following the recently introduced framework of Lelli and Stauffer, we consider a random walk interacting with a dynamical random-cluster environment, in which edges are updated with rate $μ>0$ according to Glauber dynamics with parameters $p$ and $q$, and the walker moves at rate 1 but may only traverse edges that are present at the time of the move. This setting introduces strong dependencies between the walk and the environment, as edge-update probabilities depend on the global connectivity structure. We focus on the case where the underlying graph is a random $d$-regular graph and the parameters lie in the subcritical regime $p < p_{\\mathrm{u}}(q, d)$ where it is known that the Glauber dynamics mixes quickly. Our main result is to show that for any $\\varepsilon >0$ and all $q \\ge 1$, for all $p$ in the subcritical regime, the mixing time of the joint process is $Θ(\\log n)$ (in continuous time) whenever $μ\\geq \\varepsilon \\log n$. This matches the mixing time of the simple random walk on a static random regular graph, showing that in this regime the evolving environment does not slow down mixing. Our proof is based on a coupling argument that uses path-count techniques to overcome the dependencies in the edge dynamics by controlling the structure of the environment along typical trajectories.",
+ "primary": "math.PR"
+}

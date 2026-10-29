@@ -1,0 +1,18 @@
+{
+ "id": "2606.24751",
+ "title": "Hierarchical Bayesian Estimation of Covariance Matrices",
+ "authors": [
+  "Daniel Xiang",
+  "Malgorzata Bogdan",
+  "Jonas Wallin",
+  "Daniel Yekutieli"
+ ],
+ "v1_date": "2026-06-23",
+ "latest_version": 1,
+ "latest_date": "2026-06-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a hierarchical Bayesian framework for covariance matrix estimation built on a key observation: while equivariance under the full general linear group GL(p) is well known, it is an extremely restrictive property -- estimators equivariant to GL(p) are limited to scalar multiples of the sample covariance matrix and carry considerably larger risks than shrinkage estimators. By contrast, commonly used shrinkage estimators, including the Haff empirical Bayes estimator, and the Ledoit--Wolf estimators, are all equivariant under the smaller orthogonal group O(p). Exploiting this structure, we establish that the Haar measure Bayes rule in an oracle eigenvalue model is the minimum risk estimator within the class of O(p)-equivariant estimators, and derive oracle Bayes rules for the covariance and precision matrices under the squared Frobenius, Stein, and squared Stein loss functions. These oracle rules serve as theoretical benchmarks that dominate all commonly used estimators. To approximate them when the true eigenvalues are unknown, we introduce a hierarchical Bayes model that places a finite P'olya tree prior on the eigenvalue distribution and uses Gibbs sampling to generate posterior draws, yielding both shrinkage estimates for the eigenvalues and approximations to the oracle Bayes rules. Simulations suggest that the finite P'olya tree prior is able to recover the general form of the distribution of the eigenvalues, and confirm that the resulting estimators closely approach oracle performance, substantially outperforming classical competitors for both covariance and precision matrix estimation.",
+ "primary": "stat.ME"
+}

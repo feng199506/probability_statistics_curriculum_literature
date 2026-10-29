@@ -1,0 +1,19 @@
+{
+ "id": "2408.16485",
+ "title": "A multiple imputation approach to distinguish curative from life-prolonging effects in the presence of missing covariates",
+ "authors": [
+  "Marta Cipriani",
+  "Marta Fiocco",
+  "Marco Alfò",
+  "Maria Quelhas",
+  "Eni Musta"
+ ],
+ "v1_date": "2024-08-29",
+ "latest_version": 2,
+ "latest_date": "2024-12-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 2 figures",
+ "abstract": "Medical advances have increased cancer survival rates and the possibility of finding a cure. Hence, it is crucial to evaluate the impact of treatments both in terms of cure and prolongation of survival. To achieve this, we may use a Cox proportional hazards (PH) cure model. However, a significant challenge in applying such a model is the potential presence of partially observed covariates. We aim to refine the methods for imputing partially observed covariates based on multiple imputation and fully conditional specification (FCS) approaches. To be more specific, we consider a general case in which different covariate vectors are used to model the probability of cure and the survival of patients who are not cured. We investigated the performance of the multiple imputation procedure based on the exact conditional distribution and an approximate imputation model, which helps to draw imputed values at a lower computational cost. To assess the effectiveness of these approaches, we compare them with a complete case analysis and an analysis that includes all available covariates in modelling both cure probabilities and the survival of the uncured. We discuss the application of these techniques to a real-world dataset from the BO06 clinical trial on osteosarcoma.",
+ "primary": "stat.ME"
+}

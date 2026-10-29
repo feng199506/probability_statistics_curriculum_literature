@@ -1,0 +1,17 @@
+{
+ "id": "2406.15582",
+ "title": "Graphical copula GARCH modeling with dynamic conditional dependence",
+ "authors": [
+  "Lupe Shun Hin Chan",
+  "Amanda Man Ying Chu",
+  "Mike Ka Pui So"
+ ],
+ "v1_date": "2024-06-21",
+ "latest_version": 1,
+ "latest_date": "2024-06-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modeling returns on large portfolios is a challenging problem as the number of parameters in the covariance matrix grows as the square of the size of the portfolio. Traditional correlation models, for example, the dynamic conditional correlation (DCC)-GARCH model, often ignore the nonlinear dependencies in the tail of the return distribution. In this paper, we aim to develop a framework to model the nonlinear dependencies dynamically, namely the graphical copula GARCH (GC-GARCH) model. Motivated from the capital asset pricing model, to allow modeling of large portfolios, the number of parameters can be greatly reduced by introducing conditional independence among stocks given some risk factors. The joint distribution of the risk factors is factorized using a directed acyclic graph (DAG) with pair-copula construction (PCC) to enhance the modeling of the tails of the return distribution while offering the flexibility of having complex dependent structures. The DAG induces topological orders to the risk factors, which can be regarded as a list of directions of the flow of information. The conditional distributions among stock returns are also modeled using PCC. Dynamic conditional dependence structures are incorporated to allow the parameters in the copulas to be time-varying. Three-stage estimation is used to estimate parameters in the marginal distributions, the risk factor copulas, and the stock copulas. The simulation study shows that the proposed estimation procedure can estimate the parameters and the underlying DAG structure accurately. In the investment experiment of the empirical study, we demonstrate that the GC-GARCH model produces more precise conditional value-at-risk prediction and considerably higher cumulative portfolio returns than the DCC-GARCH model.",
+ "primary": "stat.ME"
+}

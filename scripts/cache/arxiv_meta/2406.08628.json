@@ -1,0 +1,20 @@
+{
+ "id": "2406.08628",
+ "title": "Empirical Evidence That There Is No Such Thing As A Validated Prediction Model",
+ "authors": [
+  "Florian D. van Leeuwen",
+  "Ewout W. Steyerberg",
+  "David van Klaveren",
+  "Ben Wessler",
+  "David M. Kent",
+  "Erik W. van Zwet"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: External validations are essential to assess clinical prediction models (CPMs) before deployment. Apart from model misspecification, differences in patient population and other factors influence a model's AUC (c-statistic). We aimed to quantify variation in AUCs across external validation studies and adjust expectations of a model's performance in a new setting. Methods: The Tufts-PACE CPM Registry contains CPMs for cardiovascular disease prognosis. We analyzed the AUCs of 469 CPMs with a total of 1,603 external validations. For each CPM, we performed a random effects meta-analysis to estimate the between-study standard deviation $τ$ among the AUCs. Since the majority of these meta-analyses has only a handful of validations, this leads to very poor estimates of $τ$. So, we estimated a log normal distribution of $τ$ across all CPMs and used this as an empirical prior. We compared this empirical Bayesian approach with frequentist meta-analyses using cross-validation. Results: The 469 CPMs had a median of 2 external validations (IQR: [1-3]). The estimated distribution of $τ$ had a mean of 0.055 and a standard deviation of 0.015. If $τ$ = 0.05, the 95% prediction interval for the AUC in a new setting is at least +/- 0.1, regardless of the number of validations. Frequentist methods underestimate the uncertainty about the AUC in a new setting. Accounting for $τ$ in a Bayesian approach achieved near nominal coverage. Conclusion: Due to large heterogeneity among the validated AUC values of a CPM, there is great irreducible uncertainty in predicting the AUC in a new setting. This uncertainty is underestimated by existing methods. The proposed empirical Bayes approach addresses this problem which merits wide application in judging the validity of prediction models.",
+ "primary": "stat.ME"
+}

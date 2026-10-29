@@ -1,0 +1,18 @@
+{
+ "id": "2507.14336",
+ "title": "A Statistician's Overview of Physics-Informed Neural Networks for Spatio-Temporal Data",
+ "authors": [
+  "Christopher K. Wikle",
+  "Joshua North",
+  "Giri Gopalan",
+  "Myungsoo Yoo"
+ ],
+ "v1_date": "2025-07-18",
+ "latest_version": 2,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The recent success of deep neural network models with physical constraints (so-called, Physics-Informed Neural Networks, PINNs) has led to renewed interest in the incorporation of mechanistic information in predictive models. Statisticians and others have long been interested in this problem, which has led to several practical and innovative solutions dating back decades. In this overview, we focus on the problem of data-driven prediction and inference of dynamic spatio-temporal processes that include mechanistic information, such as would be available from partial differential equations, with a strong focus on the quantification of uncertainty associated with data, process, and parameters. We give a brief review of several paradigms and focus our attention on Bayesian implementations given they naturally accommodate uncertainty quantification. We then show that it is straight-forward to include the Bayesian PINN (B-PINN) within the Bayesian hierarchical model (BHM) framework that has long been considered for modeling dynamic spatio-temporal processes. Such a BHM-PINN is illustrated via a simulation study in which a latent nonlinear Burgers' equation PDE governs the dynamics of Poisson distributed spatio-temporal data.",
+ "primary": "stat.ME"
+}

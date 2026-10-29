@@ -1,0 +1,16 @@
+{
+ "id": "2506.00149",
+ "title": "Generalizing causal effects with noncompliance: Application to deep canvassing experiments",
+ "authors": [
+  "Zhongren Chen",
+  "Melody Huang"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Standard approaches in generalizability often focus on generalizing the intent-to-treat (ITT). However, in practice, a more policy-relevant quantity is the generalized impact of an intervention across compliers. While instrumental variable (IV) methods are commonly used to estimate the complier average causal effect (CACE) within samples, standard approaches cannot be applied to a target population with a different distribution from the study sample. This paper makes several key contributions. First, we introduce a new set of identifying assumptions in the form of a population-level exclusion restriction that allows for identification of the target complier average causal effect (T-CACE) in both randomized experiments and observational studies. This allows researchers to identify the T-CACE without relying on standard principal ignorability assumptions. Second, we propose a class of inverse-weighted estimators for the T-CACE and derive their asymptotic properties. We provide extensions for settings in which researchers have access to auxiliary compliance information across the target population. Finally, we introduce a sensitivity analysis for researchers to evaluate the robustness of the estimators in the presence of unmeasured confounding and extend existing tests to evaluate instrument validity in this context. We illustrate our proposed method through extensive simulations and a study evaluating the impact of deep canvassing on reducing exclusionary attitudes.",
+ "primary": "stat.ME"
+}

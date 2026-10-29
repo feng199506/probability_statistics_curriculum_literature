@@ -1,0 +1,17 @@
+{
+ "id": "2409.19090",
+ "title": "Calibrating microscopic traffic models with macroscopic data",
+ "authors": [
+  "Yanbing Wang",
+  "Felipe de Souza",
+  "Dominik Karbowski"
+ ],
+ "v1_date": "2024-09-27",
+ "latest_version": 1,
+ "latest_date": "2024-09-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Traffic microsimulation is a crucial tool that uses microscopic traffic models, such as car-following and lane-change models, to simulate the trajectories of individual agents. This digital platform allows for the assessment of the impact of emerging technologies on transportation system performance. While these microscopic models are based on mathematical structures, their parameters must be fitted to real-world data through a process called model calibration. Despite extensive studies on calibration, the focus has predominantly been on fitting microscopic data, such as trajectories, rather than evaluating how well the models reproduce macroscopic traffic patterns, such as congestion, bottlenecks, and traffic waves. In this work, we address this gap by calibrating microscopic traffic flow models using macroscopic (aggregated) data, which is more readily accessible. We designed a SUMO-in-the-loop calibration framework with the goal of replicating observed macroscopic traffic features. To assess calibration accuracy, we developed a set of performance measures that evaluate the models' ability to replicate traffic states across the entire spatiotemporal domain and other qualitative characteristics of traffic flow. The calibration method was applied to both a synthetic scenario and a real-world scenario on a segment of Interstate 24, to demonstrate its effectiveness in reproducing observed traffic patterns.",
+ "primary": "stat.AP"
+}

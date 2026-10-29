@@ -1,0 +1,15 @@
+{
+ "id": "2411.10623",
+ "title": "Sensitivity Analysis for Observational Studies with Flexible Matched Designs",
+ "authors": [
+  "Xinran Li"
+ ],
+ "v1_date": "2024-11-15",
+ "latest_version": 2,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Observational studies provide invaluable opportunities to draw causal inference, but they may suffer from biases due to pretreatment difference between treated and control units. Matching is a popular approach to reduce observed covariate imbalance. To tackle unmeasured confounding, a sensitivity analysis is often conducted to investigate how robust a causal conclusion is to the strength of unmeasured confounding. For matched observational studies, Rosenbaum proposed a sensitivity analysis framework that uses the randomization of treatment assignments as the ``reasoned basis'' and imposes no model assumptions on the potential outcomes as well as their dependence on the observed and unobserved confounding factors. However, this otherwise appealing framework requires exact matching to guarantee its validity, which is hard to achieve in practice. In this paper we provide an alternative inferential framework that shares the same procedure as Rosenbaum's approach but relies on a different justification. Our framework allows flexible matching algorithms and utilizes alternative source of randomness, in particular random permutations of potential outcomes instead of treatment assignments, to guarantee statistical validity.",
+ "primary": "stat.ME"
+}

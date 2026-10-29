@@ -1,0 +1,16 @@
+{
+ "id": "2602.01777",
+ "title": "Stein-Rule Shrinkage for Stochastic Gradient Estimation in High Dimensions",
+ "authors": [
+  "M. Arashi",
+  "M. Amintoosi"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 2,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stochastic gradient methods are central to large-scale learning, but they treat mini-batch gradients as unbiased estimators, which classical decision theory shows are inadmissible in high dimensions. We formulate gradient computation as a high-dimensional estimation problem and introduce a framework based on Stein-rule shrinkage. We construct a gradient estimator that adaptively contracts noisy mini-batch gradients toward a stable estimator derived from historical momentum. The shrinkage intensity is determined in a data-driven manner using an online estimate of gradient noise variance, leveraging statistics from adaptive optimizers. Under a Gaussian noise model, we show our estimator uniformly dominates the standard stochastic gradient under squared error loss and is minimax-optimal. We incorporate this into the Adam optimizer, yielding SR-Adam, a practical algorithm with negligible computational cost. Empirical evaluations on CIFAR10 and CIFAR100 across multiple levels of input noise show consistent improvements over Adam in the large-batch regime. Ablation studies indicate that gains arise primarily from selectively applying shrinkage to high-dimensional convolutional layers, while indiscriminate shrinkage across all parameters degrades performance. These results illustrate that classical shrinkage principles provide a principled approach to improving stochastic gradient estimation in deep learning.",
+ "primary": "cs.LG"
+}

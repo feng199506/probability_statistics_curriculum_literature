@@ -1,0 +1,17 @@
+{
+ "id": "2606.16301",
+ "title": "One-Step Generalization Ratio Guided Optimization for Domain Generalization",
+ "authors": [
+  "Sumin Cho",
+  "Dongwon Kim",
+  "Kwangsu Kim"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 1,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, accepted at the 42nd International Conference on Machine Learning (ICML 2025)",
+ "abstract": "Domain Generalization (DG) aims to train models that generalize to unseen target domains but often overfit to domain-specific features, known as undesired correlations. Gradient-based DG methods typically guide gradients in a dominant direction but often inadvertently reinforce spurious correlations. Recent work has employed dropout to regularize overconfident parameters, but has not explicitly adjusted gradient alignment or ensured balanced parameter updates. We propose GENIE (Generalization-ENhancing Iterative Equalizer), a novel optimizer that leverages the One-Step Generalization Ratio (OSGR) to quantify each parameter's contribution to loss reduction and assess gradient alignment. By dynamically equalizing OSGR via a preconditioning factor, GENIE prevents a small subset of parameters from dominating optimization, thereby promoting domain-invariant feature learning. Theoretically, GENIE balances convergence contribution and gradient alignment among parameters, achieving higher OSGR while retaining SGD's convergence rate. Empirically, it outperforms existing optimizers and enhances performance when integrated with various DG and single-DG methods.",
+ "primary": "cs.LG"
+}

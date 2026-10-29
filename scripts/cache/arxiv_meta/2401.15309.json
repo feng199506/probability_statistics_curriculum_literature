@@ -1,0 +1,19 @@
+{
+ "id": "2401.15309",
+ "title": "Zero-inflated Smoothing Spline (ZISS) Models for Individual-level Single-cell Temporal Data",
+ "authors": [
+  "Yifu Tang",
+  "Yi Zhang",
+  "Yue Wang",
+  "Jingyi Zhang",
+  "Xiaoxiao Sun"
+ ],
+ "v1_date": "2024-01-27",
+ "latest_version": 1,
+ "latest_date": "2024-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent advancements in single-cell RNA-sequencing (scRNA-seq) have enhanced our understanding of cell heterogeneity at a high resolution. With the ability to sequence over 10,000 cells per hour, researchers can collect large scRNA-seq datasets for different participants, offering an opportunity to study the temporal progression of individual-level single-cell data. However, the presence of excessive zeros, a common issue in scRNA-seq, significantly impacts regression/association analysis, potentially leading to biased estimates in downstream analysis. Addressing these challenges, we introduce the Zero Inflated Smoothing Spline (ZISS) method, specifically designed to model single-cell temporal data. The ZISS method encompasses two components for modeling gene expression patterns over time and handling excessive zeros. Our approach employs the smoothing spline ANOVA model, providing robust estimates of mean functions and zero probabilities for irregularly observed single-cell temporal data compared to existing methods in our simulation studies and real data analysis.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "2507.23548",
+ "title": "A decomposition of Fisher's information to inform sample size for developing or updating fair and precise clinical prediction models -- Part 3: continuous outcomes",
+ "authors": [
+  "Rebecca Whittle",
+  "Richard D Riley",
+  "Lucinda Archer",
+  "Gary S Collins",
+  "Amardeep Legha",
+  "Kym IE Snell",
+  "Joie Ensor"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Clinical prediction models enable healthcare professionals to estimate individual outcomes using patient characteristics. Current sample size guidelines for developing or updating models with continuous outcomes aim to minimise overfitting and ensure accurate estimation of population-level parameters, but do not explicitly address the precision of predictions. This is a critical limitation, as wide confidence intervals around predictions can undermine clinical utility and fairness, particularly if precision varies across subgroups. We propose methodology for calculating the sample size required to ensure precise and fair predictions in models with continuous outcomes. Building on linear regression theory and the Fisher's unit information matrix, our approach calculates how sample size impacts the epistemic (model-based) uncertainty of predictions and allows researchers to either (i) evaluate whether an existing dataset is sufficiently large, or (ii) determine the sample size needed to target a particular confidence interval width around predictions. The method requires real or synthetic data representing the target population. To assess fairness,the approach can evaluate prediction precision across subgroups. Extensions to prediction intervals are included to additionally address aleatoric uncertainty. Our methodology provides a practical framework for examining required sample sizes when developing or updating prediction models with continuous outcomes, focusing on achieving precise and equitable predictions. It supports the development of more reliable and fair models, enhancing their clinical applicability and trustworthiness.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "2507.17439",
+ "title": "Penalized Empirical Likelihood for Doubly Robust Causal Inference under Contamination in High Dimensions",
+ "authors": [
+  "Byeonghee Lee",
+  "Sangwook Kang",
+  "Ju-Hyun Park",
+  "Saebom Jeon",
+  "Joonsung Kang"
+ ],
+ "v1_date": "2025-07-23",
+ "latest_version": 4,
+ "latest_date": "2025-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a doubly robust estimator for the average treatment effect in high dimensional low sample size observational studies, where contamination and model misspecification pose serious inferential challenges. The estimator combines bounded influence estimating equations for outcome modeling with covariate balancing propensity scores for treatment assignment, embedded within a penalized empirical likelihood framework using nonconvex regularization. It satisfies the oracle property by jointly achieving consistency under partial model correct ness, selection consistency, robustness to contamination, and asymptotic normality. For uncertainty quantification, we derive a finite sample confidence interval using cumulant generating functions and influence function corrections, avoiding reliance on asymptotic approximations. Simulation studies and applications to gene expression datasets (Golub and Khan) demonstrate superior performance in bias, error metrics, and interval calibration, highlighting the method robustness and inferential validity in HDLSS regimes. One notable aspect is that even in the absence of contamination, the proposed estimator and its confidence interval remain efficient compared to those of competing models.",
+ "primary": "stat.ME"
+}

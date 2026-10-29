@@ -1,0 +1,16 @@
+{
+ "id": "2402.17274",
+ "title": "Sequential Change-point Detection for Binomial Time Series",
+ "authors": [
+  "Yajun Liu",
+  "Beth Andrews"
+ ],
+ "v1_date": "2024-02-27",
+ "latest_version": 2,
+ "latest_date": "2025-09-07",
+ "journal_ref": "",
+ "doi": "10.11159/icsta25.181",
+ "comment": "",
+ "abstract": "A binomial time series describes binary behaviors of individuals within a group, which depend on group behaviors in the past. Binomial time series data is widely applied in fields such as infection tracking and behavior analysis. In this paper, we introduce a generalized Binomial AR($p$) model with exogenous variables based on Generalized Linear Model (GLM), prove the statistical properties of the model when $p = 1$, and provide a parameter estimation method. Then, we propose a sequential change-point detection method for the generalized Binomial AR(1) model, facilitate real-time data monitoring and triggering alarms when a change point is detected. We apply the generalized Binomial AR(1) model to weekly pneumonia \\& influenza mortality data and successfully identify change points related to the COVID-19 outbreak using the proposed method.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.16563",
+ "title": "Topological Detection of Phenomenological Bifurcations with Unreliable Kernel Densities",
+ "authors": [
+  "Sunia Tanweer",
+  "Firas A. Khasawneh"
+ ],
+ "v1_date": "2024-01-29",
+ "latest_version": 1,
+ "latest_date": "2024-01-29",
+ "journal_ref": "",
+ "doi": "10.1016/j.probengmech.2024.103634",
+ "comment": "16 pages, 11 figures",
+ "abstract": "Phenomenological (P-type) bifurcations are qualitative changes in stochastic dynamical systems whereby the stationary probability density function (PDF) changes its topology. The current state of the art for detecting these bifurcations requires reliable kernel density estimates computed from an ensemble of system realizations. However, in several real world signals such as Big Data, only a single system realization is available -- making it impossible to estimate a reliable kernel density. This study presents an approach for detecting P-type bifurcations using unreliable density estimates. The approach creates an ensemble of objects from Topological Data Analysis (TDA) called persistence diagrams from the system's sole realization and statistically analyzes the resulting set. We compare several methods for replicating the original persistence diagram including Gibbs point process modelling, Pairwise Interaction Point Modelling, and subsampling. We show that for the purpose of predicting a bifurcation, the simple method of subsampling exceeds the other two methods of point process modelling in performance.",
+ "primary": "math.AT"
+}

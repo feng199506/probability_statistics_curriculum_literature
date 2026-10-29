@@ -1,0 +1,17 @@
+{
+ "id": "2311.18053",
+ "title": "Objective Priors for the Conway-Maxwell-Poisson (COM-Poisson) Distribution",
+ "authors": [
+  "Mark J. Meyer",
+  "Amia Graye",
+  "Kimberly F. Sellers"
+ ],
+ "v1_date": "2023-11-29",
+ "latest_version": 2,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Conway-Maxwell-Poisson (COM-Poisson) distribution is a flexible, two parameter distribution for count data that can accommodate equidispersion, overdispersion, and underdispersion in the data. Previous Bayesian evaluations of the COM-Poisson distribution have largely focused on the regression context with little discussion on objective priors for the base model. Additionally, we find the multivariate Jeffreys' prior is inadequate for this model. Motivated by this, we propose four different objective priors when using the COM-Poisson distribution including an independent Jefferys' prior model and a novel reference prior derived using the hierarchical approach for objective priors. Since the resulting reference prior is non-standard, we implement constrained nonlinear optimization by linear approximation to obtain the reference prior parameters for an Empirical Bayes approach. We also develop Stan code to perform No U-Turn Sampling on each model. We compare all four approaches in simulation and demonstrate the models in several data illustrations that span the spectrum of dispersion types.",
+ "primary": "stat.ME"
+}

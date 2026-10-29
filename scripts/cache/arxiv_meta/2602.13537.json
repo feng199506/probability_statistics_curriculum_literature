@@ -1,0 +1,18 @@
+{
+ "id": "2602.13537",
+ "title": "Cluster-Robust Inference for Quadratic Forms",
+ "authors": [
+  "Michal Kolesár",
+  "Pengjin Min",
+  "Wenjie Wang",
+  "Yichong Zhang"
+ ],
+ "v1_date": "2026-02-14",
+ "latest_version": 2,
+ "latest_date": "2026-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper studies inference for quadratic forms of linear regression coefficients with clustered data and many covariates. Our framework covers three important special cases: instrumental variables regression with many instruments and controls, inference on variance components, and testing multiple restrictions in a linear regression. Naïve plug-in estimators are known to be biased. We study a leave-one-cluster-out estimator that is unbiased, and provide sufficient conditions for its asymptotic normality. For inference, we establish the consistency of a leave-three-cluster-out variance estimator under primitive conditions. In addition, we develop a novel leave-two-cluster-out variance estimator that is computationally simpler and guaranteed to be conservative under weaker conditions. Our analysis allows cluster sizes to diverge with the sample size, accommodates strong within-cluster dependence, and permits the dimension of the covariates to diverge with the sample size, potentially at the same rate.",
+ "primary": "econ.EM"
+}

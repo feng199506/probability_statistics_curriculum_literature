@@ -1,0 +1,19 @@
+{
+ "id": "2410.05893",
+ "title": "Model Uncertainty and Missing Data: An Objective Bayesian Perspective",
+ "authors": [
+  "Gonzalo García-Donato",
+  "María Eugenia Castellanos",
+  "Stefano Cabras",
+  "Alicia Quirós",
+  "Anabel Forte"
+ ],
+ "v1_date": "2024-10-08",
+ "latest_version": 1,
+ "latest_date": "2024-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The interplay between missing data and model uncertainty -- two classic statistical problems -- leads to primary questions that we formally address from an objective Bayesian perspective. For the general regression problem, we discuss the probabilistic justification of Rubin's rules applied to the usual components of Bayesian variable selection, arguing that prior predictive marginals should be central to the pursued methodology. In the regression settings, we explore the conditions of prior distributions that make the missing data mechanism ignorable. Moreover, when comparing multiple linear models, we provide a complete methodology for dealing with special cases, such as variable selection or uncertainty regarding model errors. In numerous simulation experiments, we demonstrate that our method outperforms or equals others, in consistently producing results close to those obtained using the full dataset. In general, the difference increases with the percentage of missing data and the correlation between the variables used for imputation. Finally, we summarize possible directions for future research.",
+ "primary": "stat.ME"
+}

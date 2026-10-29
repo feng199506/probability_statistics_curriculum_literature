@@ -1,0 +1,17 @@
+{
+ "id": "2610.17146",
+ "title": "SCOPE Before You Sample: Conformal Scores Guide Posterior Exploration for Fast and Calibrated Bayesian Predictive Inference",
+ "authors": [
+  "Zahra Moslemi",
+  "Ziyi Liang",
+  "Babak Shahbaba"
+ ],
+ "v1_date": "2026-10-12",
+ "latest_version": 1,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages, including appendices",
+ "abstract": "Bayesian predictive regions account for parameter uncertainty but can be poorly calibrated under model misspecification, even with expensive full MCMC. Cheaper approximations such as variational inference reduce the cost but often yield less accurate predictive distributions. We propose SCOPE (Score-guided Conformal Posterior Exploration), which retains the predictive quality of full MCMC while achieving calibrated coverage at a fraction of its cost. The key observation is that a prediction region can depend on the posterior mainly through a few parameter directions that move the region's boundary, and these are generally not the directions of largest posterior variance. SCOPE gives nonconformity scores a new role in guiding posterior computation: score gradients on a held-out guide set, weighted toward the target boundary, identify the relevant directions. MCMC explores this subspace, while an inexpensive projected variational approximation carries the remaining uncertainty. The same guide set calibrates the region's final density level. We establish asymptotic coverage for SCOPE and provide a split variant with finite-sample validity. Controlled simulations show that score-guided exploration yields more accurate calibrated regions than non-targeted direction choices at low active rank. Across simulated and real benchmarks, SCOPE has a median test-NLL gap of only 0.002 nats relative to full Hamiltonian Monte Carlo (HMC), and on the real benchmarks it runs 12-15 times faster.",
+ "primary": "stat.ML"
+}

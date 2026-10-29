@@ -1,0 +1,16 @@
+{
+ "id": "2509.22235",
+ "title": "Tail-robust estimation of factor-adjusted vector autoregressive models for high-dimensional time series",
+ "authors": [
+  "Dylan Dijk",
+  "Haeran Cho"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-04-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of modelling high-dimensional, heavy-tailed time series data via a factor-adjusted vector autoregressive (VAR) model, which simultaneously accounts for pervasive co-movements of the variables by a handful of factors, as well as their remaining interconnectedness using a sparse VAR model. To handle heavy tails, we propose an element-wise data truncation step followed by a two-stage estimation procedure for estimating the latent factors and the VAR parameter matrices. Assuming the existence of the $(2 + 2ε)$-th moment only for some $ε\\in (0, 1)$, we derive the rates of estimation which, making explicit the effect of heavy tails through $ε$, are comparable to the rates attainable in light-tailed settings as $ε\\to 1$. Numerically, we demonstrate the competitive performance of the proposed estimators on simulated datasets and in an application to forecasting macroeconomics indicators.",
+ "primary": "stat.ME"
+}

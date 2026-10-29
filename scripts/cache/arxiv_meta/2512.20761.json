@@ -1,0 +1,19 @@
+{
+ "id": "2512.20761",
+ "title": "TS-Arena -- A Live Forecast Pre-Registration Platform",
+ "authors": [
+  "Marcel Meyer",
+  "Sascha Kaltenpoth",
+  "Henrik Albers",
+  "Kevin Zalipski",
+  "Oliver Müller"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 3,
+ "latest_date": "2026-04-24",
+ "journal_ref": "KDD '26: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2, pp. 9558 - 9568, 2026",
+ "doi": "10.1145/3770855.3817515",
+ "comment": "",
+ "abstract": "Time Series Foundation Models (TSFMs) are transforming the field of forecasting. However, evaluating them on historical data is increasingly difficult due to the risks of train-test sample overlaps and temporal overlaps between correlated train and test time series. To address this, we introduce TS-Arena, a live forecasting platform that shifts evaluation from the known past to the unknown future. Building on the concept of continuous benchmarking, TS-Arena evaluates models on future data. Crucially, we introduce a strict forecasting pre-registration protocol: models must submit predictions before the ground-truth data physically exists. This makes test-set contamination impossible by design. The platform relies on a modular microservice architecture that harmonizes and structures data from different sources and orchestrates containerized model submissions. By enforcing a strict pre-registration protocol on live data streams, TS-Arena prevents information leakage offers a faster alternative to traditional static, infrequently repeated competitions (e.g. the M-Competitions). First empirical results derived from operating TS-Arena over one year of energy time series demonstrate that established TSFMs accumulate robust longitudinal scores over time, while the continuous nature of the benchmark simultaneously allows newcomers to demonstrate immediate competitiveness. TS-Arena provides the necessary infrastructure to assess the true generalization capabilities of modern forecasting models. The platform and corresponding code are available at https://ts-arena.live/.",
+ "primary": "cs.LG"
+}

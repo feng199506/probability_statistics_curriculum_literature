@@ -1,0 +1,16 @@
+{
+ "id": "2406.17307",
+ "title": "Scalable Sampling of Truncated Multivariate Normals Using Sequential Nearest-Neighbor Approximation",
+ "authors": [
+  "Jian Cao",
+  "Matthias Katzfuss"
+ ],
+ "v1_date": "2024-06-25",
+ "latest_version": 1,
+ "latest_date": "2024-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a linear-complexity method for sampling from truncated multivariate normal (TMVN) distributions with high fidelity by applying nearest-neighbor approximations to a product-of-conditionals decomposition of the TMVN density. To make the sequential sampling based on the decomposition feasible, we introduce a novel method that avoids the intractable high-dimensional TMVN distribution by sampling sequentially from $m$-dimensional TMVN distributions, where $m$ is a tuning parameter controlling the fidelity. This allows us to overcome the existing methods' crucial problem of rapidly decreasing acceptance rates for increasing dimension. Throughout our experiments with up to tens of thousands of dimensions, we can produce high-fidelity samples with $m$ in the dozens, achieving superior scalability compared to existing state-of-the-art methods. We study a tetrachloroethylene concentration dataset that has $3{,}971$ observed responses and $20{,}730$ undetected responses, together modeled as a partially censored Gaussian process, where our method enables posterior inference for the censored responses through sampling a $20{,}730$-dimensional TMVN distribution.",
+ "primary": "stat.CO"
+}

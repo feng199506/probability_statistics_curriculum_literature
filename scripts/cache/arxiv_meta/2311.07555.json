@@ -1,0 +1,16 @@
+{
+ "id": "2311.07555",
+ "title": "On Bounding and Approximating Functions of Multiple Expectations using Quasi-Monte Carlo",
+ "authors": [
+  "Aleksei G. Sorokin",
+  "Jagadeeswaran Rathinavel"
+ ],
+ "v1_date": "2023-11-13",
+ "latest_version": 1,
+ "latest_date": "2023-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monte Carlo and Quasi-Monte Carlo methods present a convenient approach for approximating the expected value of a random variable. Algorithms exist to adaptively sample the random variable until a user defined absolute error tolerance is satisfied with high probability. This work describes an extension of such methods which supports adaptive sampling to satisfy general error criteria for functions of a common array of expectations. Although several functions involving multiple expectations are being evaluated, only one random sequence is required, albeit sometimes of larger dimension than the underlying randomness. These enhanced Monte Carlo and Quasi-Monte Carlo algorithms are implemented in the QMCPy Python package with support for economic and parallel function evaluation. We exemplify these capabilities on problems from machine learning and global sensitivity analysis.",
+ "primary": "math.NA"
+}

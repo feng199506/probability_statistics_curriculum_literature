@@ -1,0 +1,15 @@
+{
+ "id": "2410.20592",
+ "title": "Neural Network-Enhanced Disease Spread Dynamics Over Time and Space",
+ "authors": [
+  "Randy L. Caga-anan"
+ ],
+ "v1_date": "2024-10-27",
+ "latest_version": 1,
+ "latest_date": "2024-10-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "This study presents a neural network-enhanced approach to modeling disease spread dynamics over time and space. Neural networks are used to estimate time-varying parameters, with two calibration methods explored: Approximate Bayesian Computation (ABC) with Trust Region Reflective (TRF) optimization, and backpropagation with the Adam optimizer. Simulations show that the second method is faster for larger networks, while the first offers a greater diversity of acceptable solutions. The model is extended spatially by introducing a pathogen compartment, which diffuses through environmental transmission and interpersonal contact. We examine scenarios of exact reporting, overreporting, and underreporting, highlighting their effects on public behavior and infection peaks. Our results demonstrate that neural network-enhanced models more accurately capture dynamic changes in disease spread and illustrate the potential of scientific machine learning (SciML) to improve the predictive power of epidemiological models beyond traditional approaches.",
+ "primary": "q-bio.QM"
+}

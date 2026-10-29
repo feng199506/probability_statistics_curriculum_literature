@@ -1,0 +1,18 @@
+{
+ "id": "2411.10908",
+ "title": "The Conflict Graph Design: Estimating Causal Effects under Arbitrary Neighborhood Interference",
+ "authors": [
+  "Vardis Kandiros",
+  "Charilaos Pipis",
+  "Constantinos Daskalakis",
+  "Christopher Harshaw"
+ ],
+ "v1_date": "2024-11-16",
+ "latest_version": 3,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A fundamental problem in network experiments is selecting an appropriate experimental design in order to precisely estimate a given causal effect of interest. In this work, we propose the Conflict Graph Design, a general approach for constructing experiment designs under network interference with the goal of precisely estimating a pre-specified causal effect. A central aspect of our approach is the notion of a conflict graph, which captures the fundamental unobservability associated with the causal effect and the underlying network. In order to estimate effects, we propose a modified Horvitz--Thompson estimator. We show that its variance under the Conflict Graph Design is bounded as $O(λ(H) / n )$, where $λ(H)$ is the largest eigenvalue of the adjacency matrix of the conflict graph. These rates depend on both the underlying network and the particular causal effect under investigation. Not only does this yield the best known rates of estimation for several well-studied causal effects (e.g. the global and direct effects) but it also provides new methods for effects which have received less attention from the perspective of experiment design (e.g. spill-over effects). Finally, we construct conservative variance estimators which facilitate asymptotically valid confidence intervals for the causal effect of interest.",
+ "primary": "stat.ME"
+}

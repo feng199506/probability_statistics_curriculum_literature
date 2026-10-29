@@ -1,0 +1,17 @@
+{
+ "id": "2407.00584",
+ "title": "Hyperparameter Optimization for Randomized Algorithms: A Case Study on Random Features",
+ "authors": [
+  "Oliver R. A. Dunbar",
+  "Nicholas H. Nelsen",
+  "Maya Mutic"
+ ],
+ "v1_date": "2024-06-30",
+ "latest_version": 4,
+ "latest_date": "2025-02-23",
+ "journal_ref": "Statistics and Computing Vol. 35 No. 56 (2025)",
+ "doi": "10.1007/s11222-025-10587-w",
+ "comment": "",
+ "abstract": "Randomized algorithms exploit stochasticity to reduce computational complexity. One important example is random feature regression (RFR) that accelerates Gaussian process regression (GPR). RFR approximates an unknown function with a random neural network whose hidden weights and biases are sampled from a probability distribution. Only the final output layer is fit to data. In randomized algorithms like RFR, the hyperparameters that characterize the sampling distribution greatly impact performance, yet are not directly accessible from samples. This makes optimization of hyperparameters via standard (gradient-based) optimization tools inapplicable. Inspired by Bayesian ideas from GPR, this paper introduces a random objective function that is tailored for hyperparameter tuning of vector-valued random features. The objective is minimized with ensemble Kalman inversion (EKI). EKI is a gradient-free particle-based optimizer that is scalable to high-dimensions and robust to randomness in objective functions. A numerical study showcases the new black-box methodology to learn hyperparameter distributions in several problems that are sensitive to the hyperparameter selection: two global sensitivity analyses, integrating a chaotic dynamical system, and solving a Bayesian inverse problem from atmospheric dynamics. The success of the proposed EKI-based algorithm for RFR suggests its potential for automated optimization of hyperparameters arising in other randomized algorithms.",
+ "primary": "cs.LG"
+}

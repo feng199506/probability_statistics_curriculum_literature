@@ -1,0 +1,15 @@
+{
+ "id": "2507.03061",
+ "title": "Multiple data-driven missing imputation",
+ "authors": [
+  "Sergii Kavun"
+ ],
+ "v1_date": "2025-07-03",
+ "latest_version": 1,
+ "latest_date": "2025-07-03",
+ "journal_ref": "",
+ "doi": "10.5281/zenodo.15663430",
+ "comment": "https://github.com/s-kav/kz_data_imputation",
+ "abstract": "This paper introduces KZImputer, a novel adaptive imputation method for univariate time series designed for short to medium-sized missed points (gaps) (1-5 points and beyond) with tailored strategies for segments at the start, middle, or end of the series. KZImputer employs a hybrid strategy to handle various missing data scenarios. Its core mechanism differentiates between gaps at the beginning, middle, or end of the series, applying tailored techniques at each position to optimize imputation accuracy. The method leverages linear interpolation and localized statistical measures, adapting to the characteristics of the surrounding data and the gap size. The performance of KZImputer has been systematically evaluated against established imputation techniques, demonstrating its potential to enhance data quality for subsequent time series analysis. This paper describes the KZImputer methodology in detail and discusses its effectiveness in improving the integrity of time series data. Empirical analysis demonstrates that KZImputer achieves particularly strong performance for datasets with high missingness rates (around 50% or more), maintaining stable and competitive results across statistical and signal-reconstruction metrics. The method proves especially effective in high-sparsity regimes, where traditional approaches typically experience accuracy degradation.",
+ "primary": "stat.ME"
+}

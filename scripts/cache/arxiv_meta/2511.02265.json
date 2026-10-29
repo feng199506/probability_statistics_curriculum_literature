@@ -1,0 +1,15 @@
+{
+ "id": "2511.02265",
+ "title": "Non Asymptotic Mixing Time Analysis of Non-Reversible Markov Chains",
+ "authors": [
+  "Muhammad Abdullah Naeem"
+ ],
+ "v1_date": "2025-11-04",
+ "latest_version": 1,
+ "latest_date": "2025-11-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a unified operator-theoretic framework for analyzing mixing times of finite-state ergodic Markov chains that applies to both reversible and non-reversible dynamics. The central object in our analysis is the projected transition operator $PU_{\\perp 1}$, where $P$ is the transition kernel and $U_{\\perp 1}$ is orthogonal projection onto mean-zero subspace in $\\ell^{2}(π)$, where $π$ is the stationary distribution. We show that explicitly computable matrix norms of $(PU_{\\perp 1})^k$ gives non-asymptotic mixing times/distance to stationarity, and bound autocorrelations at lag $k$. We establish, for the first time, submultiplicativity of pointwise chi-squared divergence in the general non-reversible case. We provide for all times $χ^{2}(k)$ bounds based on the spectrum of $PU_{\\perp 1}$, i.e., magnitude of its distinct non-zero eigenvalues, discrepancy between their algebraic and geometric multiplicities, condition number of a similarity transform, and constant coming from smallest atom of stationary distribution(all scientifically computable). Furthermore, for diagonalizable $PU_{\\perp 1}$, we provide explict constants satisfying hypocoercivity phenomenon for discrete time Markov Chains. Our framework enables direct computation of convergence bounds for challenging non-reversible chains, including momentum-based samplers for V-shaped distributions. We provide the sharpest known bounds for non-reversible walk on triangle. Our results combined with simple regression reveals a fundamental insight into momentum samplers: although for uniform distributions, $n\\log{n}$ iterations suffice for $χ^{2}$ mixing, for V-shaped distributions they remain diffusive as $n^{1.969}\\log{n^{1.956}}$ iterations are sufficient. The framework shows that for ergodic chains relaxation times $τ_{rel}=\\|\\sum_{k=0}^{\\infty}P^{k}U_{\\perp 1}\\|_{\\ell^{2}(π)}$.",
+ "primary": "math.PR"
+}

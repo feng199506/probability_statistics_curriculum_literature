@@ -1,0 +1,19 @@
+{
+ "id": "2402.03008",
+ "title": "Diffusive Gibbs Sampling",
+ "authors": [
+  "Wenlin Chen",
+  "Mingtian Zhang",
+  "Brooks Paige",
+  "José Miguel Hernández-Lobato",
+  "David Barber"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 5,
+ "latest_date": "2024-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted for publication at ICML 2024. Code available: https://github.com/Wenlin-Chen/DiGS",
+ "abstract": "The inadequate mixing of conventional Markov Chain Monte Carlo (MCMC) methods for multi-modal distributions presents a significant challenge in practical applications such as Bayesian inference and molecular dynamics. Addressing this, we propose Diffusive Gibbs Sampling (DiGS), an innovative family of sampling methods designed for effective sampling from distributions characterized by distant and disconnected modes. DiGS integrates recent developments in diffusion models, leveraging Gaussian convolution to create an auxiliary noisy distribution that bridges isolated modes in the original space and applying Gibbs sampling to alternately draw samples from both spaces. A novel Metropolis-within-Gibbs scheme is proposed to enhance mixing in the denoising sampling step. DiGS exhibits a better mixing property for sampling multi-modal distributions than state-of-the-art methods such as parallel tempering, attaining substantially improved performance across various tasks, including mixtures of Gaussians, Bayesian neural networks and molecular dynamics.",
+ "primary": "stat.ML"
+}

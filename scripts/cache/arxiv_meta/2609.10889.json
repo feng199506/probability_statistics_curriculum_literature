@@ -1,0 +1,17 @@
+{
+ "id": "2609.10889",
+ "title": "Online Change-Point Monitoring for Object-valued Time Series",
+ "authors": [
+  "Yi Zhang",
+  "Tim Kutta",
+  "Xiaofeng Shao"
+ ],
+ "v1_date": "2026-09-09",
+ "latest_version": 1,
+ "latest_date": "2026-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop closed- and open-end procedures for monitoring changes in the marginal distribution of object-valued time series. The method combines two distance-based Hilbert-space embeddings, a monitoring-time-dependent projection, and self-normalization. It is computable entirely from pairwise distances, does not require long-run variance estimation, and admits exact recursive updates. Under weak temporal dependence, the closed-end null limit is a pivotal Brownian functional. For monitoring over an unbounded horizon, we introduce a growing monitoring-time weight, establish a maximal inequality and uniform remote-tail control, and derive an open-end pivotal limit together with an equivalent fixed-interval representation for critical-value simulation. Both procedures are consistent against fixed marginal changes and retain the $n^{-1/2}$ and $n^{-1/4}$ local detection boundaries associated with the linear and quadratic projection signals. Simulations with distribution-valued time series illustrate favorable numerical properties, and an application to monthly stock-return distributions illustrates the usefulness of our procedure. Further simulations with graph-valued time series and an application to spatial point processes of seismic activity are reported in the supplementary material.",
+ "primary": "math.ST"
+}

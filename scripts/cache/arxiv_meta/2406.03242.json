@@ -1,0 +1,20 @@
+{
+ "id": "2406.03242",
+ "title": "Variational Pseudo Marginal Methods for Jet Reconstruction in Particle Physics",
+ "authors": [
+  "Hanming Yang",
+  "Antonio Khalil Moretti",
+  "Sebastian Macaluso",
+  "Philippe Chlenski",
+  "Christian A. Naesseth",
+  "Itsik Pe'er"
+ ],
+ "v1_date": "2024-06-05",
+ "latest_version": 2,
+ "latest_date": "2024-12-31",
+ "journal_ref": "Transactions on Machine Learning Research 2024",
+ "doi": "",
+ "comment": "21 pages, 9 figures",
+ "abstract": "Reconstructing jets, which provide vital insights into the properties and histories of subatomic particles produced in high-energy collisions, is a main problem in data analyses in collider physics. This intricate task deals with estimating the latent structure of a jet (binary tree) and involves parameters such as particle energy, momentum, and types. While Bayesian methods offer a natural approach for handling uncertainty and leveraging prior knowledge, they face significant challenges due to the super-exponential growth of potential jet topologies as the number of observed particles increases. To address this, we introduce a Combinatorial Sequential Monte Carlo approach for inferring jet latent structures. As a second contribution, we leverage the resulting estimator to develop a variational inference algorithm for parameter learning. Building on this, we introduce a variational family using a pseudo-marginal framework for a fully Bayesian treatment of all variables, unifying the generative model with the inference process. We illustrate our method's effectiveness through experiments using data generated with a collider physics generative model, highlighting superior speed and accuracy across a range of tasks.",
+ "primary": "cs.LG"
+}

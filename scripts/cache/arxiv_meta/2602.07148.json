@@ -1,0 +1,17 @@
+{
+ "id": "2602.07148",
+ "title": "Functional Estimation of the Marginal Likelihood",
+ "authors": [
+  "Omiros Papaspiliopoulos",
+  "Timothée Stumpf-Fétizon",
+  "Jonathan Weare"
+ ],
+ "v1_date": "2026-02-06",
+ "latest_version": 1,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a framework for computing, optimizing and integrating with respect to a smooth marginal likelihood in statistical models that involve high-dimensional parameters/latent variables and continuous low-dimensional hyperparameters. The method requires samples from the posterior distribution of the parameters for different values of the hyperparameters on a simulation grid and returns inference on the marginal likelihood defined everywhere on its domain, and on its functionals. We show how the method relates to many of the methods that have been used in this context, including sequential Monte Carlo, Gibbs sampling, Monte Carlo maximum likelihood, and umbrella sampling. We establish the consistency of the proposed estimators as the sampling effort increases, both when the simulation grid is kept fixed and when it becomes dense in the domain. We showcase the approach on Gaussian process regression and classification and crossed effect models.",
+ "primary": "stat.ME"
+}

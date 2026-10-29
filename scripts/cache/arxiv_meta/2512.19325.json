@@ -1,0 +1,18 @@
+{
+ "id": "2512.19325",
+ "title": "High dimensional matrix estimation through elliptical factor models",
+ "authors": [
+  "Xinyue Xu",
+  "Huifang Ma",
+  "Hongfei Wang",
+  "Long Feng"
+ ],
+ "v1_date": "2025-12-22",
+ "latest_version": 1,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Elliptical factor models play a central role in modern high-dimensional data analysis, particularly due to their ability to capture heavy-tailed and heterogeneous dependence structures. Within this framework, Tyler's M-estimator (Tyler, 1987a) enjoys several optimality properties and robustness advantages. In this paper, we develop high-dimensional scatter matrix, covariance matrix and precision matrix estimators grounded in Tyler's M-estimation. We first adapt the Principal Orthogonal complEment Thresholding (POET) framework (Fan et al., 2013) by incorporating the spatial-sign covariance matrix as an effective initial estimator. Building on this idea, we further propose a direct extension of POET tailored for Tyler's M-estimation, referred to as the POET-TME method. We establish the consistency rates for the resulting estimators under elliptical factor models. Comprehensive simulation studies and a real data application illustrate the superior performance of POET-TME, especially in the presence of heavy-tailed distributions, demonstrating the practical value of our methodological contributions.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2608.13945",
+ "title": "Semi-supervised Concordance Learning for Optimal Individual Treatment Regimes",
+ "authors": [
+  "Mengjiao Peng",
+  "Yong Zhou",
+  "Wenbin Lu"
+ ],
+ "v1_date": "2026-08-14",
+ "latest_version": 1,
+ "latest_date": "2026-08-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Finding the optimal individualized treatment rule that maps individual characteristics or contextual information to treatment assignments has been extensively investigated in existing literature, with widespread practical applications. This paper considers the estimation of optimal treatment regimes within a semi-supervised data framework (exemplified by electronic medical record data). In such settings, only a tiny proportion of observations have observed outcome labels, owing to high labeling costs, time limitations, data privacy concerns, and other constraints, while covariates and treatment assignments are available for all study subjects. We develop a semi-parametric inference method for optimal treatment regimes, which leverages outcome- unlabeled samples with complete covariate and treatment information to enhance estimation efficiency. The proposed estimation framework consists of two key steps: first, flexible nonparametric imputation via single-index kernel smoothing; second, subsequent estimation of the optimal treatment regime based on concordance-assisted learning. We establish the consistency and asymptotic normality of our proposed estimators. Numerical simulation studies demonstrate that our method achieves higher efficiency and stronger robustness relative to fully supervised estimators under finite-sample settings. We further validate the practical value of our proposed framework using the MIMIC-III and ACTG175 datasets.",
+ "primary": "stat.ME"
+}

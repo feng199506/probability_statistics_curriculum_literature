@@ -1,0 +1,15 @@
+{
+ "id": "2608.12242",
+ "title": "Sharp Berry-Esseen Bounds for the Log Determinant of a Gaussian Sample Correlation Matrix",
+ "authors": [
+  "Hongru Zhao"
+ ],
+ "v1_date": "2026-08-12",
+ "latest_version": 1,
+ "latest_date": "2026-08-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 1 table. Lean 4 verification capsule v1.1.2 archived on Zenodo: https://doi.org/10.5281/zenodo.21898548",
+ "abstract": "Let $\\widehat R$ be the Pearson sample correlation matrix formed from $n$ independent Gaussian observations in $p$ dimensions, and write $m=n-1\\ge p$. Under the null correlation $R=I_p$, the classical independent beta product, exact cumulants, and full Fourier inversion yield, along every sequence $p\\to\\infty$ with $m\\ge p$, a uniform first Edgeworth expansion for $\\log\\det\\widehat R$, centered by its exact mean and scaled by its exact standard deviation. The expansion identifies the exact finite dimensional skewness correction and gives the sharp Kolmogorov equivalent $A_{m,p}/\\{6\\sqrt{2π}V_{m,p}^{3/2}\\}$, where $V_{m,p}$ is the exact variance and $A_{m,p}$ is the absolute third cumulant. This equivalent unifies the square, fixed gap, growing gap, proportional, and dilute regimes; in the square regime the error has order $(\\log p)^{-3/2}$ with an exact constant. For every positive definite population correlation matrix $R$, we prove a uniform finite sample Berry-Esseen bound that explicitly tracks population dependence. All theoretical results have exact or proved equivalent Lean 4 formulations whose declarations and dependencies are kernel checked.",
+ "primary": "math.PR"
+}

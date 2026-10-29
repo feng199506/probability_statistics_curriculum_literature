@@ -1,0 +1,16 @@
+{
+ "id": "2505.24529",
+ "title": "Nonparametric inference for ratios of densities via uniformly valid and powerful permutation tests",
+ "authors": [
+  "Alberto Bordino",
+  "Thomas B. Berrett"
+ ],
+ "v1_date": "2025-05-30",
+ "latest_version": 2,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "75 pages, 5 figures, 2 tables",
+ "abstract": "We propose the density ratio permutation test, a hypothesis test that assesses whether the ratio between two densities is proportional to a known function based on independent samples from each distribution. The test uses an efficient Markov Chain Monte Carlo scheme to draw weighted permutations of the pooled data, yielding exchangeable samples and finite sample validity. For power, if the statistic is an integral probability metric, our procedure is consistent under mild assumptions on the defining function class; specializing to a reproducing kernel Hilbert space, we introduce the shifted maximum mean discrepancy and prove minimax optimality of our test when a normalized difference between the densities lies in a Sobolev ball. We extend to the case of an unknown density ratio by estimating it on an independent training sample and derive type~I error bounds in terms of the estimation error as well as power results. This allows adapting our method to conditional two sample testing, making it a versatile tool for assessing covariate-shift and related assumptions, which frequently arise in transfer learning and causal inference. Finally, we validate our theoretical findings through experiments on both simulated and real-world datasets.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2311.16486",
+ "title": "On the adaptation of causal forests to manifold data",
+ "authors": [
+  "Yiyi Huo",
+  "Yingying Fan",
+  "Fang Han"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 2,
+ "latest_date": "2023-12-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This version adds more references and corrects some minor typos",
+ "abstract": "Researchers often hold the belief that random forests are \"the cure to the world's ills\" (Bickel, 2010). But how exactly do they achieve this? Focused on the recently introduced causal forests (Athey and Imbens, 2016; Wager and Athey, 2018), this manuscript aims to contribute to an ongoing research trend towards answering this question, proving that causal forests can adapt to the unknown covariate manifold structure. In particular, our analysis shows that a causal forest estimator can achieve the optimal rate of convergence for estimating the conditional average treatment effect, with the covariate dimension automatically replaced by the manifold dimension. These findings align with analogous observations in the realm of deep learning and resonate with the insights presented in Peter Bickel's 2004 Rietz lecture.",
+ "primary": "math.ST"
+}

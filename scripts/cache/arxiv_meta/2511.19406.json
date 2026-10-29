@@ -1,0 +1,19 @@
+{
+ "id": "2511.19406",
+ "title": "Hierarchical Bayesian spectral analysis of multiple stationary time series",
+ "authors": [
+  "Rebecca Lee",
+  "Alexander Coulter",
+  "Greg J. Siegle",
+  "Scott A. Bruce",
+  "Anirban Bhattacharya"
+ ],
+ "v1_date": "2025-11-24",
+ "latest_version": 1,
+ "latest_date": "2025-11-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 8 figures",
+ "abstract": "The power spectrum of biomedical time series provides important indirect measurements of physiological processes underlying health and biological functions. However, simultaneously characterizing power spectra for multiple time series remains challenging due to extra spectral variability and varying time series lengths. We propose a method for hierarchical Bayesian estimation of stationary time series (HBEST) that provides an interpretable framework for efficiently modeling multiple power spectra. HBEST models log power spectra using a truncated cosine basis expansion with a novel global-local coefficient decomposition, enabling simultaneous estimation of population-level and individual-level power spectra and accommodating time series of varying lengths. The fully Bayesian framework provides shrinkage priors for regularized estimation and efficient information sharing. Simulations demonstrate HBEST's advantages over competing methods in computational efficiency and estimation accuracy. An application to heart rate variability time series demonstrates HBEST's ability to accurately characterize power spectra and capture associations with traditional cardiovascular risk factors.",
+ "primary": "stat.ME"
+}

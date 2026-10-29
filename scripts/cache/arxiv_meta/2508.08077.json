@@ -1,0 +1,16 @@
+{
+ "id": "2508.08077",
+ "title": "Straightforward Bayesian A/B testing with Dirichlet posteriors",
+ "authors": [
+  "Dustin Hayden",
+  "Thomas Armitage"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 20 figures, companion paper to accepted talk at the Royal Statistical Society International Conference 2025",
+ "abstract": "Bayesian A/B testing investigates metric changes using the joint posterior distribution of two (or more) experimentally-derived datasets. The construction of said joint posterior is often a time-consuming process requiring specialized knowledge and domain expertise. In businesses that perform tens to hundreds of A/B tests per month it is important to have a robust analysis pipeline that can handle the variety of experiments performed on a modern web platform; requiring a domain expert to select appropriate prior and likelihood distributions for each experiment simply does not scale. In this work, we highlight a solution to this problem using a generalized approximation of the true joint posterior using a Dirichlet-Categorical model. While a manually-constructed, expert-tuned model for every dataset is preferable, the Dirichlet-Categorical approximation performs sufficiently well in both simulations and real-world scenarios to be internally used as the standard analysis method.",
+ "primary": "stat.ME"
+}

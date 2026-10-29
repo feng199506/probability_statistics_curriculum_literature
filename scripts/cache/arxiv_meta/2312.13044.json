@@ -1,0 +1,16 @@
+{
+ "id": "2312.13044",
+ "title": "Particle Gibbs for Likelihood-Free Inference of State Space Models with Application to Stochastic Volatility",
+ "authors": [
+  "Zhaoran Hou",
+  "Samuel W. K. Wong"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 1,
+ "latest_date": "2023-12-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages",
+ "abstract": "State space models (SSMs) are widely used to describe dynamic systems. However, when the likelihood of the observations is intractable, parameter inference for SSMs cannot be easily carried out using standard Markov chain Monte Carlo or sequential Monte Carlo methods. In this paper, we propose a particle Gibbs sampler as a general strategy to handle SSMs with intractable likelihoods in the approximate Bayesian computation (ABC) setting. The proposed sampler incorporates a conditional auxiliary particle filter, which can help mitigate the weight degeneracy often encountered in ABC. To illustrate the methodology, we focus on a classic stochastic volatility model (SVM) used in finance and econometrics for analyzing and interpreting volatility. Simulation studies demonstrate the accuracy of our sampler for SVM parameter inference, compared to existing particle Gibbs samplers based on the conditional bootstrap filter. As a real data application, we apply the proposed sampler for fitting an SVM to S&P 500 Index time-series data during the 2008 financial crisis.",
+ "primary": "stat.ME"
+}

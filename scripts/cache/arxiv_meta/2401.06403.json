@@ -1,0 +1,16 @@
+{
+ "id": "2401.06403",
+ "title": "Fourier analysis of spatial point processes",
+ "authors": [
+  "Junho Yang",
+  "Yongtao Guan"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 3,
+ "latest_date": "2025-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this article, we develop comprehensive frequency domain methods for estimating and inferring the second-order structure of spatial point processes. The main element here is on utilizing the discrete Fourier transform (DFT) of the point pattern and its tapered counterpart. Under second-order stationarity, we show that both the DFTs and the tapered DFTs are asymptotically jointly independent Gaussian even when the DFTs share the same limiting frequencies. Based on these results, we establish an $α$-mixing central limit theorem for a statistic formulated as a quadratic form of the tapered DFT. As applications, we derive the asymptotic distribution of the kernel spectral density estimator and establish a frequency domain inferential method for parametric stationary point processes. For the latter, the resulting model parameter estimator is computationally tractable and yields meaningful interpretations even in the case of model misspecification. We investigate the finite sample performance of our estimator through simulations, considering scenarios of both correctly specified and misspecified models.",
+ "primary": "stat.ME"
+}

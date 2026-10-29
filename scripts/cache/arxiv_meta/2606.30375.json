@@ -1,0 +1,17 @@
+{
+ "id": "2606.30375",
+ "title": "Multiple testing with the horseshoe",
+ "authors": [
+  "Sayantan Banerjee",
+  "Ismaël Castillo",
+  "Fanny Villers"
+ ],
+ "v1_date": "2026-06-29",
+ "latest_version": 2,
+ "latest_date": "2026-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "70 pages, 21 figures, minor presentation change",
+ "abstract": "We study multiple testing under continuous global--local shrinkage priors, with a focus on the horseshoe prior in high-dimensional sparse settings. While such priors provide adaptive shrinkage and computational scalability, they do not induce exact zeros and hence do not directly yield posterior inclusion probabilities, making principled false discovery control nontrivial. We propose posterior--based decision rules for signal detection that are applicable across a broad class of continuous shrinkage priors and are calibrated to control the false discovery rate (FDR) while retaining high power. In the sparse normal means model, we show that the proposed procedures attain the optimal detection boundary and achieve frequentist asymptotic control of both FDR and false negative rate (FNR). The method is readily implementable via standard posterior sampling, and empirical studies indicate that the realised FDR and FNR closely track their theoretical targets. Applications to high-dimensional regression and Gaussian graphical models further illustrate the scope and practical effectiveness of the approach.",
+ "primary": "math.ST"
+}

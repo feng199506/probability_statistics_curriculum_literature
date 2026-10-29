@@ -1,0 +1,19 @@
+{
+ "id": "2512.14308",
+ "title": "Improving the Accuracy of Amortized Model Comparison with Self-Consistency",
+ "authors": [
+  "Šimon Kucharský",
+  "Aayush Mishra",
+  "Daniel Habermann",
+  "Stefan T. Radev",
+  "Paul-Christian Bürkner"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 3,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This submission should have rather been posted as a second version of a previous submission: arXiv:2508.20614",
+ "abstract": "Amortized Bayesian inference (ABI) offers fast, scalable approximations to posterior densities by training neural surrogates on data simulated from the statistical model. However, ABI methods are highly sensitive to model misspecification: when observed data fall outside the training distribution (generative scope of the statistical models), neural surrogates can behave unpredictably. This makes it a challenge in a model comparison setting, where multiple statistical models are considered, of which at least some are misspecified. Recent work on self-consistency (SC) provides a promising remedy to this issue, accessible even for empirical data (without ground-truth labels). In this work, we investigate how SC can improve amortized model comparison conceptualized in four different ways. Across two synthetic and two real-world case studies, we find that approaches for model comparison that estimate marginal likelihoods through approximate parameter posteriors consistently outperform methods that directly approximate model evidence or posterior model probabilities. SC training improves robustness when the likelihood is available, even under severe model misspecification. The benefits of SC for methods without access of analytic likelihoods are more limited and inconsistent. Our results suggest practical guidance for reliable amortized Bayesian model comparison: prefer parameter posterior-based methods and augment them with SC training on empirical datasets to mitigate extrapolation bias under model misspecification.",
+ "primary": "stat.ML"
+}

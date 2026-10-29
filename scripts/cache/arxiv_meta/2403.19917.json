@@ -1,0 +1,17 @@
+{
+ "id": "2403.19917",
+ "title": "Doubly robust estimation and inference for a log-concave counterfactual density",
+ "authors": [
+  "Daeyoung Ham",
+  "Ted Westling",
+  "Charles R. Doss"
+ ],
+ "v1_date": "2024-03-29",
+ "latest_version": 2,
+ "latest_date": "2024-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of causal inference based on observational data (or the related missing data problem) with a binary or discrete treatment variable. In that context, we study inference for the counterfactual density functions and contrasts thereof, which can provide more nuanced information than counterfactual means and the average treatment effect. We impose the shape-constraint of log-concavity, a type of unimodality constraint, on the counterfactual densities, and then develop doubly robust estimators of the log-concave counterfactual density based on augmented inverse-probability weighted pseudo-outcomes. We provide conditions under which the estimator is consistent in various global metrics. We also develop asymptotically valid pointwise confidence intervals for the counterfactual density functions and differences and ratios thereof, which serve as a building block for more comprehensive analyses of distributional differences. We also present a method for using our estimator to implement density confidence bands.",
+ "primary": "stat.ME"
+}

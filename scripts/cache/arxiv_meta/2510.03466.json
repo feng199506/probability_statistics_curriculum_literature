@@ -1,0 +1,20 @@
+{
+ "id": "2510.03466",
+ "title": "Making high-order asymptotics practical: correcting goodness-of-fit test for astronomical count data",
+ "authors": [
+  "Xiaoli Li",
+  "Yang Chen",
+  "Xiao-Li Meng",
+  "David van Dyk",
+  "Massimiliano Bonamente",
+  "Vinay Kashyap"
+ ],
+ "v1_date": "2025-10-03",
+ "latest_version": 1,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The C statistic is a widely used likelihood-ratio statistic for model fitting and goodness-of-fit assessments with Poisson data in high-energy physics and astrophysics. Although it enjoys convenient asymptotic properties, the statistic is routinely applied in cases where its nominal null distribution relies on unwarranted assumptions. Because researchers do not typically carry out robustness checks, their scientific findings are left vulnerable to misleading significance calculations. With an emphasis on low-count scenarios, we present a comprehensive study of the theoretical properties of C statistics and related goodness-of-fit algorithms. We focus on common ``plug-in'' algorithms where moments of C are obtained by assuming the true parameter equals its estimate. To correct such methods, we provide a suite of new principled user-friendly algorithms and well-calibrated p-values that are ready for immediate deployment in the (astro)physics data-analysis pipeline. Using both theoretical and numerical results, we show (a) standard $χ^2$-based goodness-of-fit assessments are invalid in low-count settings, (b) naive methods (e.g., vanilla bootstrap) result in biased null distributions, and (c) the corrected Z-test based on conditioning and high-order asymptotics gives the best precision with low computational cost. We illustrate our methods via a suite of simulations and applied astrophysical analyses. An open-source Python package is provided in a GitHub repository.",
+ "primary": "stat.ME"
+}

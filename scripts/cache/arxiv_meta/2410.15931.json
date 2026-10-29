@@ -1,0 +1,18 @@
+{
+ "id": "2410.15931",
+ "title": "Towards more realistic climate model outputs: A multivariate bias correction based on zero-inflated vine copulas",
+ "authors": [
+  "Henri Funk",
+  "Ralf Ludwig",
+  "Helmut Kuechenhoff",
+  "Thomas Nagler"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 2,
+ "latest_date": "2025-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Climate model large ensembles are an essential research tool for analysing and quantifying natural climate variability and providing robust information for rare extreme events. The models simulated representations of reality are susceptible to bias due to incomplete understanding of physical processes. This paper aims to correct the bias of five climate variables from the CRCM5 Large Ensemble over Central Europe at a 3-hourly temporal resolution. At this high temporal resolution, two variables, precipitation and radiation, exhibit a high share of zero inflation. We propose a novel bias-correction method, VBC (Vine copula bias correction), that models and transfers multivariate dependence structures for zero-inflated margins in the data from its error-prone model domain to a reference domain. VBC estimates the model and reference distribution using vine copulas and corrects the model distribution via (inverse) Rosenblatt transformation. To deal with the variables' zero-inflated nature, we develop a new vine density decomposition that accommodates such variables and employs an adequately randomized version of the Rosenblatt transform. This novel approach allows for more accurate modelling of multivariate zero-inflated climate data. Compared with state-of-the-art correction methods, VBC is generally the best-performing correction and the most accurate method for correcting zero-inflated events.",
+ "primary": "stat.AP"
+}

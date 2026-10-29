@@ -1,0 +1,16 @@
+{
+ "id": "2312.02513",
+ "title": "Asymptotic Theory of the Best-Choice Rerandomization using the Mahalanobis Distance",
+ "authors": [
+  "Yuhao Wang",
+  "Xinran Li"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 2,
+ "latest_date": "2025-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Rerandomization, a design that utilizes pretreatment covariates and improves their balance between different treatment groups, has received attention recently in both theory and practice. From a survey by Bruhn and McKenzie (2009), there are at least two types of rerandomization that are used in practice: the first rerandomizes the treatment assignment until covariate imbalance is below a prespecified threshold; the second randomizes the treatment assignment multiple times and chooses the one with the best covariate balance. In this paper we will consider the second type of rerandomization, namely the best-choice rerandomization, whose theory and inference are still lacking in the literature. In particular, we will focus on the best-choice rerandomization that uses the Mahalanobis distance to measure covariate imbalance, which is one of the most commonly used imbalance measure for multivariate covariates and is invariant to affine transformations of covariates. We will study the large-sample repeatedly sampling properties of the best-choice rerandomization, allowing both the number of covariates and the number of tried complete randomizations to increase with the sample size. We show that the asymptotic distribution of the difference-in-means estimator is more concentrated around the true average treatment effect under rerandomization than under the complete randomization, and propose large-sample accurate confidence intervals for rerandomization that are shorter than that for the completely randomized experiment. We further demonstrate that, with moderate number of covariates and with the number of tried randomizations increasing polynomially with the sample size, the best-choice rerandomization can achieve the ideally optimal precision that one can expect even with perfectly balanced covariates. The developed theory and methods are also illustrated using real field experiments.",
+ "primary": "stat.ME"
+}

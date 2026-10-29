@@ -1,0 +1,16 @@
+{
+ "id": "2406.18154",
+ "title": "Errors-In-Variables Model Fitting for Partially Unpaired Data Utilizing Mixture Models",
+ "authors": [
+  "Wolfgang Hoegele",
+  "Sarah Brockhaus"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 4,
+ "latest_date": "2024-11-17",
+ "journal_ref": "",
+ "doi": "10.1080/02331888.2024.2432564",
+ "comment": "",
+ "abstract": "We introduce a general framework for regression in the errors-in-variables regime, allowing for full flexibility about the dimensionality of the data, observational error probability density types, the (nonlinear) model type and the avoidance of ad-hoc definitions of loss functions. In this framework, we introduce model fitting for partially unpaired data, i.e. for given data groups the pairing information of input and output is lost (semi-supervised). This is achieved by constructing mixture model densities, which directly model the loss of pairing information allowing inference. In a numerical simulation study linear and nonlinear model fits are illustrated as well as a real data study is presented based on life expectancy data from the world bank utilizing a multiple linear regression model. These results show that high quality model fitting is possible with partially unpaired data, which opens the possibility for new applications with unfortunate or deliberate loss of pairing information in data.",
+ "primary": "stat.ME"
+}

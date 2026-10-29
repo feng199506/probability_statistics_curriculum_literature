@@ -1,0 +1,18 @@
+{
+ "id": "2505.11771",
+ "title": "Residual Feature Integration is Sufficient to Prevent Negative Transfer",
+ "authors": [
+  "Yichen Xu",
+  "Ryumei Nakada",
+  "Linjun Zhang",
+  "Lexin Li"
+ ],
+ "v1_date": "2025-05-17",
+ "latest_version": 2,
+ "latest_date": "2026-02-14",
+ "journal_ref": "The Fourteenth International Conference on Learning Representations (ICLR 2026)",
+ "doi": "",
+ "comment": "",
+ "abstract": "Transfer learning has become a central paradigm in modern machine learning, yet it suffers from the long-standing problem of negative transfer, where leveraging source representations can harm rather than help performance on the target task. Although empirical remedies have been proposed, there remains little theoretical understanding of how to reliably avoid negative transfer. In this paper, we investigate a simple yet remarkably effective strategy: augmenting frozen, pretrained source-side features with a trainable target-side encoder that adapts target features to capture residual signals overlooked by models pretrained on the source data. We show this residual feature integration strategy is sufficient to provably prevent negative transfer, by establishing theoretical guarantees that it has no worse convergence rate than training from scratch under the informative class of target distributions up to logarithmic factors, and that the convergence rate can transition seamlessly from nonparametric to near-parametric when source representations are informative. To our knowledge, this is the first theoretical work that ensures protection against negative transfer. We carry out extensive numerical experiments across image, text and tabular benchmarks, and empirically verify that the method consistently safeguards performance under distribution shift, label noise, semantic perturbation, and class imbalance. We additionally demonstrate that this residual integration mechanism uniquely supports adapt-time multimodality extension, enabling a pretrained single-cell foundation model to incorporate spatial signals for lymph-node anatomical classification despite the source model being trained without them. Our study thus advances the theory of safe transfer learning, and provides a principled approach that is simple, robust, architecture-agnostic, and broadly applicable.",
+ "primary": "cs.LG"
+}

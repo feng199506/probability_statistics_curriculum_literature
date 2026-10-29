@@ -1,0 +1,18 @@
+{
+ "id": "2504.19776",
+ "title": "Bias correction in treatment effect estimates following data-driven biomarker cutoff selection",
+ "authors": [
+  "Chi Zhang",
+  "Wei Shi",
+  "Spencer Woody",
+  "Qing Liu"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 1,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Predictive biomarkers are playing an essential role in precision medicine. Identifying an optimal cutoff to select patient subsets with greater benefit from treatment is critical and more challenging for predictive biomarkers measured with a continuous scale. It is a common practice to perform exploratory subset analysis in early-stage studies to select the cutoff. However, data-driven cutoff selection will often cause bias in treatment effect estimates and lead to over-optimistic expectations in the future phase III trial. In this study, we first conducted extensive simulations to investigate factors influencing the bias, including the cutoff selection rule, the number of candidates cutoffs, the magnitude of the predictive effect, and sample sizes. Our insights emphasize the importance of accounting for bias and uncertainties caused by small sample sizes and data-driven selection procedures in Go/No Go decision-making, and population and sample size determination for phase III studies. Secondly, we evaluated the performance of Bootstrap Bias Correction and the Approximate Bayesian Computation (ABC) method for bias correction through extensive simulations. We conclude by providing a recommendation for the application of the two approaches in clinical practice.",
+ "primary": "stat.AP"
+}

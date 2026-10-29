@@ -1,0 +1,18 @@
+{
+ "id": "2606.07065",
+ "title": "Ising Models on Inhomogeneous Random Graphs: Inference, Local Asymptotic Minimaxity, and Limit of Experiments",
+ "authors": [
+  "Somabha Mukherjee",
+  "Sanchayan Bhowal",
+  "Anirban Chatterjee",
+  "Bhaswar B. Bhattacharya"
+ ],
+ "v1_date": "2026-06-05",
+ "latest_version": 1,
+ "latest_date": "2026-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "82 pages, 2 figures. Abstract shortened to meet ArXiv requirements",
+ "abstract": "In this paper, we develop an inferential framework with sharp asymptotic optimality guarantees for Ising models on inhomogeneous random graphs in the subcritical parameter regime. We begin by characterizing the asymptotic distribution of the maximum likelihood (ML) estimate of the natural parameter, based on a single sample from the underlying model, covering both sparse and dense network regimes. Next, to overcome the computational intractability of the ML method, we propose a simple closed-form estimate obtained from a one-step approximation to the likelihood equation. We show that this estimate attains the same asymptotic distribution and variance as the ML estimate, thereby yielding a computationally efficient and asymptotically valid confidence interval for the natural parameter. We complement these inferential results by establishing a Hájek--Le Cam-type local asymptotic minimax theorem, showing that the proposed estimate achieves the smallest possible asymptotic maximum risk, both in rate and in leading constant, over shrinking neighborhoods of the true parameter. We also derive the corresponding limit of experiments. To the best of our knowledge, these are among the first sharp asymptotic optimality results for network-dependent data. Finally, we study goodness-of-fit testing for the natural parameter, deriving the local power of the likelihood ratio test and minimax detection rates. Our analysis relies on new fluctuation results for the sufficient statistic (Hamiltonian) and for the random partition function of Ising models on inhomogeneous random graphs, which are of independent interest.",
+ "primary": "math.ST"
+}

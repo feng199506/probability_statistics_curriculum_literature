@@ -1,0 +1,18 @@
+{
+ "id": "2412.17341",
+ "title": "HDTSA: An R package for high-dimensional time series analysis",
+ "authors": [
+  "Jinyuan Chang",
+  "Jing He",
+  "Chen Lin",
+  "Qiwei Yao"
+ ],
+ "v1_date": "2024-12-23",
+ "latest_version": 1,
+ "latest_date": "2024-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional time series analysis has become increasingly important in fields such as finance, economics, and biology. The two primary tasks for high-dimensional time series analysis are modeling and statistical inference, which aim to capture the underlying dynamic structure and investigate valuable information in the data. This paper presents the HDTSA package for R, which provides a general framework for analyzing high-dimensional time series data. This package includes four dimension reduction methods for modeling: factor models, principal component analysis, CP-decomposition, and cointegration analysis. It also implements two recently proposed white noise test and martingale difference test in high-dimensional scenario for statistical inference. The methods provided in this package can help users to analyze high-dimensional time series data and make reliable predictions. To improve computational efficiency, the HDTSA package integrates C++ through the Rcpp package. We illustrate the functions of the HDTSA package using simulated examples and real-world applications from finance and economics.",
+ "primary": "stat.CO"
+}

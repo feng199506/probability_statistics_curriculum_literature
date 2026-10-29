@@ -1,0 +1,16 @@
+{
+ "id": "2312.04661",
+ "title": "Robust Penalized Estimators for High--Dimensional Generalized Linear Models",
+ "authors": [
+  "Marina Valdora",
+  "Claudio Agostinelli"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 2,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "91 pages, 31 figures, 8 tables",
+ "abstract": "Robust estimators for generalized linear models (GLMs) are not easy to develop due to the nature of the distributions involved. Recently, there has been growing interest in robust estimation methods, particularly in contexts involving a potentially large number of explanatory variables. Transformed M-estimators (MT-estimators) provide a natural extension of M-estimation techniques to the GLM framework, offering robust methodologies. We propose a penalized variant of MT-estimators to address high-dimensional data scenarios. Under suitable assumptions, we demonstrate the consistency and asymptotic normality of this novel class of estimators. Our theoretical development focuses on redescending rho-functions and penalization functions that satisfy specific regularity conditions. We present an Iterative Re-Weighted Least Squares algorithm, together with a deterministic initialization procedure, which is crucial since the estimating equations may have multiple solutions. We evaluate the finite sample performance of this method for Poisson distribution and well known penalization functions through Monte Carlo simulations that consider various types of contamination, as well as an empirical application using a real dataset.",
+ "primary": "stat.ME"
+}

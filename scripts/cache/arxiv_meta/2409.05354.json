@@ -1,0 +1,19 @@
+{
+ "id": "2409.05354",
+ "title": "Recursive Nested Filtering for Efficient Amortized Bayesian Experimental Design",
+ "authors": [
+  "Sahel Iqbal",
+  "Hany Abdulsamad",
+  "Sara Pérez-Vieites",
+  "Simo Särkkä",
+  "Adrien Corenflos"
+ ],
+ "v1_date": "2024-09-09",
+ "latest_version": 2,
+ "latest_date": "2024-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to NeurIPS BDU Workshop 2024",
+ "abstract": "This paper introduces the Inside-Out Nested Particle Filter (IO-NPF), a novel, fully recursive, algorithm for amortized sequential Bayesian experimental design in the non-exchangeable setting. We frame policy optimization as maximum likelihood estimation in a non-Markovian state-space model, achieving (at most) $\\mathcal{O}(T^2)$ computational complexity in the number of experiments. We provide theoretical convergence guarantees and introduce a backward sampling algorithm to reduce trajectory degeneracy. IO-NPF offers a practical, extensible, and provably consistent approach to sequential Bayesian experimental design, demonstrating improved efficiency over existing methods.",
+ "primary": "stat.ML"
+}

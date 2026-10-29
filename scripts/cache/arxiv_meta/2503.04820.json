@@ -1,0 +1,15 @@
+{
+ "id": "2503.04820",
+ "title": "A Practical Introduction to Kernel Discrepancies: MMD, HSIC & KSD",
+ "authors": [
+  "Antonin Schrab"
+ ],
+ "v1_date": "2025-03-04",
+ "latest_version": 3,
+ "latest_date": "2025-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 7 figures, v2 fixes Equation 16, v3 fixes cross-covariance notation p3",
+ "abstract": "This article provides a practical introduction to kernel discrepancies, focusing on the Maximum Mean Discrepancy (MMD), the Hilbert-Schmidt Independence Criterion (HSIC), and the Kernel Stein Discrepancy (KSD). Various estimators for these discrepancies are presented, including the commonly-used V-statistics and U-statistics, as well as several forms of the more computationally-efficient incomplete U-statistics. The importance of the choice of kernel bandwidth is stressed, showing how it affects the behaviour of the discrepancy estimation. Adaptive estimators are introduced, which combine multiple estimators with various kernels, addressing the problem of kernel selection.",
+ "primary": "stat.ML"
+}

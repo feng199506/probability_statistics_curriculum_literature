@@ -1,0 +1,16 @@
+{
+ "id": "2604.02116",
+ "title": "A new wavelet-based variational family with copula dependence structures",
+ "authors": [
+  "Giovanni Piccirilli",
+  "Aluísio Pinheiro"
+ ],
+ "v1_date": "2026-04-02",
+ "latest_version": 1,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference (VI) has become a widely used approach for scalable Bayesian inference, but its performance strongly depends on the flexibility of the chosen variational family. In this work, we propose a novel variational family that combines wavelet-based representations for marginal posterior densities with copula functions to model dependence structures. The marginal distributions are constructed using coefficients from the discrete wavelet transform, providing a flexible and adaptive framework capable of capturing complex features such as asymmetry. The joint distribution is then obtained through a copula, allowing for explicit modeling of dependence among parameters, including both independence and Gaussian copula structures. We develop an efficient estimation procedure based on Monte Carlo approximations of the evidence lower bound (ELBO) and automatic differentiation, enabling scalable optimization using gradient-based methods. Through extensive simulation studies, including logistic regression, sparse linear models, and hierarchical models, we demonstrate that the proposed approach achieves posterior mean estimates comparable to Markov chain Monte Carlo (MCMC) methods, while providing improved uncertainty quantification relative to standard variational approaches. Applications to hierarchical logistic regression and Bayesian conditional transformation models further illustrate the practical advantages of the method in complex, high dimensional settings. The proposed wavelet copula variational family offers a flexible and computationally efficient alternative for Bayesian inference.",
+ "primary": "stat.ME"
+}

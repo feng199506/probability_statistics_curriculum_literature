@@ -1,0 +1,17 @@
+{
+ "id": "2507.00889",
+ "title": "Phase Transition in Nonparametric Minimax Rates for Covariate Shifts on Approximate Manifolds",
+ "authors": [
+  "Yuyao Wang",
+  "Nabarun Deb",
+  "Debarghya Mukherjee"
+ ],
+ "v1_date": "2025-07-01",
+ "latest_version": 1,
+ "latest_date": "2025-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 7 figures",
+ "abstract": "We study nonparametric regression under covariate shift with structured data, where a small amount of labeled target data is supplemented by a large labeled source dataset. In many real-world settings, the covariates in the target domain lie near a low-dimensional manifold within the support of the source, e.g., personalized handwritten digits (target) within a large, high-dimensional image repository (source). Since density ratios may not exist in these settings, standard transfer learning techniques often fail to leverage such structure. This necessitates the development of methods that exploit both the size of the source dataset and the structured nature of the target. Motivated by this, we establish new minimax rates under covariate shift for estimating a regression function in a general Hölder class, assuming the target distribution lies near -- but not exactly on -- a smooth submanifold of the source. General smoothness helps reduce the curse of dimensionality when the target function is highly regular, while approximate manifolds capture realistic, noisy data. We identify a phase transition in the minimax rate of estimation governed by the distance to the manifold, source and target sample sizes, function smoothness, and intrinsic versus ambient dimensions. We propose a local polynomial regression estimator that achieves optimal rates on either side of the phase transition boundary. Additionally, we construct a fully adaptive procedure that adjusts to unknown smoothness and intrinsic dimension, and attains nearly optimal rates. Our results unify and extend key threads in covariate shift, manifold learning, and adaptive nonparametric inference.",
+ "primary": "math.ST"
+}

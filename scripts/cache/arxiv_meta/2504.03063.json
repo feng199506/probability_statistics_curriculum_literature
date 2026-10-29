@@ -1,0 +1,19 @@
+{
+ "id": "2504.03063",
+ "title": "Nonparametric Estimation of Local Treatment Effects with Continuous Instruments",
+ "authors": [
+  "Zhenghao Zeng",
+  "Alexander W. Levis",
+  "JungHo Lee",
+  "Edward H. Kennedy",
+  "Luke Keele"
+ ],
+ "v1_date": "2025-04-03",
+ "latest_version": 2,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "51 pages, 3 figures",
+ "abstract": "Instrumental variable methods are widely used to address unmeasured confounding, yet much of the existing literature has focused on the binary instrument setting. Extensions to continuous instruments often impose strong parametric assumptions for identification and estimation, which can be difficult to justify and may limit their applicability in complex real-world settings. In this work, we develop theory and methods for nonparametric estimation of treatment effects with a continuous instrumental variable. We introduce an estimand that, under a monotonicity assumption, quantifies the treatment effect among the maximal complier class, generalizing the local average treatment effect framework to continuous instruments. Considering this estimand and the local instrumental variable curve, we draw connections to the dose-response function and its derivative, and propose doubly robust estimation methods. We establish convergence rates and conditions for asymptotic normality, providing valuable insights into the role of nuisance function estimation when the instrument is continuous. Additionally, we present practical procedures for bandwidth selection and variance estimation. Through extensive simulations, we demonstrate the advantages of the proposed nonparametric estimators. Finally, we apply our methods to data where excess travel time is an instrument for patients' likelihood of receiving care at specialized health care facilities. We use this instrument to estimate the effect of delivering at low-quality neonatal intensive care units (NICUs) on infant mortality.",
+ "primary": "stat.ME"
+}

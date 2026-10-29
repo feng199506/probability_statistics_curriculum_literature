@@ -1,0 +1,15 @@
+{
+ "id": "2609.31513",
+ "title": "Statistical Foundations for a Google Play User-Review Sentiment Index: Signal Fusion, Shrinkage, Distributional Validation, and Dynamic Smoothing",
+ "authors": [
+  "Marco Mandap"
+ ],
+ "v1_date": "2026-09-25",
+ "latest_version": 2,
+ "latest_date": "2026-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 5 tables, 3 figures; includes a deterministic synthetic stress test and a descriptive application to 6000 Google Play reviews from three apps",
+ "abstract": "The decision problem is whether valence among the users who write reviews of an app has changed enough to warrant investigation of a release, outage, or support issue. We propose a statistical specification for that decision, applied to written Google Play reviews collected under a declared locale, language, sort order, retrieval cap, and window rule. That endpoint returns a selected collection rather than a random sample, so the index describes review writers under the declared protocol and not all app users. What is new is not a sentiment classifier but an auditable interface: an ordinal threshold model is the preferred representation of star ratings, a calibrated two-signal generalized least-squares estimator is retained as an interpretable linear approximation when held-out labels support its conditional-unbiasedness assumption, the estimand is declared before the estimator, and every downstream module--uncertainty, diagnostics, and regularization--is tied to that declaration. The framework separates the latent average of a fixed collected set from the mean of a protocol-defined population of review writers, so measurement and between-review variation are not conflated, and treats helpfulness and recency weights as a different policy target. Shrinkage, cross-app empirical Bayes, histogram and dependence diagnostics, and dynamic smoothing are specified as separate modules with defaults and mandatory sensitivity analyses. A reference implementation, a declared 6000-review three-app collection, and a synthetic stress test exercise the displayed equations: fusion reduced error in clean and small-window scenarios, coordinated contamination caused severe bias and interval failure, and the collected sample reproduces the abstention rules. No real-review validation is claimed.",
+ "primary": "stat.ME"
+}

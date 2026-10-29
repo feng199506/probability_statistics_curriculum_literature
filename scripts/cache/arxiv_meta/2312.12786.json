@@ -1,0 +1,18 @@
+{
+ "id": "2312.12786",
+ "title": "Heterogeneous Transfer Learning for Building High-Dimensional Generalized Linear Models with Disparate Datasets",
+ "authors": [
+  "Ruzhang Zhao",
+  "Prosenjit Kundu",
+  "Arkajyoti Saha",
+  "Nilanjan Chatterjee"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2024-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 6 figures, 2 tables",
+ "abstract": "Development of comprehensive prediction models are often of great interest in many disciplines of science, but datasets with information on all desired features often have small sample sizes. We describe a transfer learning approach for building high-dimensional generalized linear models using data from a main study with detailed information on all predictors and an external, potentially much larger, study that has ascertained a more limited set of predictors. We propose using the external dataset to build a reduced model and then \"transfer\" the information on underlying parameters for the analysis of the main study through a set of calibration equations which can account for the study-specific effects of design variables. We then propose a penalized generalized method of moment framework for inference and a one-step estimation method that could be implemented using standard glmnet package. We develop asymptotic theory and conduct extensive simulation studies to investigate both predictive performance and post-selection inference properties of the proposed method. Finally, we illustrate an application of the proposed method for the development of risk models for five common diseases using the UK Biobank study, combining information on low-dimensional risk factors and high throughout proteomic biomarkers.",
+ "primary": "stat.ME"
+}

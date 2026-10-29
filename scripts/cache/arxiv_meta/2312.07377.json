@@ -1,0 +1,17 @@
+{
+ "id": "2312.07377",
+ "title": "An Introduction to PMU-Defect-Robust Power Domination: Bounds, Bipartites, and Block Graphs",
+ "authors": [
+  "Beth Bjorkman",
+  "Esther Conrad",
+  "Mary Flagg"
+ ],
+ "v1_date": "2023-12-12",
+ "latest_version": 1,
+ "latest_date": "2023-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 9 figures, 1 table",
+ "abstract": "Sensors called phasor measurement units (PMUs) are used to monitor the electric power network. The power domination problem seeks to minimize the number of PMUs needed to monitor the network. We extend the power domination problem and consider the minimum number of sensors and appropriate placement to ensure monitoring when $k$ sensors are allowed to fail with multiple sensors allowed to be placed in one location. That is, what is the minimum multiset of the vertices, $S$, such that for every $F\\subseteq S$ with $|F|=k$, $S\\setminus F$ is a power dominating set. Such a set of PMUs is called a $k$-PMU-defect-robust power domination set. This paper generalizes the work done by Pai, Chang and Wang in 2010 on fault-tolerant power domination, which did not allow for multiple sensors to be placed at the same vertex. We provide general bounds and determine the $k$-PMU-defect-robust power domination number of some graph families.",
+ "primary": "math.CO"
+}

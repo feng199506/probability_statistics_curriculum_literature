@@ -1,0 +1,18 @@
+{
+ "id": "2403.11564",
+ "title": "Spatio-temporal point process intensity estimation using zero-deflated subsampling applied to a lightning strikes dataset in France",
+ "authors": [
+  "Jean-François Coeurjolly",
+  "Thibault Espinasse",
+  "Anne-Laure Fougères",
+  "Mathieu Ribatet"
+ ],
+ "v1_date": "2024-03-18",
+ "latest_version": 2,
+ "latest_date": "2024-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Cloud-to-ground lightning strikes observed in a specific geographical domain over time can be naturally modeled by a spatio-temporal point process. Our focus lies in the parametric estimation of its intensity function, incorporating both spatial factors (such as altitude) and spatio-temporal covariates (such as field temperature, precipitation, etc.). The events are observed in France over a span of three years. Spatio-temporal covariates are observed with resolution $0.1^\\circ \\times 0.1^\\circ$ ($\\approx 100$km$^2$) and six-hour periods. This results in an extensive dataset, further characterized by a significant excess of zeroes (i.e., spatio-temporal cells with no observed events). We reexamine composite likelihood methods commonly employed for spatial point processes, especially in situations where covariates are piecewise constant. Additionally, we extend these methods to account for zero-deflated subsampling, a strategy involving dependent subsampling, with a focus on selecting more cells in regions where events are observed. A simulation study is conducted to illustrate these novel methodologies, followed by their application to the dataset of lightning strikes.",
+ "primary": "stat.ME"
+}

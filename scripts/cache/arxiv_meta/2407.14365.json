@@ -1,0 +1,18 @@
+{
+ "id": "2407.14365",
+ "title": "Modified BART for Learning Heterogeneous Effects in Regression Discontinuity Designs",
+ "authors": [
+  "Rafael Alcantara",
+  "Meijia Wang",
+  "P. Richard Hahn",
+  "Hedibert Lopes"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 1,
+ "latest_date": "2024-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces BART-RDD, a sum-of-trees regression model built around a novel regression tree prior, which incorporates the special covariate structure of regression discontinuity designs. Specifically, the tree splitting process is constrained to ensure overlap within a narrow band surrounding the running variable cutoff value, where the treatment effect is identified. It is shown that unmodified BART-based models estimate RDD treatment effects poorly, while our modified model accurately recovers treatment effects at the cutoff. Specifically, BART-RDD is perhaps the first RDD method that effectively learns conditional average treatment effects. The new method is investigated in thorough simulation studies as well as an empirical application looking at the effect of academic probation on student performance in subsequent terms (Lindo et al., 2010).",
+ "primary": "stat.ME"
+}

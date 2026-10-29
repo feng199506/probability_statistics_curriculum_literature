@@ -1,0 +1,16 @@
+{
+ "id": "2312.10487",
+ "title": "The Dynamic Triple Gamma Prior as a Shrinkage Process Prior for Time-Varying Parameter Models",
+ "authors": [
+  "Peter Knaus",
+  "Sylvia Frühwirth-Schnatter"
+ ],
+ "v1_date": "2023-12-16",
+ "latest_version": 2,
+ "latest_date": "2025-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Many existing shrinkage approaches for time-varying parameter (TVP) models assume constant innovation variances across time points, inducing sparsity by shrinking these variances toward zero. However, this assumption falls short when states exhibit large jumps or structural changes, as often seen in empirical time series analysis. To address this, we propose the dynamic triple gamma prior -- a stochastic process that induces time-dependent shrinkage by modeling dependence among innovations while retaining a well-known triple gamma marginal distribution. This framework encompasses various special and limiting cases, including the horseshoe shrinkage prior, making it highly flexible. We derive key properties of the dynamic triple gamma that highlight its dynamic shrinkage behavior and develop an efficient Markov chain Monte Carlo algorithm for posterior sampling. The proposed approach is evaluated through sparse covariance modeling and forecasting of the returns of the EURO STOXX 50 index, demonstrating favorable forecasting performance.",
+ "primary": "econ.EM"
+}

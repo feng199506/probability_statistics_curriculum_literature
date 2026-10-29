@@ -1,0 +1,16 @@
+{
+ "id": "2502.20114",
+ "title": "Scalability of the second-order reliability method for stochastic differential equations with multiplicative noise",
+ "authors": [
+  "Timo Schorlepp",
+  "Tobias Grafke"
+ ],
+ "v1_date": "2025-02-27",
+ "latest_version": 2,
+ "latest_date": "2026-03-13",
+ "journal_ref": "SIAM/ASA J. Uncertainty Quantification, Vol. 14, No. 3, pp. 920-973 (2026)",
+ "doi": "10.1137/25m1743867",
+ "comment": "59 pages, 9 figures",
+ "abstract": "We show how to efficiently compute asymptotically sharp estimates of extreme event probabilities in stochastic differential equations (SDEs) with small multiplicative Brownian noise. The underlying approximation is known as sharp large deviation theory or precise Laplace asymptotics in mathematics, the second-order reliability method (SORM) in reliability engineering, and the instanton or optimal fluctuation method with 1-loop corrections in physics. It is based on approximating the tail probability in question with the most probable realization of the stochastic process, and local perturbations around this realization. We first recall and contextualize the relevant classical theoretical result on precise Laplace asymptotics of diffusion processes [Ben Arous (1988), Stochastics, 25(3), 125-153], and then show how to compute the involved infinite-dimensional quantities - operator traces and Carleman-Fredholm determinants - numerically in a way that is scalable with respect to the time discretization and remains feasible in high spatial dimensions. Using tools from automatic differentiation, we achieve a straightforward black-box numerical computation of the SORM estimates in JAX. The method is illustrated in examples of SDEs and stochastic partial differential equations, including a two-dimensional random advection-diffusion model of a passive scalar. We thereby demonstrate that it is possible to obtain efficient and accurate SORM estimates for very high-dimensional problems, as long as the infinite-dimensional structure of the problem is correctly taken into account. Our JAX implementation of the method is made publicly available.",
+ "primary": "stat.CO"
+}

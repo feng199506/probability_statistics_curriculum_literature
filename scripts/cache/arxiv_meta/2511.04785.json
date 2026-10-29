@@ -1,0 +1,17 @@
+{
+ "id": "2511.04785",
+ "title": "BayesChange: an R package for Bayesian Change Point Analysis",
+ "authors": [
+  "Luca Danese",
+  "Riccardo Corradin",
+  "Andrea Ongaro"
+ ],
+ "v1_date": "2025-11-06",
+ "latest_version": 1,
+ "latest_date": "2025-11-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce BayesChange, a computationally efficient R package, built on C++, for Bayesian change point detection and clustering of observations sharing common change points. While many R packages exist for change point analysis, BayesChange offers methods not currently available elsewhere. The core functions are implemented in C++ to ensures computational efficiency, while an R user interface simplifies the package usage. The BayesChange package includes two R wrappers that integrate the C++ backend functions, along with S3 methods for summarizing the results. We present the theory beyond each method, the algorithms for posterior simulation and we illustrate the package's usage through synthetic examples.",
+ "primary": "stat.CO"
+}

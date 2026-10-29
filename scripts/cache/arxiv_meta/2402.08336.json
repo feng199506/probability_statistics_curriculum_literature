@@ -1,0 +1,20 @@
+{
+ "id": "2402.08336",
+ "title": "A two-step approach for analyzing time to event data under non-proportional hazards",
+ "authors": [
+  "Jonas Brugger",
+  "Tim Friede",
+  "Florian Klinglmüller",
+  "Martin Posch",
+  "Robin Ristl",
+  "Franz König"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 1,
+ "latest_date": "2024-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The log-rank test and the Cox proportional hazards model are commonly used to compare time-to-event data in clinical trials, as they are most powerful under proportional hazards. But there is a loss of power if this assumption is violated, which is the case for some new oncology drugs like immunotherapies. We consider a two-stage test procedure, in which the weighting of the log-rank test statistic depends on a pre-test of the proportional hazards assumption. I.e., depending on the pre-test either the log-rank or an alternative test is used to compare the survival probabilities. We show that if naively implemented this can lead to a substantial inflation of the type-I error rate. To address this, we embed the two-stage test in a permutation test framework to keep the nominal level alpha. We compare the operating characteristics of the two-stage test with the log-rank test and other tests by clinical trial simulations.",
+ "primary": "stat.ME"
+}

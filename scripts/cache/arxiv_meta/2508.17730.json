@@ -1,0 +1,22 @@
+{
+ "id": "2508.17730",
+ "title": "Gaussian Process Modeling with Genotype x Environment Kernels for Wheat Performance Prediction",
+ "authors": [
+  "Lea Friedli",
+  "Tim Steinert",
+  "Nathalie Wuyts",
+  "Fabian Guignard",
+  "Lilia Levy Häner",
+  "Didier Pellet",
+  "Juan M. Herrera",
+  "David Ginsbourger"
+ ],
+ "v1_date": "2025-08-25",
+ "latest_version": 1,
+ "latest_date": "2025-08-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimizing wheat variety selection for high performance in different environmental conditions is critical for reliable food production and stable incomes for growers. We employ a statistical machine learning framework utilizing Gaussian Process (GP) models to capture the effects of genetic and environmental factors on wheat yield and protein content. In doing so, selecting suitable covariance kernels to account for the distinct characteristics of the information is essential. The GP approach is closely related to linear mixed-effect models for genotype x environment predictions, where random additive and interaction effects are modeled with covariance structures. However, while commonly used linear mixed effect models in plant breeding rely on Euclidean-based kernels, we also test kernels specifically designed for strings and time series. The resulting GP models are capable of competitively predicting outcomes for (1) new environmental conditions, and (2) new varieties, even in scenarios with little to no previous data for the new conditions or variety. While we focus on a wheat test case using a novel dataset collected in Switzerland, the GP approach presented here can be applied and extended to a wide range of agricultural applications and beyond, paving the way for improved decision-making and data acquisition strategies.",
+ "primary": "stat.AP"
+}

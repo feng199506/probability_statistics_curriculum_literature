@@ -1,0 +1,18 @@
+{
+ "id": "2604.26055",
+ "title": "Extending Evidence Accumulation Models to Bounded Continuous Self-report Data",
+ "authors": [
+  "Yufei Wu",
+  "Tamás Szűcs",
+  "Agnes Moors",
+  "Francis Tuerlinckx"
+ ],
+ "v1_date": "2026-04-28",
+ "latest_version": 3,
+ "latest_date": "2026-05-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Evidence accumulation models (EAMs) provide a powerful framework for inferring latent cognitive processes from choice and reaction time data. While EAMs are traditionally limited to binary choices, recent developments have extended them to rotationally symmetric continuous responses via the circular diffusion model \\citep{smith2016diffusion} and the spatially continuous diffusion model \\citep{ratcliff2018decision}. Yet, such extensions are limited in scope, as many psychological constructs are measured on bounded non-rotational scales. In this paper, we bridge this gap by presenting and comparing two adaptations designed for bounded continuous data: the Half-Circular Diffusion Model (HCDM) and the Beta Drift Diffusion Model (BDDM). Because both models have intractable likelihoods, we fit them using Amortized Bayesian Inference (ABI) and compare them using Amortized Bayesian Model Comparison (ABMC). We demonstrate the complete workflow on an empirical affect dataset (N = 215), including parameter recovery, simulation-based calibration, posterior predictive checks, and model comparison. Both models accurately capture the joint distribution of responses and reaction times and yield interpretable parameters that can be reliably recovered. The model comparison further reveals a simple diagnostic for choosing between them: the dispersion of the rating distribution, with HCDM preferred for moderate spread and BDDM for highly concentrated or highly dispersed ratings. This work extends the EAM framework to a new application context, bounded continuous self-report data, and offers researchers a user-friendly toolkit for modeling the cognitive dynamics of continuous responses. We release fully documented Python code with both GPU and CPU implementations, along with example datasets.",
+ "primary": "stat.ME"
+}

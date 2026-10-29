@@ -1,0 +1,16 @@
+{
+ "id": "2605.08672",
+ "title": "Posterior Concentration of Bayesian Physics-Informed Neural Networks for Elliptic PDEs",
+ "authors": [
+  "Yuxuan Zhao",
+  "Yulong Lu"
+ ],
+ "v1_date": "2026-05-09",
+ "latest_version": 1,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the posterior contraction rate of Bayesian Physics-Informed Neural Networks (PINNs) for solving a general class of elliptic partial differential equations (PDEs). We focus on learning of the elliptic equation with a non-homogeneous Dirichlet boundary condition from independent and noisy measurements collected both inside the domain and on the boundary. Assuming that the PDE admits a strong solution in a Hölder space and using with a suitably constructed prior on the neural network weights, we prove that the posterior distribution concentrates around the exact solution at a near-minimax rate. Furthermore, the chosen prior is rate-adaptive: the posterior contracts at an (almost) optimal rate without prior knowledge of the smoothness level of the exact solution. Our results provide statistical guarantees for uncertainty quantification of PDEs via Bayesian PINNs.",
+ "primary": "math.ST"
+}

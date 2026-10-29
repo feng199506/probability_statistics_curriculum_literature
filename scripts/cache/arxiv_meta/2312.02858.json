@@ -1,0 +1,22 @@
+{
+ "id": "2312.02858",
+ "title": "Towards Causal Representations of Climate Model Data",
+ "authors": [
+  "Julien Boussard",
+  "Chandni Nagda",
+  "Julia Kaltenborn",
+  "Charlotte Emilie Elektra Lange",
+  "Philippe Brouillard",
+  "Yaniv Gurwicz",
+  "Peer Nowack",
+  "David Rolnick"
+ ],
+ "v1_date": "2023-12-05",
+ "latest_version": 2,
+ "latest_date": "2023-12-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Climate models, such as Earth system models (ESMs), are crucial for simulating future climate change based on projected Shared Socioeconomic Pathways (SSP) greenhouse gas emissions scenarios. While ESMs are sophisticated and invaluable, machine learning-based emulators trained on existing simulation data can project additional climate scenarios much faster and are computationally efficient. However, they often lack generalizability and interpretability. This work delves into the potential of causal representation learning, specifically the \\emph{Causal Discovery with Single-parent Decoding} (CDSD) method, which could render climate model emulation efficient \\textit{and} interpretable. We evaluate CDSD on multiple climate datasets, focusing on emissions, temperature, and precipitation. Our findings shed light on the challenges, limitations, and promise of using CDSD as a stepping stone towards more interpretable and robust climate model emulation.",
+ "primary": "cs.LG"
+}

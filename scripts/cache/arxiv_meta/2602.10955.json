@@ -1,0 +1,18 @@
+{
+ "id": "2602.10955",
+ "title": "Prior Smoothing for Multivariate Disease Mapping Models",
+ "authors": [
+  "Garazi Retegui",
+  "María Dolores Ugarte",
+  "Jaione Etxeberria",
+  "Alan E. Gelfand"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 3,
+ "latest_date": "2026-10-13",
+ "journal_ref": "Retegui, G., Ugarte, M. D., Etxeberria, J., & Gelfand, A. E. (2026). Prior smoothing for multivariate disease mapping models. Spatial Statistics, 76, Article 101055",
+ "doi": "10.1016/j.spasta.2026.101055",
+ "comment": "",
+ "abstract": "To date, we have seen the emergence of a large literature on multivariate disease mapping. That is, incidence of (or mortality from) multiple diseases is recorded at the scale of areal units where incidence (mortality) across the diseases is expected to manifest dependence. The modeling involves a hierarchical structure: a Poisson model for disease counts (conditioning on the rates) at the first stage, and a specification of a function of the rates using spatial random effects at the second stage. These random effects are specified as a prior and introduce spatial smoothing to the rate (or risk) estimates. What we see in the literature is the amount of smoothing induced under a given prior across areal units compared with the observed/empirical risks. Our contribution here extends previous research on smoothing in univariate areal data models. Specifically, for three different choices of multivariate prior, we investigate both within prior smoothing according to hyperparameters and across prior smoothing. Its benefit to the user is to illuminate the expected nature of departure from perfect fit associated with these priors, providing measures of their smoothing behavior not captured by conventional measures of predictive performance. We propose both theoretical and empirical metrics for our investigation and illustrate with both simulated and real data.",
+ "primary": "stat.ME"
+}

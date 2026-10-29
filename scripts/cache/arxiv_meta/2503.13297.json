@@ -1,0 +1,17 @@
+{
+ "id": "2503.13297",
+ "title": "fkbma: An R Package for Detecting Tailoring Variables with Free-Knot B-Splines and Bayesian Model Averaging",
+ "authors": [
+  "Lara Maleyeff",
+  "Shirin Golchi",
+  "Erica E. M. Moodie"
+ ],
+ "v1_date": "2025-03-17",
+ "latest_version": 1,
+ "latest_date": "2025-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 2 tables, 2 figures",
+ "abstract": "Precision medicine aims to optimize treatment by identifying patient subgroups most likely to benefit from specific interventions. To support this goal, we introduce fkbma, an R package that implements a Bayesian model averaging approach with free-knot B-splines for identifying tailoring variables. The package employs a reversible jump Markov chain Monte Carlo algorithm to flexibly model treatment effect heterogeneity while accounting for uncertainty in both variable selection and non-linear relationships. fkbma provides a comprehensive framework for detecting predictive biomarkers, integrating Bayesian adaptive enrichment strategies, and enabling robust subgroup identification in clinical trials and observational studies. This paper details the statistical methodology underlying fkbma, outlines its computational implementation, and demonstrates its application through simulations and real-world examples. The package's flexibility makes it a valuable tool for precision medicine research, offering a principled approach to treatment personalization.",
+ "primary": "stat.ME"
+}

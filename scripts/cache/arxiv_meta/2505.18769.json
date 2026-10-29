@@ -1,0 +1,18 @@
+{
+ "id": "2505.18769",
+ "title": "Regularisation of CART trees by summation of $p$-values",
+ "authors": [
+  "Nils Engler",
+  "Mathias Lindholm",
+  "Filip Lindskog",
+  "Taariq Nazar"
+ ],
+ "v1_date": "2025-05-24",
+ "latest_version": 2,
+ "latest_date": "2025-10-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The standard procedure to decide on the complexity of a CART regression tree is to use cross-validation with the aim of obtaining a predictor that generalises well to unseen data. The randomness in the selection of folds implies that the selected CART regression tree is not a deterministic function of the data. Moreover, the cross-validation procedure may become time consuming and result in inefficient use of training data. We propose a simple deterministic in-sample method that can be used for stopping the growing of a CART regression tree based on node-wise statistical tests. This testing procedure is derived using a connection to change point detection, where the null hypothesis corresponds to no signal. The suggested $p$-value based procedure allows us to consider covariate vectors of arbitrary dimension and allows us to bound the $p$-value of an entire tree from above. Further, we show that the test detects a not too weak signal with a high probability, given a not too small sample size. We illustrate our methodology and the asymptotic results on both simulated and real world data. Additionally, we illustrate how the $p$-value based method can be used to construct a deterministic piece-wise constant auto-calibrated predictor based on a given black-box predictor.",
+ "primary": "stat.ME"
+}

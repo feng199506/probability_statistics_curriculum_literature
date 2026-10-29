@@ -1,0 +1,30 @@
+{
+ "id": "2412.15012",
+ "title": "Assessing treatment effects in observational data with missing confounders: A comparative study of practical doubly-robust and traditional missing data methods",
+ "authors": [
+  "Brian D. Williamson",
+  "Chloe Krakauer",
+  "Eric Johnson",
+  "Susan Gruber",
+  "Bryan E. Shepherd",
+  "Mark J. van der Laan",
+  "Thomas Lumley",
+  "Hana Lee",
+  "Jose J. Hernandez Munoz",
+  "Fengyu Zhao",
+  "Sarah K. Dutcher",
+  "Rishi Desai",
+  "Gregory E. Simon",
+  "Susan M. Shortreed",
+  "Jennifer C. Nelson",
+  "Pamela A. Shaw"
+ ],
+ "v1_date": "2024-12-19",
+ "latest_version": 2,
+ "latest_date": "2025-10-22",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70366",
+ "comment": "142 pages (27 main, 115 supplemental); 6 figures, 2 tables",
+ "abstract": "In pharmacoepidemiology, safety and effectiveness are frequently evaluated using readily available administrative and electronic health records data. In these settings, detailed confounder data are often not available in all data sources and therefore missing on a subset of individuals. Multiple imputation (MI) and inverse-probability weighting (IPW) are go-to analytical methods to handle missing data and are dominant in the biomedical literature. Doubly-robust methods, which are consistent under fewer assumptions, can be more efficient with respect to mean-squared error. We discuss two practical-to-implement doubly-robust estimators, generalized raking and inverse probability-weighted targeted maximum likelihood estimation (TMLE), which are both currently under-utilized in biomedical studies. We compare their performance to IPW and MI in a detailed numerical study for a variety of synthetic data-generating and missingness scenarios, including scenarios with rare outcomes and a high missingness proportion. Further, we consider plasmode simulation studies that emulate the complex data structure of a large electronic health records cohort in order to compare anti-depressant therapies in a rare-outcome setting where a key confounder is prone to more than 50\\% missingness. We provide guidance on selecting a missing data analysis approach, based on which methods excelled with respect to the bias-variance trade-off across the different scenarios studied.",
+ "primary": "stat.ME"
+}

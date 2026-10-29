@@ -1,0 +1,16 @@
+{
+ "id": "2412.03405",
+ "title": "Deep Operator BSDE: a Numerical Scheme to Approximate Solution Operators",
+ "authors": [
+  "Pere Diaz-Lozano",
+  "Giulia Di Nunno"
+ ],
+ "v1_date": "2024-12-04",
+ "latest_version": 3,
+ "latest_date": "2026-07-08",
+ "journal_ref": "The Annals of Applied Probability, 2026, Vol. 36, No. 3",
+ "doi": "10.1214/25-aap2289",
+ "comment": "",
+ "abstract": "Motivated by dynamic risk measures and conditional $g$-expectations, in this work we propose a numerical method to approximate the solution operator given by a Backward Stochastic Differential Equation (BSDE). The main ingredients for this are the Wiener chaos decomposition and the classical Euler scheme for BSDEs. We show convergence of this scheme under very mild assumptions, and provide a rate of convergence in more restrictive cases. We then implement it using neural networks, and we present several numerical examples where we can check the accuracy of the method.",
+ "primary": "math.NA"
+}

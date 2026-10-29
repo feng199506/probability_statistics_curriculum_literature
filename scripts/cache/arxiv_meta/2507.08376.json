@@ -1,0 +1,18 @@
+{
+ "id": "2507.08376",
+ "title": "A proposal for homoscedastic modelling with conditional auto-regressive distributions",
+ "authors": [
+  "Miguel A. Martinez-Beneito",
+  "Aritz Adín",
+  "Tomás Goicoa",
+  "Lola Ugarte"
+ ],
+ "v1_date": "2025-07-11",
+ "latest_version": 1,
+ "latest_date": "2025-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conditional auto-regressive (CAR) distributions are widely used to induce spatial dependence in the geographic analysis of areal data. These distributions establish multivariate dependence networks by defining conditional relationships between neighboring units, resulting in positive dependence among nearby observations. Despite their practical convenience, the conditional nature of CAR distributions can lead to undesirable marginal properties, such as inherent heterogeneity assumptions that may significantly impact the posterior distributions. In this paper, we highlight the variance issues associated with CAR distributions, particularly focusing on edge effects and artifacts related to the region's geometry. We show that edge effects may be more significant and widespread in the outcomes of disease mapping studies than previously anticipated. To address these homoscedasticity concerns, we introduce a new conditional autoregressive distribution designed to mitigate these problems. We demonstrate how this distribution effectively resolves the practical issues identified in earlier models.",
+ "primary": "stat.ME"
+}

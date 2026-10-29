@@ -1,0 +1,17 @@
+{
+ "id": "2310.19988",
+ "title": "Counterfactual fairness for small subgroups",
+ "authors": [
+  "Solvejg Wastvedt",
+  "Jared D Huling",
+  "Julian Wolfson"
+ ],
+ "v1_date": "2023-10-30",
+ "latest_version": 2,
+ "latest_date": "2024-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While methods for measuring and correcting differential performance in risk prediction models have proliferated in recent years, most existing techniques can only be used to assess fairness across relatively large subgroups. The purpose of algorithmic fairness efforts is often to redress discrimination against groups that are both marginalized and small, so this sample size limitation often prevents existing techniques from accomplishing their main aim. We take a three-pronged approach to address the problem of quantifying fairness with small subgroups. First, we propose new estimands built on the \"counterfactual fairness\" framework that leverage information across groups. Second, we estimate these quantities using a larger volume of data than existing techniques. Finally, we propose a novel data borrowing approach to incorporate \"external data\" that lacks outcomes and predictions but contains covariate and group membership information. This less stringent requirement on the external data allows for more possibilities for external data sources. We demonstrate practical application of our estimators to a risk prediction model used by a major Midwestern health system during the COVID-19 pandemic.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.09380",
+ "title": "Two-sample KS test with approxQuantile in Apache Spark",
+ "authors": [
+  "Bradley Eck",
+  "Duygu Kabakci-Zorlu",
+  "Amadou Ba"
+ ],
+ "v1_date": "2023-12-14",
+ "latest_version": 1,
+ "latest_date": "2023-12-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 pages, 3 figures, python code in appendix. To appear at IEEE Big Data 2023",
+ "abstract": "The classical two-sample test of Kolmogorov-Smirnov (KS) is widely used to test whether empirical samples come from the same distribution. Even though most statistical packages provide an implementation, carrying out the test in big data settings can be challenging because it requires a full sort of the data. The popular Apache Spark system for big data processing provides a 1-sample KS test, but not the 2-sample version. Moreover, recent Spark versions provide the approxQuantile method for querying $ε$-approximate quantiles. We build on approxQuantile to propose a variation of the classical Kolmogorov-Smirnov two-sample test that constructs approximate cumulative distribution functions (CDF) from $ε$-approximate quantiles. We derive error bounds of the approximate CDF and show how to use this information to carry out KS tests. Psuedocode for the approach requires 15 executable lines. A Python implementation appears in the appendix.",
+ "primary": "stat.CO"
+}

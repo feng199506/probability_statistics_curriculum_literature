@@ -1,0 +1,15 @@
+{
+ "id": "2410.15734",
+ "title": "A Kernelization-Based Approach to Nonparametric Binary Choice Models",
+ "authors": [
+  "Guo Yan"
+ ],
+ "v1_date": "2024-10-21",
+ "latest_version": 2,
+ "latest_date": "2026-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new estimator for nonparametric binary choice models that does not impose a parametric structure on either the systematic function of covariates or the distribution of the error term. A key advantage of our approach is its computational scalability in the number of covariates. For instance, even when assuming a normal error distribution as in probit models, commonly used sieves for approximating an unknown function of covariates can lead to a large-dimensional optimization problem when the number of covariates is moderate. Our approach, motivated by kernel methods in machine learning, views certain reproducing kernel Hilbert spaces as special sieve spaces, coupled with spectral cut-off regularization for dimension reduction. We establish the consistency of the proposed estimator and asymptotic normality of the plug-in estimator for weighted average partial derivatives. Simulation studies show that, compared to parametric estimation methods, the proposed method effectively improves finite sample performance in cases of misspecification, and has a rather mild efficiency loss if the model is correctly specified. Using administrative data on the grant decisions of US asylum applications to immigration courts, along with nine case-day variables on weather and pollution, we re-examine the effect of outdoor temperature on court judges' ``mood'', and thus, their grant decisions.",
+ "primary": "econ.EM"
+}

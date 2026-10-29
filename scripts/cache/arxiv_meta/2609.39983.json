@@ -1,0 +1,15 @@
+{
+ "id": "2609.39983",
+ "title": "Proximal Empirical Bayes for Sparse Regression with Posterior Decision Support",
+ "authors": [
+  "Dimitrios Roxanas"
+ ],
+ "v1_date": "2026-09-30",
+ "latest_version": 2,
+ "latest_date": "2026-10-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Code and a supplement available at https://github.com/droxanas/ProxEBS_Sparse_Regression",
+ "abstract": "In this work, we revisit estimation and variable selection in sparse Gaussian regression, possibly under affine constraints. We adopt a middle-ground approach between optimisation and fully hierarchical Bayesian methods, preserving much of the computational efficiency of the former while adding posterior uncertainty quantification. In particular, we develop an empirical Bayes framework that separates shrinkage calibration from posterior-informed selection while using the same log-concave model throughout. The resulting workflow is modular: different methods can be used for noise-variance estimation, shrinkage calibration and posterior sampling. At the same time, these tasks are linked, and numerical choices made at one stage can propagate through the workflow and ultimately affect the decision about which variables to retain. We investigate in detail one instance of the framework based on a Laplace prior, with the amount of shrinkage determined by stochastic approximation proximal gradient. The proximal machinery used for this calibration also supports posterior simulation. We further show how the empirical Bayes calibration should be modified when homogeneous constraints reduce the number of free parameters. Nonhomogeneous affine information is instead incorporated softly; when this information is strong, posterior sampling can become poorly conditioned, and we develop a preconditioning strategy to improve mixing and posterior exploration. Synthetic experiments examine how scale calibration, posterior run length and sampler conditioning affect estimation, uncertainty quantification and the final sparse decision. On a diabetes dataset, posterior uncertainty agrees closely with established Bayesian analyses, while the final decision provides a sparser practical summary.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2603.10405",
+ "title": "Surrogate-Assisted Estimation of Exposure-Time Effects in Stepped-Wedge Trials with Administratively Censored Outcomes",
+ "authors": [
+  "Lin Li",
+  "Tuo Lin",
+  "Yiwen Chen",
+  "Xin M. Tu"
+ ],
+ "v1_date": "2026-03-11",
+ "latest_version": 6,
+ "latest_date": "2026-10-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "1 supplement",
+ "abstract": "In stepped-wedge trials, effects often change with the time since a cluster crossed over, and a delayed primary outcome is administratively censored for clusters that cross over late. The design couples them: long exposure times occur only in the last periods, where censoring is heaviest. We study exposure-time-specific effects when a short-term surrogate is always recorded and censoring is ignorable given the surrogate, exposure time, covariates and calendar time. The usual immediate-treatment estimandgives more weight to short exposures. Each exposure-time effect is identified through a surrogate bridge, and because the rollout fixes the exposure law, neither the surrogate distribution nor the bridge regression enters theremainder of the efficient influence function. The efficiency bound is a full-data part plus a censoring burden whose share grows with exposure time; as a function of the allocation of clusters to waves, it becomes a design criterion that can favor the heavily censored last wave. We propose a cross-fitted surrogate-assisted augmented estimator, prove joint asymptotic normality, show that with a consistent bridge its variance is the same for independent and fixed-wave crossover times, and justify a fixed-partition cluster jackknife and a heterogeneity test. Treating each crossover as a sequential randomization gives a sharper bound that uses a cluster's pre-crossover history; under a random-intercept working structure the optimal correction is a one-dimensional index of the cluster's own surrogate and outcome history, and the resulting estimator attains the bound with 30 clusters in simulations.",
+ "primary": "stat.ME"
+}

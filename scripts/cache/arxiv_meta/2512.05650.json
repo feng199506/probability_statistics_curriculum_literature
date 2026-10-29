@@ -1,0 +1,16 @@
+{
+ "id": "2512.05650",
+ "title": "Efficient sequential Bayesian inference for state-space epidemic models using ensemble data assimilation",
+ "authors": [
+  "Dhorasso Temfack",
+  "Jason Wyse"
+ ],
+ "v1_date": "2025-12-05",
+ "latest_version": 4,
+ "latest_date": "2026-05-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimating latent epidemic states and model parameters from partially observed, noisy data remains a major challenge in infectious disease modeling. State-space formulations provide a coherent probabilistic framework for such inference, yet fully Bayesian estimation is often computationally prohibitive because evaluating the observed-data likelihood requires integration over a latent trajectory. The Sequential Monte Carlo squared (SMC$^2$) algorithm offers a principled approach for joint state and parameter inference, combining an outer SMC sampler over parameters with an inner particle filter that estimates the likelihood up to the current time point. Despite its theoretical appeal, this nested particle filter imposes substantial computational cost, limiting routine use in near-real-time outbreak response. We propose Ensemble SMC$^2$ (eSMC$^2$), a computationally efficient variant that replaces the inner particle filter with an Ensemble Kalman Filter (EnKF) to approximate the incremental likelihood at each observation time. While this substitution introduces bias via a Gaussian approximation, we mitigate finite-sample effects using an unbiased Gaussian density estimator and adapt the EnKF for epidemic data through state-dependent observation variance. This makes our approach particularly suitable for overdispersed incidence data commonly encountered in infectious disease surveillance. Simulation experiments with known ground truth and an application to 2022 United States (U.S.) monkeypox incidence data demonstrate that eSMC$^2$ achieves substantial computational gains while producing posterior estimates comparable to SMC$^2$. The method accurately reconstructs epidemic trajectories and estimates key epidemiological parameters, providing an efficient framework for sequential Bayesian inference from imperfect surveillance data.",
+ "primary": "stat.ME"
+}

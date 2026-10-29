@@ -1,0 +1,16 @@
+{
+ "id": "2609.12666",
+ "title": "Exact calibration of structural models via time-change",
+ "authors": [
+  "Frédéric Vrins",
+  "Damiano Brigo"
+ ],
+ "v1_date": "2026-09-11",
+ "latest_version": 2,
+ "latest_date": "2026-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this note, we propose a general structural approach to model a default time $τ$ as the first-passage time (FPT) of a (``firm-value'') process $S$ below a (``debt'') barrier $K$ that comply with a pre-specified survival probability curve $G(t)=\\Pr(τ>t)$. Following an idea of Mbaye and Vrins (Mathematical Finance, 2022) applied to reduced-form models, our approach consists in two steps: choose a latent FPT model driven by a barrier $\\tilde{K}$ and process $\\tilde{S}$, and time-change those using a deterministic clock $Θ$ to get $K_t=\\tilde{K}_{Θ(t)}$ and $S_t:=\\tilde{S}_{Θ(t)}$, leading to the final FTP model $(K,S,Θ)$. As the market curve $G$ and the latent model $(\\tilde{K},\\tilde{S})$ are assumed to be given, the calibration step simply consists in finding the clock $Θ$ such that the distribution of the FPT of $S$ below $K$ coincides with the survival curve $G$. We show that this is achievable for a broad class of specified curves $G$ and latent FTP models. The calibration amounts to a simple inversion of a function, which is almost immediate provided that the latent model is tractable enough. In particular, we show that the AT1P model of Brigo, Morini and Tarenghi - which is able to reproduce a broad range of CDS term-structures - can be regarded as the FPT of a time-changed drifted Brownian motion to a constant barrier: $\\tilde{V}_t=μt+W_t$ and $\\tilde{K}_t=k<0$. This connection offers an elegant interpretation for the instantaneous volatility function featured in AT1P and yields an immediate calibration of the latter to perfectly match a target survival curve.",
+ "primary": "q-fin.MF"
+}

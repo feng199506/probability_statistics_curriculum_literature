@@ -1,0 +1,16 @@
+{
+ "id": "2608.04335",
+ "title": "Bivariate Prior Specification for Bayesian Decision Making in Early Phase Clinical Trials",
+ "authors": [
+  "Chengyuan Yang",
+  "Evan Kwiatkowski"
+ ],
+ "v1_date": "2026-08-05",
+ "latest_version": 2,
+ "latest_date": "2026-08-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian Go/No-Go decisions with co-primary endpoints require specifying prior distributions under the Normal-Inverse-Wishart framework; however guidance on how prior hyperparameters influence trial decisions remains limited. We propose a calibrated prior specification framework for bivariate Go/No-Go decisions. Skeptical and enthusiastic priors are calibrated so that each assigns a target probability to a clinically relevant decision region. We prove that for any prior precision $κ> 0$, a unique scale parameter $λ_0$ achieves the target calibration. Operating characteristics are evaluated across different $κ$ via simulation and applied to a phase~3 telitacicept lupus trial.The simulation result indicates $κ$ is the primary driver of prior discrimination. At $κ= 1$, the go rate difference between priors was 0.07; at $κ= 10$ it reached 0.56, with false positive rates below 0.01. Operating characteristics were robust to the degrees of freedom parameter $ν_0$ and prior correlation $ρ_0$, supporting a default of $ν_0 = 2$. In the lupus application, prior sensitivity was negligible at $κ= 1$ but at $κ= 10$ the enthusiastic go rate was three times the skeptical rate at small sample sizes. The framework reduces prior specification to two choices: the prior center and the prior precision $κ$. The identification of $κ$ as the dominant parameter, together with the cautious choice of $κ$ before the trial, motivates adaptive approaches to prior precision.",
+ "primary": "stat.ME"
+}

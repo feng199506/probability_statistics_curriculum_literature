@@ -1,0 +1,17 @@
+{
+ "id": "2502.10257",
+ "title": "Extended feature allocation models",
+ "authors": [
+  "Mario Beraha",
+  "Federico Camerlenghi",
+  "Lorenzo Ghilotti"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 3,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Feature allocation models are Bayesian nonparametric tools tailored to data in which each observation can simultaneously exhibit multiple characteristics, or features. A fundamental limitation of standard formulations is that feature labels are assumed to be independent and identically distributed, and therefore play no role in posterior inference. The present paper introduces a unified Bayesian framework for extended feature allocation models, in which feature labels and proportions are modeled jointly, thereby enabling the simultaneous discovery of features and learning of dependencies among their labels. Building on point process theory, we develop a full Bayesian analysis of these models. Within this general setting, we also characterize previously proposed priors as those leading to poor predictive distributions, which cannot capture label dependencies and are insensitive to the observed frequency spectrum. Our methodology is designed to move beyond such standard formulations by leveraging the information carried by feature labels. We demonstrate the usefulness of our approach by introducing: (i) a Cox process prior that clusters genomic variant embeddings while predicting new variants and new variant clusters; (ii) a determinantal point process prior for repeated forest surveys, where prediction concerns both the number and the locations of unobserved trees.",
+ "primary": "math.ST"
+}

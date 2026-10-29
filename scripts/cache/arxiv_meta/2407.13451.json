@@ -1,0 +1,16 @@
+{
+ "id": "2407.13451",
+ "title": "Incorporating additional evidence as prior information to resolve non-identifiability in Bayesian disease model calibration. A tutorial",
+ "authors": [
+  "Daria Semochkina",
+  "Cathal Walsh"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2025-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Disease models are used to examine the likely impact of therapies, interventions and public policy changes. Ensuring that these are well calibrated on the basis of available data and that the uncertainty in their projections is properly quantified is an important part of the process. The question of non-identifiability poses a challenge to disease model calibration where multiple parameter sets generate identical model outputs. For statisticians evaluating the impact of policy interventions such as screening or vaccination, this is a critical issue. This study explores the use of the Bayesian framework to provide a natural way to calibrate models and address non-identifiability in a probabilistic fashion in the context of disease modelling. We present Bayesian approaches for incorporating expert knowledge and external data to ensure that appropriately informative priors are specified on the joint parameter space. These approaches are applied to two common disease models: a basic Susceptible-Infected-Susceptible (SIS) model and a much more complex agent-based model which has previously been used to address public policy questions in HPV and cervical cancer. The conditions which allow the problem of non-identifiability to be resolved are demonstrated for the SIS model. For the larger HPV model an overview of the findings is presented, but of key importance is a discussion on how the non-identifiability impacts the calibration process. Through case studies, we demonstrate how informative priors can help resolve non-identifiability and improve model inference. We also discuss how sensitivity analysis can be used to assess the impact of prior specifications on model results. Overall, this work provides an important tutorial for researchers interested in applying Bayesian methods to calibrate models and handle non-identifiability in disease models.",
+ "primary": "stat.CO"
+}

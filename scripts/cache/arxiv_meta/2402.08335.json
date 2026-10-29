@@ -1,0 +1,18 @@
+{
+ "id": "2402.08335",
+ "title": "Joint Modeling of Multivariate Longitudinal and Survival Outcomes with the R package INLAjoint",
+ "authors": [
+  "Denis Rustand",
+  "Janet van Niekerk",
+  "Elias Teixeira Krainski",
+  "Håvard Rue"
+ ],
+ "v1_date": "2024-02-13",
+ "latest_version": 2,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces the R package INLAjoint, designed as a toolbox for fitting a diverse range of regression models addressing both longitudinal and survival outcomes. INLAjoint relies on the computational efficiency of the integrated nested Laplace approximations methodology, an efficient alternative to Markov chain Monte Carlo for Bayesian inference, ensuring both speed and accuracy in parameter estimation and uncertainty quantification. The package facilitates the construction of complex joint models by treating individual regression models as building blocks, which can be assembled to address specific research questions. Joint models are relevant in biomedical studies where the collection of longitudinal markers alongside censored survival times is common. They have gained significant interest in recent literature, demonstrating the ability to rectify biases present in separate modeling approaches such as informative censoring by a survival event or confusion bias due to population heterogeneity. We provide a comprehensive overview of the joint modeling framework embedded in INLAjoint with illustrative examples. Through these examples, we demonstrate the practical utility of INLAjoint in handling complex data scenarios encountered in biomedical research.",
+ "primary": "stat.ME"
+}

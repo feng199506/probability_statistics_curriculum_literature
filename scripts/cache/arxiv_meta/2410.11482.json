@@ -1,0 +1,16 @@
+{
+ "id": "2410.11482",
+ "title": "Scalable likelihood-based estimation and variable selection for the Cox model with incomplete covariates",
+ "authors": [
+  "Ngok Sang Kwok",
+  "Kin Yau Wong"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 1,
+ "latest_date": "2024-10-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 2 figures, 7 tables",
+ "abstract": "Regression analysis with missing data is a long-standing and challenging problem, particularly when there are many missing variables with arbitrary missing patterns. Likelihood-based methods, although theoretically appealing, are often computationally inefficient or even infeasible when dealing with a large number of missing variables. In this paper, we consider the Cox regression model with incomplete covariates that are missing at random. We develop an expectation-maximization (EM) algorithm for nonparametric maximum likelihood estimation, employing a transformation technique in the E-step so that it involves only a one-dimensional integration. This innovation makes our methods scalable with respect to the dimension of the missing variables. In addition, for variable selection, we extend the proposed EM algorithm to accommodate a LASSO penalty in the likelihood. We demonstrate the feasibility and advantages of the proposed methods over existing methods by large-scale simulation studies and apply the proposed methods to a cancer genomic study.",
+ "primary": "stat.ME"
+}

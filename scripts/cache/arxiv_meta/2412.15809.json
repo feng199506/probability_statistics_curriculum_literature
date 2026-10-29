@@ -1,0 +1,15 @@
+{
+ "id": "2412.15809",
+ "title": "Prior-Posterior Derived-Predictive Consistency Checks for Post-Estimation Calculated Quantities of Interest (QOI-Check)",
+ "authors": [
+  "Holger Sennhenn-Reulen"
+ ],
+ "v1_date": "2024-12-20",
+ "latest_version": 2,
+ "latest_date": "2025-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "With flexible modeling software - such as the probabilistic programming language Stan - growing in popularity, quantities of interest (QOIs) calculated post-estimation are increasingly desired and customly implemented, both by statistical software developers and applied scientists. Examples of QOI include the marginal expectation of a multilevel model with a non-linear link function, or an ANOVA decomposition of a bivariate regression spline. For this, the QOI-Check is introduced, a systematic approach to ensure proper calibration and correct interpretation of QOIs. It contributes to Bayesian Workflow, and aims to improve the interpretability and trust in post-estimation conclusions based on QOIs. The QOI-Check builds upon Simulation Based Calibration (SBC), and the Holdout Predictive Check (HPC). SBC verifies computational reliability of Bayesian inference algorithms by consistency check of posterior with prior when the posterior is estimated on prior-predicted data, while HPC ensures robust inference by assessing consistency of model predictions with holdout data. SBC and HPC are combined in QOI-Checking for validating post-estimation QOI calculation and interpretation in the context of a (hypothetical) population definition underlying the QOI.",
+ "primary": "stat.ME"
+}

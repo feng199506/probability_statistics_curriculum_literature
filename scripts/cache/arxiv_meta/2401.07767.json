@@ -1,0 +1,17 @@
+{
+ "id": "2401.07767",
+ "title": "Estimation of the genetic Gaussian network using GWAS summary data",
+ "authors": [
+  "Yihe Yang",
+  "Noah Lorincz-Comi",
+  "Xiaofeng Zhu"
+ ],
+ "v1_date": "2024-01-15",
+ "latest_version": 1,
+ "latest_date": "2024-01-15",
+ "journal_ref": "Biometrics, Volume 80, Issue 4, December 2024, ujae148",
+ "doi": "10.1093/biomtc/ujae148",
+ "comment": "29 pages, 7 figures, 1 table",
+ "abstract": "Genetic Gaussian network of multiple phenotypes constructed through the genetic correlation matrix is informative for understanding their biological dependencies. However, its interpretation may be challenging because the estimated genetic correlations are biased due to estimation errors and horizontal pleiotropy inherent in GWAS summary statistics. Here we introduce a novel approach called Estimation of Genetic Graph (EGG), which eliminates the estimation error bias and horizontal pleiotropy bias with the same techniques used in multivariable Mendelian randomization. The genetic network estimated by EGG can be interpreted as representing shared common biological contributions between phenotypes, conditional on others, and even as indicating the causal contributions. We use both simulations and real data to demonstrate the superior efficacy of our novel method in comparison with the traditional network estimators. R package EGG is available on https://github.com/harryyiheyang/EGG.",
+ "primary": "stat.ME"
+}

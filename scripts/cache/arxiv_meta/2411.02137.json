@@ -1,0 +1,17 @@
+{
+ "id": "2411.02137",
+ "title": "Finite-sample performance of the maximum likelihood estimator in logistic regression",
+ "authors": [
+  "Hugo Chardon",
+  "Matthieu Lerasle",
+  "Jaouad Mourtada"
+ ],
+ "v1_date": "2024-11-04",
+ "latest_version": 3,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Minor revision",
+ "abstract": "Logistic regression is a classical model for describing the probabilistic dependence of binary responses to multivariate covariates. We consider the predictive performance of the maximum likelihood estimator (MLE) for logistic regression, assessed in terms of logistic risk. We consider two questions: first, that of the existence of the MLE (which occurs when the dataset is not linearly separated), and second, that of its accuracy when it exists. These properties depend on both the dimension of covariates and the signal strength. In the case of Gaussian covariates and a well-specified logistic model, we obtain sharp non-asymptotic guarantees for the existence and excess logistic risk of the MLE. We then generalize these results in two ways: first, to non-Gaussian covariates satisfying a certain two-dimensional margin condition, and second to the general case of statistical learning with a possibly misspecified logistic model. Finally, we consider the case of a Bernoulli design, where the behavior of the MLE is highly sensitive to the parameter direction.",
+ "primary": "math.ST"
+}

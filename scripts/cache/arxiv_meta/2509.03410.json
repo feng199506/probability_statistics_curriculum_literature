@@ -1,0 +1,16 @@
+{
+ "id": "2509.03410",
+ "title": "Markov Missing Graph: A Graphical Approach for Missing Data Imputation",
+ "authors": [
+  "Yanjiao Yang",
+  "Yen-Chi Chen"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 1,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "43 pages, 7 figures",
+ "abstract": "We introduce the Markov missing graph (MMG), a novel framework that imputes missing data based on undirected graphs. MMG leverages conditional independence relationships to locally decompose the imputation model. To establish the identification, we introduce the Principle of Available Information (PAI), which guides the use of all relevant observed data. We then propose a flexible statistical learning paradigm, MMG Imputation Risk Minimization under PAI, that frames the imputation task as an empirical risk minimization problem. This framework is adaptable to various modeling choices. We develop theories of MMG, including the connection between MMG and Little's complete-case missing value assumption, recovery under missing completely at random, efficiency theory, and graph-related properties. We show the validity of our method with simulation studies and illustrate its application with a real-world Alzheimer's data set.",
+ "primary": "stat.ME"
+}

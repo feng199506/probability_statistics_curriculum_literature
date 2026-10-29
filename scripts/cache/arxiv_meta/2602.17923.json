@@ -1,0 +1,18 @@
+{
+ "id": "2602.17923",
+ "title": "Model Error Embedding with Orthogonal Gaussian Processes",
+ "authors": [
+  "Mridula Kuppa",
+  "Khachik Sargsyan",
+  "Marco Panesi",
+  "Habib N. Najm"
+ ],
+ "v1_date": "2026-02-20",
+ "latest_version": 2,
+ "latest_date": "2026-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 26 figures",
+ "abstract": "Computational models of complex physical systems often rely on simplifying assumptions which inevitably introduce model error, with consequent predictive errors. Given data on model observables, the estimation of parameterized model-error representations, along with other model parameters, would be ideally done while separating the contributions of each of the two sets of parameters, in order to ensure meaningful stand-alone model predictions. This work builds an embedded model error framework using a weight-space representation of Gaussian processes (GPs) to flexibly capture model-error spatiotemporal correlations and enable inference with GP-embedding in non-linear models. To disambiguate model and model-error/bias parameters, we extend an existing orthogonal GP method to the embedded model-error setting and derive appropriate orthogonality constraints. To address the increased dimensionality introduced by the GP representation, we employ the likelihood-informed subspace method. The construction is demonstrated on linear and non-linear examples, where it effectively corrects model predictions to match data trends. Extrapolation beyond the training data recovers the prior predictive distribution, and the orthogonality constraints lead to meaningful stand-alone model predictions and nearly uncorrelated posteriors between model and model-error parameters.",
+ "primary": "stat.ME"
+}

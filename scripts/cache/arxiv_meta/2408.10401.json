@@ -1,0 +1,19 @@
+{
+ "id": "2408.10401",
+ "title": "Spatial Knockoff Bayesian Variable Selection in Genome-Wide Association Studies",
+ "authors": [
+  "Justin J. Van Ee",
+  "Diana Gamba",
+  "Jesse R. Lasky",
+  "Megan L. Vahsen",
+  "Mevin B. Hooten"
+ ],
+ "v1_date": "2024-08-19",
+ "latest_version": 1,
+ "latest_date": "2024-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages and 6 figures",
+ "abstract": "High-dimensional variable selection has emerged as one of the prevailing statistical challenges in the big data revolution. Many variable selection methods have been adapted for identifying single nucleotide polymorphisms (SNPs) linked to phenotypic variation in genome-wide association studies. We develop a Bayesian variable selection regression model for identifying SNPs linked to phenotypic variation. We modify our Bayesian variable selection regression models to control the false discovery rate of SNPs using a knockoff variable approach. We reduce spurious associations by regressing the phenotype of interest against a set of basis functions that account for the relatedness of individuals. Using a restricted regression approach, we simultaneously estimate the SNP-level effects while removing variation in the phenotype that can be explained by population structure. We also accommodate the spatial structure among causal SNPs by modeling their inclusion probabilities jointly with a reduced rank Gaussian process. In a simulation study, we demonstrate that our spatial Bayesian variable selection regression model controls the false discovery rate and increases power when the relevant SNPs are clustered. We conclude with an analysis of Arabidopsis thaliana flowering time, a polygenic trait that is confounded with population structure, and find the discoveries of our method cluster near described flowering time genes.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2610.20218",
+ "title": "Mixed Poisson diffusion models and application to posterior sampling",
+ "authors": [
+  "Thibaut Pellerin",
+  "Alain Durmus",
+  "Elinor Berger",
+  "Eric Barat"
+ ],
+ "v1_date": "2026-10-14",
+ "latest_version": 1,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Diffusion models are a powerful framework for learning complex probability distributions. While widely used diffusion models for continuous data rely on Gaussian noising processes, we instead develop diffusion models based on Poisson noise. More precisely, we introduce and study a new mathematical framework, called Mixed Poisson Diffusion Models (MPDM), with noising dynamics driven by multivariate counting processes. Our methodology is motivated by Poisson inverse problems. The success of Gaussian diffusion models has led to their use as prior models in a growing number of posterior sampling methods for inverse problems. However, most of these approaches focus on Gaussian inverse problems, in which observations are generated through a deterministic forward operator corrupted by additive Gaussian noise. By contrast, Poisson inverse problems, where observations are discrete and Poisson distributed, remain comparatively underexplored in this literature. Building on our Poisson generative dynamics, we develop a natural framework for posterior sampling in Poisson inverse problems and derive several posterior sampling algorithms based on the proposed model. We evaluate our approach on realistic Poisson inverse problems and show that the resulting framework is well suited to this class of problems.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2605.05923",
+ "title": "Joint modelling of time-dependent biomarker variability and time-to-event outcomes, a two-step approach",
+ "authors": [
+  "Felix Boakye Oppong",
+  "Dimitris Rizopoulos",
+  "Thierry Gorlia",
+  "Nicole Erler"
+ ],
+ "v1_date": "2026-05-07",
+ "latest_version": 1,
+ "latest_date": "2026-05-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Increasing evidence suggests that variability in longitudinal biomarkers, in addition to their mean trajectory, carries prognostic information for time-to-event outcomes. However, standard joint models typically capture only the expected value of the biomarker process, assuming constant residual variability across individuals and time. Fully joint extensions that model within-subject variability exist but are computationally demanding and require dedicated software packages. We propose a flexible two-step approach for incorporating biomarker variability into joint models. First, residuals (or their transformations) from a mixed-effects model are used to derive subject- and time-specific measures of variability. Second, these variability measures are included in a standard joint model, allowing their association with survival to be estimated alongside the mean biomarker trajectory. Our approach can also accommodate multiple biomarkers simultaneously and is readily implemented using existing joint modeling software without custom extensions. Through simulations, we show that our method provides reasonable performance for variability effects across a range of scenarios. We further illustrate our approach using longitudinal data of white blood cell counts from a large phase III glioblastoma trial, demonstrating that both mean levels and variability of hematological markers carry prognostic information for overall survival.",
+ "primary": "stat.ME"
+}

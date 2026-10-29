@@ -1,0 +1,18 @@
+{
+ "id": "2512.07088",
+ "title": "Asymptotic theory and statistical inference for the samples problems with heavy-tailed data using the functional empirical process",
+ "authors": [
+  "Abdoulaye Camara",
+  "Saliou Diouf",
+  "Moumouni Diallo",
+  "Gane Samb Lo"
+ ],
+ "v1_date": "2025-12-08",
+ "latest_version": 1,
+ "latest_date": "2025-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 2 figures",
+ "abstract": "This paper introduces the Trimmed Functional Empirical Process (TFEP) as a robust framework for statistical inference when dealing with heavy-tailed or skewed distributions, where classical moments such as the mean or variance may be infinite or undefined. Standard approaches including the classical Functional Empirical Process (FEP), break down under such conditions, especially for distributions like Pareto, Cauchy, low degree of freedom Student-t, due to their reliance on finite-variance assumptions to guarantee asymptotic convergence. The TFEP approach addresses these limitations by trimming a controlled proportion of extreme order statistics, thereby stabilizing the empirical process and restoring asymptotic Gaussian behavior. We establish the weak convergence of the TFEP under mild regularity conditions and derive new asymptotic distributions for one-sample and twosample problems. These theoretical developments lead to robust confidence intervals for truncated means, variances, and their differences or ratios. The efficiency and reliability of the TFEP are supported by extensive Monte Carlo experiments and an empirical application to Senegalese income data. In all scenarios, the TFEP provides accurate inference where both Gaussian-based methods and the classical FEP break down. The methodology thus offers a powerful and flexible tool for statistical analysis in heavy-tailed and non-standard environments.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2311.04300",
+ "title": "Robust inference for an interval-monitored step-stress experiment with competing risks for failure",
+ "authors": [
+  "Narayanaswamy Balakrishnan",
+  "Maria Jaenada",
+  "Leandro Pardo"
+ ],
+ "v1_date": "2023-11-07",
+ "latest_version": 2,
+ "latest_date": "2024-02-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Accelerated life-tests (ALTs) are used for inferring lifetime characteristics of highly reliable products. In particular, step-stress ALTs increase the stress level at which units under test are subject at certain pre-fixed times, thus accelerating the product's wear and inducing its failure. In some cases, due to cost or product nature constraints, continuous monitoring of devices is infeasible, and so the units are inspected for failures at particular inspection time points. In a such setup, the ALT response is interval-censored. Furthermore, when a test unit fails, there are often more than one fatal cause for the failure, known as competing risks. In this paper, we assume that all competing risks are independent and follow exponential distributions with scale parameters depending on the stress level. Under this setup, we present a family of robust estimators based on density power divergence, including the classical maximum likelihood estimator (MLE) as a particular case. We derive asymptotic and robustness properties of the Minimum Density Power Divergence Estimator (MDPDE), showing its consistency for large samples. Based on these MDPDEs, estimates of the lifetime characteristics of the product as well as estimates of cause-specific lifetime characteristics are then developed. Direct asymptotic, transformed and, bootstrap confidence intervals for the mean lifetime to failure, reliability at a mission time and, distribution quantiles are proposed, and their performance is then compared through Monte Carlo simulations. Moreover, the performance of the MDPDE family has been examined through an extensive numerical study and the methods of inference discussed here are finally illustrated with a real-data example concerning electronic devices.",
+ "primary": "math.ST"
+}

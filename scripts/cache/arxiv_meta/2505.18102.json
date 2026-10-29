@@ -1,0 +1,17 @@
+{
+ "id": "2505.18102",
+ "title": "CapBencher: Give Your LLM Benchmark a Built-in Alarm for Test-Set Overfitting",
+ "authors": [
+  "Takashi Ishida",
+  "Thanawat Lodkaew",
+  "Ikko Yamane"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 7,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "ICML 2026 camera ready version",
+ "abstract": "Publishing a large language model (LLM) benchmark (especially its ground-truth answers) on the Internet risks contaminating future LLMs and enabling evaluation gaming: it may be unintentionally (or intentionally) used to train or select a model, or exploited to overfit and hack leaderboards when labels are accessible. A common mitigation is to keep the benchmark private and let participants submit their models or predictions to the organizers, but this still permits test-set overfitting through feedback loops. To overcome this issue, we propose CapBencher, a way to publish benchmarks without fully disclosing the ground-truth answers, while preserving open evaluation of LLMs. The main idea is to reduce the best possible accuracy, i.e., Bayes accuracy, by injecting randomness to the answers by preparing several logically correct answers, and only include one of them as the solution in the benchmark. Not only does this obscure the ground-truth answers, but it also offers a test for leakage or gaming: since even fully capable models should not surpass the Bayes accuracy, any model that does is a strong signal. We show theoretically and empirically that CapBencher accurately detects test-set overfitting across diverse benchmarks, models, training methodologies, and scenarios.",
+ "primary": "cs.LG"
+}

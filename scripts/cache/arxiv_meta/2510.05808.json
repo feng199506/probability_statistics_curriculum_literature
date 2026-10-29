@@ -1,0 +1,18 @@
+{
+ "id": "2510.05808",
+ "title": "Risk level dependent Minimax Quantile lower bounds for Interactive Statistical Decision Making",
+ "authors": [
+  "Raghav Bongole",
+  "Amirreza Zamani",
+  "Tobias J. Oechtering",
+  "Mikael Skoglund"
+ ],
+ "v1_date": "2025-10-07",
+ "latest_version": 1,
+ "latest_date": "2025-10-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Minimax risk and regret focus on expectation, missing rare failures critical in safety-critical bandits and reinforcement learning. Minimax quantiles capture these tails. Three strands of prior work motivate this study: minimax-quantile bounds restricted to non-interactive estimation; unified interactive analyses that focus on expected risk rather than risk level specific quantile bounds; and high-probability bandit bounds that still lack a quantile-specific toolkit for general interactive protocols. To close this gap, within the interactive statistical decision making framework, we develop high-probability Fano and Le Cam tools and derive risk level explicit minimax-quantile bounds, including a quantile-to-expectation conversion and a tight link between strict and lower minimax quantiles. Instantiating these results for the two-armed Gaussian bandit immediately recovers optimal-rate bounds.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2609.33008",
+ "title": "A statistical theory for blind denoising: minimax estimation of the noise level from a single sample",
+ "authors": [
+  "Zhuoer Shen"
+ ],
+ "v1_date": "2026-09-26",
+ "latest_version": 1,
+ "latest_date": "2026-09-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 1 figure. Under review at ICLR 2027",
+ "abstract": "Motivated by blind denoising in diffusion models, we study estimation of an unknown Gaussian noise level from a single high-dimensional observation, assuming the signal law P is known. We characterize the minimax mean-squared error under two structural assumptions on P. For signals with covering complexity k, the minimax rate is $\\widetildeΘ_Λ(\\min\\{Δ_Λ^2,d^{-1}+k^2d^{-2}\\})$, and the constrained MLE attains it up to logarithmic factors. For $α$-strongly log-concave signals, the rate is $Θ_Λ(\\min\\{Δ_Λ^2,(1+α^{-1})^2d^{-1}\\})$, attained up to constants by a $P$-centered norm estimator. These results show that the structure of the signal law determines both the difficulty of blind noise estimation and the appropriate estimator.",
+ "primary": "math.ST"
+}

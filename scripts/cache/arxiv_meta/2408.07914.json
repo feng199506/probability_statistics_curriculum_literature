@@ -1,0 +1,16 @@
+{
+ "id": "2408.07914",
+ "title": "On the effect of noise on fitting linear regression models",
+ "authors": [
+  "Insha Ullah",
+  "A. H. Welsh"
+ ],
+ "v1_date": "2024-08-15",
+ "latest_version": 1,
+ "latest_date": "2024-08-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this study, we explore the effects of including noise predictors and noise observations when fitting linear regression models. We present empirical and theoretical results that show that double descent occurs in both cases, albeit with contradictory implications: the implication for noise predictors is that complex models are often better than simple ones, while the implication for noise observations is that simple models are often better than complex ones. We resolve this contradiction by showing that it is not the model complexity but rather the implicit shrinkage by the inclusion of noise in the model that drives the double descent. Specifically, we show how noise predictors or observations shrink the estimators of the regression coefficients and make the test error asymptote, and then how the asymptotes of the test error and the ``condition number anomaly'' ensure that double descent occurs. We also show that including noise observations in the model makes the (usually unbiased) ordinary least squares estimator biased and indicates that the ridge regression estimator may need a negative ridge parameter to avoid over-shrinkage.",
+ "primary": "math.ST"
+}

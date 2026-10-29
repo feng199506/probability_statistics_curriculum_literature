@@ -1,0 +1,16 @@
+{
+ "id": "2603.23309",
+ "title": "Tail-Calibrated Estimation of Extreme Quantile Treatment Effects",
+ "authors": [
+  "Mengran Li",
+  "Daniela Castro-Camilo"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Extreme quantile treatment effects (eQTEs) measure the causal impact of a treatment on the tails of an outcome distribution and are central for studying rare, high-impact events. Standard QTE methods often fail in extreme regimes due to data sparsity, while existing eQTE methods rely on restrictive tail assumptions or on interior-quantile theory. We propose the Tail-Calibrated Inverse Estimating Equation (TIEE) framework, which combines information across quantile levels and anchors the tail using extreme value models within a unified estimating equation approach. We establish asymptotic properties of the resulting estimator and evaluate its performance through simulation under different tail behaviours and model misspecifications. An application to extreme precipitation in the Austrian Alps illustrates how TIEE enables observational causal attribution for very rare events under anthropogenic warming. More broadly, the proposed framework establishes a new foundation for causal inference on rare, high-impact outcomes, with relevance across environmental risk, economics, and public health.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2607.27514",
+ "title": "Sample Complexity for the 2-Gromov-Wasserstein Distance",
+ "authors": [
+  "Pui Kuen Leung",
+  "Riku Okada",
+  "Samuel Lok-Hei Wong"
+ ],
+ "v1_date": "2026-07-29",
+ "latest_version": 1,
+ "latest_date": "2026-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 2 figures",
+ "abstract": "In this paper, we study the sample complexity of the empirical plug-in estimator for the $2$-Gromov-Wasserstein distance $D_2$ between compactly supported probability measures on Euclidean spaces. Let $μ$ and $ν$ be supported on compact subsets of $\\mathbb{R}^{d_x}$ and $\\mathbb{R}^{d_y}$, respectively, and let $\\widehatμ_n$ and $\\widehatν_n$ be their empirical measures based on independent samples of size $n$. We prove that \\[ \\mathbb{E}\\left|D_2^2(\\widehatμ_n,\\widehatν_n)-D_2^2(μ,ν)\\right| \\lesssim n^{-2/((d_x\\wedge d_y)\\vee 4)} (\\log n)^{\\mathbf 1_{\\{d_x\\wedge d_y=4\\}}}. \\] This rate is sharp up to the logarithmic factor in the critical dimension. The proof is based on a geometric representation of the Euclidean distance as a squared $L^2$-distance between half-space feature maps. This yields a variational dual formulation of the Gromov-Wasserstein functional in terms of a family of classical optimal transport problems indexed by an infinite-dimensional auxiliary parameter. Although the resulting cost functions need not be semiconcave in either argument, we introduce a marginal recentering of the costs that restores the concavity structure needed for sharp metric-entropy bounds. Combining this representation with empirical-process estimates gives a rate governed by the smaller of the two ambient dimensions.",
+ "primary": "math.ST"
+}

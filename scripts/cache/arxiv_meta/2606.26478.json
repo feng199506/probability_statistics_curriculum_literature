@@ -1,0 +1,15 @@
+{
+ "id": "2606.26478",
+ "title": "Learning rate selection via weighted Fisher divergence",
+ "authors": [
+  "Takahiro Onizuka"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 2,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages, 3 figures",
+ "abstract": "The general Bayesian approach provides a flexible framework by introducing a loss-based likelihood with a learning rate controlling the relative weight of the likelihood and prior. This flexibility creates an important calibration problem under model misspecification, where the conventional Bayesian information identity fails and uncalibrated Gibbs posteriors may not provide reliable uncertainty quantification. We propose a method for selecting the learning rate by minimizing a weighted Fisher divergence between the asymptotic general posterior and a normal distribution with sandwich-type covariance, yielding a closed-form calibrated learning rate. The proposed framework includes Fisher information matching as a special case and, for an important choice of the weight matrix, yields a learning rate no larger than the Fisher information matching rate. This leads to a more dispersed posterior and can reduce the risk of undercoverage. The framework also includes a learning rate based on Kullback--Leibler divergence as a special case. Numerical examples show that the proposed method tends to mitigate undercoverage under model misspecification, while real-data analyses illustrate its practical applicability.",
+ "primary": "stat.ME"
+}

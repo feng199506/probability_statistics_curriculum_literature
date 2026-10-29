@@ -1,0 +1,16 @@
+{
+ "id": "2503.05159",
+ "title": "Cluster weighted models for functional data",
+ "authors": [
+  "Cristina Anton",
+  "Iain Smith"
+ ],
+ "v1_date": "2025-03-07",
+ "latest_version": 1,
+ "latest_date": "2025-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to Machine Learning, 12 December 2023",
+ "abstract": "We propose a method, funWeightClust, based on a family of parsimonious models for clustering heterogeneous functional linear regression data. These models extend cluster weighted models to functional data, and they allow for multivariate functional responses and predictors. The proposed methodology follows the approach used by the the functional high dimensional data clustering (funHDDC) method. We construct an expectation maximization (EM) algorithm for parameter estimation. Using simulated and benchmark data we show that funWeightClust outperforms funHDDC and several two-steps clustering methods. We also use funWeightClust to analyze traffic patterns in Edmonton, Canada.",
+ "primary": "stat.ME"
+}

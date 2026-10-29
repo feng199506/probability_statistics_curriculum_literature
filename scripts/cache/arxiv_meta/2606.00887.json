@@ -1,0 +1,16 @@
+{
+ "id": "2606.00887",
+ "title": "Hypothesis Testing for a Functional Parameter via Self-normalization",
+ "authors": [
+  "Yi Zhang",
+  "Xiaofeng Shao"
+ ],
+ "v1_date": "2026-05-30",
+ "latest_version": 1,
+ "latest_date": "2026-05-30",
+ "journal_ref": "Journal of the American Statistical Association 2025 120 (552)",
+ "doi": "10.1080/01621459.2025.2483483",
+ "comment": "",
+ "abstract": "Testing simple or composite hypothesis on a functional parameter has attracted considerable attention in time series analysis. To accommodate for the unknown temporal dependence, classical nonparametric approaches such as block bootstrapping and subsampling all involve a bandwidth parameter, the choice of which can substantially affect the finite sample performance. The self normalization (SN) method is tuning parameter free when applied to the inference of a finite-dimensional parameter but its applicability to a functional parameter is unknown. In this paper, we propose a sample splitting based approach to generalize the SN method to hypothesis testing of a functional parameter. Our SS-SN (sample splitting plus self-normalization) idea is broadly applicable to many testing problems for functional parameters, including testing for simple/composite hypothesis on marginal cumulative distribution function, testing for time-reversibility and testing for a change point on the spectral distribution of a multivariate time series. Specifically, we derive the pivotal limiting distributions of our SS-SN test statistics under the null for both simple and composite null hypothesis, and derive the limiting power function under the local alternatives. Numerical simulations show that our new tests tend to yield accurate size with competitive power performance as compared to many existing ones.",
+ "primary": "stat.ME"
+}

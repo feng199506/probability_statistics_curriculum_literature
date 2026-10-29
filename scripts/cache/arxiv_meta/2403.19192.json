@@ -1,0 +1,17 @@
+{
+ "id": "2403.19192",
+ "title": "Imputing missing not-at-random longitudinal marker values in time-to-event analysis: fully conditional specification multiple imputation in joint modeling",
+ "authors": [
+  "Havi Murad",
+  "Nirit Agay",
+  "Rachel Dankner"
+ ],
+ "v1_date": "2024-03-28",
+ "latest_version": 1,
+ "latest_date": "2024-03-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 2 figures, 6 tables",
+ "abstract": "We propose a procedure for imputing missing values of time-dependent covariates in a survival model using fully conditional specification. Specifically, we focus on imputing missing values of a longitudinal marker in joint modeling of the marker and time-to-event data, but the procedure can be easily applied to a time-varying covariate survival model as well. First, missing marker values are imputed via fully conditional specification multiple imputation, and then joint modeling is applied for estimating the association between the marker and the event. This procedure is recommended since in joint modeling marker measurements that are missing not-at-random can lead to bias (e.g. when patients with higher marker values tend to miss visits). Specifically, in cohort studies such a bias can occur since patients for whom all marker measurements during follow-up are missing are excluded from the analysis. Our procedure enables to include these patients by imputing their missing values using a modified version of fully conditional specification multiple imputation. The imputation model includes a special indicator for the subgroup with missing marker values during follow-up, and can be easily implemented in various software: R, SAS, Stata etc. Using simulations we show that the proposed procedure performs better than standard joint modeling in the missing not-at-random scenario with respect to bias, coverage and Type I error rate of the test, and as good as standard joint modeling in the completely missing at random scenario. Finally we apply the procedure on real data on glucose control and cancer in diabetic patients.",
+ "primary": "stat.ME"
+}

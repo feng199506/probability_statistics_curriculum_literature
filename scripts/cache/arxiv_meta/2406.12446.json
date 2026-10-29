@@ -1,0 +1,16 @@
+{
+ "id": "2406.12446",
+ "title": "Adaptive Mean Estimation in the Hidden Markov sub-Gaussian Mixture Model",
+ "authors": [
+  "Vahe Karagulyan",
+  "Mohamed Ndaoud"
+ ],
+ "v1_date": "2024-06-18",
+ "latest_version": 1,
+ "latest_date": "2024-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate the problem of center estimation in the high dimensional binary sub-Gaussian Mixture Model with Hidden Markov structure on the labels. We first study the limitations of existing results in the high dimensional setting and then propose a minimax optimal procedure for the problem of center estimation. Among other findings, we show that our procedure reaches the optimal rate that is of order $\\sqrt{δd/n} + d/n$ instead of $\\sqrt{d/n} + d/n$ where $δ\\in(0,1)$ is a dependence parameter between labels. Along the way, we also develop an adaptive variant of our procedure that is globally minimax optimal. In order to do so, we rely on a more refined and localized analysis of the estimation risk. Overall, leveraging the hidden Markovian dependence between the labels, we show that it is possible to get a strict improvement of the rates adaptively at almost no cost.",
+ "primary": "math.ST"
+}

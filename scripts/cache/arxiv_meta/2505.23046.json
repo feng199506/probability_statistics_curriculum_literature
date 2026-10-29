@@ -1,0 +1,18 @@
+{
+ "id": "2505.23046",
+ "title": "Revisit CP Tensor Decomposition: Statistical Optimality and Fast Convergence",
+ "authors": [
+  "Runshi Tang",
+  "Julien Chhor",
+  "Olga Klopp",
+  "Anru R. Zhang"
+ ],
+ "v1_date": "2025-05-29",
+ "latest_version": 1,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Canonical Polyadic (CP) tensor decomposition is a fundamental technique for analyzing high-dimensional tensor data. While the Alternating Least Squares (ALS) algorithm is widely used for computing CP decomposition due to its simplicity and empirical success, its theoretical foundation, particularly regarding statistical optimality and convergence behavior, remain underdeveloped, especially in noisy, non-orthogonal, and higher-rank settings. In this work, we revisit CP tensor decomposition from a statistical perspective and provide a comprehensive theoretical analysis of ALS under a signal-plus-noise model. We establish non-asymptotic, minimax-optimal error bounds for tensors of general order, dimensions, and rank, assuming suitable initialization. To enable such initialization, we propose Tucker-based Approximation with Simultaneous Diagonalization (TASD), a robust method that improves stability and accuracy in noisy regimes. Combined with ALS, TASD yields a statistically consistent estimator. We further analyze the convergence dynamics of ALS, identifying a two-phase pattern-initial quadratic convergence followed by linear refinement. We further show that in the rank-one setting, ALS with an appropriately chosen initialization attains optimal error within just one or two iterations.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2506.10677",
+ "title": "Exploiting Similarities in A/B Testing with Off-Policy Estimation",
+ "authors": [
+  "Otmane Sakhi",
+  "Alexandre Gilotte",
+  "David Rohde"
+ ],
+ "v1_date": "2025-06-12",
+ "latest_version": 3,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "KDD '26",
+ "abstract": "We study A/B testing, the standard protocol for measuring the performance gain of a new decision system relative to a baseline. Traditional A/B testing treats both systems as black boxes, ignoring potential similarities between them. In practice, however, new and baseline systems are rarely radically different and often share significant structure, which can be captured by their propensities to make similar decisions. We show that in such cases, the commonly used difference-in-means estimator, though unbiased, is statistically suboptimal. Leveraging off-policy estimation, we introduce a family of A/B testing estimators that exploit the propensities of the tested systems to achieve improved concentration properties. This family is flexible enough to be tailored to practical decision-making. The resulting estimators are simple, robust to propensities misspecification, substantially more accurate when the tested systems exhibit similarities, and gracefully fall back to the difference-in-means estimator when such similarities are absent. Our theoretical analysis and empirical studies confirm their efficiency and practicality.",
+ "primary": "stat.ML"
+}

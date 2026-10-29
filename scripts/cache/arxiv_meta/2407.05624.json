@@ -1,0 +1,18 @@
+{
+ "id": "2407.05624",
+ "title": "Dynamic Matrix Factor Models for High Dimensional Time Series",
+ "authors": [
+  "Ruofan Yu",
+  "Rong Chen",
+  "Han Xiao",
+  "Yuefeng Han"
+ ],
+ "v1_date": "2024-07-08",
+ "latest_version": 1,
+ "latest_date": "2024-07-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Matrix time series, which consist of matrix-valued data observed over time, are prevalent in various fields such as economics, finance, and engineering. Such matrix time series data are often observed in high dimensions. Matrix factor models are employed to reduce the dimensionality of such data, but they lack the capability to make predictions without specified dynamics in the latent factor process. To address this issue, we propose a two-component dynamic matrix factor model that extends the standard matrix factor model by incorporating a matrix autoregressive structure for the low-dimensional latent factor process. This two-component model injects prediction capability to the matrix factor model and provides deeper insights into the dynamics of high-dimensional matrix time series. We present the estimation procedures of the model and their theoretical properties, as well as empirical analysis of the estimation procedures via simulations, and a case study of New York city taxi data, demonstrating the performance and usefulness of the model.",
+ "primary": "stat.ME"
+}

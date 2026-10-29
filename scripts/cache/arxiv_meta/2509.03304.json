@@ -1,0 +1,17 @@
+{
+ "id": "2509.03304",
+ "title": "Exponentially weighted moving average chart using zero-inflated negative binomial distribution",
+ "authors": [
+  "Ali Abbas",
+  "Sajid Ali",
+  "Ismail Shah"
+ ],
+ "v1_date": "2025-09-03",
+ "latest_version": 1,
+ "latest_date": "2025-09-03",
+ "journal_ref": "",
+ "doi": "10.1080/00949655.2024.2385014",
+ "comment": "Journal of Statistical Computation and Simulation (2024)",
+ "abstract": "Zero-inflated models are frequently used to deal with data having many zeros. A commonly used model for over-dispersed data containing zeros is known as the zero-inflated Poisson model. However, to account for the heterogeneity of counts that leads to excess variance besides inflation of zeros in the data using a more flexible model than the zero-inflated Poisson model, a zero-inflated negative binomial (ZINB) is suggested. In the present study, Shewhart and exponentially weighted moving average (EWMA) control charts are suggested to monitor the ZINB data. The charts are compared using the average run length and standard deviation of run length by using extensive Monte Carlo simulations. Besides a comprehensive simulation study assuming different settings of parameters of ZINB, a real data set is used to show the practicality of the proposed charts. The results indicate that the EWMA chart is better than the Shewhart chart.",
+ "primary": "stat.ME"
+}

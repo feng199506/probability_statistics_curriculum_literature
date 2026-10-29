@@ -1,0 +1,18 @@
+{
+ "id": "2504.20360",
+ "title": "Identification and estimation of vaccine effectiveness in the test-negative design under equi-confounding",
+ "authors": [
+  "Christopher B. Boyer",
+  "Kendrick Qijun Li",
+  "Xu Shi",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-04-29",
+ "latest_version": 5,
+ "latest_date": "2025-09-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The test-negative design (TND) is widely used to evaluate vaccine effectiveness in real-world settings. In a TND study, individuals with similar symptoms who seek care are tested, and effectiveness is estimated by comparing vaccination histories of test-positive cases and test-negative controls. The TND is often justified on the grounds that it reduces confounding due to unmeasured health-seeking behavior, although this has not been formally described using potential outcomes. At the same time, concerns persist that conditioning on test receipt can introduce selection bias. We provide a formal justification of the TND under an assumption of odds ratio equi-confounding, where unmeasured confounders affect test-positive and test-negative individuals equivalently on the odds ratio scale. Health-seeking behavior is one plausible example. We also show that these results hold under the outcome-dependent sampling used in TNDs. We discuss the design implications of the equi-confounding assumption and provide alternative estimators for the marginal risk ratio among the vaccinated under equi-confounding, including outcome modeling and inverse probability weighting estimators as well as a semiparametric estimator that is doubly robust. When equi-confounding does not hold, we suggest a straightforward sensitivity analysis that parameterizes the magnitude of the deviation on the odds ratio scale. A simulation study evaluates the empirical performance of our proposed estimators under a wide range of scenarios. Finally, we discuss broader uses of test-negative outcomes to de-bias cohort studies in which testing is triggered by symptoms.",
+ "primary": "stat.ME"
+}

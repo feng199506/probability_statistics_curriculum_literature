@@ -1,0 +1,17 @@
+{
+ "id": "2503.03426",
+ "title": "Sharp Risk Bounds for Early-Stopping in Gaussian Linear Regression",
+ "authors": [
+  "Tobias Wegel",
+  "Gil Kur",
+  "Patrick Rebeschini"
+ ],
+ "v1_date": "2025-03-05",
+ "latest_version": 2,
+ "latest_date": "2026-04-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study early-stopped mirror descent (ESMD) for high-dimensional Gaussian linear regression over arbitrary convex bodies and design matrices, where the task is to minimize the in-sample mean squared error. Our main result shows that some of the sharpest risk bounds for the least squares estimator (LSE), based on the local Gaussian width, extend to ESMD. We derive sufficient conditions on the potential, expressed via the Minkowski functional, under which our result holds. These conditions allow us to construct new potentials and analyze existing ones. Our results then yield general sufficient conditions for minimax optimality of ESMD, provide a systematic comparison with the LSE, and establish the tightest known risk bound in the $\\ell_1$-constrained setting.",
+ "primary": "cs.LG"
+}

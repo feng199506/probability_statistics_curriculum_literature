@@ -1,0 +1,17 @@
+{
+ "id": "2603.07255",
+ "title": "On the Rates of Convergence of Induced Ordered Statistics and their Applications",
+ "authors": [
+  "Federico A. Bugni",
+  "Ivan A. Canay",
+  "Deborah Kim"
+ ],
+ "v1_date": "2026-03-07",
+ "latest_version": 1,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Induced order statistics (IOS) arise when sample units are reordered according to the value of an auxiliary variable, and the associated responses are analyzed in that induced order. IOS play a central role in applications where the goal is to approximate the conditional distribution of an outcome at a fixed covariate value using observations whose covariates lie closest to that point, including regression discontinuity designs, k-nearest-neighbor methods, and distributionally robust optimization. Existing asymptotic results allow the dimension of the IOS vector to grow with the sample size only under smoothness conditions that are often too restrictive for practical data-generating processes. In particular, these conditions rule out boundary points, which are central to regression discontinuity designs. This paper develops general convergence rates for IOS under primitive and comparatively weak assumptions. We derive sharp marginal rates for the approximation of the target conditional distribution in Hellinger and total variation distances under quadratic mean differentiability and show how these marginal rates translate into joint convergence rates for the IOS vector. Our results are widely applicable: they rely on a standard smoothness condition and accommodate both interior and boundary conditioning points, as required in regression discontinuity and related settings. In the supplementary appendix, we provide complementary results under a Taylor/Holder remainder condition. Our results reveal a clear trade-off between smoothness and speed of convergence, identify regimes in which Hellinger and total variation distances behave differently, and provide explicit growth conditions on the number of nearest neighbors.",
+ "primary": "econ.EM"
+}

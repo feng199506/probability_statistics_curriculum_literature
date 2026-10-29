@@ -1,0 +1,15 @@
+{
+ "id": "2508.10083",
+ "title": "Better bootstrap t confidence intervals for the mean",
+ "authors": [
+  "Art B. Owen"
+ ],
+ "v1_date": "2025-08-13",
+ "latest_version": 2,
+ "latest_date": "2025-08-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article explores combinations of weighted bootstraps, like the Bayesian bootstrap, with the bootstrap $t$ method for setting approximate confidence intervals for the mean of a random variable in small samples. For this problem the usual bootstrap $t$ has good coverage but provides intervals with long and highly variable lengths. Those intervals can have infinite length not just for tiny $n$, when the data have a discrete distribution. The BC$_a$ bootstrap produces shorter intervals but tends to severely under-cover the mean. Bootstrapping the studentized mean with weights from a Beta$(1/2,3/2)$ distribution is shown to attain second order accuracy. It never yields infinite length intervals and the mean square bootstrap $t$ statistic is finite when there are at least three distinct values in the data, or two distinct values appearing at least three times each. In a range of small sample settings, the beta bootstrap $t$ intervals have closer to nominal coverage than the BC$_a$ and shorter length than the multinomial bootstrap $t$. The paper includes a lengthy discussion of the difficulties in constructing a utility function to evaluate nonparametric approximate confidence intervals.",
+ "primary": "math.ST"
+}

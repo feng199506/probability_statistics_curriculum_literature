@@ -1,0 +1,16 @@
+{
+ "id": "2411.16220",
+ "title": "On the achievability of efficiency bounds for covariate-adjusted response-adaptive randomization",
+ "authors": [
+  "Jiahui Xin",
+  "Wei Ma"
+ ],
+ "v1_date": "2024-11-25",
+ "latest_version": 1,
+ "latest_date": "2024-11-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the context of precision medicine, covariate-adjusted response-adaptive randomization (CARA) has garnered much attention from both academia and industry due to its benefits in providing ethical and tailored treatment assignments based on patients' profiles while still preserving favorable statistical properties. Recent years have seen substantial progress in understanding the inference for various adaptive experimental designs. In particular, research has focused on two important perspectives: how to obtain robust inference in the presence of model misspecification, and what the smallest variance, i.e., the efficiency bound, an estimator can achieve. Notably, Armstrong (2022) derived the asymptotic efficiency bound for any randomization procedure that assigns treatments depending on covariates and accrued responses, thus including CARA, among others. However, to the best of our knowledge, no existing literature has addressed whether and how the asymptotic efficiency bound can be achieved under CARA. In this paper, by connecting two strands of literature on adaptive randomization, namely robust inference and efficiency bound, we provide a definitive answer to this question for an important practical scenario where only discrete covariates are observed and used to form stratification. We consider a specific type of CARA, i.e., a stratified version of doubly-adaptive biased coin design, and prove that the stratified difference-in-means estimator achieves Armstrong (2022)'s efficiency bound, with possible ethical constraints on treatment assignments. Our work provides new insights and demonstrates the potential for more research regarding the design and analysis of CARA that maximizes efficiency while adhering to ethical considerations. Future studies could explore how to achieve the asymptotic efficiency bound for general CARA with continuous covariates, which remains an open question.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2402.18689",
+ "title": "The VOROS: Lifting ROC curves to 3D",
+ "authors": [
+  "Christopher Ratigan",
+  "Lenore Cowen"
+ ],
+ "v1_date": "2024-02-28",
+ "latest_version": 2,
+ "latest_date": "2024-12-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "9 pages, 7 figures, 5 tables. Accepted by the 39th AAAI Conference on Artificial Intelligence (AAAI-25)",
+ "abstract": "While the area under the ROC curve is perhaps the most common measure that is used to rank the relative performance of different binary classifiers, longstanding field folklore has noted that it can be a measure that ill-captures the benefits of different classifiers when either the actual class values or misclassification costs are highly unbalanced between the two classes. We introduce a new ROC surface, and the VOROS, a volume over this ROC surface, as a natural way to capture these costs, by lifting the ROC curve to 3D. Compared to previous attempts to generalize the ROC curve, our formulation also provides a simple and intuitive way to model the scenario when only ranges, rather than exact values, are known for possible class imbalance and misclassification costs.",
+ "primary": "cs.LG"
+}

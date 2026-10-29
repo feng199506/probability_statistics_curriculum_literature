@@ -1,0 +1,21 @@
+{
+ "id": "2412.16523",
+ "title": "Physics-Guided Fair Graph Sampling for Water Temperature Prediction in River Networks",
+ "authors": [
+  "Erhu He",
+  "Declan Kutscher",
+  "Yiqun Xie",
+  "Jacob Zwart",
+  "Zhe Jiang",
+  "Huaxiu Yao",
+  "Xiaowei Jia"
+ ],
+ "v1_date": "2024-12-21",
+ "latest_version": 1,
+ "latest_date": "2024-12-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This work introduces a novel graph neural networks (GNNs)-based method to predict stream water temperature and reduce model bias across locations of different income and education levels. Traditional physics-based models often have limited accuracy because they are necessarily approximations of reality. Recently, there has been an increasing interest of using GNNs in modeling complex water dynamics in stream networks. Despite their promise in improving the accuracy, GNNs can bring additional model bias through the aggregation process, where node features are updated by aggregating neighboring nodes. The bias can be especially pronounced when nodes with similar sensitive attributes are frequently connected. We introduce a new method that leverages physical knowledge to represent the node influence in GNNs, and then utilizes physics-based influence to refine the selection and weights over the neighbors. The objective is to facilitate equitable treatment over different sensitive groups in the graph aggregation, which helps reduce spatial bias over locations, especially for those in underprivileged groups. The results on the Delaware River Basin demonstrate the effectiveness of the proposed method in preserving equitable performance across locations in different sensitive groups.",
+ "primary": "cs.LG"
+}

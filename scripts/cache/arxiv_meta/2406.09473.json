@@ -1,0 +1,16 @@
+{
+ "id": "2406.09473",
+ "title": "Multidimensional clustering in judge designs",
+ "authors": [
+  "Johannes W. Ligtenberg",
+  "Tiemen Woutersen"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 1,
+ "latest_date": "2024-06-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Estimates in judge designs run the risk of being biased due to the many judge identities that are implicitly or explicitly used as instrumental variables. The usual method to analyse judge designs, via a leave-out mean instrument, eliminates this many instrument bias only in case the data are clustered in at most one dimension. What is left out in the mean defines this clustering dimension. How most judge designs cluster their standard errors, however, implies that there are additional clustering dimensions, which makes that a many instrument bias remains. We propose two estimators that are many instrument bias free, also in multidimensional clustered judge designs. The first generalises the one dimensional cluster jackknife instrumental variable estimator, by removing from this estimator the additional bias terms due to the extra dependence in the data. The second models all but one clustering dimensions by fixed effects and we show how these numerous fixed effects can be removed without introducing extra bias. A Monte-Carlo experiment and the revisitation of two judge designs show the empirical relevance of properly accounting for multidimensional clustering in estimation.",
+ "primary": "econ.EM"
+}

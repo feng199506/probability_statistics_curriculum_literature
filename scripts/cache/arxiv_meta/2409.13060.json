@@ -1,0 +1,17 @@
+{
+ "id": "2409.13060",
+ "title": "Forecasting Causal Effects of Future Interventions: Confounding and Transportability Issues",
+ "authors": [
+  "Laura Forastiere",
+  "Fan Li",
+  "Michela Baccini"
+ ],
+ "v1_date": "2024-09-19",
+ "latest_version": 3,
+ "latest_date": "2026-03-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Recent developments in causal inference allow us to transport a causal effect of a time-fixed treatment from a randomized trial to a target population across space but within the same time frame. In contrast to transportability across space, transporting causal effects across time or forecasting causal effects of future interventions is more challenging due to time-varying confounders and time-varying effect modifiers. In this article, we seek to formally clarify the causal estimands for forecasting causal effects over time and the structural assumptions required to identify these estimands. Specifically, we develop a set of novel nonparametric identification formulas--g-computation formulas--for these causal estimands, and lay out the conditions required to accurately forecast causal effects from a past observed sample to a future population in a future time window. Our overarching objective is to leverage the modern causal inference theory to provide a theoretical framework for investigating whether the effects seen in a past sample would carry over to a new future population. Throughout the article, a working example addressing the effect of public policies or social events on COVID-related deaths is considered to contextualize the developments of analytical results.",
+ "primary": "stat.ME"
+}

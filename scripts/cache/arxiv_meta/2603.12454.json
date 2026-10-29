@@ -1,0 +1,20 @@
+{
+ "id": "2603.12454",
+ "title": "Rank-based methods for estimating landmark win probability in longitudinal randomized controlled trials with missing data",
+ "authors": [
+  "Guangyong Zou",
+  "Shi-Fang Qui",
+  "Joshua Zou",
+  "Emma Davies Smith",
+  "Yun-Hee Choi",
+  "Yuhan Bi"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 2,
+ "latest_date": "2026-03-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The primary analysis for longitudinal randomized controlled trials (RCTs) often compares treatment groups at the last timepoint, referred to as the landmark time. Assuming data are normally distributed and missing at random, the mixed model for repeated measures (MMRM) is widely used to conduct inference in terms of a mean difference. When outcomes violate normality assumption and/or the mean difference lacks a clear interpretation, we may quantify treatment effects using the probability that a treated participant would have a better outcome than (or win over) a control participant. For RCTs with missing data, one may apply the generalized pairwise comparison (GPC) procedure, which carries forward the results of a pairwise comparison from a previous timepoint. We propose first using ranks to converts each observation at a timepoint into a win fraction, reflecting the proportion of times that the observation is better than every observation in the comparison group. Then, we conduct inference for the win probability based on the win fractions using the MMRM to obtain the point and variance estimates. Simulation results suggest that our method performed much better than the GPC procedure. We illustrate our proposed procedure in SAS and R using data from two published trials.",
+ "primary": "stat.ME"
+}

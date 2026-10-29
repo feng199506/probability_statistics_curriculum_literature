@@ -1,0 +1,17 @@
+{
+ "id": "2511.05840",
+ "title": "Comparative e-backtests for general risk measures",
+ "authors": [
+  "Zhanyi Jiao",
+  "Qiuqi Wang",
+  "Yimiao Zhao"
+ ],
+ "v1_date": "2025-11-08",
+ "latest_version": 2,
+ "latest_date": "2026-03-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Backtesting risk measures is a central task in financial regulation. While standard backtests evaluate whether a forecasting model is statistically consistent with observed losses, regulatory practice often requires assessing the performance of an internal model relative to benchmark models. We develop a non-parametric sequential framework for comparative backtests of general elicitable risk measures using e-values and e-processes. The proposed methods provide anytime-valid inference and remain robust under dependence and model misspecification. In particular, we propose a modified three-zone approach based on weak dominance, which yields more informative conclusions in comparative backtesting. As a technical building block, we also construct general standard e-backtests for identifiable risk measures and characterize the associated e-values and e-processes. The resulting procedures apply to a broad class of commonly used risk measures, including the mean, variance, Value-at-Risk, Expected Shortfall, and expectiles. Simulation studies and empirical analyses illustrate the effectiveness of the proposed approach.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2603.23277",
+ "title": "A reduced rank model for spatial categorical data with many classes",
+ "authors": [
+  "Paul B May",
+  "Andrew Simpson",
+  "Semhar Michael"
+ ],
+ "v1_date": "2026-03-24",
+ "latest_version": 1,
+ "latest_date": "2026-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop an identifiable reduced-rank spatial multinomial model for categorical data with many classes. The model represents class-specific spatial effects through a low-dimensional set of shared latent factors, substantially reducing parameter dimension while preserving joint dependence across classes. Because standard conjugate and Pólya-Gamma methods fail under this factorization, we propose a Gibbs sampler using Laplace-approximation proposals within Metropolis-Hastings updates. Simulation studies examine dimension selection and the accuracy of the Laplace proposals. An application to dominant tree species mapping in the Blue Ridge Mountains demonstrates scalable inference and flexible joint predictions for individual classes, class unions, and area-level summaries.",
+ "primary": "stat.ME"
+}

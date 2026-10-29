@@ -1,0 +1,16 @@
+{
+ "id": "2603.14423",
+ "title": "Tighter Confidence Intervals under Without Replacement Sampling via Empirical Rate Functions",
+ "authors": [
+  "Shubhanshu Shekhar",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2026-03-15",
+ "latest_version": 1,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 4 figures",
+ "abstract": "We consider the problem of constructing confidence intervals (CIs) for the population mean of $N$ values $\\{x_1, \\ldots, x_N\\} \\subset Σ^N$ based on a random sample of size $n$, denoted by $X^n \\equiv (X_1, \\ldots, X_n)$, drawn uniformly without replacement (WoR). We begin by focusing on the finite alphabet ($|Σ| = k <\\infty$) and moderate accuracy ($\\log(1/α_N) \\gg (k+1)\\log N$) regime, and derive a fundamental lower bound on the width of any level-$(1-α_N)$ CI in terms of the inverse of the WoR rate functions from the theory of large deviations. Guided by this lower bound, we propose a new level-$(1-α_N)$ CI using an empirical inverse rate function, and show that in certain asymptotic regimes the width of this CI matches the lower bound up to constants. We also derive a dual formulation of the inverse rate function that enables efficient computation of our proposed CI. We then move beyond the finite alphabet case and use a Bernoulli coupling idea to construct an almost sure CI for $Σ= [0,1]$, and a conceptually simple nonasymptotic CI for the case of $Σ$ being a $(2,D)$ smooth Banach space. For both finite and general alphabets, our results employ classical large deviation techniques in novel ways, thus establishing new connections between estimation under WoR sampling and the theory of large deviations.",
+ "primary": "math.ST"
+}

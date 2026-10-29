@@ -1,0 +1,19 @@
+{
+ "id": "2403.09182",
+ "title": "Anatomically aware simulation of patient-specific glioblastoma xenografts",
+ "authors": [
+  "Adam A. Malik",
+  "Cecilia Krona",
+  "Soumi Kundu",
+  "Philip Gerlee",
+  "Sven Nelander"
+ ],
+ "v1_date": "2024-03-14",
+ "latest_version": 1,
+ "latest_date": "2024-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Patient-derived cells (PDC) mouse xenografts are increasingly important tools in glioblastoma (GBM) research, essential to investigate case-specific growth patterns and treatment responses. Despite the central role of xenograft models in the field, few good simulation models are available to probe the dynamics of tumor growth and to support therapy design. We therefore propose a new framework for the patient-specific simulation of GBM in the mouse brain. Unlike existing methods, our simulations leverage a high-resolution map of the mouse brain anatomy to yield patient-specific results that are in good agreement with experimental observations. To facilitate the fitting of our model to histological data, we use Approximate Bayesian Computation. Because our model uses few parameters, reflecting growth, invasion and niche dependencies, it is well suited for case comparisons and for probing treatment effects. We demonstrate how our model can be used to simulate different treatment by perturbing the different model parameters. We expect in silico replicates of mouse xenograft tumors can improve the assessment of therapeutic outcomes and boost the statistical power of preclinical GBM studies.",
+ "primary": "q-bio.QM"
+}

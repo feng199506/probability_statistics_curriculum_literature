@@ -1,0 +1,17 @@
+{
+ "id": "2507.08896",
+ "title": "Predictive Causal Inference via Spatio-Temporal Modeling and Penalized Empirical Likelihood",
+ "authors": [
+  "Byunghee Lee",
+  "Hye Yeon Sin",
+  "Joonsung Kang"
+ ],
+ "v1_date": "2025-07-11",
+ "latest_version": 2,
+ "latest_date": "2025-10-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This study introduces an integrated framework for predictive causal inference designed to overcome limitations inherent in conventional single model approaches. Specifically, we combine a Hidden Markov Model (HMM) for spatial health state estimation with a Multi Task and Multi Graph Convolutional Network (MTGCN) for capturing temporal outcome trajectories. The framework asymmetrically treats temporal and spatial information regarding them as endogenous variables in the outcome regression, and exogenous variables in the propensity score model, thereby expanding the standard doubly robust treatment effect estimation to jointly enhance bias correction and predictive accuracy. To demonstrate its utility, we focus on clinical domains such as cancer, dementia, and Parkinson disease, where treatment effects are challenging to observe directly. Simulation studies are conducted to emulate latent disease dynamics and evaluate the model performance under varying conditions. Overall, the proposed framework advances predictive causal inference by structurally adapting to spatiotemporal complexities common in biomedical data.",
+ "primary": "stat.ME"
+}

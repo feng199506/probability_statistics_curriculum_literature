@@ -1,0 +1,15 @@
+{
+ "id": "2609.07166",
+ "title": "Optimal rates for aggregation of affine estimators",
+ "authors": [
+  "Jingfu Peng"
+ ],
+ "v1_date": "2026-09-07",
+ "latest_version": 1,
+ "latest_date": "2026-09-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Aggregation of estimation procedures has found important applications in econometrics, statistics, and machine learning. Classical statistical aggregation theory has mainly focused on a \\emph{pure aggregation} setting, where the candidate estimators are either deterministic or constructed using a held-out sample independent of that used for aggregation. When the candidate estimators and the aggregation weights are estimated from the same dataset without sample splitting, Bellec [\\emph{Ann. Statist.} \\textbf{46} (2018), 30--59] established the optimal rate for model-selection aggregation of affine estimators. Beyond this regime, however, fundamental questions regarding the optimal aggregation rates and the construction of aggregation rules attaining these rates remain largely unresolved. In this paper, we consider the problem of aggregating a finite collection of affine estimators to learn an optimal convex combination of them. This framework encompasses a rich class of estimators widely used in statistics and machine learning, including least squares estimators, kernel ridge estimators, random feature regression estimators, and among many others. We establish the minimax rate for convex aggregation of affine estimators. In particular, we show that estimating the weights by minimizing a Mallows' $C_p$ criterion attains the optimal rate. We further study the linear aggregation regime with unrestricted weights and establish matching minimax lower and upper bounds over suitable classes of affine estimators.",
+ "primary": "math.ST"
+}

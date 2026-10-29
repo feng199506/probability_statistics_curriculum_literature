@@ -1,0 +1,17 @@
+{
+ "id": "2603.00973",
+ "title": "A Dirichlet-Multinomial-Poisson framework for the coherent analysis and forecast of cause-specific mortality",
+ "authors": [
+  "Andrea Nigri",
+  "Han Lin Shang",
+  "Francesco Ungolo"
+ ],
+ "v1_date": "2026-03-01",
+ "latest_version": 1,
+ "latest_date": "2026-03-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Separate modelling of cause specific mortality rates and their projections can yield inconsistent forecasts when the sum of deaths by cause does not match the total observed in a population. We develop a hierarchical probabilistic framework for cause specific mortality counts in which both the total number of deaths and the occurrence of deaths across causes are treated as random. Conditional on the total number of deaths, cause specific counts follow a multinomial distribution, whereas the total count is modelled using a Poisson distribution, and the vector of cause of death probabilities is assigned a Dirichlet distribution. The variation in cause specific mortality rates by age and calendar year is captured in both the Poisson and Dirichlet models, allowing interpretable demographic patterns while preserving coherence by construction. This model construction naturally preserves the coherence between the sum of deaths by cause and the total mortality. The method is exhibited through the analysis of cause specific mortality rates in the United States and France, sourced from the Human Mortality Database from 1979 to 2023, separately by sex and across ages, with deaths grouped into major cause categories. The empirical analysis uses a rolling 15 year out o fsample evaluation and compares the proposed model with the standard Lee Carter model and its compositional extension. The results show that coherent projections can be obtained across countries and sexes, that competitive predictive accuracy is achieved, and that uncertainty is well calibrated for both total and cause specific mortality.",
+ "primary": "stat.AP"
+}

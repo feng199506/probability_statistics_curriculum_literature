@@ -1,0 +1,20 @@
+{
+ "id": "2410.24163",
+ "title": "Improve the Precision of Area Under the Curve Estimation for Recurrent Events Through Covariate Adjustment",
+ "authors": [
+  "Jiren Sun",
+  "Tuo Wang",
+  "Yanyao Yi",
+  "Ting Ye",
+  "Jun Shao",
+  "Yu Du"
+ ],
+ "v1_date": "2024-10-31",
+ "latest_version": 3,
+ "latest_date": "2025-05-29",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70187",
+ "comment": "",
+ "abstract": "The area under the curve (AUC) of the mean cumulative function (MCF) has recently been introduced as a novel estimand for evaluating treatment effects in recurrent event settings, offering an alternative to the commonly used Lin-Wei-Yang-Ying (LWYY) model. The AUC of the MCF provides a clinically interpretable summary measure that captures the overall burden of disease progression, regardless of whether the proportionality assumption holds. To improve the precision of the AUC estimation while preserving its unconditional interpretability, we propose a nonparametric covariate adjustment approach. This approach guarantees efficiency gain compared to unadjusted analysis, as demonstrated by theoretical asymptotic distributions, and is universally applicable to various randomization schemes, including both simple and covariate-adaptive designs. Extensive simulations across different scenarios further support its advantage in increasing statistical power. Our findings highlight the importance of covariate adjustment for the analysis of AUC in recurrent event settings, offering practical guidance for its application in randomized clinical trials.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2504.03464",
+ "title": "Spatiotemporal causal inference with arbitrary spillover and carryover effects: Airstrikes and insurgent violence in the Iraq War",
+ "authors": [
+  "Mitsuru Mukaigawara",
+  "Kosuke Imai",
+  "Jason Lyall",
+  "Georgia Papadogeorgou"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 2,
+ "latest_date": "2025-11-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Social scientists now routinely draw on high-frequency, high-granularity ''microlevel'' data to estimate the causal effects of subnational interventions. To date, most researchers aggregate these data into panels, often tied to large-scale administrative units. This approach has two limitations. First, data (over)aggregation obscures valuable spatial and temporal information, heightening the risk of mistaken inferences. Second, existing panel approaches either ignore spatial spillover and temporal carryover effects completely or impose overly restrictive assumptions. We introduce a general methodological framework and an accompanying open-source R package, geocausal, that enable spatiotemporal causal inference with arbitrary spillover and carryover effects. Using this framework, we demonstrate how to define and estimate causal quantities of interest, explore heterogeneous treatment effects, conduct causal mediation analysis, and perform data visualization. We apply our methodology to the Iraq War (2003-11), where we reexamine long-standing questions about the effects of airstrikes on insurgent violence.",
+ "primary": "stat.ME"
+}

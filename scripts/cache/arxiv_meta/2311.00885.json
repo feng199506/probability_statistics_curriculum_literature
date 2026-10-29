@@ -1,0 +1,15 @@
+{
+ "id": "2311.00885",
+ "title": "Controlling the number of significant effects in multiple testing",
+ "authors": [
+  "Jacobo de Uña-Álvarez"
+ ],
+ "v1_date": "2023-11-01",
+ "latest_version": 1,
+ "latest_date": "2023-11-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In multiple testing several criteria to control for type I errors exist. The false discovery rate, which evaluates the expected proportion of false discoveries among the rejected null hypotheses, has become the standard approach in this setting. However, false discovery rate control may be too conservative when the effects are weak. In this paper we alternatively propose to control the number of significant effects, where 'significant' refers to a pre-specified threshold $γ$. This means that a $(1-α)$-lower confidence bound $L$ for the number of non-true null hypothesis with p-values below $γ$ is provided. When one rejects the nulls corresponding to the $L$ smallest p-values, the probability that the number of false positives exceeds the number of false negatives among the significant effects is bounded by $α$. Relative merits of the proposed criterion are discussed. Procedures to control for the number of significant effects in practice are introduced and investigated both theoretically and through simulations. Illustrative real data applications are given.",
+ "primary": "stat.ME"
+}

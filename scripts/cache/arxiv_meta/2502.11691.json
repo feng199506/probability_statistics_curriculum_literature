@@ -1,0 +1,16 @@
+{
+ "id": "2502.11691",
+ "title": "Causal Inference for Qualitative Outcomes",
+ "authors": [
+  "Riccardo Di Francesco",
+  "Giovanni Mellace"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 2,
+ "latest_date": "2025-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Causal inference methods such as instrumental variables, regression discontinuity, and difference-in-differences are widely used to identify and estimate treatment effects. However, when outcomes are qualitative, their application poses fundamental challenges. This paper highlights these challenges and proposes an alternative framework that focuses on well-defined and interpretable estimands. We show that conventional identification assumptions suffice for identifying the new estimands and outline simple, intuitive estimation strategies that remain fully compatible with conventional econometric methods. We provide an accompanying open-source R package, $\\texttt{causalQual}$, which is publicly available on CRAN.",
+ "primary": "econ.EM"
+}

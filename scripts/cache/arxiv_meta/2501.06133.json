@@ -1,0 +1,18 @@
+{
+ "id": "2501.06133",
+ "title": "Testing conditional independence under isotonicity",
+ "authors": [
+  "Rohan Hore",
+  "Jake A. Soloff",
+  "Rina Foygel Barber",
+  "Richard J. Samworth"
+ ],
+ "v1_date": "2025-01-10",
+ "latest_version": 3,
+ "latest_date": "2026-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "79 pages, 7 figures, 2 Table",
+ "abstract": "We propose a test of the conditional independence of random variables $X$ and~$Y$ given~$Z$ under the additional assumption that $X$ is stochastically nondecreasing in~$Z$. The well-documented hardness of testing conditional independence means that some further restriction on the null hypothesis parameter space is required. In contrast to existing approaches based on parametric models, smoothness assumptions, or approximations to the conditional distribution of $X$ given $Z$ and/or $Y$ given $Z$, our test requires only the stochastic monotonicity assumption. Our procedure, called \\textnormal{\\texttt{PairSwap-ICI}}, determines the significance of a statistic by randomly swapping the $X$ values within ordered pairs of~$Z$ values. The matched pairs and the test statistic may depend on both $Y$ and $Z$, providing the analyst with significant flexibility in constructing a powerful test. Our test offers finite-sample Type~I error control, and provably achieves high power against a large class of alternatives. We validate our theoretical findings through a series of simulations and real data experiments.",
+ "primary": "stat.ME"
+}

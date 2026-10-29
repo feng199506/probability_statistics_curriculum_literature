@@ -1,0 +1,18 @@
+{
+ "id": "2512.11945",
+ "title": "Interval Fisher's Discriminant Analysis and Visualisation",
+ "authors": [
+  "Diogo Pinheiro",
+  "M. Rosário Oliveira",
+  "Igor Kravchenko",
+  "Lina Oliveira"
+ ],
+ "v1_date": "2025-12-12",
+ "latest_version": 1,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In Data Science, entities are typically represented by single valued measurements. Symbolic Data Analysis extends this framework to more complex structures, such as intervals and histograms, that express internal variability. We propose an extension of multiclass Fisher's Discriminant Analysis to interval-valued data, using Moore's interval arithmetic and the Mallows' distance. Fisher's objective function is generalised to consider simultaneously the contributions of the centres and the ranges of intervals and is numerically maximised. The resulting discriminant directions are then used to classify interval-valued observations.To support visual assessment, we adapt the class map, originally introduced for conventional data, to classifiers that assign labels through minimum distance rules. We also extend the silhouette plot to this setting and use stacked mosaic plots to complement the visual display of class assignments. Together, these graphical tools provide insight into classifier performance and the strength of class membership. Applications to real datasets illustrate the proposed methodology and demonstrate its value in interpreting classification results for interval-valued data.",
+ "primary": "stat.ML"
+}

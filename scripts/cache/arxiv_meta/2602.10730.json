@@ -1,0 +1,16 @@
+{
+ "id": "2602.10730",
+ "title": "A closed form solution for Bayesian analysis of a simple linear mixed model",
+ "authors": [
+  "Hilde Vinje",
+  "Lars Erik Gangsei"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Linear mixed-effects models are a central analytical tool for modeling hierarchical and longitudinal data, as they allow simultaneous representation of fixed and random sources of variation. In practice, inference for such models is most often based on likelihood-based approximations, which are computationally efficient, but rely on numerical integration and may be unreliable example wise in small-sample settings. In this study, the somewhat obscure four-parameter generalized beta density is shown to be usable as a conjugate prior distribution for a simple linear mixed model. This leads to a closed-form Bayesian solution for a balanced mixed-model design, representing a methodological development beyond standard approximate or simulation-based Bayesian approaches. Although the derivation is restricted to a balanced setting, the proposed framework suggests a pathway toward analytically tractable Bayesian inference for more complex mixed-model structures. The method is evaluated through comparison with a standard frequentist solution based on likelihood estimation for linear mixed-effects models. Results indicate that the Bayesian approach performs just as well as the frequentist alternative, while yielding slightly reduced mean squared error. The study further discusses the use of empirical Bayes strategies for hyperparameter specification and outlines potential directions for extending the approach beyond the balanced case.",
+ "primary": "stat.ME"
+}

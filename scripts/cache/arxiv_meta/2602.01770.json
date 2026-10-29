@@ -1,0 +1,17 @@
+{
+ "id": "2602.01770",
+ "title": "A multifidelity approximate Bayesian computation with pre-filtering",
+ "authors": [
+  "Xuefei Cao",
+  "Shijia Wang",
+  "Yongdao Zhou"
+ ],
+ "v1_date": "2026-02-02",
+ "latest_version": 1,
+ "latest_date": "2026-02-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Bayesian Computation (ABC) methods often require extensive simulations, resulting in high computational costs. This paper focuses on multifidelity simulation models and proposes a pre-filtering hierarchical importance sampling algorithm. Under mild assumptions, we theoretically prove that the proposed algorithm satisfies posterior concentration properties, characterize the error upper bound and the relationship between algorithmic efficiency and pre-filtering criteria. Additionally, we provide a practical strategy to assess the suitability of multifidelity models for the proposed method. Finally, we develop a multifidelity ABC sequential Monte Carlo with adaptive pre-filtering strategy. Numerical experiments are used to demonstrate the effectiveness of the proposed approach. We develop an R package that is available at https://github.com/caofff/MAPS",
+ "primary": "stat.CO"
+}

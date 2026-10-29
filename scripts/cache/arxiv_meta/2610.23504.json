@@ -1,0 +1,16 @@
+{
+ "id": "2610.23504",
+ "title": "Weighted spatial averages with missing observations: Convergence and accuracy of delta-method variance approximations",
+ "authors": [
+  "Ashwin K Seshadri",
+  "Abhishek Pal Majumder"
+ ],
+ "v1_date": "2026-10-16",
+ "latest_version": 1,
+ "latest_date": "2026-10-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Weighted spatial averages from incomplete networks are ratios whose variance is approximated by truncating a Taylor series (the delta method). Three questions remain open: whether the series converges, how large a truncation's error is, and how it behaves as the network grows. We address these for observations missing completely at random, independently with a common probability $α$. First, the truncations, which count corrections for the denominator (the total reported weight) and for its coupling with the numerator, converge for a given network only if $α>\\tfrac12$ and both corrections increase together. Second, whether or not the series converges, the error of truncations correcting only for the denominator is controlled at any network size by its coefficient of variation $ρ$, with $ρ^2=\\tfrac{1-α}α\\sum_iβ_i^2$ for weights $β_i$, and by the probability of rare reporting patterns. Third, for uniform weights and bounded fields, these errors vanish as the network grows, at any fixed availability. If correlations also decay with distance, the first-order approximation of earlier work has error of order $ρ^4$, against $ρ^2$ for the simplest approximation. Only truncations of equal order in numerator and denominator, beginning with the first-order truncation, avoid spurious dependence on the mean level; higher ones need not be more accurate. The exact variance for uniform weights, a single sum, shows that for correlated fields the first-order approximation overstates the contribution of missing data but is conservative overall. Concentrated weights degrade it more than $ρ$ indicates. Rainfall simulations over India illustrates results, several of which extend to self-normalized estimators.",
+ "primary": "math.ST"
+}

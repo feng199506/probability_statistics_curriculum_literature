@@ -1,0 +1,15 @@
+{
+ "id": "2406.05394",
+ "title": "Berry-Esseen theorems for the asymptotic normality of incomplete U-statistics with Bernoulli sampling",
+ "authors": [
+  "Dennis Leung"
+ ],
+ "v1_date": "2024-06-08",
+ "latest_version": 4,
+ "latest_date": "2026-01-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Final version accepted to EJP. Theorem 1.1(ii) and Theorem 3.2 now take into account the rank of the U-statistic kernel as well",
+ "abstract": "There has been a resurgence of interest in incomplete U-statistics that only sum over a subset of kernel evaluations, due to their computational efficiency and asymptotic normality which can be leveraged to quantify the uncertainty of ensemble predictions in machine learning. In this paper, we study the weak convergences to normality of one such construction, the incomplete U-statistic with Bernoulli sampling, under three different regimes on the relative sizes of the raw sample and the computational budget. Under minimalistic moment assumptions, we establish accompanying Berry-Esseen bounds with the natural rates that characterize the accuracy of these normal approximations. The key ingredients in our proofs include a variable censoring technique and a methodology for establishing Berry-Esseen bounds for the so-called Studentized nonlinear statistics recently formalized in the Stein's method literature, as well as an exponential lower tail bound for non-negative kernel U-statistics.",
+ "primary": "math.ST"
+}

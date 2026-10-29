@@ -1,0 +1,16 @@
+{
+ "id": "2409.20547",
+ "title": "Annealing Flow Generative Models Towards Sampling High-Dimensional and Multi-Modal Distributions",
+ "authors": [
+  "Dongze Wu",
+  "Yao Xie"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 4,
+ "latest_date": "2025-05-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This paper has been accepted to ICML 2025 and will appear in the Proceedings of Machine Learning Research (PMLR)",
+ "abstract": "Sampling from high-dimensional, multi-modal distributions remains a fundamental challenge across domains such as statistical Bayesian inference and physics-based machine learning. In this paper, we propose Annealing Flow (AF), a method built on Continuous Normalizing Flow (CNF) for sampling from high-dimensional and multi-modal distributions. AF is trained with a dynamic Optimal Transport (OT) objective incorporating Wasserstein regularization, and guided by annealing procedures, facilitating effective exploration of modes in high-dimensional spaces. Compared to recent NF methods, AF greatly improves training efficiency and stability, with minimal reliance on MC assistance. We demonstrate the superior performance of AF compared to state-of-the-art methods through experiments on various challenging distributions and real-world datasets, particularly in high-dimensional and multi-modal settings. We also highlight AF potential for sampling the least favorable distributions.",
+ "primary": "stat.ML"
+}

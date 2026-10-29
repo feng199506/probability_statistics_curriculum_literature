@@ -1,0 +1,18 @@
+{
+ "id": "2509.22884",
+ "title": "Global-Local Dirichlet Processes for Identifying Pan-Cancer Subpopulations Using Both Shared and Cancer-Specific Data",
+ "authors": [
+  "Arhit Chakrabarti",
+  "Yang Ni",
+  "Debdeep Pati",
+  "Bani K. Mallick"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 1,
+ "latest_date": "2025-09-26",
+ "journal_ref": "The Annals of Applied Statistics 19(3), 2254-2278, (September 2025)",
+ "doi": "10.1214/25-aoas2056",
+ "comment": "",
+ "abstract": "We consider the problem of clustering grouped data for which the observations may include group-specific variables in addition to the variables that are shared across groups. This type of data is common in cancer genomics where the molecular information is usually accompanied by cancer-specific clinical information. Existing grouped clustering methods only consider the shared variables, thereby ignoring valuable information from the cancer-specific variables. To allow for these cancer-specific variables to aid in the clustering, we propose a novel Bayesian nonparametric approach, termed global-local (GLocal) Dirichlet process, that models the ``global-local'' structure of the observations across groups. We characterize the GLocal Dirichlet process using the stick-breaking representation and the representation as a limit of a finite mixture model, which leads to an efficient posterior inference algorithm. We illustrate our model with extensive simulations and a real pan-gastrointestinal cancer dataset. The cancer-specific clinical variables included carcinoembryonic antigen level, patients' body mass index, and the number of cigarettes smoked per day. These important clinical variables refine the clusters of gene expression data and allow us to identify finer sub-clusters, which is not possible in their absence. This refinement aids in the better understanding of tumor progression and heterogeneity. Moreover, our proposed method is applicable beyond the field of cancer genomics to a general grouped clustering framework in the presence of group-specific idiosyncratic variables.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2410.18688",
+ "title": "Multiple Imputation Guided by Full Law and Target Law Identifiability under the Missing Not At Random Assumption",
+ "authors": [
+  "Juha Karvanen",
+  "Santtu Tikka"
+ ],
+ "v1_date": "2024-10-24",
+ "latest_version": 6,
+ "latest_date": "2026-08-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "The title has been changed. The previous titles were \"Multiple imputation and full law identifiability\" and \"Multiple Imputation Guided by Full Law and Target Law Identifiability\"",
+ "abstract": "The central challenges in missing data models concern the identifiability of two distributions: the target law and the full law. The target law refers to the joint distribution of the data variables, whereas the full law refers to the joint distribution of the data variables and their corresponding response indicators. However, the relationship between the identifiability of these two distributions and the feasibility of multiple imputation has not been clearly established when the data are missing not at random (MNAR). We present a procedure in which the choice of imputation method is guided by identifiability considerations. The identifiability of the full law implies the applicability of conditionally complete imputation methods that draw imputations for all missing data patterns. By contrast, the non-identifiability of the full law implies that any multiple imputation method aiming to implement conditionally complete imputation will produce biased estimates, thereby also restricting the options for estimating the target law. We demonstrate that alternative imputation strategies can sometimes enable the estimation of the target law in such cases. Specifically, we introduce factorizable imputation where certain observed values are also imputed and the imputed data are weighted in the analysis.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2505.00372",
+ "title": "Towards Adaptive Self-Normalized Importance Samplers",
+ "authors": [
+  "Nicola Branchini",
+  "Víctor Elvira"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 2,
+ "latest_date": "2025-05-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 2025 IEEE Statistical Signal Processing Workshop; fixed a few maths typos and comments about RIS",
+ "abstract": "The self-normalized importance sampling (SNIS) estimator is a Monte Carlo estimator widely used to approximate expectations in statistical signal processing and machine learning. The efficiency of SNIS depends on the choice of proposal, but selecting a good proposal is typically unfeasible. In particular, most of the existing adaptive IS (AIS) literature overlooks the optimal SNIS proposal. In this paper, we introduce an AIS framework that uses MCMC to approximate the optimal SNIS proposal within an iterative scheme. This is, to the best of our knowledge, the first AIS framework targeting specifically the SNIS optimal proposal. We find a close connection with adaptive schemes used in ratio importance sampling (RIS), which also brings a new perspective and paves the way for combining techniques from AIS and adaptive RIS. We outline possible extensions, connections with existing MCMC-driven AIS algorithms, theoretical directions, and demonstrate performance in numerical examples.",
+ "primary": "stat.CO"
+}

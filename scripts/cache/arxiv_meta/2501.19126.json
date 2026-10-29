@@ -1,0 +1,17 @@
+{
+ "id": "2501.19126",
+ "title": "Asymptotic optimality theory of confidence intervals of the mean",
+ "authors": [
+  "Vikas Deep",
+  "Achal Bassamboo",
+  "Sandeep Juneja"
+ ],
+ "v1_date": "2025-01-31",
+ "latest_version": 5,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We address the classical problem of constructing confidence intervals (CIs) for the mean of a distribution, given \\(N\\) i.i.d. samples, such that the CI contains the true mean with probability at least \\(1 - δ\\), where \\(δ\\in (0,1)\\). We characterize three distinct learning regimes based on the minimum achievable limiting width of any CI as the sample size \\(N_δ \\to \\infty\\) and \\(δ\\to 0\\). In the first regime, where \\(N_δ\\) grows slower than \\(\\log(1/δ)\\), the limiting width of any CI equals the width of the distribution's support, precluding meaningful inference. In the second regime, where \\(N_δ\\) scales as \\(\\log(1/δ)\\), we precisely characterize the minimum limiting width, which depends on the scaling constant. In the third regime, where \\(N_δ\\) grows faster than \\(\\log(1/δ)\\), complete learning is achievable, and the limiting width of the CI collapses to zero, converging to the true mean. We demonstrate that CIs derived from concentration inequalities based on Kullback--Leibler (KL) divergences achieve asymptotically optimal performance, attaining the minimum limiting width in both sufficient and complete learning regimes for distributions in two families: single-parameter exponential and bounded support. Additionally, these results extend to one-sided CIs, with the width notion adjusted appropriately. Finally, we generalize our findings to settings with random per-sample costs, motivated by practical applications such as stochastic simulators and cloud service selection. Instead of a fixed sample size, we consider a cost budget \\(C_δ\\), identifying analogous learning regimes and characterizing the optimal CI construction policy.",
+ "primary": "math.ST"
+}

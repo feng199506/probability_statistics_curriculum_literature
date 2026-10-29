@@ -1,0 +1,18 @@
+{
+ "id": "2503.21081",
+ "title": "Leveraging External Controls in Clinical Trials: Estimands, Estimation, Assumptions",
+ "authors": [
+  "Bo Liu",
+  "Laine Thomas",
+  "Rury R. Holman",
+  "Fan Li"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 1,
+ "latest_date": "2025-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is increasingly common to augment randomized controlled trial with external controls from observational data, to evaluate the treatment effect of an intervention. Traditional approaches to treatment effect estimation involve ambiguous estimands and unrealistic or strong assumptions, such as mean exchangeability. We introduce a double-indexed notation for potential outcomes to define causal estimands transparently and clarify distinct sources of implicit bias. We show that the concurrent control arm is critical in assessing the plausibility of assumptions and providing unbiased causal estimation. We derive a consistent and locally efficient estimator for a class of weighted average treatment effect estimands that combines concurrent and external data without assuming mean exchangeability. This estimator incorporates an estimate of the systematic difference in outcomes between the concurrent and external units, of which we propose a Frish-Waugh-Lovell style partial regression method to obtain. We compare the proposed methods with existing methods using extensive simulation and applied to cardiovascular clinical trials.",
+ "primary": "stat.ME"
+}

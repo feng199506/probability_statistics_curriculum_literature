@@ -1,0 +1,16 @@
+{
+ "id": "2401.06350",
+ "title": "Optimal estimation of the null distribution in large-scale inference",
+ "authors": [
+  "Subhodh Kotekal",
+  "Chao Gao"
+ ],
+ "v1_date": "2024-01-12",
+ "latest_version": 2,
+ "latest_date": "2025-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The advent of large-scale inference has spurred reexamination of conventional statistical thinking. In a Gaussian model for $n$ many $z$-scores with at most $k < \\frac{n}{2}$ nonnulls, Efron suggests estimating the location and scale parameters of the null distribution. Placing no assumptions on the nonnull effects, the statistical task can be viewed as a robust estimation problem. However, the best known robust estimators fail to be consistent in the regime $k \\asymp n$ which is especially relevant in large-scale inference. The failure of estimators which are minimax rate-optimal with respect to other formulations of robustness (e.g. Huber's contamination model) might suggest the impossibility of consistent estimation in this regime and, consequently, a major weakness of Efron's suggestion. A sound evaluation of Efron's model thus requires a complete understanding of consistency. We sharply characterize the regime of $k$ for which consistent estimation is possible and further establish the minimax estimation rates. It is shown consistent estimation of the location parameter is possible if and only if $\\frac{n}{2} - k = ω(\\sqrt{n})$, and consistent estimation of the scale parameter is possible in the entire regime $k < \\frac{n}{2}$. Faster rates than those in Huber's contamination model are achievable by exploiting the Gaussian character of the data. The minimax upper bound is obtained by considering estimators based on the empirical characteristic function. The minimax lower bound involves constructing two marginal distributions whose characteristic functions match on a wide interval containing zero. The construction notably differs from those in the literature by sharply capturing a scaling of $n-2k$ in the minimax estimation rate of the location.",
+ "primary": "math.ST"
+}

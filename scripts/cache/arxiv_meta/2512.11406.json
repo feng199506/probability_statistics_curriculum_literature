@@ -1,0 +1,18 @@
+{
+ "id": "2512.11406",
+ "title": "Network Estimation for Stationary Time Series",
+ "authors": [
+  "Madeline A. Shelley",
+  "Chiara Boetti",
+  "Marina I. Knight",
+  "Matthew A. Nunes"
+ ],
+ "v1_date": "2025-12-12",
+ "latest_version": 1,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional multivariate time series are common in many scientific and industrial applications, where the interest lies in identifying key dependence structure within the data for subsequent analysis tasks, such as forecasting. An important avenue to achieve this is through the estimation of the conditional independence graph via graphical models, although for time series data settings the underpinning temporal dependence can make this task challenging. In this article, we propose a novel wavelet domain technique that allows the data-driven inference of the (sparse) conditional independence graph of a high-dimensional stationary multivariate time series. By adopting the locally stationary wavelet modelling framework, we repose the estimation problem as a well-principled wavelet domain graphical lasso formulation. Theoretical results establish that our associated estimation scheme enjoys good consistency properties when determining sparse dependence structure in input time series data. The performance of the proposed method is illustrated using extensive simulations and we demonstrate its applicability on a real-world dataset representing hospitalisations of COVID-19 patients.",
+ "primary": "stat.ME"
+}

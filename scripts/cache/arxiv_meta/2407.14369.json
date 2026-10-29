@@ -1,0 +1,16 @@
+{
+ "id": "2407.14369",
+ "title": "tidychangepoint: A Unified Framework for Analyzing Changepoint Detection in Univariate Time Series",
+ "authors": [
+  "Benjamin S. Baumer",
+  "Biviana Marcela Suarez Sierra"
+ ],
+ "v1_date": "2024-07-19",
+ "latest_version": 3,
+ "latest_date": "2026-01-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present tidychangepoint, a new R package for changepoint detection analysis. Most R packages for segmenting univariate time series focus on providing one or two algorithms for changepoint detection that work with a small set of models and penalized objective functions, and all of them return a custom, nonstandard object type. This makes comparing results across various algorithms, models, and penalized objective functions unnecessarily difficult. tidychangepoint solves this problem by wrapping functions from a variety of existing packages and storing the results in a common S3 class called tidycpt. The package then provides functionality for easily extracting comparable numeric or graphical information from a tidycpt object, all in a tidyverse-compliant framework. tidychangepoint is versatile: it supports both deterministic algorithms like PELT (from changepoint), and also flexible, randomized, genetic algorithms (via GA) that -- via new functionality built into tidychangepoint -- can be used with any compliant model-fitting function and any penalized objective function. By bringing all of these disparate tools together in a cohesive fashion, tidychangepoint facilitates comparative analysis of changepoint detection algorithms and models.",
+ "primary": "stat.ME"
+}

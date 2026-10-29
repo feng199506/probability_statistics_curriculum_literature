@@ -1,0 +1,18 @@
+{
+ "id": "2409.01017",
+ "title": "Linear spline index regression model: Interpretability, nonlinearity and dimension reduction",
+ "authors": [
+  "Lianqiang Qu",
+  "Long Lv",
+  "Meiling Hao",
+  "Liuquan Sun"
+ ],
+ "v1_date": "2024-09-02",
+ "latest_version": 1,
+ "latest_date": "2024-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "84 pages, 4 figures",
+ "abstract": "Inspired by the complexity of certain real-world datasets, this article introduces a novel flexible linear spline index regression model. The model posits piecewise linear effects of an index on the response, with continuous changes occurring at knots. Significantly, it possesses the interpretability of linear models, captures nonlinear effects similar to nonparametric models, and achieves dimension reduction like single-index models. In addition, the locations and number of knots remain unknown, which further enhances the adaptability of the model in practical applications. We propose a new method that combines penalized approaches and convolution techniques to simultaneously estimate the unknown parameters and determine the number of knots. Noteworthy is that the proposed method allows the number of knots to diverge with the sample size. We demonstrate that the proposed estimators can identify the number of knots with a probability approaching one and estimate the coefficients as efficiently as if the number of knots is known in advance. We also introduce a procedure to test the presence of knots. Simulation studies and two real datasets are employed to assess the finite sample performance of the proposed method.",
+ "primary": "stat.ME"
+}

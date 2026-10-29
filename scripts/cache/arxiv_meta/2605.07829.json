@@ -1,0 +1,17 @@
+{
+ "id": "2605.07829",
+ "title": "Parametric ROC Analysis and Optimal Cutoff Selection under Scale Mixtures of Skew-Normal Distributions: A Decision-Theoretic Framework with Asymptotic Inference",
+ "authors": [
+  "Renato de Paula",
+  "Helena Mouriño",
+  "Tiago Dias Domingues"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "42 pages, 3 figures",
+ "abstract": "We study an optimal threshold functional arising in binary classification for continuous biomarkers. While the ROC curve summarizes discriminatory performance across all thresholds, practical threshold selection must also account for disease prevalence and asymmetric misclassification costs. The classical Youden index corresponds to a symmetric special case and may therefore be suboptimal in realistic decision settings. In addition, biomarker distributions in serological and immunological studies often display skewness and heavy tails, making Gaussian ROC models inadequate. We develop a parametric framework for ROC analysis and optimal cutoff selection under the family of scale mixtures of skew-normal (SMSN) distributions, including the skew-normal and skew-t models. The ROC curve and AUC are estimated by plug-in maximum likelihood from separate group fits. The optimal cutoff is defined as the minimiser of a weighted misclassification risk, which yields a likelihood ratio equation extending the Youden criterion. Under a monotone likelihood ratio condition, we establish existence, uniqueness, and global optimality of the cutoff. We further study its local regularity as an implicitly defined functional of the model parameter and derive consistency, asymptotic normality, and a closed-form plug-in variance estimator. A central term in this variance is the local slope of the estimating equation at the optimal threshold, which acts as a local identifiability diagnostic. Monte Carlo experiments across six scenarios show that the asymptotic approximation is accurate and that Wald confidence intervals attain near nominal coverage. An application to SARS-CoV-2 serological data illustrates that the proposed cutoff can differ substantially from the Youden threshold and may reduce estimated misclassification risk by up to 63% under asymmetric decision settings.",
+ "primary": "stat.ME"
+}

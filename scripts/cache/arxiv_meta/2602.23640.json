@@ -1,0 +1,15 @@
+{
+ "id": "2602.23640",
+ "title": "Stress-Testing Assumptions: A Guide to Bayesian Sensitivity Analyses in Causal Inference",
+ "authors": [
+  "Arman Oganisian"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While observational data are routinely used to estimate causal effects of biomedical treatments, doing so requires special methods to adjust for observed confounding. These methods invariably rely on untestable statistical and causal identification assumptions. When these assumptions do not hold, sensitivity analysis methods can be used to characterize how different violations may change our inferences. The Bayesian approach to sensitivity analyses in causal inference has unique advantages as it allows users to encode subjective beliefs about the direction and magnitude of assumption violations via prior distributions and make inferences using the updated posterior. However, uptake of these methods remains low since implementation requires substantial methodological knowledge. Moreover, while implementation with publicly available software is possible, it is not straight-forward. At the same time, there are few papers that provide practical guidance on these fronts. In this paper, we walk through four examples of Bayesian sensitivity analyses: 1) exposure misclassification, 2) unmeasured confounding, and missing not-at-random outcomes with 3) parametric and 4) nonparametric Bayesian models. We show how all of these can be done using a unified Bayesian \"missing data\" approach. We also cover implementation using Stan, a publicly available open-source software for fitting Bayesian models. To the best of our knowledge, this is the first paper that presents a unified approach with code, examples, and methodology in a three-pronged illustration of sensitivity analyses in Bayesian causal inference. Our goal is for the reader to walk away with implementation-level knowledge.",
+ "primary": "stat.ME"
+}

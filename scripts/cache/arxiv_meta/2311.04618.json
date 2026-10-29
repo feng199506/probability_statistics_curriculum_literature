@@ -1,0 +1,17 @@
+{
+ "id": "2311.04618",
+ "title": "Multivariate generalized Pareto distributions along extreme directions",
+ "authors": [
+  "Anas Mourahib",
+  "Anna Kiriliouk",
+  "Johan Segers"
+ ],
+ "v1_date": "2023-11-08",
+ "latest_version": 4,
+ "latest_date": "2024-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "When modeling a vector of risk variables, extreme scenarios are often of special interest. The peaks-over-thresholds method hinges on the notion that, asymptotically, the excesses over a vector of high thresholds follow a multivariate generalized Pareto distribution. However, existing literature has primarily concentrated on the setting when all risk variables are always large simultaneously. In reality, this assumption is often not met, especially in high dimensions. In response to this limitation, we study scenarios where distinct groups of risk variables may exhibit joint extremes while others do not. These discernible groups are derived from the angular measure inherent in the corresponding max-stable distribution, whence the term extreme direction. We explore such extreme directions within the framework of multivariate generalized Pareto distributions, with a focus on their probability density functions in relation to an appropriate dominating measure. Furthermore, we provide a stochastic construction that allows any prespecified set of risk groups to constitute the distribution's extreme directions. This construction takes the form of a smoothed max-linear model and accommodates the full spectrum of conceivable max-stable dependence structures. Additionally, we introduce a generic simulation algorithm tailored for multivariate generalized Pareto distributions, offering specific implementations for extensions of the logistic and Hüsler-Reiss families capable of carrying arbitrary extreme directions.",
+ "primary": "math.ST"
+}

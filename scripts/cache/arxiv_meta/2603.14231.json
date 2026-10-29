@@ -1,0 +1,16 @@
+{
+ "id": "2603.14231",
+ "title": "Rank-based Maxsum test for high dimensional regression coefficient",
+ "authors": [
+  "Ping Zhao",
+  "Liangliang Yuan"
+ ],
+ "v1_date": "2026-03-15",
+ "latest_version": 1,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "1 pages, 1 table, 2 figures",
+ "abstract": "We study global inference for regression coefficients in high-dimensional linear models under potentially heavy-tailed errors. While sum-type tests are powerful for dense alternatives and max-type tests excel for sparse alternatives, practical applications rarely reveal the sparsity level, and many existing procedures rely on light-tail assumptions. Motivated by the Wilcoxon-score sum test of Feng et al. (2013) and the two Wilcoxon-score maximum tests of Xu and Zhou (2021), we establish under $H_0$ the asymptotic independence between the rank-based sum statistic and each max statistic. These joint limit results justify principled $p$-value aggregation, and we propose two adaptive rank-based maxsum tests via the Cauchy combination method (Liu and Xie, 2020). The proposed procedures inherit robustness from rank-based construction and adaptivity from combining dense- and sparse-sensitive components. Simulation studies confirm accurate size control and strong power across a wide range of error distributions and sparsity regimes.",
+ "primary": "stat.ME"
+}

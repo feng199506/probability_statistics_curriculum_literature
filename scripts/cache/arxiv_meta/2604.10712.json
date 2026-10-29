@@ -1,0 +1,19 @@
+{
+ "id": "2604.10712",
+ "title": "Integrative learning of individualized treatment rules from multiple studies with partially overlapping treatments",
+ "authors": [
+  "Yuan Bian",
+  "Donglin Zeng",
+  "Hyun-Joon Yang",
+  "Leanne M. Williams",
+  "Yuanjia Wang"
+ ],
+ "v1_date": "2026-04-12",
+ "latest_version": 2,
+ "latest_date": "2026-06-02",
+ "journal_ref": "Biometrics, 82(2): Article ujag083, 2026",
+ "doi": "10.1093/biomtc/ujag083",
+ "comment": "",
+ "abstract": "An individualized treatment rule (ITR) tailors treatments to a patient's specific characteristics. However, randomized controlled trials (RCTs) are often underpowered to detect the treatment effect heterogeneity needed for reliable ITR estimation. To address this limitation, there is growing interest in leveraging information from multiple studies to improve statistical power and support individualized decision-making. A key challenge in this context is that available RCTs may not evaluate the same set of treatments. In this paper, we propose an integrative learning framework that synthesizes evidence across multiple RCTs that share a common comparator but differ in their alternative treatment arms. Our method integrates information through a regularized weighted misclassification risk function and adaptively determines the contribution of each study to the ITRs of the others. We rigorously study the excess risk of the resulting estimator. Simulation studies demonstrate that the proposed approaches improve the estimation of both value and benefit functions. We illustrate the utility of our methodology using data from two landmark studies of major depressive disorder: the Establishing Moderators and Biosignatures of Antidepressant Response in Clinical Care study and the International Study to Predict Optimized Treatment in Depression study, both of which include a selective serotonin reuptake inhibitor as a common treatment arm. We find that the separate learning method outperforms one-size-fits-all methods, and our integrative methods further improve performance.",
+ "primary": "stat.ME"
+}

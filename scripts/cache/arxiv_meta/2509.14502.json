@@ -1,0 +1,17 @@
+{
+ "id": "2509.14502",
+ "title": "Rate doubly robust estimation for weighted average treatment effects",
+ "authors": [
+  "Yiming Wang",
+  "Yi Liu",
+  "Shu Yang"
+ ],
+ "v1_date": "2025-09-18",
+ "latest_version": 2,
+ "latest_date": "2025-09-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The weighted average treatment effect (WATE) defines a versatile class of causal estimands for populations characterized by propensity score weights, including the average treatment effect (ATE), treatment effect on the treated (ATT), on controls (ATC), and for the overlap population (ATO). WATE has broad applicability in social and medical research, as many datasets from these fields align with its framework. However, the literature lacks a systematic investigation into the robustness and efficiency conditions for WATE estimation. Although doubly robust (DR) estimators are well-studied for ATE, their applicability to other WATEs remains uncertain. This paper investigates whether widely used WATEs admit DR or rate doubly robust (RDR) estimators and assesses the role of nuisance function accuracy, particularly with machine learning. Using semiparametric efficient influence function (EIF) theory and double/debiased machine learning (DML), we propose three RDR estimators under specific rate and regularity conditions and evaluate their performance via Monte Carlo simulations. Applications to NHANES data on smoking and blood lead levels, and SIPP data on 401(k) eligibility, demonstrate the methods' practical relevance in medical and social sciences.",
+ "primary": "stat.ME"
+}

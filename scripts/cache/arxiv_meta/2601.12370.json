@@ -1,0 +1,17 @@
+{
+ "id": "2601.12370",
+ "title": "Single-index Semiparametric Transformation Cure Models with Interval-censored Data",
+ "authors": [
+  "Xiaoru Huang",
+  "Tonghui Yu",
+  "Xiaoyu Liu"
+ ],
+ "v1_date": "2026-01-18",
+ "latest_version": 1,
+ "latest_date": "2026-01-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Interval censored data commonly arise in medical studies when the event time of interest is only known to lie within an interval. In the presence of a cure subgroup, conventional mixture cure models typically assume a logistic model for the uncure probability and a proportional hazards model for the susceptible subjects. However, in practice, the assumptions of parametric form for the uncure probability and the proportional hazards model for the susceptible may not always be satisfied. In this paper, we propose a class of flexible single-index semiparametric transformation cure models for interval-censored data, where a single-index model and a semiparametric transformation model are utilized for the uncured and conditional survival probability, respectively, encompassing both the proportional hazards cure and proportional odds cure models as specific cases. We approximate the single-index function and cumulative baseline hazard functions via the kernel technique and splines, respectively, and develop a computationally feasible expectation-maximisation (EM) algorithm, facilitated by a four-layer gamma-frailty Poisson data augmentation. Simulation studies demonstrate the satisfactory performance of our proposed method, compared to the spline-based approach and the classical logistic-based mixture cure models. The application of the proposed methodology is illustrated using the Alzheimers dataset.",
+ "primary": "stat.ME"
+}

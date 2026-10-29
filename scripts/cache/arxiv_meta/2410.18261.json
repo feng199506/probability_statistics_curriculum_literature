@@ -1,0 +1,16 @@
+{
+ "id": "2410.18261",
+ "title": "Detecting Spatial Outliers: the Role of the Local Influence Function",
+ "authors": [
+  "Giuseppe Arbia",
+  "Vincenzo Nardelli"
+ ],
+ "v1_date": "2024-10-23",
+ "latest_version": 1,
+ "latest_date": "2024-10-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the analysis of large spatial datasets, identifying and treating spatial outliers is essential for accurately interpreting geographical phenomena. While spatial correlation measures, particularly Local Indicators of Spatial Association (LISA), are widely used to detect spatial patterns, the presence of abnormal observations frequently distorts the landscape and conceals critical spatial relationships. These outliers can significantly impact analysis due to the inherent spatial dependencies present in the data. Traditional influence function (IF) methodologies, commonly used in statistical analysis to measure the impact of individual observations, are not directly applicable in the spatial context because the influence of an observation is determined not only by its own value but also by its spatial location, its connections with neighboring regions, and the values of those neighboring observations. In this paper, we introduce a local version of the influence function (LIF) that accounts for these spatial dependencies. Through the analysis of both simulated and real-world datasets, we demonstrate how the LIF provides a more nuanced and accurate detection of spatial outliers compared to traditional LISA measures and local impact assessments, improving our understanding of spatial patterns.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2407.12557",
+ "title": "Comparing Homogeneous And Inhomogeneous Time Markov Chains For Modelling Degradation In Sewer Pipe Networks",
+ "authors": [
+  "Lisandro A. Jimenez-Roa",
+  "Tiedo Tinga",
+  "Tom Heskes",
+  "Marielle Stoelinga"
+ ],
+ "v1_date": "2024-07-17",
+ "latest_version": 1,
+ "latest_date": "2024-07-17",
+ "journal_ref": "Proceedings of the 34th European Safety and Reliability Conference (ESREL) 2024",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sewer pipe systems are essential for social and economic welfare. Managing these systems requires robust predictive models for degradation behaviour. This study focuses on probability-based approaches, particularly Markov chains, for their ability to associate random variables with degradation. Literature predominantly uses homogeneous and inhomogeneous Markov chains for this purpose. However, their effectiveness in sewer pipe degradation modelling is still debatable. Some studies support homogeneous Markov chains, while others challenge their utility. We examine this issue using a large-scale sewer network in the Netherlands, incorporating historical inspection data. We model degradation with homogeneous discrete and continuous time Markov chains, and inhomogeneous-time Markov chains using Gompertz, Weibull, Log-Logistic and Log-Normal density functions. Our analysis suggests that, despite their higher computational requirements, inhomogeneous-time Markov chains are more appropriate for modelling the nonlinear stochastic characteristics related to sewer pipe degradation, particularly the Gompertz distribution. However, they pose a risk of over-fitting, necessitating significant improvements in parameter inference processes to effectively address this issue.",
+ "primary": "stat.ME"
+}

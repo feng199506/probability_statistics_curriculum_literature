@@ -1,0 +1,15 @@
+{
+ "id": "2608.29491",
+ "title": "Pollak's Minimax Quickest Change Detection: Non-Asymptotic Optimality",
+ "authors": [
+  "Ali Tajer"
+ ],
+ "v1_date": "2026-08-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "68 pages, 4 figures",
+ "abstract": "Although Pollak's minimax formulation is one of the central frameworks in quickest change detection (QCD), the strongest general optimality results available for it are predominantly \\emph{asymptotic}, applying as the average run-length-to-false-alarm constraint, $γ$, tends to infinity. Exact results for finite $γ$ have previously been available only for special models or restricted regimes. This paper addresses the general finite-$γ$ problem over the complete class of randomized, history-dependent stopping rules for i.i.d. change models. The key technical development is a \\emph{survival-process representation} that recasts the optimization of Pollak's minimax criterion over stopping times as an equivalent linear variational optimization over admissible survival processes. Although this formulation is infinite-dimensional, it establishes the existence of an optimizer and provides an exact characterization of the finite-$γ$ Pollak minimax value. This characterization, in turn, provides a principled basis for constructing computable stopping rules whose performance can be made arbitrarily close to the optimum. The resulting rules are driven by a recursively updated weighted likelihood-ratio statistic with generally time-varying injections and boundaries. Importantly, this structure is not imposed a priori: the optimization is carried out over the full class of randomized, history-dependent stopping rules, and the Shiryaev--Roberts form emerges naturally from the solution. In particular, the classical Shiryaev--Roberts recursion arises as the time-homogeneous special case. Finally, under a likelihood-ratio floor condition, the framework yields closed-form exact minimax solutions for a nontrivial class of change models.",
+ "primary": "math.ST"
+}

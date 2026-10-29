@@ -1,0 +1,17 @@
+{
+ "id": "2505.13128",
+ "title": "Testing for sufficient follow-up in cure models with categorical covariates",
+ "authors": [
+  "Tsz Pang Yuen",
+  "Eni Musta",
+  "Ingrid Van Keilegom"
+ ],
+ "v1_date": "2025-05-19",
+ "latest_version": 2,
+ "latest_date": "2026-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In survival analysis, estimating the fraction of 'immune' or 'cured' subjects who will never experience the event of interest, requires a sufficiently long follow-up period. A few statistical tests have been proposed to test the assumption of sufficient follow-up, i.e. whether the right extreme of the censoring distribution exceeds that of the survival time of the uncured subjects. However, in practice the problem remains challenging. To address this, a relaxed notion of 'practically' sufficient follow-up has been introduced recently, suggesting that the follow-up would be considered sufficiently long if the probability for the event occurring after the end of the study is very small. All these existing tests do not incorporate covariate information, which might affect the cure rate and the survival times. We extend the test for 'practically' sufficient follow-up to settings with categorical covariates. While a straightforward intersection-union type test could reject the null hypothesis of insufficient follow-up only if such hypothesis is rejected for all covariate values, in practice this approach is overly conservative and lacks power. To improve upon this, we propose a novel test procedure that relies on the test decision for one properly chosen covariate value. Our approach relies on the assumption that the conditional density of the uncured survival time is a non-increasing function of time in the tail region. We show that both methods yield tests of asymptotically level $α$ and investigate their finite sample performance through simulations. The practical application of the methods is illustrated using a skin melanoma dataset.",
+ "primary": "stat.ME"
+}

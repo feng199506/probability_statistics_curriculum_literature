@@ -1,0 +1,16 @@
+{
+ "id": "2410.03053",
+ "title": "The Quadratic Optimization Bias Of Large Covariance Matrices",
+ "authors": [
+  "Hubeyb Gurdogan",
+  "Alex Shkolnik"
+ ],
+ "v1_date": "2024-10-04",
+ "latest_version": 1,
+ "latest_date": "2024-10-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 6 figures, 5 tables",
+ "abstract": "We describe a puzzle involving the interactions between an optimization of a multivariate quadratic function and a \"plug-in\" estimator of a spiked covariance matrix. When the largest eigenvalues (i.e., the spikes) diverge with the dimension, the gap between the true and the out-of-sample optima typically also diverges. We show how to \"fine-tune\" the plug-in estimator in a precise way to avoid this outcome. Central to our description is a \"quadratic optimization bias\" function, the roots of which determine this fine-tuning property. We derive an estimator of this root from a finite number of observations of a high dimensional vector. This leads to a new covariance estimator designed specifically for applications involving quadratic optimization. Our theoretical results have further implications for improving low dimensional representations of data, and principal component analysis in particular.",
+ "primary": "math.ST"
+}

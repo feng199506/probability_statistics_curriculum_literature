@@ -1,0 +1,20 @@
+{
+ "id": "2511.01040",
+ "title": "From Structural Equation Modeling to Targeted Learning: A Tutorial Introduction to Targeted Maximum Likelihood Estimation for SEM Researchers",
+ "authors": [
+  "Junjie Ma",
+  "Xiaoya Zhang",
+  "Guangye He",
+  "Yuting Han",
+  "Ting Ge",
+  "Feng Ji"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 3,
+ "latest_date": "2026-03-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Structural equation modeling (SEM) and path analysis have long been central tools for studying complex causal relationships in the social and behavioral sciences, yet their reliance on parametric assumptions can lead to biased inference under model misspecification. To bridge traditional SEM with modern causal machine learning, this paper introduces targeted maximum likelihood estimation (TMLE), a doubly robust framework built on nonparametric structural equation modeling. We formally connect TMLE to classical path analysis, showing that standard SEM estimators arise as special cases of TMLE under restrictive parametric specifications and that both approaches can estimate common causal quantities such as direct, indirect, and total effects. Through simulation studies under both correctly specified and misspecified models, we demonstrate that while the two methods perform similarly when models are correctly specified, TMLE consistently achieves lower bias, reduced mean squared error, and improved confidence interval coverage when parametric assumptions are violated. We further illustrate these differences using an applied mediation analysis examining the role of poverty in access to high school education, where path analysis suggests a significant direct effect, whereas TMLE does not, highlighting the practical consequences of robustness in causal inference. Overall, this tutorial offers SEM researchers a conceptual and practical introduction to targeted learning, providing guidance on leveraging TMLE to enhance causal analysis beyond traditional parametric frameworks.",
+ "primary": "stat.OT"
+}

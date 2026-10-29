@@ -1,0 +1,19 @@
+{
+ "id": "2603.22573",
+ "title": "Multiple Jump MCMC: A Scalable Algorithm for Bayesian Inference on Binary Model Spaces",
+ "authors": [
+  "Lucas Vogels",
+  "Reza Mohammadi",
+  "Marit Schoonhoven",
+  "Sinan Yildirim",
+  "Ilker Birbil"
+ ],
+ "v1_date": "2026-03-23",
+ "latest_version": 3,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This article considers Bayesian model inference on binary model spaces. Binary model spaces are used by a large class of models, including graphical models, variable selection, mixture distributions, and decision trees. Traditional strategies in this field, such as reversible jump or birth-death MCMC algorithms, are still popular, despite suffering from a slow exploration of the model space. In this article, we propose an alternative: the Multiple Jump MCMC algorithm. The algorithm is simple, rejection-free, and remarkably fast. When applied to undirected Gaussian graphical models, it is 100 to 200 times faster than the state-of-the-art, solving models with $500,000$ parameters in less than a minute. We provide theorems showing how accurately our algorithm targets the posterior, and we show how to apply our framework to Gaussian graphical models, Ising models, and variable selection, but note that it applies to most Bayesian posterior inference on binary model spaces.",
+ "primary": "stat.ME"
+}

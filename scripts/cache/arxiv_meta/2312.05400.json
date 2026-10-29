@@ -1,0 +1,18 @@
+{
+ "id": "2312.05400",
+ "title": "Generalized difference-in-differences",
+ "authors": [
+  "Denis Agniel",
+  "Max Rubinstein",
+  "Jessie Coe",
+  "Maria DeYoreo"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 1,
+ "latest_date": "2023-12-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a new method for estimating causal effects in longitudinal/panel data settings that we call generalized difference-in-differences. Our approach unifies two alternative approaches in these settings: ignorability estimators (e.g., synthetic controls) and difference-in-differences (DiD) estimators. We propose a new identifying assumption -- a stable bias assumption -- which generalizes the conditional parallel trends assumption in DiD, leading to the proposed generalized DiD framework. This change gives generalized DiD estimators the flexibility of ignorability estimators while maintaining the robustness to unobserved confounding of DiD. We also show how ignorability and DiD estimators are special cases of generalized DiD. We then propose influence-function based estimators of the observed data functional, allowing the use of double/debiased machine learning for estimation. We also show how generalized DiD easily extends to include clustered treatment assignment and staggered adoption settings, and we discuss how the framework can facilitate estimation of other treatment effects beyond the average treatment effect on the treated. Finally, we provide simulations which show that generalized DiD outperforms ignorability and DiD estimators when their identifying assumptions are not met, while being competitive with these special cases when their identifying assumptions are met.",
+ "primary": "stat.ME"
+}

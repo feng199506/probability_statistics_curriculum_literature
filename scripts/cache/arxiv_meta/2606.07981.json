@@ -1,0 +1,17 @@
+{
+ "id": "2606.07981",
+ "title": "Making Recursive Bayesian Inference Robust",
+ "authors": [
+  "Myungsoo Yoo",
+  "Daniel Würzler Barreto",
+  "Mevin B. Hooten"
+ ],
+ "v1_date": "2026-06-06",
+ "latest_version": 1,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While Bayesian inference has become increasingly popular with advances in computational resources, its algorithms can be computationally prohibitive and may not scale with large datasets. This has led to growing interest in alternative algorithms, such as approximation methods and variants of Markov chain Monte Carlo. Among these approaches, prior proposal-recursive Bayesian (PP-RB) inference facilitates scalable Bayesian computation by recursively updating the posterior distribution across stages and utilizing parallel computing resources. While the well-known ``degeneracy'' issue in PP-RB has been studied, another limitation that PP-RB can yield incorrect inferences when posterior distributions shift substantially between stages has remained unsolved. To address this, we propose parallel-tempered prior proposal-recursive Bayesian (PPP-RB) inference, which extends PP-RB by leveraging the key idea underlying Metropolis-coupled Markov chain Monte Carlo. We show both theoretically and empirically that PPP-RB targets the true posterior distribution. We illustrate PPP-RB through numerical studies and real data analysis in application to earthquake count data and sea surface salinity in the North Atlantic region. In these applications, we compare PPP-RB with PP-RB and a standard MCMC, demonstrating that PPP-RB is more efficient in terms of effective sample size per elapsed time.",
+ "primary": "stat.ME"
+}

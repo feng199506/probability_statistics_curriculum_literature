@@ -1,0 +1,20 @@
+{
+ "id": "2312.04745",
+ "title": "A Brief Tutorial on Sample Size Calculations for Fairness Audits",
+ "authors": [
+  "Harvineet Singh",
+  "Fan Xia",
+  "Mi-Ok Kim",
+  "Romain Pirracchio",
+  "Rumi Chunara",
+  "Jean Feng"
+ ],
+ "v1_date": "2023-12-07",
+ "latest_version": 1,
+ "latest_date": "2023-12-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 pages, 1 figure, 1 table, Workshop on Regulatable Machine Learning at the 37th Conference on Neural Information Processing Systems",
+ "abstract": "In fairness audits, a standard objective is to detect whether a given algorithm performs substantially differently between subgroups. Properly powering the statistical analysis of such audits is crucial for obtaining informative fairness assessments, as it ensures a high probability of detecting unfairness when it exists. However, limited guidance is available on the amount of data necessary for a fairness audit, lacking directly applicable results concerning commonly used fairness metrics. Additionally, the consideration of unequal subgroup sample sizes is also missing. In this tutorial, we address these issues by providing guidance on how to determine the required subgroup sample sizes to maximize the statistical power of hypothesis tests for detecting unfairness. Our findings are applicable to audits of binary classification models and multiple fairness metrics derived as summaries of the confusion matrix. Furthermore, we discuss other aspects of audit study designs that can increase the reliability of audit results.",
+ "primary": "stat.AP"
+}

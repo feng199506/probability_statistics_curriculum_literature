@@ -1,0 +1,19 @@
+{
+ "id": "2509.08952",
+ "title": "Feature Representation and Clustering of Airport Congestion with Hurst Exponent and High Order Statistics",
+ "authors": [
+  "Wei Sun",
+  "Zi-Feng Yi",
+  "Zhi-Qiang Feng",
+  "Ji Ma",
+  "Ruo-shi Yang"
+ ],
+ "v1_date": "2025-09-10",
+ "latest_version": 1,
+ "latest_date": "2025-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Air traffic controllers benefit from referencing historical dates with similar complex air traffic conditions to identify potential management measures and their effects, which is critical for understanding air transportation system laws and optimizing decisions. This study conducted data mining using flight timetables. It first explored airport congestion mechanisms and quantified congestion as time series, then proposed a higher-order cumulants based time series feature extraction method. This method was fused with other features to build a high-dimensional airport congestion feature vector, and finally K-means clustering was applied to extract and analyze congestion patterns. The clustering method was empirically validated with 2023 flight data from Guangzhou Baiyun International Airport and it accurately classified airport operational states. To verify universality, the same framework was applied to 6 airports under the \"one-city, two-airports\" layout in Beijing, Shanghai and Chengdu. Results showed significant congestion pattern differences between existing and newly constructed airports. Conclusions confirm the proposed feature extraction and clustering framework is effective and universal, and it can accurately capture airport congestion dynamics. Under the \"one-city, two-airports\" layout, existing and newly constructed airports differ significantly in operational modes, and most single-airport city airports have operational modes highly consistent with existing airports. This study provides valuable decision-making references for airport managers and air traffic controllers. It helps them deepen understanding of air traffic dynamics and airport congestion patterns, thereby optimizing traffic management strategies and improving airport operational efficiency.",
+ "primary": "stat.AP"
+}

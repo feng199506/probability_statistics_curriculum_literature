@@ -1,0 +1,17 @@
+{
+ "id": "2312.17716",
+ "title": "Dependent Random Partitions by Shrinking Toward an Anchor",
+ "authors": [
+  "David B. Dahl",
+  "Richard L. Warr",
+  "Thomas P. Jensen"
+ ],
+ "v1_date": "2023-12-29",
+ "latest_version": 3,
+ "latest_date": "2024-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Although exchangeable processes from Bayesian nonparametrics have been used as a generating mechanism for random partition models, we deviate from this paradigm to explicitly incorporate clustering information in the formulation of our random partition model. Our shrinkage partition distribution takes any partition distribution and shrinks its probability mass toward an anchor partition. We show how this provides a framework to model hierarchically-dependent and temporally-dependent random partitions. The shrinkage parameter controls the degree of dependence, accommodating at its extremes both independence and complete equality. Since a priori knowledge of items may vary, our formulation allows the degree of shrinkage toward the anchor to be item-specific. Our random partition model has a tractable normalizing constant which allows for standard Markov chain Monte Carlo algorithms for posterior sampling. We prove intuitive theoretical properties for our distribution and compare it to related partition distributions. We show that our model provides better out-of-sample fit in a real data application.",
+ "primary": "stat.ME"
+}

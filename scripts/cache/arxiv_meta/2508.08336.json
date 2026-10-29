@@ -1,0 +1,16 @@
+{
+ "id": "2508.08336",
+ "title": "Empirical Bayes for Data Integration",
+ "authors": [
+  "Paul Rognon-Vael",
+  "David Rossell"
+ ],
+ "v1_date": "2025-08-10",
+ "latest_version": 2,
+ "latest_date": "2026-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We discuss the use of empirical Bayes for data integration, in the sense of transfer learning. Our main interest is in settings where one wishes to learn structure (e.g. feature selection) and one only has access to incomplete data from previous studies, such as summaries, estimates or lists of relevant features. We discuss differences between full Bayes and empirical Bayes, and develop a computational framework for the latter. We discuss how empirical Bayes attains consistent variable selection under weaker conditions (sparsity and betamin assumptions) than full Bayes and other standard criteria do, and how it attains faster convergence rates. Our high-dimensional regression examples show that fully Bayesian inference enjoys excellent properties, and that data integration with empirical Bayes can offer moderate yet meaningful improvements in practice.",
+ "primary": "stat.ME"
+}

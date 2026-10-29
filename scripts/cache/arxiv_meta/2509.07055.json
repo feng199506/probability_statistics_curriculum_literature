@@ -1,0 +1,18 @@
+{
+ "id": "2509.07055",
+ "title": "Sequentially Auditing Differential Privacy",
+ "authors": [
+  "Tomás González",
+  "Mateo Dulce-Rubio",
+  "Aaditya Ramdas",
+  "Mónica Ribero"
+ ],
+ "v1_date": "2025-09-08",
+ "latest_version": 2,
+ "latest_date": "2025-11-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted in NeurIPS 2025",
+ "abstract": "We propose a practical sequential test for auditing differential privacy guarantees of black-box mechanisms. The test processes streams of mechanisms' outputs providing anytime-valid inference while controlling Type I error, overcoming the fixed sample size limitation of previous batch auditing methods. Experiments show this test detects violations with sample sizes that are orders of magnitude smaller than existing methods, reducing this number from 50K to a few hundred examples, across diverse realistic mechanisms. Notably, it identifies DP-SGD privacy violations in \\textit{under} one training run, unlike prior methods needing full model training.",
+ "primary": "cs.CR"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2602.10012",
+ "title": "Doubly Robust Estimation of Desirability of Outcome Ranking (DOOR) Probability with Application to MDRO Studies",
+ "authors": [
+  "Shiyu Shu",
+  "Toshimitsu Hamasaki",
+  "Scott Evans",
+  "Lauren Komarow",
+  "David van Duin",
+  "Guoqing Diao"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In observational studies, adjusting for confounders is required if a treatment comparison is planned. A crude comparison of the primary endpoint without covariate adjustment will suffer from biases, and the addition of regression models could improve precision by incorporating imbalanced covariates and thus help make correct inference. Desirability of outcome ranking (DOOR) is a patient-centric benefit-risk evaluation methodology designed for randomized clinical trials. Still, robust covariate adjustment methods could further expand the compatibility of this method in observational studies. In DOOR analysis, each participant's outcome is ranked based on pre-specified clinical criteria, where the most desirable rank represents a good outcome with no side effects and the least desirable rank is the worst possible clinical outcome. We develop a causal framework for estimating the population-level DOOR probability, via the inverse probability of treatment weighting method, G-Computation method, and a Doubly Robust method that combines both. The performance of the proposed methodologies is examined through simulations. We also perform a causal analysis of the Multi-Drug Resistant Organism (MDRO) network within the Antibacterial Resistant Leadership Group (ARLG), comparing the benefit:risk between Mono-drug therapy and Combination-drug therapy.",
+ "primary": "stat.ME"
+}

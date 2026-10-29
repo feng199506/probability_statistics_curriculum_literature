@@ -1,0 +1,15 @@
+{
+ "id": "2404.02774",
+ "title": "Profile Likelihood via Optimisation and Differential Equations",
+ "authors": [
+  "Yves Deville"
+ ],
+ "v1_date": "2024-04-03",
+ "latest_version": 1,
+ "latest_date": "2024-04-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Profile likelihood provides a general framework to infer on a scalar parameter of a statistical model. A confidence interval is obtained by numerically finding the two abscissas where the profile log-likelihood curve intersects an horizontal line. An alternative derivation for this interval can be obtained by solving a constrained optimisation problem which can broadly be described as: maximise or minimise the parameter of interest under the constraint that the log-likelihood is high enough. This formulation allows nice geometrical interpretations; It can be used to infer on a parameter or on a known scalar function of the parameter, such as a quantile. Widely available routines for constrained optimisation can be used for this task, as well as Markov Chain Monte Carlo samplers. When the interest is on a smooth function depending on an extra continuous variable, the constrained optimisation framework can be used to derive Ordinary Differential Equation (ODE) for the confidence limits. This is illustrated with the return levels of Extreme Value models based on the Generalised Extreme Value distribution. Moreover the same ODE-based technique applies as well to the derivation of profile likelihood contours for couples of parameters. The initial value of the ODE used in the determination of the interval or the contour can itself be obtained by another auxiliary ODE with known initial value obtained by using the confidence level as the extra continuous variable.",
+ "primary": "stat.CO"
+}

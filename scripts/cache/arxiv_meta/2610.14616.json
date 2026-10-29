@@ -1,0 +1,17 @@
+{
+ "id": "2610.14616",
+ "title": "Poisson contingency tables, Gibbs permutations, and entropic optimal transport",
+ "authors": [
+  "Danny Duan",
+  "Hanbaek Lyu",
+  "William Powell"
+ ],
+ "v1_date": "2026-10-10",
+ "latest_version": 1,
+ "latest_date": "2026-10-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "52 pages, 4 figures",
+ "abstract": "We study random contingency tables obtained by conditioning a matrix of independent Poisson entries on its row and column sums. We identify such a table with the block counts of a random permutation drawn from a Gibbs measure of Mallows type, an exact coupling whose normalizing constants recover Barvinok's permanent identity. We use this correspondence to study the table at three scales. For finite dimensions, a transference principle compares the table with a matrix of independent Poisson entries whose means form the static Schrödinger bridge, the solution of a discrete entropic optimal transport problem. As the dimensions grow and the margins and prior means converge, the normalized histogram of the table converges to a limiting Schrödinger bridge at a quantitative rate. The fluctuations of the table around the bridge are characterized in two complementary ways. Linear statistics satisfy a central limit theorem for bounded test functions, with limiting variance equal to the squared $L^2$-distance, under the bridge, of the test function to the subspace of additively separable functions; as a process they converge to white noise with intensity given by the bridge, conditioned to have vanishing marginals. Spectrally, the limiting spectral distribution of the centered table is governed by a Dyson equation whose variance profile is the density of the bridge. The key ingredient is an asymptotic formula for the partition function of the Gibbs measure in terms of a Fredholm determinant given by the canonical correlations of the bridge. For Mallows-type random permutations, our results prove Pal's conjecture on the limiting partition function and Mukherjee's conjecture on the central limit theorem for linear statistics, both in greater generality.",
+ "primary": "math.PR"
+}

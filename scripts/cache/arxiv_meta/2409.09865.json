@@ -1,0 +1,17 @@
+{
+ "id": "2409.09865",
+ "title": "A general approach to fitting multistate cure models based on an extended-long-format data structure",
+ "authors": [
+  "Yilin Jiang",
+  "Harm van Tinteren",
+  "Marta Fiocco"
+ ],
+ "v1_date": "2024-09-15",
+ "latest_version": 2,
+ "latest_date": "2024-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A multistate cure model is a statistical framework used to analyze and represent the transitions individuals undergo between different states over time, accounting for the possibility of being cured by initial treatment. This model is particularly useful in pediatric oncology where a proportion of the patient population achieves cure through treatment and therefore will never experience certain events. Despite its importance, no universal consensus exists on the structure of multistate cure models. Our study provides a novel framework for defining such models through a set of non-cure states. We develops a generalized algorithm based on the extended long data format, an extension of the traditional long data format, where a transition can be divided into two rows, each with a weight assigned reflecting the posterior probability of its cure status. The multistate cure model is built upon the current framework of multistate model and mixture cure model. The proposed algorithm makes use of the Expectation-Maximization (EM) algorithm and weighted likelihood representation such that it is easy to implement with standard packages. Additionally, it facilitates dynamic prediction. The algorithm is applied on data from the European Society for Blood and Marrow Transplantation (EBMT). Standard errors of the estimated parameters in the EM algorithm are obtained via a non-parametric bootstrap procedure, while the method involving the calculation of the second-derivative matrix of the observed log-likelihood is also presented.",
+ "primary": "stat.ME"
+}

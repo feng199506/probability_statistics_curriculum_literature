@@ -1,0 +1,16 @@
+{
+ "id": "2607.28413",
+ "title": "Windowed thinning and query complexity for the bouncy particle and Zigzag samplers",
+ "authors": [
+  "Jianfeng Lu",
+  "Yinchen Luo"
+ ],
+ "v1_date": "2026-07-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "v2: corrected a few typos and updated references",
+ "abstract": "Let $μ(d x)\\propto e^{-U(x)} d x$ on $\\R^d$, where $U$ is $m$-strongly convex and $L$-smooth, and denote by $κ=L/m$ the condition number. We consider windowed thinning, an exact simulation method for the bouncy particle sampler and the coordinate Zigzag process. The method divides a trajectory into deterministic windows and uses a gradient evaluation at the beginning of each window to construct a tractable local envelope for the event rate. Combining this construction with quantitative mixing estimates and finite-time bounds on the expected numbers of bounces and flips yields query complexity guarantees from a Gaussian cold start. For total-variation error $\\varepsilon$, the expected query counts are $O(κ^{1/2}d\\,(d\\logκ+\\log\\frac1\\varepsilon))$ gradient queries for the bouncy particle sampler and $O(κd^{1/4}(d\\logκ+\\log\\frac1\\varepsilon))$ full-gradient equivalents for Zigzag, where $d$ coordinate-partial queries count as one equivalent.",
+ "primary": "math.NA"
+}

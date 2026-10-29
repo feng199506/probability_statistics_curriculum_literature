@@ -1,0 +1,17 @@
+{
+ "id": "2507.10373",
+ "title": "Post-reduction inference for confidence sets of models",
+ "authors": [
+  "Heather Battey",
+  "Daniel Garcia Rasines",
+  "Yanbo Tang"
+ ],
+ "v1_date": "2025-07-14",
+ "latest_version": 2,
+ "latest_date": "2026-02-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sparsity in a regression context makes the model itself an object of interest, pointing to a confidence set of models as the appropriate presentation of evidence. A difficulty in areas such as genomics, where the number of candidate variables is vast, arises from the need for preliminary reduction prior to the assessment of models. The present paper considers a resolution using inferential separations fundamental to the Fisherian approach to conditional inference, namely, the sufficiency/co-sufficiency separation, and the ancillary/co-ancillary separation. The advantage of these separations is that no direction for departure from any hypothesised model is needed, avoiding issues that would otherwise arise from using the same data for reduction and for model assessment. In idealised cases with no nuisance parameters, the separations extract all the information in the data solely for the purpose for which it is useful, without loss or redundancy. The extent to which estimation of nuisance parameters affects the idealised information extraction is illustrated in detail for the normal-theory linear regression model, extending immediately to a log-normal accelerated-life model for time-to-event outcomes. This idealised analysis provides insight into when sample-splitting is likely to perform as well as, or better than, the co-sufficient or ancillary tests, and when it may be unreliable. The considerations involved in extending the detailed implementation to canonical exponential-family and more general regression models are briefly discussed. As part of the analysis for the Gaussian model, we introduce a modified version of the refitted cross-validation estimator of Fan et al. (2012), whose distribution theory is tractable in the appropriate conditional sense.",
+ "primary": "math.ST"
+}

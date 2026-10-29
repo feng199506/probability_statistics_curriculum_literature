@@ -1,0 +1,16 @@
+{
+ "id": "2601.21765",
+ "title": "Mean-field Variational Bayes for Sparse Probit Regression",
+ "authors": [
+  "Augusto Fasano",
+  "Giovanni Rebaudo"
+ ],
+ "v1_date": "2026-01-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider Bayesian variable selection for binary outcomes under a probit link with a spike-and-slab prior on the regression coefficients. Motivated by the computational challenges encountered by Markov chain Monte Carlo (MCMC) samplers in high-dimensional regimes, we develop a mean-field variational Bayes approximation in which all variational factors admit closed-form updates, and the evidence lower bound is available in closed form. This, in turn, allows the development of an efficient coordinate ascent variational inference algorithm to find the optimal values of the variational parameters. The approach produces posterior inclusion probabilities and parameter estimates, enabling interpretable selection and prediction within a single framework. As shown in both simulated and real data applications, the proposed method successfully identifies the important variables and is orders of magnitude faster than MCMC, while maintaining comparable accuracy.",
+ "primary": "stat.CO"
+}

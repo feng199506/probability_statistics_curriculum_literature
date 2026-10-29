@@ -1,0 +1,16 @@
+{
+ "id": "2509.10787",
+ "title": "Outlier-Resistant Heterogeneous Treatment Effect Estimation in HDLSS Settings via GAT--CVAE Framework",
+ "authors": [
+  "Byeonghee Lee",
+  "Joonsung Kang"
+ ],
+ "v1_date": "2025-09-13",
+ "latest_version": 1,
+ "latest_date": "2025-09-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages",
+ "abstract": "We introduce a robust framework for heterogeneous treatment effect (HTE) estimation tailored to high-dimensional low sample size (HDLSS) settings. By combining Graph Attention Networks (GAT) to capture structural dependencies among confounders with a Conditional Variational Autoencoder (CVAE) for latent representation learning, our method expands the sample space and performs clustering that integrates even outlier sets into coherent subgroups. Clusterwise causal effects are then estimated using a doubly robust outlier-resistant estimator, yielding stable and generalizable results. Simulations and real-world applications confirm superior performance compared with existing HTE methods, highlighting the framework's potential for precision medicine and policy evaluation.",
+ "primary": "stat.ME"
+}

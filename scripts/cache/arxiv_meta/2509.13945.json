@@ -1,0 +1,16 @@
+{
+ "id": "2509.13945",
+ "title": "Ensembled Direct Multi-Step forecasting methodology with comparison on macroeconomic and financial data",
+ "authors": [
+  "Tomasz M. Łapiński",
+  "Krzysztof Ziółkowski"
+ ],
+ "v1_date": "2025-09-17",
+ "latest_version": 2,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 7 figures",
+ "abstract": "Accurate forecasts of macroeconomic and financial data, such as GDP, CPI, unemployment rates, and stock indices, are crucial for the success of countries, businesses, and investors, resulting in a constant demand for reliable forecasting models. This research introduces a novel methodology for time series forecasting that combines Ensemble technique with a Direct Multi-Step (DMS) forecasting procedure. This Ensembled Direct Multi-Step (EDMS) approach not only leverages the strengths of both techniques but also capitalizes on their synergy. The ensemble models in the methodology were selected based on performance, complexity, and computational resource requirements, encompassing a full spectrum of model complexities, from simple Linear and Polynomial Regression to medium-complexity ETS and complex LSTM model. Models were weighted based on their performances. In the DMS procedure we limit retraining to one- and five- year/month forecasts for economic and financial data respectively. Standard Iterative Multi-Step (IMS) procedure is employed for other horizons, effectively reducing computational demands while maintaining satisfactory results. The proposed methodology is benchmarked against Ensemble technique conventionally applied to IMS-generated forecasts, utilizing several publicly available macroeconomic and financial datasets. Results demonstrate a significant performance improvement with EDMS methodology, averaging a 33.32% enhancement across the analysed datasets, and sometimes improvement reaching above 60%.",
+ "primary": "stat.ME"
+}

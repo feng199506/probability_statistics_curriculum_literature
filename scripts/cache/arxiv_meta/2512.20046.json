@@ -1,0 +1,17 @@
+{
+ "id": "2512.20046",
+ "title": "Assumption-lean covariate adjustment under covariate adaptive randomization when $p = o (n)$",
+ "authors": [
+  "Yujia Gu",
+  "Lin Liu",
+  "Wei Ma"
+ ],
+ "v1_date": "2025-12-23",
+ "latest_version": 1,
+ "latest_date": "2025-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "92 pages, 3 figures. Comments are welcome",
+ "abstract": "Adjusting for (baseline) covariates with working regression models becomes standard practice in the analysis of randomized clinical trials (RCT). When the dimension $p$ of the covariates is large relative to the sample size $n$, specifically $p = o (n)$, adjusting for covariates even in a linear working model by ordinary least squares can yield overly large bias, defeating the purpose of improving efficiency. This issue arises when no structural assumptions are imposed on the outcome model, a scenario that we refer to as the assumption-lean setting. Several new estimators have been proposed to address this issue. However, they focus mainly on simple randomization under the finite-population model, not covering covariate adaptive randomization (CAR) schemes under the superpopulation model. Due to improved covariate balance between treatment groups, CAR is more widely adopted in RCT; and the superpopulation model fits better when subjects are enrolled sequentially or when generalizing to a larger population is of interest. Thus, there is an urgent need to develop procedures in these settings, as the current regulatory guidance provides little concrete direction. In this paper, we fill this gap by demonstrating that an adjusted estimator based on second-order $U$-statistics can almost unbiasedly estimate the average treatment effect and enjoy a guaranteed efficiency gain if $p = o (n)$. In our analysis, we generalize the coupling technique commonly used in the CAR literature to $U$-statistics and also obtain several useful results for analyzing inverse sample Gram matrices by a delicate leave-$m$-out analysis, which may be of independent interest. Both synthetic and semi-synthetic experiments are conducted to demonstrate the superior finite-sample performance of our new estimator compared to popular benchmarks.",
+ "primary": "stat.ME"
+}

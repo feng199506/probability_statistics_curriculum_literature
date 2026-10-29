@@ -1,0 +1,15 @@
+{
+ "id": "2402.16408",
+ "title": "Stable Training of Normalizing Flows for High-dimensional Variational Inference",
+ "authors": [
+  "Daniel Andrade"
+ ],
+ "v1_date": "2024-02-26",
+ "latest_version": 1,
+ "latest_date": "2024-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference with normalizing flows (NFs) is an increasingly popular alternative to MCMC methods. In particular, NFs based on coupling layers (Real NVPs) are frequently used due to their good empirical performance. In theory, increasing the depth of normalizing flows should lead to more accurate posterior approximations. However, in practice, training deep normalizing flows for approximating high-dimensional posterior distributions is often infeasible due to the high variance of the stochastic gradients. In this work, we show that previous methods for stabilizing the variance of stochastic gradient descent can be insufficient to achieve stable training of Real NVPs. As the source of the problem, we identify that, during training, samples often exhibit unusual high values. As a remedy, we propose a combination of two methods: (1) soft-thresholding of the scale in Real NVPs, and (2) a bijective soft log transformation of the samples. We evaluate these and other previously proposed modification on several challenging target distributions, including a high-dimensional horseshoe logistic regression model. Our experiments show that with our modifications, stable training of Real NVPs for posteriors with several thousand dimensions is possible, allowing for more accurate marginal likelihood estimation via importance sampling. Moreover, we evaluate several common training techniques and architecture choices and provide practical advise for training NFs for high-dimensional variational inference.",
+ "primary": "stat.ML"
+}

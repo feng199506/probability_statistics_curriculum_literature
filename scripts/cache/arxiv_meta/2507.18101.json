@@ -1,0 +1,16 @@
+{
+ "id": "2507.18101",
+ "title": "Large-scale entity resolution via microclustering Ewens--Pitman random partitions",
+ "authors": [
+  "Mario Beraha",
+  "Stefano Favaro"
+ ],
+ "v1_date": "2025-07-24",
+ "latest_version": 1,
+ "latest_date": "2025-07-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce the microclustering Ewens--Pitman model for random partitions, obtained by scaling the strength parameter of the Ewens--Pitman model linearly with the sample size. The resulting random partition is shown to have the microclustering property, namely: the size of the largest cluster grows sub-linearly with the sample size, while the number of clusters grows linearly. By leveraging the interplay between the Ewens--Pitman random partition with the Pitman--Yor process, we develop efficient variational inference schemes for posterior computation in entity resolution. Our approach achieves a speed-up of three orders of magnitude over existing Bayesian methods for entity resolution, while maintaining competitive empirical performance.",
+ "primary": "stat.ME"
+}

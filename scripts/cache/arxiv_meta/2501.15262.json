@@ -1,0 +1,19 @@
+{
+ "id": "2501.15262",
+ "title": "TflosYOLO+TFSC: An Accurate and Robust Model for Estimating Flower Count and Flowering Period",
+ "authors": [
+  "Qianxi Mi",
+  "Pengcheng Yuan",
+  "Chunlei Ma",
+  "Jiedan Chen",
+  "Mingzhe Yao"
+ ],
+ "v1_date": "2025-01-25",
+ "latest_version": 3,
+ "latest_date": "2025-04-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Tea flowers play a crucial role in taxonomic research and hybrid breeding for the tea plant. As traditional methods of observing tea flower traits are labor-intensive and inaccurate, we propose TflosYOLO and TFSC model for tea flowering quantifying, which enable estimation of flower count and flowering period. In this study, a highly representative and diverse dataset was constructed by collecting flower images from 29 tea accessions in 2 years. Based on this dataset, the TflosYOLO model was built on the YOLOv5 architecture and enhanced with the Squeeze-and-Excitation (SE) network, which is the first model to offer a viable solution for detecting and counting tea flowers. The TflosYOLO model achieved an mAP50 of 0.874, outperforming YOLOv5, YOLOv7 and YOLOv8. Furthermore, TflosYOLO model was tested on 34 datasets encompassing 26 tea accessions, five flowering stages, various lighting conditions, and pruned / unpruned plants, demonstrating high generalization and robustness. The correlation coefficient (R^2) between the predicted and actual flower counts was 0.974. Additionally, the TFSC (Tea Flowering Stage Classification) model, a 7-layer neural network was designed for automatic classification of the flowering period. TFSC model was evaluated on 2 years and achieved an accuracy of 0.738 and 0.899 respectively. Using the TflosYOLO+TFSC model, we monitored the tea flowering dynamics and tracked the changes in flowering stages across various tea accessions. The framework provides crucial support for tea plant breeding programs and phenotypic analysis of germplasm resources.",
+ "primary": "cs.CV"
+}

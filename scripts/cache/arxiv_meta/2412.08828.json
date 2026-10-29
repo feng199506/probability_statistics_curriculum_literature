@@ -1,0 +1,20 @@
+{
+ "id": "2412.08828",
+ "title": "A Two-Stage Approach for Segmenting Spatial Point Patterns Applied to Multiplex Imaging",
+ "authors": [
+  "Alvin Sheng",
+  "Brian J. Reich",
+  "Ana-Maria Staicu",
+  "Santhoshi N. Krishnan",
+  "Arvind Rao",
+  "Timothy L. Frankel"
+ ],
+ "v1_date": "2024-12-12",
+ "latest_version": 1,
+ "latest_date": "2024-12-12",
+ "journal_ref": "Biostatistics 2026",
+ "doi": "10.1093/biostatistics/kxaf049",
+ "comment": "13 pages, 5 figures, 1 table",
+ "abstract": "Recent advances in multiplex imaging have enabled researchers to locate different types of cells within a tissue sample. This is especially relevant for tumor immunology, as clinical regimes corresponding to different stages of disease or responses to treatment may manifest as different spatial arrangements of tumor and immune cells. Spatial point pattern modeling can be used to partition multiplex tissue images according to these regimes. To this end, we propose a two-stage approach: first, local intensities and pair correlation functions are estimated from the spatial point pattern of cells within each image, and the pair correlation functions are reduced in dimension via spectral decomposition of the covariance function. Second, the estimates are clustered in a Bayesian hierarchical model with spatially-dependent cluster labels. The clusters correspond to regimes of interest that are present across subjects; the cluster labels segment the spatial point patterns according to those regimes. Through Markov Chain Monte Carlo sampling, we jointly estimate and quantify uncertainty in the cluster assignment and spatial characteristics of each cluster. Simulations demonstrate the performance of the method, and it is applied to a set of multiplex immunofluorescence images of diseased pancreatic tissue.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,21 @@
+[
+ {"q": "(ti:review OR ti:tutorial OR ti:survey OR ti:introduction OR ti:primer) AND abs:\"survival analysis\" AND (cat:stat.ME OR cat:stat.AP OR cat:math.ST)", "subtopic": "生存分析综述与教程"},
+ {"q": "(abs:\"Cox model\" OR abs:\"proportional hazards\" OR abs:\"restricted mean survival time\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "生存分析模型"},
+ {"q": "(abs:\"competing risks\" OR abs:\"multi-state model\" OR abs:\"cure model\" OR abs:\"interval censor\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "竞争风险与多状态"},
+ {"q": "(abs:\"longitudinal data\" OR abs:\"generalized estimating equations\" OR abs:\"joint model\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "纵向数据"},
+ {"q": "(abs:estimand OR abs:\"intercurrent event\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "临床试验估计目标"},
+ {"q": "(abs:\"adaptive design\" OR abs:\"platform trial\" OR abs:\"group sequential\" OR abs:\"master protocol\") AND abs:trial AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "适应性与平台试验"},
+ {"q": "(abs:\"Bayesian\" AND abs:\"clinical trial\") AND (abs:borrowing OR abs:\"historical control\" OR abs:\"external control\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "历史借用与外部对照"},
+ {"q": "(abs:\"dose-finding\" OR abs:\"phase I\" OR abs:\"dose escalation\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "剂量探索试验"},
+ {"q": "(abs:\"covariate adjustment\" AND abs:\"randomized clinical trial\") OR (abs:\"stratified\" AND abs:\"clinical trial\" AND cat:stat.ME)", "subtopic": "临床试验分析"},
+ {"q": "(abs:\"target trial emulation\" OR abs:\"real-world evidence\" OR abs:\"real-world data\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "真实世界证据"},
+ {"q": "(abs:\"Mendelian randomization\") AND (cat:stat.ME OR cat:stat.AP OR cat:q-bio.QM)", "subtopic": "孟德尔随机化"},
+ {"q": "(abs:epidemiolog* OR abs:\"case-control\" OR abs:\"cohort study\") AND (ti:review OR ti:tutorial OR ti:introduction OR ti:primer) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "流行病学方法"},
+ {"q": "(abs:\"reproduction number\" OR abs:\"infectious disease\" OR abs:\"epidemic model\") AND (cat:stat.ME OR cat:stat.AP OR cat:q-bio.PE)", "subtopic": "传染病统计"},
+ {"q": "(abs:\"diagnostic accuracy\" OR abs:\"ROC curve\" OR abs:sensitivity AND abs:specificity AND abs:diagnostic) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "诊断试验"},
+ {"q": "(abs:\"multiple testing\" OR abs:multiplicity OR abs:\"familywise error\" OR abs:\"false discovery rate\") AND (abs:\"clinical trial\" OR abs:genomic OR abs:biomedical) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "多重检验"},
+ {"q": "(abs:\"meta-analysis\" OR abs:\"network meta-analysis\" OR abs:\"individual participant data\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "荟萃分析"},
+ {"q": "(abs:\"dynamic treatment regime\" OR abs:\"individualized treatment rule\" OR abs:\"SMART\") AND (cat:stat.ME OR cat:stat.ML)", "subtopic": "动态治疗方案"},
+ {"q": "(abs:\"clinical prediction model\" OR abs:\"risk prediction\" OR abs:\"calibration\" AND abs:\"prediction model\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "临床预测模型"},
+ {"q": "(abs:\"surrogate endpoint\" OR abs:\"surrogate marker\" OR abs:\"mediation analysis\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "替代终点与中介"}
+]

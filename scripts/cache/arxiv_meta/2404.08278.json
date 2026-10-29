@@ -1,0 +1,17 @@
+{
+ "id": "2404.08278",
+ "title": "Minimax Optimal Goodness-of-Fit Testing with Kernel Stein Discrepancy",
+ "authors": [
+  "Omar Hagrass",
+  "Bharath Sriperumbudur",
+  "Krishnakumar Balasubramanian"
+ ],
+ "v1_date": "2024-04-12",
+ "latest_version": 3,
+ "latest_date": "2025-01-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 pages, to appear in Bernoulli",
+ "abstract": "We explore the minimax optimality of goodness-of-fit tests on general domains using the kernelized Stein discrepancy (KSD). The KSD framework offers a flexible approach for goodness-of-fit testing, avoiding strong distributional assumptions, accommodating diverse data structures beyond Euclidean spaces, and relying only on partial knowledge of the reference distribution, while maintaining computational efficiency. Although KSD is a powerful framework for goodness-of-fit testing, only the consistency of the corresponding tests has been established so far, and their statistical optimality remains largely unexplored. In this paper, we develop a general framework and an operator-theoretic representation of the KSD, encompassing many existing KSD tests in the literature, which vary depending on the domain. Building on this representation, we propose a modified discrepancy by applying the concept of spectral regularization to the KSD framework. We establish the minimax optimality of the proposed regularized test for a wide range of the smoothness parameter $θ$ under a specific alternative space, defined over general domains, using the $χ^2$-divergence as the separation metric. In contrast, we demonstrate that the unregularized KSD test fails to achieve the minimax separation rate for the considered alternative space. Additionally, we introduce an adaptive test capable of achieving minimax optimality up to a logarithmic factor by adapting to unknown parameters. Through numerical experiments, we illustrate the superior performance of our proposed tests across various domains compared to their unregularized counterparts.",
+ "primary": "math.ST"
+}

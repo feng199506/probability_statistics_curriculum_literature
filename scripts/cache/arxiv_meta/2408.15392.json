@@ -1,0 +1,20 @@
+{
+ "id": "2408.15392",
+ "title": "The Traceplot Thickens: Developing All-Purpose Convergence Diagnostics for any Markov Chain Monte Carlo Algorithm",
+ "authors": [
+  "Luke Duttweiler",
+  "Jonathan Klus",
+  "Brent A. Coull",
+  "Ruth J. Geller",
+  "Birgit Claus Henn",
+  "Sally W. Thurston"
+ ],
+ "v1_date": "2024-08-27",
+ "latest_version": 2,
+ "latest_date": "2025-08-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 5 figures",
+ "abstract": "Markov Chain Monte Carlo (MCMC) algorithms are frequently used to perform inference under a Bayesian modeling framework. Convergence diagnostics, such as traceplots, the Gelman-Rubin potential scale reduction factor, and effective sample size, are used to visualize and monitor how well the sampler has explored the parameter space and the mixing of multiple chains. However, these classic diagnostics can be undefined or ineffective when the sample space of the algorithm varies in dimension or has a large number of discrete parameters. In this article, we develop a novel approach to produce convergence diagnostics in these difficult scenarios by mapping the original sample space to the real-line and then evaluating the convergence diagnostics on the mapped values. The effectiveness of our method is demonstrated on a MCMC algorithm sampling from a Dirichlet process mixture model. The proposed diagnostics are also used to evaluate the performance of a Bayesian kernel machine regression model for estimating the health effect of multi-pollutant mixtures in the Study of Environment, Lifestyle, and Fibroids. Based on diagnostics for the latter dataset, we then explain how we modify the MCMC sampler to improve convergence.",
+ "primary": "stat.CO"
+}

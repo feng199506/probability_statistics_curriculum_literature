@@ -1,0 +1,16 @@
+{
+ "id": "2511.13694",
+ "title": "Shortest fixed-width confidence intervals for a bounded parameter: The Push algorithm",
+ "authors": [
+  "Jay Bartroff",
+  "Asmit Chakraborty"
+ ],
+ "v1_date": "2025-11-17",
+ "latest_version": 2,
+ "latest_date": "2026-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Added needed strengthening of TP_2 (i.e., MLR) to TP_3",
+ "abstract": "We present a method for computing optimal fixed-width confidence intervals for a single, bounded parameter, extending a method for the binomial due to Asparaouhov and Lorden, who called it the Push algorithm. The method produces the shortest possible non-decreasing confidence interval for a given confidence level, and if the Push interval does not exist for a given width and level, then no such interval exists. The method applies to any bounded parameter that is discrete, or is continuous for which interval probabilities are quasiconcave. We demonstrate the method on the binomial, hypergeometric, and normal distributions with our available R package. In each of these distributions the proposed method outperforms the standard ones, and in the latter case even improves upon the $z$-interval. We apply the proposed method to World Health Organization (WHO) data on tobacco use.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2602.14061",
+ "title": "MPL-HMC: A Tunable Parameterized Leapfrog Framework for Robust Hamiltonian Monte Carlo",
+ "authors": [
+  "Sourabh Bhattacharya"
+ ],
+ "v1_date": "2026-02-15",
+ "latest_version": 1,
+ "latest_date": "2026-02-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Feedback welcome",
+ "abstract": "This article introduces the Modified Parameterized Leapfrog Hamiltonian Monte Carlo (MPL-HMC) method, a novel extension of HMC addressing key limitations through tunable integration parameters $α(δt)$ and $β(δt)$, enabling controlled perturbations to Hamiltonian dynamics. Theoretical analysis demonstrates MPL-HMC maintains approximate detailed balance. Extensive empirical evaluation reveals systematic performance improvements. The damping variant ($α_2=-0.1$, $β_2=-0.05$) achieves a 14-fold increase in effective sample size for Neal's funnel and 27\\% better efficiency for pharmacokinetic models. The anti-damping variant ($α_2=0.1$, $β_2=0.05$) achieves $\\hat{R}=1.026$ for Bayesian neural networks versus $\\hat{R}=1.981$ for standard HMC. We introduce aggressive MPL-HMC for multimodal distributions, employing extreme parameters ($α_2=8.0$--$15.0$, $β_2=5.0$--$8.0$) with enhanced sampling to achieve full mode exploration where standard methods fail. All variants maintain computational efficiency identical to standard HMC while providing systematic control over damping, exploration, stability, and accuracy. The article provides rigorous mathematical foundations, implementation specifications, parameter tuning strategies, and comprehensive performance comparisons, extending HMC's applicability to previously challenging domains.",
+ "primary": "stat.CO"
+}

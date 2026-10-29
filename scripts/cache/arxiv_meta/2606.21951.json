@@ -1,0 +1,18 @@
+{
+ "id": "2606.21951",
+ "title": "On the Curse of Dimensionality in Private Sparse Covariance Estimation and PCA",
+ "authors": [
+  "Syamantak Kumar",
+  "Shourya Pandey",
+  "Purnamrita Sarkar",
+  "Kevin Tian"
+ ],
+ "v1_date": "2026-06-20",
+ "latest_version": 1,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study high-dimensional differentially private (DP) covariance estimation in the operator norm, and principal component analysis (PCA), under $k$-row-column sparsity ($k$-RCS) of the covariance matrix. In the non-private setting, it is known that $\\mathsf{poly}(k, \\log d)$ samples suffice to solve both of these problems. However, the only comparable result known under DP (Wang et al. 2021) requires $Ω(d)$ samples under standard parameterizations of the problem. We investigate when this curse of dimensionality is inherent for sparse covariance estimation tasks under DP. On the upper bound front, we show that a $\\mathsf{poly}(k, \\log d)$ sample complexity for PCA is possible under DP, if we also posit sparsity of the leading eigenvector. We complement this result with $\\mathsf{poly}(d)$ lower bounds under DP for both sparse covariance estimation and PCA, establishing an exponential gap between the private and non-private variants of these problems when $k = \\mathsf{polylog}(d)$. To our knowledge, no such separation has previously been demonstrated for any sparse estimation problems in private high-dimensional statistics. Our techniques are flexible enough that they imply stronger lower bounds even for the well-studied problem of standard DP PCA, without sparsity assumptions.",
+ "primary": "cs.LG"
+}

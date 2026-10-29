@@ -1,0 +1,16 @@
+{
+ "id": "2601.19649",
+ "title": "Semi-supervised learning in unmatched linear regression using an empirical likelihood approach",
+ "authors": [
+  "Fadoua Balabdaoui",
+  "Jinyu Chen"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 1,
+ "latest_date": "2026-01-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Knowing the link between observed predictive variables and outcomes is crucial for making inference in any regression model. When this link is missing, partially or completely, classical estimation methods fail in recovering the true regression function. Deconvolution approaches have been proposed and studied in detail in the unmatched setting where the predictive variables and responses are allowed to be independent. In this work, we consider linear regression in a semi-supervised learning setting where, beside a small sample of matched data, we have access to a relatively large unmatched sample. Using maximum likelihood estimation, we show that under some mild assumptions the semi-supervised learning empirical maximum likelihood estimator (SSLEMLE) is asymptotically normal and give explicitly its asymptotic covariance matrix as a function of the ratio of the matched/unmatched sample sizes and other parameters. Furthermore, we quantify the statistical gain achieved by having the additional large unmatched sample over having only the small matched sample. To illustrate the theory, we present the results of an extensive simulation study and apply our methodology to the \"combined cycle power plant\" data set.",
+ "primary": "math.ST"
+}

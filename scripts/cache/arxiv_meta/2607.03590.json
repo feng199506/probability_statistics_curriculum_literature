@@ -1,0 +1,15 @@
+{
+ "id": "2607.03590",
+ "title": "Tightening Control in Neyman--Pearson Linear Classification",
+ "authors": [
+  "Yijian Huang"
+ ],
+ "v1_date": "2026-07-03",
+ "latest_version": 1,
+ "latest_date": "2026-07-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 1 figure",
+ "abstract": "Neyman--Pearson classification prioritizes one class by constraining its accuracy above a prespecified level, and then takes the accuracy of the other class as the utility objective. This paradigm is well suited for disease screening and diagnosis, among other applications. Statistical learning under this framework is complicated since classifier performance determines its acceptability. Furthermore, no learned classifier that is consistent for the oracle classifier can guarantee satisfaction of the control constraint in finite samples. Classical learning theory targets a control-relaxed empirical utility maximization (EUM) classifier. However, even the EUM classifier fails to achieve the desired control level on average. We conjecture that this under-control phenomenon is a manifestation of the over-optimism bias well known in standard statistical learning, and develop asymptotic theory to confirm it. Motivated by this insight, we propose refined learning procedures under two accuracy control strategies for the prioritized class: one controlling accuracy in expectation and the other with high probability. We further develop training-data-based methods to predict and infer class-specific accuracies of the resulting classifiers. Simulation studies demonstrate favorable finite-sample performance, and we illustrate the proposed methods with an application to cancer detection.",
+ "primary": "math.ST"
+}

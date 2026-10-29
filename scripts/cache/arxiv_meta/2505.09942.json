@@ -1,0 +1,16 @@
+{
+ "id": "2505.09942",
+ "title": "Better Understanding Triple Differences Estimators",
+ "authors": [
+  "Marcelo Ortiz-Villavicencio",
+  "Pedro H. C. Sant'Anna"
+ ],
+ "v1_date": "2025-05-15",
+ "latest_version": 3,
+ "latest_date": "2025-07-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Triple Differences (DDD) designs are widely used in empirical work to relax parallel trends assumptions in Difference-in-Differences (DiD) settings. This paper highlights that common DDD implementations -- such as taking the difference between two DiDs or applying three-way fixed effects regressions -- are generally invalid when identification requires conditioning on covariates. In staggered adoption settings, the common DiD practice of pooling all not-yet-treated units as a comparison group can introduce additional bias, even when covariates are not required for identification. These insights challenge conventional empirical strategies and underscore the need for estimators tailored specifically to DDD structures. We develop regression adjustment, inverse probability weighting, and doubly robust estimators that remain valid under covariate-adjusted DDD parallel trends. For staggered designs, we demonstrate how to effectively utilize multiple comparison groups to obtain more informative inferences. Simulations and three empirical applications highlight bias reductions and precision gains relative to standard approaches. A companion R package is available.",
+ "primary": "econ.EM"
+}

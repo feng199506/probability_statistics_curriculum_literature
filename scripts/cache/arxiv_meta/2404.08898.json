@@ -1,0 +1,17 @@
+{
+ "id": "2404.08898",
+ "title": "Using early rejection Markov chain Monte Carlo and Gaussian processes to accelerate ABC methods",
+ "authors": [
+  "Xuefei Cao",
+  "Shijia Wang",
+  "Yongdao Zhou"
+ ],
+ "v1_date": "2024-04-13",
+ "latest_version": 1,
+ "latest_date": "2024-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Approximate Bayesian computation (ABC) is a class of Bayesian inference algorithms that targets for problems with intractable or {unavailable} likelihood function. It uses synthetic data drawn from the simulation model to approximate the posterior distribution. However, ABC is computationally intensive for complex models in which simulating synthetic data is very expensive. In this article, we propose an early rejection Markov chain Monte Carlo (ejMCMC) sampler based on Gaussian processes to accelerate inference speed. We early reject samples in the first stage of the kernel using a discrepancy model, in which the discrepancy between the simulated and observed data is modeled by Gaussian process (GP). Hence, the synthetic data is generated only if the parameter space is worth exploring. We demonstrate from theory, simulation experiments, and real data analysis that the new algorithm significantly improves inference efficiency compared to existing early-rejection MCMC algorithms. In addition, we employ our proposed method within an ABC sequential Monte Carlo (SMC) sampler. In our numerical experiments, we use examples of ordinary differential equations, stochastic differential equations, and delay differential equations to demonstrate the effectiveness of the proposed algorithm. We develop an R package that is available at https://github.com/caofff/ejMCMC.",
+ "primary": "stat.CO"
+}

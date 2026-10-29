@@ -1,0 +1,17 @@
+{
+ "id": "2511.09807",
+ "title": "Sample Complexity of Quadratically Regularized Optimal Transport",
+ "authors": [
+  "Alberto González-Sanz",
+  "Eustasio del Barrio",
+  "Marcel Nutz"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 1,
+ "latest_date": "2025-11-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "It is well known that optimal transport suffers from the curse of dimensionality: when the prescribed marginals are approximated by i.i.d. samples, the convergence of the empirical optimal transport problem to the population counterpart slows exponentially with increasing dimension. Entropically regularized optimal transport (EOT) has become the standard bearer in many statistical applications as it avoids this curse. Indeed, EOT has parametric sample complexity, as has been shown in a series of works based on the smoothness of the EOT potentials or the strong concavity of the dual EOT problem. However, EOT produces full-support approximations to the (sparse) OT problem, leading to overspreading in applications, and is computationally unstable for small regularization parameters. The most popular alternative is quadratically regularized optimal transport (QOT), which penalizes couplings by $L^2$ norm instead of relative entropy. QOT produces sparse approximations of OT and is computationally stable. However, its potentials are not smooth (do not belong to a Donsker class) and its dual problem is not strongly concave, hence QOT is often assumed to suffer from the curse of dimensionality. In this paper, we show that QOT nevertheless has parametric sample complexity. More precisely, we establish central limit theorems for its dual potentials, optimal couplings, and optimal costs. Our analysis is based on novel arguments that focus on the regularity of the support of the optimal QOT coupling. Specifically, we establish a Lipschitz property of its sections and leverage VC theory to bound its statistical complexity. Our analysis also leads to gradient estimates of independent interest, including $C^{1,1}$ regularity of the population potentials.",
+ "primary": "math.ST"
+}

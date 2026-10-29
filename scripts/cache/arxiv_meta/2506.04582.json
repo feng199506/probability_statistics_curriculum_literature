@@ -1,0 +1,17 @@
+{
+ "id": "2506.04582",
+ "title": "Optimized and regularly repeated lattice-based Latin hypercube designs for large-scale computer experiments",
+ "authors": [
+  "Xu He",
+  "Junpeng Gong",
+  "Zhaohui Li"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 1,
+ "latest_date": "2025-06-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "37 pages, 19 figures, 5 algorithms",
+ "abstract": "Computer simulations serve as powerful tools for scientists and engineers to gain insights into complex systems. Less costly than physical experiments, computer experiments sometimes involve large number of trials. Conventional design optimization and model fitting methods for computer experiments are inefficient for large-scale problems. In this paper, we propose new methods to optimize good lattice point sets, using less computation to construct designs with enhanced space-filling properties such as high separation distance, low discrepancy, and high separation distance on projections. These designs show promising performance in uncertainty quantification as well as physics-informed neural networks. We also propose a new type of space-filling design called regularly repeated lattice-based Latin hypercube designs, which contain lots of local space-filling Latin hypercube designs as subdesigns. Such designs facilitate rapid fitting of multiple local Gaussian process models in a moving window type of modeling approach and thus are useful for large-scale emulation problems.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2505.05730",
+ "title": "Variational Bayesian Logistic Tensor Regression with Application to Image Recognition",
+ "authors": [
+  "Yunzhi Jin",
+  "Yanqing Zhang",
+  "Niansheng Tang"
+ ],
+ "v1_date": "2025-05-09",
+ "latest_version": 1,
+ "latest_date": "2025-05-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent years, image recognition method has been a research hotspot in various fields such as video surveillance, biometric identification, unmanned vehicles, human-computer interaction, and medical image recognition. Existing recognition methods often ignore structural information of image data or depend heavily on the sample size of image data. To address this issue, we develop a novel variational Bayesian method for image classification in a logistic tensor regression model with image tensor predictors by utilizing tensor decomposition to approximate tensor regression. To handle the sparsity of tensor coefficients, we introduce the multiway shrinkage priors for marginal factor vectors of tensor coefficients. In particular, we obtain a closed-form approximation to the variational posteriors for classification prediction based on the matricization of tensor decomposition. Simulation studies are conducted to investigate the performance of the proposed methodologies in terms of accuracy, precision and F1 score. Flower image data and chest X-ray image data are illustrated by the proposed methodologies.",
+ "primary": "stat.ME"
+}

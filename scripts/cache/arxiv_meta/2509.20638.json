@@ -1,0 +1,17 @@
+{
+ "id": "2509.20638",
+ "title": "An Interpretable Single-Index Mixed-Effects Model for Non-Gaussian National Survey Data",
+ "authors": [
+  "Qingyang Liu",
+  "Debdeep Pati",
+  "Dipankar Bandyopadhyay"
+ ],
+ "v1_date": "2025-09-25",
+ "latest_version": 1,
+ "latest_date": "2025-09-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 13 figures",
+ "abstract": "This manuscript presents an innovative statistical model to quantify periodontal disease in the context of complex medical data. A mixed-effects model incorporating skewed random effects and heavy-tailed residuals is introduced, ensuring robust handling of non-normal data distributions. The fixed effect is modeled as a combination of a slope parameter and a single index function, constrained to be monotonic increasing for meaningful interpretation. This approach captures different dimensions of periodontal disease progression by integrating Clinical Attachment Level (CAL) and Pocket Depth (PD) biomarkers within a unified analytical framework. A variable selection method based on the grouped horseshoe prior is employed, addressing the relatively high number of risk factors. Furthermore, survey weight information typically provided with large survey data is incorporated to ensure accurate inference. This comprehensive methodology significantly advances the statistical quantification of periodontal disease, offering a nuanced and precise assessment of risk factors and disease progression. The proposed methodology is implemented in the \\textsf{R} package \\href{https://cran.r-project.org/package=MSIMST}{\\textsc{MSIMST}}.",
+ "primary": "stat.ME"
+}

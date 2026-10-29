@@ -1,0 +1,17 @@
+{
+ "id": "2505.08654",
+ "title": "Holistic Multi-Scale Inference of the Leverage Effect: Efficiency under Dependent Microstructure Noise",
+ "authors": [
+  "Ziyang Xiong",
+  "Zhao Chen",
+  "Christina Dan Wang"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 3,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the long-standing challenge of estimating the leverage effect from high-frequency data contaminated by dependent, non-Gaussian microstructure noise. We depart from the conventional reliance on pre-averaging or volatility \"plug-in\" methods by introducing a holistic multi-scale framework that operates directly on the leverage effect. We propose two novel estimators: the Subsampling-and-Averaging Leverage Effect (SALE) and the Multi-Scale Leverage Effect (MSLE). Central to our approach is a shifted window technique that constructs a noise-unbiased base estimator, significantly simplifying the multi-scale architecture. We provide a rigorous theoretical foundation for these estimators, establishing central limit theorems and stable convergence results that remain valid under both noise-free and dependent-noise settings. The primary contribution to estimation efficiency is a specifically designed weighting strategy for the MSLE estimator. By optimizing the weights based on the asymptotic covariance structure across scales and incorporating finite-sample variance corrections, we achieve substantial efficiency gains over existing benchmarks. Extensive simulation studies and an empirical analysis of 30 U.S. assets demonstrate that our framework consistently yields smaller estimation errors and superior performance in realistic, noisy market environments.",
+ "primary": "stat.ME"
+}

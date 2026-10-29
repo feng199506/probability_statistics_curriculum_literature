@@ -1,0 +1,15 @@
+{
+ "id": "2609.26652",
+ "title": "Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification",
+ "authors": [
+  "Ansgar Steland"
+ ],
+ "v1_date": "2026-09-22",
+ "latest_version": 1,
+ "latest_date": "2026-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Commonly, classifiers and monitoring procedures are trained from labeled data by optimizing an objective such as the misclassification rate. This may lead to unrepresentative conditional distributions of the outcome (the labels) given important external variables, different from the conditional laws in the population. We show how to modify any given threshold-type classifier resp. monitoring rule to achieve representative conditional label prediction by using adapting the threshold to a covariate $Z$ (the context) to distribute sensitivity while maintaining the false alarm rate. In case that the alarm event is unknown, this approach also allows to (approximately) infer the event in terms of a thresholding rule. The approach is implemented by a computationally cheap nonparametric estimation procedure, and its properties are studied in terms of nonasymptotic error bounds and asymptotic distribution theory including empirical process theory. These results allow to construct uniform confidence bands, functional hypothesis tests and change-detection procedures. For the well known FICOS credit scoring example, often used in interpretable machine learning, threshold adaptation leads to an easily interpretable decision rule which can compete with state of the art methods including transformers, in terms of common classification metrics.",
+ "primary": "math.ST"
+}

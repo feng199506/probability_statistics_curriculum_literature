@@ -1,0 +1,15 @@
+{
+ "id": "2608.09840",
+ "title": "Langevin dynamics along the zero set of real-analytic potentials",
+ "authors": [
+  "Martin Larsson"
+ ],
+ "v1_date": "2026-08-10",
+ "latest_version": 1,
+ "latest_date": "2026-08-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the Langevin diffusion $dX_t = - β\\nabla V(X_t) dt + \\sqrt{2} dB_t$ for a general nonnegative real-analytic potential $V$ and a large parameter $β$. In the large-$β$ limit the process is confined to the zero set of $V$, assuming that it starts there. We derive a candidate limiting evolution on the zero set. To do so, the zero set is partitioned into strata according to a measure of local codimension known as the local learning coefficient and its multiplicity. It is then shown that the Dirichlet form associated with $X$ converges in a certain sense to a hierarchy of Dirichlet forms corresponding to a stochastic evolution on the strata. This evolution is strongly biased toward higher-dimensional, or \"more singular\", strata. This result is motivated by a question from Watanabe's singular learning theory regarding the learning dynamics of overparameterized statistical models and the generalization puzzle in deep learning. The result suggests a mechanism for the observation that stochastic gradient methods tend to be biased toward singular solutions that generalize well.",
+ "primary": "math.PR"
+}

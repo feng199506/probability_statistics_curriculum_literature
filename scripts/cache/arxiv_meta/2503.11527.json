@@ -1,0 +1,17 @@
+{
+ "id": "2503.11527",
+ "title": "Data-Driven Construction of Age-Structured Contact Networks",
+ "authors": [
+  "Luke Murray Kearney",
+  "Emma L. Davis",
+  "Matt J. Keeling"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 1,
+ "latest_date": "2025-03-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 6 figures",
+ "abstract": "Capturing the structure of a population and characterising contacts within the population are key to reliable projections of infectious disease. Two main elements of population structure -- contact heterogeneity and age -- have been repeatedly demonstrated to be key in infection dynamics, yet are rarely combined. Regarding individuals as nodes and contacts as edges within a network provides a powerful and intuitive method to fully realise this population structure. While there are a few key examples of contact networks being measured explicitly, in general we need to construct the appropriate networks from individual-level data. Here, using data from social contact surveys, we develop a generic and robust algorithm to generate an extrapolated network that preserves both age-structured mixing and heterogeneity in the number of contacts. We then use these networks to simulate the spread of infection through the population, constrained to have a given basic reproduction number ($R_0$) and hence a given early growth rate. Given the over-dominant role that highly connected nodes (`superspreaders') would otherwise play in early dynamics, we scale transmission by the average duration of contacts, providing a better match to surveillance data for numbers of secondary cases. This network-based model shows that, for COVID-like parameters, including both heterogeneity and age-structure reduces both peak height and epidemic size compared to models that ignore heterogeneity. Our robust methodology therefore allows for the inclusion of the full wealth of data commonly collected by surveys but frequently overlooked to be incorporated into more realistic transmission models of infectious diseases.",
+ "primary": "physics.soc-ph"
+}

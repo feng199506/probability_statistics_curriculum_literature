@@ -1,0 +1,18 @@
+{
+ "id": "2509.07322",
+ "title": "Cumulative Marginal Mean Model for Assessing Sequential Effects Using Digital Health Data",
+ "authors": [
+  "Xingche Guo",
+  "Zexi Cai",
+  "Yuanjia Wang",
+  "Donglin Zeng"
+ ],
+ "v1_date": "2025-09-09",
+ "latest_version": 2,
+ "latest_date": "2026-03-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mobile health (mHealth) leverages digital technologies, such as mobile phones, to capture objective, frequent, and real-world digital phenotypes from individuals, enabling the delivery of tailored interventions to accommodate substantial between-subject and temporal heterogeneity. However, evaluating heterogeneous treatment effects (HTEs) using digital phenotype data is challenging because treatments are delivered dynamically over time and may generate carryover effects that persist beyond the immediate response. Additionally, modeling observational data is complicated by confounding factors. To address these challenges, we propose a double machine learning (DML) method for estimating time-varying HTEs using digital phenotypes under a cumulative marginal mean model that separates current instantaneous effects from lagged carryover effects. Our approach uses a sequential estimation procedure together with Neyman-orthogonal scores to obtain robust inference for the time-varying HTEs. We establish the asymptotic normality of the proposed estimator. Extensive simulation studies validate the finite-sample performance of our approach, demonstrating the advantages of DML and the decomposition of treatment effects. We apply the method to an mHealth study of Parkinson's disease (PD), where we find that treatment is significantly more effective for younger patients. Our results highlight the potential of the proposed approach for advancing precision medicine in mHealth studies.",
+ "primary": "stat.ME"
+}

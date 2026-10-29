@@ -1,0 +1,17 @@
+{
+ "id": "2511.06351",
+ "title": "A Comparison of Kernels for ABC-SMC",
+ "authors": [
+  "Dennis Prangle",
+  "Cecilia Viscardi",
+  "Sammy Ragy"
+ ],
+ "v1_date": "2025-11-09",
+ "latest_version": 1,
+ "latest_date": "2025-11-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A popular method for likelihood-free inference is approximate Bayesian computation sequential Monte Carlo (ABC-SMC) algorithms. These approximate the posterior using a population of particles, which are updated using Markov kernels. Several such kernels have been proposed. In this paper we review these, highlighting some less well known choices, and proposing some novel options. Further, we conduct an extensive empirical comparison of kernel choices. Our results suggest using a one-hit kernel with a mixture proposal as a default choice.",
+ "primary": "stat.CO"
+}

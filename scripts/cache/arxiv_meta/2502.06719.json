@@ -1,0 +1,21 @@
+{
+ "id": "2502.06719",
+ "title": "Gaussian Approximation and Multiplier Bootstrap for Stochastic Gradient Descent",
+ "authors": [
+  "Marina Sheshukova",
+  "Sergey Samsonov",
+  "Denis Belomestny",
+  "Eric Moulines",
+  "Qi-Man Shao",
+  "Zhuo-Song Zhang",
+  "Alexey Naumov"
+ ],
+ "v1_date": "2025-02-10",
+ "latest_version": 3,
+ "latest_date": "2026-05-04",
+ "journal_ref": "camera ready aistats 2026",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we establish the non-asymptotic validity of the multiplier bootstrap procedure for constructing the confidence sets using the Stochastic Gradient Descent (SGD) algorithm. Under appropriate regularity conditions, our approach avoids the need to approximate the limiting covariance of Polyak-Ruppert SGD iterates, which allows us to derive approximation rates in convex distance of order up to $1/\\sqrt{n}$. Notably, this rate can be faster than the one that can be proven in the Polyak-Juditsky central limit theorem. To our knowledge, this provides the first fully non-asymptotic bound on the accuracy of bootstrap approximations in SGD algorithms. Our analysis builds on the Gaussian approximation results for nonlinear statistics of independent random variables.",
+ "primary": "stat.ML"
+}

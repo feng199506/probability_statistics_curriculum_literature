@@ -1,0 +1,18 @@
+{
+ "id": "2603.12351",
+ "title": "Probabilistic Joint and Individual Variation Explained (ProJIVE) for Data Integration",
+ "authors": [
+  "Raphiel J. Murden",
+  "Ganzhong Tian",
+  "Deqiang Qiu",
+  "Benajmin B. Risk"
+ ],
+ "v1_date": "2026-03-12",
+ "latest_version": 1,
+ "latest_date": "2026-03-12",
+ "journal_ref": "Journal of Computational and Graphical Statistics (2026)",
+ "doi": "10.1080/10618600.2026.2639081",
+ "comment": "",
+ "abstract": "Collecting multiple types of data on the same set of subjects is common in modern scientific applications including, genomics, metabolomics, and neuroimaging. Joint and Individual Variance Explained (JIVE) seeks a low-rank approximation of the joint variation between two or more sets of features captured on common subjects and isolates this variation from that unique to eachset of features. We develop an expectation-maximization (EM) algorithm to estimate a probabilistic model for the JIVE framework. The model extends probabilistic principal components analysis to multiple data sets. Our maximum likelihood approach simultaneously estimates joint and individual components, which can lead to greater accuracy compared to other methods. We apply ProJIVE to measures of brain morphometry and cognition in Alzheimer's disease. ProJIVE learns biologically meaningful courses of variation, and the joint morphometry and cognition subject scores are strongly related to more expensive existing biomarkers. Data used in preparation of this article were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Code to reproduce the analysis is available on our GitHub page.",
+ "primary": "stat.ML"
+}

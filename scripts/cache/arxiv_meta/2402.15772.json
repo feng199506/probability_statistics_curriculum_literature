@@ -1,0 +1,16 @@
+{
+ "id": "2402.15772",
+ "title": "Mean-preserving rounding integer-valued ARMA models",
+ "authors": [
+  "Christian H. Weiß",
+  "Fukang Zhu"
+ ],
+ "v1_date": "2024-02-24",
+ "latest_version": 1,
+ "latest_date": "2024-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In the past four decades, research on count time series has made significant progress, but research on $\\mathbb{Z}$-valued time series is relatively rare. Existing $\\mathbb{Z}$-valued models are mainly of autoregressive structure, where the use of the rounding operator is very natural. Because of the discontinuity of the rounding operator, the formulation of the corresponding model identifiability conditions and the computation of parameter estimators need special attention. It is also difficult to derive closed-form formulae for crucial stochastic properties. We rediscover a stochastic rounding operator, referred to as mean-preserving rounding, which overcomes the above drawbacks. Then, a novel class of $\\mathbb{Z}$-valued ARMA models based on the new operator is proposed, and the existence of stationary solutions of the models is established. Stochastic properties including closed-form formulae for (conditional) moments, autocorrelation function, and conditional distributions are obtained. The advantages of our novel model class compared to existing ones are demonstrated. In particular, our model construction avoids identifiability issues such that maximum likelihood estimation is possible. A simulation study is provided, and the appealing performance of the new models is shown by several real-world data sets.",
+ "primary": "stat.ME"
+}

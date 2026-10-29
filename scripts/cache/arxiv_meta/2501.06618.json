@@ -1,0 +1,18 @@
+{
+ "id": "2501.06618",
+ "title": "Singularities in Bayesian Inference: Crucial or Overstated?",
+ "authors": [
+  "Maria De Iorio",
+  "Andreas Heinecke",
+  "Beatrice Franzolini",
+  "Rafael Cabral"
+ ],
+ "v1_date": "2025-01-11",
+ "latest_version": 1,
+ "latest_date": "2025-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Over the past two decades, shrinkage priors have become increasingly popular, and many proposals can be found in the literature. These priors aim to shrink small effects to zero while maintaining true large effects. Horseshoe-type priors have been particularly successful in various applications, mainly due to their computational advantages. However, there is no clear guidance on choosing the most appropriate prior for a specific setting. In this work, we propose a framework that encompasses a large class of shrinkage distributions, including priors with and without a singularity at zero. By reframing such priors in the context of reliability theory and wealth distributions, we provide insights into the prior parameters and shrinkage properties. The paper's key contributions are based on studying the folded version of such distributions, which we refer to as the Gambel distribution. The Gambel can be rewritten as the ratio between a Generalised Gamma and a Generalised Beta of the second kind. This representation allows us to gain insights into the behaviours near the origin and along the tails, compute measures to compare their distributional properties, derive consistency results, devise MCMC schemes for posterior inference and ultimately provide guidance on the choice of the hyperparameters.",
+ "primary": "math.ST"
+}

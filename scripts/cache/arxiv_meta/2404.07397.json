@@ -1,0 +1,17 @@
+{
+ "id": "2404.07397",
+ "title": "Mediated probabilities of causation",
+ "authors": [
+  "Max Rubinstein",
+  "Maria Cuellar",
+  "Daniel Malinsky"
+ ],
+ "v1_date": "2024-04-11",
+ "latest_version": 3,
+ "latest_date": "2025-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a set of causal estimands that we call the \"mediated probabilities of causation.\" These estimands quantify the probabilities that an observed negative outcome was induced via a mediating pathway versus a direct pathway in a stylized setting involving a binary exposure or intervention, a single binary mediator, and a binary outcome. We outline a set of conditions sufficient to identify these effects given observed data, and propose a doubly-robust projection based estimation strategy that allows for the use of flexible non-parametric and machine learning methods for estimation. We argue that these effects may be more relevant than the probability of causation, particularly in settings where we observe both some negative outcome and negative mediating event, and we wish to distinguish between settings where the outcome was induced via the exposure inducing the mediator versus the exposure inducing the outcome directly. We motivate these estimands by discussing applications to legal and medical questions of causal attribution.",
+ "primary": "stat.ME"
+}

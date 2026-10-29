@@ -1,0 +1,21 @@
+{
+ "id": "2504.11836",
+ "title": "Non-centering for discrete-valued state transition models: an application to ESBL-producing E. coli transmission in Malawi",
+ "authors": [
+  "James Neill",
+  "Rebecca Lester",
+  "Winnie Bakali",
+  "Gareth Roberts",
+  "Nicholas Feasey",
+  "Lloyd A. C. Chapman",
+  "Chris Jewell"
+ ],
+ "v1_date": "2025-04-16",
+ "latest_version": 2,
+ "latest_date": "2025-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 8 figures (plus supplementary material with an additional 17 pages, 12 figures)",
+ "abstract": "Infectious disease transmission is often modelled by discrete-valued stochastic state-transition processes. Due to a lack of complete data, Bayesian inference for these models often relies on data-augmentation techniques. These techniques are often inefficient or time consuming to implement. We introduce a novel data-augmentation Markov chain Monte Carlo method for discrete-time individual-based epidemic models, which we call the Rippler algorithm. This method uses the transmission model in the proposal step of the Metropolis-Hastings algorithm, rather than in the accept-reject step. We test the Rippler algorithm on simulated data and apply it to data on extended-spectrum beta-lactamase (ESBL)-producing E. coli collected in Blantyre, Malawi. We compare the Rippler algorithm to two other commonly used Bayesian inference methods for partially observed epidemic data, and find that it has a good balance between mixing speed and computational complexity.",
+ "primary": "stat.ME"
+}

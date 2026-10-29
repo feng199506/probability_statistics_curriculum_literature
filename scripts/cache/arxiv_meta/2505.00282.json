@@ -1,0 +1,16 @@
+{
+ "id": "2505.00282",
+ "title": "A Unifying Framework for Robust and Efficient Inference with Unstructured Data",
+ "authors": [
+  "Jacob Carlson",
+  "Melissa Dell"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 3,
+ "latest_date": "2026-02-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "To analyze unstructured data (text, images, audio, video), economists typically first extract low-dimensional structured features with a neural network. Neural networks do not make generically unbiased predictions, and biases will propagate to estimators that use their predictions. While structured variables extracted from unstructured data have traditionally been treated as proxies - implicitly accepting arbitrary measurement error - this poses various challenges in an era where constantly evolving AI can cheaply extract data. Researcher degrees of freedom (e.g., the choice of neural network architecture, training data or prompts, and numerous implementation details) raise concerns about p-hacking and how to best show robustness, the frequent deprecation of proprietary neural networks complicates reproducibility, and researchers need a principled way to determine how accurate predictions need to be before making costly investments to improve them. To address these challenges, this study develops MAR-S (Missing At Random Structured Data), a semiparametric missing data framework that enables unbiased, efficient, and robust inference with unstructured data, by correcting for neural network prediction error with a validation sample. MAR-S synthesizes and extends existing methods for debiased inference using machine learning predictions and connects them to familiar problems such as causal inference, highlighting valuable parallels. We develop robust and efficient estimators for both descriptive and causal estimands and address inference with aggregated and transformed neural network predictions, a common scenario outside the existing literature.",
+ "primary": "econ.EM"
+}

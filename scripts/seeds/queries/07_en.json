@@ -1,0 +1,127 @@
+[
+ {
+  "q": "(ti:survey OR ti:review OR ti:tutorial OR ti:introduction OR ti:primer) AND (abs:\"e-values\" OR abs:\"e-value\" OR abs:\"anytime-valid\" OR abs:\"safe testing\")",
+  "subtopic": "e-value与任意时刻有效推断"
+ },
+ {
+  "q": "abs:\"anytime-valid\" AND (abs:\"confidence sequence\" OR abs:\"sequential test\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "e-value与任意时刻有效推断"
+ },
+ {
+  "q": "abs:\"testing by betting\" OR abs:\"universal inference\" OR ti:\"e-processes\"",
+  "subtopic": "e-value与任意时刻有效推断"
+ },
+ {
+  "q": "(ti:review OR ti:survey OR ti:tutorial OR ti:introduction) AND (abs:\"multiple testing\" OR abs:\"false discovery rate\")",
+  "subtopic": "多重检验基础"
+ },
+ {
+  "q": "ti:\"false discovery rate\" AND (cat:math.ST OR cat:stat.ME) AND abs:\"Benjamini\"",
+  "subtopic": "多重检验基础"
+ },
+ {
+  "q": "(ti:review OR ti:survey OR ti:tutorial OR ti:introduction OR ti:overview) AND (abs:\"selective inference\" OR abs:\"post-selection inference\")",
+  "subtopic": "选择后推断基础"
+ },
+ {
+  "q": "(abs:\"selective inference\" OR abs:\"data fission\" OR abs:\"data thinning\") AND (cat:stat.ME OR cat:math.ST)",
+  "subtopic": "选择后推断基础"
+ },
+ {
+  "q": "(ti:tutorial OR ti:review OR ti:introduction OR ti:\"lecture notes\") AND (abs:\"hypothesis testing\" OR abs:\"p-values\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.OT)",
+  "subtopic": "假设检验"
+ },
+ {
+  "q": "(ti:\"permutation test\" OR ti:\"permutation tests\" OR ti:\"randomization test\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "假设检验"
+ },
+ {
+  "q": "(ti:\"confidence interval\" OR ti:\"confidence intervals\" OR ti:\"confidence distribution\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "置信区间与区间估计"
+ },
+ {
+  "q": "(abs:\"likelihood ratio\" OR abs:\"likelihood principle\" OR ti:likelihood) AND (ti:review OR ti:tutorial OR ti:introduction OR ti:foundations OR ti:perspective) AND (cat:math.ST OR cat:stat.ME OR cat:stat.OT)",
+  "subtopic": "似然推断"
+ },
+ {
+  "q": "(ti:\"maximum likelihood\" OR ti:\"likelihood ratio test\" OR ti:\"Wilks\") AND cat:math.ST",
+  "subtopic": "似然推断"
+ },
+ {
+  "q": "(ti:\"decision theory\" OR ti:admissibility OR ti:\"Stein\" OR ti:shrinkage OR ti:\"empirical Bayes\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "决策理论与收缩估计"
+ },
+ {
+  "q": "(ti:\"sufficient statistic\" OR ti:sufficiency OR ti:\"Rao-Blackwell\" OR ti:\"unbiased estimat\" OR ti:\"Cramer-Rao\" OR ti:\"Cramér-Rao\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "充分性与点估计"
+ },
+ {
+  "q": "(ti:\"foundations of statistics\" OR ti:\"statistical inference\" OR ti:fiducial OR ti:\"inferential model\") AND (ti:review OR ti:survey OR ti:perspective OR ti:foundations OR ti:introduction) AND (cat:math.ST OR cat:stat.ME OR cat:stat.OT)",
+  "subtopic": "统计推断基础与哲学"
+ },
+ {
+  "q": "(ti:bayesian OR ti:bayes) AND (ti:foundations OR ti:introduction OR ti:primer OR ti:tutorial OR ti:\"lecture notes\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.OT)",
+  "subtopic": "贝叶斯基础"
+ },
+ {
+  "q": "(ti:\"Bayes factor\" OR ti:\"Bayes factors\" OR ti:\"posterior predictive\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "贝叶斯基础"
+ },
+ {
+  "q": "(ti:\"lecture notes\" OR ti:notes OR ti:course) AND (abs:\"mathematical statistics\" OR abs:\"statistical inference\")",
+  "subtopic": "统计推断基础与哲学"
+ },
+ {
+  "q": "(ti:\"e-values\" OR ti:\"safe testing\" OR ti:\"confidence sequences\" OR ti:\"universal inference\" OR ti:\"selective inference\")",
+  "subtopic": "经典",
+  "old": true
+ },
+ {
+  "q": "(ti:review OR ti:survey OR ti:overview OR ti:tutorial OR ti:introduction OR ti:perspective) AND abs:\"empirical Bayes\" AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "决策理论与收缩估计"
+ },
+ {
+  "q": "(ti:\"e-values\" OR ti:\"e-value\" OR ti:\"e-variables\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "e-value与任意时刻有效推断"
+ },
+ {
+  "q": "ti:\"confidence sequences\" AND (cat:math.ST OR cat:stat.ME OR cat:stat.ML)",
+  "subtopic": "e-value与任意时刻有效推断"
+ },
+ {
+  "q": "(ti:\"p-value\" OR ti:\"p-values\") AND (cat:math.ST OR cat:stat.ME) AND (abs:combination OR abs:calibration OR abs:validity OR abs:evidence)",
+  "subtopic": "假设检验"
+ },
+ {
+  "q": "(ti:\"Neyman-Pearson\" OR ti:\"most powerful\" OR ti:\"uniformly most powerful\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "假设检验"
+ },
+ {
+  "q": "(ti:\"objective Bayes\" OR ti:\"reference prior\" OR ti:\"Jeffreys prior\" OR ti:\"default prior\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "贝叶斯基础"
+ },
+ {
+  "q": "(ti:admissible OR ti:inadmissible OR ti:inadmissibility OR ti:\"minimax estimation\") AND cat:math.ST",
+  "subtopic": "决策理论与收缩估计"
+ },
+ {
+  "q": "(ti:\"exponential family\" OR ti:\"exponential families\") AND cat:math.ST AND (abs:estimation OR abs:inference)",
+  "subtopic": "充分性与点估计"
+ },
+ {
+  "q": "(ti:\"multiple testing\" OR ti:\"multiple comparisons\" OR ti:\"familywise\" OR ti:\"closed testing\") AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "多重检验基础"
+ },
+ {
+  "q": "(ti:\"knockoff\" OR ti:knockoffs) AND (ti:review OR ti:tutorial OR ti:introduction OR ti:survey OR ti:overview)",
+  "subtopic": "多重检验基础"
+ },
+ {
+  "q": "(ti:\"higher-order\" OR ti:saddlepoint OR ti:Bartlett OR ti:\"likelihood asymptotics\") AND (ti:likelihood OR abs:likelihood) AND (cat:math.ST OR cat:stat.ME)",
+  "subtopic": "似然推断"
+ },
+ {
+  "q": "(ti:\"Bayesian\" AND ti:\"frequentist\") AND (cat:math.ST OR cat:stat.ME OR cat:stat.OT)",
+  "subtopic": "贝叶斯基础"
+ }
+]

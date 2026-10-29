@@ -1,0 +1,16 @@
+{
+ "id": "2608.18391",
+ "title": "Quickest Change Detection in Parametric Models With 1-Bit Measurements",
+ "authors": [
+  "Liyan Xie",
+  "Martina Cardone"
+ ],
+ "v1_date": "2026-08-18",
+ "latest_version": 1,
+ "latest_date": "2026-08-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to IEEE Information Theory Workshop (ITW) 2026",
+ "abstract": "We consider the quickest change detection from 1-bit quantized observations, where the post-change distribution is a parametric model with unknown parameters and the quantization thresholds are jointly chosen with the detection statistic. We propose an Adaptive-Quantization-Threshold CUSUM (AQuTeCUSUM) algorithm, which estimates the post-change parameter online and adaptively selects the quantization threshold to maximize the induced Kullback-Leibler divergence. Under suitable regularity conditions, we characterize the average run length and worst-case average detection delay of the AQuTe-CUSUM procedure, and show that it is asymptotically optimal in first-order as the average run length goes to infinity. Finally, we assess the performance of AQuTe-CUSUM for two distributions, namely the Gaussian and Poisson.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2601.06900",
+ "title": "Minimum information Markov model",
+ "authors": [
+  "Issey Sukeda",
+  "Tomonari Sei"
+ ],
+ "v1_date": "2026-01-11",
+ "latest_version": 1,
+ "latest_date": "2026-01-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "27 pages, 6 figures",
+ "abstract": "The analysis of high-dimensional time series data has become increasingly important across a wide range of fields. Recently, a method for constructing the minimum information Markov kernel on finite state spaces was established. In this study, we propose a statistical model based on a parametrization of its dependence function, which we call the \\textit{Minimum Information Markov Model}. We show that its parametrization induces an orthogonal structure between the stationary distribution and the dependence function, and that the model arises as the optimal solution to a divergence rate minimization problem. In particular, for the Gaussian autoregressive case, we establish the existence of the optimal solution to this minimization problem, a nontrivial result requiring a rigorous proof. For parameter estimation, our approach exploits the conditional independence structure inherent in the model, which is supported by the orthogonality. Specifically, we develop several estimators, including conditional likelihood and pseudo likelihood estimators, for the minimum information Markov model in both univariate and multivariate settings. We demonstrate their practical performance through simulation studies and applications to real-world time series data.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2603.25509",
+ "title": "Conformal Prediction for Nonparametric Instrumental Regression",
+ "authors": [
+  "Masahiro Kato"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 1,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a method for constructing distribution-free prediction intervals in nonparametric instrumental variable regression (NPIV), with finite-sample coverage guarantees. Building on the conditional guarantee framework in conformal inference, we reformulate conditional coverage as marginal coverage over a class of IV shifts $\\mathcal{F}$. Our method can be combined with any NPIV estimator, including sieve 2SLS and other machine-learning-based NPIV methods such as neural networks minimax approaches. Our theoretical analysis establishes distribution-free, finite-sample coverage over a practitioner-chosen class of IV shifts.",
+ "primary": "econ.EM"
+}

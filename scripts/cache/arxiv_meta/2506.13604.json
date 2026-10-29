@@ -1,0 +1,16 @@
+{
+ "id": "2506.13604",
+ "title": "Penalised spline estimation of covariate-specific time-dependent ROC curves",
+ "authors": [
+  "María Xosé Rodríguez-Álvarez",
+  "Vanda Inácio"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 2,
+ "latest_date": "2025-10-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The identification of biomarkers with high predictive accuracy is a crucial task in medical research, as it can aid clinicians in making early decisions, thereby reducing morbidity and mortality in high-risk populations. Time-dependent receiver operating characteristic (ROC) curves are the main tool used to assess the accuracy of prognostic biomarkers for outcomes that evolve over time. Recognising the need to account for patient heterogeneity when evaluating the accuracy of a prognostic biomarker, we introduce a novel penalised-based estimator of the time-dependent ROC curve that accommodates a possible modifying effect of covariates. We consider flexible models for both the hazard function of the event time given the covariates and biomarker and for the location-scale regression model of the biomarker given covariates, enabling the accommodation of non-proportional hazards and nonlinear effects through penalised splines, thus overcoming limitations of earlier methods. The simulation study demonstrates that our approach successfully recovers the true functional form of the covariate-specific time-dependent ROC curve and the corresponding area under the curve across a variety of scenarios. Comparisons with existing methods further show that our approach performs favourably in multiple settings. Our approach is applied to evaluate the ability of the Global Registry of Acute Coronary Events risk score to predict mortality over different time periods after discharge in patients who have suffered an acute coronary syndrome and to investigate how this ability may vary with the left ventricular ejection fraction. An R package, CondTimeROC, implementing the proposed method is provided.",
+ "primary": "stat.ME"
+}

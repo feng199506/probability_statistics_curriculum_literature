@@ -1,0 +1,17 @@
+{
+ "id": "2405.03042",
+ "title": "Functional Post-Clustering Selective Inference with Applications to EHR Data Analysis",
+ "authors": [
+  "Zihan Zhu",
+  "Xin Gai",
+  "Anru R. Zhang"
+ ],
+ "v1_date": "2024-05-05",
+ "latest_version": 2,
+ "latest_date": "2026-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In electronic health records (EHR) analysis, clustering patients according to patterns in their data is crucial for uncovering new subtypes of diseases. Existing medical literature often relies on classical hypothesis testing methods to test for differences in means between these clusters. Due to selection bias induced by clustering algorithms, the implementation of these classical methods on post-clustering data often leads to an inflated type-I error. In this paper, we introduce a new statistical approach that adjusts for this bias when analyzing data collected over time. Our method extends classical selective inference methods for cross-sectional data to longitudinal data. We provide theoretical guarantees for our approach with upper bounds on the selective type-I and type-II errors. We apply the method to simulated data and real-world Acute Kidney Injury (AKI) EHR datasets, thereby illustrating the advantages of our approach.",
+ "primary": "stat.ME"
+}

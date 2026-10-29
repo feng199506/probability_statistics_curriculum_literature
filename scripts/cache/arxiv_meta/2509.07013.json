@@ -1,0 +1,18 @@
+{
+ "id": "2509.07013",
+ "title": "Generalized Machine Learning for Fast Calibration of Agent-Based Epidemic Models",
+ "authors": [
+  "Sima Najafzadehkhoei",
+  "George Vega Yon",
+  "Derek S. Meyer",
+  "Bernardo Modenesi"
+ ],
+ "v1_date": "2025-09-06",
+ "latest_version": 3,
+ "latest_date": "2026-04-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Agent-based models (ABMs) are widely used to study infectious disease dynamics, but their calibration is often computationally intensive, limiting their applicability in time-sensitive public health settings. We propose DeepIMC (Deep Inverse Mapping Calibration), a machine learning-based calibration framework that directly learns the inverse mapping from epidemic time series to epidemiological parameters. DeepIMC trains a bidirectional Long Short-Term Memory (BiLSTM) neural network on synthetic epidemic trajectories generated from agent-based models such as the Susceptible-Infected-Recovered (SIR) model, enabling rapid parameter estimation without repeated simulation at inference time. We evaluate DeepIMC through an extensive simulation study comprising 5,000 heterogeneous epidemic scenarios and benchmark its performance against Approximate Bayesian Computation (ABC) using likelihood-free Markov Chain Monte Carlo. The results show that DeepIMC substantially improves parameter recovery accuracy, produces sharp and well-calibrated predictive intervals, and reduces computational time by more than an order of magnitude relative to ABC. Although structural parameter identifiability constraints limit the precise recovery of all model parameters simultaneously, the calibrated models reliably reproduce epidemic trajectories and support accurate forward prediction with their estimated parameters. DeepIMC is implemented in the open-source R package epiworldRCalibrate, facilitating practical adoption for real-time epidemic modeling and policy analysis. Overall, our findings demonstrate that DeepIMC provides a scalable, operationally effective alternative to traditional simulation-based calibration methods for agent-based epidemic models.",
+ "primary": "cs.LG"
+}

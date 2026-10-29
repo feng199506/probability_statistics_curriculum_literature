@@ -1,0 +1,16 @@
+{
+ "id": "2602.02945",
+ "title": "Bayesian Methods for the Navier-Stokes Equations",
+ "authors": [
+  "Nicholas Polson",
+  "Vadim Sokolov"
+ ],
+ "v1_date": "2026-02-03",
+ "latest_version": 1,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a Bayesian methodology for numerical solution of the incompressible Navier--Stokes equations with quantified uncertainty. The central idea is to treat discretized Navier--Stokes dynamics as a state-space model and to view numerical solution as posterior computation: priors encode physical structure and modeling error, and the solver outputs a distribution over states and quantities of interest rather than a single trajectory. In two dimensions, stochastic representations (Feynman--Kac and stochastic characteristics for linear advection--diffusion with prescribed drift) motivate Monte Carlo solvers and provide intuition for uncertainty propagation. In three dimensions, we formulate stochastic Navier--Stokes models and describe particle-based and ensemble-based Bayesian workflows for uncertainty propagation in spectral discretizations. A key computational advantage is that parameter learning can be performed stably via particle learning: marginalization and resample--propagate (one-step smoothing) constructions avoid the weight-collapse that plagues naive sequential importance sampling on static parameters. When partial observations are available, the same machinery supports sequential observational updating as an additional capability. We also discuss non-Gaussian (heavy-tailed) error models based on normal variance-mean mixtures, which yield conditionally Gaussian updates via latent scale augmentation.",
+ "primary": "stat.CO"
+}

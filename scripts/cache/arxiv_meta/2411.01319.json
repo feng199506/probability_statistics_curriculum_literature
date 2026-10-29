@@ -1,0 +1,17 @@
+{
+ "id": "2411.01319",
+ "title": "Efficient Nested Estimation of CoVaR: A Decoupled Approach",
+ "authors": [
+  "Nifei Lin",
+  "Yingda Song",
+  "L. Jeff Hong"
+ ],
+ "v1_date": "2024-11-02",
+ "latest_version": 1,
+ "latest_date": "2024-11-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the estimation of the systemic risk measure known as CoVaR, which quantifies the risk of a financial portfolio conditional on another portfolio being at risk. We identify two principal challenges: conditioning on a zero-probability event and the repricing of portfolios. To tackle these issues, we propose a decoupled approach utilizing smoothing techniques and develop a model-independent theoretical framework grounded in a functional perspective. We demonstrate that the rate of convergence of the decoupled estimator can achieve approximately $O_{\\rm P}(Γ^{-1/2})$, where $Γ$ represents the computational budget. Additionally, we establish the smoothness of the portfolio loss functions, highlighting its crucial role in enhancing sample efficiency. Our numerical results confirm the effectiveness of the decoupled estimators and provide practical insights for the selection of appropriate smoothing techniques.",
+ "primary": "q-fin.RM"
+}

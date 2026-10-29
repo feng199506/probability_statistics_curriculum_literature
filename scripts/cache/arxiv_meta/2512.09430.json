@@ -1,0 +1,16 @@
+{
+ "id": "2512.09430",
+ "title": "Model-robust Inference for Seamless II/III Trials with Covariate Adaptive Randomization",
+ "authors": [
+  "Kun Yi",
+  "Lucy Xia"
+ ],
+ "v1_date": "2025-12-10",
+ "latest_version": 3,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Seamless phase II/III trials have become a cornerstone of modern drug development, offering a means to accelerate evaluation while maintaining statistical rigor. However, most existing inference procedures are model-based, designed primarily for continuous outcomes, and often neglect the stratification used in covariate-adaptive randomization (CAR), limiting their practical relevance. In this paper, we propose a unified, model-robust framework for seamless phase II/III trials grounded in generalized linear models (GLMs), enabling valid inference across diverse outcome types, estimands, and CAR schemes. Using Z-estimation, we derive the asymptotic properties of treatment effect estimators and explicitly characterize how their variance depends on the underlying randomization procedure. Based on these results, we develop adjusted Wald tests that, together with Dunnett's multiple-comparison procedure and the inverse chi-square combination method, ensure valid overall Type I error. Extensive simulation studies and a trial example demonstrate that the proposed model-robust tests achieve superior power and reliable inference compared to conventional approaches.",
+ "primary": "stat.ME"
+}

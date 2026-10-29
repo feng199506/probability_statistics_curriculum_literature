@@ -1,0 +1,16 @@
+{
+ "id": "2501.05676",
+ "title": "An Efficient Dual ADMM for Huber Regression with Fused Lasso Penalty",
+ "authors": [
+  "Mengjiao Shi",
+  "Yunhai Xiao"
+ ],
+ "v1_date": "2025-01-10",
+ "latest_version": 2,
+ "latest_date": "2025-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "14 pages,24 figures",
+ "abstract": "The ordinary least squares estimate in linear regression is sensitive to the influence of errors with large variance, which reduces its robustness, especially when dealing with heavy-tailed errors or outliers frequently encountered in real-world scenarios. To address this issue and accommodate the sparsity of coefficients along with their sequential disparities, we combine the adaptive robust Huber loss function with a fused lasso penalty. This combination yields a robust estimator capable of simultaneously achieving estimation and variable selection. Furthermore, we utilize an efficient alternating direction method of multipliers to solve this regression model from a dual perspective. The effectiveness and efficiency of our proposed approach is demonstrated through numerical experiments carried out on both simulated and real datasets.",
+ "primary": "stat.ME"
+}

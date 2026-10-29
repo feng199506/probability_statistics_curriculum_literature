@@ -1,0 +1,17 @@
+{
+ "id": "2602.19012",
+ "title": "Adaptive Weighting for Time-to-Event Continual Reassessment Method: Improving Safety in Phase I Dose-Finding Through Data-Driven Delay Distribution Estimation",
+ "authors": [
+  "Robert Amevor",
+  "Emmanuel Kubuafor",
+  "Dennis Baidoo"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 1,
+ "latest_date": "2026-02-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Background: Phase I dose-finding trials increasingly encounter delayed-onset toxicities, especially with immunotherapies and targeted agents. The time-to-event continual reassessment method (TITE-CRM) handles incomplete follow-up using fixed linear weights, but this ad hoc approach doesn't reflect actual delay patterns and may expose patients to excessive risk during dose escalation. Methods: We replace TITE-CRM's fixed weights with adaptive weights, posterior predictive probabilities derived from the evolving toxicity delay distribution. Under a Weibull timing model, we get closed-form weight updates through maximum likelihood estimation, making real-time implementation straightforward. We tested our method (AW-TITE) against TITE-CRM and standard designs (3+3, mTPI, BOIN) across three dose-toxicity scenarios through simulation (N = 30 patients, 2,000 replications). We also examined robustness across varying accrual rates, sample sizes, shape parameters, observation windows, and priors. Results: Our AW-TITE reduced patient overdosing by 40.6% compared to TITE-CRM (mean fraction above MTD: 0.202 vs 0.340; 95% CI: -0.210 to -0.067, p < 0.001) while maintaining comparable MTD selection accuracy (mean difference: +0.023, p = 0.21). Against algorithm-based methods, AW-TITE achieved higher MTD identification: +32.6% vs mTPI, +19.8% vs 3+3, and +5.6% vs BOIN. Performance remained robust across all sensitivity analyses. Conclusions: Adaptive weighting offers a practical way to improve Phase I trial safety while preserving MTD selection accuracy. The method requires minimal computation and is ready for real-time use.",
+ "primary": "stat.ME"
+}

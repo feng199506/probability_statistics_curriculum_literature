@@ -1,0 +1,25 @@
+{
+ "id": "2403.06783",
+ "title": "A doubly robust estimator for the Mann Whitney Wilcoxon Rank Sum Test when applied for causal inference in observational studies",
+ "authors": [
+  "Ruohui Chen",
+  "Tuo Lin",
+  "Lin Liu",
+  "Jinyuan Liu",
+  "Ruifeng Chen",
+  "Jingjing Zou",
+  "Chenyu Liu",
+  "Loki Natarajan",
+  "Tang Wang",
+  "Xinlian Zhang",
+  "Xin Tu"
+ ],
+ "v1_date": "2024-03-11",
+ "latest_version": 1,
+ "latest_date": "2024-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Mann-Whitney-Wilcoxon rank sum test (MWWRST) is a widely used method for comparing two treatment groups in randomized control trials, particularly when dealing with highly skewed data. However, when applied to observational study data, the MWWRST often yields invalid results for causal inference. To address this limitation, Wu et al. (2014) introduced an approach that incorporates inverse probability weighting (IPW) into this rank-based statistics to mitigate confounding effects. Subsequently, Mao (2018), Zhang et al. (2019), and Ai et al. (2020) extended this IPW estimator to develop doubly robust estimators. Nevertheless, each of these approaches has notable limitations. Mao's method imposes stringent assumptions that may not align with real-world study data. Zhang et al.'s (2019) estimators rely on bootstrap inference, which suffers from computational inefficiency and lacks known asymptotic properties. Meanwhile, Ai et al. (2020) primarily focus on testing the null hypothesis of equal distributions between two groups, which is a more stringent assumption that may not be well-suited to the primary practical application of MWWRST. In this paper, we aim to address these limitations by leveraging functional response models (FRM) to develop doubly robust estimators. We demonstrate the performance of our proposed approach using both simulated and real study data.",
+ "primary": "stat.ME"
+}

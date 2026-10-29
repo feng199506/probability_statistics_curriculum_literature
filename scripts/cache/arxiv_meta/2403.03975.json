@@ -1,0 +1,17 @@
+{
+ "id": "2403.03975",
+ "title": "Robust covariance estimation and explainable outlier detection for matrix-valued data",
+ "authors": [
+  "Marcus Mayrhofer",
+  "Una Radojičić",
+  "Peter Filzmoser"
+ ],
+ "v1_date": "2024-03-06",
+ "latest_version": 2,
+ "latest_date": "2024-05-08",
+ "journal_ref": "Technometrics, 2025",
+ "doi": "10.1080/00401706.2025.2475781",
+ "comment": "",
+ "abstract": "This work introduces the Matrix Minimum Covariance Determinant (MMCD) method, a novel robust location and covariance estimation procedure designed for data that are naturally represented in the form of a matrix. Unlike standard robust multivariate estimators, which would only be applicable after a vectorization of the matrix-variate samples leading to high-dimensional datasets, the MMCD estimators account for the matrix-variate data structure and consistently estimate the mean matrix, as well as the rowwise and columnwise covariance matrices in the class of matrix-variate elliptical distributions. Additionally, we show that the MMCD estimators are matrix affine equivariant and achieve a higher breakdown point than the maximal achievable one by any multivariate, affine equivariant location/covariance estimator when applied to the vectorized data. An efficient algorithm with convergence guarantees is proposed and implemented. As a result, robust Mahalanobis distances based on MMCD estimators offer a reliable tool for outlier detection. Additionally, we extend the concept of Shapley values for outlier explanation to the matrix-variate setting, enabling the decomposition of the squared Mahalanobis distances into contributions of the rows, columns, or individual cells of matrix-valued observations. Notably, both the theoretical guarantees and simulations show that the MMCD estimators outperform robust estimators based on vectorized observations, offering better computational efficiency and improved robustness. Moreover, real-world data examples demonstrate the practical relevance of the MMCD estimators and the resulting robust Shapley values.",
+ "primary": "stat.ME"
+}

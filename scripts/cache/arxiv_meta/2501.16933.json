@@ -1,0 +1,16 @@
+{
+ "id": "2501.16933",
+ "title": "Rethinking the Win Ratio: A Causal Framework for Hierarchical Outcome Analysis",
+ "authors": [
+  "Mathieu Even",
+  "Julie Josse"
+ ],
+ "v1_date": "2025-01-28",
+ "latest_version": 4,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Quantifying causal effects in the presence of complex and multivariate outcomes remains a key challenge in treatment evaluation. For hierarchical multivariate outcomes, the FDA recommends the Win Ratio and Generalized Pairwise Comparisons approaches \\citep{Pocock2011winratio,Buyse2010}. However, commonly used estimators can yield treatment recommendations that target a population-level estimand (the probability that a randomly sampled patient under treatment fares better than another randomly sampled patient under control), which can contradict conclusions drawn from an ideal estimand (the probability that an individual would fare better with treatment than without), especially in heterogeneous populations. This discrepancy arises from the non-identifiability of the latter estimand and underscores both the influence of the chosen causal measure on the resulting conclusions and the necessity of articulating the underlying causal framework with clarity. We propose a novel, individual-level yet identifiable causal effect measure that more closely approximates the ideal individual-level estimand. We show that computing the Win Ratio or Net Benefit via nearest-neighbor pairing between treated and control patients, which can be seen as an extreme form of stratification, yields an estimator of our new causal measure in both randomized controlled trials and observational settings. We then develop a distributional regression framework, alongside semiparametric efficient estimators. Our methods are simple to implement and readily applicable in practice. We evaluate the proposed approach through simulations and apply it to the CRASH-3 trial \\citep{crash3}, a major study assessing the effects of tranexamic acid in patients with traumatic brain injury.",
+ "primary": "stat.ME"
+}

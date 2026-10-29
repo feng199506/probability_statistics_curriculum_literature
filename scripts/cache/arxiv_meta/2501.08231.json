@@ -1,0 +1,17 @@
+{
+ "id": "2501.08231",
+ "title": "Bayesian shrinkage priors for penalized synthetic control estimators in the presence of spillovers",
+ "authors": [
+  "Esteban Fernández-Morales",
+  "Arman Oganisian",
+  "Youjin Lee"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 3,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Synthetic control (SC) methods are widely used to estimate the effects of policy interventions, especially those targeting specific geographic regions, referred to as units. These methods construct a weighted combination of untreated units, forming a \"synthetic\" control that approximates the counterfactual outcomes of the treated unit had the intervention not occurred. Although neighboring areas are often selected as controls due to their similarity in observed and unobserved characteristics, their proximity can lead to spillover effects, where the intervention indirectly impacts control units, potentially biasing causal estimates. To address this challenge, we introduce a Bayesian SC framework with utility-based shrinkage priors. Our approach extends traditional penalization techniques (i.e., horseshoe, spike-and-slab) by incorporating a utility function that combines covariate similarity and spatial distance. This provides a metric that guides the data-driven selection of control units based on their relevance and spillover risk, which is assumed to increase with spatial proximity. Rather than outright excluding neighboring units, the method balances bias and variance by reducing the importance of potentially contaminated controls by spillovers. We evaluate the proposed method through simulation studies at varying spillover levels and apply it to assess the impact of Philadelphia's 2017 beverage tax on the sales of sugar-sweetened and artificially sweetened beverages in mass merchandise stores.",
+ "primary": "stat.ME"
+}

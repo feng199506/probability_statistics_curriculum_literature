@@ -1,0 +1,15 @@
+{
+ "id": "2504.03992",
+ "title": "Regression Discontinuity Design with Distribution-Valued Outcomes",
+ "authors": [
+  "David Van Dijcke"
+ ],
+ "v1_date": "2025-04-04",
+ "latest_version": 1,
+ "latest_date": "2025-04-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 6 figures, 1 table, R package available at https://davidvandijcke.com/R3D",
+ "abstract": "This article introduces Regression Discontinuity Design (RDD) with Distribution-Valued Outcomes (R3D), extending the standard RDD framework to settings where the outcome is a distribution rather than a scalar. Such settings arise when treatment is assigned at a higher level of aggregation than the outcome-for example, when a subsidy is allocated based on a firm-level revenue cutoff while the outcome of interest is the distribution of employee wages within the firm. Since standard RDD methods cannot accommodate such two-level randomness, I propose a novel approach based on random distributions. The target estimand is a \"local average quantile treatment effect\", which averages across random quantiles. To estimate this target, I introduce two related approaches: one that extends local polynomial regression to random quantiles and another based on local Fréchet regression, a form of functional regression. For both estimators, I establish asymptotic normality and develop uniform, debiased confidence bands together with a data-driven bandwidth selection procedure. Simulations validate these theoretical properties and show existing methods to be biased and inconsistent in this setting. I then apply the proposed methods to study the effects of gubernatorial party control on within-state income distributions in the US, using a close-election design. The results suggest a classic equality-efficiency tradeoff under Democratic governorship, driven by reductions in income at the top of the distribution.",
+ "primary": "econ.EM"
+}

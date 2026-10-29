@@ -1,0 +1,18 @@
+{
+ "id": "2603.13038",
+ "title": "Interpretable Semantic Gradients in SSD: A PCA Sweep Approach and a Case Study on AI Discourse",
+ "authors": [
+  "Hubert Plisiecki",
+  "Maria Leniarska",
+  "Jan Piotrowski",
+  "Marcin Zajenkowski"
+ ],
+ "v1_date": "2026-03-13",
+ "latest_version": 1,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to ACL 2026",
+ "abstract": "Supervised Semantic Differential (SSD) is a mixed quantitative-interpretive method that models how text meaning varies with continuous individual-difference variables by estimating a semantic gradient in an embedding space and interpreting its poles through clustering and text retrieval. SSD applies PCA before regression, but currently no systematic method exists for choosing the number of retained components, introducing avoidable researcher degrees of freedom in the analysis pipeline. We propose a PCA sweep procedure that treats dimensionality selection as a joint criterion over representation capacity, gradient interpretability, and stability across nearby values of K. We illustrate the method on a corpus of short posts about artificial intelligence written by Prolific participants who also completed Admiration and Rivalry narcissism scales. The sweep yields a stable, interpretable Admiration-related gradient contrasting optimistic, collaborative framings of AI with distrustful and derisive discourse, while no robust alignment emerges for Rivalry. We also show that a counterfactual using a high-PCA dimension solution heuristic produces diffuse, weakly structured clusters instead, reinforcing the value of the sweep-based choice of K. The case study shows how the PCA sweep constrains researcher degrees of freedom while preserving SSD's interpretive aims, supporting transparent and psychologically meaningful analyses of connotative meaning.",
+ "primary": "cs.CL"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2312.03268",
+ "title": "Design-based inference for generalized network experiments with stochastic interventions",
+ "authors": [
+  "Ambarish Chattopadhyay",
+  "Kosuke Imai",
+  "Jose R. Zubizarreta"
+ ],
+ "v1_date": "2023-12-06",
+ "latest_version": 2,
+ "latest_date": "2024-07-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A growing number of researchers are conducting randomized experiments to analyze causal relationships in network settings where units influence one another. A dominant methodology for analyzing these experiments is design-based, leveraging random treatment assignments as the basis for inference. In this paper, we generalize this design-based approach to accommodate complex experiments with a variety of causal estimands and different target populations. An important special case of such generalized network experiments is a bipartite network experiment, in which treatment is randomized among one set of units, and outcomes are measured on a separate set of units. We propose a broad class of causal estimands based on stochastic interventions for generalized network experiments. Using a design-based approach, we show how to estimate these causal quantities without bias and develop conservative variance estimators. We apply our methodology to a randomized experiment in education where participation in an anti-conflict promotion program is randomized among selected students. Our analysis estimates the causal effects of treating each student or their friends among different target populations in the network. We find that the program improves the overall conflict awareness among students but does not significantly reduce the total number of such conflicts.",
+ "primary": "stat.ME"
+}

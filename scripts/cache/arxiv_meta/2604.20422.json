@@ -1,0 +1,17 @@
+{
+ "id": "2604.20422",
+ "title": "Likelihood-based inference for birth-death processes with composite birth mechanisms",
+ "authors": [
+  "Marko Lalovic",
+  "Nicos Georgiou",
+  "Istvan Z. Kiss"
+ ],
+ "v1_date": "2026-04-22",
+ "latest_version": 1,
+ "latest_date": "2026-04-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages, 8 figures",
+ "abstract": "We develop a likelihood-based inference for finite-state birth-death processes with composite birth rates, in which multiple distinct mechanisms contribute additively to the total birth intensity. Our main motivating example is an SIS epidemic model with pairwise and higher-order transmission. The process is observed through a single aggregate trajectory, and in the main setting of interest, birth events are unmarked. This creates a deconvolution problem in event space: the state is one-dimensional, but the mechanism underlying each birth is latent. We formulate the inference under a Doob $h$-transformed $Q$-process, which is time-homogeneous and ergodic and which provides a time-homogeneous asymptotic surrogate for the law of the original process conditioned on long survival. We derive the corresponding conditional likelihood and study both the conditional maximum likelihood estimator and a quasi-maximum likelihood estimator which is based on a simplified working score. Under the Doob-transform law, we prove consistency and asymptotic normality for both estimators, with asymptotic covariance determined by the inverse Fisher and inverse Godambe information matrices, respectively. We also showcase a practical one-dimensional test for the presence of a specific higher-order birth mechanism.",
+ "primary": "math.ST"
+}

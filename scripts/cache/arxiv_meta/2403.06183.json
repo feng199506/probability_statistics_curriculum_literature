@@ -1,0 +1,18 @@
+{
+ "id": "2403.06183",
+ "title": "An Improved Analysis of Langevin Algorithms with Prior Diffusion for Non-Log-Concave Sampling",
+ "authors": [
+  "Xunpeng Huang",
+  "Hanze Dong",
+  "Difan Zou",
+  "Tong Zhang"
+ ],
+ "v1_date": "2024-03-10",
+ "latest_version": 1,
+ "latest_date": "2024-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages",
+ "abstract": "Understanding the dimension dependency of computational complexity in high-dimensional sampling problem is a fundamental problem, both from a practical and theoretical perspective. Compared with samplers with unbiased stationary distribution, e.g., Metropolis-adjusted Langevin algorithm (MALA), biased samplers, e.g., Underdamped Langevin Dynamics (ULD), perform better in low-accuracy cases just because a lower dimension dependency in their complexities. Along this line, Freund et al. (2022) suggest that the modified Langevin algorithm with prior diffusion is able to converge dimension independently for strongly log-concave target distributions. Nonetheless, it remains open whether such property establishes for more general cases. In this paper, we investigate the prior diffusion technique for the target distributions satisfying log-Sobolev inequality (LSI), which covers a much broader class of distributions compared to the strongly log-concave ones. In particular, we prove that the modified Langevin algorithm can also obtain the dimension-independent convergence of KL divergence with different step size schedules. The core of our proof technique is a novel construction of an interpolating SDE, which significantly helps to conduct a more accurate characterization of the discrete updates of the overdamped Langevin dynamics. Our theoretical analysis demonstrates the benefits of prior diffusion for a broader class of target distributions and provides new insights into developing faster sampling algorithms.",
+ "primary": "cs.LG"
+}

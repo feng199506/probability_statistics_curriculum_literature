@@ -1,0 +1,15 @@
+{
+ "id": "2405.08730",
+ "title": "A Generalized Difference-in-Differences Estimator for Randomized Stepped-Wedge and Observational Staggered Adoption Settings",
+ "authors": [
+  "Lee Kennedy-Shaffer"
+ ],
+ "v1_date": "2024-05-14",
+ "latest_version": 3,
+ "latest_date": "2024-10-11",
+ "journal_ref": "",
+ "doi": "10.1093/biomtc/ujag105",
+ "comment": "56 pages main text, 19 pages additional material, 8 figures, 13 tables Update includes simulation results and updated discussion",
+ "abstract": "Staggered treatment adoption arises in the evaluation of policy impact and implementation in many settings, including both randomized stepped-wedge trials and non-randomized quasi-experiments with panel data. In both settings, getting an interpretable, unbiased effect estimate requires careful consideration of the target estimand and possible treatment effect heterogeneities. This paper proposes a novel non-parametric approach to this estimation for either setting. By constructing an estimator using weighted averages of two-by-two difference-in-differences comparisons as building blocks, the investigator can target the desired estimand for any assumed treatment effect heterogeneities. This provides desirable bias and interpretation properties while using the comparisons efficiently to mitigate the loss of precision, without requiring correct variance specification. The methods are demonstrated for both a randomized stepped-wedge trial on the impact of novel tuberculosis diagnostic tools and an observational staggered adoption study on the effects of COVID-19 vaccine financial incentive lotteries in U.S. states; these are compared to analyses using previous methods. A full algorithm with R code is provided to implement this method and to compare against existing methods. The proposed method allows for high flexibility and clear targeting of desired effects, providing one solution to the bias-variance-generalizability tradeoff.",
+ "primary": "stat.ME"
+}

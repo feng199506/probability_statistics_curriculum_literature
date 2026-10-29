@@ -1,0 +1,15 @@
+{
+ "id": "2606.17977",
+ "title": "Beyond Parallel Trends in Staggered Difference-in-Differences: Identification under Higher-Order Parallelism",
+ "authors": [
+  "Zecharias Anteneh"
+ ],
+ "v1_date": "2026-06-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "38 pages, 4 figures. Complete replication code and companion Stata command implementing the DD[p] estimator is available at https://github.com/zecharias2019/anddp",
+ "abstract": "In difference-in-differences designs, the parallel trends assumption requires that the outcome gap between treated and control units would have remained flat absent treatment. Pre-treatment event studies frequently reject this flat-gap requirement. Existing responses include parametric trend controls and bounds on the treatment effect under assumptions about the magnitude of the violation. This paper shows that point identification of cohort-specific and aggregate treatment effects in staggered designs remains achievable under strictly weaker assumptions. I replace the flat-gap requirement with a hierarchy of higher-order conditions, Parallel[p], embed this framework in the group-time average treatment effect structure of Callaway and Sant'Anna (2021), and prove an aggregation theorem for the case where different cohorts are identified under different feasible polynomial orders, a challenge unique to staggered designs that has not been previously addressed. A sequential order-selection procedure guides applied practice. Monte Carlo evidence confirms that post-selection bootstrap coverage remains near-nominal and that inference is robust to realistic serial correlation. Applied to Medicaid expansion data, the method yields point estimates resting on an assumption the pre-treatment data do not reject, in contrast to the flat-gap requirement which those same data decisively reject.",
+ "primary": "econ.EM"
+}

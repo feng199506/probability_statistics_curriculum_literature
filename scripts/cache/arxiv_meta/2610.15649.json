@@ -1,0 +1,17 @@
+{
+ "id": "2610.15649",
+ "title": "One Goodness-of-Fit Test Is Not Enough: Error-Controlled Localization of Misfit in Logistic Risk Models",
+ "authors": [
+  "Ebrahim Khaled Ebrahim",
+  "Ahmed El-Kotory",
+  "Osama Abd El-Aziz Hussein"
+ ],
+ "v1_date": "2026-10-11",
+ "latest_version": 1,
+ "latest_date": "2026-10-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "41 pages, 5 figures, 18 tables, including appendices with the proofs and additional studies. Code, per-data-set results and data: doi:10.5281/zenodo.23192535. The procedures are implemented in the R package ebrahim.gof (version 2.10.0, functions localize.gof and localize.external)",
+ "abstract": "A goodness-of-fit test tells whether a logistic risk model fits, but the analyst also needs to know what is wrong: an overall risk that is too high is repaired by updating the intercept, risks that are too extreme by recalibration, a curved relation between score and risk by a flexible recalibration, and misfit within groups of patients only by revising the model. We split any misfit into these four parts, which are orthogonal and match the calibration hierarchy. Each part gets a group of score tests that sees that part only, and the failing parts are named by closed testing. In external validation, in large samples and for small departures, a part is wrongly named with probability at most the chosen level, and the highest part named points to the lightest update that removes the misfit. Checking a model on its development data never sees an error in the overall risk or the calibration slope, and with binary or skewed covariates it can mistake misfit within patient groups for a curved link. External validation sees all four parts, for any prediction model. In simulations it kept its error rate when the model was right and for small departures, and usually pointed to the right update. On intensive-care data its verdicts for one model differed in-sample, on similar patients and after transport.",
+ "primary": "stat.ME"
+}

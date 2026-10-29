@@ -1,0 +1,17 @@
+{
+ "id": "2507.00151",
+ "title": "Hybrid methods for missing categorical covariates in Cox model",
+ "authors": [
+  "Abdoulaye Dioni",
+  "Lynne Moore",
+  "Aida Eslami"
+ ],
+ "v1_date": "2025-06-30",
+ "latest_version": 1,
+ "latest_date": "2025-06-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Survival analysis aims to explore the relationship between covariates and the time until the occurrence of an event. The Cox proportional hazards model is commonly used for right-censored data, but it is not strictly limited to this type of data. However, the presence of missing values among the covariates, particularly categorical ones, can compromise the validity of the estimates. To address this issue, various classical methods for handling missing data have been proposed within the Cox model framework, including parametric imputation, nonparametric imputation, and semiparametric methods. It is well-documented that none of these methods is universally ideal or optimal, making the choice of the preferred method often complex and challenging. To overcome these limitations, we propose hybrid methods that combine the advantages of classical methods to enhance the robustness of the analyses. Through a simulation study, we demonstrate that these hybrid methods provide increased flexibility, simplified implementation, and improved robustness compared to classical methods. The results from the simulation study highlight that hybrid methods offer increased flexibility, simplified implementation, and greater robustness compared to classical approaches. In particular, they allow for a reduction in estimation bias; however, this improvement comes at the cost of reduced precision, due to increased variability. This observation reflects a well-known methodological trade-off between bias and variance, inherent to the combination of complementary imputation strategies.",
+ "primary": "stat.ME"
+}

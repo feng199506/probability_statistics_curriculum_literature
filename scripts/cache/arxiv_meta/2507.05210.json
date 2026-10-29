@@ -1,0 +1,18 @@
+{
+ "id": "2507.05210",
+ "title": "Identification of Causal Effects with a Bunching Design",
+ "authors": [
+  "Carolina Caetano",
+  "Gregorio Caetano",
+  "Leonard Goff",
+  "Eric Nielsen"
+ ],
+ "v1_date": "2025-07-07",
+ "latest_version": 1,
+ "latest_date": "2025-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We show that causal effects can be identified when there is bunching in the distribution of a continuous treatment variable, without imposing any parametric assumptions. This yields a new nonparametric method for overcoming selection bias in the absence of instrumental variables, panel data, or other popular research designs for causal inference. The method leverages the change of variables theorem from integration theory, relating the selection bias to the ratio of the density of the treatment and the density of the part of the outcome that varies with confounders. At the bunching point, the treatment level is constant, so the variation in the outcomes is due entirely to unobservables, allowing us to identify the denominator. Our main result identifies the average causal response to the treatment among individuals who marginally select into the bunching point. We further show that under additional smoothness assumptions on the selection bias, treatment effects away from the bunching point may also be identified. We propose estimators based on standard software packages and apply the method to estimate the effect of maternal smoking during pregnancy on birth weight.",
+ "primary": "econ.EM"
+}

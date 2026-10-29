@@ -1,0 +1,17 @@
+{
+ "id": "2603.18404",
+ "title": "Multi-Domain Empirical Bayes for Linearly-Mixed Causal Representations",
+ "authors": [
+  "Bohan Wu",
+  "Julius von Kügelgen",
+  "David M. Blei"
+ ],
+ "v1_date": "2026-03-19",
+ "latest_version": 3,
+ "latest_date": "2026-10-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages. Revised presentation and references, with new semi-synthetic single-cell experiments based on a myeloid gene-regulatory network and the Sachs protein-signalling data",
+ "abstract": "Causal representation learning (CRL) aims to learn low-dimensional causal latent variables from high-dimensional observations. While identifiability has been extensively studied for CRL, estimation has been less explored. We use empirical Bayes (EB) to estimate causal representations from multiple domains whose differences reflect interventions in a shared causal model. Multi-domain CRL poses a simultaneous inference problem suited to EB. Here, we propose an EB $f$-modeling algorithm that improves the quality of learned causal variables by exploiting invariant structure within and across domains. Specifically, we consider linear measurement models with interventional priors induced by an acyclic latent causal model with known graph and intervention targets. We develop an EM-style algorithm based on causally structured score matching. In experiments on synthetic and semi-synthetic single-cell data, our proposed method achieves more accurate estimation than alternative methods and baselines.",
+ "primary": "stat.ML"
+}

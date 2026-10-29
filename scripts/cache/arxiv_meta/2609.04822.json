@@ -1,0 +1,17 @@
+{
+ "id": "2609.04822",
+ "title": "Minimax Lower Bound for Estimating Diffusion-based Local Intrinsic Dimension",
+ "authors": [
+  "Jaehee Seo",
+  "Wontae Jeong",
+  "Jisu Kim"
+ ],
+ "v1_date": "2026-09-04",
+ "latest_version": 1,
+ "latest_date": "2026-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "29 pages, 1 figure",
+ "abstract": "While diffusion-based methods have recently emerged as effective tools for probing the intrinsic geometry of high-dimensional data, their statistical difficulty remains largely unexplored. We study estimation of the finite-scale population functional underlying FLIPD (Kamkari et al., 2024; arXiv:2406.03537), a diffusion-based local intrinsic dimension (LID) quantity defined through the logarithmic scale derivative of a Gaussian-smoothed density. Intuitively, Gaussian smoothing turns local dimension into a scale law: near a $d$-dimensional manifold, the kernel mass grows like $σ^d$, so differentiating with respect to the noise scale reveals the intrinsic exponent. Under a regular manifold model, we show uniformly over the model class that the finite-scale field differs from the manifold dimension $d$ by at most $O(σ^2)$. We then establish a minimax lower bound of order $(nσ^d)^{-1}$ for estimating this finite-scale field from $n$ observations, for $n^{-1/(2α+d)}\\lesssimσ\\leσ_0$. At the smallest scale covered by our lower-bound construction, the bound becomes the nonparametric rate $n^{-2α/(2α+d)}$.",
+ "primary": "stat.ML"
+}

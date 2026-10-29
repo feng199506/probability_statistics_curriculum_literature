@@ -1,0 +1,17 @@
+{
+ "id": "2402.00907",
+ "title": "AlphaRank: An Artificial Intelligence Approach for Ranking and Selection Problems",
+ "authors": [
+  "Ruihan Zhou",
+  "L. Jeff Hong",
+  "Yijie Peng"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 1,
+ "latest_date": "2024-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce AlphaRank, an artificial intelligence approach to address the fixed-budget ranking and selection (R&S) problems. We formulate the sequential sampling decision as a Markov decision process and propose a Monte Carlo simulation-based rollout policy that utilizes classic R&S procedures as base policies for efficiently learning the value function of stochastic dynamic programming. We accelerate online sample-allocation by using deep reinforcement learning to pre-train a neural network model offline based on a given prior. We also propose a parallelizable computing framework for large-scale problems, effectively combining \"divide and conquer\" and \"recursion\" for enhanced scalability and efficiency. Numerical experiments demonstrate that the performance of AlphaRank is significantly improved over the base policies, which could be attributed to AlphaRank's superior capability on the trade-off among mean, variance, and induced correlation overlooked by many existing policies.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2508.15664",
+ "title": "Conditional cross-fitting for unbiased machine-learning-assisted covariate adjustment in randomized experiments",
+ "authors": [
+  "Xin Lu",
+  "Lei Shi",
+  "Hanzhong Liu",
+  "Peng Ding"
+ ],
+ "v1_date": "2025-08-21",
+ "latest_version": 1,
+ "latest_date": "2025-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Randomized experiments are the gold standard for estimating the average treatment effect (ATE). While covariate adjustment can reduce the asymptotic variances of the unbiased Horvitz-Thompson estimators for the ATE, it suffers from finite-sample biases due to data reuse in both prediction and estimation. Traditional sample-splitting and cross-fitting methods can address the problem of data reuse and obtain unbiased estimators. However, they require that the data are independently and identically distributed, which is usually violated under the design-based inference framework for randomized experiments. To address this challenge, we propose a novel conditional cross-fitting method, under the design-based inference framework, where potential outcomes and covariates are fixed and the randomization is the sole source of randomness. We propose sample-splitting algorithms for various randomized experiments, including Bernoulli randomized experiments, completely randomized experiments, and stratified randomized experiments. Based on the proposed algorithms, we construct unbiased covariate-adjusted ATE estimators and propose valid inference procedures. Our methods can accommodate flexible machine-learning-assisted covariate adjustments and allow for model misspecification.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2602.19201",
+ "title": "Panel Quantile Regression with Common Shocks",
+ "authors": [
+  "Harold D. Chiang",
+  "Antonio F. Galvao",
+  "Chia-Min Wei"
+ ],
+ "v1_date": "2026-02-22",
+ "latest_version": 3,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops an asymptotic and inferential theory for fixed-effects panel quantile regression (FEQR) that delivers inference robust to pervasive common shocks. Such shocks induce cross-sectional dependence that is central in many economic and financial panels but largely ignored in existing FEQR theory, which typically assumes cross-sectional independence and requires $T \\gg N$. We show that the standard FEQR estimator remains asymptotically normal under the mild condition $(\\log N)^2/T \\to 0$, thereby accommodating empirically relevant regimes, including those with $T \\ll N$. We further show that common shocks fundamentally alter the asymptotic covariance structure, rendering conventional covariance estimators inconsistent, and we propose a simple covariance estimator that remains consistent both in the presence and absence of common shocks. The proposed procedure therefore provides valid robust inference without requiring prior knowledge of the dependence structure, substantially expanding the applicability of FEQR methods in realistic panel data settings.",
+ "primary": "econ.EM"
+}

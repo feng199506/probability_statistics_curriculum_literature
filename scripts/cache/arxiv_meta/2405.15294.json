@@ -1,0 +1,17 @@
+{
+ "id": "2405.15294",
+ "title": "Semi-Supervised Learning guided by the Generalized Bayes Rule under Soft Revision",
+ "authors": [
+  "Stefan Dietrich",
+  "Julian Rodemann",
+  "Christoph Jansen"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 2,
+ "latest_date": "2024-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 11th International Conference on Soft Methods in Probability and Statistics (SMPS) 2024",
+ "abstract": "We provide a theoretical and computational investigation of the Gamma-Maximin method with soft revision, which was recently proposed as a robust criterion for pseudo-label selection (PLS) in semi-supervised learning. Opposed to traditional methods for PLS we use credal sets of priors (\"generalized Bayes\") to represent the epistemic modeling uncertainty. These latter are then updated by the Gamma-Maximin method with soft revision. We eventually select pseudo-labeled data that are most likely in light of the least favorable distribution from the so updated credal set. We formalize the task of finding optimal pseudo-labeled data w.r.t. the Gamma-Maximin method with soft revision as an optimization problem. A concrete implementation for the class of logistic models then allows us to compare the predictive power of the method with competing approaches. It is observed that the Gamma-Maximin method with soft revision can achieve very promising results, especially when the proportion of labeled data is low.",
+ "primary": "stat.ML"
+}

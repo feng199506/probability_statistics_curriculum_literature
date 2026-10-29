@@ -1,0 +1,18 @@
+{
+ "id": "2602.22582",
+ "title": "Predictive variational inference for flexible regression models",
+ "authors": [
+  "Lucas Kock",
+  "Scott A. Sisson",
+  "G. S. Rodrigues",
+  "David J. Nott"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A conventional Bayesian approach to prediction uses the posterior distribution to integrate out parameters in a density for unobserved data conditional on the observed data and parameters. When the true posterior is intractable, it is replaced by an approximation; here we focus on variational approximations. Recent work has explored methods that learn posteriors optimized for predictive accuracy under a chosen scoring rule, while regularizing toward the prior or conventional posterior. Our work builds on an existing predictive variational inference (PVI) framework that improves prediction, but also diagnoses model deficiencies through implicit model expansion. In models where the sampling density depends on the parameters through a linear predictor, we improve the interpretability of existing PVI methods as a diagnostic tool. This is achieved by adopting PVI posteriors of Gaussian mixture form (GM-PVI) and establishing connections with plug-in prediction for mixture-of-experts models. We make three main contributions. First, we show that GM-PVI prediction is equivalent to plug-in prediction for certain mixture-of-experts models with covariate-independent weights in generalized linear models and hierarchical extensions of them. Second, we extend standard PVI by allowing GM-PVI posteriors to vary with the prediction covariate and in this case an equivalence to plug-in prediction for mixtures of experts with covariate-dependent weights is established. Third, we demonstrate the diagnostic value of this approach across several examples, including generalized linear models, linear mixed models, and latent Gaussian process models, demonstrating how the parameters of the original model must vary across the covariate space to achieve improvements in prediction.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2406.02530",
+ "title": "LongBet: Heterogeneous Treatment Effect Estimation in Panel Data",
+ "authors": [
+  "Meijia Wang",
+  "Ignacio Martinez",
+  "P. Richard Hahn"
+ ],
+ "v1_date": "2024-06-04",
+ "latest_version": 1,
+ "latest_date": "2024-06-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a novel approach for estimating heterogeneous treatment effects of binary treatment in panel data, particularly focusing on short panel data with large cross-sectional data and observed confoundings. In contrast to traditional literature in difference-in-differences method that often relies on the parallel trend assumption, our proposed model does not necessitate such an assumption. Instead, it leverages observed confoundings to impute potential outcomes and identify treatment effects. The method presented is a Bayesian semi-parametric approach based on the Bayesian causal forest model, which is extended here to suit panel data settings. The approach offers the advantage of the Bayesian approach to provides uncertainty quantification on the estimates. Simulation studies demonstrate its performance with and without the presence of parallel trend. Additionally, our proposed model enables the estimation of conditional average treatment effects, a capability that is rarely available in panel data settings.",
+ "primary": "stat.ME"
+}

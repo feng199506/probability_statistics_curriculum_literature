@@ -1,0 +1,15 @@
+{
+ "id": "2605.17082",
+ "title": "Spectral Purification in Reversible Markov Chains: Hidden Parameters, Observable Equivalence, and Finite-Time Rigidity",
+ "authors": [
+  "Qiao Wang"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This is a revised version",
+ "abstract": "Classical spectral theory of reversible Markov chains characterizes the asymptotic relaxation dominated by the slowest eigenmode, governed by the spectral gap. This paper studies a complementary finite-time phenomenon: long before stationarity, many observables of the relaxation trajectory behave as if only a single spectral mode remains -- a collapse we term spectral purification. We develop a quantitative theory for it. The theory rests on three structural insights: (i) shifting focus from the state trajectory to the modal distribution $p_i(k)$ (normalized spectral energy across modes); (ii) a hidden purification parameter $x_k$ driven by the spectral separation ratio $λ_3/λ_2$ that governs the evolution of $p_i(k)$; and (iii) an equivalence class of six seemingly distinct purification diagnostics (slow-mode energy fraction, power-iteration error, direction deficit, Rayleigh quotient error, eigenvalue estimate error, and spectral entropy), all reducing to $x_k$ to leading order up to explicit constants. This equivalence yields sharp non-asymptotic two-sided bounds on the rigidity time $T_{\\mathrm{rigid}}(δ)$ (when the slowest mode captures a prescribed spectral energy fraction), controlled by $λ_3/λ_2$ rather than the gap $1-λ_2$. It also provides an exact non-asymptotic entropy representation, including a spectral Clausius equality and a spectral second law $G(k+1) \\le G(k)$. The boundary of the theory is identified: while the asymptotic variance of time-average estimators is monotone in $λ_3/λ_2$, the finite-$k$ mean-squared-error correction lies outside the $x_k$-governed exponential regime. Applied to power iteration, the theory delivers an exact error identity, an observable spectral variance formula, and a fully data-driven adaptive stopping criterion with provable guarantees.",
+ "primary": "math.PR"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2605.19164",
+ "title": "Weak Convergence and Gaussian Limits for a General-Dimensional Origin-Invariant Cramér--von Mises Statistic",
+ "authors": [
+  "Marco Mandap"
+ ],
+ "v1_date": "2026-05-18",
+ "latest_version": 3,
+ "latest_date": "2026-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 1 figure. Proof verification used Lean 4",
+ "abstract": "We introduce a general-dimensional origin-invariant Cramér--von Mises statistic $\\barω_d^2$ for testing complete spatial randomness, defined by averaging corner-oriented empirical-distribution-function discrepancies over all $2^d$ corners of $[0,1]^d$. The statistic has a closed-form $O(n^2)$ computing formula. For $d=1$ it reduces to the classical rank-based Cramér--von Mises statistic, while for $d=2$ its computing formula agrees with Zimmerman's origin-invariant statistic. Under iid complete spatial randomness, the associated empirical process converges in $\\ell^\\infty$ to a centered Gaussian process with an explicit cross-corner covariance kernel. The continuous mapping theorem yields a quadratic Gaussian limit governed by a positive trace-class covariance operator with trace $2^{-d}-3^{-d}$. We also connect fixed-count complete spatial randomness with the homogeneous Poisson formulation. For strictly stationary alpha-mixing sequences with uniform marginals, we establish covariance summability, the long-run variance limit, and a finite-dimensional all-corners Gaussian limit. Monte Carlo experiments illustrate null calibration and sensitivity to selected alternatives. The statistic is consistent against fixed iid alternatives whose distribution functions differ from uniformity on a set of positive measure.",
+ "primary": "stat.ME"
+}

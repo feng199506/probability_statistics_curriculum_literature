@@ -1,0 +1,16 @@
+{
+ "id": "2510.03990",
+ "title": "Optimality and computational barriers in variable selection under dependence",
+ "authors": [
+  "Ming Gao",
+  "Bryon Aragam"
+ ],
+ "v1_date": "2025-10-05",
+ "latest_version": 1,
+ "latest_date": "2025-10-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the optimal sample complexity of variable selection in linear regression under general design covariance, and show that subset selection is optimal while under standard complexity assumptions, efficient algorithms for this problem do not exist. Specifically, we analyze the variable selection problem and provide the optimal sample complexity with exact dependence on the problem parameters for both known and unknown sparsity settings. Moreover, we establish a sample complexity lower bound for any efficient estimator, highlighting a gap between the statistical efficiency achievable by combinatorial algorithms (such as subset selection) compared to efficient algorithms (such as those based on convex programming). The proofs rely on a finite-sample analysis of an information criterion estimator, which may be of independent interest. Our results emphasize the optimal position of subset selection, the critical role played by restricted eigenvalues, and characterize the statistical-computational trade-off in high-dimensional variable selection.",
+ "primary": "math.ST"
+}

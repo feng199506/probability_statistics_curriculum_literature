@@ -1,0 +1,17 @@
+{
+ "id": "2502.13157",
+ "title": "Bayesian Kernel Machine Regression via Random Fourier Features for Estimating Joint Health Effects of Multiple Exposures",
+ "authors": [
+  "Danlu Zhang",
+  "Stephanie M. Eick",
+  "Howard H. Chang"
+ ],
+ "v1_date": "2025-02-14",
+ "latest_version": 2,
+ "latest_date": "2026-01-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Environmental epidemiology has traditionally examined single exposure one at a time. Advances in exposure assessment and statistical methods now enable studies of multiple exposures and their combined health impacts. Bayesian Kernel Machine Regression (BKMR) is a widely used approach to flexibly estimates joint, nonlinear effects of multiple exposures. But BMKR is computationally intensive for large datasets, as repeated kernel inversion in Markov chain Monte Carlo (MCMC) can be time-consuming and often infeasible in practice. To address this issue, we propose using supervised random Fourier basis functions to replace the Gaussian process random effects. This re-frames the kernel machine regression into a linear mixed-effect model that facilitates computationally efficient estimation and prediction. Bayesian inference is conducted using MCMC with Hamiltonian Monte Carlo algorithms. Simulation studies demonstrate that our method yields results comparable to BKMR while significantly reduces the computation time. Our approach outperforms BKMR when the exposure-response surface has stronger dependency and when using predictive process as an alternative approximation method. Finally, we applied this approach to analyze over 270,000 birth records, examining associations between multiple ambient air pollutants and birthweight in Georgia.",
+ "primary": "stat.ME"
+}

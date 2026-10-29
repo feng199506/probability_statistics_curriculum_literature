@@ -1,0 +1,17 @@
+{
+ "id": "2407.05492",
+ "title": "Gaussian Approximation and Output Analysis for High-Dimensional MCMC",
+ "authors": [
+  "Ardjen Pengel",
+  "Jun Yang",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2024-07-07",
+ "latest_version": 2,
+ "latest_date": "2024-10-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "65 pages, dim-dependence improved in v2",
+ "abstract": "The widespread use of Markov Chain Monte Carlo (MCMC) methods for high-dimensional applications has motivated research into the scalability of these algorithms with respect to the dimension of the problem. Despite this, numerous problems concerning output analysis in high-dimensional settings have remained unaddressed. We present novel quantitative Gaussian approximation results for a broad range of MCMC algorithms. Notably, we analyse the dependency of the obtained approximation errors on the dimension of both the target distribution and the feature space. We demonstrate how these Gaussian approximations can be applied in output analysis. This includes determining the simulation effort required to guarantee Markov chain central limit theorems and consistent estimation of the variance and effective sample size in high-dimensional settings. We give quantitative convergence bounds for termination criteria and show that the termination time of a wide class of MCMC algorithms scales polynomially in dimension while ensuring a desired level of precision. Our results offer guidance to practitioners for obtaining appropriate standard errors and deciding the minimum simulation effort of MCMC algorithms in both multivariate and high-dimensional settings.",
+ "primary": "stat.CO"
+}

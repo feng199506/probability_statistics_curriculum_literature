@@ -1,0 +1,17 @@
+{
+ "id": "2503.11375",
+ "title": "Difference-in-Differences Meets Synthetic Control: Doubly Robust Identification and Estimation",
+ "authors": [
+  "Yixiao Sun",
+  "Haitian Xie",
+  "Yuhang Zhang"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 3,
+ "latest_date": "2026-09-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Difference-in-Differences (DiD) and Synthetic Control (SC) are widely used methods for causal inference in panel data, each with distinct strengths and limitations. We propose a novel method for short-panel causal inference that integrates the advantages of both approaches. Our method delivers a doubly robust identification strategy for the average treatment effect on the treated (ATT) under either of two non-nested assumptions: parallel trends or a group-level SC condition. Building on this identification result, we develop a unified semiparametric framework for estimating the ATT. Notably, the identification-robust moment function satisfies Neyman orthogonality under the parallel trends assumption but not under the SC assumption, leading to different asymptotic variances across the two identification strategies. To ensure valid inference, we propose a multiplier bootstrap method that consistently approximates the asymptotic distribution under either assumption. Furthermore, we extend our methodology to accommodate repeated cross-sectional data and staggered treatment designs. As an empirical application, we evaluate the impact of the 2003 minimum-wage increase in Alaska on family income. Finally, in simulation studies based on empirically calibrated data-generating processes, we demonstrate that the proposed estimation and inference methods perform well in finite samples under either identification assumption.",
+ "primary": "econ.EM"
+}

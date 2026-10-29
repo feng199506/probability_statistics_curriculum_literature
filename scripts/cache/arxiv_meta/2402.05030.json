@@ -1,0 +1,16 @@
+{
+ "id": "2402.05030",
+ "title": "Inference for Two-Stage Extremum Estimators",
+ "authors": [
+  "Aristide Houndetoungan",
+  "Abdoul Haki Maoude"
+ ],
+ "v1_date": "2024-02-07",
+ "latest_version": 2,
+ "latest_date": "2024-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a simulation-based inference approach for two-stage estimators, focusing on extremum estimators in the second stage. We accommodate a broad range of first-stage estimators, including extremum estimators, high-dimensional estimators, and other types of estimators such as Bayesian estimators. The key contribution of our approach lies in its ability to estimate the asymptotic distribution of two-stage estimators, even when the distributions of both the first- and second-stage estimators are non-normal and when the second-stage estimator's bias, scaled by the square root of the sample size, does not vanish asymptotically. This enables reliable inference in situations where standard methods fail. Additionally, we propose a debiased estimator, based on the mean of the estimated distribution function, which exhibits improved finite sample properties. Unlike resampling methods, our approach avoids the need for multiple calculations of the two-stage estimator. We illustrate the effectiveness of our method in an empirical application on peer effects in adolescent fast-food consumption, where we address the issue of biased instrumental variable estimates resulting from many weak instruments.",
+ "primary": "econ.EM"
+}

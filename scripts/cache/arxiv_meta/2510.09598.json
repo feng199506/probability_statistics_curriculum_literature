@@ -1,0 +1,15 @@
+{
+ "id": "2510.09598",
+ "title": "Defensive Model Expansion for Robust Bayesian Inference",
+ "authors": [
+  "Antonio R. Linero"
+ ],
+ "v1_date": "2025-10-10",
+ "latest_version": 2,
+ "latest_date": "2026-03-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Some applied researchers hesitate to use nonparametric methods, worrying that they will lose power in small samples or overfit the data when simpler models are sufficient. We argue that at least some of these concerns are unfounded when nonparametric models are strongly shrunk toward parametric submodels. We consider expanding a parametric model with a nonparametric component $r(x)$ that is heavily shrunk toward zero. This construction allows the model to adapt automatically: if the parametric model is correct, the nonparametric component disappears, recovering parametric efficiency, while if it is misspecified, the flexible component activates to capture the missing signal. We show that this adaptive behavior follows from simple and general conditions. Specifically, we prove that Bayesian nonparametric models anchored to linear regression, including variants of Gaussian process regression and Bayesian additive regression trees, consistently identify the correct parametric submodel when it holds and give asymptotically efficient inference for regression coefficients. In simulations, we find that the general BART model performs identically to correctly specified linear regression when the parametric model holds, and substantially outperforms it when nonlinear effects are present. This suggests a practical paradigm: defensive model expansion as a safeguard against model misspecification.",
+ "primary": "stat.ME"
+}

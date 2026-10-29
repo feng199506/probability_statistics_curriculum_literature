@@ -1,0 +1,17 @@
+{
+ "id": "2511.02235",
+ "title": "Diffusion Index Forecasting with Tensor Data",
+ "authors": [
+  "Bin Chen",
+  "Yuefeng Han",
+  "Qiyang Yu"
+ ],
+ "v1_date": "2025-11-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper, we consider diffusion index forecasting with both tensor and non-tensor predictors, where the tensor structure is preserved with a Canonical Polyadic (CP) tensor factor model. When the number of non-tensor predictors is small, we study the asymptotic properties of the least squares estimator in this tensor factor-augmented regression, allowing for factors with different strengths. We derive an analytical formula for prediction intervals that accounts for the estimation uncertainty of the latent factors. In addition, we propose a novel thresholding estimator for the high-dimensional covariance matrix that is robust to cross-sectional dependence. When the number of non-tensor predictors exceeds or diverges with the sample size, we introduce a multi-source factor-augmented sparse regression model and establish the consistency of the corresponding penalized estimator. Simulation studies validate our theoretical results and an empirical application to U.S. trade flows demonstrates the advantages of our approach over other popular methods in the literature.",
+ "primary": "stat.ME"
+}

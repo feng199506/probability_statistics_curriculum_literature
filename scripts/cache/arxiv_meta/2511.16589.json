@@ -1,0 +1,17 @@
+{
+ "id": "2511.16589",
+ "title": "A flexible quantile mixed-effects model for censored outcomes",
+ "authors": [
+  "Divan A. Burger",
+  "Sean van der Merwe",
+  "Emmanuel Lesaffre"
+ ],
+ "v1_date": "2025-11-20",
+ "latest_version": 1,
+ "latest_date": "2025-11-20",
+ "journal_ref": "",
+ "doi": "10.1007/s40300-026-00314-4",
+ "comment": "",
+ "abstract": "We introduce a Bayesian quantile mixed-effects model for censored longitudinal outcomes based on the skew exponential power (SEP) error distribution. The SEP family separates tail behavior and skewness from the targeted quantile and includes the skew Laplace (SL) distribution as a special case. We derive analytic likelihood contributions for left, right, and interval censoring under the SEP model, so censored observations are handled within a single parametric framework without numerical integration in the likelihood. In simulation studies with varying censoring patterns and skewness profiles, the SEP-based quantile mixed-effects model maintains near-nominal bias and credible interval coverage for regression coefficients. In contrast, the SL-based model can exhibit bias and undercoverage when the data's skewness conflicts with the skewness implied by the target quantile. In an HIV-1 RNA viral load case study with left censoring at the assay limit, bridge-sampled marginal likelihoods and simulation-based residual diagnostics favor the SEP specification across quantiles and yield more stable estimates of treatment-specific viral load trajectories than the SL benchmark.",
+ "primary": "stat.ME"
+}

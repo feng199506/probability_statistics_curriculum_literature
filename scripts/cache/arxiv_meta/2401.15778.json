@@ -1,0 +1,16 @@
+{
+ "id": "2401.15778",
+ "title": "On the partial autocorrelation function for locally stationary time series: characterization, estimation and inference",
+ "authors": [
+  "Xiucai Ding",
+  "Zhou Zhou"
+ ],
+ "v1_date": "2024-01-28",
+ "latest_version": 2,
+ "latest_date": "2024-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "26 pages, 6 figures",
+ "abstract": "For stationary time series, it is common to use the plots of partial autocorrelation function (PACF) or PACF-based tests to explore the temporal dependence structure of such processes. To our best knowledge, such analogs for non-stationary time series have not been fully established yet. In this paper, we fill this gap for locally stationary time series with short-range dependence. First, we characterize the PACF locally in the time domain and show that the $j$th PACF, denoted as $ρ_{j}(t),$ decays with $j$ whose rate is adaptive to the temporal dependence of the time series $\\{x_{i,n}\\}$. Second, at time $i,$ we justify that the PACF $ρ_j(i/n)$ can be efficiently approximated by the best linear prediction coefficients via the Yule-Walker's equations. This allows us to study the PACF via ordinary least squares (OLS) locally. Third, we show that the PACF is smooth in time for locally stationary time series. We use the sieve method with OLS to estimate $ρ_j(\\cdot)$ and construct some statistics to test the PACFs and infer the structures of the time series. These tests generalize and modify those used for stationary time series. Finally, a multiplier bootstrap algorithm is proposed for practical implementation and an $\\mathtt R$ package $\\mathtt {Sie2nts}$ is provided to implement our algorithm. Numerical simulations and real data analysis also confirm usefulness of our results.",
+ "primary": "math.ST"
+}

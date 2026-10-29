@@ -1,0 +1,18 @@
+{
+ "id": "2501.07842",
+ "title": "Prediction Inference Using Generalized Functional Mixed Effects Models",
+ "authors": [
+  "Xinkai Zhou",
+  "Erjia Cui",
+  "Joseph Sartini",
+  "Ciprian Crainiceanu"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 1,
+ "latest_date": "2025-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce inferential methods for prediction based on functional random effects in generalized functional mixed effects models. This is similar to the inference for random effects in generalized linear mixed effects models (GLMMs), but for functional instead of scalar outcomes. The method combines: (1) local GLMMs to extract initial estimators of the functional random components on the linear predictor scale; (2) structural functional principal components analysis (SFPCA) for dimension reduction; and (3) global Bayesian multilevel model conditional on the eigenfunctions for inference on the functional random effects. Extensive simulations demonstrate excellent coverage properties of credible intervals for the functional random effects in a variety of scenarios and for different data sizes. To our knowledge, this is the first time such simulations are conducted and reported, likely because prediction inference was not viewed as a priority and existing methods are too slow to calculate coverage. Methods are implemented in a reproducible R package and demonstrated using the NHANES 2011-2014 accelerometry data.",
+ "primary": "stat.ME"
+}

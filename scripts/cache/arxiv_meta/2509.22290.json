@@ -1,0 +1,15 @@
+{
+ "id": "2509.22290",
+ "title": "New Quantum Internet Applications via Verifiable One-Time Programs",
+ "authors": [
+  "Lev Stambler"
+ ],
+ "v1_date": "2025-09-26",
+ "latest_version": 2,
+ "latest_date": "2026-03-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce Verifiable One-Time Programs (Ver-OTPs) and use them to construct single-round Open Secure Computation (OSC), a novel primitive enabling applications like (1) single-round sealed-bid auctions, (2) single-round and honest-majority atomic proposes -- a building block of consensus protocols, and (3) single-round differentially private statistical aggregation without pre-registration. First, we construct Ver-OTPs from single-qubit states and classical cryptographic primitives. Then, assuming a multi-key homomorphic scheme (MHE) with certain properties, we use Ver-OTPs with MHE to construct OSC. The underlying quantum requirement is minimal: only single-qubit states are needed alongside a hardware assumption on the receiver's quantum resources. Our work therefore provides a new framework for quantum-assisted cryptography that may be implementable with near-term quantum technology.",
+ "primary": "quant-ph"
+}

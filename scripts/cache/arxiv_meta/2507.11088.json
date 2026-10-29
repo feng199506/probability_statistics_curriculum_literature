@@ -1,0 +1,17 @@
+{
+ "id": "2507.11088",
+ "title": "Context-stratified Mendelian randomization: exploiting regional exposure variation to explore causal effect heterogeneity and non-linearity",
+ "authors": [
+  "Stephen Burgess",
+  "Benjamin A R Woolf",
+  "Amy M Mason"
+ ],
+ "v1_date": "2025-07-15",
+ "latest_version": 1,
+ "latest_date": "2025-07-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Mendelian randomization (MR) uses genetic variants as instrumental variables to make causal claims. Standard MR approaches typically report a single population-averaged estimate, limiting their ability to explore effect heterogeneity or non-linear dose-response relationships. Existing stratification methods, such as residual-based and doubly-ranked stratified MR, attempt to overcome this but rely on strong and unverifiable assumptions. We propose an alternative, context-stratified Mendelian randomization, which exploits exogenous variation in the exposure across subgroups -- such as recruitment centres, geographic regions, or time periods -- to investigate effect heterogeneity and non-linearity. Separate MR analyses are performed within each context, and heterogeneity in the resulting estimates is assessed using Cochran's Q statistic and meta-regression. We demonstrate through simulations that the approach detects heterogeneity when present while maintaining nominal false positive rates under homogeneity when appropriate methods are used. In an applied example using UK Biobank data, we assess the effect of vitamin D levels on coronary artery disease risk across 20 recruitment centres. Despite some regional variation in vitamin D distributions, there is no evidence for a causal effect or heterogeneity in estimates. Compared to stratification methods requiring model-based assumptions, the context-stratified approach is simple to implement and robust to collider bias, provided the context variable is exogenous. However, the method's power and interpretability depend critically on meaningful exogenous variation in exposure distributions between contexts. In the example of vitamin D, subgroups from other stratification methods explored a much wider range of the exposure distribution.",
+ "primary": "stat.ME"
+}

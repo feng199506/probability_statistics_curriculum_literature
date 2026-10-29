@@ -1,0 +1,17 @@
+{
+ "id": "2407.04806",
+ "title": "Training Guarantees of Neural Network Classification Two-Sample Tests by Kernel Analysis",
+ "authors": [
+  "Varun Khurana",
+  "Xiuyuan Cheng",
+  "Alexander Cloninger"
+ ],
+ "v1_date": "2024-07-05",
+ "latest_version": 2,
+ "latest_date": "2024-07-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We construct and analyze a neural network two-sample test to determine whether two datasets came from the same distribution (null hypothesis) or not (alternative hypothesis). We perform time-analysis on a neural tangent kernel (NTK) two-sample test. In particular, we derive the theoretical minimum training time needed to ensure the NTK two-sample test detects a deviation-level between the datasets. Similarly, we derive the theoretical maximum training time before the NTK two-sample test detects a deviation-level. By approximating the neural network dynamics with the NTK dynamics, we extend this time-analysis to the realistic neural network two-sample test generated from time-varying training dynamics and finite training samples. A similar extension is done for the neural network two-sample test generated from time-varying training dynamics but trained on the population. To give statistical guarantees, we show that the statistical power associated with the neural network two-sample test goes to 1 as the neural network training samples and test evaluation samples go to infinity. Additionally, we prove that the training times needed to detect the same deviation-level in the null and alternative hypothesis scenarios are well-separated. Finally, we run some experiments showcasing a two-layer neural network two-sample test on a hard two-sample test problem and plot a heatmap of the statistical power of the two-sample test in relation to training time and network complexity.",
+ "primary": "stat.ML"
+}

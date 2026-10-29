@@ -1,0 +1,15 @@
+{
+ "id": "2503.14717",
+ "title": "On the Precise Asymptotics of Universal Inference",
+ "authors": [
+  "Kenta Takatsu"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 1,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In statistical inference, confidence set procedures are typically evaluated based on their validity and width properties. Even when procedures achieve rate-optimal widths, confidence sets can still be excessively wide in practice due to elusive constants, leading to extreme conservativeness, where the empirical coverage probability of nominal $1-α$ level confidence sets approaches one. This manuscript studies this gap between validity and conservativeness, using universal inference (Wasserman et al., 2020) with a regular parametric model under model misspecification as a running example. We identify the source of asymptotic conservativeness and propose a general remedy based on studentization and bias correction. The resulting method attains exact asymptotic coverage at the nominal $1-α$ level, even under model misspecification, provided that the product of the estimation errors of two unknowns is negligible, exhibiting an intriguing resemblance to double robustness in semiparametric theory.",
+ "primary": "math.ST"
+}

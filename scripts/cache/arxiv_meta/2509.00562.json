@@ -1,0 +1,16 @@
+{
+ "id": "2509.00562",
+ "title": "SANVI: A Fast Spectral-Assisted Network Variational Inference Method with an Extended Surrogate Likelihood Function",
+ "authors": [
+  "Dingbo Wu",
+  "Fangzheng Xie"
+ ],
+ "v1_date": "2025-08-30",
+ "latest_version": 1,
+ "latest_date": "2025-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian inference has been broadly applied to statistical network analysis, but suffers from the expensive computational costs due to the nature of Markov chain Monte Carlo sampling algorithms. This paper proposes a novel and computationally efficient Spectral-Assisted Network Variational Inference (SANVI) method within the framework of the generalized random dot product graph. The key idea is a cleverly designed extended surrogate likelihood function that enjoys two convenient features. Firstly, it decouples the generalized inner product of latent positions in the random graph model. Secondly, it relaxes the complicated domain of the original likelihood function to the entire Euclidean space. Leveraging these features, we design a computationally efficient Gaussian variational inference algorithm via stochastic gradient descent. Furthermore, we show the asymptotic efficiency of the maximum extended surrogate likelihood estimator and the Bernstein-von Mises limit of the variational posterior distribution. Through extensive numerical studies, we demonstrate the usefulness of the proposed SANVI algorithm compared to the classical Markov chain Monte Carlo algorithm, including comparable estimation accuracy for the latent positions and less computational costs.",
+ "primary": "stat.CO"
+}

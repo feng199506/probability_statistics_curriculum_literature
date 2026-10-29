@@ -1,0 +1,15 @@
+{
+ "id": "2312.14191",
+ "title": "Noisy Measurements Are Important, the Design of Census Products Is Much More Important",
+ "authors": [
+  "John M. Abowd"
+ ],
+ "v1_date": "2023-12-20",
+ "latest_version": 2,
+ "latest_date": "2024-05-01",
+ "journal_ref": "Harvard Data Science Review, Volume 6, Number 2 (Spring, 2024)",
+ "doi": "10.1162/99608f92.79d4660d",
+ "comment": "",
+ "abstract": "McCartan et al. (2023) call for \"making differential privacy work for census data users.\" This commentary explains why the 2020 Census Noisy Measurement Files (NMFs) are not the best focus for that plea. The August 2021 letter from 62 prominent researchers asking for production of the direct output of the differential privacy system deployed for the 2020 Census signaled the engagement of the scholarly community in the design of decennial census data products. NMFs, the raw statistics produced by the 2020 Census Disclosure Avoidance System before any post-processing, are one component of that design-the query strategy output. The more important component is the query workload output-the statistics released to the public. Optimizing the query workload-the Redistricting Data (P.L. 94-171) Summary File, specifically-could allow the privacy-loss budget to be more effectively managed. There could be fewer noisy measurements, no post-processing bias, and direct estimates of the uncertainty from disclosure avoidance for each published statistic.",
+ "primary": "cs.CR"
+}

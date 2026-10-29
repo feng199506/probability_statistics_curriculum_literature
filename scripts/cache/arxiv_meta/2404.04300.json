@@ -1,0 +1,17 @@
+{
+ "id": "2404.04300",
+ "title": "Quantifying age-specific household contacts in Aotearoa New Zealand for infectious disease modelling",
+ "authors": [
+  "Caleb Sullivan",
+  "Pubudu Senanayake",
+  "Michael J. Plank"
+ ],
+ "v1_date": "2024-04-04",
+ "latest_version": 2,
+ "latest_date": "2024-08-25",
+ "journal_ref": "R. Soc. Open Sci. (2024) 11: 240550",
+ "doi": "10.1098/rsos.240550",
+ "comment": "",
+ "abstract": "Accounting for population age structure and age-specific contact patterns is crucial for accurate modelling of human infectious disease dynamics and impact. A common approach is to use contact matrices, which estimate the number of contacts between individuals of different ages. These contact matrices are frequently based on data collected from populations with very different demographic and socioeconomic characteristics from the population of interest. Here we use a comprehensive household composition dataset based on Aotearoa New Zealand census and administrative data to construct a household contact matrix and a synthetic population that can be used for modelling. We investigate the behaviour of a compartment-based and an agent-based epidemic model parameterised using this data, compared to a commonly used contact matrix that was constructed by projecting international data onto New Zealand's population. We find that using the New Zealand household data, either in a compartment-based model or in an agent-based model, leads to lower attack rates in older age groups compared to using the projected contact matrix. This difference becomes larger when household transmission is more dominant relative to non-household transmission. We provide electronic versions of the synthetic population and household contact matrix for other researchers to use in infectious disease models.",
+ "primary": "q-bio.PE"
+}

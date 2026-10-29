@@ -1,0 +1,17 @@
+{
+ "id": "2412.04582",
+ "title": "The Census-Stub Graph Invariant Descriptor",
+ "authors": [
+  "Matt I. B. Oddo",
+  "Stephen Kobourov",
+  "Tamara Munzner"
+ ],
+ "v1_date": "2024-12-05",
+ "latest_version": 1,
+ "latest_date": "2024-12-05",
+ "journal_ref": "",
+ "doi": "10.1109/tvcg.2024.3513275",
+ "comment": "",
+ "abstract": "An invariant descriptor captures meaningful structural features of networks, useful where traditional visualizations, like node-link views, face challenges like the hairball phenomenon (inscrutable overlap of points and lines). Designing invariant descriptors involves balancing abstraction and information retention, as richer data summaries demand more storage and computational resources. Building on prior work, chiefly the BMatrix -- a matrix descriptor visualized as the invariant network portrait heatmap -- we introduce BFS-Census, a new algorithm computing our Census data structures: Census-Node, Census-Edge, and Census-Stub. Our experiments show Census-Stub, which focuses on stubs (half-edges), has orders of magnitude greater discerning power (ability to tell non-isomorphic graphs apart) than any other descriptor in this study, without a difficult trade-off: the substantial increase in resolution does not come at a commensurate cost in storage space or computation power. We also present new visualizations -- our Hop-Census polylines and Census-Census trajectories -- and evaluate them using real-world graphs, including a sensitivity analysis that shows graph topology change maps to visual Census change.",
+ "primary": "cs.HC"
+}

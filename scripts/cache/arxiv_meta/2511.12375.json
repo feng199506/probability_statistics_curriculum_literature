@@ -1,0 +1,17 @@
+{
+ "id": "2511.12375",
+ "title": "Group Identification and Variable Selection in Multivariable Mendelian Randomization with Highly-Correlated Exposures",
+ "authors": [
+  "Yinxiang Wu",
+  "Neil M. Davies",
+  "Ting Ye"
+ ],
+ "v1_date": "2025-11-15",
+ "latest_version": 1,
+ "latest_date": "2025-11-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariable Mendelian Randomization (MVMR) estimates the direct causal effects of multiple risk factors on an outcome using genetic variants as instruments. The growing availability of summary-level genetic data has created opportunities to apply MVMR in high-dimensional settings with many strongly correlated candidate risk factors. However, existing methods face three major limitations: weak instrument bias, limited interpretability, and the absence of valid post-selection inference. Here we introduce MVMR-PACS, a method that identifies signal-groups -- sets of causal risk factors with high genetic correlation or indistinguishable causal effects -- and estimates the direct effect of each group. MVMR-PACS minimizes a debiased objective function that reduces weak instrument bias while yielding interpretable estimates with theoretical guarantees for variable selection. We adapt a data-thinning strategy to summary-data MVMR to enable valid post-selection inference. In simulations, MVMR-PACS outperforms existing approaches in both estimation accuracy and variable selection. When applied to 27 lipoprotein subfraction traits and coronary artery disease risk, MVMR-PACS identifies biologically meaningful and robust signal-groups with interpretable direct causal effects.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2506.15599",
+ "title": "Independent increments and group sequential tests",
+ "authors": [
+  "Anastasios A. Tsiatis",
+  "Marie Davidian"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "16 pages",
+ "abstract": "Widely used methods and software for group sequential tests of a null hypothesis of no treatment difference that allow for early stopping of a clinical trial depend primarily on the fact that sequentially-computed test statistics have the independent increments property. However, there are many practical situations where the sequentially-computed test statistics do not possess this property. Key examples are in trials where the primary outcome is a time to an event but where the assumption of proportional hazards is likely violated, motivating consideration of treatment effects such as the difference in restricted mean survival time or the use of approaches that are alternatives to the familiar logrank test, in which case the associated test statistics may not possess independent increments. We show that, regardless of the covariance structure of sequentially-computed test statistics, one can always derive linear combinations of these test statistics sequentially that do have the independent increments property. We also describe how to best choose these linear combinations to target specific alternative hypotheses, such as proportional or non-proportional hazards or log odds alternatives. We thus derive new, sequentially-computed test statistics that not only have the independent increments property, supporting straightforward use of existing methods and software, but that also have greater power against target alternative hypotheses than do procedures based on the original test statistics, regardless of whether or not the original statistics have the independent increments property. We illustrate with two examples.",
+ "primary": "stat.ME"
+}

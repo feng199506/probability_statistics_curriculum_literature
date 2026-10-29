@@ -1,0 +1,16 @@
+{
+ "id": "2510.05370",
+ "title": "Sparse-Group Factor Analysis for High-Dimensional Time Series",
+ "authors": [
+  "Xin Wang",
+  "Xialu Liu"
+ ],
+ "v1_date": "2025-10-06",
+ "latest_version": 1,
+ "latest_date": "2025-10-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Factor analysis is a widely used technique for dimension reduction in high-dimensional data. However, a key challenge in factor models lies in the interpretability of the latent factors. One intuitive way to interpret these factors is through their associated loadings. Liu and Wang proposed a novel framework that redefines factor models with sparse loadings to enhance interpretability. In many high-dimensional time series applications, variables exhibit natural group structures. Building on this idea, our paper incorporates domain knowledge and prior information by modeling both individual sparsity and group sparsity in the loading matrix. This dual-sparsity framework further improves the interpretability of the estimated factors. We develop an algorithm to estimate both the loading matrix and the common component, and we establish the asymptotic properties of the resulting estimators. Simulation studies demonstrate the strong performance of the proposed method, and a real-data application illustrates how incorporating prior knowledge leads to more interpretable results.",
+ "primary": "stat.ME"
+}

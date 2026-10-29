@@ -1,0 +1,15 @@
+{
+ "id": "2510.16745",
+ "title": "Kernel-Based Nonparametric Tests For Shape Constraints",
+ "authors": [
+  "Rohan Sen"
+ ],
+ "v1_date": "2025-10-19",
+ "latest_version": 3,
+ "latest_date": "2026-01-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "40 pages, 4 figures",
+ "abstract": "We propose a kernel-based nonparametric framework for mean-variance optimization that enables inference on economically motivated shape constraints in finance, including positivity, monotonicity, and convexity. Many central hypotheses in financial econometrics are naturally expressed as shape relations on latent functions (e.g., term premia, CAPM relations, and the pricing kernel), yet enforcing such constraints during estimation can mask economically meaningful violations; our approach therefore separates learning from validation by first estimating an unconstrained solution and then testing shape properties. We establish statistical properties of the regularized sample estimator and derive rigorous guarantees, including asymptotic consistency, a functional central limit theorem, and a finite-sample deviation bound achieving the Monte Carlo rate up to a regularization term. Building on these results, we construct a joint Wald-type statistic to test shape constraints on finite grids. An efficient algorithm based on a pivoted Cholesky factorization yields scalability to large datasets. Numerical studies, including an options-based asset-pricing application, illustrate the usefulness of the proposed method for evaluating monotonicity and convexity restrictions.",
+ "primary": "stat.ML"
+}

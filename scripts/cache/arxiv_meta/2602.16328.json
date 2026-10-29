@@ -1,0 +1,16 @@
+{
+ "id": "2602.16328",
+ "title": "A general framework for modeling Gaussian process with qualitative and quantitative factors",
+ "authors": [
+  "Linsui Deng",
+  "C. F. Jeff Wu"
+ ],
+ "v1_date": "2026-02-18",
+ "latest_version": 1,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Computer experiments involving both qualitative and quantitative (QQ) factors have attracted increasing attention. Gaussian process (GP) models have proven effective in this context by choosing specialized covariance functions for QQ factors. In this work, we extend the latent variable-based GP approach, which maps qualitative factors into a continuous latent space, by establishing a general framework to apply standard kernel functions to continuous latent variables. This approach provides a novel perspective for interpreting some existing GP models for QQ factors and introduces new covariance structures in some situations. The ordinal structure can be incorporated naturally and seamlessly in this framework. Furthermore, the Bayesian information criterion and leave-one-out cross-validation are employed for model selection and model averaging. The performance of the proposed method is comprehensively studied on several examples.",
+ "primary": "stat.ME"
+}

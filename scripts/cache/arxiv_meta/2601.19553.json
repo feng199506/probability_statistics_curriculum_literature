@@ -1,0 +1,15 @@
+{
+ "id": "2601.19553",
+ "title": "A Fast, Closed-Form Bandwidth Selector for the Beta Kernel Density Estimator",
+ "authors": [
+  "Johan Hallberg Szabadváry"
+ ],
+ "v1_date": "2026-01-27",
+ "latest_version": 3,
+ "latest_date": "2026-05-09",
+ "journal_ref": "",
+ "doi": "10.1080/10618600.2026.2670662",
+ "comment": "v3: Added Appendix detailing Python, R, and Julia software implementations. Accepted for publication in the Journal of Computational and Graphical Statistics (JCGS)",
+ "abstract": "The Beta kernel estimator offers a theoretically superior alternative to the Gaussian kernel for unit interval data, eliminating boundary bias without requiring reflection or transformation. However, its adoption remains limited by the lack of a reliable bandwidth selector; practitioners currently rely on iterative optimization methods that are computationally expensive and prone to instability. We derive the ``Beta Reference Rule,'' a fast, closed-form bandwidth selector based on the unweighted Asymptotic Mean Integrated Squared Error (AMISE) of a beta reference distribution. To address boundary integrability issues, we introduce a principled heuristic for U-shaped and J-shaped distributions. By employing a method-of-moments approximation, we reduce the bandwidth selection complexity from iterative optimization to $\\mathcal{O}(1)$. Extensive Monte Carlo simulations demonstrate that our rule matches the accuracy of numerical optimization while delivering a speedup of over 35,000 times. Real-world validation on socioeconomic data shows that it avoids the ``vanishing boundary'' and ``shoulder'' artifacts common to Gaussian-based methods. We provide a comprehensive, open-source Python package to facilitate the immediate adoption of the Beta kernel as a drop-in replacement for standard density estimation tools.",
+ "primary": "stat.ME"
+}

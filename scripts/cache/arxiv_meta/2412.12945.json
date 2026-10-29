@@ -1,0 +1,19 @@
+{
+ "id": "2412.12945",
+ "title": "Meta-analysis models relaxing the random effects normality assumption: methodological systematic review and simulation study",
+ "authors": [
+  "Kanella Panagiotopoulou",
+  "Theodoros Evrenoglou",
+  "Christopher H Schmid",
+  "Silvia Metelli",
+  "Anna Chaimani"
+ ],
+ "v1_date": "2024-12-17",
+ "latest_version": 1,
+ "latest_date": "2024-12-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Random effects meta-analysis is widely used for synthesizing studies under the assumption that underlying effects come from a normal distribution. However, under certain conditions the use of alternative distributions might be more appropriate. We conducted a systematic review to identify articles introducing alternative meta-analysis models assuming non-normal between-study distributions. We identified 27 eligible articles suggesting 24 alternative meta-analysis models based on long-tail and skewed distributions, on mixtures of distributions, and on Dirichlet process priors. Subsequently, we performed a simulation study to evaluate the performance of these models and to compare them with the standard normal model. We considered 22 scenarios varying the amount of between-study variance, the shape of the true distribution, and the number of included studies. We compared 15 models implemented in the Frequentist or in the Bayesian framework. We found small differences with respect to bias between the different models but larger differences in the level of coverage probability. In scenarios with large between-study variance, all models were substantially biased in the estimation of the mean treatment effect. This implies that focusing only on the mean treatment effect of random effects meta-analysis can be misleading when substantial heterogeneity is suspected or outliers are present.",
+ "primary": "stat.ME"
+}

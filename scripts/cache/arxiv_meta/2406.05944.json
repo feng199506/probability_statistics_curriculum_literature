@@ -1,0 +1,16 @@
+{
+ "id": "2406.05944",
+ "title": "Embedding Network Autoregression for time series analysis and causal peer effect inference",
+ "authors": [
+  "Jae Ho Chang",
+  "Subhadeep Paul"
+ ],
+ "v1_date": "2024-06-10",
+ "latest_version": 2,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose an Embedding Network Autoregressive Model for multivariate networked longitudinal data. We assume the network is generated from a latent variable model, and these unobserved variables are included in a structural peer effect model or a time series network autoregressive model as additive effects. This approach takes a unified view of two related yet fundamentally different problems: (1) modeling and predicting multivariate networked time series data and (2) causal peer influence estimation in the presence of homophily from finite time longitudinal data. Our estimation strategy comprises estimating latent variables from the observed network followed by least squares estimation of the network autoregressive model. We show that the estimated momentum and peer effect parameters are consistent and asymptotically normally distributed in setups with a growing number of network vertices (N) while considering both a growing number of time points T (for the time series problem) and finite T cases (for the peer effect problem). We allow the number of latent vectors K to grow at appropriate rates, which improves upon existing rates when such results are available for related models. Our theoretical results encompass cases both when the network is modeled with the random dot product graph model (ENAR) and a more general latent space model with both additive and multiplicative effects (AMNAR). We also develop a selection criterion when K is unknown that provably does not under-select and show that the theoretical guarantees hold with the selected number for K as well. Interestingly, even though we propose a unified model, our theoretical results find that different growth rates and restrictions on the latent vectors are needed to induce omitted variable bias in the peer effect problem and to ensure consistent estimation in the time series problem.",
+ "primary": "stat.ME"
+}

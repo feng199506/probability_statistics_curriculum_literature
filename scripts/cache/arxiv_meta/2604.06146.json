@@ -1,0 +1,17 @@
+{
+ "id": "2604.06146",
+ "title": "Sufficient conditions for proper posteriors in fully-Bayesian Functional PCA",
+ "authors": [
+  "Joseph Sartini",
+  "Scott Zeger",
+  "Ciprian Crainiceanu"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 2,
+ "latest_date": "2026-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "5 pages, no figures",
+ "abstract": "In a fully-Bayesian Functional Principal Components Analysis (FPCA) the principal components are treated as unknown infinite-dimensional parameters. By projecting the functional principal components on a rich orthonormal spline basis, we show that orthonormality of the principal components is equivalent to orthonormality of the spline coefficients. A penalty on the integral of the second derivative of the functional principal components can be induced on the spline coefficients, where each function has its own smoothing parameter. Finally, each smoothing parameter is treated as an inverse variance component in the associated mixed effects model. In this work, we demonstrate that no additional conditions are required to ensure that the corresponding smoothing prior, and thus the posterior distribution, is proper. This allows the choice of less informative priors, such that smoothing is driven by the data.",
+ "primary": "stat.ME"
+}

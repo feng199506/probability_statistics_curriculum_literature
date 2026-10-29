@@ -1,0 +1,18 @@
+{
+ "id": "2507.14535",
+ "title": "Inference for Diffusion Processes via Controlled Sequential Monte Carlo and Splitting Schemes",
+ "authors": [
+  "Shu Huang",
+  "Richard G. Everitt",
+  "Massimiliano Tamborrino",
+  "Adam M. Johansen"
+ ],
+ "v1_date": "2025-07-19",
+ "latest_version": 1,
+ "latest_date": "2025-07-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce an inferential framework for a wide class of semi-linear stochastic differential equations (SDEs). Recent work has shown that numerical splitting schemes can preserve critical properties of such types of SDEs, give rise to explicit pseudolikelihoods, and hence allow for parameter inference for fully observed processes. Here, under several discrete time observation regimes (particularly, partially and fully observed with and without noise), we represent the implied pseudolikelihood as the normalising constant of a Feynman--Kac flow, allowing its efficient estimation via controlled sequential Monte Carlo and adapt likelihood-based methods to exploit this pseudolikelihood for inference. The strategy developed herein allows us to obtain good inferential results across a range of problems. Using diffusion bridges, we are able to computationally reduce bias coming from time-discretisation without recourse to more complex numerical schemes which typically require considerable application-specific efforts. Simulations illustrate that our method provides an excellent trade-off between computational efficiency and accuracy, under hypoellipticity, for both point and posterior estimation. Application to a neuroscience example shows the good performance of the method in challenging settings.",
+ "primary": "stat.CO"
+}

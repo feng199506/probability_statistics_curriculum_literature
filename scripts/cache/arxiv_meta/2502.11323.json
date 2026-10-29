@@ -1,0 +1,17 @@
+{
+ "id": "2502.11323",
+ "title": "A statistical theory of overfitting for imbalanced classification",
+ "authors": [
+  "Jingyang Lyu",
+  "Kangjie Zhou",
+  "Yiqiao Zhong"
+ ],
+ "v1_date": "2025-02-17",
+ "latest_version": 1,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "119 pages, 14 figures",
+ "abstract": "Classification with imbalanced data is a common challenge in data analysis, where certain classes (minority classes) account for a small fraction of the training data compared with other classes (majority classes). Classical statistical theory based on large-sample asymptotics and finite-sample corrections is often ineffective for high-dimensional data, leaving many overfitting phenomena in empirical machine learning unexplained. In this paper, we develop a statistical theory for high-dimensional imbalanced classification by investigating support vector machines and logistic regression. We find that dimensionality induces truncation or skewing effects on the logit distribution, which we characterize via a variational problem under high-dimensional asymptotics. In particular, for linearly separable data generated from a two-component Gaussian mixture model, the logits from each class follow a normal distribution $\\mathsf{N}(0,1)$ on the testing set, but asymptotically follow a rectified normal distribution $\\max\\{κ, \\mathsf{N}(0,1)\\}$ on the training set -- which is a pervasive phenomenon we verified on tabular data, image data, and text data. This phenomenon explains why the minority class is more severely affected by overfitting. Further, we show that margin rebalancing, which incorporates class sizes into the loss function, is crucial for mitigating the accuracy drop for the minority class. Our theory also provides insights into the effects of overfitting on calibration and other uncertain quantification measures.",
+ "primary": "math.ST"
+}

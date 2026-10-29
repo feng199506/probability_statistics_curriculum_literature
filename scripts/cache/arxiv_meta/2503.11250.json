@@ -1,0 +1,18 @@
+{
+ "id": "2503.11250",
+ "title": "CRPS-Based Targeted Sequential Design with Application in Chemical Space",
+ "authors": [
+  "Lea Friedli",
+  "Athénaïs Gautier",
+  "Anna Broccard",
+  "David Ginsbourger"
+ ],
+ "v1_date": "2025-03-14",
+ "latest_version": 2,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sequential design of real and computer experiments via Gaussian Process (GP) models has proven useful for parsimonious, goal-oriented data acquisition purposes. In this work, we focus on acquisition strategies for a GP model that needs to be accurate within a predefined range of the response of interest. Such an approach is useful in various fields including synthetic chemistry, where finding molecules with particular properties is essential for developing useful materials and effective medications. GP modeling and sequential design of experiments have been successfully applied to a plethora of domains, including molecule research. Our main contribution here is to use the threshold-weighted Continuous Ranked Probability Score (CRPS) as a basic building block for acquisition functions employed within sequential design. We study pointwise and integral criteria relying on two different weighting measures and benchmark them against competitors, demonstrating improved performance with respect to considered goals. The resulting acquisition strategies are applicable to a wide range of fields and pave the way to further developing sequential design relying on scoring rules.",
+ "primary": "stat.ML"
+}

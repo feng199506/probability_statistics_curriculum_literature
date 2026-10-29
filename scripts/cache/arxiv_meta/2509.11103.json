@@ -1,0 +1,16 @@
+{
+ "id": "2509.11103",
+ "title": "KOO Method-based Consistent Clustering for Group-wise Linear Regression with Graph Structure",
+ "authors": [
+  "M. Ohishi",
+  "R. Oda"
+ ],
+ "v1_date": "2025-09-14",
+ "latest_version": 1,
+ "latest_date": "2025-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 1 figure",
+ "abstract": "The kick-one-out (KOO) method is a variable selection method based on a model selection criterion. The method is very simple, and yet it has consistency in variable selection under a high-dimensional asymptotic framework with a specific model selection criterion. This paper proposes the join-twotogether (JTT) method, which is a clustering method based on the KOO method for group-wise linear regression with graph structure. The JTT method formulates the clustering problem as an edge selection problem for a graph and determines whether to select each edge based on the KOO method. We can employ network Lasso to perform such a clustering. However, network Lasso is somewhat cumbersome because there is no good algorithm for solving the associated optimization problem and the tuning is complicated. Therefore, by deriving a model selection criterion such that the JTT method has consistency in clustering under a high-dimensional asymptotic framework, we propose a simple yet powerful method that outperforms network Lasso.",
+ "primary": "stat.ME"
+}

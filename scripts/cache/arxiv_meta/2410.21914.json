@@ -1,0 +1,17 @@
+{
+ "id": "2410.21914",
+ "title": "Bayesian Stability Selection and Inference on Selection Probabilities",
+ "authors": [
+  "Mahdi Nouraie",
+  "Connor Smith",
+  "Samuel Muller"
+ ],
+ "v1_date": "2024-10-29",
+ "latest_version": 2,
+ "latest_date": "2025-02-28",
+ "journal_ref": "Statistics and Computing (2026), 36, 62",
+ "doi": "10.1007/s11222-025-10820-6",
+ "comment": "",
+ "abstract": "Stability selection is a versatile framework for structure estimation and variable selection in high-dimensional setting, primarily grounded in frequentist principles. In this paper, we propose an enhanced methodology that integrates Bayesian analysis to refine the inference of selection probabilities within the stability selection framework. Traditional approaches rely on selection frequencies for decision-making, often disregarding domain-specific knowledge. Our methodology uses prior information to derive posterior distributions of selection probabilities, thereby improving both inference and decision-making. We present a two-step process for engaging with domain experts, enabling statisticians to construct prior distributions informed by expert knowledge while allowing experts to control the weight of their input on the final results. Using posterior distributions, we offer Bayesian credible intervals to quantify uncertainty in the variable selection process. Furthermore, we demonstrate how the integration of prior knowledge reduces the variance of selection probabilities, thereby improving the stability of decision-making. Our approach preserves the versatility of stability selection and is suitable for a broad range of structure estimation challenges.",
+ "primary": "stat.ME"
+}

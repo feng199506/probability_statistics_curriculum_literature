@@ -1,0 +1,29 @@
+{
+ "id": "2311.01301",
+ "title": "TRIALSCOPE: A Unifying Causal Framework for Scaling Real-World Evidence Generation with Biomedical Language Models",
+ "authors": [
+  "Javier González",
+  "Risa Ueno",
+  "Cliff Wong",
+  "Zelalem Gero",
+  "Jass Bagga",
+  "Isabel Chien",
+  "Eduard Oravkin",
+  "Emre Kiciman",
+  "Aditya Nori",
+  "Roshanthi Weerasinghe",
+  "Rom S. Leidner",
+  "Brian Piening",
+  "Tristan Naumann",
+  "Carlo Bifulco",
+  "Hoifung Poon"
+ ],
+ "v1_date": "2023-11-02",
+ "latest_version": 3,
+ "latest_date": "2025-08-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "4 figures, 1 table",
+ "abstract": "The rapid digitization of real-world data presents an unprecedented opportunity to optimize healthcare delivery and accelerate biomedical discovery. However, these data are often found in unstructured forms such as clinical notes in electronic medical records (EMRs), and is typically plagued by confounders, making it challenging to generate robust real-world evidence (RWE). Therefore, we present TRIALSCOPE, a framework designed to distil RWE from population level observational data at scale. TRIALSCOPE leverages biomedical language models to structure clinical text at scale, employs advanced probabilistic modeling for denoising and imputation, and incorporates state-of-the-art causal inference techniques to address common confounders in treatment effect estimation. Extensive experiments were conducted on a large-scale dataset of over one million cancer patients from a single large healthcare network in the United States. TRIALSCOPE was shown to automatically curate high-quality structured patient data, expanding the dataset and incorporating key patient attributes only available in unstructured form. The framework reduces confounding in treatment effect estimation, generating comparable results to randomized controlled lung cancer trials. Additionally, we demonstrate simulations of unconducted clinical trials - including a pancreatic cancer trial with varying eligibility criteria - using a suite of validation tests to ensure robustness. Thorough ablation studies were conducted to better understand key components of TRIALSCOPE and establish best practices for RWE generation from EMRs. TRIALSCOPE was able to extract data cancer treatment data from EMRs, overcoming limitations of manual curation. We were also able to show that TRIALSCOPE could reproduce results of lung and pancreatic cancer clinical trials from the extracted real world data.",
+ "primary": "cs.LG"
+}

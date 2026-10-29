@@ -1,0 +1,16 @@
+{
+ "id": "2605.07857",
+ "title": "Actor-Critic Algorithm for Dynamic Expectile and CVaR",
+ "authors": [
+  "Yudong Luo",
+  "Erick Delage"
+ ],
+ "v1_date": "2026-05-08",
+ "latest_version": 1,
+ "latest_date": "2026-05-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Optimizing dynamic risk with stochastic policies is challenging in both policy updates and value learning. The former typically requires transition perturbation, while the latter may rely on model-based approaches. To address these challenges, we propose a surrogate policy gradient without transition perturbation under softmax policy parameterization. We further develop model-free value learning methods for dynamic expectile and conditional value-at-risk by leveraging elicitability. Finally, inspired by Expected SARSA and Expected Policy Gradient, a model-free off-policy actor-critic algorithm is constructed. Empirical results in domains with verifiable risk-averse behavior show that our algorithm can learn risk-averse policy and consistently outperforms other existing methods.",
+ "primary": "cs.LG"
+}

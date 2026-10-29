@@ -1,0 +1,15 @@
+{
+ "id": "2606.19909",
+ "title": "Establishing an $Ω(\\sqrt{d})$ complexity lower bound for PDMP samplers and how to break it: a sub-$\\sqrt{d}$ algorithm for Gaussian-tailed targets",
+ "authors": [
+  "Augustin Chevallier"
+ ],
+ "v1_date": "2026-06-18",
+ "latest_version": 1,
+ "latest_date": "2026-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Despite the theoretical appeal of their non-reversibility, to date, no Piecewise Deterministic Markov Process (PDMP) samplers have been developed that scale better than $\\mathcal{O}(\\sqrt{d})$ in computational complexity with respect to the target dimension $d$. We prove that this is a fundamental limitation by establishing an $Ω(\\sqrt{d})$ lower bound on the algorithmic complexity of PDMP samplers in a standard setup. By relaxing the assumption that the target density must remain invariant at all continuous times, we then demonstrate how to bypass this barrier. Specifically, we introduce a novel PDMP sampling scheme and show that it achieves an empirical complexity of $\\mathcal{O}(d^α)$, where $α\\in [0.2, 0.3]$ for Gaussian-tailed targets. In addition, this PDMP scheme is locally adaptive in both trajectory length and distance between velocity updates.",
+ "primary": "stat.CO"
+}

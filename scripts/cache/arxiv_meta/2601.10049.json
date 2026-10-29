@@ -1,0 +1,17 @@
+{
+ "id": "2601.10049",
+ "title": "Weighted least squares estimation by multivariate-dependent weights for linear regression models",
+ "authors": [
+  "Lei Huang",
+  "Chengyue Liu",
+  "Li Wang"
+ ],
+ "v1_date": "2026-01-15",
+ "latest_version": 1,
+ "latest_date": "2026-01-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate linear regression models often face the problem of heteroscedasticity caused by multiple explanatory variables. The weighted least squares estimation with univariate-dependent weights has limitations in constructing weight functions. Therefore, this paper proposes a multivariate dependent weighted least squares estimation method. By constructing a linear combination of explanatory variables and maximizing their Spearman rank correlation coefficient with the absolute residual value, combined with maximum likelihood method to depict heteroscedasticity, it can comprehensively reflect the trend of variance changes in the random error and improve the accuracy of the model. This paper demonstrates that the optimal linear combination exponent estimator for heteroscedastic volatility obtained by our algorithm possesses consistency and asymptotic normality. In the simulation experiment, three scenarios of heteroscedasticity were designed, and the comparison showed that the proposed method was superior to the univariate-dependent weighting method in parameter estimation and model prediction. In the real data applications, the proposed method was applied to two real-world datasets about consumer spending in China and housing prices in Boston. From the perspectives of MAE, RSE, cross-validation, and fitting performance, its accuracy and stability were verified in terms of model prediction, interval estimation, and generalization ability. Additionally, the proposed method demonstrated relative advantages in fitting data with large fluctuations. This study provides an effective new approach for dealing with heteroscedasticity in multivariate linear regression.",
+ "primary": "stat.ME"
+}

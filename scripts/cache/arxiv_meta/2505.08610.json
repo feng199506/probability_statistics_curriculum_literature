@@ -1,0 +1,16 @@
+{
+ "id": "2505.08610",
+ "title": "neuralGAM: An R Package for Fitting Generalized Additive Neural Networks",
+ "authors": [
+  "Ines Ortega-Fernandez",
+  "Marta Sestelo"
+ ],
+ "v1_date": "2025-05-13",
+ "latest_version": 2,
+ "latest_date": "2026-08-09",
+ "journal_ref": "The R Journal 18(1) (2026) 253-276",
+ "doi": "10.32614/rj-2026-016",
+ "comment": "19 pages, 4 figures. Accepted version; published in The R Journal 18(1):253-276",
+ "abstract": "Nowadays, Neural Networks are considered one of the most effective methods for various tasks such as anomaly detection, computer-aided disease detection, or natural language processing. However, these networks suffer from the ``black-box'' problem which makes it difficult to understand how they make decisions. In order to solve this issue, an R package called neuralGAM is introduced. This package implements a Neural Network topology based on Generalized Additive Models, allowing to fit an independent Neural Network to estimate the contribution of each feature to the output variable, yielding a highly accurate and interpretable Deep Learning model. The neuralGAM package provides a flexible framework for training Generalized Additive Neural Networks, which does not impose any restrictions on the Neural Network architecture. We illustrate the use of the neuralGAM package in both synthetic and real data examples.",
+ "primary": "stat.ML"
+}

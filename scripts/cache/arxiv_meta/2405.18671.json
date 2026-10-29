@@ -1,0 +1,18 @@
+{
+ "id": "2405.18671",
+ "title": "Watermarking Counterfactual Explanations",
+ "authors": [
+  "Hangzhi Guo",
+  "Firdaus Ahmed Choudhury",
+  "Tinghua Chen",
+  "Amulya Yadav"
+ ],
+ "v1_date": "2024-05-29",
+ "latest_version": 2,
+ "latest_date": "2024-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Counterfactual (CF) explanations for ML model predictions provide actionable recourse recommendations to individuals adversely impacted by predicted outcomes. However, despite being preferred by end-users, CF explanations have been shown to pose significant security risks in real-world applications; in particular, malicious adversaries can exploit CF explanations to perform query-efficient model extraction attacks on the underlying proprietary ML model. To address this security challenge, we propose CFMark, a novel model-agnostic watermarking framework for detecting unauthorized model extraction attacks relying on CF explanations. CFMark involves a novel bi-level optimization problem to embed an indistinguishable watermark into the generated CF explanation such that any future model extraction attacks using these watermarked CF explanations can be detected using a null hypothesis significance testing (NHST) scheme. At the same time, the embedded watermark does not compromise the quality of the CF explanations. We evaluate CFMark across diverse real-world datasets, CF explanation methods, and model extraction techniques. Our empirical results demonstrate CFMark's effectiveness, achieving an F-1 score of ~0.89 in identifying unauthorized model extraction attacks using watermarked CF explanations. Importantly, this watermarking incurs only a negligible degradation in the quality of generated CF explanations (i.e., ~1.3% degradation in validity and ~1.6% in proximity). Our work establishes a critical foundation for the secure deployment of CF explanations in real-world applications.",
+ "primary": "cs.LG"
+}

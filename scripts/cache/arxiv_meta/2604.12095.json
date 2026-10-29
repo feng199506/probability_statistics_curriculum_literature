@@ -1,0 +1,18 @@
+{
+ "id": "2604.12095",
+ "title": "A Nonparametric Adaptive EWMA Control Chart for Binary Monitoring of Multiple Stream Processes",
+ "authors": [
+  "Faruk Muritala",
+  "Austin Brown",
+  "Dhrubajyoti Ghosh",
+  "Sherry Ni"
+ ],
+ "v1_date": "2026-04-13",
+ "latest_version": 1,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Monitoring binomial proportions across multiple independent streams is a critical challenge in Statistical Process Control (SPC), with applications from manufacturing to cybersecurity. While EWMA charts offer sensitivity to small shifts, existing implementations rely on asymptotic variance approximations that fail during early-phase monitoring. We introduce a Cumulative Standardized Binomial EWMA (CSB-EWMA) chart that overcomes this limitation by deriving the exact time-varying variance of the EWMA statistic for binary multiple-stream data, enabling adaptive control limits that ensure statistical rigor from the first sample. Through extensive simulations, we identify optimal smoothing (λ) and limit (L) parameters to achieve target in-control average run length (ARL0) of 370 and 500. The CSB-EWMA chart demonstrates rapid shift detection across both ARL0 targets, with out-of-control average run length (ARL1) dropping to 3-7 samples for moderate shifts (δ=0.2), and exhibits exceptional robustness across different data distributions, with low ARL1 Coefficients of Variation (CV < 0.10 for small shifts) for both ARL0 = 370 and 500. This work provides practitioners with a distribution-free, sensitive, and theoretically sound tool for early change detection in binomial multiple-stream processes.",
+ "primary": "stat.ML"
+}

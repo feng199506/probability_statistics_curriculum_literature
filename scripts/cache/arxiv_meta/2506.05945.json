@@ -1,0 +1,18 @@
+{
+ "id": "2506.05945",
+ "title": "On Efficient Estimation of Distributional Treatment Effects under Covariate-Adaptive Randomization",
+ "authors": [
+  "Undral Byambadalai",
+  "Tomu Hirata",
+  "Tatsushi Oka",
+  "Shota Yasui"
+ ],
+ "v1_date": "2025-06-06",
+ "latest_version": 1,
+ "latest_date": "2025-06-06",
+ "journal_ref": "Proceedings of the International Conference on Machine Learning, 2025",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper focuses on the estimation of distributional treatment effects in randomized experiments that use covariate-adaptive randomization (CAR). These include designs such as Efron's biased-coin design and stratified block randomization, where participants are first grouped into strata based on baseline covariates and assigned treatments within each stratum to ensure balance across groups. In practice, datasets often contain additional covariates beyond the strata indicators. We propose a flexible distribution regression framework that leverages off-the-shelf machine learning methods to incorporate these additional covariates, enhancing the precision of distributional treatment effect estimates. We establish the asymptotic distribution of the proposed estimator and introduce a valid inference procedure. Furthermore, we derive the semiparametric efficiency bound for distributional treatment effects under CAR and demonstrate that our regression-adjusted estimator attains this bound. Simulation studies and empirical analyses of microcredit programs highlight the practical advantages of our method.",
+ "primary": "econ.EM"
+}

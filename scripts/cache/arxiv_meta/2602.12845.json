@@ -1,0 +1,17 @@
+{
+ "id": "2602.12845",
+ "title": "Small area estimation using incomplete auxiliary information",
+ "authors": [
+  "Donatas Šlevinskas",
+  "Ieva Burakauskaitė",
+  "Andrius Čiginas"
+ ],
+ "v1_date": "2026-02-13",
+ "latest_version": 1,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 3 figures",
+ "abstract": "Auxiliary information is increasingly available from administrative and other data sources, but it is often incomplete and of non-probability origin. We propose a two-step small area estimation approach in which the first step relies on design-based model calibration and exploits a large non-probability source providing a noisy proxy of the study variable for only part of the population. A unit-level measurement-error working model is fitted on the linked overlap between the probability survey and the external source, and its predictions are incorporated through domain-specific model-calibration constraints to obtain approximately design-unbiased domain totals. These totals and their variance estimates are then used in a Fay-Herriot area-level model with exactly known covariates to produce empirical best linear unbiased predictors. The approach is demonstrated in three enterprise survey settings from official statistics by integrating probability sample data with (i) administrative records, (ii) a cut-off data source, and (iii) web-scraped online information. Empirical comparisons show consistent improvements in domain-level precision over direct estimation and over a Fay-Herriot benchmark that directly incorporates the proxy information as an error-prone covariate. These gains are achieved without modeling the selection mechanism of the non-probability sample.",
+ "primary": "stat.ME"
+}

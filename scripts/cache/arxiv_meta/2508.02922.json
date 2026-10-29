@@ -1,0 +1,21 @@
+{
+ "id": "2508.02922",
+ "title": "A multi-stage Bayesian approach to fit spatial point process models",
+ "authors": [
+  "Rachael Ren",
+  "Mevin B. Hooten",
+  "Toryn L. J. Schafer",
+  "Nicholas M. Calzada",
+  "Benjamin Hoose",
+  "Jamie N. Womble",
+  "Scott Gende"
+ ],
+ "v1_date": "2025-08-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "51 pages, 24 figures",
+ "abstract": "Spatial point process (SPP) models are commonly used to analyze point pattern data in many fields, including presence-only data in ecology. Existing exact Bayesian methods for fitting these models are computationally expensive because they require approximating an intractable integral each time parameters are updated and often involve algorithm supervision (i.e., tuning in the Bayesian setting). We propose a flexible, efficient, and exact multi-stage recursive Bayesian approach to fitting SPP models that leverages parallel computing resources to obtain realizations from the joint posterior, which can then be used to obtain inference on derived quantities. We outline potential extensions, including a framework for analyzing study designs with compact observation windows and a neural network basis expansion for increased model flexibility. We demonstrate this approach and its extensions using a simulation study and analyze data from aerial imagery surveys to improve our understanding of spatially explicit abundance of harbor seal (Phoca vitulina) pups in Johns Hopkins Inlet, a protected tidewater glacial fjord in Glacier Bay National Park, Alaska.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2603.28344",
+ "title": "Interpretable models for forecasting high-dimensional functional time series",
+ "authors": [
+  "Han Lin Shang",
+  "Cristian F. Jiménez-Varón"
+ ],
+ "v1_date": "2026-03-30",
+ "latest_version": 2,
+ "latest_date": "2026-07-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the modeling and forecasting of high-dimensional functional time series, which can be temporally dependent and cross-sectionally correlated. Central to our implementation is a functional analysis of variance by decomposing high-dimensional functional time series, such as subnational age- and sex-specific mortality observed over years, into two distinct components: a deterministic mean structure and a residual process varying over time. Unlike purely statistical dimensionality-reduction techniques, the functional analysis of variance decomposition provides an interpretable framework by partitioning the series into effects attributable to data-specific factors, such as regional and sex-level variations, and a grand functional mean. From the residual process, we implement a functional factor model to capture the remaining stochastic trends. By combining the forecasts of the residual component with the estimated deterministic structure, we obtain the forecasted curves for high-dimensional functional time series. Illustrated by the age-specific Japanese subnational mortality rates from 1975 to 2023, we evaluate and compare the accuracy of the point and interval forecasts across various forecast horizons. The results demonstrate that leveraging these interpretable components not only clarifies the underlying drivers of the data, but also improves point forecast accuracy by about 25% to 45% compared to an existing method, providing more transparent insights for evidence-based policy decisions, such as accurate modeling of financial costs of length of stay in the old-aged care facilities.",
+ "primary": "stat.ME"
+}

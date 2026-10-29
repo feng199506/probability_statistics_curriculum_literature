@@ -1,0 +1,18 @@
+{
+ "id": "2509.13176",
+ "title": "Semiparametric Causal Inference for Right-Censored Outcomes with Many Weak Invalid Instruments",
+ "authors": [
+  "Qiushi Bu",
+  "Wen Su",
+  "Xingqiu Zhao",
+  "Zhonghua Liu"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 2,
+ "latest_date": "2025-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a semiparametric framework for causal inference with right-censored survival outcomes and many weak invalid instruments, motivated by Mendelian randomization in biobank studies where classical methods may fail. We adopt an accelerated failure time model and construct a moment condition based on augmented inverse probability of censoring weighting, incorporating both uncensored and censored observations. Under a heteroscedasticity-based condition on the treatment model, we establish point identification of the causal effect despite censoring and invalid instruments. We propose GEL-NOW (Generalized Empirical Likelihood with Non-Neyman Orthogonal and Weak moments) for valid inference under these conditions. A divergent number of Neyman orthogonal nuisance functions is estimated using deep neural networks. A key challenge is that the conditional censoring distribution is a non-Neyman orthogonal nuisance, contributing to the first-order asymptotics of the estimator for the target causal effect parameter. We derive the asymptotic distribution and explicitly incorporate this additional uncertainty into the asymptotic variance formula. We also introduce a censoring-adjusted over-identification test that accounts for this new variance component. Simulation studies and UK Biobank applications demonstrate the method's robustness and practical utility.",
+ "primary": "stat.ME"
+}

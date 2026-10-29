@@ -1,0 +1,17 @@
+{
+ "id": "2505.02296",
+ "title": "Entropy-Guided Sampling of Flat Modes in Discrete Spaces",
+ "authors": [
+  "Pinaki Mohanty",
+  "Riddhiman Bhattacharya",
+  "Ruqi Zhang"
+ ],
+ "v1_date": "2025-05-05",
+ "latest_version": 2,
+ "latest_date": "2025-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampling from flat modes in discrete spaces is a crucial yet underexplored problem. Flat modes represent robust solutions and have broad applications in combinatorial optimization and discrete generative modeling. However, existing sampling algorithms often overlook the mode volume and struggle to capture flat modes effectively. To address this limitation, we propose \\emph{Entropic Discrete Langevin Proposal} (EDLP), which incorporates local entropy into the sampling process through a continuous auxiliary variable under a joint distribution. The local entropy term guides the discrete sampler toward flat modes with a small overhead. We provide non-asymptotic convergence guarantees for EDLP in locally log-concave discrete distributions. Empirically, our method consistently outperforms traditional approaches across tasks that require sampling from flat basins, including Bernoulli distribution, restricted Boltzmann machines, combinatorial optimization, and binary neural networks.",
+ "primary": "cs.LG"
+}

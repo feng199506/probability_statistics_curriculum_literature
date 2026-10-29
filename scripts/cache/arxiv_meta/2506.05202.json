@@ -1,0 +1,19 @@
+{
+ "id": "2506.05202",
+ "title": "Causal Effect Identification in lvLiNGAM from Higher-Order Cumulants",
+ "authors": [
+  "Daniele Tramontano",
+  "Yaroslav Kivva",
+  "Saber Salehkaleybar",
+  "Mathias Drton",
+  "Negar Kiyavash"
+ ],
+ "v1_date": "2025-06-05",
+ "latest_version": 2,
+ "latest_date": "2025-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at ICML 2025",
+ "abstract": "This paper investigates causal effect identification in latent variable Linear Non-Gaussian Acyclic Models (lvLiNGAM) using higher-order cumulants, addressing two prominent setups that are challenging in the presence of latent confounding: (1) a single proxy variable that may causally influence the treatment and (2) underspecified instrumental variable cases where fewer instruments exist than treatments. We prove that causal effects are identifiable with a single proxy or instrument and provide corresponding estimation methods. Experimental results demonstrate the accuracy and robustness of our approaches compared to existing methods, advancing the theoretical and practical understanding of causal inference in linear systems with latent confounders.",
+ "primary": "stat.ML"
+}

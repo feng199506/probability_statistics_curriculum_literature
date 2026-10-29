@@ -1,0 +1,17 @@
+{
+ "id": "2606.16681",
+ "title": "Spectral Sparsification of Laplacian-Constrained Gaussian and Hüsler-Reiss Graphical Models",
+ "authors": [
+  "Ignacio Echave-Sustaeta Rodríguez",
+  "Aida Abiad",
+  "Frank Röttger"
+ ],
+ "v1_date": "2026-06-15",
+ "latest_version": 1,
+ "latest_date": "2026-06-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Graph Laplacians encode graph structures in matrix form, and thus facilitate the application of linear algebra to graph theory. In statistics, two related families of probabilistic graphical models can be parameterized by graph Laplacians. The first one is the Laplacian-constrained Gaussian graphical model (LCGGM), which imposes that the (pseudo-)inverse covariance matrix of a Gaussian random vector is a Laplacian matrix. Applications include graph signal processing and network topology learning. The second one is the Hüsler-Reiss graphical model, which is considered as an extremal analog of the Gaussian graphical model, and can be used in extremal dependence modeling of floods, heatwaves, and financial losses. For both models, the restriction to positive edge weights in the graph Laplacian gives rise to an approach for graph structure learning that does not require tuning parameters. While these approaches yield a strong model fit in many settings, the resulting graph estimates are typically much denser than the underlying ground truth, limiting interpretability and scalability. In order to improve the accuracy of Laplacian-constrained graph learning, we propose to use spectral graph sparsification as a post-estimation operation. To do so, we replace the original Laplacian estimate by a sparser Laplacian that is spectrally close, and re-fit the model on the resulting graph. We refer to the two resulting methods as Spectral-LCGGM and Spectral-HR. We investigate the properties of the proposed estimators and show several theoretical results on their performance. Furthermore, we demonstrate that the newly proposed methods perform well by running simulations on Erdős-Rényi and stochastic block model graphs, and we also showcase their applications to real data.",
+ "primary": "stat.ME"
+}

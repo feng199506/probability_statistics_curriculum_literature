@@ -1,0 +1,18 @@
+{
+ "id": "2407.13169",
+ "title": "Combining Climate Models using Bayesian Regression Trees and Random Paths",
+ "authors": [
+  "John C. Yannotty",
+  "Thomas J. Santner",
+  "Bo Li",
+  "Matthew T. Pratola"
+ ],
+ "v1_date": "2024-07-18",
+ "latest_version": 2,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages, 17 figures",
+ "abstract": "General circulation models (GCMs) are essential tools for climate studies. Such climate models may have varying accuracy across the input domain, but no model is uniformly best. One can improve climate model prediction performance by integrating multiple models using input-dependent weights. Weight functions modeled using Bayesian Additive Regression Trees (BART) were recently shown to be useful in nuclear physics applications. However, a restriction of that approach was the piecewise constant weight functions. To smoothly integrate multiple climate models, we propose a new tree-based model, Random Path BART (RPBART), that incorporates random path assignments in BART to produce smooth weight functions and smooth predictions, all in a matrix-free formulation. RPBART requires a more complex prior specification, for which we introduce a semivariogram to guide hyperparameter selection. This approach is easy to interpret, computationally cheap, and avoids expensive cross-validation. Finally, we propose a posterior projection technique to enable detailed analysis of the fitted weight functions. This allows us to identify a sparse set of climate models that recovers the underlying system within a given spatial region as well as quantifying model discrepancy given the available model set. Our method is demonstrated on an ensemble of 8 GCMs modeling average monthly surface temperature.",
+ "primary": "stat.ME"
+}

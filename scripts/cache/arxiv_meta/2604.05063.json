@@ -1,0 +1,17 @@
+{
+ "id": "2604.05063",
+ "title": "Robust mean estimation under star-shaped constraints with heavy-tailed noise",
+ "authors": [
+  "Tuorui Peng",
+  "Akshay Prasadan",
+  "Matey Neykov"
+ ],
+ "v1_date": "2026-04-06",
+ "latest_version": 2,
+ "latest_date": "2026-04-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "56 pages",
+ "abstract": "We study the problem of robust mean estimation with adversarially contaminated data under star-shaped constraints in a heavy-tailed noise setting, where only a finite second moment $ σ^2 $ is assumed. For a contamination level $ \\varepsilon$ below some constant, we show that the minimax rate of the squared $ \\ell_2 $ loss is $ \\max( δ^{*2}, \\varepsilon σ^2) \\wedge d^2 $ for a star-shaped set with diameter $ d $ (set $d = \\infty$ if the set is unbounded), with $ δ^* $ determined via the local entropy $ \\log M^\\mathrm{ loc }(δ,c) $ as \\begin{align*} δ^*:= \\sup\\bigg\\{δ\\geq 0: N\\frac{δ^2}{σ^2}\\leq \\log M^\\mathrm{ loc }(δ,c) \\bigg\\}, \\end{align*} where $ c $ is a sufficiently large constant. Crucially, we require that the sample size satisfies $N \\gtrsim \\mathop{ \\sup }\\limits_{δ\\geq 0} \\log M^\\mathrm{ loc }(δ,c)$. We also show that the minimax rate is $ \\max(δ^{*2},\\varepsilon ^2σ^2) \\wedge d^2 $ for known or sign-symmetric distributions, matching the rate achieved in the Gaussian case.",
+ "primary": "math.ST"
+}

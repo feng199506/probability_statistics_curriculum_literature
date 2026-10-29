@@ -1,0 +1,17 @@
+{
+ "id": "2610.17732",
+ "title": "Structured SDEs for Realized GARCH: Continuous-Time Volatility Modelling and Component-Level Analysis",
+ "authors": [
+  "Hongyu Yao",
+  "Zhengyang Chi",
+  "Junbin Gao"
+ ],
+ "v1_date": "2026-10-13",
+ "latest_version": 1,
+ "latest_date": "2026-10-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the NeurIPS 2026 Workshop on STODY",
+ "abstract": "We propose a structured continuous-time stochastic volatility model for one-day-ahead integrated-variance forecasting. The model introduces a jointly evolving realized-measure state that feeds directly into latent variance dynamics, while correlated Brownian innovations capture return-linked dependence. Parameters are estimated through simulation-based predictive learning, and Monte Carlo simulation forecasts integrated variance. Across 17 equity indices, the proposed model shows strong out-of-sample performance relative to GARCH, GARCH-Itô, Realized GARCH, HAR, and HEAVY benchmarks under QLIKE, MSE, and MAE. Ablation results show that realized-measure feedback provides substantial incremental forecasting value within the proposed framework, while return-linked Brownian dependence contributes more modest complementary gains. The results support incorporating measurement-driven information directly into continuous-time latent volatility dynamics to improve integrated-variance forecasting.",
+ "primary": "q-fin.ST"
+}

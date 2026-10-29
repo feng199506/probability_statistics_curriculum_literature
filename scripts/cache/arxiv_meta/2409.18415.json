@@ -1,0 +1,17 @@
+{
+ "id": "2409.18415",
+ "title": "Consistency of Variational Inference for Nonlinear Inverse Problems of Partial Differential Equations",
+ "authors": [
+  "Shaokang Zu",
+  "Junxiong Jia",
+  "Deyu Meng"
+ ],
+ "v1_date": "2024-09-27",
+ "latest_version": 3,
+ "latest_date": "2026-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "83 pages",
+ "abstract": "We investigate the convergence rates of variational posterior distributions for statistical inverse problems involving nonlinear partial differential equations (PDEs). Departing from exact Bayesian inference, variational inference transforms the inference problem into an optimization problem by introducing variational sets. Based on a modified ``prior mass and testing'' framework, we propose general conditions for three categories of inverse problems: mildly ill-posed, severely ill-posed, and those with unknown model parameters. Concentrating on the variational sets comprising the restricted Gaussian or widely utilized Gaussian mean-field families, we demonstrate that for all three categories, the convergence rate can be decomposed into a true distribution term and a variational approximation term. Moreover, we illustrate that the true distribution term dominates the convergence rates, thereby substantiating the effectiveness of the variational inference method for inverse problems of PDEs. As specific examples, we examine a collection of non-linear inverse problems, including the Darcy flow problem, the inverse potential problem for a subdiffusion equation, and the inverse medium scattering problem. Besides, we show that our convergence rates are minimax optimal for these inverse problems.",
+ "primary": "math.ST"
+}

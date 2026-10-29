@@ -1,0 +1,17 @@
+{
+ "id": "2606.10734",
+ "title": "SPACR: Single-Pass Adaptive Training of Uncertainty-Aware Conformal Regressors",
+ "authors": [
+  "Soundouss Messoudi",
+  "Sylvain Rousseau",
+  "Sébastien Destercke"
+ ],
+ "v1_date": "2026-06-09",
+ "latest_version": 2,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Conformal Prediction (CP) provides robust uncertainty guarantees for predictive models, but is typically applied post hoc, which misaligns model training with the conformal goal of producing efficient (i.e., narrow) intervals. We propose SPACR (Single-Pass Adaptive Conformal Regressor), a novel method for directly training uncertainty-aware regressors within a differentiable loss. SPACR jointly optimizes accuracy, efficiency, and validity without batch-splitting or a predefined confidence level during training. As a result, a single SPACR model yields valid prediction intervals at multiple confidence levels during inference, avoiding the costly retraining required by methods like Directly Optimized Inductive Conformal Regression (DOICR). Experiments on diverse tabular and image datasets show that SPACR consistently gives tighter intervals and better coverage-efficiency trade-offs compared to standard CP and DOICR, while significantly reducing computational costs relative to retraining-dependent baselines.",
+ "primary": "cs.LG"
+}

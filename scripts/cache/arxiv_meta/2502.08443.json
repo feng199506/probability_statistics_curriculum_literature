@@ -1,0 +1,17 @@
+{
+ "id": "2502.08443",
+ "title": "Tutorial for Surrogate Endpoint Validation Using Joint modeling and Mediation Analysis",
+ "authors": [
+  "Quentin Le Coent",
+  "Virginie Rondeau",
+  "Catherine Legrand"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 1,
+ "latest_date": "2025-02-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The use of valid surrogate endpoints is an important stake in clinical research to help reduce both the duration and cost of a clinical trial and speed up the evaluation of interesting treatments. Several methods have been proposed in the statistical literature to validate putative surrogate endpoints. Two main approaches have been proposed: the meta-analytic approach and the mediation analysis approach. The former uses data from meta-analyses to derive associations measures between the surrogate and the final endpoint at the individual and trial levels. The latter rather uses the proportion of the treatment effect on the final endpoint through the surrogate as a measure of surrogacy in a causal inference framework. Both approaches have remained separated as the meta-analytic approach does not estimate the treatment effect on the final endpoint through the surrogate while the mediation analysis approach have been limited to single-trial setting. However, these two approaches are complementary. In this work we propose an approach that combines the meta-analytic and mediation analysis approaches using joint modeling for surrogate validation. We focus on the cases where the final endpoint is a time-to-event endpoint (such as time-to-death) and the surrogate is either a time-to-event or a longitudinal biomarker. Two new joint models were proposed depending on the nature of the surrogate. These model are implemented in the R package frailtypack. We illustrate the developed approaches in three applications on real datasets in oncology.",
+ "primary": "stat.ME"
+}

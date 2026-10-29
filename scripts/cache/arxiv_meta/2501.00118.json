@@ -1,0 +1,17 @@
+{
+ "id": "2501.00118",
+ "title": "A portmanteau test for multivariate non-stationary functional time series with an increasing number of lags",
+ "authors": [
+  "Lujia Bai",
+  "Holger Dette",
+  "Weichi Wu"
+ ],
+ "v1_date": "2024-12-30",
+ "latest_version": 2,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Multivariate locally stationary functional time series provide a flexible framework for modeling functional data exhibiting both temporal and spatial dependencies while allowing for a time-varying data generating mechanism. In this paper, we introduce a portmanteau-type test for assessing white noise assumptions tailored for multivariate locally stationary functional time series without dimension reduction. A simple bootstrap procedure is proposed to implement the test, because it is not clear if the limiting distribution of the test statistic exists. Our approach is based on a Gaussian approximation result for a degenerate $U$-statistic of second-order functional time series involving an increasing number of lags, which is of independent interest. Through theoretical analysis, simulation studies, and real data analysis of energy consumptions, we demonstrate the efficacy and adaptability of the proposed method in detecting departures from white noise assumptions in multivariate locally stationary functional time series. Finally, the R package corresponding to our method can be downloaded from https://github.com/Lujia-Bai/nftsport.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2405.13574",
+ "title": "Reinforcement Learning for Adaptive MCMC",
+ "authors": [
+  "Congye Wang",
+  "Wilson Chen",
+  "Heishiro Kanagawa",
+  "Chris. J. Oates"
+ ],
+ "v1_date": "2024-05-22",
+ "latest_version": 1,
+ "latest_date": "2024-05-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "An informal observation, made by several authors, is that the adaptive design of a Markov transition kernel has the flavour of a reinforcement learning task. Yet, to-date it has remained unclear how to actually exploit modern reinforcement learning technologies for adaptive MCMC. The aim of this paper is to set out a general framework, called Reinforcement Learning Metropolis--Hastings, that is theoretically supported and empirically validated. Our principal focus is on learning fast-mixing Metropolis--Hastings transition kernels, which we cast as deterministic policies and optimise via a policy gradient. Control of the learning rate provably ensures conditions for ergodicity are satisfied. The methodology is used to construct a gradient-free sampler that out-performs a popular gradient-free adaptive Metropolis--Hastings algorithm on $\\approx 90 \\%$ of tasks in the PosteriorDB benchmark.",
+ "primary": "stat.CO"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2501.02228",
+ "title": "MCMC Importance Sampling via Moreau-Yosida Envelopes",
+ "authors": [
+  "Apratim Shukla",
+  "Dootika Vats",
+  "Eric C. Chi"
+ ],
+ "v1_date": "2025-01-04",
+ "latest_version": 2,
+ "latest_date": "2025-07-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Non-differentiable priors are standard in modern parsimonious Bayesian models. Lack of differentiability, however, precludes gradient-based Markov chain Monte Carlo (MCMC) for posterior sampling. Recently proposed proximal MCMC approaches can partially remedy this limitation by using a differentiable approximation, constructed via Moreau-Yosida (MY) envelopes, to make proposals. In this work, we build an importance sampling paradigm by using the MY envelope as an importance distribution. Leveraging properties of the envelope, we establish asymptotic normality of the importance sampling estimator with an explicit expression for the asymptotic covariance matrix. Since the MY envelope density is smooth, it is amenable to gradient-based samplers. We provide sufficient conditions for geometric ergodicity of Metropolis-adjusted Langevin and Hamiltonian Monte Carlo algorithms, sampling from this importance distribution. Our numerical studies show that the proposed scheme can yield lower variance estimators compared to existing proximal MCMC alternatives, and is effective in low and high dimensions.",
+ "primary": "stat.CO"
+}

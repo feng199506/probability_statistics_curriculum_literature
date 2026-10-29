@@ -1,0 +1,16 @@
+{
+ "id": "2401.14515",
+ "title": "Martingale Posterior Distributions for Log-concave Density Functions",
+ "authors": [
+  "Fuheng Cui",
+  "Stephen G. Walker"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 1,
+ "latest_date": "2024-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 7 figures",
+ "abstract": "The family of log-concave density functions contains various kinds of common probability distributions. Due to the shape restriction, it is possible to find the nonparametric estimate of the density, for example, the nonparametric maximum likelihood estimate (NPMLE). However, the associated uncertainty quantification of the NPMLE is less well developed. The current techniques for uncertainty quantification are Bayesian, using a Dirichlet process prior combined with the use of Markov chain Monte Carlo (MCMC) to sample from the posterior. In this paper, we start with the NPMLE and use a version of the martingale posterior distribution to establish uncertainty about the NPMLE. The algorithm can be implemented in parallel and hence is fast. We prove the convergence of the algorithm by constructing suitable submartingales. We also illustrate results with different models and settings and some real data, and compare our method with that within the literature.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2410.00865",
+ "title": "How should we aggregate ratings? Accounting for personal rating scales via Wasserstein barycenters",
+ "authors": [
+  "Daniel Raban"
+ ],
+ "v1_date": "2024-10-01",
+ "latest_version": 2,
+ "latest_date": "2025-11-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "39 pages, 9 figures",
+ "abstract": "A common method of comparing items is to collect numerical ratings on a linear scale and compare the average rating for each item. However, averaging ratings does not account for people rating according to differing personal rating scales. With this in mind, we investigate the problem of calculating aggregate numerical ratings from individual numerical ratings and propose a new, non-parametric model for the problem. We show that, with minimal modeling assumptions, the standard average is inconsistent for estimating the quality of items. Analyzing the problem of heterogeneous personal rating scales from the perspective of optimal transport, we derive an alternative rating estimator, which we show is asymptotically consistent almost surely and in L^p for estimating quality, with an optimal rate of convergence. Further, we generalize Kendall's W, a non-parametric coefficient of preference concordance between raters, from the special case of rankings to the more general case of arbitrary numerical ratings. Along the way, we prove Glivenko--Cantelli-type theorems for uniform convergence of the cumulative distribution functions and quantile functions for Wasserstein-2 barycenters on [0,1].",
+ "primary": "math.ST"
+}

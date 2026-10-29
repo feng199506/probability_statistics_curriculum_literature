@@ -1,0 +1,16 @@
+{
+ "id": "2408.17040",
+ "title": "Model-based clustering for covariance matrices via penalized Wishart mixture models",
+ "authors": [
+  "Andrea Cappozzo",
+  "Alessandro Casa"
+ ],
+ "v1_date": "2024-08-30",
+ "latest_version": 1,
+ "latest_date": "2024-08-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Covariance matrices provide a valuable source of information about complex interactions and dependencies within the data. However, from a clustering perspective, this information has often been underutilized and overlooked. Indeed, commonly adopted distance-based approaches tend to rely primarily on mean levels to characterize and differentiate between groups. Recently, there have been promising efforts to cluster covariance matrices directly, thereby distinguishing groups solely based on the relationships between variables. From a model-based perspective, a probabilistic formalization has been provided by considering a mixture model with component densities following a Wishart distribution. Notwithstanding, this approach faces challenges when dealing with a large number of variables, as the number of parameters to be estimated increases quadratically. To address this issue, we propose a sparse Wishart mixture model, which assumes that the component scale matrices possess a cluster-dependent degree of sparsity. Model estimation is performed by maximizing a penalized log-likelihood, enforcing a covariance graphical lasso penalty on the component scale matrices. This penalty not only reduces the number of non-zero parameters, mitigating the challenges of high-dimensional settings, but also enhances the interpretability of results by emphasizing the most relevant relationships among variables. The proposed methodology is tested on both simulated and real data, demonstrating its ability to unravel the complexities of neuroimaging data and effectively cluster subjects based on the relational patterns among distinct brain regions.",
+ "primary": "stat.ME"
+}

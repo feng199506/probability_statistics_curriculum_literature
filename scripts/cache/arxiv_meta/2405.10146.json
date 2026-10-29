@@ -1,0 +1,17 @@
+{
+ "id": "2405.10146",
+ "title": "Single-ensemble multilevel Monte Carlo for discrete ensemble Kalman methods",
+ "authors": [
+  "Arne Bouillon",
+  "Toon Ingelaere",
+  "Giovanni Samaey"
+ ],
+ "v1_date": "2024-05-16",
+ "latest_version": 2,
+ "latest_date": "2025-02-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Ensemble Kalman methods solve problems in domains such as filtering and inverse problems with interacting particles that evolve over time. For computationally expensive problems, the cost of attaining a high accuracy quickly becomes prohibitive. We exploit a hierarchy of approximations to the underlying forward model and apply multilevel Monte Carlo (MLMC) techniques, improving the asymptotic cost-to-error relation. More specifically, we use MLMC at each time step to estimate the interaction term in a single, globally-coupled ensemble. This technique was proposed by Hoel et al. for the ensemble Kalman filter; our goal is to study its applicability to a broader family of ensemble Kalman methods.",
+ "primary": "math.NA"
+}

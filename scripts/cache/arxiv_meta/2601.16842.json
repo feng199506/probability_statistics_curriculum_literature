@@ -1,0 +1,16 @@
+{
+ "id": "2601.16842",
+ "title": "Parametric Mean-Field empirical Bayes in high-dimensional linear regression",
+ "authors": [
+  "Seunghyun Lee",
+  "Nabarun Deb"
+ ],
+ "v1_date": "2026-01-23",
+ "latest_version": 2,
+ "latest_date": "2026-02-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Typos fixed",
+ "abstract": "In this paper, we consider the problem of parametric empirical Bayes estimation of an i.i.d. prior in high-dimensional Bayesian linear regression, with random design. We obtain the asymptotic distribution of the variational Empirical Bayes (vEB) estimator, which approximately maximizes a variational lower bound of the intractable marginal likelihood. We characterize a sharp phase transition behavior for the vEB estimator -- namely that it is information theoretically optimal (in terms of limiting variance) up to $p=o(n^{2/3})$ while it suffers from a sub-optimal convergence rate in higher dimensions. In the first regime, i.e., when $p=o(n^{2/3})$, we show how the estimated prior can be calibrated to enable valid coordinate-wise and delocalized inference, both under the \\emph{empirical Bayes posterior} and the oracle posterior. In the second regime, we propose a debiasing technique as a way to improve the performance of the vEB estimator beyond $p=o(n^{2/3})$. Extensive numerical experiments corroborate our theoretical findings.",
+ "primary": "math.ST"
+}

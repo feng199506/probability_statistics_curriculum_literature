@@ -1,0 +1,16 @@
+{
+ "id": "2511.01153",
+ "title": "Consistent estimation in subcritical birth-and-death processes",
+ "authors": [
+  "Sophie Hautphenne",
+  "Emma Horton"
+ ],
+ "v1_date": "2025-11-03",
+ "latest_version": 1,
+ "latest_date": "2025-11-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We investigate parameter estimation in subcritical continuous-time birth-and-death processes with multiple births. We show that the classical maximum likelihood estimators for the model parameters, based on the continuous observation of a single non-extinct trajectory, are not consistent in the usual sense: conditional on survival up to time $t$, they converge as $t \\to \\infty$ to the corresponding quantities in the associated $Q$-process, namely the process conditioned to survive in the distant future. We develop the first $C$-consistent estimators in this setting, which converge to the true parameter values when conditioning on survival up to time $t$, and establish their asymptotic normality. The analysis relies on spine decompositions and coupling techniques.",
+ "primary": "math.ST"
+}

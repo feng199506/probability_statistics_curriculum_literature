@@ -1,0 +1,19 @@
+{
+ "id": "2608.21665",
+ "title": "A Sparse-Group Pliable Lasso",
+ "authors": [
+  "Mohammad Javad Davoudabadi",
+  "Minh Long Nguyen",
+  "Amirhossein Ghatari",
+  "Mina Aminghafari",
+  "Kerrie Mengersen"
+ ],
+ "v1_date": "2026-08-21",
+ "latest_version": 1,
+ "latest_date": "2026-08-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 Figures",
+ "abstract": "The sparse-group pliable Lasso (SGPL) extends the pliable Lasso and group pliable Lasso by combining sparse-group regularization with a predictor-level coupling penalty, enabling simultaneous group-level selection, within-group sparsity, and hierarchical structure between main effects and interactions. We propose a blockwise coordinate descent algorithm for fitting the SGPL that exploits the convexity and structure of the objective function, establish convexity and Karush--Kuhn--Tucker optimality conditions, and prove that the algorithm converges to a global minimizer. Simulation studies demonstrate competitive predictive performance and smaller interaction estimation error than the pliable Lasso and group pliable Lasso, albeit with the expected precision--recall trade-off in support recovery. We further illustrate the proposed method using a Parkinson's disease gut microbiome study and an adrenocortical carcinoma (ACC) copy-number dataset from The Cancer Genome Atlas. The Parkinson's application identifies interpretable interactions between microbial abundances and dietary variables, while the ACC application illustrates that the effectiveness of group-structured regularization depends on how well the prespecified grouping reflects the underlying signal structure.",
+ "primary": "stat.ME"
+}

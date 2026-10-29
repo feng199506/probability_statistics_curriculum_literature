@@ -1,0 +1,18 @@
+{
+ "id": "2501.11868",
+ "title": "Automatic Debiased Machine Learning for Smooth Functionals of Nonparametric M-Estimands",
+ "authors": [
+  "Lars van der Laan",
+  "Aurelien Bibaut",
+  "Nathan Kallus",
+  "Alex Luedtke"
+ ],
+ "v1_date": "2025-01-21",
+ "latest_version": 3,
+ "latest_date": "2026-03-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a unified framework for automatic debiased machine learning (autoDML) for inference on a broad class of statistical parameters. The framework applies to any smooth functional of a nonparametric M-estimand, defined as the minimizer of a population risk over an infinite-dimensional linear space. Examples include counterfactual regression, quantile, and survival functions, as well as conditional average treatment effects. Rather than requiring manual derivation of influence functions, our approach automates the construction of debiased estimators using three ingredients: the gradient and Hessian of the loss function and a linear approximation of the target functional. Estimation reduces to solving two risk minimization problems, one for the M-estimand and one for a Riesz representer. The framework accommodates Neyman-orthogonal loss functions that depend on nuisance parameters and extends to vector-valued M-estimands through joint risk minimization. We characterize the efficient influence function and construct efficient autoDML estimators via one-step correction, targeted minimum loss estimation, and sieve-based plug-in methods. Under quadratic risk, these estimators satisfy double robustness for linear functionals. We further show that they are robust to mild misspecification of the M-estimand model, incurring only second-order bias. We illustrate the method by estimating long-term survival probabilities under a semiparametric two-parameter beta-geometric failure model.",
+ "primary": "stat.ME"
+}

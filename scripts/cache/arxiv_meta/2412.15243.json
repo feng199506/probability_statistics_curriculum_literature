@@ -1,0 +1,16 @@
+{
+ "id": "2412.15243",
+ "title": "Asymptotic efficiency of inferential models and a possibilistic Bernstein--von Mises theorem",
+ "authors": [
+  "Ryan Martin",
+  "Jonathan P. Williams"
+ ],
+ "v1_date": "2024-12-13",
+ "latest_version": 2,
+ "latest_date": "2025-07-11",
+ "journal_ref": "International Journal of Approximate Reasoning, volume 180, paper 109389, 2025",
+ "doi": "10.1016/j.ijar.2025.109389",
+ "comment": "",
+ "abstract": "The inferential model (IM) framework offers an alternative to the classical probabilistic (e.g., Bayesian and fiducial) uncertainty quantification in statistical inference. A key distinction is that classical uncertainty quantification takes the form of precise probabilities and offers only limited large-sample validity guarantees, whereas the IM's uncertainty quantification is imprecise in such a way that exact, finite-sample valid inference is possible. But is the IM's imprecision and finite-sample validity compatible with statistical efficiency? That is, can IMs be both finite-sample valid and asymptotically efficient? This paper gives an affirmative answer to this question via a new possibilistic Bernstein--von Mises theorem that parallels a fundamental Bayesian result. Among other things, our result shows that the IM solution is efficient in the sense that, asymptotically, its credal set is the smallest that contains the Gaussian distribution with variance equal to the Cramer--Rao lower bound. Moreover, a corresponding version of this new Bernstein--von Mises theorem is presented for problems that involve the elimination of nuisance parameters, which settles an open question concerning the relative efficiency of profiling-based versus extension-based marginalization strategies.",
+ "primary": "math.ST"
+}

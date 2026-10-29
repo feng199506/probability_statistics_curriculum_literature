@@ -1,0 +1,16 @@
+{
+ "id": "2312.02110",
+ "title": "Fourier Methods for Sufficient Dimension Reduction in Time Series",
+ "authors": [
+  "S. Yaser Samadi",
+  "Tharindu P. De Alwis"
+ ],
+ "v1_date": "2023-12-04",
+ "latest_version": 1,
+ "latest_date": "2023-12-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Dimensionality reduction has always been one of the most significant and challenging problems in the analysis of high-dimensional data. In the context of time series analysis, our focus is on the estimation and inference of conditional mean and variance functions. By using central mean and variance dimension reduction subspaces that preserve sufficient information about the response, one can effectively estimate the unknown mean and variance functions of the time series. While the literature presents several approaches to estimate the time series central mean and variance subspaces (TS-CMS and TS-CVS), these methods tend to be computationally intensive and infeasible for practical applications. By employing the Fourier transform, we derive explicit estimators for TS-CMS and TS-CVS. These proposed estimators are demonstrated to be consistent, asymptotically normal, and efficient. Simulation studies have been conducted to evaluate the performance of the proposed method. The results show that our method is significantly more accurate and computationally efficient than existing methods. Furthermore, the method has been applied to the Canadian Lynx dataset.",
+ "primary": "stat.ME"
+}

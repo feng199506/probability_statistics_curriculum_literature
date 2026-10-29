@@ -1,0 +1,17 @@
+{
+ "id": "2407.21456",
+ "title": "A Ball Divergence Based Measure For Conditional Independence Testing",
+ "authors": [
+  "Bilol Banerjee",
+  "Bhaswar B. Bhattacharya",
+  "Anil K. Ghosh"
+ ],
+ "v1_date": "2024-07-31",
+ "latest_version": 1,
+ "latest_date": "2024-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this paper we introduce a new measure of conditional dependence between two random vectors ${\\boldsymbol X}$ and ${\\boldsymbol Y}$ given another random vector $\\boldsymbol Z$ using the ball divergence. Our measure characterizes conditional independence and does not require any moment assumptions. We propose a consistent estimator of the measure using a kernel averaging technique and derive its asymptotic distribution. Using this statistic we construct two tests for conditional independence, one in the model-${\\boldsymbol X}$ framework and the other based on a novel local wild bootstrap algorithm. In the model-${\\boldsymbol X}$ framework, which assumes the knowledge of the distribution of ${\\boldsymbol X}|{\\boldsymbol Z}$, applying the conditional randomization test we obtain a method that controls Type I error in finite samples and is asymptotically consistent, even if the distribution of ${\\boldsymbol X}|{\\boldsymbol Z}$ is incorrectly specified up to distance preserving transformations. More generally, in situations where ${\\boldsymbol X}|{\\boldsymbol Z}$ is unknown or hard to estimate, we design a double-bandwidth based local wild bootstrap algorithm that asymptotically controls both Type I error and power. We illustrate the advantage of our method, both in terms of Type I error and power, in a range of simulation settings and also in a real data example. A consequence of our theoretical results is a general framework for studying the asymptotic properties of a 2-sample conditional $V$-statistic, which is of independent interest.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2509.19007",
+ "title": "Causal tail coefficient for compound extremes in multivariate time series",
+ "authors": [
+  "Cathy Yin",
+  "Adam M. Sykulski",
+  "Almut E. D. Veraart"
+ ],
+ "v1_date": "2025-09-23",
+ "latest_version": 1,
+ "latest_date": "2025-09-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Extreme events are often multivariate in nature. A compound extreme occurs when a combination of variables jointly produces a significant impact, even if individual components are not necessarily marginally extreme. Compound extremes have been observed across a wide range of domains, including space weather, climate, and environmental science. For example, heavy rainfall sustained over consecutive days can impose cumulative stress on urban drainage systems, potentially resulting in flooding. However, most existing methods for detecting extremal causality focus primarily on individual extreme values and lack the flexibility to capture causal relationships between compound extremes. This work introduces a novel framework for detecting causal dependencies between extreme events, including compound extremes. We introduce the compound causal tail coefficient that captures the extremal dependance of compound events between pairs of stationary time series. Based on a consistent estimator of this coefficient, we develop a bootstrap hypothesis test to evaluate the presence and direction of causal relationships. Our method can accommodate nonlinearity and latent confounding variables. We demonstrate the effectiveness of our method by establishing theoretic properties and through simulation studies and an application to space-weather data.",
+ "primary": "stat.ME"
+}

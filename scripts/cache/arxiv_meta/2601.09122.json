@@ -1,0 +1,17 @@
+{
+ "id": "2601.09122",
+ "title": "Statistical Guarantees for Data-driven Posterior Tempering",
+ "authors": [
+  "Ruchira Ray",
+  "Marco Avella Medina",
+  "Cynthia Rush"
+ ],
+ "v1_date": "2026-01-14",
+ "latest_version": 1,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Posterior tempering reduces the influence of the likelihood in the calculation of the posterior by raising the likelihood to a fractional power $α$. The resulting power posterior - also known as an $α$-posterior or fractional posterior - has been shown to exhibit appealing properties, including robustness to model misspecification and asymptotic normality (Bernstein-von Mises theorem). However, practical recommendations for selecting the tempering parameter and statistical guarantees for the resulting power posterior remain open questions. Cross-validation-based approaches to tuning this parameter suggest interesting asymptotic regimes for the selected $α$, which can either vanish or behave like a mixture distribution with a point mass at infinity and the remaining mass converging to zero. We formalize the asymptotic properties of the power posterior in these regimes. In particular, we provide sufficient conditions for (i) consistency of the power posterior moments and (ii) asymptotic normality of the power posterior mean. Our analysis required us to establish a new Laplace approximation that is interesting in its own right and is the key technical tool for showing a critical threshold $α\\asymp 1/\\sqrt{n}$ where the asymptotic normality of the posterior mean breaks. Our results allow for the power to depend on the data in an arbitrary way.",
+ "primary": "math.ST"
+}

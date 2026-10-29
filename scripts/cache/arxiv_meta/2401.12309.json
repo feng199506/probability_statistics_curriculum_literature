@@ -1,0 +1,15 @@
+{
+ "id": "2401.12309",
+ "title": "Interpreting Event-Studies from Recent Difference-in-Differences Methods",
+ "authors": [
+  "Jonathan Roth"
+ ],
+ "v1_date": "2024-01-22",
+ "latest_version": 2,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This note discusses the interpretation of event-study plots produced by recent difference-in-differences methods. I show that even when specialized to the case of non-staggered treatment timing, the default plots produced by software for several of the most popular recent methods do not match those of traditional two-way fixed effects (TWFE) event-studies. The plots produced by the new methods may show a kink or jump at the time of treatment even when the TWFE event-study shows a straight line. This difference stems from the fact that the new methods construct the pre-treatment coefficients asymmetrically from the post-treatment coefficients. As a result, visual heuristics for evaluating violations of parallel trends using TWFE event-study plots should not be immediately applied to those from these methods. I conclude with practical recommendations for constructing and interpreting event-study plots when using these methods.",
+ "primary": "econ.EM"
+}

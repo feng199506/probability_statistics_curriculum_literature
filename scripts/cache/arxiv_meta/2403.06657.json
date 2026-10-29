@@ -1,0 +1,17 @@
+{
+ "id": "2403.06657",
+ "title": "Data-Driven Tuning Parameter Selection for High-Dimensional Vector Autoregressions",
+ "authors": [
+  "Anders Bredahl Kock",
+  "Rasmus Søndergaard Pedersen",
+  "Jesper Riis-Vestergaard Sørensen"
+ ],
+ "v1_date": "2024-03-11",
+ "latest_version": 2,
+ "latest_date": "2024-12-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "90 pages, 5 figures",
+ "abstract": "Lasso-type estimators are routinely used to estimate high-dimensional time series models. The theoretical guarantees established for these estimators typically require the penalty level to be chosen in a suitable fashion often depending on unknown population quantities. Furthermore, the resulting estimates and the number of variables retained in the model depend crucially on the chosen penalty level. However, there is currently no theoretically founded guidance for this choice in the context of high-dimensional time series. Instead, one resorts to selecting the penalty level in an ad hoc manner using, e.g., information criteria or cross-validation. We resolve this problem by considering estimation of the perhaps most commonly employed multivariate time series model, the linear vector autoregressive (VAR) model, and propose versions of the Lasso, post-Lasso, and square-root Lasso estimators with penalization chosen in a fully data-driven way. The theoretical guarantees that we establish for the resulting estimation and prediction errors match those currently available for methods based on infeasible choices of penalization. We thus provide a first solution for choosing the penalization in high-dimensional time series models.",
+ "primary": "econ.EM"
+}

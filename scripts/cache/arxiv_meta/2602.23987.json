@@ -1,0 +1,18 @@
+{
+ "id": "2602.23987",
+ "title": "A Unified and Computationally Efficient Non-Gaussian Statistical Modeling Framework",
+ "authors": [
+  "David Bolin",
+  "Xiaotian Jin",
+  "Alexandre B. Simas",
+  "Jonas Wallin"
+ ],
+ "v1_date": "2026-02-27",
+ "latest_version": 1,
+ "latest_date": "2026-02-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Datasets that exhibit non-Gaussian characteristics are common in many fields, while the current modeling framework and available software for non-Gaussian models is limited. We introduce Linear Latent Non-Gaussian Models (LLnGMs), a unified and computationally efficient statistical modeling framework that extends a class of latent Gaussian models to allow for latent non-Gaussian processes. The framework unifies several popular models, from simple temporal models to complex spatial-temporal and multivariate models, facilitating natural non-Gaussian extensions. Computationally efficient Bayesian inference, with theoretical guarantees, is developed based on stochastic gradient descent estimation. The R package \\texttt{ngme2}, which implements the framework, is presented and demonstrated through a wide range of applications including novel non-Gaussian spatial and spatio-temporal models.",
+ "primary": "stat.ME"
+}

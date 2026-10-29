@@ -1,0 +1,16 @@
+{
+ "id": "2504.05489",
+ "title": "Bayesian Shrinkage in High-Dimensional VAR Models: A Comparative Study",
+ "authors": [
+  "Harrison Katz",
+  "Robert E. Weiss"
+ ],
+ "v1_date": "2025-04-07",
+ "latest_version": 3,
+ "latest_date": "2026-02-07",
+ "journal_ref": "International Journal of Statistics and Probability 14(3) (2025), 1-22",
+ "doi": "10.5539/ijsp.v14n3p1",
+ "comment": "",
+ "abstract": "High-dimensional vector autoregressive (VAR) models offer a versatile framework for multivariate time series analysis, yet face critical challenges from over-parameterization and uncertain lag order. In this paper, we systematically compare three Bayesian shrinkage priors (horseshoe, lasso, and normal) and two frequentist regularization approaches (ridge and nonparametric shrinkage) under three carefully crafted simulation scenarios. These scenarios encompass (i) overfitting in a low-dimensional setting, (ii) sparse high-dimensional processes, and (iii) a combined scenario where both large dimension and overfitting complicate inference. We evaluate each method in quality of parameter estimation (root mean squared error, coverage, and interval length) and out-of-sample forecasting (one-step-ahead forecast RMSE). Our findings show that local-global Bayesian methods, particularly the horseshoe, dominate in maintaining accurate coverage and minimizing parameter error, even when the model is heavily over-parameterized. Frequentist ridge often yields competitive point forecasts but underestimates uncertainty, leading to sub-nominal coverage. A real-data application using macroeconomic variables from Canada illustrates how these methods perform in practice, reinforcing the advantages of local-global priors in stabilizing inference when dimension or lag order is inflated.",
+ "primary": "stat.ME"
+}

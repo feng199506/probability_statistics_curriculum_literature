@@ -1,0 +1,16 @@
+{
+ "id": "2602.09542",
+ "title": "High Dimensional Mean Test for Shrinking Random Variables with Applications to Backtesting",
+ "authors": [
+  "Liujun Chen",
+  "Chen Zhou"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We propose a high dimensional mean test framework for shrinking random variables, where the underlying random variables shrink to zero as the sample size increases. By pooling observations across overlapping subsets of dimensions, we estimate subsets means and test whether the maximum absolute mean deviates from zero. This approach overcomes cancellations that occur in simple averaging and remains valid even when marginal asymptotic normality fails. We establish theoretical properties of the test statistic and develop a multiplier bootstrap procedure to approximate its distribution. The method provides a flexible and powerful tool for the validation and comparative backtesting of value-at-risk. Simulations show superior performance in high-dimensional settings, and a real-data application demonstrates its practical effectiveness in backtesting.",
+ "primary": "stat.ME"
+}

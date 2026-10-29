@@ -1,0 +1,16 @@
+{
+ "id": "2508.16110",
+ "title": "Estimating the growth rate of a birth and death process using data from a small sample",
+ "authors": [
+  "Carola Sophia Heinzel",
+  "Jason Schweinsberg"
+ ],
+ "v1_date": "2025-08-22",
+ "latest_version": 3,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The problem of estimating the growth rate of a birth and death processes based on the coalescence times of a sample of $n$ individuals has been considered by several authors (\\cite{stadler2009incomplete, williams2022life, mitchell2022clonal, Johnson2023}). This problem has applications, for example, to cancer research, when one is interested in determining the growth rate of a clone. Recently, \\cite{Johnson2023} proposed an analytical method for estimating the growth rate using the theory of coalescent point processes, which has comparable accuracy to more computationally intensive methods when the sample size $n$ is large. We use a similar approach to obtain an estimate of the growth rate that is not based on the assumption that $n$ is large. We demonstrate, through simulations using the R package \\texttt{cloneRate}, that our estimator of the growth rate performs well in comparison with previous approaches when $n$ is small.",
+ "primary": "stat.ME"
+}

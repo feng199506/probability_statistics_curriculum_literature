@@ -1,0 +1,17 @@
+{
+ "id": "2409.09512",
+ "title": "Doubly robust and computationally efficient high-dimensional variable selection",
+ "authors": [
+  "Abhinav Chakraborty",
+  "Jeffrey Zhang",
+  "Eugene Katsevich"
+ ],
+ "v1_date": "2024-09-14",
+ "latest_version": 2,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variable selection can be performed by testing conditional independence (CI) between each predictor and the response, given the other predictors. A doubly robust and powerful option for these CI tests is the projected covariance measure (PCM) test. However, directly deploying PCM for variable selection brings computational challenges: testing a single variable involves a few machine learning fits, so testing $p$ variables requires $O(p)$ fits. Inspired by model-X ideas, we observe that an estimate of the joint predictor distribution and a single response-on-all-predictors fit can be used to reconstruct all PCM fits. This yields tower PCM (tPCM), a computationally efficient extension of PCM to variable selection. When the joint predictor distribution is sufficiently tractable, as in applications like genome-wide association studies, tPCM offers a substantial speedup over PCM -- up to 130$\\times$ in our simulations -- while matching its power. tPCM also improves on model-X methods like knockoffs and holdout randomization test (HRT) by returning per-variable $p$-values and improving speed, respectively. We prove that tPCM is doubly robust and asymptotically equivalent to both PCM and HRT. We thus extend the bridge between model-X and doubly robust approaches, demonstrating their independent arrival at equivalent methods and showing that this intersection is a fruitful source of new methodologies like tPCM.",
+ "primary": "stat.ME"
+}

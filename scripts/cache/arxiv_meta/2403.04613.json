@@ -1,0 +1,17 @@
+{
+ "id": "2403.04613",
+ "title": "Conditional Predictive Inference for Missing Outcomes",
+ "authors": [
+  "Yonghoon Lee",
+  "Edgar Dobriban",
+  "Eric Tchetgen Tchetgen"
+ ],
+ "v1_date": "2024-03-07",
+ "latest_version": 2,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study the problem of conditional predictive inference on multiple outcomes missing at random (MAR) -- or equivalently, under covariate shift. While the weighted conformal prediction offers a tool for inference under covariate shift with a marginal coverage guarantee, procedures with conditional coverage guarantees are often desired in many applications to ensure reliable inference for a specific group of individuals. A standard approach to overcoming the fundamental limitation of distribution-free conditional predictive inference is to relax the target and instead aim to control coverage conditional on a local area, subset, or bin in the feature space. However, when the missingness pattern depends on the features, this relaxation remains challenging due to the violation of the MAR assumption with respect to the bins. To address this issue, we propose a propensity score $ε$-discretization, a carefully designed binning strategy based on the propensity score, which enables valid conditional inference. Based on this strategy, we develop a procedure -- termed pro-CP -- that enables simultaneous conditional predictive inference for multiple missing outcomes. We show that pro-CP controls the bin-conditional coverage rate in a distribution-free manner when the propensity score is either known exactly or estimated with sufficient accuracy. Furthermore, we provide a theoretical bound on the coverage rate when the propensity score is unknown and must be estimated. Notably, the error bound remains constant and depends only on the estimation quality, not on the sample size or the number of outcomes under consideration. In extensive empirical experiments on simulated data and on a job search intervention dataset, we illustrate that our procedures provide informative prediction sets with valid conditional coverage.",
+ "primary": "stat.ME"
+}

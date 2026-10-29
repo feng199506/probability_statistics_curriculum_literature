@@ -1,0 +1,17 @@
+{
+ "id": "2601.03675",
+ "title": "Maximum smoothed likelihood method for the combination of multiple diagnostic tests, with application to the ROC estimation",
+ "authors": [
+  "Fangyong Zheng",
+  "Pengfei Li",
+  "Tao Yu"
+ ],
+ "v1_date": "2026-01-07",
+ "latest_version": 1,
+ "latest_date": "2026-01-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In medical diagnostics, leveraging multiple biomarkers can significantly improve classification accuracy compared to using a single biomarker. While existing methods based on exponential tilting or density ratio models have shown promise, their assumptions may be overly restrictive in practice. In this paper, we adopt a flexible semiparametric model that relates the density ratio of diseased to healthy subjects through an unknown monotone transformation of a linear combination of biomarkers. To enhance estimation efficiency, we propose a smoothed likelihood framework that exploits the smoothness in the underlying densities and transformation function. Building on the maximum smoothed likelihood methodology, we construct estimators for the model parameters and the associated probability density functions. We develop an effective computational algorithm for implementation, derive asymptotic properties of the proposed estimators, and establish procedures for estimating the receiver operating characteristic (ROC) curve and the area under the curve (AUC). Through simulation studies and a real-data application, we demonstrate that the proposed method yields more accurate and efficient estimates than existing approaches.",
+ "primary": "stat.ME"
+}

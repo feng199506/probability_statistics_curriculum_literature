@@ -1,0 +1,16 @@
+{
+ "id": "2609.02570",
+ "title": "Probability-Maximizing Change Detection: Finite-Window Optimality",
+ "authors": [
+  "Ali Tajer",
+  "Javad Heydari"
+ ],
+ "v1_date": "2026-09-02",
+ "latest_version": 1,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages, 14 figures",
+ "abstract": "This paper investigates probability-maximizing sequential change detection, a formulation in which performance is measured by the probability of stopping within an admissible interval of duration $ξ$ after a change rather than by the expected detection delay. Earlier work introduced this viewpoint in a Bayesian setting and subsequently formalized it under Lorden- and Pollak-type minimax criteria for the case in which successful detection must occur on the \\textbf{first} post-change observation, i.e., $ξ=1$. This paper generalizes this framework in two directions. First, the decision maker is allowed to stop within a prescribed window of $ξ\\in\\mathbb{N}$ post-change observations. Second, the monitored process is allowed to experience multiple, non-overlapping transient change episodes with unknown onset times and durations, so that success consists of stopping within the admissible window associated with any one of these episodes. False alarms are controlled through an average run-length constraint. For exact finite-sample analysis, the paper introduces a survival-weighted average success criterion, which represents the probability of successfully detecting a randomly encountered change opportunity conditional on the detector being active at its onset. It is established that this criterion admits an exact representation as the expected \\textbf{truncated} Shiryaev--Roberts (TSR) statistic at the stopping time normalized by the average run length, and it characterizes its exactly optimal stopping rule. The optimal procedure has finite memory and aggregates the likelihood-ratio evidence corresponding to all possible change onsets within the most recent window and compares the resulting TSR statistic with a \\textbf{state-dependent} continuation boundary obtained from an optimal-stopping formulation.",
+ "primary": "math.ST"
+}

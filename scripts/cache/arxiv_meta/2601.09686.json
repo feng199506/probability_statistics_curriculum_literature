@@ -1,0 +1,16 @@
+{
+ "id": "2601.09686",
+ "title": "LARGE: A Locally Adaptive Regularization Approach for Estimating Gaussian Graphical Models",
+ "authors": [
+  "Ha Nguyen",
+  "Sumanta Basu"
+ ],
+ "v1_date": "2026-01-14",
+ "latest_version": 1,
+ "latest_date": "2026-01-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 5 figures, 2 tables",
+ "abstract": "The graphical Lasso (GLASSO) is a widely used algorithm for learning high-dimensional undirected Gaussian graphical models (GGM). Given i.i.d. observations from a multivariate normal distribution, GLASSO estimates the precision matrix by maximizing the log-likelihood with an \\ell_1-penalty on the off-diagonal entries. However, selecting an optimal regularization parameter λin this unsupervised setting remains a significant challenge. A well-known issue is that existing methods, such as out-of-sample likelihood maximization, select a single global λand do not account for heterogeneity in variable scaling or partial variances. Standardizing the data to unit variances, although a common workaround, has been shown to negatively affect graph recovery. Addressing the problem of nodewise adaptive tuning in graph estimation is crucial for applications like computational neuroscience, where brain networks are constructed from highly heterogeneous, region-specific fMRI data. In this work, we develop Locally Adaptive Regularization for Graph Estimation (LARGE), an approach to adaptively learn nodewise tuning parameters to improve graph estimation and selection. In each block coordinate descent step of GLASSO, we augment the nodewise Lasso regression to jointly estimate the regression coefficients and error variance, which in turn guides the adaptive learning of nodewise penalties. In simulations, LARGE consistently outperforms benchmark methods in graph recovery, demonstrates greater stability across replications, and achieves the best estimation accuracy in the most difficult simulation settings. We demonstrate the practical utility of our method by estimating brain functional connectivity from a real fMRI data set.",
+ "primary": "stat.ME"
+}

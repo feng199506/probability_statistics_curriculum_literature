@@ -1,0 +1,17 @@
+{
+ "id": "2506.23332",
+ "title": "Auto-Doubly Robust Estimation of Causal Effects on a Network",
+ "authors": [
+  "Jizhou Liu",
+  "Dake Zhang",
+  "Eric J. Tchetgen Tchetgen"
+ ],
+ "v1_date": "2025-06-29",
+ "latest_version": 2,
+ "latest_date": "2025-11-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops new methods for causal inference in observational studies on a single large network of interconnected units, addressing two key challenges: long-range dependence among units and the presence of general interference. We introduce a novel network version of Augmented Inverse Propensity Weighted, which combines propensity score and outcome models defined on the network to achieve doubly robust identification and estimation of both direct and spillover causal effects. Under a network version of conditional ignorability, the proposed approach identifies the expected potential outcome for a unit given the treatment assignment vector for its network neighborhood up to a user-specified distance, while marginalizing over treatment assignments for the rest of the network. Under the union of two Markov assumptions--one governing the propensity score model and the other the outcome model--we propose a corresponding semiparametric estimator based on general parametric specifications of nuisance functions. In particular, we suggest a class of parametric auto-regression models motivated by the Markov assumptions (Besag, 1974). By combining a restricted interference assumption with the propensity score model, we establish a new doubly robust identification result for the expected potential outcome under a hypothetical intervention on the treatment assignment vector for the entire network. We formally prove that, under weak network dependence, our proposed estimators are asymptotically normal and we characterize the impact of model misspecification on the asymptotic variance. Extensive simulation studies highlight the practical relevance of our approach. We further demonstrate its application in an empirical analysis of the NNAHRAY study, evaluating the impact of incarceration on individual socioeconomic outcomes in Brooklyn, New York.",
+ "primary": "stat.ME"
+}

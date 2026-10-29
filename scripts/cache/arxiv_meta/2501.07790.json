@@ -1,0 +1,17 @@
+{
+ "id": "2501.07790",
+ "title": "Sampling from density power divergence-based generalized posterior distribution via stochastic optimization",
+ "authors": [
+  "Naruki Sonobe",
+  "Tomotaka Momozaki",
+  "Tomoyuki Nakagawa"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 2,
+ "latest_date": "2025-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Robust Bayesian inference using density power divergence (DPD) has emerged as a promising approach for handling outliers in statistical estimation. Although the DPD-based posterior offers theoretical guarantees of robustness, its practical implementation faces significant computational challenges, particularly for general parametric models with intractable integral terms. These challenges are specifically pronounced in high-dimensional settings, where traditional numerical integration methods are inadequate and computationally expensive. Herein, we propose a novel {approximate} sampling methodology that addresses these limitations by integrating the loss-likelihood bootstrap with a stochastic gradient descent algorithm specifically designed for DPD-based estimation. Our approach enables efficient and scalable sampling from DPD-based posteriors for a broad class of parametric models, including those with intractable integrals. We further extend it to accommodate generalized linear models. Through comprehensive simulation studies, we demonstrate that our method efficiently samples from DPD-based posteriors, offering superior computational scalability compared to conventional methods, specifically in high-dimensional settings. The results also highlight its ability to handle complex parametric models with intractable integral terms.",
+ "primary": "stat.ME"
+}

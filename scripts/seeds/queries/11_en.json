@@ -1,0 +1,20 @@
+[
+ {"q": "(ti:\"Bayesian workflow\" OR abs:\"Bayesian workflow\")", "subtopic": "贝叶斯工作流"},
+ {"q": "(ti:tutorial OR ti:review OR ti:introduction OR ti:primer OR ti:survey) AND abs:Bayesian AND (abs:\"hierarchical model\" OR abs:multilevel) AND (cat:stat.ME OR cat:stat.AP OR cat:stat.CO)", "subtopic": "层级模型"},
+ {"q": "abs:\"hierarchical\" AND abs:Bayesian AND (abs:shrinkage OR abs:\"partial pooling\") AND (cat:stat.ME OR cat:stat.TH)", "subtopic": "层级模型"},
+ {"q": "(abs:\"prior elicitation\" OR abs:\"prior specification\" OR abs:\"weakly informative prior\" OR abs:\"default prior\") AND (cat:stat.ME OR cat:stat.TH OR cat:stat.AP)", "subtopic": "先验设定与诱导"},
+ {"q": "(abs:\"shrinkage prior\" OR abs:horseshoe OR abs:\"spike-and-slab\" OR abs:\"global-local\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "收缩先验"},
+ {"q": "(abs:\"posterior predictive check\" OR abs:\"prior predictive\" OR abs:\"Bayesian model checking\") AND (cat:stat.ME OR cat:stat.CO OR cat:stat.AP)", "subtopic": "后验预测检验"},
+ {"q": "(abs:\"Bayes factor\" OR abs:\"marginal likelihood\" OR abs:\"Bayesian model comparison\") AND (cat:stat.ME OR cat:stat.CO OR cat:stat.TH)", "subtopic": "模型比较"},
+ {"q": "(abs:\"leave-one-out cross-validation\" OR abs:\"Bayesian model averaging\" OR abs:stacking OR abs:\"predictive performance\") AND abs:Bayesian AND (cat:stat.ME OR cat:stat.CO)", "subtopic": "模型比较与预测评估"},
+ {"q": "(ti:review OR ti:tutorial OR ti:survey OR ti:introduction) AND (abs:\"Bayesian nonparametric\" OR abs:\"Dirichlet process\" OR abs:\"Gaussian process\") AND (cat:stat.ME OR cat:stat.TH OR cat:math.ST)", "subtopic": "非参数贝叶斯"},
+ {"q": "(abs:\"Dirichlet process\" OR abs:\"Pitman-Yor\" OR abs:\"species sampling\" OR abs:\"completely random measure\") AND (cat:math.ST OR cat:stat.TH OR cat:stat.ME)", "subtopic": "非参数贝叶斯"},
+ {"q": "(abs:\"posterior contraction\" OR abs:\"posterior concentration\") AND (cat:math.ST OR cat:stat.TH)", "subtopic": "后验收缩理论"},
+ {"q": "(abs:\"Bernstein-von Mises\" OR abs:\"frequentist coverage of credible\") AND (cat:math.ST OR cat:stat.TH)", "subtopic": "后验渐近与覆盖"},
+ {"q": "(abs:\"generalized Bayesian\" OR abs:\"Gibbs posterior\" OR abs:\"power posterior\" OR abs:\"misspecified\" AND abs:posterior) AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "广义贝叶斯与误设"},
+ {"q": "(abs:\"Bayesian decision theory\" OR abs:\"objective Bayes\" OR abs:\"reference prior\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "贝叶斯决策与客观贝叶斯"},
+ {"q": "(abs:\"empirical Bayes\") AND (ti:review OR ti:tutorial OR abs:\"nonparametric maximum likelihood\" OR abs:compound) AND (cat:stat.ME OR cat:math.ST)", "subtopic": "经验贝叶斯"},
+ {"q": "(abs:\"simulation-based calibration\" OR abs:\"Bayesian computation\" OR abs:\"probabilistic programming\" OR abs:Stan) AND (cat:stat.CO OR cat:stat.ME)", "subtopic": "贝叶斯计算与软件"},
+ {"q": "(abs:\"Bayesian\" AND abs:\"variable selection\" OR abs:\"Bayesian linear regression\") AND (cat:stat.ME OR cat:math.ST)", "subtopic": "贝叶斯回归与变量选择"},
+ {"q": "(abs:\"Bayesian\" AND (abs:\"meta-analysis\" OR abs:\"multilevel regression and poststratification\")) AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "贝叶斯应用建模"}
+]

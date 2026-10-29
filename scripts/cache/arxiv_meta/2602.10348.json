@@ -1,0 +1,16 @@
+{
+ "id": "2602.10348",
+ "title": "Optimizing precision in stepped-wedge designs via machine learning and quadratic inference functions",
+ "authors": [
+  "Liangbo Lyu",
+  "Bingkai Wang"
+ ],
+ "v1_date": "2026-02-10",
+ "latest_version": 1,
+ "latest_date": "2026-02-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Stepped-wedge designs are increasingly used in randomized experiments to accommodate logistical and ethical constraints by staggering treatment roll-out over time. Despite their popularity, existing analytical methods largely rely on parametric models with linear covariate adjustment and prespecified correlation structures, which may limit achievable precision in practice. We propose a new class of estimators for the causal average treatment effect in stepped-wedge designs that optimizes precision through flexible, machine-learning-based covariate adjustment to capture complex outcome-covariate relationships, together with quadratic inference functions to adaptively learn the correlation structure. We establish consistency and asymptotic normality under mild conditions requiring only $L_2$ convergence of nuisance estimators, even under model misspecification, and characterize when the estimator attains the minimal asymptotic variance. Moreover, we prove that the proposed estimator never reduces efficiency relative to an independence working correlation. The proposed method further accommodates treatment-effect heterogeneity across both exposure duration and calendar time. Finally, we demonstrate our methods through simulation studies and reanalyses of two empirical studies that differ substantially in research area and key design parameters.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2411.15660",
+ "title": "Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm",
+ "authors": [
+  "Jingyang Li",
+  "T. Tony Cai",
+  "Dong Xia",
+  "Anru R. Zhang"
+ ],
+ "v1_date": "2024-11-23",
+ "latest_version": 1,
+ "latest_date": "2024-11-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Federated Learning (FL) has gained significant recent attention in machine learning for its enhanced privacy and data security, making it indispensable in fields such as healthcare, finance, and personalized services. This paper investigates federated PCA and estimation for spiked covariance matrices under distributed differential privacy constraints. We establish minimax rates of convergence, with a key finding that the central server's optimal rate is the harmonic mean of the local clients' minimax rates. This guarantees consistent estimation at the central server as long as at least one local client provides consistent results. Notably, consistency is maintained even if some local estimators are inconsistent, provided there are enough clients. These findings highlight the robustness and scalability of FL for reliable statistical inference under privacy constraints. To establish minimax lower bounds, we derive a matrix version of van Trees' inequality, which is of independent interest. Furthermore, we propose an efficient algorithm that preserves differential privacy while achieving near-optimal rates at the central server, up to a logarithmic factor. We address significant technical challenges in analyzing this algorithm, which involves a three-layer spectral decomposition. Numerical performance of the proposed algorithm is investigated using both simulated and real data.",
+ "primary": "math.ST"
+}

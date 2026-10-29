@@ -1,0 +1,19 @@
+{
+ "id": "2401.15225",
+ "title": "A bivariate two-state Markov modulated Poisson process for failure modelling",
+ "authors": [
+  "Yoel G. Yera",
+  "Rosa E. Lillo",
+  "Bo F. Nielsen",
+  "Pepa Ramírez-Cobo",
+  "Fabrizio Ruggeri"
+ ],
+ "v1_date": "2024-01-26",
+ "latest_version": 1,
+ "latest_date": "2024-01-26",
+ "journal_ref": "Reliability Engineering and System Safety 208(2021) 107318",
+ "doi": "10.1016/j.ress.2020.107318",
+ "comment": "",
+ "abstract": "Motivated by a real failure dataset in a two-dimensional context, this paper presents an extension of the Markov modulated Poisson process (MMPP) to two dimensions. The one-dimensional MMPP has been proposed for the modeling of dependent and non-exponential inter-failure times (in contexts as queuing, risk or reliability, among others). The novel two-dimensional MMPP allows for dependence between the two sequences of inter-failure times, while at the same time preserves the MMPP properties, marginally. The generalization is based on the Marshall-Olkin exponential distribution. Inference is undertaken for the new model through a method combining a matching moments approach with an Approximate Bayesian Computation (ABC) algorithm. The performance of the method is shown on simulated and real datasets representing times and distances covered between consecutive failures in a public transport company. For the real dataset, some quantities of importance associated with the reliability of the system are estimated as the probabilities and expected number of failures at different times and distances covered by trains until the occurrence of a failure.",
+ "primary": "stat.ME"
+}

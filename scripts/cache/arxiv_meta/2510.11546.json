@@ -1,0 +1,18 @@
+{
+ "id": "2510.11546",
+ "title": "Efficient Group Lasso Regularized Rank Regression with Simulation-Based Tuning",
+ "authors": [
+  "Meixia Lin",
+  "Mengjiao Shi",
+  "Yunhai Xiao",
+  "Qian Zhang"
+ ],
+ "v1_date": "2025-10-13",
+ "latest_version": 3,
+ "latest_date": "2026-07-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "36 pages, 4 figures, 8 tables",
+ "abstract": "High-dimensional regression often suffers from heavy-tailed noise and outliers, which can severely undermine the reliability of least-squares based methods. To improve robustness, we adopt a non-smooth Wilcoxon score based rank objective and incorporate the group sparsity regularization. By extending the tuning-free property originally developed for the rank Lasso, we introduce a simulation-based tuning rule and further establish a finite-sample error bound for the resulting estimator. To solve the associated optimization problem, we develop a proximal augmented Lagrangian method, for which we provide a novel convergence analysis by proving the metric subregularity of the underlying non-polyhedral KKT mapping, while enabling efficient semismooth Newton updates for the subproblems. Extensive numerical experiments demonstrate the robustness and effectiveness of our proposed estimator against several leading alternatives, and showcase the efficiency and scalability of our algorithm compared to the state-of-the-art baseline in both simulated and real-data settings.",
+ "primary": "stat.ML"
+}

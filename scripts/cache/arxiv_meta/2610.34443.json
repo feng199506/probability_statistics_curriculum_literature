@@ -1,0 +1,16 @@
+{
+ "id": "2610.34443",
+ "title": "On maximum likelihood estimation in the $β$-model for random hypergraphs",
+ "authors": [
+  "Milan Vojnović",
+  "Yiliu Wang"
+ ],
+ "v1_date": "2026-10-25",
+ "latest_version": 1,
+ "latest_date": "2026-10-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "54 pages, 7 figures; based in part on the PhD thesis of Yiliu Wang, with substantial subsequent theoretical developments",
+ "abstract": "We study maximum likelihood estimation in the $β$-model for random hypergraphs, in which a group of vertices succeeds with a probability that depends on the sum of its members' parameters. The data are independent binary outcomes of experiments on groups of vertices, tested according to an arbitrary, possibly incomplete design. Suppose that every tested group has $k$ vertices and success probability in $[ε,1-ε]$. For complete designs in which every group is tested at least $r$ times, a unique maximum likelihood estimator (MLE) exists with high probability if $r\\geq C_kε^{-1}\\log n/n^{k-1}$, and for $m$ experiments on uniformly random groups, it suffices that $m\\geq C_kε^{-1}n\\log n$, where $C_k$ depends only on $k$. Both conditions are linear in $ε^{-1}$ and, for fixed $k$, cannot be improved in general beyond the constant; they follow from finite-sample bounds for arbitrary designs. We bound the mean squared error of the MLE over a parameter box by the smallest eigenvalue of the correlation matrix of the design, and show that the rate is minimax optimal for balanced complete designs. Among $k$-uniform designs with a given number of experiments, designs in which every pair of vertices takes part together in the same number of experiments maximize this eigenvalue, and uniform random designs nearly do so with high probability. Finally, the design matrix of a uniform random design has full column rank with high probability if $m\\geq\\max\\{n,c(n/k)\\log n\\}$ for fixed $c>2$ and $k=o(n/\\log n)$, or $m\\geq n$ when $k\\geq(1+ξ)\\log n$. For fixed $k$, the threshold $(n/k)\\log n$ is sharp, and above it rank deficiency is asymptotically as likely as some vertex taking part in no experiment.",
+ "primary": "math.ST"
+}

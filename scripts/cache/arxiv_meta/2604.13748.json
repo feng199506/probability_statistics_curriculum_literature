@@ -1,0 +1,18 @@
+{
+ "id": "2604.13748",
+ "title": "Forecasting Multivariate Time Series under Predictive Heterogeneity: A Validation-Driven Clustering Framework",
+ "authors": [
+  "Ziling Ma",
+  "Ángel López Oriona",
+  "Hernando Ombao",
+  "Ying Sun"
+ ],
+ "v1_date": "2026-04-15",
+ "latest_version": 1,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study adaptive pooling under predictive heterogeneity in high-dimensional multivariate time series forecasting, where global models improve statistical efficiency but may fail to capture heterogeneous predictive structure, while naive specialization can induce negative transfer. We formulate adaptive pooling as a statistical decision problem and propose a validation-driven framework that determines when and how specialization should be applied. Rather than grouping series based on representation similarity, we define partitions through out-of-sample predictive performance, thereby aligning data organization with predictive risk, defined as expected out-of-sample loss and approximated via validation error. Cluster assignments are iteratively updated using validation losses for both point (Huber) and probabilistic (pinball) forecasting, improving robustness to heavy-tailed errors and local anomalies. To ensure reliability, we introduce a leakage-free fallback mechanism that reverts to a global model whenever specialization fails to improve validation performance, providing a safeguard against performance degradation under a strict training-validation-test protocol. Experiments on large-scale traffic datasets demonstrate consistent improvements over strong baselines while avoiding degradation when heterogeneity is weak. Overall, the proposed framework provides a principled and practically reliable approach to adaptive pooling in high-dimensional forecasting problems.",
+ "primary": "stat.ME"
+}

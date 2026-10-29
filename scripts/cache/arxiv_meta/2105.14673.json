@@ -1,0 +1,18 @@
+{
+ "id": "2105.14673",
+ "title": "A Minimax Lower Bound for Low-Rank Matrix-Variate Logistic Regression",
+ "authors": [
+  "Batoul Taki",
+  "Mohsen Ghassemi",
+  "Anand D. Sarwate",
+  "Waheed U. Bajwa"
+ ],
+ "v1_date": "2021-05-31",
+ "latest_version": 2,
+ "latest_date": "2022-01-29",
+ "journal_ref": "",
+ "doi": "10.1109/ieeeconf53345.2021.9723149",
+ "comment": "8 pages; published in Proc. 55th Asilomar Conf. Signals, Systems, and Computers, Pacific Grove, CA, Oct. 31-Nov. 3, 2021",
+ "abstract": "This paper considers the problem of matrix-variate logistic regression. It derives the fundamental error threshold on estimating low-rank coefficient matrices in the logistic regression problem by obtaining a lower bound on the minimax risk. The bound depends explicitly on the dimension and distribution of the covariates, the rank and energy of the coefficient matrix, and the number of samples. The resulting bound is proportional to the intrinsic degrees of freedom in the problem, which suggests the sample complexity of the low-rank matrix logistic regression problem can be lower than that for vectorized logistic regression. The proof techniques utilized in this work also set the stage for development of minimax lower bounds for tensor-variate logistic regression problems.",
+ "primary": "cs.LG"
+}

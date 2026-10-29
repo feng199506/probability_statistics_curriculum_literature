@@ -1,0 +1,17 @@
+{
+ "id": "2407.09034",
+ "title": "Numerical approximation of ergodic BSDEs using non linear Feynman-Kac formulas",
+ "authors": [
+  "Emmanuel Gobet",
+  "Adrien Richou",
+  "Lukasz Szpruch"
+ ],
+ "v1_date": "2024-07-12",
+ "latest_version": 2,
+ "latest_date": "2024-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In this work we study the numerical approximation of a class of ergodic Backward Stochastic Differential Equations. These equations are formulated in an infinite horizon framework and provide a probabilistic representation for elliptic Partial Differential Equations of ergodic type. In order to build our numerical scheme, we put forward a new representation of the PDE solution by using a classical probabilistic representation of the gradient. Then, based on this representation, we propose a fully implementable numerical scheme using a Picard iteration procedure, a grid space discretization and a Monte-Carlo approximation. Up to a limiting technical condition that guarantees the contraction of the Picard procedure, we obtain an upper bound for the numerical error. We also provide some numerical experiments that show the efficiency of this approach for small dimensions.",
+ "primary": "math.NA"
+}

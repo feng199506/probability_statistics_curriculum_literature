@@ -1,0 +1,17 @@
+{
+ "id": "2606.26980",
+ "title": "Climate-Driven Mortality Forecasting Using Deep Learning",
+ "authors": [
+  "Kenrick So",
+  "Karim Barigou",
+  "Jens Robben"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Climate extremes have become important drivers of mortality, producing sudden spikes that traditional mortality models fail to predict. To address this gap, we propose a two-step modelling framework that combines a regional weekly Lee-Carter baseline model that captures long-term mortality trends and overall seasonal patterns, with two complementary deep learning architectures designed to model excess mortality driven by environmental conditions and climate shocks. The first, a CNN-LSTM, captures region-specific temporal responses through convolutional filters. The second, a GNN-LSTM, replaces convolutions with graph-based representations to model spatial mortality dependencies and the propagation of climate-related impacts across regions. Both architectures are further extended to a quantile LSTM framework that produces time-varying prediction intervals. We evaluate our models against both the Lee-Carter baseline and MortFCNet (Zheng et al., 2025). Using French regional data over 1990-2019, our models capture delayed and nonlinear associations between environmental extremes and excess mortality. Both proposed architectures outperform the Lee-Carter baseline and MortFCNet across all regions, each reducing test MSE by approximately 24% relative to the MortFCNet, with particularly large gains at the oldest ages where climate-driven mortality spikes are most severe. From a risk management perspective, the proposed framework provides a more realistic characterization of extreme climate-driven mortality risk, with time-varying prediction intervals that offer a more informed basis for the assessment of climate-related longevity exposure by insurers and pension funds.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2604.17254",
+ "title": "Detecting Breast Carcinoma Metastasis on Whole-Slide Images by Partially Subsampled Multiple Instance Learning",
+ "authors": [
+  "Baichen Yu",
+  "Xuetong Li",
+  "Jing Zhou",
+  "Hansheng Wang"
+ ],
+ "v1_date": "2026-04-19",
+ "latest_version": 1,
+ "latest_date": "2026-04-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Breast cancer is the most prevalent cancer in women worldwide. Histopathology image analysis serves as the gold standard for cancer diagnosis. In this regard, whole-slide imaging (WSI), a revolutionary technology in digital pathology, allows for ultrahigh-resolution tissue analysis. Despite its promise, WSI analysis faces significant computational challenges due to its massive data size and tissue heterogeneity. To address this issue, we present a Gaussian mixture based multiple instance learning (MIL) framework for WSI analysis with partially subsampled instances. Our approach models a WSI as a bag of instances (i.e., randomly cropped sub-images), leveraging a bag-based maximum likelihood estimator (BMLE) to predict metastases. Furthermore, we introduce a subsampling-based maximum likelihood estimator (SMLE) to refine predictions by selectively labeling a subset of instances. Extensive evaluations of the breast carcinoma metastasis prediction demonstrate that BMLE surpasses state-of-the-art methods, while the SMLE further improves the prediction accuracy at both bag and instance levels. We find that our method is fairly robust against various plausible model mis-specifications. Theoretical analyses and simulation studies validate the performance and robustness of our methods.",
+ "primary": "stat.ME"
+}

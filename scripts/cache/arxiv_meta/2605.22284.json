@@ -1,0 +1,16 @@
+{
+ "id": "2605.22284",
+ "title": "moveEZ: An R Package for Animated Biplots",
+ "authors": [
+  "Raeesa Ganey",
+  "Johané Nienkemper-Swanepoel"
+ ],
+ "v1_date": "2026-05-21",
+ "latest_version": 1,
+ "latest_date": "2026-05-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "R package",
+ "abstract": "The moveEZ (pronounced move easy) R package provides tools for constructing animated PCA biplots that reveal how multivariate structure evolves across the ordered levels of a categorical variable. Built as an extension to the biplotEZ package, moveEZ offers three animation frameworks of increasing methodological complexity: a fixed variable frame, in which variable vectors remain constant and only sample positions are animated; and two dynamic frames, in which both sample positions and variable vectors are recomputed and animated at each level. The dynamic frames support Procrustes alignment and reflection to ensure visual continuity across levels, and are compatible with high-dimensional datasets including grouped structures. The package integrates with gganimate to produce high-quality animations suitable for publications and presentations, and supports both animated and static faceted displays via a single argument. Although originally motivated by tracking shifts in African climate indicators, moveEZ is domain-agnostic and applicable wherever multivariate measurements are recorded repeatedly across an ordered categorical variable, including economic, ecological, and biological settings.",
+ "primary": "stat.CO"
+}

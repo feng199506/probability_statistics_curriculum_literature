@@ -1,0 +1,16 @@
+{
+ "id": "2608.27500",
+ "title": "Optimal Transport for Network Comparison: A Unified Review with New Spectral Bounds and Machine Learning Applications",
+ "authors": [
+  "James Hyun",
+  "François G. Meyer"
+ ],
+ "v1_date": "2026-08-27",
+ "latest_version": 3,
+ "latest_date": "2026-09-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network comparison using optimal transport is a growing area of research in network science. Unlike standard graph metrics, optimal transport computes both network dissimilarity and a transport plan that explains how one graph morphs into another. In this paper, we review how optimal transport compares undirected, unweighted simple graphs using three primary distances: the Wasserstein, Gromov-Wasserstein, and Bures-Wasserstein distances. We examine the closed form of the Wasserstein distance in one dimension via node feature probability distributions, and show how the transport plans of the Wasserstein and Gromov-Wasserstein distances visualize how mass is shifted to transform one network into another. Beyond reviewing existing transport-based approaches, we establish new spectral lower and upper bounds for the Bures-Wasserstein distance and characterize the tightness of the lower bound under eigenbasis perturbations. Finally, we evaluate these distances using a synthetic network dataset for clustering and a real-world temporal network.",
+ "primary": "stat.ML"
+}

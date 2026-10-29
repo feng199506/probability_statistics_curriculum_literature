@@ -1,0 +1,16 @@
+{
+ "id": "2509.26175",
+ "title": "Spectral gap of Metropolis-within-Gibbs under log-concavity",
+ "authors": [
+  "Cecilia Secchi",
+  "Giacomo Zanella"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 2,
+ "latest_date": "2026-09-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 7 figure",
+ "abstract": "The Metropolis-within-Gibbs (MwG) algorithm is a widely used Markov chain Monte Carlo method for sampling from high-dimensional distributions when exact conditional sampling is intractable. We study MwG with Random Walk Metropolis (RWM) updates, whose proposal variances are uniformly comparable to the corresponding conditional variances. Assuming the target $π$ is a $d$-dimensional log-concave distribution with condition number $κ$, we establish a spectral gap lower bound of order $Ω((κd)^{-1})$ for the random-scan version of MwG, improving on the previously available $Ω((κ^2 d)^{-1})$ bound. This is obtained by developing sharp estimates of the conductance of one-dimensional RWM kernels, which may be of independent interest. The result shows that MwG can mix substantially faster under the stated uniform tuning condition and that its mixing performance is just a constant factor worse than that of the exact Gibbs sampler, thus providing theoretical support to previously observed empirical behavior.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2401.03649",
+ "title": "Bayes Factor of Zero Inflated Models under Jeffereys Prior",
+ "authors": [
+  "Paramahansa Pramanik",
+  "Arnab Kumar Maity"
+ ],
+ "v1_date": "2024-01-08",
+ "latest_version": 1,
+ "latest_date": "2024-01-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "34 pages, 5 tables",
+ "abstract": "Microbiome omics data including 16S rRNA reveal intriguing dynamic associations between the human microbiome and various disease states. Drastic changes in microbiota can be associated with factors like diet, hormonal cycles, diseases, and medical interventions. Along with the identification of specific bacteria taxa associated with diseases, recent advancements give evidence that metabolism, genetics, and environmental factors can model these microbial effects. However, the current analytic methods for integrating microbiome data are fully developed to address the main challenges of longitudinal metagenomics data, such as high-dimensionality, intra-sample dependence, and zero-inflation of observed counts. Hence, we propose the Bayes factor approach for model selection based on negative binomial, Poisson, zero-inflated negative binomial, and zero-inflated Poisson models with non-informative Jeffreys prior. We find that both in simulation studies and real data analysis, our Bayes factor remarkably outperform traditional Akaike information criterion and Vuong's test. A new R package BFZINBZIP has been introduced to do simulation study and real data analysis to facilitate Bayesian model selection based on the Bayes factor.",
+ "primary": "stat.ME"
+}

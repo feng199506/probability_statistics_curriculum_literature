@@ -1,0 +1,16 @@
+{
+ "id": "2409.20262",
+ "title": "Bootstrap-Based Goodness-of-Fit Test for Parametric Families of Conditional Distributions",
+ "authors": [
+  "Gitte Kremling",
+  "Gerhard Dikta"
+ ],
+ "v1_date": "2024-09-30",
+ "latest_version": 6,
+ "latest_date": "2025-10-09",
+ "journal_ref": "Computational Statistics & Data Analysis 215 (2026)",
+ "doi": "10.1016/j.csda.2025.108289",
+ "comment": "Accepted for publication in Computational Statistics & Data Analysis: https://doi.org/10.1016/j.csda.2025.108289",
+ "abstract": "A consistent goodness-of-fit test for distributional regression is introduced. The test statistic is based on a process that traces the difference between a nonparametric and a semi-parametric estimate of the marginal distribution function of Y. As its asymptotic null distribution is not distribution-free, a parametric bootstrap method is used to determine critical values. Empirical results suggest that, in certain scenarios, the test outperforms existing specification tests by achieving a higher power and thereby offering greater sensitivity to deviations from the assumed parametric distribution family. Notably, the proposed test does not involve any hyperparameters and can easily be applied to individual datasets using the gofreg-package in R.",
+ "primary": "stat.ME"
+}

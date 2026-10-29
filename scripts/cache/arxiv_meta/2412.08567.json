@@ -1,0 +1,17 @@
+{
+ "id": "2412.08567",
+ "title": "Identifiability of the instrumental variable model with the treatment and outcome missing not at random",
+ "authors": [
+  "Shuozhi Zuo",
+  "Peng Ding",
+  "Fan Yang"
+ ],
+ "v1_date": "2024-12-11",
+ "latest_version": 2,
+ "latest_date": "2026-06-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The instrumental variable model of Imbens and Angrist (1994) and Angrist et al. (1996) identifies the local average treatment effect, also known as the complier average causal effect (CACE). In practice, however, the treatment and outcome are often missing, and when they are missing not at random (MNAR), the CACE is generally not identifiable without further assumptions, because the underlying data distribution itself cannot be recovered. We study when the CACE remains identifiable under MNAR. Through an exhaustive search over missingness mechanisms, we characterize all those that identify the CACE without auxiliary information, in two scenarios: (1) missing data in either the treatment or the outcome alone, and (2) missing data in both the treatment and outcome under prospective data collection. Along the way, we unify existing results and establish many new ones, giving a complete picture of identifiability in each case. Our theory suggests that before any practical data analysis under the instrumental variable model, it is important to check whether the CACE is identifiable under the proposed missingness mechanism; moreover, because the true mechanism is typically unknown and untestable, it is more robust to conduct sensitivity analyses across multiple plausible missingness mechanisms.",
+ "primary": "stat.ME"
+}

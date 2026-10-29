@@ -1,0 +1,17 @@
+{
+ "id": "2311.17102",
+ "title": "Splinets -- Orthogonal Splines and FDA for the Classification Problem",
+ "authors": [
+  "Rani Basna",
+  "Hiba Nassar",
+  "Krzysztof Podgórski"
+ ],
+ "v1_date": "2023-11-28",
+ "latest_version": 1,
+ "latest_date": "2023-11-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages. arXiv admin note: text overlap with arXiv:2102.00733",
+ "abstract": "This study introduces an efficient workflow for functional data analysis in classification problems, utilizing advanced orthogonal spline bases. The methodology is based on the flexible Splinets package, featuring a novel spline representation designed for enhanced data efficiency. Several innovative features contribute to this efficiency: 1)Utilization of Orthonormal Spline Bases 2)Consideration of Spline Support Sets 3)Data-Driven Knot Selection. Illustrating this approach, we applied the workflow to the Fashion MINST dataset. We demonstrate the classification process and highlight significant efficiency gains. Particularly noteworthy are the improvements that can be achieved through the 2D generalization of our methodology, especially in scenarios where data sparsity and dimension reduction are critical factors. A key advantage of our workflow is the projection operation into the space of splines with arbitrarily chosen knots, allowing for versatile functional data analysis associated with classification problems. Moreover, the study explores Splinets package features suited for functional data analysis. The algebra and calculus of splines use Taylor expansions at the knots within the support sets. Various orthonormalization techniques for B-splines are implemented, including the highly recommended dyadic method, which leads to the creation of splinets. Importantly, the locality of B-splines concerning support sets is preserved in the corresponding splinet. Using this locality, along with implemented algorithms, provides a powerful computational tool for functional data analysis.",
+ "primary": "stat.ME"
+}

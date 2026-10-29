@@ -1,0 +1,15 @@
+{
+ "id": "2505.17620",
+ "title": "PolyStan: PolyChord nested sampling and Bayesian evidences for Stan models",
+ "authors": [
+  "Andrew Fowlie"
+ ],
+ "v1_date": "2025-05-23",
+ "latest_version": 1,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages, 2 figures",
+ "abstract": "Sampling from multi-modal distributions and estimating marginal likelihoods, also known as evidences and normalizing constants, are well-known challenges in statistical computation. They can be overcome by nested sampling, which evolves a set of live points through a sequence of distributions upwards in likelihood. We introduce PolyStan -- a nested sampling inference engine for Stan. PolyStan provides a Stan interface to the PolyChord nested sampling algorithm using bridgestan. PolyStan introduces a new user-base to nested sampling algorithms and provides a black-box method for sampling from challenging distributions and computing marginal likelihoods. We demonstrate the robustness of nested sampling on several degenerate and multi-modal problems, comparing it to bridge sampling and Hamiltonian Monte Carlo.",
+ "primary": "stat.CO"
+}

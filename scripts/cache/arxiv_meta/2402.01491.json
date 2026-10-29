@@ -1,0 +1,15 @@
+{
+ "id": "2402.01491",
+ "title": "Moving Aggregate Modified Autoregressive Copula-Based Time Series Models (MAGMAR-Copulas)",
+ "authors": [
+  "Sven Pappert"
+ ],
+ "v1_date": "2024-02-02",
+ "latest_version": 3,
+ "latest_date": "2026-03-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Copula-based time series models can model univariate and stationary time series in a flexible way by decomposing the joint distribution of consecutive observations into a copula and the stationary distribution. Implicitly this approach assumes a finite Markov order. In reality a time series may not follow the Markov property. We modify the copula-based time series models by introducing a moving aggregate (MAG) part into the model updating equation. The functional form of the MAG-part is given as the conditional quantile function corresponding to a copula. The resulting MAG-modified Autoregressive Copula-Based Time Series model (MAGMAR-Copula) is discussed in detail and distributional properties are derived in a D-vine framework. We show that the stationary distribution implied by the model is not standard-uniform. Hence we propose an adjustment transformation that recovers the desired standard-uniformity. The model nests the classical ARMA model and can be interpreted as a non-linear generalization of the ARMA model. The modeling performance is evaluated by modeling US inflation. Our model is competitive with benchmark models in terms of information criteria.",
+ "primary": "stat.ME"
+}

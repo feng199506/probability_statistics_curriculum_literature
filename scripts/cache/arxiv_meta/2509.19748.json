@@ -1,0 +1,15 @@
+{
+ "id": "2509.19748",
+ "title": "Generalized Bayesian Inference for Dynamic Random Dot Product Graphs",
+ "authors": [
+  "Joshua Daniel Loyal"
+ ],
+ "v1_date": "2025-09-24",
+ "latest_version": 1,
+ "latest_date": "2025-09-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "50 pages, 12 figures, and 2 tables",
+ "abstract": "The random dot product graph is a popular model for network data with extensions that accommodate dynamic (time-varying) networks. However, two significant deficiencies exist in the dynamic random dot product graph literature: (1) no coherent Bayesian way to update one's prior beliefs about the latent positions in dynamic random dot product graphs due to their complicated constraints, and (2) no approach to forecast future networks with meaningful uncertainty quantification. This work proposes a generalized Bayesian framework that addresses these needs using a Gibbs posterior that represents a coherent updating of Bayesian beliefs based on a least-squares loss function. We establish the consistency and contraction rate of this Gibbs posterior under commonly adopted Gaussian random walk priors. For estimation, we develop a fast Gibbs sampler with a time complexity for sampling the latent positions that is linear in the observed edges in the dynamic network, which is substantially faster than existing exact samplers. Simulations and an application to forecasting international conflicts show that the proposed method's in-sample and forecasting performance outperforms competitors.",
+ "primary": "stat.ME"
+}

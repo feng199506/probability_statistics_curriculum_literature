@@ -1,0 +1,16 @@
+{
+ "id": "2609.02120",
+ "title": "Instance Optimal Sparse Recovery from Nonlinear Observations: A Unified Framework",
+ "authors": [
+  "Junren Chen",
+  "Arian Maleki"
+ ],
+ "v1_date": "2026-09-02",
+ "latest_version": 1,
+ "latest_date": "2026-09-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a unified framework for instance optimal sparse recovery from nonlinear observations. The main ingredient is a signal-dependent restricted approximate invertibility condition (RAIC) of some gradient, which leads to the instance optimality of iterative hard thresholding. Under Gaussian designs, we apply the proposed framework to phaseless, one-bit, and ReLU measurements, which correspond to the problems of sparse phase retrieval, one-bit compressed sensing, and sparse ReLU regression, respectively. For sparse phase retrieval, we propose a variant of thresholded amplitude flow and show its instance optimality under $O(s^3)$ measurements (up to logarithmic factors), where $s$ is the sparsity level. To our best knowledge, this is the first instance optimal efficient algorithm for sparse phase retrieval and complements Gao, Wang and Xu (2016) that achieved this via a computationally intractable program. In one-bit compressed sensing, we establish the instance optimality of normalized binary iterative hard thresholding and strengthen the recent result of Matsumoto and Mazumdar (2024). In sparse ReLU regression, it is shown that a slight variant of the algorithm in Soltanolkotabi (2017) is instance optimal. Moreover, $(\\ell_2,\\ell_2)$ non-uniform instance optimal guarantees are obtained for these problems. The analysis is built upon a number of high-dimensional concentration bounds, including bounds on restricted eigenvalues and a novel instance-dependent hyperplane tessellation result.",
+ "primary": "cs.IT"
+}

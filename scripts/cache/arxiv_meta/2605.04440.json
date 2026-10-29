@@ -1,0 +1,16 @@
+{
+ "id": "2605.04440",
+ "title": "HIMCE: High-dimensional multiple imputation via covariance-mode updating for neuroimaging and spatiotemporal blocks",
+ "authors": [
+  "Hsin-Hsiung Huang",
+  "Stef van Buuren"
+ ],
+ "v1_date": "2026-05-06",
+ "latest_version": 1,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "High-dimensional neuroimaging and spatiotemporal blocks often contain structured missingness from acquisition artifacts, preprocessing failures, and sensor dropout. Multiple imputation propagates uncertainty, but fully conditional specification methods such as multivariate imputation by chained equations (MICE) can be slow or unstable when block dimension is large and correlations are strong. A multivariate normal (MVN) working model provides a coherent posterior predictive target and an exact data augmentation sampler, but repeated covariance sampling and matrix factorizations become costly in large dimensions. We propose High-dimensional Imputation via covariance Mode and Chained Equations (HIMCE), a hybrid multiple-imputation procedure for continuous blocks. Relative to exact MVN data augmentation, HIMCE preserves the Gaussian conditional imputation law and propagates mean- parameter uncertainty through stochastic coefficient or local-ridge draws. In high-dimensional blocks, it approximates covariance uncertainty through covariance-mode updating, optionally with a scalar bridge; in small blocks, it can restore exact covariance uncertainty through a conditional inverse-Wishart refresh. We record the exact Bayesian reference sampler and prove fixed-dimensional posterior consistency and asymptotic equivalence of mode plug-in prediction in total variation. We also develop diagnostics based on randomized rank-cell probability integral transform (PIT), PIT-consistent empirical coverage, and marginal distribution overlays. In the primary spatial benchmark, HIMCE improves posterior-mean error relative to HIMA and screened MICE, runs at HIMA-like speed and below half the MICE runtime, and improves interval coverage over HIMA, although MICE remains better calibrated. A repeated low- dimensional NHANES illustration shows improved coverage with competitive point prediction.",
+ "primary": "stat.ME"
+}

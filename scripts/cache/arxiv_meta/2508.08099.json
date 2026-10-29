@@ -1,0 +1,17 @@
+{
+ "id": "2508.08099",
+ "title": "Random Modulation: Achieving Asymptotic Replica Optimality over Arbitrary Norm-Bounded and Spectrally Convergent Channel Matrices",
+ "authors": [
+  "Lei Liu",
+  "Yuhao Chi",
+  "Shunqi Huang"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper introduces a random modulation technique that is decoupled from the channel matrix, allowing it to be applied to arbitrary norm-bounded and spectrally convergent channel matrices. The proposed random modulation constructs an equivalent dense and random channel matrix, ensuring that the signals undergo sufficient statistical channel fading. It also guarantees the asymptotic replica maximum a posteriori (MAP) bit-error rate (BER) optimality of approximate message passing (AMP)-type detectors for linear systems with arbitrary norm-bounded and spectrally convergent channel matrices when their state evolution has a unique fixed point. Then, a low-complexity cross-domain memory approximate message passing (CD-MAMP) detector is proposed for random modulation, leveraging the sparsity of the time-domain channel and the randomness of the random transform-domain channel. Furthermore, the optimal power allocation schemes are derived to minimize the replica MAP BER and maximize the replica constrained capacity of random-modulated linear systems, assuming the availability of channel state information (CSI) at the transceiver. Numerical results show that the proposed random modulation can achieve BER and block-error rate (BLER) performance gains of up to 2 - 3 dB compared to existing OFDM/OTFS/AFDM with 5G-NR LDPC codes, under both average and optimized power allocation.",
+ "primary": "cs.IT"
+}

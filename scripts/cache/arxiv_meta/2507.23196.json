@@ -1,0 +1,19 @@
+{
+ "id": "2507.23196",
+ "title": "A new approach for Bayesian joint modeling of longitudinal and cure-survival outcomes using the defective Gompertz distribution",
+ "authors": [
+  "Dionisio Silva Neto",
+  "Denis Rustand",
+  "Haavard Rue",
+  "Danilo Alvares",
+  "Vera L. Tomazella"
+ ],
+ "v1_date": "2025-07-31",
+ "latest_version": 1,
+ "latest_date": "2025-07-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In recent medical studies, the combination of longitudinal measurements with time-to-event data has increased the demand for more sophisticated models without unbiased estimates. Joint models for longitudinal and survival data have been developed to address such problems. One complex issue that may arise in the clinical trials is the presence of individuals who are statistically immune to the event of interest, those who may not experience the event even after extended follow-up periods. So far, the literature has addressed joint modeling with the presence of cured individuals mainly through mixture models for cure fraction and their extensions. In this study, we propose a joint modeling framework that accommodates the existence or absence of a cure fraction in an integrated way, using the defective Gompertz distribution. Our aim is to provide a more parsimonious alternative within an estimation process that involves a parameter vector with multiple components. Parameter estimation is performed using Bayesian inference via the efficient integrated nested Laplace approximation algorithm, by formulating the model as a latent Gaussian model. A simulation study is conducted to evaluate the frequentist properties of the proposed method under low-information prior settings. The model is further illustrated using a publicly available, yet underexplored, dataset on antiepileptic drug failure, where quality-of-life scores serve as longitudinal biomarkers. This application allows us to estimate the proportion of patients achieving seizure control under both traditional and modern antiepileptic therapies, demonstrating the model's ability to assess and compare long-term treatment effectiveness within a clinical trial context.",
+ "primary": "stat.ME"
+}

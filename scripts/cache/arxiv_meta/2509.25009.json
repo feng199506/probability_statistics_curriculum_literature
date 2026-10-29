@@ -1,0 +1,17 @@
+{
+ "id": "2509.25009",
+ "title": "Efficient Difference-in-Differences Estimation when Outcomes are Missing at Random",
+ "authors": [
+  "Lorenzo Testa",
+  "Edward H. Kennedy",
+  "Matthew Reimherr"
+ ],
+ "v1_date": "2025-09-29",
+ "latest_version": 2,
+ "latest_date": "2026-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 1 figure",
+ "abstract": "The Difference-in-Differences (DiD) method is a fundamental tool for causal inference, yet its application is often complicated by missing data. Although recent work has developed robust DiD estimators for complex settings like staggered treatment adoption, these methods typically assume complete data and fail to address the critical challenge of outcomes that are missing at random (MAR) -- a common problem that invalidates standard estimators. We develop a rigorous framework, rooted in semiparametric theory, for identifying and efficiently estimating the Average Treatment Effect on the Treated (ATT) when either pre- or post-treatment (or both) outcomes are missing at random. We first establish nonparametric identification of the ATT under two minimal sets of sufficient conditions. For each, we derive the semiparametric efficiency bound, which provides a formal benchmark for asymptotic optimality. We then propose novel estimators that are asymptotically efficient, achieving this theoretical bound. A key feature of our estimators is their multiple robustness, which ensures consistency even if some nuisance function models are misspecified. We validate the properties of our estimators and showcase their broad applicability through an extensive simulation study.",
+ "primary": "stat.ME"
+}

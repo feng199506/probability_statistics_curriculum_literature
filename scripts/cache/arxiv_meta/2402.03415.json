@@ -1,0 +1,15 @@
+{
+ "id": "2402.03415",
+ "title": "Cutoff for mixtures of permuted Markov chains: general case",
+ "authors": [
+  "Bastien Dubail"
+ ],
+ "v1_date": "2024-02-05",
+ "latest_version": 1,
+ "latest_date": "2024-02-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "76 pages, 3 figures. arXiv admin note: substantial text overlap with arXiv:2401.03937",
+ "abstract": "We investigate the mixing properties of a finite Markov chain in random environment defined as a mixture of a deterministic chain and a chain whose state space has been permuted uniformly at random. This work is the counterpart of a companion paper where we focused on a reversible model, which allowed for a few simplifications in the proof. We consider here the general case. Under mild assumptions on the base Markov chains, we prove that with high probability the resulting chain exhibits the cutoff phenomenon at entropic time $\\log n / h$, $h$ being some constant related to the entropy of the chain, when the chain is started from a typical state. However contrary to the reversible case uniform cutoff at entropic time does not hold, as we provide an example where the worst-case mixing time has at least polylogarithmic order. We also provide a polylogarithmic upper bound on the worst-case mixing time, which in fact plays a crucial role in deriving the main result for typical states. Incidentally, our proof gives a clear picture of when to expect uniform cutoff at entropic time: it appears as the consequence of a uniform transience property for the covering Markov chain used throughout the proof, which lies on an infinite state space and projects back onto the initial chain.",
+ "primary": "math.PR"
+}

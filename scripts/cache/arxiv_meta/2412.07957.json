@@ -1,0 +1,18 @@
+{
+ "id": "2412.07957",
+ "title": "Spatial scale-aware tail dependence modeling for high-dimensional spatial extremes",
+ "authors": [
+  "Muyang Shi",
+  "Likun Zhang",
+  "Mark D. Risser",
+  "Benjamin A. Shaby"
+ ],
+ "v1_date": "2024-12-10",
+ "latest_version": 3,
+ "latest_date": "2025-11-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Extreme events over large spatial domains may exhibit highly heterogeneous tail dependence characteristics, yet most existing spatial extremes models yield only one dependence class over the entire spatial domain. To accurately characterize \"data-level dependence'' in analysis of extreme events, we propose a mixture model that achieves flexible dependence properties and allows high-dimensional inference for extremes of spatial processes. We modify the popular random scale construction that multiplies a Gaussian random field by a single radial variable; we allow the radial variable to vary smoothly across space and add non-stationarity to the Gaussian process. As the level of extremeness increases, this single model exhibits both asymptotic independence at long ranges and either asymptotic dependence or independence at short ranges. We make joint inference on the dependence model and a marginal model using a copula approach within a Bayesian hierarchical model. Three different simulation scenarios show close to nominal frequentist coverage rates. Lastly, we apply the model to a dataset of extreme summertime precipitation over the central United States. We find that the joint tail of precipitation exhibits non-stationary dependence structure that cannot be captured by limiting extreme value models or current state-of-the-art sub-asymptotic models.",
+ "primary": "stat.ME"
+}

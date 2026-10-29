@@ -1,0 +1,17 @@
+{
+ "id": "2405.16246",
+ "title": "Conformal Prediction for Ensembles: Improving Efficiency via Score-Based Aggregation",
+ "authors": [
+  "Eduardo Ochoa Rivera",
+  "Yash Patel",
+  "Ambuj Tewari"
+ ],
+ "v1_date": "2024-05-25",
+ "latest_version": 3,
+ "latest_date": "2025-05-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Distribution-free uncertainty estimation for ensemble methods is increasingly desirable due to the widening deployment of multi-modal black-box predictive models. Conformal prediction is one approach that avoids such distributional assumptions. Methods for conformal aggregation have in turn been proposed for ensembled prediction, where the prediction regions of individual models are merged as to retain coverage guarantees while minimizing conservatism. Merging the prediction regions directly, however, sacrifices structures present in the conformal scores that can further reduce conservatism. We, therefore, propose a novel framework that extends the standard scalar formulation of a score function to a multivariate score that produces more efficient prediction regions. We then demonstrate that such a framework can be efficiently leveraged in both classification and predict-then-optimize regression settings downstream and empirically show the advantage over alternate conformal aggregation methods.",
+ "primary": "stat.ME"
+}

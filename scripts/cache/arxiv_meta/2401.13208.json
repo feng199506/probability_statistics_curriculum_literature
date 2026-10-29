@@ -1,0 +1,17 @@
+{
+ "id": "2401.13208",
+ "title": "Assessing Influential Observations in Pain Prediction using fMRI Data",
+ "authors": [
+  "Dongliang Zhang",
+  "Masoud Asgharian",
+  "Martin A. Lindquist"
+ ],
+ "v1_date": "2024-01-24",
+ "latest_version": 3,
+ "latest_date": "2026-03-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "6 figures",
+ "abstract": "Neuroimaging data allows researchers to model the relationship between multivariate patterns of brain activity and outcomes related to mental states and behaviors. However, the existence of outlying participants can potentially undermine the generalizability of these models and jeopardize the validity of downstream statistical analysis. To date, the ability to detect and account for participants unduly influencing various model selection approaches have been sorely lacking. Motivated by a task-based functional magnetic resonance imaging (fMRI) study of thermal pain, we propose and establish the asymptotic distribution for a diagnostic measure applicable to a number of different model selectors. A high-dimensional clustering procedure is further combined with this measure to detect multiple influential observations. In a series of simulations, our proposed method demonstrates clear advantages over existing methods in terms of improved detection performance, leading to enhanced predictive and variable selection outcomes. Application of our method to data from the thermal pain study illustrates the influence of outlying participants, in particular with regards to differences in activation between low and intense pain conditions. This allows for the selection of an interpretable model with high prediction power after removal of the detected observations. Though inspired by the fMRI-based thermal pain study, our methods are broadly applicable to other high-dimensional data types.",
+ "primary": "stat.ME"
+}

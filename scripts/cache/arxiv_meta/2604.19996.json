@@ -1,0 +1,18 @@
+{
+ "id": "2604.19996",
+ "title": "Meta-analysis of networks of diagnostic tests with binary and continuous results",
+ "authors": [
+  "Efthymia Derezea",
+  "Gabriel Rogers",
+  "Nicky J Welton",
+  "Hayley E Jones"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 1,
+ "latest_date": "2026-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Network meta-analysis of diagnostic test accuracy (NMA-DTA) is a relatively new field, involving combining evidence across studies to evaluate and compare the accuracy of different tests for a given condition. However, the methods proposed to date cannot always capture complex aspects of the data. In fact, many commonly used diagnostic tests are continuous biomarkers, whose accuracy is evaluated at multiple thresholds within a study. Using current NMA-DTA methods we are feasibly able to include in our analysis only a few thresholds per study, discarding this way a big amount of data which could have provided us with useful information. We introduce an approach that can efficiently encompass all available data. This is a hierarchical model that incorporates multinomial likelihoods for studies reporting results across multiple thresholds and a parametric structure for the relationship between the probability of testing positive and threshold within each disease class. This approach enables us to obtain accuracy estimates of tests across the whole range of observed thresholds, while it retains all the useful properties of standard NMA-DTA methods. We explore different variations of this model based on different covariance structures, the inclusion of study-level random effects, and the addition of a further hierarchical structure on the test-level variance components. This framework is applied to data from two systematic reviews, allowing the inclusion of a larger number of tests (compared to alternative approaches) and estimation of sensitivity and specificity at different thresholds with increased precision.",
+ "primary": "stat.ME"
+}

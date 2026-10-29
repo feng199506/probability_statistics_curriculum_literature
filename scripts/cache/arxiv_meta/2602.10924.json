@@ -1,0 +1,17 @@
+{
+ "id": "2602.10924",
+ "title": "Non-centred Bayesian inference for discrete-valued state-transition models: the Rippler algorithm",
+ "authors": [
+  "James Neill",
+  "Lloyd A. C. Chapman",
+  "Chris Jewell"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "18 pages, 7 figures (plus supplementary material with an additional 9 pages, 8 figures)",
+ "abstract": "Stochastic state-transition models of infectious disease transmission can be used to deduce relevant drivers of transmission when fitted to data using statistically principled methods. Fitting this individual-level data requires inference on individuals' unobserved disease statuses over time, which form a high-dimensional and highly correlated state space. We introduce a novel Bayesian (data-augmentation Markov chain Monte Carlo) algorithm for jointly estimating the model parameters and unobserved disease statuses, which we call the Rippler algorithm. This is a non-centred method that can be applied to any individual-based state-transition model. We compare the Rippler algorithm to the state-of-the-art inference methods for individual-based stochastic epidemic models and find that it performs better than these methods as the number of disease states in the model increases.",
+ "primary": "stat.ME"
+}

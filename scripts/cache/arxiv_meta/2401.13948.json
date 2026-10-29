@@ -1,0 +1,15 @@
+{
+ "id": "2401.13948",
+ "title": "Z-estimation system: a modular approach to asymptotic analysis",
+ "authors": [
+  "Jie Kate Hu"
+ ],
+ "v1_date": "2024-01-25",
+ "latest_version": 1,
+ "latest_date": "2024-01-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Asymptotic analysis for related inference problems often involves similar steps and proofs. These intermediate results could be shared across problems if each of them is made self-contained and easily identified. However, asymptotic analysis using Taylor expansions is limited for result borrowing because it is a step-to-step procedural approach. This article introduces EEsy, a modular system for estimating finite and infinitely dimensional parameters in related inference problems. It is based on the infinite-dimensional Z-estimation theorem, Donsker and Glivenko-Cantelli preservation theorems, and weight calibration techniques. This article identifies the systematic nature of these tools and consolidates them into one system containing several modules, which can be built, shared, and extended in a modular manner. This change to the structure of method development allows related methods to be developed in parallel and complex problems to be solved collaboratively, expediting the development of new analytical methods. This article considers four related inference problems -- estimating parameters with random sampling, two-phase sampling, auxiliary information incorporation, and model misspecification. We illustrate this modular approach by systematically developing 9 parameter estimators and 18 variance estimators for the four related inference problems regarding semi-parametric additive hazards models. Simulation studies show the obtained asymptotic results for these 27 estimators are valid. In the end, I describe how this system can simplify the use of empirical process theory, a powerful but challenging tool to be adopted by the broad community of methods developers. I discuss challenges and the extension of this system to other inference problems.",
+ "primary": "math.ST"
+}

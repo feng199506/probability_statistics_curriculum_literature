@@ -1,0 +1,15 @@
+{
+ "id": "2602.11059",
+ "title": "A Gibbs posterior sampler for inverse problem based on prior diffusion model",
+ "authors": [
+  "Jean-François Giovannelli"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 2,
+ "latest_date": "2026-07-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper addresses the issue of inversion in cases where (1) the observation system is modeled by a linear transformation and additive error, (2) the problem is ill-posed and regularization relies on a Bayesian strategy, (3)~the prior is modeled by a diffusion process adjusted on an available large set of examples. In this context, it is known that the issue of posterior sampling is a thorny one and the paper introduces a Gibbs algorithm. It appears that this avenue has not been explored, and we show that it is particularly effective and remarkably simple. In addition, it provides clear elements regarding convergence guarantees in a specific case and arguments supporting such guarantees in practical cases. The results are clearly confirmed by numerical simulations based on a toy example.",
+ "primary": "stat.ML"
+}

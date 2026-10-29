@@ -1,0 +1,17 @@
+{
+ "id": "2601.18598",
+ "title": "Goodness-of-Fit Checks for Joint Models",
+ "authors": [
+  "Dimitris Rizopoulos",
+  "Jeremy M. G. Taylor",
+  "Isabella Kardys"
+ ],
+ "v1_date": "2026-01-26",
+ "latest_version": 1,
+ "latest_date": "2026-01-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Joint models for longitudinal and time-to-event data are widely used in many disciplines. Nonetheless, existing model comparison criteria do not indicate whether a model adequately fits the data or which components may be misspecified. We introduce a Bayesian posterior predictive checks framework for assessing a joint model's fit to the longitudinal and survival processes and their association. The framework supports multiple settings, including existing subjects, new subjects with only covariates, dynamic prediction at intermediate follow-up times, and cross-validated assessment. For the longitudinal component, goodness-of-fit is assessed through the mean, variance, and correlation structure, while the survival component is evaluated using empirical cumulative distributions and probability integral transforms. The association between processes is examined using time-dependent concordance statistics. We apply these checks to the Bio-SHiFT heart failure study, and a simulation study demonstrates that they can identify model misspecification that standard information criteria fail to detect. The proposed methodology is implemented in the freely available R package JMbayes2.",
+ "primary": "stat.ME"
+}

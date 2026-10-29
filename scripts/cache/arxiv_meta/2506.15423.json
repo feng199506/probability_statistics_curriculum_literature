@@ -1,0 +1,17 @@
+{
+ "id": "2506.15423",
+ "title": "Dynamic guessing for Hamiltonian Monte Carlo with embedded numerical root-finding",
+ "authors": [
+  "Teddy Groves",
+  "Nicholas Luke Cowie",
+  "Lars Keld Nielsen"
+ ],
+ "v1_date": "2025-06-18",
+ "latest_version": 1,
+ "latest_date": "2025-06-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 2 figures. See https://github.com/dtu-qmcm/grapevine for associated code",
+ "abstract": "Modern implementations of Hamiltonian Monte Carlo and related MCMC algorithms support sampling of probability functions that embed numerical root-finding algorithms, thereby allowing fitting of statistical models involving analytically intractable algebraic constraints. However the application of these models in practice is limited by the computational cost of computing large numbers of numerical solutions. We identify a key limitation of previous approaches to HMC with embedded root-finding, which require the starting guess to be the same at all points on the same simulated Hamiltonian trajectory. We demonstrate that this requirement can be relaxed, so that the starting guess depends on the previous integrator state. To choose a good guess using this information we propose two heuristics: use the previous solution and extrapolate the previous solution using implicit differentiation. Both heuristics yield substantial performance improvements on a range of representative models compared with static guessing. We also present grapevine, a JAX-based Python package providing easy access to an implementation of the No-U-Turn sampler augmented with dynamic guessing.",
+ "primary": "stat.CO"
+}

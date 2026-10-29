@@ -1,0 +1,19 @@
+{
+ "id": "2405.07839",
+ "title": "Constrained Exploration via Reflected Replica Exchange Stochastic Gradient Langevin Dynamics",
+ "authors": [
+  "Haoyang Zheng",
+  "Hengrong Du",
+  "Qi Feng",
+  "Wei Deng",
+  "Guang Lin"
+ ],
+ "v1_date": "2024-05-13",
+ "latest_version": 2,
+ "latest_date": "2024-06-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 13 figures",
+ "abstract": "Replica exchange stochastic gradient Langevin dynamics (reSGLD) is an effective sampler for non-convex learning in large-scale datasets. However, the simulation may encounter stagnation issues when the high-temperature chain delves too deeply into the distribution tails. To tackle this issue, we propose reflected reSGLD (r2SGLD): an algorithm tailored for constrained non-convex exploration by utilizing reflection steps within a bounded domain. Theoretically, we observe that reducing the diameter of the domain enhances mixing rates, exhibiting a $\\textit{quadratic}$ behavior. Empirically, we test its performance through extensive experiments, including identifying dynamical systems with physical constraints, simulations of constrained multi-modal distributions, and image classification tasks. The theoretical and empirical findings highlight the crucial role of constrained exploration in improving the simulation efficiency.",
+ "primary": "cs.LG"
+}

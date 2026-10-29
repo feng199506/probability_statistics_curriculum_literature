@@ -1,0 +1,16 @@
+{
+ "id": "2601.13281",
+ "title": "Spectral Dynamics and Regularization for High-Dimensional Copulas",
+ "authors": [
+  "Koos B. Gubbels",
+  "Andre Lucas"
+ ],
+ "v1_date": "2026-01-19",
+ "latest_version": 1,
+ "latest_date": "2026-01-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a novel model for time-varying, asymmetric, tail-dependent copulas in high dimensions that incorporates both spectral dynamics and regularization. The dynamics of the dependence matrix' eigenvalues are modeled in a score-driven way, while biases in the unconditional eigenvalue spectrum are resolved by non-linear shrinkage. The dynamic parameterization of the copula dependence matrix ensures that it satisfies the appropriate restrictions at all times and for any dimension. The model is parsimonious, computationally efficient, easily scalable to high dimensions, and performs well for both simulated and empirical data. In an empirical application to financial market dynamics using 100 stocks from 10 different countries and 10 different industry sectors, we find that our copula model captures both geographic and industry related co-movements and outperforms recent computationally more intensive clustering-based factor copula alternatives. Both the spectral dynamics and the regularization contribute to the new model's performance. During periods of market stress, we find that the spectral dynamics reveal strong increases in international stock market dependence, which causes reductions in diversification potential and increases in systemic risk.",
+ "primary": "econ.EM"
+}

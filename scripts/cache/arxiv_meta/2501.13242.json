@@ -1,0 +1,18 @@
+{
+ "id": "2501.13242",
+ "title": "Distributed Multiple Testing with False Discovery Rate Control in the Presence of Byzantines",
+ "authors": [
+  "Daofu Zhang",
+  "Mehrdad Pournaderi",
+  "Yu Xiang",
+  "Pramod Varshney"
+ ],
+ "v1_date": "2025-01-22",
+ "latest_version": 2,
+ "latest_date": "2025-04-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted to the 2025 International Symposium on Information Theory (ISIT)",
+ "abstract": "This work studies distributed multiple testing with false discovery rate (FDR) control in the presence of Byzantine attacks, where an adversary captures a fraction of the nodes and corrupts their reported p-values. We focus on two baseline attack models: an oracle model with the full knowledge of which hypotheses are true nulls, and a practical attack model that leverages the Benjamini-Hochberg (BH) procedure locally to classify which p-values follow the true null hypotheses. We provide a thorough characterization of how both attack models affect the global FDR, which in turn motivates counter-attack strategies and stronger attack models. Our extensive simulation studies confirm the theoretical results, highlight key design trade-offs under attacks and countermeasures, and provide insights into more sophisticated attacks.",
+ "primary": "eess.SP"
+}

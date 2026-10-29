@@ -1,0 +1,16 @@
+{
+ "id": "2406.08867",
+ "title": "Robust Bayesian approach for reliability prognosis of nondestructive one-shot devices under cumulative risk model",
+ "authors": [
+  "Shanya Baghel",
+  "Shuvashree Mondal"
+ ],
+ "v1_date": "2024-06-13",
+ "latest_version": 3,
+ "latest_date": "2025-03-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The present study aims to determine the lifetime prognosis of highly durable nondestructive one-shot devices (NOSD) units under a step-stress accelerated life testing (SSALT) experiment applying a cumulative risk model (CRM). In an SSALT experiment, CRM retains the continuity of hazard function by allowing the lag period before the effects of stress change emerge. When prior information about the model parameters is available, Bayesian inference is crucial. In a Bayesian analysis of such lifetime data, conventional likelihood-based Bayesian estimation frequently fails in the presence of outliers in the dataset. This work incorporates a robust Bayesian approach utilizing a robustified posterior based on the density power divergence measure. The order restriction on shape parameters has been incorporated as a prior assumption to reflect the decreasing expected lifetime with increasing stress levels. In testing of hypothesis, a Bayes factor is implemented based on the robustified posterior. In Bayesian estimation, we exploit Hamiltonian Monte Carlo, which has certain advantages over the conventional Metropolis-Hastings algorithms. Further, the influence functions are examined to evaluate the robust behaviour of the estimators and the Bayes factor. Finally, the analytical development is validated through a simulation study and a real data analysis.",
+ "primary": "stat.ME"
+}

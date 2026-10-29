@@ -1,0 +1,16 @@
+{
+ "id": "2410.20169",
+ "title": "Bayes-assisted Confidence Regions: Focal Point Estimator and Bounded-influence Priors",
+ "authors": [
+  "Stefano Cortinovis",
+  "François Caron"
+ ],
+ "v1_date": "2024-10-26",
+ "latest_version": 3,
+ "latest_date": "2026-06-08",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, 17 figures",
+ "abstract": "The Frequentist, Assisted by Bayes (FAB) framework constructs confidence regions that leverage prior information about parameter values. FAB confidence regions (FAB-CRs) have smaller volume for values of the parameter that are likely under the prior while maintaining exact frequentist coverage. This work introduces several methodological and theoretical contributions to the FAB framework. For Gaussian likelihoods, we show that the posterior mean of the mean parameter is contained in the FAB-CR. More generally, this result extends to the posterior mean of the natural parameter for likelihoods in the natural exponential family. These results provide a natural Bayes-assisted estimator to be reported alongside the FAB-CR. Furthermore, for Gaussian likelihoods, we show that power-law tail conditions on the marginal likelihood induce robust FAB-CRs that are uniformly bounded and revert to standard frequentist confidence intervals for extreme observations. We translate this result into practice by proposing a class of shrinkage priors for the FAB framework that satisfy this condition without sacrificing analytic tractability. The resulting FAB estimators equal prominent Bayesian shrinkage estimators, including the horseshoe estimator, thereby establishing insightful connections between robust FAB-CRs and Bayesian shrinkage methods.",
+ "primary": "stat.ME"
+}

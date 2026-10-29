@@ -1,0 +1,18 @@
+{
+ "id": "2510.21249",
+ "title": "Forecast reconciliation with non-linear constraints",
+ "authors": [
+  "Daniele Girolimetto",
+  "Anastasios Panagiotelis",
+  "Tommaso Di Fonzo",
+  "Han Li"
+ ],
+ "v1_date": "2025-10-24",
+ "latest_version": 1,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Methods for forecasting time series adhering to linear constraints have seen notable development in recent years, especially with the advent of forecast reconciliation. This paper extends forecast reconciliation to the open question of non-linearly constrained time series. Non-linear constraints can emerge with variables that are formed as ratios such as mortality rates and unemployment rates. On the methodological side, Non-linearly Constrained Reconciliation (NLCR) is proposed. This algorithm adjusts forecasts that fail to meet non-linear constraints, in a way that ensures the new forecasts meet the constraints. The NLCR method is a projection onto a non-linear surface, formulated as a constrained optimisation problem. On the theoretical side, optimisation methods are again used, this time to derive sufficient conditions for when the NLCR methodology is guaranteed to improve forecast accuracy. Finally on the empirical side, NLCR is applied to two datasets from demography and economics and shown to significantly improve forecast accuracy relative to relevant benchmarks.",
+ "primary": "stat.ME"
+}

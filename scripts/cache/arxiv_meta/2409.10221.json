@@ -1,0 +1,16 @@
+{
+ "id": "2409.10221",
+ "title": "bayesCureRateModel: Bayesian Cure Rate Modeling for Time to Event Data in R",
+ "authors": [
+  "Panagiotis Papastamoulis",
+  "Fotios Milienos"
+ ],
+ "v1_date": "2024-09-16",
+ "latest_version": 2,
+ "latest_date": "2025-11-03",
+ "journal_ref": "Journal of Statistical Software, 2026",
+ "doi": "",
+ "comment": "revised version",
+ "abstract": "The family of cure models provides a unique opportunity to simultaneously model both the proportion of cured subjects (those not facing the event of interest) and the distribution function of time-to-event for susceptibles (those facing the event). In practice, the application of cure models is mainly facilitated by the availability of various R packages. However, most of these packages primarily focus on the mixture or promotion time cure rate model. This article presents a fully Bayesian approach implemented in R to estimate a general family of cure rate models in the presence of covariates. It builds upon the work by Papastamoulis and Milienos (2024) by additionally considering various options for describing the promotion time, including the Weibull, exponential, Gompertz, log-logistic and finite mixtures of gamma distributions, among others. Moreover, the user can choose any proper distribution function for modeling the promotion time (provided that some specific conditions are met). Posterior inference is carried out by constructing a Metropolis-coupled Markov chain Monte Carlo (MCMC) sampler, which combines Gibbs sampling for the latent cure indicators and Metropolis-Hastings steps with Langevin diffusion dynamics for parameter updates. The main MCMC algorithm is embedded within a parallel tempering scheme by considering heated versions of the target posterior distribution. The package is illustrated on a real dataset analyzing the duration of the first marriage under the presence of various covariates such as the race, age and the presence of kids.",
+ "primary": "stat.ME"
+}

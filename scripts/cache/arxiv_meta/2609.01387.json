@@ -1,0 +1,16 @@
+{
+ "id": "2609.01387",
+ "title": "Weighted persistence intensity regression",
+ "authors": [
+  "Matteo Pegoraro",
+  "Mario Beraha"
+ ],
+ "v1_date": "2026-09-01",
+ "latest_version": 1,
+ "latest_date": "2026-09-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Persistence diagrams summarize the multiscale topological structure of data, and in applications they often arrive paired with covariates. We develop nonparametric methodology and theory for estimating the expected weighted persistence diagram conditional on a Euclidean covariate. Representing each weighted diagram as a finite random measure on a compact window, we take the density of its conditional expectation as the regression target, the conditional weighted persistence intensity. For a conditional double-kernel estimator we establish finite-sample sup-norm rates with a matching minimax lower bound, uniform rates in partial optimal transport, and an unbiased-risk cross-validation criterion for bandwidth selection. Simulations with analytically known intensities corroborate the theory and show that cross-validation selects the oracle candidate bandwidth in the exact-intensity design. The method is illustrated by studying how radial geometry in cerebral artery trees varies with age.",
+ "primary": "math.ST"
+}

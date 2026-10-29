@@ -1,0 +1,18 @@
+{
+ "id": "2505.20240",
+ "title": "Hierarchical Bayesian estimation for continual learning during model-informed precision dosing",
+ "authors": [
+  "Franziska Thoma",
+  "Niklas Hartung",
+  "Manfred Opper",
+  "Wilhelm Huisinga"
+ ],
+ "v1_date": "2025-05-26",
+ "latest_version": 1,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model informed precision dosing (MIPD) is a Bayesian framework to individualize drug therapy based on prior knowledge and patient-specific monitoring data. Typically, prior knowledge results from controlled clinical trials with a more homogeneous patient population compared to the real-world patient population underlying the data to be analysed. Thus, devising algorithms that can learn the distribution underlying the real-world patient population from patient-specific monitoring data is of key importance. Formulating continual learning in MIPD as a hierarchical Bayesian estimation problem, we here investigate different algorithms for the resulting marginal posterior inference problem in a pharmacokinetic context and for different data sparsity scenarios. As an accurate but computationally expensive reference method, a Metropolis-Hastings algorithm adapted to the hierarchical setting was used. Furthermore, several sequential algorithms were investigated: a nested particle filter, a newly developed simplification termed single inner nested particle filter, as well as an approximative parametric method that allows to use Metropolis-within-Gibbs sampling. The single inner nested particle filter showed the best compromise between accuracy and computational complexity. Applications to more challenging MIPD scenarios from cytotoxic chemotherapy and anticoagulation initiation therapy are ongoing.",
+ "primary": "stat.CO"
+}

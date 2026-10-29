@@ -1,0 +1,19 @@
+{
+ "id": "2608.10095",
+ "title": "Covariate Informed Identification of Heterogeneity and Outliers in Longitudinal Data",
+ "authors": [
+  "Anish Mukherjee",
+  "Jeremy T. Gaskins",
+  "Jeffrey M. Albert",
+  "Tanujit Dey",
+  "Sounak Chakraborty"
+ ],
+ "v1_date": "2026-08-10",
+ "latest_version": 2,
+ "latest_date": "2026-10-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We often observe heterogeneity in longitudinal data, where the mean and variance for certain profiles meaningfully differ from the rest. Some profiles may also exhibit outliers at a limited number of measurements. Using a standard mixed effects model, which assumes homogeneity, can lead to overestimating the residual variance and inefficient estimation. In this work, we identify and account for three sources of heterogeneity in longitudinal data: incompatible mean trajectories, increased residual variance, and outliers at individual measurements. Our Bayesian mixture model incorporates binary indicators of heterogeneity for each of these features, modeled through logistic regression using covariates. We perform statistical inference using Markov chain Monte Carlo and implement model selection to evaluate the inclusion of various heterogeneous components. Simulations demonstrate that our model can accurately identify heterogeneity and produce efficient estimates of the fixed effects parameters. We further validate our approach using the DHEAS hormone data from the SWAN study.",
+ "primary": "stat.ME"
+}

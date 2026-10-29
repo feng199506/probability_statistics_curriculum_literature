@@ -1,0 +1,16 @@
+{
+ "id": "2506.13714",
+ "title": "Understanding Learning Invariance in Deep Linear Networks",
+ "authors": [
+  "Hao Duan",
+  "Guido Montúfar"
+ ],
+ "v1_date": "2025-06-16",
+ "latest_version": 1,
+ "latest_date": "2025-06-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Equivariant and invariant machine learning models exploit symmetries and structural patterns in data to improve sample efficiency. While empirical studies suggest that data-driven methods such as regularization and data augmentation can perform comparably to explicitly invariant models, theoretical insights remain scarce. In this paper, we provide a theoretical comparison of three approaches for achieving invariance: data augmentation, regularization, and hard-wiring. We focus on mean squared error regression with deep linear networks, which parametrize rank-bounded linear maps and can be hard-wired to be invariant to specific group actions. We show that the critical points of the optimization problems for hard-wiring and data augmentation are identical, consisting solely of saddles and the global optimum. By contrast, regularization introduces additional critical points, though they remain saddles except for the global optimum. Moreover, we demonstrate that the regularization path is continuous and converges to the hard-wired solution.",
+ "primary": "stat.ML"
+}

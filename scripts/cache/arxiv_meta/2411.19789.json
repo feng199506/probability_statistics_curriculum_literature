@@ -1,0 +1,17 @@
+{
+ "id": "2411.19789",
+ "title": "Adjusting auxiliary variables under approximate neighborhood interference",
+ "authors": [
+  "Xin Lu",
+  "Yuhao Wang",
+  "Zhiheng Zhang"
+ ],
+ "v1_date": "2024-11-29",
+ "latest_version": 1,
+ "latest_date": "2024-11-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "46 pages",
+ "abstract": "Randomized experiments are the gold standard for causal inference. However, traditional assumptions, such as the Stable Unit Treatment Value Assumption (SUTVA), often fail in real-world settings where interference between units is present. Network interference, in particular, has garnered significant attention. Structural models, like the linear-in-means model, are commonly used to describe interference; but they rely on the correct specification of the model, which can be restrictive. Recent advancements in the literature, such as the Approximate Neighborhood Interference (ANI) framework, offer more flexible approaches by assuming negligible interference from distant units. In this paper, we introduce a general framework for regression adjustment for the network experiments under the ANI assumption. This framework expands traditional regression adjustment by accounting for imbalances in network-based covariates, ensuring precision improvement, and providing shorter confidence intervals. We establish the validity of our approach using a design-based inference framework, which relies solely on randomization of treatment assignments for inference without requiring correctly specified outcome models.",
+ "primary": "stat.ME"
+}

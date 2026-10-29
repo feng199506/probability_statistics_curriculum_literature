@@ -1,0 +1,19 @@
+{
+ "id": "2603.26358",
+ "title": "Mixed Time Series Quasi-Likelihood Models for Uncovering Covid-19 Viral Load and Mortality Dynamics",
+ "authors": [
+  "Kejin Wu",
+  "Raanju R. Sundararajan",
+  "Michel F. C. Haddad",
+  "Luiza S. C. Piancastelli",
+  "Wagner Barreto-Souza"
+ ],
+ "v1_date": "2026-03-27",
+ "latest_version": 1,
+ "latest_date": "2026-03-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Paper submitted for publication",
+ "abstract": "Accurate real-time monitoring of disease transmission is crucial for epidemic control, which has conventionally relied on reported cases or hospital admissions. Such metrics are frequently susceptible to delays in reporting, various forms of bias, and under-ascertainment. Cycle threshold values obtained from reverse transcription quantitative polymerase chain reaction offer a promising alternative, serving as a proxy for viral load. In this paper, we aim to jointly model the viral load and the number of deaths (mortality), which involves a continuous bounded and a count time series, and therefore, a proper mixed-type model is needed. This is the motivation to introduce a new mixed-valued time series quasi-likelihood (MixTSQL) model capable of analyzing multivariate time series of different types, like continuous, discrete, bounded, and continuous positive. The MixTSQL model only requires a mean-variance specification with no distributional assumptions needed, and allows for testing Granger causality. Statistical guarantees are provided to ensure consistency and asymptotic normality of the proposed quasi-maximum likelihood estimators. We analyze weekly viral load and Covid-19 death counts in São Paulo, Brazil, using our MixTSQL model, which not only establishes the temporal order in which viral load Granger-causes mortality but also offers a comprehensive joint statistical analysis.",
+ "primary": "stat.ME"
+}

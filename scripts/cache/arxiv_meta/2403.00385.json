@@ -1,0 +1,17 @@
+{
+ "id": "2403.00385",
+ "title": "Classical and Bayesian statistical methods for low-level metrology",
+ "authors": [
+  "Guillaume Manificat",
+  "Salima Helali",
+  "Patrick Bouisset"
+ ],
+ "v1_date": "2024-03-01",
+ "latest_version": 3,
+ "latest_date": "2024-03-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This document presents the statistical methods used to process low-level measurements in the presence of noise. These methods can be classical or Bayesian. The question is placed in the general framework of the problem of nuisance parameters, one of the canonical problems of statistical inference. By using a simple criterion proposed by Bolstad (2007), it is possible to define statistically significant results during a measurement process (act of measuring in the vocabulary of metrology). This result is similar for a classic paradigm (called ``frequentist'') or Bayesian: the presence of zero in the interval considered (confidence or credibility). It is shown that in the case of homoskedastic Gaussians, the commonly used results are found. The case of Poisson distributions is then considered. In the case of heteroscedastic Gaussians, which is that of radioactivity measurement, we can consider them as Poisson laws in the limit of large counts. The results are different from those commonly used, and in particular those from standards (ISO 11929). Their statistical performances, characterized by simulation, are better and are well verified experimentally. This is confirmed theoretically by the use of the Neyman-Pearson lemma which makes it possible to formally determine the statistical tests with the best performances. These results also make it possible to understand the paradox of the possible divergence of the detection limit. It is also formally shown that the confidence intervals thus calculated by getting rid of the nuisance parameter according to established methods result in the commonly used confidence interval. To our knowledge, this constitutes the first formal derivation of these confidence intervals.This method is based on keeping the measurement results whether they are significant or not (not censoring them). This is recommended in several standards or documents, is compatible with the ISO 11929 standard and is in line with recent proposals in the field of statistics. On the other hand, all the information necessary to determine whether a measurement result is significant or not remains available. The conservation and restitution of all results is currently applied in the USA. The textbook case of the WIPP incident makes it possible to ensure favorable public perception.The implications and applications of this method in different fields are finally discussed.",
+ "primary": "physics.ins-det"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2511.09431",
+ "title": "A Riemannian Generalization of Wilks' Lambda for Testing Differences Among Brain Connectomes",
+ "authors": [
+  "Nicolas Escobar-Velasquez",
+  "Jaroslaw Harezlak"
+ ],
+ "v1_date": "2025-11-12",
+ "latest_version": 4,
+ "latest_date": "2026-09-29",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Frćhet analysis of variance is a well-established tool for comparing samples of non-Euclidean data such as brain connectomes, symmetric positive definite (SPD) matrices that encode coactivation of different brain regions. But by relying solely on various squared distances, it can fail to detect real group differences. We introduce a Riemannian generalization of Wilks' Lambda for SPD-valued data. Our central result is a power comparison. Against a location shift of size $θ$, the non-centrality of the proposed test behaves as $O(θ^2)$ while that of Fréchet ANOVA behaves as $O(θ^4)$, so the new test is more powerful for small-to-moderate effects. We confirm this on Human Connectome Project data, where the test detects sex and acquisition-site differences in functional connectivity that Frćhet ANOVA misses while the two tests agree at negligible and large effects. The method is implemented in an open-source R package.",
+ "primary": "math.ST"
+}

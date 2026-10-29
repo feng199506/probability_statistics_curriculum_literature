@@ -1,0 +1,18 @@
+{
+ "id": "2607.19498",
+ "title": "A Bayesian Framework for Built-in Input Dimension Reduction for Gaussian Process Modeling",
+ "authors": [
+  "Eric Herrison Gyamfi",
+  "Emily L. Kang",
+  "Bledar A. Konomi",
+  "Guang Lin"
+ ],
+ "v1_date": "2026-07-21",
+ "latest_version": 1,
+ "latest_date": "2026-07-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian process (GP) modeling is widely used in computational science and engineering. However, fitting a GP to high-dimensional inputs remains challenging due to the curse of dimensionality. While various methods have been proposed to reduce input dimensionality, they typically follow a two-stage approach, performing dimension reduction and GP fitting separately. We introduce a Bayesian framework that seamlessly integrates dimensionality reduction with GP modeling and inference. Our approach, built on a hierarchical Bayesian model with priors on the Stiefel manifold, enforces orthonormality on the projection matrix and enables posterior inference via Hamiltonian Monte Carlo with geodesic flow. Additionally, we extend this framework by incorporating Deep Gaussian Processes (DGP) with built-in dimension reduction, providing a more flexible and powerful tool for complex datasets. Through extensive numerical studies, we demonstrate that while the proposed Bayesian method incurs higher computational costs, it improves predictive performance and uncertainty quantification, providing a principled and robust alternative to existing methods.",
+ "primary": "stat.ML"
+}

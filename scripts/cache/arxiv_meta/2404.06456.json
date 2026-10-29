@@ -1,0 +1,15 @@
+{
+ "id": "2404.06456",
+ "title": "Sharp Propagation of Chaos for the Ensemble Langevin Sampler",
+ "authors": [
+  "U Vaes"
+ ],
+ "v1_date": "2024-04-09",
+ "latest_version": 2,
+ "latest_date": "2024-09-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The aim of this note is to revisit propagation of chaos for a Langevin-type interacting particle system used for sampling probability measures. The interacting particle system we consider coincides, in the setting of a log-quadratic target distribution, with the ensemble Kalman sampler, for which propagation of chaos was first proved by Ding and Li. Like these authors, we prove propagation of chaos using a synchronous coupling as a starting point, as in Sznitman's classical argument. Instead of relying on a boostrapping argument, however, we use a technique based on stopping times in order to handle the presence of the empirical covariance in the coefficients of the dynamics. This approach originates from numerical analysis and was recently employed to prove mean field limits for consensus-based optimization and related interacting particle systems. In the context of ensemble Langevin sampling, it enables proving pathwise propagation of chaos with optimal rate, whereas previous results were optimal only up to a positive epsilon.",
+ "primary": "math.PR"
+}

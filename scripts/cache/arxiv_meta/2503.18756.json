@@ -1,0 +1,16 @@
+{
+ "id": "2503.18756",
+ "title": "Local Interference: Removing Interference Bias in Semi-Parametric Causal Models",
+ "authors": [
+  "Michael O'Riordan",
+  "Ciarán M. Gilligan-Lee"
+ ],
+ "v1_date": "2025-03-24",
+ "latest_version": 1,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "17 pages, 6 figures, accepted at CLeaR 2025",
+ "abstract": "Interference bias is a major impediment to identifying causal effects in real-world settings. For example, vaccination reduces the transmission of a virus in a population such that everyone benefits -- even those who are not treated. This is a source of bias that must be accounted for if one wants to learn the true effect of a vaccine on an individual's immune system. Previous approaches addressing interference bias require strong domain knowledge in the form of a graphical interaction network fully describing interference between units. Moreover, they place additional constraints on the form the interference can take, such as restricting to linear outcome models, and assuming that interference experienced by a unit does not depend on the unit's covariates. Our work addresses these shortcomings. We first provide and justify a novel definition of causal models with local interference. We prove that the True Average Causal Effect, a measure of causality where interference has been removed, can be identified in certain semi-parametric models satisfying this definition. These models allow for non-linearity, and also for interference to depend on a unit's covariates. An analytic estimand for the True Average Causal Effect is given in such settings. We further prove that the True Average Causal Effect cannot be identified in arbitrary models with local interference, showing that identification requires semi-parametric assumptions. Finally, we provide an empirical validation of our method on both simulated and real-world datasets.",
+ "primary": "stat.ME"
+}

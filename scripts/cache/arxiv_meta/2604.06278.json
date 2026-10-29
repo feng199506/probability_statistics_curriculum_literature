@@ -1,0 +1,19 @@
+{
+ "id": "2604.06278",
+ "title": "Predictive Volatility of Machine Learning in Micro-Samples: A Regularised Assessment of Regional Poverty",
+ "authors": [
+  "A. H. Jamaluddin",
+  "A. T. R. Dani",
+  "N. I. Mahat",
+  "V. Ratnasari",
+  "S. S. M. Fauzi"
+ ],
+ "v1_date": "2026-04-07",
+ "latest_version": 4,
+ "latest_date": "2026-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Corrections are needed",
+ "abstract": "Small regional datasets pose a dual statistical problem: correlated predictors inflate estimation variance, while flexible learners can become unstable because the available information per adaptive degree of freedom is limited. We examine this issue through predictive volatility, defined as the cross-sample dispersion and upper-tail behaviour of out-of-sample loss. Using simulation evidence reported for sparse linear, near-linear and heavy-tailed settings, we compare ordinary least squares, frequentist penalties, Bayesian shrinkage models, bounded-response and spatial specifications, and flexible machine-learning procedures. In the reported simulation results, regularised linear estimators generally dominate in the linear high-collinearity micro-sample settings and remain the most reliable overall, whereas tree-based methods become more competitive only when the signal is weakly nonlinear and the sample size is larger. In the empirical application to 34 Indonesian provinces, ridge yields the best leave-one-out performance, followed by elastic net and lasso. Across the Bayesian shrinkage specifications, ICT skills show the most consistent negative association with poverty, with the strongest support under horseshoe and spike-and-slab formulations. These results suggest that, in micro-sample regional modelling, the main constraint is limited information per effective degree of freedom rather than insufficient algorithmic flexibility.",
+ "primary": "stat.ME"
+}

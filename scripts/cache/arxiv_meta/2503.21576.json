@@ -1,0 +1,19 @@
+{
+ "id": "2503.21576",
+ "title": "Empirical Measures and Strong Laws of Large Numbers in Categorical Probability",
+ "authors": [
+  "Tobias Fritz",
+  "Tomáš Gonda",
+  "Antonio Lorenzin",
+  "Paolo Perrone",
+  "Areeb Shah Mohammed"
+ ],
+ "v1_date": "2025-03-27",
+ "latest_version": 4,
+ "latest_date": "2026-05-04",
+ "journal_ref": "Logical Methods in Computer Science, Volume 22, Issue 2 (May 5, 2026) lmcs:15844",
+ "doi": "10.46298/lmcs-22(2:13)2026",
+ "comment": "",
+ "abstract": "The Glivenko--Cantelli theorem is a uniform version of the strong law of large numbers. It states that for every IID sequence of random variables, the empirical measure converges to the underlying distribution (in the sense of uniform convergence of the CDF). In this work, we provide tools to study such limits of empirical measures in categorical probability. We propose two axioms, namely permutation invariance and empirical adequacy, that a morphism of type $X^{\\mathbb{N}} \\to X$ should satisfy to be interpretable as taking an infinite sequence as input and producing a sample from its empirical measure as output. Since not all sequences have a well-defined empirical measure, such \\emph{empirical sampling morphisms} live in quasi-Markov categories, which, unlike Markov categories, allow for partial morphisms. Given an empirical sampling morphism and a few other properties, we prove representability as well as abstract versions of the de Finetti theorem, the Glivenko--Cantelli theorem and the strong law of large numbers. We provide several concrete constructions of empirical sampling morphisms as partially defined Markov kernels on standard Borel spaces. Instantiating our abstract results then recovers the standard Glivenko--Cantelli theorem and the strong law of large numbers for random variables with finite first moment. Our work thus provides a joint proof of these two theorems in conjunction with the de Finetti theorem from first principles.",
+ "primary": "math.PR"
+}

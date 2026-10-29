@@ -1,0 +1,15 @@
+{
+ "id": "2409.04001",
+ "title": "A semi-supervised learning using over-parameterized regression",
+ "authors": [
+  "Katsuyuki Hagiwara"
+ ],
+ "v1_date": "2024-09-06",
+ "latest_version": 2,
+ "latest_date": "2024-11-19",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Semi-supervised learning (SSL) is an important theme in machine learning, in which we have a few labeled samples and many unlabeled samples. In this paper, for SSL in a regression problem, we consider a method of incorporating information on unlabeled samples into kernel functions. As a typical implementation, we employ Gaussian kernels whose centers are labeled and unlabeled input samples. Since the number of coefficients is larger than the number of labeled samples in this setting, this is an over-parameterized regression roblem. A ridge regression is a typical estimation method under this setting. In this paper, alternatively, we consider to apply the minimum norm least squares (MNLS), which is known as a helpful tool for understanding deep learning behavior while it may not be application oriented. Then, in applying the MNLS for SSL, we established several methods based on feature extraction/dimension reduction in the SVD (singular value decomposition) representation of a Gram type matrix appeared in the over-parameterized regression problem. The methods are thresholding according to singular value magnitude with cross validation, hard-thresholding with cross validation, universal thresholding and bridge thresholding methods. The first one is equivalent to a method using a well-known low rank approximation of a Gram type matrix. We refer to these methods as SVD regression methods. In the experiments for real data, depending on datasets, clear superiority of the proposed SVD regression methods over ridge regression methods was observed. And, depending on datasets, incorporation of information on unlabeled input samples into kernels was found to be clearly effective.",
+ "primary": "cs.LG"
+}

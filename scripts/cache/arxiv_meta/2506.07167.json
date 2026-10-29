@@ -1,0 +1,16 @@
+{
+ "id": "2506.07167",
+ "title": "Spectral Clustering with Likelihood Refinement for High-dimensional Latent Class Recovery",
+ "authors": [
+  "Zhongyuan Lyu",
+  "Yuqi Gu"
+ ],
+ "v1_date": "2025-06-08",
+ "latest_version": 2,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "10.1017/psy.2026.10095",
+ "comment": "",
+ "abstract": "Latent class models are widely used for identifying unobserved subgroups from multivariate categorical data in social sciences, with binary data as a particularly popular example. However, accurately recovering individual latent class memberships remains challenging, especially when handling high-dimensional datasets with many items. This work proposes a novel two-stage algorithm for latent class models suited for high-dimensional binary responses. Our method first initializes latent class assignments by an easy-to-implement spectral clustering algorithm, and then refines these assignments with a one-step likelihood-based update. This approach combines the computational efficiency of spectral clustering with the improved statistical accuracy of likelihood-based estimation. We establish theoretical guarantees showing that this method is minimax-optimal for latent class recovery in the statistical decision theory sense. The method also leads to exact clustering of subjects with high probability under mild conditions. As a byproduct, we propose a computationally efficient consistent estimator for the number of latent classes. Extensive experiments on both simulated data and real data validate our theoretical results and demonstrate our method's superior performance over alternative methods.",
+ "primary": "stat.ME"
+}

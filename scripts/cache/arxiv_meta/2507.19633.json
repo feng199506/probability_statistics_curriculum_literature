@@ -1,0 +1,16 @@
+{
+ "id": "2507.19633",
+ "title": "Uniform inference in linear mixed models",
+ "authors": [
+  "Karl Oskar Ekvall",
+  "Matteo Bottai"
+ ],
+ "v1_date": "2025-07-25",
+ "latest_version": 1,
+ "latest_date": "2025-07-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We provide finite-sample distribution approximations, that are uniform in the parameter, for inference in linear mixed models. Focus is on variances and covariances of random effects in cases where existing theory fails because their covariance matrix is nearly or exactly singular, and hence near or at the boundary of the parameter set. Quantitative bounds on the differences between the standard normal density and those of linear combinations of the score function enable, for example, the assessment of sufficient sample size. The bounds also lead to useful asymptotic theory in settings where both the number of parameters and the number of random effects grow with the sample size. We consider models with independent clusters and ones with a possibly diverging number of crossed random effects, which are notoriously complicated. Simulations indicate the theory leads to practically relevant methods. In particular, the studied confidence regions, which are straightforward to implement, have near-nominal coverage in finite samples even when some random effects have variances near or equal to zero, or correlations near or equal to $\\pm 1$.",
+ "primary": "math.ST"
+}

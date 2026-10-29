@@ -1,0 +1,16 @@
+{
+ "id": "2512.23467",
+ "title": "Propensity Patchwork Kriging for Scalable Inference on Heterogeneous Treatment Effects",
+ "authors": [
+  "Hajime Ogawa",
+  "Shonosuke Sugasawa"
+ ],
+ "v1_date": "2025-12-29",
+ "latest_version": 2,
+ "latest_date": "2026-05-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "30 pages (main) + 13 pages (supplement)",
+ "abstract": "Gaussian process-based models are attractive for estimating heterogeneous treatment effects (HTE), but their computational cost limits scalability in causal inference settings. In this work, we address this challenge by extending Patchwork Kriging into the causal inference framework. Our proposed method partitions the data according to the estimated propensity score and applies Patchwork Kriging to enforce continuity of HTE estimates across adjacent regions. By imposing continuity constraints only along the propensity score dimension, rather than the full covariate space, the proposed approach substantially reduces computational cost while avoiding discontinuities inherent in simple local approximations. The resulting method can be interpreted as a smoothing extension of stratification and provides an efficient approach to HTE estimation. The proposed method is demonstrated through simulation studies and a real data application.",
+ "primary": "stat.ME"
+}

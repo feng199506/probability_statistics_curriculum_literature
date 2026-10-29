@@ -1,0 +1,18 @@
+{
+ "id": "2505.22535",
+ "title": "RiverMamba: A State Space Model for Global River Discharge and Flood Forecasting",
+ "authors": [
+  "Mohamad Hakam Shams Eddin",
+  "Yikui Zhang",
+  "Stefan Kollet",
+  "Juergen Gall"
+ ],
+ "v1_date": "2025-05-28",
+ "latest_version": 3,
+ "latest_date": "2025-10-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Accepted at the 39th Conference on Neural Information Processing Systems (NeurIPS 2025). Main paper 10 pages, Appendix 54 pages",
+ "abstract": "Recent deep learning approaches for river discharge forecasting have improved the accuracy and efficiency in flood forecasting, enabling more reliable early warning systems for risk management. Nevertheless, existing deep learning approaches in hydrology remain largely confined to local-scale applications and do not leverage the inherent spatial connections of bodies of water. Thus, there is a strong need for new deep learning methodologies that are capable of modeling spatio-temporal relations to improve river discharge and flood forecasting for scientific and operational applications. To address this, we present RiverMamba, a novel deep learning model that is pretrained with long-term reanalysis data and that can forecast global river discharge and floods on a $0.05^\\circ$ grid up to $7$ days lead time, which is of high relevance in early warning. To achieve this, RiverMamba leverages efficient Mamba blocks that enable the model to capture spatio-temporal relations in very large river networks and enhance its forecast capability for longer lead times. The forecast blocks integrate ECMWF HRES meteorological forecasts, while accounting for their inaccuracies through spatio-temporal modeling. Our analysis demonstrates that RiverMamba provides reliable predictions of river discharge across various flood return periods, including extreme floods, and lead times, surpassing both AI- and physics-based models. The source code and datasets are publicly available at the project page https://hakamshams.github.io/RiverMamba.",
+ "primary": "cs.CV"
+}

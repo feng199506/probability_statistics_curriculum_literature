@@ -1,0 +1,19 @@
+{
+ "id": "2512.12362",
+ "title": "Asymmetric Laplace distribution regression model for fitting heterogeneous longitudinal response",
+ "authors": [
+  "Antoine Barbieri",
+  "Angelo Alcaraz",
+  "Mouna Abed",
+  "Hugues de Courson",
+  "Hélène Jacqmin-Gadda"
+ ],
+ "v1_date": "2025-12-13",
+ "latest_version": 1,
+ "latest_date": "2025-12-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The systematic collection of longitudinal data is very common in practice, making mixed models widely used. Most developments around these models focus on modeling the mean trajectory of repeated measurements, typically under the assumption of homoskedasticity. However, as data become increasingly rich through intensive collection over time, these models can become limiting and may introduce biases in analysis. In fact, such data are often heterogeneous, with the presence of outliers, heteroskedasticity, and asymmetry in the distribution of individual measurements. Therefore, ignoring these characteristics can lead to biased modeling results. In this work, we propose a mixed-effect distributional regression model based on the asymmetric Laplace distribution to: (1) address the presence of outliers, heteroskedasticity, and asymmetry in longitudinal measurements; (2) model the entire individual distribution of the heterogeneous longitudinal response over time, rather than just its conditional expectation; and (3) give a more comprehensive evaluation of the impact of covariates on the distribution of the responses through meaningful indicator. A Bayesian estimation procedure is presented. In order to choose between two distributional regression models, we also propose a new model selection criterion for longitudinal data. It measures the proximity between the individual distribution estimated by the model and the empirical individual distribution of the data over time, using a set of quantiles. The estimation procedure and the selection criterion are validated in a simulation study and the proposed model is compared to a distributional regression mixed model based on the Gaussian distribution and a location-scale linear quantile mixed model. Finally, the proposed model is applied to analyze blood pressure over time for hospitalized patients in the intensive care unit.",
+ "primary": "stat.ME"
+}

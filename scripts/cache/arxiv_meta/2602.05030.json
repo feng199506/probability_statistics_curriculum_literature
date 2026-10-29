@@ -1,0 +1,18 @@
+{
+ "id": "2602.05030",
+ "title": "Billions-Scale Forecast Reconciliation",
+ "authors": [
+  "Tianyu Wang",
+  "Matthew C. Johnson",
+  "Steven Klee",
+  "Matthew L. Malloy"
+ ],
+ "v1_date": "2026-02-04",
+ "latest_version": 2,
+ "latest_date": "2026-02-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The problem of combining multiple forecasts of related quantities that obey expected equality and additivity constraints, often referred to a hierarchical forecast reconciliation, is naturally stated as a simple optimization problem. In this paper we explore optimization-based point forecast reconciliation at scales faced by large retailers. We implement and benchmark several algorithms to solve the forecast reconciliation problem, showing efficacy when the dimension of the problem exceeds four billion forecasted values. To the best of our knowledge, this is the largest forecast reconciliation problem, and perhaps on-par with the largest constrained least-squares-problem ever solved. We also make several theoretical contributions. We show that for a restricted class of problems and when the loss function is weighted appropriately, least-squares forecast reconciliation is equivalent to share-based forecast reconciliation. This formalizes how the optimization based approach can be thought of as a generalization of share-based reconciliation, applicable to multiple, overlapping data hierarchies.",
+ "primary": "stat.ME"
+}

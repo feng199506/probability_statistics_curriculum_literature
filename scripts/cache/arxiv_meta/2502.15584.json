@@ -1,0 +1,17 @@
+{
+ "id": "2502.15584",
+ "title": "Improving variable selection properties with data integration and transfer learning",
+ "authors": [
+  "Paul Rognon-Vael",
+  "David Rossell",
+  "Piotr Zwiernik"
+ ],
+ "v1_date": "2025-02-21",
+ "latest_version": 3,
+ "latest_date": "2026-02-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We study variable selection (also called support recovery) in high-dimensional sparse linear regression when one has external information on which variables are likely to be associated with the response. Consistent recovery is only possible under somewhat restrictive conditions on sample size, dimension, signal strength, and sparsity. We investigate how these conditions can be relaxed by incorporating said external information. A key application that we consider is structural transfer learning, where variables selected in one or more source datasets are used to guide variable selection in a target dataset. We introduce a family of likelihood penalties that depend on the external information, motivated by connections to Bayesian variable selection. We show that these methods achieve variable selection consistency in regimes where any method ignoring external information fails, and that they achieve consistency at faster rates. We first quantify the potential gains under ideal, oracle-chosen, penalties. We then propose computationally efficient empirical Bayes procedures that learn suitable penalties from the data. We prove that these procedures have improved variable selection properties compared to methods that do not use external information. We illustrate our approach using simulations and a genomics application, where results from mouse experiments are used to inform variable selection for gene expression data in humans.",
+ "primary": "math.ST"
+}

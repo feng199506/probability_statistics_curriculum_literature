@@ -1,0 +1,24 @@
+{
+ "id": "2601.06327",
+ "title": "From Lagging to Leading: Validating Hard Braking Events as High-Density Indicators of Segment Crash Risk",
+ "authors": [
+  "Yechen Li",
+  "Shantanu Shahane",
+  "Shoshana Vasserman",
+  "Carolina Osorio",
+  "Yi-fan Chen",
+  "Ivan Kuznetsov",
+  "Kristin White",
+  "Justyna Swiatkowska",
+  "Neha Arora",
+  "Feng Guo"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 2,
+ "latest_date": "2026-01-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying high crash risk road segments and accurately predicting crash incidence is fundamental to implementing effective safety countermeasures. While collision data inherently reflects risk, the infrequency and inconsistent reporting of crashes present a major challenge to robust risk prediction models. The proliferation of connected vehicle technology offers a promising avenue to leverage high-density safety metrics for enhanced crash forecasting. A Hard-Braking Event (HBE), interpreted as an evasive maneuver, functions as a potent proxy for elevated driving risk due to its demonstrable correlation with underlying crash causal factors. Crucially, HBE data is significantly more readily available across the entire road network than conventional collision records. This study systematically evaluated the correlation at individual road segment level between police-reported collisions and aggregated and anonymized HBEs identified via the Google Android Auto platform, utilizing datasets from California and Virginia. Empirical evidence revealed that HBEs occur at a rate magnitudes higher than traffic crashes. Employing the state-of-the-practice Negative-Binomial regression models, the analysis established a statistically significant positive correlation between the HBE rate and the crash rate: road segments exhibiting a higher frequency of HBEs were consistently associated with a greater incidence of crashes. This sophisticated model incorporated and controlled for various confounding factors, including road type, speed profile, proximity to ramps, and road segment slope. The HBEs derived from connected vehicle technology thus provide a scalable, high-density safety surrogate metric for network-wide traffic safety assessment, with the potential to optimize safer routing recommendations and inform the strategic deployment of active safety countermeasures.",
+ "primary": "cs.OH"
+}

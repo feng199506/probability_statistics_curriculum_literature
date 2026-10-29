@@ -1,0 +1,15 @@
+{
+ "id": "2603.09041",
+ "title": "AgroDesign: A Design-Aware Statistical Inference Framework for Agricultural Experiments in Python",
+ "authors": [
+  "Aqib Gul"
+ ],
+ "v1_date": "2026-03-10",
+ "latest_version": 1,
+ "latest_date": "2026-03-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "21 pages, 8 figures, 8 tables",
+ "abstract": "Statistical analysis of agricultural experiments is based on structured experimental designs such as randomized block, factorial, split-plot, and multi-environment trials. While the theoretical bases of these approaches are sound, their implementation in modern programming frameworks usually involves manual specification of statistical models, choice of error terms, and subjective interpretation of interaction effects. This divide between experimental design and computational implementation opens the door to misleading inference and inconsistent reporting. We introduce AgroDesign, a Python framework that makes experimental design the central specification of statistical analysis. The framework translates specified experimental designs directly into valid linear models, automatically identifies error strata, conducts hypothesis testing and mean separation, checks assumptions of linear models, and provides decision-focused interpretations. The framework integrates fixed-effect ANOVA, hierarchical designs, linear mixed models, and genotype-by-environment stability analysis into a single declarative framework. AgroDesign is validated on canonical designs in agricultural statistics and shows consistency with traditional statistical analysis while strictly enforcing correct interpretation constraints, especially in interaction-dominant and multi-stratum designs. By integrating design semantics into computation, the framework minimizes analyst-driven modeling choices and enhances reproducibility.",
+ "primary": "stat.ME"
+}

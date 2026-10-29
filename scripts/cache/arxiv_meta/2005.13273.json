@@ -1,0 +1,16 @@
+{
+ "id": "2005.13273",
+ "title": "Selective Inference for Latent Block Models",
+ "authors": [
+  "Chihiro Watanabe",
+  "Taiji Suzuki"
+ ],
+ "v1_date": "2020-05-27",
+ "latest_version": 5,
+ "latest_date": "2021-06-06",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Model selection in latent block models has been a challenging but important task in the field of statistics. Specifically, a major challenge is encountered when constructing a test on a block structure obtained by applying a specific clustering algorithm to a finite size matrix. In this case, it becomes crucial to consider the selective bias in the block structure, that is, the block structure is selected from all the possible cluster memberships based on some criterion by the clustering algorithm. To cope with this problem, this study provides a selective inference method for latent block models. Specifically, we construct a statistical test on a set of row and column cluster memberships of a latent block model, which is given by a squared residue minimization algorithm. The proposed test, by its nature, includes and thus can also be used as the test on the set of row and column cluster numbers. We also propose an approximated version of the test based on simulated annealing to avoid combinatorial explosion in searching the optimal block structure. The results show that the proposed exact and approximated tests work effectively, compared to the naive test that did not take the selective bias into account.",
+ "primary": "stat.ML"
+}

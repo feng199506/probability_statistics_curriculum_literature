@@ -1,0 +1,19 @@
+{
+ "id": "2504.15328",
+ "title": "Bayesian Federated Learning for Continual Training",
+ "authors": [
+  "Usevalad Milasheuski",
+  "Luca Barbieri",
+  "Sanaz Kianoush",
+  "Monica Nicoli",
+  "Stefano Savazzi"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 1,
+ "latest_date": "2025-04-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Bayesian Federated Learning (BFL) enables uncertainty quantification and robust adaptation in distributed learning. In contrast to the frequentist approach, it estimates the posterior distribution of a global model, offering insights into model reliability. However, current BFL methods neglect continual learning challenges in dynamic environments where data distributions shift over time. We propose a continual BFL framework applied to human sensing with radar data collected over several days. Using Stochastic Gradient Langevin Dynamics (SGLD), our approach sequentially updates the model, leveraging past posteriors to construct the prior for the new tasks. We assess the accuracy, the expected calibration error (ECE) and the convergence speed of our approach against several baselines. Results highlight the effectiveness of continual Bayesian updates in preserving knowledge and adapting to evolving data.",
+ "primary": "cs.LG"
+}

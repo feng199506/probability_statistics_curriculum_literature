@@ -1,0 +1,16 @@
+{
+ "id": "2604.03171",
+ "title": "Flexible Imputation of Incomplete Network Data",
+ "authors": [
+  "Ge Sun",
+  "Weisheng Zhang"
+ ],
+ "v1_date": "2026-04-03",
+ "latest_version": 3,
+ "latest_date": "2026-08-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Sampled network data are widely used in empirical research because collecting complete network information is costly. However, empirical analyses based on sampled networks may lead to biased estimators. We propose a nonparametric imputation method for sampled networks and show that empirical analyses based on imputed networks yield consistent estimates. Our approach imputes missing network links by combining a projection onto covariates with a local two-way fixed-effects regression. The method avoids parametric assumptions, does not rely on low-rank restrictions, and flexibly accommodates both observed covariates and unobserved heterogeneity. We establish entrywise convergence rates for the imputed matrix and prove the consistency of generalized method of moments (GMM) estimators based on imputed networks. We further derive the convergence rate of the corresponding estimator in the linear-in-means peer-effects model. Simulations show strong performance of our method both in terms of imputation accuracy and in downstream empirical analysis. We illustrate our method with an application to the microfinance network data of Banerjee et al. (2013).",
+ "primary": "econ.EM"
+}

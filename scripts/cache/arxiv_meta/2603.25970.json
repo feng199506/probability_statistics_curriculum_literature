@@ -1,0 +1,17 @@
+{
+ "id": "2603.25970",
+ "title": "Bayesian Deep Count Regression and Anomaly Detection: Evidence from GDELT Event Panels",
+ "authors": [
+  "Hsin-Hsiung Huang",
+  "Yuh-Haur Chen",
+  "Mahlon Scott"
+ ],
+ "v1_date": "2026-03-26",
+ "latest_version": 1,
+ "latest_date": "2026-03-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The Global Database of Events, Language and Tone (GDELT) provides geolocated event records that can be aggregated into weekly spatiotemporal panels of event counts across regions, actors, and event types. These panels are typically sparse, bursty, and overdispersed, so calibrated probabilistic forecasting is essential for monitoring rare surges. We propose Bayesian count regression pipelines that pair deterministic deep temporal encoders with negative binomial (NB2) and zero-inflated negative binomial (ZINB2) likelihood heads. Posterior predictive simulation yields predictive quantiles and right-tail probabilities that support both forecasting and anomaly scoring. For interpretable spillover attribution, we also fit a Bayesian generalised linear model with high-dimensional lagged cross-series predictors and a two-step screen-and-refit procedure under a three-parameter beta-normal (TPBN) shrinkage prior. To connect spillovers to directional statistics, active cross-region effects are mapped to geodesic bearings on the World Geodetic System 1984 ellipsoid (WGS84) and summarised using weighted circular moments, rose diagrams, and bearing-field maps. Simulations with known spillovers and conflict-panel case studies show accurate right-tail behaviour and a practical workflow for detecting and interpreting geopolitical shocks.",
+ "primary": "stat.AP"
+}

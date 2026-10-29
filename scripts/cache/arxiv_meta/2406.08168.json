@@ -1,0 +1,16 @@
+{
+ "id": "2406.08168",
+ "title": "Global Tests for Smoothed Functions in Mean Field Variational Additive Models",
+ "authors": [
+  "Mark J. Meyer",
+  "Junyi Wei"
+ ],
+ "v1_date": "2024-06-12",
+ "latest_version": 1,
+ "latest_date": "2024-06-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational regression methods are an increasingly popular tool for their efficient estimation of complex. Given the mixed model representation of penalized effects, additive regression models with smoothed effects and scalar-on-function regression models can be fit relatively efficiently in a variational framework. However, inferential procedures for smoothed and functional effects in such a context is limited. We demonstrate that by using the Mean Field Variational Bayesian (MFVB) approximation to the additive model and the subsequent Coordinate Ascent Variational Inference (CAVI) algorithm, we can obtain a form of the estimated effects required of a Frequentist test for semiparametric curves. We establish MFVB approximations and CAVI algorithms for both Gaussian and binary additive models with an arbitrary number of smoothed and functional effects. We then derive a global testing framework for smoothed and functional effects. Our empirical study demonstrates that the test maintains good Frequentist properties in the variational framework and can be used to directly test results from a converged, MFVB approximation and CAVI algorithm. We illustrate the applicability of this approach in a wide range of data illustrations.",
+ "primary": "stat.ME"
+}

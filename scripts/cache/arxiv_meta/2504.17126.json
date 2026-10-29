@@ -1,0 +1,18 @@
+{
+ "id": "2504.17126",
+ "title": "Estimation and Inference for the Average Treatment Effect in a Score-Explained Heterogeneous Treatment Effect Model",
+ "authors": [
+  "Kevin Christian Wibisono",
+  "Debarghya Mukherjee",
+  "Moulinath Banerjee",
+  "Ya'acov Ritov"
+ ],
+ "v1_date": "2025-04-23",
+ "latest_version": 1,
+ "latest_date": "2025-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "44 pages",
+ "abstract": "In many practical situations, randomly assigning treatments to subjects is uncommon due to feasibility constraints. For example, economic aid programs and merit-based scholarships are often restricted to those meeting specific income or exam score thresholds. In these scenarios, traditional approaches to estimating treatment effects typically focus solely on observations near the cutoff point, thereby excluding a significant portion of the sample and potentially leading to information loss. Moreover, these methods generally achieve a non-parametric convergence rate. While some approaches, e.g., Mukherjee et al. (2021), attempt to tackle these issues, they commonly assume that treatment effects are constant across individuals, an assumption that is often unrealistic in practice. In this study, we propose a differencing and matching-based estimator of the average treatment effect on the treated (ATT) in the presence of heterogeneous treatment effects, utilizing all available observations. We establish the asymptotic normality of our estimator and illustrate its effectiveness through various synthetic and real data analyses. Additionally, we demonstrate that our method yields non-parametric estimates of the conditional average treatment effect (CATE) and individual treatment effect (ITE) as a byproduct.",
+ "primary": "stat.ME"
+}

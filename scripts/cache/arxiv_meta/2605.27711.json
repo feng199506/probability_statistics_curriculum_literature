@@ -1,0 +1,18 @@
+{
+ "id": "2605.27711",
+ "title": "Improving Power in Randomized Controlled Trials with Time-to-Event Endpoints: A Risk-Free Approach",
+ "authors": [
+  "Junyi Zhou",
+  "Qing Liu",
+  "May Mo",
+  "Amy Xia"
+ ],
+ "v1_date": "2026-05-26",
+ "latest_version": 1,
+ "latest_date": "2026-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Leveraging external or historical data to improve the efficiency of randomized clinical trials without introducing bias or inflating the Type I error rate remains challenging. Recent work on externally trained prognostic scores, such as PROCOVA for continuous endpoint, has demonstrated a risk-free approach via covariate adjustment. However, extending this paradigm to time-to-event endpoints is nontrivial due to the non-collapsibility of the marginal hazard ratio (HR). In this paper, we address this challenge by proposing a unified framework for incorporating complex, high-dimensional prognostic information learned from external data into the primary analysis of RCTs with time- to-event endpoints, while targeting the marginal hazard ratio. The proposed procedure proceeds in two steps. First, a prognostic score is estimated from external or historical data by regressing martingale residuals on baseline covariates using flexible supervised learning methods. Second, the fitted score is included as an additional covariate in the nonparametric covariate-adjusted log-rank test and the associated marginal HR estimator of Ye et al. [2024]. The proposed method controls Type I error and provides asymptotic unbiased estimation of the marginal HR, irrespective of prognostic model misspecification, or population heterogeneity between external/historical and trial data. We show that the variance reduction, and corresponding event count savings, are approximately equal to the squared correlation between the prognostic score and the martingale pseudo-outcome in the trial. Extensions to stratified randomization are straightforward. Simulation studies demonstrate satisfactory finite-sample performance and meaningful efficiency gains when historical prognostic information is informative.",
+ "primary": "stat.ME"
+}

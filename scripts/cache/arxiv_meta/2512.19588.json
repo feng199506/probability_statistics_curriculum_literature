@@ -1,0 +1,15 @@
+{
+ "id": "2512.19588",
+ "title": "Possibilistic Inferential Models for Post-Selection Inference in High-Dimensional Linear Regression",
+ "authors": [
+  "Yaohui Lin"
+ ],
+ "v1_date": "2025-12-22",
+ "latest_version": 1,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Valid uncertainty quantification after model selection remains challenging in high-dimensional linear regression, especially within the possibilistic inferential model (PIM) framework. We develop possibilistic inferential models for post-selection inference based on a regularized split possibilistic construction (RSPIM) that combines generic high-dimensional selectors with PIM validification through sample splitting. A first subsample is used to select a sparse model; ordinary least-squares refits on an independent inference subsample yield classical t/F pivots, which are then turned into consonant plausibility contours. In Gaussian linear models this leads to coor-dinatewise intervals with exact finite-sample strong validity conditional on the split and selected model, uniformly over all selectors that use only the selection data. We further analyze RSPIM in a sparse p >> n regime under high-level screening conditions, develop orthogonalized and bootstrap-based extensions for low-dimensional targets with high-dimensional nuisance, and study a maxitive multi-split aggregation that stabilizes inference across random splits while preserving strong validity. Simulations and a riboflavin gene-expression example show that calibrated RSPIM intervals are well behaved under both Gaussian and heteroskedastic errors and are competitive with state-of-the-art post-selection methods, while plausibility contours provide transparent diagnostics of post-selection uncertainty.",
+ "primary": "stat.ME"
+}

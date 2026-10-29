@@ -1,0 +1,15 @@
+{
+ "id": "2402.00651",
+ "title": "Skew-elliptical copula based mixed models for non-Gaussian longitudinal data with application to an HIV-AIDS study",
+ "authors": [
+  "Subhajit Chattopadhyay"
+ ],
+ "v1_date": "2024-02-01",
+ "latest_version": 4,
+ "latest_date": "2025-05-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "24 pages, 5 figures and 7 tables",
+ "abstract": "This study was sparked by an extensive longitudinal dataset focusing on HIV CD4 T$^+$ cell counts from Livingstone district, Zambia. Analysis of the corresponding histogram plots reveals an absence of symmetry in the marginal distributions, while pairwise scatter plots uncover non-elliptical dependence patterns. Traditional linear mixed models designed for longitudinal data fail to capture these complexities adequately. Therefore, it appears prudent to explore a broader framework for modeling such data. In this article, we delve into generalized linear mixed models (GLMM) for the marginals (e.g., the Gamma mixed model), and we address the temporal dependency of repeated measurements by utilizing copulas associated with skew-elliptical distributions (such as the skew-normal/skew-$t$). Our proposed class of copula-based mixed models simultaneously accommodates asymmetry, between-subject variability, and non-standard temporal dependence, thus offering extensions to the standard linear mixed model based on multivariate normality. We estimate the model parameters using the IFM (inference function of margins) method and outline the process of obtaining standard errors for parameter estimates. Through extensive simulation studies covering skewed and symmetric marginal distributions and various copula choices, we assess the finite sample performance of our approach. Finally, we apply these models to the HIV dataset and present our findings.",
+ "primary": "stat.ME"
+}

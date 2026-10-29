@@ -1,0 +1,17 @@
+{
+ "id": "2410.02982",
+ "title": "Imputing Missing Values with External Data",
+ "authors": [
+  "Robert Thiesmeier",
+  "Matteo Bottai",
+  "Nicola Orsini"
+ ],
+ "v1_date": "2024-10-03",
+ "latest_version": 1,
+ "latest_date": "2024-10-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Submitted to the Stata Journal",
+ "abstract": "Missing data is a common challenge across scientific disciplines. Current imputation methods require the availability of individual data to impute missing values. Often, however, missingness requires using external data for the imputation. In this paper, we introduce a new Stata command, mi impute from, designed to impute missing values using linear predictors and their related covariance matrix from imputation models estimated in one or multiple external studies. This allows for the imputation of any missing values without sharing individual data between studies. We describe the underlying method and present the syntax of mi impute from alongside practical examples of missing data in collaborative research projects.",
+ "primary": "stat.ME"
+}

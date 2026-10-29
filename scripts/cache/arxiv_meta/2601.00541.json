@@ -1,0 +1,17 @@
+{
+ "id": "2601.00541",
+ "title": "Asymptotic Distribution-Free Tests for Ultra-high Dimensional Parametric Regressions via Projected Empirical Processes and $p$-value Combination",
+ "authors": [
+  "Falong Tan",
+  "Shan Tang",
+  "Lixing Zhu"
+ ],
+ "v1_date": "2026-01-02",
+ "latest_version": 1,
+ "latest_date": "2026-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper develops a novel methodology for testing the goodness-of-fit of sparse parametric regression models based on projected empirical processes and p-value combination, where the covariate dimension may substantially exceed the sample size. In such ultra-high dimensional settings, traditional empirical process-based tests often fail due to the curse of dimensionality or their reliance on the asymptotic linearity and normality of parameter estimators--properties that may not hold under ultra-high dimensional scenarios. To overcome these challenges, we first extend the classic martingale transformation to ultra-high dimensional settings under mild conditions and construct a Cramer-von Mises type test based on a martingale-transformed, projected residual-marked empirical process for any projection on the unit sphere. The martingale transformation renders this projected test asymptotically distribution-free and enables us to derive its limiting distribution using only standard convergence rates of parameter estimators. While the projected test is consistent for almost all projections on the unit sphere under mild conditions, it may still suffer from power loss for specific projections. Therefore, we further employ powerful p-value combination procedures, such as the Cauchy combination, to aggregate p-values across multiple projections, thereby enhancing overall robustness. Furthermore, recognizing that empirical process-based tests excel at detecting low-frequency signals while local smoothing tests are generally superior for high-frequency alternatives, we propose a novel hybrid test that aggregates both approaches using Cauchy combination. The resulting hybrid test is powerful against both low-frequency and high-frequency alternatives. $\\cdots$",
+ "primary": "math.ST"
+}

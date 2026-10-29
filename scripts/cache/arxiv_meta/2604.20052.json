@@ -1,0 +1,15 @@
+{
+ "id": "2604.20052",
+ "title": "Annealed Langevin Monte Carlo for Flow ODE Sampling",
+ "authors": [
+  "Hanwen Huang"
+ ],
+ "v1_date": "2026-04-21",
+ "latest_version": 2,
+ "latest_date": "2026-04-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "25 pages, 3 figures",
+ "abstract": "We propose Annealed Langevin Monte Carlo for Flow ODE Sampling (ALMC-ODE), a method for generating samples from unnormalized target distributions, with a particular emphasis on multimodal densities that are challenging for standard Markov chain Monte Carlo methods. ALMC-ODE is based on a probability-flow ordinary differential equation (ODE) derived from stochastic interpolants, which continuously transports a standard Gaussian reference distribution at $t = 0$ to the target distribution $ρ$ at $t = 1$. The key innovation lies in an annealed Langevin Markov chain that evolves through a sequence of intermediate distributions bridging the reference and the target. The resulting importance-weighted particles, reweighted via a Jarzynski-based scheme, yield a low-variance estimator of the velocity field governing the ODE. On the theoretical side, we establish a Jarzynski-type reweighting identity for general time-inhomogeneous transition kernels, characterize the optimal backward kernel that minimizes the variance of the importance weights, and prove an $\\mathcal{O}(1/n)$ mean squared error bound for the resulting velocity-field estimator. Numerical experiments on challenging benchmarks, including Gaussian mixture models and a 64-dimensional Allen--Cahn field system, demonstrate that ALMC-ODE significantly outperforms both direct Monte Carlo ODE approaches and Hamiltonian Monte Carlo when applied to highly multimodal target distributions.",
+ "primary": "stat.CO"
+}

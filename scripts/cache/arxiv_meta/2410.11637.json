@@ -1,0 +1,18 @@
+{
+ "id": "2410.11637",
+ "title": "Prediction-Centric Uncertainty Quantification via MMD",
+ "authors": [
+  "Zheyang Shen",
+  "Jeremias Knoblauch",
+  "Sam Power",
+  "Chris. J. Oates"
+ ],
+ "v1_date": "2024-10-15",
+ "latest_version": 2,
+ "latest_date": "2025-03-21",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Typos corrected. Accepted for AISTATS 2025",
+ "abstract": "Deterministic mathematical models, such as those specified via differential equations, are a powerful tool to communicate scientific insight. However, such models are necessarily simplified descriptions of the real world. Generalised Bayesian methodologies have been proposed for inference with misspecified models, but these are typically associated with vanishing parameter uncertainty as more data are observed. In the context of a misspecified deterministic mathematical model, this has the undesirable consequence that posterior predictions become deterministic and certain, while being incorrect. Taking this observation as a starting point, we propose Prediction-Centric Uncertainty Quantification, where a mixture distribution based on the deterministic model confers improved uncertainty quantification in the predictive context. Computation of the mixing distribution is cast as a (regularised) gradient flow of the maximum mean discrepancy (MMD), enabling consistent numerical approximations to be obtained. Results are reported on both a toy model from population ecology and a real model of protein signalling in cell biology.",
+ "primary": "stat.ME"
+}

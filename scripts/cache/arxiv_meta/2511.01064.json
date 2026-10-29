@@ -1,0 +1,17 @@
+{
+ "id": "2511.01064",
+ "title": "Generalized Guarantees for Variational Inference in the Presence of Even and Elliptical Symmetry",
+ "authors": [
+  "Charles C. Margossian",
+  "Isaac E. Rankin",
+  "Lawrence K. Saul"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 3,
+ "latest_date": "2026-05-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Variational inference (VI) approximates a target density $p$ by the best match $q$ in a family of tractable distributions. The best variational approximation is found by minimizing a divergence between distributions, $D(p||q)$, and several divergences have been proposed as objective functions for VI, with different choices leading to different approximations. We show that even when these divergences have different minimizers, the resulting approximations all abide by certain symmetry-matching principles. Specifically, our results hold for all $f$-divergences, a broad class which includes the reverse and forward Kullback-Leibler divergences and the $α$-divergences. We show that in the presence of even symmetry, any stationary point of an $f$-divergence is guaranteed to recover the mean of $p$ and likewise, in the presence of elliptical symmetry, any stationary point is guaranteed to recover its correlation matrix. To obtain these guarantees we assume that $p$ and $q$ are unimodal, but notably we do not require them to be log-concave, light-tailed, or even everywhere-smooth. These guarantees generalize a previous result obtained for the reverse Kullback-Leibler divergence when $p$ is log-concave. They also extend to cases where the target density $p$ only exhibits symmetry along some but not all of its coordinates. These partial symmetries arise naturally in Bayesian hierarchical models, where the prior induces a challenging geometry but still possesses axes of symmetry.",
+ "primary": "stat.ML"
+}

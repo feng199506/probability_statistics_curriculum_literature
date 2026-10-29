@@ -1,0 +1,17 @@
+{
+ "id": "2501.14946",
+ "title": "Modernizing full posterior inference for surrogate modeling of categorical-output simulation experiments",
+ "authors": [
+  "Andrew Cooper",
+  "Annie S. Booth",
+  "Robert B. Gramacy"
+ ],
+ "v1_date": "2025-01-24",
+ "latest_version": 1,
+ "latest_date": "2025-01-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Gaussian processes (GPs) are powerful tools for nonlinear classification in which latent GPs are combined with link functions. But GPs do not scale well to large training data. This is compounded for classification where the latent GPs require Markov chain Monte Carlo integration. Consequently, fully Bayesian, sampling-based approaches had been largely abandoned. Instead, maximization-based alternatives, such as Laplace/variational inference (VI) combined with low rank approximations, are preferred. Though feasible for large training data sets, such schemes sacrifice uncertainty quantification and modeling fidelity, two aspects that are important to our work on surrogate modeling of computer simulation experiments. Here we are motivated by a large scale simulation of binary black hole (BBH) formation. We propose an alternative GP classification framework which uses elliptical slice sampling for Bayesian posterior integration and Vecchia approximation for computational thrift. We demonstrate superiority over VI-based alternatives for BBH simulations and other benchmark classification problems. We then extend our setup to warped inputs for \"deep\" nonstationary classification.",
+ "primary": "stat.CO"
+}

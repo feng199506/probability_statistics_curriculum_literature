@@ -1,0 +1,17 @@
+{
+ "id": "2501.08449",
+ "title": "A Refreshment Stirred, Not Shaken: Invariant-Preserving Deployments of Differential Privacy for the U.S. Decennial Census",
+ "authors": [
+  "James Bailie",
+  "Ruobin Gong",
+  "Xiao-Li Meng"
+ ],
+ "v1_date": "2025-01-14",
+ "latest_version": 2,
+ "latest_date": "2026-02-25",
+ "journal_ref": "Harvard Data Science Review (2026), Special Issue 6",
+ "doi": "10.1162/99608f92.dab78690",
+ "comment": "65 pages, 2 figures",
+ "abstract": "Protecting an individual's privacy when releasing their data is inherently an exercise in relativity, regardless of how privacy is qualified or quantified. This is because we can only limit the gain in information about an individual relative to what could be derived from other sources. This framing is the essence of differential privacy (DP), through which this article examines two statistical disclosure control (SDC) methods for the United States Decennial Census: the Permutation Swapping Algorithm (PSA), which resembles the 2010 Census's disclosure avoidance system (DAS), and the TopDown Algorithm (TDA), which was used in the 2020 DAS. To varying degrees, both methods leave unaltered certain statistics of the confidential data (their invariants) and hence neither can be readily reconciled with DP, at least as originally conceived. Nevertheless, we show how invariants can naturally be integrated into DP and use this to establish that the PSA satisfies pure DP subject to the invariants it necessarily induces, thereby proving that this traditional SDC method can, in fact, be understood from the perspective of DP. By a similar modification to zero-concentrated DP, we also provide a DP specification for the TDA. Finally, as a point of comparison, we consider a counterfactual scenario in which the PSA was adopted for the 2020 Census, resulting in a reduction in the nominal protection loss budget but at the cost of releasing many more invariants. This highlights the pervasive danger of comparing budgets without accounting for the other dimensions on which DP formulations vary (such as the invariants they permit). Therefore, while our results articulate the mathematical guarantees of SDC provided by the PSA, the TDA, and the 2020 DAS in general, care must be taken in translating these guarantees into actual privacy protection$\\unicode{x2014}$just as is the case for any DP deployment.",
+ "primary": "cs.CR"
+}

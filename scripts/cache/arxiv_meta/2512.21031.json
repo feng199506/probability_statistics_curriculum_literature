@@ -1,0 +1,17 @@
+{
+ "id": "2512.21031",
+ "title": "Learning the Macroeconomic Language",
+ "authors": [
+  "Siddhartha Chib",
+  "Fei Tan",
+  "Zhixun Zhang"
+ ],
+ "v1_date": "2025-12-24",
+ "latest_version": 3,
+ "latest_date": "2026-08-17",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We show how state-of-the-art large language models (LLMs) can be trained effectively on limited historical data for macroeconomic forecasting. We estimate a dynamic stochastic general equilibrium (DSGE) model with stochastic volatility and Student-t shocks on an initial segment of the data to obtain a posterior distribution over structural parameters. We sample from this posterior to generate millions of theory-consistent synthetic panels that, when mixed with macroeconomic data, form the training corpus for a deep learning transformer. Rather than using the DSGE model as a direct forecasting device, we use it as a structural simulator that regularizes transformer training in a small-sample environment. Our results show that this hybrid forecaster, which combines the theoretical coherence of DSGE models with the representational power of modern LLMs, learns key features of the macroeconomic language. Relative to a conventional vector autoregression benchmark, the transformer achieves comparable or stronger predictive performance in both token accuracy and predictive likelihood. These gains are strongest under a theory-heavy training mix and remain broadly robust to finer tokenization and deeper network architecture.",
+ "primary": "econ.EM"
+}

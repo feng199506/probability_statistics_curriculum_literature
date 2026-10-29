@@ -1,0 +1,17 @@
+{
+ "id": "2310.20573",
+ "title": "Optimal p-values and sample size for signal detection methods based on generalised Weibull distributions",
+ "authors": [
+  "Odile Sauzet",
+  "Julia Dyck",
+  "Victoria Cornelius"
+ ],
+ "v1_date": "2023-10-31",
+ "latest_version": 1,
+ "latest_date": "2023-10-31",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages, 4 tables",
+ "abstract": "Objectives: Statistical methods for signal detection of adverse drug reactions in electronics health records (EHRs) are not usually provided with information about optimal p-values and indicative sample sizes to achieve sufficient power. Sauzet \\& Cornelius (2022) have proposed test for signal detection based on the hazard functions of Weibull type distributions (WSP tests) which make use of the time-to-event information available in EHRs. We investigate optimal p-values for these methods and sample sizes needed to reach certain test powers. Study design and setting: We perform a simulation study with a range of scenarios for sample size, rate of event due (ADRs) and not due to the drug and a random time after prescription at which ADRs occurs. Based on the area under the curve, we obtain optimal p-values of the different WSP tests for the implementation in a hypothesis free signal detection setting. We also obtain approximate sample sizes required to reach a power of 80 or 90\\%. Results: The dWSP (double WSP) and the pWSP-dPWSP (combination of power WSP and dWSP) provide similar results and we recommend using a p-value of 0.01. With this p-values the sample sizes needed for a power of 80\\% starts at 30 events for an ADR rate of 0.01 and a background rate of 0.01. For a background rate of 0.05 and an ADR rate equal to a 20\\% increase of the background rate the number of events required is 300. Conclusion: For the implementation of WSP type test for signal detection in a hypothesis free setting a p-values of 0.01 is recommended. The number of observations and events required to achieve a correct power of detection is commensurable to the size of typical EHR data.",
+ "primary": "stat.AP"
+}

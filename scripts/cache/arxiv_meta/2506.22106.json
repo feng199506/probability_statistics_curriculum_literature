@@ -1,0 +1,16 @@
+{
+ "id": "2506.22106",
+ "title": "Pinsker's inequality for adapted total variation",
+ "authors": [
+  "Mathias Beiglböck",
+  "Markus Zona"
+ ],
+ "v1_date": "2025-06-27",
+ "latest_version": 1,
+ "latest_date": "2025-06-27",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Pinsker's classical inequality asserts that the total variation $TV(μ, ν)$ between two probability measures is bounded by $\\sqrt{ 2H(μ|ν)}$ where $H$ denotes the relative entropy (or Kullback-Leibler divergence). Considering the discrete metric, $TV$ can be seen as a Wasserstein distance and as such possesses an adapted variant $ATV$. Adapted Wasserstein distances have distinct advantages over their classical counterparts when $μ, ν$ are the laws of stochastic processes $(X_k)_{k=1}^n, (Y_k)_{k=1}^n$ and exhibit numerous applications from stochastic control to machine learning. In this note we observe that the adapted total variation distance $ATV$ satisfies the Pinsker-type inequality $$ ATV(μ, ν)\\leq \\sqrt{n} \\sqrt{2 H(μ|ν)}.$$",
+ "primary": "math.PR"
+}

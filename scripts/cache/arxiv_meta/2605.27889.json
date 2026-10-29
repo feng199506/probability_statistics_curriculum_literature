@@ -1,0 +1,15 @@
+{
+ "id": "2605.27889",
+ "title": "Beyond Empirical Bayes: A Hierarchical Bayesian Approach to Crash Rate Estimation with Missing Traffic Volume",
+ "authors": [
+  "Lars Skaug"
+ ],
+ "v1_date": "2026-05-27",
+ "latest_version": 2,
+ "latest_date": "2026-06-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "12 pages; 6 figures",
+ "abstract": "The Empirical Bayes (EB) procedure of Hauer et al. (2002) is the workhorse of highway safety analysis: it combines a Safety Performance Function with observed crash counts to produce shrinkage estimates of segment-level crash rates. EB delivers practicality by holding several quantities fixed at calibration: SPF coefficients, per-type overdispersion, observed ADT, and a fixed exposure exponent. These assumptions strain when ADT is missing on a majority of segments. We present a fully Bayesian hierarchical model that moves beyond EB by relaxing each of these assumptions in a single joint inference. Fit on Ohio's road inventory (408,304 segments, 2.9 million crashes, 2013-2025), the model jointly imputes missing ADT and estimates per-segment crash rates with uncertainty. Posterior predictive checks of an initial fixed-exposure model expose a tail misfit; relaxing the exposure structure to a per-functional-class exposure exponent and an estimated length exponent, in place of a single scalar and a fixed offset, resolves it and improves out-of-sample predictive accuracy (PSIS-LOO $Δ\\mathrm{elpd}$ = 9,394, SE 238). Crash count is sublinear in traffic in every class (exposure exponents 0.49-0.70, all $<1$, the safety-in-numbers effect) and sublinear in segment length ($β_{\\mathrm{len}} = 0.69$). Partial pooling substantially improves out-of-sample predictive accuracy over complete pooling (PSIS-LOO $Δ\\mathrm{elpd}$ = 4,780, SE 225). The Bayesian ADT submodel attains $R^2_{\\log} = 0.756$ by encoding county and functional class as hierarchical priors, versus $0.653$ for a LightGBM restricted to the same continuous predictors. The output is a posterior crash rate distribution per segment, replacing the median-by-type point estimates used in our prior risk-aware routing framework.",
+ "primary": "stat.AP"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2506.09437",
+ "title": "Sufficient digits and density estimation: A Bayesian nonparametric approach using generalized finite Pólya trees",
+ "authors": [
+  "Mario Beraha",
+  "Jesper Møller"
+ ],
+ "v1_date": "2025-06-11",
+ "latest_version": 3,
+ "latest_date": "2025-12-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper proposes a novel approach for statistical modelling of a continuous random variable $X$ on $[0, 1)$, based on its digit representation $X=.X_1X_2\\ldots$. In general, $X$ can be coupled with a latent random variable $N$ so that $(X_1,\\ldots,X_N)$ becomes a sufficient statistics and $.X_{N+1}X_{N+2}\\ldots$ is uniformly distributed. In line with this fact, and focusing on binary digits for simplicity, we propose a family of generalized finite P{ó}lya trees that induces a random density for a sample, which becomes a flexible tool for density estimation. Here, the digit system may be random and learned from the data. We provide a detailed Bayesian analysis, including closed form expression for the posterior distribution. We analyse the frequentist properties as the sample size increases, and provide sufficient conditions for consistency of the posterior distributions of the random density and $N$. We consider an extension to data spanning multiple orders of magnitude, and propose a prior distribution that encodes the so-called extended Newcomb-Benford law. Such a model shows promising results for density estimation of human-activity data. Our methodology is illustrated on several synthetic and real datasets.",
+ "primary": "stat.ME"
+}

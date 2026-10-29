@@ -1,0 +1,19 @@
+{
+ "id": "2505.00448",
+ "title": "NApy: Efficient Statistics in Python for Large-Scale Heterogeneous Data with Enhanced Support for Missing Data",
+ "authors": [
+  "Fabian Woller",
+  "Lis Arend",
+  "Christian Fuchsberger",
+  "Markus List",
+  "David B. Blumenthal"
+ ],
+ "v1_date": "2025-05-01",
+ "latest_version": 1,
+ "latest_date": "2025-05-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "10 pages, 6 figures",
+ "abstract": "Existing Python libraries and tools lack the ability to efficiently compute statistical test results for large datasets in the presence of missing values. This presents an issue as soon as constraints on runtime and memory availability become essential considerations for a particular usecase. Relevant research areas where such limitations arise include interactive tools and databases for exploratory analysis of biomedical data. To address this problem, we present the Python package NApy, which relies on a Numba and C++ backend with OpenMP parallelization to enable scalable statistical testing for mixed-type datasets in the presence of missing values. Both with respect to runtime and memory consumption, NApy outperforms competitor tools and baseline implementations with naive Python-based parallelization by orders of magnitude, thereby enabling on-the-fly analyses in interactive applications. NApy is publicly available at https://github.com/DyHealthNet/NApy.",
+ "primary": "cs.MS"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "2502.08539",
+ "title": "Anytime-valid FDR control with the stopped e-BH procedure",
+ "authors": [
+  "Hongjian Wang",
+  "Sanjit Dandapanthula",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2025-02-12",
+ "latest_version": 3,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The recent e-Benjamini-Hochberg (e-BH) procedure for multiple hypothesis testing is known to control the false discovery rate (FDR) under arbitrary dependence between the input e-values. This paper points out an important subtlety when applying the e-BH procedure with e-processes, which are sequential generalizations of e-values (where the data are observed sequentially). Since adaptively stopped e-processes are e-values, the e-BH procedure can be repeatedly applied at every time step, and one can continuously monitor the e-processes and the rejection sets obtained. One would hope that the \"stopped e-BH procedure\" (se-BH) has an FDR guarantee for the rejection set obtained at any stopping time. However, while this is true if the data in different streams are independent, it is not true in full generality, because each stopped e-process is an e-value only for stopping times in its own local filtration, but the se-BH procedure employs a stopping time with respect to a global filtration. This can cause information to leak across time, allowing one stream to know its future by knowing past data of another stream. This paper formulates a simple causal condition under which local e-processes are also global e-processes and thus the se-BH procedure does indeed control the FDR. The condition excludes unobserved confounding from the past and is met under most reasonable scenarios including genomics.",
+ "primary": "stat.ME"
+}

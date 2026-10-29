@@ -1,0 +1,18 @@
+{
+ "id": "2601.05859",
+ "title": "Neural Methods for Multiple Systems Estimation Models",
+ "authors": [
+  "Joseph Marsh",
+  "Nathan A. Judd",
+  "Lax Chan",
+  "Rowland G. Seymour"
+ ],
+ "v1_date": "2026-01-09",
+ "latest_version": 1,
+ "latest_date": "2026-01-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "28 pages, 15 figures, 3 tables. Includes supplementary material. Code available at https://github.com/HiddenHarmsHub/npe-mse-censored-missing",
+ "abstract": "Estimating the size of hidden populations using Multiple Systems Estimation (MSE) is a critical task in quantitative sociology; however, practical application is often hindered by imperfect administrative data and computational constraints. Real-world datasets frequently suffer from censoring and missingness due to privacy concerns, while standard inference methods, such as Maximum Likelihood Estimation (MLE) and Markov chain Monte Carlo (MCMC), can become computationally intractable or fail to converge when data are sparse. To address these limitations, we propose a novel simulation-based Bayesian inference framework utilizing Neural Bayes Estimators (NBE) and Neural Posterior Estimators (NPE). These neural methods are amortized: once trained, they provide instantaneous, computationally efficient posterior estimates, making them ideal for use in secure research environments where computational resources are limited. Through extensive simulation studies, we demonstrate that neural estimators achieve accuracy comparable to MCMC while being orders of magnitude faster and robust to the convergence failures that plague traditional samplers in sparse settings. We demonstrate our method on two real-world cases estimating the prevalence of modern slavery in the UK and female drug use in North East England.",
+ "primary": "stat.AP"
+}

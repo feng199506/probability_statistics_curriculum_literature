@@ -1,0 +1,17 @@
+{
+ "id": "2408.15701",
+ "title": "Robust discriminant analysis",
+ "authors": [
+  "Mia Hubert",
+  "Jakob Raymaekers",
+  "Peter J. Rousseeuw"
+ ],
+ "v1_date": "2024-08-28",
+ "latest_version": 1,
+ "latest_date": "2024-08-28",
+ "journal_ref": "",
+ "doi": "10.1002/wics.70003",
+ "comment": "Accepted for publication in WIREs Computational Statistics (Wiley Interdisciplinary Reviews)",
+ "abstract": "Discriminant analysis (DA) is one of the most popular methods for classification due to its conceptual simplicity, low computational cost, and often solid performance. In its standard form, DA uses the arithmetic mean and sample covariance matrix to estimate the center and scatter of each class. We discuss and illustrate how this makes standard DA very sensitive to suspicious data points, such as outliers and mislabeled cases. We then present an overview of techniques for robust DA, which are more reliable in the presence of deviating cases. In particular, we review DA based on robust estimates of location and scatter, along with graphical diagnostic tools for visualizing the results of DA.",
+ "primary": "stat.ME"
+}

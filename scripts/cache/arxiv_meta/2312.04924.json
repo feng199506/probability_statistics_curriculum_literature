@@ -1,0 +1,17 @@
+{
+ "id": "2312.04924",
+ "title": "Sparse Anomaly Detection Across Referentials: A Rank-Based Higher Criticism Approach",
+ "authors": [
+  "Ivo V. Stoepker",
+  "Rui M. Castro",
+  "Ery Arias-Castro"
+ ],
+ "v1_date": "2023-12-08",
+ "latest_version": 2,
+ "latest_date": "2025-12-19",
+ "journal_ref": "Annals of Statistics 2025, Vol. 53, No. 2, 676--702",
+ "doi": "10.1214/24-aos2477",
+ "comment": "",
+ "abstract": "Detecting anomalies in large sets of observations is crucial in various applications, such as epidemiological studies, gene expression studies, and systems monitoring. We consider settings where the units of interest result in multiple independent observations from potentially distinct referentials. Scan statistics and related methods are commonly used in such settings, but rely on stringent modeling assumptions for proper calibration. We instead propose a rank-based variant of the higher criticism statistic that only requires independent observations originating from ordered spaces. We show under what conditions the resulting methodology is able to detect the presence of anomalies. These conditions are stated in a general, non-parametric manner, and depend solely on the probabilities of anomalous observations exceeding nominal observations. The analysis requires a refined understanding of the distribution of the ranks under the presence of anomalies, and in particular of the rank-induced dependencies. The methodology is robust against heavy-tailed distributions through the use of ranks. Within the exponential family and a family of convolutional models, we analytically quantify the asymptotic performance of our methodology and the performance of the oracle, and show the difference is small for many common models. Simulations confirm these results. We show the applicability of the methodology through an analysis of quality control data of a pharmaceutical manufacturing process.",
+ "primary": "stat.ME"
+}

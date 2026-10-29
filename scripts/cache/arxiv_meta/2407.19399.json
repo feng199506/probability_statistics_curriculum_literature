@@ -1,0 +1,17 @@
+{
+ "id": "2407.19399",
+ "title": "Large-scale Multiple Testing of Cross-covariance Functions with Applications to Functional Network Models",
+ "authors": [
+  "Qin Fang",
+  "Qing Jiang",
+  "Xinghao Qiao"
+ ],
+ "v1_date": "2024-07-28",
+ "latest_version": 2,
+ "latest_date": "2024-09-04",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "2 tables, 3 figures",
+ "abstract": "The estimation of functional networks through functional covariance and graphical models have recently attracted increasing attention in settings with high dimensional functional data, where the number of functional variables p is comparable to, and maybe larger than, the number of subjects. However, the existing methods all depend on regularization techniques, which make it unclear how the involved tuning parameters are related to the number of false edges. In this paper, we first reframe the functional covariance model estimation as a tuning-free problem of simultaneously testing p(p-1)/2 hypotheses for cross-covariance functions, and introduce a novel multiple testing procedure. We then explore the multiple testing procedure under a general error-contamination framework and establish that our procedure can control false discoveries asymptotically. Additionally, we demonstrate that our proposed methods for two concrete examples: the functional covariance model for discretely observed functional data and, importantly, the more challenging functional graphical model, can be seamlessly integrated into the general error-contamination framework, and, with verifiable conditions, achieve theoretical guarantees on effective false discovery control. Finally, we showcase the superiority of our proposals through extensive simulations and brain connectivity analysis of two neuroimaging datasets.",
+ "primary": "math.ST"
+}

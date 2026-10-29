@@ -1,0 +1,17 @@
+{
+ "id": "2512.13383",
+ "title": "Automatic Quality Control for Agricultural Field Trials -- Detection of Nonstationarity in Grid-indexed Data",
+ "authors": [
+  "Karen Wolf",
+  "Pierre Fernique",
+  "Hans-Peter Piepho"
+ ],
+ "v1_date": "2025-12-15",
+ "latest_version": 1,
+ "latest_date": "2025-12-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "A common assumption in the spatial analysis of agricultural field trials is stationarity. In practice, however, this assumption is often violated due to unaccounted field effects. For instance, in plant breeding field trials, this can lead to inaccurate estimates of plant performance. Based on such inaccurate estimates, breeders may be impeded in selecting the best performing plant varieties, slowing breeding progress. We propose a method to automatically verify the hypothesis of stationarity. The method is sensitive towards mean as well as variance-covariance nonstationarity. It is specifically developed for the two-dimensional grid-structure of field trials. The method relies on the hypothesis that we can detect nonstationarity by partitioning the field into areas, within which stationarity holds. We applied the method to a large number of simulated datasets and a real-data example. The method reliably points out which trials exhibit quality issues and gives an indication about the severity of nonstationarity. This information can significantly reduce the time spent on manual quality control and enhance its overall reliability. Furthermore, the output of the method can be used to improve the analysis of conducted trials as well as the experimental design of future trials.",
+ "primary": "stat.ME"
+}

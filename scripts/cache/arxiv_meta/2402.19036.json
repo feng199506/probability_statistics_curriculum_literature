@@ -1,0 +1,17 @@
+{
+ "id": "2402.19036",
+ "title": "Empirical Bayes in Bayesian learning: understanding a common practice",
+ "authors": [
+  "Stefano Rizzelli",
+  "Judith Rousseau",
+  "Sonia Petrone"
+ ],
+ "v1_date": "2024-02-29",
+ "latest_version": 2,
+ "latest_date": "2026-04-13",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "In applications of Bayesian procedures, once a class of priors has been chosen, it may be tempting to fix the prior's hyperparameters from the data, in an empirical Bayes (EB) fashion, usually by their maximum marginal likelihood estimates (MMLE). This is a quite common but questionable practice, lacking a rigorous theoretical basis. We provide a theoretical framework where this form of EB is regarded as a computational strategy for approximating a genuine Bayesian posterior distribution and prove its general properties for parametric models. While computing the MMLE may still be demanding, we prove novel results that allow us to provide a simple proxy. These results establish the limit behavior of the MMLE in quite general settings, including both identifiable and non-identifiable models - specifically, overfitted mixture models - significantly filling a gap in the literature. Moreover, we study higher order merging, showing that, when not degenerate, the EB posterior approximates at a faster rate an oracle-Bayes posterior distribution based on the prior law that, within the given class of priors, expresses the most information on the true model's parameters. This is a faster approximation than classic Bernstein-von Mises results. Our work provides formal content to common beliefs on this popular practice.",
+ "primary": "math.ST"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2610.28971",
+ "title": "Universality of approximate message passing under a fourth-moment tail condition",
+ "authors": [
+  "Ripunjay Dwivedi",
+  "Taejoon Kim"
+ ],
+ "v1_date": "2026-10-20",
+ "latest_version": 1,
+ "latest_date": "2026-10-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages, no figures",
+ "abstract": "We prove state evolution for approximate message passing (AMP) with rectangular random matrices whose entries are independent, centered, and variance-normalized. The row and column dimensions grow with a ratio that converges to a positive finite limit. The entry laws may differ across coordinates and dimensions, and we assume uniform integrability of the fourth powers of the rescaled entries. For entries sampled independently from a fixed law, a finite fourth moment suffices, with no requirement for higher moments. The nonlinearities are continuously differentiable and globally Lipschitz, with bounded continuous first state derivatives. The signal and noise have independent and identically distributed coordinates with finite moments of all orders, and are independent of each other and of the matrix. At every fixed number of iterations, empirical averages of pseudo-Lipschitz functions of order two converge in probability to the limits specified by Gaussian state evolution. These averages include empirical second moments and products of trajectory coordinates. The proof combines an aggregate bound on third derivatives with randomized Lindeberg replacement and operator-norm truncation, without matching third moments or invoking a non-Gaussian universality theorem. We also show that independence of complementary projected components for every deterministic rank-one constraint pair characterizes Gaussian entries. This identifies the limitation of extending Gaussian conditioning identities to independent non-Gaussian matrices. Finally, a variance-profile example shows that average variance normalization alone does not ensure the homogeneous state evolution limits.",
+ "primary": "cs.IT"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "2404.05006",
+ "title": "High-dimensional bootstrap and asymptotic expansion",
+ "authors": [
+  "Yuta Koike"
+ ],
+ "v1_date": "2024-04-07",
+ "latest_version": 6,
+ "latest_date": "2026-03-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "66 pages, 1 figure, 2 tables. Some typos were corrected. The order of the subsections in Appendix B was rearranged",
+ "abstract": "The recent seminal work of Chernozhukov, Chetverikov and Kato has shown that bootstrap approximation for the maximum of a sum of independent random vectors is justified even when the dimension is much larger than the sample size. In this context, numerical experiments suggest that third-moment matching bootstrap approximations would outperform normal approximation even without studentization, but the existing theoretical results cannot explain this phenomenon. In this paper, we develop an asymptotic expansion formula for the bootstrap coverage probability and show that it can give an explanation for the above phenomenon. In particular, we find the following interesting blessing of dimensionality phenomenon: The third-moment matching wild bootstrap is second-order accurate in high dimensions even without studentization if the covariance matrix has identical diagonal entries and bounded eigenvalues. We also show that a double wild bootstrap method is second-order accurate regardless of the covariance structure. The validity of these results is established under the assumption that the underlying distributions admit Stein kernels.",
+ "primary": "math.ST"
+}

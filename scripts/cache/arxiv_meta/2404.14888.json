@@ -1,0 +1,17 @@
+{
+ "id": "2404.14888",
+ "title": "Hoeffding's inequality for continuous-time Markov chains",
+ "authors": [
+  "Jinpeng Liu",
+  "Yuanyuan Liu",
+  "Lin Zhou"
+ ],
+ "v1_date": "2024-04-23",
+ "latest_version": 1,
+ "latest_date": "2024-04-23",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "20 pages",
+ "abstract": "Hoeffding's inequality is a fundamental tool widely applied in probability theory, statistics, and machine learning. In this paper, we establish Hoeffding's inequalities specifically tailored for an irreducible and positive recurrent continuous-time Markov chain (CTMC) on a countable state space with the invariant probability distribution $π$ and an $\\mathcal{L}^{2}(π)$-spectral gap $λ(Q)$. More precisely, for a function $g:E\\to [a,b]$ with a mean $π(g)$, and given $t,\\varepsilon>0$, we derive the inequality \\[ \\mathbb{P}_π\\left(\\frac{1}{t} \\int_{0}^{t} g\\left(X_{s}\\right)\\mathrm{d}s-π(g) \\geq \\varepsilon \\right) \\leq \\exp\\left\\{-\\frac{λ(Q)t\\varepsilon^2}{(b-a)^2} \\right\\}, \\] which can be viewed as a generalization of Hoeffding's inequality for discrete-time Markov chains (DTMCs) presented in [J. Fan et al., J. Mach. Learn. Res., 22(2022), pp. 6185-6219] to the realm of CTMCs. The key analysis enabling the attainment of this inequality lies in the utilization of the techniques of skeleton chains and augmented truncation approximations. Furthermore, we also discuss Hoeffding's inequality for a jump process on a general state space.",
+ "primary": "math.PR"
+}

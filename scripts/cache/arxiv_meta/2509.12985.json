@@ -1,0 +1,18 @@
+{
+ "id": "2509.12985",
+ "title": "Dynamic Local Average Treatment Effects in Time Series",
+ "authors": [
+  "Alessandro Casini",
+  "Adam McCloskey",
+  "Luca Rolla",
+  "Raimondo Pala"
+ ],
+ "v1_date": "2025-09-16",
+ "latest_version": 2,
+ "latest_date": "2026-07-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "This paper discusses identification, estimation, and inference on dynamic local average treatment effects (LATEs) in instrumental variables (IVs) settings. First, we show that compliers--observations whose treatment status is affected by the instrument--can be identified individually in time series data using smoothness assumptions and local comparisons of treatment assignments. Second, we show that this result enables not only better interpretability of IV estimates but also direct testing of the exclusion restriction by comparing outcomes among identified non-compliers across instrument values. Third, we document pervasive weak identification in applied work using IVs with time series data by surveying recent publications in leading economics journals. However, we find that strong identification often holds in large subsamples for which the instrument induces changes in the treatment. Motivated by this, we introduce a method based on dynamic programming to detect the most strongly-identified subsample and show how to use this subsample to improve estimation and inference. We also develop new identification-robust inference procedures that focus on the most strongly-identified subsample, offering efficiency gains relative to existing full sample identification-robust inference when identification fails over parts of the sample. Finally, we apply our results to heteroskedasticity-based identification of monetary policy effects. We find that about 75% of observations are compliers (i.e., cases where the variance of the policy shifts up on FOMC announcement days), and we fail to reject the exclusion restriction. Estimation using the most strongly-identified subsample helps reconcile conflicting IV and GMM estimates in the literature.",
+ "primary": "econ.EM"
+}

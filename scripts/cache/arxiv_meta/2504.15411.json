@@ -1,0 +1,17 @@
+{
+ "id": "2504.15411",
+ "title": "A stochastic method to estimate a zero-inflated two-part mixed model for human microbiome data",
+ "authors": [
+  "John Barrera",
+  "Cristian Meza",
+  "Ana Arribas-Gil"
+ ],
+ "v1_date": "2025-04-21",
+ "latest_version": 2,
+ "latest_date": "2025-12-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "15 pages, 4 figures",
+ "abstract": "Human microbiome studies based on genetic sequencing techniques produce compositional longitudinal data of the relative abundances of microbial taxa over time, allowing to understand, through mixed-effects modeling, how microbial communities evolve in response to clinical interventions, environmental changes, or disease progression. In particular, the Zero-Inflated Beta Regression (ZIBR) models jointly and over time the presence and abundance of each microbe taxon, considering the compositional nature of the data, its skewness, and the over-abundance of zeros. However, as for other complex random effects models, maximum likelihood estimation suffers from the intractability of likelihood integrals. Available estimation methods rely on log-likelihood approximation, which is prone to potential limitations such as biased estimates or unstable convergence. In this work we develop an alternative maximum likelihood estimation approach for the ZIBR model, based on the Stochastic Approximation Expectation Maximization (SAEM) algorithm. The proposed methodology allows to model unbalanced data, which is not always possible in existing approaches. We also provide estimations of the standard errors and the log-likelihood of the fitted model. The performance of the algorithm is established through simulation, and its use is demonstrated on two microbiome studies, showing its ability to detect changes in both presence and abundance of bacterial taxa over time and in response to treatment.",
+ "primary": "stat.ME"
+}

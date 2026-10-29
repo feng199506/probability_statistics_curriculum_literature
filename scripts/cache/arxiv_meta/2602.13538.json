@@ -1,0 +1,16 @@
+{
+ "id": "2602.13538",
+ "title": "Empirical Bayes data integreation for multi-response regression",
+ "authors": [
+  "Antik Chakraborty",
+  "Fei Xue"
+ ],
+ "v1_date": "2026-02-14",
+ "latest_version": 1,
+ "latest_date": "2026-02-14",
+ "journal_ref": "",
+ "doi": "10.5705/ss.202025.0115",
+ "comment": "To appear in Statistica Sinica",
+ "abstract": "Motivated by applications in tissue-wide association studies (TWAS), we develop a flexible and theoretically grounded empirical Bayes approach for integrating %vector-valued outcomes data obtained from different sources. We propose a linear shrinkage estimator that effectively shrinks singular values of a data matrix. This problem is closely connected to estimating covariance matrices under a specific loss, for which we develop asymptotically optimal estimators. The basic linear shrinkage estimator is then extended to a local linear shrinkage estimator, offering greater flexibility. Crucially, the proposed method works under sparse/dense or low-rank/non low-rank parameter settings unlike well-known sparse or reduced rank estimators in the literature. Furthermore, the empirical Bayes approach offers greater scalability in computation compared to intensive full Bayes procedures. The method is evaluated through an extensive set of numerical experiments, and applied to a real TWAS data obtained from the Genotype-Tissue Expression (GTEx) project.",
+ "primary": "stat.ME"
+}

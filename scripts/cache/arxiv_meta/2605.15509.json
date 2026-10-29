@@ -1,0 +1,17 @@
+{
+ "id": "2605.15509",
+ "title": "parallelcbf: A composable safety-filter and auditability framework for tensor-parallel reinforcement learning",
+ "authors": [
+  "Yijun Lu",
+  "Zilei Yang",
+  "Yuyin Ma"
+ ],
+ "v1_date": "2026-05-15",
+ "latest_version": 1,
+ "latest_date": "2026-05-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "While Isaac Lab provides massive parallel UAV simulation, OmniSafe and safe-control-gym provide constrained-RL benchmarks, and CBFKit provides control-barrier-function synthesis tooling, no existing framework unifies these capabilities for end-to-end safety-constrained training. ParallelCBF is the first framework to unify (i)~tensor-parallel UAV environments, (ii)~hard-gate CBF safety filters, (iii)~sharded BC-to-RL pipelines, and (iv)~first-class operational auditability -- pre-registration, watchdog registries, failure forensics, and dataset audits as composable APIs rather than user-implemented scripts. We release ParallelCBF v0.1.0 under Apache~2.0 with a four-layer composable API, a CPU PyTorch reference implementation of a dual-barrier (squared / linear-predictive) CBF, property-based safety invariance tests across vectorized batch sizes that complete in 1.67~s for the full 39-test suite, and a 31{,}415-episode behavior-cloning collection campaign whose curriculum mix, per-bucket yields, and dataset SHA-256 are auditable through the framework's own \\texttt{ops} primitives. We report a representative end-to-end pipeline execution in which the framework's auditability layer halted a downstream training stage that did not meet pre-registered convergence criteria, preventing silent propagation of a degraded checkpoint -- an architectural property we argue is necessary, not merely useful, for reproducible empirical robotics research. The framework is installable via \\texttt{pip install parallelcbf}; source and release artifacts are available at https://github.com/xiaoyang-123-cell/ParallelCBF.",
+ "primary": "cs.LG"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2405.15670",
+ "title": "Post-selection inference for quantifying uncertainty in changes in variance",
+ "authors": [
+  "Rachel Carrington",
+  "Paul Fearnhead"
+ ],
+ "v1_date": "2024-05-24",
+ "latest_version": 2,
+ "latest_date": "2025-07-08",
+ "journal_ref": "Statistics and Computing 36 (2026) 128",
+ "doi": "10.1007/s11222-026-10881-1",
+ "comment": "25 pages, 12 figures, plus 7 pages supplementary material",
+ "abstract": "Quantifying uncertainty in detected changepoints is an important problem. However it is challenging as the naive approach would use the data twice, first to detect the changes, and then to test them. This will bias the test, and can lead to anti-conservative p-values. One approach to avoid this is to use ideas from post-selection inference, which conditions on the information in the data used to choose which changes to test. As a result this produces valid p-values; that is, p-values that have a uniform distribution if there is no change. Currently such methods have been developed for detecting changes in mean only. This paper presents two approaches for constructing post-selection p-values for detecting changes in variance. These vary depending on the method use to detect the changes, but are general in terms of being applicable for a range of change-detection methods and a range of hypotheses that we may wish to test.",
+ "primary": "stat.ME"
+}

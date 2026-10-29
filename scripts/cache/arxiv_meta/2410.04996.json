@@ -1,0 +1,17 @@
+{
+ "id": "2410.04996",
+ "title": "Assumption-Lean Post-Integrated Inference with Surrogate Control Outcomes",
+ "authors": [
+  "Jin-Hong Du",
+  "Kathryn Roeder",
+  "Larry Wasserman"
+ ],
+ "v1_date": "2024-10-07",
+ "latest_version": 5,
+ "latest_date": "2025-12-12",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "22 pages for the main text, 27 pages for the appendix, 6 figures for the main text, 7 figures for the appendix",
+ "abstract": "Data integration methods aim to extract low-dimensional embeddings from high-dimensional outcomes to remove unwanted variations, such as batch effects and unmeasured covariates, across heterogeneous datasets. However, multiple hypothesis testing after integration can be biased due to data-dependent processes. We introduce a robust post-integrated inference method that accounts for latent heterogeneity by utilizing control outcomes. Leveraging causal interpretations, we derive nonparametric identifiability of the direct effects using negative control outcomes. By utilizing surrogate control outcomes as an extension of negative control outcomes, we develop semiparametric inference on projected direct effect estimands, accounting for hidden mediators, confounders, and moderators. These estimands remain statistically meaningful under model misspecifications and with error-prone embeddings. We provide bias quantifications and finite-sample linear expansions with uniform concentration bounds. The proposed doubly robust estimators are consistent and efficient under minimal assumptions and potential misspecification, facilitating data-adaptive estimation with machine learning algorithms. Our proposal is evaluated using random forests through simulations and analysis of single-cell CRISPR perturbed datasets, which may contain potential unmeasured confounders.",
+ "primary": "stat.ME"
+}

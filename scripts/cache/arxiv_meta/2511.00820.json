@@ -1,0 +1,17 @@
+{
+ "id": "2511.00820",
+ "title": "Correcting the Coverage Bias of Quantile Regression",
+ "authors": [
+  "Isaac Gibbs",
+  "John J. Cherian",
+  "Emmanuel J. Candès"
+ ],
+ "v1_date": "2025-11-02",
+ "latest_version": 2,
+ "latest_date": "2025-11-07",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We develop a collection of methods for adjusting the predictions of quantile regression to ensure coverage. Our methods are model agnostic and can be used to correct for high-dimensional overfitting bias with only minimal assumptions. Theoretical results show that the estimates we develop are consistent and facilitate accurate calibration in the proportional asymptotic regime where the ratio of the dimension of the data and the sample size converges to a constant. This is further confirmed by experiments on both simulated and real data. A key component of our work is a new connection between the leave-one-out coverage and the fitted values of variables appearing in a dual formulation of the quantile regression problem. This facilitates the use of cross-validation in a variety of settings at significantly reduced computational costs.",
+ "primary": "stat.ME"
+}

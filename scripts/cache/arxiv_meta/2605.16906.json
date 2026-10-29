@@ -1,0 +1,16 @@
+{
+ "id": "2605.16906",
+ "title": "Differentially private hypothesis testing in survival analysis",
+ "authors": [
+  "Elly K. H. Hung",
+  "Yi Yu"
+ ],
+ "v1_date": "2026-05-16",
+ "latest_version": 1,
+ "latest_date": "2026-05-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Survival analysis is widely used in applications involving sensitive individual-level data, yet differentially private hypothesis testing for right-censored data remains largely undeveloped. We initiate a finite-sample theory of private hypothesis testing in survival analysis applications. For Cox regression coefficients, we develop private partial-likelihood-ratio and score-type tests, including a private calibration procedure for the rejection threshold. For cumulative hazard functions, we propose a private distributed two-sample test. Across these problems, we prove differential privacy and finite-sample testing guarantees, as well as minimax lower bounds. Our results identify when privacy is statistically negligible, when it dominates the testing rate, and where optimal private rates for testing in semiparametric survival models remain open. This theoretical analysis is accompanied by numerical experiments on simulated data.",
+ "primary": "math.ST"
+}

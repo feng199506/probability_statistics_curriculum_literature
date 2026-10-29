@@ -1,0 +1,17 @@
+{
+ "id": "2506.00977",
+ "title": "Building nonstationary extreme value model using L-moments",
+ "authors": [
+  "Yire Shin",
+  "Yonggwan Shin",
+  "Jeong-Soo Park"
+ ],
+ "v1_date": "2025-06-01",
+ "latest_version": 1,
+ "latest_date": "2025-06-01",
+ "journal_ref": "Journal of the Korean Statistical Society, 2025",
+ "doi": "10.1007/s42952-025-00325-3",
+ "comment": "",
+ "abstract": "The maximum likelihood estimation for a time-dependent nonstationary (NS) extreme value model is often too sensitive to influential observations, such as large values toward the end of a sample. Thus, alternative methods using L-moments have been developed in NS models to address this problem while retaining the advantages of the stationary L-moment method. However, one method using L-moments displays inferior performance compared to stationary estimation when the data exhibit a positive trend in variance. To address this problem, we propose a new algorithm for efficiently estimating the NS parameters. The proposed method combines L-moments and robust regression, using standardized residuals. A simulation study demonstrates that the proposed method overcomes the mentioned problem. The comparison is conducted using conventional and redefined return level estimates. An application to peak streamflow data in Trehafod in the UK illustrates the usefulness of the proposed method. Additionally, we extend the proposed method to a NS extreme value model in which physical covariates are employed as predictors. Furthermore, we consider a model selection criterion based on the cross-validated generalized L-moment distance as an alternative to the likelihood-based criteria.",
+ "primary": "stat.ME"
+}

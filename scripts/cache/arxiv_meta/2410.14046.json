@@ -1,0 +1,17 @@
+{
+ "id": "2410.14046",
+ "title": "Tensor Decomposition with Unaligned Observations",
+ "authors": [
+  "Runshi Tang",
+  "Tamara Kolda",
+  "Anru R. Zhang"
+ ],
+ "v1_date": "2024-10-17",
+ "latest_version": 2,
+ "latest_date": "2025-08-09",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "SIAM Journal on Matrix Analysis and Applications, to appear",
+ "abstract": "This paper presents a canonical polyadic (CP) tensor decomposition that addresses unaligned observations. The mode with unaligned observations is represented using functions in a reproducing kernel Hilbert space (RKHS). We introduce a versatile loss function that effectively accounts for various types of data, including binary, integer-valued, and positive-valued types. Additionally, we propose an optimization algorithm for computing tensor decompositions with unaligned observations, along with a stochastic gradient method to enhance computational efficiency. A sketching algorithm is also introduced to further improve efficiency when using the $\\ell_2$ loss function. To demonstrate the efficacy of our methods, we provide illustrative examples using both synthetic data and an early childhood human microbiome dataset.",
+ "primary": "stat.ML"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2602.23045",
+ "title": "Semiparametric Joint Inference for Sensitivity and Specificity at the Youden-Optimal Cut-Off",
+ "authors": [
+  "Siyan Liu",
+  "Qinglong Tian",
+  "Chunlin Wang",
+  "Pengfei Li"
+ ],
+ "v1_date": "2026-02-26",
+ "latest_version": 1,
+ "latest_date": "2026-02-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 2 figures, 6 tables",
+ "abstract": "Sensitivity and specificity evaluated at an optimal diagnostic cut-off are fundamental measures of classification accuracy when continuous biomarkers are used for disease diagnosis. Joint inference for these quantities is challenging because their estimators are evaluated at a common, data-driven threshold estimated from both diseased and healthy samples, inducing statistical dependence. Existing approaches are largely based on parametric assumptions or fully nonparametric procedures, which may be sensitive to model misspecification or lack efficiency in moderate samples. We propose a semiparametric framework for joint inference on sensitivity and specificity at the Youden-optimal cut-off under the density ratio model. Using maximum empirical likelihood, we derive estimators of the optimal threshold and the corresponding sensitivity and specificity, and establish their joint asymptotic normality. This leads to Wald-type and range-preserving logit-transformed confidence regions. Simulation studies show that the proposed method achieves accurate coverage with improved efficiency relative to existing parametric and nonparametric alternatives across a variety of distributional settings. An analysis of COVID-19 antibody data demonstrates the practical advantages of the proposed approach for diagnostic decision-making.",
+ "primary": "stat.ME"
+}

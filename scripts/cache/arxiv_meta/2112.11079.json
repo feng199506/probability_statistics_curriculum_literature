@@ -1,0 +1,18 @@
+{
+ "id": "2112.11079",
+ "title": "Data fission: splitting a single data point",
+ "authors": [
+  "James Leiner",
+  "Boyan Duan",
+  "Larry Wasserman",
+  "Aaditya Ramdas"
+ ],
+ "v1_date": "2021-12-21",
+ "latest_version": 9,
+ "latest_date": "2023-12-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "57 pages, 35 figures",
+ "abstract": "Suppose we observe a random vector $X$ from some distribution $P$ in a known family with unknown parameters. We ask the following question: when is it possible to split $X$ into two parts $f(X)$ and $g(X)$ such that neither part is sufficient to reconstruct $X$ by itself, but both together can recover $X$ fully, and the joint distribution of $(f(X),g(X))$ is tractable? As one example, if $X=(X_1,\\dots,X_n)$ and $P$ is a product distribution, then for any $m<n$, we can split the sample to define $f(X)=(X_1,\\dots,X_m)$ and $g(X)=(X_{m+1},\\dots,X_n)$. Rasines and Young (2022) offers an alternative approach that uses additive Gaussian noise -- this enables post-selection inference in finite samples for Gaussian distributed data and asymptotically when errors are non-Gaussian. In this paper, we offer a more general methodology for achieving such a split in finite samples by borrowing ideas from Bayesian inference to yield a (frequentist) solution that can be viewed as a continuous analog of data splitting. We call our method data fission, as an alternative to data splitting, data carving and p-value masking. We exemplify the method on a few prototypical applications, such as post-selection inference for trend filtering and other regression problems.",
+ "primary": "stat.ME"
+}

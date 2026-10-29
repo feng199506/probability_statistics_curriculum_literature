@@ -1,0 +1,18 @@
+{
+ "id": "2503.14711",
+ "title": "PSInference: A Package to Draw Inference for Released Plug-in Sampling Single Synthetic Dataset",
+ "authors": [
+  "Ricardo Moura",
+  "Mina Norouzirad",
+  "Vitor Augusto",
+  "Miguel Fonseca"
+ ],
+ "v1_date": "2025-03-18",
+ "latest_version": 1,
+ "latest_date": "2025-03-18",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "The development and generation of synthetic data are becoming increasingly vital in the field of statistical disclosure control. The PSInference package provides tools to perform exact inferential analysis on singly imputed synthetic data generated through Plug-in Sampling assuming that the original dataset follows a multivariate normal distribution. Includes functions to test the synthetic data's covariance structure, covering aspects like generalized variance, sphericity, independence between subsets of variables, and regression of one set of variables on another. This package addresses the gap in the existing software by providing exact inferential methods suitable for cases where only a single synthetic dataset is released.",
+ "primary": "stat.ME"
+}

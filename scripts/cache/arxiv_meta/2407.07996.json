@@ -1,0 +1,16 @@
+{
+ "id": "2407.07996",
+ "title": "Gradual changes in functional time series",
+ "authors": [
+  "Patrick Bastian",
+  "Holger Dette"
+ ],
+ "v1_date": "2024-07-10",
+ "latest_version": 2,
+ "latest_date": "2025-01-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider the problem of detecting gradual changes in the sequence of mean functions from a not necessarily stationary functional time series. Our approach is based on the maximum deviation (calculated over a given time interval) between a benchmark function and the mean functions at different time points. We speak of a gradual change of size $Δ$, if this quantity exceeds a given threshold $Δ>0$. For example, the benchmark function could represent an average of yearly temperature curves from the pre-industrial time, and we are interested in the question if the yearly temperature curves afterwards deviate from the pre-industrial average by more than $Δ=1.5$ degrees Celsius, where the deviations are measured with respect to the sup-norm. Using Gaussian approximations for high-dimensional data we develop a test for hypotheses of this type and estimators for the time where a deviation of size larger than $Δ$ appears for the first time. We prove the validity of our approach and illustrate the new methods by a simulation study and a data example, where we analyze yearly temperature curves at different stations in Australia.",
+ "primary": "math.ST"
+}

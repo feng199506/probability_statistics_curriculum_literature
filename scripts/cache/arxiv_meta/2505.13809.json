@@ -1,0 +1,15 @@
+{
+ "id": "2505.13809",
+ "title": "Semiparametric Off-Policy Inference for Optimal Policy Values under Possible Non-Uniqueness",
+ "authors": [
+  "Haoyu Wei"
+ ],
+ "v1_date": "2025-05-20",
+ "latest_version": 5,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Off-policy evaluation (OPE) constructs confidence intervals for the value of a target policy using data generated under a different behavior policy. Most existing inference methods focus on fixed target policies and may fail when the target policy is estimated as optimal, particularly when the optimal policy is non-unique or nearly deterministic. We study inference for the value of optimal policies in Markov decision processes. In an auxiliary augmented transition-sampling experiment, we characterize the existence of the efficient influence function and show that non-regularity arises when competing optimal policies havedistinct first-order gradients. For the actual i.i.d.-trajectory experiment, we derive the semiparametric efficiency bound and a uniformly weighted estimator that attains it under a unique optimum, while the sequential NSAVE procedure trades efficiency for stability and validity under non-uniqueness. Motivated by this analysis, we propose a novel \\textit{N}onparametric \\textit{S}equenti\\textit{A}l \\textit{V}alue \\textit{E}valuation (NSAVE) method, which yields martingale-based inference and retains a double-robustness property under policy-aligned nuisance estimation. We further develop a pointwise smoothing-based approximation under explicit first-stage rates, and a post-selection template with uniform coverage whenever its stated joint calibration condition is satisfied. Simulation studies support the theoretical results. An application to the Drink Less micro-randomized trial provides confidence intervals for state-adaptive notification policies and their improvement over the randomized behavior policy.",
+ "primary": "math.ST"
+}

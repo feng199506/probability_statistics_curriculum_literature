@@ -1,0 +1,17 @@
+{
+ "id": "2601.22572",
+ "title": "Propensity score weighted Cox regression for survival outcomes in observational studies with multiple or factorial treatments",
+ "authors": [
+  "Zixian Zhao",
+  "Chengxin Yang",
+  "Fan Li"
+ ],
+ "v1_date": "2026-01-30",
+ "latest_version": 1,
+ "latest_date": "2026-01-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Correspondence: Fan Li, fl35@duke.edu",
+ "abstract": "In observational studies with survival or time-to-event outcomes, a propensity score weighted marginal Cox proportional hazard model with the treatment variable as the only predictor is commonly used to estimate the causal marginal hazard ratio between two treatments. Observational studies often have more than two treatments, but corresponding analysis methods are limited. In this paper, we combine the propensity score weighting method for multiple treatments and a marginal Cox model with indicators for each treatment to estimate the causal hazard ratios between multiple treatments and a common reference treatment. We illustrate two weighting schemes: inverse probability of treatment weighting and overlap weighting. We prove the consistency of the maximum weighted partial likelihood estimator of the causal marginal hazard ratio and derive a robust sandwich variance estimator. As an important special case of multiple treatments, we elaborate the Cox model for two-way factorial treatments. We apply the method to evaluate the real-world comparative effectiveness of three types of anti-obesity medications on heart failure. We develop an associated R package 'PSsurvival'.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2402.09356",
+ "title": "On the Impact of Spatial Covariance Matrix Ordering on Tile Low-Rank Estimation of Matérn Parameters",
+ "authors": [
+  "Sihan Chen",
+  "Sameh Abdulah",
+  "Ying Sun",
+  "Marc G. Genton"
+ ],
+ "v1_date": "2024-02-14",
+ "latest_version": 1,
+ "latest_date": "2024-02-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "31 pages, 13 figures",
+ "abstract": "Spatial statistical modeling and prediction involve generating and manipulating an n*n symmetric positive definite covariance matrix, where n denotes the number of spatial locations. However, when n is large, processing this covariance matrix using traditional methods becomes prohibitive. Thus, coupling parallel processing with approximation can be an elegant solution to this challenge by relying on parallel solvers that deal with the matrix as a set of small tiles instead of the full structure. Each processing unit can process a single tile, allowing better performance. The approximation can also be performed at the tile level for better compression and faster execution. The Tile Low-Rank (TLR) approximation, a tile-based approximation algorithm, has recently been used in spatial statistics applications. However, the quality of TLR algorithms mainly relies on ordering the matrix elements. This order can impact the compression quality and, therefore, the efficiency of the underlying linear solvers, which highly depends on the individual ranks of each tile. Thus, herein, we aim to investigate the accuracy and performance of some existing ordering algorithms that are used to order the geospatial locations before generating the spatial covariance matrix. Furthermore, we highlight the pros and cons of each ordering algorithm in the context of spatial statistics applications and give hints to practitioners on how to choose the ordering algorithm carefully. We assess the quality of the compression and the accuracy of the statistical parameter estimates of the Matérn covariance function using TLR approximation under various ordering algorithms and settings of correlations.",
+ "primary": "stat.CO"
+}

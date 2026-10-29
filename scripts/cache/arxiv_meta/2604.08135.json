@@ -1,0 +1,18 @@
+{
+ "id": "2604.08135",
+ "title": "A Multilevel Monte Carlo Virtual Element Method for Uncertainty Quantification of Elliptic Partial Differential Equations",
+ "authors": [
+  "Paola F. Antonietti",
+  "Francesca Bonizzoni",
+  "Ilaria Perugia",
+  "Marco Verani"
+ ],
+ "v1_date": "2026-04-09",
+ "latest_version": 2,
+ "latest_date": "2026-04-15",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a Monte Carlo Virtual Element estimator based on Virtual Element discretizations for stochastic elliptic partial differential equations with random diffusion coefficients. We prove estimates for the statistical approximation error for both the solution and suitable linear quantities of interest. A Multilevel Monte Carlo Virtual Element method is also developed and analyzed to mitigate the computational cost of the plain Monte Carlo strategy. The proposed approach exploits the flexibility of the Virtual Element method on general polytopal meshes and employs sequences of coarser spaces constructed via mesh agglomeration, providing a practical realization of the multilevel hierarchy even in complex geometries. This strategy substantially reduces the number of samples required on the finest level to achieve a prescribed accuracy. We prove convergence of the multilevel method and analyze its computational complexity, showing that it yields significant cost reductions compared to standard Monte Carlo methods for a prescribed accuracy. Extensive numerical experiments support the theoretical results and demonstrate the efficiency of the proposed method.",
+ "primary": "math.NA"
+}

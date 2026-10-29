@@ -1,0 +1,18 @@
+{
+ "id": "2605.20739",
+ "title": "Revisiting the Misspecified Cramér-Rao Bound",
+ "authors": [
+  "Malaak Khatib",
+  "Nadav Harel",
+  "Joseph Tabrikian",
+  "Tirza Routtenberg"
+ ],
+ "v1_date": "2026-05-20",
+ "latest_version": 1,
+ "latest_date": "2026-05-20",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "This work has been submitted to the IEEE for possible publication",
+ "abstract": "Estimation under model misspecification arises in many signal processing problems, where the assumed observation model deviates from the true data-generating mechanism due to errors or simplifications. The misspecified Cramér-Rao bound (MCRB) is a widely recognized mean-squared-error (MSE) lower bound for this case, which has originally been used to describe the asymptotic behavior of the misspecified maximum likelihood (MML) estimator. Despite its widespread use, the MCRB lacks a rigorous characterization of the class of estimators for which it is valid. In this paper, we revisit the theory of parameter estimation under model misspecification and re-examine the foundations of the MCRB. We first demonstrate these limitations and examine a naive version of the MCRB, which relies only on local misspecified unbiasedness. We show that this bound is generally not tight and may be unattainable. To obtain a meaningful bound, we develop a new derivation based on the concept of pointwise equivalent models. By maximizing the naive bound for these models, we recover the classical MCRB, now supported by a constructive derivation, an explicit characterization of the associated estimator class, and an equality condition. This formulation establishes a formal link between local unbiasedness conditions and achievable bounds, offering new insights into the MCRB structure and its relevance to practical estimators. Finally, we define the notion of an efficient misspecified estimator and show that if it exists, it is achieved by the MML estimator.",
+ "primary": "math.ST"
+}

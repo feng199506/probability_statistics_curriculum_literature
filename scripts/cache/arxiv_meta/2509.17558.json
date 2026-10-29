@@ -1,0 +1,19 @@
+{
+ "id": "2509.17558",
+ "title": "Parameter estimation of integrated fractional Brownian motion",
+ "authors": [
+  "Marco Mastrogiovanni",
+  "Yuliya Mishura",
+  "Stefania Ottaviano",
+  "Kostiantyn Ralchenko",
+  "Tiziano Vargiolu"
+ ],
+ "v1_date": "2025-09-22",
+ "latest_version": 1,
+ "latest_date": "2025-09-22",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Fractional Brownian motion (fBm) is a canonical model for long-memory phenomena. In the presence of large amounts of potentially memory-bearing data, the data are often averaged, which can change the structure of the underlying relationships and affect standard estimation procedures. To address this, we introduce the normalized integrated fractional Brownian motion (nifBm), defined as the average of fBm over a fixed interval. We derive its covariance structure, investigate the stationarity and self-similarity, and extend the framework to linear combinations of independent nifBms and models with deterministic drift. For such linear combinations, we establish stationarity of increments, investigate the asymptotic behavior of the autocovariance function, and prove an ergodic theorem essential for statistical inference. We consider two statistical models: one driven by a single nifBm and another by a linear combination of two independent nifBms, including cases with deterministic drift. For both models, we propose estimators that are strongly consistent and asymptotically normal for both the drift and the full parameter set. Numerical simulations illustrate the theoretical findings, providing a foundation for modeling averaged fractional dynamics, with potential applications in finance, energy markets, and environmental studies.",
+ "primary": "math.PR"
+}

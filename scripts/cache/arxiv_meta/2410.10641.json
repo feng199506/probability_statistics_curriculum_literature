@@ -1,0 +1,17 @@
+{
+ "id": "2410.10641",
+ "title": "Echo State Networks for Spatio-Temporal Area-Level Data",
+ "authors": [
+  "Zhenhua Wang",
+  "Scott H. Holan",
+  "Christopher K. Wikle"
+ ],
+ "v1_date": "2024-10-14",
+ "latest_version": 2,
+ "latest_date": "2026-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "23 pages, 4 figures",
+ "abstract": "Spatio-temporal area-level datasets play a critical role in official statistics, providing valuable insights for policy-making and regional planning. Accurate modeling and forecasting of these datasets can be extremely useful for policymakers to develop informed strategies for future planning. Echo State Networks (ESNs) are efficient methods for capturing nonlinear temporal dynamics and generating forecasts. However, ESNs lack a direct mechanism to account for the neighborhood structure inherent in area-level data. Ignoring these spatial relationships can significantly compromise the accuracy and utility of forecasts. In this paper, we incorporate approximate graph spectral filters at the input stage of the ESN, thereby improving forecast accuracy while preserving the model's computational efficiency during training. We demonstrate the effectiveness of our approach using Eurostat's tourism occupancy dataset and show how it can support more informed decision-making in policy and planning contexts.",
+ "primary": "cs.LG"
+}

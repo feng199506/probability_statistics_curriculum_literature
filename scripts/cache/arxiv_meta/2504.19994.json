@@ -1,0 +1,16 @@
+{
+ "id": "2504.19994",
+ "title": "Semi-parametric bulk and tail regression using spline-based neural networks",
+ "authors": [
+  "Reetam Majumder",
+  "Jordan Richards"
+ ],
+ "v1_date": "2025-04-28",
+ "latest_version": 2,
+ "latest_date": "2026-02-25",
+ "journal_ref": "",
+ "doi": "10.1007/s10687-026-00533-y",
+ "comment": "",
+ "abstract": "Semi-parametric quantile regression (SPQR) is a flexible approach to density regression that learns a spline-based representation of conditional density functions using neural networks. As it makes no parametric assumptions about the underlying density, SPQR performs well for in-sample testing and interpolation. However, it can perform poorly when modelling heavy-tailed data or when asked to extrapolate beyond the range of observations, as it fails to satisfy any of the asymptotic guarantees provided by extreme value theory (EVT). To build semi-parametric density regression models that can be used for reliable tail extrapolation, we create the blended generalised Pareto (GP) distribution, which i) provides a model for the entire range of data and, via a smooth and continuous transition, ii) benefits from exact GP upper-tails without the need for intermediate threshold selection. We combine SPQR with our blended GP to create semi-parametric quantile regression for extremes (SPQRx), which provides a flexible semi-parametric approach to density regression that is compliant with traditional EVT. We handle interpretability of SPQRx through the use of model-agnostic variable importance scores, which provide the relative importance of a covariate for separately determining the bulk and tail of the conditional density. The efficacy of SPQRx is illustrated on simulated data, and an application to U.S. wildfire burnt areas from 1990-2020.",
+ "primary": "stat.ME"
+}

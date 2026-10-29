@@ -1,0 +1,19 @@
+{
+ "id": "2412.10683",
+ "title": "Adaptive Nonparametric Perturbations of Parametric Models with Generalized Bayes",
+ "authors": [
+  "Bohan Wu",
+  "Eli N. Weinstein",
+  "Sohrab Salehi",
+  "Yixin Wang",
+  "David M. Blei"
+ ],
+ "v1_date": "2024-12-14",
+ "latest_version": 3,
+ "latest_date": "2026-04-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Parametric Bayesian modeling offers a powerful and flexible toolbox for machine learning. Yet the model, however detailed, may still be wrong, and this can make inferences untrustworthy. In this paper we introduce a new class of semiparametric corrections for parametric Bayesian models, when the target of inference is a functional of the true data distribution. Our starting point is a fully Bayesian modeling approach, which explicitly accounts for the possibility that the parametric model is wrong. Asymptotic analysis shows that this approach is both robust to model misspecification and data efficient, achieving fast convergence when the parametric model is close to true. However, the fully Bayesian approach is limited in its practical usefulness by the challenges of conducting inference and computing a Bayes factor for a nonparametric model. We therefore propose a novel model correction based on generalized Bayes, which entirely avoids the need to compute a nonparametric Bayes factor, but preserves the robustness and efficiency of the fully Bayesian approach. We demonstrate our method by estimating causal effects of gene expression from single cell RNA sequencing data. Overall, we offer a new efficient approach to robust Bayesian inference with parametric models.",
+ "primary": "stat.ME"
+}

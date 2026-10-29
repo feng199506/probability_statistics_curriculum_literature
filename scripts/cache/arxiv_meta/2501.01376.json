@@ -1,0 +1,17 @@
+{
+ "id": "2501.01376",
+ "title": "Deep P-Spline: Theory, Fast Tuning, and Application",
+ "authors": [
+  "Noah Yi-Ting Hung",
+  "Li-Hsiang Lin",
+  "Vince D. Calhoun"
+ ],
+ "v1_date": "2025-01-02",
+ "latest_version": 1,
+ "latest_date": "2025-01-02",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "35 pages with 3 figures",
+ "abstract": "Deep neural networks (DNNs) have been widely applied to solve real-world regression problems. However, selecting optimal network structures remains a significant challenge. This study addresses this issue by linking neuron selection in DNNs to knot placement in basis expansion techniques. We introduce a difference penalty that automates knot selection, thereby simplifying the complexities of neuron selection. We name this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent variable modeling framework using the Expectation-Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From a nonparametric regression perspective, DPS is proven to overcome the curse of dimensionality, enabling the effective handling of datasets with a large number of input variable, a scenario where conventional nonparametric regression methods typically underperform. This capability motivates the application of the proposed methodology to computer experiments and image data analyses, where the associated regression problems involving numerous inputs are common. Numerical results validate the effectiveness of the model, underscoring its potential for advanced nonlinear regression tasks.",
+ "primary": "stat.CO"
+}

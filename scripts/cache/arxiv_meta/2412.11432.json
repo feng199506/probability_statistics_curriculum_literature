@@ -1,0 +1,16 @@
+{
+ "id": "2412.11432",
+ "title": "A Deep Learning Approach for Trading Factor Residuals",
+ "authors": [
+  "Wo Long",
+  "Victor Xiao"
+ ],
+ "v1_date": "2024-12-16",
+ "latest_version": 2,
+ "latest_date": "2025-01-03",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "Investment universe selection error discovered in the replication process, should've used dynamic S&P 500 pool instead of a static S&P 500 list",
+ "abstract": "The residuals in factor models prevalent in asset pricing presents opportunities to exploit the mis-pricing from unexplained cross-sectional variation for arbitrage. We performed a replication of the methodology of Guijarro-Ordonez et al. (2019) (G-P-Z) on Deep Learning Statistical Arbitrage (DLSA), originally applied to U.S. equity data from 1998 to 2016, using a more recent out-of-sample period from 2016 to 2024. Adhering strictly to point-in-time (PIT) principles and ensuring no information leakage, we follow the same data pre-processing, factor modeling, and deep learning architectures (CNNs and Transformers) as outlined by G-P-Z. Our replication yields unusually strong performance metrics in certain tests, with out-of-sample Sharpe ratios occasionally exceeding 10. While such results are intriguing, they may indicate model overfitting, highly specific market conditions, or insufficient accounting for transaction costs and market impact. Further examination and robustness checks are needed to align these findings with the more modest improvements reported in the original study. (This work was conducted as the final project for IEOR 4576: Data-Driven Methods in Finance at Columbia University.)",
+ "primary": "q-fin.ST"
+}

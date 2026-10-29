@@ -1,0 +1,18 @@
+{
+ "id": "2602.11403",
+ "title": "Who's Winning? Clarifying Estimands Based on Win Statistics in Cluster Randomized Trials",
+ "authors": [
+  "Kenneth M. Lee",
+  "Xi Fang",
+  "Fan Li",
+  "Michael O. Harhay"
+ ],
+ "v1_date": "2026-02-11",
+ "latest_version": 1,
+ "latest_date": "2026-02-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "13 pages (main manuscript), 5 pages (supplementary appendix), 4 tables (main manuscript), 3 tables (supplementary appendix)",
+ "abstract": "Treatment effect estimands based on win statistics, including the win ratio, win odds, and win difference are increasingly popular targets for summarizing endpoints in clinical trials. Such win estimands offer an intuitive approach for prioritizing outcomes by clinical importance. The implementation and interpretation of win estimands is complicated in cluster randomized trials (CRTs), where researchers can target fundamentally different estimands on the individual-level or cluster-level. We numerically demonstrate that individual-pair and cluster-pair win estimands can substantially differ when cluster size is informative: where outcomes and/or treatment effects depend on cluster size. With such informative cluster sizes, individual-pair and cluster-pair win estimands can even yield opposite conclusions regarding treatment benefit. We describe consistent estimators for individual-pair and cluster-pair win estimands and propose a leave-one-cluster-out jackknife variance estimator for inference. Despite being consistent, our simulations highlight that some caution is needed when implementing individual-pair win estimators due to finite-sample bias. In contrast, cluster-pair win estimators are unbiased for their respective targets. Altogether, careful specification of the target estimand is essential when applying win estimators in CRTs. Failure to clearly define whether individual-pair or cluster-pair win estimands are of primary interest may result in answering a dramatically different question than intended.",
+ "primary": "stat.ME"
+}

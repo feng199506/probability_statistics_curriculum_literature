@@ -1,0 +1,16 @@
+{
+ "id": "2512.14131",
+ "title": "Most Powerful Test with Exact Family-Wise Error Rate Control: Necessary Conditions and a Path to Fast Computing",
+ "authors": [
+  "Prasanjit Dubey",
+  "Xiaoming Huo"
+ ],
+ "v1_date": "2025-12-16",
+ "latest_version": 1,
+ "latest_date": "2025-12-16",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Identifying the most powerful test in multiple hypothesis testing under strong family-wise error rate (FWER) control is a fundamental problem in statistical methodology. State-of-the-art approaches formulate this as a constrained optimisation problem, for which a dual problem with strong duality has been established in a general sense. However, a constructive method for solving the dual problem is lacking, leaving a significant computational gap. This paper fills this gap by deriving novel, necessary optimality conditions for the dual optimisation. We show that these conditions motivate an efficient coordinate-wise algorithm for computing the optimal dual solution, which, in turn, provides the most powerful test for the primal problem. We prove the linear convergence of our algorithm, i.e., the computational complexity of our proposed algorithm is proportional to the logarithm of the reciprocal of the target error. To the best of our knowledge, this is the first time such a fast and computationally efficient algorithm has been proposed for finding the most powerful test with family-wise error rate control. The method's superior power is demonstrated through simulation studies, and its practical utility is shown by identifying new, significant findings in both clinical and financial data applications.",
+ "primary": "stat.ME"
+}

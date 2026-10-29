@@ -1,0 +1,17 @@
+{
+ "id": "2508.03834",
+ "title": "Exact and Conservative Inference for the Average Treatment Effect in Stratified Experiments with Binary Outcomes",
+ "authors": [
+  "Jiaxun Li",
+  "Jacob Spertus",
+  "Philip B. Stark"
+ ],
+ "v1_date": "2025-08-05",
+ "latest_version": 1,
+ "latest_date": "2025-08-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We extend methods for finite-sample inference about the average treatment effect (ATE) in randomized experiments with binary outcomes to accommodate stratification (blocking). We present three valid methods that differ in their computational and statistical efficiency. The first method constructs conservative, Bonferroni-adjusted confidence intervals separately for the mean response in the treatment and control groups in each stratum, then takes appropriate weighted differences of their endpoints to find a confidence interval for the ATE. The second method inverts permutation tests for the overall ATE, maximizing the $P$-value over all ways a given ATE can be attained. The third method applies permutation tests for the ATE in separate strata, then combines those tests to form a confidence interval for the overall ATE. We compare the statistical and computational performance of the methods using simulations and a case study. The second approach is most efficient statistically in the simulations, but a naive implementation requires O(Π_{k=1}^{K} n_{k}^{4}) permutation tests, the highest computational burden among the three methods. That computational burden can be reduced to O(\\sum_{k=1}^K n_k \\timesΠ_{k=1}^{K} n_{k}^{2}) if all strata are balanced and to O(Π_{k=1}^{K} n_{k}^{3}) otherwise.",
+ "primary": "stat.ME"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "2606.27564",
+ "title": "Fast-Mixing Markov Chains without Gradients",
+ "authors": [
+  "Robert Kutri",
+  "Robert Scheichl"
+ ],
+ "v1_date": "2026-06-25",
+ "latest_version": 1,
+ "latest_date": "2026-06-25",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "preprint",
+ "abstract": "Most approaches for accelerating Markov chain mixing either rely on incorporating expensive geometric information in the proposals, or reduce the per-step cost of sampling via surrogate densities. We propose a localisation principle that allows a surrogate-based Metropolis-Hastings proposal to exploit gradient-level geometric information of the target density, without evaluating either the target gradient or the surrogate gradient. The construction relies on regularisation and tempering of the proposal measure. We show that the expected proposal displacement coincides with the Langevin drift up to controlled error. The resulting framework, Delayed Acceptance with Regularisation and Tempering (DART), achieves an $O(κ\\max\\{κ, d\\})$ mixing time from warm start for strongly log-concave targets with condition number $κ$ in $d$ dimensions. This matches the known $O(κd)$ rate for MALA when $d \\ge κ$, and scales as $O(κ^2)$, independent of dimension, otherwise. This is, to our knowledge, the first mixing time guarantee for a surrogate-transition-based MCMC method. We demonstrate DART on a hierarchical spatial generalised linear mixed model. In this setting, the Dirichlet-Neumann averaging parametrisation, originally introduced for the efficient simulation of Gaussian processes, is repurposed to supply the surrogate, and its linear memory and log-linear arithmetic scaling in the number of observation sites carry over to inference.",
+ "primary": "math.ST"
+}

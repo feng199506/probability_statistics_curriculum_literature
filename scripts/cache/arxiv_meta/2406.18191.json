@@ -1,0 +1,18 @@
+{
+ "id": "2406.18191",
+ "title": "Asymptotic Uncertainty in the Estimation of Frequency Domain Causal Effects for Linear Processes",
+ "authors": [
+  "Nicolas-Domenic Reiter",
+  "Jonas Wahl",
+  "Gabriele C. Hegerl",
+  "Jakob Runge"
+ ],
+ "v1_date": "2024-06-26",
+ "latest_version": 1,
+ "latest_date": "2024-06-26",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "32 pages. Comments welcome!",
+ "abstract": "Structural vector autoregressive (SVAR) processes are commonly used time series models to identify and quantify causal interactions between dynamically interacting processes from observational data. The causal relationships between these processes can be effectively represented by a finite directed process graph - a graph that connects two processes whenever there is a direct delayed or simultaneous effect between them. Recent research has introduced a framework for quantifying frequency domain causal effects along paths on the process graph. This framework allows to identify how the spectral density of one process is contributing to the spectral density of another. In the current work, we characterise the asymptotic distribution of causal effect and spectral contribution estimators in terms of algebraic relations dictated by the process graph. Based on the asymptotic distribution we construct approximate confidence intervals and Wald type hypothesis tests for the estimated effects and spectral contributions. Under the assumption of causal sufficiency, we consider the class of differentiable estimators for frequency domain causal quantities, and within this class we identify the asymptotically optimal estimator. We illustrate the frequency domain Wald tests and uncertainty approximation on synthetic data, and apply them to analyse the impact of the 10 to 11 year solar cycle on the North Atlantic Oscillation (NAO). Our results confirm a significant effect of the solar cycle on the NAO at the 10 to 11 year time scale.",
+ "primary": "stat.ME"
+}

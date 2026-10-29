@@ -1,0 +1,18 @@
+{
+ "id": "2403.13489",
+ "title": "Antithetic Multilevel Methods for Elliptic and Hypo-Elliptic Diffusions with Applications",
+ "authors": [
+  "Yuga Iguchi",
+  "Ajay Jasra",
+  "Mohamed Maama",
+  "Alexandros Beskos"
+ ],
+ "v1_date": "2024-03-20",
+ "latest_version": 2,
+ "latest_date": "2025-04-28",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We present a new antithetic multilevel Monte Carlo (MLMC) method for the estimation of expectations with respect to laws of diffusion processes that can be elliptic or hypo-elliptic. In particular, we consider the case where one has to resort to time discretization of the diffusion and numerical simulation of such schemes. Inspired by recent works, we introduce a new MLMC estimator of expectations, which does not require any Lévy area simulation and has a strong error of order 2 and a weak error of order 2. We then show how this approach can be used in the context of the filtering problem associated to partially observed diffusions with discrete time observations. We illustrate that in numerical simulations our new approaches provide efficiency gains for several problems, particularly when the diffusion process is hypo-elliptic, relative to some existing methods.",
+ "primary": "math.NA"
+}

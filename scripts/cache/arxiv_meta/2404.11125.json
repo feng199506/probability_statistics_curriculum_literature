@@ -1,0 +1,18 @@
+{
+ "id": "2404.11125",
+ "title": "Interval-censored linear quantile regression",
+ "authors": [
+  "Taehwa Choi",
+  "Seohyeon Park",
+  "Hunyong Cho",
+  "Sangbum Choi"
+ ],
+ "v1_date": "2024-04-17",
+ "latest_version": 1,
+ "latest_date": "2024-04-17",
+ "journal_ref": "",
+ "doi": "10.1080/10618600.2024.2365740",
+ "comment": "under revision",
+ "abstract": "Censored quantile regression has emerged as a prominent alternative to classical Cox's proportional hazards model or accelerated failure time model in both theoretical and applied statistics. While quantile regression has been extensively studied for right-censored survival data, methodologies for analyzing interval-censored data remain limited in the survival analysis literature. This paper introduces a novel local weighting approach for estimating linear censored quantile regression, specifically tailored to handle diverse forms of interval-censored survival data. The estimation equation and the corresponding convex objective function for the regression parameter can be constructed as a weighted average of quantile loss contributions at two interval endpoints. The weighting components are nonparametrically estimated using local kernel smoothing or ensemble machine learning techniques. To estimate the nonparametric distribution mass for interval-censored data, a modified EM algorithm for nonparametric maximum likelihood estimation is employed by introducing subject-specific latent Poisson variables. The proposed method's empirical performance is demonstrated through extensive simulation studies and real data analyses of two HIV/AIDS datasets.",
+ "primary": "stat.ME"
+}

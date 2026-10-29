@@ -1,0 +1,16 @@
+{
+ "id": "2508.20101",
+ "title": "A Heterogeneous Spatiotemporal GARCH Model: A Predictive Framework for Volatility in Financial Networks",
+ "authors": [
+  "Atika Aouri",
+  "Philipp Otto"
+ ],
+ "v1_date": "2025-08-11",
+ "latest_version": 1,
+ "latest_date": "2025-08-11",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We introduce a heterogeneous spatiotemporal GARCH model for geostatistical data or processes on networks, e.g., for modelling and predicting financial return volatility across firms in a latent spatial framework. The model combines classical GARCH(p, q) dynamics with spatially correlated innovations and spatially varying parameters, estimated using local likelihood methods. Spatial dependence is introduced through a geostatistical covariance structure on the innovation process, capturing contemporaneous cross-sectional correlation. This dependence propagates into the volatility dynamics via the recursive GARCH structure, allowing the model to reflect spatial spillovers and contagion effects in a parsimonious and interpretable way. In addition, this modelling framework allows for spatial volatility predictions at unobserved locations. In an empirical application, we demonstrate how the model can be applied to financial stock networks. Unlike other spatial GARCH models, our framework does not rely on a fixed adjacency matrix; instead, spatial proximity is defined in a proxy space constructed from balance sheet characteristics. Using daily log returns of 50 publicly listed firms over a one-year period, we evaluate the model's predictive performance in a cross-validation study.",
+ "primary": "q-fin.ST"
+}

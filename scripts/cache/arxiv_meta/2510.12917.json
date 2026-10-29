@@ -1,0 +1,16 @@
+{
+ "id": "2510.12917",
+ "title": "Escaping Neal's Funnel: a multi-stage sampling method for hierarchical models",
+ "authors": [
+  "Aiden Gundersen",
+  "Neil J. Cornish"
+ ],
+ "v1_date": "2025-10-14",
+ "latest_version": 1,
+ "latest_date": "2025-10-14",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "8 pages, 4 figures",
+ "abstract": "Neal's funnel refers to an exponential tapering in probability densities common to Bayesian hierarchical models. Usual sampling methods, such as Markov Chain Monte Carlo, struggle to efficiently sample the funnel. Reparameterizing the model or analytically marginalizing local parameters are common techniques to remedy sampling pathologies in distributions exhibiting Neal's funnel. In this paper, we show that the challenges of Neal's funnel can be avoided by performing the hierarchical analysis, well, hierarchically. That is, instead of sampling all parameters of the hierarchical model jointly, we break the sampling into multiple stages. The first stage samples a generalized (higher-dimensional) hierarchical model which is parameterized to lessen the sharpness of the funnel. The next stage samples from the estimated density of the first stage, but under a constraint which restricts the sampling to recover the marginal distributions on the hyper-parameters of the original (lower-dimensional) hierarchical model. A normalizing flow can be used to represent the distribution from the first stage, such that it can easily be sampled from for the second stage of the analysis. This technique is useful when effective reparameterizations are computationally expensive to calculate, or a generalized hierarchical model already exists from which it is easy to sample.",
+ "primary": "stat.ME"
+}

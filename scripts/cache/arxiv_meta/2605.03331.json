@@ -1,0 +1,16 @@
+{
+ "id": "2605.03331",
+ "title": "Bayesian Modelling of Nonstationary Extreme Values Using a Nonparametric Hawkes Process",
+ "authors": [
+  "Gordon J. Ross",
+  "Dean Markwick"
+ ],
+ "v1_date": "2026-05-05",
+ "latest_version": 1,
+ "latest_date": "2026-05-05",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Modelling and forecasting the occurrence of extreme events is especially difficult when the event process is nonstationary, with changes in both the rate at which extremes occur and the magnitude of the extremes when they occur. We approach this task by developing a Bayesian point process model for extreme events, which uses a self-exciting Hawkes process to model the rate at which extremes occur. The Hawkes process has a structure which allows events to occur in clusters, making it realistic for many types of data. We use a flexible Bayesian nonparametric approach based on the Dirichlet process to learn the temporal excitation pattern from the data. Further, we build on Extreme Value Theory by using a Generalised Pareto Distribution (GPD) to model the magnitudes of the extremes, with a hierarchical mark model allowing these magnitudes to vary across Hawkes-induced clusters. A hierarchical specification of the model results in partial pooling, allowing for more accurate GPD estimation even in clusters with only a small number of observations. We develop an MCMC algorithm to sample from the resulting hierarchical model. A simulation study confirms that the two flexible components improve prediction when the corresponding features are present in the data-generating mechanism, and across four real data sets the nonparametric Hawkes model with hierarchical GPD marks gives the best held-out predictive performance among the model variants considered.",
+ "primary": "stat.ME"
+}

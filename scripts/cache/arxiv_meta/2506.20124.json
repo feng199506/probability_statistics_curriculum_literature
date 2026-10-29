@@ -1,0 +1,16 @@
+{
+ "id": "2506.20124",
+ "title": "Modifications of the BIC for order selection in finite mixture models",
+ "authors": [
+  "Hien Duy Nguyen",
+  "TrungTin Nguyen"
+ ],
+ "v1_date": "2025-06-25",
+ "latest_version": 2,
+ "latest_date": "2026-02-01",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "Finite mixture models are ubiquitous in modern statistical modeling, and a recurring practical issue is choosing the model order. In \\citet[Sankhyā Series A, \\textbf62, pp. 49--66]{keribin2000consistent}, the Bayesian information criterion (BIC) was proved consistent in mixtures, but under strong regularity, including high moments and high-order derivatives of the component density. We introduce the $ν$-BIC and $ε$-BIC, which weight the BIC penalty by negligibly small logarithmic factors immaterial in practice. This minor modification yields consistency under substantially weaker conditions, without differentiability and with mild moment assumptions, and we also give a misspecification result: when the truth lies outside the candidate family, any vanishing-penalty IC eventually selects a Kullback--Leibler optimal order among candidates. Finally, we clarify two limitations of consistent IC-based selection in mixtures: there is no universally minimal BIC-scale penalty within our sufficient conditions, and order consistency can conflict with minimax optimality in Hellinger risk. We illustrate the theory for Gaussian mixtures, non-differentiable Laplace mixtures, heavy-tailed $t$-mixtures, and mixtures of regression models.",
+ "primary": "math.ST"
+}

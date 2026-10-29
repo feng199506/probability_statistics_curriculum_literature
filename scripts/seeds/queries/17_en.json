@@ -1,0 +1,21 @@
+[
+ {"q": "(abs:\"control chart\" OR abs:\"control charts\" OR abs:\"statistical process control\") AND (ti:review OR ti:survey OR ti:overview OR ti:tutorial OR ti:introduction)", "subtopic": "统计过程控制"},
+ {"q": "(abs:\"control chart\" OR abs:\"statistical process control\" OR abs:\"statistical process monitoring\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "统计过程控制"},
+ {"q": "(abs:\"profile monitoring\" OR abs:\"multivariate process monitoring\" OR abs:\"high-dimensional process monitoring\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.ML)", "subtopic": "统计过程控制（剖面/多元监控）"},
+ {"q": "(abs:\"quickest change detection\" OR abs:\"sequential change detection\" OR abs:\"online changepoint\") AND (cat:stat.ME OR cat:math.ST OR cat:stat.TH)", "subtopic": "序贯变点检测"},
+ {"q": "(abs:\"degradation data\" OR abs:\"degradation model\" OR abs:\"degradation modeling\" OR abs:\"accelerated life\" OR abs:\"accelerated degradation\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "可靠性与退化建模"},
+ {"q": "abs:reliability AND (abs:\"lifetime data\" OR abs:\"failure time\" OR abs:\"remaining useful life\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "可靠性与退化建模"},
+ {"q": "(ti:review OR ti:survey OR ti:tutorial OR ti:overview) AND (abs:\"reliability engineering\" OR abs:\"system reliability\" OR abs:\"reliability analysis\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.CO)", "subtopic": "可靠性与退化建模"},
+ {"q": "(abs:\"environmental statistics\" OR abs:\"environmental data\" OR abs:environmetrics) AND (ti:review OR ti:overview OR ti:tutorial OR ti:introduction OR ti:survey)", "subtopic": "环境统计"},
+ {"q": "(abs:\"spatial extremes\" OR abs:\"climate extremes\" OR abs:\"extreme precipitation\" OR abs:\"heatwave\") AND (cat:stat.AP OR cat:stat.ME)", "subtopic": "环境统计（气候极值）"},
+ {"q": "(abs:\"detection and attribution\" OR abs:\"climate model\" OR abs:\"climate projections\") AND (cat:stat.AP OR cat:stat.ME)", "subtopic": "环境统计（气候）"},
+ {"q": "(abs:\"air pollution\" OR abs:\"air quality\" OR abs:\"PM2.5\") AND (cat:stat.AP OR cat:stat.ME)", "subtopic": "环境统计（空气质量）"},
+ {"q": "(abs:\"flood frequency\" OR abs:\"frequency analysis\" OR abs:\"return level\" OR abs:\"return period\") AND (abs:hydrolog* OR abs:flood OR abs:rainfall OR abs:streamflow)", "subtopic": "水文频率分析"},
+ {"q": "(abs:\"probabilistic forecasting\" OR abs:\"probabilistic forecasts\") AND (abs:\"wind power\" OR abs:solar OR abs:\"electricity load\" OR abs:\"electricity price\" OR abs:energy) AND (cat:stat.AP OR cat:stat.ME OR cat:stat.ML)", "subtopic": "能源统计"},
+ {"q": "(abs:traffic OR abs:transportation OR abs:\"travel time\") AND (cat:stat.AP OR cat:stat.ME)", "subtopic": "交通统计"},
+ {"q": "(abs:\"field trials\" OR abs:\"plant breeding\" OR abs:\"agricultural experiments\" OR abs:\"crop yield\" OR abs:\"field experiments\") AND (cat:stat.AP OR cat:stat.ME OR cat:q-bio.QM)", "subtopic": "农业试验"},
+ {"q": "(abs:\"official statistics\" OR abs:\"national statistical\" OR abs:\"statistical agencies\" OR abs:census)", "subtopic": "官方统计"},
+ {"q": "(abs:\"small area estimation\" OR abs:\"record linkage\" OR abs:\"statistical disclosure control\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "官方统计"},
+ {"q": "(abs:nowcasting OR abs:\"administrative data\") AND (cat:stat.AP OR cat:stat.ME)", "subtopic": "官方统计"},
+ {"q": "(abs:\"computer experiments\" OR abs:\"response surface\" OR abs:\"robust parameter design\" OR abs:\"industrial experiments\") AND (cat:stat.ME OR cat:stat.AP)", "subtopic": "工业试验设计"}
+]

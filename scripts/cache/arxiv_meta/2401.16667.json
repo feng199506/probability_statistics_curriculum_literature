@@ -1,0 +1,17 @@
+{
+ "id": "2401.16667",
+ "title": "Sharp variance estimator and causal bootstrap in stratified randomized experiments",
+ "authors": [
+  "Haoyang Yu",
+  "Ke Zhu",
+  "Hanzhong Liu"
+ ],
+ "v1_date": "2024-01-30",
+ "latest_version": 3,
+ "latest_date": "2025-05-17",
+ "journal_ref": "",
+ "doi": "10.1002/sim.70139",
+ "comment": "Accepted by Statistics in Medicine",
+ "abstract": "Randomized experiments are the gold standard for estimating treatment effects, and randomization serves as a reasoned basis for inference. In widely used stratified randomized experiments, randomization-based finite-population asymptotic theory enables valid inference for the average treatment effect, relying on normal approximation and a Neyman-type conservative variance estimator. However, when the sample size is small or the outcomes are skewed, the Neyman-type variance estimator may become overly conservative, and the normal approximation can fail. To address these issues, we propose a sharp variance estimator and two causal bootstrap methods to more accurately approximate the sampling distribution of the weighted difference-in-means estimator in stratified randomized experiments. The first causal bootstrap procedure is based on rank-preserving imputation and we prove its second-order refinement over normal approximation. The second causal bootstrap procedure is based on constant-treatment-effect imputation and is further applicable in paired experiments. In contrast to traditional bootstrap methods, where randomness originates from hypothetical super-population sampling, our analysis for the proposed causal bootstrap is randomization-based, relying solely on the randomness of treatment assignment in randomized experiments. Numerical studies and two real data applications demonstrate advantages of our proposed methods in finite samples. The \\texttt{R} package \\texttt{CausalBootstrap} implementing our method is publicly available.",
+ "primary": "math.ST"
+}

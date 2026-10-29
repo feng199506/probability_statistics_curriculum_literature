@@ -1,0 +1,17 @@
+{
+ "id": "2510.00287",
+ "title": "Assumption-lean Inference for Network-linked Data",
+ "authors": [
+  "Wei Li",
+  "Nilanjan Chakraborty",
+  "Robert Lunde"
+ ],
+ "v1_date": "2025-09-30",
+ "latest_version": 1,
+ "latest_date": "2025-09-30",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "We consider statistical inference for network-linked regression problems, where covariates may include network summary statistics computed for each node. In settings involving network data, it is often natural to posit that latent variables govern connection probabilities in the graph. Since the presence of these latent features makes classical regression assumptions even less tenable, we propose an assumption-lean framework for linear regression with jointly exchangeable regression arrays. We establish an analog of the Aldous-Hoover representation for such arrays, which may be of independent interest. Moreover, we consider two different projection parameters as potential targets and establish conditions under which asymptotic normality and bootstrap consistency hold when commonly used network statistics, including local subgraph frequencies and spectral embeddings, are used as covariates. In the case of linear regression with local count statistics, we show that a bias-corrected estimator allows one to target a more natural inferential target under weaker sparsity conditions compared to the OLS estimator. Our inferential tools are illustrated using both simulated data and real data related to the academic climate of elementary schools.",
+ "primary": "stat.ME"
+}

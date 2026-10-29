@@ -1,0 +1,17 @@
+{
+ "id": "2411.15637",
+ "title": "GraphGrad: Efficient Estimation of Sparse Polynomial Representations for General State-Space Models",
+ "authors": [
+  "Benjamin Cox",
+  "Emilie Chouzenoux",
+  "Victor Elvira"
+ ],
+ "v1_date": "2024-11-23",
+ "latest_version": 3,
+ "latest_date": "2025-03-24",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "update to accepted version",
+ "abstract": "State-space models (SSMs) are a powerful statistical tool for modelling time-varying systems via a latent state. In these models, the latent state is never directly observed. Instead, a sequence of observations related to the state is available. The state-space model is defined by the state dynamics and the observation model, both of which are described by parametric distributions. Estimation of parameters of these distributions is a very challenging, but essential, task for performing inference and prediction. Furthermore, it is typical that not all states of the system interact. We can therefore encode the interaction of the states via a graph, usually not fully connected. However, most parameter estimation methods do not take advantage of this feature. In this work, we propose GraphGrad, a fully automatic approach for obtaining sparse estimates of the state interactions of a non-linear state-space model via a polynomial approximation. This novel methodology unveils the latent structure of the data-generating process, allowing us to infer both the structure and value of a rich and efficient parameterisation of a general state-space model. Our method utilises a differentiable particle filter to optimise a Monte Carlo likelihood estimator. It also promotes sparsity in the estimated system through the use of suitable proximity updates, known to be more efficient and stable than subgradient methods. As shown in our paper, a number of well-known dynamical systems can be accurately represented and recovered by our method, providing basis for application to real-world scenarios.",
+ "primary": "stat.CO"
+}

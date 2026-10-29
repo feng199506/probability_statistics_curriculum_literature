@@ -1,0 +1,17 @@
+{
+ "id": "2408.01626",
+ "title": "Weighted Brier Score -- an Overall Summary Measure for Risk Prediction Models with Clinical Utility Consideration",
+ "authors": [
+  "Kehao Zhu",
+  "Yingye Zheng",
+  "Kwun Chuen Gary Chan"
+ ],
+ "v1_date": "2024-08-03",
+ "latest_version": 2,
+ "latest_date": "2025-09-10",
+ "journal_ref": "",
+ "doi": "",
+ "comment": "",
+ "abstract": "As advancements in novel biomarker-based algorithms and models accelerate disease risk prediction and stratification in medicine, it is crucial to evaluate these models within the context of their intended clinical application. Prediction models output the absolute risk of disease; subsequently, patient counseling and shared decision-making are based on the estimated individual risk and cost-benefit assessment. The overall impact of the application is often referred to as clinical utility, which received significant attention in terms of model assessment lately. The classic Brier score is a popular measure of prediction accuracy; however, it is insufficient for effectively assessing clinical utility. To address this limitation, we propose a class of weighted Brier scores that aligns with the decision-theoretic framework of clinical utility. Additionally, we decompose the weighted Brier score into discrimination and calibration components, examining how weighting influences the overall score and its individual components. Through this decomposition, we link the weighted Brier score to the $H$ measure, which has been proposed as a coherent alternative to the area under the receiver operating characteristic curve. This theoretical link to the $H$ measure further supports our weighting method and underscores the essential elements of discrimination and calibration in risk prediction evaluation. The practical use of the weighted Brier score as an overall summary is demonstrated using data from the Prostate Cancer Active Surveillance Study (PASS).",
+ "primary": "stat.ME"
+}
